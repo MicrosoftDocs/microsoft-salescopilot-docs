@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 02/09/2023
+ms.date: 01/23/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -22,7 +22,6 @@ The following administrator settings are available:
 
 ## Prerequisites
 
-- Viva Sales app must be added to Teams. More information: [Add the Viva Sales app to Teams](#add-the-viva-sales-app-to-teams)
 - Administrators must have the latest version of the Viva Sales app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Viva Sales in Outlook.
     1. [Launch Viva Sales from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
@@ -37,17 +36,16 @@ The following administrator settings are available:
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role     |  System Administrator or System Customizer<br><br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
+|Security role     |  System Administrator or System Customizer<br>**Note**: If you're using a custom security role, [additional privileges are required to use Viva Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).  |
 
 ### Salesforce
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission <br><br> **Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.  |
+|Permission    |  User profile needs to have **Modify All Data** or **Manage Data Integrations** permission  |
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+> Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Access administrator settings
 
@@ -61,7 +59,6 @@ When you open administrator settings, following tabs are available:
 
 - **About**: Displays details of the Viva Sales app.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWWVKG]
 
 **To access administrator settings**
 
@@ -69,13 +66,9 @@ When you open administrator settings, following tabs are available:
 
 2.  In the navigation bar on the left, select **Viva Sales**.
 
-    If **Viva Sales** isn't visible, select **More added apps** (**…**), and then select **Viva Sales**.
+    If **Viva Sales** is not visible, select **More added apps** (**…**), and then select **Viva Sales**.
     
     ![Screenshot showing to select the Viva Sales app.](media/viva-sales-app-select.png "Screenshot showing to select the Viva Sales app.")
-
-    If you see the **Viva Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
-    
-    ![Screenshot showing button to open the Viva Sales app.](media/viva-sales-open-app.png "Screenshot showing button to open the Viva Sales app.")
     
     The **Viva Sales** app is opened with the **Home** tab selected.
     
@@ -87,22 +80,11 @@ When you open administrator settings, following tabs are available:
 
     ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
-## Add the Viva Sales app to Teams
 
-1.  Sign in to Microsoft Teams with your administrator credentials.
-
-2.  In the navigation bar on the left, select **Apps**.
-
-3. Search for **Viva Sales** and select it.
-
-4. Select **Add** in the **Viva Sales** window.
-
-    ![Screenshot showing button to add the Viva Sales app.](media/viva-sales-add-app.png "Screenshot showing button to add the Viva Sales app.")
-    
 
 ## FAQ
 
-### Can I access administrator settings if I don't have Microsoft Teams?
+### Can I access administrator settings if I do not have Microsoft Teams?
 
 No. Administrator settings are currently accessible only through the Viva Sales app for Teams. 
 
@@ -114,7 +96,7 @@ The settings are specific to the environment signed in to from Viva Sales in Out
 
 Your organization may have multiple environments for you and your sellers to work in. Environments help to reduce the risk of making unintended changes to a production environment, for example. You can test customizations in a development environment to make sure they don’t disrupt your business operations or your customers' experience before you deploy them to your production environment.
 
-You'll need to switch CRM environments from Viva Sales in Outlook and come back to Viva Sales app in Teams:
+You will need to switch CRM environments from Viva Sales in Outlook and come back to Viva Sales app in Teams:
 
 1. [Sign out of Viva Sales in Outlook](https://support.microsoft.com/topic/sign-out-of-viva-sales-7c62164a-ee27-48c7-93a0-c18bb1055cd6).
 2. In the **Welcome to Viva Sales!** pane, select **Sign in to get started**, and then select your CRM and environment to use.
@@ -131,15 +113,13 @@ Come back to the Viva Sales app in Teams and refresh the **Settings** tab.
 
 ### Why do I see the message "Settings are coming soon"?
 
-Personal settings for Viva Sales will also be accessible through the **Settings** tab, and will be launching soon. If you're a CRM administrator, you should already see administrator settings in the **Settings** tab, and you shouldn't see this message – check that you have the right permissions or security roles. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
+Personal settings for Viva Sales will also be accessible through the **Settings** tab, and will be launching soon. If you are a CRM administrator, you should already see administrator settings in the **Settings** tab, and you should not see this message – check that you have the right permissions or security roles. More information: [Who can access administrator settings?](#who-can-access-administrator-settings)
 
 ### Can I work with administrator settings from my mobile device?
 
-Mobile device is currently not supported. You must work with administrator settings from a desktop.
+Mobile device is currently not supported. Please work with administrator settings from a desktop.
 
 ### Are the Dark and High Contrast themes from Teams supported?
 
 The Dark and High Contrast themes from Teams are currently not supported. 
-
-
 
