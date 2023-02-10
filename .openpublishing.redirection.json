@@ -1,0 +1,9 @@
+{
+    "redirections": [
+      {
+        "source_path": "viva/sales/index.md",
+        "redirect_url": "introduction",
+        "redirect_document_id": false
+      }
+    ]
+}
