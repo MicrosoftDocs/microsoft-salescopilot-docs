@@ -10,6 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
 ms.subservice: viva-sales
+robots: noindex,nofollow
 ---
 
 # Intro to Microsoft Viva Sales
