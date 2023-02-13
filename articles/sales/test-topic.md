@@ -1,5 +1,5 @@
 ---
-title: Introduction to Microsoft Viva Sales
+title: Intro to Microsoft Viva Sales
 description: Get to know Viva Sales
 ms.date: 02/09/2023
 ms.topic: article
@@ -10,9 +10,10 @@ ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
 ms.subservice: viva-sales
+robots: noindex,nofollow
 ---
 
-# Introduction to Microsoft Viva Sales
+# Intro to Microsoft Viva Sales
 
 Microsoft Viva Sales is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Viva Sales empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
 
