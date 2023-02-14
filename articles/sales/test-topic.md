@@ -1,7 +1,7 @@
 ---
-title: Introduction to Microsoft Viva Sales
+title: Intro to Microsoft Viva Sales
 description: Get to know Viva Sales
-ms.date: 01/05/2023
+ms.date: 02/09/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -10,9 +10,10 @@ ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
 ms.subservice: viva-sales
+robots: noindex,nofollow
 ---
 
-# Introduction to Microsoft Viva Sales
+# Intro to Microsoft Viva Sales
 
 Microsoft Viva Sales is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Viva Sales empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
 
@@ -31,7 +32,8 @@ If you're using Dynamics 365 Sales as your CRM system:
 If you're using Salesforce as your CRM system, see [Permissions required for Salesforce administrators](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
 > [!NOTE]
-> If you've assigned a security role to a user, ask the user to sign out of Viva Sales and then sign in again for the security role changes to be reflected appropriately. 
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
 
 ## Region availability
 
