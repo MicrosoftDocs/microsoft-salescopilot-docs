@@ -57,4 +57,4 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 
 ### See also
 
-[Install Viva Sales](install-viva-sales.md)..
+[Install Viva Sales](install-viva-sales.md)
