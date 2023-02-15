@@ -22,7 +22,7 @@ As an administrator, you can allow Viva Sales to generate suggested replies usin
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Suggested email replies is currently available only in English.
-> -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to e-mail functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+> -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 **To enable suggested email replies in Outlook**
 
@@ -40,9 +40,9 @@ The Azure OpenAI Service is currently available in limited geographies. By using
 
 ## FAQ
 
-### Users don't see the **Copy to e-mail** button and instead only the **Copy text** button in the suggested e-mail feature.
+### Users don't see the **Copy to email** button and instead only the **Copy text** button in the suggested e-mail feature.
 
-Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to e-mail functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 ### See also
 
