@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an integrated app
 description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center.
-ms.date: 02/15/20223
+ms.date: 02/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
