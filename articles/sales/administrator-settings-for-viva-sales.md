@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Viva Sales
 description: Learn how to configure administrator settings for Viva Sales.
-ms.date: 02/09/2023
+ms.date: 02/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -19,6 +19,8 @@ Viva Sales can be customized to an organization's business needs. As a CRM admin
 The following administrator settings are available:
 
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Customize forms and fields](customize-forms-and-fields.md)
+
+- **Enable suggested email replies**: Allows you to enable Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. More information: [Enable suggested email replies in Outlook](suggested-replies.md#preview-enable-suggested-email-replies-in-outlook)
 
 ## Prerequisites
 
