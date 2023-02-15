@@ -20,7 +20,7 @@ The following administrator settings are available:
 
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Customize forms and fields](customize-forms-and-fields.md)
 
-- **Enable suggested email replies**: Allows you to enable Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. More information: [Enable suggested email replies in Outlook](suggested-replies.md#preview-enable-suggested-email-replies-in-outlook)
+- **Enable suggested email replies**: Allows you to enable Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. More information: [Enable suggested email replies in Outlook](suggested-replies.md)
 
 ## Prerequisites
 
