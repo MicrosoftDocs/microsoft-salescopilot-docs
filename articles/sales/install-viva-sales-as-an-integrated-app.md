@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an integrated app
 description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center.
-ms.date: 10/03/2022
+ms.date: 02/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -65,5 +65,19 @@ The **Microsoft Viva Sales** panel opens with the following tabs:
 - **Users**: Allows you to edit the users who can use the app.
 
 - **Usage**: Displays the number of active users of the app based on the selected platform and date range.
+
+## Update the Viva Sales add-in
+
+1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
+
+2.  On the **Integrated apps** page, select the Viva Sales app.
+
+    The **Microsoft Viva Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
+
+3. Select **Know more and update**.
+
+    :::image type="content" source="media/update-add-in.png" alt-text="Update the Viva Sales add-in.":::
+
+4. In the **Updates** panel, select **Accept and update**.
 
 

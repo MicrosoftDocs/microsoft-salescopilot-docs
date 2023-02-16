@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Viva Sales.
-ms.date: 01/23/2023
+ms.date: 02/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -100,6 +100,9 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
     The new fields are added after existing fields, but you can [reorder them](#reorder-fields).
 
+    > [!NOTE]
+    > If you've connected Viva Sales to Salesforce, add only the fields that all users of Viva Sales have access to. If a user doesn't have access to some of the added fields, they'll not be able to view the CRM record.
+
 5.  Select **Publish** to save your changes.
 
 ### Remove fields
@@ -188,5 +191,7 @@ A field can be non-editable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
+### Why are users getting an error with error code 4100 when viewing a CRM record?
 
+If you've connected Viva Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
 
