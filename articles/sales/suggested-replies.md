@@ -12,10 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Preview: Enable suggested email replies in Outlook
-
-> [!IMPORTANT]
-> This is a preview feature and the [preview terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/EAEAS) for online services apply. A preview feature is a feature that is not complete but is made available before it’s officially released so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality. Microsoft doesn't provide support for this preview feature. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Enable suggested email replies in Outlook
 
 As an administrator, you can allow Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. This makes it easy for your sellers to reply to emails quickly and confidently. By default, the capability to generate suggested replies is turned off.
 
@@ -28,7 +25,7 @@ As an administrator, you can allow Viva Sales to generate suggested replies usin
 
 1.  In Viva Sales admin settings, select **Email**.
 
-2.  Turn on **Suggested replies (preview)**.
+2.  Turn on **Suggested replies**.
 
     ![Screenshot showing how to get enable email insights.](media/admin-settings-email.png "Screenshot showing how to get enable email insights.")
 
