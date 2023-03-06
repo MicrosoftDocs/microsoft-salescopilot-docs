@@ -1,7 +1,7 @@
 ---
 title: Allow suggested email replies to be generated in Outlook
 description: Learn how to allow suggested email replies to be generated in Outlook.
-ms.date: 02/15/2023
+ms.date: 03/06/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,23 +12,21 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Preview: Enable suggested email replies in Outlook
-
-> [!IMPORTANT]
-> This is a preview feature and the [preview terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/EAEAS) for online services apply. A preview feature is a feature that is not complete but is made available before it’s officially released so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality. Microsoft doesn't provide support for this preview feature. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Enable suggested email replies in Outlook
 
 As an administrator, you can allow Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. This makes it easy for your sellers to reply to emails quickly and confidently. By default, the capability to generate suggested replies is turned off.
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Suggested email replies is currently available only in English.
+> - Suggested email replies is turned on by default in North America (NAM).
 > -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 **To enable suggested email replies in Outlook**
 
 1.  In Viva Sales admin settings, select **Email**.
 
-2.  Turn on **Suggested replies (preview)**.
+2.  Turn on **Suggested replies**.
 
     ![Screenshot showing how to get enable email insights.](media/admin-settings-email.png "Screenshot showing how to get enable email insights.")
 
