@@ -1,7 +1,7 @@
 ---
 title: Allow suggested email replies to be generated in Outlook
 description: Learn how to allow suggested email replies to be generated in Outlook.
-ms.date: 02/15/2023
+ms.date: 03/06/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -19,6 +19,7 @@ As an administrator, you can allow Viva Sales to generate suggested replies usin
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Suggested email replies is currently available only in English.
+> - Suggested email replies is turned on by default in North America (NAM).
 > -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 **To enable suggested email replies in Outlook**
