@@ -18,7 +18,7 @@ This guide provides you with step-by-step instructions on how to deploy Viva Sal
 
 ## Step 1: Installing and auto deploying the Viva Sales Outlook Add-in
 
-Viva Sales requires a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). See the FAQ section for tips on finding your tenant administrator.
+Viva Sales requires a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). See [FAQ](#how-do-i-find-my-tenant-admin) for tips on finding your tenant administrator.
 
 Follow the steps in the [Install Viva Sales as an integrated app.](install-viva-sales-as-an-integrated-app.md) topic to install and automatically deploy the Viva Sales Outlook add-in.
 
@@ -26,7 +26,7 @@ Follow the steps in the [Install Viva Sales as an integrated app.](install-viva-
 
 ## Step 2: Create a setup policy to auto install and pin the Viva Sales app in Teams
 
-Viva Sales required an administrator to create the policy from the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
+Viva Sales requires an administrator to create the policy from the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
 Follow the steps in the [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md) topic to install and pin the Viva Sales Teams app in your users' personal Teams environment and in meetings they create.
 
@@ -36,7 +36,7 @@ Follow the steps in the [Install and pin Viva Sales in Teams](install-pin-viva-s
 
 When Viva Sales is added to a Teams meeting, it generates a meeting summary automatically if the meeting is recorded with transcription on.
 
-Follow these steps to enable transcripts for MS Teams calls for Sales Conversational Intelligence.
+To enable transcripts for Teams calls for Sales conversational intelligence:
 
 1.  Sign in to the [Teams admin center](https://admin.teams.microsoft.com).
 
@@ -56,21 +56,23 @@ Follow these steps to enable transcripts for MS Teams calls for Sales Conversati
 
 If you are using the out-of-the-box Dynamics 365 Sales security roles listed below, no action is needed. Viva Sales privileges are added automatically for:
 
--   Primary Sales Roles: Salesperson or Sales Manager
+-   Primary sales roles: Salesperson or Sales Manager
 
--   Administration Roles: System Administrator or System Customizer
+-   Administration roles: System Administrator or System Customizer
 
-If you are using custom security roles, see [Additional privileges required for Dynamics 365 customers](https://learn.microsoft.com/en-us/viva/sales/install-viva-sales#additional-privileges-required-for-dynamics-365-customers) to assign users the right roles and privileges.
+If you are using custom security roles, see [Additional privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers) to assign users the right roles and privileges.
 
-## Step 5 (optional): Customizing Viva Sales
+## Step 5 (optional): Customize Viva Sales
 
-Viva Sales provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Viva Sales](https://learn.microsoft.com/en-us/viva/sales/administrator-settings-for-viva-sales) topic to learn more.
-
-Viva Sales comes pre-configured to get users up running to be productive out of the box. We understand the default CRM fields shown may not work for everyone. To customize the fields, follow the instructions in the [Customize forms and fields](https://learn.microsoft.com/en-us/viva/sales/customize-forms-and-fields) topic.
+Viva Sales provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md) topic to learn more.
 
 ![Screenshot showing Viva Sales admin center ](media/viva-sales-admin.png "Screenshot showing Viva Sales admin center.")
 
-![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin.png "Screenshot showing form settings in Viva Sales admin center.")You can allow Viva Sales to generate suggested email replies using context from Outlook, your CRM, and GPT-3 technology. See the [Allow suggested email replies to be generated in Outlook](https://learn.microsoft.com/en-us/viva/sales/suggested-replies) topic to learn how to enable.
+Viva Sales comes pre-configured to get users up running to be productive out of the box. We understand the default CRM fields shown may not work for everyone. To customize the fields, follow the instructions in the [Customize forms and fields](customize-forms-and-fields.md) topic.
+
+![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin.png "Screenshot showing form settings in Viva Sales admin center.")
+
+You can allow Viva Sales to generate suggested email replies using context from Outlook, your CRM, and leveraging GPT technology. See the [Allow suggested email replies to be generated in Outlook](suggested-replies.md) topic to learn how to enable.
 
 ![Screenshot showing email insights settings in Viva Sales admin center ](media/viva-sales-replies-admin.png "Screenshot showing email insights settings in Viva Sales admin center.")
 
