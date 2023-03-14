@@ -20,7 +20,7 @@ This guide provides you with step-by-step instructions on how to deploy Viva Sal
 
 Viva Sales requires a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). See [FAQ](#how-do-i-find-my-tenant-admin) for tips on finding your tenant administrator.
 
-Follow the steps in the [Install Viva Sales as an integrated app.](install-viva-sales-as-an-integrated-app.md) topic to install and automatically deploy the Viva Sales Outlook add-in.
+Follow the steps in the [Install Viva Sales as an integrated app](install-viva-sales-as-an-integrated-app.md) topic to install and automatically deploy the Viva Sales Outlook add-in.
 
 ![Screenshot showing Viva Sales installed as an integrated app.](media/install-viva-sales.png "Screenshot showing Viva Sales installed as an integrated app.")
 
