@@ -72,7 +72,7 @@ Viva Sales comes pre-configured to get users up running to be productive out of 
 
 ![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin.png "Screenshot showing form settings in Viva Sales admin center.")
 
-You can allow Viva Sales to generate suggested email replies using context from Outlook, your CRM, and leveraging GPT technology. See the [Allow suggested email replies to be generated in Outlook](suggested-replies.md) topic to learn how to enable.
+You can set up email insights in Viva Sales to generate suggested email content using context from Outlook, your CRM, and leveraging GPT technology. More information: [Set up email insights](suggested-replies.md).
 
 ![Screenshot showing email insights settings in Viva Sales admin center ](media/viva-sales-replies-admin.png "Screenshot showing email insights settings in Viva Sales admin center.")
 

@@ -1,7 +1,7 @@
 ---
-title: Allow suggested email replies to be generated in Outlook
-description: Learn how to allow suggested email replies to be generated in Outlook.
-ms.date: 03/06/2023
+title: Set up email insights
+description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,23 +12,42 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Enable suggested email replies in Outlook
+# Set up email insights
 
-As an administrator, you can allow Viva Sales to generate suggested replies using context from Outlook, your CRM, and GPT-3 technology. This makes it easy for your sellers to reply to emails quickly and confidently. By default, the capability to generate suggested replies is turned off.
+Viva Sales can help sellers write better emails and stay on top of their deals with AI-driven insights based on their communication with sales contacts and information from their CRM system.
+
+As an administrator, you can configure:
+
+- **Suggested email content**: Make it easy for sellers to compose and reply to emails quickly and confidently with the suggested content.
+
+- **Summarizing sales email**: Allow sellers to generate suggested email content that contains an automated recap of a recent recorded Teams meeting with sales contacts.
+
+
+## Configure suggested email content in Outlook
+
+As an administrator, you can allow Viva Sales to generate suggested email content using context from Outlook, your CRM, and GPT technology. This makes it easy for your sellers to compose or reply to emails quickly and confidently. By default, the capability to generate suggested content is turned on.
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Suggested email replies is currently available only in English.
-> - Suggested email replies is turned on by default in North America (NAM).
 > -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
-**To enable suggested email replies in Outlook**
+**To enable suggested email content in Outlook**
 
 1.  In Viva Sales admin settings, select **Email**.
 
-2.  Turn on **Suggested replies**.
+2.  Turn on **Suggested email content**.
 
-    ![Screenshot showing how to get enable email insights.](media/admin-settings-email.png "Screenshot showing how to get enable email insights.")
+## Preview: Configure sales email summarization
+
+You can control whether sellers can generate suggested email content that contains an automated recap of a recent recorded Teams meeting with sales contacts.
+
+1. In Viva Sales admin settings, select **Email**.
+
+2. Under **Suggested email content**, select **Include the option to summarize sales meetings (preview)**.
+
+    > [!NOTE]
+    > The option to summarize sales email is available only when **Suggested email content** is turned on.
 
 ## Data access and use
 

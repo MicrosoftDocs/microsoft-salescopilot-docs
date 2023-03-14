@@ -46,7 +46,7 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 2.  Select a record type for which you need to allow editing.
 
-    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
+    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin.png "Screenshot showing Viva Sales Settings tab.")
 
 3.  Turn on **Allow editing** to allow sellers to edit all relevant fields in that record type.
 
