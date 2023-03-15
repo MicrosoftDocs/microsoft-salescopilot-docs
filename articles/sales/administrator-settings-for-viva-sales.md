@@ -20,7 +20,7 @@ The following administrator settings are available:
 
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Viva Sales across Outlook and Teams. You can also control which records and fields sellers can edit directly in Viva Sales. More information: [Customize forms and fields](customize-forms-and-fields.md)
 
-- **Set up email insights**: Help sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up email insights](suggested-replies.md).
+- **Set up email insights**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up email insights](suggested-replies.md).
 
 ## Prerequisites
 

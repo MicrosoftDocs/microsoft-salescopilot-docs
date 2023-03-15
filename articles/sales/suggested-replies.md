@@ -18,9 +18,9 @@ Viva Sales can help sellers write better emails and stay on top of their deals w
 
 As an administrator, you can configure:
 
-- **Suggested email content**: Make it easy for sellers to compose and reply to emails quickly and confidently with the suggested content.
+- **Suggested email content**: Makes it easy for sellers to compose and reply to emails quickly and confidently with the suggested content.
 
-- **Summarizing sales email**: Allow sellers to generate suggested email content that contains an automated recap of a recent recorded Teams meeting with sales contacts.
+- **Summarizing sales email**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
 
 
 ## Configure suggested email content in Outlook
