@@ -1,7 +1,7 @@
 ---
-title: Viva Sales deployment guide for Dynamics 365 customers
-description: Learn how to deploy Viva Sales for Dynamics 365 customers.
-ms.date: 03/15/2023
+title: Viva Sales deployment guide for Salesforce CRM customers
+description: Learn how to deploy Viva Sales for Salesforce CRM customers.
+ms.date: 03/16/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,9 +12,9 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Viva Sales deployment guide for Dynamics 365 customers
+# Viva Sales deployment guide for Salesforce CRM customers
 
-This guide provides you with step-by-step instructions on how to deploy Viva Sales for existing Dynamics 365 Sales customers.
+This guide provides you with step-by-step instructions on how to deploy Viva Sales for Salesforce CRM customers.
 
 ## Step 1: Installing and auto deploying the Viva Sales Outlook Add-in
 
@@ -54,13 +54,12 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
 ## Step 4: Verify users have the right security roles
 
-If you're using the following out-of-the-box Dynamics 365 Sales security roles, no action is needed. Viva Sales privileges are added automatically for:
+Viva Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
 
--   Primary sales roles: Salesperson or Sales Manager
+Salesforce administrators who need to customize Viva Sales must have the following permissions. More information: [Privileges required to use Viva Sales](install-viva-sales.md#privileges-required-to-use-viva-sales)
 
--   Administration roles: System Administrator or System Customizer
-
-If you're using custom security roles, see [Additional privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers) to assign users the right roles and privileges.
+|Requirement type|You must have|
+|Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
 
 ## Step 5 (optional): Customize Viva Sales
 
@@ -100,9 +99,9 @@ We encourage all Viva Sales users to visit and register on the [Viva Sales commu
 
 ## FAQ
 
-### Is Viva Sales included for Dynamics 365 Sales customers?
+### Is Viva Sales available for Salesforce CRM customers?
 
-Viva Sales is a generally available app included as part of the Dynamics 365 Sales Enterprise and Premium products, [watch this short video to learn more.](https://www.youtube.com/watch?v=hfDPogeGTHk)
+Viva Sales is a generally available app for Salesforce CRM customers, [watch this short video to learn more](https://www.youtube.com/watch?v=hfDPogeGTHk).
 
 A Microsoft 365 for enterprise or Office 365 for enterprise product license is required to use the Viva Sales app in Outlook and Microsoft Teams.
 
