@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Set up email insights
 
-Viva Sales can help sellers write better emails and stay on top of their deals with AI-driven insights based on their communication with sales contacts and information from their CRM system.
+Viva Sales can help sellers write better emails and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system.
 
 As an administrator, you can configure:
 
@@ -53,13 +53,13 @@ You can control whether sellers can generate suggested email content that contai
 
 As part of providing AI suggestions (via Azure OpenAI), Microsoft will process and store Customer Data submitted to the service, as well as Output Content, for purposes of (1) monitoring for and preventing abusive or harmful uses or outputs of the service; and (2) developing, testing, and improving capabilities designed to prevent abusive use of and/or harmful outputs from the service. Authorized Microsoft employees may review data that has triggered our automated systems to investigate and verify potential abuse. Microsoft engineers and data scientists may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. For more information, see the [Azure OpenAI product documentation](/legal/cognitive-services/openai/data-privacy).
 
-The Azure OpenAI Service is currently available in limited geographies. By using it through Viva Sales, you are affirming that you understand that Azure OpenAI services may be performed in a data center other than the data center that maintains your data. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+The Azure OpenAI Service is currently available in limited geographies. By using it through Viva Sales, you're affirming that you understand that Azure OpenAI services may be performed in a data center other than the data center that maintains your data. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## FAQ
 
 ### Users don't see the **Copy to email** button and instead only the **Copy text** button in the suggested e-mail feature.
 
-Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 ### See also
 
