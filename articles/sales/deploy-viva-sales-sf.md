@@ -59,6 +59,7 @@ Viva Sales applies your organization's existing CRM access controls and user per
 Salesforce administrators who need to customize Viva Sales must have the following permissions. More information: [Privileges required to use Viva Sales](install-viva-sales.md#privileges-required-to-use-viva-sales)
 
 |Requirement type|You must have|
+|---------------|-------------|
 |Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
 
 ## Step 5 (optional): Customize Viva Sales
