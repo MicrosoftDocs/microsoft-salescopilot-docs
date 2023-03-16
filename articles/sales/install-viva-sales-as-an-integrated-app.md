@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an integrated app
 description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center.
-ms.date: 02/15/2023
+ms.date: 03/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -47,6 +47,21 @@ Allow up to six hours for Viva Sales to appear in users' Outlook ribbon.
 
 Sellers will receive a pop-up notification that their administrator has installed a new app.
 
+## Other ways to install Viva Sales
+
+### Individual add-in
+
+You can install Viva Sales for Microsoft Outlook as an individual add-in from Microsoft 365 admin center. Microsoft Teams isn't available for installation as an individual app from Microsoft 365 admin center. You must install Viva Sales as an [integrated app](install-viva-sales-as-an-integrated-app.md) and then [complete the setup in the Teams admin center](install-pin-viva-sales-teams.md).
+
+More information: [Deploy an Office Add-in using the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#deploy-an-office-add-in-using-the-admin-center)
+
+### AppSource
+
+You can install the Viva Sales app for Microsoft Outlook from [Microsoft AppSource](https://appsource.microsoft.com/en-US/home). The app is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Viva Sales in Teams, go to [Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)
+
+If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users. We recommend you to install the Viva Sales app for your users from Microsoft 365 admin center.
+
+More information: [What is Microsoft AppSource?](/marketplace/appsource-overview)
 
 ## Manage the Viva Sales app
 
