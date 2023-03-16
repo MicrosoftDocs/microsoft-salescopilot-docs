@@ -46,7 +46,7 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 2.  Select a record type for which you need to allow editing.
 
-    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin-settings.png "Screenshot showing Viva Sales Settings tab.")
+    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin.png "Screenshot showing Viva Sales Settings tab.")
 
 3.  Turn on **Allow editing** to allow sellers to edit all relevant fields in that record type.
 
@@ -155,11 +155,11 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 ### Are changes in the CRM reflected automatically in Viva Sales?
 
-Changes made in the CRM are not reflected automatically in Viva Sales. You must select **Refresh** on the **Customize forms and fields** page to get the latest updates from the CRM.
+Changes made in the CRM aren't reflected automatically in Viva Sales. You must select **Refresh** on the **Customize forms and fields** page to get the latest updates from the CRM.
 
 ![Screenshot showing how to get latest changes from CRM.](media/viva-sales-crm-refresh.png "Screenshot showing how to get latest changes from CRM.")
 
-### Why is delete disabled for some fields in the contact record?
+### Why is the delete option disabled for some fields in the contact record?
 
 If you enable new contact creation from within Viva Sales, you can't remove a field from the contact form if it's marked as required in CRM.
 
@@ -185,9 +185,9 @@ The following fields can't be added from the Viva Sales **Admin settings** page:
 
 You can add a maximum of 40 fields to a record.
 
-### Why are some fields non-editable, although the record is set as editable?
+### Why are some fields noneditable, although the record is set as editable?
 
-A field can be non-editable in the following cases:
+A field can be noneditable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
