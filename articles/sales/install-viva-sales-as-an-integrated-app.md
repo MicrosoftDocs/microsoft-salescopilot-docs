@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales as an integrated app
 description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center.
-ms.date: 03/15/2023
+ms.date: 03/16/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -78,5 +78,11 @@ The **Microsoft Viva Sales** panel opens with the following tabs:
     :::image type="content" source="media/update-add-in.png" alt-text="Update the Viva Sales add-in.":::
 
 4. In the **Updates** panel, select **Accept and update**.
+
+## User-deployed app installation
+
+End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they are not explicitly blocked by the administrator.  
+
+If the Outlook add-in is installed by end users, it is considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps do not support Viva Sales banner notifications that appear within the top of new or reply emails and also will not automatically add Viva Sales to meeting invites. However, sellers can manually add Viva Sales to the meeting to get meeting summaries.
 
 
