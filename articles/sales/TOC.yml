@@ -7,6 +7,8 @@
     items:
     - name: Deployment guide for Dynamics 365 users
       href: deploy-viva-sales-d365.md
+    - name: Deployment guide for Salesforce users
+      href: deploy-viva-sales-sf.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Viva Sales 
@@ -15,10 +17,6 @@
     href: install-viva-sales.md
   - name: Install Viva Sales as an integrated app
     href: install-viva-sales-as-an-integrated-app.md
-  - name: Install Viva Sales as individual add-in from Microsoft 365 admin center
-    href: install-viva-sales-individual-add-in-admin-center.md
-  - name: Install Viva Sales from AppSource
-    href: install-viva-sales-individual-add-in-appsource.md
   - name: Install and pin Viva Sales in Teams
     href: install-pin-viva-sales-teams.md
 
@@ -29,7 +27,7 @@
     href: administrator-settings-for-viva-sales.md
   - name: Customize forms and fields
     href: customize-forms-and-fields.md
-  - name: Enable suggested email replies in Outlook
+  - name: Set up email insights
     href: suggested-replies.md
 
 - name: Management
