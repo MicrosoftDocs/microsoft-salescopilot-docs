@@ -38,6 +38,8 @@ As an administrator, you can allow Viva Sales to generate suggested email conten
 
 2.  Turn on **Suggested email content**.
 
+    :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Set up insights admin settings.":::
+
 ## Preview: Configure sales email summarization
 
 You can control whether sellers can generate suggested email content that contains an automated recap of a recent recorded Teams meeting with sales contacts.
@@ -48,6 +50,8 @@ You can control whether sellers can generate suggested email content that contai
 
     > [!NOTE]
     > The option to summarize sales email is available only when **Suggested email content** is turned on.
+
+    :::image type="content" source="media/viva-sales-summary-admin.png" alt-text="Set up insights admin settings.":::
 
 ## Data access and use
 
