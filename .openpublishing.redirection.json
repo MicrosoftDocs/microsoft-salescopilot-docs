@@ -4,6 +4,16 @@
         "source_path": "viva/sales/index.md",
         "redirect_url": "introduction",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sales/install-viva-sales-individual-add-in-admin-center.md",
+        "redirect_url": "install-viva-sales-as-an-integrated-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sales/install-viva-sales-individual-add-in-appsource.md",
+        "redirect_url": "install-viva-sales-as-an-integrated-app",
+        "redirect_document_id": false
       }
     ]
 }
