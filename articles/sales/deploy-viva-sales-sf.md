@@ -66,15 +66,15 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 
 Viva Sales provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md) article to learn more.
 
-![Screenshot showing Viva Sales admin center ](media/viva-sales-admin.png "Screenshot showing Viva Sales admin center.")
+![Screenshot showing Viva Sales admin center ](media/viva-sales-admin-sf.png "Screenshot showing Viva Sales admin center.")
 
 Viva Sales comes preconfigured to allow users to be productive out-of-the-box. We understand the default CRM fields shown may not work for everyone. To customize the fields, follow the instructions in the [Customize forms and fields](customize-forms-and-fields.md) article.
 
-![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin.png "Screenshot showing form settings in Viva Sales admin center.")
+![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin-sf.png "Screenshot showing form settings in Viva Sales admin center.")
 
 You can set up email insights in Viva Sales to generate suggested email content using context from Outlook, your CRM, and using GPT technology. More information: [Set up email insights](suggested-replies.md).
 
-![Screenshot showing email insights settings in Viva Sales admin center ](media/viva-sales-replies-admin.png "Screenshot showing email insights settings in Viva Sales admin center.")
+![Screenshot showing email insights settings in Viva Sales admin center ](media/viva-sales-replies-admin-sf.png "Screenshot showing email insights settings in Viva Sales admin center.")
 
 You have now installed and configured Viva Sales in Outlook and Teams.
 
