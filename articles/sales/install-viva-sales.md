@@ -67,7 +67,7 @@ If you're using custom security roles, you must assign the following security ro
 
 ## Deploy Viva Sales
 
-Looking for step-by-step instructions on how to deploy Viva Sales? Here are the Viva Sales deplyment guides:
+Looking for step-by-step instructions on how to deploy Viva Sales? Here are the Viva Sales deployment guides:
 
 - [Viva Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
 - [Viva Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
