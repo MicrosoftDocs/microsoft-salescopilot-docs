@@ -42,7 +42,10 @@
     "globalMetadata": {
       "breadcrumb_path": "/viva/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "search.app": [
+        "microsoftviva-docs"
+      ]
     },
     "fileMetadata": {},
     "template": [],
