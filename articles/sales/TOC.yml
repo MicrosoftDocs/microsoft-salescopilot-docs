@@ -36,3 +36,10 @@
     href: disable-viva-sales.md
   - name: Block the Viva Sales app in Teams
     href: block-viva-sales-app-teams.md
+
+- name: Use Viva Sales
+  items:
+  - name: Use Viva Sales in Outlook
+    href: https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081
+  - name: Use Viva Sales in Teams
+    href: https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea
