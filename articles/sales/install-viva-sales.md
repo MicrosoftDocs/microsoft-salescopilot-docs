@@ -66,7 +66,7 @@ If you're using custom security roles, you must assign the following security ro
 |Privilege     | **Read** privilege on **User** table     |
 
 > [!NOTE]
-> The Viva Sales User security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+> The **Viva Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 >
 > For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 >
