@@ -35,7 +35,7 @@ We're excited to announce our newest updates! This article summarizes general av
 
 |Configuration location|Feature|Description|Resources|
 |----------------------|-------|-----------|---------|
-|Email tab in Viva Sales admin settings|AI-generated email replies and teams meeting summaries|Enables general copilot capabilities across in the Microsoft Viva Sales for Outlook add-in.|link|
+|Email tab in Viva Sales admin settings|AI-generated email replies and teams meeting summaries|Enables general copilot capabilities across in the Microsoft Viva Sales for Outlook add-in.|[Documentation](/viva/sales/suggested-replies)|
 
 ## Outlook add-in and Teams app update
 
