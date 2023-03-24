@@ -28,14 +28,14 @@ We're excited to announce our newest updates! This article summarizes general av
 |------------|-------|-----------|---------|----------|------------|
 |Copilot|AI-generated email replies with proposed meeting times|Sellers can embed proposed meeting times into AI-generated e-mail replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin|General availability|
 |Copilot|Fine tune AI-generated email replies |Sellers can provide additional prompts and select specific opportunities to fine tune the generated e-mail reply.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-refine-ai-reply)|Enabled by admin|General availability|
-|Copilot|View data sources used in AI-generated email replies|Sellers can view the detailed CRM records that are used in the AI-generated e-mail replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-crm-data-ai-reply)|Enabled by admin|General availability|
+|Copilot|View data sources used in AI-generated email replies|Sellers can view the CRM records that are used in the AI-generated e-mail replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-crm-data-ai-reply)|Enabled by admin|General availability|
 |Copilot|AI-powered meeting summaries|Sellers can leverage AI to generate meeting summaries of Microsoft Teams meetings that have the Microsoft Viva Sales app for Teams enabled.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-meeting-summary-ai-reply)<br>[Demo](https://www.microsoft.com/videoplayer/embed/RWZln4)|Enabled by admin|Public preview|
 
 ## Administration update 
 
 |Configuration location|Feature|Description|Resources|
 |----------------------|-------|-----------|---------|
-|Email tab in Viva Sales admin settings|AI-generated email replies and teams meeting summaries|Enables general copilot capabilities across in the Microsoft Viva Sales for Outlook add-in.|[Documentation](/viva/sales/suggested-replies)|
+|Email tab in Viva Sales admin settings|AI-generated email replies and teams meeting summaries|Enables general copilot capabilities in the Viva Sales add-in for Outlook.|[Documentation](/viva/sales/suggested-replies)|
 
 ## Outlook add-in and Teams app update
 
