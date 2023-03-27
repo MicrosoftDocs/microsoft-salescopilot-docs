@@ -1,5 +1,10 @@
-﻿- name: Microsoft Viva Sales
+- name: Microsoft Viva Sales
   href: introduction.md
+
+- name: What's new in Viva Sales
+  items:
+  - name: March 2023
+    href: mar-23.md
 
 - name: Get started
   items:
