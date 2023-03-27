@@ -29,7 +29,7 @@ We're excited to announce our newest updates! This article summarizes general av
 |Copilot|AI-generated email replies with proposed meeting times|Sellers can embed proposed meeting times into AI-generated e-mail replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin|General availability|
 |Copilot|Fine tune AI-generated email replies |Sellers can provide additional prompts and select specific opportunities to fine tune the generated e-mail reply.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-refine-ai-reply)|Enabled by admin|General availability|
 |Copilot|View data sources used in AI-generated email replies|Sellers can view the CRM records that are used in the AI-generated e-mail replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-crm-data-ai-reply)|Enabled by admin|General availability|
-|Copilot|AI-powered meeting summaries|Sellers can leverage AI to generate meeting summaries of Microsoft Teams meetings that have the Microsoft Viva Sales app for Teams enabled.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-meeting-summary-ai-reply)<br>[Demo](https://www.microsoft.com/videoplayer/embed/RWZln4)|Enabled by admin|Public preview|
+|Copilot|AI-powered meeting summaries|Sellers can use AI to generate meeting summaries of Microsoft Teams meetings that have the Microsoft Viva Sales app for Teams enabled.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-meeting-summary-ai-reply)<br>[Demo](https://www.microsoft.com/videoplayer/embed/RWZln4)|Enabled by admin|Public preview|
 
 ## Administration update 
 
@@ -48,7 +48,7 @@ We're excited to announce our newest updates! This article summarizes general av
 
 |Application|Title|Symptom|
 |-----------|-----|-------|
-|Viva Sales for Microsoft Outlook|"Something went wrong" error when launching Viva Sales in Outlook|Users see an error indicating “Something went wrong” when signing out of the Viva Sales Outlook Side-Panel, closing the Side-Panel, and logging back in. Users will be unable to use the Viva Sales Outlook Side-Panel unless the browser cache is reset.|
+|Viva Sales for Microsoft Outlook|"Something went wrong" error when launching Viva Sales in Outlook|Users see an error indicating “Something went wrong” when signing out of the Viva Sales Outlook Side-Panel, closing the Side-Panel, and logging back in. Users are unable to use the Viva Sales Outlook Side-Panel unless the browser cache is reset.|
 
 ## Additional resources
 
