@@ -1,7 +1,7 @@
 ---
 title: Set up email insights
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 03/15/2023
+ms.date: 04/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -20,7 +20,7 @@ As an administrator, you can configure:
 
 - **Suggested email content**: Makes it easy for sellers to compose and reply to emails quickly and confidently with the suggested content.
 
-- **Summarizing sales email**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
+- **Summarizing sales meeting**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
 
 
 ## Configure suggested email content in Outlook
@@ -40,7 +40,7 @@ As an administrator, you can allow Viva Sales to generate suggested email conten
 
     :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to generate suggested email content.":::
 
-## Preview: Configure sales email summarization
+## Preview: Configure sales meeting summarization
 
 > [!IMPORTANT]
 > This feature is currently available only for public preview customers and is subject to change.
@@ -52,7 +52,7 @@ You can control whether sellers can generate suggested email content that contai
 2. Under **Suggested email content**, select **Include the option to summarize sales meetings (preview)**.
 
     > [!NOTE]
-    > The option to summarize sales email is available only when **Suggested email content** is turned on.
+    > The option to summarize sales meeting is available only when **Suggested email content** is turned on.
 
     :::image type="content" source="media/viva-sales-summary-admin.png" alt-text="Setting to allow sellers to summarize sales meetings.":::
 

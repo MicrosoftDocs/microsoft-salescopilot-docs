@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 03/23/2023
+ms.date: 04/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -65,14 +65,17 @@ If you're using custom security roles, you must assign the following security ro
 |Security role     | Viva Sales User |
 |Privilege     | **Read** privilege on **User** table     |
 
+
+The **Viva Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+
+For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+
+To edit custom security roles to match with out-of-the-box Salesperson or Sales Manager role, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role).
+
+For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+
 > [!NOTE]
-> The **Viva Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
->
-> For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
->
-> To edit custom security roles to match with out-of-the-box Salesperson or Sales Manager role, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role).
->
-> For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+> If you create a team and add the team to the **Viva Sales User** security role, this doesn't automatically propagate the privileges to the users within that team. You must add the users individually to the security role.
 
 ## Deploy Viva Sales
 

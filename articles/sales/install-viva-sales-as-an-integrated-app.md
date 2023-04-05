@@ -1,7 +1,7 @@
 ---
-title: Install Viva Sales as an integrated app
-description: Learn how to install Viva Sales as an integrated app from Microsoft 365 admin center.
-ms.date: 03/16/2023
+title: Install Viva Sales add-in for Outlook
+description: Learn how to install Viva Sales add-in for Outlook from Microsoft 365 admin center.
+ms.date: 04/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,9 +12,13 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Install Viva Sales as an integrated app
+# Install Viva Sales add-in for Outlook
 
-The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can’t remove it.
+The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
+
+**To install Viva Sales add-in for Outlook**
 
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
