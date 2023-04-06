@@ -85,8 +85,8 @@ The **Microsoft Viva Sales** panel opens with the following tabs:
 
 ## User-deployed app installation
 
-End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they are not explicitly blocked by the administrator.  
+End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by the administrator.  
 
-If the Outlook add-in is installed by end users, it is considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps do not support Viva Sales banner notifications that appear within the top of new or reply emails and also will not automatically add Viva Sales to meeting invites. However, sellers can manually add Viva Sales to the meeting to get meeting summaries.
+If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Viva Sales banner notifications that appear within the top of new or reply emails. Also, the Viva Sales is not added automatically to meeting invites. However, sellers can manually add Viva Sales to the meeting to get meeting summaries.
 
 
