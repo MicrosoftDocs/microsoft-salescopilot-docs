@@ -74,9 +74,6 @@ To edit custom security roles to match with out-of-the-box Salesperson or Sales 
 
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-> [!NOTE]
-> If you create a team and add the team to the **Viva Sales User** security role, this doesn't automatically propagate the privileges to the users within that team. You must add the users individually to the security role.
-
 ## Deploy Viva Sales
 
 Looking for step-by-step instructions on how to deploy Viva Sales? Here are the Viva Sales deployment guides:
