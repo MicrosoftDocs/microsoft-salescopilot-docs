@@ -1,7 +1,7 @@
 ---
 title: Viva Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Viva Sales for Salesforce CRM customers.
-ms.date: 03/16/2023
+ms.date: 04/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -15,6 +15,8 @@ ms.subservice: viva-sales
 # Viva Sales deployment guide for Salesforce CRM customers
 
 This guide provides you with step-by-step instructions on how to deploy Viva Sales for Salesforce CRM customers.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
 ## Step 1: Installing and auto deploying the Viva Sales Outlook Add-in
 

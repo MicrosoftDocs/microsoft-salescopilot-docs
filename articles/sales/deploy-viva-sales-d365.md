@@ -1,7 +1,7 @@
 ---
 title: Viva Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Viva Sales for Dynamics 365 customers.
-ms.date: 03/15/2023
+ms.date: 04/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -15,6 +15,8 @@ ms.subservice: viva-sales
 # Viva Sales deployment guide for Dynamics 365 customers
 
 This guide provides you with step-by-step instructions on how to deploy Viva Sales for existing Dynamics 365 Sales customers.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
 ## Step 1: Installing and auto deploying the Viva Sales Outlook Add-in
 
