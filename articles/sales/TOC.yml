@@ -6,6 +6,9 @@
   - name: March 2023
     href: mar-23.md
 
+- name: Architecture overview
+  href: architecture.md
+
 - name: Get started
   items:
   - name: Deployment
