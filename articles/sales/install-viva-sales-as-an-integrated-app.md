@@ -16,10 +16,6 @@ ms.subservice: viva-sales
 
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
-
-**To install Viva Sales add-in for Outlook**
-
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 2.  In the left pane, select **Settings** &gt; **Integrated apps**.
