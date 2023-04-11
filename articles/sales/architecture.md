@@ -1,7 +1,7 @@
 ---
 title: Viva Sales architecture
 description: Information about Microsoft Viva Sales architecture
-ms.date: 04/05/2023
+ms.date: 04/10/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -22,6 +22,7 @@ The purpose of this article is to help admins, IT professionals, and developers 
 
 ## Document links
 
-[Download Viva Sales architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)
-
-[Download Viva Sales architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)
+|Document|Last update|Last updated release|
+|--------|----------|--------------|
+|[Download Viva Sales architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|April 03, 2023|March 2023|
+|[Download Viva Sales architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|April 03, 2023|March 2023|
