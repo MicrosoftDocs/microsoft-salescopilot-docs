@@ -1,7 +1,7 @@
 ---
 title: Install Viva Sales
 description: Learn what are the various ways to install Viva Sales
-ms.date: 04/05/2023
+ms.date: 04/11/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -20,11 +20,13 @@ You can install Viva Sales as an integrated app on multiple platforms or as an i
 
 The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
+
 > [!NOTE]
 > - If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce.
 > - It can take up to 24 hours for the add-in to show up for your users.
 
 <br>
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
 ## Privileges required to use Viva Sales
