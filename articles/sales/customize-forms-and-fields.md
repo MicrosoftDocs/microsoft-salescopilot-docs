@@ -136,7 +136,8 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 ![Screenshot showing mini view of CRM records in Viva Sales.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Viva Sales.")
 
 > [!NOTE]
-> Mini view settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the fields you select for the mini view exist in the quick find view, otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
+> - Mini view settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the fields you select for the mini view exist in the quick find view, otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
+> - Key fields selected for accounts, contacts, and opportunities affect the search results displayed for these entities. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
 ### Select fields for the mini view
 
