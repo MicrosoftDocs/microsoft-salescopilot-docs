@@ -1,7 +1,7 @@
 ---
 title: Viva Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Viva Sales for Salesforce CRM customers.
-ms.date: 04/19/2023
+ms.date: 04/20/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -78,7 +78,7 @@ Viva Sales leverages the Power Platform connector to connect to Salesforce CRM. 
 3. Ensure that **Microsoft Power Platform** is listed under **Connected Apps**.
 
     > [!NOTE]
-    > If **Microsoft Power Platform** is listed under **Connected Apps**, go to the **Connected Apps OAuth Usage** page, and then select **Install** for Microsoft Power Platform.
+    > If **Microsoft Power Platform** is not listed under **Connected Apps**, go to the **Connected Apps OAuth Usage** page, and then select **Install** for Microsoft Power Platform.
 
 4. Select **Microsoft Power Platform** to view details about the connected app. 
 
