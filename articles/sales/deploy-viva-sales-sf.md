@@ -84,7 +84,10 @@ Viva Sales leverages the Power Platform connector to connect to Salesforce CRM. 
 
 5. Under **OAuth Policies**, ensure that the value for Permitted Users is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
 
-6. Under **Profiles and Permission Sets**, check whether there are any existing profiles or permission sets or if they are empty.
+> [!NOTE]
+> If **Admin approved users are pre-authorized** is selected, you must pre-authorize selected users to use the Power Platform connector and block other users from accessing it.
+
+6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they are empty. Check and add the appropriate target for your users.
 
 
 ## Step 6 (optional): Customize Viva Sales
