@@ -45,6 +45,13 @@
   - name: Block the Viva Sales app in Teams
     href: block-viva-sales-app-teams.md
 
+- name: Troubleshooting guide
+  items:
+  - name: Update fields in forms
+    href: tsg-no-column.md
+  - name: Allow users to manage environments
+    href: tsg-trial-env.md
+
 - name: Use Viva Sales
   items:
   - name: Use Viva Sales in Outlook
