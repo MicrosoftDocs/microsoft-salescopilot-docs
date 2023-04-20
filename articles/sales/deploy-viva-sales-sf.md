@@ -1,7 +1,7 @@
 ---
 title: Viva Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Viva Sales for Salesforce CRM customers.
-ms.date: 04/05/2023
+ms.date: 04/20/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -25,6 +25,9 @@ Viva Sales requires a tenant administrator to install the integrated app from th
 Follow the steps in the [Install Viva Sales as an integrated app](install-viva-sales-as-an-integrated-app.md) article to install and automatically deploy the Viva Sales Outlook add-in.
 
 ![Screenshot showing Viva Sales installed as an integrated app.](media/install-viva-sales.png "Screenshot showing Viva Sales installed as an integrated app.")
+
+> [!NOTE]
+> It can take up to 24 hours for the add-in to show up for your users.
 
 ## Step 2: Create a setup policy to auto install and pin the Viva Sales app in Teams
 
@@ -64,7 +67,30 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 |---------------|-------------|
 |Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
 
-## Step 5 (optional): Customize Viva Sales
+## Step 5: Ensure Microsoft Power Platform is not blocked
+
+Viva Sales leverages the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Viva Sales users.
+
+1. Sign in to Salesforce CRM as an administrator.
+
+2. Go to **Setup** > **Platform Tools** > **Apps** > **Connected Apps** > **Managed Connected Apps**.
+
+3. Ensure that **Microsoft Power Platform** is listed under **Connected Apps**.
+
+    > [!NOTE]
+    > If **Microsoft Power Platform** is not listed under **Connected Apps**, go to the **Connected Apps OAuth Usage** page, and then select **Install** for Microsoft Power Platform.
+
+4. Select **Microsoft Power Platform** to view details about the connected app. 
+
+5. Under **OAuth Policies**, ensure that the value for Permitted Users is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
+
+    > [!NOTE]
+    > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
+
+6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they are empty. Check and add the appropriate target for your users.
+
+
+## Step 6 (optional): Customize Viva Sales
 
 Viva Sales provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md) article to learn more.
 
@@ -80,7 +106,7 @@ You can set up email insights in Viva Sales to generate suggested email content 
 
 You have now installed and configured Viva Sales in Outlook and Teams.
 
-## Step 6: Welcome sellers in your organization to Viva Sales
+## Step 7: Welcome sellers in your organization to Viva Sales
 
 Here's an example email message to share with your sellers, welcoming them to Viva Sales.
 
