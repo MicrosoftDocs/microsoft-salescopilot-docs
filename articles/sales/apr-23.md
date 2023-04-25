@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft Viva Sales - April 2023
 description: Information about new features, improvements, and bug fixes in Microsoft Viva Sales April 2023 release.
-ms.date: 04/24/2023
+ms.date: 04/25/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # April 2023 update
 
-We're excited to announce our newest updates! This article summarizes general availability features, preview features, monthly enhancements, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 release plans](/dynamics365/release-plans/).
+We're excited to announce our newest updates! This article summarizes general availability features, preview features, monthly enhancements, and bug fixes released in April 2023. To see the long-term feature plans, take a look at the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
 ## Availability
 
