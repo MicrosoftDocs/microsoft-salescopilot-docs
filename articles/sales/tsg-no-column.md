@@ -1,7 +1,7 @@
 ---
 title: Update fields in forms through Viva Sales admin settings
 description: Troubleshoot and resolve error messages in Viva Sales related to field level security in Salesforce.
-ms.date: 04/20/2023
+ms.date: 04/26/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -45,7 +45,7 @@ Change the admin settings from the Viva Sales admin settings in Microsoft Teams 
 1. Sign in to Microsoft Teams with your administrator credentials.
 2. In the navigation bar on the left, select **Viva Sales**.
 3. On the **Settings** tab, select Forms.
-4. Select **Edit** for the entity you are seeing the error.
+4. Select the entity for which you are seeing the error.
 5. Under **Manage fields**, perform one of the following actions:
     - If the issue is related to editing of a field, turn off **Allow editing** for the corresponding field.
     - If the issue is related to viewing the field, hover over the field, and select **Remove field** (![Delete icon.](media/delete-icon.png "Delete icon")).
