@@ -1,7 +1,7 @@
 ---
 title: Allow users to manage environments
 description: Troubleshoot and resolve error messages in Viva Sales related to signing in to Salesforce.
-ms.date: 04/20/2023
+ms.date: 04/26/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
