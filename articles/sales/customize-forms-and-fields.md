@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Viva Sales.
-ms.date: 02/15/2023
+ms.date: 05/17/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -16,12 +16,14 @@ ms.subservice: viva-sales
 
 As an administrator, you can customize the CRM information that's displayed in Viva Sales to give your sellers a more relevant view. To know more about privileges required to access administrator settings, see [Who can access administrator settings?](administrator-settings-for-viva-sales.md#who-can-access-administrator-settings).
 
-CRM forms and fields customization is environment-specific—each environment has its own set of configurations. For out-of-the-box contact, account, and opportunity records, you can configure:
+CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, account, and opportunity record types are available by default. You can add other out-of-the-box and custom record types. You can perform following actions:
 
-- **Editing of records**: Control which records can be edited in Viva Sales
-- **New contact creation**: Control whether sellers can create new contacts and edit existing contacts inline in Viva Sales
-- **Detailed view**: The main interface for viewing and interacting with CRM data
-- **Mini view**: A lightweight view that displays only two fields from a CRM record
+- **Add a new record type**: Add a new record type to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
+- **Change the view of a record type**: Select view to define how a list of records for a specific record type is displayed. For example, you can select a view to show only active accounts.
+- **Control editing of records**: Control which records can be edited in Viva Sales.
+- **Control new contact creation**: Control whether sellers can create new contacts and edit existing contacts inline in Viva Sales.
+- **Manage fields**: Select the fields that will be shown in Viva Sales, and decide if sellers should be able to edit them.
+- **Select key fields**: Choose which fields to show under record names when they're collapsed or in a list.
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
@@ -31,6 +33,75 @@ Record names, field names, and mandatory fields are displayed as they're defined
 ## Prerequisites
 
 CRM administrators must access administrator settings from the Viva Sales app in Teams. More information: [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md)
+
+## Add a new record type
+
+You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select **Add a record type**.
+
+3. In the **Add a record type** window, select a record type to add, and then select **Next**.
+
+    > [!NOTE]
+    > - Only record types that are related to a currently available record type are displayed. For example, contact, account, and opportunity record types are available by default, so you can add other out-of-the-box and custom record types that are related to these record types.
+    > - You can add only one record type at a time.
+    > - Logical names of record types and fields are displayed to optimize performance. 
+
+4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Viva Sales, and then select **Next**.
+
+    > [!NOTE]
+    > - Only 1:N and N:1 relationships are supported.
+    > - Logical names of record types and fields are displayed to optimize performance.
+    > - This step is displayed only if the record type you selected in the previous step relates to more than one record type or field. Otherwise, the relationship is automatically set.
+
+5. In the **Select the view for (record type)** window, select the view to define how a list of records for a specific entity is displayed, and then select **Add**.
+
+    > [!NOTE]
+    > All public and personal views are displayed in the list. You can select only one view at a time.
+
+6. On the record type settings page, select **Publish** to save your changes.
+
+
+## Change view of a record type
+
+You can change the view of a record type to define how a list of records for a specific record is displayed. For example, you can select a view to show only active accounts.
+
+## View filter used in a view
+
+
+
+## Remove a record type
+
+You can remove a record type from Viva Sales. When you remove a record type that has related record types in Viva Sales, all related record types are also removed. The changes are automatically published. You can't remove the contact record type.
+
+In Viva Sales admin settings, select **Forms**.
+Hover over the record type you want to remove, and then select **Remove (record type) (:::image type="icon" source="media/delete-icon.png" border="false":::)**.
+
+## Refresh data from CRM
+
+You can refresh data to get recent changes from CRM into Viva Sales. For example, if you add a new field to a record type in CRM, you can refresh data to reflect the new field in Viva Sales. You can refresh data either for all record types or for a specific record type.
+
+### Refresh data for all record types
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select **Refresh data**.
+
+### Refresh data for a specific record type
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Hover over the record type for which you want to refresh data, and then select **More options** (**...**).
+
+3. Select **Refresh** from the context menu.
+
+Alternatively, you can select the record type, and then select **Refresh data** under **Manage fields**.
+
+## Control order of record types in side pane
+
+You can control the order in which record types are displayed in the **Viva Sales** side pane in Outlook. The order is based on the order in which record types are added to Viva Sales. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
 
 ## Configure editing of records and fields
 
