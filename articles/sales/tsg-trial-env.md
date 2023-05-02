@@ -31,7 +31,7 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 
 When first user in an organization tries to sign-in to Salesforce from Viva Sales, they see the following error message `To use this app, ask your Power Platform admin to let you use Viva Sales, and include the error details in your request.`
 
-## Root caue and resolution
+## Root cause and resolution
 
 ### Root cause
 
