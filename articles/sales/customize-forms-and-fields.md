@@ -16,9 +16,11 @@ ms.subservice: viva-sales
 
 As an administrator, you can customize the CRM information that's displayed in Viva Sales to give your sellers a more relevant view. To know more about privileges required to access administrator settings, see [Who can access administrator settings?](administrator-settings-for-viva-sales.md#who-can-access-administrator-settings).
 
-CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types.
+CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
 Fields displayed for a record type are based on the view that's selected for the record type. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. You can also change the view to show different fields. For contact, account, and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view. 
+
+Changes made to record types are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Viva Sales to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Viva Sales app for Teams through messaging extensions, you can search for records of the added record types.
 
 You can perform the following actions:
 
@@ -240,7 +242,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 > [!NOTE]
 > - Mini view settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the fields you select for the mini view exist in the quick find view, otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
-> - Key fields selected for accounts, contacts, and opportunities affect the search results displayed for these entities. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
+> - Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
 ### Select key fields
 
