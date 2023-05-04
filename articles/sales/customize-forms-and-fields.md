@@ -44,6 +44,9 @@ CRM administrators must access administrator settings from the Viva Sales app in
 
 You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
 
+> [!NOTE]
+> You can add up to 10 record types.
+
 1. In Viva Sales admin settings, select **Forms**.
 
 2. Select **Add a record type**.
