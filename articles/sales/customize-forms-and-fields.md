@@ -27,7 +27,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 > [!NOTE]
 > If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
 
-:::image type="content" source="media/viva-sales-admin.png" alt-text="Screenshot showing Viva Sales admin settings.":::
+:::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing Viva Sales admin settings.":::
 
 
 |Annotation  |Description  |
