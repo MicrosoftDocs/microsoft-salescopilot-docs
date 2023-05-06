@@ -22,19 +22,23 @@ Fields displayed for a record type are based on the view that's selected for the
 
 Changes made to record types are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Viva Sales to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Viva Sales app for Teams through messaging extensions, you can search for records of the added record types.
 
-You can perform the following actions:
-
-- **Add a new record type**: Add a new record type to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
-- **Change the view of a record type**: Select view to define how a list of records for a specific record type is displayed. For example, you can select a view to show only active accounts.
-- **Control editing of records**: Control which records can be edited in Viva Sales.
-- **Control new contact creation**: Control whether sellers can create new contacts and edit existing contacts inline in Viva Sales.
-- **Manage fields**: Select the fields that will be shown in Viva Sales, and decide if sellers should be able to edit them.
-- **Select key fields**: Choose which fields to show under record names when they're collapsed or in a list.
-
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
 > [!NOTE]
 > If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
+
+:::image type="content" source="media/viva-sales-admin.png" alt-text="Screenshot showing Viva Sales admin settings.":::
+
+
+|Annotation  |Description  |
+|---------|---------|
+|1     |Select to customize forms and fields.  |
+|2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type)  |
+|3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
+|4     |Default record types.  |
+|5     |View used to filter fields in a record. More information: [Change view of a record type](#change-view-of-a-record-type) |
+
+You can select a record type to view and edit its settings.
 
 ## Prerequisites
 
@@ -58,6 +62,8 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
     > - You can add only one record type at a time.
     > - Logical names of record types and fields are displayed to optimize performance. 
 
+    :::image type="content" source="media/select-record-type.png" alt-text="Select a record type tp add.":::
+
 4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Viva Sales, and then select **Next**.
 
     > [!NOTE]
@@ -65,77 +71,20 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
     > - Logical names of record types and fields are displayed to optimize performance.
     > - This step is displayed only if the record type you selected in the previous step relates to more than one record type or field. Otherwise, the relationship is automatically set.
 
-5. In the **Select the view for (record type)** window, select the view to define how a list of records for a specific entity is displayed, and then select **Add**.
+    :::image type="content" source="media/select-relationship.png" alt-text="Select relationship for the record type.":::
+
+5. In the **Select the view for (record type)** window, select the view to define how a list of records for a specific record type is displayed, and then select **Add**.
 
     > [!NOTE]
     > - All public and personal views are displayed in the list. You can select only one view at a time.
     > - A view includes only those fields that belong to the record type and not to any related record types.
 
+    :::image type="content" source="media/select-view.png" alt-text="Select view for the record type.":::
+
 6. On the record type settings page, select **Publish** to save your changes.
 
+    The record type is added at the end of the list of record types.
 
-## Change view of a record type
-
-You can change the view that a record type is based on by choosing a different view. For example, you can select a view to show only active accounts instead of all accounts.
-
-When changing the view, the following existing settings for the record type are cleared and set to default.
-
-- Existing key fields are removed, and new defaults are set.
-- Edit behavior for record type remains unchanged.
-- Edit behavior for fields is reset. If the record type is set to editable, and a new view is selected, the fields will become editable.
-
-**To select a new view**
-
-1. In Viva Sales admin settings, select **Forms**.
-2. Select a record type for which you want to change the view.
-3. Select **Change** beside the view field.
-4. Update the relationship, if required, and then select **Next**.
-5. Select the view to use, and then select **Done**.
-6. On the record type settings page, select **Publish** to save your changes.
-
-## View filters used in a view
-
-You can view the source query that's used to filter records in a view. For example, you can view the source query for the view that shows only active accounts.
-
-It helps you to have clear understanding on how a record type is configured. For example, filtering and sorting criteria of fields, and order of fields. The query is displayed in a view-only mode and You can't make any changes to the query.
-
-1. In Viva Sales admin settings, select **Forms**.
-2. Select a record type for which you want to see the query used in the selected view.
-3. Select **View filters** under the **Manage fields** section.
-    The **Filter conditions** window is displayed.
-4. To copy the query XML, select **Copy XML**.
-
-## Remove a record type
-
-You can remove a record type from Viva Sales. When you remove a record type that has related record types in Viva Sales, all related record types are also removed. The changes are automatically published. You can't remove the contact record type.
-
-1. In Viva Sales admin settings, select **Forms**.
-
-2. Hover over the record type you want to remove, and then select **Remove (record type) (:::image type="icon" source="media/delete-icon.png" border="false":::)**.
-
-## Refresh data from CRM
-
-You can refresh data to get recent changes from CRM into Viva Sales. For example, if you add a new field to a record type in CRM, you can refresh data to reflect the new field in Viva Sales. You can refresh data either for all record types or for a specific record type.
-
-### Refresh data for all record types
-
-1. In Viva Sales admin settings, select **Forms**.
-
-2. Select **Refresh data**.
-
-### Refresh data for a specific record type
-
-1. In Viva Sales admin settings, select **Forms**.
-
-2. Hover over a record type for which you want to refresh data, and then select **More options** (**...**).
-
-3. Select **Refresh** from the context menu.
-
-Alternatively, you can select the record type, and then select **Refresh data** under **Manage fields**.
-
-## Control order of record types in side pane
-
-You can control the order in which record types are displayed in the **Viva Sales** side pane in Outlook. The order is based on the order in which record types are added to Viva Sales. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
 
 ## Configure editing of records and fields
 
@@ -150,8 +99,6 @@ By default, contacts are editable. For other records, you must turn on the optio
 1.  In Viva Sales admin settings, select **Forms**.
 
 2.  Select a record type for which you need to allow editing.
-
-    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin.png "Screenshot showing Viva Sales Settings tab.")
 
 3.  Turn on **Allow editing** to allow sellers to edit all relevant fields in that record type.
 
@@ -235,7 +182,7 @@ You can add up to 40 out-of-the-box and custom fields to a record form.
 
 4.  Select **Publish** to save your changes.
 
-## Select key fields for mini view
+## Select key fields for the mini view
 
 Each record type has a mini view that displays limited information when they're collapsed or shown in a list. The mini view is available at various places in the Viva Sales pane, such as in the quick view on the CRM tab.
 
@@ -261,13 +208,87 @@ Key field settings affect the results when sellers search for connected records 
 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
+## Change view of a record type
+
+You can change the view that a record type is based on by choosing a different view. For example, you can select a view to show only active accounts instead of all accounts.
+
+When changing the view, the following existing settings for the record type are cleared and set to default.
+
+- Existing key fields are removed, and new defaults are set.
+- Edit behavior for record type remains unchanged.
+- Edit behavior for fields is reset. If the record type is set to editable, and a new view is selected, the fields will become editable.
+
+**To select a new view**
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select a record type for which you want to change the view.
+
+3. Select **Change** beside the view field.
+
+    :::image type="content" source="media/change-view.png" alt-text="Change view of a record type.":::    
+
+4. Update the relationship, if required, and then select **Next**.
+
+5. Select the view to use, and then select **Done**.
+
+6. On the record type settings page, select **Publish** to save your changes.
+
+## View filters used in a view
+
+You can view the source query that's used to filter records in a view. For example, you can view the source query for the view that shows only active accounts.
+
+It helps you to have clear understanding on how a record type is configured. For example, filtering and sorting criteria of fields, and order of fields. The query is displayed in a view-only mode and you can't make any changes to the query.
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select a record type for which you want to see the query used in the selected view.
+
+3. Select **View filters** under the **Manage fields** section.
+
+    :::image type="content" source="media/view-filters.png" alt-text="View filters used in a view.":::
+    
+    The **Filter conditions** window is displayed.
+
+4. To copy the query XML, select **Copy XML**.
+
+## Refresh data from CRM
+
+You can refresh data to get recent changes from CRM into Viva Sales. For example, if you add a new field to a record type in CRM, you can refresh data to reflect the new field in Viva Sales. You can refresh data either for all record types or for a specific record type.
+
+### Refresh data for all record types
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select **Refresh data**.
+
+### Refresh data for a specific record type
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Hover over a record type for which you want to refresh data, and then select **More options** (**...**).
+
+3. Select **Refresh** from the context menu.
+
+Alternatively, you can select the record type, and then select **Refresh data** under **Manage fields**.
+
+## Remove a record type
+
+You can remove a record type from Viva Sales. When you remove a record type that has related record types in Viva Sales, all related record types are also removed. The changes are automatically published. You can't remove the contact record type.
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Hover over the record type you want to remove, and then select **Remove (record type)** (:::image type="icon" source="media/delete-icon.png" border="false":::).
+
+## Control order of record types in side pane
+
+You can control the order in which record types are displayed in the **Viva Sales** side pane in Outlook. The order is based on the order in which record types are added to Viva Sales. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
+
 ## FAQ
 
 ### Are changes in the CRM reflected automatically in Viva Sales?
 
-Changes made in the CRM aren't reflected automatically in Viva Sales. You must select **Refresh** on the **Customize forms and fields** page to get the latest updates from the CRM.
-
-![Screenshot showing how to get latest changes from CRM.](media/viva-sales-crm-refresh.png "Screenshot showing how to get latest changes from CRM.")
+Changes made in the CRM aren't reflected automatically in Viva Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](#refresh-data-from-crm)
 
 ### Why is the delete option disabled for some fields in the contact record?
 
