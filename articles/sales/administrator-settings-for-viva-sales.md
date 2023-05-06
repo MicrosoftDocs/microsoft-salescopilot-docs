@@ -88,7 +88,7 @@ When you open administrator settings, following tabs are available:
     - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
     - **Email**: Allows you to [set up email insights](suggested-replies.md).
 
-    ![Screenshot showing Viva Sales Settings tab.](media/viva-sales-admin.png "Screenshot showing Viva Sales Settings tab.")
+    ![Screenshot showing Viva Sales Settings tab.](media/admin-settings.png "Screenshot showing Viva Sales Settings tab.")
 
 ## Add the Viva Sales app to Teams
 
