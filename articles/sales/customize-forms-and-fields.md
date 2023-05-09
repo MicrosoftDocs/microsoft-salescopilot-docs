@@ -88,7 +88,7 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
 
 ## Configure editing of records and fields
 
-You can control which records and fields sellers can edit directly in Viva Sales. If a record isn't allowed to be edited in Viva Sales, sellers must update the record in the CRM.
+You can control which records and fields sellers can edit directly in Viva Sales.
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
 
@@ -126,16 +126,16 @@ You can control whether sellers can create contacts inline, directly in Viva Sal
 
 ## Manage fields shown in the detailed view
 
+> [!NOTE]
+> This section is relevant only for contact, opportunity, and account record types that are not based on a CRM view. If a view is selected for a record type, you'll not be able to [add fields](#add-fields), [remove fields](#remove-fields), and [reorder fields](#reorder-fields).
+
 To customize the detailed view of CRM records in Viva Sales, select fields to include in the view and the order in which they should appear. Changes to the detailed view are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat.
 
-You can add up to 40 out-of-the-box and custom fields to a record form.
+If a record type is not based on a CRM view, you can add up to 40 out-of-the-box and custom fields to a record form.
 
 ![Screenshot showing detailed view of CRM records in Viva Sales.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
 
 ![Screenshot showing Adaptive card in Teams.](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
-
-> [!NOTE]
-> If a view is selected for a record type, you'll not be able to [add fields](#add-fields), [remove fields](#remove-fields), and [reorder fields](#reorder-fields).
 
 ### Add fields
 
@@ -316,7 +316,7 @@ The following fields can't be added from the Viva Sales **Admin settings** page:
 
 You can add a maximum of 40 fields to a record.
 
-### Why are some fields noneditable, although the record is set as editable?
+### Why are some fields non-editable, although the record is set as editable?
 
 A field can be noneditable in the following cases:
 - The field is calculated
