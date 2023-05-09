@@ -14,11 +14,11 @@ ms.subservice: viva-sales
 
 # Customize forms and fields
 
-As an administrator, you can customize the CRM information that's displayed in Viva Sales to give your sellers a more relevant view. To know more about privileges required to access administrator settings, see [Who can access administrator settings?](administrator-settings-for-viva-sales.md#who-can-access-administrator-settings).
+As an administrator, you can customize the CRM information that's displayed in Viva Sales to give your sellers a more relevant view.
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-Fields displayed for a record type are based on the view that's selected for the record type. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. You can also change the view to show different fields. For contact, account, and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view. 
+Viva Sales forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For contact, account, and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view. 
 
 Changes made to record types are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Viva Sales to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Viva Sales app for Teams through messaging extensions, you can search for records of the added record types.
 
@@ -35,7 +35,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |1     |Select to customize forms and fields.  |
 |2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
-|4     |Default record types.  |
+|4     |Record types added to Viva Sales.  |
 |5     |View used to filter fields in a record. More information: [Change view of a record type](#change-view-of-a-record-type) |
 
 You can select a record type to view and edit its settings.
@@ -67,16 +67,16 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
 4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Viva Sales, and then select **Next**.
 
     > [!NOTE]
-    > - Only 1:N and N:1 relationships are supported.
+    > - 1:N and N:1 relationships are supported.
     > - Logical names of record types and fields are displayed to optimize performance.
-    > - This step is displayed only if the record type you selected in the previous step relates to more than one record type or field. Otherwise, the relationship is automatically set.
+    > - This step is displayed if the record type you selected in the previous step relates to more than one record type or field. Otherwise, the relationship is automatically set.
 
     :::image type="content" source="media/select-relationship.png" alt-text="Select relationship for the record type.":::
 
 5. In the **Select the view for (record type)** window, select the view to define how a list of records for a specific record type is displayed, and then select **Add**.
 
     > [!NOTE]
-    > - All public and personal views are displayed in the list. You can select only one view at a time.
+    > - All public and personal views are displayed in the list.
     > - A view includes only those fields that belong to the record type and not to any related record types.
 
     :::image type="content" source="media/select-view.png" alt-text="Select view for the record type.":::
@@ -254,7 +254,7 @@ It helps you to have clear understanding on how a record type is configured. For
 
 ## Refresh data from CRM
 
-You can refresh data to get recent changes from CRM into Viva Sales. For example, if you add a new field to a record type in CRM, you can refresh data to reflect the new field in Viva Sales. You can refresh data either for all record types or for a specific record type.
+You should refresh data to get recent changes from CRM into Viva Sales. For example, if you add a new field to a record type view in CRM, you should refresh data to reflect the new field in Viva Sales. You can refresh data either for all record type at once or for a specific record type.
 
 ### Refresh data for all record types
 
