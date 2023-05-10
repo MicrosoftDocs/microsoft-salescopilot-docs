@@ -36,7 +36,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
 |4     |Record types added to Viva Sales.  |
-|5     |View used to filter fields in a record. More information: [Change view of a record type](#change-view-of-a-record-type) |
+|5     |CRM view used to control the form of a record type. More information: [Change view of a record type](#change-view-of-a-record-type) |
 
 You can select a record type to view and edit its settings.
 
@@ -77,7 +77,7 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
 
     > [!NOTE]
     > - All public and personal views are displayed in the list.
-    > - A view includes only those fields that belong to the record type and not to any related record types.
+    > - For Dynamics 365, Viva Sales includes only those fields that belong to the record type and not to any related record types.
 
     :::image type="content" source="media/select-view.png" alt-text="Select view for the record type.":::
 
@@ -274,11 +274,14 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 
 ## Remove a record type
 
-You can remove a record type from Viva Sales. When you remove a record type that has related record types in Viva Sales, all related record types are also removed. The changes are automatically published. You can't remove the contact record type.
-
 1. In Viva Sales admin settings, select **Forms**.
 
 2. Hover over the record type you want to remove, and then select **Remove (record type)** (:::image type="icon" source="media/delete-icon.png" border="false":::).
+
+> [!NOTE]
+> - When you remove a record type that has related record types in Viva Sales, all related record types are also removed.
+> - You can't remove the contact record type.
+
 
 ## Control order of record types in side pane
 
