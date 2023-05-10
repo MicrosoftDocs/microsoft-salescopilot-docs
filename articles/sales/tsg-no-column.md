@@ -1,7 +1,7 @@
 ---
-title: Update fields in forms through Viva Sales admin settings
+title: Salesforce CRM users unable to see data in Viva Sales
 description: Troubleshoot and resolve error messages in Viva Sales related to field level security in Salesforce.
-ms.date: 04/26/2023
+ms.date: 05/10/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Update fields in forms through Viva Sales admin settings
+# Salesforce CRM users unable to see data in Viva Sales
 
 This article helps you troubleshoot and resolve error messages in Viva Sales related to field level security in Salesforce.
 
