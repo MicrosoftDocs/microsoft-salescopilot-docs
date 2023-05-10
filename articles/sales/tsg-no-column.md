@@ -43,12 +43,21 @@ Users don't have access to view all fields added in Viva Sales forms.
 Change the admin settings from the Viva Sales admin settings in Microsoft Teams to hide the fields or remove edit capabilities.
 
 1. Sign in to Microsoft Teams with your administrator credentials.
+
 2. In the navigation bar on the left, select **Viva Sales**.
+
 3. On the **Settings** tab, select Forms.
+
 4. Select the entity for which you are seeing the error.
+
 5. Under **Manage fields**, perform one of the following actions:
+
     - If the issue is related to editing of a field, turn off **Allow editing** for the corresponding field.
+
+        :::image type="content" source="media/tsg-allow-edit.png" alt-text="Turn off editing for a few fields":::
+
     - If the issue is related to viewing the field, hover over the field, and select **Remove field** (![Delete icon.](media/delete-icon.png "Delete icon")).
+
 6. Select **Publish** to save your changes.
 
 ## Is your issue still not resolved?
