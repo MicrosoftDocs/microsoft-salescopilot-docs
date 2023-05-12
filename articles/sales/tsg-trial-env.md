@@ -25,19 +25,23 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce        |
-|**Users**     | First user who tries to sign-in to Salesforce from Viva Sales   |
+|**Users**     | First user who tries to sign-in to Salesforce CRM from Viva Sales   |
 
 ## Symptom
 
-When first user in an organization tries to sign-in to Salesforce from Viva Sales, they see the following error message `To use this app, ask your Power Platform admin to let you use Viva Sales, and include the error details in your request.`
+When first user in an organization tries to sign-in to Salesforce CRM from Viva Sales, a trial environment needs to be created. When the user does not have permission to create a trial environment, the following error message is displayed `To use this app, ask your Power Platform admin to let you use Viva Sales, and include the error details in your request.`.
+
+:::image type="content" source="media/tsg-env-error.png" alt-text="Unable to access Viva Sales.":::
 
 ## Root cause and resolution
 
-### Root cause
+### Issue 1: First user failed to login to Salesforce CRM on Viva Sales
+
+#### Root cause
 
 Tenant's administrators have disabled trial environment creation for non-administrator users. 
 
-### Resolution
+#### Resolution
 
 As a tenant administrator, allow users to create trial environments.
 

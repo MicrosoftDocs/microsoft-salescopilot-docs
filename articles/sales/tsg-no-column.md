@@ -30,15 +30,19 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 
 ## Symptom
 
-When using Viva Sales in Outlook, users see error such as "To see this data in Viva Sales, ask your Salesforce admin to delete the fields listed in the error details from Viva Sales."
+When using Viva Sales in Outlook, users see error such as `To see this data in Viva Sales, ask your Salesforce admin to delete the fields listed in the error details from Viva Sales.`. This could happen when an administrator sets up a field to be displayed or editable in Viva Sales, while the same field is not allowed to be edited or viewed as per the settings in Salesforce CRM.
+
+:::image type="content" source="media/tsg-field-error.png" alt-text="Error to delete fields.":::
 
 ## Root cause and resolution
 
-### Root cause
+### Issue 1: Viva Sales displays error to delete the fields after signing to Salesforce CRM
+
+#### Root cause
 
 Users don't have access to view all fields added in Viva Sales forms.
 
-### Resolution
+#### Resolution
 
 Change the admin settings from the Viva Sales admin settings in Microsoft Teams to hide the fields or remove edit capabilities.
 
