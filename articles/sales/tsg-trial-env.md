@@ -1,7 +1,7 @@
 ---
 title: First Salesforce CRM user unable to access Viva Sales
 description: Troubleshoot and resolve error messages in Viva Sales related to signing in to Salesforce.
-ms.date: 05/10/2023
+ms.date: 05/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
