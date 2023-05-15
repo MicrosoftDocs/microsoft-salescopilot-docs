@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft Viva Sales - April 2023
 description: Information about new features, improvements, and bug fixes in Microsoft Viva Sales April 2023 release.
-ms.date: 04/25/2023
+ms.date: 05/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -24,12 +24,12 @@ We're excited to announce our newest updates! This article summarizes general av
 
 ## Features included in this release
 
-|Feature area|Feature|Description|Resources|Enabled by *|Availability|
-|------------|-------|-----------|---------|----------|------------|
-|Copilot|Summarized CRM data for meeting preparation |Sellers can generate a summary of the recent notes specific to a selected opportunity mapped to a meeting invite.|[Seller guide](https://support.microsoft.com/topic/preview-view-opportunity-summary-373ddcee-10d5-4a14-bfaf-298529ee8fbf) |Enabled by default |Public preview|
-|Copilot|Summarize email communication and save to CRM |Sellers can generate a summary of internal and external email threads, including CRM data references, and save the summary to the CRM mapped to an opportunity record.|[Seller guide](https://support.microsoft.com/topic/preview-view-and-update-crm-with-email-conversation-summary-7968335e-5c4d-4faf-a57f-5a4ff97ab6d2)|Enabled by default |Public preview|
-|Copilot|AI-generated email replies supported for internal emails |Sellers can now leverage AI-generated email replies and new email drafts threads that do not have any external email recipient preset. In these cases, the AI generated content is solely based on the body of the email and no CRM records.|[Admin guide](suggested-replies.md)<br><br> [Seller guide](https://support.microsoft.com/topic/use-copilot-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin **|General availability|
-|CRM customizations |Entity search improvements|Sellers can now see configured and customized key fields when searching for records while editing or creating new records, in the **Save to CRM** flow, and Teams messaging extensions.|[Admin guide](customize-forms-and-fields.md)|Enabled by admin|General availability|
+|Feature area|Feature|Description|Client|Resources|Enabled by *|Availability|
+|------------|-------|-----------|---------|----------|------------|--------|
+|Copilot|Summarized CRM data for meeting preparation |Sellers can generate a summary of the recent notes specific to a selected opportunity mapped to a meeting invite.|Outlook add-in|[Seller guide](https://support.microsoft.com/topic/preview-view-opportunity-summary-373ddcee-10d5-4a14-bfaf-298529ee8fbf) |Enabled by default |Public preview|
+|Copilot|Summarize email communication and save to CRM |Sellers can generate a summary of internal and external email threads, including CRM data references, and save the summary to the CRM mapped to an opportunity record.|Outlook add-in|[Seller guide](https://support.microsoft.com/topic/preview-view-and-update-crm-with-email-conversation-summary-7968335e-5c4d-4faf-a57f-5a4ff97ab6d2)|Enabled by default |Public preview|
+|Copilot|AI-generated email replies supported for internal emails |Sellers can now leverage AI-generated email replies and new email drafts threads that do not have any external email recipient preset. In these cases, the AI generated content is solely based on the body of the email and no CRM records.|Outlook add-in|[Admin guide](suggested-replies.md)<br><br> [Seller guide](https://support.microsoft.com/topic/use-copilot-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin **|General availability|
+|CRM customizations |Entity search improvements|Sellers can now see configured and customized key fields when searching for records while editing or creating new records, in the **Save to CRM** flow, and Teams messaging extensions.|Outlook add-in|[Admin guide](customize-forms-and-fields.md)|Enabled by admin|General availability|
 
 \* Learn more about [administrator settings for Viva Sales](administrator-settings-for-viva-sales.md).  
 
