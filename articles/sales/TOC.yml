@@ -51,9 +51,9 @@
 
 - name: Troubleshooting guide
   items:
-  - name: Update fields in forms
+  - name: Salesforce CRM users unable to see data in Viva Sales
     href: tsg-no-column.md
-  - name: Allow users to manage environments
+  - name: First Salesforce CRM user unable to access Viva Sales
     href: tsg-trial-env.md
 
 - name: Use Viva Sales
