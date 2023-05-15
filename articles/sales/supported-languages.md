@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Viva Sales
 description: Lean which languages are supported in Viva Sales
-ms.date: 10/03/2022
+ms.date: 05/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -59,3 +59,11 @@ Conversation intelligence is available in the following languages:
 - Finnish
 - Norwegian
 - Arabic
+
+Copilot in Viva Sales is available in the following languages:
+
+- English
+- French
+- German
+- Spanish
+
