@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft Viva Sales - March 2023
 description: Information about new features, improvements, and bug fixes in Microsoft Viva Sales March 2023 release.
-ms.date: 03/27/2023
+ms.date: 05/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -24,12 +24,12 @@ We're excited to announce our newest updates! This article summarizes general av
 
 ## Features included in this release
 
-|Feature area|Feature|Description|Resources|Enabled by|Availability|
-|------------|-------|-----------|---------|----------|------------|
-|Copilot|AI-generated email replies with proposed meeting times|Sellers can embed proposed meeting times into AI-generated email replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin|General availability|
-|Copilot|Fine tune AI-generated email replies |Sellers can provide additional prompts and select specific opportunities to fine tune the generated email reply.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-refine-ai-reply)|Enabled by admin|General availability|
-|Copilot|View data sources used in AI-generated email replies|Sellers can view the CRM records that are used in the AI-generated email replies.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-crm-data-ai-reply)|Enabled by admin|General availability|
-|Copilot|AI-powered meeting summaries|Sellers can use AI to generate meeting summaries of Microsoft Teams meetings that have the Microsoft Viva Sales app for Teams enabled.|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-meeting-summary-ai-reply)<br>[Demo](https://www.microsoft.com/videoplayer/embed/RWZln4)|Enabled by admin|Public preview|
+|Feature area|Feature|Description|Client|Resources|Enabled by|Availability|
+|------------|-------|-----------|---------|----------|------------|------|
+|Copilot|AI-generated email replies with proposed meeting times|Sellers can embed proposed meeting times into AI-generated email replies.|Outlook add-in|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)|Enabled by admin|General availability|
+|Copilot|Fine tune AI-generated email replies |Sellers can provide additional prompts and select specific opportunities to fine tune the generated email reply.|Outlook add-in|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-refine-ai-reply)|Enabled by admin|General availability|
+|Copilot|View data sources used in AI-generated email replies|Sellers can view the CRM records that are used in the AI-generated email replies.|Outlook add-in|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-crm-data-ai-reply)|Enabled by admin|General availability|
+|Copilot|AI-powered meeting summaries|Sellers can use AI to generate meeting summaries of Microsoft Teams meetings that have the Microsoft Viva Sales app for Teams enabled.|Outlook add-in|[Documentation](https://support.microsoft.com/topic/use-ai-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef#bkmk-meeting-summary-ai-reply)<br>[Demo](https://www.microsoft.com/videoplayer/embed/RWZln4)|Enabled by admin|Public preview|
 
 ## Administration update 
 
