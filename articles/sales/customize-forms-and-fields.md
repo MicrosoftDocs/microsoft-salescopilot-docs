@@ -97,7 +97,7 @@ Modifying a record type enables you to customize the detailed view of CRM record
 
 ### Modify record types based on a CRM view
 
-If a record type is based on a CRM view, you must change the CRM view to change the fields and the order in which they should appear.
+If a record type is based on a CRM view, you should change the CRM view to change the fields and the order in which they should appear. You must then select **Refresh data** to get latest changes from CRM and apply them in Viva Sales.
 
 #### Change view of a record type
 
