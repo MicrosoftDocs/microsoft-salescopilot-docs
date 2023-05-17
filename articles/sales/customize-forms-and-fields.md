@@ -256,7 +256,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 ### Search behavior in Viva Sales add-in for Outlook
 
-Key field settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the key fields you select for the mini view exist in the [quick find view](/dynamics365/customerengagement/on-premises/customize/choose-and-configure-columns?view=op-9-1), otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
+Key field settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the key fields you select for the mini view exist in the [quick find view](/dynamics365/customerengagement/on-premises/customize/choose-and-configure-columns?view=op-9-1&preserve-view=true), otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
