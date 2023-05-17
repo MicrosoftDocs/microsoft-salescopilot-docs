@@ -24,9 +24,6 @@ Changes made to record types are reflected in the Viva Sales pane in Outlook and
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
-> [!NOTE]
-> If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
-
 :::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing Viva Sales admin settings.":::
 
 
@@ -85,6 +82,118 @@ You can add new custom or out-of-the-box record types to Viva Sales. For example
 
     The record type is added at the end of the list of record types.
 
+## Modify existing record types
+
+After you add a record type, you can modify it by performing actions such as changing its view, adding/removing fields, and reordering fields. The actions depends whether the record type is based on a CRM view or not.
+
+Modifying a record type enables you to customize the detailed view of CRM records in Viva Sales. Changes to the detailed view are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat.
+
+![Screenshot showing detailed view of CRM records in Viva Sales.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
+
+![Screenshot showing Adaptive card in Teams.](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
+
+> [!NOTE]
+> If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
+
+### Modify record types based on a CRM view
+
+If a record type is based on a CRM view, you must change the CRM view to change the fields and the order in which they should appear.
+
+#### Change view of a record type
+
+You can change the view that a record type is based on by choosing a different view. For example, you can select a view to show only active accounts instead of all accounts.
+
+When changing the view, the following existing settings for the record type are cleared and set to default.
+
+- Existing key fields are removed, and new defaults are set.
+- Edit behavior for record type remains unchanged.
+- Edit behavior for fields is reset. If the record type is set to editable, and a new view is selected, the fields will become editable.
+
+**To select a new view**
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select a record type for which you want to change the view.
+
+3. Select **Change** beside the view field.
+
+    :::image type="content" source="media/change-view.png" alt-text="Change view of a record type.":::    
+
+4. Update the relationship, if required, and then select **Next**.
+
+5. Select the view to use, and then select **Done**.
+
+6. On the record type settings page, select **Publish** to save your changes.
+
+#### View filters used in a view
+
+You can view the source query that's used to filter records in a view. For example, you can view the source query for the view that shows only active accounts.
+
+It helps you to have clear understanding on how a record type is configured. For example, filtering and sorting criteria of fields, and order of fields. The query is displayed in a view-only mode and you can't make any changes to the query.
+
+1. In Viva Sales admin settings, select **Forms**.
+
+2. Select a record type for which you want to see the query used in the selected view.
+
+3. Select **View filters** under the **Manage fields** section.
+
+    :::image type="content" source="media/view-filters.png" alt-text="View filters used in a view.":::
+    
+    The **Filter conditions** window is displayed.
+
+4. To copy the query XML, select **Copy XML**.
+
+### Modify record types not based on a CRM view
+
+> [!NOTE]
+> This section is relevant only for contact, opportunity, and account record types that are not based on a CRM view. If a view is selected for a record type, you'll not be able to [add fields](#add-fields), [remove fields](#remove-fields), and [reorder fields](#reorder-fields).
+
+If a record type is not based on a CRM view, you can select fields to include in the view and the order in which they should appear. Up to 40 out-of-the-box and custom fields can be added to a record form.
+
+#### Add fields
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
+
+**To add fields**
+
+1.  In Viva Sales admin settings, select **Forms**.
+
+2.  Select a record type to which you need to add fields.
+
+3.  In the **Manage fields** section, select **Add fields**.
+
+    ![Screenshot showing how to add fields to a CRM record in Viva Sales.](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Viva Sales.")
+
+4.  In the **Add fields** window, select fields to display in the form, and then select **Add**.
+
+    The new fields are added after existing fields, but you can [reorder them](#reorder-fields).
+
+    > [!NOTE]
+    > If you've connected Viva Sales to Salesforce, add only the fields that all users of Viva Sales have access to. If a user doesn't have access to some of the added fields, they'll not be able to view the CRM record.
+
+5.  Select **Publish** to save your changes.
+
+#### Remove fields
+
+1.  In Viva Sales admin settings, select **Forms**.
+
+2.  Select the record type from which you need to remove fields.
+
+3.  In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field** (![Delete icon.](media/delete-icon.png "Delete icon")).
+
+4.  Select **Publish** to save your changes.
+
+#### Reorder fields
+
+1.  In Viva Sales admin settings, select **Forms**.
+
+2.  Select the record type in which you need to reorder fields.
+
+3.  In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows (![Up arrow icon.](media/up-arrow-icon.png "Up arrow icon") ![Down arrow icon.](media/down-arrow-icon.png "Down arrow icon")).
+
+    You can also drag the field to change its order.
+
+4.  Select **Publish** to save your changes.
 
 ## Configure editing of records and fields
 
@@ -124,63 +233,6 @@ You can control whether sellers can create contacts inline, directly in Viva Sal
 
 4.  Select **Publish** to save your changes.
 
-## Manage fields shown in the detailed view
-
-> [!NOTE]
-> This section is relevant only for contact, opportunity, and account record types that are not based on a CRM view. If a view is selected for a record type, you'll not be able to [add fields](#add-fields), [remove fields](#remove-fields), and [reorder fields](#reorder-fields).
-
-To customize the detailed view of CRM records in Viva Sales, select fields to include in the view and the order in which they should appear. Changes to the detailed view are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat.
-
-If a record type is not based on a CRM view, you can add up to 40 out-of-the-box and custom fields to a record form.
-
-![Screenshot showing detailed view of CRM records in Viva Sales.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Viva Sales.")
-
-![Screenshot showing Adaptive card in Teams.](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
-
-### Add fields
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
-
-**To add fields**
-
-1.  In Viva Sales admin settings, select **Forms**.
-
-2.  Select a record type to which you need to add fields.
-
-3.  In the **Manage fields** section, select **Add fields**.
-
-    ![Screenshot showing how to add fields to a CRM record in Viva Sales.](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Viva Sales.")
-
-4.  In the **Add fields** window, select fields to display in the form, and then select **Add**.
-
-    The new fields are added after existing fields, but you can [reorder them](#reorder-fields).
-
-    > [!NOTE]
-    > If you've connected Viva Sales to Salesforce, add only the fields that all users of Viva Sales have access to. If a user doesn't have access to some of the added fields, they'll not be able to view the CRM record.
-
-5.  Select **Publish** to save your changes.
-
-### Remove fields
-
-1.  In Viva Sales admin settings, select **Forms**.
-
-2.  Select the record type from which you need to remove fields.
-
-3.  In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field** (![Delete icon.](media/delete-icon.png "Delete icon")).
-
-4.  Select **Publish** to save your changes.
-
-### Reorder fields
-
-1.  In Viva Sales admin settings, select **Forms**.
-
-2.  Select the record type in which you need to reorder fields.
-
-3.  In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows (![Up arrow icon.](media/up-arrow-icon.png "Up arrow icon") ![Down arrow icon.](media/down-arrow-icon.png "Down arrow icon")).
-
-    You can also drag the field to change its order.
-
-4.  Select **Publish** to save your changes.
 
 ## Select key fields for the mini view
 
@@ -208,49 +260,7 @@ Key field settings affect the results when sellers search for connected records 
 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
-## Change view of a record type
 
-You can change the view that a record type is based on by choosing a different view. For example, you can select a view to show only active accounts instead of all accounts.
-
-When changing the view, the following existing settings for the record type are cleared and set to default.
-
-- Existing key fields are removed, and new defaults are set.
-- Edit behavior for record type remains unchanged.
-- Edit behavior for fields is reset. If the record type is set to editable, and a new view is selected, the fields will become editable.
-
-**To select a new view**
-
-1. In Viva Sales admin settings, select **Forms**.
-
-2. Select a record type for which you want to change the view.
-
-3. Select **Change** beside the view field.
-
-    :::image type="content" source="media/change-view.png" alt-text="Change view of a record type.":::    
-
-4. Update the relationship, if required, and then select **Next**.
-
-5. Select the view to use, and then select **Done**.
-
-6. On the record type settings page, select **Publish** to save your changes.
-
-## View filters used in a view
-
-You can view the source query that's used to filter records in a view. For example, you can view the source query for the view that shows only active accounts.
-
-It helps you to have clear understanding on how a record type is configured. For example, filtering and sorting criteria of fields, and order of fields. The query is displayed in a view-only mode and you can't make any changes to the query.
-
-1. In Viva Sales admin settings, select **Forms**.
-
-2. Select a record type for which you want to see the query used in the selected view.
-
-3. Select **View filters** under the **Manage fields** section.
-
-    :::image type="content" source="media/view-filters.png" alt-text="View filters used in a view.":::
-    
-    The **Filter conditions** window is displayed.
-
-4. To copy the query XML, select **Copy XML**.
 
 ## Refresh data from CRM
 
