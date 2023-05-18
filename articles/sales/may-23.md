@@ -20,7 +20,7 @@ We're excited to announce our newest updates! This article summarizes general av
 
 |Region|Availability|
 |------|------------|
-|All regions|May 17, 2023|
+|All regions|TBD|
 
 ## Features included in this release
 
