@@ -1,7 +1,7 @@
 ---
 title: Set up email insights
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 05/17/2023
+ms.date: 05/18/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -60,7 +60,7 @@ You can control whether sellers can generate suggested email content that contai
 
 As part of providing AI suggestions (via Azure OpenAI), Viva Sales does not process and store content submitted to the Azure OpenAI Service for monitoring or preventing abusive or harmful uses of the service, nor developing, testing, or improving capabilities designed to prevent abuse use and/or harmful outputs. No Microsoft personnel have access to this content. Customer bears the sole risk and responsibility for any use of any AOAI-powered features, including use by Customer’s end users. For more information, see the [Azure OpenAI product documentation](/legal/cognitive-services/openai/data-privacy).
 
-The Azure OpenAI Service is currently available in limited geographies. By using it through Viva Sales, you're affirming that you understand that Azure OpenAI services may be performed in a data center other than the data center that maintains your data. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+The Azure OpenAI Service is currently available in limited geographies. By using Copilot features powered by Azure OpenAI, you agree that data may be stored and/or processed outside of your geographic region, compliance boundary, or national cloud instance. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## FAQ
 
