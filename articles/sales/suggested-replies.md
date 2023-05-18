@@ -1,7 +1,7 @@
 ---
 title: Set up email insights
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 04/05/2023
+ms.date: 05/18/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -29,7 +29,7 @@ As an administrator, you can allow Viva Sales to generate suggested email conten
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
-> - Suggested email replies is currently available only in English.
+> - Suggested email content is available in [supported languages](supported-languages.md).
 > -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 **To enable suggested email content in Outlook**
@@ -58,9 +58,9 @@ You can control whether sellers can generate suggested email content that contai
 
 ## Data access and use
 
-As part of providing AI suggestions (via Azure OpenAI), Microsoft will process and store Customer Data submitted to the service, as well as Output Content, for purposes of (1) monitoring for and preventing abusive or harmful uses or outputs of the service; and (2) developing, testing, and improving capabilities designed to prevent abusive use of and/or harmful outputs from the service. Authorized Microsoft employees may review data that has triggered our automated systems to investigate and verify potential abuse. Microsoft engineers and data scientists may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. For more information, see the [Azure OpenAI product documentation](/legal/cognitive-services/openai/data-privacy).
+As part of providing AI suggestions (via Azure OpenAI), Viva Sales does not process and store content submitted to the Azure OpenAI Service for monitoring or preventing abusive or harmful uses of the service, nor developing, testing, or improving capabilities designed to prevent abuse use and/or harmful outputs. No Microsoft personnel have access to this content. Customer bears the sole risk and responsibility for any use of any AOAI-powered features, including use by Customer’s end users. For more information, see the [Azure OpenAI product documentation](/legal/cognitive-services/openai/data-privacy).
 
-The Azure OpenAI Service is currently available in limited geographies. By using it through Viva Sales, you're affirming that you understand that Azure OpenAI services may be performed in a data center other than the data center that maintains your data. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+The Azure OpenAI Service is currently available in limited geographies. By using Copilot features powered by Azure OpenAI, you agree that data may be stored and/or processed outside of your geographic region, compliance boundary, or national cloud instance. Learn more about [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## FAQ
 
