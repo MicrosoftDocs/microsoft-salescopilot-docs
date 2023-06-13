@@ -34,10 +34,10 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |Annotation  |Description  |
 |---------|---------|
 |1     |Select to customize forms and fields.  |
-|2     |Add a new custom or out-of-the-box entity. More information: [Add a new entity](#add-a-new-record-type)  |
+|2     |Add a new custom or out-of-the-box entity. More information: [Add a new entity](#add-a-new-entity)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
-|4     |Record types added to Viva Sales.  |
-|5     |CRM view used to control the form of an entity. More information: [Change view of an entity](#change-view-of-a-record-type) |
+|4     |Entities added to Viva Sales.  |
+|5     |CRM view used to control the form of an entity. More information: [Change view of an entity](#change-view-of-an-entity) |
 
 You can select an entity to view and edit its settings.
 
@@ -54,9 +54,9 @@ You can add new custom or out-of-the-box entities to Viva Sales. For example, yo
 
 1. In Viva Sales admin settings, select **Forms**.
 
-2. Select **Add a record type**.
+2. Select **Add a record type** or **Add an object**.
 
-3. In the **Add a record type** window, select an entity to add, and then select **Next**.
+3. In the **Add a record type** or **Add an object** window, select an entity to add, and then select **Next**.
 
     > [!NOTE]
     > - Only entities that are related to a currently available entity are displayed. For example, contact, account, and opportunity entities are available by default, so you can add other out-of-the-box and custom entities that are related to these entities.
