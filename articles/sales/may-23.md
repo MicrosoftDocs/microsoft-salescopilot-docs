@@ -59,4 +59,4 @@ None
 
 ## Additional resources
 
-Coming soon
+[What's New in Viva Sales – May 2023 - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales-blog/what-s-new-in-viva-sales-may-2023/ba-p/3822886)
