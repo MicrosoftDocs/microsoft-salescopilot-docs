@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Viva Sales.
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -25,7 +25,7 @@ Changes made to record types are reflected in the Viva Sales pane in Outlook and
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
 > [!IMPORTANT]
-> The term record type used in this article refers to an object in Viva Sales. The term displayed on user interface depends on the CRM system you're connected to. If you're connected to Dynamics 365, **record type** is displayed. If you're connected to Salesforce, **object** is displayed.
+> The term record type used in this article refers to a Salesforce object in Viva Sales. The term displayed on user interface depends on the CRM system you're connected to. If you're connected to Dynamics 365, **record type** is displayed. If you're connected to Salesforce, **object** is displayed.
 
 :::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing Viva Sales admin settings.":::
 
