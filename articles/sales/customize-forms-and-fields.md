@@ -44,12 +44,12 @@ You can select a record type to view and edit its settings.
 
 CRM administrators must access administrator settings from the Viva Sales app in Teams. More information: [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md)
 
-## Add a new record type
+## Add a new record type (or a Salesforce object)
 
-You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
+You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects. You can add a maximum of 10 record types.
 
-> [!NOTE]
-> You can add up to 10 record types.
+> [!IMPORTANT]
+> The term record type refers to a Salesforce object in Viva Sales.
 
 1. In Viva Sales admin settings, select **Forms**.
 
