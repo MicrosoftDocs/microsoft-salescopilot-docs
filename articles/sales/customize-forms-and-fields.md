@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Viva Sales.
-ms.date: 06/15/2023
+ms.date: 06/19/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -18,7 +18,10 @@ As an administrator, you can customize the CRM information that's displayed in V
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-Viva Sales forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For contact, account, and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view. 
+Viva Sales forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
+
+> [!NOTE]
+> You cannot select a view for the Contact record type.
 
 Changes made to record types are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Viva Sales to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Viva Sales app for Teams through messaging extensions, you can search for records of the added record types.
 
