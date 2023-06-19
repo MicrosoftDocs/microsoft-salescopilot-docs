@@ -36,7 +36,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |Annotation  |Description  |
 |---------|---------|
 |1     |Select to customize forms and fields.  |
-|2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type)  |
+|2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type-or-a-salesforce-object)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
 |4     |Record types added to Viva Sales.  |
 |5     |CRM view used to control the form of a record type. More information: [Change view of a record type](#change-view-of-a-record-type) |
