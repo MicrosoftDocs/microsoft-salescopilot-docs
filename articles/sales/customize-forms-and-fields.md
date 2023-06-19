@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Viva Sales.
-ms.date: 05/23/2023
+ms.date: 06/19/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -18,11 +18,17 @@ As an administrator, you can customize the CRM information that's displayed in V
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-Viva Sales forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For contact, account, and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view. 
+Viva Sales forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
+
+> [!NOTE]
+> You cannot select a view for the Contact record type.
 
 Changes made to record types are reflected in the Viva Sales pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Viva Sales to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Viva Sales app for Teams through messaging extensions, you can search for records of the added record types.
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
+
+> [!IMPORTANT]
+> The term record type used in this article refers to a Salesforce object in Viva Sales. The term displayed on user interface depends on the CRM system you're connected to. If you're connected to Dynamics 365, **record type** is displayed. If you're connected to Salesforce, **object** is displayed.
 
 :::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing Viva Sales admin settings.":::
 
@@ -30,7 +36,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |Annotation  |Description  |
 |---------|---------|
 |1     |Select to customize forms and fields.  |
-|2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type)  |
+|2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type-or-a-salesforce-object)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
 |4     |Record types added to Viva Sales.  |
 |5     |CRM view used to control the form of a record type. More information: [Change view of a record type](#change-view-of-a-record-type) |
@@ -41,18 +47,18 @@ You can select a record type to view and edit its settings.
 
 CRM administrators must access administrator settings from the Viva Sales app in Teams. More information: [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md)
 
-## Add a new record type
+## Add a new record type (or a Salesforce object)
 
-You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects.
+You can add new custom or out-of-the-box record types to Viva Sales. For example, you can add a custom record type called "Project" to track projects. You can add a maximum of 10 record types.
 
-> [!NOTE]
-> You can add up to 10 record types.
+> [!IMPORTANT]
+> The term record type refers to a Salesforce object in Viva Sales.
 
 1. In Viva Sales admin settings, select **Forms**.
 
-2. Select **Add a record type**.
+2. Select **Add a record type** or **Add an object**.
 
-3. In the **Add a record type** window, select a record type to add, and then select **Next**.
+3. In the **Add a record type** or **Add an object** window, select a record type to add, and then select **Next**.
 
     > [!NOTE]
     > - Only record types that are related to a currently available record type are displayed. For example, contact, account, and opportunity record types are available by default, so you can add other out-of-the-box and custom record types that are related to these record types.
