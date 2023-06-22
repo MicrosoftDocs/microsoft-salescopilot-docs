@@ -95,7 +95,7 @@ To make onboarding to Viva Sales easier for select organizations, Microsoft will
 
 Auto installation is rolled out in phases to select organizations. Organization will receive a notification in both the **Microsoft 365 admin center** as well as the **Power Platform admin center**. Each organization can opt out of auto-installation in the specified period of time. Once the capablity is rolled-out, the Outlook add-in and Microsoft Teams app cannot be uninstalled from **Microsoft 365 admin center**, but users can choose to uninstall them from their respective Outlook and Teams clients, and a new install will not be performed automatically.
 
-Auto-installed apps are considered as user-deployed and will not have full feature support. User-deployed apps don't support Viva Sales banner notifications that appear within the top of new or reply emails. Also, the Viva Sales is not added automatically to meeting invites. However, sellers can manually add Viva Sales to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your seller from **Microsoft 365 admin center**.
+Auto-installed apps are considered as user-deployed and will not have full feature support. User-deployed apps don't support Viva Sales banner notifications that appear within the top of new or reply emails. Also, the Viva Sales is not added automatically to meeting invites. However, sellers can manually add Viva Sales to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps will be considered as admin-deployed and will have full feature support.
 
 
 ## Community
