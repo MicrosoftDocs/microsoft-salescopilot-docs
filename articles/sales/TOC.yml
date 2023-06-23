@@ -17,22 +17,22 @@
 
 - name: Get started
   items:
-  - name: Deployment
-    items:
-    - name: Deployment guide for Dynamics 365 users
-      href: deploy-viva-sales-d365.md
-    - name: Deployment guide for Salesforce users
-      href: deploy-viva-sales-sf.md
+  - name: Deployment guide for Dynamics 365 users
+    href: deploy-viva-sales-d365.md
+  - name: Deployment guide for Salesforce users
+    href: deploy-viva-sales-sf.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Viva Sales 
     href: data-handling.md
   - name: Install Viva Sales
-    href: install-viva-sales.md
-  - name: Install Viva Sales add-in for Outlook
-    href: install-viva-sales-as-an-integrated-app.md
-  - name: Install and pin Viva Sales in Teams
-    href: install-pin-viva-sales-teams.md
+    items:
+    - name: Install Viva Sales
+      href: install-viva-sales.md
+    - name: Install Viva Sales add-in for Outlook
+      href: install-viva-sales-as-an-integrated-app.md
+    - name: Install and pin Viva Sales in Teams
+      href: install-pin-viva-sales-teams.md
 
 
 - name: Administration
