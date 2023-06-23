@@ -1,7 +1,7 @@
 ---
 title: Viva Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Viva Sales for Dynamics 365 customers.
-ms.date: 04/05/2023
+ms.date: 06/23/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
