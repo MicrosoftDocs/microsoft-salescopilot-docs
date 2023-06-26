@@ -1,7 +1,7 @@
 ---
 title: Set up Copilot in Viva Sales
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 06/19/2023
+ms.date: 06/26/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
