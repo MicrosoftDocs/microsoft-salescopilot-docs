@@ -1,7 +1,7 @@
 ---
-title: Set up email insights
+title: Set up Copilot in Viva Sales
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 05/18/2023
+ms.date: 06/26/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,49 +12,59 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Set up email insights
+# Set up Copilot in Viva Sales
 
-Viva Sales can help sellers write better emails and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system.
+Viva Sales can help sellers write better emails, take better notes, and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system.
 
 As an administrator, you can configure:
 
-- **Suggested email content**: Makes it easy for sellers to compose and reply to emails quickly and confidently with the suggested content.
+- **Copilot in Viva Sales**: Allows sellers to use copilot features that are generally available.
 
-- **Summarizing sales meeting**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
+- **Copilot preview features**: Allows sellers to try out copilot features that are in preview. 
 
 
-## Configure suggested email content in Outlook
+## Copilot in Viva Sales
 
-As an administrator, you can allow Viva Sales to generate suggested email content using context from Outlook, your CRM, and GPT technology. This makes it easy for your sellers to compose or reply to emails quickly and confidently. By default, the capability to generate suggested content is turned on.
+Enable copilot features so your sellers can benefit from the available copilot capabilities in Viva Sales.
+
+Following are the generally available Copilot features:
+
+- **Generate suggested email content**: Allows sellers to generate suggested email content using context from Outlook, your CRM, and AI. This makes it easy for your sellers to compose or reply to emails quickly and confidently.
+- **View and save email summary**: Allows sellers to view a summary of the recent emails and save it to the CRM system.
 
 > [!NOTE]
+> - Copilot features are enabled by default for new customers with Dynamics 365 Sales in North America (NAM).
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
-> - Suggested email content is available in [supported languages](supported-languages.md).
-> -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+> - Generally available Copilot features in Viva Sales are available in [supported languages](supported-languages.md).
+> -  Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
-**To enable suggested email content in Outlook**
+### Turn on Copilot features in Viva Sales
 
-1.  In Viva Sales admin settings, select **Email**.
+1.  In Viva Sales admin settings, select **Copilot**.
 
-2.  Turn on **Suggested email content**.
+2.  Turn on **Copilot in Viva Sales**.
 
-    :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to generate suggested email content.":::
+    :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to turon on Copilot features.":::
 
-## Preview: Configure sales meeting summarization
 
-> [!IMPORTANT]
-> This feature is currently available only for public preview customers and is subject to change.
+## Copilot preview features
 
-You can control whether sellers can generate suggested email content that contains an automated recap of a recent recorded Teams meeting with sales contacts.
+Allow sellers to benefit from the preview features before they are generally available. By default, preview features are turned off. You can turn them on in Viva Sales admin settings.
 
-1. In Viva Sales admin settings, select **Email**.
+Following are the preview features:
+    
+- **Summarize sales meeting**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
 
-2. Under **Suggested email content**, select **Include the option to summarize sales meetings (preview)**.
+- **View opportunity summary**: Allows sellers to view a summary of the recent notes added to an opportunity.
 
-    > [!NOTE]
-    > The option to summarize sales meeting is available only when **Suggested email content** is turned on.
 
-    :::image type="content" source="media/viva-sales-summary-admin.png" alt-text="Setting to allow sellers to summarize sales meetings.":::
+### Turn on copilot preview features in Viva Sales
+
+1. In Viva Sales admin settings, select **Copilot**.
+
+2. Under **Copilot in Viva Sales**, select **Try our newest preview features before they're rolled out to everyone.**.
+
+    :::image type="content" source="media/viva-sales-summary-admin.png" alt-text="Setting to turn on Copilot preview features.":::
 
 ## Data access and use
 
@@ -64,10 +74,10 @@ The Azure OpenAI Service is currently available in limited geographies. By using
 
 ## FAQ
 
-### Users don't see the **Copy to email** button and instead only the **Copy text** button in the suggested e-mail feature.
+### Why do sellers see the Copy text button instead of the Copy to email button in the suggested email content feature?
 
 Ensure that the Viva Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality. For information on how to update the add-in, go to [Update the Viva Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
 
 ### See also
 
-[Use AI to kickstart email replies](https://support.microsoft.com/topic/use-ai-to-kickstart-email-replies-148708be-e1f9-477c-baba-0b4dd4b7abef)
+[Use AI to kickstart email message](https://support.microsoft.com/topic/use-ai-to-kickstart-email-replies-148708be-e1f9-477c-baba-0b4dd4b7abef)
