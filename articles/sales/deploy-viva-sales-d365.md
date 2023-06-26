@@ -74,9 +74,9 @@ Viva Sales comes preconfigured to allow users to be productive out-of-the-box. W
 
 ![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin.png "Screenshot showing form settings in Viva Sales admin center.")
 
-You can set up email insights in Viva Sales to generate suggested email content using context from Outlook, your CRM, and using GPT technology. More information: [Set up email insights](suggested-replies.md).
+You can set up Copilot in Viva Sales to use copilot features that are in preview or generally available. More information: [Set up Copilot in Viva Sales](suggested-replies.md).
 
-![Screenshot showing email insights settings in Viva Sales admin center ](media/viva-sales-replies-admin.png "Screenshot showing email insights settings in Viva Sales admin center.")
+![Screenshot showing Copilot settings in Viva Sales admin center ](media/viva-sales-replies-admin.png "Screenshot showing Copilot settings in Viva Sales admin center.")
 
 You have now installed and configured Viva Sales in Outlook and Teams.
 
