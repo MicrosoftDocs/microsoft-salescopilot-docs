@@ -18,14 +18,14 @@ Viva Sales can help sellers write better emails, take better notes, and stay on 
 
 As an administrator, you can configure:
 
-- **Copilot in Viva Sales**: Allows sellers to use Copilot features that are generally available.
+- **Copilot in Viva Sales**: Allows sellers to use copilot features that are generally available.
 
-- **Copilot preview features**: Allows sellers to try out new features that are in preview. 
+- **Copilot preview features**: Allows sellers to try out copilot features that are in preview. 
 
 
 ## Copilot in Viva Sales
 
-Enable Copilot features so your sellers can benefit from the available Copilot capabilities in Viva Sales.
+Enable copilot features so your sellers can benefit from the available copilot capabilities in Viva Sales.
 
 Following are the generally available Copilot features:
 
@@ -49,7 +49,7 @@ Following are the generally available Copilot features:
 
 ## Copilot preview features
 
-Allow sellers to benefit from the latest new features before they are generally available. By default, preview features are turned off. You can turn them on in Viva Sales admin settings.
+Allow sellers to benefit from the preview features before they are generally available. By default, preview features are turned off. You can turn them on in Viva Sales admin settings.
 
 Following are the preview features:
     
@@ -58,11 +58,11 @@ Following are the preview features:
 - **View opportunity summary**: Allows sellers to view a summary of the recent notes added to an opportunity.
 
 
-### Turn on Copilot preview features in Viva Sales
+### Turn on copilot preview features in Viva Sales
 
 1. In Viva Sales admin settings, select **Copilot**.
 
-2. Under **Copilot in Viva Sales**, select **Try our newest preview features before they’re rolled out to everyone.**.
+2. Under **Copilot in Viva Sales**, select **Try our newest preview features before they're rolled out to everyone.**.
 
     :::image type="content" source="media/viva-sales-summary-admin.png" alt-text="Setting to turn on Copilot preview features.":::
 

@@ -100,7 +100,7 @@ Viva Sales comes preconfigured to allow users to be productive out-of-the-box. W
 
 ![Screenshot showing form settings in Viva Sales admin center ](media/viva-sales-forms-admin-sf.png "Screenshot showing form settings in Viva Sales admin center.")
 
-You can set up Copilot in Viva Sales to use generally available and preview features. More information: [Set up Copilot in Viva Sales](suggested-replies.md).
+You can set up Copilot in Viva Sales to use copilot features that are in preview or generally available. More information: [Set up Copilot in Viva Sales](suggested-replies.md).
 
 ![Screenshot showing Copilot settings in Viva Sales admin center ](media/viva-sales-replies-admin-sf.png "Screenshot showing Copilot settings in Viva Sales admin center.")
 
