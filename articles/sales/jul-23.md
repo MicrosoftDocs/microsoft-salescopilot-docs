@@ -1,6 +1,6 @@
 ﻿---
 title: What's new in Microsoft Viva Sales - July 2023
-description: Information about new features, improvements, and bug fixes in Microsoft Viva Sales June 2023 release.
+description: Information about new features, improvements, and bug fixes in Microsoft Viva Sales July 2023 release.
 ms.date: 07/07/2023
 ms.topic: article
 ms.service: viva
