@@ -3,16 +3,16 @@
 
 - name: What's new in Viva Sales
   items:
-  - name: March 2023
-    href: mar-23.md
-  - name: April 2023
-    href: apr-23.md
-  - name: May 2023
-    href: may-23.md
-  - name: June 2023
-    href: jun-23.md
   - name: July 2023
     href: jul-23.md
+  - name: June 2023
+    href: jun-23.md
+  - name: May 2023
+    href: may-23.md
+  - name: April 2023
+    href: apr-23.md
+  - name: March 2023
+    href: mar-23.md
 
 - name: Architecture overview
   href: architecture.md
