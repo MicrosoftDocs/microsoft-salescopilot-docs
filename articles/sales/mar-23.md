@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# March 2023 update
+# What's new in the March 2023 update
 
 We're excited to announce our newest updates! This article summarizes general availability features, preview features, monthly enhancements, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
