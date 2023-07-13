@@ -28,4 +28,4 @@ A few Viva Sales features run within a Microsoft 365 app service apart from the 
 
 ## Viva Sales email notification banner
 
-To help users in finding Viva Sales when interacting with external customer emails, a Microsoft 365 service is used to process incoming emails and provide a notification banner at the top of incoming emails. Banner notifications are displayed only twice in a day. The incoming email must be from an external email domain, or an external email address is included in the **To** or **Cc** field. 
+To help users in finding Viva Sales when interacting with external customer emails, a Microsoft 365 service is used to process incoming emails and provide a notification banner at the top of incoming emails. Banner notifications are displayed on a limited number of emails per day when either the incoming email is from an external email domain or an external email address is included in the **To** or **Cc** field. 
