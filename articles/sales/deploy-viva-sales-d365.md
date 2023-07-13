@@ -54,7 +54,13 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
     ![Screenshot showing how to enable transcription in Teams admin center ](media/enable-transcription-teams.png "Screenshot showing how to enable transcription in Teams admin center.")
 
-## Step 4: Verify users have the right security roles
+## Step 4: Set up server-side synchronization of emails and appointments
+
+Viva Sales allows sellers to save Outlook emails and appointments to Dynamics 365. Saving Outlook activities to Dynamics 365 requires [server-side synchronization for emails and appointments](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) to be enabled. While sellers can enable server-side synchronization for their own mailboxes when they save Outlook activities to Dynamics 365 using Viva Sales for the first time, you can simplify their experience by setting up server-side synchronization of emails and appointments for all Viva Sales users. 
+
+For information about enabling server-side synchronization, see [Connect to Exchange Online](/power-platform/admin/connect-exchange-online). 
+
+## Step 5: Verify users have the right security roles
 
 If you're using the following out-of-the-box Dynamics 365 Sales security roles, no action is needed. Viva Sales privileges are added automatically for:
 
@@ -64,7 +70,7 @@ If you're using the following out-of-the-box Dynamics 365 Sales security roles, 
 
 If you're using custom security roles, see [Additional privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers) to assign users the right roles and privileges.
 
-## Step 5 (optional): Customize Viva Sales
+## Step 6 (optional): Customize Viva Sales
 
 Viva Sales provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Viva Sales](administrator-settings-for-viva-sales.md) article to learn more.
 
@@ -80,7 +86,7 @@ You can set up Copilot in Viva Sales to use copilot features that are in preview
 
 You have now installed and configured Viva Sales in Outlook and Teams.
 
-## Step 6: Welcome sellers in your organization to Viva Sales
+## Step 7: Welcome sellers in your organization to Viva Sales
 
 Here's an example email message to share with your sellers, welcoming them to Viva Sales.
 
