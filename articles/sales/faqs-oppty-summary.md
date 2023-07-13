@@ -57,4 +57,4 @@ To minimize the impact, users should supplement the retrieved information with t
 
 ## See also
 
-- [Feature page]([Link])
+- [View opportunity summary](https://support.microsoft.com/topic/preview-view-opportunity-summary-373ddcee-10d5-4a14-bfaf-298529ee8fbf)

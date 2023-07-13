@@ -57,4 +57,4 @@ To minimize the impact, users should review and customize the generated drafts t
 
 ## See also
 
-- [Feature page]([Link])
+- [Use Copilot to kickstart email messages](https://support.microsoft.com/topic/use-copilot-to-kickstart-email-messages-148708be-e1f9-477c-baba-0b4dd4b7abef)

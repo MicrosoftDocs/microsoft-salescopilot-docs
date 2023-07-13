@@ -57,4 +57,4 @@ To minimize the impact, users should carefully review the summaries and verify c
 
 ## See also
 
-- [Feature page]([Link])
+- [View and save email summary to CRM](https://support.microsoft.com/topic/view-and-save-email-summary-to-crm-7968335e-5c4d-4faf-a57f-5a4ff97ab6d2)

@@ -71,6 +71,8 @@
 
 - name: Responsible AI
   items:
+  - name: Overview
+    href: responsible-ai-overview.md
   - name: FAQ for generate content
     href: faqs-generate-content.md
   - name: FAQ for email summary
@@ -78,4 +80,4 @@
   - name: FAQ for meeting follow-up
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
-    href: faqs-opportunity-summary.md
+    href: faqs-oppty-summary.md
