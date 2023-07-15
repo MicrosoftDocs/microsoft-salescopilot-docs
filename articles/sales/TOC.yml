@@ -1,7 +1,7 @@
-- name: Microsoft Viva Sales
+- name: Microsoft Sales Copilot
   href: introduction.md
 
-- name: What's new in Viva Sales
+- name: What's new in Sales Copilot
   items:
   - name: July 2023
     href: jul-23.md
@@ -25,15 +25,15 @@
     href: deploy-viva-sales-sf.md
   - name: Supported languages
     href: supported-languages.md
-  - name: Data handling in Viva Sales 
+  - name: Data handling in Sales Copilot 
     href: data-handling.md
-  - name: Install Viva Sales
+  - name: Install Sales Copilot
     items:
-    - name: Install Viva Sales
+    - name: Install Sales Copilot
       href: install-viva-sales.md
-    - name: Install Viva Sales add-in for Outlook
+    - name: Install Sales Copilot add-in for Outlook
       href: install-viva-sales-as-an-integrated-app.md
-    - name: Install and pin Viva Sales in Teams
+    - name: Install and pin Sales Copilot in Teams
       href: install-pin-viva-sales-teams.md
 
 
@@ -43,28 +43,28 @@
     href: administrator-settings-for-viva-sales.md
   - name: Customize forms and fields
     href: customize-forms-and-fields.md
-  - name: Set up Copilot in Viva Sales
+  - name: Set up Copilot in Sales Copilot
     href: suggested-replies.md
-  - name: Configure Viva Sales for Microsoft 365 apps
+  - name: Configure Sales Copilot for Microsoft 365 apps
     href: m365-admin-setting.md
 
 - name: Management
   items:
-  - name: Remove Viva Sales from the admin center
+  - name: Remove Sales Copilot from the admin center
     href: disable-viva-sales.md
-  - name: Block the Viva Sales app in Teams
+  - name: Block the Sales Copilot app in Teams
     href: block-viva-sales-app-teams.md
 
 - name: Troubleshooting guide
   items:
-  - name: Salesforce CRM users unable to see data in Viva Sales
+  - name: Salesforce CRM users unable to see data in Sales Copilot
     href: tsg-no-column.md
-  - name: First Salesforce CRM user unable to access Viva Sales
+  - name: First Salesforce CRM user unable to access Sales Copilot
     href: tsg-trial-env.md
 
-- name: Use Viva Sales
+- name: Use Sales Copilot
   items:
-  - name: Use Viva Sales in Outlook
+  - name: Use Sales Copilot in Outlook
     href: https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081
-  - name: Use Viva Sales in Teams
+  - name: Use Sales Copilot in Teams
     href: https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea
