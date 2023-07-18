@@ -1,6 +1,6 @@
 ---
 title: Error after connecting and signing in to Salesforce CRM
-description: Troubleshoot and resolve error messages in Viva Sales related to error message after connecting and signing in to Salesforce CRM.
+description: Troubleshoot and resolve error messages in Sales Copilot related to error message after connecting and signing in to Salesforce CRM.
 ms.date: 06/18/2023
 ms.topic: article
 ms.service: viva
@@ -14,13 +14,15 @@ ms.subservice: viva-sales
 
 # Error after connecting and signing in to Salesforce CRM
 
-This article helps you troubleshoot and resolve error messages in Viva Sales related to users connecting and signing into Salesforce. 
+[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+
+This article helps you troubleshoot and resolve error messages in Sales Copilot related to users connecting and signing into Salesforce. 
 
 ## Who is affected?
 
 |  |  |
 |---------|---------|
-|**Client app**     |  Viva Sales Outlook add-in        |
+|**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
@@ -29,13 +31,13 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 
 ## Symptom
 
-After a user signs in to Salesforce CRM, the following error message is displayed in the Viva Sales Outlook add-in:
+After a user signs in to Salesforce CRM, the following error message is displayed in the Sales Copilot Outlook add-in:
 
 :::image type="content" source="media/tsg-api-perm-error.png" alt-text="API permission error":::
 
 ## Root cause and resolution
 
-### Issue 1: Viva Sales displays an error stating the REST API isn't enabled for this organization 
+### Issue 1: Sales Copilot displays an error stating the REST API isn't enabled for this organization 
 
 #### Root cause
 
@@ -64,10 +66,10 @@ System.Exception: {
 
 You must be a Salesforce administrator to resolve the issue.
 
-1. In Salesforce **Setup**, open the profile assigned to the Viva Sales user, and then select **Edit**.
+1. In Salesforce **Setup**, open the profile assigned to the Sales Copilot user, and then select **Edit**.
 2. In the **Administrative Settings** section, select **API Enabled**. 
 3. Select **Save**.
 
 ## Is your issue still not resolved?
 
-Visit the [Viva Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
