@@ -1,6 +1,6 @@
 ---
-title: Install and pin Viva Sales in Teams
-description: Learn how to install and pin Viva Sales in Teams
+title: Install and pin Sales Copilot in Teams
+description: Learn how to install and pin Sales Copilot in Teams
 ms.date: 03/27/2023
 ms.topic: article
 ms.service: viva
@@ -12,15 +12,17 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Install and pin Viva Sales in Teams
+# Install and pin Sales Copilot in Teams
 
-When you install Viva Sales as an integrated app, the Viva Sales app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
+[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+
+When you install Sales Copilot as an integrated app, the Sales Copilot app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
-> - The Teams meeting must be transcribed for Viva Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection between Viva Sales and your CRM is controlled through Viva Sales add-in in Outlook. More information: [Use Viva Sales in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+> - The Teams meeting must be transcribed for Sales Copilot to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
+> - The connection between Sales Copilot and your CRM is controlled through Sales Copilot add-in in Outlook. More information: [Use Sales Copilot in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
 
 ## Create a custom Teams app setup policy
 
@@ -36,17 +38,17 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 6.  Under **Installed apps**, select **Add apps**.
 
-7.  In the **Add installed apps** panel, search for the **Viva Sales** app. You can also filter apps by app permission policy.
+7.  In the **Add installed apps** panel, search for the **Sales Copilot** app. You can also filter apps by app permission policy.
 
-8.  Select **Add** to add Viva Sales to the list of apps to install.
+8.  Select **Add** to add Sales Copilot to the list of apps to install.
 
 9.  Select **Add** again to install the listed apps.
 
 10. Under **Pinned apps**, select **Add apps**.
 
-11. In the **Add pinned apps** panel, search for the **Viva Sales** app. You can also filter apps by app permission policy.
+11. In the **Add pinned apps** panel, search for the **Sales Copilot** app. You can also filter apps by app permission policy.
 
-12. Select **Add** to add Viva Sales to the list of apps to pin.
+12. Select **Add** to add Sales Copilot to the list of apps to pin.
 
 13. Select **Add** again to pin the listed apps.
 
@@ -78,5 +80,5 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ### See also
 
-[Install Viva Sales from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)
+[Install Sales Copilot from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Sales Copilot from AppSource](install-viva-sales-individual-add-in-appsource.md)
