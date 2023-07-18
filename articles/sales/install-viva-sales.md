@@ -1,6 +1,6 @@
 ---
-title: Install Viva Sales
-description: Learn what are the various ways to install Viva Sales
+title: Install Sales Copilot
+description: Learn what are the various ways to install Sales Copilot
 ms.date: 04/11/2023
 ms.topic: article
 ms.service: viva
@@ -12,13 +12,15 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Install Viva Sales
+# Install Sales Copilot
 
-You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
+[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
 
-You can install Viva Sales as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability. 
+You need to be a Microsoft 365 administrator to deploy and install the Sales Copilot add-in for Outlook. You need to be a Teams administrator to deploy and install Sales Copilot for Teams.
 
-The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Viva Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
+You can install Sales Copilot as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability. 
+
+The add-in is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Sales Copilot app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
 
 > [!NOTE]
@@ -29,17 +31,17 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
-## Privileges required to use Viva Sales
+## Privileges required to use Sales Copilot
 
-Viva Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales.
+Sales Copilot applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales Copilot.
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Viva Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Viva Sales app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Sales Copilot in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Sales Copilot app for Teams.
 
 ### Permissions required for Salesforce administrators
 
-Salesforce administrators who need to customize Viva Sales must have the following permissions.
+Salesforce administrators who need to customize Sales Copilot must have the following permissions.
 
 |Requirement type  |You must have  |
 |---------|---------|
@@ -49,28 +51,28 @@ Salesforce administrators who need to customize Viva Sales must have the followi
 
 #### Dynamics 365 administrators
 
-If you're using out-of-the-box System Administrator or System Customizer security roles, Viva Sales administration privileges are added automatically.
+If you're using out-of-the-box System Administrator or System Customizer security roles, Sales Copilot administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Viva Sales. 
+If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Sales Copilot. 
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role     | Viva Sales Administrator |
+|Security role     | Sales Copilot Administrator |
 |Privilege     | **Read** privilege on **User** table     |
 
 #### Dynamics 365 sellers
 
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Viva sales privileges are added automatically and no further action is required.
+If you're using the out-of-the-box Salesperson or Sales Manager security roles, Sales Copilot privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Viva Sales.
+If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Sales Copilot.
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role     | Viva Sales User |
+|Security role     | Sales Copilot User |
 |Privilege     | **Read** privilege on **User** table     |
 
 
-The **Viva Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 
 For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
@@ -78,22 +80,22 @@ To edit custom security roles to match with out-of-the-box Salesperson or Sales 
 
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-## Deploy Viva Sales
+## Deploy Sales Copilot
 
-Looking for step-by-step instructions on how to deploy Viva Sales? Here are the Viva Sales deployment guides:
+Looking for step-by-step instructions on how to deploy Sales Copilot? Here are the Sales Copilot deployment guides:
 
-- [Viva Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
-- [Viva Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+- [Sales Copilot deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
+- [Sales Copilot deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
 
-## How to use Viva Sales?
+## How to use Sales Copilot?
 
-After you install Viva Sales for your users, they can start using it in Outlook and Teams. For information on how to use Viva Sales, see:
+After you install Sales Copilot for your users, they can start using it in Outlook and Teams. For information on how to use Sales Copilot, see:
 
-- [Use Viva Sales in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
-- [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea)
+- [Use Sales Copilot in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+- [Use Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea)
 
 ### See also
 
-[Install Viva Sales from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Viva Sales from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
-[Install and pin Viva Sales in Teams](install-pin-viva-sales-teams.md)
+[Install Sales Copilot from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
+[Install Sales Copilot from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md)

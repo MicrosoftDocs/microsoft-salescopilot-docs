@@ -1,6 +1,6 @@
 ---
-title: Supported languages in Viva Sales
-description: Lean which languages are supported in Viva Sales
+title: Supported languages in Sales Copilot
+description: Lean which languages are supported in Sales Copilot
 ms.date: 05/15/2023
 ms.topic: article
 ms.service: viva
@@ -12,7 +12,11 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Supported languages in Viva Sales
+# Supported languages in Sales Copilot
+
+[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+
+## User interface
 
 User interface is available in the following languages:
 
@@ -41,6 +45,8 @@ User interface is available in the following languages:
 - Thai
 - Turkish
 
+## Conversation intelligence
+
 Conversation intelligence is available in the following languages:
 
 - Chinese   Simplified (PRC)
@@ -60,7 +66,9 @@ Conversation intelligence is available in the following languages:
 - Norwegian
 - Arabic
 
-Copilot in Viva Sales is available in the following languages:
+## AI in Sales Copilot
+
+AI in Sales Copilot is available in the following languages:
 
 - English
 - French
