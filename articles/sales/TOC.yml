@@ -60,7 +60,13 @@
   - name: Salesforce CRM users unable to see data in Sales Copilot
     href: tsg-no-column.md
   - name: First Salesforce CRM user unable to access Sales Copilot
-    href: tsg-trial-env.md
+    href: tsg-trial-env.md  
+  - name: Missing privileges in Dynamics 365
+    href: tsg-missing-roles.md
+  - name: Unable to update records in Viva Sales when connected to Salesforce CRM
+    href: tsg-record-update-perm.md
+  - name: Error after connecting and signing in to Salesforce CRM
+    href: tsg-api-perm.md
 
 - name: Use Sales Copilot
   items:
