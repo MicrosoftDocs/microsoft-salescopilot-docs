@@ -1,6 +1,6 @@
 ---
-title: Error after connecting and sigining in to Salesforce CRM
-description: Troubleshoot and resolve error messages in Viva Sales related to error message after connecting and sigining in to Salesforce CRM.
+title: Error after connecting and signing in to Salesforce CRM
+description: Troubleshoot and resolve error messages in Viva Sales related to error message after connecting and signing in to Salesforce CRM.
 ms.date: 06/18/2023
 ms.topic: article
 ms.service: viva
@@ -29,17 +29,17 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 
 ## Symptom
 
-After signing to Salesforce CRM, the following error message is displayed in the Viva Sales Outlook add-in:
+After a user signs in to Salesforce CRM, the following error message is displayed in the Viva Sales Outlook add-in:
 
 :::image type="content" source="media/tsg-api-perm-error.png" alt-text="API permission error":::
 
 ## Root cause and resolution
 
-### Issue 1: Viva Sales displays an error stating the REST API is not enabled for this organization 
+### Issue 1: Viva Sales displays an error stating the REST API isn't enabled for this organization 
 
 #### Root cause
 
-This issue occurs when the user doesn't have API Permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
+The issue occurs when the user doesn't have API Permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
 
 ```
 Exception thrown in VivaSalesContacts/GetContactsByEmailAddress - 

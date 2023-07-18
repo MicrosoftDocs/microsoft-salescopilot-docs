@@ -246,7 +246,7 @@ You can control whether sellers can create contacts inline, directly in Sales Co
 
 Each record type has a mini view that displays limited information when they're collapsed or shown in a list. The mini view is available at various places in the Sales Copilot pane, such as in the quick view on the CRM tab.
 
-The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in Sales Copilot add-in for Outlook. More information: [Search behavior in Sales Copilot add-in for Outlook](#search-behavior-in-viva-sales-add-in-for-outlook)
+The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in Sales Copilot add-in for Outlook. More information: [Search behavior in Sales Copilot add-in for Outlook](#search-behavior-in-sales-copilot-add-in-for-outlook)
 
 ![Screenshot showing mini view of CRM records in Sales Copilot.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Sales Copilot.")
 

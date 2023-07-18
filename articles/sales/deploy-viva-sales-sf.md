@@ -63,7 +63,7 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
 Sales Copilot applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales Copilot.
 
-Salesforce administrators who need to customize Sales Copilot must have the following permissions. More information: [Privileges required to use Sales Copilot](install-viva-sales.md#privileges-required-to-use-viva-sales)
+Salesforce administrators who need to customize Sales Copilot must have the following permissions. More information: [Privileges required to use Sales Copilot](install-viva-sales.md#privileges-required-to-use-sales-copilot)
 
 |Requirement type|You must have|
 |---------------|-------------|

@@ -1,6 +1,6 @@
 ---
 title: Missing privileges in Dynamics 365
-description: Troubleshoot and resolve error messages in Viva Sales related to related to missing privileges in Dynamics 365.
+description: Troubleshoot and resolve error messages in Viva Sales related to missing privileges in Dynamics 365.
 ms.date: 07/18/2023
 ms.topic: article
 ms.service: viva
@@ -25,11 +25,11 @@ This article helps you troubleshoot and resolve error messages in Viva Sales rel
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Dynamics 365        |
-|**Users**     | Users who do not have Viva Sales privileges in Dynamics 365   |
+|**Users**     | Users who don't have Viva Sales privileges in Dynamics 365   |
 
 ## Symptom
 
-When Dynamics 365 users try to sign in to Viva Sales, an error message is displayed indicating that they are missing certain privileges.
+When Dynamics 365 users try to sign in to Viva Sales, an error message is displayed indicating that they're missing certain privileges.
 
 ## Root cause and resolution
 
@@ -41,7 +41,7 @@ Users are missing privileges granted by the **Viva Sales User** role.
 
 #### Resolution
 
-You must assing the [additional privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers) to resolve the issue. 
+You must assign the [additional privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers) to resolve the issue. 
 
 ## Is your issue still not resolved?
 

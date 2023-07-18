@@ -26,7 +26,7 @@ The following administrator settings are available:
 
 ## Prerequisites
 
-- Sales Copilot app must be added to Teams. More information: [Add the Sales Copilot app to Teams](#add-the-viva-sales-app-to-teams)
+- Sales Copilot app must be added to Teams. More information: [Add the Sales Copilot app to Teams](#add-the-sales-copilot-app-to-teams)
 - Administrators must have the latest version of the Sales Copilot app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Sales Copilot in Outlook.
     1. [Launch Sales Copilot from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).

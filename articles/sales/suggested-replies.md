@@ -38,7 +38,7 @@ Following are the generally available Copilot features:
 > - Copilot features are enabled by default for new customers with Dynamics 365 Sales in North America (NAM).
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Generally available Copilot features in Sales Copilot are available in [supported languages](supported-languages.md).
-> -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+> -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
 ### Turn on Copilot features in Sales Copilot
 
@@ -78,7 +78,7 @@ The Azure OpenAI Service is currently available in limited geographies. By using
 
 ### Why do sellers see the Copy text button instead of the Copy to email button in the suggested email content feature?
 
-Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-viva-sales-add-in).
+Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
 ### See also
 
