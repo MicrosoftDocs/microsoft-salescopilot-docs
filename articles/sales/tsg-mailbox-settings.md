@@ -1,7 +1,7 @@
 ---
 title: Unable to save email to CRM due to invalid mailbox settings
 description: Troubleshoot and resolve error messages in Sales Copilot due to invalid mailbox settings in Dynamics 365.
-ms.date: 06/18/2023
+ms.date: 07/20/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
