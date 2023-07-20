@@ -67,6 +67,8 @@
     href: tsg-record-update-perm.md
   - name: Error after connecting and signing in to Salesforce CRM
     href: tsg-api-perm.md
+  - name: Unable to save email to CRM
+    href: tsg-mailbox-settings.md
 
 - name: Use Sales Copilot
   items:
