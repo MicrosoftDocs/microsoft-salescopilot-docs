@@ -69,6 +69,10 @@
     href: tsg-api-perm.md
   - name: Unable to save email to CRM
     href: tsg-mailbox-settings.md
+  - name: Sales Copilot doesn't connect to Dynamics 365
+    href: tsg-two-factor.md
+  - name: Update add-in error
+    href: tsg-update-add-in-error.md
 
 - name: Use Sales Copilot
   items:
