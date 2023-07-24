@@ -1,7 +1,7 @@
 ---
 title: FAQ for meeting follow-up feature in Outlook
 description: This FAQ provides information about the AI technology used in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/13/2023
+ms.date: 07/24/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

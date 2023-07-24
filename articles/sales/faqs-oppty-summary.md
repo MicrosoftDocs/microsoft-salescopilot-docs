@@ -1,7 +1,7 @@
 ---
 title: FAQ for opportunity summary feature in Outlook
 description: This FAQ provides information about the AI technology used in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/13/2023
+ms.date: 07/24/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -34,7 +34,7 @@ End-users provide ongoing feedback on each Copilot feature, along with iterative
 
 ## What are the limitations of this feature? How can users minimize the impact of the limitations when using the system?
 
-The retrieved customer information may be limited to the data available in the CRM system or external sources, potentially missing recent developments, or contextual nuances.
+The retrieved customer information is limited to the data available in the CRM system or external sources, potentially missing recent developments, or contextual nuances.
 
 To minimize the impact, users should supplement the retrieved information with their own knowledge and insights, actively engaging with the customer prior to the meeting to gather up-to-date details and ensure a comprehensive understanding.
 
