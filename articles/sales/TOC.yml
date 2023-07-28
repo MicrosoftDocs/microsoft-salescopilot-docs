@@ -73,6 +73,8 @@
     href: tsg-two-factor.md
   - name: Update add-in error
     href: tsg-update-add-in-error.md
+  - name: Can't create private channels in Teams
+    href: tsg-create-private-channel.md
 
 - name: Use Sales Copilot
   items:
