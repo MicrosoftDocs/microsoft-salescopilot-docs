@@ -203,6 +203,19 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 4.  Select **Publish** to save your changes.
 
+## Mark the fields as required in Sales Copilot
+
+If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record. 
+
+1.	In Sales Copilot admin settings, select Forms.
+
+2.	Select a record type for which you need to mark the fields as required.
+
+3.	In the Manage fields section, select Required for the fields that you want to mark as required.
+
+4.	Select Publish to save the changes.
+
+
 ## Configure editing of records and fields
 
 You can control which records and fields sellers can edit directly in Sales Copilot.
