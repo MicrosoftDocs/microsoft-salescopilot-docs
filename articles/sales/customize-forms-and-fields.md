@@ -205,7 +205,10 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 ## Mark the fields as required in Sales Copilot
 
-If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record. 
+If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record.
+
+> [!NOTE]
+> If a field is marked as required in CRM, it's marked as required in Sales Copilot as well and you can't make it optional.
 
 1.	In Sales Copilot admin settings, select Forms.
 
