@@ -1,0 +1,46 @@
+---
+title: Sign up for a free Microsoft Sales Copilot trial
+description: Learn how to sign up for a free Microsoft Sales Copilot trial
+ms.date: 03/15/2023
+ms.topic: article
+ms.service: viva
+ms.collection: highpri
+author: sbmjais
+ms.author: shjais
+manager: shujoshi
+ms.localizationpriority: medium
+ms.subservice: viva-sales
+---
+
+# Sign up for a free Microsoft Sales Copilot trial
+
+Microsoft Sales Copilot offers a 30-day free trial for 25 users. After a quick sign-up, you'll have access to many of the app's key features. 
+
+## Prerequisites
+
+- A Microsoft 365 license per user to with Microsoft Outlook and Teams
+- A Dynamics 365 or Salesforce CRM license to connect Sales Copilot to
+
+## Get Sales Copilot trial license
+
+> [!NOTE]
+> Steps in this section requires signing in to Microsoft 365 admin center as a CRM administrator to acquire licenses, assign them to users, and then deploy Sales Copilot in Outlook and Teams. If don't have administrator privileges or don't know who your administrator is, you can install Sales Copilot individually in Outlook and Teams. More information: [Install Sales Copilot as an individual user](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0)
+
+1. Open the [Sales Copilot trial](https://go.microsoft.com/fwlink/p/?LinkID=2209090) page, enter your CRM administrator email address, and then select **Next**.
+
+2. On the order confirmation page, select **Try now**.
+
+3. On the order receipt page, select **Continue**. You are redirected to Microsoft 365 admin center.
+
+4. In the left pane, select **Billing** > **Licenses**.
+
+5. On the **Licenses** page, under the **Subscriptions** tab, select **Microsoft Sales Copilot**.
+
+6. On the **Microsoft Sales Copilot** page, select **Assign licenses**.
+
+7. In the **Assign licenses to users** panel, select users from your organization who will be using the trial, and then select **Assign**.
+
+8. Follow the CRM specific deployment guide to deploy Sales Copilot in your organization.
+    1. [Sales Copilot deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
+    1. [Sales Copilot deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+
