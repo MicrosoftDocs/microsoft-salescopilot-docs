@@ -36,11 +36,15 @@ Microsoft Sales Copilot offers a 30-day free trial for 25 users. After a quick s
 
 5. On the **Licenses** page, under the **Subscriptions** tab, select **Microsoft Sales Copilot**.
 
+    :::image type="content" source="media/trial-license.png" alt-text="Sales Copilot trial licenses in Microsoft 365 admin center.":::
+
 6. On the **Microsoft Sales Copilot** page, select **Assign licenses**.
 
 7. In the **Assign licenses to users** panel, select users from your organization who will be using the trial, and then select **Assign**.
 
+    :::image type="content" source="media/trial-license-assign.png" alt-text="Assign trial licenses to users.":::
+
 8. Follow the CRM specific deployment guide to deploy Sales Copilot in your organization.
-    1. [Sales Copilot deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
-    1. [Sales Copilot deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+    - [Sales Copilot deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
+    - [Sales Copilot deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
 
