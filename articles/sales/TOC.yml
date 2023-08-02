@@ -73,6 +73,8 @@
     href: tsg-two-factor.md
   - name: Update add-in error
     href: tsg-update-add-in-error.md
+  - name: Can't create private channels in Teams
+    href: tsg-create-private-channel.md
 
 - name: Use Sales Copilot
   items:
@@ -83,3 +85,16 @@
 
 - name: Sales Copilot training
   href: https://learn.microsoft.com/training/modules/boost-sales-performance/
+
+- name: Responsible AI
+  items:
+  - name: Overview
+    href: responsible-ai-overview.md
+  - name: FAQ for generate content
+    href: faqs-generate-content.md
+  - name: FAQ for email summary
+    href: faqs-email-summary.md
+  - name: FAQ for meeting follow-up
+    href: faqs-meeting-follow-up.md
+  - name: FAQ for opportunity summary
+    href: faqs-oppty-summary.md
