@@ -18,8 +18,8 @@ Microsoft Sales Copilot offers a 30-day free trial for 25 users. After a quick s
 
 ## Prerequisites
 
-- A Microsoft 365 license per user to with Microsoft Outlook and Teams
-- A Dynamics 365 or Salesforce CRM license to connect Sales Copilot to
+- A Microsoft 365 license per user for Microsoft Outlook and Microsoft Teams
+- A Dynamics 365 or Salesforce CRM license to connect Sales Copilot to your CRM
 
 ## Get Sales Copilot trial license
 
