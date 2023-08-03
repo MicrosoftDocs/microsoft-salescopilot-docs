@@ -35,7 +35,7 @@ Following are the generally available Copilot features:
 - **View and save email summary**: Allows sellers to view a summary of the recent emails and save it to the CRM system.
 
 > [!NOTE]
-> - Copilot features are enabled by default for new customers with Dynamics 365 Sales in North America (NAM).
+> - Copilot features are enabled by default for new customers with Dynamics 365 Sales in North America (NAM) and Europe.
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Generally available Copilot features in Sales Copilot are available in [supported languages](supported-languages.md).
 > -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
