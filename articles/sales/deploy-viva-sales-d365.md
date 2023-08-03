@@ -105,6 +105,11 @@ Auto installation is rolled out in phases to select organizations. Organization 
 
 Auto-installed apps are considered as user-deployed and will not have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot is not added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps will be considered as admin-deployed and will have full feature support.
 
+Auto-installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
+
+- [Uninstall Sales Copilot Outlook add-in](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0?preview=true#bkmk_uninstall_outlook_add_in)
+- [Uninstall Sales Copilot app for Microsoft Teams](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0?preview=true#bkmk_uninstall_teams_app)
+
 
 ## Community
 
