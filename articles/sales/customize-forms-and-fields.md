@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
-ms.date: 06/19/2023
+ms.date: 08/07/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -25,7 +25,7 @@ Sales Copilot forms and lists are based on CRM views. A view defines the list of
 > [!NOTE]
 > You cannot select a view for the Contact record type.
 
-Changes made to record types are reflected in the Sales Copilot pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Sales Copilot to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Sales Copilot app for Teams through messaging extensions, you can search for records of the added record types.
+Changes made to record types are reflected in the Sales Copilot pane in Outlook, Sales Copilot panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Sales Copilot to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Sales Copilot app for Teams through messaging extensions, you can search for records of the added record types.
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
@@ -94,7 +94,7 @@ You can add new custom or out-of-the-box record types to Sales Copilot. For exam
 
 After you add a record type, you can modify it by performing actions such as changing its view, adding/removing fields, and reordering fields. The actions depends whether the record type is based on a CRM view or not.
 
-Modifying a record type enables you to customize the detailed view of CRM records in Sales Copilot. Changes to the detailed view are reflected in the Sales Copilot pane in Outlook and Adaptive Cards shared in Teams chat.
+Modifying a record type enables you to customize the detailed view of CRM records in Sales Copilot. Changes to the detailed view are reflected in the Sales Copilot pane in Outlook, Sales Copilot panel in Microsoft Teams, and Adaptive Cards shared in Teams chat.
 
 ![Screenshot showing detailed view of CRM records in Sales Copilot.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Sales Copilot.")
 
