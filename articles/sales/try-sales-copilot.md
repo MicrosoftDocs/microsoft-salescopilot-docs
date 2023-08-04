@@ -1,7 +1,7 @@
 ---
 title: Sign up for a free Microsoft Sales Copilot trial
 description: Learn how to sign up for a free Microsoft Sales Copilot trial
-ms.date: 03/15/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -47,4 +47,11 @@ Microsoft Sales Copilot offers a 30-day free trial for 25 users. After a quick s
 8. Follow the CRM specific deployment guide to deploy Sales Copilot in your organization.
     - [Sales Copilot deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
     - [Sales Copilot deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+    
+    Once deployment is complete see the user documentation to learn more:
+
+    - [Use Sales Copilot in Outlook](https://support.microsoft.com/topic/use-sales-copilot-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+    - [Use Sales Copilot in Teams](https://support.microsoft.com/topic/use-sales-copilot-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea)
+
+ 
 
