@@ -31,9 +31,11 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 
 Users see the following error message when they try to save an email to Salesforce:
 
+:::image type="content" source="media/tsg-enhanced-email.png" alt-text="Enahnced email turned off error.":::
+
 ## Root cause and resolution
 
-### Issue 1: 
+### Issue 1: Enhanced email is turned off in Salesforce
 
 #### Root cause
 
