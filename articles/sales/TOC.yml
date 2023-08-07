@@ -3,6 +3,8 @@
 
 - name: What's new in Sales Copilot
   items:
+  - name: August 2023
+    href: aug-23.md
   - name: July 2023
     href: jul-23.md
   - name: June 2023

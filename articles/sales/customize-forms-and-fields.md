@@ -285,7 +285,6 @@ Key field settings affect the results when sellers search for connected records 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
 
-
 ## Refresh data from CRM
 
 You should refresh data to get recent changes from CRM into Sales Copilot. For example, if you add a new field to a record type view in CRM, you should refresh data to reflect the new field in Sales Copilot. You can refresh data either for all record type at once or for a specific record type.
@@ -320,6 +319,21 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 ## Control order of record types in side pane
 
 You can control the order in which record types are displayed in the **Sales Copilot** side pane in Outlook. The order is based on the order in which record types are added to Sales Copilot. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
+
+## Impact of CRM information customization on collaboration spaces
+
+[Collaboration spaces](https://support.microsoft.com/topic/collaboration-space-in-sales-copilot-7738f55e-11a8-40a0-a57a-5d47bc650bb3) can be created in Microsoft Teams based on the Account and Opportunity record types (or Salesforce objects) available in Sales Copilot admin settings.
+
+The following table lists the change in admin settings and the corresponding behavior of collaboration spaces:
+
+
+|Record types (or Salesforce objects) available  |Behavior of collaboration spaces  |
+|---------|---------|
+|Account and opportunity are available     |  Collaboration spaces can be created for accounts and opportunities.       |
+|Account is available and opportunity is not available     |  Collaboration spaces can be created only for accounts.       |
+|Account is not available, and opportunity is available     |   Collaboration spaces can be created only for opportunities.      |
+|Account and opportunity are not available     |  Collaboration spaces cannot be created. The **Collaborate in Teams** card is not visible on the **Sales Copilot** pane in Outlook.       |
+
 
 ## FAQ
 
