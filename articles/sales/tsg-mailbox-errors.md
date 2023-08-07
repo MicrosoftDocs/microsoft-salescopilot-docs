@@ -60,9 +60,11 @@ To resolve the error, you must locate the specific error as part of the mailbox 
 
 4. Select **Alerts** in the left pane, and then select **Errors** to see errors related to the mailbox.
 
+    :::image type="content" source="media/tsg-mailbox-error1.png" alt-text="See alerts related to the mailbox.":::
+
     Each error has a description and a link to the article that helps you resolve the error. You can also delete the error to suppress it.
 
-    :::image type="content" source="media/tsg-mailbox-error2.png" alt-text="Delete an erro from Alerts tab.":::
+    :::image type="content" source="media/tsg-mailbox-error2.png" alt-text="Delete an error from Alerts tab.":::
 
     > [!NOTE]
     > Deleting an error resets the mailbox state. The error might reappear during the next synchronization if the underlying issue is not resolved.
