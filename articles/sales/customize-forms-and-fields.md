@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
-ms.date: 06/19/2023
+ms.date: 08/07/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -25,7 +25,7 @@ Sales Copilot forms and lists are based on CRM views. A view defines the list of
 > [!NOTE]
 > You cannot select a view for the Contact record type.
 
-Changes made to record types are reflected in the Sales Copilot pane in Outlook and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Sales Copilot to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Sales Copilot app for Teams through messaging extensions, you can search for records of the added record types.
+Changes made to record types are reflected in the Sales Copilot pane in Outlook, Sales Copilot panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Sales Copilot to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Sales Copilot app for Teams through messaging extensions, you can search for records of the added record types.
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
@@ -67,7 +67,7 @@ You can add new custom or out-of-the-box record types to Sales Copilot. For exam
     > - You can add only one record type at a time.
     > - Logical names of record types and fields are displayed to optimize performance. 
 
-    :::image type="content" source="media/select-record-type.png" alt-text="Select a record type tp add.":::
+    :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 
 4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Sales Copilot, and then select **Next**.
 
@@ -94,7 +94,7 @@ You can add new custom or out-of-the-box record types to Sales Copilot. For exam
 
 After you add a record type, you can modify it by performing actions such as changing its view, adding/removing fields, and reordering fields. The actions depends whether the record type is based on a CRM view or not.
 
-Modifying a record type enables you to customize the detailed view of CRM records in Sales Copilot. Changes to the detailed view are reflected in the Sales Copilot pane in Outlook and Adaptive Cards shared in Teams chat.
+Modifying a record type enables you to customize the detailed view of CRM records in Sales Copilot. Changes to the detailed view are reflected in the Sales Copilot pane in Outlook, Sales Copilot panel in Microsoft Teams, and Adaptive Cards shared in Teams chat.
 
 ![Screenshot showing detailed view of CRM records in Sales Copilot.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Sales Copilot.")
 
@@ -203,6 +203,22 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 4.  Select **Publish** to save your changes.
 
+## Mark fields as required in Sales Copilot
+
+If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record in Sales Copilot.
+
+> [!NOTE]
+> If a field is marked as required in CRM, it's marked as required in Sales Copilot as well and you can't make it optional.
+
+1.	In Sales Copilot admin settings, select **Forms**.
+
+2.	Select a record type for which you need to mark the fields as required.
+
+3.	In the **Manage fields** section, select **Required** for the fields that you want to mark as required.
+
+4.	Select **Publish** to save the changes.
+
+
 ## Configure editing of records and fields
 
 You can control which records and fields sellers can edit directly in Sales Copilot.
@@ -269,7 +285,6 @@ Key field settings affect the results when sellers search for connected records 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
 
-
 ## Refresh data from CRM
 
 You should refresh data to get recent changes from CRM into Sales Copilot. For example, if you add a new field to a record type view in CRM, you should refresh data to reflect the new field in Sales Copilot. You can refresh data either for all record type at once or for a specific record type.
@@ -304,6 +319,21 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 ## Control order of record types in side pane
 
 You can control the order in which record types are displayed in the **Sales Copilot** side pane in Outlook. The order is based on the order in which record types are added to Sales Copilot. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
+
+## Impact of CRM customization on collaboration spaces
+
+[Collaboration spaces](https://support.microsoft.com/topic/collaboration-space-in-sales-copilot-7738f55e-11a8-40a0-a57a-5d47bc650bb3) can be created in Microsoft Teams based on the Account and Opportunity record types (or Salesforce objects) available in Sales Copilot admin settings.
+
+The following table lists the change in admin settings and the corresponding behavior of collaboration spaces:
+
+
+|Record types (or Salesforce objects) available  |Behavior of collaboration spaces  |
+|---------|---------|
+|Account and opportunity are available     |  Collaboration spaces can be created for accounts and opportunities.       |
+|Account is available and opportunity is not available     |  Collaboration spaces can be created only for accounts.       |
+|Account is not available, and opportunity is available     |   Collaboration spaces can be created only for opportunities.      |
+|Account and opportunity are not available     |  Collaboration spaces cannot be created. The **Collaborate in Teams** card is not visible on the **Sales Copilot** pane in Outlook.       |
+
 
 ## FAQ
 
