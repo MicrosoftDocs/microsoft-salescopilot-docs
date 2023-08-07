@@ -203,9 +203,9 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 4.  Select **Publish** to save your changes.
 
-## Mark the fields as required in Sales Copilot
+## Mark fields as required in Sales Copilot
 
-If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record.
+If the fields in CRM are not marked as required, you can mark them as required only for Sales Copilot. Sellers will be required to enter values for these fields before they can save the record in Sales Copilot.
 
 > [!NOTE]
 > If a field is marked as required in CRM, it's marked as required in Sales Copilot as well and you can't make it optional.
@@ -320,7 +320,7 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 
 You can control the order in which record types are displayed in the **Sales Copilot** side pane in Outlook. The order is based on the order in which record types are added to Sales Copilot. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
 
-## Impact of CRM information customization on collaboration spaces
+## Impact of CRM customization on collaboration spaces
 
 [Collaboration spaces](https://support.microsoft.com/topic/collaboration-space-in-sales-copilot-7738f55e-11a8-40a0-a57a-5d47bc650bb3) can be created in Microsoft Teams based on the Account and Opportunity record types (or Salesforce objects) available in Sales Copilot admin settings.
 

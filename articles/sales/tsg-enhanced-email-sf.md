@@ -1,5 +1,5 @@
 ---
-title: Unable to save email to CRM due enhanced email turned off in Salesforce CRM
+title: Unable to save email to CRM as enhanced email is turned off in Salesforce CRM
 description: Troubleshoot and resolve error messages in Sales Copilot related to enhanced email turned off in Salesforce CRM.
 ms.date: 08/07/2023
 ms.topic: article
@@ -12,9 +12,9 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Unable to save email to CRM due enhanced email turned off in Salesforce CRM
+# Unable to save email to CRM as enhanced email is turned off in Salesforce CRM
 
-This article helps you troubleshoot and resolve error messages in Sales Copilot related to enhanced email turned off in Salesforce CRM.
+This article helps you troubleshoot and resolve error messages in Sales Copilot that are caused due to turning off enhanced email in Salesforce CRM.
 
 ## Who is affected?
 
@@ -29,9 +29,9 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 
 ## Symptom
 
-Users see the following error message when they try to save an email to Salesforce:
+Users see the following error message when they try to save an email to Salesforce: Update settings in Saleforce
 
-:::image type="content" source="media/tsg-enhanced-email.png" alt-text="Enahnced email turned off error.":::
+:::image type="content" source="media/tsg-enhanced-email.png" alt-text="Enhanced email turned off error.":::
 
 ## Root cause and resolution
 
