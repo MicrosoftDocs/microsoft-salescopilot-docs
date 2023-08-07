@@ -82,7 +82,7 @@
   - name: Can't create private channels in Teams
     href: tsg-create-private-channel.md
   - name: Fix mailbox errors in Dynamics 365
-    href: tsg-fix-mailbox-errors.md
+    href: tsg-mailbox-errors.md
 
 - name: Use Sales Copilot
   items:
