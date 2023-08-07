@@ -67,7 +67,7 @@ You can add new custom or out-of-the-box record types to Sales Copilot. For exam
     > - You can add only one record type at a time.
     > - Logical names of record types and fields are displayed to optimize performance. 
 
-    :::image type="content" source="media/select-record-type.png" alt-text="Select a record type tp add.":::
+    :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 
 4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Sales Copilot, and then select **Next**.
 
