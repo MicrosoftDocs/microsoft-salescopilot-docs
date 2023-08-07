@@ -19,6 +19,8 @@
 
 - name: Get started
   items:
+  - name: Sign up for a free trial
+    href: try-sales-copilot.md
   - name: Deployment guide for Dynamics 365 users
     href: deploy-viva-sales-d365.md
   - name: Deployment guide for Salesforce users
@@ -75,6 +77,8 @@
     href: tsg-update-add-in-error.md
   - name: Enhanced email turned off in Salesforce CRM
     href: tsg-enhanced-email-sf.md
+  - name: Can't create private channels in Teams
+    href: tsg-create-private-channel.md
 
 - name: Use Sales Copilot
   items:
@@ -82,3 +86,19 @@
     href: https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081
   - name: Use Sales Copilot in Teams
     href: https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea
+
+- name: Sales Copilot training
+  href: /training/modules/boost-sales-performance/
+
+- name: Responsible AI
+  items:
+  - name: Overview
+    href: responsible-ai-overview.md
+  - name: FAQ for generate content
+    href: faqs-generate-content.md
+  - name: FAQ for email summary
+    href: faqs-email-summary.md
+  - name: FAQ for meeting follow-up
+    href: faqs-meeting-follow-up.md
+  - name: FAQ for opportunity summary
+    href: faqs-oppty-summary.md
