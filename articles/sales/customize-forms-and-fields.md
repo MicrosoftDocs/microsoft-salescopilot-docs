@@ -210,13 +210,13 @@ If the fields in CRM are not marked as required, you can mark them as required o
 > [!NOTE]
 > If a field is marked as required in CRM, it's marked as required in Sales Copilot as well and you can't make it optional.
 
-1.	In Sales Copilot admin settings, select Forms.
+1.	In Sales Copilot admin settings, select **Forms**.
 
 2.	Select a record type for which you need to mark the fields as required.
 
-3.	In the Manage fields section, select Required for the fields that you want to mark as required.
+3.	In the **Manage fields** section, select **Required** for the fields that you want to mark as required.
 
-4.	Select Publish to save the changes.
+4.	Select **Publish** to save the changes.
 
 
 ## Configure editing of records and fields
