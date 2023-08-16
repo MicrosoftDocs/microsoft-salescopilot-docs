@@ -1,7 +1,7 @@
 ---
-title: Supported languages in Sales Copilot
+title: Supported languages in Sales Copilot for Outlook and Teams
 description: Lean which languages are supported in Sales Copilot
-ms.date: 05/15/2023
+ms.date: 08/17/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Supported languages in Sales Copilot
+# Supported languages in Sales Copilot for Outlook and Teams 
 
 [!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
 
