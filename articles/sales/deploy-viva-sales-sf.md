@@ -112,7 +112,7 @@ You can set up Copilot in Sales Copilot to use copilot features that are in prev
 
 You have now installed and configured Sales Copilot in Outlook and Teams.
 
-## Step 7: Welcome sellers in your organization to Sales Copilot
+## Step 8: Welcome sellers in your organization to Sales Copilot
 
 Here's an example email message to share with your sellers, welcoming them to Sales Copilot.
 
