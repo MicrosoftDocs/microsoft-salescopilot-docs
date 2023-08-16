@@ -68,7 +68,7 @@ Conversation intelligence is available in the following languages:
 
 ## AI in Sales Copilot
 
-AI in Sales Copilot is available in the following languages:
+AI in Sales Copilot for suggested email content and email summary is available in the following languages:
 
 - English
 - French
