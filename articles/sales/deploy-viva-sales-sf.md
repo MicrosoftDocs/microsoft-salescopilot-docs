@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 08/03/2023
+ms.date: 08/17/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -49,11 +49,9 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
 2.  In the left pane, select **Meetings** &gt; **Meeting policies**.
 
-3.  On the **Manage policies** tab, select **Add**.
+3.  On the **Manage policies** tab, select **Global (Org-wide default)**.
 
-4.  Select **Global (Org-wide default)** from the middle pane.
-
-5.  On the new **Global (Org-wide default)** page, scroll down to the **Recording & transcription** section and enable the checkbox next to "Transcription".
+5.  On the **Global (Org-wide default)** page, scroll down to the **Recording & transcription** section, and turn on the **Transcription** toggle.
 
 6.  Select **Save**.
 
@@ -91,8 +89,14 @@ Sales Copilot leverages the Power Platform connector to connect to Salesforce CR
 
 6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they are empty. Check and add the appropriate target for your users.
 
+## Step 6: First user sign in
 
-## Step 6 (optional): Customize Sales Copilot
+When the first user in an organization signs in to Salesforce CRM from Sales Copilot, a trial environment needs to be created in Dataverse. As an administrator, you can disable the trial environment creation for non-admin users. In this case, non-admin users will see an error message. For more information on the error message, see [First Salesforce CRM user unable to access Sales Copilot](tsg-trial-env.md).
+
+To avoid this error, it is recommended that the tenant administrator signs in to Salesforce CRM from Sales Copilot first. This will create a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Sales Copilot. For information on how to sign in to Sales Copilot, see [Sign in to CRM](https://support.microsoft.com/topic/use-sales-copilot-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081#bkmk_vivasales_signin)
+
+
+## Step 7 (optional): Customize Sales Copilot
 
 Sales Copilot provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Sales Copilot](administrator-settings-for-viva-sales.md) article to learn more.
 
@@ -108,7 +112,7 @@ You can set up Copilot in Sales Copilot to use copilot features that are in prev
 
 You have now installed and configured Sales Copilot in Outlook and Teams.
 
-## Step 7: Welcome sellers in your organization to Sales Copilot
+## Step 8: Welcome sellers in your organization to Sales Copilot
 
 Here's an example email message to share with your sellers, welcoming them to Sales Copilot.
 
