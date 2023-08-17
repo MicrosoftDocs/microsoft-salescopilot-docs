@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 08/16/2023
+ms.date: 08/17/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri

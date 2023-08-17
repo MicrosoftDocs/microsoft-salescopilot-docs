@@ -1,7 +1,7 @@
 ---
-title: Set up Copilot in Sales Copilot
+title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 08/07/2023
+ms.date: 08/17/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Set up Copilot in Sales Copilot
+# Set up Copilot AI features
 
 [!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
 
@@ -20,16 +20,16 @@ Sales Copilot can help sellers write better emails, take better notes, and stay 
 
 As an administrator, you can configure:
 
-- **Copilot in Sales Copilot**: Allows sellers to use copilot features that are generally available.
+- **Copilot AI features**: Allows sellers to use copilot features that are generally available.
 
 - **Copilot preview features**: Allows sellers to try out copilot features that are in preview. 
 
 
-## Copilot in Sales Copilot
+## Copilot AI features
 
-Enable copilot features so your sellers can benefit from the available copilot capabilities in Sales Copilot.
+Enable Copilot AI features so your sellers can benefit from the available AI capabilities in Sales Copilot.
 
-Following are the generally available Copilot features:
+Following are the generally available Copilot AI features:
 
 - **Generate suggested email content**: Allows sellers to generate suggested email content using context from Outlook, your CRM, and AI. This makes it easy for your sellers to compose or reply to emails quickly and confidently.
 - **View and save email summary**: Allows sellers to view a summary of the recent emails and save it to the CRM system.
