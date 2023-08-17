@@ -40,11 +40,11 @@ Following are the generally available Copilot AI features:
 > - Generally available Copilot features in Sales Copilot are available in [supported languages](supported-languages.md).
 > -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
-### Turn on Copilot features in Sales Copilot
+### Turn on Copilot AI features in Sales Copilot
 
 1.  In Sales Copilot admin settings, select **Copilot**.
 
-2.  Turn on **Copilot in Sales Copilot**.
+2.  Turn on **Copilot**.
 
     :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to turon on Copilot features.":::
 
