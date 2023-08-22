@@ -1,5 +1,5 @@
 ---
-title: Error after connecting and sigining in to Salesforce CRM
+title: Error after connecting and signing in to Salesforce CRM
 description: Troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
 ms.date: 08/22/2023
 ms.topic: article
@@ -29,7 +29,7 @@ This article helps you troubleshoot and resolve issues when an error message is 
 
 ## Symptom
 
-After signing to Salesforce CRM through Sales Copilot add-in for Outlook, the following error message is displayed: `Something went wrong`
+After a user signs in to Salesforce CRM through Sales Copilot add-in for Outlook, the following error message is displayed: `Something went wrong`
 
 :::image type="content" source="media/tsg-api-perm-error.png" alt-text="API permission error":::
 
@@ -39,7 +39,7 @@ After signing to Salesforce CRM through Sales Copilot add-in for Outlook, the fo
 
 #### Root cause
 
-This issue occurs when the user doesn't have API permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
+The issue occurs when the user doesn't have API permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
 
 ```
 Exception thrown in VivaSalesContacts/GetContactsByEmailAddress - 

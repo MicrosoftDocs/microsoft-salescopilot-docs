@@ -63,11 +63,11 @@ In the above error message, the `Object type contact is not supported` indicates
 
 To resolve the issue, ensure that the user has:
 
-- Read/write level permissions to the entity which the user is trying to edit in Salesforce
+- Read/write level permissions to the entity that the user is trying to edit in Salesforce
 - Read/write permissions on all of the fields configured for editing
 - Access to the specific record that the user is trying to edit
 
-For information about object-level security, field-level security, and record-level security in Salesforce, see [Control Who Sees What](https://help.salesforce.com/s/articleView?id=sf.security_data_access.htm&type=5). You can also contact your Salesforce administrator for help in setting permissions correctly.
+For information about object-level security, field-level security, and record-level security in Salesforce, see [Control Who Sees What](https://help.salesforce.com/s/articleView?id=sf.security_data_access.htm&type=5). You can also contact your Salesforce administrator for help with setting permissions correctly.
 
 ## Is your issue still not resolved?
 

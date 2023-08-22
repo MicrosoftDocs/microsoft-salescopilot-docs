@@ -29,7 +29,7 @@ This article helps you troubleshoot and resolve issues when users enter incorrec
 
 ## Symptom
 
-After signing in to Salesforce CRM through Sales Copilot add-in for Outlook, user is unable to access the Salesforce environment and the following error message is displayed:
+After a user signs in to Salesforce CRM through Sales Copilot add-in for Outlook, the user is unable to access the Salesforce environment and the following error message is displayed:
 
 `OAuth2 authorization flow failed for service 'Salesforce'. OAuth 2 sign in failed to exchange code for access token. Client ID and secret sent in form body.. Response status code-BadRequest. Response body: {"error":"invalid_grant","error_description":"authentication failure"} Client ID and secret sent in Basic authorization header.. Response status code=BadRequest. REsponse body: {"error":"invalid_grant","error_description":"authentication failure"}`
 
@@ -43,7 +43,7 @@ User entered incorrect custom domain when signing in to Salesforce CRM.
 
 #### Resolution
 
-Enter the correct custom domain and sign in to Salesforce CRM again. For example, in the following image, `correct.my.salesforce.com`, is the host and `/login` represents the path to a custom login page.
+Enter the correct custom domain and sign in to Salesforce CRM again. For example, in the following image, `correct.my.salesforce.com`, is the host and `/login` represents the path to a custom sign-in page.
 
 :::image type="content" source="media/tsg-cust-domain.png" alt-text="Screenshot showing correct custom domain in Salesforce.":::
 

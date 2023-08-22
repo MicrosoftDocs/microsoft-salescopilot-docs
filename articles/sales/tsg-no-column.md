@@ -25,12 +25,12 @@ This article helps you troubleshoot and resolve issues when users are unable to 
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce        |
-|**Users**     | Users who do not have permissions to view fields added in Sales Copilot forms   |
+|**Users**     | Users who don't have permissions to view fields added in Sales Copilot forms   |
 
 
 ## Symptom
 
-When using Sales Copilot in Outlook, the following error message is displayed: **Something went wrong**. 
+When a user opens Sales Copilot in Outlook, the following error message is displayed: **Something went wrong**. 
 
 :::image type="content" source="media/tsg-field-error.png" alt-text="Error to delete fields.":::
 
@@ -40,7 +40,7 @@ When using Sales Copilot in Outlook, the following error message is displayed: *
 
 #### Root cause
 
-When field level security is set to invisible, Sales Copilot cannot reference that field as expected in configuration.
+When field level security is set to invisible, Sales Copilot can't reference that field as expected in configuration.
 
 #### Resolution 1: Fix field level security in Salesforce CRM
 
@@ -58,7 +58,7 @@ When field level security is set to invisible, Sales Copilot cannot reference th
 
     :::image type="content" source="media/tsg-field-error-sf.png" alt-text="Object manager in Salesforce CRM":::
 
-7. Confirm that **Visible** is set for the right profiles.
+7. Ensure that **Visible** is set for the right profiles.
 
 8. Validate the same for custom permissions sets.
 
@@ -74,7 +74,7 @@ Change the admin settings from the Sales Copilot admin settings in Microsoft Tea
 
 3. On the **Settings** tab, select Forms.
 
-4. Select the entity for which you are seeing the error.
+4. Select the entity for which you're seeing the error.
 
 5. Under **Manage fields**, perform one of the following actions:
 

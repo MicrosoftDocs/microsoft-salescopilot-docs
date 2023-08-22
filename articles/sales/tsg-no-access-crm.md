@@ -29,7 +29,7 @@ This article helps you troubleshoot and resolve issues when users don't have acc
 
 ## Symptom
 
-After signing in to Dynamics 365 through Sales Copilot add-in for Outlook, the following error message is displayed: `You don't seem to have access to Dynamics 365. Please contact your admin, or sign in with a different Microsoft account.`
+After a user signs in to Dynamics 365 through Sales Copilot add-in for Outlook, the following error message is displayed: `You don't seem to have access to Dynamics 365. Please contact your admin, or sign in with a different Microsoft account.`
 
 :::image type="content" source="media/tsg-no-access-d365.png" alt-text="f":::
 
