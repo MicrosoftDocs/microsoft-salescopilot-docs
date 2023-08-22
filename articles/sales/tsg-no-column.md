@@ -30,7 +30,7 @@ This article helps you troubleshoot and resolve issues when users are unable to 
 
 ## Symptom
 
-When using Sales Copilot in Outlook, the following error message is displayed: **Something went wrong**. This could happen when an administrator sets up a field to be displayed or editable in Sales Copilot, while the same field is not allowed to be edited or viewed as per the settings in Salesforce CRM.
+When using Sales Copilot in Outlook, the following error message is displayed: **Something went wrong**. 
 
 :::image type="content" source="media/tsg-field-error.png" alt-text="Error to delete fields.":::
 
