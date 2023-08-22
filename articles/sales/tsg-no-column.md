@@ -1,7 +1,7 @@
 ---
 title: Salesforce CRM users unable to see data in Sales Copilot
-description: Troubleshoot and resolve error messages in Sales Copilot related to field level security in Salesforce.
-ms.date: 05/15/2023
+description: Troubleshoot and resolve  issues when users are unable to see data in Sales Copilot.
+ms.date: 08/22/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -14,9 +14,7 @@ ms.subservice: viva-sales
 
 # Salesforce CRM users unable to see data in Sales Copilot
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
-
-This article helps you troubleshoot and resolve error messages in Sales Copilot related to field level security in Salesforce.
+This article helps you troubleshoot and resolve issues when users are unable to see data in Sales Copilot. 
 
 ## Who is affected?
 
@@ -32,19 +30,41 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 
 ## Symptom
 
-When using Sales Copilot in Outlook, users see error such as `To see this data in Sales Copilot, ask your Salesforce admin to delete the fields listed in the error details from Sales Copilot.`. This could happen when an administrator sets up a field to be displayed or editable in Sales Copilot, while the same field is not allowed to be edited or viewed as per the settings in Salesforce CRM.
+When using Sales Copilot in Outlook, the following error message is displayed: **Something went wrong**. This could happen when an administrator sets up a field to be displayed or editable in Sales Copilot, while the same field is not allowed to be edited or viewed as per the settings in Salesforce CRM.
 
 :::image type="content" source="media/tsg-field-error.png" alt-text="Error to delete fields.":::
 
 ## Root cause and resolution
 
-### Issue 1: Sales Copilot displays error to delete the fields after signing to Salesforce CRM
+### Issue 1: Field level security on field has been set to invisible in Salesforce CRM
 
 #### Root cause
 
-Users don't have access to view all fields added in Sales Copilot forms.
+When field level security is set to invisible, Sales Copilot cannot reference that field as expected in configuration.
 
-#### Resolution
+#### Resolution 1: Fix field level security in Salesforce CRM
+
+1. Sign in to Salesforce CRM as administrator and open **Setup**.
+
+2. Open **Object Manager**.
+
+3. Select the entity that is throwing an error.
+
+4. In the navigation bar on the left, select **Fields & Relationships**.
+
+5. Select the field that is throwing the error.
+
+6. Select **Set Field-Level Security** at the top.
+
+    :::image type="content" source="media/tsg-field-error-sf.png" alt-text="Object manager in Salesforce CRM":::
+
+7. Confirm that **Visible** is set for the right profiles.
+
+8. Validate the same for custom permissions sets.
+
+For more information regarding field level security in Salesforce CRM, see [Field-Level Security](https://help.salesforce.com/s/articleView?id=sf.admin_fls.htm&type=5).
+
+#### Resolution 2: Change settings in Sales Copilot to hide fields or remove edit capabilities
 
 Change the admin settings from the Sales Copilot admin settings in Microsoft Teams to hide the fields or remove edit capabilities.
 
