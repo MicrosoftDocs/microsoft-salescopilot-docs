@@ -1,7 +1,7 @@
 ---
 title: Error after connecting and signing in to Salesforce CRM
-description: Troubleshoot and resolve error messages in Sales Copilot related to error message after connecting and signing in to Salesforce CRM.
-ms.date: 06/18/2023
+description: Troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
+ms.date: 08/22/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -14,9 +14,7 @@ ms.subservice: viva-sales
 
 # Error after connecting and signing in to Salesforce CRM
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
-
-This article helps you troubleshoot and resolve error messages in Sales Copilot related to users connecting and signing into Salesforce. 
+This article helps you troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
 
 ## Who is affected?
 
@@ -27,33 +25,33 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce      |
-|**Users**     | All users |
+|**Users**     | Users trying to use Sales Copilot with Salesforce CRM |
 
 ## Symptom
 
-After a user signs in to Salesforce CRM, the following error message is displayed in the Sales Copilot Outlook add-in:
+After a user signs in to Salesforce CRM through Sales Copilot add-in for Outlook, the following error message is displayed: `Something went wrong`
 
 :::image type="content" source="media/tsg-api-perm-error.png" alt-text="API permission error":::
 
 ## Root cause and resolution
 
-### Issue 1: Sales Copilot displays an error stating the REST API isn't enabled for this organization 
+### Issue 1: User doesn't have API permissions 
 
 #### Root cause
 
-The issue occurs when the user doesn't have API Permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
+The issue occurs when the user doesn't have API permissions in Salesforce. You can confirm if this is the root cause of the issue if you see the following error in the logs:
 
 ```
 Exception thrown in VivaSalesContacts/GetContactsByEmailAddress - 
-Microsoft.SalesProductivity.Common.Base.SPServiceException: Salesforce failed to complete task: Message: entity is deleted clientRequestId: 000000000-aaaa-4545-8383-00bf00f10000-self ---> 
+Microsoft.SalesProductivity.Common.Base.SPServiceException: Salesforce failed to complete task: Message: entity is deleted clientRequestId: {CLIENT REQUEST ID HERE}-self ---> 
 System.Exception: { 
     "error": { 
         "code": 502, 
-        "source": "xxy-001.azure-apim.net", 
+        "source": "{APIM SOURCE}", 
         "message": "BadGateway", 
         "innerError": { 
             "status": 502, 
-            "message": "Salesforce failed to complete task: Message: **API is disabled for this User**\r\nclientRequestId: 000000000-aaaa-4545-8383-00bf00f10000-self", 
+            "message": "Salesforce failed to complete task: Message: **API is disabled for this User**\r\nclientRequestId: {CLIENT REQUEST ID HERE}", 
             "error": null, 
             "source": "Salesforce.Common", 
             "errors": [] 
@@ -64,11 +62,19 @@ System.Exception: {
 
 #### Resolution
 
-You must be a Salesforce administrator to resolve the issue.
+You must grant the **API Enabled** permission the user or user profile for the affected user.
 
-1. In Salesforce **Setup**, open the profile assigned to the Sales Copilot user, and then select **Edit**.
-2. In the **Administrative Settings** section, select **API Enabled**. 
-3. Select **Save**.
+1. Sign in to Salesforce as an administrator.
+
+1. In the search box, enter **User**.
+
+1. In the left navigation pane, select **Profiles**, and then select the profile for the affected user.
+
+1. In the **Administrative Permissions** section, select **API Enabled**. 
+
+1. Select **Save**.
+
+    :::image type="content" source="media/tsg-api-perm-sf.png" alt-text="f":::
 
 ## Is your issue still not resolved?
 
