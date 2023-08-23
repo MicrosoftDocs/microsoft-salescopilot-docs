@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Dynamics 365 customers
 description: Learn how to deploy Sales Copilot for Dynamics 365 customers.
-ms.date: 08/03/2023
+ms.date: 08/23/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -46,11 +46,9 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
 2.  In the left pane, select **Meetings** &gt; **Meeting policies**.
 
-3.  On the **Manage policies** tab, select **Add**.
+3.  On the **Manage policies** tab, select **Global (Org-wide default)**.
 
-4.  Select **Global (Org-wide default)** from the middle pane.
-
-5.  On the new **Global (Org-wide default)** page, scroll down to the **Recording & transcription** section and enable the checkbox next to "Transcription".
+5.  On the **Global (Org-wide default)** page, scroll down to the **Recording & transcription** section, and turn on the **Transcription** toggle.
 
 6.  Select **Save**.
 
