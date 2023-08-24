@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Dynamics 365 customers
 description: Learn how to deploy Sales Copilot for Dynamics 365 customers.
-ms.date: 08/23/2023
+ms.date: 08/24/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -16,7 +16,7 @@ ms.subservice: viva-sales
 
 [!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
 
-Follow the instructions in this guide to deploy Viva Sales for your Dynamics 365 Sales customers. Here's a quick video overview of the steps involved:
+Follow the instructions in this guide to deploy Sales Copilot for your Dynamics 365 Sales customers. Here's a quick video overview of the steps involved:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
@@ -25,7 +25,7 @@ Follow the instructions in this guide to deploy Viva Sales for your Dynamics 365
 - You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). [How do I find my tenant admin?](#how-do-i-find-my-tenant-admin)
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
-## Step 1: Install and deploying the Sales Copilot Outlook Add-in
+## Step 1: Install and deploy the Sales Copilot Outlook Add-in
 
 [Install Sales Copilot Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
 
@@ -126,7 +126,7 @@ We encourage all Sales Copilot users to visit and register on the [Sales Copilot
 
 Sales Copilot is a generally available app that's part of Dynamics 365 Sales Enterprise and Premium. [Watch this short video to learn more.](https://www.youtube.com/watch?v=hfDPogeGTHk)
 
-A Microsoft 365 Enterprise or Office 365 for Enterprise product license is required to use the Sales Copilot app in Outlook and Microsoft Teams.
+A Microsoft 365 for Enterprise or Office 365 for Enterprise product license is required to use the Sales Copilot app in Outlook and Microsoft Teams.
 
 ### How does Sales Copilot work?
 
@@ -149,7 +149,7 @@ You may also find your tenant admin's email address on the [Azure Active Directo
 
 ### Are there any special browser settings needed to use Sales Copilot in the  web versionss of Outlook and Teams?
 
-Users may need to change a few settings to get the best experience of Viva Sales in Outlook and Teams on the web.
+Users may need to change a few settings to get the best experience of Sales Copilot in Outlook and Teams on the web.
 
 - **Edge**:
   - Turn on "Enable sites to save and read cookie data (recommended)."

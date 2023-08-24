@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 08/17/2023
+ms.date: 08/24/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -16,15 +16,18 @@ ms.subservice: viva-sales
 
 [!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
 
-This guide provides you with step-by-step instructions on how to deploy Sales Copilot for Salesforce CRM customers.
+Follow the instructions in this guide to deploy Sales Copilot for your Salesforce CRM customers. Here's a quick video overview of the steps involved:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
 
-## Step 1: Installing and auto deploying the Sales Copilot Outlook Add-in
+## Prerequisites
 
-Sales Copilot requires a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). See [FAQ](#how-do-i-find-my-tenant-admin) for tips on finding your tenant administrator.
+- You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). [How do I find my tenant admin?](#how-do-i-find-my-tenant-admin)
+- You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
-Follow the steps in the [Install Sales Copilot add-in for Outlook](install-viva-sales-as-an-integrated-app.md) article to install and automatically deploy the Sales Copilot Outlook add-in.
+## Step 1: Install and deploy the Sales Copilot Outlook Add-in
+
+[Install Sales Copilot Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
 
 ![Screenshot showing Sales Copilot installed as an add-in for Outlook.](media/install-viva-sales.png "Screenshot showing Sales Copilot installed as an integrated app.")
 
@@ -33,17 +36,13 @@ Follow the steps in the [Install Sales Copilot add-in for Outlook](install-viva-
 
 ## Step 2: Create a setup policy to auto install and pin the Sales Copilot app in Teams
 
-Sales Copilot requires an administrator to create the policy from the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
-
-Follow the steps in the [Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md) article to install and pin the Sales Copilot Teams app in your users' personal Teams environment and in meetings they create.
+[Install and pin Sales Copilot in your sellers' personal Teams environment and meetings they create](install-pin-viva-sales-teams.md)
 
 ![Screenshot showing Teams policy.](media/teams-policy-viva-sales.png "Screenshot showing Teams policy.")
 
 ## Step 3: Enable Teams meeting transcripts
 
-When Sales Copilot is added to a Teams meeting, it generates a meeting summary automatically if the meeting is recorded with transcription on.
-
-To enable transcripts for Teams calls for Sales conversational intelligence:
+Enable transcripts for Teams calls so that when Sales Copilot is added to a recorded Teams meeting, it can generate a meeting summary.
 
 1.  Sign in to the [Teams admin center](https://admin.teams.microsoft.com).
 
@@ -57,7 +56,7 @@ To enable transcripts for Teams calls for Sales conversational intelligence:
 
     ![Screenshot showing how to enable transcription in Teams admin center ](media/enable-transcription-teams.png "Screenshot showing how to enable transcription in Teams admin center.")
 
-## Step 4: Verify users have the right security roles
+## Step 4: Confirm users have the right security roles
 
 Sales Copilot applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales Copilot.
 
@@ -98,23 +97,25 @@ To avoid this error, it is recommended that the tenant administrator signs in to
 
 ## Step 7 (optional): Customize Sales Copilot
 
-Sales Copilot provides CRM administrator settings to control the seller's experience in Outlook and Teams. See the [Administrator settings for Sales Copilot](administrator-settings-for-viva-sales.md) article to learn more.
+[Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize the CRM fields that are shown on forms and whether Sales Copilot generates suggested email content.
 
 ![Screenshot showing Sales Copilot admin center ](media/viva-sales-admin-sf.png "Screenshot showing Sales Copilot admin center.")
 
-Sales Copilot comes preconfigured to allow users to be productive out-of-the-box. We understand the default CRM fields shown may not work for everyone. To customize the fields, follow the instructions in the [Customize forms and fields](customize-forms-and-fields.md) article.
+### Customiza forms and fields
+
+Sales Copilot comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
 ![Screenshot showing form settings in Sales Copilot admin center ](media/viva-sales-forms-admin-sf.png "Screenshot showing form settings in Sales Copilot admin center.")
 
-You can set up Copilot in Sales Copilot to use copilot features that are in preview or generally available. More information: [Set up Copilot in Sales Copilot](suggested-replies.md).
+### Set up Copilot AI features
+
+You can [set up AI features in Sales Copilot](suggested-replies.md) to use AI features that are in preview or generally available.
 
 ![Screenshot showing Copilot settings in Sales Copilot admin center ](media/viva-sales-replies-admin-sf.png "Screenshot showing Copilot settings in Sales Copilot admin center.")
 
-You have now installed and configured Sales Copilot in Outlook and Teams.
+## Step 8: Welcome sellers to Sales Copilot
 
-## Step 8: Welcome sellers in your organization to Sales Copilot
-
-Here's an example email message to share with your sellers, welcoming them to Sales Copilot.
+Now that you've installed and configured Sales Copilot in Outlook and Teams, get your sellers to use it. Here's an example email message you can share.
 
 
 |  |
@@ -138,44 +139,38 @@ We encourage all Sales Copilot users to visit and register on the [Sales Copilot
 
 Sales Copilot is a generally available app for Salesforce CRM customers, [watch this short video to learn more](https://www.youtube.com/watch?v=hfDPogeGTHk).
 
-A Microsoft 365 for enterprise or Office 365 for enterprise product license is required to use the Sales Copilot app in Outlook and Microsoft Teams.
+A Microsoft 365 for Enterprise or Office 365 for Enterprise product license is required to use the Sales Copilot app in Outlook and Microsoft Teams.
 
 ### How does Sales Copilot work?
 
-Sales Copilot is a productivity app that uses an Outlook add-in and a Teams app to enable sales teams to manage their workflows efficiently by bringing the context of their CRM into their flow of work. To learn more about Sales Copilot, see [Microsoft Sales Copilot](https://www.microsoft.com/microsoft-viva/sales).
+Sales Copilot uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Sales Copilot](https://www.microsoft.com/microsoft-viva/sales).
 
 ### Is Sales Copilot safe and secure?
 
-Yes, Sales Copilot is a certified Microsoft app, meaning that it has passed Microsoft's rigorous security and compliance standards. Microsoft has a long-standing reputation for providing safe and secure software solutions.
+Sales Copilot is a certified Microsoft app. That means it meets our rigorous security and compliance standards.
 
-For information on license requirements, role requirements, and region availability, see [Introduction to Microsoft Sales Copilot](introduction.md) and [Sales Copilot FAQ](https://support.microsoft.com/topic/viva-sales-faq-dd0b9203-a5d4-44ee-a173-cadc808c828a).
+Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft Sales Copilot](introduction.md) and [Sales Copilot FAQ](https://support.microsoft.com/topic/viva-sales-faq-dd0b9203-a5d4-44ee-a173-cadc808c828a).
 
 
 ### How do I find my tenant admin?
 
-See the [How do I find my Microsoft 365 admin?](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b) article for helpful tips on finding your tenant admin.
+[How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 
-It may be possible to find your tenant admin email address by looking at the [Azure Active Directory admin center Tenant properties page](https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties), if this page hasn't been locked down by an administrator, see the below screenshot example:
+You may also find your tenant admin's email address on the [Azure Active Directory admin center tenant properties page](https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties), if an administrator hasn't locked it down.
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 
 ### Are there any special browser settings needed to use Sales Copilot Outlook and Teams web versions?
 
-When users are using web-based versions of Outlook or Teams, they may need to make some setting changes for full support.
+Users may need to change a few settings to get the best experience of Sales Copilot in Outlook and Teams on the web.
 
-**Edge**
+- **Edge**:
+  - Turn on "Enable sites to save and read cookie data (recommended)."
+  - Turn off "Block third-party cookies."
 
--   Ensure "Enable sites to save and read cookie data (recommended)" is enabled.
+- **Safari**: Turn off "Prevent Cross-site tracking."
 
--   Ensure make sure "Block third-party cookies" is disabled.
+- **Chrome**: Turn off "Block third-party cookies."
 
-**Safari**
-
--   Ensure "Prevent Cross-site tracking" is turned off.
-
-**Chrome**
-
--   Ensure "Block third party cookies" is disabled.
-
-See the [Sales Copilot troubleshooting guide](https://support.microsoft.com/en-us/topic/update-add-in-error-in-viva-sales-for-microsoft-outlook-bbc41354-113a-4eda-86aa-9c338954a559) article for common problems and solutions.
+The [Sales Copilot troubleshooting guide](https://support.microsoft.com/en-us/topic/update-add-in-error-in-viva-sales-for-microsoft-outlook-bbc41354-113a-4eda-86aa-9c338954a559) can help with solutions for common issues.
 
