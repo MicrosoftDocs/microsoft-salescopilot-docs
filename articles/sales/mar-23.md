@@ -35,7 +35,7 @@ We're excited to announce our newest updates! This article summarizes general av
 
 |Configuration location|Feature|Description|Resources|
 |----------------------|-------|-----------|---------|
-|Email tab in Viva Sales admin settings|AI-generated email replies and teams meeting summaries|Enables general copilot capabilities in the Viva Sales add-in for Outlook.|[Documentation](/viva/sales/suggested-replies)|
+|Email tab in Viva Sales admin settings|AI-generated email replies and Teams meeting summaries|Enables general copilot capabilities in the Viva Sales Add-in for Outlook.|[Documentation](/viva/sales/suggested-replies)|
 
 ## Outlook add-in and Teams app update
 
@@ -48,7 +48,7 @@ We're excited to announce our newest updates! This article summarizes general av
 
 |Application|Title|Symptom|
 |-----------|-----|-------|
-|Viva Sales for Microsoft Outlook|"Something went wrong" error when launching Viva Sales in Outlook|Users see an error indicating “Something went wrong” when signing out of the Viva Sales Outlook Side-Panel, closing the Side-Panel, and logging back in. Users are unable to use the Viva Sales Outlook Side-Panel unless the browser cache is reset.|
+|Viva Sales for Microsoft Outlook|"Something went wrong" error when launching Viva Sales in Outlook|Users see an error indicating "Something went wrong" when signing out of the Viva Sales Outlook side pane, closing the side pane, and logging back in. Users are unable to use the Viva Sales Outlook side pane unless the browser cache is reset.|
 
 ## Additional resources
 
