@@ -75,7 +75,7 @@ If you're using custom security roles, [assign users the right roles and privile
 
 ![Screenshot showing Sales Copilot admin center](media/viva-sales-admin.png "Screenshot showing Sales Copilot admin center.")
 
-### Customiza forms and fields
+### Customize forms and fields
 
 Sales Copilot comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
@@ -98,13 +98,13 @@ Now that you've installed and configured Sales Copilot in Outlook and Teams, get
 
 ## Automatic installation
 
-To make onboarding to Sales Copilot easier for select organizations, Microsoft will automatically install Sales Copilot for all users with an appropriate license. The license can either be a Sales Copilot license or a product that includes Sales Copilot such as Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium.
+To make onboarding to Sales Copilot easier for select organizations, Microsoft automatically installs Sales Copilot for all users with an appropriate license. The license can either be a Sales Copilot license or a product that includes Sales Copilot such as Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium.
 
-Auto installation is rolled out in phases to select organizations. Organization will receive a notification in both the **Microsoft 365 admin center** as well as the **Power Platform admin center**. Each organization can opt out of auto-installation in the specified period of time. Once the capablity is rolled-out, the Outlook add-in and Microsoft Teams app cannot be uninstalled from **Microsoft 365 admin center**, but users can choose to uninstall them from their respective Outlook and Teams clients, and a new install will not be performed automatically.
+Auto installation is rolled out in phases to select organizations. Organization receives a notification in both the **Microsoft 365 admin center** and the **Power Platform admin center**. Each organization can opt out of auto installation in the specified period of time. Once the capability is rolled-out, the Outlook add-in and Microsoft Teams app can't be uninstalled from **Microsoft 365 admin center**, but users can choose to uninstall them from their respective Outlook and Teams clients, and a new install won't be performed automatically.
 
-Auto-installed apps are considered as user-deployed and will not have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot is not added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps will be considered as admin-deployed and will have full feature support.
+Auto installed apps are considered as user-deployed and won't have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot isn't added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps are considered as admin-deployed and have full feature support.
 
-Auto-installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
+Auto installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
 
 - [Uninstall Sales Copilot Outlook add-in](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0?preview=true#bkmk_uninstall_outlook_add_in)
 - [Uninstall Sales Copilot app for Microsoft Teams](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0?preview=true#bkmk_uninstall_teams_app)
@@ -147,7 +147,7 @@ You may also find your tenant admin's email address on the [Azure Active Directo
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 
-### Are there any special browser settings needed to use Sales Copilot in the  web versionss of Outlook and Teams?
+### Are there any special browser settings needed to use Sales Copilot in the web versions of Outlook and Teams?
 
 Users may need to change a few settings to get the best experience of Sales Copilot in Outlook and Teams on the web.
 
