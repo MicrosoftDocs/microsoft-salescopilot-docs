@@ -1,0 +1,108 @@
+- name: Microsoft Sales Copilot
+  href: introduction.md
+
+- name: What's new in Sales Copilot
+  items:
+  - name: August 2023
+    href: aug-23.md
+  - name: July 2023
+    href: jul-23.md
+  - name: June 2023
+    href: jun-23.md
+  - name: May 2023
+    href: may-23.md
+  - name: April 2023
+    href: apr-23.md
+  - name: March 2023
+    href: mar-23.md
+
+- name: Architecture overview
+  href: architecture.md
+
+- name: Get started
+  items:
+  - name: Sign up for a free trial
+    href: try-sales-copilot.md
+  - name: Deployment guide for Dynamics 365 users
+    href: deploy-viva-sales-d365.md
+  - name: Deployment guide for Salesforce users
+    href: deploy-viva-sales-sf.md
+  - name: Supported languages
+    href: supported-languages.md
+  - name: Data handling in Sales Copilot 
+    href: data-handling.md
+  - name: Install Sales Copilot
+    items:
+    - name: Install Sales Copilot
+      href: install-viva-sales.md
+    - name: Install Sales Copilot add-in for Outlook
+      href: install-viva-sales-as-an-integrated-app.md
+    - name: Install and pin Sales Copilot in Teams
+      href: install-pin-viva-sales-teams.md
+
+
+- name: Administration
+  items:
+  - name: Overview
+    href: administrator-settings-for-viva-sales.md
+  - name: Customize forms and fields
+    href: customize-forms-and-fields.md
+  - name: Set up Copilot in Sales Copilot
+    href: suggested-replies.md
+  - name: Configure Sales Copilot for Microsoft 365 apps
+    href: m365-admin-setting.md
+
+- name: Management
+  items:
+  - name: Remove Sales Copilot from the admin center
+    href: disable-viva-sales.md
+  - name: Block the Sales Copilot app in Teams
+    href: block-viva-sales-app-teams.md
+
+- name: Troubleshooting guide
+  items:
+  - name: Salesforce CRM users unable to see data in Sales Copilot
+    href: tsg-no-column.md
+  - name: First Salesforce CRM user unable to access Sales Copilot
+    href: tsg-trial-env.md  
+  - name: Missing privileges in Dynamics 365
+    href: tsg-missing-roles.md
+  - name: Unable to update records in Viva Sales when connected to Salesforce CRM
+    href: tsg-record-update-perm.md
+  - name: Error after connecting and signing in to Salesforce CRM
+    href: tsg-api-perm.md
+  - name: Invalid mailbox settings in Dynamics 365
+    href: tsg-mailbox-settings.md
+  - name: Sales Copilot doesn't connect to Dynamics 365
+    href: tsg-two-factor.md
+  - name: Update add-in error
+    href: tsg-update-add-in-error.md
+  - name: Enhanced email turned off in Salesforce CRM
+    href: tsg-enhanced-email-sf.md
+  - name: Can't create private channels in Teams
+    href: tsg-create-private-channel.md
+  - name: Fix mailbox errors in Dynamics 365
+    href: tsg-mailbox-errors.md
+
+- name: Use Sales Copilot
+  items:
+  - name: Use Sales Copilot in Outlook
+    href: https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081
+  - name: Use Sales Copilot in Teams
+    href: https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea
+
+- name: Sales Copilot training
+  href: /training/modules/boost-sales-performance/
+
+- name: Responsible AI
+  items:
+  - name: Overview
+    href: responsible-ai-overview.md
+  - name: FAQ for generate content
+    href: faqs-generate-content.md
+  - name: FAQ for email summary
+    href: faqs-email-summary.md
+  - name: FAQ for meeting follow-up
+    href: faqs-meeting-follow-up.md
+  - name: FAQ for opportunity summary
+    href: faqs-oppty-summary.md
