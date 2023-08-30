@@ -83,6 +83,16 @@
     href: tsg-create-private-channel.md
   - name: Fix mailbox errors in Dynamics 365
     href: tsg-mailbox-errors.md
+  - name: Incorrect custom domain in Salesforce
+    href: tsg-incorrect-custom-domain.md
+  - name: No access to Dynamics 365
+    href: tsg-no-access-crm.md
+  - name: Issue with Administration mode enabled
+    href: tsg-admin-mode.md
+  - name: Sign in issue when app is blocked
+    href: tsg-app-blocked.md
+  - name: Authentication issues when connecting to Salesforce CRM
+    href: tsg-auth-issue.md
 
 - name: Use Sales Copilot
   items:
