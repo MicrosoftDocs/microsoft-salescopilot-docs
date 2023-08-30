@@ -84,7 +84,7 @@
   - name: Fix mailbox errors in Dynamics 365
     href: tsg-mailbox-errors.md
   - name: Incorrect custom domain in Salesforce
-    href: tsg-incorrect-custom-domain.md
+    href: tsg-incorrect-cust-domain.md
   - name: No access to Dynamics 365
     href: tsg-no-access-crm.md
   - name: Issue with Administration mode enabled
