@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Dynamics 365 customers
 description: Learn how to deploy Sales Copilot for Dynamics 365 customers.
-ms.date: 08/24/2023
+ms.date: 08/31/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -124,9 +124,11 @@ We encourage all Sales Copilot users to visit and register on the [Sales Copilot
 
 ### Is Sales Copilot included for Dynamics 365 Sales customers?
 
-Sales Copilot is a generally available app that's part of Dynamics 365 Sales Enterprise and Premium. [Watch this short video to learn more.](https://www.youtube.com/watch?v=hfDPogeGTHk)
+Sales Copilot is a productivity app designed for salespeople. It's included with Dynamics 365 Enterprise and Dynamics 365 Premium subscriptions at no additional license cost. Here's a quick overview video of the capabilities of Sales Copilot:
 
-A Microsoft 365 for Enterprise or Office 365 for Enterprise product license is required to use the Sales Copilot app in Outlook and Microsoft Teams.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW181Q4?autoplay=false]
+
+If you don't have a qualifying license, you can still use Sales Copilot's basic capabilities like email drafting and email summarization without signing in to your CRM. If you're using a non-qualifying Dynamics 365 license, Salesforce CRM, or Power Apps, you can visit the [pricing page](https://www.microsoft.com/microsoft-viva/sales#features-and-pricing) for information about license cost.
 
 ### How does Sales Copilot work?
 
