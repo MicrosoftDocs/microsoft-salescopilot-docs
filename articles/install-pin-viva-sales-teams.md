@@ -80,5 +80,4 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ### See also
 
-[Install Sales Copilot from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Sales Copilot from AppSource](install-viva-sales-individual-add-in-appsource.md)
+[Install Sales Copilot add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
