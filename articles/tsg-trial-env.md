@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # First Salesforce CRM user unable to access Sales Copilot
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 This article helps you troubleshoot and resolve error messages in Sales Copilot related to signing in to Salesforce.
 

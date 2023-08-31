@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Install Sales Copilot add-in for Outlook
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
@@ -87,4 +87,6 @@ End users can install the Outlook add-in and Teams app from within Microsoft App
 
 If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot is not added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries.
 
+### See also
 
+[Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md)

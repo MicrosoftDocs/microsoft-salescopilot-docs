@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Install Sales Copilot
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 You need to be a Microsoft 365 administrator to deploy and install the Sales Copilot add-in for Outlook. You need to be a Teams administrator to deploy and install Sales Copilot for Teams.
 
@@ -96,6 +96,5 @@ After you install Sales Copilot for your users, they can start using it in Outlo
 
 ### See also
 
-[Install Sales Copilot from Microsoft 365 admin center](install-viva-sales-individual-add-in-admin-center.md)<br>
-[Install Sales Copilot from AppSource](install-viva-sales-individual-add-in-appsource.md)<br>
+[Install Sales Copilot add-in for Outlook](install-viva-sales-as-an-integrated-app.md)<br>
 [Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md)

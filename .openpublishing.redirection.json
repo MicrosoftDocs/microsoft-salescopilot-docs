@@ -1,19 +1,234 @@
 {
-    "redirections": [
-      {
-        "source_path": "viva/sales/index.md",
-        "redirect_url": "introduction",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "articles/sales/install-viva-sales-individual-add-in-admin-center.md",
-        "redirect_url": "install-viva-sales-as-an-integrated-app",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "articles/sales/install-viva-sales-individual-add-in-appsource.md",
-        "redirect_url": "install-viva-sales-as-an-integrated-app",
-        "redirect_document_id": false
-      }
-    ]
+  "redirections": [
+    {
+      "source_path": "viva/sales/index.md",
+      "redirect_url": "introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/install-viva-sales-individual-add-in-admin-center.md",
+      "redirect_url": "install-viva-sales-as-an-integrated-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/install-viva-sales-individual-add-in-appsource.md",
+      "redirect_url": "install-viva-sales-as-an-integrated-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/introduction.md",
+      "redirect_url": "/microsoft-sales-copilot/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/aug-23.md",
+      "redirect_url": "/microsoft-sales-copilot/aug-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/jul-23.md",
+      "redirect_url": "/microsoft-sales-copilot/jul-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/jun-23.md",
+      "redirect_url": "/microsoft-sales-copilot/jun-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/may-23.md",
+      "redirect_url": "/microsoft-sales-copilot/may-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/apr-23.md",
+      "redirect_url": "/microsoft-sales-copilot/apr-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/mar-23.md",
+      "redirect_url": "/microsoft-sales-copilot/mar-23",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/architecture.md",
+      "redirect_url": "/microsoft-sales-copilot/architecture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/try-sales-copilot.md",
+      "redirect_url": "/microsoft-sales-copilot/try-sales-copilot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/deploy-viva-sales-d365.md",
+      "redirect_url": "/microsoft-sales-copilot/deploy-viva-sales-d365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/deploy-viva-sales-sf.md",
+      "redirect_url": "/microsoft-sales-copilot/deploy-viva-sales-sf",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/supported-languages.md",
+      "redirect_url": "/microsoft-sales-copilot/supported-languages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/data-handling.md",
+      "redirect_url": "/microsoft-sales-copilot/data-handling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/install-viva-sales.md",
+      "redirect_url": "/microsoft-sales-copilot/install-viva-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/install-viva-sales-as-an-integrated-app.md",
+      "redirect_url": "/microsoft-sales-copilot/install-viva-sales-as-an-integrated-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/install-pin-viva-sales-teams.md",
+      "redirect_url": "/microsoft-sales-copilot/install-pin-viva-sales-teams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/administrator-settings-for-viva-sales.md",
+      "redirect_url": "/microsoft-sales-copilot/administrator-settings-for-viva-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/customize-forms-and-fields.md",
+      "redirect_url": "/microsoft-sales-copilot/customize-forms-and-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/suggested-replies.md",
+      "redirect_url": "/microsoft-sales-copilot/suggested-replies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/m365-admin-setting.md",
+      "redirect_url": "/microsoft-sales-copilot/m365-admin-setting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/disable-viva-sales.md",
+      "redirect_url": "/microsoft-sales-copilot/disable-viva-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/block-viva-sales-app-teams.md",
+      "redirect_url": "/microsoft-sales-copilot/block-viva-sales-app-teams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-no-column.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-no-column",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-trial-env.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-trial-env",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-missing-roles.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-missing-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-record-update-perm.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-record-update-perm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-api-perm.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-api-perm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-mailbox-settings.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-mailbox-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-two-factor.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-two-factor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-update-add-in-error.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-update-add-in-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-enhanced-email-sf.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-enhanced-email-sf",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-create-private-channel.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-create-private-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-mailbox-errors.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-mailbox-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-incorrect-cust-domain.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-incorrect-cust-domain",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-no-access-crm.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-no-access-crm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-admin-mode.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-admin-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-app-blocked.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-app-blocked",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/tsg-auth-issue.md",
+      "redirect_url": "/microsoft-sales-copilot/tsg-auth-issue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/responsible-ai-overview.md",
+      "redirect_url": "/microsoft-sales-copilot/responsible-ai-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/faqs-generate-content.md",
+      "redirect_url": "/microsoft-sales-copilot/faqs-generate-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/faqs-email-summary.md",
+      "redirect_url": "/microsoft-sales-copilot/faqs-email-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/faqs-meeting-follow-up.md",
+      "redirect_url": "/microsoft-sales-copilot/faqs-meeting-follow-up",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/sales/faqs-oppty-summary.md",
+      "redirect_url": "/microsoft-sales-copilot/faqs-oppty-summary",
+      "redirect_document_id": false
+    }    
+  ]
 }
