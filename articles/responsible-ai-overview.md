@@ -12,9 +12,9 @@ ms.reviewer: shjais
 
 # Responsible AI FAQs for Microsoft Sales Copilot
 
-[!INCLUDE[faqs-overview](../includes/responsible-ai-intro.md)]
+[!INCLUDE[faqs-overview](includes/responsible-ai-intro.md)]
 
-[!INCLUDE[faqs-feature](../includes/responsible-ai-features.md)]
+[!INCLUDE[faqs-feature](includes/responsible-ai-features.md)]
 
 - [FAQ for generate content feature in Outlook](faqs-generate-content.md)
 - [FAQ for email summary feature in Outlook](faqs-email-summary.md)

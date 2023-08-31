@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Set up Copilot AI features
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 Sales Copilot can help sellers write better emails, take better notes, and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system.
 

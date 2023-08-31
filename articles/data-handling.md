@@ -15,7 +15,7 @@ ms.subservice: viva-sales
 
 # Data handling in Sales Copilot 
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 This article gives you an overview of how data is handled in Sales Copilot.
 

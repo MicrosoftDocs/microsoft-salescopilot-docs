@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Administrator settings for Sales Copilot
 
-[!INCLUDE[vs-rebrand-note](../includes/vs-rebrand-note.md)]
+[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
 
 Sales Copilot can be customized to an organization's business needs. As a CRM administrator, you can manage environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. For example, you can customize the CRM information displayed in Sales Copilot across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
 
