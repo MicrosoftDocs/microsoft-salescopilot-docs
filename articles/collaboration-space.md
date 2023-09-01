@@ -40,4 +40,4 @@ For information about license requirements, see [License requirements](introduct
 
 - You must have the Sales Copilot add-in installed. If you do not have Sales Copilot add-in installed, contact your administrator to get it installed. More information: [Install Sales Copilot](install-viva-sales.md)
 
-- To add customers to shared channels using their federated identity, ensure that your tenant administrator has enabled shared channels in Teams. More information: [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide)
+- To add customers to shared channels using their federated identity, ensure that your tenant administrator has enabled shared channels in Teams. More information: [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true)

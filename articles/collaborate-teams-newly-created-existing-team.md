@@ -41,7 +41,7 @@ The team consists of two channels to:
 
 - **Collaborate with customers**: This is the shared channel used to collaborate with people outside your organization. The name of the shared channel is the account name prefixed with "Customer".
 
-    To add customers to shared channels using their federated identity, ensure that your tenant administrator has enabled shared channels in Teams. More information: [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide)
+    To add customers to shared channels using their federated identity, ensure that your tenant administrator has enabled shared channels in Teams. More information: [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true)
 
     Shared channel has the following pre-pinned apps:
 
