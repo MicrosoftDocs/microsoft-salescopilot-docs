@@ -14,8 +14,6 @@ ms.subservice: viva-sales
 
 # Install Sales Copilot add-in for Outlook
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
-
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
@@ -55,7 +53,7 @@ After you've installed Sales Copilot as an integrated app, you can manage its co
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the Sales Copilot app.
+2.  On the **Integrated apps** page, select the **Microsoft Sales Copilot** app.
 
 The **Microsoft Sales Copilot** panel opens with the following tabs:
 
@@ -71,7 +69,7 @@ The **Microsoft Sales Copilot** panel opens with the following tabs:
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the Sales Copilot app.
+2.  On the **Integrated apps** page, select the **Microsoft Sales Copilot** app.
 
     The **Microsoft Sales Copilot** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 

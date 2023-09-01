@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Block the Sales Copilot app in Teams
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 You can't delete or uninstall the Sales Copilot app in Teams. You can block it if your sellers no longer need it.
 

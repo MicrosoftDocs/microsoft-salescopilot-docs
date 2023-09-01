@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Missing privileges in Dynamics 365
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 This article helps you troubleshoot and resolve error messages in Sales Copilot related to missing privileges in Dynamics 365.
 

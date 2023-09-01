@@ -33,12 +33,14 @@
     href: data-handling.md
   - name: Install Sales Copilot
     items:
-    - name: Install Sales Copilot
+    - name: Install Sales Copilot (admin-deployed)
       href: install-viva-sales.md
     - name: Install Sales Copilot add-in for Outlook
       href: install-viva-sales-as-an-integrated-app.md
     - name: Install and pin Sales Copilot in Teams
       href: install-pin-viva-sales-teams.md
+    - name: Install Sales Copilot (user-deployed)
+      href: install-sales-copilot.md
 
 
 - name: Administration
@@ -47,7 +49,7 @@
     href: administrator-settings-for-viva-sales.md
   - name: Customize forms and fields
     href: customize-forms-and-fields.md
-  - name: Set up Copilot in Sales Copilot
+  - name: Set up Copilot AI features
     href: suggested-replies.md
   - name: Configure Sales Copilot for Microsoft 365 apps
     href: m365-admin-setting.md
@@ -58,6 +60,88 @@
     href: disable-viva-sales.md
   - name: Block the Sales Copilot app in Teams
     href: block-viva-sales-app-teams.md
+
+- name: Use Sales Copilot in Outlook
+  items:
+  - name: Overview
+    href: use-sales-copilot-outlook.md
+  - name: Connect a contact to your CRM
+    href: connect-contact.md
+  - name: Change the connected CRM contact
+    href: change-connected-crm-contact.md
+  - name: Create a contact in your CRM from Sales Copilot
+    href: create-contact-crm-sales-copilot.md
+  - name: Save Outlook activities to your CRM
+    href: save-outlook-activities-crm.md
+  - name: View recent and upcoming activities
+    href: view-recent-upcoming-activities.md
+  - name: View record details
+    href: view-record-details.md
+  - name: Add personal notes
+    href: add-personal-notes.md
+  - name: Share a link to a CRM record
+    href: share-link-crm-record.md
+  - name: Edit a CRM record
+    href: edit-crm-record.md
+  - name: Switch environments or CRM
+    href: switch-environments-crm.md
+  - name: View diagnostics data
+    href: view-diagnostics-data.md
+  - name: Share feedback
+    href: share-feedback.md
+  - name: Sign out of Sales Copilot
+    href: sign-out-sales-copilot.md
+  - name: Delete your personal data from Sales Copilot
+    href: delete-personal-data.md
+  - name: Use server-side synchronization with Sales Copilot
+    href: use-server-side-sync.md 
+
+
+- name: Use Sales Copilot in Teams
+  items:
+  - name: Overview
+    href: use-sales-copilot-teams.md
+  - name: Create a Teams meeting
+    href: create-teams-meeting.md
+  - name: Use Sales Copilot app during a meeting
+    href: use-sales-copilot-app-during-meeting.md
+  - name: Generate a meeting summary
+    href: generate-meeting-summary.md
+  - name: View and understand the meeting summary
+    href: view-understand-meeting-summary.md
+  - name: Create CRM tasks from meeting summary
+    href: create-crm-tasks-meeting-summary.md
+  - name: Share a CRM record in a Teams conversation
+    href: share-crm-record-teams-conversation.md
+  - name: View and update CRM record details
+    href: view-update-crm-record-details.md
+  - name: Share feedback
+    href: share-feedback-teams.md
+
+- name: AI in Sales Copilot
+  items:
+  - name: Overview
+    href: ai-sales-copilot.md
+  - name: Use Copilot to kickstart email messages
+    href: use-copilot-kickstart-email-messages.md
+  - name: View and save email summary to CRM
+    href: view-save-email-summary-crm.md
+  - name: View opportunity summary
+    href: view-opportunity-summary.md
+
+- name: Collaboration space in Sales Copilot
+  items:
+  - name: Overview
+    href: collaboration-space.md
+  - name: Set up a team using account team template
+    href: set-up-team-account-team-template.md
+  - name: Set up a team using deal room template
+    href: set-up-team-deal-room-template.md
+  - name: Collaborate in Teams using the newly created or existing team
+    href: collaborate-teams-newly-created-existing-team.md
+  - name: Access linked teams and channels
+    href: access-linked-teams-channels.md
+
 
 - name: Troubleshooting guide
   items:
@@ -94,12 +178,8 @@
   - name: Authentication issues when connecting to Salesforce CRM
     href: tsg-auth-issue.md
 
-- name: Use Sales Copilot
-  items:
-  - name: Use Sales Copilot in Outlook
-    href: https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081
-  - name: Use Sales Copilot in Teams
-    href: https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea
+- name: Sales Copilot FAQ
+  href: sales-copilot-faq.md
 
 - name: Sales Copilot training
   href: /training/modules/boost-sales-performance/

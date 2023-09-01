@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Install and pin Sales Copilot in Teams
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 When you install Sales Copilot as an integrated app, the Sales Copilot app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 

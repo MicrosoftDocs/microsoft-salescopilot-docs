@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Configure Sales Copilot for Microsoft 365 apps
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 A few Sales Copilot features run within a Microsoft 365 app service apart from the standard Outlook add-in and Teams app. Feature mentioned in the following sections can be disabled or enabled by a tenant administrator from Microsoft 365 admin center. By default, the feature is enabled.
 

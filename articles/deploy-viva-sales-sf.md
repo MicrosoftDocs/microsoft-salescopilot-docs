@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Sales Copilot deployment guide for Salesforce CRM customers
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 Follow the instructions in this guide to deploy Sales Copilot for your Salesforce CRM customers. Here's a quick video overview of the steps involved:
 

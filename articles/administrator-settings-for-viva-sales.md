@@ -14,8 +14,6 @@ ms.subservice: viva-sales
 
 # Administrator settings for Sales Copilot
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
-
 Sales Copilot can be customized to an organization's business needs. As a CRM administrator, you can manage environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. For example, you can customize the CRM information displayed in Sales Copilot across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
 
 The following administrator settings are available:
@@ -79,16 +77,14 @@ When you open administrator settings, following tabs are available:
 
     If you see the **Sales Copilot** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
     
-    ![Screenshot showing button to open the Sales Copilot app.](media/viva-sales-open-app.png "Screenshot showing button to open the Sales Copilot app.")
-    
     The **Sales Copilot** app is opened with the **Home** tab selected.
     
     ![Screenshot showing Sales Copilot Home tab.](media/viva-sales-home.png "Screenshot showing Sales Copilot Home tab.")
 
 3.  On the **Settings** tab, update the settings.
 
+    - **Copilot**: Allows you to [set up Copilot AI features](suggested-replies.md).
     - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
-    - **Email**: Allows you to [set up email insights](suggested-replies.md).
 
     ![Screenshot showing Sales Copilot Settings tab.](media/viva-sales-admin.png "Screenshot showing Sales Copilot Settings tab.")
 
@@ -102,7 +98,7 @@ When you open administrator settings, following tabs are available:
 
 4. Select **Add** in the **Sales Copilot** window.
 
-    ![Screenshot showing button to add the Sales Copilot app.](media/viva-sales-add-app.png "Screenshot showing button to add the Sales Copilot app.")
+    ![Screenshot showing button to add the Sales Copilot app.](media/add-sales-copilot.png "Screenshot showing button to add the Sales Copilot app.")
     
 
 ## FAQ
