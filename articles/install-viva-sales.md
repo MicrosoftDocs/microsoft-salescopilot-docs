@@ -14,8 +14,6 @@ ms.subservice: viva-sales
 
 # Install Sales Copilot (admin-deployed)
 
-
-
 You need to be a Microsoft 365 administrator to deploy and install the Sales Copilot add-in for Outlook. You need to be a Teams administrator to deploy and install Sales Copilot for Teams.
 
 You can install Sales Copilot as an integrated app on multiple platforms or as an individual add-in on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability. 

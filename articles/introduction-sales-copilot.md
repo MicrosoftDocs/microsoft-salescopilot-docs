@@ -1,6 +1,6 @@
 ---
-title: Introduction to Microsoft Sales Copilot
-description: Learn about Microsoft Sales Copilot.
+title: Microsoft Sales Copilot for sellers
+description: Learn how Microsoft Sales Copilot is useful for sellers.
 ms.date: 08/22/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Introduction to Microsoft Sales Copilot
+# Microsoft Sales Copilot for sellers
 
 As a salesperson, you spend much of your time on administrative tasks, such as entering data in your CRM system to keep it up to date. For sellers, time is money and relationships are key. The time you spend entering data into your CRM could be dedicated to other essential tasks, such as meeting with new customers and selling.
 
