@@ -28,9 +28,9 @@ If there are notes added to the opportunity, they are also summarized and displa
 | Annotation | Description |
 |------------|-------------|
 | 1 | Summary about the opportunity. |
-| 2 | Summarized notes added to the opportunity with citation numbers to show note text used to generate summary. More information: [View data source](#view-data-source-in-opportunity-summary) |
+| 2 | Summarized notes added to the opportunity with citation numbers to show note text used to generate summary. More information: [View data source in opportunity summary](#view-data-source-in-opportunity-summary) |
 | 3 | Copy the opportunity summary to clipboard. You can then paste the content as per your preferences. |
-| 4 | Change the opportunity used to generate the summary. More information: [Change opportunity used to generate summary](#change-the-opportunity-used-to-generate-summary) |
+| 4 | Change the opportunity used to generate the summary. More information: [Change the opportunity used to generate summary](#change-the-opportunity-used-to-generate-summary) |
 | 5 | Name of the opportunity for which summary is generated. |
 | 6 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 
@@ -42,7 +42,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
     On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
 
-## View data source in opportunity summary
+## View data source in opportunity summary
 
 Summarized notes in the opportunity summary are displayed with citation numbers. Select the citation number to see the following details:
 
@@ -54,7 +54,7 @@ Summarized notes in the opportunity summary are displayed with citation numbers.
 
 :::image type="content" source="media/opportunity-summary.png" alt-text="Screenshot showing the Opportunity summary data source.":::
 
-## Change the opportunity used to generate summary  
+## Change the opportunity used to generate summary
 
 1. In the message at the bottom of the summary, select **Change**.
 
