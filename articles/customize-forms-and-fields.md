@@ -216,6 +216,8 @@ If the fields in CRM are not marked as required, you can mark them as required o
 
 3.	In the **Manage fields** section, select **Required** for the fields that you want to mark as required.
 
+    :::image type="content" source="media/admin-required-fields.png" alt-text="Screenshot showing how to mark fields as required.":::
+
 4.	Select **Publish** to save the changes.
 
 

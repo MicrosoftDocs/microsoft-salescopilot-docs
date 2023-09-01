@@ -73,7 +73,7 @@ If you're using custom security roles, [assign users the right roles and privile
 
 [Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize the CRM fields that are shown on forms and whether Sales Copilot generates suggested email content.
 
-![Screenshot showing Sales Copilot admin center](media/viva-sales-admin.png "Screenshot showing Sales Copilot admin center.")
+![Screenshot showing Sales Copilot admin center](media/viva-sales-admin-forms-button.png "Screenshot showing Sales Copilot admin center.")
 
 ### Customize forms and fields
 
