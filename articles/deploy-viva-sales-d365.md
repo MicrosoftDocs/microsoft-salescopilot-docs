@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Sales Copilot deployment guide for Dynamics 365 customers
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 Follow the instructions in this guide to deploy Sales Copilot for your Dynamics 365 Sales customers. Here's a quick video overview of the steps involved:
 
@@ -73,7 +73,7 @@ If you're using custom security roles, [assign users the right roles and privile
 
 [Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize the CRM fields that are shown on forms and whether Sales Copilot generates suggested email content.
 
-![Screenshot showing Sales Copilot admin center](media/viva-sales-admin.png "Screenshot showing Sales Copilot admin center.")
+![Screenshot showing Sales Copilot admin center](media/viva-sales-admin-forms-button.png "Screenshot showing Sales Copilot admin center.")
 
 ### Customize forms and fields
 

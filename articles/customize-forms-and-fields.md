@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Customize forms and fields
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 As an administrator, you can customize the CRM information that's displayed in Sales Copilot to give your sellers a more relevant view.
 
@@ -215,6 +215,8 @@ If the fields in CRM are not marked as required, you can mark them as required o
 2.	Select a record type for which you need to mark the fields as required.
 
 3.	In the **Manage fields** section, select **Required** for the fields that you want to mark as required.
+
+    :::image type="content" source="media/admin-required-fields.png" alt-text="Screenshot showing how to mark fields as required.":::
 
 4.	Select **Publish** to save the changes.
 

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Microsoft Sales Copilot
+title: Welcome to Microsoft Sales Copilot
 description: Get to know Sales Copilot
 ms.date: 02/09/2023
 ms.topic: article
@@ -12,9 +12,7 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Introduction to Microsoft Sales Copilot
-
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+# Welcome to Microsoft Sales Copilot
 
 Microsoft Sales Copilot is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Sales Copilot empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Sales Copilot is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
 

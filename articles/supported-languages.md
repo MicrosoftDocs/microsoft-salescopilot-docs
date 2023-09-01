@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Supported languages in Sales Copilot for Outlook and Teams 
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 ## User interface
 

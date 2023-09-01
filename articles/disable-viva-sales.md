@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Remove Sales Copilot from Microsoft 365 admin center
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 You can remove the Sales Copilot add-in if your sellers no longer need it.
 

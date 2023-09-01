@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Update add-in error in Sales Copilot for Microsoft Outlook
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 This article helps you troubleshoot and resolve error message that repeatedly prompts user to update in Sales Copilot add-in for Outlook.
 
