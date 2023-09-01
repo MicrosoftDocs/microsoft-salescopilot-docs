@@ -37,7 +37,7 @@ The team consists of two channels to:
         > [!NOTE]
         > If you are using Salesforce CRM, you must use Teams desktop app to see the CRM entity details. CRM tab does not load in Teams web client.
 
-    - **CRM OneNote**: OneNote app can be used for sharing notes among all the team members in this channel. Customers who are in shared channel cannot access this OneNote.
+    - **CRM OneNote**: OneNote app can be used for sharing notes among all the team members in this channel. Customers who are in shared channel can't access this OneNote.
 
 - **Collaborate with customers**: This is the shared channel used to collaborate with people outside your organization. The name of the shared channel is the account name prefixed with "Customer".
 
@@ -47,7 +47,7 @@ The team consists of two channels to:
 
     - **Files**: Three starter folders for document organization.
 
-    - **OneNote**: This OneNote is different from the one created in the internal collaboration channel.   Sellers can use it for sharing notes with their customers. Team members who are not part of the shared channel cannot access this OneNote.
+    - **OneNote**: This OneNote is different from the one created in the internal collaboration channel.   Sellers can use it for sharing notes with their customers. Team members who aren't part of the shared channel can't access this OneNote.
 
         > [!NOTE]
         >
@@ -62,8 +62,8 @@ The team consists of two channels to:
 | Annotation | Description                                                                                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1          | New account team created with two default channels.                                                                                                              |
-| 2          | General channel to collaborate on account related activities with people within your organization. It is linked to the CRM account.                              |
+| 2          | General channel to collaborate on account related activities with people within your organization. It's linked to the CRM account.                              |
 | 3          | Shared account team channel to collaborate with people outside your organization.                                                                                |
 | 4          | Pre-pinned apps                                                                                                                                                  |
-| 5          | New deal room channel created in the existing account team. It is linked to the CRM opportunity and is used to collaborate with people within your organization. |
+| 5          | New deal room channel created in the existing account team. It's linked to the CRM opportunity and is used to collaborate with people within your organization. |
 | 6          | Shared deal room channel to collaborate with people outside your organization.                                                                                   |

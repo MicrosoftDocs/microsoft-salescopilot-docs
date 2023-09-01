@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Learn More – Call or Meeting Recording
 
-Your privacy is important to us. When Microsoft sales teams engage in conversations with customers, we utilize call recording technologies during calls both online and over traditional phone lines. During these calls, we use automated tools, including machine learning, to analyze and draw insights from call recordings. This article describes how Microsoft uses these technologies and your choices. All call recordings will be handled in accordance with the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) and this article.
+Your privacy is important to us. When Microsoft sales teams engage in conversations with customers, we utilize call recording technologies during calls both online and over traditional phone lines. During these calls, we use automated tools, including machine learning, to analyze and draw insights from call recordings. This article describes how Microsoft uses these technologies and your choices. All call recordings are handled in accordance with the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) and this article.
 
 ## Purpose of Call Recording
 
@@ -24,10 +24,10 @@ Call recording tools may collect information including audio and video from call
 
 ## Your Choices
 
-In addition to the access and deletion rights outlined in the Microsoft Privacy Statement, you have choices regarding whether you are recorded during calls and meetings.
+In addition to the access and deletion rights outlined in the Microsoft Privacy Statement, you have choices regarding whether you're recorded during calls and meetings.
 
-- **Right to Know**: You will be notified before any call or meeting is recorded.
+- **Right to Know**: You'll be notified before any call or meeting is recorded.
 
-- **Right to Choose**: You have the right to choose whether you are recorded. If you choose not to be recorded, please inform your Microsoft call host that you do not consent to recording.
+- **Right to Choose**: You have the right to choose whether you're recorded. If you choose not to be recorded,  inform your Microsoft call host that you don't consent to recording.
 
-For additional information about how Microsoft processes personal data, please see the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).  
+For more information about how Microsoft processes personal data, see the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).  

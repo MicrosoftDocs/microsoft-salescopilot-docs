@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Delete your personal data from Sales Copilot
 
-If you want to remove your personal data from Sales Copilot, you'll need to delete your entire Sales Copilot account. This deletes all data associated with you, including non-personal data you saved in Sales Copilot. You'll be disconnected from Sales Copilot and must reconnect to use it again. Deleting your Sales Copilot account doesn't delete data stored in the CRM. It only deletes your Sales Copilot data.
+If you want to remove your personal data from Sales Copilot, you need to delete your entire Sales Copilot account. Deleting Sales Copilot account deletes all data associated with you, including non-personal data you saved in Sales Copilot. You'll be disconnected from Sales Copilot and must reconnect to use it again. Deleting your Sales Copilot account doesn't delete data stored in the CRM. It only deletes your Sales Copilot data.
 
 1. Open Sales Copilot.
 
