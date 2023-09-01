@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Install Sales Copilot add-in for Outlook
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 

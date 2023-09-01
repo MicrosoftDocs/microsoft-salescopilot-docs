@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Customize forms and fields
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 As an administrator, you can customize the CRM information that's displayed in Sales Copilot to give your sellers a more relevant view.
 

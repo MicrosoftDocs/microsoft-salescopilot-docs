@@ -14,7 +14,7 @@ ms.subservice: viva-sales
 
 # Sales Copilot architecture
 
-[!INCLUDE[vs-rebrand-note](includes/vs-rebrand-note.md)]
+
 
 This article contains links to download Sales Copilot architecture document and top 10 most frequently asked questions about Sales Copilot architecture.
 
