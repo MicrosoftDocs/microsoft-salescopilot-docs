@@ -1,5 +1,5 @@
 ---
-title: Share feedback
+title: Share feedback from Teams app
 description: Learn how to share feedback.
 ms.date: 08/28/2023
 ms.topic: article
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Share feedback
+# Share feedback from Teams app
 
 If you have any feedback about Sales Copilot, you can share it from the app. Your feedback is valuable, and we use it to improve the product.
 

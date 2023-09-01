@@ -51,7 +51,7 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     :::image type="content" source="media/existing-deal-room.png" alt-text="Screenshot showing existing deal room in Teams.":::
 
-    For more information about working with the newly created channel, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-using-newly-created-existing-team.md).
+    For more information about working with the newly created channel, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-newly-created-existing-team.md).
 
     Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
@@ -104,7 +104,7 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     :::image type="content" source="media/new-teams-deal-room.png" alt-text="Screenshot showing new deal room in Teams.":::
 
-    For more information about working with the newly created team, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-using-newly-created-existing-team.md).
+    For more information about working with the newly created team, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-newly-created-existing-team.md).
 
 1. Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 

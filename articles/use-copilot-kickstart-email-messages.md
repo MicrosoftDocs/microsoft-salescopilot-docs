@@ -138,7 +138,7 @@ If there are no additional open opportunities identified by the AI model, no opt
    >
    > - Sales Copilot displays opportunities that are related to the contacts in the email.
    >
-   > - The information displayed below the opportunities is displayed as customized by your administrator. More information: [Customize the mini view](customize-forms-and-fields.md#customize-the-mini-view)
+   > - The information displayed below the opportunities is displayed as customized by your administrator. More information: [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view)
 
 1. Select **Create a new draft**.
 

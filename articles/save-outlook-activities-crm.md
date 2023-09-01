@@ -30,7 +30,7 @@ Updating the CRM with all your activities across all the communication channels 
 
    :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM button.":::
 
-    If you've connected Sales Copilot to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Sales Copilot](use-server-side-synchronization-sales-copilot.md)
+    If you've connected Sales Copilot to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Sales Copilot](use-server-side-sync.md)
 
 1. Under **Connect to a record**, select the record you want to connect the activity to.
 
@@ -40,7 +40,7 @@ Updating the CRM with all your activities across all the communication channels 
 
    > [!NOTE]
    >
-   > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for mini view](customize-forms-and-fields.md#select-key-fields-for-mini-view).
+   > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    >
    > - The record you can connect Outlook emails or meetings to may be limited by your CRM.
    >
