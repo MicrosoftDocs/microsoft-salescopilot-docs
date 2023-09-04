@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 08/28/2023
+ms.date: 09/05/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,7 +18,7 @@ Updating the CRM with all your activities across all the communication channels 
 >
 > - If you are using Dynamics 365 as your CRM and have saved an email to Dynamics 365, any replies to the email are saved to CRM automatically if [server-side synchronization](/power-platform/admin/server-side-synchronization) is enabled and if any option other than **No email messages** is selected under the [Email tab in Personalization Settings](/power-apps/user/set-personal-options#email-tab-options) in Dynamics 365.
 >
-> - If you are using Dynamics 365 as your CRM, you can save draft emails to Dynamics 365. The email is not saved to the CRM immediately, but only after it is sent.
+> - If you are using Dynamics 365 as your CRM, you can save draft emails and appointments to Dynamics 365. The email is not saved to the CRM immediately, but only after it is sent. The appointment is saved immediately to the CRM.
 >
 > - Saving Outlook activities from shared mailboxes is not supported.
 
