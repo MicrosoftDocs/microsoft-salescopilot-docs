@@ -1,7 +1,7 @@
 ---
 title: Collaborate in Teams using the newly created or existing team
 description: Learn how to collaborate in Teams using the newly created or existing team.
-ms.date: 08/23/2023
+ms.date: 09/05/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -59,11 +59,41 @@ The team consists of two channels to:
 
 :::image type="content" source="media/anatomy-deal-room-team.png" alt-text="Screenshot showing anatomy of deal room team.":::
 
-| Annotation | Description                                                                                                                                                      |
-|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1          | New account team created with two default channels.                                                                                                              |
-| 2          | General channel to collaborate on account related activities with people within your organization. It's linked to the CRM account.                              |
-| 3          | Shared account team channel to collaborate with people outside your organization.                                                                                |
-| 4          | Pre-pinned apps                                                                                                                                                  |
+| Annotation | Description |
+|------------|-------------|
+| 1          | New account team created with two default channels.    |
+| 2          | General channel to collaborate on account related activities with people within your organization. It's linked to the CRM account. |
+| 3          | Shared account team channel to collaborate with people outside your organization.  |
+| 4          | Pre-pinned apps  |
 | 5          | New deal room channel created in the existing account team. It's linked to the CRM opportunity and is used to collaborate with people within your organization. |
-| 6          | Shared deal room channel to collaborate with people outside your organization.                                                                                   |
+| 6          | Shared deal room channel to collaborate with people outside your organization. |
+
+## View AI-generated opportunity summary in deal room
+
+When you open the team created using the deal room template in Teams for the first time, you will see the AI-generated [opportunity summary](view-opportunity-summary.md) in the standard channel as part of the welcome post. 
+
+:::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot showing AI-generated opportunity summary in deal room.":::
+
+If you want to view the opportunity summary again at a later point in time, you can generate it using either of the following methods:
+- Enter `@Sales Copilot show summary` in the message box and press **Enter**.
+- Enter `@Sales Copilot help` in the message box, press **Enter**, and then select **Generate Opportunity Summary** from the list of options.
+
+> [!NOTE]
+> - The AI-generated opportunity summary is displayed only when your administrator has enabled copilot AI features. If your administrator has disabled copilot AI features, the opportunity summary is displayed in the form of field-value pairs. The fields in the summary are displayed as configured by your administrator.
+> :::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot showing opportunity summary in deal room when copilot AI features are disabled.":::
+> - If your administrator has blocked the Sales Copilot app in Teams, the opportunity summary is not generated.
+
+### Data used to generate the opportunity summary  
+
+A brief summary of the opportunity is generated using the following CRM fields from the opportunity record:
+- Opportunity name
+- Opportunity ID
+- Created On
+- Estimated close date
+- Sales stage
+- Budget amount
+- Description
+- Parent Account name
+- Primary contact name
+
+Content under the **Latest activity** section is generated from the summary of the last three notes added to the opportunity record.
