@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Learn how to view an opportunity summary.
-ms.date: 08/28/2023
+ms.date: 09/05/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,11 +17,10 @@ Sales Copilot uses AI to generate a summary of each opportunity with key inform
 If there are notes added to the opportunity, they are also summarized and displayed under the **Latest activity** section. If you've [saved an email summary to the opportunity](view-save-email-summary-crm.md#save-email-summary-to-crm), it's included in the summarized notes. The notes summary highlights any issues or concerns addressed within notes. It makes it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
 
 > [!NOTE]
->
->
 > - The opportunity summary for an email is displayed only if the email is saved to CRM and connected to an opportunity.
->
 > - If a meeting is not connected to an opportunity, the opportunity summary for the meeting is displayed based on the most relevant opportunity selected by AI. You'll get an option to select another opportunity and regenerate the suggested content.
+> - When you when you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
+> - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Sales Copilot pane in Outlook.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
 

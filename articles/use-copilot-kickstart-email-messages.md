@@ -148,9 +148,7 @@ If there are no additional open opportunities identified by the AI model, no opt
 
 View information about data pulled from your CRM and Office 365, such as contact, opportunities, account, and email in the suggested content.
 
-CRM data used in the suggested content is displayed in blue color. Select the content to see information about the CRM data. You can also open a record in CRM to view its complete details by selecting the Open record button on the CRM record card.
-
-:::image type="content" source="media/open-record.png" alt-text="Screenshot showing the Open record button.":::
+CRM data used in the suggested content is displayed in blue color. Select the content to see information about the CRM data. You can also open a record in CRM to view its complete details by selecting :::image type="icon" source="media/open-record.png" border="false"::: on the CRM record card.
 
 Email data used in the suggested content is displayed with citation numbers. Select the citation number to see information about the email content used.
 

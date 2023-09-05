@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
-ms.date: 08/07/2023
+ms.date: 09/05/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -13,8 +13,6 @@ ms.subservice: viva-sales
 ---
 
 # Customize forms and fields
-
-
 
 As an administrator, you can customize the CRM information that's displayed in Sales Copilot to give your sellers a more relevant view.
 
@@ -374,6 +372,10 @@ You can add a maximum of 40 fields to a record.
 A field can be noneditable in the following cases:
 - The field is calculated
 - The field is required in the CRM
+
+### How are hyperlink formula fields from Salesforce CRM displayed in Sales Copilot?
+
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Sales Copilot, hyperlink formula fields containing URLs (but no images) are displayed as clickable links.
 
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 

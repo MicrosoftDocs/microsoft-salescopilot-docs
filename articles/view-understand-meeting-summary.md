@@ -32,17 +32,11 @@ If there are multiple recordings of a single meeting (happens when you stop and 
 
 The meeting summary page includes the following sections:
 
-- Overview, recap, and mentions
+- Recap, mentions, and Details
 
 - Call transcript and translation
 
 - Call playback timeline and segmentation
-
-### Overview
-
-The **Overview** tab displays the names of the people who participated in the meeting.
-
-:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Viva Sales meeting summary.":::
 
 ### Recap
 
@@ -88,6 +82,12 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 - **Times**: Displays the time periods mentioned during the call.
 
 :::image type="content" source="media/mentions.png" alt-text="Screenshot showing the Mentions tab in Viva Sales meeting summary.":::
+
+### Details
+
+The **Details** tab displays the names of the people who participated in the meeting.
+
+:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Viva Sales meeting summary.":::
 
 ### Call transcript and translation
 
