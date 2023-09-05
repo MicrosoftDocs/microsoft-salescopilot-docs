@@ -373,11 +373,11 @@ A field can be noneditable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
+### How are hyperlink formula fields from Salesforce CRM displayed in Sales Copilot?
+
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Sales Copilot, hyperlink formula fields containing URLs (but no images) are displayed as clickable links.
+
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
 If you've connected Sales Copilot to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
-
-### How are hyperlink formula fields from Salesforce CRM displayed in Sales Copilot?
-
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. Now, hyperlink formula fields containing URLs (but no images) are similarly displayed in Sales Copilot as clickable links.
 

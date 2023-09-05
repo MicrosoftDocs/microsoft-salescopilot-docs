@@ -70,7 +70,7 @@ The team consists of two channels to:
 
 ## View AI-generated opportunity summary in deal room
 
-When you open the team created using the deal room template in Teams for the first time, you will see the AI-generated opportunity summary in the standard channel as part of the welcome post. 
+When you open the team created using the deal room template in Teams for the first time, you will see the AI-generated [opportunity summary](view-opportunity-summary.md) in the standard channel as part of the welcome post. 
 
 :::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot showing AI-generated opportunity summary in deal room.":::
 
