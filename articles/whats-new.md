@@ -7,11 +7,11 @@ ms.date: 09/08/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
-# What's new or changed in Dynamics 365 Sales
+# What's new or changed in Microsoft Sales Copilot
 
 Wondering about upcoming and recently released capabilities in Microsoft Sales Copilot? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Viva+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
-See the release plans for what's coming. Choose the following links to learn about the latest versions of Dynamics 365 Sales.
+See the release plans for what's coming. Choose the following links to learn about the latest versions of Microsoft Sales Copilot.
 
 - [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/viva-sales/planned-features)  
 - [2022 release wave 2](/dynamics365-release-plan/2022wave2/sales/viva-sales/planned-features)  
