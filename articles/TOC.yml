@@ -1,4 +1,7 @@
-- name: Microsoft Sales Copilot
+- name: Microsoft Sales Copilot documentation
+  href: index.yml
+
+- name: Welcome to Microsoft Sales Copilot
   href: introduction.md
 
 - name: What's new in Sales Copilot
