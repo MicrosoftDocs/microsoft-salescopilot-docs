@@ -3,13 +3,12 @@ title: Authentication issues when connecting to Salesforce CRM
 description: Troubleshoot and resolve authentication issues when connecting to Salesforce CRM from Sales Copilot.
 ms.date: 08/30/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Authentication issues when connecting to Salesforce CRM

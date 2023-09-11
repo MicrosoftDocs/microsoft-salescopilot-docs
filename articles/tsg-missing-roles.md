@@ -3,13 +3,12 @@ title: Missing privileges in Dynamics 365
 description: Troubleshoot and resolve error messages in Sales Copilot related to missing privileges in Dynamics 365.
 ms.date: 07/18/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Missing privileges in Dynamics 365
