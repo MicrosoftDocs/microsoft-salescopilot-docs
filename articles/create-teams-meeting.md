@@ -25,4 +25,4 @@ Keep these important points about conversation insights in mind:
 
 - If you create a recurring meeting, Outlook adds the Sales Copilot app to all occurrences of the meeting.
 
-- The Sales Copilot app is added automatically to the meeting only when Outlook has the [minimum required version](sales-copilot-faq.md#whats-the-minimum-version-of-outlook-required-for-the-sales-copilot-app-to-be-added-automatically-to-a-meeting).
+- The Sales Copilot app is added automatically to the meeting only when Outlook has the [minimum required version](sales-copilot-faq.md#whats-the-minimum-version-of-outlook-required-for-sales-copilot).
