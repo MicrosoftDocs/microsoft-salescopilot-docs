@@ -150,6 +150,8 @@
 
 - name: Troubleshooting guide
   items:
+  - name: Overview
+    href: troubleshoot.yml
   - name: Salesforce CRM users unable to see data in Sales Copilot
     href: tsg-no-column.md
   - name: First Salesforce CRM user unable to access Sales Copilot
