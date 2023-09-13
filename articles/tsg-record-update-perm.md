@@ -1,7 +1,7 @@
 ---
-title: Unable to update records when connected to Salesforce CRM
-description: Troubleshoot and resolve error issues when users are unable to update records in Sales Copilot when connected to Salesforce CRM.
-ms.date: 08/22/2023
+title: Unable to update records because of missing record access in Salesforce CRM
+description: Troubleshoot and resolve error issues when users are unable to update CRM records in Sales Copilot because of missing record access in Salesforce CRM.
+ms.date: 09/14/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -12,9 +12,9 @@ ms.localizationpriority: medium
 ms.subservice: viva-sales
 ---
 
-# Unable to update records in Sales Copilot when connected to Salesforce CRM
+# Unable to update records because of missing record access in Salesforce CRM
 
-This article helps you troubleshoot and resolve issues when users are unable to update records in Sales Copilot when connected to Salesforce CRM.
+This article helps you troubleshoot and resolve issues when users are unable to update CRM records in Sales Copilot because of missing record access in Salesforce CRM.
 
 ## Who is affected?
 
@@ -25,49 +25,25 @@ This article helps you troubleshoot and resolve issues when users are unable to 
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce      |
-|**Users**     | Users trying to update a record in Sales Copilot |
+|**Users**     | Users trying to update a CRM record from Sales Copilot |
 
 ## Symptom
 
-When trying to update a CRM record from the Sales Copilot add-in for Outlook, the following error message is displayed: `Can't update Salesforce because you don't have edit access for this record.`
+When trying to update a CRM record from the Sales Copilot add-in for Outlook, the following error message is displayed: `To update Salesforce, ask for edit access for this record.`
 
 :::image type="content" source="media/tsg-update-record.png" alt-text="Error about unable to update records in Salesforce.":::
 
 ## Root cause and resolution
 
-### Issue 1: User doesn't have Write access to an entity in Salesforce
+### Issue 1: User doesn't have edit access to a record in Salesforce
 
 #### Root cause
 
-When a user tries to edit an entity, Sales Copilot checks if the user has **Write** access to the entity in Salesforce. If the user doesn't have **Write** access to the entity, the error message is displayed.
-
-You can confirm if the user not having **Write** access to the entity is the root cause of issue if you see the following error in the logs:
-
-```
-Exception thrown in VivaSalesContacts/UpdateContact - 
-Microsoft.SalesProductivity.Common.Base.SPServiceException: Salesforce failed to complete task: Message: entity is deleted clientRequestId: 01665660-aeb5-45fe-83d3-59bf69f1e85e-self ---> 
-System.Exception: { 
-    "status": 400, 
-    "message": "Object type contact is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. 
-                Please reference your WSDL or the describe call for the appropriate names\r\nclientRequestId: <CLIENT REQUEST ID>-self", 
-    "error": null, 
-    "source": "Salesforce.Common", 
-    "errors": [] 
-}
-
-```
-
-In the above error message, the `Object type contact is not supported` indicates that the user doesn't have **Write** access to the Contact entity.
+When a user tries to edit a record, Sales Copilot checks if the user has edit access to the object and record in Salesforce. If the user has edit access to the object but not to the record, the error message is displayed.
 
 #### Resolution
 
-To resolve the issue, ensure that the user has:
-
-- Read/write level permissions to the entity that the user is trying to edit in Salesforce
-- Read/write permissions on all of the fields configured for editing
-- Access to the specific record that the user is trying to edit
-
-For information about object-level security, field-level security, and record-level security in Salesforce, see [Control Who Sees What](https://help.salesforce.com/s/articleView?id=sf.security_data_access.htm&type=5). You can also contact your Salesforce administrator for help with setting permissions correctly.
+Salesforce administrator must provide edit access to the record in Salesforce by [manually sharing the record with the user](https://help.salesforce.com/s/articleView?id=sf.granting_access_to_records.htm&type=5).
 
 ## Is your issue still not resolved?
 
