@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 title:  Microsoft Sales Copilot documentation
 summary:  Discover how to make the most of Microsoft Sales Copilot with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft Sales Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
-brand: dynamics
+brand: sales-copilot
 metadata:
   title: Microsoft Sales Copilot documentation
   description: Learn about how you can use Microsoft Sales Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: apr-23.md
+      url: troubleshoot.yml
       
 additionalContent: 
   sections:
