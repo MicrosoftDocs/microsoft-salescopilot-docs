@@ -3,29 +3,19 @@
 
 
 title: Help resources for troubleshooting guide
-
 summary: Navigate to the troubleshooting documentation based on the issue you encounter.
 
 
 metadata:
 
   title: Help resources for troubleshooting guide
-
   description: Index page showing the troubleshooting guide for Microsoft Sales Copilot.
-
-  services: service
-
-  
-
-  ms.topic: landing-page
-
-  ms.collection: collection
-
   author: sbmjais
-
   ms.author: shjais
-
+  ms.topic: landing-page
+  ms.service: microsoft-sales-copilot
   ms.date: 09/13/2023
+  ms.custom: bap-template
 
 
 
