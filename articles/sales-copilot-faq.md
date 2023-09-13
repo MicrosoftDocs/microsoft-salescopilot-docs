@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot FAQ
 description: Sales Copilot Frequently Asked Questions
-ms.date: 08/22/2023
+ms.date: 09/12/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -111,13 +111,13 @@ You can add the Sales Copilot app manually to a Teams meeting to test it interna
 
     :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Viva Sales app during meeting.":::
 
-## What's the minimum version of Outlook required for the Sales Copilot app to be added automatically to a meeting?
+## What's the minimum version of Outlook required for Sales Copilot?
 
 The minimum required version for Outlook is:
 
 - **Outlook for Windows**: version 2206 (Build 15330.20196)
 
-- **Outlook for Mac**: 16.65.827.0
+- **Outlook for Mac**: 16.78
 
 ## Why are meeting insights not getting generated even if meeting is transcribed?
 
