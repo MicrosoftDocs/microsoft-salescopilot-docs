@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot architecture
 description: Information about Microsoft Sales Copilot architecture
-ms.date: 04/10/2023
+ms.date: 09/13/2023
 ms.topic: article
 ms.service: viva
 ms.collection: highpri
@@ -26,5 +26,5 @@ The purpose of this article is to help admins, IT professionals, and developers 
 
 |Document|Last update|Last updated release|
 |--------|----------|--------------|
-|[Download Sales Copilot architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|April 03, 2023|March 2023|
-|[Download Sales Copilot architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|April 03, 2023|March 2023|
+|[Download Sales Copilot architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
+|[Download Sales Copilot architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
