@@ -3,13 +3,12 @@ title: Install Sales Copilot (admin-deployed)
 description: Learn what are the various ways to install Sales Copilot
 ms.date: 04/11/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Install Sales Copilot (admin-deployed)

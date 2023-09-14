@@ -3,13 +3,12 @@ title: Administrator settings for Sales Copilot
 description: Learn how to configure administrator settings for Sales Copilot.
 ms.date: 03/15/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Administrator settings for Sales Copilot

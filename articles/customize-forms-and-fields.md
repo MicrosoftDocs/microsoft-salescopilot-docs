@@ -3,13 +3,12 @@ title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
 ms.date: 09/05/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Customize forms and fields

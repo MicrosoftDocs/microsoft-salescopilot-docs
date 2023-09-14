@@ -3,13 +3,12 @@ title: Sign up for a free Microsoft Sales Copilot trial
 description: Learn how to sign up for a free Microsoft Sales Copilot trial
 ms.date: 08/04/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Sign up for a free Microsoft Sales Copilot trial
