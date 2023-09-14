@@ -3,13 +3,12 @@ title: Unable to update records when connected to Salesforce CRM
 description: Troubleshoot and resolve error issues when users are unable to update records in Sales Copilot when connected to Salesforce CRM.
 ms.date: 08/22/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Unable to update records in Sales Copilot when connected to Salesforce CRM

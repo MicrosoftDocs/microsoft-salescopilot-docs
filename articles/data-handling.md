@@ -3,13 +3,12 @@ title: Data handling in Sales Copilot
 description: Know how data is handled in Sales Copilot 
 ms.date: 10/03/2022
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 

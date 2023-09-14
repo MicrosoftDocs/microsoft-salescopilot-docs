@@ -3,13 +3,12 @@ title: Error after connecting and signing in to Salesforce CRM
 description: Troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
 ms.date: 08/22/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Error after connecting and signing in to Salesforce CRM
