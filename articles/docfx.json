@@ -41,7 +41,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/microsoft-sales-copilot/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
+      "extendBreadcrumb": false,
       "feedback_system": "None",
       "search.app": [
         "microsoftviva-docs"
