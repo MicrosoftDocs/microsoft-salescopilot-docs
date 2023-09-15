@@ -37,7 +37,7 @@ When Dynamics 365 users try to sign in to Sales Copilot, the following error mes
 
 The **Access needed** error message is displayed because of one of the following reasons:
 - User is either disabled or not a member of any business unit in Dynamics 365
-- User is not a member of AAD security group.
+- User isn't a member of Azure Active Directory security group.
 
 #### Resolution 1: Enable the user in Dynamics 365
 
@@ -51,7 +51,7 @@ The **Access needed** error message is displayed because of one of the following
 
     If the affected user is shown as disabled, enable the user.
 
-#### Resolution 2: Add the user as a member of AAD security group
+#### Resolution 2: Add the user as a member of Azure Active Directory security group
 
 1. Sign in to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com) with the System Administrator credentials.
 
