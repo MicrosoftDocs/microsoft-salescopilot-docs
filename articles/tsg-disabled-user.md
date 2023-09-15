@@ -1,7 +1,7 @@
 ---
 title: Unable to sign in to Dynamics 365
 description: Troubleshoot and resolve error messages in Sales Copilot when a user is either disabled or not a member of any business unit in Dynamics 365.
-ms.date: 09/05/2023
+ms.date: 09/15/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
