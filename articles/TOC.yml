@@ -151,7 +151,7 @@
     href: tsg-trial-env.md  
   - name: Missing privileges in Dynamics 365
     href: tsg-missing-roles.md
-  - name: Unable to update records in Viva Sales when connected to Salesforce CRM
+  - name: Unable to update records in Sales Copilot when connected to Salesforce CRM
     href: tsg-record-update-perm.md
   - name: Error after connecting and signing in to Salesforce CRM
     href: tsg-api-perm.md
@@ -177,6 +177,8 @@
     href: tsg-app-blocked.md
   - name: Authentication issues when connecting to Salesforce CRM
     href: tsg-auth-issue.md
+  - name: Unable to sign in to Dynamics 365
+    href: tsg-disabled-user.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
