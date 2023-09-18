@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Install Sales Copilot (user-depolyed)
+# Install Sales Copilot (user-deployed)
 
 Microsoft Sales Copilot is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily, your CRM, Microsoft 365, and Microsoft Teams, to provide a more streamlined and AI-powered selling experience.
 
