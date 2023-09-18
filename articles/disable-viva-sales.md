@@ -3,13 +3,12 @@ title: Remove Sales Copilot from Microsoft 365 admin center
 description: Learn how to remove Sales Copilot from Microsoft 365 admin center
 ms.date: 10/03/2022
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Remove Sales Copilot from Microsoft 365 admin center
