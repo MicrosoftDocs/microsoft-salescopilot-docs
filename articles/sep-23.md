@@ -41,8 +41,7 @@ We're excited to announce our newest updates! This article summarizes general av
 | Application    | Previous Version | New Version | New Version Change | Description of changes |
 |------------------------------------------|------------------|-------------|--------------------|------------------------|
 | Microsoft Viva Sales for Outlook add-in  | 1.0.0.12  | 1.0.0.12  | Sales Copilot rebranding  | The new Outlook Add-In manifest contains rebranding changes from Viva Sales to Sales Copilot.   |
-| Microsoft Viva Sales for Microsoft Teams | 9.4.23177021 | 9.7.23249007   | Sales Copilot rebranding and description changes    | The new Teams app manifest contains rebranding changes from Viva Sales to Sales Copilot. <br><br>
-It also includes a new description to inform users and admins about the fact that Sales Copilot has permission to collect Teams meeting data such as meeting recordings and transcripts.  |
+| Microsoft Viva Sales for Microsoft Teams | 9.4.23177021 | 9.7.23249007   | Sales Copilot rebranding and description changes    | The new Teams app manifest contains rebranding changes from Viva Sales to Sales Copilot. <br><br>It also includes a new description to inform users and admins about the fact that Sales Copilot has permission to collect Teams meeting data such as meeting recordings and transcripts.  |
 
 ## Critical bug fixes
 
