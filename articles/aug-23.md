@@ -60,5 +60,5 @@ None
 
 ## Additional resources
 
-Coming soon
+[What's New in Sales Copilot – August 2023](https://techcommunity.microsoft.com/t5/microsoft-sales-copilot-blog/what-s-new-in-sales-copilot-august-2023/ba-p/3893099)
 
