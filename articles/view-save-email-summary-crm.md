@@ -66,7 +66,7 @@ The generation of email summary is supported in the following languages: English
    >
    > - If no opportunity is connected, the top ranked opportunity, which is determined by the open opportunities available for the account or contact, and the content of the email, will be selected by default.
    >
-   > - When you search for a record, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see Select key fields for mini view.
+   > - When you search for a record, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    >
    > - Your search results will be added to the suggested records list, so you can safely search and try again.
    >
