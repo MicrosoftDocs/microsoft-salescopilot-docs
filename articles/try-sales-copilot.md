@@ -1,7 +1,7 @@
 ---
 title: Sign up for a free Microsoft Sales Copilot trial
 description: Learn how to sign up for a free Microsoft Sales Copilot trial
-ms.date: 08/04/2023
+ms.date: 09/21/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -23,7 +23,7 @@ Microsoft Sales Copilot offers a 30-day free trial. As an administrator, you can
 ## Get Sales Copilot trial license
 
 > [!NOTE]
-> Steps in this section requires signing in to Microsoft 365 admin center as a CRM administrator to acquire licenses, assign them to users, and then deploy Sales Copilot in Outlook and Teams. If don't have administrator privileges or don't know who your administrator is, you can install Sales Copilot individually in Outlook and Teams. More information: [Install Sales Copilot as an individual user](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0)
+> Steps in this section requires signing in to Microsoft 365 admin center as a tenant administrator to acquire licenses, assign them to users, and then deploy Sales Copilot in Outlook and Teams. If don't have administrator privileges or don't know who your administrator is, you can install Sales Copilot individually in Outlook and Teams. More information: [Install Sales Copilot as an individual user](https://support.microsoft.com/topic/install-sales-copilot-a70ae8aa-19cf-412d-becb-448a128951c0)
 
 1. Open the [Sales Copilot trial](https://go.microsoft.com/fwlink/p/?LinkID=2209090) page, enter your CRM administrator email address, and then select **Next**.
 
