@@ -26,7 +26,7 @@ The following administrator settings are available:
 - Sales Copilot app must be added to Teams. More information: [Add the Sales Copilot app to Teams](#add-the-sales-copilot-app-to-teams)
 - Administrators must have the latest version of the Sales Copilot app in Teams. For information on updating an app in Teams, see [Update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 - Administrator must sign in to Sales Copilot in Outlook.
-    1. [Launch Sales Copilot from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081).
+    1. [Launch Sales Copilot from Outlook](use-sales-copilot-outlook.md).
     2. On the **Welcome to Sales Copilot!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
 
 > [!IMPORTANT]
@@ -61,8 +61,6 @@ When you open administrator settings, following tabs are available:
 - **Settings**: Contains all the settings for an administrator.
 
 - **About**: Displays details of the Sales Copilot app.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWWVKG]
 
 **To access administrator settings**
 
@@ -116,7 +114,7 @@ Your organization may have multiple environments for you and your sellers to wor
 
 You'll need to switch CRM environments from Sales Copilot in Outlook and come back to Sales Copilot app in Teams:
 
-1. [Sign out of Sales Copilot in Outlook](https://support.microsoft.com/topic/sign-out-of-viva-sales-7c62164a-ee27-48c7-93a0-c18bb1055cd6).
+1. [Sign out of Sales Copilot in Outlook](sign-out-sales-copilot.md).
 2. In the **Welcome to Sales Copilot!** pane, select **Sign in to get started**, and then select your CRM and environment to use.
 3. Come back to Sales Copilot app in Teams and refresh the **Settings** tab to see the new environment.
 
@@ -125,7 +123,7 @@ You'll need to switch CRM environments from Sales Copilot in Outlook and come ba
 
 You need to be signed in to a CRM environment from Sales Copilot in Outlook.
 
-[Launch Sales Copilot from Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081). On the **Welcome to Sales Copilot!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
+[Launch Sales Copilot from Outlook](use-sales-copilot-outlook.md). On the **Welcome to Sales Copilot!** screen, select **Sign in to get started**, and then select your CRM and environment to use. 
 
 Come back to the Sales Copilot app in Teams and refresh the **Settings** tab. 
 
