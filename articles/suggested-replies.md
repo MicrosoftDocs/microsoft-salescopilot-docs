@@ -81,4 +81,4 @@ Ensure that the Sales Copilot for Outlook add-in is updated to the latest versio
 
 ### See also
 
-[Use AI to kickstart email message](https://support.microsoft.com/topic/use-ai-to-kickstart-email-replies-148708be-e1f9-477c-baba-0b4dd4b7abef)
+[Use AI to kickstart email message](use-copilot-kickstart-email-messages.md)
