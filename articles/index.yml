@@ -53,7 +53,7 @@ additionalContent:
         text: Deployment guide for Salesforce users
   - title: Administer and manage
     items:
-    - title: Configure 
+    - title: Configure Sales Copilot for Outlook and Teams
       links: 
       - url: customize-forms-and-fields.md
         text: Customize forms and fields
@@ -61,12 +61,18 @@ additionalContent:
         text: Set up Copilot AI features
       - url:  m365-admin-setting.md
         text: Configure Sales Copilot for Microsoft 365 apps
-    - title: Manage
+    - title: Manage Sales Copilot for Outlook and Teams
       links:
       - url: disable-viva-sales.md
         text: Remove Sales Copilot from Microsoft 365 admin center
       - url: block-viva-sales-app-teams.md
         text: Block the Sales Copilot app in Teams
+    - title: Configure Sales Copilot for Dynamics 365 Sales
+      links:
+      - url: /dynamics365/sales/enable-setup-copilot
+        text: Enable and set up Sales Copilot
+      - url: /dynamics365/sales/configure-sales-copilot
+        text: Configure Sales Copilot
 
   - title: Use
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
@@ -98,7 +104,16 @@ additionalContent:
       - url: share-crm-record-teams-conversation.md
         text: Share a CRM record in a Teams conversation
 
-    - title: AI in Sales Copilot
+    - title: Use Sales Copilot in Dynamics 365 Sales
+      links: 
+      - url: /dynamics365/sales/use-sales-copilot
+        text: Use Sales Copilot
+      - url: /dynamics365/sales/compose-send-email-copilot
+        text: Compose and send email messages
+      - url: /dynamics365/sales/view-copy-email-summary
+        text: View and copy email summary
+
+    - title: AI in Sales Copilot (Outlook)
       links: 
       - url: use-copilot-kickstart-email-messages.md
         text: Kickstart email messages
@@ -107,7 +122,7 @@ additionalContent:
       - url: view-opportunity-summary.md
         text: View opportunity summary
 
-    - title: Collaboration space in Sales Copilot
+    - title: Collaboration space in Sales Copilot (Outlook and Teams)
       links: 
       - url: set-up-team-account-team-template.md
         text: Set up a team using account team template
@@ -127,3 +142,11 @@ additionalContent:
         - title: Dynamics 365 Sales
           summary: Enable salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. 
           url: /dynamics365/sales/
+        
+        - title: Microsoft Outlook
+          summary: Write better emails, get and stay organized, and have quick access to popular Microsoft apps.
+          url: https://support.microsoft.com/outlook
+        
+        - title: Microsoft Teams
+          summary: Seamlessly meet and chat with others, share files online, and collaborate with anyone, from anywhere.
+          url: https://support.microsoft.com/teams

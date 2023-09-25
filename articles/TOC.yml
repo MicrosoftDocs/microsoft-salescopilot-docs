@@ -1,5 +1,5 @@
 - name: Microsoft Sales Copilot documentation
-  href: index.yml
+  href: landing.yml
 
 - name: Welcome to Microsoft Sales Copilot
   href: introduction.md
