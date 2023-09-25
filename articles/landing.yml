@@ -54,8 +54,8 @@ landingContent:
             url: deploy-viva-sales-d365.md
           - text: Deploy Sales Copilot for Dynamics 365 customers
             url: deploy-viva-sales-sf.md
-      - linkListType: learn
-        links:
+       - linkListType: learn
+         links:
           - text: Boost sales performance with Sales Copilot
             url: /training/modules/boost-sales-performance/
 
