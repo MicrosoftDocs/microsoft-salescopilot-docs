@@ -38,8 +38,8 @@ landingContent:
             url: supported-languages.md
           - text: Data handling
             url: data-handling.md
-      - linkListType: architecture
-        links:
+       - linkListType: architecture
+         links:
           - text: Sales Copilot architecture
             url: architecture.md
 
