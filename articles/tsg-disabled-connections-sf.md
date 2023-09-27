@@ -25,9 +25,9 @@ This article helps you troubleshoot and resolve error in Sales Copilot when a us
 
 ## Symptom
 
-When a user tries to sign in to Salesforce, they see the following error message: `Error from token exchange: The connection is disabled so it cannot be used.`
+When a user tries to sign in to Salesforce from Sales Copilot, the following error message is displayed: `Error from token exchange: The connection is disabled so it cannot be used.`
 
-:::image type="content" source="media/tsg-disabled-connect-sf.png" alt-text="Error about disabled connection.":::
+:::image type="content" source="media/tsg-disabled-connect-sf.png" alt-text="Error about disabled Salesforce connection.":::
 
 ## Root cause and resolution
 

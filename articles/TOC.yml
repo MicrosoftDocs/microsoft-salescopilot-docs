@@ -185,6 +185,8 @@
     href: tsg-disabled-user.md
   - name: Unable to sign in due to disabled Salesforce connection
     href: tsg-disabled-connections-sf.md
+  - name: Unable to sign in due to blocked Salesforce connector
+    href: tsg-blocked-connector-sf.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
