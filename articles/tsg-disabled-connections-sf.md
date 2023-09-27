@@ -42,6 +42,9 @@ Data Loss Prevention (DLP) is enabled on the default environment in the tenant t
 1. Sign out from Sales Copilot and close the Sales Copilot pane.
 1. Reopen the Sales Copilot pane and sign in to Salesforce.
 
+> [!NOTE]
+> If the issue is not resolved, see [Unable to sign in to Salesforce due to blocked Salesforce connector](tsg-blocked-connector-sf.md) to unblock the Salesforce connector in DLP policy.
+
 ## Is your issue still not resolved?
 
 Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
