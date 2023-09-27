@@ -183,6 +183,8 @@
     href: tsg-auth-issue.md
   - name: Unable to sign in to Dynamics 365
     href: tsg-disabled-user.md
+  - name: Unable to sign in due to disabled Salesforce connection
+    href: tsg-disabled-connection-sf.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
