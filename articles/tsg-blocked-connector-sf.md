@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Unable to sign in to Salesforce due to disabled connections
+# Unable to sign in to Salesforce due to blocked Salesforce connector
 
 This article helps you troubleshoot and resolve error in Sales Copilot when a user is unable to sign in to Salesforce due to blocked Salesforce connector.
 
