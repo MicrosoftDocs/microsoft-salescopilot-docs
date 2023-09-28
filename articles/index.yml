@@ -78,7 +78,7 @@ additionalContent:
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
-    - title: Use Sales Copilot in Outlook
+    - title: Sales Copilot in Outlook
       links: 
       - url: use-sales-copilot-outlook.md
         text: Learn the basics of Sales Copilot in Outlook
@@ -91,7 +91,7 @@ additionalContent:
       - url: edit-crm-record.md
         text: Edit a CRM record
 
-    - title: Use Sales Copilot in Teams
+    - title: Sales Copilot in Teams
       links: 
       - url: use-sales-copilot-app-during-meeting.md
         text: Use Sales Copilot app during a meeting
@@ -104,7 +104,7 @@ additionalContent:
       - url: share-crm-record-teams-conversation.md
         text: Share a CRM record in a Teams conversation
 
-    - title: Use Sales Copilot in Dynamics 365 Sales
+    - title: Copilot in Dynamics 365 Sales
       links: 
       - url: /dynamics365/sales/use-sales-copilot
         text: Use Sales Copilot
