@@ -141,11 +141,11 @@ Sales Copilot is a productivity app designed for salespeople. It's included with
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW181Q4?autoplay=false]
 
-If you don't have a qualifying license, you can still use Sales Copilot's basic capabilities like email drafting and email summarization without signing in to your CRM. If you're using a non-qualifying Dynamics 365 license, Salesforce CRM, or Power Apps, you can visit the [pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) for information about license cost.
+If you don't have a qualifying license, you can still use Sales Copilot's basic capabilities like email drafting and email summarization without signing in to your CRM. If your sellers are using a Dynamics 365 license that doesn't include Sales Copilot, or the Salesforce CRM, or Power Apps, you can purchase the appropriate license. [Visit the pricing page for information about license cost](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
 
 ### How does Sales Copilot work?
 
-Sales Copilot uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Sales Copilot](https://www.microsoft.com/microsoft-viva/sales).
+Sales Copilot uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Sales Copilot](https://www.microsoft.com/ai/microsoft-sales-copilot).
 
 ### Is Sales Copilot safe and secure?
 
