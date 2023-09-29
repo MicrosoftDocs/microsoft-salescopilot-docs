@@ -1,7 +1,7 @@
 ---
 title: Install Sales Copilot (user-deployed)
 description: Learn how to install Sales Copilot.
-ms.date: 08/22/2023
+ms.date: 09/29/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -76,13 +76,13 @@ After you've installed Sales Copilot, you can open Sales Copilot and sign in to 
 
 ### Uninstall Sales Copilot Outlook add-in
 
-1. Open Outlook on the web.
-
-1. On the **Home** ribbon, select **Get add-ins**.
+1. Open [https://aka.ms/olksideload](https://aka.ms/olksideload). If required, sign in to your Microsoft Outlook account.
 
 1. In the **Add-Ins for Outlook** window, select **My add-ins** in the left pane.
 
-1. On the **Sales Copilot** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
+1. On the **Sales Copilot for Microsoft Outlook** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
+
+    :::image type="content" source="media/uninstall add-in.png" alt-text="Uninstall Sales Copilot Outlook add-in.":::
 
 ## Install Sales Copilot app for Microsoft Teams
 
