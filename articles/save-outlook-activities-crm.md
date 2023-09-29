@@ -42,11 +42,7 @@ Updating the CRM with all your activities across all the communication channels 
    >
    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    >
-   > - The record you can connect Outlook emails or meetings to may be limited by your CRM.
-   >
-      > - If you're using Dynamics 365 as your CRM, you can connect to all tables that are enabled for activities and added to Sales Copilot by your administrator.
-   >
-      > - If you're using Salesforce as your CRM, you can only connect to an object if it has been added to Sales Copilot by your administrator. The object can be of type Contract, Order, Campaign, Account, Opportunity, Product, Asset, Case, Solution, Quote, Work Order, Work Order Line Item, Entitlement, Service Contract, Contract Line Item, Location, Asset Relationship, List Email, Contact Request, Image, Work Plan, Work Plan Template, Work Plan Template Entry, Work Step, Work Step Template, Process Exception, Change Request, Incident, Problem, and Web Cart Document.
+   > - You can connect to all record types that are enabled for activities and added to Sales Copilot by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card displays the contacts in the activity, as this activity will be displayed in their timeline.
 
