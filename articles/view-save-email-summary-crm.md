@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 08/28/2023
+ms.date: 10/02/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -59,18 +59,12 @@ The generation of email summary is supported in the following languages: English
    If there are multiple opportunities related to contact, Sales Copilot displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
 
    > [!NOTE]
-   >
-   > - You can save summaries of internal email conversations to account and opportunity records.
-   >
    > - If the email is already connected to an opportunity, it's selected by default.
-   >
    > - If no opportunity is connected, the top ranked opportunity, which is determined by the open opportunities available for the account or contact, and the content of the email, will be selected by default.
-   >
    > - When you search for a record, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
-   >
    > - Your search results will be added to the suggested records list, so you can safely search and try again.
-   >
    > - Currently, you can save the summary to one record using Sales Copilot.
+   > - You can connect to all record types that are enabled for activities and added to Sales Copilot by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    :::image type="content" source="media/select-record.png" alt-text="Screenshot showing how to select an opportunity to save the email summary.":::
 
