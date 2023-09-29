@@ -97,7 +97,7 @@ Now that you've installed and configured Sales Copilot in Outlook and Teams, get
 
 ## Automatic installation
 
-To make onboarding to Sales Copilot easier for select organizations, Microsoft automatically installs Sales Copilot for all users with an appropriate license. The followin licenses include Sales Copilot by default:
+To make onboarding to Sales Copilot easier for select organizations, Microsoft automatically installs Sales Copilot for all users with an appropriate license. The following licenses include Sales Copilot by default:
 - Sales Copilot license
 - Dynamics 365 Sales Enterprise
 - Dynamics 365 Sales Premium
