@@ -97,19 +97,31 @@ Now that you've installed and configured Sales Copilot in Outlook and Teams, get
 
 ## Automatic installation
 
-To make onboarding to Sales Copilot easier for select organizations, Microsoft automatically installs Sales Copilot for all users with an appropriate license. The license can either be a Sales Copilot license or a product that includes Sales Copilot such as Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium. In some cases, the Power Platform licensees can also get Sales Copilot automatically installed. These users can start using basic capabilities of Sales Copilot such as email drafting and email summarization without signing in to their CRM. If your users are using a non-qualifying Dynamics 365 license, Salesforce CRM, or Power Apps, you can visit the [pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) for information about license cost.
+To make onboarding to Sales Copilot easier for select organizations, Microsoft automatically installs Sales Copilot for all users with an appropriate license. The followin licenses include Sales Copilot by default:
+- Sales Copilot license
+- Dynamics 365 Sales Enterprise
+- Dynamics 365 Sales Premium
+
+In some cases, the Power Platform licensees can also get Sales Copilot automatically installed. These users can start using basic capabilities of Sales Copilot such as email drafting and email summarization without signing in to their CRM. If your sellers are using a Dynamics 365 license that doesn't include Sales Copilot, or the Salesforce CRM, or Power Apps, you can purchase the appropriate license. [Visit the pricing page for information about license cost](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
+
+> [!NOTE]
+> To simplify your sellers' experience for automatic installation of Sales Copilot app, you can set up [server-side synchronization](/power-platform/admin/connect-exchange-online) of emails and appointments for all Sales Copilot users.
+
+### How is auto installation rolled out?
 
 Auto installation is rolled out in phases to select organizations. Organization receives a notification in both the **Microsoft 365 admin center** and the **Power Platform admin center**. Each organization can opt out of auto installation in the specified period of time. Once the capability is rolled-out, the Outlook add-in and Microsoft Teams app can't be uninstalled from **Microsoft 365 admin center**, but users can choose to uninstall them from their respective Outlook and Teams clients, and a new install won't be performed automatically.
 
+### Are there any limitations for auto installed apps?
+
 Auto installed apps are considered as user-deployed and won't have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot isn't added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps are considered as admin-deployed and have full feature support.
+
+### How to uninstall auto installed apps?
 
 Auto installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
 
 - [Uninstall Sales Copilot Outlook add-in](install-sales-copilot.md#uninstall-sales-copilot-outlook-add-in)
 - [Uninstall Sales Copilot app for Microsoft Teams](install-sales-copilot.md#uninstall-sales-copilot-app-for-microsoft-teams)
 
-> [!NOTE]
-> To simplify your sellers' experience for automatic installation of Sales Copilot app, you can set up [server-side synchronization](/power-platform/admin/connect-exchange-online) of emails and appointments for all Sales Copilot users.
 
 ## Community
 
