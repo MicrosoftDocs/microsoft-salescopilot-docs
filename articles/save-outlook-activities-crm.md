@@ -59,6 +59,7 @@ Updating the CRM with all your activities across all the communication channels 
    > - If you're using Salesforce as your CRM, and enhanced email is turned off, you might see an error message when saving Outlook activities. For information on how to resolve the error, go to [Enhanced email turned off](https://go.microsoft.com/fwlink/p/?linkid=2243672). If you've contacted Microsoft Support to save Outlook activities without turning on enhanced email, the activity is saved as a task record in Salesforce. If enhanced email is turned on, the activity is saved as an email message record.
    >
    > - If you save an email to Salesforce CRM, and the number of characters in the Outlook email body (including HTML markup) exceeds the [maximum number of characters allowed to be stored in Salesforce email records](https://help.salesforce.com/s/articleView?id=000392839&type=1), the email is truncated and then saved. A message is displayed in the **Connected to** card about truncating the email.
+   >  
    > :::image type="content" source="media/truncate.png" alt-text="Screenshot showing the email truncated message.":::
 
    If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.
