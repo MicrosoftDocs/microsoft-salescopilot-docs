@@ -46,7 +46,7 @@ The generation of email summary is supported in the following languages: English
 1. On the **Highlights** tab, the email summary is displayed in the **Summary of this email** card.
 
 > [!NOTE]
-> If the email content is less than 1000 characters, the email summary will not be generated, and the Summary of this thread card is not displayed.
+> If the email content is less than 1000 characters, the email summary will not be generated, and the **Summary of this email** card is not displayed.
 
 ## Save email summary to CRM
 
