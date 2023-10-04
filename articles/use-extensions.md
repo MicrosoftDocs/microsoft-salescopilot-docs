@@ -29,7 +29,7 @@ By default, the integration is disabled. When enabled, identified topics are dis
 
 1.	In Sales Copilot admin settings, select **Extensions**.
 
-2.	Turn on Microsoft **Viva Topics (preview)**.
+2.	Turn on **Microsoft Viva Topics (preview)**.
 
 3.	Select **Save**.
 
