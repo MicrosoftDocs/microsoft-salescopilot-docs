@@ -3,13 +3,12 @@ title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
 ms.date: 08/17/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Set up Copilot AI features
@@ -82,4 +81,4 @@ Ensure that the Sales Copilot for Outlook add-in is updated to the latest versio
 
 ### See also
 
-[Use AI to kickstart email message](https://support.microsoft.com/topic/use-ai-to-kickstart-email-replies-148708be-e1f9-477c-baba-0b4dd4b7abef)
+[Use AI to kickstart email message](use-copilot-kickstart-email-messages.md)

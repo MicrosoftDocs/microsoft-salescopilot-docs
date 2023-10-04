@@ -3,13 +3,12 @@ title: Configure Sales Copilot for Microsoft 365 apps
 description: Learn how to configure Sales Copilot for Microsoft 365 apps.
 ms.date: 07/12/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Configure Sales Copilot for Microsoft 365 apps

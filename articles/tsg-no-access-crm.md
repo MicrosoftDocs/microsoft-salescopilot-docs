@@ -3,13 +3,12 @@ title: No access to Dynamics 365
 description: Troubleshoot and resolve issues when users don't have access to Dynamics 365.
 ms.date: 08/22/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # No access to Dynamics 365

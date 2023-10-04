@@ -3,13 +3,12 @@ title: Sign in issue when app is blocked
 description: Troubleshoot and resolve sign in issues when app is blocked.
 ms.date: 08/30/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Sign in issue when app is blocked

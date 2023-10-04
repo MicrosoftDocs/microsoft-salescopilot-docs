@@ -3,13 +3,12 @@ title: Install Sales Copilot (admin-deployed)
 description: Learn what are the various ways to install Sales Copilot
 ms.date: 04/11/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Install Sales Copilot (admin-deployed)
@@ -89,8 +88,8 @@ Looking for step-by-step instructions on how to deploy Sales Copilot? Here are t
 
 After you install Sales Copilot for your users, they can start using it in Outlook and Teams. For information on how to use Sales Copilot, see:
 
-- [Use Sales Copilot in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
-- [Use Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea)
+- [Use Sales Copilot in Outlook](use-sales-copilot-outlook.md)
+- [Use Sales Copilot in Teams](use-sales-copilot-teams.md)
 
 ### See also
 

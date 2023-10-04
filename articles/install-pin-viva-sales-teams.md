@@ -3,13 +3,12 @@ title: Install and pin Sales Copilot in Teams
 description: Learn how to install and pin Sales Copilot in Teams
 ms.date: 03/27/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Install and pin Sales Copilot in Teams
@@ -22,7 +21,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 > [!NOTE]
 > - The Teams meeting must be transcribed for Sales Copilot to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection between Sales Copilot and your CRM is controlled through Sales Copilot add-in in Outlook. More information: [Use Sales Copilot in Outlook](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081)
+> - The connection between Sales Copilot and your CRM is controlled through Sales Copilot add-in in Outlook. More information: [Use Sales Copilot in Outlook](use-sales-copilot-outlook.md)
 
 ## Create a custom Teams app setup policy
 

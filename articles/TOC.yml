@@ -8,6 +8,8 @@
   items:
   - name: What's new overview
     href: whats-new.md
+  - name: September 2023
+    href: sep-23.md
   - name: August 2023
     href: aug-23.md
   - name: July 2023
@@ -158,8 +160,10 @@
     href: tsg-trial-env.md  
   - name: Missing privileges in Dynamics 365
     href: tsg-missing-roles.md
-  - name: Unable to update records in Viva Sales when connected to Salesforce CRM
+  - name: Missing record update permission in Salesforce CRM
     href: tsg-record-update-perm.md
+  - name: Missing object update permission in Salesforce CRM
+    href: tsg-object-update-perm.md
   - name: Error after connecting and signing in to Salesforce CRM
     href: tsg-api-perm.md
   - name: Invalid mailbox settings in Dynamics 365
@@ -184,6 +188,10 @@
     href: tsg-app-blocked.md
   - name: Authentication issues when connecting to Salesforce CRM
     href: tsg-auth-issue.md
+  - name: Unable to sign in to Dynamics 365
+    href: tsg-disabled-user.md
+  - name: Sign in error when opening Sales Copilot
+    href: tsg-sign-in-error.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md

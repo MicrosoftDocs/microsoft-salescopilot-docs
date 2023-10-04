@@ -3,13 +3,12 @@ title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
 ms.date: 09/05/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Customize forms and fields
@@ -322,7 +321,7 @@ You can control the order in which record types are displayed in the **Sales Cop
 
 ## Impact of CRM customization on collaboration spaces
 
-[Collaboration spaces](https://support.microsoft.com/topic/collaboration-space-in-sales-copilot-7738f55e-11a8-40a0-a57a-5d47bc650bb3) can be created in Microsoft Teams based on the Account and Opportunity record types (or Salesforce objects) available in Sales Copilot admin settings.
+[Collaboration spaces](collaboration-space.md) can be created in Microsoft Teams based on the Account and Opportunity record types (or Salesforce objects) available in Sales Copilot admin settings.
 
 The following table lists the change in admin settings and the corresponding behavior of collaboration spaces:
 

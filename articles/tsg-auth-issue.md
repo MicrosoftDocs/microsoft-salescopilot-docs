@@ -3,13 +3,12 @@ title: Authentication issues when connecting to Salesforce CRM
 description: Troubleshoot and resolve authentication issues when connecting to Salesforce CRM from Sales Copilot.
 ms.date: 08/30/2023
 ms.topic: article
-ms.service: viva
+ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
-ms.subservice: viva-sales
 ---
 
 # Authentication issues when connecting to Salesforce CRM
@@ -52,13 +51,19 @@ Sales Copilot uses the **Microsoft Power Platform** connected app to connect to 
 
 3. On the **Connected Apps** page, select **Microsoft Power Platform**. 
 
+    :::image type="content" source="media/tsg-auth-issue1.png" alt-text="Screenshot showing connected app."::: 
+
 4. Select **Edit policies**.
 
 5. Under **OAuth Policies**, select one of the following values for **Permitted Users**:
 
+    :::image type="content" source="media/tsg-auth-issue2.png" alt-text="Screenshot showing values for permitted users.":::    
+
     1. **All users may self-authorize**: This will resolve the issue by allowing any authenticated Salesforce user to connect to the Salesforce instance through the **Microsoft Power Platform** connector used by Microsoft Sales Copilot, Microsoft Power Automate, and potentially other apps, to gain access to Salesforce.
 
     1. **Admin approved users are pre-authorized**: This option enables administrators to explicitly grant permissions to individual users through profiles and permissions sets. More information: [Connected Apps](https://help.salesforce.com/s/articleView?id=sf.connected_app_overview.htm&type=5) and [Manage Access to a Connected App](https://help.salesforce.com/s/articleView?id=sf.connected_app_manage.htm&type=5).
+    
+        :::image type="content" source="media/tsg-auth-issue3.png" alt-text="Screenshot showing Profiles and Permission sets sections."::: 
 
 6. Select **Save**.
 
