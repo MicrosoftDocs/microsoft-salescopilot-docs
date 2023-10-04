@@ -21,7 +21,7 @@ You can view details about your saved contact and its related records such as ac
 
    :::image type="content" source="media/opportunities.png" alt-text="Screenshot showing how to select a record to see its details.":::
 
-If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed for contacts, opportunities, and accounts. More information: [View People.ai insights](#view-peopleai-insights)
+If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed for contacts, opportunities, and accounts. More information: [View People.ai insights](#view-peopleai-insights-preview)
 
 ## Open a record in CRM
 
