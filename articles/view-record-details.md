@@ -35,8 +35,7 @@ Alternately, you can also open a record in CRM from the **Dynamics 365** or **Sa
 
 ## View People.ai insights (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
 **Prerequisites**: 
 

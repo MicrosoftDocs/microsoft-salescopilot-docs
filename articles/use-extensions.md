@@ -10,9 +10,9 @@ ms.author: shjais
 
 # Use extensions (preview)
 
-> [!IMPORTANT]
-> - [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
-> - [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-note](includes/preview-note.md)]
+
+[!INCLUDE [preview-banner](includes/preview-banner.md)]
 
 You can use extensions to integrate with third-party applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
 
@@ -20,7 +20,7 @@ You can use extensions to integrate with third-party applications. Integration h
 
 Integrate with Viva Topics give your sellers a quick way of finding files related to sales meetings. Viva Topics detects keywords in the Teams transcript. Then, in the summary, sellers can see content that seems to be related to these keywords. 
 
-By default, the integration is disabled. When enabled, identified topics are displayed on the **Mentions** tab when [viewing a meeting summary](view-understand-meeting-summary.md#view-viva-topics-in-meeting-summary).
+By default, the integration is disabled. When enabled, identified topics are displayed on the **Mentions** tab when [viewing a meeting summary](view-understand-meeting-summary.md#view-viva-topics-in-meeting-summary-preview).
 
 > [!NOTE]
 > Sellers must have a license of Viva Topics to see them in meeting summary.

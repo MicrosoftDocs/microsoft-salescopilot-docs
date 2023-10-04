@@ -71,7 +71,7 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV".
 
-- **Keywords**: Displays keywords that can be used as best practices during the call. If topics are identified in the transcript, they are displayed first and then rest of the keywords are displayed. More information: [View Viva Topics in meeting summary](#view-viva-topics-in-meeting-summary)
+- **Keywords**: Displays keywords that can be used as best practices during the call. If topics are identified in the transcript, they are displayed first and then rest of the keywords are displayed. More information: [View Viva Topics in meeting summary](#view-viva-topics-in-meeting-summary-preview)
 
 - **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
 
@@ -83,8 +83,7 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 #### View Viva Topics in meeting summary (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
 Viva Topics helps you access information when you need it so you can be more productive and work smarter. It uses AI to automatically search for and identify topics in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. For more information about Viva Topics, go to [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332).
 

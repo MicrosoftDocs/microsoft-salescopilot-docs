@@ -45,8 +45,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 ## View People.ai insights in opportunity summary (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
 **Prerequisites**: 
 
