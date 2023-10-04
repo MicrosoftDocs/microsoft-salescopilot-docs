@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 09/05/2023
+ms.date: 10/04/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -36,7 +36,7 @@ Updating the CRM with all your activities across all the communication channels 
 
     By default, Sales Copilot displays the accounts and opportunities that are related to the contacts in the activity. You can choose one of the displayed records to connect to or use the search box to find and connect to another record of any record type added to Sales Copilot by your administrator.
 
-    If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**.
+    If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
    > [!NOTE]
    >
