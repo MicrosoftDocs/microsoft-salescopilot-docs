@@ -43,7 +43,10 @@ If there are notes added to the opportunity, they are also summarized and displa
 
     On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
 
-## View People.ai insights in opportunity summary
+## View People.ai insights in opportunity summary (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 **Prerequisites**: 
 
@@ -51,6 +54,8 @@ If there are notes added to the opportunity, they are also summarized and displa
 - You must have a license for People.ai.
 
 Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information.
+
+:::image type="content" source="media/people-ai-oppty-insights.png" alt-text="Screenshot showing People.ai insights in opportunity summary.":::
 
 The following insights are displayed:
 

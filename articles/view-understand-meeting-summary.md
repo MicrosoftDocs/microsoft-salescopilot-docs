@@ -81,7 +81,10 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 - **Times**: Displays the time periods mentioned during the call.
 
-#### View Viva Topics in meeting summary
+#### View Viva Topics in meeting summary (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 Viva Topics helps you access information when you need it so you can be more productive and work smarter. It uses AI to automatically search for and identify topics in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. For more information about Viva Topics, go to [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332).
 

@@ -33,7 +33,10 @@ Alternately, you can also open a record in CRM from the **Dynamics 365** or **Sa
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
 
-## View People.ai insights
+## View People.ai insights (preview)
+
+> [!IMPORTANT]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 **Prerequisites**: 
 
@@ -41,6 +44,8 @@ Alternately, you can also open a record in CRM from the **Dynamics 365** or **Sa
 - You must have a license for People.ai.
 
 Insights from People.ai are displayed in a new card for contacts and accounts, and under the **Insights from People.ai** section for opportunities. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information. For contact and account records, data from the past 90 days is considered to generate insights.
+
+:::image type="content" source="media/people-ai-contact-insights.png" alt-text="Screenshot showing People.ai insights in contact details.":::
 
 The following insights are displayed:
 

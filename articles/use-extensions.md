@@ -8,7 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Use extensions
+# Use extensions (preview)
+
+> [!IMPORTANT]
+> - [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+> - [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can use extensions to integrate with third-party applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
 
@@ -16,7 +20,7 @@ You can use extensions to integrate with third-party applications. Integration h
 
 Integrate with Viva Topics give your sellers a quick way of finding files related to sales meetings. Viva Topics detects keywords in the Teams transcript. Then, in the summary, sellers can see content that seems to be related to these keywords. 
 
-By default, the integration is disabled. When enabled, identified topics are displayed on the **Mentions** tab when viewing a meeting summary.
+By default, the integration is disabled. When enabled, identified topics are displayed on the **Mentions** tab when [viewing a meeting summary](view-understand-meeting-summary.md#view-viva-topics-in-meeting-summary).
 
 > [!NOTE]
 > Sellers must have a license of Viva Topics to see them in meeting summary.
@@ -24,13 +28,16 @@ By default, the integration is disabled. When enabled, identified topics are dis
 ### Turn on Viva Topics integration
 
 1.	In Sales Copilot admin settings, select **Extensions**.
+
 2.	Turn on Microsoft **Viva Topics (preview)**.
+
 3.	Select **Save**.
 
+    :::image type="content" source="media/enable-viva-topics.png" alt-text="Screenshot setting to enable Viva Topics integration.":::
 
 ## Integrate with People.ai
 
-Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. People.ai displays insights for contacts, opportunities, and accounts. By default, the integration is disabled. When enabled, the insights are displayed in the detailed view of a record as well as in the **Opportunity summary** card in the **Sales Copilot** pane in Outlook.
+Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. People.ai displays insights for contacts, opportunities, and accounts. By default, the integration is disabled. When enabled, the insights are displayed in the [detailed view of a record](view-record-details.md#view-peopleai-insights) as well as in the [opportunity summary card](view-opportunity-summary.md#view-peopleai-insights-in-opportunity-summary) in the **Sales Copilot** pane in Outlook.
 
 ### Prerequisites
 
@@ -40,6 +47,11 @@ Integrate with People.ai to get insights into your sellers' activities and their
 ### Turn on People.ai integration
 
 1.	In Sales Copilot admin settings, select **Extensions**.
+
 2.	Turn on **People.ai (preview)**.
+
 3.	Enter the values for API key and API Secret.
+
 4.	Select **Save**.
+
+    :::image type="content" source="media/enable-people-ai.png" alt-text="Screenshot setting to enable People.ai integration.":::
