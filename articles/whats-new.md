@@ -27,6 +27,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 |Release month   |Learn more  |
 |---------|---------|
+|September 2023 | [What's new in September 2023 ](sep-23.md)     |
 |August 2023 | [What's new in August 2023 ](aug-23.md)     |
 |July 2023   | [What's new in July 2023](jul-23.md)        |        
 |June 2023   | [What's new in June 2023](jun-23.md)        |        

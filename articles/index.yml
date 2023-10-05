@@ -25,7 +25,7 @@ highlightedContent:
     # Card
     - title: Training
       itemType: training
-      url: /training/modules/boost-sales-performance/
+      url: /training/browse/?expanded=business-applications%2Cviva&products=sales-copilot
     # Card
     - title: Troubleshoot
       itemType: concept
