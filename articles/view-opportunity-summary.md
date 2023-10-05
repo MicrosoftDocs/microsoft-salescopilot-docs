@@ -52,19 +52,19 @@ If there are notes added to the opportunity, they are also summarized and displa
 - The People.ai integration must be [enabled by your administrator](use-extensions.md#integrate-with-peopleai).  
 - You must have a license for People.ai.
 
-Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information.
+Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information. To open metrics in People.ai, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card.
 
 :::image type="content" source="media/people-ai-oppty-insights.png" alt-text="Screenshot showing People.ai insights in opportunity summary.":::
 
 The following insights are displayed:
 
-- **Engagement level**: This is the overall engagement level. The engagement level is calculated based on  interactions (emails and meetings) that have happened with the customer. The engagement level is displayed as low, medium, or high. When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer. To open metrics in People.ai, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card.
+- **Engagement level**: This is the overall engagement level. The engagement level is calculated based on  interactions (emails and meetings) that have happened with the customer. The engagement level is displayed as low, medium, or high. When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer.
 
 - **Connections**: This insight suggests the names of your colleagues who have interacted with the customer through emails or meetings. It helps you quickly email your colleagues to request an introduction. When you drill down, you can see the names of the people. By default, the top three connections are displayed. 
 
     To quickly start an email with one of the top connections, hover over the name, and then select :::image type="icon" source="media/mail-icon.png" border="false":::.
 
-    To see all connections or more metrics, you must go to People.ai. Select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card to open People.ai.
+    To see all connections or more metrics, you must open People.ai.
 
 
 ## View data source in opportunity summary

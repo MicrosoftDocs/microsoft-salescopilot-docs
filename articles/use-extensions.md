@@ -1,5 +1,5 @@
 ---
-title: Integrate Sales Copilot with third-party applications
+title: Integrate Sales Copilot with other applications
 description: Learn how to integrate Sales Copilot with third-party applications
 ms.date: 10/09/2023
 ms.topic: article
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Integrate Sales Copilot with third-party applications (preview)
+# Integrate Sales Copilot with other applications (preview)
 
 [!INCLUDE [preview-note](includes/preview-note.md)]
 
