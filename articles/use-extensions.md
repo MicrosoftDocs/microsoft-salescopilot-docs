@@ -1,6 +1,6 @@
 ---
 title: Integrate Microsoft Sales Copilot with other applications
-description: Learn how to integrate Sales Copilot with third-party applications
+description: Learn how to integrate Sales Copilot with other applications
 ms.date: 10/09/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-You can use extensions to integrate Sales Copilot with third-party applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
+You can use extensions to integrate Sales Copilot with other applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
 
 ## Integrate with Viva Topics
 
@@ -39,7 +39,7 @@ By default, the integration is disabled. When enabled, identified topics are dis
 
 ## Integrate with People.ai
 
-Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. People.ai displays insights for contacts, opportunities, and accounts.
+Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. Insights from People.ai are displayed for contacts, opportunities, and accounts.
 
 By default, the integration is disabled. When enabled, the insights are displayed in the [detailed view of a record](view-record-details.md#view-peopleai-insights-preview) as well as in the [opportunity summary card](view-opportunity-summary.md#view-peopleai-insights-in-opportunity-summary-preview) in the **Sales Copilot** pane in Outlook.
 
