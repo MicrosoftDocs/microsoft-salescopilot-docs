@@ -43,6 +43,8 @@ If there are notes added to the opportunity, they are also summarized and displa
 
     On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
 
+    If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](#view-peopleai-insights-in-opportunity-summary-preview)
+
 ## View People.ai insights in opportunity summary (preview)
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]

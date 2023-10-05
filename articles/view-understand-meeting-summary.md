@@ -96,7 +96,7 @@ Topics are scanned from the meeting transcript, and displayed along with other k
 
 To view details of a topic, hover over the keyword to open its card. By default, it is opened in its default view. To open the extended view, select **More** under topic description.
 
-:::image type="content" source="media/mentions.png" alt-text="Screenshot showing the Mentions tab in Viva Sales meeting summary.":::
+
 
 ### Details
 
