@@ -1,5 +1,5 @@
 ---
-title: Integrate Sales Copilot with other applications
+title: Integrate Microsoft Sales Copilot with other applications
 description: Learn how to integrate Sales Copilot with third-party applications
 ms.date: 10/09/2023
 ms.topic: article
@@ -8,13 +8,13 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Integrate Sales Copilot with other applications (preview)
+# Integrate Microsoft Sales Copilot with other applications (preview)
 
 [!INCLUDE [preview-note](includes/preview-note.md)]
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-You can use extensions to integrate Sales COpilot with third-party applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
+You can use extensions to integrate Sales Copilot with third-party applications. Integration helps you enhance the functionality of Sales Copilot and adds insights for your salespeople.
 
 ## Integrate with Viva Topics
 
