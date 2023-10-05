@@ -49,7 +49,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 **Prerequisites**: 
 
-- The People.ai integration must be enabled by your administrator. 
+- The People.ai integration must be [enabled by your administrator](use-extensions.md#integrate-with-peopleai).  
 - You must have a license for People.ai.
 
 Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information.

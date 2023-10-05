@@ -85,9 +85,14 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
+**Prerequisites**: 
+
+- The Viva Topics integration must be [enabled by your administrator](use-extensions.md#integrate-with-viva-topics). 
+- You must have a license for Viva Topics.
+
 Viva Topics helps you access information when you need it so you can be more productive and work smarter. It uses AI to automatically search for and identify topics in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. For more information about Viva Topics, go to [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332).
 
-If the feature is enabled by your administrator and you have a license to use Viva Topics, topics are scanned from the meeting transcript, and displayed along with other keywords. If a keyword with a category such as brand, people, or times was found, it is displayed under that category. Keywords that are also topics are indicated with :::image type="icon" source="media/viva-topics-icon.jpg" border="false":::. Topics and their contents are not stored in Dataverse.
+Topics are scanned from the meeting transcript, and displayed along with other keywords. If a keyword with a category such as brand, people, or times was found, it is displayed under that category. Keywords that are also topics are indicated with the # symbol. Topics and their contents are not stored in Dataverse.
 
 To view details of a topic, hover over the keyword to open its card. By default, it is opened in its default view. To open the extended view, select **More** under topic description.
 

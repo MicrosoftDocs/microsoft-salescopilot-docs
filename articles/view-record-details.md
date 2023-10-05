@@ -39,7 +39,7 @@ Alternately, you can also open a record in CRM from the **Dynamics 365** or **Sa
 
 **Prerequisites**: 
 
-- The People.ai integration must be enabled by your administrator. 
+- The People.ai integration must be [enabled by your administrator](use-extensions.md#integrate-with-peopleai). 
 - You must have a license for People.ai.
 
 Insights from People.ai are displayed in a new card for contacts and accounts, and under the **Insights from People.ai** section for opportunities. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information. For contact and account records, data from the past 90 days is considered to generate insights.
