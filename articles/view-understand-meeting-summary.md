@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 08/28/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -71,7 +71,7 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV".
 
-- **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
+- **Keywords**: Displays keywords that can be used as best practices during the call. If topics are identified in the transcript, they are displayed first and then rest of the keywords are displayed. More information: [View Viva Topics in meeting summary](#view-viva-topics-in-meeting-summary-preview)
 
 - **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
 
@@ -81,7 +81,22 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 
 - **Times**: Displays the time periods mentioned during the call.
 
-:::image type="content" source="media/mentions.png" alt-text="Screenshot showing the Mentions tab in Viva Sales meeting summary.":::
+#### View Viva Topics in meeting summary (preview)
+
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
+
+**Prerequisites**: 
+
+- The Viva Topics integration must be [enabled by your administrator](use-extensions.md#integrate-with-viva-topics). 
+- You must have a license for Viva Topics.
+
+Viva Topics helps you access information when you need it so you can be more productive and work smarter. It uses AI to automatically search for and identify topics in your organization. It compiles information about them, such as a short description, people working on the topic, and sites, files, and pages that are related to it. For more information about Viva Topics, go to [Understanding Viva Topics](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332).
+
+Topics are scanned from the meeting transcript, and displayed along with other keywords. If a keyword with a category such as brand, people, or times was found, it is displayed under that category. Keywords that are also topics are indicated with the # symbol. Topics and their contents are not stored in Dataverse.
+
+To view details of a topic, hover over the keyword to open its card. By default, it is opened in its default view. To open the extended view, select **More** under topic description.
+
+
 
 ### Details
 
