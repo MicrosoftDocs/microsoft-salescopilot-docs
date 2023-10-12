@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales Copilot
 description: Learn how to configure administrator settings for Sales Copilot.
-ms.date: 03/15/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -20,6 +20,8 @@ The following administrator settings are available:
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Sales Copilot across Outlook and Teams. You can also control which records and fields sellers can edit directly in Sales Copilot. More information: [Customize forms and fields](customize-forms-and-fields.md)
 
 - **Set up email insights**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up email insights](suggested-replies.md).
+
+- **Integrate with other applications**: Allows you to integrate Sales Copilot with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Sales Copilot and adds insights for your sellers. More information: [Integrate with other applications](use-extensions.md).
 
 ## Prerequisites
 
@@ -82,6 +84,7 @@ When you open administrator settings, following tabs are available:
 
     - **Copilot**: Allows you to [set up Copilot AI features](suggested-replies.md).
     - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
+    - **Extensions**: Allows you to [integrate Sales Copilot with other applications](use-extensions.md).
 
     ![Screenshot showing Sales Copilot Settings tab.](media/viva-sales-admin.png "Screenshot showing Sales Copilot Settings tab.")
 
