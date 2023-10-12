@@ -1,11 +1,15 @@
 ---
 title: View record details
-description: Learn how to view record details.
+description: View details about saved contacts and related records such as accounts and opportunities in CRM.
 ms.date: 10/09/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/12/2023
 ---
 
 # View record details
@@ -48,7 +52,17 @@ Insights from People.ai are displayed in a new card for contacts and accounts, a
 
 The following insights are displayed:
 
-- **Engagement level**: This is the overall engagement level. The engagement level is calculated based on  interactions (emails and meetings) that have happened with the customer. The engagement level is displayed as low, medium, or high. When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer.
+- **Engagement level and trend**: This is the overall engagement level and trend. The engagement level is calculated based on     interactions (emails and meetings) that have happened with the customer and the engagement level number calculated by People.ai. The engagement level is displayed as follows:
+   
+    |Engagement level number  |Engagement level  |
+    |---------|---------|
+    |0 to 30     | Low        |
+    |31 to 70     | Medium        |
+    |71 to 100     | High        |
+    
+    The engagement trend is calculated by comparing the current week’s engagement level with that of the previous week. The engagement trend is displayed as trending up or down based on the increase or decrease of the engagement level respectively. 
+
+    When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer.
 
 - **Connections**: This insight suggests the names of your colleagues who have interacted with the customer through emails or meetings. It helps you quickly email your colleagues to request an introduction. When you drill down, you can see the names of the people. By default, the top three connections are displayed. 
 
