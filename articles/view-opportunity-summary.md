@@ -1,11 +1,15 @@
 ---
 title: View opportunity summary
-description: Learn how to view an opportunity summary.
-ms.date: 09/05/2023
+description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
+ms.date: 10/12/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/12/2023
 ---
 
 # View opportunity summary
@@ -13,6 +17,8 @@ ms.author: shjais
 When reading an email or preparing for a meeting with a customer, you want to have relevant information from CRM, such as the customer asks, concerns, and notes, to help you get better context before the meeting.
 
 Sales Copilot uses AI to generate a summary of each opportunity with key information like sales stage, budget, and close date. This helps you interact better with customers and boost sales and customer satisfaction.
+
+If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed in the opportunity summary under the **Insights from People.ai** section. 
 
 If there are notes added to the opportunity, they are also summarized and displayed under the **Latest activity** section. If you've [saved an email summary to the opportunity](view-save-email-summary-crm.md#save-email-summary-to-crm), it's included in the summarized notes. The notes summary highlights any issues or concerns addressed within notes. It makes it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
 
@@ -40,6 +46,42 @@ If there are notes added to the opportunity, they are also summarized and displa
 1. Open the **Sales Copilot** pane.
 
     On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
+
+    If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](#view-peopleai-insights-in-opportunity-summary-preview)
+
+## View People.ai insights in opportunity summary (preview)
+
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
+
+**Prerequisites**: 
+
+- The People.ai integration must be [enabled by your administrator](use-extensions.md#integrate-with-peopleai).  
+- You must have a license for People.ai.
+
+Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information. To open metrics in People.ai, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card.
+
+:::image type="content" source="media/people-ai-oppty-insights.png" alt-text="Screenshot showing People.ai insights in opportunity summary.":::
+
+The following insights are displayed:
+
+- **Engagement level and trend**: This is the overall engagement level and trend. The engagement level number is calculated by People.ai based on interactions (emails and meetings) that have happened with the customer. The engagement level is displayed as follows:
+   
+    |Engagement level number  |Engagement level  |
+    |---------|---------|
+    |0 to 30     | Low        |
+    |31 to 70     | Medium        |
+    |71 to 100     | High        |
+    
+    The engagement trend is calculated by comparing the current week’s engagement level number with that of the previous week. The engagement trend is displayed as trending up or down based on the increase or decrease of the engagement level respectively.
+    
+    When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer.
+
+- **Connections**: This insight suggests the names of your colleagues who have interacted with the customer through emails or meetings. It helps you quickly email your colleagues to request an introduction. When you drill down, you can see the names of the people. By default, the top three connections are displayed. 
+
+    To quickly start an email with one of the top connections, hover over the name, and then select :::image type="icon" source="media/mail-icon.png" border="false":::.
+
+    To see all connections or more metrics, you must open People.ai.
+
 
 ## View data source in opportunity summary
 

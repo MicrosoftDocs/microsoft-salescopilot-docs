@@ -47,9 +47,11 @@ Currently, Sales Copilot will work with Dynamics 365 Sales and Salesforce CRMs.
 
 Sales Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales Copilot](install-viva-sales.md#privileges-required-to-use-sales-copilot).
 
-## I don't see the Copy to email button and instead only the Copy text button in the suggested content feature.
+## I don't see the Add to email button and instead only the Copy content button in the suggested content feature.
 
-The Sales Copilot for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the copy to email functionality of the suggested reply feature. Ask you administrator to update the Sales Copilot for Outlook add-in. More information: [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+The Sales Copilot for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add to email functionality of the suggested content feature. Ask your administrator to update the Sales Copilot for Outlook add-in. More information: [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+
+Note that the **Add to email** button is displayed only when you use copilot while composing an email. When you use copilot while reading an email, the **Copy content** button is displayed.
 
 ## I don't see an email summary when opening an email conversation.
 

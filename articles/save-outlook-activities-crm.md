@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 09/05/2023
+ms.date: 10/04/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -36,17 +36,13 @@ Updating the CRM with all your activities across all the communication channels 
 
     By default, Sales Copilot displays the accounts and opportunities that are related to the contacts in the activity. You can choose one of the displayed records to connect to or use the search box to find and connect to another record of any record type added to Sales Copilot by your administrator.
 
-    If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**.
+    If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
    > [!NOTE]
    >
    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    >
-   > - The record you can connect Outlook emails or meetings to may be limited by your CRM.
-   >
-      > - If you're using Dynamics 365 as your CRM, you can connect to all tables that are enabled for activities and added to Sales Copilot by your administrator.
-   >
-      > - If you're using Salesforce as your CRM, you can only connect to an object if it has been added to Sales Copilot by your administrator. The object can be of type Contract, Order, Campaign, Account, Opportunity, Product, Asset, Case, Solution, Quote, Work Order, Work Order Line Item, Entitlement, Service Contract, Contract Line Item, Location, Asset Relationship, List Email, Contact Request, Image, Work Plan, Work Plan Template, Work Plan Template Entry, Work Step, Work Step Template, Process Exception, Change Request, Incident, Problem, and Web Cart Document.
+   > - You can connect to all record types that are enabled for activities and added to Sales Copilot by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card displays the contacts in the activity, as this activity will be displayed in their timeline.
 
@@ -63,6 +59,7 @@ Updating the CRM with all your activities across all the communication channels 
    > - If you're using Salesforce as your CRM, and enhanced email is turned off, you might see an error message when saving Outlook activities. For information on how to resolve the error, go to [Enhanced email turned off](https://go.microsoft.com/fwlink/p/?linkid=2243672). If you've contacted Microsoft Support to save Outlook activities without turning on enhanced email, the activity is saved as a task record in Salesforce. If enhanced email is turned on, the activity is saved as an email message record.
    >
    > - If you save an email to Salesforce CRM, and the number of characters in the Outlook email body (including HTML markup) exceeds the [maximum number of characters allowed to be stored in Salesforce email records](https://help.salesforce.com/s/articleView?id=000392839&type=1), the email is truncated and then saved. A message is displayed in the **Connected to** card about truncating the email.
+   >  
    > :::image type="content" source="media/truncate.png" alt-text="Screenshot showing the email truncated message.":::
 
    If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.

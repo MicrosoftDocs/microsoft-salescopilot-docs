@@ -1,7 +1,7 @@
 ---
 title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 08/17/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -32,6 +32,7 @@ Following are the generally available Copilot AI features:
 
 - **Generate suggested email content**: Allows sellers to generate suggested email content using context from Outlook, your CRM, and AI. This makes it easy for your sellers to compose or reply to emails quickly and confidently.
 - **View and save email summary**: Allows sellers to view a summary of the recent emails and save it to the CRM system.
+- **View opportunity summary**: Allows sellers to view a summary of the recent notes added to an opportunity.
 
 > [!NOTE]
 > - Copilot features are enabled by default for new customers with Dynamics 365 organizations in North America and Europe, only if the CRM resides in the same geography as Azure Active Directory (AAD).
@@ -55,8 +56,6 @@ Allow sellers to benefit from the preview features before they are generally ava
 Following are the preview features:
     
 - **Summarize sales meeting**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
-
-- **View opportunity summary**: Allows sellers to view a summary of the recent notes added to an opportunity.
 
 
 ### Turn on copilot preview features in Sales Copilot
