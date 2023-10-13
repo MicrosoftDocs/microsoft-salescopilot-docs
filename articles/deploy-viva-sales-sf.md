@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 10/12/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -159,7 +159,7 @@ Get information about license requirements, role requirements, and region availa
 
 [How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 
-You may also find your tenant admin's email address on the [Azure Active Directory admin center tenant properties page](https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties), if an administrator hasn't locked it down.
+You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 

@@ -1,7 +1,7 @@
 ---
 title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 10/12/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -35,7 +35,7 @@ Following are the generally available Copilot AI features:
 - **View opportunity summary**: Allows sellers to view a summary of the recent notes added to an opportunity.
 
 > [!NOTE]
-> - Copilot features are enabled by default for new customers with Dynamics 365 organizations in North America and Europe, only if the CRM resides in the same geography as Azure Active Directory (AAD).
+> - Copilot features are enabled by default for new customers with Dynamics 365 organizations in North America and Europe, only if the CRM resides in the same geography as Microsoft Entra ID.
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
 > - Generally available Copilot features in Sales Copilot are available in [supported languages](supported-languages.md).
 > -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
