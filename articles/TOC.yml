@@ -185,6 +185,10 @@
     href: tsg-auth-issue.md
   - name: Unable to sign in to Dynamics 365
     href: tsg-disabled-user.md
+  - name: Unable to sign in due to disabled Salesforce connection
+    href: tsg-disabled-connections-sf.md
+  - name: Unable to sign in due to blocked Salesforce connector
+    href: tsg-blocked-connector-sf.md
   - name: Sign in error when opening Sales Copilot
     href: tsg-sign-in-error.md
 
