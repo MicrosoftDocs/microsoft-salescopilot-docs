@@ -1,7 +1,7 @@
 ---
 title: Unable to sign in to Dynamics 365
 description: Troubleshoot and resolve error messages in Sales Copilot when a user is either disabled or not a member of any business unit in Dynamics 365.
-ms.date: 09/15/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,7 +37,7 @@ When Dynamics 365 users try to sign in to Sales Copilot, the following error mes
 
 The **Access needed** error message is displayed because of one of the following reasons:
 - User is either disabled or not a member of any business unit in Dynamics 365
-- User isn't a member of Azure Active Directory security group.
+- User isn't a member of Microsoft Entra ID security group.
 
 #### Resolution 1: Enable the user in Dynamics 365
 
@@ -51,11 +51,11 @@ The **Access needed** error message is displayed because of one of the following
 
     If the affected user is shown as disabled, enable the user.
 
-#### Resolution 2: Add the user as a member of Azure Active Directory security group
+#### Resolution 2: Add the user as a member of Microsoft Entra ID security group
 
 1. Sign in to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com) with the System Administrator credentials.
 
-2. In the left navigation pane, under **Admin centers**, select **Azure Active Directory**.
+2. In the left navigation pane, under **Admin centers**, select **Microsoft Entra ID**.
     The **Microsoft Entra admin center** opens.
 
 1. In the left navigation pane, under **Identity**, select **Groups** > **All Groups**.
