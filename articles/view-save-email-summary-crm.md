@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 10/12/2023
+ms.date: 10/17/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -13,6 +13,8 @@ ms.author: shjais
 When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone. Additionally, it could potentially add noise to the CRM system, by overloading records with email exchanges.
 
 Sales Copilot uses AI to summarize email conversations and provides you with options to copy the summary and to add the summary to your CRM system as a note to a record.
+
+When available, the summary includes information whether budget, stakeholders, need, and timing are mentioned in the email or not. This information is displayed only for external emails and when detected with a high probability by AI.
 
 :::image type="content" source="media/email-summary.png" alt-text="Screenshot showing the Email summary with annotations.":::
 
@@ -75,6 +77,9 @@ The generation of email summary is supported in the following languages: English
    :::image type="content" source="media/timeline.png" alt-text="Screenshot showing the Email summary saved as a note in CRM.":::
 
 ## View data source in email summary
+Information identified from the CRM, such as contact and account records, is displayed as a data source within the email summary for quick reference.
+
+CRM data in the email summary is displayed in blue color. Select the content to see information about the CRM data. You can also open a record in CRM to view its complete details by selecting :::image type="icon" source="media/open-record.png" border="false"::: on the CRM record card.
 
 Email data used in the email summary is displayed with citation numbers. Select the citation number to see exact quote text from the email and the name of the person quoting it.
 
