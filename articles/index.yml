@@ -47,10 +47,11 @@ additionalContent:
         text: Install and pin Sales Copilot in Teams
     - title: Deployment scenarios
       links: 
-      - url: deploy-viva-sales-d365.md
-        text: Deployment guide for Dynamics 365 users
       - url: deploy-viva-sales-sf.md
         text: Deployment guide for Salesforce users
+      - url: deploy-viva-sales-d365.md
+        text: Deployment guide for Dynamics 365 users
+
   - title: Administer Sales Copilot
     items:
     - title: Configure for Outlook and Teams
