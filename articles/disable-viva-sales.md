@@ -17,6 +17,8 @@ ms.custom:
 
 # Uninstall Sales Copilot add-in for Outlook
 
+You can uninstall the Sales Copilot add-in for Outlook using the Microsoft 365 admin center or PowerShell.
+
 ## Uninstall using Microsoft 365 admin center
 
 If you've installed the Sales Copilot add-in for Outlook from the Microsoft 365 admin center, it is considered as admin-deployed. You can remove the Sales Copilot add-in if your sellers no longer need it.
