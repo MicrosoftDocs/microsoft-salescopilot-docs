@@ -44,7 +44,7 @@ additionalContent:
       - url:  install-viva-sales-as-an-integrated-app.md
         text: Install Sales Copilot add-in for Outlook
       - url:  install-pin-viva-sales-teams.md
-        text: Install and pin Sales Copilot in Teams
+        text: Install Sales Copilot in Teams
     - title: Deployment scenarios
       links: 
       - url: deploy-viva-sales-sf.md
