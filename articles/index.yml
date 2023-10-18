@@ -123,7 +123,7 @@ additionalContent:
         text: View and copy email summary
 
 
-    - title: Collaboration template for Outlook and Teams
+    - title: Collaboration templates for Outlook and Teams
       links: 
       - url: set-up-team-account-team-template.md
         text: Set up a team using account team template
