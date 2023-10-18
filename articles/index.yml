@@ -33,27 +33,27 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement
+  - title: Implement Sales Copilot
     items:
-    - title: Try/Install
+    - title: Try
       links: 
       - url: try-sales-copilot.md
         text: Try Microsoft Sales Copilot
+    - title: Install
+      links: 
       - url:  install-viva-sales-as-an-integrated-app.md
         text: Install Sales Copilot add-in for Outlook
       - url:  install-pin-viva-sales-teams.md
         text: Install and pin Sales Copilot in Teams
-      - url:  install-sales-copilot.md
-        text: Install Sales Copilot (user-deployed)
-    - title: Deploy
+    - title: Deployment scenarios
       links: 
       - url: deploy-viva-sales-d365.md
         text: Deployment guide for Dynamics 365 users
       - url: deploy-viva-sales-sf.md
         text: Deployment guide for Salesforce users
-  - title: Administer and manage
+  - title: Administer Sales Copilot
     items:
-    - title: Configure Sales Copilot for Outlook and Teams
+    - title: Configure for Outlook and Teams
       links: 
       - url: customize-forms-and-fields.md
         text: Customize forms and fields
@@ -61,24 +61,24 @@ additionalContent:
         text: Set up Copilot AI features
       - url:  m365-admin-setting.md
         text: Configure Sales Copilot for Microsoft 365 apps
-    - title: Manage Sales Copilot for Outlook and Teams
+    - title: Manage for Outlook and Teams
       links:
       - url: disable-viva-sales.md
         text: Remove Sales Copilot from Microsoft 365 admin center
       - url: block-viva-sales-app-teams.md
         text: Block the Sales Copilot app in Teams
-    - title: Configure Sales Copilot for Dynamics 365 Sales
+    - title: Configure for Dynamics 365 Sales
       links:
       - url: /dynamics365/sales/enable-setup-copilot
         text: Enable and set up Sales Copilot
       - url: /dynamics365/sales/configure-sales-copilot
         text: Configure Sales Copilot
 
-  - title: Use
+  - title: Be productive with Sales Copilot
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
-    - title: Sales Copilot in Outlook
+    - title: In Outlook
       links: 
       - url: use-sales-copilot-outlook.md
         text: Learn the basics of Sales Copilot in Outlook
@@ -91,7 +91,16 @@ additionalContent:
       - url: edit-crm-record.md
         text: Edit a CRM record
 
-    - title: Sales Copilot in Teams
+    - title: AI in Outlook
+      links: 
+      - url: use-copilot-kickstart-email-messages.md
+        text: Kickstart email messages
+      - url: view-save-email-summary-crm.md
+        text: View and save email summary to CRM
+      - url: view-opportunity-summary.md
+        text: View opportunity summary
+
+    - title: In Teams
       links: 
       - url: use-sales-copilot-app-during-meeting.md
         text: Use Sales Copilot app during a meeting
@@ -104,7 +113,7 @@ additionalContent:
       - url: share-crm-record-teams-conversation.md
         text: Share a CRM record in a Teams conversation
 
-    - title: Copilot in Dynamics 365 Sales
+    - title: In Dynamics 365 Sales
       links: 
       - url: /dynamics365/sales/use-sales-copilot
         text: Use Sales Copilot
@@ -113,16 +122,8 @@ additionalContent:
       - url: /dynamics365/sales/view-copy-email-summary
         text: View and copy email summary
 
-    - title: AI in Sales Copilot (Outlook)
-      links: 
-      - url: use-copilot-kickstart-email-messages.md
-        text: Kickstart email messages
-      - url: view-save-email-summary-crm.md
-        text: View and save email summary to CRM
-      - url: view-opportunity-summary.md
-        text: View opportunity summary
 
-    - title: Collaboration space in Sales Copilot (Outlook and Teams)
+    - title: Collaboration template for Outlook and Teams
       links: 
       - url: set-up-team-account-team-template.md
         text: Set up a team using account team template
