@@ -1,7 +1,7 @@
 ---
 title: No default BAP location found for this tenant 
 description: Troubleshoot and resolve issues in Sales Copilot when users are unable to use Sales Copilot due to missing default environment
-ms.date: 10/18/2023
+ms.date: 10/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -38,7 +38,7 @@ When you open the Sales Copilot pane in Microsoft Outlook, the following error m
 
 #### Root cause
 
-Sales copilot requires a default environment to be created in Power Apps to get region details. If Dynamics 365 license is not purchased for the tenant and first-run experience to Power Platform admin center has not happened, default environment is not created and sales copilot fails to discover region.
+Sales Copilot requires a Power Apps environment for every organization. When Sales Copilot is launched for the first time, it calls a Power Platform API to get the region details. If the organization does not have an existing Power Platform environment an error message is displayed when attempting to get region details.
 
 #### Resolution
 
