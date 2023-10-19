@@ -1,7 +1,7 @@
 ---
 title: Uninstall Sales Copilot add-in for Outlook
 description: Uninstall Sales Copilot add-in for Outlook using Microsoft 365 admin center or PowerShell.
-ms.date: 10/17/2022
+ms.date: 10/19/2022
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -37,6 +37,10 @@ If you've installed the Sales Copilot add-in for Outlook from the Microsoft 365 
 
 If the Sales Copilot add-in for Outlook was installed automatically for your organization or sellers have installed it themselves, you can use PowerShell to remove it.
 
+> [!NOTE]
+> - You must be a tenant administrator to run PowerShell scripts.
+> - PowerShell scripts must be used only to uninstall user-deployed add-ins. If you run these scripts to uninstall admin-deployed add-ins, an error message is displayed.
+
 ### Uninstall for individual user
 
 ```powershell
@@ -68,4 +72,5 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 
 ### See also
 
-[Block the Sales Copilot app in Teams](block-viva-sales-app-teams.md)
+[Block the Sales Copilot app in Teams](block-viva-sales-app-teams.md) 
+[Check if the Sales Copilot add-in for Outlook is admin-deployed or user-deployed](install-sales-copilot.md#how-do-i-know-if-the-sales-copilot-add-in-for-outlook-is-admin-deployed-or-user-deployed)
