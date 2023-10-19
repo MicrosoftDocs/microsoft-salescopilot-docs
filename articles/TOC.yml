@@ -60,7 +60,7 @@
 
 - name: Management
   items:
-  - name: Remove Sales Copilot from the admin center
+  - name: Uninstall Sales Copilot add-in for Outlook
     href: disable-viva-sales.md
   - name: Block the Sales Copilot app in Teams
     href: block-viva-sales-app-teams.md
@@ -191,6 +191,8 @@
     href: tsg-blocked-connector-sf.md
   - name: Sign in error when opening Sales Copilot
     href: tsg-sign-in-error.md
+  - name: No default BAP location found
+    href: tsg-no-default-bap-loc.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md

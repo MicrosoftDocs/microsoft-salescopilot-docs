@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft Sales Copilot
 description: Get to know Sales Copilot
-ms.date: 09/22/2023
+ms.date: 10/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ Microsoft Sales Copilot is a seller experience application that uses Microsoft 3
 
 ## License requirements
 
-Sales Copilot may be subject to an additional free or paid license. For more information, see [Microsoft Sales Copilot pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sale pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
+Sales Copilot may be subject to an additional free or paid license. For more information, see [Microsoft Sales Copilot pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
 
 ## Role requirements
 
