@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot FAQ
 description: Sales Copilot Frequently Asked Questions
-ms.date: 09/12/2023
+ms.date: 10/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -33,7 +33,7 @@ Microsoft 365 administrators can install Sales Copilot and assign users/security
 
 ## Is there any license required to use Sales Copilot?
 
-Sales Copilot may be subject to an additional free or paid license. For more details, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) and [Dynamics 365 Sale pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
+Sales Copilot may be subject to an additional free or paid license. For more information, see [Microsoft Sales Copilot pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
 
 ## Does Sales Copilot require CRM connectivity?
 
