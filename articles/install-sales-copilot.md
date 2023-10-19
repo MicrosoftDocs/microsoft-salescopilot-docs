@@ -1,7 +1,7 @@
 ---
 title: Install Sales Copilot (user-deployed)
 description: Learn how to install Sales Copilot.
-ms.date: 09/29/2023
+ms.date: 10/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -84,6 +84,9 @@ After you've installed Sales Copilot, you can open Sales Copilot and sign in to 
 
     :::image type="content" source="media/uninstall add-in.png" alt-text="Uninstall Sales Copilot Outlook add-in.":::
 
+> [!NOTE]
+> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Sales Copilot add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-sales-copilot-add-in-for-outlook-is-admin-deployed-or-user-deployed).
+
 ## Install Sales Copilot app for Microsoft Teams
 
 1. Sign in to Microsoft Teams.
@@ -113,3 +116,19 @@ After you've installed Sales Copilot, you can start using Sales Copilot to stay 
 1. Find the Sales Copilot app and select it to expand its row.
 
 1. Select **Remove** :::image type="content" source="media/trash.png" alt-text="Delete team trash can button."::: for the personal app and confirm you want to remove the app from the selected location.
+
+## FAQ
+
+### How do I know if the Sales Copilot add-in for Outlook is admin-deployed or user-deployed?
+
+If the Sales Copilot add-in for Outlook was installed from the Microsoft 365 admin center, it is considered as admin-deployed. If the Sales Copilot add-in for Outlook was installed automatically for your organization or sellers have installed it themselves, it is considered as user-deployed.
+
+You can check if the Sales Copilot add-in for Outlook is admin-deployed or user-deployed by following these steps:
+
+1. Open [https://aka.ms/olksideload](https://aka.ms/olksideload). If required, sign in to your Microsoft Outlook account.
+
+2. In the **Add-Ins for Outlook** window, go to **My add-ins** and **Admin-managed** tabs in the left pane, and check if the add-in is available under these tabs.
+
+    If the add-in is available under **Admin-managed** tab, it is admin-deployed. Contact your administrator to [uninstall the add-in](disable-viva-sales.md).
+
+    If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](#uninstall-sales-copilot-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.

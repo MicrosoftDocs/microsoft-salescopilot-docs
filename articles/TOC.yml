@@ -58,12 +58,14 @@
     href: customize-forms-and-fields.md
   - name: Set up Copilot AI features
     href: suggested-replies.md
+  - name: Integrate with other applications (preview)
+    href: use-extensions.md
   - name: Configure Sales Copilot for Microsoft 365 apps
     href: m365-admin-setting.md
 
 - name: Management
   items:
-  - name: Remove Sales Copilot from the admin center
+  - name: Uninstall Sales Copilot add-in for Outlook
     href: disable-viva-sales.md
   - name: Block the Sales Copilot app in Teams
     href: block-viva-sales-app-teams.md
@@ -190,8 +192,14 @@
     href: tsg-auth-issue.md
   - name: Unable to sign in to Dynamics 365
     href: tsg-disabled-user.md
+  - name: Unable to sign in due to disabled Salesforce connection
+    href: tsg-disabled-connections-sf.md
+  - name: Unable to sign in due to blocked Salesforce connector
+    href: tsg-blocked-connector-sf.md
   - name: Sign in error when opening Sales Copilot
     href: tsg-sign-in-error.md
+  - name: No default BAP location found
+    href: tsg-no-default-bap-loc.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md

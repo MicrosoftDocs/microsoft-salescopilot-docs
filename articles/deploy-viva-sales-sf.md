@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 08/24/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -89,9 +89,13 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
 
 ## Step 6: First user sign in
 
-When the first user in an organization signs in to Salesforce CRM from Sales Copilot, a trial environment needs to be created in Dataverse. As an administrator, you can disable the trial environment creation for non-admin users. In this case, non-admin users will see an error message. For more information on the error message, see [First Salesforce CRM user unable to access Sales Copilot](tsg-trial-env.md).
+When the first user in the tenant connects to Salesforce CRM, Sales Copilot provisions a Dataverse environment to store the data generated  while using Sales Copilot. Refer to [Sales Copilot architecture](architecture.md) for more details on how the environment is used and what data is stored.
 
-To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Sales Copilot first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Sales Copilot. For information on how to sign in to Sales Copilot, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm)
+Sales Copilot automatically sets one of the Power Platform administrators or Microsoft 365 global administrators as the environment administrator. We recommend you review the administrators in the environment after it is created to ensure that the right users are set as administrators.
+
+> [!NOTE]
+> The first user connecting to Salesforce CRM from Sales Copilot will see an error if they are not an admin user and trial environment creation by non-admin users is disabled for the tenant in the Power platform admin center.
+To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Sales Copilot first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Sales Copilot. For information on how to sign in to Sales Copilot, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
 
 
 ## Step 7 (optional): Customize Sales Copilot
@@ -155,7 +159,7 @@ Get information about license requirements, role requirements, and region availa
 
 [How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 
-You may also find your tenant admin's email address on the [Azure Active Directory admin center tenant properties page](https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties), if an administrator hasn't locked it down.
+You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 
