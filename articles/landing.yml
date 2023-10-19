@@ -52,7 +52,7 @@ landingContent:
             url: try-sales-copilot.md
           - text: Deploy Sales Copilot for Dynamics 365 customers 
             url: deploy-viva-sales-d365.md
-          - text: Deploy Sales Copilot for Dynamics 365 customers
+          - text: Deploy Sales Copilot for Salesforce customers
             url: deploy-viva-sales-sf.md
        - linkListType: learn
          links:
@@ -77,9 +77,9 @@ landingContent:
     linkLists:
        - linkListType: how-to-guide
          links:
-          - text: Use Sales Copilot in Outlook
+          - text: In Outlook
             url: use-sales-copilot-outlook.md
-          - text: Use Sales Copilot in Teams
+          - text: In Teams
             url: use-sales-copilot-teams.md
 
 # Card 
@@ -96,7 +96,7 @@ landingContent:
             
 
 # Card 
-  - title: Collaboration space
+  - title: Collaboration templates
     linkLists:
        - linkListType: how-to-guide
          links:
