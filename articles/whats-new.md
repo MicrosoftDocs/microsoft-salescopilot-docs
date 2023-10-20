@@ -1,12 +1,14 @@
 ---
 title: What's new or changed in Microsoft Sales Copilot
 description: This article points to articles that describe the new and changed features in each release of Microsoft Sales Copilot.
+ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 09/08/2023
+ms.date: 10/20/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
+
 # What's new or changed in Microsoft Sales Copilot
 
 Wondering about upcoming and recently released capabilities in Microsoft Sales Copilot? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Viva+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
