@@ -1,8 +1,13 @@
-- name: Microsoft Sales Copilot
+- name: Microsoft Sales Copilot documentation
+  href: landing.yml
+
+- name: Welcome to Microsoft Sales Copilot
   href: introduction.md
 
 - name: What's new in Sales Copilot
   items:
+  - name: What's new overview
+    href: whats-new.md
   - name: September 2023
     href: sep-23.md
   - name: August 2023
@@ -149,6 +154,8 @@
 
 - name: Troubleshooting guide
   items:
+  - name: Overview
+    href: troubleshoot.yml
   - name: Salesforce CRM users unable to see data in Sales Copilot
     href: tsg-no-column.md
   - name: First Salesforce CRM user unable to access Sales Copilot

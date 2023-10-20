@@ -1,0 +1,113 @@
+### YamlMime:Landing
+
+
+
+title: Microsoft Sales Copilot documentation
+summary: Discover how to make the most of Microsoft Sales Copilot with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft Sales Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
+
+
+metadata:
+
+  title: Microsoft Sales Copilot documentation
+  description: Eliminates manual data entry and give sellers more time to focus on selling.
+  author: sbmjais
+  ms.author: shjais
+  ms.topic: landing-page
+  ms.service: microsoft-sales-copilot
+  ms.date: 09/25/2023
+  ms.custom: bap-template
+
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+
+
+landingContent:
+
+
+
+# Card 
+  - title: About Microsoft Sales Copilot
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: What is Sales Copilot?
+            url: introduction.md
+          - text: Supported languages
+            url: supported-languages.md
+          - text: Data handling
+            url: data-handling.md
+       - linkListType: architecture
+         links:
+          - text: Sales Copilot architecture
+            url: architecture.md
+
+# Card 
+  - title: Get started
+    linkLists:
+       - linkListType: quickstart
+         links:
+          - text: Try Sales Copilot
+            url: try-sales-copilot.md
+          - text: Deploy Sales Copilot for Dynamics 365 customers 
+            url: deploy-viva-sales-d365.md
+          - text: Deploy Sales Copilot for Salesforce customers
+            url: deploy-viva-sales-sf.md
+       - linkListType: learn
+         links:
+          - text: Boost sales performance with Sales Copilot
+            url: /training/modules/boost-sales-performance/
+
+# Card 
+  - title: Administrator settings
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Customize forms and fields
+            url: customize-forms-and-fields.md
+          - text: Set up Copilot AI features
+            url: suggested-replies.md
+          - text: Configure Sales Copilot for Microsoft 365 apps
+            url: m365-admin-setting.md
+
+
+# Card 
+  - title: Use Sales Copilot
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: In Outlook
+            url: use-sales-copilot-outlook.md
+          - text: In Teams
+            url: use-sales-copilot-teams.md
+
+# Card 
+  - title: AI capabilities
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Kickstart email messages
+            url: use-copilot-kickstart-email-messages.md
+          - text: View and save email summary to CRM
+            url: view-save-email-summary-crm.md
+          - text: View opportunity summary
+            url: view-opportunity-summary.md
+            
+
+# Card 
+  - title: Collaboration templates
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Set up a team using account team template
+            url: set-up-team-account-team-template.md
+          - text: Set up a team using deal room template
+            url: set-up-team-deal-room-template.md            
+          - text: Collaborate in Teams using the newly created or existing team
+            url: collaborate-teams-newly-created-existing-team.md            
+          - text: Access linked teams and channels
+            url: access-linked-teams-channels.md
+            
+          
+          
