@@ -1,0 +1,68 @@
+### YamlMime:Landing
+
+
+
+title: Help resources for troubleshooting guide
+summary: Navigate to the troubleshooting documentation based on the issue you encounter.
+
+
+metadata:
+
+  title: Help resources for troubleshooting guide
+  description: Index page showing the troubleshooting guide for Microsoft Sales Copilot.
+  author: sbmjais
+  ms.author: shjais
+  ms.topic: landing-page
+  ms.service: microsoft-sales-copilot
+  ms.date: 09/13/2023
+  ms.custom: bap-template
+
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+
+
+landingContent:
+
+
+
+# Card 
+  - title: Dynamics 365
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Missing privileges in Dynamics 365
+            url: tsg-missing-roles.md
+          - text: Invalid mailbox settings
+            url: tsg-mailbox-settings.md
+          - text: No access to Dynamics 365
+            url: tsg-no-access-crm.md
+
+# Card 
+  - title: Salesforce CRM
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Salesforce CRM users unable to see data in Sales Copilot
+            url: tsg-no-column.md
+          - text: Error after connecting and signing in to Salesforce CRM 
+            url: tsg-api-perm.md
+          - text: Incorrect custom domain in Salesforce
+            url: tsg-incorrect-cust-domain.md
+
+
+# Card 
+  - title: Common
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+
+          - text: Update add-in error in Sales Copilot for Microsoft Outlook
+            url: tsg-update-add-in-error.md
+          - text: Can't create private channels in Microsoft Teams
+            url: tsg-create-private-channel.md
+
+
