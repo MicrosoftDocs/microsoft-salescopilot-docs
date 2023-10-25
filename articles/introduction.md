@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft Sales Copilot
 description: Get to know Sales Copilot
-ms.date: 10/19/2023
+ms.date: 10/25/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -55,6 +55,10 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 > [!NOTE]
 > Sales Copilot is not supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
 
+## Supported languages
+
+To see the list of supported languages, see [Supported languages](supported-languages.md).
+
 ### See also
 
-[Install Sales Copilot](install-viva-sales.md)
+[Install Sales Copilot](install-viva-sales.md) 
