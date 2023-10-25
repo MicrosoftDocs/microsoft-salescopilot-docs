@@ -13,8 +13,6 @@ ms.localizationpriority: medium
 
 # Sales Copilot deployment guide for Salesforce CRM customers
 
-
-
 Follow the instructions in this guide to deploy Sales Copilot for your Salesforce CRM customers. Here's a quick video overview of the steps involved:
 
 <br>

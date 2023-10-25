@@ -94,4 +94,4 @@ After you install Sales Copilot for your users, they can start using it in Outlo
 ### See also
 
 [Install Sales Copilot add-in for Outlook](install-viva-sales-as-an-integrated-app.md)<br>
-[Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md)
+[Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md) 

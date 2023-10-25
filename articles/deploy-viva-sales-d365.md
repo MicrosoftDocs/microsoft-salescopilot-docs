@@ -13,8 +13,6 @@ ms.localizationpriority: medium
 
 # Sales Copilot deployment guide for Dynamics 365 customers
 
-
-
 Follow the instructions in this guide to deploy Sales Copilot for your Dynamics 365 Sales customers. Here's a quick video overview of the steps involved:
 
 <br>
