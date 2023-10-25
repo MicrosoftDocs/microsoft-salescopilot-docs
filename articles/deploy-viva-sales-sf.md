@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 10/13/2023
+ms.date: 10/25/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,11 +13,11 @@ ms.localizationpriority: medium
 
 # Sales Copilot deployment guide for Salesforce CRM customers
 
-
-
 Follow the instructions in this guide to deploy Sales Copilot for your Salesforce CRM customers. Here's a quick video overview of the steps involved:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dJYp]
 
 ## Prerequisites
 
@@ -100,9 +100,11 @@ To avoid this error, it's recommended that the tenant administrator signs in to 
 
 ## Step 7 (optional): Customize Sales Copilot
 
-[Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize the CRM fields that are shown on forms and whether Sales Copilot generates suggested email content.
+[Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize Sales Copilot to meet your organization's needs.
 
-![Screenshot showing Sales Copilot admin center ](media/viva-sales-admin-sf.png "Screenshot showing Sales Copilot admin center.")
+### Set up Copilot AI features
+
+You can [set up AI features in Sales Copilot](suggested-replies.md) to use AI features that are in preview or generally available.
 
 ### Customize forms and fields
 
@@ -110,11 +112,9 @@ Sales Copilot comes configured to allow users to be productive out-of-the-box. Y
 
 ![Screenshot showing form settings in Sales Copilot admin center ](media/viva-sales-forms-admin-sf.png "Screenshot showing form settings in Sales Copilot admin center.")
 
-### Set up Copilot AI features
+### Integrate with other applications
 
-You can [set up AI features in Sales Copilot](suggested-replies.md) to use AI features that are in preview or generally available.
-
-![Screenshot showing Copilot settings in Sales Copilot admin center ](media/viva-sales-replies-admin-sf.png "Screenshot showing Copilot settings in Sales Copilot admin center.")
+You can [integrate Sales Copilot with other applications](use-extensions.md) to extend the capabilities of Sales Copilot.
 
 ## Step 8: Welcome sellers to Sales Copilot
 
