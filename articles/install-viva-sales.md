@@ -1,7 +1,7 @@
 ---
 title: Install Sales Copilot (admin-deployed)
 description: Learn what are the various ways to install Sales Copilot
-ms.date: 04/11/2023
+ms.date: 10/25/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -26,7 +26,7 @@ The add-in is enabled in Teams but not installed. You need to go to the Microsof
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW10Mca]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dJYp]
 
 ## Privileges required to use Sales Copilot
 
