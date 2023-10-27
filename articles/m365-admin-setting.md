@@ -1,7 +1,7 @@
 ---
 title: Configure Sales Copilot for Microsoft 365 apps
 description: Learn how to configure Sales Copilot for Microsoft 365 apps.
-ms.date: 07/12/2023
+ms.date: 08/27/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -22,7 +22,8 @@ A few Sales Copilot features run within a Microsoft 365 app service apart from t
 1.	Sign in to Microsoft 365 admin center with tenant admin credentials.
 2.	Select **Settings** > **Org settings**.
 3.	On the **Org settings** page, under the **Services** tab, select **Sales Copilot**.
-4.	In the **Sales Copilot** panel, select **Allow users to see Sales Copilot content in Microsoft 365 apps**.
+4.	In the **Sales Copilot** panel, clear **Allow users to see Sales Copilot content in Microsoft 365 apps**.
+5.	Select **Save**.
 
 > [!NOTE] 
 > If you disable the feature, notifications are not removed from the existing emails that are in the inbox, but no further incoming emails will be processed to display the banner.
