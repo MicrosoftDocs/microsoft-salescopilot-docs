@@ -1,7 +1,7 @@
 ---
 title: Unable to sign in to Salesforce due to blocked Salesforce connector
 description: Troubleshoot and resolve error messages in Sales Copilot when a user is unable to sign in to Salesforce due to blocked Salesforce connector.
-ms.date: 10/13/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ This article helps you troubleshoot and resolve error in Sales Copilot when a us
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

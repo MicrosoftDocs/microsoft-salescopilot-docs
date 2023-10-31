@@ -1,7 +1,7 @@
 ---
 title: First Salesforce CRM user unable to access Sales Copilot
 description: Troubleshoot and resolve error messages in Sales Copilot related to signing in to Salesforce.
-ms.date: 05/15/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,13 +13,11 @@ ms.localizationpriority: medium
 
 # First Salesforce CRM user unable to access Sales Copilot
 
-
-
 This article helps you troubleshoot and resolve error messages in Sales Copilot related to signing in to Salesforce.
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

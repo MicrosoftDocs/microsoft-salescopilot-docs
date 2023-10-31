@@ -1,7 +1,7 @@
 ---
 title: Missing privileges in Dynamics 365
 description: Troubleshoot and resolve error messages in Sales Copilot related to missing privileges in Dynamics 365.
-ms.date: 07/18/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,13 +13,11 @@ ms.localizationpriority: medium
 
 # Missing privileges in Dynamics 365
 
-
-
 This article helps you troubleshoot and resolve error messages in Sales Copilot related to missing privileges in Dynamics 365.
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
