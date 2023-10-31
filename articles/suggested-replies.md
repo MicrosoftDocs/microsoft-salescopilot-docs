@@ -33,6 +33,9 @@ Enable Copilot AI features for all environments in your organization so your sel
 4. To exclude specific groups from using Copilot AI features, select **Exclude specific security groups**, and then search and select the groups you want to exclude.
 5. Select **Save**.
 
+> [!NOTE]
+> If you've disabled Copilot AI features for your organization, CRM administrators can't enable Copilot AI features for their environments.
+
 ## CRM administrator settings
 
 As a CRM administrator, you can configure environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. You can configure:
@@ -66,6 +69,8 @@ Following are the generally available Copilot AI features:
 
     :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to turon on Copilot features.":::
 
+> [!NOTE]
+> If copilot capabilities are turned off for your organization by a tenant administrator, you can't turn on copilot capabilities for your environment.
 
 ### Copilot preview features
 
