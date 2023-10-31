@@ -1,7 +1,7 @@
 ---
 title: Error after connecting and signing in to Salesforce CRM
 description: Troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
-ms.date: 09/18/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve issues when an error message is 
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

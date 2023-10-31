@@ -1,7 +1,7 @@
 ---
 title: Fix mailbox errors in Dynamics 365
 description: Troubleshoot and resolve  mailbox errors in Dynamics 365.
-ms.date: 08/07/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve mailbox errors in Dynamics 365.
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Viva Sales Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

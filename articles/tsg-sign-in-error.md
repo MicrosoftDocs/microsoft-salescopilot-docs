@@ -1,7 +1,7 @@
 ---
 title: Sign in issue when opening the Sales Copilot pane in Outlook
 description: Troubleshoot and resolve error messages in Sales Copilot when users encounter problem in opening the Sales Copilot pane in Outlook.
-ms.date: 10/03/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web    |
