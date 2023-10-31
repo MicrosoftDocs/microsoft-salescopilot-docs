@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales Copilot
 description: Learn how to configure administrator settings for Sales Copilot.
-ms.date: 10/12/2023
+ms.date: 10/30/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,13 +13,21 @@ ms.localizationpriority: medium
 
 # Administrator settings for Sales Copilot
 
-Sales Copilot can be customized to an organization's business needs. As a CRM administrator, you can manage environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. For example, you can customize the CRM information displayed in Sales Copilot across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
+Sales Copilot can be customized to an organization's business needs. As a tenant administrator or CRM administrator, you can configure administrator settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams.
 
-The following administrator settings are available:
+As a tenant administrator, you can control who can use AI capabilities in Sales Copilot for all environments in your organization. 
+
+The following tenant-specific administrator setting is available:
+
+- **Setup Copilot AI features**: Allows you to control who can use AI capabilities in Sales Copilot for all environments in your organization. More information: [Set up Copilot AI features](suggested-replies.md)
+
+As a CRM administrator, you can manage environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. For example, you can customize the CRM information displayed in Sales Copilot across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
+
+The following environment-specific administrator settings are available:
+
+- **Set up Copilot AI features**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up Copilot AI features](suggested-replies.md).
 
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Sales Copilot across Outlook and Teams. You can also control which records and fields sellers can edit directly in Sales Copilot. More information: [Customize forms and fields](customize-forms-and-fields.md)
-
-- **Set up email insights**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up email insights](suggested-replies.md).
 
 - **Integrate with other applications**: Allows you to integrate Sales Copilot with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Sales Copilot and adds insights for your sellers. More information: [Integrate with other applications](use-extensions.md).
 

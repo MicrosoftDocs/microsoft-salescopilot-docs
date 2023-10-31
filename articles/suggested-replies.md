@@ -1,7 +1,7 @@
 ---
 title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 10/13/2023
+ms.date: 10/30/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,18 +13,36 @@ ms.localizationpriority: medium
 
 # Set up Copilot AI features
 
+Sales Copilot can help sellers write better emails, take better notes, and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system. 
 
+As a tenant administrator or CRM administrator, you can set up Copilot AI features for your organization and environment, respectively.
 
-Sales Copilot can help sellers write better emails, take better notes, and stay on top of their deals with AI-driven insights that are based on their communication with sales contacts and information from their CRM system.
+## Tenant administrator settings
 
-As an administrator, you can configure:
+As a tenant administrator, you can control who can use AI capabilities in Sales Copilot for all environments in your organization.
+
+### Setup Copilot AI features
+
+Enable Copilot AI features for all environments in your organization so your sellers can benefit from the available AI capabilities in Sales Copilot.
+
+1.  In Sales Copilot admin settings, select **Copilot** under **Tenant**.
+2.  Turn on **Copilot**.
+3. Under **Apply to**, select one of the following options:
+    - **The entire organization**: Enables Copilot AI features for all environments in your organization. All sellers in your organization can use Copilot AI features, unless turned off by a CRM administrator.
+    - **Specific security groups**: Allows only selected security groups in your organization to use Copilot AI features. To select groups, select this option, and then search and select the groups you want to enable Copilot AI features for.
+4. To exclude specific groups from using Copilot AI features, select **Exclude specific security groups**, and then search and select the groups you want to exclude.
+5. Select **Save**.
+
+## CRM administrator settings
+
+As a CRM administrator, you can configure environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. You can configure:
 
 - **Copilot AI features**: Allows sellers to use copilot features that are generally available.
 
 - **Copilot preview features**: Allows sellers to try out copilot features that are in preview. 
 
 
-## Copilot AI features
+### Copilot AI features
 
 Enable Copilot AI features so your sellers can benefit from the available AI capabilities in Sales Copilot.
 
@@ -40,7 +58,7 @@ Following are the generally available Copilot AI features:
 > - Generally available Copilot features in Sales Copilot are available in [supported languages](supported-languages.md).
 > -  Ensure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. For information on how to update the add-in, go to [Update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
-### Turn on Copilot AI features in Sales Copilot
+#### Turn on Copilot AI features in Sales Copilot
 
 1.  In Sales Copilot admin settings, select **Copilot**.
 
@@ -49,7 +67,7 @@ Following are the generally available Copilot AI features:
     :::image type="content" source="media/viva-sales-replies-admin.png" alt-text="Setting to turon on Copilot features.":::
 
 
-## Copilot preview features
+### Copilot preview features
 
 Allow sellers to benefit from the preview features before they are generally available. By default, preview features are turned off. You can turn them on in Sales Copilot admin settings.
 
@@ -58,7 +76,7 @@ Following are the preview features:
 - **Summarize sales meeting**: Allows sellers to generate suggested email content that contains an automated recap of a recently recorded Teams meeting with sales contacts.
 
 
-### Turn on copilot preview features in Sales Copilot
+#### Turn on copilot preview features in Sales Copilot
 
 1. In Sales Copilot admin settings, select **Copilot**.
 
