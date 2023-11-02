@@ -13,8 +13,6 @@ ms.localizationpriority: medium
 
 # Welcome to Microsoft Sales Copilot
 
-Salesperson spends much of their time on administrative tasks, such as entering data in CRM system to keep it up to date. For sellers, time is money and relationships are key. The time spent in entering data into CRM could be dedicated to other essential tasks, such as meeting with new customers and selling.
-
 Microsoft Sales Copilot is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Sales Copilot empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Sales Copilot is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
 
 > [!NOTE]
