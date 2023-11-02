@@ -18,7 +18,7 @@ Region availability of Sales Copilot is listed [here](introduction.md#region-ava
 
 ## In which languages is Sales Copilot supported?
 
-Supported languages in Sales Copilot for Outlook and Teams are listed [here](supported-languages.md).
+You can find the list of supported languages for Sales Copilot in Outlook and Teams [here](supported-languages.md).
 
 ## Who can install Sales Copilot?
 
