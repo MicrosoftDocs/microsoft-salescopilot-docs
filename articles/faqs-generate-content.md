@@ -1,10 +1,11 @@
 ---
 title: FAQ for generate content feature in Outlook
-description: This FAQ provides information about the AI technology used in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 07/24/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
+ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais
