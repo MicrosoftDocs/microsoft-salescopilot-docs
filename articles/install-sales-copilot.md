@@ -1,7 +1,7 @@
 ---
 title: Install Sales Copilot (user-deployed)
 description: Learn how to install Sales Copilot.
-ms.date: 10/19/2023
+ms.date: 11/03/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -67,12 +67,15 @@ After you've installed Sales Copilot, you can open Sales Copilot and sign in to 
 | Automatically capture email signature and suggest updating CRM   | Supported     | Not supported                |
 | Create and edit non-contact records in Dynamics 365     | Supported²    | Supported      |
 | Delegate access (allow a user to act on behalf of another user)    | Not supported | Supported    |
+| Mobile support | Not supported | Supported |
 | **Work in Teams³**   |               |               |
 | Collaborate on customer records with colleagues in Teams    | Supported     | Not supported    |
 | Post-meeting: Play back and transcript with highlights, topics, executive summary, action items, and sentiment analysis  | Supported     | Not supported    |
+| Mobile support | Supported | Supported |
 | ¹ Sales Copilot supports connecting Microsoft Outlook activities to accounts and opportunities. Support for connecting Outlook activities to other entities is coming soon. | | |
 | ² Sales Copilot allows creating contacts and editing contacts, accounts, and opportunities. Support for creating and editing additional entities is coming soon. | | |
 |³ Requires Sales Copilot app to be installed in Microsoft Teams.  |               |                              |
+
 
 ### Uninstall Sales Copilot Outlook add-in
 
