@@ -84,9 +84,9 @@ The following insights are displayed:
 
 ## View latest activities from partner applications (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
 You can view activities that are related to CRM opportunities or deals from partner applications within Sales Copilot. To view activities from partner applications, you must:
 

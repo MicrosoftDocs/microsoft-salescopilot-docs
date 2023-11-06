@@ -74,9 +74,9 @@ The following insights are displayed:
 
 ## View related records from partner applications (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
 You can view records that are related to CRM records from partner applications within Sales Copilot. To view related records from partner applications, you must:
 
