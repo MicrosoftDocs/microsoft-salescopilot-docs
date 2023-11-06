@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 10/12/2023
+ms.date: 11/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -82,6 +82,39 @@ The following insights are displayed:
 
     To see all connections or more metrics, you must open People.ai.
 
+## View latest activities from partner applications (preview)
+
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/production-ready-preview-dynamics365.md)]
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+You can view activities that are related to CRM opportunities or deals from partner applications within Sales Copilot. To view activities from partner applications, you must:
+
+1. Get the feature enabled, as it is not enabled by default.
+2. Create a connection using Power Apps connectors.
+3. View latest activities from partner applications.
+
+### Get the feature enabled
+
+This feature is not enabled by default. To enable this feature, ask your administrator to [sign up for the preview feature](https://aka.ms/SalesCopilotExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization.
+
+### Create a connection
+
+After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+
+> [!NOTE]
+> - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
+> - If you are a partner application maker and would like to integrate with Sales Copilot, see Extend Sales Copilot. Currently, DocuSign can be integrated with Sales Copilot. 
+
+### View latest activities
+
+Latest activities from partner applications are displayed under the **Latest activities from (parter app)** section. For example, in the following image, the activities from the partner application **DocuSign** are displayed in the opportunity summary.
+
+`image`
+
+All the information about activities comes from the partner applications. Sales Copilot renders the activity information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+
+Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 
 
 ## View data source in opportunity summary
 
