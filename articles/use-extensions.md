@@ -14,7 +14,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-You can integrate Sales Copilot with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Sales Copilot and adds insights for your sellers.
+You can integrate Sales Copilot with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Sales Copilot and add insights for your sellers.
 
 ## Integrate with Viva Topics
 
