@@ -82,7 +82,7 @@ You can view records that are related to CRM records from partner applications w
 
 1. Get the feature enabled, as it is not enabled by default.
 2. Create a connection using Power Apps connectors.
-3. View latest activities from partner applications.
+3. View related records from partner applications.
 
 ### Get the feature enabled
 
