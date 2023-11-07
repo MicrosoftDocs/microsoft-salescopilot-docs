@@ -38,3 +38,8 @@ The following table lists a few scenarios and the expected error codes:
 |User is not authorized to perform an action (insufficient privileges)|INSUFFICIENT_PERMISSIONS|403|
 |Too many requests sent to the connector|REQUEST_THROTTLED|429|
 |Unhandled service error|INTERNAL_SERVER_ERROR|500|
+
+### See also
+
+[GetRelatedActivities](api-get-related-activities.md) <br>
+[GetRelatedRecords](api-get-related-records.md)
