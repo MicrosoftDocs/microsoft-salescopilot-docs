@@ -34,8 +34,8 @@ To extend Sales Copilot:
     > If you want to extend any capability other than the ones listed above, contact us using [this link](https://aka.ms/SalesCopilotPartnerSignUp).
 
 2. Implment the APIs to extend the capabilities you chose in step 1.
-    1. Latest activities in opportunity summary - GetRelatedActivities
-    1. Records from non-CRM applications related to CRM records - GetRelatedRecords
+    1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
+    1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
 
 3. Create or add above APIs to a [Power Apps connector](/connectors/connectors) and [get your connector certified](/connectors/custom-connectors/submit-certification).
 
@@ -77,3 +77,7 @@ The following image shows an example of how the output of the `GetRelatedRecords
 |3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
 |4|Link to view related record details in the partner application. It is based on the URL of the related record in API response.|
 |5|Additional properties of the related record from API response.|
+
+### See also
+
+[Get activities and records from partner applications](api-ref-partner-apps.md)
