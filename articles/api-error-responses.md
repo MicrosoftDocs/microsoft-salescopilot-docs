@@ -26,11 +26,12 @@ Error responses must be standardized to ensure that the error messages are consi
 |errorCode|String|Yes|Short and easy to identify an error category.|
 |errorMessage|String|No|Developer friendly for more details on the error.|
 |activityId|String|No|Unique identifier for the request.|
-|details|Object|No|Additional details about the error. Content might vary based on the error type.<br>For example, a case when a user doesn't have correct privileges: <br>{<br>“resourceType”: “envelope”,<br>“resourceId”: “&lt;envelopeId&gt;”<br>}
+|details|Object|No|Additional details about the error. Content might vary based on the error type.<br>For example, a case when a user doesn't have correct privileges: <br>{<br>“resourceType”: “envelope”,<br>“resourceId”: “&lt;envelopeId&gt;”<br>}|
 
 The following table lists a few scenarios and the expected error codes:
 
 |Scenario|Error code|HTTP status code|
+|--------|----------|----------------|
 |User is connected to a different CRM than specified in the input|INVALID_CRM_CONNECTION|400|
 |Record not found or has been deleted|RECORD_NOT_FOUND|404|
 |User is not authenticated (typically in case of token expiration)|INVALID_TOKEN_SPECIFIED|401|
