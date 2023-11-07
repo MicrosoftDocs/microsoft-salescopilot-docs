@@ -64,7 +64,7 @@ The following image shows an example of how the output of the `GetRelatedActivit
 
 ## Show records from your application related to CRM records
 
-Sales Copilot displays [related records](view-related-records.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
 
 The following image shows an example of how the output of the `GetRelatedRecords` API is mapped to the related records.
 
