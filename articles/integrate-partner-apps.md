@@ -1,14 +1,18 @@
 ---
-title: 
-description:
+title: Extend Microsoft Sales Copilot with partner applications (preview)
+description: Extend Sales Copilot to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
 ms.date: 11/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/07/2023
 ---
 
-# Integrate Microsoft Sales Copilot with partner applications (preview)
+# Extend Microsoft Sales Copilot with partner applications (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
@@ -40,7 +44,7 @@ To extend Sales Copilot:
 
 ## Show latest activities from your application in opportunity summary
 
-Sales Copilot displays opportunity summary when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
 
 The following image shows an example of how the output of the `GetRelatedActivities` API is mapped to the opportunity summary.
 
@@ -48,6 +52,28 @@ The following image shows an example of how the output of the `GetRelatedActivit
 
 |Annotation|Description|
 |----------|-----------|
+|1|Section showing latest activities from partner application in opportunity summary. The section title is the name of the Power Apps connector.|
+|2|Activity descriptions from API response.|
+|3|Citation number to see details about the activity.|
+|4|Citation card showing details about the activity.|
+|5|Icon and title of the activity. The icon is retrieved from the Power Apps connector metadata. The title text is the title of the activity.|
+|6|Additional properties of the activity from API response.|
+|7|Name of the partner application. The name displayed is the name of the Power Apps connector.|
+|8|Link to view activity details in the partner application. It is based on the URL of the activity in API response.|
 
 
 ## Show records from your application related to CRM records
+
+Sales Copilot displays [related records](view-related-records.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
+
+The following image shows an example of how the output of the `GetRelatedRecords` API is mapped to the related records.
+
+`image`
+
+|Annotation|Description|
+|----------|-----------|
+|1|Card showing related records from partner application.|
+|2|Icon and title of the card. The icon is retrieved from the Power Apps connector metadata. The card title is the name of the Power Apps connector.|
+|3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
+|4|Link to view related record details in the partner application. It is based on the URL of the related record in API response.|
+|5|Additional properties of the related record from API response.|
