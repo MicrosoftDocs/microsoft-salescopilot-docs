@@ -155,7 +155,7 @@
   items:
   - name: Overview
     href: extend-sales-copilot.md
-  - name: Sales Copilot API
+  - name: Sales Copilot APIs
     items:
     - name: Overview
       href: api-ref-partner-apps.md
