@@ -33,7 +33,7 @@ To extend Sales Copilot:
     > [!NOTE]
     > If you want to extend any capability other than the ones listed above, contact us using [this link](https://aka.ms/SalesCopilotPartnerSignUp).
 
-2. Implment the APIs to extend the capabilities you chose in step 1.
+2. Implement the APIs to extend the capabilities you chose in step 1.
     1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
     1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
 
@@ -44,7 +44,7 @@ To extend Sales Copilot:
 
 ## Show latest activities from your application in opportunity summary
 
-Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
 
 The following image shows an example of how the output of the `GetRelatedActivities` API is mapped to the opportunity summary.
 
@@ -64,7 +64,7 @@ The following image shows an example of how the output of the `GetRelatedActivit
 
 ## Show records from your application related to CRM records
 
-Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting wih customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
 
 The following image shows an example of how the output of the `GetRelatedRecords` API is mapped to the related records.
 

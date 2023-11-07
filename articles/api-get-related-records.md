@@ -27,7 +27,7 @@ The API is called with the following parameters:
 
 |Parameter|Data type|Required|Description|
 |---------|----|--------|-----------|
-|recordType|String|Yes|Entity or Object type in CRM for which releated records are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on.|
+|recordType|String|Yes|Entity or Object type in CRM for which related records are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on.|
 |recordId|String|Yes|Unique identifier of the CRM record.|
 |top|Integer|No|Number of activities to fetch.|
 |skip|Integer|No|Number of activities to skip.|
@@ -35,7 +35,7 @@ The API is called with the following parameters:
 crmOrgUrl|String|No|URL of the CRM organization. <br>Send host name only, for example, https://contoso.crm.dynamics.com.|
 
 > [!NOTE]
-> - Authentication is expected to be handled by the contructs in the Power Apps connector and is outside the scope of this API.
+> - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
 > - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
 > - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
 >   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
@@ -55,8 +55,8 @@ The API is expected to return related records in the following format:
 |Parameter|Data type|Required|Description|
 |---------|----|--------|-----------|
 |recordId|String|Yes|Unique identifier of the record.|
-|recordTypeDisplayName|String|Yes|Display name of the record type which should be lozalized in the language specified with the `Accept-Language` header. For example, Contract.|
-|recordTypePluralDisplayName|String|Yes|Plural display name of the record type which should be lozalized in the language specified with the `Accept-Language` header. For example, Contracts.|
+|recordTypeDisplayName|String|Yes|Display name of the record type which should be localized in the language specified with the `Accept-Language` header. For example, Contract.|
+|recordTypePluralDisplayName|String|Yes|Plural display name of the record type which should be localized in the language specified with the `Accept-Language` header. For example, Contracts.|
 |recordType|String|Yes|System name of the record type. For example, contract.|
 |recordTitle|String|Yes|Name of the record. For example, Contoso 2023 Renewal Contract.|
 |url|String|No|URL to open record in the partner application.|

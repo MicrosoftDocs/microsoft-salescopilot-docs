@@ -27,7 +27,7 @@ The API is called with the following parameters:
 
 |Parameter|Data type|Required|Description|
 |---------|----|--------|-----------|
-|recordType|String|Yes|Entity or Object type in CRM for which releated activities are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on.|
+|recordType|String|Yes|Entity or Object type in CRM for which related activities are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on.|
 |recordId|String|Yes|Unique identifier of the CRM record.|
 |startDateTime|String with format 'date-time'|No|Start date and time to look up activities. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z.|
 |endDateTime|String with format 'date-time'|No|End date and time to look up activities. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z.|
@@ -37,7 +37,7 @@ The API is called with the following parameters:
 crmOrgUrl|String|No|URL of the CRM organization. <br>Send host name only, for example, https://contoso.crm.dynamics.com.|
 
 > [!NOTE]
-> - Authentication is expected to be handled by the contructs in the Power Apps connector and is outside the scope of this API.
+> - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
 > - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
 > - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
 >   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
