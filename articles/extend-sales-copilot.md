@@ -37,9 +37,7 @@ To extend Sales Copilot:
     1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
     1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
 
-3. Create or add above APIs to a [Power Apps connector](/connectors/connectors) and [get your connector certified](/connectors/custom-connectors/submit-certification).
-
-4. [Register your connector as a plug-in](/power-apps/developer/data-platform/register-plug-in).
+3. Add the above APIs to an existing or a new [Power Apps copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
 
 
 ## Show latest activities from your application in opportunity summary
@@ -75,7 +73,7 @@ The following image shows an example of how the output of the `GetRelatedRecords
 |1|Card showing related records from partner application.|
 |2|Icon and title of the card. The icon is retrieved from the Power Apps connector metadata. The card title is the name of the Power Apps connector.|
 |3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
-|4|Link to view related record details in the partner application. It is based on the URL of the related record in API response.|
+|4|More option icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.|
 |5|Additional properties of the related record from API response.|
 
 ### See also

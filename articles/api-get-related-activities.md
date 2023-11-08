@@ -56,7 +56,7 @@ The API is expected to return activities in the following format:
 
 |Parameter|Data type|Required|Description|
 |---------|----|--------|-----------|
-|title|String|Yes|Title of the activity in the citation card.<br>It is the natural language title of the activity in the language specified with the `Accept-Language` header. For example, Contract signed.|
+|title|String|Yes|Title of the activity in the citation card.<br>It is the natural language title of the activity in the language specified in the `Accept-Language` request header. For example, Contract signed.|
 |description|String|Yes|Description of the activity displayed as bullet points in the opportunity summary.<br>It is the natural language description of the activity in the language specified with the `Accept-Language` header. For example, Kenny, Logan, and two others signed the Contoso 2023 Renewal Contract on 9/7/2023.|    
 |dateTime|String with format 'date-time'|Yes|Date and time of the activity in UTC format. If there is a start and end time, application needs to decide which one to show.<br>The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z.|
 |url|String|No|URL to open activity in the partner application.|
