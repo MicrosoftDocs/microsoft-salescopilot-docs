@@ -1,7 +1,7 @@
 ---
 title: Can't create private channels in Microsoft Teams
 description: Troubleshoot and resolve issues when you can't create private channels in Microsoft Teams.
-ms.date: 07/28/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve issues when you can't create pri
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

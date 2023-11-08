@@ -1,7 +1,7 @@
 ---
 title: Users don't have required privileges to access the organization
 description: Troubleshoot and resolve error messages in Sales Copilot when users don't have required privileges to access the organization when Administration mode is enabled.
-ms.date: 08/30/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve error messages in Sales Copilot 
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in and Teams app    |
 |**Platform**     | Web and desktop clients         |

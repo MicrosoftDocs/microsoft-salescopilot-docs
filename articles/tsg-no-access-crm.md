@@ -1,7 +1,7 @@
 ---
 title: No access to Dynamics 365
 description: Troubleshoot and resolve issues when users don't have access to Dynamics 365.
-ms.date: 08/22/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -17,7 +17,7 @@ This article helps you troubleshoot and resolve issues when users don't have acc
 
 ## Who is affected?
 
-|  |  |
+| Requirement type |Description  |
 |---------|---------|
 |**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |

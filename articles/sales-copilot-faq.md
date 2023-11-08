@@ -1,31 +1,24 @@
 ---
-title: Sales Copilot FAQ
+title: Microsoft Sales Copilot FAQ
 description: Sales Copilot Frequently Asked Questions
-ms.date: 10/19/2023
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Sales Copilot FAQ
+# Microsoft Sales Copilot FAQ
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly.
 
 ## In which regions is Sales Copilot supported?
 
-Sales Copilot is available globally except in these countries: Myanmar, Cabo Verde, China, Cuba, Curaçao, Timor-Leste, Iran, Côte d'Ivoire, North Korea, Palestinian Authority, Russia, St Helena, Ascension, Tristan da Cunha, and Syria.
+Region availability of Sales Copilot is listed [here](introduction.md#region-availability).
 
 ## In which languages is Sales Copilot supported?
 
-Sales Copilot user interface is supported in Arabic, Chinese (simplified), Chinese (traditional), Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Spanish, Swedish, Thai, and Turkish.
-
-> [!NOTE]
-> Extracting contact details from email signature is available only for emails in English.
-
-## In which languages is Sales Copilot conversation intelligence supported?
-
-Conversation intelligence is supported in the following languages: Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, Norwegian, and Arabic.
+You can find the list of supported languages for Sales Copilot in Outlook and Teams [here](supported-languages.md).
 
 ## Who can install Sales Copilot?
 

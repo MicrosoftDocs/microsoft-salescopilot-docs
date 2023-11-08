@@ -1,7 +1,7 @@
 ---
 title: No default BAP location found for this tenant 
 description: Troubleshoot and resolve issues in Sales Copilot when users are unable to use Sales Copilot due to missing default environment
-ms.date: 10/19/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,7 +16,7 @@ This article helps you troubleshoot and resolve issues in Sales Copilot when use
 
 ## Who is affected?
 
-| | |
+| Requirement type |Description  |
 |----------------|--------------------|
 | **Client App** | MS Outlook Only        |
 | **Platform**   | Any (Web & Desktop)    |

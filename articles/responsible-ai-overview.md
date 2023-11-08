@@ -5,6 +5,7 @@ ms.date: 7/24/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
+ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais
