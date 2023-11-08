@@ -32,7 +32,7 @@ Enable Copilot AI features for all environments in your organization so your sel
     - **Specific security groups**: Allows only selected security groups in your organization to use Copilot AI features. To select groups, select this option, and then search and select the groups you want to enable Copilot AI features for.
 4. To exclude specific groups from using Copilot AI features, select **Exclude specific security groups**, and then search and select the groups you want to exclude.
     
-    :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Setting to turn on Copilot preview features.":::
+    :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Setting to set up Copilot features for a tenant.":::
 
 5. Select **Save**.
 
@@ -74,7 +74,7 @@ As a CRM administrator, you can configure environment-specific settings for Sale
 
 3. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.
 
-    :::image type="content" source="media/viva-sales-crm-admin.png" alt-text="Setting to turn on Copilot preview features.":::
+    :::image type="content" source="media/viva-sales-crm-admin.png" alt-text="Setting to set up Copilot features.":::
 
 ## Data access and use
 
