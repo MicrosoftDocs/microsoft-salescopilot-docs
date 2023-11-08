@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales Copilot
 description: Learn how to configure administrator settings for Sales Copilot.
-ms.date: 10/30/2023
+ms.date: 11/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -19,13 +19,13 @@ As a tenant administrator, you can control who can use AI capabilities in Sales 
 
 The following tenant-specific administrator setting is available:
 
-- **Setup Copilot AI features**: Allows you to control who can use AI capabilities in Sales Copilot for all environments in your organization. More information: [Set up Copilot AI features](suggested-replies.md)
+- **Setup Copilot AI features**: Allows you to control who can use AI capabilities in Sales Copilot for all environments in your organization. More information: [Set up Copilot AI features](suggested-replies.md#tenant-administrator-settings)
 
 As a CRM administrator, you can manage environment-specific settings for Sales Copilot from a central location and control Sales Copilot experience across Outlook and Teams. For example, you can customize the CRM information displayed in Sales Copilot across Outlook and Teams to give sellers quick access to the fields most relevant to their flow of work.
 
 The following environment-specific administrator settings are available:
 
-- **Set up Copilot AI features**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up Copilot AI features](suggested-replies.md).
+- **Set up Copilot AI features**: Helps sellers write better emails and stay on top of their deals with AI-driven insights. More information: [Set up Copilot AI features](suggested-replies.md#crm-administrator-settings).
 
 - **Customize forms and fields**: Allows you to specify what information should be displayed in Sales Copilot across Outlook and Teams. You can also control which records and fields sellers can edit directly in Sales Copilot. More information: [Customize forms and fields](customize-forms-and-fields.md)
 
@@ -90,9 +90,12 @@ When you open administrator settings, following tabs are available:
 
 3.  On the **Settings** tab, update the settings.
 
-    - **Copilot**: Allows you to [set up Copilot AI features](suggested-replies.md).
-    - **Forms**: Allows you to [customize forms and fields](customize-forms-and-fields.md).
-    - **Extensions**: Allows you to [integrate Sales Copilot with other applications](use-extensions.md).
+    - **Tenant**
+        - **Copilot**: [Control who can use AI capabilities](suggested-replies.md#tenant-administrator-settings). 
+    - **Environment**
+        - **Copilot**: [Set up Copilot AI features](suggested-replies.md#crm-administrator-settings).
+        - **Forms**: [Customize forms and fields](customize-forms-and-fields.md).
+        - **Extensions**: [Integrate Sales Copilot with other applications](use-extensions.md).
 
     ![Screenshot showing Sales Copilot Settings tab.](media/viva-sales-admin.png "Screenshot showing Sales Copilot Settings tab.")
 
