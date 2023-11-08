@@ -295,7 +295,11 @@ If you want to have a meeting with a customer, you can include a meeting time in
 
 ## Set language of suggested content
 
-The suggested content is generated in the language of the email. In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
+The language of the suggested content is determined as follows:
+- If you're replying to an email, the language of the suggested content is the same as the language of the email. 
+- If you're composing a new email and using custom text to generate the suggested content, the language of the suggested content is the same as the language of the custom text. 
+
+In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
 
 You can set the language of the suggested content to be one of the supported languages. The default language is set to English.
 
