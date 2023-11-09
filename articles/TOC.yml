@@ -165,6 +165,8 @@
       href: api-get-related-records.md
     - name: Standardize error responses
       href: api-error-responses.md
+    - name: Sample OpenAPI definition
+      href: api-sample-definition.md
 
 - name: Troubleshooting guide
   items:
