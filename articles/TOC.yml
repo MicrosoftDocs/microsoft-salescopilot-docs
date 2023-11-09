@@ -166,7 +166,7 @@
     - name: Standardize error responses
       href: api-error-responses.md
     - name: Sample OpenAPI definition
-      href: api-sample-definition.md
+      href: api-sample-def.md
 
 - name: Troubleshooting guide
   items:
