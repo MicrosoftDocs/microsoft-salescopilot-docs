@@ -34,7 +34,7 @@ The API is called with the following parameters:
 |top|Integer|No|Number of activities to fetch.|
 |skip|Integer|No|Number of activities to skip.|
 |crmType|String|No|Valid values are Dynamics 365 and Salesforce.|
-crmOrgUrl|String|No|URL of the CRM organization. <br>Send host name only, for example, https://contoso.crm.dynamics.com.|
+crmOrgUrl|String|No|Host name of the CRM organization. For example, `contoso.crm.dynamics.com`.|
 
 > [!NOTE]
 > - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
@@ -59,7 +59,7 @@ The API is expected to return activities in the following format:
 |title|String|Yes|Title of the activity in the citation card.<br>It is the natural language title of the activity in the language specified in the `Accept-Language` request header. For example, Contract signed.|
 |description|String|Yes|Description of the activity displayed as bullet points in the opportunity summary.<br>It is the natural language description of the activity in the language specified with the `Accept-Language` header. For example, Kenny, Logan, and two others signed the Contoso 2023 Renewal Contract on 9/7/2023.|    
 |dateTime|String with format 'date-time'|Yes|Date and time of the activity in UTC format. If there is a start and end time, application needs to decide which one to show.<br>The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z.|
-|url|String|No|URL to open activity in the partner application.|
+|url|String|No|A valid URL to open activity in the partner application.|
 |additionalProperties|Object with Property Name and Property Value|No|Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br>“Status reason”: “Signed off”,<br>“Owner”: “Kenny Smith”<br>}|
 
 ### See also

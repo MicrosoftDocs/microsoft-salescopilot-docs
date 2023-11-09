@@ -33,7 +33,7 @@ The following table lists a few scenarios and the expected error codes:
 |Scenario|Error code|HTTP status code|
 |--------|----------|----------------|
 |User is connected to a different CRM than specified in the input|INVALID_CRM_CONNECTION|400|
-|Record not found or has been deleted|RECORD_NOT_FOUND|404|
+|CRM system of record was not found or has been deleted|RECORD_NOT_FOUND|404|
 |User is not authenticated (typically in case of token expiration)|INVALID_TOKEN_SPECIFIED|401|
 |User is not authorized to perform an action (insufficient privileges)|INSUFFICIENT_PERMISSIONS|403|
 |Too many requests sent to the connector|REQUEST_THROTTLED|429|

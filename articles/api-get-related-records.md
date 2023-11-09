@@ -32,7 +32,7 @@ The API is called with the following parameters:
 |top|Integer|No|Number of activities to fetch.|
 |skip|Integer|No|Number of activities to skip.|
 |crmType|String|No|Valid values are Dynamics 365 and Salesforce.|
-crmOrgUrl|String|No|URL of the CRM organization. <br>Send host name only, for example, https://contoso.crm.dynamics.com.|
+crmOrgUrl|String|No|Host name of the CRM organization. For example, `contoso.crm.dynamics.com`.|
 
 > [!NOTE]
 > - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
@@ -59,7 +59,7 @@ The API is expected to return related records in the following format:
 |recordTypePluralDisplayName|String|Yes|Plural display name of the record type which should be localized in the language specified with the `Accept-Language` header. For example, Contracts.|
 |recordType|String|Yes|System name of the record type. For example, contract.|
 |recordTitle|String|Yes|Name of the record. For example, Contoso 2023 Renewal Contract.|
-|url|String|No|URL to open record in the partner application.|
+|url|String|No|A valid URL to open record in the partner application.|
 |additionalProperties|Object with Property Name and Property Value|No|Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br>“Status reason”: “Signed off”,<br>“Owner”: “Kenny Smith”<br>}|
 
 ### See also
