@@ -26,16 +26,16 @@ Error responses must be standardized to ensure that the error messages are consi
 |errorCode|String|Yes|Short and easy to identify an error category.|
 |errorMessage|String|No|Developer friendly for more details on the error.|
 |activityId|String|No|Unique identifier for the request.|
-|details|Object|No|Additional details about the error. Content might vary based on the error type.<br>For example, a case when a user doesn't have correct privileges: <br>{<br>“resourceType”: “envelope”,<br>“resourceId”: “&lt;envelopeId&gt;”<br>}|
+|details|Object|No|More details about the error. Content might vary based on the error type.<br>For example, a case when a user doesn't have correct privileges: <br>{<br>"resourceType": "envelope",<br>"resourceId": "&lt;envelopeId&gt;"<br>}|
 
 The following table lists a few scenarios and the expected error codes:
 
 |Scenario|Error code|HTTP status code|
 |--------|----------|----------------|
-|User is connected to a different CRM than specified in the input|INVALID_CRM_CONNECTION|400|
-|CRM system of record was not found or has been deleted|RECORD_NOT_FOUND|404|
-|User is not authenticated (typically in case of token expiration)|INVALID_TOKEN_SPECIFIED|401|
-|User is not authorized to perform an action (insufficient privileges)|INSUFFICIENT_PERMISSIONS|403|
+|User is connected to a different CRM than the one specified in the input|INVALID_CRM_CONNECTION|400|
+|CRM system of record wasn't found or has been deleted|RECORD_NOT_FOUND|404|
+|User isn't authenticated (typically if token expires)|INVALID_TOKEN_SPECIFIED|401|
+|User isn't authorized to perform an action (insufficient privileges)|INSUFFICIENT_PERMISSIONS|403|
 |Too many requests sent to the connector|REQUEST_THROTTLED|429|
 |Unhandled service error|INTERNAL_SERVER_ERROR|500|
 
