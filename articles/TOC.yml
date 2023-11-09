@@ -200,6 +200,8 @@
     href: tsg-sign-in-error.md
   - name: No default BAP location found
     href: tsg-no-default-bap-loc.md
+  - name: Connection lost due to expired session or bad OAuth token
+    href: tsg-connection-lost.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
