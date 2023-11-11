@@ -46,7 +46,7 @@ Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a
 
 The following image shows an example of how the output of the `GetRelatedActivities` API is mapped to the opportunity summary.
 
-`image`
+:::image type="content" source="media/extend-oppty-summ.png" alt-text="Screenshot showing anatomy of latest activities from a partner application.":::
 
 |Annotation|Description|
 |----------|-----------|
@@ -69,14 +69,14 @@ Sales Copilot displays [related records](view-record-details.md) when a seller r
 
 The following image shows an example of how the output of the `GetRelatedRecords` API is mapped to the related records.
 
-`image`
+:::image type="content" source="media/extend-record-details.png" alt-text="Screenshot showing anatomy of related records from a partner application.":::
 
 |Annotation|Description|
 |----------|-----------|
 |1|Card showing related records from partner application.|
 |2|Icon and title of the card. The icon is retrieved from the Power Apps connector metadata. The card title is the name of the Power Apps connector.|
 |3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
-|4|More option icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.|
+|4|More actions icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.|
 |5|Additional properties of the related record from API response.|
 
 ### See also

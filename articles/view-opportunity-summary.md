@@ -108,9 +108,9 @@ After the feature is enabled, you must create a connection between Sales Copilot
 
 ### View latest activities
 
-Latest activities from partner applications are displayed under the **Latest activities from (parter app)** section. For example, in the following image, the activities from the partner application **DocuSign** are displayed in the opportunity summary.
+Latest activities from partner applications are displayed under the **Latest activities from (partner app)** section. For example, in the following image, the activities from the partner application **DocuSign** are displayed in the opportunity summary.
 
-`image`
+:::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
 
 All the information about activities comes from the partner applications. Sales Copilot renders the activity information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
 

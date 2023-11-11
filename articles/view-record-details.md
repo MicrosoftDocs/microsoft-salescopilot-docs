@@ -100,12 +100,13 @@ After the feature is enabled, you must create a connection between Sales Copilot
 
 Related records from partner applications are displayed in a new card under record details. For example, in the following image, the contract documents related to a CRM opportunity are displayed from the partner application **DocuSign**.
 
-`image`
+:::image type="content" source="media/record-details-partner-apps.png" alt-text="Sceenshot showing related records from DocuSign":::
+
+> [!NOTE]
+> Currently, related records from partner applications are shown only for opportunities and accounts.
 
 All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 
 - To copy link to a record or open it in the partner application, hover over the record, select **More actions** (**…**), and then select **Copy link** or **Open in (partner app)** respectively.
-
-`image`
