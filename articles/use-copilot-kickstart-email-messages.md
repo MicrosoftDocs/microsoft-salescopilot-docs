@@ -1,11 +1,15 @@
 ---
 title: Use Copilot to kickstart email messages
-description: Learn how to use Copilot to kickstart email messages.
-ms.date: 08/28/2023
+description: Generate an email reply with pre-defined categories or custom text using Sales Copilot's AI to save time and effort.
+ms.date: 11/13/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/08/2023
 ---
 
 # Use Copilot to kickstart email messages
@@ -28,8 +32,8 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 | 4 | Change the opportunity used in suggested content. More information: [Enhance suggested content with another opportunity](#enhance-suggested-content-with-another-opportunity) |
 | 5 | Add the suggested content to email. |
 | 6 | Copy the suggested content and paste it in email or Teams chat. |
-| 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li></ul> |
-| 8 | **Adjust draft** menu to:<ul><li>Select tone of the suggested content. More information: [Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>Enter text to refine the suggested content. More information: [Refine suggested content](#refine-suggested-content)</li></ul> |
+| 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li><li>Start over and generate a new suggested content.</li></ul> |
+| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestion)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
 
 ## Supported languages
 
@@ -197,6 +201,29 @@ After you've generated the suggested content, you can refine the results furthe
 
 1. Edit the email content as required, and then send it.
 
+## Set length of suggested content
+
+You can set the length of the suggested content to be short, medium, or long. The default length is medium. 
+
+1. Generate the suggested reply using an appropriate response category.
+
+1. Select **Adjust draft**.
+
+1. Under **Length**, select the content length you want to use and then select **Update**.
+
+1. Review the suggested content.
+
+    To generate a different suggestion, select **More options**, and then select **Try again**.
+
+    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+
+   > [!NOTE]
+   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+
+1. Edit the email content as required, and then send it.
+
 ## Adjust tone of the suggested content
 
 After you've generated the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
@@ -205,7 +232,7 @@ After you've generated the suggested content, you can adjust the tone of the con
 
 1. Select **Adjust draft**.
 
-1. Select the tone you want to use and then select **Update**.
+1. Under **Adjust tone**, select the tone you want to use and then select **Update**.
 
 1. Review the suggested content.
 
@@ -213,7 +240,7 @@ After you've generated the suggested content, you can adjust the tone of the con
 
     [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
 
-1. Select **Add to email** to paste the content in the email body or **Copy** **content** when you are reading an email.
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
 
    > [!NOTE]
    > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
@@ -265,6 +292,35 @@ If you want to have a meeting with a customer, you can include a meeting time in
    :::image type="content" source="media/remove-suggestion.png" alt-text="Screenshot showing where to remove a meeting time suggestion.":::
 
 1. Select **Update**.
+
+## Set language of suggested content
+
+The language of the suggested content is determined as follows:
+- If you're replying to an email, the language of the suggested content is the same as the language of the email. 
+- If you're composing a new email and using custom text to generate the suggested content, the language of the suggested content is the same as the language of the custom text. 
+
+In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
+
+You can set the language of the suggested content to be one of the supported languages. The default language is set to English.
+
+1. Generate the suggested reply using an appropriate response category.
+
+1. Select **Adjust draft**.
+
+1. Under **Draft language**, select the language you want to use and then select **Update**.
+
+1. Review the suggested content.
+
+    To generate a different suggestion, select **More options**, and then select **Try again**.
+
+    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+
+   > [!NOTE]
+   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+
+1. Edit the email content as required, and then send it.
 
 ## Create a sales meeting summary email (preview)
 
