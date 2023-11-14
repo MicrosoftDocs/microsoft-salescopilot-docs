@@ -151,6 +151,22 @@
   - name: Access linked teams and channels
     href: access-linked-teams-channels.md
 
+- name: Extend Sales Copilot (preview)
+  items:
+  - name: Overview
+    href: extend-sales-copilot.md
+  - name: Sales Copilot APIs
+    items:
+    - name: Overview
+      href: api-ref-partner-apps.md
+    - name: GetRelatedActivities
+      href: api-get-related-activities.md
+    - name: GetRelatedRecords
+      href: api-get-related-records.md
+    - name: Standardize error responses
+      href: api-error-responses.md
+    - name: Sample OpenAPI definition
+      href: api-sample-def.md
 
 - name: Troubleshooting guide
   items:
