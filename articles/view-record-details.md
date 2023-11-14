@@ -71,3 +71,42 @@ The following insights are displayed:
     To see all connections or more metrics, you must open People.ai.
 
 - **Predicted buying power**: This insight is displayed only for a contact. It shows the likely range of buying power of the contact. The buying power is calculated based on the number of deals that the contact has closed in the past 90 days. The closed deals are compared with similar won opportunities involving stakeholders who are similar to the contact in terms of their title, department, and industry. When you drill down, you can see detailed information.
+
+## View related records from partner applications (preview)
+
+[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
+
+You can view records that are related to CRM records from partner applications within Sales Copilot. To view related records from partner applications, you must:
+
+1. Get the feature enabled, as it is not enabled by default.
+2. Create a connection using Power Apps connectors.
+3. View related records from partner applications.
+
+### Get the feature enabled
+
+This feature is not enabled by default. To enable this feature, ask your administrator to [sign up for the preview feature](https://aka.ms/SalesCopilotExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization.
+
+### Create a connection
+
+After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+
+> [!NOTE]
+> - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
+> - If you are a partner application maker and would like to integrate with Sales Copilot, see Extend Sales Copilot. Currently, DocuSign can be integrated with Sales Copilot. 
+
+### View related records
+
+Related records from partner applications are displayed in a new card under record details. For example, in the following image, the contract documents related to a CRM opportunity are displayed from the partner application **DocuSign**.
+
+:::image type="content" source="media/record-details-partner-apps.png" alt-text="Sceenshot showing related records from DocuSign":::
+
+> [!NOTE]
+> Currently, related records from partner applications are shown only for opportunities and accounts.
+
+All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+
+You can perform the following actions on the related records:
+- To see record details, select the record. 
+- To copy link to a record or open it in the partner application, hover over the record, select **More actions** (**…**), and then select **Copy link** or **Open in (partner app)** respectively.

@@ -151,6 +151,22 @@
   - name: Access linked teams and channels
     href: access-linked-teams-channels.md
 
+- name: Extend Sales Copilot (preview)
+  items:
+  - name: Overview
+    href: extend-sales-copilot.md
+  - name: Sales Copilot APIs
+    items:
+    - name: Overview
+      href: api-ref-partner-apps.md
+    - name: GetRelatedActivities
+      href: api-get-related-activities.md
+    - name: GetRelatedRecords
+      href: api-get-related-records.md
+    - name: Standardize error responses
+      href: api-error-responses.md
+    - name: Sample OpenAPI definition
+      href: api-sample-def.md
 
 - name: Troubleshooting guide
   items:
@@ -200,6 +216,8 @@
     href: tsg-sign-in-error.md
   - name: No default BAP location found
     href: tsg-no-default-bap-loc.md
+  - name: Connection lost due to expired session or bad OAuth token
+    href: tsg-connection-lost.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
