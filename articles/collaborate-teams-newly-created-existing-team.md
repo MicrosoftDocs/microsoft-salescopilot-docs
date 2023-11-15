@@ -1,99 +1,109 @@
 ---
-title: Collaborate in Teams using the newly created or existing team
-description: Learn how to collaborate in Teams using the newly created or existing team.
+title: Collaborate in account and deal room teams
+description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
 ms.date: 09/05/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
-ms.author: shjais 
+ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/14/2023
+  - bap-template
 ---
 
-# Collaborate in Teams using the newly created or existing team
+# Collaborate in account and deal room teams
 
-After you've created a collaboration space to work on account or opportunity activities, you can access it by using any of the following options:
+You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in a variety of ways.
 
-- In the Sales Copilot pane in Outlook, go to the **Collaborate in Teams** card in the **Highlights** tab, and then select the team.
+- In Outlook, open Sales Copilot and select the **Highlights** tab. Select the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-- Open Microsoft Teams and then select the newly created team or the existing team.
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Sales Copilot for Outlook, with the deal room channel highlighted.":::
 
-- In the Sales app, open an account or opportunity, and then select **Collaborate** on the command bar at the top. Select the team linked to the account or opportunity. More information: [Access linked teams and channels](access-linked-teams-channels.md)
+- In Teams, select the account team or deal room channel.
 
-The team consists of two channels to:
+- In Dynamics 365 Sales, open an account or opportunity. Select **Collaborate**, and then select the team that's linked to the account or opportunity. [Learn how to access linked teams and channels](access-linked-teams-channels.md).
 
-- **Collaborate with colleagues**: This is the standard channel used to collaborate with people within your organization.
+## Anatomy of a collaboration space
 
-    If you've set up a new team using account team template, the General channel is linked to the CRM account.
+A team that was created using the account team template or the deal room template includes the following channels. It always has a **General** channel. Other channels depend on how the team was created and whether more channels were created later.
 
-    If you've set up a new team using deal room template, a new channel is created and linked to the CRM opportunity.
+- The channel named **General** is where you can work with members of the sales team or other colleagues on account-related activities. If the team was created using the account team template, the **General** channel is linked to the account in your CRM.
 
-    If you've set up a collaboration space using an existing team, a new channel is created. By default, the name of the new channel is the account's or opportunity's name. The CRM account or CRM opportunity is linked to the newly created channel.
+- A channel named for an opportunity, like **Coffee Machine**, is where you can work with the sales team or other colleagues on activities that are related to a specific opportunity. If the team was created using the deal room template, the channel is linked to the opportunity in your CRM.
 
-    This channel has the following pre-pinned apps:
+- Shared channels, named **Customer - *AccountName*** or **Customer - *OpportunityName***, are where you can work with people outside your organization, like customers, on account and opportunity activities.
 
-    - **Files**: Three starter folders for document organization and one CRM folder (CRM related files) with the link to the CRM storage location associated with your account or opportunity if it has been configured by your administrator.
+  Before you can add customers to shared channels using their federated identity, your tenant administrator needs to have turned on shared channels in Teams. [Learn more about collaborating with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true).
 
-    - **CRM**: It displays the linked CRM account or opportunity. You can view and update CRM information from this tab.
+Internal channels like **General** and **Coffee Machine** have the following apps pinned as tabs:
 
-        > [!NOTE]
-        > If you are using Salesforce CRM, you must use Teams desktop app to see the CRM entity details. CRM tab does not load in Teams web client.
+- **Files** comes with three starter folders for organizing documents that are related to the account or the opportunity, and one CRM folder for organizing CRM-related files. Your administrator might have linked the CRM folder to the CRM storage location that's associated with the account or opportunity.
 
-    - **CRM OneNote**: OneNote app can be used for sharing notes among all the team members in this channel. Customers who are in shared channel can't access this OneNote.
+- **CRM** displays the linked CRM account or opportunity record. You can view and update the CRM information in this tab.
 
-- **Collaborate with customers**: This is the shared channel used to collaborate with people outside your organization. The name of the shared channel is the account name prefixed with "Customer".
+  > [!NOTE]
+  > If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
 
-    To add customers to shared channels using their federated identity, ensure that your tenant administrator has enabled shared channels in Teams. More information: [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true)
+- **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the channel.
 
-    Shared channel has the following pre-pinned apps:
+Shared channels like **Customer - Fourth Coffee** or **Customer - Coffee Machine** have the following apps pinned as tabs:
 
-    - **Files**: Three starter folders for document organization.
+- **Files** comes with three starter folders for organizing documents that are related to the account or the opportunity.
 
-    - **OneNote**: This OneNote is different from the one created in the internal collaboration channel.   Sellers can use it for sharing notes with their customers. Team members who aren't part of the shared channel can't access this OneNote.
+- **OneNote** is a OneNote notebook you can use to share notes with your customers. This notebook is different from the one that's created in the internal collaboration channels. Team members who aren't part of the shared channel can't access this notebook.
 
-        > [!NOTE]
-        >
-        > - The CRM related files folder will not be created in the Files tab of the Shared channel to protect sensitive data.
-        >
-        > - CRM account will not be pinned in the Shared channel to protect sensitive organization data from being shared with customers.
+The following screenshot shows an example of an account team for the Fourth Coffee account:
 
-:::image type="content" source="media/anatomy-account-team.png" alt-text="Screenshot showing anatomy of account team.":::
+:::image type="content" source="media/anatomy-account-team.png" alt-text="Screenshot of an account team in Microsoft Teams.":::
 
-:::image type="content" source="media/anatomy-deal-room-team.png" alt-text="Screenshot showing anatomy of deal room team.":::
+The following screenshot shows an example of a deal room team for the Fourth Coffee account:
+
+:::image type="content" source="media/anatomy-deal-room-team.png" alt-text="Screenshot of a deal room team in Microsoft Teams.":::
+<!-- EDITOR'S NOTE: Please change the callout format and the style of the legend IAW our new screenshot guidelines, https://review.learn.microsoft.com/en-us/bacx/screenshots-for-bap?branch=main. -->
 
 | Annotation | Description |
 |------------|-------------|
-| 1          | New account team created with two default channels.    |
-| 2          | General channel to collaborate on account related activities with people within your organization. It's linked to the CRM account. |
-| 3          | Shared account team channel to collaborate with people outside your organization.  |
-| 4          | Pre-pinned apps  |
-| 5          | New deal room channel created in the existing account team. It's linked to the CRM opportunity and is used to collaborate with people within your organization. |
-| 6          | Shared deal room channel to collaborate with people outside your organization. |
+| 1          | New account team created with two default channels    |
+| 2          | General channel to collaborate on account-related activities with people in your organization; linked to the CRM account |
+| 3          | Shared account team channel to collaborate with people outside your organization  |
+| 4          | Prepinned apps  |
+| 5          | New deal room channel created in an existing account team, used to collaborate with people in your organization; linked to the CRM opportunity |
+| 6          | Shared deal room channel to collaborate with people outside your organization |
 
-## View AI-generated opportunity summary in deal room
+## View an AI-generated opportunity summary in the deal room channel
 
-When you open the team created using the deal room template in Teams for the first time, you will see the AI-generated [opportunity summary](view-opportunity-summary.md) in the standard channel as part of the welcome post. 
+The first time you open a team that was created using the deal room template, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
-:::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot showing AI-generated opportunity summary in deal room.":::
+:::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot of an AI-generated opportunity summary in a deal room channel in Teams.":::
 
-If you want to view the opportunity summary again at a later point in time, you can generate it using either of the following methods:
-- Enter `@Sales Copilot show summary` in the message box and press **Enter**.
-- Enter `@Sales Copilot help` in the message box, press **Enter**, and then select **Generate Opportunity Summary** from the list of options.
+To view the opportunity summary again later, use either of the following methods:
 
-> [!NOTE]
-> - The AI-generated opportunity summary is displayed only when your administrator has enabled copilot AI features. If your administrator has disabled copilot AI features, the opportunity summary is displayed in the form of field-value pairs. The fields in the summary are displayed as configured by your administrator.
-> :::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot showing opportunity summary in deal room when copilot AI features are disabled.":::
-> - If your administrator has blocked the Sales Copilot app in Teams, the opportunity summary is not generated.
+- Enter `@Sales Copilot show summary` in the message box.
+- Enter `@Sales Copilot help` in the message box, and then select **Generate Opportunity Summary** from the list of options.
 
-### Data used to generate the opportunity summary  
+The summary uses the following columns in the opportunity record in your CRM:
 
-A brief summary of the opportunity is generated using the following CRM fields from the opportunity record:
 - Opportunity name
 - Opportunity ID
-- Created On
+- Created on
 - Estimated close date
 - Sales stage
 - Budget amount
 - Description
-- Parent Account name
+- Parent account name
 - Primary contact name
 
-Content under the **Latest activity** section is generated from the summary of the last three notes added to the opportunity record.
+The **Latest activity** content is generated from the last three notes in the opportunity record.
+
+The AI-generated opportunity summary is available only when your administrator has turned on copilot AI features. <!-- EDITOR'S NOTE: Copilot AI features where? In the Sales Copilot Teams app? --> If your administrator hasn't turned on those features, the opportunity summary is displayed in the form of field-value pairs. The fields that are included in the summary depend on what your administrator has set.
+
+:::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot of an opportunity summary in a deal room channel when copilot AI features are turned off.":::
+
+If your administrator has turned off the Sales Copilot app in Teams, the opportunity summary isn't available at all.
+
+### See also
+
+- [Set up a team using the account team template](set-up-team-account-team-template.md)
+- [Set up a team using the deal room template](set-up-team-deal-room-template.md)

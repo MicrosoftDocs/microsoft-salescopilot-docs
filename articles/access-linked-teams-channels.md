@@ -1,61 +1,45 @@
 ---
-title: Access linked teams and channels
-description: Learn how to access linked teams and channels.
+title: Access linked teams and channels in Outlook and Sales
+description: Learn how to access linked collaboration spaces in Microsoft Teams from Outlook and Dynamics 365 Sales.
 ms.date: 08/23/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
-ms.author: shjais 
+ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/15/2023
 ---
 
-# Access linked teams and channels
+# Access linked teams and channels in Outlook and Sales
 
-Collaboration space offers a comprehensive solution by seamlessly streamlining and creating purpose-built teams and channels, while also ensuring convenient access within the context of the seller's workflow. This streamlined access is facilitated through the Sales Copilot add-in in Outlook as well as the Sales app, enabling users to effortlessly connect with linked teams and channels.
+[Collaboration spaces](./collaboration-space.md) in Microsoft Teams offer purpose-built places to work with your colleagues and customers on account and opportunity activities&mdash;but what if Teams isn't part of your normal workflow? If you prefer to work in Outlook or Dynamics 365 Sales, you can still get convenient access to teams and channels that you linked to your CRM using a sales template or [enhanced collaboration in the Sales app](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience).
 
-## From Outlook
+## Access linked teams and channels from Outlook
 
-Teams and channels you linked using sales templates in Outlook or [enhanced collaboration in the Sales app](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) can be accessed from Outlook.
+1. In Outlook, open Sales Copilot and select the **Highlights** tab, and then select the **Collaborate in Teams** card.
 
-1. Open Sales Copilot and navigate to the **Collaborate in Teams** card in the **Highlights** tab.
+    The card shows the teams and channels that were linked from the Sales app (indicated by the Dynamics 365 Sales icon) or created in Outlook using the Sales Copilot add-in.
 
-    Team and channels linked from Sales app or created through Sales Copilot add-in in Outlook are displayed.
-
-    Teams or channels linked from the Sales app are indicated with the Dynamics 365 Sales icon.
-
-    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot showing linked team shown in Viva Sales.":::
+    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot of linked teams in Sales Copilot in Outlook.":::
 
 1. Select a team or channel to open it in Microsoft Teams.
 
-## From the Sales app (Dynamics 365 users only)
+## Access linked teams and channels from Dynamics 365 Sales
 
-Teams and channels you created using the Sales Copilot add-in in Outlook can also be accessed from the Sales app.
+The Sales app offers two ways to get to your collaboration spaces.
 
-> [!NOTE]
-> You cannot set up a collaboration space by applying sales templates from the Sales app.
+In Dynamics 365 Sales, start by opening the account or opportunity.
 
-### Using the Collaborate button
+- Select **Collaborate**, select a team or channel, and then select **Open in Teams**.
 
-1. Open the account or opportunity, and then select **Collaborate** on the command bar at the top.
+    The **Collaborate in Microsoft Teams** pane shows the teams and channels that were created in Outlook using the Sales Copilot add-in (indicated by the Sales Copilot icon) or linked from the Sales app.
 
-    Team and channels linked from Sales app or created through Sales Copilot add-in in Outlook are displayed.
+    :::image type="content" source="media/linked-team-sales-app.png" alt-text="Screenshot of linked teams in Dynamics 365 Sales.":::
 
-    Teams or channels created through Sales Copilot are indicated with the Sales Copilot icon.
+- Select the **Teams chats and channels integration** :::image type="icon" source="media/chat-icon.png" border="false" alt-text="Teams integration icon."::: icon in the upper-right corner. In the **Teams chat** pane, select the **Channels** tab, and then select a channel to open it in Microsoft Teams.
 
-    :::image type="content" source="media/linked-team-sales-app.png" alt-text="Screenshot showing linked team shown in Sales app.":::
+    The **Teams chats** pane shows the teams and channels that were created in Outlook using the Sales Copilot add-in (indicated by the Sales Copilot icon) or linked from the Sales app.
 
-1. Select a team or channel and then select **Open in Teams**.
-
-### Using Teams embedded channels
-
-1. Open the account or opportunity, and then select the **Teams chats and channels integration** :::image type="icon" source="media/chat-icon.png" border="false"::: icon at the upper-right of the page.
-
-1. In the **Teams chat** pane, go to the **Channels** tab.
-
-    Team and channels linked from Sales app or created through Sales Copilot add-in in Outlook are displayed.
-
-    Teams or channels created through Sales Copilot are indicated with the Sales Copilot icon.
-
-    :::image type="content" source="media/linked-channel-sales-app.png" alt-text="Screenshot showing linked channel shown in Sales app.":::
-
-1. Select a channel to open it in Microsoft Teams.
-
+    :::image type="content" source="media/linked-channel-sales-app.png" alt-text="Screenshot of linked channels in Dynamics 365 Sales.":::

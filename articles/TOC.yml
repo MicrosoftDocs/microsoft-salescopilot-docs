@@ -142,11 +142,11 @@
   items:
   - name: Overview
     href: collaboration-space.md
-  - name: Set up a team using account team template
+  - name: Set up a team using the account team template
     href: set-up-team-account-team-template.md
-  - name: Set up a team using deal room template
+  - name: Set up a team using the deal room template
     href: set-up-team-deal-room-template.md
-  - name: Collaborate in Teams using the newly created or existing team
+  - name: Collaborate in account and deal room teams
     href: collaborate-teams-newly-created-existing-team.md
   - name: Access linked teams and channels
     href: access-linked-teams-channels.md
