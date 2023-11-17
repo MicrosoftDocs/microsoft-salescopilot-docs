@@ -137,6 +137,8 @@
     href: view-save-email-summary-crm.md
   - name: View opportunity summary
     href: view-opportunity-summary.md
+  - name: View real-time sales tips
+    href: real-time-tips.md
 
 - name: Collaboration space in Sales Copilot
   items:
@@ -237,3 +239,5 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+  - name: FAQ for real-time tips
+    href: faqs-real-time-tips.md
