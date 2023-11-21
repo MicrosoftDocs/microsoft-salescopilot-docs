@@ -218,6 +218,8 @@
     href: tsg-no-default-bap-loc.md
   - name: Connection lost due to expired session or bad OAuth token
     href: tsg-connection-lost.md
+  - name: Opportunity summary not displayed in deal rooms
+    href: tsg-oppty-summary.md
 
 - name: Sales Copilot FAQ
   href: sales-copilot-faq.md
