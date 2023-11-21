@@ -19,7 +19,7 @@ This article helps you troubleshoot and resolve mailbox errors in Dynamics 365.
 
 | Requirement type |Description  |
 |---------|---------|
-|**Client app**     |  Viva Sales Outlook add-in        |
+|**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
