@@ -1,7 +1,7 @@
 ---
 title: GetRelatedRecords (preview)
 description: Get related records from partner application to be shown in Sales Copilot when a seller views details of a CRM record.
-ms.date: 11/13/2023
+ms.date: 11/21/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -61,6 +61,45 @@ The API is expected to return related records in the following format:
 |recordTitle|String|Yes|Name of the record. For example, Contoso 2023 Renewal Contract.|
 |url|String|No|A valid URL to open record in the partner application.|
 |additionalProperties|Object with Property Name and Property Value|No|Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br>“Status reason”: “Signed off”,<br>“Owner”: “Kenny Smith”<br>}|
+
+### Example
+
+```json
+{
+        "value": [
+             {
+                "recordId": "452bafd1-2342-42ab-8eff-a586dbd0d90b",
+                "recordTypeDisplayName": "Agreement",
+                "recordTypePluralDisplayName": "Agreements",
+                "recordType": "Agreement",
+                "recordTitle": "Automatic Renewal Contract",
+                "url": https://app.docusign.com/documents/details/452bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "additionalProperties": {
+                    "Recipients": "Logan Edwards",
+                    "Sender Name": "Kenny Smith",
+                    "Status": "Sent",
+                    "Date": "12:50 PM, 11/11/23"
+                }
+            },
+            {
+                "recordId": "512bafd1-2342-42ab-8eff-a586dbd0d90b",
+                "recordTypeDisplayName": "Agreement",
+                "recordTypePluralDisplayName": "Agreements",
+                "recordType": "Agreement",
+                "recordTitle": "Purchase Contract",
+                "url": https://app.docusign.com/documents/details/512bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "additionalProperties": {
+                    "Recipients": "Logan Edwards",
+                    "Sender Name": "Kenny Smith",
+                    "Status": "Completed",
+                    "Date": "12:56 PM, 11/11/23"
+                }
+            }
+        ],
+        "hasMoreResults": false
+    }
+
+```
 
 ### See also
 
