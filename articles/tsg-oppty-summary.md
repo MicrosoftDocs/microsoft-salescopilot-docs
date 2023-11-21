@@ -30,7 +30,7 @@ This article helps you troubleshoot and resolve issues when the opportunity summ
 
 ## Symptom
 
-When you create a deal room from Sales Copilot in Outlook, and then open it in the Sales Copilot app in Microsoft Teams, the opportunity summary is not displayed in the deal room. The following message is displayed instead: To `unlock AI-powered opportunity summaries, install the Sales Copilot Teams app.`
+When you create a deal room from Sales Copilot in Outlook, and then open it in the Sales Copilot app in Microsoft Teams, the opportunity summary is not displayed in the deal room. The following message is displayed instead: `To unlock AI-powered opportunity summaries, install the Sales Copilot Teams app.`
 
 :::image type="content" source="media/tsg-oppty-summary-error.png" alt-text="Screenshot showing a message instead of opportunity summary.":::
 
