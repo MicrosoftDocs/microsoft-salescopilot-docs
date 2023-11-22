@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
 description: Generate an email reply with pre-defined categories or custom text using Sales Copilot's AI to save time and effort.
-ms.date: 11/13/2023
+ms.date: 11/22/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -121,6 +121,47 @@ Here are some best practices for writing custom text:
 - **Avoid using personal pronouns**: Don't include personal pronouns (for example, "I," "me," "my") in your prompts.
 
 - **Keep it appropriate**: The AI uses a general-purpose language model and can generate responses to a wide variety of prompts. It's always a good idea to keep your prompts appropriate for a general audience.
+
+## Save and reuse custom prompts
+
+When you create an email message using custom text, you can save the text as a prompt for future use. This helps you save time and effort when you need to send similar messages to multiple recipients. You can save up to three prompts and reuse them as and when required.
+
+### Save a custom prompt
+
+1.  Generate suggested content using custom text.
+
+2.  At the top of the suggested content, hover over the prompt, and then select :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
+
+    :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
+
+    The prompt is saved and displayed under the **Favorites** section when you create a new email message using custom text.
+
+    :::image type="content" source="media/saved-prompt.png" alt-text="Screenshot showing a saved prompt.":::
+
+### Use a saved prompt
+
+1.  Open Sales Copilot.
+
+2.  On the **Highlights** tab, select **Describe the email you want**.
+
+3.  Under the **Favorites** section, select the prompt you want to use.
+
+    :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
+
+### Remove a saved prompt
+
+You can save a maximum of three prompts. If you want to save a new prompt, you must remove an existing prompt.
+
+1.  Open Sales Copilot.
+
+2.  On the **Highlights** tab, select **Describe the email you want**.
+
+3.  Under the **Favorites** section, select :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
+
+    Alternately, you can generate suggested content using the saved prompt, and then select :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
+
+    :::image type="content" source="media/remove-prompt.png" alt-text="Screenshot showing icon to remove a saved prompt":::
+
 
 ## Enhance suggested content with another opportunity
 
