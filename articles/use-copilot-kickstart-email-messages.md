@@ -1,6 +1,6 @@
 ---
 title: Use Copilot to kickstart email messages
-description: Generate an email reply with pre-defined categories or custom text using Sales Copilot's AI to save time and effort.
+description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
 ms.date: 11/22/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -37,7 +37,7 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 
 ## Supported languages
 
-AI in Sales Copilot is supported in the following languages: English, Spanish, German, and French. The email and custom text must be in one of the supported languages to generate the suggested content.
+AI in Sales Copilot is supported in the following languages: English, Spanish, German, and French. The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
 ## Create an email reply using pre-defined categories
 
@@ -68,17 +68,17 @@ You can get suggested responses when you reply to a customer email or as you're 
 
 1. Edit the email content as required, and then send it.
 
-## Create an email message using custom text
+## Create an email message using custom prompt
 
-If the pre-defined response categories don't suit your requirements, you can enter custom text to generate suggested content.
+If the pre-defined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
 
 You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
 > [!NOTE]
 >
-> - Information from CRM is not displayed when using custom text to generated suggested email content.
+> - Information from CRM is not displayed when using custom prompt to generated suggested email content.
 >
-> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom text. If you add an external email address, pre-defined response categories are made available.
+> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, pre-defined response categories are made available.
 
 1. In Outlook:
 
@@ -91,7 +91,7 @@ You can get suggested email content when you reply to a customer email, read an 
    :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the Pre-defined response categories.":::
 
    > [!NOTE]
-   > Pre-defined response categories are not available while composing a new email. You can only enter custom text or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email-preview).
+   > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email-preview).
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send, and then press **Enter**.
 
@@ -110,7 +110,7 @@ You can get suggested email content when you reply to a customer email, read an 
 
 ### Custom prompt best practices
 
-Here are some best practices for writing custom text:
+Here are some best practices for writing custom prompt:
 
 - **Keep it concise**: Although the AI engine can handle longer prompts, shorter prompts are simpler to use and can help you get targeted replies.
 
@@ -124,17 +124,17 @@ Here are some best practices for writing custom text:
 
 ## Save and reuse custom prompts
 
-When you create an email message using custom text, you can save the text as a prompt for future use. This helps you save time and effort when you need to send similar messages to multiple recipients. You can save up to three prompts and reuse them as and when required.
+When you create an email message using custom prompt, you can save the prompt for future use. This helps you save time and effort when you need to send similar messages to multiple recipients. You can save up to three prompts and reuse them as and when required.
 
 ### Save a custom prompt
 
-1.  Generate suggested content using custom text.
+1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-text).
 
-2.  At the top of the suggested content, hover over the prompt, and then select :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
+2.  At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
 
     :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
 
-    The prompt is saved and displayed under the **Favorites** section when you create a new email message using custom text.
+    The prompt is saved and displayed under the **Favorites** section when you create a new email message using custom prompt.
 
     :::image type="content" source="media/saved-prompt.png" alt-text="Screenshot showing a saved prompt.":::
 
@@ -150,15 +150,15 @@ When you create an email message using custom text, you can save the text as a p
 
 ### Remove a saved prompt
 
-You can save a maximum of three prompts. If you want to save a new prompt, you must remove an existing prompt.
+You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
 1.  Open Sales Copilot.
 
 2.  On the **Highlights** tab, select **Describe the email you want**.
 
-3.  Under the **Favorites** section, select :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
+3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 
-    Alternately, you can generate suggested content using the saved prompt, and then select :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
+    Alternately, you can generate suggested content using the saved prompt, and then select the star icon :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
 
     :::image type="content" source="media/remove-prompt.png" alt-text="Screenshot showing icon to remove a saved prompt":::
 
@@ -338,7 +338,7 @@ If you want to have a meeting with a customer, you can include a meeting time in
 
 The language of the suggested content is determined as follows:
 - If you're replying to an email, the language of the suggested content is the same as the language of the email. 
-- If you're composing a new email and using custom text to generate the suggested content, the language of the suggested content is the same as the language of the custom text. 
+- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt. 
 
 In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
 
@@ -443,7 +443,7 @@ If you have any feedback about the suggested content, you can share it by select
 
 ## Text moderation
 
-Text moderation uses machine-assisted classification to help detect potentially inappropriate   content  and reject it when you use custom text to generated suggested content or refine the already generated suggested content. It conveys the likelihood of each category. The feature uses a trained model to identify possible abusive, derogatory, or discriminatory language. This includes slang, abbreviated words, offensive, and intentionally misspelled words.
+Text moderation uses machine-assisted classification to help detect potentially inappropriate   content  and reject it when you use custom prompt to generated suggested content or refine the already generated suggested content. It conveys the likelihood of each category. The feature uses a trained model to identify possible abusive, derogatory, or discriminatory language. This includes slang, abbreviated words, offensive, and intentionally misspelled words.
 
 If you enter text that contains undesired or inappropriate content (potential presence of language that may be considered sexually explicit, suggestive, adult, or offensive), the suggested content is not generated, and an error message is displayed.
 
@@ -461,6 +461,6 @@ When you open the Sales Copilot pane while you're reading or replying to an ema
 
 - CRM data connected through Sales Copilot
 
-- The response category you selected or custom text you entered
+- The response category you selected or custom prompt you entered
 
 If the email contact doesn't match a contact in the CRM, no CRM data is sent to the AI engine.
