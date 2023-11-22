@@ -128,7 +128,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 ### Save a custom prompt
 
-1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-text).
+1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
 
 2.  At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
 
