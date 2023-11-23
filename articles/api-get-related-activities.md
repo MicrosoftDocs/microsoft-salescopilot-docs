@@ -1,7 +1,7 @@
 ---
 title: GetRelatedActivities API (preview)
 description: Get the latest activities from partner application to be shown in the opportunity summary.
-ms.date: 11/21/2023
+ms.date: 11/23/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -96,6 +96,8 @@ The API is expected to return activities in the following format:
     }
 
 ```
+
+To see an example of how the above response is displayed in the Sales Copilot pane, see [Show latest activities from your application in opportunity summary](extend-sales-copilot.md#show-latest-activities-from-your-application-in-opportunity-summary).
 
 ### See also
 
