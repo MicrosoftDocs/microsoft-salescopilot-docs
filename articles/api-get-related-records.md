@@ -68,12 +68,12 @@ The API is expected to return related records in the following format:
 {
         "value": [
              {
-                "recordId": "452bafd1-2342-42ab-8eff-a586dbd0d90b",
+                "recordId": "000baf00-2342-42ab-8eff-00000000000",
                 "recordTypeDisplayName": "Agreement",
                 "recordTypePluralDisplayName": "Agreements",
                 "recordType": "Agreement",
                 "recordTitle": "Automatic Renewal Contract",
-                "url": https://app.docusign.com/documents/details/452bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "url": https://app.docusign.com/documents/details/000baf00-2342-42ab-8eff-00000000000,
                 "additionalProperties": {
                     "Recipients": "Logan Edwards",
                     "Sender Name": "Kenny Smith",
@@ -82,12 +82,12 @@ The API is expected to return related records in the following format:
                 }
             },
             {
-                "recordId": "512bafd1-2342-42ab-8eff-a586dbd0d90b",
+                "recordId": "000baf11-2342-42ab-8eff-00000000000",
                 "recordTypeDisplayName": "Agreement",
                 "recordTypePluralDisplayName": "Agreements",
                 "recordType": "Agreement",
                 "recordTitle": "Purchase Contract",
-                "url": https://app.docusign.com/documents/details/512bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "url": https://app.docusign.com/documents/details/000baf11-2342-42ab-8eff-00000000000,
                 "additionalProperties": {
                     "Recipients": "Logan Edwards",
                     "Sender Name": "Kenny Smith",

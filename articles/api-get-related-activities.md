@@ -71,7 +71,7 @@ The API is expected to return activities in the following format:
                 "title": "Auto Renewal Contract",
                 "description": "Kenny Smith sent AutomaticRenewalcontract.docx on 11/11/2023 12:50:53 PM",
                 "dateTime": "12:50 PM, 11/11/23",
-                "url": https://app.docusign.com/documents/details/452bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "url": https://app.docusign.com/documents/details/000baf00-2342-42ab-8eff-00000000000,
                 "additionalProperties": {
                     "Recipients": "Logan Edwards",
                     "Sender Name": "Kenny Smith",
@@ -83,7 +83,7 @@ The API is expected to return activities in the following format:
                 "title": "Purchase Contract",
                 "description": "Logan Edwards completed PurchaseContract.docx on 11/11/2023 12:56:14 PM",
                 "dateTime": "12:56 PM, 11/11/23",
-                "url": https://app.docusign.com/documents/details/512bafd1-2342-42ab-8eff-a586dbd0d90b,
+                "url": https://app.docusign.com/documents/details/000baf11-2342-42ab-8eff-00000000000,
                 "additionalProperties": {
                     "Recipients": "Logan Edwards",
                     "Sender Name": "Kenny Smith",
