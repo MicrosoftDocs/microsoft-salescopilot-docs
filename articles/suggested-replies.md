@@ -1,7 +1,7 @@
 ---
 title: Set up Copilot AI features
 description: Help sellers write better emails and stay on top of their deals with AI-driven insights.
-ms.date: 10/30/2023
+ms.date: 11/27/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -71,6 +71,8 @@ As a CRM administrator, you can configure environment-specific settings for Sale
 
     > [!NOTE]
     > If copilot capabilities are turned off for your organization by a tenant administrator, you can't turn on copilot capabilities for your environment.
+
+3. To turn on real-time sales tips feature, select **Show tips about competitors and brands**.
 
 3. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.
 
