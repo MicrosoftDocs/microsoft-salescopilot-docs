@@ -1,7 +1,7 @@
 ---
 title: Extend Microsoft Sales Copilot with partner applications (preview)
 description: Extend Sales Copilot to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
-ms.date: 11/13/2023
+ms.date: 11/23/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -44,7 +44,7 @@ To extend Sales Copilot:
 
 Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
 
-The following image shows an example of how the output of the `GetRelatedActivities` API is mapped to the opportunity summary.
+The following image shows an example of how the [output of the GetRelatedActivities API](api-get-related-activities.md#example) is mapped to the opportunity summary.
 
 :::image type="content" source="media/extend-oppty-summ.png" alt-text="Screenshot showing anatomy of latest activities from a partner application.":::
 
@@ -67,7 +67,7 @@ Sales Copilot displays [related records](view-record-details.md) when a seller r
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-The following image shows an example of how the output of the `GetRelatedRecords` API is mapped to the related records.
+The following image shows an example of how the [output of the GetRelatedRecords API](api-get-related-records.md#example) is mapped to the related records.
 
 :::image type="content" source="media/extend-record-details.png" alt-text="Screenshot showing anatomy of related records from a partner application.":::
 
