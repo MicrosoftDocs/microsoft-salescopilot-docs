@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 10/12/2023
+ms.date: 11/27/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -36,6 +36,9 @@ You can also open a record in CRM to view its complete details. In record detail
 Alternately, you can also open a record in CRM from the **Dynamics 365** or **Salesforce** tab. Hover over a record, select **More actions** (**...**), and then select **Open in Dynamics 365** or **Open in Salesforce**.
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
+
+> [!NOTE]
+> If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 
 ## View People.ai insights (preview)
 
