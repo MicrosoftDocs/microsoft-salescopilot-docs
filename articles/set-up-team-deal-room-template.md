@@ -1,6 +1,6 @@
 ---
 title: Set up a team using deal room template 
-description: Learn how to set up a team using deal room template .
+description: Learn how to set up a team using deal room template.
 ms.date: 08/23/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -29,7 +29,7 @@ When working with a deal room template, you can [set up an existing team from Ou
 
 1. In the **Select a team** step, select the team you want to set up, and then select **Next**.
 
-    If the parent account for the opportunity is already linked in the Teams app, it is displayed as the recommended team to create a deal room channel.
+    If the parent account for the opportunity is already linked in the Teams app, it's displayed as the recommended team to create a deal room channel.
 
     If you want to create a deal room channel under a different team, you can pick from the list of other teams displayed.
 
@@ -37,13 +37,13 @@ When working with a deal room template, you can [set up an existing team from Ou
 
 1. In the **Set up your channels** step:
 
-    1. Update the channel name, if required, and select a privacy option.
+    1. Update the channel name, if necessary, and select a privacy option.
 
-    1. You can set up a shared channel for collaborating with customers. By default, **Include shared channel** is selected. Customers and your colleagues are not added to the shared channel. Owners of the team can add members to this channel from Microsoft Teams after it is created.
+    1. You can set up a shared channel for collaborating with customers. By default, **Include shared channel** is selected. Customers and your colleagues aren't added to the shared channel. Owners of the team can add members to this channel from Microsoft Teams after it's created.
 
-        Shared channels can only be created by the owners of the team. If you pick an existing team that you are a member of, the option to create a shared channel is disabled.
+        Shared channels can only be created by the owners of the team. If you pick an existing team that you're a member of, the option to create a shared channel is disabled.
 
-        :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot showing set up channel for deal room.":::
+        :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot showing setting up channel for deal room.":::
 
 1. Select **Set up team**.
 
@@ -53,7 +53,7 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     For more information about working with the newly created channel, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-newly-created-existing-team.md).
 
-    Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
+    Once the team is completely set up with pre pinned apps and shared channel, it's shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
     :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot showing created existing deal room in Sales Copilot.":::
 
@@ -69,9 +69,9 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     :::image type="content" source="media/deal-room-type.png" alt-text="Screenshot of select deal room type.":::
 
-1. In the **Set up your team** step, update the team name, if required, and select the sensitivity and privacy of your team. Select **Next**.
+1. In the **Set up your team** step, update the team name, if necessary, and select the sensitivity and privacy of your team. Select **Next**.
 
-    By default, the team's name is set to the opportunity's name. Sensitivity options will show up if they have been set up by your tenant administrator. More information: [Sensitivity labels for Microsoft Teams](/microsoftteams/sensitivity-labels)
+    By default, the team's name is set to the opportunity's name. Sensitivity options are displayed if they have been set up by your tenant administrator. More information: [Sensitivity labels for Microsoft Teams](/microsoftteams/sensitivity-labels)
 
     If sensitivity options are set up by your administrator, the privacy of the team (Private/Public) defaults to the tenant admin settings.
 
@@ -92,9 +92,9 @@ When working with a deal room template, you can [set up an existing team from Ou
 
 1. In the **Set up your channels** step:
 
-    1. Update the channel name, if required, and select a privacy option.
+    1. Update the channel name, if necessary, and select a privacy option.
 
-    1. You can set up a shared channel for collaborating with customers. By default, **Include shared channel** is selected. Customers and your colleagues are not added to the shared channel. Owners of the team can add members to this channel from Microsoft Teams after it is created.
+    1. You can set up a shared channel for collaborating with customers. By default, **Include shared channel** is selected. Customers and your colleagues aren't added to the shared channel. Owners of the team can add members to this channel from Microsoft Teams after it's created.
 
         :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of set up channel for deal room.":::
 
@@ -106,6 +106,6 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     For more information about working with the newly created team, see [Collaborate in Teams using the newly created or existing team](collaborate-teams-newly-created-existing-team.md).
 
-1. Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
+1. Once the team is completely set up with pre pinned apps and shared channel, it's shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
     :::image type="content" source="media/created-new-deal-room-viva-sales.png" alt-text="Screenshot showing created new deal room in Sales Copilot.":::
