@@ -55,7 +55,7 @@ When working with a deal room template, you can [set up an existing team from Ou
 
     Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
-    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot showing created existing deal room in Viva Sales.":::
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot showing created existing deal room in Sales Copilot.":::
 
 ## Create a new deal room team from Outlook
 
@@ -108,4 +108,4 @@ When working with a deal room template, you can [set up an existing team from Ou
 
 1. Once the team is completely set up with pre pinned apps and shared channel, it is shown in the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
-    :::image type="content" source="media/created-new-deal-room-viva-sales.png" alt-text="Screenshot showing created new deal room in Viva Sales.":::
+    :::image type="content" source="media/created-new-deal-room-viva-sales.png" alt-text="Screenshot showing created new deal room in Sales Copilot.":::

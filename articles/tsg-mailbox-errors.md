@@ -72,4 +72,4 @@ To resolve the error, you must locate the specific error as part of the mailbox 
 
 ## Is your issue still not resolved?
 
-Visit the [Viva Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
