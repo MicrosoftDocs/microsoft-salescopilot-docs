@@ -16,4 +16,4 @@ When you sign in and reconnect to the same CRM system and environment, your info
 
 In the **Sales** **Copilot** pane, select **Options** (**...**), and then select **Sign out.**
 
-:::image type="content" source="media/sign-out.png" alt-text="Screenshot showing sign out from Viva Sales.":::
+:::image type="content" source="media/sign-out.png" alt-text="Screenshot showing sign out from Sales Copilot.":::
