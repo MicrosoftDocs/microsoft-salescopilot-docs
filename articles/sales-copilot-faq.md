@@ -100,11 +100,11 @@ You can add the Sales Copilot app manually to a Teams meeting to test it interna
 
 - To add an app before a meeting, first send the meeting invite then open the meeting. Select **Add a tab **(**+**), search for Sales Copilot, and then select it.
 
-    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add Viva Sales app before meeting.":::
+    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add Sales Copilot app before meeting.":::
 
 - To add an app during a meeting, after the meeting starts select **Add an app** (**+**), search for Sales Copilot, and then select it.
 
-    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Viva Sales app during meeting.":::
+    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Sales Copilot app during meeting.":::
 
 ## What's the minimum version of Outlook required for Sales Copilot?
 
