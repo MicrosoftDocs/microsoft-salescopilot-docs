@@ -1,6 +1,6 @@
 ---
 title: Opportunity summary not displayed in deal rooms
-description: Troubleshoot and resolve issues when the opportunity summary is not displayed in deal rooms.
+description: Troubleshoot and resolve issues when the opportunity summary isn't displayed in deal rooms.
 ms.date: 11/29/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -15,7 +15,7 @@ ms.custom:
 
 # Opportunity summary not displayed in deal rooms
 
-This article helps you troubleshoot and resolve issues when the opportunity summary is not displayed in deal rooms.
+This article helps you troubleshoot and resolve issues when the opportunity summary isn't displayed in deal rooms.
 
 ## Who is affected?
 
@@ -25,22 +25,22 @@ This article helps you troubleshoot and resolve issues when the opportunity summ
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
-|**CRM**     | Dynamicss 365 and Salesforce      |
+|**CRM**     | Dynamics 365 and Salesforce      |
 |**Users**     | Users trying to update a CRM record from Sales Copilot |
 
 ## Symptom
 
-When you create a deal room from Sales Copilot in Outlook, and then open it in the Sales Copilot app in Microsoft Teams, the opportunity summary is not displayed in the deal room. The following message is displayed instead: `To unlock AI-powered opportunity summaries, install the Sales Copilot Teams app.`
+When you create a deal room from Sales Copilot in Outlook, and then open it in the Sales Copilot app in Microsoft Teams, the opportunity summary isn't displayed in the deal room. The following message is displayed instead: `To unlock AI-powered opportunity summaries, install the Sales Copilot Teams app.`
 
 :::image type="content" source="media/tsg-oppty-summary-error.png" alt-text="Screenshot showing a message instead of opportunity summary.":::
 
 ## Root cause and resolution
 
-### Issue 1: Sales Copilot Teams app is not installed
+### Issue 1: Sales Copilot Teams app isn't installed
 
 #### Root cause
 
-When you set up a deal room from Sales Copilot in Outlook, the Sales Copilot Teams app and bot are automatically installed for the selected team and opportunity summary is displayed in the deal room. If the Sales Copilot Teams app is not installed for the team, a message is displayed instead of the opportunity summary in the deal room.
+When you set up a deal room from Sales Copilot in Outlook, the Sales Copilot Teams app and bot are automatically installed for the selected team, and opportunity summary is displayed in the deal room. If the Sales Copilot Teams app isn't installed for the team, a message is displayed instead of the opportunity summary in the deal room.
 
 #### Resolution
 
