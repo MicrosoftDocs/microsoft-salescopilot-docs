@@ -56,11 +56,11 @@ Teams and Outlook both play a part in how you access the Sales Copilot administr
 
     **Tenant-level settings**:
 
-      - **Copilot**: [Controls who can use Sales Copilot AI capabilities in all environments](suggested-replies.md#tenant-administrator-settings).
+      - **Copilot**: [Controls who can use Sales Copilot AI capabilities in all environments](./suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
 
     **Environment-level settings**:
 
-      - **Copilot**: [Helps sellers write better emails and stay on top of their deals with AI-driven insights](suggested-replies.md#crm-administrator-settings).
+      - **Copilot**: [Helps sellers write better emails and stay on top of their deals with AI-driven insights](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment).
       - **Forms**: [Determines what information is displayed in Sales Copilot in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in Sales Copilot.
       - **Extensions**: [Integrates Sales Copilot with other applications](use-extensions.md) to enhance its functionality and provide more insights for your sellers.
 
