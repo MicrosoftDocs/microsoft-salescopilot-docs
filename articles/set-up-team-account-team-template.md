@@ -57,7 +57,7 @@ When working with an account team template, you can [create a new team from Outl
 
     Once the team is completely set up with pre pinned apps and shared channel, it can also be accessed from the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
-    :::image type="content" source="media/new-account-viva-sales.png" alt-text="Screenshot showing created new account team in Viva Sales.":::
+    :::image type="content" source="media/new-account-viva-sales.png" alt-text="Screenshot showing created new account team in Sales Copilot.":::
 
 ## Set up an existing account team from Outlook
 
@@ -96,4 +96,4 @@ When working with an account team template, you can [create a new team from Outl
 
     This team can also be accessed from the **Collaborate in Teams** card in the **Highlights** tab of Sales Copilot app. Select the team to open it in Microsoft Teams.
 
-    :::image type="content" source="media/existing-team.png" alt-text="Screenshot showing created existing account team in Viva Sales.":::
+    :::image type="content" source="media/existing-team.png" alt-text="Screenshot showing created existing account team in Sales Copilot.":::
