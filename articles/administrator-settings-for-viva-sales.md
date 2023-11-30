@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales Copilot
 description: Learn how to use administrator settings to customize the Microsoft Sales Copilot experience in Outlook and Teams.
-ms.date: 11/13/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -39,8 +39,7 @@ If you change a user's permissions or security roles in your CRM, ask the user t
 
 Teams and Outlook both play a part in how you access the Sales Copilot administrator settings and what you can change.
 
-- You can access the administrator settings only in the Sales Copilot app in Teams.
-- The settings apply to the CRM environment that you sign in to in Sales Copilot in Outlook. To customize Sales Copilot for a different environment, [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
+You can access the administrator settings only in the Sales Copilot app in Teams. The settings apply to the CRM environment that you sign in to in Sales Copilot in Outlook. To customize Sales Copilot for a different environment, [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
 
 1. [Sign in to Sales Copilot in Outlook](use-sales-copilot-outlook.md) with your administrator credentials.
 
@@ -48,7 +47,7 @@ Teams and Outlook both play a part in how you access the Sales Copilot administr
 
 1. Sign in to Teams with your administrator credentials.
 
-1. In the Teams navigation bar, select **Sales Copilot**. If **Sales Copilot** isn't visible, select **View more apps** (**&hellip;**), and then select **Sales Copilot**.
+1. In the Teams navigation bar, select **Sales Copilot**. If **Sales Copilot** isn't visible, select **View more apps** (**&hellip;**), and then select **Sales Copilot**. If you see the **Sales Copilot** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.
 
 1. Select the **Settings** tab.
 
@@ -67,7 +66,8 @@ Teams and Outlook both play a part in how you access the Sales Copilot administr
     :::image type="content" source="./media/viva-sales-admin.png" alt-text="Screenshot of the Sales Copilot Settings tab in Teams.":::
 
 ## Add the Sales Copilot app to Teams
-<!-- EDITOR'S NOTE: 1. There's a separate article about installing the Sales Copilot app in Teams. Am I correct in thinking that article covers installing Sales Copilot for everyone, and this section covers installing it just for the admin? If that's true, can you please add a sentence here to make that clear? 2. If the admin settings aren't available outside of the Sales Copilot app in Teams, shouldn't this section come before you talk about the admin settings?-->
+
+If the Sales Copilot app isn't already added to Teams, you can add it from the Teams app store. Note that the app is added only for you, not for your entire organization.
 
 1. Sign in to Microsoft Teams with your administrator credentials.
 
@@ -113,7 +113,7 @@ If you're signed in with tenant administrator or CRM administrator credentials, 
 
 ### Can I change the administrator settings on my mobile device?
 
-Access to Sales Copilot administrator settings on a mobile device isn't supported. Work with administrator settings in the Teams desktop app.<!-- EDITOR'S NOTE: What about Teams on the web? -->
+Access to Sales Copilot administrator settings on a mobile device isn't supported. Work with administrator settings in the Teams desktop app or the web app.
 
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 

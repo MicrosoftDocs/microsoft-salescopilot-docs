@@ -1,7 +1,7 @@
 ---
 title: Turn off Sales Copilot features in Microsoft 365 apps
 description: Learn how to turn off Sales Copilot features in Microsoft 365 apps.
-ms.date: 08/27/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -18,7 +18,7 @@ ms.custom:
 
 # Turn off Sales Copilot features in Microsoft 365 apps
 
-Some Sales Copilot features run in Microsoft 365 apps apart from the Outlook add-in and Teams app. These features are turned on by default. Tenant administrators can turn them off in the Microsoft 365 admin center.
+Some Sales Copilot features run in Microsoft 365 app service apart from the Outlook add-in and Teams app. These features are turned on by default. Tenant administrators can turn them off in the Microsoft 365 admin center.
 
 1. Sign in to the Microsoft 365 admin center with your tenant admin credentials.
 1. Select **Settings** > **Org settings**.

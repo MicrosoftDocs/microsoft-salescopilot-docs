@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft Sales Copilot to help your sellers write better emails and stay on top of their deals.
-ms.date: 10/30/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -64,7 +64,7 @@ The following Copilot AI features are generally available:
 
     *The AI-generated content is just a suggestion.* It's the seller's responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending the message.
 
-    Make sure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality of the suggested content feature. [Learn how to update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+    Make sure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. [Learn how to update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
 - **View and save email summary**: Allows sellers to view a summary of recent emails and save it to the CRM system.
 
@@ -76,15 +76,15 @@ The following Copilot AI feature is in preview:
 
 ## Data access and use
 
-Sales Copilot uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).<!-- EDITOR'S NOTE: This may be boilerplate text, but I edited it anyway. Maybe this could be turned into an include file, since I bet it's going to be used in a lot of Copilot-touching articles. -->
+Sales Copilot uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).
 
 The Azure OpenAI Service is available in limited geographies. By using Copilot features powered by Azure OpenAI, you agree that data might be stored or processed outside of your geographic region, compliance boundary, or national cloud instance. Learn more about [data residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## FAQ
 
-### Why do sellers see the Copy text button instead of the Copy to email button in the suggested email content feature?
+### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their Sales Copilot for Outlook add-in is out of date. Make sure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the copy-to-email functionality. [Learn how to update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+Their Sales Copilot for Outlook add-in is out of date. Make sure that the Sales Copilot for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales Copilot add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
 
 ### See also
 
