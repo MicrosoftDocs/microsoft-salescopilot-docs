@@ -22,7 +22,7 @@ Teams and channels you linked using sales templates in Outlook or [enhanced coll
 
     Teams or channels linked from the Sales app are indicated with the Dynamics 365 Sales icon.
 
-    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot showing linked team shown in Viva Sales.":::
+    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot showing linked team shown in Sales Copilot.":::
 
 1. Select a team or channel to open it in Microsoft Teams.
 
