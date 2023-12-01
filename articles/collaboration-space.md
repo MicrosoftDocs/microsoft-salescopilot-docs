@@ -1,7 +1,7 @@
 ---
 title: Collaboration spaces in Sales Copilot
 description: Learn how you can use sales templates to create collaboration spaces in Microsoft Teams so that your sales teams can quickly access business data and be more productive.
-ms.date: 08/22/2023
+ms.date: 11/30/2023
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

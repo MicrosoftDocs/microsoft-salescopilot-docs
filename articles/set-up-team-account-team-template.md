@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the account team template
 description: Learn how to set up a team using an account team template in the Sales Copilot add-in for Outlook.
-ms.date: 08/23/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,6 +37,8 @@ When you create a collaboration space with the account team template, you can [c
 
     By default, the team name is set to the account name. Your tenant administrator might have set the [sensitivity label](/microsoftteams/sensitivity-labels) and privacy option in the tenant settings.
 
+    If sensitivity options are set up by your administrator, privacy of the team (Private/Public) defaults to the tenant admin settings.
+
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
     :::image type="content" source="media/add-members.png" alt-text="Screenshot of the Add team members step in Sales Copilot for Outlook.":::
@@ -51,7 +53,7 @@ When you create a collaboration space with the account team template, you can [c
 
 1. Select **Create team**.
 
-1. Select **Open in Teams** to view the new team.
+    After the basic General channel is set up, a confirmation message is displayed. Select **Open in Teams** to view the new team.
 
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
 
@@ -81,6 +83,6 @@ When you set up an account team for an existing team, a new channel is created i
 
 1. Select **Set up team**.
 
-1. Select **Open in Teams** to view the new team.
+    After the team is set up, a confirmation message is displayed. Select **Open in Teams** to view the new team.
 
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).

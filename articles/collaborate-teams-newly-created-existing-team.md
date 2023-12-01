@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 09/05/2023
+ms.date: 11/30/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,7 +17,7 @@ ms.custom:
 
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in a variety of ways.
 
-- In Outlook, open Sales Copilot and select the **Highlights** tab. Select the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+- In Outlook, open Sales Copilot and select the **Highlights** tab. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
     :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Sales Copilot for Outlook, with the deal room channel highlighted.":::
 
@@ -61,7 +61,6 @@ The following screenshot shows an example of an account team for the Fourth Coff
 The following screenshot shows an example of a deal room team for the Fourth Coffee account:
 
 :::image type="content" source="media/anatomy-deal-room-team.png" alt-text="Screenshot of a deal room team in Microsoft Teams.":::
-<!-- EDITOR'S NOTE: Please change the callout format and the style of the legend IAW our new screenshot guidelines, https://review.learn.microsoft.com/en-us/bacx/screenshots-for-bap?branch=main. -->
 
 | Annotation | Description |
 |------------|-------------|
@@ -80,7 +79,7 @@ The first time you open a team that was created using the deal room template, an
 
 To view the opportunity summary again later, use either of the following methods:
 
-- Enter `@Sales Copilot show summary` in the message box.
+- Enter `@Sales Copilot show opportunity summary` in the message box.
 - Enter `@Sales Copilot help` in the message box, and then select **Generate Opportunity Summary** from the list of options.
 
 The summary uses the following columns in the opportunity record in your CRM:
@@ -97,7 +96,7 @@ The summary uses the following columns in the opportunity record in your CRM:
 
 The **Latest activity** content is generated from the last three notes in the opportunity record.
 
-The AI-generated opportunity summary is available only when your administrator has turned on copilot AI features. <!-- EDITOR'S NOTE: Copilot AI features where? In the Sales Copilot Teams app? --> If your administrator hasn't turned on those features, the opportunity summary is displayed in the form of field-value pairs. The fields that are included in the summary depend on what your administrator has set.
+The AI-generated opportunity summary is available only when your administrator has [turned on copilot AI features](suggested-replies.md#set-up-copilot-ai-features). If your administrator hasn't turned on those features, the opportunity summary is displayed in the form of field-value pairs. The fields that are included in the summary depend on what your administrator has set.
 
 :::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot of an opportunity summary in a deal room channel when copilot AI features are turned off.":::
 
