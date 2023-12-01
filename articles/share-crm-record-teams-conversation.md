@@ -22,7 +22,7 @@ With the Sales Copilot app, you can:
 
 1. Go to the conversation in which you want to share the contact. Select the **Sales Copilot** icon under the message box.
 
-   :::image type="content" source="media/viva-sales-icon.png" alt-text="Screenshot showing the Viva Sales icon under message box.":::
+   :::image type="content" source="media/viva-sales-icon.png" alt-text="Screenshot showing the Sales Copilot icon under message box.":::
 
     If the Sales Copilot icon isn't there, select **Messaging extensions** (**...**), search for the **Sales Copilot** app, and then select it.
 
@@ -34,11 +34,11 @@ With the Sales Copilot app, you can:
    >
    > - If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
 
-   :::image type="content" source="media/viva-sales.png" alt-text="Screenshot showing the Viva Sales window.":::
+   :::image type="content" source="media/viva-sales.png" alt-text="Screenshot showing the Sales Copilot window.":::
 
     The record card is added to the message box.
 
-   :::image type="content" source="media/contact-card.png" alt-text="Screenshot showing the Viva Sales contact card.":::
+   :::image type="content" source="media/contact-card.png" alt-text="Screenshot showing the Sales Copilot contact card.":::
 
    > [!NOTE]
    > The fields on a record's card are displayed as configured by your CRM administrator.
@@ -76,7 +76,7 @@ With the Sales Copilot app, you can:
 
     The record card is added to the message box.
 
-   :::image type="content" source="media/contact-card-link.png" alt-text="Screenshot showing the Viva Sales contact card link.":::
+   :::image type="content" source="media/contact-card-link.png" alt-text="Screenshot showing the Sales Copilot contact card link.":::
 
 1. Send the message to the chat.
 
