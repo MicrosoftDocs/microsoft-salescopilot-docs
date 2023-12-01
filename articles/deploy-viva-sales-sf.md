@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 10/25/2023
+ms.date: 12/01/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -65,6 +65,8 @@ Salesforce administrators who need to customize Sales Copilot must have the foll
 |---------------|-------------|
 |Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
 
+The profiles of users in scope for Sales Copilot must be granted the API Enabled permission. [Learn how to grant API Enabled permission](tsg-api-perm.md).
+
 ## Step 5: Ensure Microsoft Power Platform isn't blocked
 
 Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Sales Copilot users.
@@ -87,7 +89,11 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
 
 6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
 
-## Step 6: First user sign in
+## Step 6: Ensure Salesforce connector isn't blocked in Power Platform
+
+If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in DLP policy](tsg-blocked-connector-sf.md)
+
+## Step 7: First user sign in
 
 When the first user in the tenant connects to Salesforce CRM, Sales Copilot provisions a Dataverse environment to store the data generated  while using Sales Copilot. Refer to [Sales Copilot architecture](architecture.md) for more details on how the environment is used and what data is stored.
 
@@ -98,7 +104,7 @@ Sales Copilot automatically sets one of the Power Platform administrators or Mic
 To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Sales Copilot first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Sales Copilot. For information on how to sign in to Sales Copilot, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
 
 
-## Step 7 (optional): Customize Sales Copilot
+## Step 8 (optional): Customize Sales Copilot
 
 [Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales Copilot experience in Outlook and Teams. You can customize Sales Copilot to meet your organization's needs.
 
