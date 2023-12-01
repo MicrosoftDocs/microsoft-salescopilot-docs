@@ -96,7 +96,7 @@ The summary uses the following columns in the opportunity record in your CRM:
 
 The **Latest activity** content is generated from the last three notes in the opportunity record.
 
-The AI-generated opportunity summary is available only when your administrator has [turned on copilot AI features](suggested-replies.md#set-up-copilot-ai-features). If your administrator hasn't turned on those features, the opportunity summary is displayed in the form of field-value pairs. The fields that are included in the summary depend on what your administrator has set.
+The AI-generated opportunity summary is available only when your administrator has [turned on copilot AI features](suggested-replies.md#turn-on-copilot-ai-features). If your administrator hasn't turned on those features, the opportunity summary is displayed in the form of field-value pairs. The fields that are included in the summary depend on what your administrator has set.
 
 :::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot of an opportunity summary in a deal room channel when copilot AI features are turned off.":::
 
