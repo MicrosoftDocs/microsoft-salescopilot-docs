@@ -1,6 +1,6 @@
 ---
 title: Sign up for a free Microsoft Sales Copilot trial
-description: Learn how to sign up for a free Microsoft Sales Copilot trial
+description: Sign up for a free 30-day trial of Microsoft Sales Copilot and get access to its key features.
 ms.date: 12/01/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -9,6 +9,10 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ms.localizationpriority: medium
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/01/2023
 ---
 
 # Sign up for a free Microsoft Sales Copilot trial
