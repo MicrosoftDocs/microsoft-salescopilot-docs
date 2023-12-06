@@ -59,7 +59,7 @@ Enable transcripts for Teams calls so that when Sales Copilot is added to a reco
 
 Sales Copilot applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales Copilot.
 
-Salesforce administrators who need to customize Sales Copilot [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators)
+Salesforce administrators who need to customize Sales Copilot [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
 Users of Sales Copilot need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
