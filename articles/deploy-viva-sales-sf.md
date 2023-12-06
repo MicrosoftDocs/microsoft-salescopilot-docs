@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales Copilot for Salesforce CRM customers.
-ms.date: 12/01/2023
+ms.date: 12/07/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -59,15 +59,15 @@ Enable transcripts for Teams calls so that when Sales Copilot is added to a reco
 
 Sales Copilot applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales Copilot.
 
-Salesforce administrators who need to customize Sales Copilot must have the following permissions. More information: [Privileges required to use Sales Copilot](install-viva-sales.md#privileges-required-to-use-sales-copilot)
+Salesforce administrators who need to customize Sales Copilot [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators)
 
-|Requirement type|You must have|
-|---------------|-------------|
-|Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
+Users of Sales Copilot need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
-The profiles of users in scope for Sales Copilot must be granted the API Enabled permission. [Learn how to grant API Enabled permission](tsg-api-perm.md).
+## Step 5: Ensure Salesforce connector isn't blocked in Power Platform
 
-## Step 5: Ensure Microsoft Power Platform isn't blocked
+If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in DLP policy](tsg-blocked-connector-sf.md)
+
+## Step 6: Ensure Microsoft Power Platform connected app isn't blocked in Salesforce
 
 Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Sales Copilot users.
 
@@ -88,10 +88,6 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
     > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
 
 6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
-
-## Step 6: Ensure Salesforce connector isn't blocked in Power Platform
-
-If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in DLP policy](tsg-blocked-connector-sf.md)
 
 ## Step 7: First user sign in
 
