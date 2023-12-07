@@ -35,7 +35,7 @@ The API is called with the following parameters:
 crmOrgUrl|String|No|Host name of the CRM organization. For example, `contoso.crm.dynamics.com`.|
 
 > [!NOTE]
-> - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
+> - Authentication is expected to be handled by the constructs in the Power Platform connector and is outside the scope of this API.
 > - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
 > - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
 >   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
