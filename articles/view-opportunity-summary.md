@@ -100,7 +100,7 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
 
 > [!NOTE]
 > - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
@@ -112,7 +112,7 @@ Latest activities from partner applications are displayed under the **Latest act
 
 :::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
 
-All the information about activities comes from the partner applications. Sales Copilot renders the activity information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+All the information about activities comes from the partner applications. Sales Copilot renders the activity information retrieved from the partner application through the Power Platform connector. Sales Copilot does not edit or filter the information.
 
 Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 
 
