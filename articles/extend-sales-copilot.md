@@ -37,7 +37,7 @@ To extend Sales Copilot:
     1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
     1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
 
-3. Add the above APIs to an existing or a new [Power Apps copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
+3. Add the above APIs to an existing or a new [Power Platform copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
 
 
 ## Show latest activities from your application in opportunity summary
