@@ -82,10 +82,15 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
 
 4. Select **Microsoft Power Platform** to view details about the connected app. 
 
-5. Under **OAuth Policies**, ensure that the value for Permitted Users is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
+5. Under **OAuth Policies**, ensure the following:
 
-    > [!NOTE]
-    > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
+    1. Value for **Permitted Users** is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
+
+        > [!NOTE]
+        > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
+
+    2. Value for **IP Relaxation** is set to **Relax IP restrictions**.
+    3. Value for **Refresh Token Policy** is set to **Refresh token is valid until revoked**.
 
 6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
 
