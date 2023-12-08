@@ -92,7 +92,9 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
     2. Value for **IP Relaxation** is set to **Relax IP restrictions**.
     3. Value for **Refresh Token Policy** is set to **Refresh token is valid until revoked**.
 
-6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
+6. Under **Session Policies**, ensure that the value for **Timeout Value** is set to **None**.
+
+7. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
 
 ## Step 7: First user sign in
 
