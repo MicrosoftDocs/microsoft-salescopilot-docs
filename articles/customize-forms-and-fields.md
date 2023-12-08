@@ -265,7 +265,7 @@ When you enable leads support in Sales Copilot, sellers can:
 - Connect an external email address to a lead in CRM system.
 - Save Outlook activities (emails and meetings) to a lead in CRM system.
 
-After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new contact or lead. You'll be able to choose whether you want to add an external email address a contact or a lead.
+After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new contact or lead. You'll be able to choose whether you want to add an external email address as a contact or a lead.
 
 All the [prerequisites](#prerequisites-1) must be met before you or your sellers can use this feature.
 
