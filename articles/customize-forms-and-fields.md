@@ -260,10 +260,11 @@ You can control whether sellers can create contacts inline, directly in Sales Co
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
-When you enable leads support in Sales Copilot, sellers can:
-- Create leads inline in Sales Copilot.
-- Connect an external email address to a lead in CRM system.
-- Save Outlook activities (emails and meetings) to a lead in CRM system.
+When you enable leads support in Sales Copilot, leads related accounts and other related records are displayed to the sellers. Sellers can:
+- View existing leads in Sales Copilot.
+- Create and edit lead records inline in Sales Copilot.
+- Associate emails and meetings with lead records.
+- Disambiguate between multiple leads matches.
 
 After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new contact or lead. You'll be able to choose whether you want to add an external email address as a contact or a lead.
 
