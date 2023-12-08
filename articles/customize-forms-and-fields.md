@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Sales Copilot.
-ms.date: 09/05/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -255,6 +255,35 @@ You can control whether sellers can create contacts inline, directly in Sales Co
     ![Screenshot showing how to configure contact creation in Sales Copilot.](media/viva-sales-inline-contact-create.png "Screenshot showing how to configure contact creation in Sales Copilot.")
 
 4.  Select **Publish** to save your changes.
+
+## Configure leads support (preview)
+
+[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
+
+When you enable leads support in Sales Copilot, sellers can:
+- Create leads inline in Sales Copilot.
+- Connect an external contact to a lead in CRM system.
+- Save Outlook activities (emails and meetings) to a lead in CRM system.
+ 
+All the [prerequisites](#prerequisites-1) must be met before you or your sellers can use this feature.
+
+### Prerequisites
+
+- Turn on leads support
+    - Fill out the [preview request form](link) to enable leads support in your environment.
+ 
+- Recognize leads in Sales Copilot
+    - You must add the Leads record (or Salesforce object) to Sales Copilot admin settings.
+    - The Leads record form must have the First Name, Last Name, and Email address1 fields added and set to required.
+    - The Leads view that is selected must include the above mentioned fields as columns.
+ 
+- Related entity card support in Salesforce (as with contacts)
+    - A custom relationship between Leads and Account must be established in the CRM system.
+    - The view for the Account object in Sales Copilot settings must be changed to any view other than the default **None**.
+    - The Account field must be added as a column in the view that is selected for the Lead record or object.
+
+- Saving to lead in Salesforce
+    - A limitation in Salesforce query doesn't allow leads to be displayed in the **Connected to** search experience. To associate an email with leads and contacts on a thread, sellers must save the email without connecting to a record. The email or meeting will still be associated with leads and contacts on the To, Cc, and Bcc fields.
 
 
 ## Select key fields for the mini view
