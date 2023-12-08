@@ -37,12 +37,12 @@ To extend Sales Copilot:
     1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
     1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
 
-3. Add the above APIs to an existing or a new [Power Apps copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
+3. Add the above APIs to an existing or a new [Power Platform copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
 
 
 ## Show latest activities from your application in opportunity summary
 
-Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Platform connector.
 
 The following image shows an example of how the [output of the GetRelatedActivities API](api-get-related-activities.md#example) is mapped to the opportunity summary.
 
@@ -50,19 +50,19 @@ The following image shows an example of how the [output of the GetRelatedActivit
 
 |Annotation|Description|
 |----------|-----------|
-|1|Section showing latest activities from partner application in opportunity summary. The section title is the name of the Power Apps connector.|
+|1|Section showing latest activities from partner application in opportunity summary. The section title is the name of the Power Platform connector.|
 |2|Activity descriptions from API response.|
 |3|Citation number to see details about the activity.|
 |4|Citation card showing details about the activity.|
-|5|Icon and title of the activity. The icon is retrieved from the Power Apps connector metadata. The title text is the title of the activity.|
+|5|Icon and title of the activity. The icon is retrieved from the Power Platform connector metadata. The title text is the title of the activity.|
 |6|Additional properties of the activity from API response.|
-|7|Name of the partner application. The name displayed is the name of the Power Apps connector.|
+|7|Name of the partner application. The name displayed is the name of the Power Platform connector.|
 |8|Link to view activity details in the partner application. It is based on the URL of the activity in API response.|
 
 
 ## Show records from your application related to CRM records
 
-Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Apps connector.
+Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Platform connector.
 
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
@@ -74,7 +74,7 @@ The following image shows an example of how the [output of the GetRelatedRecords
 |Annotation|Description|
 |----------|-----------|
 |1|Card showing related records from partner application.|
-|2|Icon and title of the card. The icon is retrieved from the Power Apps connector metadata. The card title is the name of the Power Apps connector.|
+|2|Icon and title of the card. The icon is retrieved from the Power Platform connector metadata. The card title is the name of the Power Platform connector.|
 |3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
 |4|More actions icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.|
 |5|Additional properties of the related record from API response.|

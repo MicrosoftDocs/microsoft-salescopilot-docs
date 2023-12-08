@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 11/27/2023
+ms.date: 12/07/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -93,7 +93,7 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
 
 > [!NOTE]
 > - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
@@ -108,7 +108,7 @@ Related records from partner applications are displayed in a new card under reco
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Platform connector. Sales Copilot does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 
