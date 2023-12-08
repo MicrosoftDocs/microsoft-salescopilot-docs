@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot deployment guide for Dynamics 365 customers
 description: Learn how to deploy Sales Copilot for Dynamics 365 customers.
-ms.date: 10/25/2023
+ms.date: 12/07/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -122,6 +122,9 @@ Auto installed apps can be uninstalled by users from their respective Outlook an
 - [Uninstall Sales Copilot Outlook add-in](install-sales-copilot.md#uninstall-sales-copilot-outlook-add-in)
 - [Uninstall Sales Copilot app for Microsoft Teams](install-sales-copilot.md#uninstall-sales-copilot-app-for-microsoft-teams)
 
+### How to opt out of auto installation?
+
+If your organization is enrolled for auto installation and would like to opt out of future auto installation for new users, fill out the [opt-out form](https://go.microsoft.com/fwlink/p/?linkid=2254756). It may take up to two weeks for the opt-out to take effect. Note that Outlook add-in and Microsoft Teams app are not uninstalled from existing users.
 
 ## Community
 
