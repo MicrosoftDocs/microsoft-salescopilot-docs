@@ -76,7 +76,7 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 The first time you open a team that was created using the deal room template, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
 > [!NOTE]
-> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary if you have read access for the record and read permission in organization settings.
+> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary if you have read access for the record and read permission in organization settings. This works only when the opportunity summary is generated for the first time.
 > - If you're using Salesforce as your CRM system, you must sign in to Salesforce in the Sales Copilot app in Outlook to view opportunity summary.
 
 :::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot of an AI-generated opportunity summary in a deal room channel in Teams.":::
