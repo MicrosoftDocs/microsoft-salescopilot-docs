@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in a Teams conversation
 description: Learn how to share a CRM record in a Teams conversation.
-ms.date: 08/28/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,6 +17,10 @@ With the Sales Copilot app, you can:
 - Search for a record to share
 
 - Paste a link to a record that will unfurl into a rich adaptive card
+
+> [!NOTE]
+> - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in a Teams chat or channel, you can view data in the adaptive card if you have read access for the record and read permission in organization settings.
+> - If you're using Salesforce as your CRM system, and you receive an adaptive card in a Teams chat or channel, you must sign in to Salesforce in the Sales Copilot app in Outlook to view data in the adaptive card.
 
 ## Search for a CRM record to share
 
