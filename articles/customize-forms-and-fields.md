@@ -262,9 +262,11 @@ You can control whether sellers can create contacts inline, directly in Sales Co
 
 When you enable leads support in Sales Copilot, sellers can:
 - Create leads inline in Sales Copilot.
-- Connect an external contact to a lead in CRM system.
+- Connect an external email address to a lead in CRM system.
 - Save Outlook activities (emails and meetings) to a lead in CRM system.
- 
+
+After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new conact or lead. You'll be able to choose whether you want to add an external email address a contact or a lead.
+
 All the [prerequisites](#prerequisites-1) must be met before you or your sellers can use this feature.
 
 ### Prerequisites
@@ -284,7 +286,6 @@ All the [prerequisites](#prerequisites-1) must be met before you or your sellers
 
 - Saving to lead in Salesforce
     - A limitation in Salesforce query doesn't allow leads to be displayed in the **Connected to** search experience. To associate an email with leads and contacts on a thread, sellers must save the email without connecting to a record. The email or meeting will still be associated with leads and contacts on the To, Cc, and Bcc fields.
-
 
 ## Select key fields for the mini view
 
