@@ -73,4 +73,4 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 ### See also
 
 [Block the Copilot for Sales app in Teams](block-viva-sales-app-teams.md)<br>
-[Check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed](install-sales-copilot.md#how-do-i-know-if-the-sales-copilot-add-in-for-outlook-is-admin-deployed-or-user-deployed)
+[Check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed](install-sales-copilot.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed)

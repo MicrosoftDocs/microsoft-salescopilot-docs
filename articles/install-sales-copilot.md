@@ -34,7 +34,7 @@ With Copilot for Sales for Microsoft Outlook, you can:
 > - This article provides instructions for business users without administrator privileges to install Copilot for Sales. If you are a CRM administrator trying to install Copilot for Sales for your sales team, see [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md) or [Copilot for Sales deployment guide for Salesforce customers](deploy-viva-sales-sf.md) as per your requirement.
 > - When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales app is not added automatically to meeting invites. However, you can manually add Copilot for Sales to the meeting to get meeting summaries.
 > - You may not be able to install Copilot for Sales if downloading add-ins is turned off for your organization. In this case, contact your administrator.
-> - If you are using the Dynamics 365 app for Outlook, you can consider switching to Copilot for Sales, as you can do much more with Copilot for Sales. More information: [Difference between Copilot for Sales and Dynamics 365 app for Outlook](#difference-between-sales-copilot-and-dynamics-365-app-for-outlook)
+> - If you are using the Dynamics 365 app for Outlook, you can consider switching to Copilot for Sales, as you can do much more with Copilot for Sales. More information: [Difference between Copilot for Sales and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
 
 ### Install Copilot for Sales Outlook add-in from AppSource
 
@@ -88,7 +88,7 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
     :::image type="content" source="media/uninstall add-in.png" alt-text="Uninstall Copilot for Sales Outlook add-in.":::
 
 > [!NOTE]
-> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-sales-copilot-add-in-for-outlook-is-admin-deployed-or-user-deployed).
+> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
 
 ## Install Copilot for Sales app for Microsoft Teams
 
@@ -134,4 +134,4 @@ You can check if the Copilot for Sales add-in for Outlook is admin-deployed or u
 
     If the add-in is available under **Admin-managed** tab, it is admin-deployed. Contact your administrator to [uninstall the add-in](disable-viva-sales.md).
 
-    If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](#uninstall-sales-copilot-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.
+    If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](#uninstall-copilot-for-sales-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.

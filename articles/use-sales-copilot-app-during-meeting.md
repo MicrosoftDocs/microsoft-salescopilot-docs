@@ -29,7 +29,7 @@ If the meeting is not connected and saved to CRM, a message is displayed to save
 
 ## View connected record details
 
-1. [Open the Copilot for Sales app](#open-the-sales-copilot-app) and select the **Dynamics 365** or **Salesforce** tab.
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
 
 1. In the **Connected to** card, select the record to see its details in the **Copilot for Sales** panel.
 
@@ -43,7 +43,7 @@ You can also open a record in CRM to view its complete details. The record detai
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
-1. [Open the Copilot for Sales app](#open-the-sales-copilot-app) and select the **Dynamics 365** or **Salesforce** tab.
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 

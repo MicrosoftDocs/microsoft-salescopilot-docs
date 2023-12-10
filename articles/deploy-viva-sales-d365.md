@@ -119,8 +119,8 @@ Auto installed apps are considered as user-deployed and won't have full feature 
 
 Auto installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
 
-- [Uninstall Copilot for Sales Outlook add-in](install-sales-copilot.md#uninstall-sales-copilot-outlook-add-in)
-- [Uninstall Copilot for Sales app for Microsoft Teams](install-sales-copilot.md#uninstall-sales-copilot-app-for-microsoft-teams)
+- [Uninstall Copilot for Sales Outlook add-in](install-sales-copilot.md#uninstall-copilot-for-sales-outlook-add-in)
+- [Uninstall Copilot for Sales app for Microsoft Teams](install-sales-copilot.md#uninstall-copilot-for-sales-app-for-microsoft-teams)
 
 
 ## Community

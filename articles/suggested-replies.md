@@ -64,7 +64,7 @@ The following Copilot AI features are generally available:
 
     *The AI-generated content is just a suggestion.* It's the seller's responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending the message.
 
-    Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. [Learn how to update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+    Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. [Learn how to update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
 
 - **View and save email summary**: Allows sellers to view a summary of recent emails and save it to the CRM system.
 
@@ -84,7 +84,7 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 ### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their Copilot for Sales for Outlook add-in is out of date. Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-sales-copilot-add-in).
+Their Copilot for Sales for Outlook add-in is out of date. Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
 
 ### See also
 

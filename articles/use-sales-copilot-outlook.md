@@ -18,7 +18,7 @@ If you don’t have access to Copilot for Sales, ask your administrator to insta
 
 ## Use Copilot for Sales without signing in
 
-You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-pre-defined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account. [Open Copilot for Sales](#open-sales-copilot) to get started.
+You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-pre-defined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account. [Open Copilot for Sales](#open-copilot-for-sales) to get started.
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
