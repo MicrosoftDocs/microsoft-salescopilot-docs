@@ -1,7 +1,7 @@
 ---
 title: Unable to update records because of missing record access in Salesforce CRM
-description: Troubleshoot and resolve error issues when users are unable to update CRM records in Sales Copilot because of missing record access in Salesforce CRM.
-ms.date: 10/31/2023
+description: Troubleshoot and resolve error issues when users are unable to update CRM records in Copilot for Sales because of missing record access in Salesforce CRM.
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 
 # Unable to update records because of missing record access in Salesforce CRM
 
-This article helps you troubleshoot and resolve issues when users are unable to update CRM records in Sales Copilot because of missing record access in Salesforce CRM.
+This article helps you troubleshoot and resolve issues when users are unable to update CRM records in Copilot for Sales because of missing record access in Salesforce CRM.
 
 ## Who is affected?
 
 | Requirement type |Description  |
 |---------|---------|
-|**Client app**     |  Sales Copilot Outlook add-in        |
+|**Client app**     |  Copilot for Sales Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce      |
-|**Users**     | Users trying to update a CRM record from Sales Copilot |
+|**Users**     | Users trying to update a CRM record from Copilot for Sales |
 
 ## Symptom
 
-When trying to update a CRM record from the Sales Copilot add-in for Outlook, the following error message is displayed: `To update Salesforce, ask for edit access for this record.`
+When trying to update a CRM record from the Copilot for Sales add-in for Outlook, the following error message is displayed: `To update Salesforce, ask for edit access for this record.`
 
 :::image type="content" source="media/tsg-update-record.png" alt-text="Error about unable to update records in Salesforce.":::
 
@@ -38,7 +38,7 @@ When trying to update a CRM record from the Sales Copilot add-in for Outlook, th
 
 #### Root cause
 
-When a user tries to edit a record, Sales Copilot checks if the user has edit access to the object and record in Salesforce. If the user has edit access to the object but not to the record, the error message is displayed.
+When a user tries to edit a record, Copilot for Sales checks if the user has edit access to the object and record in Salesforce. If the user has edit access to the object but not to the record, the error message is displayed.
 
 #### Resolution
 
@@ -46,4 +46,4 @@ Salesforce administrator must provide edit access to the record in Salesforce by
 
 ## Is your issue still not resolved?
 
-Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.

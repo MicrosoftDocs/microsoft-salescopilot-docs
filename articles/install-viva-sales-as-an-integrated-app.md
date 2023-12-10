@@ -1,7 +1,7 @@
 ---
-title: Install Sales Copilot add-in for Outlook
-description: Learn how to install Sales Copilot add-in for Outlook from Microsoft 365 admin center.
-ms.date: 04/05/2023
+title: Install Copilot for Sales add-in for Outlook
+description: Learn how to install Copilot for Sales add-in for Outlook from Microsoft 365 admin center.
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -11,7 +11,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install Sales Copilot add-in for Outlook
+# Install Copilot for Sales add-in for Outlook
 
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
@@ -23,9 +23,9 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 
     Microsoft AppSource opens in an embedded window.
 
-4.  In the **AppSource** window, search for **Sales Copilot**.
+4.  In the **AppSource** window, search for **Copilot for Sales**.
 
-5.  In the search results, select either **Sales Copilot for Microsoft Outlook** or **Sales Copilot for Microsoft Teams**, and then select **Get it now**. 
+5.  In the search results, select either **Copilot for Sales for Microsoft Outlook** or **Copilot for Sales for Microsoft Teams**, and then select **Get it now**. 
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
@@ -40,21 +40,21 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 10. When the deployment is complete, select **Done**.
 
 > [!NOTE]
-> The app is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Sales Copilot in Teams, go to [Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md).
+> The app is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Copilot for Sales in Teams, go to [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md).
 
-Allow up to six hours for Sales Copilot to appear in users' Outlook ribbon.
+Allow up to six hours for Copilot for Sales to appear in users' Outlook ribbon.
 
 Sellers will receive a pop-up notification that their administrator has installed a new app.
 
-## Manage the Sales Copilot app
+## Manage the Copilot for Sales app
 
-After you've installed Sales Copilot as an integrated app, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
+After you've installed Copilot for Sales as an integrated app, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft Sales Copilot** app.
+2.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
 
-The **Microsoft Sales Copilot** panel opens with the following tabs:
+The **Microsoft Copilot for Sales** panel opens with the following tabs:
 
 - **Overview**: Displays basic information about the add-in, deployed apps, and assigned users.
 
@@ -64,17 +64,17 @@ The **Microsoft Sales Copilot** panel opens with the following tabs:
 
 - **Usage**: Displays the number of active users of the app based on the selected platform and date range.
 
-## Update the Sales Copilot add-in
+## Update the Copilot for Sales add-in
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft Sales Copilot** app.
+2.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
 
-    The **Microsoft Sales Copilot** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
+    The **Microsoft Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 
 3. Select **Know more and update**.
 
-    :::image type="content" source="media/update-add-in.png" alt-text="Update the Sales Copilot add-in.":::
+    :::image type="content" source="media/update-add-in.png" alt-text="Update the Copilot for Sales add-in.":::
 
 4. In the **Updates** panel, select **Accept and update**.
 
@@ -82,8 +82,8 @@ The **Microsoft Sales Copilot** panel opens with the following tabs:
 
 End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by the administrator.  
 
-If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Sales Copilot banner notifications that appear within the top of new or reply emails. Also, the Sales Copilot is not added automatically to meeting invites. However, sellers can manually add Sales Copilot to the meeting to get meeting summaries.
+If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales is not added automatically to meeting invites. However, sellers can manually add Copilot for Sales to the meeting to get meeting summaries.
 
 ### See also
 
-[Install and pin Sales Copilot in Teams](install-pin-viva-sales-teams.md)
+[Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)

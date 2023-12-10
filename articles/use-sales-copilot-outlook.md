@@ -1,61 +1,61 @@
 ---
-title: Use Sales Copilot in Microsoft Outlook
-description: Learn how to use Sales Copilot in Outlook.
-ms.date: 07/20/2023
+title: Use Copilot for Sales in Microsoft Outlook
+description: Learn how to use Copilot for Sales in Outlook.
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Use Sales Copilot in Outlook
+# Use Copilot for Sales in Outlook
 
-As a seller, you communicate with a lot of potential customers by email. Sales Copilot helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day. 
+As a seller, you communicate with a lot of potential customers by email. Copilot for Sales helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day. 
 
 You can get related information from CRM at your fingertips, save activities (such as emails and meetings) to CRM, and get an overview of recent interactions with your customers.
 
-If you don’t have access to Sales Copilot, ask your administrator to install it.
+If you don’t have access to Copilot for Sales, ask your administrator to install it.
 
-## Use Sales Copilot without signing in
+## Use Copilot for Sales without signing in
 
-You can use Sales Copilot and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-pre-defined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account. [Open Sales Copilot](#open-sales-copilot) to get started.
+You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-pre-defined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account. [Open Copilot for Sales](#open-sales-copilot) to get started.
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
 
-## Open Sales Copilot
+## Open Copilot for Sales
 
-You can open Sales Copilot using any of the following options:
+You can open Copilot for Sales using any of the following options:
 
 ### Outlook desktop
 
 - While drafting an email or creating a meeting
 
-    - Select **Sales Copilot** on the ribbon (in Classic ribbon)
+    - Select **Copilot for Sales** on the ribbon (in Classic ribbon)
      
-        :::image type="content" source="media/sales-copilot-icon-desktop.png" alt-text="Screenshot showing Sales Copilot icon in Outlook desktop.":::
+        :::image type="content" source="media/sales-copilot-icon-desktop.png" alt-text="Screenshot showing Copilot for Sales icon in Outlook desktop.":::
     
-    - Select **More commands** (**...**) and then select **Sales Copilot** (in Simplified ribbon)
+    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
     
     - Select **Use Copilot now** in the banner message (for emails)
     
-        :::image type="content" source="media/banner-message.png" alt-text="Screenshot showing Sales Copilot banner message.":::
+        :::image type="content" source="media/banner-message.png" alt-text="Screenshot showing Copilot for Sales banner message.":::
     
     - Select **Show details** in the banner message (for meetings)
 
 - While reading an email or opening a meeting
 
-    - Select **Sales Copilot** on the ribbon (in Classic ribbon)
+    - Select **Copilot for Sales** on the ribbon (in Classic ribbon)
      
-    - Select **More commands** (**...**) and then select **Sales Copilot** (in Simplified ribbon)
+    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
 
 ### Outlook on the web
 
 - While drafting an email or creating a meeting
 
-    - Select **Sales Copilot** on the ribbon (in Classic ribbon)
+    - Select **Copilot for Sales** on the ribbon (in Classic ribbon)
     
-    - Select **More commands** (**...**) and then select **Sales Copilot** (in Simplified ribbon)
+    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
     
     - Select **Use Copilot now** in the banner message (for emails)
     
@@ -63,36 +63,36 @@ You can open Sales Copilot using any of the following options:
     
 - While reading an email
 
-    - Select **More commands** (**...**) and then select **Sales Copilot**.
+    - Select **More commands** (**...**) and then select **Copilot for Sales**.
 
 - While opening a meeting
 
-    - Select **Sales Copilot** on the ribbon (in Classic ribbon)
+    - Select **Copilot for Sales** on the ribbon (in Classic ribbon)
     
-    - Select **More commands** (**...**) and then select **Sales Copilot** (in Simplified ribbon)
+    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
 
 ## Sign in to CRM
 
-After you open Sales Copilot, you can sign in to Sales Copilot and connect your CRM account to get a more enriched experience with CRM data.
+After you open Copilot for Sales, you can sign in to Copilot for Sales and connect your CRM account to get a more enriched experience with CRM data.
 
 ### Automatically sign in
 
-If you have any Dynamics 365 environment (production or non-production) that has the Sales Copilot solution, you are signed in automatically to your environment the first time you open the Sales Copilot pane. The environment you are signed in to is selected per the following rules:
+If you have any Dynamics 365 environment (production or non-production) that has the Copilot for Sales solution, you are signed in automatically to your environment the first time you open the Copilot for Sales pane. The environment you are signed in to is selected per the following rules:
 
 
 |Scenario  |Auto sign-in rule  |You will see  |
 |---------|---------|---------|
-|Single environment (production or non-production)     |  Signed in to the available environment       | Message at the top of Sales Copilot pane        |
-|Single production environment and multiple non-production environments     |Signed in to the production environment         |  Message at the top of Sales Copilot pane       |
+|Single environment (production or non-production)     |  Signed in to the available environment       | Message at the top of Copilot for Sales pane        |
+|Single production environment and multiple non-production environments     |Signed in to the production environment         |  Message at the top of Copilot for Sales pane       |
 |Multiple production and non-production environments     |  Signed in to the first production environment       |  Dialog box to confirm or change the signed in environment       |
 |Multiple non-production environments but no production environment     |  Signed in to the first non-production environment       |  Dialog box to confirm or change the signed in environment       |
 
 > [!NOTE]
-> Sales Copilot does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. Sales Copilot fetches a list of environments having the Sales Copilot solution, and then selects the first environment in the list to automatically sign in to.
+> Copilot for Sales does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. Copilot for Sales fetches a list of environments having the Copilot for Sales solution, and then selects the first environment in the list to automatically sign in to.
 
 #### Single environment or single production environment
 
-For first and second scenarios, a message is displayed at the top of the Sales Copilot pane showing the environment the user was signed in to automatically. It includes a link to change the environment or CRM.
+For first and second scenarios, a message is displayed at the top of the Copilot for Sales pane showing the environment the user was signed in to automatically. It includes a link to change the environment or CRM.
 
 :::image type="content" source="media/single-env.png" alt-text="Screenshot showing signed in to a single environment.":::
 
@@ -118,13 +118,13 @@ The **Environment** list displays the friendly name, type (Production/Sandbox), 
 
 You must manually sign in to your CRM in the following cases:
 
-- If you are using Dynamics 365 environment and have signed out of your CRM from Sales Copilot
+- If you are using Dynamics 365 environment and have signed out of your CRM from Copilot for Sales
 
 - If you are using Salesforce CRM
 
-You can use basic capabilities of Sales Copilot without signing in to your CRM. However, to use all the advanced capabilities of Sales Copilot, you must sign in to your CRM.
+You can use basic capabilities of Copilot for Sales without signing in to your CRM. However, to use all the advanced capabilities of Copilot for Sales, you must sign in to your CRM.
 
-1. In the **Sales Copilot** pane, select **Sign in** in the banner at the top or card at the bottom.
+1. In the **Copilot for Sales** pane, select **Sign in** in the banner at the top or card at the bottom.
 
     :::image type="content" source="media/manual-sign-in.png" alt-text="Screenshot showing sign in button.":::
 
@@ -138,15 +138,15 @@ You can use basic capabilities of Sales Copilot without signing in to your CRM. 
         
         :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
-    Once you are signed in, the Sales Copilot pane is populated with personalized action items and relevant CRM information to help you work more efficiently. 
+    Once you are signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently. 
 
-## Pin the Sales Copilot app
+## Pin the Copilot for Sales app
 
-To keep Sales Copilot in view as you move through your emails and meetings, pin it so that the app pane stays open.
+To keep Copilot for Sales in view as you move through your emails and meetings, pin it so that the app pane stays open.
 
 To pin the app, select the pushpin :::image type="icon" source="media/pin-app.png" border="false":::. To unpin it, select the pushpin :::image type="icon" source="media/unpin-app.png" border="false"::: again.
 
-## Anatomy of the Sales Copilot pane
+## Anatomy of the Copilot for Sales pane
 
 ### Highlights tab
 
@@ -156,8 +156,8 @@ To pin the app, select the pushpin :::image type="icon" source="media/pin-app.pn
 |----------|------------|
 |1|Sender name and timestamp of received email.|
 |2|Indication that the email is saved to CRM. More information: [Save Outlook activities to your CRM](save-outlook-activities-crm.md)|
-|3|Generate email content using Copilot capabilities in Sales Copilot. More information: [Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)|
-|4|Add external contacts to your CRM. More information: [Create a contact in your CRM from Sales Copilot](create-contact-crm-sales-copilot.md)|
+|3|Generate email content using Copilot capabilities in Copilot for Sales. More information: [Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)|
+|4|Add external contacts to your CRM. More information: [Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)|
 |5|Pin or unpin the app pane.|
 |6|Close the app pane.|
 |7|Options menu|
@@ -181,7 +181,7 @@ To pin the app, select the pushpin :::image type="icon" source="media/pin-app.pn
 |Annotation|Description|
 |----------|-----------|
 |1|Contact name along with two key fields as configure by your administrator.|
-|2|Indication that contact is saved to CRM. More information: [Create a contact in your CRM from Sales Copilot](create-contact-crm-sales-copilot.md)|
+|2|Indication that contact is saved to CRM. More information: [Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)|
 |3|Private notes card to enter personal notes for a contact. These notes are private to you and not saved to CRM system.|
 |4|Options menu. Allows you to edit the contact, copy link to the contact, and open it in your connected CRM.<br>**Note**: The option to edit a record is available only when it is enabled by your administrator.|
 |5|The customer’s contact information|

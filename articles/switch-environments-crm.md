@@ -1,7 +1,7 @@
 ---
 title: Switch environments or CRM
 description: Learn how to switch environments or CRM.
-ms.date: 08/28/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ms.author: shjais
 
 You can switch between Dynamics 365 environments without signing out of your current environment. If required, you can also sign in to Salesforce CRM.
 
-1. In the **Sales Copilot** pane, select **Options** (**...**), and then select the environment name.
+1. In the **Copilot for Sales** pane, select **Options** (**...**), and then select the environment name.
 
 1. Select **Switch environment**.
 

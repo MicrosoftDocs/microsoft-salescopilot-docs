@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
-description: Learn how to set up a team using a deal room team template in the Sales Copilot add-in for Outlook.
-ms.date: 11/30/2023
+description: Learn how to set up a team using a deal room team template in the Copilot for Sales add-in for Outlook.
+ms.date: 12/11/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ms.custom:
 
 # Set up a team using the deal room template
 
-You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Sales Copilot add-in for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
+You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Copilot for Sales add-in for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
 
 Regardless of how you set them up, you can access linked teams and channels from both Outlook and the Sales app.
 
@@ -23,21 +23,21 @@ When you create a collaboration space with the deal room team template, you can 
 
 ## Set up an existing team as a deal room team
 
-1. In Outlook, open an email to or from your customer, and then open Sales Copilot.
+1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
 1. On the **Highlights** tab, go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
-    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Sales Copilot for Outlook, with the Set up deal room button highlighted.":::
+    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up deal room button highlighted.":::
 
 1. In the **Set up a deal room** step, select **Use an existing team**.
 
-    :::image type="content" source="media/deal-room-type-existing.png" alt-text="Screenshot of the Set up a deal room team step in Sales Copilot for Outlook, with Use an existing team highlighted.":::
+    :::image type="content" source="media/deal-room-type-existing.png" alt-text="Screenshot of the Set up a deal room team step in Copilot for Sales for Outlook, with Use an existing team highlighted.":::
 
 1. In the **Select a team** step, select a team from the list of teams that you own or are a member of, and then select **Next**.
 
     If the opportunity's parent account is already linked to a team, the linked team is shown as the recommended one to create the deal room channel in. You can create the channel in any of the other teams listed, however.
 
-    :::image type="content" source="media/select-team-existing-deal-room.png" alt-text="Screenshot of the Select a team step in Sales Copilot for Outlook.":::
+    :::image type="content" source="media/select-team-existing-deal-room.png" alt-text="Screenshot of the Select a team step in Copilot for Sales for Outlook.":::
 
 1. In the **Set up your channels** step, change the channel name, if necessary, and select a privacy option. To add a shared channel for collaborating with customers, leave **Include shared channel** selected.
 
@@ -45,7 +45,7 @@ When you create a collaboration space with the deal room team template, you can 
 
     Customers and colleagues aren't added to the shared channel automatically. Owners of the team can add members to the channel later directly in Teams.
 
-    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Sales Copilot for Outlook.":::
+    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Copilot for Sales for Outlook.":::
 
 1. Select **Set up team**.
 
@@ -55,15 +55,15 @@ When you create a collaboration space with the deal room team template, you can 
 
 ## Create a deal room team
 
-1. In Outlook, open an email to or from your customer, and then open Sales Copilot.
+1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
 1. On the **Highlights** tab, go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
-    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Sales Copilot for Outlook, with the Set up deal room button highlighted.":::
+    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up deal room button highlighted.":::
 
 1. In the **Set up a deal room** step, select **Create a new team**.
 
-    :::image type="content" source="media/deal-room-type-new.png" alt-text="Screenshot of the Set up a deal room team step in Sales Copilot for Outlook, with Create a new team highlighted.":::
+    :::image type="content" source="media/deal-room-type-new.png" alt-text="Screenshot of the Set up a deal room team step in Copilot for Sales for Outlook, with Create a new team highlighted.":::
 
 1. In the **Set up your team** step, change the team name, if necessary, select its sensitivity and privacy, and then select **Next**.
 
@@ -73,7 +73,7 @@ When you create a collaboration space with the deal room team template, you can 
 
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
-    :::image type="content" source="media/add-members-deal-room.png" alt-text="Screenshot of the Add team members step in Sales Copilot for Outlook.":::
+    :::image type="content" source="media/add-members-deal-room.png" alt-text="Screenshot of the Add team members step in Copilot for Sales for Outlook.":::
 
     > [!NOTE]
     > Selected team members are not added to the shared channel. Team owners must add them explicitly from Microsoft Teams.
@@ -88,7 +88,7 @@ When you create a collaboration space with the deal room team template, you can 
 
     Customers and colleagues aren't added to the shared channel automatically. Owners of the team can add members to the channel later directly in Teams.
 
-    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Sales Copilot for Outlook.":::
+    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Copilot for Sales for Outlook.":::
 
 1. Select **Set up team**.
 

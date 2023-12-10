@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 10/12/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,17 +16,17 @@ The meeting summary page provides a high-level view of how the conversation with
 
 ## View the meeting summary
 
-When the meeting summary is ready, you'll receive a message from the **Sales Copilot** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Sales Copilot** tab in the meeting.
+When the meeting summary is ready, you'll receive a message from the **Copilot for Sales** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Copilot for Sales** tab in the meeting.
 
-- Go to the **Sales Copilot** bot in your chat list and select **Open summary**.
+- Go to the **Copilot for Sales** bot in your chat list and select **Open summary**.
 
-  :::image type="content" source="media/meeting-summary.png" alt-text="Screenshot showing the Sales Copilot meeting summary card.":::
+  :::image type="content" source="media/meeting-summary.png" alt-text="Screenshot showing the Copilot for Sales meeting summary card.":::
 
-- Go to the meeting chat in your chat list, or open the event on your calendar in Teams, and select the **Sales Copilot** tab.
+- Go to the meeting chat in your chat list, or open the event on your calendar in Teams, and select the **Copilot for Sales** tab.
 
 If there are multiple recordings of a single meeting (happens when you stop and restart the recording), or recordings of a recurring meeting, you can view the meeting summary of an individual meeting by selecting the date from the drop-down list in the meeting summary.
 
-:::image type="content" source="media/recurring.png" alt-text="Screenshot showing the Sales Copilot meeting summary for a recurring meeting.":::
+:::image type="content" source="media/recurring.png" alt-text="Screenshot showing the Copilot for Sales meeting summary for a recurring meeting.":::
 
 ## Understand the meeting summary
 
@@ -40,12 +40,12 @@ The meeting summary page includes the following sections:
 
 ### Recap
 
-The **Recap** tab displays call highlights and follow-up action items that Sales Copilot identified during the call.
+The **Recap** tab displays call highlights and follow-up action items that Copilot for Sales identified during the call.
 
 > [!NOTE]
 > Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
 
-:::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Sales Copilot meeting summary.":::
+:::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Copilot for Sales meeting summary.":::
 
 To share the call highlights and follow-up action items, select **Copy to clipboard**, and then paste the data into an email, Teams chat, or any other medium you like. The summary appears in the following format:
 
@@ -59,7 +59,7 @@ To share the call highlights and follow-up action items, select **Copy to clipbo
 
 - **Follow-ups**: Displays action items in a bulleted list
 
-:::image type="content" source="media/recap.png" alt-text="Screenshot showing how to copy and paste content from Recap tab in Sales Copilot meeting summary.":::
+:::image type="content" source="media/recap.png" alt-text="Screenshot showing how to copy and paste content from Recap tab in Copilot for Sales meeting summary.":::
 
 You can create CRM tasks from the follow-up action items. More information: [Create CRM tasks from meeting summary](create-crm-tasks-meeting-summary.md)
 
@@ -102,7 +102,7 @@ To view details of a topic, hover over the keyword to open its card. By default,
 
 The **Details** tab displays the names of the people who participated in the meeting.
 
-:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Sales Copilot meeting summary.":::
+:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Copilot for Sales meeting summary.":::
 
 ### Call transcript and translation
 
@@ -125,4 +125,4 @@ The timeline also indicates the conversation segments, such as introduction, sol
 > [!NOTE]
 > The playback capability is available only to the meeting organizer and call recorder.
 
-:::image type="content" source="media/playback.png" alt-text="Screenshot showing the timeline playback in Sales Copilot meeting summary.":::
+:::image type="content" source="media/playback.png" alt-text="Screenshot showing the timeline playback in Copilot for Sales meeting summary.":::

@@ -1,7 +1,7 @@
 ---
-title: Supported languages in Sales Copilot for Outlook and Teams
-description: Lean which languages are supported in Sales Copilot
-ms.date: 08/17/2023
+title: Supported languages in Copilot for Sales for Outlook and Teams
+description: Lean which languages are supported in Copilot for Sales
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -11,7 +11,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Supported languages in Sales Copilot for Outlook and Teams 
+# Supported languages in Copilot for Sales for Outlook and Teams 
 
 
 
@@ -65,9 +65,9 @@ Conversation intelligence is available in the following languages:
 - Norwegian
 - Arabic
 
-## AI in Sales Copilot
+## AI in Copilot for Sales
 
-AI in Sales Copilot for suggested email content and email summary is available in the following languages:
+AI in Copilot for Sales for suggested email content and email summary is available in the following languages:
 
 - English
 - French

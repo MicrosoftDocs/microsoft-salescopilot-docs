@@ -1,7 +1,7 @@
 ---
-title: First Salesforce CRM user unable to access Sales Copilot
-description: Troubleshoot and resolve error messages in Sales Copilot related to signing in to Salesforce.
-ms.date: 10/31/2023
+title: First Salesforce CRM user unable to access Copilot for Sales
+description: Troubleshoot and resolve error messages in Copilot for Sales related to signing in to Salesforce.
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -11,30 +11,30 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# First Salesforce CRM user unable to access Sales Copilot
+# First Salesforce CRM user unable to access Copilot for Sales
 
-This article helps you troubleshoot and resolve error messages in Sales Copilot related to signing in to Salesforce.
+This article helps you troubleshoot and resolve error messages in Copilot for Sales related to signing in to Salesforce.
 
 ## Who is affected?
 
 | Requirement type |Description  |
 |---------|---------|
-|**Client app**     |  Sales Copilot Outlook add-in        |
+|**Client app**     |  Copilot for Sales Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce        |
-|**Users**     | First user who tries to sign-in to Salesforce CRM from Sales Copilot   |
+|**Users**     | First user who tries to sign-in to Salesforce CRM from Copilot for Sales   |
 
 ## Symptom
 
-When first user in an organization tries to sign-in to Salesforce CRM from Sales Copilot, a trial environment needs to be created. When the user does not have permission to create a trial environment, the following error message is displayed `To use this app, ask your Power Platform admin to let you use Sales Copilot, and include the error details in your request.`.
+When first user in an organization tries to sign-in to Salesforce CRM from Copilot for Sales, a trial environment needs to be created. When the user does not have permission to create a trial environment, the following error message is displayed `To use this app, ask your Power Platform admin to let you use Copilot for Sales, and include the error details in your request.`.
 
-:::image type="content" source="media/tsg-env-error.png" alt-text="Unable to access Sales Copilot.":::
+:::image type="content" source="media/tsg-env-error.png" alt-text="Unable to access Copilot for Sales.":::
 
 ## Root cause and resolution
 
-### Issue 1: First user failed to login to Salesforce CRM on Sales Copilot
+### Issue 1: First user failed to login to Salesforce CRM on Copilot for Sales
 
 #### Root cause
 
@@ -58,4 +58,4 @@ As a tenant administrator, allow users to create trial environments.
 
 ## Is your issue still not resolved?
 
-Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.

@@ -1,10 +1,10 @@
-- name: Microsoft Sales Copilot documentation
+- name: Microsoft Copilot for Sales documentation
   href: landing.yml
 
-- name: Welcome to Microsoft Sales Copilot
+- name: Welcome to Microsoft Copilot for Sales
   href: introduction.md
 
-- name: What's new in Sales Copilot
+- name: What's new in Copilot for Sales
   items:
   - name: What's new overview
     href: whats-new.md
@@ -36,17 +36,17 @@
     href: deploy-viva-sales-sf.md
   - name: Supported languages
     href: supported-languages.md
-  - name: Data handling in Sales Copilot
+  - name: Data handling in Copilot for Sales
     href: data-handling.md
-  - name: Install Sales Copilot
+  - name: Install Copilot for Sales
     items:
-    - name: Install Sales Copilot (admin-deployed)
+    - name: Install Copilot for Sales (admin-deployed)
       href: install-viva-sales.md
-    - name: Install Sales Copilot add-in for Outlook
+    - name: Install Copilot for Sales add-in for Outlook
       href: install-viva-sales-as-an-integrated-app.md
-    - name: Install and pin Sales Copilot in Teams
+    - name: Install and pin Copilot for Sales in Teams
       href: install-pin-viva-sales-teams.md
-    - name: Install Sales Copilot (user-deployed)
+    - name: Install Copilot for Sales (user-deployed)
       href: install-sales-copilot.md
 
 
@@ -60,17 +60,17 @@
     href: suggested-replies.md
   - name: Integrate with other applications (preview)
     href: use-extensions.md
-  - name: Turn off Sales Copilot features in Microsoft 365 apps
+  - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
 
 - name: Management
   items:
-  - name: Uninstall Sales Copilot add-in for Outlook
+  - name: Uninstall Copilot for Sales add-in for Outlook
     href: disable-viva-sales.md
-  - name: Block the Sales Copilot app in Teams
+  - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
 
-- name: Use Sales Copilot in Outlook
+- name: Use Copilot for Sales in Outlook
   items:
   - name: Overview
     href: use-sales-copilot-outlook.md
@@ -78,7 +78,7 @@
     href: connect-contact.md
   - name: Change the connected CRM contact
     href: change-connected-crm-contact.md
-  - name: Create a contact in your CRM from Sales Copilot
+  - name: Create a contact in your CRM from Copilot for Sales
     href: create-contact-crm-sales-copilot.md
   - name: Save Outlook activities to your CRM
     href: save-outlook-activities-crm.md
@@ -98,21 +98,21 @@
     href: view-diagnostics-data.md
   - name: Share feedback
     href: share-feedback.md
-  - name: Sign out of Sales Copilot
+  - name: Sign out of Copilot for Sales
     href: sign-out-sales-copilot.md
-  - name: Delete your personal data from Sales Copilot
+  - name: Delete your personal data from Copilot for Sales
     href: delete-personal-data.md
-  - name: Use server-side synchronization with Sales Copilot
+  - name: Use server-side synchronization with Copilot for Sales
     href: use-server-side-sync.md
 
 
-- name: Use Sales Copilot in Teams
+- name: Use Copilot for Sales in Teams
   items:
   - name: Overview
     href: use-sales-copilot-teams.md
   - name: Create a Teams meeting
     href: create-teams-meeting.md
-  - name: Use Sales Copilot app during a meeting
+  - name: Use Copilot for Sales app during a meeting
     href: use-sales-copilot-app-during-meeting.md
   - name: Generate a meeting summary
     href: generate-meeting-summary.md
@@ -127,7 +127,7 @@
   - name: Share feedback
     href: share-feedback-teams.md
 
-- name: AI in Sales Copilot
+- name: AI in Copilot for Sales
   items:
   - name: Overview
     href: ai-sales-copilot.md
@@ -138,7 +138,7 @@
   - name: View opportunity summary
     href: view-opportunity-summary.md
 
-- name: Collaboration space in Sales Copilot
+- name: Collaboration space in Copilot for Sales
   items:
   - name: Overview
     href: collaboration-space.md
@@ -151,11 +151,11 @@
   - name: Access linked teams and channels
     href: access-linked-teams-channels.md
 
-- name: Extend Sales Copilot (preview)
+- name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
     href: extend-sales-copilot.md
-  - name: Sales Copilot APIs
+  - name: Copilot for Sales APIs
     items:
     - name: Overview
       href: api-ref-partner-apps.md
@@ -172,9 +172,9 @@
   items:
   - name: Overview
     href: troubleshoot.yml
-  - name: Salesforce CRM users unable to see data in Sales Copilot
+  - name: Salesforce CRM users unable to see data in Copilot for Sales
     href: tsg-no-column.md
-  - name: First Salesforce CRM user unable to access Sales Copilot
+  - name: First Salesforce CRM user unable to access Copilot for Sales
     href: tsg-trial-env.md
   - name: Missing privileges in Dynamics 365
     href: tsg-missing-roles.md
@@ -186,7 +186,7 @@
     href: tsg-api-perm.md
   - name: Invalid mailbox settings in Dynamics 365
     href: tsg-mailbox-settings.md
-  - name: Sales Copilot doesn't connect to Dynamics 365
+  - name: Copilot for Sales doesn't connect to Dynamics 365
     href: tsg-two-factor.md
   - name: Update add-in error
     href: tsg-update-add-in-error.md
@@ -212,7 +212,7 @@
     href: tsg-disabled-connections-sf.md
   - name: Unable to sign in due to blocked Salesforce connector
     href: tsg-blocked-connector-sf.md
-  - name: Sign in error when opening Sales Copilot
+  - name: Sign in error when opening Copilot for Sales
     href: tsg-sign-in-error.md
   - name: No default BAP location found
     href: tsg-no-default-bap-loc.md
@@ -221,10 +221,10 @@
   - name: Opportunity summary not displayed in deal rooms
     href: tsg-oppty-summary.md
 
-- name: Sales Copilot FAQ
+- name: Copilot for Sales FAQ
   href: sales-copilot-faq.md
 
-- name: Sales Copilot training
+- name: Copilot for Sales training
   href: /training/modules/boost-sales-performance/
 
 - name: Responsible AI

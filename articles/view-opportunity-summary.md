@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 11/13/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,7 +16,7 @@ ms.custom:
 
 When reading an email or preparing for a meeting with a customer, you want to have relevant information from CRM, such as the customer asks, concerns, and notes, to help you get better context before the meeting.
 
-Sales Copilot uses AI to generate a summary of each opportunity with key information like sales stage, budget, and close date. This helps you interact better with customers and boost sales and customer satisfaction.
+Copilot for Sales uses AI to generate a summary of each opportunity with key information like sales stage, budget, and close date. This helps you interact better with customers and boost sales and customer satisfaction.
 
 If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed in the opportunity summary under the **Insights from People.ai** section. 
 
@@ -26,7 +26,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 > - The opportunity summary for an email is displayed only if the email is saved to CRM and connected to an opportunity.
 > - If a meeting is not connected to an opportunity, the opportunity summary for the meeting is displayed based on the most relevant opportunity selected by AI. You'll get an option to select another opportunity and regenerate the suggested content.
 > - When you when you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
-> - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Sales Copilot pane in Outlook.
+> - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Copilot for Sales pane in Outlook.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
 
@@ -43,7 +43,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 1. In Outlook, open an email or the scheduled meeting.
 
-1. Open the **Sales Copilot** pane.
+1. Open the **Copilot for Sales** pane.
 
     On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
 
@@ -88,7 +88,7 @@ The following insights are displayed:
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
-You can view activities that are related to CRM opportunities or deals from partner applications within Sales Copilot. To view activities from partner applications, you must:
+You can view activities that are related to CRM opportunities or deals from partner applications within Copilot for Sales. To view activities from partner applications, you must:
 
 1. Get the feature enabled, as it is not enabled by default.
 2. Create a connection using Power Apps connectors.
@@ -100,11 +100,11 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
 
 > [!NOTE]
-> - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
-> - If you are a partner application maker and would like to integrate with Sales Copilot, see Extend Sales Copilot. Currently, DocuSign can be integrated with Sales Copilot. 
+> - All Power Apps connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
+> - If you are a partner application maker and would like to integrate with Copilot for Sales, see Extend Copilot for Sales. Currently, DocuSign can be integrated with Copilot for Sales. 
 
 ### View latest activities
 
@@ -112,7 +112,7 @@ Latest activities from partner applications are displayed under the **Latest act
 
 :::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
 
-All the information about activities comes from the partner applications. Sales Copilot renders the activity information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+All the information about activities comes from the partner applications. Copilot for Sales renders the activity information retrieved from the partner application through the Power Apps connector. Copilot for Sales does not edit or filter the information.
 
 Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 
 

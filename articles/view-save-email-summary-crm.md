@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 10/17/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone. Additionally, it could potentially add noise to the CRM system, by overloading records with email exchanges.
 
-Sales Copilot uses AI to summarize email conversations and provides you with options to copy the summary and to add the summary to your CRM system as a note to a record.
+Copilot for Sales uses AI to summarize email conversations and provides you with options to copy the summary and to add the summary to your CRM system as a note to a record.
 
 When available, the summary includes information whether budget, stakeholders, need, and timing are mentioned in the email or not. This information is displayed only for external emails and when detected with a high probability by AI.
 
@@ -43,7 +43,7 @@ The generation of email summary is supported in the following languages: English
 
 1. In Outlook, open or reply to a customer email.
 
-1. Open the **Sales Copilot** pane.
+1. Open the **Copilot for Sales** pane.
 
 1. On the **Highlights** tab, the email summary is displayed in the **Summary of this email** card.
 
@@ -58,21 +58,21 @@ The generation of email summary is supported in the following languages: English
 
 1. Under **Select a record**, select one of the suggested records or use the search box to find another record.
 
-   If there are multiple opportunities related to contact, Sales Copilot displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
+   If there are multiple opportunities related to contact, Copilot for Sales displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
 
    > [!NOTE]
    > - If the email is already connected to an opportunity, it's selected by default.
    > - If no opportunity is connected, the top ranked opportunity, which is determined by the open opportunities available for the account or contact, and the content of the email, will be selected by default.
    > - When you search for a record, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    > - Your search results will be added to the suggested records list, so you can safely search and try again.
-   > - Currently, you can save the summary to one record using Sales Copilot.
-   > - You can connect to all record types that are enabled for activities and added to Sales Copilot by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+   > - Currently, you can save the summary to one record using Copilot for Sales.
+   > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    :::image type="content" source="media/select-record.png" alt-text="Screenshot showing how to select an opportunity to save the email summary.":::
 
 1. Select **Save**.
 
-    The email summary is saved to CRM as a note to the selected record. All Sales Copilot notes share the same subject: "[AI generated] Email summary from Sales Copilot" and include the subject of the email itself, as well as the timestamp when the note was saved.
+    The email summary is saved to CRM as a note to the selected record. All Copilot for Sales notes share the same subject: "[AI generated] Email summary from Copilot for Sales" and include the subject of the email itself, as well as the timestamp when the note was saved.
 
    :::image type="content" source="media/timeline.png" alt-text="Screenshot showing the Email summary saved as a note in CRM.":::
 

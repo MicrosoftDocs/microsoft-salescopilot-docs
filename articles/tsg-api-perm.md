@@ -1,7 +1,7 @@
 ---
 title: Error after connecting and signing in to Salesforce CRM
 description: Troubleshoot and resolve issues when an error message is displayed after connecting and signing in to Salesforce CRM.
-ms.date: 10/31/2023
+ms.date: 12/11/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -19,16 +19,16 @@ This article helps you troubleshoot and resolve issues when an error message is 
 
 | Requirement type |Description  |
 |---------|---------|
-|**Client app**     |  Sales Copilot Outlook add-in        |
+|**Client app**     |  Copilot for Sales Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
 |**CRM**     | Salesforce      |
-|**Users**     | Users trying to use Sales Copilot with Salesforce CRM |
+|**Users**     | Users trying to use Copilot for Sales with Salesforce CRM |
 
 ## Symptom
 
-After a user signs in to Salesforce CRM through Sales Copilot add-in for Outlook, the following error message is displayed: `Request your CRM administrator permissions to access Salesforce using APIs`
+After a user signs in to Salesforce CRM through Copilot for Sales add-in for Outlook, the following error message is displayed: `Request your CRM administrator permissions to access Salesforce using APIs`
 
 :::image type="content" source="media/tsg-api-perm-error.png" alt-text="API permission error":::
 
@@ -77,4 +77,4 @@ You must grant the **API Enabled** permission the user or user profile for the a
 
 ## Is your issue still not resolved?
 
-Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
