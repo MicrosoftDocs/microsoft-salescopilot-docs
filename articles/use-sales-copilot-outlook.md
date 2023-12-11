@@ -2,7 +2,7 @@
 title: Use Copilot for Sales in Microsoft Outlook
 description: Learn how to use Copilot for Sales in Outlook.
 ms.date: 12/11/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -32,14 +32,10 @@ You can open Copilot for Sales using any of the following options:
 - While drafting an email or creating a meeting
 
     - Select **Copilot for Sales** on the ribbon (in Classic ribbon)
-     
-        :::image type="content" source="media/sales-copilot-icon-desktop.png" alt-text="Screenshot showing Copilot for Sales icon in Outlook desktop.":::
-    
+   
     - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
     
-    - Select **Use Copilot now** in the banner message (for emails)
-    
-        :::image type="content" source="media/banner-message.png" alt-text="Screenshot showing Copilot for Sales banner message.":::
+    - Select **Show contact** or **Add contact** in the banner message (for emails)
     
     - Select **Show details** in the banner message (for meetings)
 
@@ -57,7 +53,7 @@ You can open Copilot for Sales using any of the following options:
     
     - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
     
-    - Select **Use Copilot now** in the banner message (for emails)
+    - Select **Show contact** or **Add contact** in the banner message (for emails)
     
     - Select **Show summary** in the banner message (for meetings)
     

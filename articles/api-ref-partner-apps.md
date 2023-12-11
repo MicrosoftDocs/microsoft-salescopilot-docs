@@ -2,7 +2,7 @@
 title: Get activities and records from partner apps (preview)
 description: Discover how to get the latest activities and related records from partner applications in Copilot for Sales.
 ms.date: 12/11/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

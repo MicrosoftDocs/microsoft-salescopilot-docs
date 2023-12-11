@@ -2,7 +2,7 @@
 title: Welcome to Microsoft Copilot for Sales
 description: Get to know Copilot for Sales
 ms.date: 12/11/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais

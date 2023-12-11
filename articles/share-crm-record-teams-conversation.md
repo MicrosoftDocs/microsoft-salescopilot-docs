@@ -38,7 +38,7 @@ With the Copilot for Sales app, you can:
 
     The record card is added to the message box.
 
-   :::image type="content" source="media/contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
+   :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
 
    > [!NOTE]
    > The fields on a record's card are displayed as configured by your CRM administrator.
@@ -65,8 +65,6 @@ With the Copilot for Sales app, you can:
       :::image type="content" source="media/advanced-search.png" alt-text="Screenshot showing the advanced search in Teams app.":::
 
 1. From the results, preview a record by selecting the down arrow next to the record name. Select a record to share it as a card on the chat.
-
-   :::image type="content" source="media/advanced-results.png" alt-text="Screenshot showing the advanced search results.":::
 
 ## Paste a link to a CRM record
 

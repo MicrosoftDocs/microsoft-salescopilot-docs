@@ -31,8 +31,6 @@ When you create a collaboration space with the account team template, you can [c
 
 1. In the **Set up an account team** step, select **Create a new team**.
 
-    :::image type="content" source="media/team-type-new.png" alt-text="Screenshot of the Set up an account team step in Copilot for Sales for Outlook, with Create a new team highlighted.":::
-
 1. In the **Set up your team** step, change the team name, if necessary, select its sensitivity label and privacy option, and then select **Next**.
 
     By default, the team name is set to the account name. Your tenant administrator might have set the [sensitivity label](/microsoftteams/sensitivity-labels) and privacy option in the tenant settings.
@@ -68,8 +66,6 @@ When you set up an account team for an existing team, a new channel is created i
     :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up account team button highlighted.":::
 
 1. In the **Set up an account team** step, select **Use an existing team**.
-
-    :::image type="content" source="media/team-type-existing.png" alt-text="Screenshot of the Set up an account team step in Copilot for Sales for Outlook, with Use an existing team highlighted.":::
 
 1. In the **Select a team** step, select a team from the list of teams that you own or are a member of, and then select **Next**.
 

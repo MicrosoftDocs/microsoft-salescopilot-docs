@@ -31,8 +31,6 @@ When you create a collaboration space with the deal room team template, you can 
 
 1. In the **Set up a deal room** step, select **Use an existing team**.
 
-    :::image type="content" source="media/deal-room-type-existing.png" alt-text="Screenshot of the Set up a deal room team step in Copilot for Sales for Outlook, with Use an existing team highlighted.":::
-
 1. In the **Select a team** step, select a team from the list of teams that you own or are a member of, and then select **Next**.
 
     If the opportunity's parent account is already linked to a team, the linked team is shown as the recommended one to create the deal room channel in. You can create the channel in any of the other teams listed, however.
@@ -62,8 +60,6 @@ When you create a collaboration space with the deal room team template, you can 
     :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up deal room button highlighted.":::
 
 1. In the **Set up a deal room** step, select **Create a new team**.
-
-    :::image type="content" source="media/deal-room-type-new.png" alt-text="Screenshot of the Set up a deal room team step in Copilot for Sales for Outlook, with Create a new team highlighted.":::
 
 1. In the **Set up your team** step, change the team name, if necessary, select its sensitivity and privacy, and then select **Next**.
 
