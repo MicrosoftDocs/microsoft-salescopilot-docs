@@ -2,7 +2,7 @@
 title: AI in Sales Copilot
 description: Learn how to use AI in Sales Copilot.
 ms.date: 08/28/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

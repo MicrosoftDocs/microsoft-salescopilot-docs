@@ -102,7 +102,7 @@ After you've installed Sales Copilot, you can open Sales Copilot and sign in to 
 
 1.  Select **Add** in the **Sales Copilot** window.
 
-	:::image type="content" source="media/add-sales-copilot.png" alt-text="Screenshot showing add Viva Sales app.":::
+	:::image type="content" source="media/add-sales-copilot.png" alt-text="Screenshot showing add Sales Copilot app.":::
 
 ### Start using Sales Copilot in Teams
 
