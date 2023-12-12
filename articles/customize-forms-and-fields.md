@@ -268,12 +268,10 @@ When you enable leads support in Sales Copilot, leads related accounts and other
 
 After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new contact or lead. You'll be able to choose whether you want to add an external email address as a contact or a lead.
 
-All the [prerequisites](#prerequisites-1) must be met before you or your sellers can use this feature.
-
 ### Prerequisites
 
 - Turn on leads support
-    - Fill out the [preview request form](link) to enable leads support in your environment.
+    - Fill out the [preview request form](https://ncv.microsoft.com/fkzZ0QIiU6) to enable leads support in your environment.
  
 - Recognize leads in Sales Copilot
     - You must add the Leads record (or Salesforce object) to Sales Copilot admin settings.
