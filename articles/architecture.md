@@ -2,7 +2,7 @@
 title: Sales Copilot architecture
 description: Information about Microsoft Sales Copilot architecture
 ms.date: 11/27/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais

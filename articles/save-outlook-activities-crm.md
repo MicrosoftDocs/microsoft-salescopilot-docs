@@ -22,7 +22,7 @@ Updating the CRM with all your activities across all the communication channels 
 >
 > - Saving Outlook activities from shared mailboxes is not supported.
 >
-> - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved. 
+> - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 
 1. Open the email or meeting you want to save to the CRM, and then open Sales Copilot.
 

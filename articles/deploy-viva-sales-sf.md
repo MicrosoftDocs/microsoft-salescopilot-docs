@@ -65,7 +65,7 @@ Users of Sales Copilot need to be API enabled in Salesforce so that they can acc
 
 ## Step 5: Ensure Salesforce connector isn't blocked in Power Platform
 
-If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in DLP policy](tsg-blocked-connector-sf.md)
+If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in the DLP policy](tsg-blocked-connector-sf.md)
 
 ## Step 6: Ensure Microsoft Power Platform connected app isn't blocked in Salesforce
 
@@ -82,7 +82,7 @@ Sales Copilot uses the Power Platform connector to connect to Salesforce CRM. En
 
 4. Select **Microsoft Power Platform** to view details about the connected app. 
 
-5. Under **OAuth Policies**, ensure the following:
+5. Under **OAuth Policies**, ensure that you've set the following values:
 
     1. Value for **Permitted Users** is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
 
