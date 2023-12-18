@@ -27,13 +27,13 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 | Annotation | Description |
 |------------|-------------|
 | 1 | Information from CRM is displayed in blue. More information: [View data source in suggested content](#view-data-source-in-suggested-content) |
-| 2 | Meeting time suggested. More information: [Add or remove meeting suggestion](#add-or-remove-meeting-suggestion) |
+| 2 | Meeting time suggested. More information: [Add or remove meeting suggestion](#add-or-remove-meeting-suggestions) |
 | 3 | Share feedback using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 | 4 | Change the opportunity used in suggested content. More information: [Enhance suggested content with another opportunity](#enhance-suggested-content-with-another-opportunity) |
 | 5 | Add the suggested content to email. |
 | 6 | Copy the suggested content and paste it in email or Teams chat. |
 | 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li><li>Start over and generate a new suggested content.</li></ul> |
-| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestion)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
+| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
 
 ## Supported languages
 
