@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
 description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
-ms.date: 11/22/2023
+ms.date: 12/18/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -47,9 +47,9 @@ You can get suggested responses when you reply to a customer email or as you're 
 
     - Open a customer email and select **Reply**. In the banner message at the top of the draft email, select **Use Copilot now**.
 
-    - When you're reading an email, open the Sales Copilot pane.
+    - When you're reading an email, open the **Sales Copilot** pane.
 
-1. On the **Highlights** tab, select a pre-defined category.
+1. On the **Highlights** tab, in the **Key info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
 
    :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the pre-defined response categories.":::
 
@@ -84,11 +84,11 @@ You can get suggested email content when you reply to a customer email, read an 
 
     - When replying to a customer's email or composing a new email, select **Use Copilot now** in the banner message at the top of the draft email.
 
-    - When you're reading an email, open the Sales Copilot pane.
+    - When you're reading an email, open the **Sales Copilot** pane.
 
-1. On the **Highlights** tab, select **Describe the email you want**.
+1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
-   :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the Pre-defined response categories.":::
+   :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 
    > [!NOTE]
    > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email-preview).
@@ -142,7 +142,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 1.  Open Sales Copilot.
 
-2.  On the **Highlights** tab, select **Describe the email you want**.
+2.  On the **Highlights** tab, select **Draft an email**.
 
 3.  Under the **Favorites** section, select the prompt you want to use.
 
@@ -154,7 +154,7 @@ You can save a maximum of three prompts. If you want to save more prompts, you m
 
 1.  Open Sales Copilot.
 
-2.  On the **Highlights** tab, select **Describe the email you want**.
+2.  On the **Highlights** tab, select **Draft an email**.
 
 3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 
@@ -304,19 +304,19 @@ You can only restore to the previous draft. For example, you can restore draft #
 
 To restore suggested content to its previous version, select **More options**, and then select **Restore last version**.
 
-## Add or remove meeting suggestion
+## Add or remove meeting suggestions
 
 By default, a meeting time is not included in the suggested content. If a customer has requested a meeting at a certain time and mentioned the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
 
 ### Add a meeting time suggestion
 
-If you want to have a meeting with a customer, you can include a meeting time in the suggested content. The meeting time suggested is the first available slot in your calendar.
+If you want to have a meeting with a customer, you can include a meeting time in the suggested content. Three meeting time slots, first available in your calendar, are suggested. You can choose one or more meeting time slots to include in the suggested content.
 
 1. Generate the suggested content using an appropriate response category.
 
 1. Select **Adjust draft**.
 
-1. Under **Suggest a meeting time**, select the meeting time displayed.
+1. Under **Suggest a meeting time**, select the meeting time you want to include in the suggested content.
 
    :::image type="content" source="media/meeting-time.png" alt-text="Screenshot showing the meeting time selected.":::
 
@@ -329,8 +329,6 @@ If you want to have a meeting with a customer, you can include a meeting time in
 1. Select **Adjust draft**.
 
 1. Under **Suggest a meeting time**, clear the meeting time selected.
-
-   :::image type="content" source="media/remove-suggestion.png" alt-text="Screenshot showing where to remove a meeting time suggestion.":::
 
 1. Select **Update**.
 
@@ -381,13 +379,14 @@ With Sales Copilot, you can summarize your most recent transcribed Teams meeting
 
     - When you're composing a new email, open the Sales Copilot pane or select **Use Copilot now** in the banner message at the top of the email.
 
-1. On the **Highlights** tab, details such as meeting name and time of the most recent transcribed Teams meeting are displayed in the **Summarize a sales meeting** button. Select the button to create a summary.
+1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
-   :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
+    Under the **Suggested** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
 
-   To select another meeting to summarize, select the down arrow to see up to five recently transcribed meetings. Select a meeting to create a summary.
-
-   :::image type="content" source="media/select-meeting.png" alt-text="Screenshot showing where to select a meeting to summarize.":::
+   > [!TIP]
+   > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
+   
+    :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
 
 1. Review the suggested content.
 

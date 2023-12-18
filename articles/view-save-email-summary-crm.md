@@ -1,11 +1,15 @@
 ---
 title: View and save email summary to CRM
-description: Learn how to view and save an email summary to CRM.
-ms.date: 10/17/2023
+description: Save the email summary to your CRM system as a note to a record with Sales Copilot's AI.
+ms.date: 12/18/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/18/2023
 ---
 
 # View and save email summary to CRM
@@ -21,9 +25,8 @@ When available, the summary includes information whether budget, stakeholders, n
 | Annotation | Description |
 |------------|-------------|
 | 1 | Citation number to show email text used to generate summary. More information: [View data source](#view-data-source-in-email-summary) |
-| 2 | Copy the email summary to clipboard. You can then paste the content as per your preferences. |
-| 3 | Save the email summary to your CRM system as a note to a record. More information: [Save the email summary to CRM](#save-email-summary-to-crm) |
-| 4 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
+| 2 | **More options** menu to: <ul><li>[Save the email summary to your CRM system as a note to a record](#save-email-summary-to-crm)</li><li>Copy the email summary to clipboard. You can then paste the content as per your preferences.</li></ul> |
+| 3 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 
 > [!NOTE]
 >
@@ -45,16 +48,16 @@ The generation of email summary is supported in the following languages: English
 
 1. Open the **Sales Copilot** pane.
 
-1. On the **Highlights** tab, the email summary is displayed in the **Summary of this email** card.
+1. On the **Highlights** tab, the email summary is displayed in the **Key info** card.
 
 > [!NOTE]
-> If the email content is less than 1000 characters, the email summary will not be generated, and the **Summary of this email** card is not displayed.
+> If the email content is less than 1000 characters, the email summary is not generated.
 
 ## Save email summary to CRM
 
 1. [View the email summary](#view-email-summary).
 
-1. In the **Summary of this email** card, select **Save summary**.
+1. In the **Key info** card, select **More options** (**...**), and then select **Save summary to (CRM)**.
 
 1. Under **Select a record**, select one of the suggested records or use the search box to find another record.
 
