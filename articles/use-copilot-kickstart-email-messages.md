@@ -310,7 +310,7 @@ By default, a meeting time is not included in the suggested content. If a custom
 
 ### Add a meeting time suggestion
 
-If you want to have a meeting with a customer, you can include a meeting time in the suggested content. Three meeting time slots, first available in your calendar, are suggested. You can choose one or more meeting time slots to include in the suggested content.
+If you want to have a meeting with a customer, you can include a meeting time in the suggested content. Based on your calendar, the first three available time slots are suggested for the meeting. You can choose one or more meeting time slots to include in the suggested content.
 
 1. Generate the suggested content using an appropriate response category.
 
