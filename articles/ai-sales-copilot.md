@@ -20,7 +20,7 @@ Some of the AI capabilities of Sales Copilot are:
 
 - **Understand the data sources behind generated content**: Hover over any highlighted areas of text to view the data sources behind generated content. More information: [View CRM data](use-copilot-kickstart-email-messages.md#view-data-source-in-suggested-content)
 
-- **Summarize latest meeting**: Generate a summary of your interaction, relevant action items, and next steps with a single click. Review the email, make any changes, and send it to all meeting participants.  More information: [Create a sales meeting summary email](use-copilot-kickstart-email-messages.md#create-a-sales-meeting-summary-email-preview)
+- **Summarize latest meeting**: Generate a summary of your interaction, relevant action items, and next steps with a single click. Review the email, make any changes, and send it to all meeting participants.  More information: [Create a sales meeting summary email](use-copilot-kickstart-email-messages.md#create-a-sales-meeting-summary-email)
 
 - **Email conversation summary**: View the summary of an email conversation and save it to your CRM system as a note to an opportunity. More information: [View and update CRM with email conversation summary](view-save-email-summary-crm.md)
 
