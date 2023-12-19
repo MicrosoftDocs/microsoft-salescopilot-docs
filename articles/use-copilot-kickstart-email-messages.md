@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
 description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
-ms.date: 12/18/2023
+ms.date: 12/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -91,7 +91,7 @@ You can get suggested email content when you reply to a customer email, read an 
    :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 
    > [!NOTE]
-   > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email-preview).
+   > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send, and then press **Enter**.
 
@@ -296,7 +296,7 @@ You can't restore suggested content to the previous version in the following sce
 
 - You [change the opportunity](#enhance-suggested-content-with-another-opportunity) and create a new draft.
 
-- You [change the meeting](#change-the-meeting-used-to-create-a-summary-preview) and create a new draft.
+- You [change the meeting](#change-the-meeting-used-to-create-a-summary) and create a new draft.
 
 - When only the first draft is generated.
 
@@ -361,10 +361,7 @@ You can set the language of the suggested content to be one of the supported lan
 
 1. Edit the email content as required, and then send it.
 
-## Create a sales meeting summary email (preview)
-
-> [!IMPORTANT]
-> This feature is currently available only for public preview and is subject to change.
+## Create a sales meeting summary email
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
@@ -392,7 +389,7 @@ With Sales Copilot, you can summarize your most recent transcribed Teams meeting
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    If required, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary-preview).
+    If required, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary).
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -403,10 +400,7 @@ With Sales Copilot, you can summarize your most recent transcribed Teams meeting
 
 1. Edit the email content as required, and then send it.
 
-## Change the meeting used to create a summary (preview)
-
-> [!IMPORTANT]
-> This feature is currently available only for public preview and is subject to change.
+## Change the meeting used to create a summary
 
 You can choose from the recent recorded Teams meetings that you had with sales contacts on an email.
 
