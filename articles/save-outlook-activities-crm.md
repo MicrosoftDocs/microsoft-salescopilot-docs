@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 10/04/2023
+ms.date: 12/07/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,6 +21,8 @@ Updating the CRM with all your activities across all the communication channels 
 > - If you are using Dynamics 365 as your CRM, you can save draft emails and appointments to Dynamics 365. The email is not saved to the CRM immediately, but only after it is sent. The appointment is saved immediately to the CRM. If you update the appointment after it is saved to the CRM, the changes are saved to the CRM automatically.
 >
 > - Saving Outlook activities from shared mailboxes is not supported.
+>
+> - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 
 1. Open the email or meeting you want to save to the CRM, and then open Sales Copilot.
 

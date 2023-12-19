@@ -2,7 +2,7 @@
 title: Use Sales Copilot in Microsoft Outlook
 description: Learn how to use Sales Copilot in Outlook.
 ms.date: 07/20/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
