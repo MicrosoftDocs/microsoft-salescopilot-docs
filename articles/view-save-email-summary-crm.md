@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Save the email summary to your CRM system as a note to a record with Sales Copilot's AI.
-ms.date: 12/18/2023
+ms.date: 12/19/2023
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
