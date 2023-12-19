@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft Sales Copilot to help your sellers write better emails and stay on top of their deals.
-ms.date: 11/30/2023
+ms.date: 12/19/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -69,8 +69,6 @@ The following Copilot AI features are generally available:
 - **View and save email summary**: Allows sellers to view a summary of recent emails and save it to the CRM system.
 
 - **View opportunity summary**: Allows sellers to view a summary of recent notes added to an opportunity.
-
-The following Copilot AI feature is in preview:
 
 - **Summarize sales meeting**: Offers an automated recap of a recently recorded Teams meeting with sales contacts that sellers can easily insert in an email.
 
