@@ -58,4 +58,4 @@ To minimize the impact, users should carefully review and tailor the follow-up e
 
 ## See also
 
-- [Create a sales meeting summary email](use-copilot-kickstart-email-messages.md#create-a-sales-meeting-summary-email-preview)
+- [Create a sales meeting summary email](use-copilot-kickstart-email-messages.md#create-a-sales-meeting-summary-email)

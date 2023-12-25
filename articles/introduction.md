@@ -1,8 +1,8 @@
 ---
 title: Welcome to Microsoft Sales Copilot
 description: Get to know Sales Copilot
-ms.date: 11/03/2023
-ms.topic: article
+ms.date: 11/27/2023
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
 author: sbmjais
@@ -17,6 +17,10 @@ Microsoft Sales Copilot is a seller experience application that uses Microsoft 3
 
 > [!NOTE]
 > Sales Copilot is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
+
+Here's a video that gives you a quick overview of Sales Copilot.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1f1Ja]
 
 ## License requirements
 

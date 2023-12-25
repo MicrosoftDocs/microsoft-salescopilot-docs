@@ -2,7 +2,7 @@
 title: Use Sales Copilot in Teams
 description: Learn how to use Sales Copilot in Teams.
 ms.date: 08/28/2023
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

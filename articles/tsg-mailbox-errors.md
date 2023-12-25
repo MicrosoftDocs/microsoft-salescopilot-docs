@@ -19,7 +19,7 @@ This article helps you troubleshoot and resolve mailbox errors in Dynamics 365.
 
 | Requirement type |Description  |
 |---------|---------|
-|**Client app**     |  Viva Sales Outlook add-in        |
+|**Client app**     |  Sales Copilot Outlook add-in        |
 |**Platform**     | Web and desktop clients         |
 |**OS**     | Windows and Mac         |
 |**Deployment**     | User managed and admin managed       |
@@ -72,4 +72,4 @@ To resolve the error, you must locate the specific error as part of the mailbox 
 
 ## Is your issue still not resolved?
 
-Visit the [Viva Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
+Visit the [Sales Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) to engage with our experts.
