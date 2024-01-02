@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft Sales Copilot to help your sellers write better emails and stay on top of their deals.
-ms.date: 12/19/2023
+ms.date: 01/02/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -19,6 +19,9 @@ Sales Copilot can use communication with sales contacts and information from you
 Copilot AI features might or might not be turned on by default, depending on where your tenant is located. For instance, if you're a new customer, your Dynamics 365 organization is located in North America or Europe, and your CRM resides in the same geography as Microsoft Entra ID, then Copilot AI features are turned on by default. Otherwise, you need to turn them on before your sellers can use them.
 
 Copilot AI features in Sales Copilot are available only in some [supported languages](supported-languages.md).
+
+> [!NOTE]
+> It takes up to 30 minutes for changes to take effect. 
 
 ## Turn on Copilot AI features for your organization
 
