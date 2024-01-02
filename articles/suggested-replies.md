@@ -21,7 +21,7 @@ Copilot AI features might or might not be turned on by default, depending on whe
 Copilot AI features in Sales Copilot are available only in some [supported languages](supported-languages.md).
 
 > [!NOTE]
-> It takes up to 30 minutes for changes to take effect. 
+> After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.
 
 ## Turn on Copilot AI features for your organization
 
