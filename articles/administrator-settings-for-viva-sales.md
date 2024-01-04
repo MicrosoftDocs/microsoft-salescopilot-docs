@@ -1,14 +1,12 @@
 ---
 title: Administrator settings for Sales Copilot
 description: Learn how to use administrator settings to customize the Microsoft Sales Copilot experience in Outlook and Teams.
-ms.date: 11/30/2023
+ms.date: 01/04/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
-ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.localizationpriority: medium
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -113,7 +111,7 @@ If you're signed in with tenant administrator or CRM administrator credentials, 
 
 ### Can I change the administrator settings on my mobile device?
 
-Access to Sales Copilot administrator settings on a mobile device isn't supported. Work with administrator settings in the Teams desktop app or the web app.
+Administrator settings can't be opened on phones, small tablets, or windows that are smaller than 768 pixels wide. You must use a desktop or laptop to access the settings in the Teams desktop app or the web app.
 
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 
