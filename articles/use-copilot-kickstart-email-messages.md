@@ -1,11 +1,15 @@
 ---
 title: Use Copilot to kickstart email messages
-description: Learn how to use Copilot to kickstart email messages.
-ms.date: 08/28/2023
+description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
+ms.date: 01/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/08/2023
 ---
 
 # Use Copilot to kickstart email messages
@@ -23,17 +27,17 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 | Annotation | Description |
 |------------|-------------|
 | 1 | Information from CRM is displayed in blue. More information: [View data source in suggested content](#view-data-source-in-suggested-content) |
-| 2 | Meeting time suggested. More information: [Add or remove meeting suggestion](#add-or-remove-meeting-suggestion) |
+| 2 | Meeting time suggested. More information: [Add or remove meeting suggestion](#add-or-remove-meeting-suggestions) |
 | 3 | Share feedback using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 | 4 | Change the opportunity used in suggested content. More information: [Enhance suggested content with another opportunity](#enhance-suggested-content-with-another-opportunity) |
 | 5 | Add the suggested content to email. |
 | 6 | Copy the suggested content and paste it in email or Teams chat. |
-| 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li></ul> |
-| 8 | **Adjust draft** menu to:<ul><li>Select tone of the suggested content. More information: [Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>Enter text to refine the suggested content. More information: [Refine suggested content](#refine-suggested-content)</li></ul> |
+| 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li><li>Start over and generate a new suggested content.</li></ul> |
+| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
 
 ## Supported languages
 
-AI in Sales Copilot is supported in the following languages: English, Spanish, German, and French. The email and custom text must be in one of the supported languages to generate the suggested content.
+AI in Sales Copilot is supported in the following languages: English, Spanish, German, and French. The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
 ## Create an email reply using pre-defined categories
 
@@ -43,9 +47,9 @@ You can get suggested responses when you reply to a customer email or as you're 
 
     - Open a customer email and select **Reply**. In the banner message at the top of the draft email, select **Use Copilot now**.
 
-    - When you're reading an email, open the Sales Copilot pane.
+    - When you're reading an email, open the **Sales Copilot** pane.
 
-1. On the **Highlights** tab, select a pre-defined category.
+1. On the **Highlights** tab, in the **Key info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
 
    :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the pre-defined response categories.":::
 
@@ -64,30 +68,30 @@ You can get suggested responses when you reply to a customer email or as you're 
 
 1. Edit the email content as required, and then send it.
 
-## Create an email message using custom text
+## Create an email message using custom prompt
 
-If the pre-defined response categories don't suit your requirements, you can enter custom text to generate suggested content.
+If the pre-defined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
 
 You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
 > [!NOTE]
 >
-> - Information from CRM is not displayed when using custom text to generated suggested email content.
+> - Information from CRM is not displayed when using custom prompt to generated suggested email content.
 >
-> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom text. If you add an external email address, pre-defined response categories are made available.
+> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, pre-defined response categories are made available.
 
 1. In Outlook:
 
     - When replying to a customer's email or composing a new email, select **Use Copilot now** in the banner message at the top of the draft email.
 
-    - When you're reading an email, open the Sales Copilot pane.
+    - When you're reading an email, open the **Sales Copilot** pane.
 
-1. On the **Highlights** tab, select **Describe the email you want**.
+1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
-   :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the Pre-defined response categories.":::
+   :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 
    > [!NOTE]
-   > Pre-defined response categories are not available while composing a new email. You can only enter custom text or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email-preview).
+   > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send, and then press **Enter**.
 
@@ -106,7 +110,7 @@ You can get suggested email content when you reply to a customer email, read an 
 
 ### Custom prompt best practices
 
-Here are some best practices for writing custom text:
+Here are some best practices for writing custom prompt:
 
 - **Keep it concise**: Although the AI engine can handle longer prompts, shorter prompts are simpler to use and can help you get targeted replies.
 
@@ -117,6 +121,47 @@ Here are some best practices for writing custom text:
 - **Avoid using personal pronouns**: Don't include personal pronouns (for example, "I," "me," "my") in your prompts.
 
 - **Keep it appropriate**: The AI uses a general-purpose language model and can generate responses to a wide variety of prompts. It's always a good idea to keep your prompts appropriate for a general audience.
+
+## Save and reuse custom prompts
+
+When you create an email message using custom prompt, you can save the prompt for future use. This helps you save time and effort when you need to send similar messages to multiple recipients. You can save up to three prompts and reuse them as and when required.
+
+### Save a custom prompt
+
+1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
+
+2.  At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
+
+    :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
+
+    The prompt is saved and displayed under the **Favorites** section when you create a new email message using custom prompt.
+
+    :::image type="content" source="media/saved-prompt.png" alt-text="Screenshot showing a saved prompt.":::
+
+### Use a saved prompt
+
+1.  Open Sales Copilot.
+
+2.  On the **Highlights** tab, select **Draft an email**.
+
+3.  Under the **Favorites** section, select the prompt you want to use.
+
+    :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
+
+### Remove a saved prompt
+
+You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
+
+1.  Open Sales Copilot.
+
+2.  On the **Highlights** tab, select **Draft an email**.
+
+3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
+
+    Alternately, you can generate suggested content using the saved prompt, and then select the star icon :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
+
+    :::image type="content" source="media/remove-prompt.png" alt-text="Screenshot showing icon to remove a saved prompt":::
+
 
 ## Enhance suggested content with another opportunity
 
@@ -197,6 +242,29 @@ After you've generated the suggested content, you can refine the results furthe
 
 1. Edit the email content as required, and then send it.
 
+## Set length of suggested content
+
+You can set the length of the suggested content to be short, medium, or long. The default length is medium. 
+
+1. Generate the suggested reply using an appropriate response category.
+
+1. Select **Adjust draft**.
+
+1. Under **Length**, select the content length you want to use and then select **Update**.
+
+1. Review the suggested content.
+
+    To generate a different suggestion, select **More options**, and then select **Try again**.
+
+    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+
+   > [!NOTE]
+   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+
+1. Edit the email content as required, and then send it.
+
 ## Adjust tone of the suggested content
 
 After you've generated the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
@@ -205,7 +273,7 @@ After you've generated the suggested content, you can adjust the tone of the con
 
 1. Select **Adjust draft**.
 
-1. Select the tone you want to use and then select **Update**.
+1. Under **Adjust tone**, select the tone you want to use and then select **Update**.
 
 1. Review the suggested content.
 
@@ -213,7 +281,7 @@ After you've generated the suggested content, you can adjust the tone of the con
 
     [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
 
-1. Select **Add to email** to paste the content in the email body or **Copy** **content** when you are reading an email.
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
 
    > [!NOTE]
    > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
@@ -228,7 +296,7 @@ You can't restore suggested content to the previous version in the following sce
 
 - You [change the opportunity](#enhance-suggested-content-with-another-opportunity) and create a new draft.
 
-- You [change the meeting](#change-the-meeting-used-to-create-a-summary-preview) and create a new draft.
+- You [change the meeting](#change-the-meeting-used-to-create-a-summary) and create a new draft.
 
 - When only the first draft is generated.
 
@@ -236,19 +304,19 @@ You can only restore to the previous draft. For example, you can restore draft #
 
 To restore suggested content to its previous version, select **More options**, and then select **Restore last version**.
 
-## Add or remove meeting suggestion
+## Add or remove meeting suggestions
 
 By default, a meeting time is not included in the suggested content. If a customer has requested a meeting at a certain time and mentioned the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
 
 ### Add a meeting time suggestion
 
-If you want to have a meeting with a customer, you can include a meeting time in the suggested content. The meeting time suggested is the first available slot in your calendar.
+If you want to have a meeting with a customer, you can include a meeting time in the suggested content. Based on your calendar, the first three available time slots are suggested for the meeting. You can choose one or more meeting time slots to include in the suggested content.
 
 1. Generate the suggested content using an appropriate response category.
 
 1. Select **Adjust draft**.
 
-1. Under **Suggest a meeting time**, select the meeting time displayed.
+1. Under **Suggest a meeting time**, select the meeting time you want to include in the suggested content.
 
    :::image type="content" source="media/meeting-time.png" alt-text="Screenshot showing the meeting time selected.":::
 
@@ -262,14 +330,9 @@ If you want to have a meeting with a customer, you can include a meeting time in
 
 1. Under **Suggest a meeting time**, clear the meeting time selected.
 
-   :::image type="content" source="media/remove-suggestion.png" alt-text="Screenshot showing where to remove a meeting time suggestion.":::
-
 1. Select **Update**.
 
-## Create a sales meeting summary email (preview)
-
-> [!IMPORTANT]
-> This feature is currently available only for public preview and is subject to change.
+## Create a sales meeting summary email
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
@@ -284,19 +347,20 @@ With Sales Copilot, you can summarize your most recent transcribed Teams meeting
 
     - When you're composing a new email, open the Sales Copilot pane or select **Use Copilot now** in the banner message at the top of the email.
 
-1. On the **Highlights** tab, details such as meeting name and time of the most recent transcribed Teams meeting are displayed in the **Summarize a sales meeting** button. Select the button to create a summary.
+1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
-   :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
+    Under the **Suggested** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
 
-   To select another meeting to summarize, select the down arrow to see up to five recently transcribed meetings. Select a meeting to create a summary.
-
-   :::image type="content" source="media/select-meeting.png" alt-text="Screenshot showing where to select a meeting to summarize.":::
+   > [!TIP]
+   > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
+   
+    :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
 
 1. Review the suggested content.
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    If required, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary-preview).
+    If required, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary).
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -307,10 +371,7 @@ With Sales Copilot, you can summarize your most recent transcribed Teams meeting
 
 1. Edit the email content as required, and then send it.
 
-## Change the meeting used to create a summary (preview)
-
-> [!IMPORTANT]
-> This feature is currently available only for public preview and is subject to change.
+## Change the meeting used to create a summary
 
 You can choose from the recent recorded Teams meetings that you had with sales contacts on an email.
 
@@ -346,7 +407,7 @@ If you have any feedback about the suggested content, you can share it by select
 
 ## Text moderation
 
-Text moderation uses machine-assisted classification to help detect potentially inappropriate   content  and reject it when you use custom text to generated suggested content or refine the already generated suggested content. It conveys the likelihood of each category. The feature uses a trained model to identify possible abusive, derogatory, or discriminatory language. This includes slang, abbreviated words, offensive, and intentionally misspelled words.
+Text moderation uses machine-assisted classification to help detect potentially inappropriate   content  and reject it when you use custom prompt to generated suggested content or refine the already generated suggested content. It conveys the likelihood of each category. The feature uses a trained model to identify possible abusive, derogatory, or discriminatory language. This includes slang, abbreviated words, offensive, and intentionally misspelled words.
 
 If you enter text that contains undesired or inappropriate content (potential presence of language that may be considered sexually explicit, suggestive, adult, or offensive), the suggested content is not generated, and an error message is displayed.
 
@@ -364,6 +425,6 @@ When you open the Sales Copilot pane while you're reading or replying to an ema
 
 - CRM data connected through Sales Copilot
 
-- The response category you selected or custom text you entered
+- The response category you selected or custom prompt you entered
 
 If the email contact doesn't match a contact in the CRM, no CRM data is sent to the AI engine.

@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 07/20/2023
+ms.date: 01/04/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,6 +19,9 @@ When you read an email from external contacts or compose an email to external co
 - External email address matches none of the CRM contacts
 
 - External email address matches multiple CRM contacts
+
+> [!NOTE]
+> If you're using Sales Copilot with Dynamics 365, the email address of the external contact must be populated in the EmailAddress1 field of the contact record in Dynamics 365 to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, Sales Copilot won't be able to connect the external contact to the CRM contact.
 
 ## External email address matches only one CRM contact
 

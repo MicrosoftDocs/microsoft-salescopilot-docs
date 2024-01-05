@@ -1,7 +1,7 @@
 ---
 title: Create a Teams meeting
 description: Learn how to create a Teams meeting.
-ms.date: 08/28/2023
+ms.date: 01/03/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,6 @@ Your Sales Copilot journey starts when you [create a Teams meeting in Outlook](h
 
 > [!NOTE]
 > If you create a meeting directly from Teams calendar, you must [add the app manually](sales-copilot-faq.md#how-can-i-add-the-sales-copilot-app-manually-to-a-teams-meeting).
-
 Keep these important points about conversation insights in mind:
 
 - You must create the meeting in Outlook and turn on the **Teams meeting** toggle. If you create the meeting in Teams, the Sales Copilot app isn't added to the meeting and meeting insights aren't generated.
