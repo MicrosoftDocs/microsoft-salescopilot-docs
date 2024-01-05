@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
 description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
-ms.date: 12/19/2023
+ms.date: 01/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -33,7 +33,7 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 | 5 | Add the suggested content to email. |
 | 6 | Copy the suggested content and paste it in email or Teams chat. |
 | 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li><li>Start over and generate a new suggested content.</li></ul> |
-| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
+| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
 
 ## Supported languages
 
@@ -331,35 +331,6 @@ If you want to have a meeting with a customer, you can include a meeting time in
 1. Under **Suggest a meeting time**, clear the meeting time selected.
 
 1. Select **Update**.
-
-## Set language of suggested content
-
-The language of the suggested content is determined as follows:
-- If you're replying to an email, the language of the suggested content is the same as the language of the email. 
-- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt. 
-
-In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
-
-You can set the language of the suggested content to be one of the supported languages. The default language is set to English.
-
-1. Generate the suggested reply using an appropriate response category.
-
-1. Select **Adjust draft**.
-
-1. Under **Draft language**, select the language you want to use and then select **Update**.
-
-1. Review the suggested content.
-
-    To generate a different suggestion, select **More options**, and then select **Try again**.
-
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
-
-1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
-
-   > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
-
-1. Edit the email content as required, and then send it.
 
 ## Create a sales meeting summary email
 
