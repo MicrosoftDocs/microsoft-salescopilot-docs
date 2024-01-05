@@ -18,6 +18,10 @@ With the Copilot for Sales app, you can:
 
 - Paste a link to a record that will unfurl into a rich adaptive card
 
+> [!NOTE]
+> - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Sales Copilot app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Sales Copilot privileges.
+> - If you're using Salesforce as your CRM system, and you receive an adaptive card in a Teams chat or channel, you must be signed in to Salesforce in the Sales Copilot app in Outlook to view data in the adaptive card while also having read access for the record and Sales Copilot privileges.
+
 ## Search for a CRM record to share
 
 1. Go to the conversation in which you want to share the contact. Select the **Copilot for Sales** icon under the message box.

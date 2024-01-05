@@ -1,7 +1,7 @@
 ---
 title: Create a Teams meeting
 description: Learn how to create a Teams meeting.
-ms.date: 12/11/2023
+ms.date: 01/03/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

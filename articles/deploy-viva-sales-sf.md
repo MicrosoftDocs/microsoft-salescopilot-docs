@@ -59,13 +59,15 @@ Enable transcripts for Teams calls so that when Copilot for Sales is added to a 
 
 Copilot for Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Copilot for Sales.
 
-Salesforce administrators who need to customize Copilot for Sales must have the following permissions. More information: [Privileges required to use Copilot for Sales](install-viva-sales.md#privileges-required-to-use-copilot-for-sales)
+Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
-|Requirement type|You must have|
-|---------------|-------------|
-|Permission|User profile needs to have Modify All Data or Manage Data Integrations permission|
+Users of Sales Copilot need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
-## Step 5: Ensure Microsoft Power Platform isn't blocked
+## Step 5: Ensure Salesforce connector isn't blocked in Power Platform
+
+If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in the DLP policy](tsg-blocked-connector-sf.md)
+
+## Step 6: Ensure Microsoft Power Platform connected app isn't blocked in Salesforce
 
 Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Copilot for Sales users.
 
@@ -80,14 +82,21 @@ Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM
 
 4. Select **Microsoft Power Platform** to view details about the connected app. 
 
-5. Under **OAuth Policies**, ensure that the value for Permitted Users is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
+5. Under **OAuth Policies**, ensure that you've set the following values:
 
-    > [!NOTE]
-    > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
+    1. Value for **Permitted Users** is set to **Admin approved users are pre-authorized** or **All users may self-authorize**.
 
-6. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
+        > [!NOTE]
+        > If **Admin approved users are pre-authorized** is selected, you must explicitly grant permissions to individual users through policies and permissions sets.
 
-## Step 6: First user sign in
+    2. Value for **IP Relaxation** is set to **Relax IP restrictions**.
+    3. Value for **Refresh Token Policy** is set to **Refresh token is valid until revoked**.
+
+6. Under **Session Policies**, ensure that the value for **Timeout Value** is set to **None**.
+
+7. Under **Profiles** or **Permission Sets**, check whether there are any existing profiles or permission sets or if they're empty. Check and add the appropriate target for your users.
+
+## Step 7: First user sign in
 
 When the first user in the tenant connects to Salesforce CRM, Copilot for Sales provisions a Dataverse environment to store the data generated  while using Copilot for Sales. Refer to [Copilot for Sales architecture](architecture.md) for more details on how the environment is used and what data is stored.
 

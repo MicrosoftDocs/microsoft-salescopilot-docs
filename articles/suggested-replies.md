@@ -20,6 +20,9 @@ Copilot AI features might or might not be turned on by default, depending on whe
 
 Copilot AI features in Copilot for Sales are available only in some [supported languages](supported-languages.md).
 
+> [!NOTE]
+> After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.
+
 ## Turn on Copilot AI features for your organization
 
 As a tenant administrator, you can control who can use AI capabilities in Copilot for Sales for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
@@ -69,8 +72,6 @@ The following Copilot AI features are generally available:
 - **View and save email summary**: Allows sellers to view a summary of recent emails and save it to the CRM system.
 
 - **View opportunity summary**: Allows sellers to view a summary of recent notes added to an opportunity.
-
-The following Copilot AI feature is in preview:
 
 - **Summarize sales meeting**: Offers an automated recap of a recently recorded Teams meeting with sales contacts that sellers can easily insert in an email.
 

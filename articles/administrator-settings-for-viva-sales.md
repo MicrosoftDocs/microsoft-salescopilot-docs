@@ -4,11 +4,9 @@ description: Learn how to use administrator settings to customize the Microsoft 
 ms.date: 12/11/2023
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
-ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.localizationpriority: medium
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -113,7 +111,7 @@ If you're signed in with tenant administrator or CRM administrator credentials, 
 
 ### Can I change the administrator settings on my mobile device?
 
-Access to Copilot for Sales administrator settings on a mobile device isn't supported. Work with administrator settings in the Teams desktop app or the web app.
+Administrator settings can't be opened on phones, small tablets, or windows that are narrower than 768 pixels. You must use a desktop or laptop to access the settings in the Teams desktop app or the web app.
 
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 
