@@ -111,7 +111,7 @@ If you're signed in with tenant administrator or CRM administrator credentials, 
 
 ### Can I change the administrator settings on my mobile device?
 
-Administrator settings can't be opened on phones, small tablets, or windows that are smaller than 768 pixels wide. You must use a desktop or laptop to access the settings in the Teams desktop app or the web app.
+Administrator settings can't be opened on phones, small tablets, or windows that are narrower than 768 pixels. You must use a desktop or laptop to access the settings in the Teams desktop app or the web app.
 
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 
