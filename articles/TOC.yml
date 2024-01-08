@@ -218,6 +218,8 @@
     href: tsg-connection-lost.md
   - name: Opportunity summary not displayed in deal rooms
     href: tsg-oppty-summary.md
+  - name: Field mismatch between Dynamics 365 and Copilot for Sales
+    href: tsg-field-mismatch.md
 
 - name: Copilot for Sales FAQ
   href: sales-copilot-faq.md

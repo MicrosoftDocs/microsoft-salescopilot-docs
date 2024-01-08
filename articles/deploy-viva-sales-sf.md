@@ -61,7 +61,7 @@ Copilot for Sales applies your organization's existing CRM access controls and u
 
 Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
-Users of Sales Copilot need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
+Users of Copilot for Sales need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
 ## Step 5: Ensure Salesforce connector isn't blocked in Power Platform
 
