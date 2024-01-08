@@ -48,8 +48,6 @@ landingContent:
     linkLists:
        - linkListType: quickstart
          links:
-          - text: Try Copilot for Sales
-            url: try-sales-copilot.md
           - text: Deploy Copilot for Sales for Dynamics 365 customers 
             url: deploy-viva-sales-d365.md
           - text: Deploy Copilot for Sales for Salesforce customers

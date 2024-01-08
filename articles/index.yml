@@ -35,10 +35,6 @@ additionalContent:
   sections:
   - title: Implement Copilot for Sales
     items:
-    - title: Try
-      links: 
-      - url: try-sales-copilot.md
-        text: Try Microsoft Copilot for Sales
     - title: Install
       links: 
       - url:  install-viva-sales-as-an-integrated-app.md
