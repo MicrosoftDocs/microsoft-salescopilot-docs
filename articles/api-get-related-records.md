@@ -1,7 +1,7 @@
 ---
 title: GetRelatedRecords (preview)
 description: Get related records from partner application to be shown in Copilot for Sales when a seller views details of a CRM record.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

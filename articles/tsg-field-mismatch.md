@@ -1,7 +1,7 @@
 ---
 title: Field mismatch between Dynamics 365 and Copilot for Sales
 description: Troubleshoot and resolve field mismatching errors between Dynamics 365 and Copilot for Sales with this article.
-ms.date: 01/05/2024
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

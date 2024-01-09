@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the account team template
 description: Learn how to set up a team using an account team template in the Copilot for Sales add-in for Outlook.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

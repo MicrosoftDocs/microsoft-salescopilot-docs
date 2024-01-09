@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft Sales Copilot - September 2023
 description: Learn about new features, improvements, and bug fixes in the Microsoft Sales Copilot September 2023 release.
-ms.date: 09/20/2023
+ms.date: 01/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 ms.collection: highpri

@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (user-deployed)
 description: Learn how to install Copilot for Sales.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

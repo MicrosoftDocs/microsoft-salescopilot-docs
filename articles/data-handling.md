@@ -1,7 +1,7 @@
 ---
 title: Data handling in Copilot for Sales 
 description: Know how data is handled in Copilot for Sales 
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri

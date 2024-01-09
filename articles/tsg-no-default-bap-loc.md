@@ -1,7 +1,7 @@
 ---
 title: No default BAP location found for this tenant 
 description: Troubleshoot and resolve issues in Copilot for Sales when users are unable to use Copilot for Sales due to missing default environment
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

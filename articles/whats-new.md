@@ -4,7 +4,7 @@ description: This article points to articles that describe the new and changed f
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---

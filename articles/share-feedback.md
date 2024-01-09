@@ -1,7 +1,7 @@
 ---
 title: Share feedback from Outlook add-in
 description: Learn how to share feedback about Copilot for Sales from the Outlook add-in.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

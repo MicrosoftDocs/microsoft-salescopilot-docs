@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -44,7 +44,9 @@ Internal channels like **General** and **Coffee Machine** have the following app
 - **CRM** displays the linked CRM account or opportunity record. You can view and update the CRM information in this tab.
 
   > [!NOTE]
-  > If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
+  > - If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
+  > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams,
+[use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternately, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
 
 - **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the channel.
 

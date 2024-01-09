@@ -1,7 +1,7 @@
 ---
 title: Uninstall Copilot for Sales add-in for Outlook
 description: Uninstall Copilot for Sales add-in for Outlook using Microsoft 365 admin center or PowerShell.
-ms.date: 12/11/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
