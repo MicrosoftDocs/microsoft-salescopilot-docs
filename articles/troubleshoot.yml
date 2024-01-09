@@ -9,12 +9,12 @@ summary: Navigate to the troubleshooting documentation based on the issue you en
 metadata:
 
   title: Help resources for troubleshooting guide
-  description: Index page showing the troubleshooting guide for Microsoft Sales Copilot.
+  description: Index page showing the troubleshooting guide for Microsoft Copilot for Sales.
   author: sbmjais
   ms.author: shjais
   ms.topic: landing-page
   ms.service: microsoft-sales-copilot
-  ms.date: 09/13/2023
+  ms.date: 01/09/2024
   ms.custom: bap-template
 
 
@@ -46,7 +46,7 @@ landingContent:
        - linkListType: how-to-guide
          links:
 
-          - text: Salesforce CRM users unable to see data in Sales Copilot
+          - text: Salesforce CRM users unable to see data in Copilot for Sales
             url: tsg-no-column.md
           - text: Error after connecting and signing in to Salesforce CRM 
             url: tsg-api-perm.md
@@ -60,7 +60,7 @@ landingContent:
        - linkListType: how-to-guide
          links:
 
-          - text: Update add-in error in Sales Copilot for Microsoft Outlook
+          - text: Update add-in error in Copilot for Sales for Microsoft Outlook
             url: tsg-update-add-in-error.md
           - text: Can't create private channels in Microsoft Teams
             url: tsg-create-private-channel.md

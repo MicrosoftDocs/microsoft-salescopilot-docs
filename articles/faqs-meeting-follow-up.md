@@ -1,7 +1,7 @@
 ---
 title: FAQ for meeting follow-up feature in Outlook
-description: This FAQ provides information about the AI technology used in the meeting follow-up feature in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/24/2023
+description: This FAQ provides information about the AI technology used in the meeting follow-up feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 01/09/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQ for meeting follow-up feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Sales Copilot's meeting follow-up feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's meeting follow-up feature in Outlook.
 
 ## What is meeting follow-up feature in Outlook?
 
-Sales Copilot assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
+Copilot for Sales assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
 
 ## What are the feature's capabilities?
 
-Sales Copilot employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
+Copilot for Sales employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
 
 ## What is the feature's intended use?
 

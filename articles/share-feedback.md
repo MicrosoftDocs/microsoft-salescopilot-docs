@@ -1,7 +1,7 @@
 ---
 title: Share feedback from Outlook add-in
-description: Learn how to share feedback about Sales Copilot from the Outlook add-in.
-ms.date: 08/28/2023
+description: Learn how to share feedback about Copilot for Sales from the Outlook add-in.
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,9 +10,9 @@ ms.author: shjais
 
 # Share feedback from Outlook add-in
 
-If you have any feedback about Sales Copilot, you can share it from the add-in. Your feedback is valuable, and we use it to improve the product.
+If you have any feedback about Copilot for Sales, you can share it from the add-in. Your feedback is valuable, and we use it to improve the product.
 
-1. Open Sales Copilot in Outlook.
+1. Open Copilot for Sales in Outlook.
 
 1. Select **Options** (**...**) in the upper-right corner, and then select **Share feedback**.
 

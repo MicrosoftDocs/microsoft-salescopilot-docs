@@ -1,7 +1,7 @@
 ---
 title: GetRelatedRecords (preview)
-description: Get related records from partner application to be shown in Sales Copilot when a seller views details of a CRM record.
-ms.date: 11/23/2023
+description: Get related records from partner application to be shown in Copilot for Sales when a seller views details of a CRM record.
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-The `GetRelatedRecords` API is used to get related records from your application to be shown in Sales Copilot when a seller views details of a CRM record. The API is called when the seller views details of a CRM record. 
+The `GetRelatedRecords` API is used to get related records from your application to be shown in Copilot for Sales when a seller views details of a CRM record. The API is called when the seller views details of a CRM record. 
 
 ## Input parameters
 
@@ -101,7 +101,7 @@ The API is expected to return related records in the following format:
 
 ```
 
-To see an example of how the above response is displayed in the Sales Copilot pane, see [Show records from your application related to CRM records](extend-sales-copilot.md#show-records-from-your-application-related-to-crm-records).
+To see an example of how the above response is displayed in the Copilot for Sales pane, see [Show records from your application related to CRM records](extend-sales-copilot.md#show-records-from-your-application-related-to-crm-records).
 
 ### See also
 

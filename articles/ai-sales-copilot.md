@@ -1,18 +1,18 @@
 ---
-title: AI in Sales Copilot
-description: Learn how to use AI in Sales Copilot.
-ms.date: 08/28/2023
+title: AI in Copilot for Sales
+description: Learn how to use AI in Copilot for Sales.
+ms.date: 01/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# AI in Sales Copilot
+# AI in Copilot for Sales
 
-AI in Sales Copilot uses the power of generative AI to help you create content faster. It can create content for emails, summarize an email conversation, send a follow-up email with meeting summary, and much more.
+AI in Copilot for Sales uses the power of generative AI to help you create content faster. It can create content for emails, summarize an email conversation, send a follow-up email with meeting summary, and much more.
 
-Some of the AI capabilities of Sales Copilot are:
+Some of the AI capabilities of Copilot for Sales are:
 
 - **Generate email content**: Generate email content when you compose a new email or a reply to an existing email. Choose from pre-defined response categories or enter your own text, and the AI generates the suggested content. Meeting time is automatically added to the email content based on your calendar availability in Outlook. More information: [Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)
 
@@ -34,7 +34,7 @@ You can use the following AI capabilities without signing in to your CRM system:
 
 - View summary of an email conversation but can't save it to CRM
 
-To use all AI capabilities and other exciting features of Sales Copilot, you must [sign in to your CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
+To use all AI capabilities and other exciting features of Copilot for Sales, you must [sign in to your CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.

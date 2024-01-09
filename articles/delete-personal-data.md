@@ -1,18 +1,18 @@
 ---
-title: Delete your personal data from Sales Copilot
-description: Learn how to delete your personal data from Sales Copilot.
-ms.date: 08/28/2023
+title: Delete your personal data from Copilot for Sales
+description: Learn how to delete your personal data from Copilot for Sales.
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Delete your personal data from Sales Copilot
+# Delete your personal data from Copilot for Sales
 
-If you want to remove your personal data from Sales Copilot, you need to delete your entire Sales Copilot account. Deleting Sales Copilot account deletes all data associated with you, including non-personal data you saved in Sales Copilot. You'll be disconnected from Sales Copilot and must reconnect to use it again. Deleting your Sales Copilot account doesn't delete data stored in the CRM. It only deletes your Sales Copilot data.
+If you want to remove your personal data from Copilot for Sales, you need to delete your entire Copilot for Sales account. Deleting Copilot for Sales account deletes all data associated with you, including non-personal data you saved in Copilot for Sales. You'll be disconnected from Copilot for Sales and must reconnect to use it again. Deleting your Copilot for Sales account doesn't delete data stored in the CRM. It only deletes your Copilot for Sales data.
 
-1. Open Sales Copilot.
+1. Open Copilot for Sales.
 
 1. Select **Options** (**...**) in the upper-right corner, and then select **About** > **Privacy**.
 

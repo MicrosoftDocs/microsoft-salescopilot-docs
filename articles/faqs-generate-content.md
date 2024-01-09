@@ -1,7 +1,7 @@
 ---
 title: FAQ for generate content feature in Outlook
-description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/24/2023
+description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 01/09/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQ for generate content feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Sales Copilot's generate content feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's generate content feature in Outlook.
 
 ## What is generate content feature in Outlook?
 
-Sales Copilot empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
+Copilot for Sales empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
 
 ## What are the feature's capabilities?
 
-Sales Copilot utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
+Copilot for Sales utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
 
 ## What is the feature's intended use?
 

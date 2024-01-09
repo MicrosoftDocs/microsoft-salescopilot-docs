@@ -1,7 +1,7 @@
 ---
-title: Install and pin Sales Copilot in Teams
-description: Learn how to install and pin Sales Copilot in Teams
-ms.date: 03/27/2023
+title: Install and pin Copilot for Sales in Teams
+description: Learn how to install and pin Copilot for Sales in Teams
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -11,17 +11,17 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install and pin Sales Copilot in Teams
+# Install and pin Copilot for Sales in Teams
 
 
 
-When you install Sales Copilot as an integrated app, the Sales Copilot app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
+When you install Copilot for Sales as an integrated app, the Copilot for Sales app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
-> - The Teams meeting must be transcribed for Sales Copilot to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection between Sales Copilot and your CRM is controlled through Sales Copilot add-in in Outlook. More information: [Use Sales Copilot in Outlook](use-sales-copilot-outlook.md)
+> - The Teams meeting must be transcribed for Copilot for Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
+> - The connection between Copilot for Sales and your CRM is controlled through Copilot for Sales add-in in Outlook. More information: [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md)
 
 ## Create a custom Teams app setup policy
 
@@ -37,17 +37,17 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 6.  Under **Installed apps**, select **Add apps**.
 
-7.  In the **Add installed apps** panel, search for the **Sales Copilot** app. You can also filter apps by app permission policy.
+7.  In the **Add installed apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.
 
-8.  Select **Add** to add Sales Copilot to the list of apps to install.
+8.  Select **Add** to add Copilot for Sales to the list of apps to install.
 
 9.  Select **Add** again to install the listed apps.
 
 10. Under **Pinned apps**, select **Add apps**.
 
-11. In the **Add pinned apps** panel, search for the **Sales Copilot** app. You can also filter apps by app permission policy.
+11. In the **Add pinned apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.
 
-12. Select **Add** to add Sales Copilot to the list of apps to pin.
+12. Select **Add** to add Copilot for Sales to the list of apps to pin.
 
 13. Select **Add** again to pin the listed apps.
 
@@ -79,4 +79,4 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ### See also
 
-[Install Sales Copilot add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Copilot for Sales add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
