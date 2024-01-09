@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 12/07/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 As a seller, you can save all outgoing and incoming communication with your customers in the CRM system so that everyone in the company has full visibility in the CRM for relevant activities and to help your company build advanced services to maximize the value for sellers.
 
-Updating the CRM with all your activities across all the communication channels you use is tedious, time-consuming work. However, Sales Copilot helps by allowing you to save your Outlook interactions (emails and meetings) to the CRM with a single click.
+Updating the CRM with all your activities across all the communication channels you use is tedious, time-consuming work. However, Copilot for Sales helps by allowing you to save your Outlook interactions (emails and meetings) to the CRM with a single click.
 
 > [!NOTE]
 >
@@ -24,7 +24,7 @@ Updating the CRM with all your activities across all the communication channels 
 >
 > - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 
-1. Open the email or meeting you want to save to the CRM, and then open Sales Copilot.
+1. Open the email or meeting you want to save to the CRM, and then open Copilot for Sales.
 
 1. On the **Highlights** tab, select **Save**.
 
@@ -32,11 +32,11 @@ Updating the CRM with all your activities across all the communication channels 
 
    :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM button.":::
 
-    If you've connected Sales Copilot to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Sales Copilot](use-server-side-sync.md)
+    If you've connected Copilot for Sales to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Copilot for Sales](use-server-side-sync.md)
 
 1. Under **Connect to a record**, select the record you want to connect the activity to.
 
-    By default, Sales Copilot displays the accounts and opportunities that are related to the contacts in the activity. You can choose one of the displayed records to connect to or use the search box to find and connect to another record of any record type added to Sales Copilot by your administrator.
+    By default, Copilot for Sales displays the accounts and opportunities that are related to the contacts in the activity. You can choose one of the displayed records to connect to or use the search box to find and connect to another record of any record type added to Copilot for Sales by your administrator.
 
     If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
@@ -44,7 +44,7 @@ Updating the CRM with all your activities across all the communication channels 
    >
    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
    >
-   > - You can connect to all record types that are enabled for activities and added to Sales Copilot by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+   > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card displays the contacts in the activity, as this activity will be displayed in their timeline.
 
@@ -73,9 +73,9 @@ Updating the CRM with all your activities across all the communication channels 
 
 ## Remove saved email from CRM
 
-If you've connected Sales Copilot to your Dynamics 365 environment and have [server-side synchronization](/power-platform/admin/server-side-synchronization) enabled, you can remove saved emails and meetings that are no longer relevant from the CRM using Sales Copilot. This helps you keep the CRM clean and current.
+If you've connected Copilot for Sales to your Dynamics 365 environment and have [server-side synchronization](/power-platform/admin/server-side-synchronization) enabled, you can remove saved emails and meetings that are no longer relevant from the CRM using Copilot for Sales. This helps you keep the CRM clean and current.
 
-1. Open the email or meeting you saved to the CRM, and then open Sales Copilot.
+1. Open the email or meeting you saved to the CRM, and then open Copilot for Sales.
 
 1. Select the **Dynamics 365** tab.
 

@@ -1,7 +1,7 @@
 ---
-title: Welcome to Microsoft Sales Copilot
-description: Get to know Sales Copilot
-ms.date: 11/27/2023
+title: Welcome to Microsoft Copilot for Sales
+description: Get to know Copilot for Sales
+ms.date: 01/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 ms.collection: highpri
@@ -11,38 +11,38 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Welcome to Microsoft Sales Copilot
+# Welcome to Microsoft Copilot for Sales
 
-Microsoft Sales Copilot is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Sales Copilot empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Sales Copilot is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
+Microsoft Copilot for Sales is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Copilot for Sales empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Copilot for Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
 
 > [!NOTE]
-> Sales Copilot is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
+> Copilot for Sales is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
 
-Here's a video that gives you a quick overview of Sales Copilot.
+Here's a video that gives you a quick overview of Copilot for Sales.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1f1Ja]
 
 ## License requirements
 
-Sales Copilot may be subject to an additional free or paid license. For more information, see [Microsoft Sales Copilot pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
+Copilot for Sales may be subject to an additional free or paid license. For more information, see [Microsoft Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
 
 ## Role requirements
 
 If you're using Dynamics 365 Sales as your CRM system:
 
-- Administrators must be assigned either System Administrator or System Customizer security role to customize Sales Copilot. If you're using a custom security role, [additional privileges are required to use Sales Copilot](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
+- Administrators must be assigned either System Administrator or System Customizer security role to customize Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
 
-- Users must be assigned either Sales Manager or Salesperson security role to use Sales Copilot. If you're using a custom security role, [additional privileges are required to use Sales Copilot](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
+- Users must be assigned either Sales Manager or Salesperson security role to use Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
 
 If you're using Salesforce as your CRM system, see [Permissions required for Salesforce administrators](install-viva-sales.md#permissions-required-for-salesforce-administrators).
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Sales Copilot in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Sales Copilot app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Copilot for Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Copilot for Sales app for Teams.
 
 ## Region availability
 
-Sales Copilot is available globally except in the following countries:
+Copilot for Sales is available globally except in the following countries:
 - Myanmar
 - Cabo Verde
 - China
@@ -57,10 +57,10 @@ Sales Copilot is available globally except in the following countries:
 - St Helena, Ascension, Tristan da Cunha
 - Syria
 
-Sales Conversation Intelligence is currently available in limited geographies. By using Sales Conversation Intelligence, you affirm that you understand that insights and other data generated by Sales Conversation Intelligence service may be maintained in a data center other than the data center that maintains your Sales Copilot service data. Your privacy is important to us. To learn more, read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
+Sales Conversation Intelligence is currently available in limited geographies. By using Sales Conversation Intelligence, you affirm that you understand that insights and other data generated by Sales Conversation Intelligence service may be maintained in a data center other than the data center that maintains your Copilot for Sales service data. Your privacy is important to us. To learn more, read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 > [!NOTE]
-> Sales Copilot is not supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
+> Copilot for Sales is not supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
 
 
 ## Supported languages
@@ -69,4 +69,4 @@ To see the list of supported languages, see [Supported languages](supported-lang
 
 ### See also
 
-[Install Sales Copilot](install-viva-sales.md) 
+[Install Copilot for Sales](install-viva-sales.md) 

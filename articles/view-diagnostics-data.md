@@ -1,7 +1,7 @@
 ---
 title: View diagnostics data
 description: Learn how to view diagnostics data.
-ms.date: 08/28/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,9 +10,9 @@ ms.author: shjais
 
 # View diagnostics data
 
-You can view Sales Copilot diagnostics and troubleshooting data, including application versions, session IDs, and other relevant application metadata. This data is helpful when working with technical support.
+You can view Copilot for Sales diagnostics and troubleshooting data, including application versions, session IDs, and other relevant application metadata. This data is helpful when working with technical support.
 
-1. Open Sales Copilot.
+1. Open Copilot for Sales.
 
 1. Select **Options** (**...**) in the upper-right corner, and then select **Diagnostics**.
 

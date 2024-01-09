@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 12/07/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,7 +19,7 @@ You can view details about your saved contact and its related records such as ac
 > [!NOTE]
 > All record types that are added by your administrator are displayed, if related to contact, when viewing saved contact details.
 
-1. Open the **Sales Copilot** pane and select the **Dynamics 365** or **Salesforce** tab.
+1. Open the **Copilot for Sales** pane and select the **Dynamics 365** or **Salesforce** tab.
 
 1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.
 
@@ -81,10 +81,10 @@ The following insights are displayed:
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
-You can view records that are related to CRM records from partner applications within Sales Copilot. To view related records from partner applications, you must:
+You can view records that are related to CRM records from partner applications within Copilot for Sales. To view related records from partner applications, you must:
 
 1. Get the feature enabled, as it is not enabled by default.
-2. Create a connection using Power Apps connectors.
+2. Create a connection using Power Platform connectors.
 3. View related records from partner applications.
 
 ### Get the feature enabled
@@ -93,11 +93,11 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
 
 > [!NOTE]
-> - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
-> - If you are a partner application maker and would like to integrate with Sales Copilot, see Extend Sales Copilot. Currently, DocuSign can be integrated with Sales Copilot. 
+> - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
+> - If you are a partner application maker and would like to integrate with Copilot for Sales, see Extend Copilot for Sales. Currently, DocuSign can be integrated with Copilot for Sales. 
 
 ### View related records
 
@@ -108,7 +108,7 @@ Related records from partner applications are displayed in a new card under reco
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Platform connector. Sales Copilot does not edit or filter the information.
+All the information about related records comes from the partner applications. Copilot for Sales renders the related record information retrieved from the partner application through the Power Platform connector. Copilot for Sales does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 

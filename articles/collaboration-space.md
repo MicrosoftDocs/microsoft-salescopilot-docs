@@ -1,7 +1,7 @@
 ---
-title: Collaboration spaces in Sales Copilot
+title: Collaboration spaces in Copilot for Sales
 description: Learn how you can use sales templates to create collaboration spaces in Microsoft Teams so that your sales teams can quickly access business data and be more productive.
-ms.date: 11/30/2023
+ms.date: 01/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -13,7 +13,7 @@ ms.custom:
   - bap-template
 ---
 
-# Collaboration spaces in Sales Copilot
+# Collaboration spaces in Copilot for Sales
 
 Collaboration spaces exist in both the physical and the digital world. In the physical world, a collaboration space might be a conference room or office where sellers engage with their customers. In the digital world, a collaboration space is a virtual meeting room where sellers engage with their customers using apps such as Microsoft Teams or Outlook. Digital collaboration workspaces have grown more popular over the past few years, but they can be challenging to set up to maximize sellers' productivity. Ideally, sellers can quickly create teams and channels with the right people and the right information that's organized in an efficient, predictable manner. In practice, however, information is often fragmented, spread across multiple Teams channels, and hard to discover. A better way to address this challenge is to use sales templates to create a collaboration space in Teams. Sales templates bring together the right members, contextual data, and productivity apps to boost group collaboration in Teams.
 
@@ -35,8 +35,8 @@ A deal room template is applied at the channel level and is linked to a CRM oppo
 
 - You must have a Dynamics 365 or Salesforce CRM account.
 
-- You must have a Microsoft 365 E3 or E5 license. [Learn about the license requirements for Sales Copilot](introduction.md#license-requirements).
+- You must have a Microsoft 365 E3 or E5 license. [Learn about the license requirements for Copilot for Sales](introduction.md#license-requirements).
 
-- You must have the Sales Copilot add-in for Outlook installed. If you don't have it, ask your administrator to [install it](install-viva-sales.md) for you.
+- You must have the Copilot for Sales add-in for Outlook installed. If you don't have it, ask your administrator to [install it](install-viva-sales.md) for you.
 
 - Before you can [add customers to shared channels](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true) using their federated identity, make sure that your tenant administrator has turned on shared channels in Teams.

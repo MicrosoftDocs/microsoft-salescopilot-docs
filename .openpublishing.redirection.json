@@ -229,6 +229,11 @@
       "source_path": "articles/sales/faqs-oppty-summary.md",
       "redirect_url": "/microsoft-sales-copilot/faqs-oppty-summary",
       "redirect_document_id": false
-    }    
+    },
+    {
+      "source_path": "articles/try-sales-copilot.md",
+      "redirect_url": "/microsoft-sales-copilot/install-viva-sales",
+      "redirect_document_id": false
+    }      
   ]
 }

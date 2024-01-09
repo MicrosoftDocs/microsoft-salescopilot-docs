@@ -1,7 +1,7 @@
 ---
-title: Extend Microsoft Sales Copilot with partner applications (preview)
-description: Extend Sales Copilot to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
-ms.date: 11/23/2023
+title: Extend Microsoft Copilot for Sales with partner applications (preview)
+description: Extend Copilot for Sales to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,19 +12,19 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Extend Microsoft Sales Copilot with partner applications (preview)
+# Extend Microsoft Copilot for Sales with partner applications (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-Sales Copilot boosts seller productivity by providing contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook. Sales Copilot can be connected to Dynamics 365 and Salesforce out of the box.
+Copilot for Sales boosts seller productivity by providing contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook. Copilot for Sales can be connected to Dynamics 365 and Salesforce out of the box.
 
-However, sales is more than just CRM. Sellers use a variety of applications to get their job done. Sales Copilot can be extended to integrate with partner applications to provide contextual insights and recommendations.
+However, sales is more than just CRM. Sellers use a variety of applications to get their job done. Copilot for Sales can be extended to integrate with partner applications to provide contextual insights and recommendations.
 
-If you are a partner application developer, you can integrate your application with Sales Copilot to provide contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook.
+If you are a partner application developer, you can integrate your application with Copilot for Sales to provide contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook.
 
-To extend Sales Copilot:
+To extend Copilot for Sales:
 
 1. Decide which of the following capabilities you want to extend:
     - Latest activities in opportunity summary
@@ -42,7 +42,7 @@ To extend Sales Copilot:
 
 ## Show latest activities from your application in opportunity summary
 
-Sales Copilot displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Platform connector.
+Copilot for Sales displays [opportunity summary](view-opportunity-summary.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show latest activities from your application in opportunity summary by implementing the `GetRelatedActivities` API and surfacing it in a Power Platform connector.
 
 The following image shows an example of how the [output of the GetRelatedActivities API](api-get-related-activities.md#example) is mapped to the opportunity summary.
 
@@ -62,7 +62,7 @@ The following image shows an example of how the [output of the GetRelatedActivit
 
 ## Show records from your application related to CRM records
 
-Sales Copilot displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show records from your application related to CRM records in Sales Copilot by implementing the `GetRelatedRecords` API and surfacing it in a Power Platform connector.
+Copilot for Sales displays [related records](view-record-details.md) when a seller reads an email or prepares for a meeting with customer. You can extend this capability to show records from your application related to CRM records in Copilot for Sales by implementing the `GetRelatedRecords` API and surfacing it in a Power Platform connector.
 
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.

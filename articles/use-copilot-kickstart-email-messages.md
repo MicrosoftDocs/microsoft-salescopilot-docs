@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
-description: Generate an email reply with pre-defined categories or custom prompt using Sales Copilot's AI to save time and effort.
-ms.date: 01/02/2024
+description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # Use Copilot to kickstart email messages
 
-When you compose a new email or reply to your customers by email, Sales Copilot uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from pre-defined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
+When you compose a new email or reply to your customers by email, Copilot for Sales uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from pre-defined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
 > [!NOTE]
 >
@@ -37,7 +37,7 @@ When you compose a new email or reply to your customers by email, Sales Copilot
 
 ## Supported languages
 
-AI in Sales Copilot is supported in the following languages: English, Spanish, German, and French. The email and custom prompt must be in one of the supported languages to generate the suggested content.
+AI in Copilot for Sales is supported in the following languages: English, Spanish, German, and French. The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
 ## Create an email reply using pre-defined categories
 
@@ -47,7 +47,7 @@ You can get suggested responses when you reply to a customer email or as you're 
 
     - Open a customer email and select **Reply**. In the banner message at the top of the draft email, select **Use Copilot now**.
 
-    - When you're reading an email, open the **Sales Copilot** pane.
+    - When you're reading an email, open the Copilot for Sales pane.
 
 1. On the **Highlights** tab, in the **Key info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
 
@@ -84,7 +84,7 @@ You can get suggested email content when you reply to a customer email, read an 
 
     - When replying to a customer's email or composing a new email, select **Use Copilot now** in the banner message at the top of the draft email.
 
-    - When you're reading an email, open the **Sales Copilot** pane.
+    - When you're reading an email, open the **Copilot for Sales** pane.
 
 1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
@@ -140,7 +140,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 ### Use a saved prompt
 
-1.  Open Sales Copilot.
+1.  Open Copilot for Sales.
 
 2.  On the **Highlights** tab, select **Draft an email**.
 
@@ -152,7 +152,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
-1.  Open Sales Copilot.
+1.  Open Copilot for Sales.
 
 2.  On the **Highlights** tab, select **Draft an email**.
 
@@ -181,7 +181,7 @@ If there are no additional open opportunities identified by the AI model, no opt
 
    > [!NOTE]
    >
-   > - Sales Copilot displays opportunities that are related to the contacts in the email.
+   > - Copilot for Sales displays opportunities that are related to the contacts in the email.
    >
    > - The information displayed below the opportunities is displayed as customized by your administrator. More information: [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view)
 
@@ -336,16 +336,16 @@ If you want to have a meeting with a customer, you can include a meeting time in
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
-With Sales Copilot, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
+With Copilot for Sales, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
 
 > [!IMPORTANT]
-> Ensure that Sales Copilot app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](generate-meeting-summary.md)
+> Ensure that Copilot for Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](generate-meeting-summary.md)
 
 1. In Outlook:
 
     - Open the meeting in Outlook and select **Contact Attendees** > **Reply to All with Email** under the **Meetings** tab. In the message at the top of the draft email, select **Use Copilot now**.
 
-    - When you're composing a new email, open the Sales Copilot pane or select **Use Copilot now** in the banner message at the top of the email.
+    - When you're composing a new email, open the Copilot for Sales pane or select **Use Copilot now** in the banner message at the top of the email.
 
 1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
 
@@ -413,17 +413,17 @@ If you enter text that contains undesired or inappropriate content (potential pr
 
 ## How is suggested content generated?
 
-Sales Copilot uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it was written by a person.
+Copilot for Sales uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it was written by a person.
 
 Original content is generated every time, but it isn't always factual. In addition, the underlying technology uses AI that has been trained on a wide range of internet sources. Some suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your reply is accurate and appropriate.
 
 ## What data is collected to suggest email replies?
 
-When you open the Sales Copilot pane while you're reading or replying to an email, the AI considers the following information to generate a response:
+When you open the Copilot for Sales pane while you're reading or replying to an email, the AI considers the following information to generate a response:
 
 - The contacts, subject, and body of the email
 
-- CRM data connected through Sales Copilot
+- CRM data connected through Copilot for Sales
 
 - The response category you selected or custom prompt you entered
 

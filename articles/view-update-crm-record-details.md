@@ -1,7 +1,7 @@
 ---
 title: View and update CRM record details
 description: Learn how to view and update CRM record details.
-ms.date: 08/28/2023
+ms.date: 01/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,4 +18,4 @@ After you receive a CRM record card in a Teams conversation, you can view and up
 
 1. To see the updated information, hover over the card, select **More options** (**...**), and then select **Refresh**.
 
-   :::image type="content" source="media/refresh.png" alt-text="Screenshot showing how to refresh the Sales Copilot contact card.":::
+   :::image type="content" source="media/refresh.png" alt-text="Screenshot showing how to refresh the Copilot for Sales contact card.":::
