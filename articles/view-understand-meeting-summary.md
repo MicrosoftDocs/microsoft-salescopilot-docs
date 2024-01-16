@@ -102,7 +102,7 @@ To view details of a topic, hover over the keyword to open its card. By default,
 
 The **Details** tab displays the names of the people who participated in the meeting.
 
-:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Copilot for Sales meeting summary.":::
+:::image type="content" source="media/details-tab.png" alt-text="Screenshot showing the Details tab in Copilot for Sales meeting summary.":::
 
 ### Call transcript and translation
 
