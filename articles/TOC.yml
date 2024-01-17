@@ -171,61 +171,61 @@
   - name: Overview
     href: troubleshoot.yml
   - name: CRM permissions and configurations
-      items:
-        - name: Can't update records due to missing record access in Salesforce CRM
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't update records due to missing object access in Salesforce CRM
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't save email to CRM due to invalid mailbox settings
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"Fix mailbox errors in Dynamics 365" error'
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Missing privileges error when signing in
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Salesforce CRM users can't see data in Copilot for Sales
-          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-    - name: Outlook side panel
-      items:
-        - name: Sign-in issue when opening the Copilot for Sales pane in Outlook
-          href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
-          href: /troubleshoot/sales-copilot/outlook-side-panel/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-    - name: Setup, installation, and sign-in
-      items:
-        - name: Authentication issues when connecting to Salesforce CRM
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"Access needed" error when signing in to Dynamics 365'
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Connection lost due to an expired or invalid session or a bad OAuth token
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't sign in to Salesforce due to disabled connections
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't sign in to Salesforce due to blocked Salesforce connector
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't connect to Dynamics 365 with two-factor authentication enabled
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"Failure passed to redirect url" error when signing in'
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: First Salesforce CRM user can't access Copilot for Sales
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Incorrect custom domain in Salesforce
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"No default BAP location found for this tenant" error'
-          href: troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"No access to Dynamics 365" error'
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"Request administrator permissions to access Salesforce using APIs" error'
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: '"User does not have required privileges to access the org" error'
-          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-    - name: Teams collaboration spaces
-      items:
-        - name: Can't create private channels in Microsoft Teams
-          href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
-        - name: Opportunity summary not displayed in deal rooms
-          href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
+    items:
+      - name: Can't update records due to missing record access in Salesforce CRM
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't update records due to missing object access in Salesforce CRM
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't save email to CRM due to invalid mailbox settings
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"Fix mailbox errors in Dynamics 365" error'
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Missing privileges error when signing in
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Salesforce CRM users can't see data in Copilot for Sales
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+  - name: Outlook side panel
+    items:
+      - name: Sign-in issue when opening the Copilot for Sales pane in Outlook
+        href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
+        href: /troubleshoot/sales-copilot/outlook-side-panel/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+  - name: Setup, installation, and sign-in
+    items:
+      - name: Authentication issues when connecting to Salesforce CRM
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"Access needed" error when signing in to Dynamics 365'
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Connection lost due to an expired or invalid session or a bad OAuth token
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't sign in to Salesforce due to disabled connections
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't sign in to Salesforce due to blocked Salesforce connector
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't connect to Dynamics 365 with two-factor authentication enabled
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"Failure passed to redirect url" error when signing in'
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: First Salesforce CRM user can't access Copilot for Sales
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Incorrect custom domain in Salesforce
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"No default BAP location found for this tenant" error'
+        href: troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"No access to Dynamics 365" error'
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"Request administrator permissions to access Salesforce using APIs" error'
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"User does not have required privileges to access the org" error'
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+  - name: Teams collaboration spaces
+    items:
+      - name: Can't create private channels in Microsoft Teams
+        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Opportunity summary not displayed in deal rooms
+        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 
 - name: Copilot for Sales FAQ
   href: sales-copilot-faq.md
