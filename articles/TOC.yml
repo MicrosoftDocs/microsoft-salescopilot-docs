@@ -172,6 +172,8 @@
     href: troubleshoot.yml
   - name: CRM permissions and configurations
     items:
+      - name: '"Align missing fields" error'
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Can't update records due to missing record access in Salesforce CRM
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Can't update records due to missing object access in Salesforce CRM
