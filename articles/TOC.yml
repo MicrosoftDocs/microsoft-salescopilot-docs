@@ -213,7 +213,7 @@
       - name: Incorrect custom domain in Salesforce
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"No default BAP location found for this tenant" error'
-        href: troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"No access to Dynamics 365" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
