@@ -50,7 +50,13 @@
         "salescopilot-docs"
       ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.collection": {
+        "**.*": [
+          "bap-ai-copilot"
+        ]
+      }
+    },
     "template": [],
     "dest": "viva-bap"
   }
