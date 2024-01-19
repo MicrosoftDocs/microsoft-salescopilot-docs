@@ -138,7 +138,7 @@
     - name: Share feedback
       href: share-feedback-teams.md
 
-- name: Cros-app capabilities
+- name: Cross-app capabilities
   items:
   - name: Collaboration space in Copilot for Sales
     items:
