@@ -4,7 +4,6 @@ description: Learn how to turn on AI features in Microsoft Copilot for Sales to 
 ms.date: 01/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
-ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

@@ -4,7 +4,6 @@ description: Learn about new features, improvements, and bug fixes in the Micros
 ms.date: 01/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
-ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
