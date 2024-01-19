@@ -237,127 +237,127 @@
     },
     {
       "source_path": "articles/tsg-admin-mode.md", 
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-api-perm.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-app-blocked.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-auth-issue.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-blocked-connector-sf.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-connection-lost.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/connection-lost-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-create-private-channel.md",
-      "redirect_url": "/troubleshooting/sales-copilot/teams-collaboration-spaces/cant-create-private-channel",
+      "redirect_url": "/troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-disabled-connections-sf.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-disabled-user.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-enhanced-email-sf.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-incorrect-cust-domain.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-mailbox-errors.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-mailbox-settings.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-missing-roles.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-no-access-crm.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-no-column.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/no-column-error",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-no-default-bap-loc.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-object-update-perm.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-oppty-summary.md",
-      "redirect_url": "/troubleshooting/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed",
+      "redirect_url": "/troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-record-update-perm.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-sign-in-error.md",
-      "redirect_url": "/troubleshooting/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales",
+      "redirect_url": "/troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-trial-env.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-two-factor.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-update-add-in-error.md",
-      "redirect_url": "/troubleshooting/sales-copilot/setup-installation-and-sign-in/update-add-in-error",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error",
       "redirect_document_id": false
       },
       {
       "source_path": "articles/tsg-field-mismatch.md",
-      "redirect_url": "/troubleshooting/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error",
       "redirect_document_id": false
       }            
   ]

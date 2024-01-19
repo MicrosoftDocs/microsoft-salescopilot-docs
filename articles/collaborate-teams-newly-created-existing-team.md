@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 01/09/2024
+ms.date: 01/19/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -75,11 +75,14 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 
 ## View an AI-generated opportunity summary in the deal room channel
 
+When you [set up a deal room](set-up-team-deal-room-template.md), the Copilot for Sales Teams app and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
+
 The first time you open a team that was created using the deal room template, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
 > [!NOTE]
 > - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges. This applies only to the auto posted opportunity summary.
 > - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view opportunity summary while also having read access for the record and Copilot for Sales privileges.
+> - Opportunity summary is not displayed in a private channel, as bots are not supported by Microsoft Teams in private channels. Also, shared channels have customers added, therefore, CRM information is not shared here as well.
 
 :::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot of an AI-generated opportunity summary in a deal room channel in Teams.":::
 

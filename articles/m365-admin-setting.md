@@ -4,7 +4,6 @@ description: Learn how to turn off Copilot for Sales features in Microsoft 365 a
 ms.date: 01/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
-ms.collection: highpri
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
