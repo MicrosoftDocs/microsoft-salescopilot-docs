@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Copilot for Sales for Salesforce CRM customers.
-ms.date: 01/09/2024
+ms.date: 01/22/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -64,7 +64,7 @@ Users of Copilot for Sales need to be API enabled in Salesforce so that they can
 
 ## Step 5: Ensure Salesforce connector isn't blocked in Power Platform
 
-If there are Data Loss Prevention (DLP) policies defined in Power Platform for the default environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in the DLP policy](tsg-blocked-connector-sf.md)
+If there are Data Loss Prevention (DLP) policies defined in Power Platform for the msdyn_viva environment, ensure that the Salesforce connector is on the allow list. [Learn more about allowing Salesforce connector in the DLP policy](tsg-blocked-connector-sf.md)
 
 ## Step 6: Ensure Microsoft Power Platform connected app isn't blocked in Salesforce
 
