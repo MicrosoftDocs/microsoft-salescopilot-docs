@@ -77,8 +77,6 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 
 When you [set up a deal room](set-up-team-deal-room-template.md), the Copilot for Sales Teams app and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
-The first time you open a team that was created using the deal room template, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
-
 > [!NOTE]
 > - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges. This applies only to the auto posted opportunity summary.
 > - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view opportunity summary while also having read access for the record and Copilot for Sales privileges.
