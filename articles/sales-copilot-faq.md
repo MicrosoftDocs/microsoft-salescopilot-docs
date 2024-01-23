@@ -1,7 +1,7 @@
 ---
 title: Microsoft Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 01/09/2024
+ms.date: 01/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,45 +12,115 @@ ms.author: shjais
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly.
 
-## In which regions is Copilot for Sales supported?
 
-Region availability of Copilot for Sales is listed [here](introduction.md#region-availability).
+## General
 
-## In which languages is Copilot for Sales supported?
+### What is Copilot for Sales?  
 
-You can find the list of supported languages for Copilot for Sales in Outlook and Teams [here](supported-languages.md).
+Microsoft Copilot for Sales brings together the power of Copilot for Microsoft 365 with seller workflows. Microsoft Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
-## Who can install Copilot for Sales?
+Some of the new innovations enabled in Copilot for Sales include a newly integrated experience with Microsoft Word and Microsoft Teams.  Sellers can prompt Copilot to create a meeting preparation brief in Microsoft Word, automatically populated with customer information such as an account and opportunity summary, names and titles of meeting participants, open tasks, highlights from recent meetings and email threads, and more. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
+
+Copilot for Sales includes Copilot for Microsoft 365 subscription and will be available February 1, 2024 for $50 per user per month.
+
+## Licensing
+
+### When is Microsoft Copilot for Sales available for purchase?
+
+Copilot for Sales includes Copilot for Microsoft 365 subscription and will be available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales will be available to purchase on CSP from March 1, 2024. It is sold standalone and includes licenses for Microsoft Copilot for Microsoft 365. It is priced at $50 per user/month, or $20 per user/month if the customer already has Copilot for Microsoft 365.
+
+### Will Copilot for Sales be included in Dynamics 365 Sales subscriptions?
+
+No, Copilot for Sales will not be included in any Dynamics 365 Sales subscriptions, as it includes Copilot for Microsoft 365 (for example, Copilot in PowerPoint, Copilot in Word, and more). 
+
+Dynamics 365 Sales Premium customers can just purchase the Copilot for M365 subscription ($30) to unlock the full power of the new Copilot of Sales product. All other Dynamics 365 Sales customers will have to purchase the Copilot for Sales subscription ($50) to get the full power of the product.  
+
+Please note that Dynamics 365 Sales customers (Enterprise and above) will continue to have access to standard functionality without Copilot for Sales. Features include Conversation Intelligence, e-mail replies and summarization, CRM Updates, and Microsoft Teams collaborative spaces. 
+
+### How does today's news about Copilot for Sales affect Dynamics 365 Sales? Is there any change in capability or licensing for D365 Sales customers?  
+
+There is no change or impact. 
+
+Dynamics 365 Sales Enterprise and Premium licenses will still come with Copilot capabilities in the Dynamics 365 Sales platform (for example, meeting preparation summary in D365), as well as a standard set of Copilot for Sales capabilities in Outlook and Teams, which mirror the Sales Copilot capabilities today (ie. email generation in Outlook, email summary in Outlook, contact updates in Outlook).  
+
+We will continue to innovate on Copilot experiences in the Dynamics 365 Sales platform, such as the recent [announcements at Ignite](https://aka.ms/Ignite2023BAannounceblog) for natural language support in D365 Sales. Customers can use this functionality without purchasing Copilot for Sales. 
+
+Future innovation in Copilot across the M365 apps will require purchase of Copilot for Sales. For more detail, see the SKU Placement chart above which highlights all of the current Copilot functionality that is included in Dynamics 365 Sales licenses.  
+
+### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who have purchased that standalone subscription?  
+
+Microsoft Copilot for Sales subscription replaces the current Microsoft Sales Copilot subscription. The capabilities currently in Sales Copilot will continue to be available and further enhanced with the power of Copilot for Microsoft 365, under the new Copilot for Sales subscription. The integration with Word and enhanced integration with Teams are just some examples of the innovations to come.
+
+We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality for the duration of their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
+
+## Availability
+
+### What languages will Microsoft Copilot for Sales support? 
+
+There are no changes to [country availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, with the exception of Copilot for Microsoft 365 which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
+
+### What geographies will Microsoft Copilot for Sales support?   
+
+Copilot in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
+
+Copilot for Microsoft 365 is not currently available in local region geographies. Please refer to the [public roadmap](http://www.microsoft365.com/roadmap) for the most current information.  
+
+### Will Microsoft Copilot for Sales be available for US GCC, GCC High, or DoD?  
+
+Currently, Microsoft Copilot for Sales is not supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Copilot for Microsoft 365 is expected to begin rollout in GCC during the Summer of 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?ms.url=m365comroadmap&rtc=1&filters=) in early 2024.
+
+## Skilling
+
+### How can I learn about Microsoft Copilot for Sales ?  
+
+Customers can access existing Microsoft Sales Copilot and Microsoft Copilot for M365 content through Microsoft Learn. Content will be refreshed in 2024 to align to the new naming and licensing structure. [View our adoption webpage for access to further materials](https://adoption.microsoft.com/copilot-for-sales/).
+
+### How can I get certified in Microsoft Copilot for Sales? 
+
+There currently are not any certifications for Microsoft Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You will first see technical skilling content on Microsoft Learn.
+
+## Functionality
+
+### How does Copilot work?  
+
+Copilot works by harnessing the power of foundational models, proprietary Microsoft technologies and customer business data. Search technologies like Bing and Azure Cognitive Search bring domain-specific context to Copilot from content like manuals and documents stored in customer’s own tenant. Microsoft applications like Dynamics 365, Power Platform bring crucial context with data stored in Microsoft Dataverse. Finally, Microsoft Graph API provides additional context from sources such as emails, chats, documents, meetings etc. 
+
+Every time a customer uses Copilot to perform a task, three things happen. 
+
+Copilot receives an input prompt from a business user in an application. For example, if a user prompts Copilot with "Show me recent news about ABC Corp." Copilot then preprocesses the prompt using an approach called grounding which uses enterprise data stored in Microsoft Graph and Dataverse. Grounding improves specificity and helps deliver relevant responses.  
+
+Next, the enriched prompt is sent to an appropriate LLM (large language model). The LLM returns a response, and Copilot then postprocesses this response which includes additional grounding calls to customer data, responsible AI checks, security, compliance, and privacy reviews. 
+
+Then, Copilot returns this recommended response to the business user via a command back to the application who then assesses before choosing to use it. 
+
+
+### Who can install Copilot for Sales?
 
 Microsoft 365 administrators can install Copilot for Sales and assign users/security groups to use it.
 
-## Is there any license required to use Copilot for Sales?
-
-Copilot for Sales may be subject to an additional free or paid license. For more information, see [Microsoft Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
-
-## Does Copilot for Sales require CRM connectivity?
+### Does Copilot for Sales require CRM connectivity?
 
 Yes, Copilot for Sales requires connectivity to a CRM.
 
-## Which CRMs work with Copilot for Sales?
+### Which CRMs work with Copilot for Sales?
 
 Currently, Copilot for Sales will work with Dynamics 365 Sales and Salesforce CRMs.
 
-## What privileges are required to use Copilot for Sales?
+### What privileges are required to use Copilot for Sales?
 
 Copilot for Sales applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Copilot for Sales](install-viva-sales.md#privileges-required-to-use-copilot-for-sales).
 
-## I don't see the Add to email button and instead only the Copy content button in the suggested content feature.
+### I don't see the Add to email button and instead only the Copy content button in the suggested content feature.
 
 The Copilot for Sales for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add to email functionality of the suggested content feature. Ask your administrator to update the Copilot for Sales for Outlook add-in. More information: [Update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
 
 Note that the **Add to email** button is displayed only when you use copilot while composing an email. When you use copilot while reading an email, the **Copy content** button is displayed.
 
-## I don't see an email summary when opening an email conversation.
+### I don't see an email summary when opening an email conversation.
 
 Email summary is generated only for emails or email threads with more than 1000 characters, which is about 180 words.
 
-## I don't see the Summarize a sales meeting button when creating a sales meeting summary email.
+### I don't see the Summarize a sales meeting button when creating a sales meeting summary email.
 
 The **Summarize a sales meeting** button is not available in the following scenarios:
 
@@ -62,19 +132,19 @@ The **Summarize a sales meeting** button is not available in the following scena
 
 For information on how to transcribe a meeting, see [Generate a meeting summary.](generate-meeting-summary.md)
 
-## With which Salesforce Editions does Copilot for Sales work?
+### With which Salesforce Editions does Copilot for Sales work?
 
 Copilot for Sales works with Professional (with API access enabled), Enterprise, Performance, Unlimited, and Developer Editions.
 
-## Is Copilot for Sales available for Dynamics 365 or Microsoft Exchange on premise?
+### Is Copilot for Sales available for Dynamics 365 or Microsoft Exchange on premise?
 
 Copilot for Sales is not available for Dynamics 365 or Microsoft Exchange on premise.
 
-## Does Copilot for Sales work for Power Apps or Dataverse customers without Dynamics 365 licenses?
+### Does Copilot for Sales work for Power Apps or Dataverse customers without Dynamics 365 licenses?
 
 Copilot for Sales works for Microsoft 365 customers with an eligible license and a CRM login (Dynamics 365 or Salesforce).
 
-## Does Copilot for Sales work in incognito mode?
+### Does Copilot for Sales work in incognito mode?
 
 When you use the Copilot for Sales app in incognito mode or you have disabled third-party cookies, the following message is displayed:
 
@@ -94,7 +164,7 @@ For information about how to allow third-party cookies, see:
 
 - [Enable cookies in Safari](https://support.apple.com/guide/safari/ibrw850f6c51/mac)
 
-## How can I add the Copilot for Sales app manually to a Teams meeting?
+### How can I add the Copilot for Sales app manually to a Teams meeting?
 
 You can add the Copilot for Sales app manually to a Teams meeting to test it internally before scheduling a call with your customer.
 
@@ -106,7 +176,7 @@ You can add the Copilot for Sales app manually to a Teams meeting to test it int
 
     :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Copilot for Sales app during meeting.":::
 
-## What's the minimum version of Outlook required for Copilot for Sales?
+### What's the minimum version of Outlook required for Copilot for Sales?
 
 The minimum required version for Outlook is:
 
@@ -114,7 +184,7 @@ The minimum required version for Outlook is:
 
 - **Outlook for Mac**: 16.78
 
-## Why are meeting insights not getting generated even if meeting is transcribed?
+### Why are meeting insights not getting generated even if meeting is transcribed?
 
 Meeting insights are generated only if version of the Copilot for Sales app in Microsoft Teams is 1.0.9 or higher. To check your app's version:
 
@@ -126,10 +196,10 @@ If the Copilot for Sales app for Teams is installed by your administrator, you m
 
 If you've installed Copilot for Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 
-## How many hours of conversation intelligence are available with Copilot for Sales?
+### How many hours of conversation intelligence are available with Copilot for Sales?
 
 You get unlimited call recording and processing hours with Copilot for Sales.
 
-## How can I provide feedback about Copilot for Sales?
+### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
