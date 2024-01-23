@@ -105,6 +105,8 @@
         href: view-save-email-summary-crm.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
+      - name: Use Microsoft Copilot for Sales with Copilot in Outlook
+        href: outlook-better-together.md
     - name: More options
       items:
       - name: Switch environments or CRM

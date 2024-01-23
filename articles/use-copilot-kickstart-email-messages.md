@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to kickstart email messages
 description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
-ms.date: 01/09/2024
+ms.date: 01/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,6 +21,12 @@ When you compose a new email or reply to your customers by email, Copilot for S
 > - This feature is available only when enabled by your administrator. More information: [Configure suggested email content in Outlook](suggested-replies.md)
 >
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending your email.
+
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales Standard license. If you have the Copilot for Sales Premium license, see [Use Microsoft Copilot for Sales with Copilot in Outlook](outlook-better-together.md).
+
+## Ananomy of suggested content
 
 :::image type="content" source="media/anatomy.png" alt-text="Screenshot showing the numbered anatomy of the suggested content corresponding to the following table.":::
 
