@@ -28,7 +28,7 @@ Legend:
 
 The existing Sales Copilot license is named as Copilot for Sales Standard license. The Copilot for Sales Standard license will continue to provide the same capabilities as the Sales Copilot license, but with the new order of the cards in the Outlook mailbox view.
 
-:::image type="content" source="media/standard-license.png" alt-text="Screenshot showing standard license user interface." lightbox="media/standard-license.png":::
+:::image type="content" source="media/standard-license-small.png" alt-text="Screenshot showing standard license user interface." lightbox="media/standard-license.png":::
 
 Legend:
 1. Email summary and generative replies
@@ -44,7 +44,7 @@ In Microsoft Teams, the Copilot for Sales Standard license will continue to prov
 
 The new Copilot for Sales license is named as Copilot for Sales Premium license. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience.
 
-:::image type="content" source="media/premium-license.png" alt-text="Screenshot showing premium license user interface." lightbox="media/premium-license.png":::
+:::image type="content" source="media/premium-license-small.png" alt-text="Screenshot showing premium license user interface." lightbox="media/premium-license.png":::
 
 Legend:
 1. Email summary and generative replies integrated into Outlook as part of the Copilot for Microsoft 365 experience.
