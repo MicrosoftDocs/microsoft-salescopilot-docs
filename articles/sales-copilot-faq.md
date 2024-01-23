@@ -63,7 +63,7 @@ There are no changes to [country availability or languages](supported-languages.
 
 Copilot in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
 
-Copilot for Microsoft 365 is not currently available in local region geographies. Please refer to the [public roadmap](http://www.microsoft365.com/roadmap) for the most current information.  
+Copilot for Microsoft 365 is not currently available in local region geographies. Please refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
 ### Will Microsoft Copilot for Sales be available for US GCC, GCC High, or DoD?  
 
@@ -228,7 +228,7 @@ Copilot unlocks business value by connecting LLMs to the customer’s own busine
 
 Copilot generates answers anchored in real-time business content—customer’s own documents, emails, calendar, chats, meetings, contacts, and other business data—and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week etc., to deliver accurate, relevant, contextual responses. 
 
-Microsoft, however, does not use customers’ data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](http://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services are not used to train Microsoft Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models are not improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
+Microsoft, however, does not use customers’ data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services are not used to train Microsoft Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models are not improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
 
 ### How will Copilot for Sales manage GDPR policies?  
 
