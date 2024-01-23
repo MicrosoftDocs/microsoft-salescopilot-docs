@@ -8,6 +8,8 @@
   items:
   - name: What's new overview
     href: whats-new.md
+  - name: Sales Copilot changing to Copilot for Sales
+    href: whats-new-copilot-sales.md
   - name: September 2023
     href: sep-23.md
   - name: August 2023
