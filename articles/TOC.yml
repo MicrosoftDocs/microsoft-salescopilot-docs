@@ -23,8 +23,16 @@
   - name: March 2023
     href: mar-23.md
 
-- name: Architecture overview
-  href: architecture.md
+- name: Product overview
+  items:
+  - name: Architecture overview
+    href: architecture.md
+  - name: Supported languages
+    href: supported-languages.md
+  - name: Data handling in Copilot for Sales
+    href: data-handling.md
+  - name: Copilot for Sales FAQ
+    href: sales-copilot-faq.md
 
 - name: Get started
   items:
@@ -32,10 +40,6 @@
     href: deploy-viva-sales-d365.md
   - name: Deployment guide for Salesforce users
     href: deploy-viva-sales-sf.md
-  - name: Supported languages
-    href: supported-languages.md
-  - name: Data handling in Copilot for Sales
-    href: data-handling.md
   - name: Install Copilot for Sales
     items:
     - name: Install Copilot for Sales (admin-deployed)
@@ -48,7 +52,7 @@
       href: install-sales-copilot.md
 
 
-- name: Administration
+- name: Administration guide
   items:
   - name: Overview
     href: administrator-settings-for-viva-sales.md
@@ -60,94 +64,94 @@
     href: use-extensions.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
-
-- name: Management
-  items:
   - name: Uninstall Copilot for Sales add-in for Outlook
     href: disable-viva-sales.md
   - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
 
-- name: Use Copilot for Sales in Outlook
+- name: Seller guide
   items:
-  - name: Overview
-    href: use-sales-copilot-outlook.md
-  - name: Connect a contact to your CRM
-    href: connect-contact.md
-  - name: Change the connected CRM contact
-    href: change-connected-crm-contact.md
-  - name: Create a contact in your CRM from Copilot for Sales
-    href: create-contact-crm-sales-copilot.md
-  - name: Save Outlook activities to your CRM
-    href: save-outlook-activities-crm.md
-  - name: View recent and upcoming activities
-    href: view-recent-upcoming-activities.md
-  - name: View record details
-    href: view-record-details.md
-  - name: Add personal notes
-    href: add-personal-notes.md
-  - name: Share a link to a CRM record
-    href: share-link-crm-record.md
-  - name: Edit a CRM record
-    href: edit-crm-record.md
-  - name: Switch environments or CRM
-    href: switch-environments-crm.md
-  - name: View diagnostics data
-    href: view-diagnostics-data.md
-  - name: Share feedback
-    href: share-feedback.md
-  - name: Sign out of Copilot for Sales
-    href: sign-out-sales-copilot.md
-  - name: Delete your personal data from Copilot for Sales
-    href: delete-personal-data.md
-  - name: Use server-side synchronization with Copilot for Sales
-    href: use-server-side-sync.md
+  - name: Capabilities in Outlook
+    items:
+    - name: Overview
+      href: use-sales-copilot-outlook.md
+    - name: Connect a contact to your CRM
+      href: connect-contact.md
+    - name: Change the connected CRM contact
+      href: change-connected-crm-contact.md
+    - name: Create a contact in your CRM from Copilot for Sales
+      href: create-contact-crm-sales-copilot.md
+    - name: Save Outlook activities to your CRM
+      href: save-outlook-activities-crm.md
+    - name: View recent and upcoming activities
+      href: view-recent-upcoming-activities.md
+    - name: View record details
+      href: view-record-details.md
+    - name: Add personal notes
+      href: add-personal-notes.md
+    - name: Share a link to a CRM record
+      href: share-link-crm-record.md
+    - name: Edit a CRM record
+      href: edit-crm-record.md
+    - name: Use server-side synchronization with Copilot for Sales
+      href: use-server-side-sync.md
+    - name: AI capabilities
+      items:
+      - name: Overview
+        href: ai-sales-copilot.md
+      - name: Use Copilot to kickstart email messages
+        href: use-copilot-kickstart-email-messages.md
+      - name: View and save email summary to CRM
+        href: view-save-email-summary-crm.md
+      - name: View opportunity summary
+        href: view-opportunity-summary.md
+    - name: More options
+      items:
+      - name: Switch environments or CRM
+        href: switch-environments-crm.md
+      - name: View diagnostics data
+        href: view-diagnostics-data.md
+      - name: Share feedback
+        href: share-feedback.md
+      - name: Sign out of Copilot for Sales
+        href: sign-out-sales-copilot.md
+      - name: Delete your personal data from Copilot for Sales
+        href: delete-personal-data.md
+  - name: Capabilities in Teams
+    items:
+    - name: Overview
+      href: use-sales-copilot-teams.md
+    - name: Create a Teams meeting
+      href: create-teams-meeting.md
+    - name: Use Copilot for Sales app during a meeting
+      href: use-sales-copilot-app-during-meeting.md
+    - name: Generate a meeting summary
+      href: generate-meeting-summary.md
+    - name: View and understand the meeting summary
+      href: view-understand-meeting-summary.md
+    - name: Create CRM tasks from meeting summary
+      href: create-crm-tasks-meeting-summary.md
+    - name: Share a CRM record in a Teams conversation
+      href: share-crm-record-teams-conversation.md
+    - name: View and update CRM record details
+      href: view-update-crm-record-details.md
+    - name: Share feedback
+      href: share-feedback-teams.md
 
-
-- name: Use Copilot for Sales in Teams
+- name: Cross-app capabilities
   items:
-  - name: Overview
-    href: use-sales-copilot-teams.md
-  - name: Create a Teams meeting
-    href: create-teams-meeting.md
-  - name: Use Copilot for Sales app during a meeting
-    href: use-sales-copilot-app-during-meeting.md
-  - name: Generate a meeting summary
-    href: generate-meeting-summary.md
-  - name: View and understand the meeting summary
-    href: view-understand-meeting-summary.md
-  - name: Create CRM tasks from meeting summary
-    href: create-crm-tasks-meeting-summary.md
-  - name: Share a CRM record in a Teams conversation
-    href: share-crm-record-teams-conversation.md
-  - name: View and update CRM record details
-    href: view-update-crm-record-details.md
-  - name: Share feedback
-    href: share-feedback-teams.md
-
-- name: AI in Copilot for Sales
-  items:
-  - name: Overview
-    href: ai-sales-copilot.md
-  - name: Use Copilot to kickstart email messages
-    href: use-copilot-kickstart-email-messages.md
-  - name: View and save email summary to CRM
-    href: view-save-email-summary-crm.md
-  - name: View opportunity summary
-    href: view-opportunity-summary.md
-
-- name: Collaboration space in Copilot for Sales
-  items:
-  - name: Overview
-    href: collaboration-space.md
-  - name: Set up a team using the account team template
-    href: set-up-team-account-team-template.md
-  - name: Set up a team using the deal room template
-    href: set-up-team-deal-room-template.md
-  - name: Collaborate in account and deal room teams
-    href: collaborate-teams-newly-created-existing-team.md
-  - name: Access linked teams and channels
-    href: access-linked-teams-channels.md
+  - name: Collaboration space in Copilot for Sales
+    items:
+    - name: Overview
+      href: collaboration-space.md
+    - name: Set up a team using the account team template
+      href: set-up-team-account-team-template.md
+    - name: Set up a team using the deal room template
+      href: set-up-team-deal-room-template.md
+    - name: Collaborate in account and deal room teams
+      href: collaborate-teams-newly-created-existing-team.md
+    - name: Access linked teams and channels
+      href: access-linked-teams-channels.md
 
 - name: Extend Copilot for Sales (preview)
   items:
@@ -228,9 +232,6 @@
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
-
-- name: Copilot for Sales FAQ
-  href: sales-copilot-faq.md
 
 - name: Copilot for Sales training
   href: /training/modules/boost-sales-performance/
