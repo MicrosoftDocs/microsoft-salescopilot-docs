@@ -29,7 +29,7 @@ Copilot for Sales includes Copilot for Microsoft 365 subscription and will be av
 
 Copilot for Sales includes Copilot for Microsoft 365 subscription and will be available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales will be available to purchase on CSP from March 1, 2024. Copilot for Sales includes the rich sales specific capabilities alongside Microsoft Copilot for Microsoft 365. It is priced at $50 per user/month, or $20 per user/month if the customer already has Copilot for Microsoft 365. [See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
 
-`image`
+:::image type="content" source="media/license-models.jpg" alt-text="License model":::
 
 ### Will Copilot for Sales be included in Dynamics 365 Sales subscriptions?
 
