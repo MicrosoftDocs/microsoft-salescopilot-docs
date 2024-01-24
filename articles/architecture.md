@@ -21,9 +21,9 @@ The architecture document provides an in-depth view of the Microsoft Copilot for
 |[Download Copilot for Sales architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
 |[Download Copilot for Sales architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
 
-
-Here's a video that gives you a quick overview of Copilot for Sales.
-
+<br>
+Here's a video that gives you a quick overview of Copilot for Sales.<br>
+<br>
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1f1Ja]
 
 
