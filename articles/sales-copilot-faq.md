@@ -27,21 +27,21 @@ Copilot for Sales includes Copilot for Microsoft 365 subscription and will be av
 
 ### When is Microsoft Copilot for Sales available for purchase?
 
-Copilot for Sales includes Copilot for Microsoft 365 subscription and will be available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales will be available to purchase on CSP from March 1, 2024. Copilot for Sales includes the rich sales specific capabilities alongside Microsoft Copilot for Microsoft 365. It is priced at $50 per user/month, or $20 per user/month if the customer already has Copilot for Microsoft 365. [See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
+Copilot for Sales includes Copilot for Microsoft 365 subscription and will be available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales will be available to purchase on CSP from March 1, 2024. Copilot for Sales includes the rich sales specific capabilities alongside Microsoft Copilot for Microsoft 365. It's priced at $50 per user/month, or $20 per user/month if the customer already has Copilot for Microsoft 365. [See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
 
 :::image type="content" source="media/license-models.jpg" alt-text="License model":::
 
 ### Will Copilot for Sales be included in Dynamics 365 Sales subscriptions?
 
-No, Copilot for Sales (premium) will not be included in any Dynamics 365 Sales subscriptions, as it includes Copilot for Microsoft 365 (for example, Copilot in PowerPoint, Copilot in Word, and more). 
+No, Copilot for Sales (premium) won't be included in any Dynamics 365 Sales subscriptions, as it includes Copilot for Microsoft 365 (for example, Copilot in PowerPoint, Copilot in Word, and more). 
 
 Dynamics 365 Sales Premium customers can unlock Copilot for Sales with an additional purchase of Copilot for Microsoft 365. The sales capabilities are activated when a user has Sales Premium and Microsoft Copilot for Microsoft 365 associated to their user profile. All other Dynamics 365 Sales customers must purchase the Copilot for Sales subscription to get the full power of the product.  
 
-Please note that Dynamics 365 Sales customers (Enterprise and Premium) will continue to have access to standard functionality (formally known as Viva Sales or Sales Copilot) without purchasing Copilot for Sales. See the chart above for the included features.
+Note that Dynamics 365 Sales customers (Enterprise and Premium) will continue to have access to standard functionality (formally known as Viva Sales or Sales Copilot) without purchasing Copilot for Sales. See the chart above for the included features.
 
 ### How does today's news about Copilot for Sales affect Dynamics 365 Sales? Is there any change in capability or licensing for Dynamics 365 Sales customers?  
 
-There is no change or impact. 
+There's no change or impact. 
 
 Dynamics 365 Sales Enterprise and Premium licenses will still include Copilot capabilities in the Dynamics 365 Sales platform (for example, meeting preparation summary in Dynamics 365), as well as a standard set of Copilot for Sales capabilities in Outlook and Teams, which mirror the Sales Copilot capabilities today (ie. email generation in Outlook, email summary in Outlook, contact updates in Outlook).  
 
