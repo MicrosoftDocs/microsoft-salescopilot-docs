@@ -8,20 +8,8 @@
   items:
   - name: What's new overview
     href: whats-new.md
-  - name: September 2023
-    href: sep-23.md
-  - name: August 2023
-    href: aug-23.md
-  - name: July 2023
-    href: jul-23.md
-  - name: June 2023
-    href: jun-23.md
-  - name: May 2023
-    href: may-23.md
-  - name: April 2023
-    href: apr-23.md
-  - name: March 2023
-    href: mar-23.md
+  - name: Sales Copilot changing to Copilot for Sales
+    href: whats-new-copilot-sales.md
 
 - name: Product overview
   items:

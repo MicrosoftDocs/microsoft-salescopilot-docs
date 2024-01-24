@@ -359,6 +359,41 @@
       "source_path": "articles/tsg-field-mismatch.md",
       "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error",
       "redirect_document_id": false
-      }            
+      },
+      {
+        "source_path": "articles/mar-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/apr-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/may-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jun-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jul-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/aug-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sep-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      }    
   ]
 }
