@@ -47,39 +47,39 @@ Dynamics 365 Sales Enterprise and Premium licenses will still include Copilot ca
 
 We will continue to innovate on Copilot experiences in the Dynamics 365 Sales platform, such as the recent [announcements at Ignite](https://aka.ms/Ignite2023BAannounceblog) for natural language support in Dynamics 365 Sales. Customers can use this functionality without purchasing Copilot for Sales. 
 
-Future innovation in Copilot across the Microsoft 365 apps will require purchase of Copilot for Sales. For more detail, see the SKU Placement chart above which highlights all of the current Copilot functionality that is included in Dynamics 365 Sales licenses.  
+Future innovation in Copilot across the Microsoft 365 apps will require purchase of Copilot for Sales. For more detail, see the license chart above which highlights all of the current Copilot functionality that is included in Dynamics 365 Sales licenses.  
 
-### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who have purchased that standalone subscription?  
+### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who purchased that standalone subscription?  
 
 Microsoft Copilot for Sales subscription replaces the current Microsoft Sales Copilot subscription. The capabilities currently in Sales Copilot will continue to be available and further enhanced with the power of Copilot for Microsoft 365, under the new Copilot for Sales subscription. The integration with Word and enhanced integration with Teams are just some examples of the innovations to come.
 
-We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality for the duration of their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
+We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality during their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
 
 ## Availability
 
 ### What languages will Microsoft Copilot for Sales support? 
 
-There are no changes to [country availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, with the exception of Copilot for Microsoft 365 which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
+There are no changes to [country/region availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Copilot for Microsoft 365, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
 ### What geographies will Microsoft Copilot for Sales support?   
 
 Copilot in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
 
-Copilot for Microsoft 365 is not currently available in local region geographies. Please refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
+Copilot for Microsoft 365 isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
 ### Will Microsoft Copilot for Sales be available for US GCC, GCC High, or DoD?  
 
-Currently, Microsoft Copilot for Sales is not supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Copilot for Microsoft 365 is expected to begin rollout in GCC during the Summer of 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?ms.url=Microsoft 365comroadmap&rtc=1&filters=) in early 2024.
+Currently, Microsoft Copilot for Sales isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Copilot for Microsoft 365 is expected to begin rollout in GCC during the Summer of 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?ms.url=Microsoft 365comroadmap&rtc=1&filters=) in early 2024.
 
 ## Skilling
 
-### How can I learn about Microsoft Copilot for Sales ?  
+### How can I learn about Microsoft Copilot for Sales?  
 
 Customers can access existing Microsoft Sales Copilot and Microsoft Copilot for Microsoft 365 content through Microsoft Learn. Content will be refreshed in 2024 to align to the new naming and licensing structure. [View our adoption webpage for access to further materials](https://adoption.microsoft.com/copilot-for-sales/).
 
 ### How can I get certified in Microsoft Copilot for Sales? 
 
-There currently are not any certifications for Microsoft Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You will first see technical skilling content on Microsoft Learn.
+There currently aren't any certifications for Microsoft Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
 
 ## Functionality
 
@@ -91,7 +91,7 @@ Every time a customer uses Copilot to perform a task, three things happen.
 
 Copilot receives an input prompt from a business user in an application. For example, if a user prompts Copilot with "Show me recent news about ABC Corp." Copilot then preprocesses the prompt using an approach called grounding which uses enterprise data stored in Microsoft Graph and Dataverse. Grounding improves specificity and helps deliver relevant responses.  
 
-Next, the enriched prompt is sent to an appropriate LLM (large language model). The LLM returns a response, and Copilot then postprocesses this response which includes additional grounding calls to customer data, responsible AI checks, security, compliance, and privacy reviews. 
+Next, the enriched prompt is sent to an appropriate LLM (large language model). The LLM returns a response, and Copilot then postprocesses this response, which includes additional grounding calls to customer data, responsible AI checks, security, compliance, and privacy reviews. 
 
 Then, Copilot returns this recommended response to the business user via a command back to the application who then assesses before choosing to use it. 
 
@@ -106,7 +106,7 @@ Yes, Copilot for Sales requires connectivity to a CRM.
 
 ### Which CRMs work with Copilot for Sales?
 
-Currently, Copilot for Sales will work with Dynamics 365 Sales and Salesforce CRMs.
+Currently, Copilot for Sales works with Dynamics 365 Sales and Salesforce CRMs.
 
 ### What privileges are required to use Copilot for Sales?
 
@@ -114,9 +114,9 @@ Copilot for Sales applies your organization's existing CRM access controls and u
 
 ### I don't see the Add to email button and instead only the Copy content button in the suggested content feature.
 
-The Copilot for Sales for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add to email functionality of the suggested content feature. Ask your administrator to update the Copilot for Sales for Outlook add-in. More information: [Update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
+The Copilot for Sales for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. Ask your administrator to update the Copilot for Sales for Outlook add-in. More information: [Update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
 
-Note that the **Add to email** button is displayed only when you use copilot while composing an email. When you use copilot while reading an email, the **Copy content** button is displayed.
+The **Add to email** button is displayed only when you use copilot while composing an email. When you use copilot while reading an email, the **Copy content** button is displayed.
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -124,7 +124,7 @@ Email summary is generated only for emails or email threads with more than 1000 
 
 ### I don't see the Summarize a sales meeting button when creating a sales meeting summary email.
 
-The **Summarize a sales meeting** button is not available in the following scenarios:
+The **Summarize a sales meeting** button isn't available in the following scenarios:
 
 - There are no meetings transcribed.
 
@@ -140,11 +140,11 @@ Copilot for Sales works with Professional (with API access enabled), Enterprise,
 
 ### Is Copilot for Sales available for Dynamics 365 or Microsoft Exchange on premise?
 
-Copilot for Sales is not available for Dynamics 365 or Microsoft Exchange on premise.
+Copilot for Sales isn't available for Dynamics 365 or Microsoft Exchange on premise.
 
 ### Does Copilot for Sales work for Power Apps or Dataverse customers without Dynamics 365 licenses?
 
-Copilot for Sales works for Microsoft 365 customers with an eligible license and a CRM login (Dynamics 365 or Salesforce).
+Copilot for Sales works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
 
 ### Does Copilot for Sales work in incognito mode?
 
@@ -160,7 +160,7 @@ To get full benefit of all features in Copilot for Sales, browse in normal mode 
 
 For information about how to allow third-party cookies, see:
 
-- [Enable cookies in Edge](https://support.microsoft.com/office/enable-cookies-6b018d22-1d24-43d9-8543-3d35ddb2cb52)
+- [Enable cookies in Microsoft Edge](https://support.microsoft.com/office/enable-cookies-6b018d22-1d24-43d9-8543-3d35ddb2cb52)
 
 - [Clear, allow & manage cookies in Chrome](https://support.google.com/chrome/answer/95647)
 
@@ -218,7 +218,7 @@ Microsoft is uniquely positioned to deliver enterprise-ready AI. Powered by Azur
 
 1. Architected to protect tenant, group, and individual data 
 
-    We know data leakage is a concern for customers. LLMs are not further trained on, or learn from, customer tenant data or user prompts. Within the customer’s own tenant, our time-tested permissions model provides safeguards and enterprise-grade security as seen in our Azure offerings. And on an individual level, Copilot presents only data one can access using the same technology that we’ve been using for years to secure customer data. 
+    We know data leakage is a concern for customers. LLMs aren't further trained on, or learn from, customer tenant data or user prompts. Within the customer’s own tenant, our time-tested permissions model provides safeguards and enterprise-grade security as seen in our Azure offerings. And on an individual level, Copilot presents only data one can access using the same technology that we’ve been using for years to secure customer data. 
 
 1. Designed to learn new skills 
 
@@ -226,17 +226,17 @@ Microsoft is uniquely positioned to deliver enterprise-ready AI. Powered by Azur
 
 ### How will Microsoft use customer data to train Copilot for Sales?  
 
-Copilot unlocks business value by connecting LLMs to the customer’s own business data—in a secure, complaint, privacy-preserving way. 
+Copilot unlocks business value by connecting LLMs to the customer’s own business data in a secure, complaint, privacy-preserving way. 
 
-Copilot generates answers anchored in real-time business content—customer’s own documents, emails, calendar, chats, meetings, contacts, and other business data—and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week etc., to deliver accurate, relevant, contextual responses. 
+Copilot generates answers anchored in real-time business content (customer's own documents, emails, calendar, chats, meetings, contacts, and other business data) and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week, and  to deliver accurate, relevant, contextual responses. 
 
-Microsoft, however, does not use customers’ data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services are not used to train Microsoft Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models are not improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
+Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train Microsoft Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
 
 ### How will Copilot for Sales manage GDPR policies?  
 
 Copilot for Sales complies with GDPR policies.
 
-The Dynamics App for Outlook is strictly an enablement app that bridges the gap between outlook and DV data. The app is not being invested in, but rather we are focusing on bringing critical enablement features to the Copilot for Sales App in addition to all of the empowerment features related to generative AI and insights to help sellers get the job done in the context of their work in Outlook. Sellers should be encouraging there customers to migrate to the Copilot for Sales app to take advantage of our innovation and investments (two existing gaps, entity creation and entity global search are being worked on and should be delivered in Q1 of CY24).
+The Dynamics App for Outlook is strictly an enablement app that bridges the gap between outlook and DV data. The app isn't being invested in, but rather we're focusing on bringing critical enablement features to the Copilot for Sales App in addition to all of the empowerment features related to generative AI and insights to help sellers get the job done in the context of their work in Outlook. Sellers should encourage their customers to migrate to the Copilot for Sales app to take advantage of our innovation and investments (two existing gaps, entity creation and entity global search are being worked on and should be delivered in the first quarter of 2024).
 
 ## Resources 
 

@@ -53,7 +53,7 @@ Legend:
 
 In the Outlook calendar view, you can see the opportunity summary and insights from partner apps, if enabled.
 
-In Microsoft Teams, you can use chat capabilities of Copilot in Microsoft Teams enriched with the seller capabilities such as generating opportunity summary using CRM data during the meeting.
+In Microsoft Teams, you can use chat capabilities of Copilot in Microsoft Teams enriched with the seller capabilities such as generating opportunity summary using CRM data and getting brand/competitor information during the meeting.
 
 :::image type="content" source="media/teams-copilot-chat.png" alt-text="Screenshot showing Copilot in Teams chat user interface.":::
 
@@ -65,4 +65,4 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app which includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Show the sales pipeline for the last 12 months" directly in the Microsoft 365 chat.
 
-The enhanced Team app is initially supported in the web version of Outlook but support for other Outlook clients such as Windows and Mac will be available soon. This means if your sellers use other Outlook client, you should deploy both the new enhanced Teams app and the older Outlook add-in. [See deployment guides for details](deploy-viva-sales-d365.md).
+The enhanced Team app is initially supported in the web version of Outlook but support for other Outlook clients such as Windows and Mac will be available soon. This means if your sellers use other Outlook client, you should deploy both the new enhanced Teams app and the older Outlook add-in. See deployment guides for details: [Dynamics 365 customers](deploy-viva-sales-d365.md) and [Salesforce CRM customers](deploy-viva-sales-sf.md).
