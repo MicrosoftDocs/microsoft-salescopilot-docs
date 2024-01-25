@@ -404,7 +404,7 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 
 1. On the **Highlights** tab, in the **Key email info** card, select **Draft an email**.
 
-    Under the **Suggested** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
+    Under the **More options** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
 
    > [!TIP]
    > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
