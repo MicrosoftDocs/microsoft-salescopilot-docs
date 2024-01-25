@@ -22,6 +22,9 @@ If you are a Dynamics 365 Sales Premium customer, the sales specific functionali
 
 For information about pricing, see [Microsoft Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Copilot for Microsoft 365 pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
+> [!NOTE]
+> If you have the Copilot for Sales standard license, see [Generate email replies](use-copilot-kickstart-email-messages.md).
+
 ## Prerequisites
 
 - [Copilot for Sales must be turned on in your environment](suggested-replies.md)

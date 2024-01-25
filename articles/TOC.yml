@@ -87,14 +87,17 @@
       items:
       - name: Overview
         href: ai-sales-copilot.md
-      - name: Use Copilot to kickstart email messages
-        href: use-copilot-kickstart-email-messages.md
-      - name: View and save email summary to CRM
-        href: view-save-email-summary-crm.md
+      - name: View email summary and generate reply
+        items:
+        - name: Generate email reply using standard license
+          href: use-copilot-kickstart-email-messages.md
+        - name: View email summary using standard license
+          href: view-save-email-summary-crm.md
+        - name: Generate email reply using premium license
+          href: outlook-better-together.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
-      - name: Use Microsoft Copilot for Sales with Copilot in Outlook
-        href: outlook-better-together.md
+      
     - name: More options
       items:
       - name: Switch environments or CRM

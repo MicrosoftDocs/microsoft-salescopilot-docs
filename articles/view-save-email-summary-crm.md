@@ -20,6 +20,12 @@ Copilot for Sales uses AI to summarize email conversations and provides you with
 
 When available, the summary includes information whether budget, stakeholders, need, and timing are mentioned in the email or not. This information is displayed only for external emails and when detected with a high probability by AI.
 
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Use Microsoft Copilot for Sales with Copilot in Outlook](outlook-better-together.md).
+
+## Anatomy of email summary
+
 :::image type="content" source="media/email-summary.png" alt-text="Screenshot showing the Email summary with annotations.":::
 
 | Annotation | Description |
