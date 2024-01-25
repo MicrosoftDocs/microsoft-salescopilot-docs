@@ -121,7 +121,11 @@
     - name: Generate a meeting summary
       href: generate-meeting-summary.md
     - name: View and understand the meeting summary
-      href: view-understand-meeting-summary.md
+      items:
+      - name: View meeting summary using standard license
+        href: view-understand-meeting-summary.md
+      - name: View meeting summary using premium license
+        href: view-meeting-summary-recap.md
     - name: Create CRM tasks from meeting summary
       href: create-crm-tasks-meeting-summary.md
     - name: Share a CRM record in a Teams conversation
