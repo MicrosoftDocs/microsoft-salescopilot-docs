@@ -37,7 +37,7 @@ No, Copilot for Sales (premium) won't be included in any Dynamics 365 Sales subs
 
 Dynamics 365 Sales Premium customers can unlock Copilot for Sales with an additional purchase of Copilot for Microsoft 365. The sales capabilities are activated when a user has Sales Premium and Microsoft Copilot for Microsoft 365 associated to their user profile. All other Dynamics 365 Sales customers must purchase the Copilot for Sales subscription to get the full power of the product.  
 
-Note that Dynamics 365 Sales customers (Enterprise and Premium) will continue to have access to standard functionality (formally known as Viva Sales or Sales Copilot) without purchasing Copilot for Sales. See the chart above for the included features.
+Note that Dynamics 365 Sales customers (Enterprise and Premium) will continue to have access to standard functionality (formerly known as Viva Sales or Sales Copilot) without purchasing Copilot for Sales. See the chart above for the included features.
 
 ### How does today's news about Copilot for Sales affect Dynamics 365 Sales? Is there any change in capability or licensing for Dynamics 365 Sales customers?  
 
