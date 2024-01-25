@@ -95,9 +95,11 @@ You can get suggested email content when you reply to a customer email, read an 
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send.
 
-1. To use a suggested prompt, select the :::image type="icon" source="media/suggestions-icon.png" border="false"::: icon, and then choose a prompt. More information: [Use suggested prompts](#use-suggested-prompts)
+1. To use a suggested prompt, select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then choose a prompt. More information: [Use suggested prompts](#use-suggested-prompts)
 
-1. To use a saved prompt, select the :::image type="icon" source="media/fav-icon.png" border="false"::: icon, and then choose the prompt you want to use. More information: [Save and reuse custom prompts](#save-and-reuse-custom-prompts)
+1. To use a saved prompt, select :::image type="icon" source="media/fav-icon.png" border="false":::, and then choose the prompt you want to use. More information: [Save and reuse custom prompts](#save-and-reuse-custom-prompts)
+
+    :::image type="content" source="media/custom-promt-text.png" alt-text="Screenshot showing custom prompt text.":::
 
 1. Select **Create draft**.
 
@@ -136,7 +138,7 @@ When you enter a custom prompt, suggested prompts are displayed based on the con
 
 1. On the **Highlights** tab, select **Draft an email**.
 
-1. Select the :::image type="icon" source="media/suggestions-icon.png" border="false"::: icon to see prompt suggestions.
+1. Select :::image type="icon" source="media/suggestions-icon.png" border="false"::: to see prompt suggestions.
 
 1. Select the prompt you want to use.
 
@@ -168,7 +170,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 2.  On the **Highlights** tab, select **Draft an email**.
 
-3.  Under the **Favorites** section, select the prompt you want to use.
+3.  Select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then select the prompt you want to use.
 
     :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
 
