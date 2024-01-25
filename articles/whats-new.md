@@ -15,7 +15,7 @@ Wondering about upcoming and recently released capabilities in Microsoft Copilot
 
 See the release plans for what's coming. Choose the following links to learn about the latest versions of Microsoft Copilot for Sales.
 
-- [2022 release wave 2](/dynamics365/release-plan/2023wave2/sales/microsoft-sales-copilot/planned-features)
+- [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/microsoft-sales-copilot/planned-features)
 - [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/viva-sales/planned-features)  
 
 Keep track of changes on the [Microsoft Copilot for Sales release planner](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales) site, or download the release plan as a single PDF.
