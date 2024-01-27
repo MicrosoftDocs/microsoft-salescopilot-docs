@@ -22,7 +22,7 @@ When available, the summary includes information whether budget, stakeholders, n
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Use Microsoft Copilot for Sales with Copilot in Outlook](outlook-better-together.md).
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md)
 
 ## Anatomy of email summary
 

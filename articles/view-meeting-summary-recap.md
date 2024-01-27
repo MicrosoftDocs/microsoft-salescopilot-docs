@@ -22,6 +22,8 @@ To view sales related insights in Microsoft Teams meeting recap, you need one of
 - [Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 - [Microsoft Teams Premium](https://www.microsoft.com/microsoft-teams/premium) and Microsoft Copilot for Sales standard
 
+> [!NOTE]
+> If you have the Copilot for Sales standard license, see [View and understand the meeting summary](view-understand-meeting-summary.md).
 
 ## Prerequisites
 

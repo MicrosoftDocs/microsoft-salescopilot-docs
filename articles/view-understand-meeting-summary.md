@@ -14,6 +14,10 @@ Sellers and their managers need an easy way to review the conversations they've 
 
 The meeting summary page provides a high-level view of how the conversation with a customer went, and includes follow-up action items and relevant keywords, a timeline, a transcript of the call, and more.
 
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
+
 ## View the meeting summary
 
 When the meeting summary is ready, you'll receive a message from the **Copilot for Sales** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Copilot for Sales** tab in the meeting.

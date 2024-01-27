@@ -87,14 +87,18 @@
       items:
       - name: Overview
         href: ai-sales-copilot.md
-      - name: View email summary and generate reply
+      - name: View email summary
         items:
-        - name: Generate email reply using standard license
-          href: use-copilot-kickstart-email-messages.md
+        - name: View email summary using premium license
+          href: email-summary-premium.md
         - name: View email summary using standard license
           href: view-save-email-summary-crm.md
-        - name: Generate email reply using premium license
-          href: outlook-better-together.md
+      - name: Draft an email message
+        items:
+        - name: Draft an email message using premium license
+          href: email-reply-premium.md
+        - name: Draft an email message using standard license
+          href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
       
@@ -122,10 +126,10 @@
       href: generate-meeting-summary.md
     - name: View and understand the meeting summary
       items:
-      - name: View meeting summary using standard license
-        href: view-understand-meeting-summary.md
       - name: View meeting summary using premium license
         href: view-meeting-summary-recap.md
+      - name: View meeting summary using standard license
+        href: view-understand-meeting-summary.md
     - name: Create CRM tasks from meeting summary
       href: create-crm-tasks-meeting-summary.md
     - name: Share a CRM record in a Teams conversation
@@ -134,6 +138,11 @@
       href: view-update-crm-record-details.md
     - name: Share feedback
       href: share-feedback-teams.md
+
+- name: Capabilities in Microsoft Word
+  items:
+  - name: Overview
+    href: meeting-report-word.md
 
 - name: Cross-app capabilities
   items:
