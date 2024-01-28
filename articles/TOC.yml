@@ -116,12 +116,14 @@
         href: delete-personal-data.md
   - name: Capabilities in Teams
     items:
-    - name: Overview
+    - name: Generate pre-meeting report
       href: use-sales-copilot-teams.md
     - name: Create a Teams meeting
       href: create-teams-meeting.md
     - name: Use Copilot for Sales app during a meeting
       href: use-sales-copilot-app-during-meeting.md
+    - name: View sales information with Copilot in Microsoft Teams 
+      href: copilot-teams-chat.md
     - name: Generate a meeting summary
       href: generate-meeting-summary.md
     - name: View and understand the meeting summary
@@ -139,25 +141,25 @@
     - name: Share feedback
       href: share-feedback-teams.md
 
-- name: Capabilities in Microsoft Word
-  items:
-  - name: Overview
-    href: meeting-report-word.md
-
-- name: Cross-app capabilities
-  items:
-  - name: Collaboration space in Copilot for Sales
+  - name: Capabilities in Microsoft Word
     items:
     - name: Overview
-      href: collaboration-space.md
-    - name: Set up a team using the account team template
-      href: set-up-team-account-team-template.md
-    - name: Set up a team using the deal room template
-      href: set-up-team-deal-room-template.md
-    - name: Collaborate in account and deal room teams
-      href: collaborate-teams-newly-created-existing-team.md
-    - name: Access linked teams and channels
-      href: access-linked-teams-channels.md
+      href: meeting-report-word.md
+
+  - name: Cross-app capabilities
+    items:
+    - name: Collaboration space in Copilot for Sales
+      items:
+      - name: Overview
+        href: collaboration-space.md
+      - name: Set up a team using the account team template
+        href: set-up-team-account-team-template.md
+      - name: Set up a team using the deal room template
+        href: set-up-team-deal-room-template.md
+      - name: Collaborate in account and deal room teams
+        href: collaborate-teams-newly-created-existing-team.md
+      - name: Access linked teams and channels
+        href: access-linked-teams-channels.md
 
 - name: Extend Copilot for Sales (preview)
   items:

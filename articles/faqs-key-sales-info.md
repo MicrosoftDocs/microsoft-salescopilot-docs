@@ -56,4 +56,4 @@ System may not find relevant CRM information to show, in that case, it will not 
 
 ## See also
 
-- [Use Microsoft Copilot for Sales with Copilot in Outlook](outlook-better-together.md)
+- [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)

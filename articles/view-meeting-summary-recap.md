@@ -33,7 +33,7 @@ To view sales related insights in Microsoft Teams meeting recap, you need one of
 
 This capability is supported only in English.
 
-## View sales related insights meeting recap
+## View sales related insights in meeting recap
 
 You can view meeting recap if a meeting is recorded and transcribed. With Copilot for Sales added to the Teams meeting, you can view sales related insights in the meeting recap.
 
