@@ -158,6 +158,15 @@
     - name: Sample OpenAPI definition
       href: api-sample-def.md
 
+- name: Power BI template app
+  items:
+  - name: Analyze your sellers' conversation data with Power BI
+    href: analyze-sellers-conv-data-pbi.md
+  - name: View and understand Copilot for Sales dashboard report
+    href: view-understand-pbi-report.md
+  - name: Dataverse tables used in the Copilot for Sales dashboard reports
+    href: dataverse-tables-pbi-report.md
+
 - name: Troubleshooting guide
   items:
   - name: Overview
