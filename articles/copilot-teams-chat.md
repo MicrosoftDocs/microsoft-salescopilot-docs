@@ -48,3 +48,8 @@ You can either enter your own prompts or use the predefined prompts to get sales
 1. Select **More prompts** below the compose box, and select **Get sales opportunity summary**. Information is displayed in the adaptive card.
 1. If a brand or competitor name is detected, prompts are suggested above the compose box. Select the prompt to view the corresponding information in the **Copilot** panel.
 1.  To view the opportunity or brand/competitor information in your CRM, select **View in (CRM)**.
+
+### See also
+
+[Welcome to Copilot in Microsoft Teams](https://support.microsoft.com/office/welcome-to-copilot-in-microsoft-teams-725be278-ffce-4e22-90e8-0a6ef95bf4a2)<br>
+[Get started with Copilot in Microsoft Teams meetings](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1)
