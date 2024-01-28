@@ -55,7 +55,7 @@ The following information is available:
 
 ## Create a CRM task from meeting recap
 
-1.	[Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-meeting-recap).
+1.	[Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-in-meeting-recap).
 
 2.	Find the follow-up item for which you need to create a task, and then select **Create task**.
 

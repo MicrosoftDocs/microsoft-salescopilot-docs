@@ -27,7 +27,7 @@ To view sales information with Copilot in Microsoft Teams during a meeting, you 
 ## Prerequisites
 
 - [Copilot for Sales must be turned on in your environment](suggested-replies.md)
-- [Copilot for Sales plugin must be enabled in Copilot](#enable-the-copilot-for-plugin)
+- [Copilot for Sales plugin must be enabled in Copilot](#enable-the-copilot-for-sales-plugin-in-copilot)
 
 ## Enable the Copilot for Sales plugin in Copilot
 
