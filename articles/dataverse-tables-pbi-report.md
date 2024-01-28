@@ -17,8 +17,8 @@ ms.custom:
 
 The following table lists the Dataverse tables used in the dashboard reports.
 
-|**Table**|**Where in dashboard?**|**Use**|
-|---|---|---|
+|Table|Where in dashboard?|Use|
+|-----|-----------------|-------|
 |SCI Conversation|Time filter|The minimum and maximum values of the time filter are set according to the Start time field of the table.|
 |SCI Conversation|Team or Seller filters|The Team or Seller filters filter the data in the dashboard based on the owner of the table.|
 |SCI Conversation|Activity type filter|Displays the source for the type of activity (for example, email, phone call, or meeting).|
