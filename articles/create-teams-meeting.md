@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Create a Teams meeting
 
-Your Copilot for Sales journey starts when you schedule a Microsoft Teams meeting and invite at least one external participant. The Copilot for Sales app is added automatically to the meeting created using Outlook for Windows, Mac, or web. A message is displayed that conversation insights are generated if you record the meeting with transcription on.
+Your Copilot for Sales journey starts when you schedule a Microsoft Teams meeting and invite at least one external participant. The Copilot for Sales app is added automatically to the meeting. A message is displayed that conversation insights are generated if you record the meeting with transcription on.
 
 > [!NOTE]
 > Only meeting organizers can manually add the Copilot for Sales app to a Teams meeting.
