@@ -31,12 +31,14 @@ To view sales information with Copilot in Microsoft Teams during a meeting, you 
 
 ## Enable the Copilot for Sales plugin in Copilot
 
-Copilot for Sales is added and pinned as a meeting app by your admininistrator. You can access the app from the meeting toolbar during a meeting.
+Copilot for Sales is added and pinned as a meeting app by your admininistrator. You can access the app from the meeting controls during a meeting.
 
 To view sales information with Copilot in Microsoft Teams during a meeting, the Copilot for Sales plugin must be enabled in Copilot. By default, the plugin is disabled. You must enable it during the first use.
 
-1. During a meeting in Teams, select **Copilot** from the meeting toolbar. The **Copilot** panel opens on the right side of the meeting window.
-2. Select the plugin icon `icon image` below the compose box, and turn on the **Copilot for Sales** toggle.
+1. During a meeting in Teams, select **Copilot** from the meeting controls. The **Copilot** panel opens on the right side of the meeting window.
+2. Select the plugin icon :::image type="icon" source="media/plug-in-icon.png" border="false"::: below the compose box, and turn on the **Copilot for Sales** toggle.
+
+    :::image type="content" source="media/enable-plug-in.png" alt-text="Screenshot showing enabled Copilot for Sales plugin":::
 
 ## View sales information with Copilot in Microsoft Teams
 
@@ -44,9 +46,14 @@ Copilot in Teams uses your Teams chat and meeting content to generate insights a
 
 You can either enter your own prompts or use the predefined prompts to get sales information such as opportunity summaries. If a brand or competitor name is detected in the meeting, prompts are suggested above the compose box, for example, "Get brand info for Contoso". Selecting the prompt displays the corresponding information in the **Copilot** panel. If the brand mentioned in the meeting is also a competitor, and is saved in Dynamics 365, strengths and weaknesses of the competitor are also displayed.
 
-1. During a meeting or call, select **Copilot** from the meeting controls. If transcription isn’t already turned on, you'll be asked to turn it on. The **Copilot** panel opens on the right side of the meeting window.
-1. Select **More prompts** below the compose box, and select **Get sales opportunity summary**. Information is displayed in the adaptive card.
+To view sales information:
+
+1. During a meeting or call, select **Copilot** from the meeting controls. If transcription isn't already turned on, you'll be asked to turn it on. The **Copilot** panel opens on the right side of the meeting window.
+
+1. Select **More prompts** below the compose box, and select **Get sales opportunity summary**. Information is displayed in the adaptive card. You can also enter your own prompts in the compose box.
+
 1. If a brand or competitor name is detected, prompts are suggested above the compose box. Select the prompt to view the corresponding information in the **Copilot** panel.
+
 1.  To view the opportunity or brand/competitor information in your CRM, select **View in (CRM)**.
 
 ### See also
