@@ -56,6 +56,8 @@
     href: disable-viva-sales.md
   - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
+  - name: Configure Power BI template app
+    href: configure-pbi-dashboard.md
 
 - name: Seller guide
   items:
