@@ -48,6 +48,8 @@
     href: customize-forms-and-fields.md
   - name: Turn on Copilot AI features
     href: suggested-replies.md
+  - name: Turn on conversation intelligence
+    href: conv-intelli-settings.md
   - name: Integrate with other applications (preview)
     href: use-extensions.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
@@ -58,6 +60,8 @@
     href: block-viva-sales-app-teams.md
   - name: Configure Power BI template app
     href: configure-pbi-dashboard.md
+  - name: Hierarchy settings for Salesforce orgs
+    href: hierarchy-settings-sf.md
 
 - name: Seller guide
   items:
