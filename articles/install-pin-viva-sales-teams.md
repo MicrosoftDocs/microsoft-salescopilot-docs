@@ -12,8 +12,6 @@ ms.localizationpriority: medium
 
 # Install and pin Copilot for Sales in Teams
 
-
-
 When you install Copilot for Sales as an integrated app, the Copilot for Sales app is enabled in Teams but isn't installed automatically. You need to go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
@@ -75,6 +73,9 @@ For more information about managing Teams app setup policies, go to [Manage app 
 
 For more information about assigning user and group policies, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).
 
+## Welcome message
+
+Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
 ### See also
 

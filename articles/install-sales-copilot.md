@@ -108,6 +108,10 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 After you've installed Copilot for Sales, you can start using Copilot for Sales to stay connected to your customers, minimize data entry, and personalize your engagements. More information: [Use Copilot for Sales in Teams](use-sales-copilot-teams.md)
 
+### Welcome message
+
+Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
+
 ### Uninstall Copilot for Sales app for Microsoft Teams
 
 1. Sign in to Microsoft Teams.

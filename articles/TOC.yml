@@ -116,7 +116,7 @@
         href: delete-personal-data.md
   - name: Capabilities in Teams
     items:
-    - name: Generate pre-meeting report
+    - name: Overview
       href: use-sales-copilot-teams.md
     - name: Create a Teams meeting
       href: create-teams-meeting.md
