@@ -12,6 +12,9 @@ ms.localizationpriority: medium
 
 # Install Copilot for Sales add-in for Outlook
 
+> [!NOTE]
+> Not all versions of Outlook (such as Mac, mobile, and some versions of the desktop client) support the new enhanced Teams app. To ensure all clients get Copilot for Sales, it is best to install the Copilot for Sales for Outlook add-in and the newer [enhanced Copilot for Sales Teams app](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).
+
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
 1.  Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
