@@ -28,6 +28,10 @@ This feature is currently supported only in English.
 
 This feature is available in all [regions in which Copilot for Sales is supported](introduction.md#region-availability).
 
+## License requirements
+
+[Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+
 ## Prerequisites
 
 -   You must use Microsoft Word on the web to use this integration.
