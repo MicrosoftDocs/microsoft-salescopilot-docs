@@ -40,16 +40,16 @@ This feature is available in all [regions in which Copilot for Sales is supporte
 
 1.  In Microsoft Word, select the **Draft with Copilot** icon or press **Alt+I**.
 
-2.  Enter your prompt followed by forward slash (/) and the meeting search term, and then select **Copilot for Sales** to select a meeting.
+2.  Enter your prompt followed by forward slash (/) and the meeting search term, and then select **Sales meetings** to select a meeting.
 
-    `image`
+    :::image type="content" source="media/word-sales-meetings.png" alt-text="Select Sales meetings from the menu.":::
 
     > [!NOTE]
     > Only [meetings that fulfill the criteria](#criteria-for-meetings-to-be-displayed) are displayed.
 
 3.  Select the appropriate meeting and then select **Generate**.  
       
-    `image`
+    :::image type="content" source="media/word-select-meeting.png" alt-text="Select a meeting to generate the pre-meeting report.":::
 
 The report is generated with the information mentioned in the [report format](#report-format).
 

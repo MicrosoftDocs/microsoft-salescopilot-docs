@@ -52,6 +52,8 @@ To view sales information:
 
 1. Select **More prompts** below the compose box, and select **Get sales opportunity summary**. Information is displayed in the adaptive card. You can also enter your own prompts in the compose box.
 
+    :::image type="content" source="media/fixed-prompt.png" alt-text="Screnshot showing predefined prompt to generate opportunity summary.":::
+
 1. If a brand or competitor name is detected, prompts are suggested above the compose box. Select the prompt to view the corresponding information in the **Copilot** panel.
 
 1.  To view the opportunity or brand/competitor information in your CRM, select **View in (CRM)**.
