@@ -1,7 +1,7 @@
 ---
 title: Draft an email message within Copilot for Sales app
 description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
-ms.date: 01/23/2024
+ms.date: 01/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -99,7 +99,15 @@ You can get suggested email content when you reply to a customer email, read an 
    > [!NOTE]
    > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
 
-1. In the textbox, enter a phrase to describe the kind of reply you want to send, and then press **Enter**.
+1. In the textbox, enter a phrase to describe the kind of reply you want to send.
+
+1. To use a suggested prompt, select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then choose a prompt. More information: [Use suggested prompts](#use-suggested-prompts)
+
+1. To use a saved prompt, select :::image type="icon" source="media/fav-icon.png" border="false":::, and then choose the prompt you want to use. More information: [Save and reuse custom prompts](#save-and-reuse-custom-prompts)
+
+    :::image type="content" source="media/custom-promt-text.png" alt-text="Screenshot showing custom prompt text.":::
+
+1. Select **Create draft**.
 
 1. Review the suggested content.
 
@@ -128,11 +136,29 @@ Here are some best practices for writing custom prompt:
 
 - **Keep it appropriate**: The AI uses a general-purpose language model and can generate responses to a wide variety of prompts. It's always a good idea to keep your prompts appropriate for a general audience.
 
-## Save and reuse custom prompts
+### Use suggested prompts
+
+When you enter a custom prompt, suggested prompts are displayed based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can add more details or add other prompts.
+
+1. Open Copilot for Sales.
+
+1. On the **Highlights** tab, select **Draft an email**.
+
+1. Select :::image type="icon" source="media/suggestions-icon.png" border="false"::: to see prompt suggestions.
+
+1. Select the prompt you want to use.
+
+    :::image type="content" source="media/prompt-suggestions.png" alt-text="Screenshot showing prompt suggestions.":::
+
+1. Add more details or add other prompts.
+
+1. Select **Create draft**.
+
+### Save and reuse custom prompts
 
 When you create an email message using custom prompt, you can save the prompt for future use. This helps you save time and effort when you need to send similar messages to multiple recipients. You can save up to three prompts and reuse them as and when required.
 
-### Save a custom prompt
+#### Save a custom prompt
 
 1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
 
@@ -140,21 +166,21 @@ When you create an email message using custom prompt, you can save the prompt fo
 
     :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
 
-    The prompt is saved and displayed under the **Favorites** section when you create a new email message using custom prompt.
+    The prompt is saved and displayed under **Favorites** when you create a new email message using custom prompt.
 
     :::image type="content" source="media/saved-prompt.png" alt-text="Screenshot showing a saved prompt.":::
 
-### Use a saved prompt
+#### Use a saved prompt
 
 1.  Open Copilot for Sales.
 
 2.  On the **Highlights** tab, select **Draft an email**.
 
-3.  Under the **Favorites** section, select the prompt you want to use.
+3.  Select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then select the prompt you want to use.
 
     :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
 
-### Remove a saved prompt
+#### Remove a saved prompt
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
@@ -382,9 +408,9 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 
     - When you're composing a new email, open the Copilot for Sales pane or select **Use Copilot now** in the banner message at the top of the email.
 
-1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
+1. On the **Highlights** tab, in the **Key email info** card, select **Draft an email**.
 
-    Under the **Suggested** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
+    Under the **More options** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
 
    > [!TIP]
    > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
