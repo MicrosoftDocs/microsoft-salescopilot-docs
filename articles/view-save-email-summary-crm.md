@@ -54,7 +54,7 @@ The generation of email summary is supported in the following languages: English
 
 1. Open the **Copilot for Sales** pane.
 
-1. On the **Highlights** tab, the email summary is displayed in the **Key info** card.
+1. The email summary is displayed in the **Key email info** card.
 
 > [!NOTE]
 > If the email content is less than 1000 characters, the email summary is not generated.
@@ -63,7 +63,7 @@ The generation of email summary is supported in the following languages: English
 
 1. [View the email summary](#view-email-summary).
 
-1. In the **Key info** card, select **More options** (**...**), and then select **Save summary to (CRM)**.
+1. In the **Key email info** card, select **More options** (**...**), and then select **Save summary to (CRM)**.
 
 1. Under **Select a record**, select one of the suggested records or use the search box to find another record.
 

@@ -140,9 +140,7 @@ Here are some best practices for writing custom prompt:
 
 When you enter a custom prompt, suggested prompts are displayed based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can add more details or add other prompts.
 
-1. Open Copilot for Sales.
-
-1. On the **Highlights** tab, select **Draft an email**.
+1. Open Copilot for Sales and select **Draft an email**.
 
 1. Select :::image type="icon" source="media/suggestions-icon.png" border="false"::: to see prompt suggestions.
 
@@ -172,11 +170,9 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Use a saved prompt
 
-1.  Open Copilot for Sales.
+1.  Open Copilot for Sales and select **Draft an email**.
 
-2.  On the **Highlights** tab, select **Draft an email**.
-
-3.  Select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then select the prompt you want to use.
+3.  Select :::image type="icon" source="media/fav-icon.png" border="false":::, and then select the prompt you want to use.
 
     :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
 
@@ -184,9 +180,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
-1.  Open Copilot for Sales.
-
-2.  On the **Highlights** tab, select **Draft an email**.
+1.  Open Copilot for Sales and select **Draft an email**.
 
 3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 
@@ -408,7 +402,7 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 
     - When you're composing a new email, open the Copilot for Sales pane or select **Use Copilot now** in the banner message at the top of the email.
 
-1. On the **Highlights** tab, in the **Key email info** card, select **Draft an email**.
+1. In the **Key email info** card, select **Draft an email**.
 
     Under the **More options** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
 
