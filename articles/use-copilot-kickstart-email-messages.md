@@ -53,9 +53,9 @@ You can get suggested responses when you reply to a customer email or as you're 
 
     - Open a customer email and select **Reply**. In the banner message at the top of the draft email, select **Use Copilot now**.
 
-    - When you're reading an email, open the Copilot for Sales pane.
+    - When you're reading an email, open the **Copilot for Sales** pane.
 
-1. On the **Highlights** tab, in the **Key info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
+1. In the **Key email info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
 
    :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the pre-defined response categories.":::
 
@@ -92,7 +92,7 @@ You can get suggested email content when you reply to a customer email, read an 
 
     - When you're reading an email, open the **Copilot for Sales** pane.
 
-1. On the **Highlights** tab, in the **Key info** card, select **Draft an email**.
+1. In the **Key email info** card, select **Draft an email**.
 
    :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 

@@ -63,26 +63,28 @@
     items:
     - name: Overview
       href: use-sales-copilot-outlook.md
-    - name: Connect a contact to your CRM
-      href: connect-contact.md
-    - name: Change the connected CRM contact
-      href: change-connected-crm-contact.md
-    - name: Create a contact in your CRM from Copilot for Sales
-      href: create-contact-crm-sales-copilot.md
-    - name: Save Outlook activities to your CRM
-      href: save-outlook-activities-crm.md
-    - name: View recent and upcoming activities
-      href: view-recent-upcoming-activities.md
-    - name: View record details
-      href: view-record-details.md
-    - name: Add personal notes
-      href: add-personal-notes.md
-    - name: Share a link to a CRM record
-      href: share-link-crm-record.md
-    - name: Edit a CRM record
-      href: edit-crm-record.md
-    - name: Use server-side synchronization with Copilot for Sales
-      href: use-server-side-sync.md
+    - name: CRM actions
+      items: 
+      - name: Connect a contact to your CRM
+        href: connect-contact.md
+      - name: Change the connected CRM contact
+        href: change-connected-crm-contact.md
+      - name: Create a contact in your CRM from Copilot for Sales
+        href: create-contact-crm-sales-copilot.md
+      - name: Save Outlook activities to your CRM
+        href: save-outlook-activities-crm.md
+      - name: View recent and upcoming activities
+        href: view-recent-upcoming-activities.md
+      - name: View record details
+        href: view-record-details.md
+      - name: Add personal notes
+        href: add-personal-notes.md
+      - name: Share a link to a CRM record
+        href: share-link-crm-record.md
+      - name: Edit a CRM record
+        href: edit-crm-record.md
+      - name: Use server-side synchronization with Copilot for Sales
+        href: use-server-side-sync.md
     - name: AI capabilities
       items:
       - name: Overview

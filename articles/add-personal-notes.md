@@ -12,7 +12,7 @@ ms.author: shjais
 
 Add notes for yourself to help you prepare for an upcoming meeting, remember details about your relationship with a customer, and so on. These notes are private to you. They're not shared with anyone else or synced to the CRM system.
 
-1. Open the **Copilot for Sales** pane and select the **Dynamics 365** or **Salesforce**.
+1. Open the **Copilot for Sales** pane.
 
 1. In the **Contacts** card, select the contact to which you want to add notes.
 
