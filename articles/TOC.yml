@@ -61,14 +61,14 @@
 
 - name: Seller guide
   items:
+  - name: Learn the basics
+    items:
+    - name: Open the app
+      href: open-app.md
+    - name: Sign in to CRM from Outlook
+      href: sign-in-crm-outlook.md
   - name: Capabilities in Outlook
     items:
-    - name: Learn the basics
-      items:
-      - name: Open the app
-        href: open-app.md
-      - name: Sign in to CRM from Outlook
-        href: sign-in-crm-outlook.md
     - name: CRM actions
       items: 
       - name: Connect a contact to your CRM
