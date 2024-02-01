@@ -108,6 +108,9 @@ Yes, Copilot for Sales requires connectivity to a CRM.
 
 Currently, Copilot for Sales is compatible with Dynamics 365 Sales and Salesforce Sales Cloud.
 
+> [!NOTE]
+> Salesforce Sales Cloud is a trademark of Salesforce, Inc.
+
 ### What privileges are required to use Copilot for Sales?
 
 Copilot for Sales applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Copilot for Sales](install-viva-sales.md#privileges-required-to-use-copilot-for-sales).
@@ -131,6 +134,9 @@ For information on how to transcribe a meeting, see [Generate a meeting summary
 ### With which Salesforce Sales Cloud editions does Copilot for Sales work?
 
 Copilot for Sales works with Salesforce Sales Cloud editions Professional and above.
+
+> [!NOTE]
+> Salesforce Sales Cloud is a trademark of Salesforce, Inc.
 
 ### Is Copilot for Sales available for Dynamics 365 or Microsoft Exchange on premise?
 
