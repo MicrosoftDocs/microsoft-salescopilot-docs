@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Welcome to Microsoft Copilot for Sales
 
-Microsoft Copilot for Sales is a seller experience application that uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. It eliminates manual data entry and gives sellers more time to focus on selling. By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Copilot for Sales empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Copilot for Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more.
+Microsoft Copilot for Sales brings together the power of Copilot for Microsoft 365 with seller workflows. Microsoft Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.
 
 > [!NOTE]
 > Copilot for Sales is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
@@ -23,7 +23,7 @@ Here's a video that gives you a quick overview of Copilot for Sales.
 
 ## License requirements
 
-Copilot for Sales may be subject to an additional free or paid license. For more information, see [Microsoft Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/pricing/#Sales), or contact your Microsoft representative.
+[See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
 
 ## Role requirements
 
@@ -60,7 +60,6 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 
 > [!NOTE]
 > Copilot for Sales is not supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
-
 
 ## Supported languages
 

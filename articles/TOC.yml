@@ -13,6 +13,8 @@
 
 - name: Product overview
   items:
+  - name: Functional overview
+    href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
   - name: Supported languages
@@ -32,7 +34,7 @@
     items:
     - name: Install Copilot for Sales (admin-deployed)
       href: install-viva-sales.md
-    - name: Install Copilot for Sales add-in for Outlook
+    - name: Install Copilot for Sales in Outlook
       href: install-viva-sales-as-an-integrated-app.md
     - name: Install and pin Copilot for Sales in Teams
       href: install-pin-viva-sales-teams.md
@@ -63,6 +65,12 @@
     items:
     - name: Overview
       href: use-sales-copilot-outlook.md
+    - name: Learn the basics
+      items:
+      - name: Open the app
+        href: open-app.md
+      - name: Sign in to CRM from Outlook
+        href: sign-in-crm-outlook.md
     - name: CRM actions
       items: 
       - name: Connect a contact to your CRM
@@ -124,7 +132,7 @@
       href: create-teams-meeting.md
     - name: Use Copilot for Sales app during a meeting
       href: use-sales-copilot-app-during-meeting.md
-    - name: View sales information with Copilot in Microsoft Teams 
+    - name: Use Copilot in Teams during a meeting
       href: copilot-teams-chat.md
     - name: Generate a meeting summary
       href: generate-meeting-summary.md

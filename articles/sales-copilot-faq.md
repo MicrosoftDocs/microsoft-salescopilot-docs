@@ -43,7 +43,7 @@ Note that Dynamics 365 Sales customers (Enterprise and Premium) will continue to
 
 There's no change or impact. 
 
-Dynamics 365 Sales Enterprise and Premium licenses will still include Copilot capabilities in the Dynamics 365 Sales platform (for example, meeting preparation summary in Dynamics 365), as well as a standard set of Copilot for Sales capabilities in Outlook and Teams, which mirror the Sales Copilot capabilities today (ie. email generation in Outlook, email summary in Outlook, contact updates in Outlook).  
+Dynamics 365 Sales Enterprise and Premium licenses will still include Copilot capabilities in the Dynamics 365 Sales platform (for example, meeting preparation summary in Dynamics 365), as well as a standard set of Copilot for Sales capabilities in Outlook and Teams, which mirror the Sales Copilot capabilities today such as email generation in Outlook, email summary in Outlook, contact updates in Outlook.  
 
 We will continue to innovate on Copilot experiences in the Dynamics 365 Sales platform, such as the recent [announcements at Ignite](https://aka.ms/Ignite2023BAannounceblog) for natural language support in Dynamics 365 Sales. Customers can use this functionality without purchasing Copilot for Sales. 
 
@@ -114,7 +114,7 @@ Copilot for Sales applies your organization's existing CRM access controls and u
 
 ### I don't see the Add to email button and instead only the Copy content button in the suggested content feature.
 
-The Copilot for Sales for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. Ask your administrator to update the Copilot for Sales for Outlook add-in. More information: [Update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in).
+The Copilot for Sales for Outlook add-in must be updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. Ask your administrator to update the Copilot for Sales for Outlook add-in. More information: [Update the Copilot for Sales add-in](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-add-in-and-app).
 
 The **Add to email** button is displayed only when you use copilot while composing an email. When you use copilot while reading an email, the **Copy content** button is displayed.
 
