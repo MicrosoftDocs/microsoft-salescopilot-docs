@@ -63,8 +63,6 @@
   items:
   - name: Capabilities in Outlook
     items:
-    - name: Overview
-      href: use-sales-copilot-outlook.md
     - name: Learn the basics
       items:
       - name: Open the app
@@ -124,10 +122,9 @@
         href: sign-out-sales-copilot.md
       - name: Delete your personal data from Copilot for Sales
         href: delete-personal-data.md
+
   - name: Capabilities in Teams
     items:
-    - name: Overview
-      href: use-sales-copilot-teams.md
     - name: Create a Teams meeting
       href: create-teams-meeting.md
     - name: Use Copilot for Sales app during a meeting
@@ -142,8 +139,7 @@
         href: view-meeting-summary-recap.md
       - name: View meeting summary using standard license
         href: view-understand-meeting-summary.md
-    - name: Create CRM tasks from meeting summary
-      href: create-crm-tasks-meeting-summary.md
+
     - name: Share a CRM record in a Teams conversation
       href: share-crm-record-teams-conversation.md
     - name: View and update CRM record details

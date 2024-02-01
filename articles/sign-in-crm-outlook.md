@@ -19,10 +19,10 @@ After you open Copilot for Sales, you can sign in to Copilot for Sales and conne
 
 ## Automatically sign in
 
-If you have any Dynamics 365 environment (production or non-production) that has the Copilot for Sales solution, you are signed in automatically to your environment the first time you open the Copilot for Sales pane. The environment you are signed in to is selected per the following rules:
+If you have any Dynamics 365 environment (production or non-production) that has the Copilot for Sales solution, you're signed in automatically to your environment the first time you open the Copilot for Sales pane. The environment you're signed in to is selected per the following rules:
 
 
-|Scenario  |Auto sign-in rule  |You will see  |
+|Scenario  |Auto sign-in rule  |You'll see  |
 |---------|---------|---------|
 |Single environment (production or non-production)     |  Signed in to the available environment       | Message at the top of Copilot for Sales pane        |
 |Single production environment and multiple non-production environments     |Signed in to the production environment         |  Message at the top of Copilot for Sales pane       |
@@ -60,9 +60,9 @@ The **Environment** list displays the friendly name, type (Production/Sandbox), 
 
 You must manually sign in to your CRM in the following cases:
 
-- If you are using Dynamics 365 environment and have signed out of your CRM from Copilot for Sales
+- If you're using Dynamics 365 environment and have signed out of your CRM from Copilot for Sales
 
-- If you are using Salesforce CRM
+- If you're using Salesforce CRM
 
 You can use basic capabilities of Copilot for Sales without signing in to your CRM. However, to use all the advanced capabilities of Copilot for Sales, you must sign in to your CRM.
 
@@ -80,7 +80,7 @@ You can use basic capabilities of Copilot for Sales without signing in to your C
         
         :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
-    Once you are signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
+    Once you're signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
 
 ## Use Copilot for Sales without signing in
 
