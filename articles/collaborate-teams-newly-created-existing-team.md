@@ -17,7 +17,7 @@ ms.custom:
 
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in a variety of ways.
 
-- In Outlook, open Copilot for Sales and select the **Highlights** tab. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+- In Outlook, open Copilot for Sales. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
     :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the deal room channel highlighted.":::
 

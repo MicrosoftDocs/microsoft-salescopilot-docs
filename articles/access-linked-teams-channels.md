@@ -18,7 +18,7 @@ ms.custom:
 
 ## Access linked teams and channels from Outlook
 
-1. In Outlook, open Copilot for Sales and select the **Highlights** tab, and then scroll down to the **Collaborate in Teams** card.
+1. In Outlook, open Copilot for Sales, and scroll down to the **Collaborate in Teams** card.
 
     The card shows the teams and channels that were linked from the Sales app (indicated by the Dynamics 365 Sales icon) or created in Outlook using the Copilot for Sales add-in.
 

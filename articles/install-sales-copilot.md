@@ -53,7 +53,7 @@ With Copilot for Sales for Microsoft Outlook, you can:
 
 ### Start using Copilot for Sales in Outlook
 
-After you've installed Copilot for Sales, you can open Copilot for Sales and sign in to your CRM system to start using Copilot for Sales. More information: [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md)
+After you've installed Copilot for Sales, you can open Copilot for Sales and sign in to your CRM system to start using Copilot for Sales. More information: [Access the Copilot for Sales app](open-app.md)
 
 ### Difference between Copilot for Sales and Dynamics 365 app for Outlook
 
@@ -106,7 +106,7 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 ### Start using Copilot for Sales in Teams
 
-After you've installed Copilot for Sales, you can start using Copilot for Sales to stay connected to your customers, minimize data entry, and personalize your engagements. More information: [Use Copilot for Sales in Teams](use-sales-copilot-teams.md)
+After you've installed Copilot for Sales, you can start using Copilot for Sales to stay connected to your customers, minimize data entry, and personalize your engagements. More information: [Access the Copilot for Sales app](open-app.md)
 
 ### Welcome message
 

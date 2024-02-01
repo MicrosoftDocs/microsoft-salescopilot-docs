@@ -25,7 +25,7 @@ When you create a collaboration space with the deal room team template, you can 
 
 1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
-1. On the **Highlights** tab, go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
+1. Go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
     :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up deal room button highlighted.":::
 
@@ -55,7 +55,7 @@ When you create a collaboration space with the deal room team template, you can 
 
 1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
-1. On the **Highlights** tab, go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
+1. Go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
     :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up deal room button highlighted.":::
 

@@ -63,7 +63,7 @@
   items:
   - name: Learn the basics
     items:
-    - name: Open the app
+    - name: Access the Copilot for Sales app
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md

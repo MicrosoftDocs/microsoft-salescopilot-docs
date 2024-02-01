@@ -47,7 +47,7 @@ The meeting summary page includes the following sections:
 The **Recap** tab displays call highlights and follow-up action items that Copilot for Sales identified during the call.
 
 > [!NOTE]
-> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
+> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes. In North Ameraica and Europe regions, the supported meeting recording duration is 100 minutes.
 
 :::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Copilot for Sales meeting summary.":::
 
