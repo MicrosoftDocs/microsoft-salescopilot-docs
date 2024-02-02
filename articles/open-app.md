@@ -1,7 +1,7 @@
 ---
 title: Access the Copilot for Sales app
 description: 
-ms.date: 01/10/2024
+ms.date: 02/02/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

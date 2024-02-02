@@ -1,7 +1,7 @@
 ---
 title: Draft an email message within Copilot for Sales app
 description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
-ms.date: 01/25/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales add-in for Outlook
 description: Learn how to install Copilot for Sales add-in for Outlook from Microsoft 365 admin center.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Access linked teams and channels in Outlook and Sales
 description: Learn how to access linked collaboration spaces in Microsoft Teams from Outlook and Dynamics 365 Sales.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
 description: Learn how to set up a team using a deal room team template in the Copilot for Sales add-in for Outlook.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

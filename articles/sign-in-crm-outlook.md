@@ -1,7 +1,7 @@
 ---
 title: Connect your CRM account for an enriched experience
 description: Sign in to CRM from Outlook and connect your CRM account to get a more enriched experience with CRM data.
-ms.date: 01/10/2024
+ms.date: 02/02/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

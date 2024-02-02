@@ -1,7 +1,7 @@
 ---
 title: Share a link to a CRM record
 description: Learn how to share a link to a CRM record.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
