@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Copilot for Sales for Salesforce CRM customers.
-ms.date: 01/22/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,12 +22,13 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Sales
 
 - You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). [How do I find my tenant admin?](#how-do-i-find-my-tenant-admin)
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
+- You must assign the Copilot for Sales license to each user that will be using the product. [Learn more about assigning licenses from the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 
-## Step 1: Install and deploy the Copilot for Sales Outlook Add-in
+## Step 1: Install Copilot for Sales in Outlook
 
 [Install Copilot for Sales Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
 
-![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/install-viva-sales.png "Screenshot showing Copilot for Sales installed as an integrated app.")
+![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing Copilot for Sales installed as an integrated app.")
 
 > [!NOTE]
 > It can take up to 24 hours for the add-in to show up for your users.
@@ -106,7 +107,7 @@ Copilot for Sales automatically sets one of the Power Platform administrators or
 To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Copilot for Sales first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Copilot for Sales. For information on how to sign in to Copilot for Sales, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
 
 
-## Step 7 (optional): Customize Copilot for Sales
+## Step 8 (optional): Customize Copilot for Sales
 
 [Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Copilot for Sales experience in Outlook and Teams. You can customize Copilot for Sales to meet your organization's needs.
 
@@ -118,20 +119,18 @@ You can [set up AI features in Copilot for Sales](suggested-replies.md) to use A
 
 Copilot for Sales comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
-![Screenshot showing form settings in Copilot for Sales admin center ](media/viva-sales-forms-admin-sf.png "Screenshot showing form settings in Copilot for Sales admin center.")
-
 ### Integrate with other applications
 
 You can [integrate Copilot for Sales with other applications](use-extensions.md) to extend the capabilities of Copilot for Sales.
 
-## Step 8: Welcome sellers to Copilot for Sales
+## Step 9: Welcome sellers to Copilot for Sales
 
 Now that you've installed and configured Copilot for Sales in Outlook and Teams, get your sellers to use it. Here's an example email message you can share.
 
 
 | |
 |---------|
-|**Subject**: Welcome to Copilot for Sales!</br><br>Dear Sellers,</br><br>Welcome to Copilot for Sales, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Copilot for Sales can do for you by [watching this short video](https://www.microsoft.com/en-us/videoplayer/embed/RW181Q6) and taking the [Microsoft Copilot for Sales training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Copilot for Sales for the first time**</br><br>The [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md) article shows you how to find Copilot for Sales within Outlook, sign into your CRM system and pin the app pane.</br><br>**Additional resources**</br><br>The following articles guide you through using various Copilot for Sales features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Use Copilot for Sales in Teams](use-sales-copilot-teams.md)</li></br><li>[Create a Teams meeting](create-teams-meeting.md)</li></br><li>[Generate a meeting summary](generate-meeting-summary.md)</li></br><li>[View and understand the meeting summary](view-understand-meeting-summary.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Copilot for Sales troubleshooting guide](tsg-no-column.md) article for common problems and solutions.</br><br>For additional community help, visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Microsoft Copilot for Sales · Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
+|**Subject**: Welcome to Copilot for Sales!</br><br>Dear Sellers,</br><br>Welcome to Copilot for Sales, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Copilot for Sales can do for you by [watching this short video](https://www.microsoft.com/en-us/videoplayer/embed/RW181Q6) and taking the [Microsoft Copilot for Sales training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Copilot for Sales for the first time**</br><br>[Access Copilot for Sales in Outlook](open-app.md#access-copilot-for-sales-in-outlook), [sign in to your CRM system](sign-in-crm-outlook.md), and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Copilot for Sales features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](generate-meeting-summary.md)</li></br><li>[View and understand the meeting summary](view-understand-meeting-summary.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Copilot for Sales troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Microsoft Copilot for Sales · Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
 
 
 ## Community
@@ -183,5 +182,5 @@ Users may need to change a few settings to get the best experience of Copilot fo
 
 - **Chrome**: Turn off "Block third-party cookies."
 
-The [Copilot for Sales troubleshooting guide](tsg-no-column.md) can help with solutions for common issues.
+The [Copilot for Sales troubleshooting guide](troubleshoot.yml) can help with solutions for common issues.
 

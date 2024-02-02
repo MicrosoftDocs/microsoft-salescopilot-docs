@@ -14,7 +14,7 @@ metadata:
   ms.author: shjais
   ms.topic: landing-page
   ms.service: microsoft-sales-copilot
-  ms.date: 01/09/2024
+  ms.date: 02/02/2024
   ms.custom: bap-template
 
 
@@ -76,21 +76,23 @@ landingContent:
        - linkListType: how-to-guide
          links:
           - text: In Outlook
-            url: use-sales-copilot-outlook.md
+            url: open-app.md#access-copilot-for-sales-in-outlook
           - text: In Teams
-            url: use-sales-copilot-teams.md
+            url: open-app.md#access-copilot-for-sales-in-teams
 
 # Card 
   - title: AI capabilities
     linkLists:
        - linkListType: how-to-guide
          links:
-          - text: Kickstart email messages
+          - text: Draft email messages
             url: use-copilot-kickstart-email-messages.md
-          - text: View and save email summary to CRM
+          - text: View email summary
             url: view-save-email-summary-crm.md
           - text: View opportunity summary
             url: view-opportunity-summary.md
+          - text: Generate pre-meeting report
+            url: meeting-report-word.md
             
 
 # Card 

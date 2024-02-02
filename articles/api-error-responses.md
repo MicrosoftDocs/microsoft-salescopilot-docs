@@ -1,7 +1,7 @@
 ---
 title: Standardize error responses (preview)
 description: Standardize error responses to ensure consistent and understandable messages.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
