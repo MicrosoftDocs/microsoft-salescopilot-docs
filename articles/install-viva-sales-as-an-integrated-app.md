@@ -30,7 +30,7 @@ The app is installed in Fixed mode by default. In a Fixed deployment, users rece
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, select **Copilot for Sales**, then select **Get it now**. 
+5. In the search results, select **Microsoft Copilot for Sales**, then select **Get it now**. 
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
@@ -59,7 +59,7 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 
 4.  In the **AppSource** window, search for **Copilot for Sales**.
 
-5.  In the search results, select either **Copilot for Sales for Microsoft Outlook**, and then select **Get it now**. 
+5.  In the search results, select **Copilot for Sales for Microsoft Outlook**, and then select **Get it now**. 
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
@@ -107,8 +107,6 @@ The **Microsoft Copilot for Sales** panel opens with the following tabs:
     The **Microsoft Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 
 3. Select **Know more and update**.
-
-    :::image type="content" source="media/update-add-in.png" alt-text="Update the Copilot for Sales add-in.":::
 
 4. In the **Updates** panel, select **Accept and update**.
 

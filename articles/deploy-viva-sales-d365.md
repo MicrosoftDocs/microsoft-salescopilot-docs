@@ -24,11 +24,11 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Dynam
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 - You must assign the Copilot for Sales license to each user that will be using the product. [Learn more about assigning licenses from the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 
-## Step 1: Install and deploy the Copilot for Sales Outlook Add-in
+## Step 1: Install Copilot for Sales in Outlook
 
 [Install Copilot for Sales Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
 
-![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/install-viva-sales.png "Screenshot showing Copilot for Sales installed as an integrated app.")
+![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing Copilot for Sales installed as an integrated app.")
 
 ## Step 2: Create a policy to automatically install and pin the Copilot for Sales app in Teams
 
@@ -79,8 +79,6 @@ You can [set up AI features in Copilot for Sales](suggested-replies.md) to use A
 ### Customize forms and fields
 
 Copilot for Sales comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
-
-![Screenshot showing Copilot for Sales admin center](media/viva-sales-admin-forms-button.png "Screenshot showing Copilot for Sales admin center.")
 
 ### Integrate with other applications
 

@@ -85,8 +85,6 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 1. On the **Copilot for Sales for Microsoft Outlook** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
 
-    :::image type="content" source="media/uninstall add-in.png" alt-text="Uninstall Copilot for Sales Outlook add-in.":::
-
 > [!NOTE]
 > If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
 
@@ -94,15 +92,13 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 1. Sign in to Microsoft Teams.
 
-1. In the navigation bar on the left, select **Store**.
+1. In the navigation bar on the left, select **Apps**.
 
-	:::image type="content" source="media/store.png" alt-text="Screenshot showing select store on the navigation bar.":::
+	:::image type="content" source="media/store.png" alt-text="Screenshot showing Apps on the navigation bar.":::
 
 1.  Search for **Copilot for Sales**, and then select it.
 
 1.  Select **Add** in the **Copilot for Sales** window.
-
-	:::image type="content" source="media/add-sales-copilot.png" alt-text="Screenshot showing add Copilot for Sales app.":::
 
 ### Start using Copilot for Sales in Teams
 
