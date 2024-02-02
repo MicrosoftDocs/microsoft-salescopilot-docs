@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the account team template
 description: Learn how to set up a team using an account team template in the Copilot for Sales add-in for Outlook.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -25,7 +25,7 @@ When you create a collaboration space with the account team template, you can [c
 
 1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
-1. On the **Highlights** tab, go to the **Collaborate in Teams** card, hover over the account name, and then select **Set up account team**.
+1. Go to the **Collaborate in Teams** card, hover over the account name, and then select **Set up account team**.
 
     :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up account team button highlighted.":::
 
@@ -61,7 +61,7 @@ When you set up an account team for an existing team, a new channel is created i
 
 1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
 
-1. On the **Highlights** tab, go to the **Collaborate in Teams card**, hover over the account name, and then select **Set up account team**.
+1. Go to the **Collaborate in Teams card**, hover over the account name, and then select **Set up account team**.
 
     :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up account team button highlighted.":::
 

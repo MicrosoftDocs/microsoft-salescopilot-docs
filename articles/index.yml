@@ -8,7 +8,7 @@ metadata:
   ms.topic: hub-page
   author: sbmjais
   ms.author: shjais
-  ms.date: 01/09/2024
+  ms.date: 02/02/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -38,7 +38,7 @@ additionalContent:
     - title: Install
       links: 
       - url:  install-viva-sales-as-an-integrated-app.md
-        text: Install Copilot for Sales add-in for Outlook
+        text: Install Copilot for Sales in Outlook
       - url:  install-pin-viva-sales-teams.md
         text: Install Copilot for Sales in Teams
     - title: Deployment scenarios
@@ -65,12 +65,6 @@ additionalContent:
         text: Remove Copilot for Sales from Microsoft 365 admin center
       - url: block-viva-sales-app-teams.md
         text: Block the Copilot for Sales app in Teams
-    - title: Configure for Dynamics 365 Sales
-      links:
-      - url: /dynamics365/sales/enable-setup-copilot
-        text: Enable and set up Copilot for Sales
-      - url: /dynamics365/sales/configure-sales-copilot
-        text: Configure Copilot for Sales
 
   - title: Be productive with Copilot for Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
@@ -89,14 +83,16 @@ additionalContent:
       - url: edit-crm-record.md
         text: Edit a CRM record
 
-    - title: AI in Outlook
+    - title: AI capabilities
       links: 
       - url: use-copilot-kickstart-email-messages.md
-        text: Kickstart email messages
+        text: Draft email messages
       - url: view-save-email-summary-crm.md
-        text: View and save email summary to CRM
+        text: View email summary
       - url: view-opportunity-summary.md
         text: View opportunity summary
+      - url: meeting-report-word.md
+        text: Generate pre-meeting report
 
     - title: In Teams
       links: 
@@ -110,15 +106,6 @@ additionalContent:
         text: Create CRM tasks from meeting summary
       - url: share-crm-record-teams-conversation.md
         text: Share a CRM record in a Teams conversation
-
-    - title: In Dynamics 365 Sales
-      links: 
-      - url: /dynamics365/sales/use-sales-copilot
-        text: Use Copilot for Sales
-      - url: /dynamics365/sales/compose-send-email-copilot
-        text: Compose and send email messages
-      - url: /dynamics365/sales/view-copy-email-summary
-        text: View and copy email summary
 
 
     - title: Collaboration templates for Outlook and Teams

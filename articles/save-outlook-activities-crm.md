@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -26,11 +26,9 @@ Updating the CRM with all your activities across all the communication channels 
 
 1. Open the email or meeting you want to save to the CRM, and then open Copilot for Sales.
 
-1. On the **Highlights** tab, select **Save**.
+1. On the **Save email to (CRM)** card, select **Save**.
 
-    Alternately, you can also go to **Dynamics 365** or **Salesforce** tab, and then select **Save**.
-
-   :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM button.":::
+    :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM button.":::   
 
     If you've connected Copilot for Sales to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Copilot for Sales](use-server-side-sync.md)
 

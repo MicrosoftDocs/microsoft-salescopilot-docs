@@ -1,7 +1,7 @@
 ---
 title: Share feedback from Teams app
 description: Learn how to share feedback about Copilot for Sales from the Teams app.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

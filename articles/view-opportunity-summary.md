@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -45,7 +45,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 1. Open the **Copilot for Sales** pane.
 
-    On the **Highlights** tab, the opportunity summary is displayed in the **Opportunity summary** card.
+    The opportunity summary is displayed in the **Opportunity summary** card.
 
     If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](#view-peopleai-insights-in-opportunity-summary-preview)
 

@@ -394,6 +394,21 @@
         "source_path": "articles/sep-23.md",
         "redirect_url": "/microsoft-sales-copilot/whats-new",
         "redirect_document_id": false
-      }    
+      },
+      {
+        "source_path": "articles/use-sales-copilot-outlook.md",
+        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/use-sales-copilot-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/create-crm-tasks-meeting-summary.md",
+        "redirect_url": "/microsoft-sales-copilot/view-understand-meeting-summary#create-crm-tasks-from-meeting-summary",
+        "redirect_document_id": false
+      }      
   ]
 }
