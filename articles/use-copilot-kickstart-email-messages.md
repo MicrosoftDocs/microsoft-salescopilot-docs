@@ -24,7 +24,7 @@ When you compose a new email or reply to your customers by email, Copilot for S
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license.
 
 ## Ananomy of suggested content
 
