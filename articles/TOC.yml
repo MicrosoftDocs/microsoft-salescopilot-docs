@@ -96,9 +96,17 @@
       - name: Overview
         href: ai-sales-copilot.md
       - name: View email summary
-        href: view-save-email-summary-crm.md
+        items:
+        - name: View email summary using premium license
+          href: email-summary-premium.md
+        - name: View email summary using standard license
+          href: view-save-email-summary-crm.md
       - name: Draft an email message
-        href: use-copilot-kickstart-email-messages.md
+        items:
+        - name: Draft an email message using premium license
+          href: email-reply-premium.md
+        - name: Draft an email message using standard license
+          href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
       
@@ -247,4 +255,6 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+  - name: FAQ for key sales info
+    href: faqs-key-sales-info.md
 
