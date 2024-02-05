@@ -44,16 +44,20 @@
 
 - name: Administration guide
   items:
-  - name: Overview
-    href: administrator-settings-for-viva-sales.md
-  - name: Customize forms and fields
-    href: customize-forms-and-fields.md
-  - name: Turn on Copilot AI features
-    href: suggested-replies.md
-  - name: Turn on conversation intelligence
-    href: conv-intelli-settings.md
-  - name: Integrate with other applications (preview)
-    href: use-extensions.md
+  - name: Admin settings in Teams
+    items:
+    - name: Overview
+      href: administrator-settings-for-viva-sales.md
+    - name: Customize forms and fields
+      href: customize-forms-and-fields.md
+    - name: Turn on Copilot AI features
+      href: suggested-replies.md
+    - name: Turn on conversation intelligence
+      href: conv-intelli-settings.md
+    - name: Integrate with other applications (preview)
+      href: use-extensions.md
+    - name: Hierarchy settings for Salesforce orgs
+      href: hierarchy-settings-sf.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales add-in for Outlook
@@ -62,8 +66,6 @@
     href: block-viva-sales-app-teams.md
   - name: Configure conversation intelligence dashboard (preview)
     href: configure-pbi-dashboard.md
-  - name: Hierarchy settings for Salesforce orgs
-    href: hierarchy-settings-sf.md
 
 - name: Seller guide
   items:
@@ -158,6 +160,16 @@
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
 
+  - name: Conversation intelligence dashboard (preview)
+    items:
+    - name: Analyze your sellers' conversation data with Power BI
+      href: analyze-sellers-conv-data-pbi.md
+    - name: View and understand Copilot for Sales dashboard report
+      href: view-understand-pbi-report.md
+    - name: Dataverse tables used in the Copilot for Sales dashboard reports
+      href: dataverse-tables-pbi-report.md
+
+
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
@@ -175,14 +187,6 @@
     - name: Sample OpenAPI definition
       href: api-sample-def.md
 
-- name: Conversation intelligence dashboard (preview)
-  items:
-  - name: Analyze your sellers' conversation data with Power BI
-    href: analyze-sellers-conv-data-pbi.md
-  - name: View and understand Copilot for Sales dashboard report
-    href: view-understand-pbi-report.md
-  - name: Dataverse tables used in the Copilot for Sales dashboard reports
-    href: dataverse-tables-pbi-report.md
 
 - name: Troubleshooting guide
   items:
