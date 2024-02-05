@@ -3,7 +3,7 @@ title: Configure the conversation intelligence dashboard
 description: Connect the conversation intelligence dashboard to your organization's data in Dataverse.
 ms.date: 02/01/2024
 ms.topic: article
-ms.service: dynamics-365-sales
+ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
