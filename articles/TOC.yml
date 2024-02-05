@@ -58,7 +58,7 @@
     href: disable-viva-sales.md
   - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
-  - name: Configure Power BI template app
+  - name: Configure conversation intelligence dashboard (preview)
     href: configure-pbi-dashboard.md
   - name: Hierarchy settings for Salesforce orgs
     href: hierarchy-settings-sf.md
@@ -164,7 +164,7 @@
     - name: Sample OpenAPI definition
       href: api-sample-def.md
 
-- name: Power BI template app
+- name: Conversation intelligence dashboard (preview)
   items:
   - name: Analyze your sellers' conversation data with Power BI
     href: analyze-sellers-conv-data-pbi.md

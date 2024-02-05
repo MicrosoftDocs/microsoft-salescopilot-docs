@@ -37,7 +37,7 @@ When conversation intelligence is turned on, sellers can see the [meeting summar
         > [!NOTE]
         > - When you select this option, all participants can view all the insights on the summary page, even if the permission model in Dynamics 365 is configured to prevent access to specific types of insights. For example, if a seller is assigned a security role that prevents them to see sentiment data, they will still be able to see sentiment data if this option is selected.
         > -  If the access to summaries was granted to everyone and later changed to only participants or only organizers, participating sellers in the original meeting will still have access to its summary, even after you change the setting.
-        - **Only sellers who participated in the meeting and have access to Copilot for Sales**
+        - **Only users who have access to Copilot for Sales and were on the original meeting invite**
         - **Only the meeting organizers**: Select this option to let only meeting organizers access meeting summaries.
         > [!NOTE]
         > Other users, such as the organizer's manager, can have access to the summary based on the Dynamics 365 permission model in Dataverse.
@@ -45,3 +45,6 @@ When conversation intelligence is turned on, sellers can see the [meeting summar
         - **Save a copy of transcript to Dataverse**: Automatically save a copy of Teams meeting transcript to your organization’s Microsoft storage so that third-party apps can access them.
 
 
+### See also
+
+[View and understand the meeting summary](view-understand-meeting-summary.md)

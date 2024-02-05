@@ -13,7 +13,11 @@ ms.custom:
   - ai-seo-date:01/28/2024
 ---
 
-# Dataverse tables used in the Copilot for Sales dashboard reports
+# Dataverse tables used in the Copilot for Sales dashboard reports (preview)
+
+[!INCLUDE [preview-note](includes/preview-note.md)]
+
+[!INCLUDE [preview-banner](includes/preview-banner.md)]
 
 The following table lists the Dataverse tables used in the dashboard reports.
 

@@ -12,7 +12,11 @@ ms.custom:
   - ai-seo-date:01/28/2024
 ---
 
-# View and understand Copilot for Sales dashboard report
+# View and understand Copilot for Sales dashboard report (preview)
+
+[!INCLUDE [preview-note](includes/preview-note.md)]
+
+[!INCLUDE [preview-banner](includes/preview-banner.md)]
 
 Sales conversations are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. This report helps you to analyze the overall behavior of your team during customer conversations and sentiment of your customers. It also helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 

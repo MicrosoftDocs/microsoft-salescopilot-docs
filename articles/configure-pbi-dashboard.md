@@ -1,6 +1,6 @@
 ﻿---
-title: Configure the Copilot for Sales dashboard Power BI template app
-description: Connect the Copilot for Sales dashboard to your organization's data in Dataverse.
+title: Configure the conversation intelligence dashboard
+description: Connect the conversation intelligence dashboard to your organization's data in Dataverse.
 ms.date: 02/01/2024
 ms.topic: article
 ms.service: dynamics-365-sales
@@ -13,13 +13,20 @@ ms.custom:
   - ai-seo-date:01/29/2024
 ---
 
-# Configure the Copilot for Sales dashboard Power BI template app 
+# Configure the conversation intelligence dashboard (preview)
 
-In this article, you'll learn how to configure the Copilot for Sales dashboard [Power BI template app](/power-bi/connect-data/service-template-apps-overview).
+[!INCLUDE [preview-note](includes/preview-note.md)]
+
+[!INCLUDE [preview-banner](includes/preview-banner.md)]
+
+
+The Copilot for Sales - Conversation intelligence dashboard is a Power BI template app that provides insights into your sales conversations. The dashboard includes a pre-built report and pages that help you understand the quality of your sales conversations, and provides insights into how to improve them.
+
+In this article, you'll learn how to configure the Copilot for Sales - Conversation intelligence dashboard [Power BI template app](/power-bi/connect-data/service-template-apps-overview).
 
 ## Download the Copilot for Sales dashboard app
 
-You can download the Copilot for Sales dashboard from [Microsoft AppSource](link).
+You can download the Copilot for Sales dashboard from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=2259835).
 
 ## Connect the dashboard to your organization's data 
 
