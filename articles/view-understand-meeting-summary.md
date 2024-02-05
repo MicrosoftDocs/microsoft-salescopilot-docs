@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,9 +14,13 @@ Sellers and their managers need an easy way to review the conversations they've 
 
 The meeting summary page provides a high-level view of how the conversation with a customer went, and includes follow-up action items and relevant keywords, a timeline, a transcript of the call, and more.
 
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. 
+
 ## Prerequisites
 
-[Conversation intelligence must be turned on](conv-intelli-settings.md) for your organization. If it's not, contact your administrator.
+Conversation intelligence must be turned on for your organization. If it's not, meeting summary is not generated. Contact your administrator to [turn on conversation intelligence for your organization](conv-intelli-settings.md).
 
 ## View the meeting summary
 
@@ -47,7 +51,7 @@ The meeting summary page includes the following sections:
 The **Recap** tab displays call highlights and follow-up action items that Copilot for Sales identified during the call.
 
 > [!NOTE]
-> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
+> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes. In North Ameraica and Europe regions, the supported meeting recording duration is 100 minutes.
 
 :::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Copilot for Sales meeting summary.":::
 
@@ -65,7 +69,7 @@ To share the call highlights and follow-up action items, select **Copy to clipbo
 
 :::image type="content" source="media/recap.png" alt-text="Screenshot showing how to copy and paste content from Recap tab in Copilot for Sales meeting summary.":::
 
-You can create CRM tasks from the follow-up action items. More information: [Create CRM tasks from meeting summary](create-crm-tasks-meeting-summary.md)
+You can create CRM tasks from the follow-up action items. More information: [Create CRM tasks from meeting summary](#create-crm-tasks-from-meeting-summary)
 
 ### Mentions
 
@@ -130,3 +134,31 @@ The timeline also indicates the conversation segments, such as introduction, sol
 > The playback capability is available only to the meeting organizer and call recorder.
 
 :::image type="content" source="media/playback.png" alt-text="Screenshot showing the timeline playback in Copilot for Sales meeting summary.":::
+
+## Create CRM tasks from meeting summary
+
+You can convert the suggested action items in a meeting summary to a task and save it in CRM directly from Teams.
+
+1. [Open a meeting summary](view-understand-meeting-summary.md) and go to the **Recap** tab.
+
+1. Find the follow-up item for which you need to create a task, and then select **Create task**.
+
+   :::image type="content" source="media/create-task.png" alt-text="Screenshot showing the Create task link.":::
+
+1. Add or update the following information:
+
+   | Item | Description | Required |
+   |------|-------------|----------|
+   | Subject | Name of the task | Yes |
+   | Owner | Who will complete the task; if it isn't you, you can assign someone else | Yes |
+   | Connected to | A record that provides information about the task; select from accounts and opportunities that are associated with the email's recipients | No |
+   | Due date | The date by which the owner should complete the task | No |
+   | Description | Text snippet of the follow-up item; you can change it if needed. <br><br> **Note**: A link to the meeting is populated automatically in this field. | No |
+
+   :::image type="content" source="media/create-crm.png" alt-text="Screenshot showing the Create CRM task in Dynamics 365.":::
+
+1. Select **Create**.
+
+    After you've created a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
+
+   :::image type="content" source="media/open-task.png" alt-text="Screenshot showing the Open task link.":::

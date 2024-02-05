@@ -4,14 +4,14 @@ description: Visit this page to see what's recently updated or added in Microsof
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 01/24/2024
+ms.date: 02/02/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
 
 # What's new or changed in Microsoft Copilot for Sales
 
-Wondering about upcoming and recently released capabilities in Microsoft Copilot for Sales? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.  
+Wondering about upcoming and recently released capabilities in Microsoft Copilot for Sales? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.
 
 See the release plans for what's coming. Choose the following links to learn about the latest versions of Microsoft Copilot for Sales.
 

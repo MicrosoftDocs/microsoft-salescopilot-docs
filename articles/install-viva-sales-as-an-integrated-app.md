@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales add-in for Outlook
 description: Learn how to install Copilot for Sales add-in for Outlook from Microsoft 365 admin center.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,42 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install Copilot for Sales add-in for Outlook
+# Install Copilot for Sales in Outlook
+
+> [!NOTE]
+> Not all versions of Outlook (such as Mac, mobile, and some versions of the desktop client) support the new enhanced Teams app. To ensure all clients get Copilot for Sales, it is best to install the Copilot for Sales for Outlook add-in and the newer [enhanced Copilot for Sales Teams app](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).
+
+
+## Install the Copilot for Sales Outlook enhanced Teams app
+
+The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it.
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+2. In the left pane, select **Settings** > **Integrated apps**.
+
+3. On the **Integrated apps** page, select **Get apps**.
+
+    Microsoft AppSource opens in an embedded window.
+
+4. In the **AppSource** window, search for **Copilot for Sales**.
+
+5. In the search results, select **Microsoft Copilot for Sales**, then select **Get it now**. 
+
+    The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
+
+6. In the **Configuration** step, select the apps to deploy, and then select **Next**.
+
+7. In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
+
+8. In the **Deployment** (**Permissions**) step, read the app permissions and capabilities for each of the apps to be deployed, select **Accept permissions** for each app, and then select **Next**.
+
+9. In the **Deployment** (**Finish**) step, review the selected settings, and then select **Finish deployment**.
+
+10. When the deployment is complete, select **Done**.
+
+
+## Install the Copilot for Sales Outlook add-in
 
 The add-in is installed in Fixed mode by default. In a Fixed deployment, users receive the add-in automatically and can't remove it.
 
@@ -24,7 +59,7 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 
 4.  In the **AppSource** window, search for **Copilot for Sales**.
 
-5.  In the search results, select either **Copilot for Sales for Microsoft Outlook** or **Copilot for Sales for Microsoft Teams**, and then select **Get it now**. 
+5.  In the search results, select **Copilot for Sales for Microsoft Outlook**, and then select **Get it now**. 
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
@@ -63,7 +98,7 @@ The **Microsoft Copilot for Sales** panel opens with the following tabs:
 
 - **Usage**: Displays the number of active users of the app based on the selected platform and date range.
 
-## Update the Copilot for Sales add-in
+## Update the Copilot for Sales add-in and app
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
@@ -72,8 +107,6 @@ The **Microsoft Copilot for Sales** panel opens with the following tabs:
     The **Microsoft Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 
 3. Select **Know more and update**.
-
-    :::image type="content" source="media/update-add-in.png" alt-text="Update the Copilot for Sales add-in.":::
 
 4. In the **Updates** panel, select **Accept and update**.
 

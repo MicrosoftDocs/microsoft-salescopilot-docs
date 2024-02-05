@@ -13,6 +13,8 @@
 
 - name: Product overview
   items:
+  - name: Functional overview
+    href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
   - name: Supported languages
@@ -32,7 +34,7 @@
     items:
     - name: Install Copilot for Sales (admin-deployed)
       href: install-viva-sales.md
-    - name: Install Copilot for Sales add-in for Outlook
+    - name: Install Copilot for Sales in Outlook
       href: install-viva-sales-as-an-integrated-app.md
     - name: Install and pin Copilot for Sales in Teams
       href: install-pin-viva-sales-teams.md
@@ -65,40 +67,47 @@
 
 - name: Seller guide
   items:
+  - name: Learn the basics
+    items:
+    - name: Access the Copilot for Sales app
+      href: open-app.md
+    - name: Sign in to CRM from Outlook
+      href: sign-in-crm-outlook.md
   - name: Capabilities in Outlook
     items:
-    - name: Overview
-      href: use-sales-copilot-outlook.md
-    - name: Connect a contact to your CRM
-      href: connect-contact.md
-    - name: Change the connected CRM contact
-      href: change-connected-crm-contact.md
-    - name: Create a contact in your CRM from Copilot for Sales
-      href: create-contact-crm-sales-copilot.md
-    - name: Save Outlook activities to your CRM
-      href: save-outlook-activities-crm.md
-    - name: View recent and upcoming activities
-      href: view-recent-upcoming-activities.md
-    - name: View record details
-      href: view-record-details.md
-    - name: Add personal notes
-      href: add-personal-notes.md
-    - name: Share a link to a CRM record
-      href: share-link-crm-record.md
-    - name: Edit a CRM record
-      href: edit-crm-record.md
-    - name: Use server-side synchronization with Copilot for Sales
-      href: use-server-side-sync.md
+    - name: CRM actions
+      items: 
+      - name: Connect a contact to your CRM
+        href: connect-contact.md
+      - name: Change the connected CRM contact
+        href: change-connected-crm-contact.md
+      - name: Create a contact in your CRM from Copilot for Sales
+        href: create-contact-crm-sales-copilot.md
+      - name: Save Outlook activities to your CRM
+        href: save-outlook-activities-crm.md
+      - name: View recent and upcoming activities
+        href: view-recent-upcoming-activities.md
+      - name: View record details
+        href: view-record-details.md
+      - name: Add personal notes
+        href: add-personal-notes.md
+      - name: Share a link to a CRM record
+        href: share-link-crm-record.md
+      - name: Edit a CRM record
+        href: edit-crm-record.md
+      - name: Use server-side synchronization with Copilot for Sales
+        href: use-server-side-sync.md
     - name: AI capabilities
       items:
       - name: Overview
         href: ai-sales-copilot.md
-      - name: Use Copilot to kickstart email messages
-        href: use-copilot-kickstart-email-messages.md
-      - name: View and save email summary to CRM
+      - name: View email summary
         href: view-save-email-summary-crm.md
+      - name: Draft an email message
+        href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
+      
     - name: More options
       items:
       - name: Switch environments or CRM
@@ -111,10 +120,9 @@
         href: sign-out-sales-copilot.md
       - name: Delete your personal data from Copilot for Sales
         href: delete-personal-data.md
+
   - name: Capabilities in Teams
     items:
-    - name: Overview
-      href: use-sales-copilot-teams.md
     - name: Create a Teams meeting
       href: create-teams-meeting.md
     - name: Use Copilot for Sales app during a meeting
@@ -123,8 +131,6 @@
       href: generate-meeting-summary.md
     - name: View and understand the meeting summary
       href: view-understand-meeting-summary.md
-    - name: Create CRM tasks from meeting summary
-      href: create-crm-tasks-meeting-summary.md
     - name: Share a CRM record in a Teams conversation
       href: share-crm-record-teams-conversation.md
     - name: View and update CRM record details
@@ -132,20 +138,25 @@
     - name: Share feedback
       href: share-feedback-teams.md
 
-- name: Cross-app capabilities
-  items:
-  - name: Collaboration space in Copilot for Sales
+  - name: Capabilities in Microsoft Word
     items:
-    - name: Overview
-      href: collaboration-space.md
-    - name: Set up a team using the account team template
-      href: set-up-team-account-team-template.md
-    - name: Set up a team using the deal room template
-      href: set-up-team-deal-room-template.md
-    - name: Collaborate in account and deal room teams
-      href: collaborate-teams-newly-created-existing-team.md
-    - name: Access linked teams and channels
-      href: access-linked-teams-channels.md
+    - name: Generate pre-meeting report
+      href: meeting-report-word.md
+
+  - name: Cross-app capabilities
+    items:
+    - name: Collaboration space in Copilot for Sales
+      items:
+      - name: Overview
+        href: collaboration-space.md
+      - name: Set up a team using the account team template
+        href: set-up-team-account-team-template.md
+      - name: Set up a team using the deal room template
+        href: set-up-team-deal-room-template.md
+      - name: Collaborate in account and deal room teams
+        href: collaborate-teams-newly-created-existing-team.md
+      - name: Access linked teams and channels
+        href: access-linked-teams-channels.md
 
 - name: Extend Copilot for Sales (preview)
   items:
@@ -251,3 +262,4 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+

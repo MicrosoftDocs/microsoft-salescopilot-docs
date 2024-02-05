@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,6 +19,12 @@ When interacting with your customers over email, you often need to update your C
 Copilot for Sales uses AI to summarize email conversations and provides you with options to copy the summary and to add the summary to your CRM system as a note to a record.
 
 When available, the summary includes information whether budget, stakeholders, need, and timing are mentioned in the email or not. This information is displayed only for external emails and when detected with a high probability by AI.
+
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license.
+
+## Anatomy of email summary
 
 :::image type="content" source="media/email-summary.png" alt-text="Screenshot showing the Email summary with annotations.":::
 
@@ -48,7 +54,7 @@ The generation of email summary is supported in the following languages: English
 
 1. Open the **Copilot for Sales** pane.
 
-1. On the **Highlights** tab, the email summary is displayed in the **Key info** card.
+1. The email summary is displayed in the **Key email info** card.
 
 > [!NOTE]
 > If the email content is less than 1000 characters, the email summary is not generated.
@@ -57,7 +63,7 @@ The generation of email summary is supported in the following languages: English
 
 1. [View the email summary](#view-email-summary).
 
-1. In the **Key info** card, select **More options** (**...**), and then select **Save summary to (CRM)**.
+1. In the **Key email info** card, select **More options** (**...**), and then select **Save summary to (CRM)**.
 
 1. Under **Select a record**, select one of the suggested records or use the search box to find another record.
 

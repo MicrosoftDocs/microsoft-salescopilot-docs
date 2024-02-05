@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (user-deployed)
 description: Learn how to install Copilot for Sales.
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -53,7 +53,7 @@ With Copilot for Sales for Microsoft Outlook, you can:
 
 ### Start using Copilot for Sales in Outlook
 
-After you've installed Copilot for Sales, you can open Copilot for Sales and sign in to your CRM system to start using Copilot for Sales. More information: [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md)
+After you've installed Copilot for Sales, you can open Copilot for Sales and sign in to your CRM system to start using Copilot for Sales. More information: [Access the Copilot for Sales app](open-app.md)
 
 ### Difference between Copilot for Sales and Dynamics 365 app for Outlook
 
@@ -85,8 +85,6 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 1. On the **Copilot for Sales for Microsoft Outlook** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
 
-    :::image type="content" source="media/uninstall add-in.png" alt-text="Uninstall Copilot for Sales Outlook add-in.":::
-
 > [!NOTE]
 > If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
 
@@ -94,19 +92,21 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 
 1. Sign in to Microsoft Teams.
 
-1. In the navigation bar on the left, select **Store**.
+1. In the navigation bar on the left, select **Apps**.
 
-	:::image type="content" source="media/store.png" alt-text="Screenshot showing select store on the navigation bar.":::
+	:::image type="content" source="media/store.png" alt-text="Screenshot showing Apps on the navigation bar.":::
 
 1.  Search for **Copilot for Sales**, and then select it.
 
 1.  Select **Add** in the **Copilot for Sales** window.
 
-	:::image type="content" source="media/add-sales-copilot.png" alt-text="Screenshot showing add Copilot for Sales app.":::
-
 ### Start using Copilot for Sales in Teams
 
-After you've installed Copilot for Sales, you can start using Copilot for Sales to stay connected to your customers, minimize data entry, and personalize your engagements. More information: [Use Copilot for Sales in Teams](use-sales-copilot-teams.md)
+After you've installed Copilot for Sales, you can start using Copilot for Sales to stay connected to your customers, minimize data entry, and personalize your engagements. More information: [Access the Copilot for Sales app](open-app.md)
+
+### Welcome message
+
+Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
 ### Uninstall Copilot for Sales app for Microsoft Teams
 

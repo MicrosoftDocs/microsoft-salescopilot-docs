@@ -1,7 +1,7 @@
 ---
 title: Block the Copilot for Sales app in Microsoft Teams
 description: Learn how to block the Copilot for Sales app in Microsoft Teams
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

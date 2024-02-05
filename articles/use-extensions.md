@@ -1,7 +1,7 @@
 ---
 title: Integrate Microsoft Copilot for Sales with other applications
 description: Learn how to integrate Copilot for Sales with other applications
-ms.date: 01/09/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

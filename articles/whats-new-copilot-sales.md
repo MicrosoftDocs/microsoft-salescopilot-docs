@@ -1,7 +1,7 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
-ms.date: 01/24/2024
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -78,6 +78,22 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 ## Enhanced Teams app support
 
-The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app which includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Show the sales pipeline for the last 12 months" directly in the Microsoft 365 chat.
+The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app which includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
-The enhanced Team app is initially supported in the web version of Outlook but support for other Outlook clients such as Windows and Mac will be available soon. This means if your sellers use other Outlook client, you should deploy both the new enhanced Teams app and the older Outlook add-in. See deployment guides for details: [Dynamics 365 customers](deploy-viva-sales-d365.md) and [Salesforce CRM customers](deploy-viva-sales-sf.md).
+The enhanced Team app is initially supported in the desktop and web version of Outlook, but support for other Outlook clients such as Mac and mobile are not currently available. If your sellers use an unsupported version of the Outlook client, you should deploy both the new enhanced Teams app and the Outlook add-in. 
+
+### New deployments
+
+Although the new Copilot for Sales enhanced Teams app is packaged as a single app, deployment is still needed in both the Microsoft 365 admin center for Outlook and Microsoft 365 apps and the Teams admin center for Teams deployment. See deployment guides for details: [Dynamics 365 customers](deploy-viva-sales-d365.md) and [Salesforce CRM customers](deploy-viva-sales-sf.md).
+
+### Update existing Sales Copilot deployments
+
+#### Upgrading the app within Teams 
+
+Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams app, every Teams user will be presented with an update button within Teams. In this case, no administration is needed in the Teams admin center. [Learn more about updating an app in Microsoft Teams](https://support.microsoft.com/office/update-an-app-in-microsoft-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+
+#### Upgrading the app for Outlook 
+
+To get the benefits of the new enhanced Teams app within Outlook, the new app will need to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Copilot for Sales for Outlook](install-viva-sales-as-an-integrated-app.md)
+
+The existing Sales Copilot add-in will be automatically updated to Copilot for Sales to support Outlook clients that do not yet support the enhanced Teams app such as Mac and mobile, thus no need to remove the existing deployment for the add-in.
