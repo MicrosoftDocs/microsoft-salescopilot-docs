@@ -142,7 +142,7 @@
 
   - name: Capabilities in Microsoft Word
     items:
-    - name: Generate pre-meeting report
+    - name: Generate pre-meeting report (preview)
       href: meeting-report-word.md
 
   - name: Cross-app capabilities
