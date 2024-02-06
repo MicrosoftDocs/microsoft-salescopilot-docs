@@ -1,8 +1,8 @@
 ---
-title: Maximize seller productivity with Copilot for Sales
+title: Copilot for Sales functional overview
 description: Maximize seller productivity with Copilot for Sales, an AI assistant designed to streamline processes and create personalized sales content.
 ms.date: 02/02/2024
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:02/01/2024
 ---
 
-# Maximize seller productivity with Copilot for Sales
+# Copilot for Sales functional overview
 
 Microsoft Copilot for Sales is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.  
 
