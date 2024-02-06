@@ -47,7 +47,6 @@ With Copilot in Outlook and Copilot for Sales together, you can draft an email m
 5.	Select **Keep it** to add the content to the email body.
 6.	Edit the email content as required, and then send it.
 
-`image`
 
 ### See also
 

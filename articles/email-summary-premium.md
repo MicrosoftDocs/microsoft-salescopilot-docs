@@ -48,7 +48,6 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
 3.	In the **Summary by Copilot** box, select the **From Outlook** dropdown at top-right, and select **Add Sales insights**. The summary is updated to include sales information from CRM.
 4.	To open **Copilot for Sales**, select **Go to Sales**. The **Key sales info** card displays information about the connected opportunity, account, and contact.
 
-`image`
 
 ### See also
 

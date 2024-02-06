@@ -125,18 +125,22 @@
 
   - name: Capabilities in Teams
     items:
-    - name: Create a Teams meeting
-      href: create-teams-meeting.md
-    - name: Use Copilot for Sales app during a meeting
-      href: use-sales-copilot-app-during-meeting.md
-    - name: Generate a meeting summary
-      href: generate-meeting-summary.md
-    - name: View and understand the meeting summary
-      href: view-understand-meeting-summary.md
-    - name: Share a CRM record in a Teams conversation
-      href: share-crm-record-teams-conversation.md
-    - name: View and update CRM record details
-      href: view-update-crm-record-details.md
+    - name: Elevate sales meeting
+      items:
+      - name: Create a Teams meeting
+        href: create-teams-meeting.md
+      - name: Use Copilot for Sales app during a meeting
+        href: use-sales-copilot-app-during-meeting.md
+      - name: Generate a meeting summary
+        href: generate-meeting-summary.md
+      - name: View and understand the meeting summary
+        href: view-understand-meeting-summary.md
+    - name: CRM actions
+      items:
+      - name: Share a CRM record in a Teams conversation
+        href: share-crm-record-teams-conversation.md
+      - name: View and update CRM record details
+        href: view-update-crm-record-details.md
     - name: Share feedback
       href: share-feedback-teams.md
 
