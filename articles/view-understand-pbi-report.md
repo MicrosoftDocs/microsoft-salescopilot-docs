@@ -70,7 +70,7 @@ The following conversational KPIs are displayed:
 
 - **Longest seller monologue**: Displays the longest time a sales rep spoke during a conversation. It helps you identify if your sellers are talking too much during conversations.
 
-- **Engaging questions rate**: Displays the percentage of engaging questions asked by a sales rep during a conversation. It helps you identify if your sellers are asking enough engaging questions to customers to understand their needs.
+- **Engaging questions rate**: Displays the percentage of open ended questions asked by a sales rep during a conversation. It helps you identify if your sellers are asking enough open ended questions to customers to understand their needs.
 
 Select **Explore** to drill down and view trends for all KPIs over time. By default, the seller view is displayed. Seller view helps you analyze the overall behavior of an individual seller during customer calls. Using this analysis, you can identify coaching scenarios to increase wins and productivity gains for the business. You can see data for a seller by selecting their name in the **Seller** filter.
 
