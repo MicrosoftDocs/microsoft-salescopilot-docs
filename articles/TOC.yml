@@ -70,6 +70,8 @@
       href: configure-pbi-dashboard.md
     - name: Conversation intelligence dashboard data structure
       href: data-struct-pbi-report.md
+    - name: Dataverse tables used in the Copilot for Sales dashboard reports
+      href: dataverse-tables-pbi-report.md
 
 - name: Seller guide
   items:
@@ -170,8 +172,6 @@
       href: analyze-sellers-conv-data-pbi.md
     - name: View and understand Copilot for Sales dashboard report
       href: view-understand-pbi-report.md
-    - name: Dataverse tables used in the Copilot for Sales dashboard reports
-      href: dataverse-tables-pbi-report.md
 
 
 - name: Extend Copilot for Sales (preview)

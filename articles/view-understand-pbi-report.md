@@ -34,17 +34,17 @@ You can use the following filters in the report:
 
 - **Data filters**: Use the following filters to view the information you need:
 
-    - **Team**: Displays names of all managers in the organization hierarchy up to the current user.
+    - **Team**: Displays names of all managers in the organization hierarchy up to the current user. If you are a seller, your manager's name is displayed. If you are a manager, the names of managers reporting to you are displayed.
 
-    - **Seller**: Displays names of sellers under the selected manager.
+    - **Seller**: Displays names of sellers under the selected manager. If you are a seller, you can only view your own data.
 
     - **Activity type**: Displays activity type such as phone calls (inbound and outbound) and meetings.
 
-    - **Connected record** (available for Dynamics 365 users): Displays a list of CRM records with related activities.
+    - **Connected record** (available for Dynamics 365 Sales users): Displays a list of CRM records with related activities.
 
-    - **Stage** (available for Dynamics 365 users): Filters the connected records list according to the record's status.
+    - **Stage** (available for Dynamics 365 Sales users): Filters the connected records list according to the record's status.
 
-    - **Campaign** (available for Dynamics 365 users): Displays a list of campaigns with relevant activities.
+    - **Campaign** (available for Dynamics 365 Sales users): Displays a list of campaigns with relevant activities.
 
     - **Tags**: Allows filtering of conversation data by the tags they were tagged with.
 
@@ -86,9 +86,9 @@ The following summary charts are displayed:
 
 - **Seller's conversation content**
 
-    - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations.
+    - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations. It is the count of how many times a brand was mentioned by sellers during conversations for the selected time period.  
 
-    - **Top trending brands by sellers**: Displays the top trending brands by sellers during conversations. Select **Explore** to drill down and view trends for the **Top trending brands by sellers** chart over time.
+    - **Top trending brands by sellers**: Displays the top trending brands by sellers during conversations. It's the frequency of a brand mentioned in a day by all sellers. Select **Explore** to drill down and view trends for the **Top trending brands by sellers** chart over time.
 
     - **Seller's frequently used words**: Displays the top frequently used words by sellers during conversations.
 
