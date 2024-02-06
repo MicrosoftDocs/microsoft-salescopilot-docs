@@ -293,14 +293,10 @@
       href: developer/entities/msdyn_recording.md
     - name: msdyn_SCIConversation
       href: developer/entities/msdyn_sciconversation.md
-    - name: msdyn_SciCustomEmailHighlight
-      href: developer/entities/sdyn_scicustomemailhighlight.md
     - name: msdyn_SciCustomHighlight
       href: developer/entities/msdyn_scicustomhighlight.md
     - name: msdyn_SciCustomPublisher
       href: developer/entities/msdyn_scicustompublisher.md
-    - name: msdyn_scienvironmentsettings
-      href: developer/entities/sdyn_scienvironmentsettings.md
     - name: msdyn_sciusersettings
       href: developer/entities/msdyn_sciusersettings.md
     - name: msdyn_transcript
