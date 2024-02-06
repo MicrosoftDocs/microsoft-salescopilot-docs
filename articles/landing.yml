@@ -86,9 +86,9 @@ landingContent:
        - linkListType: how-to-guide
          links:
           - text: Draft email messages
-            url: use-copilot-kickstart-email-messages.md
+            url: email-reply-premium.md
           - text: View email summary
-            url: view-save-email-summary-crm.md
+            url: email-summary-premium.md
           - text: View opportunity summary
             url: view-opportunity-summary.md
           - text: Generate pre-meeting report

@@ -96,9 +96,17 @@
       - name: Overview
         href: ai-sales-copilot.md
       - name: View email summary
-        href: view-save-email-summary-crm.md
+        items:
+        - name: View email summary using premium license
+          href: email-summary-premium.md
+        - name: View email summary using standard license
+          href: view-save-email-summary-crm.md
       - name: Draft an email message
-        href: use-copilot-kickstart-email-messages.md
+        items:
+        - name: Draft an email message using premium license
+          href: email-reply-premium.md
+        - name: Draft an email message using standard license
+          href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
       
@@ -117,24 +125,28 @@
 
   - name: Capabilities in Teams
     items:
-    - name: Create a Teams meeting
-      href: create-teams-meeting.md
-    - name: Use Copilot for Sales app during a meeting
-      href: use-sales-copilot-app-during-meeting.md
-    - name: Generate a meeting summary
-      href: generate-meeting-summary.md
-    - name: View and understand the meeting summary
-      href: view-understand-meeting-summary.md
-    - name: Share a CRM record in a Teams conversation
-      href: share-crm-record-teams-conversation.md
-    - name: View and update CRM record details
-      href: view-update-crm-record-details.md
+    - name: Elevate sales meeting
+      items:
+      - name: Create a Teams meeting
+        href: create-teams-meeting.md
+      - name: Use Copilot for Sales app during a meeting
+        href: use-sales-copilot-app-during-meeting.md
+      - name: Generate a meeting summary
+        href: generate-meeting-summary.md
+      - name: View and understand the meeting summary
+        href: view-understand-meeting-summary.md
+    - name: CRM actions
+      items:
+      - name: Share a CRM record in a Teams conversation
+        href: share-crm-record-teams-conversation.md
+      - name: View and update CRM record details
+        href: view-update-crm-record-details.md
     - name: Share feedback
       href: share-feedback-teams.md
 
   - name: Capabilities in Microsoft Word
     items:
-    - name: Generate pre-meeting report
+    - name: Generate pre-meeting report (preview)
       href: meeting-report-word.md
 
   - name: Cross-app capabilities
@@ -247,4 +259,6 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+  - name: FAQ for key sales info
+    href: faqs-key-sales-info.md
 
