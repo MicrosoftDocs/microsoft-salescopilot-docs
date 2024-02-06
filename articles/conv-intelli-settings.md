@@ -1,7 +1,7 @@
 ---
 title: Turn on conversation intelligence
 description: Improve sales conversations with conversation intelligence using AI to analyze conversations and provide real-time tips and insights.
-ms.date: 02/05/2024
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

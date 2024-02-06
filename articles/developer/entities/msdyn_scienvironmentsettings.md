@@ -25,24 +25,6 @@ SCI environment level settings
 **Added by**: Conversation Intelligence Solution
 
 
-## Messages
-
-|Message|SDK Assembly|
-|-|-|
-|BulkRetain|<xref:Microsoft.Crm.Sdk.Messages.BulkRetainRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|PurgeRetainedContent|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
-|Retain|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RollbackRetain|<xref:Microsoft.Crm.Sdk.Messages.RollbackRetainRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-|ValidateRetentionConfig|<xref:Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest>|
 
 ## Properties
 

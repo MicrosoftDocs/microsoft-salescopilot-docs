@@ -1,7 +1,7 @@
 ﻿---
 title: Dataverse tables used in the Copilot for Sales dashboard reports
 description: Dataverse tables used in Copilot for Sales dashboard reports. Includes tables for conversation data, transcripts, tags, insights, and more.
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

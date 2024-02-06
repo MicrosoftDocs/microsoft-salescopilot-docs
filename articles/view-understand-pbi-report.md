@@ -1,7 +1,7 @@
 ﻿---
 title: View and understand Copilot for Sales dashboard report
 description: Identify coaching opportunities and increase sales wins and productivity gains for your business with the help of Copilot for Sales dashboard report.
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

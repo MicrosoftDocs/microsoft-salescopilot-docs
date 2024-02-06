@@ -52,7 +52,7 @@ When you download the Copilot for Sales dashboard from Microsoft AppSource, it i
 
 6.  Select **Sign in and connect**.
 
-7.  After the dashboard is connected successfully connection to the organization's data, you can edit the report and publish it.  
+7.  After the dashboard is connected successfully to the organization's data, you can edit the report and publish it.  
     
     > [!NOTE]
     > Any edits you make to the dashboard will be overridden if you install a newer version of the dashboard. Consider using the downloaded version as-is to avoid the need to manually edit the dashboard every time you install a new version. [Learn how to edit and publish Power BI reports to a workspace](/power-bi/connect-data/service-template-apps-install-distribute)
@@ -63,21 +63,21 @@ See the [Power BI documentation](/power-bi/connect-data/service-template-apps-ov
 
 ## Configure access permissions in the dashboard
 
-The Copilot for Sales dashboard uses Row Level Security (RLS) to grant users with access, according to your organization hierarchy, which is imported from the system users table in Dataverse. Admins of Salesforce organizations can sync their organizations hierarchy from either Salesforce or Microsoft Entra ID. To import hierarchy for SFDC orgs follow these steps in this document: TBD
+The Copilot for Sales dashboard uses Row-Level Security (RLS) to grant users with access, according to your organization hierarchy, which is imported from the system users table in Dataverse. Admins of Salesforce organizations can sync their organizations hierarchy from either Salesforce or Microsoft Entra ID. [Learn how to import hierarchy for Salesforce orgs](hierarchy-settings-sf.md)
 
-The dashboard uses the organizational hierarchy to determine who is each user's manager, and allows access to data based on the defined role of each user.
+The dashboard uses the organization hierarchy to determine who is each user's manager, and allows access to data based on the defined role of each user.
 
 [Learn more about Row-level security (RLS)](/power-bi/enterprise/service-admin-rls)
 
 The Copilot for Sales dashboard includes four pre-defined roles:
 
--   Seller (Agent): View data only from conversations to which they have access (can access the conversation summary page).
+-   Seller (Agent): Can view data only of conversations to which they have access (can access the conversation summary page).
 
--   Sales Manager (Manager): View data of conversations to which they or their team have summary page access.
+-   Sales Manager (Manager): Can view data of conversations to which they or their team have summary page access.
 
--   Business Unit Admin (BuAdmin): View data of conversations owned by anyone.
+-   Business Unit Admin (BuAdmin): Can view data of conversations owned by anyone.
 
--   OrgAdmin: View data of all conversations.
+-   OrgAdmin: Can view data of all conversations.
 
 For information about configuring RLS in your managers' dashboard, see: [Manage security on your model](/power-bi/enterprise/service-admin-rls#manage-security-on-your-model).
 

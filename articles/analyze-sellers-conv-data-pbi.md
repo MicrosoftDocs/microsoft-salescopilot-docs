@@ -1,7 +1,7 @@
 ﻿---
 title: Analyze your sellers' conversation data with Power BI
 description: Gain visibility into your sales teams' customer conversations with the Copilot for Sales dashboard template app.
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
