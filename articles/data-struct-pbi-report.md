@@ -40,6 +40,8 @@ Copilot for Sales conversation intelligence insights are saved for each instance
 
 ## Data structure
 
+:::image type="content" source="media/data-struct.svg" alt-text="Screenshot showing data structure of conversation intelligence dashboard.":::
+
 ### Entity description
 
 - **msdyn_SCIConversation**: Contains data required to correlate between the conversation intelligence data, the activity, and Microsoft Teams files.
