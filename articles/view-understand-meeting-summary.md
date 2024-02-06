@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 02/02/2024
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,6 +17,10 @@ The meeting summary page provides a high-level view of how the conversation with
 ## License requirements
 
 Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. 
+
+## Prerequisites
+
+Conversation intelligence must be turned on for your organization. If it's not, meeting summary is not generated. Contact your administrator to [turn on conversation intelligence for your organization](conv-intelli-settings.md).
 
 ## View the meeting summary
 
