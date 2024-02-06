@@ -27,7 +27,7 @@ The following table lists the Dataverse tables used in the dashboard reports.
 | SCI Conversation                 | Time filter                                | The minimum and maximum values of the time filter are set according to the Start time field of the table.                |
 | SCI Conversation                 | Team or Seller filters                     | The Team or Seller filters filter the data in the dashboard based on the owner of the table.                             |
 | SCI Conversation                 | Activity type filter                       | Displays the source for the type of activity (for example, email, phone call, or meeting).                               |
-| SCI Conversation                 | Coaching opportunities and call recordings | Count daily conversations by conversation type.                                                                          |
+| SCI Conversation                 | Coaching opportunities and call recordings | Displays the count of daily conversations by conversation type.                                                                          |
 | SCI Conversation                 | Call recordings                            | Displays type, time, subject, and owner of the conversation in a table.                                                  |
 | Transcript                       | Call recordings                            | Displays the transcript on each conversation's summary page.                                                             |
 | Conversation Comment             | Call recordings                            | Displays the comments on transcript on each conversation's summary page.                                                 |
