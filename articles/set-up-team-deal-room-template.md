@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
 description: Learn how to set up a team using a deal room team template in the Copilot for Sales add-in for Outlook.
-ms.date: 02/02/2024
+ms.date: 02/19/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -91,3 +91,12 @@ When you create a collaboration space with the deal room team template, you can 
     After the basic General channel is set up, a confirmation message is displayed. Select **Open in Teams** to view the new team.
 
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
+
+## Alternate ways to set up a deal room team
+
+You can also set up a team using the deal room template in the following ways:
+
+- In the **Opportunities** card in the Copilot for Sales pane, hover over the opportunity name, and then select **More actions (...)** > **Set up deal room**. [Set up a new team](#create-a-deal-room-team) or [use an existing team as a deal room team](#set-up-an-existing-team-as-a-deal-room-team).
+- When viewing opportunity details in the Copilot for Sales pane, go to the **Collaborate in Teams** card, and then select **Set up deal room**. [Set up a new team](#create-a-deal-room-team) or [use an existing team as a deal room team](#set-up-an-existing-team-as-a-deal-room-team).
+
+After you set up a team, you can [collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).

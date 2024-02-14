@@ -1,7 +1,7 @@
 ---
 title: Access linked teams and channels in Outlook and Sales
 description: Learn how to access linked collaboration spaces in Microsoft Teams from Outlook and Dynamics 365 Sales.
-ms.date: 02/02/2024
+ms.date: 02/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -25,6 +25,12 @@ ms.custom:
     :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot of linked teams in Copilot for Sales in Outlook.":::
 
 1. Select a team or channel to open it in Microsoft Teams.
+
+Alternately, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in Copilot for Sales.
+
+  - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
+    
+    - Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
 ## Access linked teams and channels from Dynamics 365 Sales
 
