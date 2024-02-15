@@ -57,7 +57,7 @@ You can access the administrator settings only in the Copilot for Sales app in T
 
     **Environment-level settings**:
 
-      - **Copilot**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) and [conversation intelligence](conv-intelli-settings.md) for your environment.
+      - **Copilot**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.
       - **Forms**: [Determines what information is displayed in Copilot for Sales in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in Copilot for Sales.
       - **Extensions**: [Integrates Copilot for Sales with other applications](use-extensions.md) to enhance its functionality and provide more insights for your sellers.
 

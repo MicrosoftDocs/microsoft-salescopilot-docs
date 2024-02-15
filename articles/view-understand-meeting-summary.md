@@ -18,10 +18,6 @@ The meeting summary page provides a high-level view of how the conversation with
 
 Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. 
 
-## Prerequisites
-
-Conversation intelligence must be turned on for your organization. If it's not, meeting summary is not generated. Contact your administrator to [turn on conversation intelligence for your organization](conv-intelli-settings.md).
-
 ## View the meeting summary
 
 When the meeting summary is ready, you'll receive a message from the **Copilot for Sales** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Copilot for Sales** tab in the meeting.
