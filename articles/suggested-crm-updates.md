@@ -1,11 +1,15 @@
 ---
 title: View suggested CRM updates
-description: 
-ms.date: 02/02/2024
+description: Save time and reduce errors by letting AI suggest CRM updates based on email conversations
+ms.date: 02/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/15/2024
 ---
 
 # View suggested CRM updates
