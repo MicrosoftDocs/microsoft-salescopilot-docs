@@ -16,7 +16,7 @@ Copilot for Sales uses AI to suggest CRM updates based on the email conversation
 
 The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card is not displayed.
 
-`image here`
+:::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
 
 ## License requirements
 
@@ -38,7 +38,12 @@ Copilot for Sales scans the email conversations and compares the data with the d
 2. Select **Update opportunity** for the update you want to apply. Based on whether the email is connected to an opportunity or not, the following happens:
 
     - If the email is connected to an opportunity, the opportunity form opens within the Copilot for Sales pane.
+
+        :::image type="content" source="media/suggested-data-review.png" alt-text="Screenshot showing opportunity form to review suggested updates.":::
+
     - If the email is not connected to an opportunity, you are prompted to select an opportunity to update. Select an opportunity and proceed to the next step.
+    
+        :::image type="content" source="media/suggested-select-oppty.png" alt-text="Screenshot showing form to select an opportunity to update.":::
 
 1. To change the opportunity, select **Choose a different opportunity** and select the opportunity you want to update.
 
@@ -57,6 +62,8 @@ You can also udpate an opportunity record with the suggested updates when viewin
 2. In the highlight card, select **Update opportunity** for the update you want to apply.
 
 3. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject** icon.
+
+    :::image type="content" source="media/suggested-oppty-details.png" alt-text="Screenshot showing option to update opportunity from details view.":::
 
 4. Select **Save**.
 
