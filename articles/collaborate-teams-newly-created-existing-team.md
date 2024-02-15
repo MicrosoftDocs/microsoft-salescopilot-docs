@@ -24,7 +24,11 @@ You can open a collaboration space&mdash;an account team or a deal room channel 
 
     - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
     
+        :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing deal rooms from record card.":::
+    
     - Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+
+        :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing deal rooms in record details view.":::
 
 - In Teams, select the account team or deal room channel.
 

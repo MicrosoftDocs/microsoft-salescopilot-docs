@@ -89,6 +89,8 @@ When you set up an account team for an existing team, a new channel is created i
 You can also set up a team using the account team template in the following ways:
 
 - In the **Accounts** card in the Copilot for Sales pane, hover over the account name, and then select **More actions (...)** > **Set up account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
-- When viewing account details in the Copilot for Sales pane, go to the **Collaborate in Teams** card, and then select **Set up account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
+- When viewing account details in the Copilot for Sales pane, go to the **Collaborate in Teams** card, and then select **Set up account team**. If account teams already exist, the button name displayed is **Set up another account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
+
+    :::image type="content" source="media/accnt-team-record-details-view.png" alt-text="Screenshot showing creating account team from record details view.":::
 
 After you set up a team, you can [collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
