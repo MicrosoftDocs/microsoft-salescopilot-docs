@@ -34,6 +34,8 @@ Updating the CRM with all your activities across all the communication channels 
 
     If you've connected Copilot for Sales to your Dynamics 365 environment and [server-side synchronization](/power-platform/admin/server-side-synchronization) is not enabled, you are prompted to enable server-side synchronization for your mailbox when you save an Outlook activity for the first time. More information: [Use server-side synchronization with Copilot for Sales](use-server-side-sync.md)
 
+    Alternately, you can also [save the email to CRM from a related record card](#save-an-email-from-a-related-record-card). 
+
 1. Under **Connect to a record**, select the record you want to connect the activity to.
 
     By default, Copilot for Sales displays the accounts and opportunities that are related to the contacts in the activity. You can choose one of the displayed records to connect to or use the search box to find and connect to another record of any record type added to Copilot for Sales by your administrator.
