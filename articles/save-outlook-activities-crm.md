@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 02/02/2024
+ms.date: 02/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,6 +23,8 @@ Updating the CRM with all your activities across all the communication channels 
 > - Saving Outlook activities from shared mailboxes is not supported.
 >
 > - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
+
+## Save Outlook activities from the highlight card
 
 1. Open the email or meeting you want to save to the CRM, and then open Copilot for Sales.
 
@@ -62,12 +64,30 @@ Updating the CRM with all your activities across all the communication channels 
    >  
    > :::image type="content" source="media/truncate.png" alt-text="Screenshot showing the email truncated message.":::
 
-   If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.
+## Save an email from a related record card
 
-   :::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
+Copilot for Sales displays records that are related to the saved contacts in the email in their respective record type cards. You can save the email to the CRM a related record from these cards.
 
-   > [!NOTE]
-   > If you save an email to Salesforce CRM, the option to change the connected record is not available.
+> [!NOTE]
+> If you've already saved the email to the CRM from the highlight card, you can't save it again from the related record card.
+
+1. Open the email you want to save to the CRM, and then open Copilot for Sales.
+
+1. In the (record type) card, hover over the record to which you want to save the email, select **More actions** (**...**), and then select **Save email to (CRM)**. For example, if you want to save the email to the account, hover over the account in the **Accounts** card, select **More actions** (**...**), and then select **Save email to (CRM)**.
+
+    Alternately, you can select a record to open its details and then select **More actions** (**...**) > **Save email to (CRM)**.
+
+1. The email is connected to the selected record and saved in the CRM. The connected record and its type are displayed in the **Connected to** card.
+
+
+## Change the connected record
+
+If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.
+
+:::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
+
+> [!NOTE]
+> If you save an email to Salesforce CRM, the option to change the connected record is not available.
 
 ## Remove saved email from CRM
 
