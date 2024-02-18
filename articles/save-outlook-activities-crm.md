@@ -66,20 +66,20 @@ Updating the CRM with all your activities across all the communication channels 
    >  
    > :::image type="content" source="media/truncate.png" alt-text="Screenshot showing the email truncated message.":::
 
-## Save an email from a related record card
+## Save Outlook activities from a related record card
 
 Copilot for Sales displays records that are related to the saved contacts in the email in their respective record type cards. You can save the email to the CRM a related record from these cards.
 
 > [!NOTE]
-> If you've already saved the email to the CRM from the highlight card, you can't save it again from the related record card.
+> If you've already saved the email or meeting to CRM from the highlight card, you can't save it again from the related record card.
 
-1. Open the email you want to save to the CRM, and then open Copilot for Sales.
+1. Open the email or meeting you want to save to the CRM, and then open Copilot for Sales.
 
-1. In the (record type) card, hover over the record to which you want to save the email, select **More actions** (**...**), and then select **Save email to (CRM)**. For example, if you want to save the email to the account, hover over the account in the **Accounts** card, select **More actions** (**...**), and then select **Save email to (CRM)**.
+1. In the (record type) card, hover over the record to which you want to save the email or meeting, select **More actions** (**...**), and then select **Save email to (CRM)**. For example, if you want to save the email to the account, hover over the account in the **Accounts** card, select **More actions** (**...**), and then select **Save email to (CRM)**.
 
     Alternately, you can select a record to open its details and then select **More actions** (**...**) > **Save email to (CRM)**.
 
-1. The email is connected to the selected record and saved in the CRM. The connected record and its type are displayed in the **Connected to** card.
+1. The email or meeting is connected to the selected record and saved in the CRM. The connected record and its type are displayed in the **Connected to** card.
 
 
 ## Change the connected record
