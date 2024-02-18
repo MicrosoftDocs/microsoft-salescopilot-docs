@@ -18,20 +18,7 @@ You need to opt in to allow your data to move outside of your region to an Azure
 
 When you use copilots and generative AI features, your inputs (prompts) and outputs (results) might move outside of your region to the location where the Azure OpenAI Service endpoint that supports these features is hosted. We might store prompt and output data for up to 30 days to [monitor for abuse](/azure/ai-services/openai/concepts/abuse-monitoring), but we don't look at it unless our automated systems flag it for review.
 
-Effective February 19, 2024, for new customers, the following table describes when and how data can move across regions for copilots and generative AI features.
-
-### Option 1
-
-| Region where your CRM environment is hosted | Region where Azure OpenAI Service is hosted | Does data move across regions? | How to allow data to move across regions|
-|-------------------------|-------------------------|-------------------------|-------------------------|
-| Australia</br>India</br>United Kingdom</br>United States | Within the respective geographical region of your CRM environment | No | No action required. Data doesn't move across regions in this scenario.|
-| Europe | Sweden or Switzerland | Yes\* | No action required. Data doesn't move outside the [EU Data Boundary](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb) in this scenario.<br><br>You can clear the [**Allow moving data outside boundaries**](suggested-replies.md) checkbox, if you want to. |
-| France</br>Germany</br>Norway</br>Switzerland | Sweden or Switzerland | Yes | [Provide consent in admin settings](suggested-replies.md). |
-| Asia</br>Brazil</br>Canada</br>Japan</br>South Africa</br>South Korea</br>United Arab Emirates | United States | Yes | [Provide consent in admin settings](suggested-replies.md). |
-
-\* If your CRM environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary.
-
-### Option 2
+Effective February 21, 2024, for new customers, the following table describes when and how data can move across regions for copilots and generative AI features.
 
 | Region where your CRM environment is hosted | Content required for data movement across regions? | How to allow data to move across regions|
 |-------------------|-------------------|-------------------|
