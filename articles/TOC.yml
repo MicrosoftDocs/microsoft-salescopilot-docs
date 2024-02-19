@@ -145,8 +145,12 @@
         href: use-sales-copilot-app-during-meeting.md
       - name: Generate a meeting summary
         href: generate-meeting-summary.md
-      - name: View and understand the meeting summary
-        href: view-understand-meeting-summary.md
+      - name: View meeting summary
+        items:
+        - name: View meeting summary using premium license
+          href: view-meeting-summary-recap.md
+        - name: View meeting summary using standard license  
+          href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
       - name: Share a CRM record in a Teams conversation
