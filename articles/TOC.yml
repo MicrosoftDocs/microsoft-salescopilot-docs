@@ -52,10 +52,10 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
-    - name: Copilot data movement across geographies
-      href: copilot-data-movement.md
     - name: Turn on conversation intelligence
       href: conv-intelli-settings.md
+    - name: Copilot data movement across geographies
+      href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
     - name: Hierarchy settings for Salesforce orgs (preview)
