@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Save time and reduce errors by letting AI suggest CRM updates based on email conversations
-ms.date: 02/19/2024
+ms.date: 02/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
