@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 02/19/2024
+ms.date: 02/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
