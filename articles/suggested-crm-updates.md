@@ -59,7 +59,7 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 ### Update CRM from record details
 
-You can also udpate an opportunity record with the suggested updates when viewing its details in the Copilot for Sales pane. The updates are displayed in highlight cards above the opportunity details.
+You can also update an opportunity record with the suggested updates when viewing its details in the Copilot for Sales pane. The updates are displayed in highlight cards above the opportunity details.
 
 1. In the Copilot for Sales pane, [view details of an opportunity](view-record-details.md).
 
