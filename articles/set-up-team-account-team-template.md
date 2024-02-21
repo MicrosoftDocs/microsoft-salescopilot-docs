@@ -84,7 +84,7 @@ When you set up an account team for an existing team, a new channel is created i
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
 
 
-## Alternate ways to set up an account team
+## Alternative ways to set up an account team
 
 You can also set up a team using the account team template in the following ways:
 

@@ -26,7 +26,7 @@ ms.custom:
 
 1. Select a team or channel to open it in Microsoft Teams.
 
-Alternately, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in Copilot for Sales.
+Alternatively, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in Copilot for Sales.
 
   - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
 

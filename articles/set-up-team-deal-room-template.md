@@ -92,7 +92,7 @@ When you create a collaboration space with the deal room team template, you can 
 
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
 
-## Alternate ways to set up a deal room team
+## Alternative ways to set up a deal room team
 
 You can also set up a team using the deal room template in the following ways:
 
