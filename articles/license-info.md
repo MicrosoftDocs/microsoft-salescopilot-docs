@@ -33,7 +33,26 @@ In addition, Microsoft Dynamics 365 Sales customers will also see Copilot functi
 
 Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations that use the Microsoft 365 productivity suite and Salesforce can purchase Copilot for Sales to gain access to the role-based skills and Copilot for Microsoft 365. This optimizes chat, integrated actions and generates insights combining AI with the data held within the CRM application.
 
-For more information about pricing, [view the pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) or contact your Microsoft representative.
+## Feature comparison
+
+The following table provides a comparison of the features available in Copilot for Sales standard and premium licenses.
+
+|Copilot for Sales (standard) - Included with Dynamics 365 Sales|Copilot for Sales (premium)|Capabilities|User interface|
+|---|---|---|---|
+|Yes|Yes|Standard Copilot experiences such as create/update CRM records, view email summary, and draft email replies. |Outlook|
+|Yes|Yes|Standard Copilot experiences such as meeting summaries with conversation intelligence, creating collaboration spaces, sharing CRM records. |Teams|
+|No|Yes|Copilot for Microsoft 365 experiences such as Copilot in Microoft 365 apps, Copilot Studio, and Microsoft Graph. |Copilot for Microsoft 365|
+|No|Yes|Premium Copilot experiences such as recommended CRM updates, buying intent, and sales enabled chat. |Outlook|
+|No|Yes|Premium Copilot experiences such as meeting prepation, recommended CRM updates, and sales enabled chat. |Teams|
+|No|Yes|Copilot for Microsoft 365 integrated experiences such as pre-meeting report generation in Word, and sales pitch presentation in PowerPoint. |Microsoft 365 apps|
+
+> [!NOTE]
+> - Copilot for Sales standard license is included with Dynamics 365 Sales Enterprise, Premium, MRSS, and CE plan customers only.
+> - Salesforce Sales Cloud customers can't purchase the Copilot for Sales standard license.
+
+## Pricing
+
+For information about pricing, [view the pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) or contact your Microsoft representative.
 
 ### See also
 
