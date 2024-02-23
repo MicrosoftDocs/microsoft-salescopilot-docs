@@ -317,6 +317,9 @@
 - name: Copilot for Sales training
   href: /training/modules/boost-sales-performance/
 
+- name: Copilot for Sales adoption resources
+  href: https://adoption.microsoft.com/copilot-for-sales/
+
 - name: Responsible AI
   items:
   - name: Overview
