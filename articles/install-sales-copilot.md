@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (user-deployed)
 description: Learn how to install Copilot for Sales.
-ms.date: 02/02/2024
+ms.date: 02/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -64,7 +64,7 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 | Save Outlook emails and calendar events to Dynamics 365   | Supported     | Supported       |
 | Connect saved Outlook emails and events to Dynamics 365 accounts and opportunities  | Supported¹    | Supported      |
 | Create new CRM contacts from Outlook   | Supported     | Supported    |
-| Automatically capture email signature and suggest updating CRM   | Supported     | Not supported                |
+| Automatically capture email signature during new contact creation | Supported     | Not supported                |
 | Create and edit non-contact records in Dynamics 365     | Supported²    | Supported      |
 | Delegate access (allow a user to act on behalf of another user)    | Not supported | Supported    |
 | Mobile support | Not supported | Supported |
