@@ -52,8 +52,6 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
-    - name: Turn on conversation intelligence
-      href: conv-intelli-settings.md
     - name: Copilot data movement across geographies
       href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
