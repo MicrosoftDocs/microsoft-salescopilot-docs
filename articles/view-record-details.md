@@ -31,7 +31,7 @@ You can also open a record in CRM to view its complete details. In record detail
 
 :::image type="content" source="media/open-dynamics.png" alt-text="Screenshot showing the open in CRM icon.":::
 
-Alternately, you can also open a record in CRM from the **Copilot for Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
+Alternatively, you can also open a record in CRM from the **Copilot for Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
 

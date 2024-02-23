@@ -18,7 +18,7 @@ You can copy a link to a CRM record and then share it in a Teams chat or an emai
 
    :::image type="content" source="media/copy-link.png" alt-text="Screenshot showing copy record link.":::
 
-   Alternately, you can select a record to open its details and then select **More actions** (...) > **Copy link**.
+   Alternatively, you can select a record to open its details and then select **More actions** (...) > **Copy link**.
 
    :::image type="content" source="media/more-copy.png" alt-text="Screenshot showing copy link from record details.":::
 

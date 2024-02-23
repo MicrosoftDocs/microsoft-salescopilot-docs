@@ -47,7 +47,7 @@ You can copy a link to the connected record and then share it in a Teams chat or
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 
-Alternately, you can select the connected record to open its details, and then select **More actions** (**...**) > **Copy link**.
+Alternatively, you can select the connected record to open its details, and then select **More actions** (**...**) > **Copy link**.
 
 ## Edit connected record
 
