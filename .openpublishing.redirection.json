@@ -414,6 +414,121 @@
         "source_path": "articles/conv-intelli-settings.md",
         "redirect_url": "/microsoft-sales-copilot/administrator-settings-for-viva-sales",
         "redirect_document_id": false
-      }       
+      },
+      {
+        "source_path": "articles/developer/about-entity-reference.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationactionitem.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationaggregatedinsights.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationcomment.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationparticipantinsights.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationparticipantsentiment.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationquestion.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsegmentsentiment.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsentiment.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsignal.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsubject.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsummarysuggestion.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsystemtag.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationtag.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_ocrecording.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_recording.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_sciconversation.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustomhighlight.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustompublisher.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_sciusersettings.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_transcript.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustomemailhighlight.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scienvironmentsettings.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      }                   
   ]
 }
