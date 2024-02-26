@@ -519,6 +519,16 @@
       "source_path": "articles/developer/entities/msdyn_transcript.md",
       "redirect_url": "/microsoft-sales-copilot/landing",
       "redirect_document_id": false
-      }               
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustomemailhighlight.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scienvironmentsettings.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      }                   
   ]
 }
