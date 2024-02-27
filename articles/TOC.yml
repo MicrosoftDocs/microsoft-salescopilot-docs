@@ -52,6 +52,8 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
+    - name: Turn off task suggestion in collaboration spaces
+      href: turn-off-suggested-tasks-collab-space.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
     - name: Hierarchy settings for Salesforce orgs (preview)
@@ -175,6 +177,8 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
+      - name: View suggested tasks
+        href: suggested-tasks-collab-space.md
 
   - name: Conversation intelligence dashboard (preview)
     items:

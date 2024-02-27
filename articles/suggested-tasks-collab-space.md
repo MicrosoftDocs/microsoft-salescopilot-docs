@@ -1,5 +1,5 @@
 ---
-title: 
+title: View suggested tasks in collaboration spaces
 description: 
 ms.date: 02/21/2024
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# View suggested tasks
+# View suggested tasks in collaboration spaces
 
 Sales team members spend a lot of time communicating and coordinating with colleagues within Microsoft Teams. They work on important decisions and action items that are related to their accounts and opportunities. However, it's easy to lose track of tasks and to-dos when you're working in a fast-paced environment.
 
@@ -39,6 +39,8 @@ Copilot for Sales bot must be added to a standard channel in Teams.
 2. In the **Suggested tasks** card, review the suggested tasks. Task name, assignee, due date, and citation number are shown for each task. Select the citiation number to see the text from the conversation that led to the task suggestion.
 
 3. If required, edit the task details inline. You can change the task name, assignee, and due date.
+
+4. If you’ve more than one Tasks tab or multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list.
 
 4. Perform one of the following actions:
     - If there's only one task, select **Create task**. 
