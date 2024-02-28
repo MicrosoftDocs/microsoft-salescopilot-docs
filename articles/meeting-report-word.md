@@ -1,6 +1,6 @@
 ---
-title: Generate pre-meeting report with Copilot in Microsoft Word
-description: Generate pre-meeting reports in Microsoft Word with Copilot for Sales, providing relevant content and recommendations for sellers.
+title: Generate premeeting report with Copilot in Microsoft Word
+description: Learn how to generate premeeting reports in Microsoft Word with Copilot for Sales, providing relevant content and recommendations for sellers.
 ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -12,17 +12,17 @@ ms.custom:
   - ai-seo-date:01/29/2024
 ---
 
-# Generate pre-meeting report with Copilot in Microsoft Word (preview)
+# Generate premeeting report with Copilot in Microsoft Word (preview)
 
 [!INCLUDE [preview-note](includes/preview-note.md)]
 
 [!INCLUDE [preview-banner](includes/preview-banner.md)]
 
-Sellers use Microsoft Word to perform daily sales tasks such as preparing for strategic meetings, creating proposals, and drafting contracts. Copilot in Microsoft Word helps sellers create documents faster by providing relevant content and recommendations. Integrating Microsoft Copilot for Sales with Copilot in Microsoft Word enables sellers to create detailed pre-meeting report and share it with their team members.
+Sellers use Microsoft Word to perform daily sales tasks such as preparing for strategic meetings, creating proposals, and drafting contracts. Copilot in Microsoft Word helps sellers create documents faster by providing relevant content and recommendations. Integrating Microsoft Copilot for Sales with Copilot in Microsoft Word enables sellers to create detailed premeeting reports and share them with their team members.
 
 ## Supported languages
 
-This feature is currently supported only in English.
+This feature is currently only supported in English.
 
 ## Region availability
 
@@ -34,44 +34,43 @@ This feature is available in all [regions in which Copilot for Sales is supporte
 
 ## Prerequisites
 
--   You must use Microsoft Word on the web to use this integration.
+- You must use Microsoft Word on the web to use this integration.
 
--   You must be signed in to Copilot for Sales and Microsoft Word with the same account.
+- You must sign into Copilot for Sales and Microsoft Word with the same account.
 
--   You must contact Microsoft support to enable Copilot for your organization.
+- You must contact Microsoft support to enable Copilot for your organization.
 
-## Generate pre-meeting report
+## Generate premeeting report
 
-1.  In Microsoft Word, select the **Draft with Copilot** icon or press **Alt+I**.
+1. In Microsoft Word, select the **Draft with Copilot** icon or press **Alt+I**.
 
-2.  Enter your prompt followed by forward slash (/) and the meeting search term, and then select **Sales meetings** to select a meeting.
+2. Enter your prompt followed by forward slash (/) and the meeting search term, and then select **Sales meetings** to select a meeting.
 
-    :::image type="content" source="media/word-sales-meetings.png" alt-text="Select Sales meetings from the menu.":::
+    :::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::
 
-    > [!NOTE]
-    > Only [meetings that fulfill the criteria](#criteria-for-meetings-to-be-displayed) are displayed.
+    Only [meetings that fulfill the criteria](#criteria-for-meetings-to-be-displayed) are displayed.
 
-3.  Select the appropriate meeting and then select **Generate**.  
-      
-    :::image type="content" source="media/word-select-meeting.png" alt-text="Select a meeting to generate the pre-meeting report.":::
+3. Select the appropriate meeting and then select **Generate**.  
+
+    :::image type="content" source="media/word-select-meeting.png" alt-text="Screenshot of a selected meeting generated premeeting report.":::
 
 The report is generated with the information mentioned in the [report format](#report-format).
 
 ### Criteria for meetings to be displayed
 
--   Only meetings that are upcoming in the next 30 days are displayed.
+- The meeting is upcoming in the next 30 days.
 
--   Meetings must have at least one external participant.
+- The meeting has at least one external participant.
 
--   User must be included in the meeting either as a required or an optional attendee.
+- The meeting invite includes the user as a required or an optional attendee.
 
--   At least one external participant must be matched to a contact in CRM.
+- The meeting has at least one external participant who is matched to a contact in the CRM.
 
 ### Report format
 
-The content of the report is generated using the selected meeting and the opportunity to which it's saved. If the meeting isn't saved in the CRM, limited content is generated for the report. The pre-meeting report contains the following sections:
+The content of the report is generated using the selected meeting and the opportunity where it's saved. If the meeting isn't saved in the CRM, limited content is generated for the report. The premeeting report contains the following sections:
 
-- **Meeting participants**: Displays participants' names, job title, and role in the opportunity. It also shows whether participants have accepted the meeting invite.
+- **Meeting participants**: Displays participants' names, job title, and role in the opportunity. It also shows whether participants accepted the meeting invite.
 
 - **Opportunity summary**: Displays overview and latest activity as generated by copilot.
 
@@ -83,7 +82,6 @@ The content of the report is generated using the selected meeting and the opport
 
 - **Related records**
 
-    - **Open opportunities**: Displays up to three additional open opportunities from the last six months. Opportunities are sorted by close date (old to new).
+  - **Open opportunities**: Displays up to three extra open opportunities from the last six months. Opportunities are sorted by close date (old to new).
 
-    - **Open cases**: Displays up to three open cases for the account. Cases are sorted by priority and creation date.
-
+  - **Open cases**: Displays up to three open cases for the account. Cases are sorted by priority and creation date.
