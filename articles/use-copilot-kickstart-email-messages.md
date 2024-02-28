@@ -1,6 +1,6 @@
 ---
 title: Draft an email message within Copilot for Sales app
-description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
+description: Learn how to generate an email reply with predefined categories or custom prompt using Copilot for Sales's AI to save time and effort.
 ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -138,7 +138,7 @@ Here are some best practices for writing custom prompt:
 
 ### Use suggested prompts
 
-When you enter a custom prompt, suggested prompts are displayed based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can add more details or add other prompts.
+When you enter a custom prompt, suggested prompts are generated based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can also add more details or other prompts.
 
 1. Open Copilot for Sales and select **Draft an email**.
 
@@ -158,9 +158,9 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Save a custom prompt
 
-1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
+1. [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
 
-2.  At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
+2. At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
 
     :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
 
@@ -170,9 +170,9 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Use a saved prompt
 
-1.  Open Copilot for Sales and select **Draft an email**.
+1. Open Copilot for Sales and select **Draft an email**.
 
-3.  Select :::image type="icon" source="media/fav-icon.png" border="false":::, and then select the prompt you want to use.
+1. Select :::image type="icon" source="media/fav-icon.png" border="false":::, and then select the prompt you want to use.
 
     :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
 
@@ -180,14 +180,13 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
-1.  Open Copilot for Sales and select **Draft an email**.
+1. Open Copilot for Sales and select **Draft an email**.
 
-3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
+1. Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 
     Alternatively, you can generate suggested content using the saved prompt, and then select the star icon :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
 
     :::image type="content" source="media/remove-prompt.png" alt-text="Screenshot showing icon to remove a saved prompt":::
-
 
 ## Enhance suggested content with another opportunity
 
@@ -270,7 +269,7 @@ After you've generated the suggested content, you can refine the results furthe
 
 ## Set length of suggested content
 
-You can set the length of the suggested content to be short, medium, or long. The default length is medium. 
+You can set the length of the suggested content to be short, medium, or long. The default length is medium.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -286,8 +285,7 @@ You can set the length of the suggested content to be short, medium, or long. Th
 
 1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
 
-   > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+    Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -361,8 +359,9 @@ If you want to have a meeting with a customer, you can include a meeting time in
 ## Set language of suggested content
 
 The language of the suggested content is determined as follows:
-- If you're replying to an email, the language of the suggested content is the same as the language of the email. 
-- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt. 
+
+- If you're replying to an email, the language of the suggested content is the same as the language of the email.
+- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt.
 
 In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
 
@@ -382,8 +381,7 @@ You can set the language of the suggested content to be one of the supported lan
 
 1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
 
-   > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+    Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -408,7 +406,7 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 
    > [!TIP]
    > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
-   
+
     :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
 
 1. Review the suggested content.
