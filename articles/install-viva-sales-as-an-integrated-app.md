@@ -26,11 +26,15 @@ The app is installed in Fixed mode by default. In a Fixed deployment, users rece
 
 3. On the **Integrated apps** page, select **Get apps**.
 
+    :::image type="content" source="media/get-apps-admin-center.svg" alt-text="Screenshot showing Get apps button in Microsoft 365 admin center.":::
+
     Microsoft AppSource opens in an embedded window.
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, select **Microsoft Copilot for Sales**, then select **Get it now**. 
+5. In the search results, on the **Microsoft Copilot for Sales** card, select **Get it now**. 
+
+    :::image type="content" source="media/get-enhanced-app.svg" alt-text="Screenshot showing Copilot for Sales enhanced app in Microsoft 365 admin center.":::
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
@@ -62,7 +66,9 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 
 4.  In the **AppSource** window, search for **Copilot for Sales**.
 
-5.  In the search results, select **Copilot for Sales for Microsoft Outlook**, and then select **Get it now**. 
+5.  In the search results, on the **Copilot for Sales for Microsoft Outlook** card, select **Get it now**. 
+
+    :::image type="content" source="media/get-outlook-add-in.svg" alt-text="Screenshot showing Copilot for Sales Outlook add-in in Microsoft 365 admin center.":::
 
     The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.
 
