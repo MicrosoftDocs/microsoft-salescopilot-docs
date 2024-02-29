@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales add-in for Outlook
 description: Learn how to install Copilot for Sales add-in for Outlook from Microsoft 365 admin center.
-ms.date: 02/02/2024
+ms.date: 02/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 # Install Copilot for Sales in Outlook
 
 > [!NOTE]
-> Not all versions of Outlook (such as Mac, mobile, and some versions of the desktop client) support the new enhanced Teams app. To ensure all clients get Copilot for Sales, it is best to install the Copilot for Sales for Outlook add-in and the newer [enhanced Copilot for Sales Teams app](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).
+> Not all versions of Outlook (such as Mac and mobile) support the new enhanced Teams app. To ensure all clients get Copilot for Sales, it is best to install the Copilot for Sales for Outlook add-in and the newer [enhanced Copilot for Sales Teams app](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).
 
 
 ## Install the Copilot for Sales Outlook enhanced Teams app
@@ -36,7 +36,10 @@ The app is installed in Fixed mode by default. In a Fixed deployment, users rece
 
 6. In the **Configuration** step, select the apps to deploy, and then select **Next**.
 
-7. In the **Users** step, select the users or groups who will have access to the add-in, and then select **Next**.
+    > [!NOTE]
+    > The first app **Copilot for Sales for Microsoft Outlook** is the Outlook extension to provide sidecar functionality. The second app **Copilot for Sales** is the enhanced Teams components app that works across Outlook and other Microsoft 365 apps including the personal app (**Home** and **Settings** tabs) and the message extension.
+
+7. In the **Users** step, select the users or groups who will have access to the app, and then select **Next**.
 
 8. In the **Deployment** (**Permissions**) step, read the app permissions and capabilities for each of the apps to be deployed, select **Accept permissions** for each app, and then select **Next**.
 
@@ -74,11 +77,9 @@ The add-in is installed in Fixed mode by default. In a Fixed deployment, users r
 10. When the deployment is complete, select **Done**.
 
 > [!NOTE]
-> The app is enabled in Teams but not installed. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Copilot for Sales in Teams, go to [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md).
+> The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Copilot for Sales in Teams, go to [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md).
 
 Allow up to six hours for Copilot for Sales to appear in users' Outlook ribbon.
-
-Sellers will receive a pop-up notification that their administrator has installed a new app.
 
 ## Manage the Copilot for Sales app
 
