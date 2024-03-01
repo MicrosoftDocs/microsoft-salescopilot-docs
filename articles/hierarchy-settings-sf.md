@@ -1,6 +1,6 @@
 ---
 title: Power BI dashboard hierarchy settings for Salesforce organizations
-description: Import your org chart to Dataverse and keep it synced with Copilot for Sales administrator settings in Power BI.
+description: Learn how to import your org chart to Dataverse and keep it synced with Copilot for Sales administrator settings in Power BI.
 ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -25,17 +25,18 @@ As a Salesforce system administrator, you can control the source of the hierarch
 To ensure managers and sellers have the right level of access to the dashboard, Sales Copilot uses organizational information saved in the [SystemUser table in Dataverse](/power-apps/developer/data-platform/reference/entities/systemuser). If your org chart isn't saved to Dataverse, you can import it.
 
 > [!NOTE]
+>
 > - Hierarchy settings are available only for Salesforce customers and are displayed only if you are connected to a Salesforce environment.
 
 ## Import your org chart
 
-1.	[Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
 1. Under **Environment**, select **Reports**.
 
-1.	Under **Copilot for Sales dashboard**, select **Import your org chart to Dataverse and keep it synced**.
+1. Under **Copilot for Sales dashboard**, select **Import your org chart to Dataverse and keep it synced**.
 
-1.	Select **Microsoft Entra ID** or **Salesforce**, and then select **Save**.
+1. Select **Microsoft Entra ID** or **Salesforce**, and then select **Save**.
 
     :::image type="content" source="media/hierarchy-settings.png" alt-text="Screenshot showing hierarchy settings.":::
 
