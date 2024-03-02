@@ -22,10 +22,10 @@ Microsoft Copilot for Sales is an AI assistant for sellers in Microsoft 365 that
 
 ## Dynamics 365 Sales
 
-Dynamics 365 Sales customers have limited capabilities included within the Enterprise, Premium, MRSS, and CE plans. The standard functionality showcases functionality such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales, customers can access the full functionality which includes the combined experience with Copilot for Microsoft 365. 
+Dynamics 365 Sales Enterprise customers will see a few Copilot for Sales capabilities (accessible within Outlook and Teams) included with their subscription. The capabilities are the same as provided with the earlier Sales Copilot license. However, Copilot for Sales is an additional purchase and this includes all the latest sales based experiences, Copilot for Microsoft 365, and Teams intelligent recap.
 
 > [!NOTE]
-> Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft Copilot for Microsoft 365 to activate Copilot for Sales. 
+> Microsoft Dynamics 365 Sales Premium users only need to purchase Copilot for Microsoft 365 to activate Copilot for Sales. 
 
 In addition, Microsoft Dynamics 365 Sales customers will also see Copilot functionality embedded within the Dynamics 365 interface. This is referred to as [Copilot in Dynamics 365 Sales](/dynamics365/sales/copilot-overview). 
 
