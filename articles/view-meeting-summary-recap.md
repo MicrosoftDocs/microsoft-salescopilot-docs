@@ -1,7 +1,7 @@
 ---
 title: View sales related insights in Microsoft Teams meeting recap
 description: View sales insights in Microsoft Teams meeting recap to support customer engagements.
-ms.date: 02/19/2024
+ms.date: 03/04/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
