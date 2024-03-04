@@ -16,7 +16,7 @@ The meeting summary page provides a high-level view of how the conversation with
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. 
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 ## View the meeting summary
 
