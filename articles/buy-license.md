@@ -19,7 +19,7 @@ You can purchase Copilot for Sales using the following methods:
 - Volume licensing
 - Certified cloud partners (CSP)
 
-For more information on our pricing [view our pricing page]((https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)) or contact your Microsoft representative. 
+For more information on our pricing [view our pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) or contact your Microsoft representative. 
 
 ## Buy Copilot for Sales directly
 
