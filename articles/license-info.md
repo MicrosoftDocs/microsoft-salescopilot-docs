@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales license overview
 description: This article provides overview of the Copilot for Sales license.
-ms.date: 02/07/2024
+ms.date: 03/04/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -31,24 +31,18 @@ In addition, Microsoft Dynamics 365 Sales customers will also see Copilot functi
 
 ## Salesforce Sales Cloud
 
-Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations that use the Microsoft 365 productivity suite and Salesforce can purchase Copilot for Sales to gain access to the role-based skills and Copilot for Microsoft 365. This optimizes chat, integrated actions and generates insights combining AI with the data held within the CRM application.
+Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations that use the Microsoft 365 productivity suite and Salesforce, can purchase Copilot for Sales to gain access to the role-based skills and Copilot for Microsoft 365. This optimizes chat, integrated actions, and generates insights combining AI with the data held within the CRM application.
 
-## Feature comparison
+## Capabilities
 
-The following table provides a comparison of the features available in Copilot for Sales standard and premium licenses.
+The following table provides an high-level overview of the capabilities available with Copilot for Sales and from where they can be accessed. Note that this is not an exhaustive list of capabilities.
 
-|Copilot for Sales (standard) - Included with Dynamics 365 Sales|Copilot for Sales (premium)|Capabilities|User interface|
-|---|---|---|---|
-|Yes|Yes|Standard Copilot experiences such as create/update CRM records, view email summary, and draft email replies. |Outlook|
-|Yes|Yes|Standard Copilot experiences such as meeting summaries with conversation intelligence, creating collaboration spaces, sharing CRM records. |Teams|
-|No|Yes|Copilot for Microsoft 365 experiences such as Copilot in Microoft 365 apps, Copilot Studio, and Microsoft Graph. |Copilot for Microsoft 365|
-|No|Yes|Premium Copilot experiences such as recommended CRM updates, buying intent, and sales enabled chat. |Outlook|
-|No|Yes|Premium Copilot experiences such as meeting prepation, recommended CRM updates, and sales enabled chat. |Teams|
-|No|Yes|Copilot for Microsoft 365 integrated experiences such as pre-meeting report generation in Word, and sales pitch presentation in PowerPoint. |Microsoft 365 apps|
-
-> [!NOTE]
-> - Copilot for Sales standard license is included with Dynamics 365 Sales Enterprise, Premium, MRSS, and CE plan customers only.
-> - Salesforce Sales Cloud customers can't purchase the Copilot for Sales standard license.
+|Capabilities|Accessed from|
+|------------|-------------|
+|Copilot for Microsoft 365 experiences such as Copilot in Microsoft 365 apps, Copilot Studio, and Microsoft Graph. |Copilot for Microsoft 365|
+|Outlook integrated experiences such as viewing email summaries and drafting email reply using sales insights within Outlook canvas. <br> Create/update CRM records, recommended CRM updates, buying intent, and sales enabled chat.  |Outlook|
+|Teams integrated experiences such as in-meeting prompts, intelligent recap combined experience with CRM updates and action. <br>Meeting summaries with conversation intelligence, creating collaboration spaces, and sharing CRM records. |Teams|
+|Copilot for Microsoft 365 integrated experiences such as pre-meeting report generation in Word, and sales pitch presentation in PowerPoint. |Microsoft 365 apps|
 
 ## Pricing
 
