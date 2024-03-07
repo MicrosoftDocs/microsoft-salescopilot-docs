@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: View email summaries enriched with sales information from CRM systems like Dynamics 365 or Salesforce in Outlook.
-ms.date: 02/06/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -34,6 +34,23 @@ For information about pricing, see [Microsoft Copilot for Sales pricing](https:/
 - [Copilot for Sales must be turned on in your environment](suggested-replies.md)
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
+
+## Supported languages
+
+The combined experience of Copilot for Microsoft 365 and Copilot for Sales is available in the following languages:
+
+- Chinese (simplified)
+- Danish
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Portuguese (Brazil)
+- Spanish
+
+The email must be in one of the supported languages to generate the summarized email thread.
 
 ## View email summary
 

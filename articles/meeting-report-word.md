@@ -1,7 +1,7 @@
 ---
 title: Generate pre-meeting report with Copilot in Microsoft Word
 description: Generate pre-meeting reports in Microsoft Word with Copilot for Sales, providing relevant content and recommendations for sellers.
-ms.date: 02/02/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,7 +22,16 @@ Sellers use Microsoft Word to perform daily sales tasks such as preparing for st
 
 ## Supported languages
 
-This feature is currently supported only in English.
+This feature is available in the following languages:
+
+- Chinese (simplified)
+- English
+- French
+- German
+- Italian
+- Japanese
+- Portuguese (Brazil)
+- Spanish
 
 ## Region availability
 
