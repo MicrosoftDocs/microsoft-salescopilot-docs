@@ -104,4 +104,4 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
 
    :::image type="content" source="media/remove.png" alt-text="Screenshot showing how to remove saved email from CRM.":::
 
-    The email is deleted from Dynamics 365 and a confirmation message is displayed.
+    This step deletes the email from Dynamics 365 and a confirmation message is displayed.
