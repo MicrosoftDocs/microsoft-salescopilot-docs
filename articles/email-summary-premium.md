@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: Learn how to use email summaries enriched with sales information in Outlook.
-ms.date: 02/06/2024
+ms.date: 03/12/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,11 +14,11 @@ ms.custom:
 
 # Summarize an email thread using sales information with Copilot in Outlook
 
-Microsoft Copilot for Sales combines features from Copilot for Microsoft 365 to provide users with valuable insight to help support customer engagement. The combined Copilot experience in products like Microsoft Outlook support sellers by integrating Copilot's capabilities into Outlook and Copilot for Sales, creating a seamless 'better together' design. This feature enables sellers to grow customer relationships and close deals by generating summarized email conversations and suggested email replies.
+Microsoft Copilot for Sales includes all the capabilities within Copilot for Microsoft 365 to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
 
 ## License requirements
 
-To get started with this combined experience, you must have a Microsoft Copilot for Sales license. The Microsoft Copilot for Sales license includes a Copilot for Microsoft 365 license.
+You must have a Microsoft Copilot for Sales license to get started with this combined experience. The Microsoft Copilot for Sales license includes Copilot for Microsoft 365 license.
 
 If you already have Copilot for Microsoft 365, you can add the step-up Copilot for Sales license to include all the role-based functionality and CRM connections.
 
@@ -31,13 +31,14 @@ For information about pricing, see [Microsoft Copilot for Sales pricing](https:/
 
 ## Prerequisites
 
-- [Enable Copilot for Sales in your environment](suggested-replies.md)
-- [Enable use for Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
+- [Copilot for Sales must be turned on in your environment](suggested-replies.md)
+- [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
+- You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
 
 ## View email summary
 
-With Copilot in Outlook and Copilot for Sales, you get email summaries in Outlook enriched with sales information from your CRM system such as Dynamics 365 or Salesforce ©.
+With Copilot in Outlook and Copilot for Sales together, you get email summaries in Outlook enriched with sales information from your CRM system such as Dynamics 365 or Salesforce ©.
 
 You can also open the **Copilot for Sales** pane from the email summary to view sales specific information in the context of the email. Sales information is displayed in the **Key sales info** card. The card displays information about the connected opportunity, account, and contact.
 
