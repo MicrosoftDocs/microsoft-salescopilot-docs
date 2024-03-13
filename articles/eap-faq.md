@@ -1,4 +1,4 @@
-﻿---
+---
 title: EAP customer transition to Copilot for Sales FAQ
 description: Upgrade to Copilot for Sales to access the latest sales capabilities with Microsoft 365 integration and role-specific insights.
 ms.date: 03/13/2024
