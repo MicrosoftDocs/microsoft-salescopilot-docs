@@ -30,15 +30,15 @@ You are getting access to new Copilot for Sales licenses because you are an Earl
 
 ## How do I try Copilot for Sales?
 
-Please check Microsoft Admin Message Center. You should have received a message in the message center with a link to activate a one-time access code. Only a global administrator or billing administrator can redeem the access code. Follow the instruction guide to learn how to use the code.
+Please check Microsoft Admin Message Center. You should have received a message in the message center with a link to activate a one-time access code. Only a global administrator or billing administrator can redeem the access code. [Learn how to use the code](eap-redeem-license.md)
 
 ## What is the access code?
 
-The code is a one-time use code that must be redeemed in 60 days and expires on May 15, 2024. The global or billing administrator must follow the steps in the instruction guide accurately, as the redemption process can only be attempted once. This is your unique code, do not share the link with anyone else.
+The code is a one-time use code that must be redeemed in 60 days and expires on May 15, 2024. The global or billing administrator must follow the steps in the [instruction guide](eap-redeem-license.md) accurately, as the redemption process can only be attempted once. This is your unique code, do not share the link with anyone else.
 
 ## Who can activate the access code?
 
-Only the global administrator or billing administrator can activate the access code. If you are not the global or billing administrator, do not click on the link. You must find your global tenant or billing administrator. Follow the instruction guide to deploy correctly.
+Only the global administrator or billing administrator can activate the access code. If you are not the global or billing administrator, do not select the link. You must find your global tenant or billing administrator. Follow the [instruction guide](eap-redeem-license.md) to deploy correctly.
 
 ## How can I find my global administrator?
 
