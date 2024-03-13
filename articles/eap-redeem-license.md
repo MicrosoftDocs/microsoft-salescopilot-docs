@@ -45,6 +45,6 @@ As an Early Access Program (EAP) customer, you get 300 Copilot for Sales trial l
 
 If you receive an error message saying that the offer is unavailable, you do not have the correct permissions to redeem these licenses. You must try again with your global admin or billing admin.
 
-If you still revieve an error, contact your account team, attend the EAP customer community calls, or the support team at [copilotforsalesineap@microsoft.com](copilotforsalesineap@microsoft.com).
+If you still revieve an error, contact your account team, attend the EAP customer community calls, or the support team at [copilotforsalesineap@microsoft.com](mailto:copilotforsalesineap@microsoft.com).
 
 

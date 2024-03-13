@@ -64,7 +64,7 @@ At the end of the six-month period, the licenses will expire, and you will no lo
 
 ## What if I encounter an error redeeming the codes?
 
-If you encounter any issues or errors while redeeming the offer, reach out to the support alias at [copilotforsalesineap@microsoft.com](copilotforsalesineap@microsoft.com) for assistance.
+If you encounter any issues or errors while redeeming the offer, reach out to the support alias at [copilotforsalesineap@microsoft.com](mailto:copilotforsalesineap@microsoft.com) for assistance.
 
 ## How do I start adopting?
 
@@ -108,7 +108,7 @@ No! Copilot for Sales provides additional access to Copilot for Microsoft 365 an
 
 ## Who do I contact for help?
 
-If you have any questions, contact your account team, attend the EAP customer community calls, or the support team at [copilotforsalesineap@microsoft.com](copilotforsalesineap@microsoft.com).
+If you have any questions, contact your account team, attend the EAP customer community calls, or the support team at [copilotforsalesineap@microsoft.com](mailto:copilotforsalesineap@microsoft.com).
 
 ## Resources 
 
