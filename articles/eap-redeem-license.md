@@ -1,4 +1,4 @@
-﻿---
+---
 title: Redeem Copilot for Sales EAP trial licenses
 description: Redeem Copilot for Sales EAP trial licenses and start using the product.
 ms.date: 03/13/2024
