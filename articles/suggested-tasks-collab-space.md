@@ -1,20 +1,24 @@
 ---
-title: View suggested tasks in collaboration spaces
-description: 
-ms.date: 02/21/2024
+title: Advanced collaboration with AI powered Planner tasks
+description: Efficient task management for sales teams with AI powered Planner tasks in Copilot for Sales
+ms.date: 03/18/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/14/2024
 ---
 
-# View AI powered Planner tasks
+# Advanced collaboration with AI powered Planner tasks
 
 Sales teams work together closely and use apps like Microsoft Planner to manage their tasks efficiently. Numerous critical next steps and action items emerge in their daily conversations. However, many of these tasks are not captured and tracked, leading to missed opportunities and lost revenue.
 
-The AI powered Planner tasks feature in Copilot for Sales helps sellers to stay on top of their tasks and to-dos by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Teams and helps sellers to capture and track tasks that are discussed in their conversations. It automatically turns important discussions into tasks, making it easy to see what needs to be done. Sellers can also assign tasks to the right people and set deadlines.
+The AI powered Planner tasks feature in Copilot for Sales helps sellers to stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Teams and helps sellers to capture and track tasks that are discussed in their conversations. It automatically turns important discussions into Planner tasks, making it easy to track important activities. Sellers can also assign tasks to the right people and set deadlines.
 
-Tasks created from the suggested tasks are added to the Tasks app, which is pinned as a tab in the channel. Sellers can also view and manage their tasks from the Tasks personal app in Teams.
+Planner tasks that are created from the suggested tasks are accessible from the **Tasks** tab in the Teams channel. These tasks can also be accessed from the Microsoft Planner app.
 
 `image`
 
@@ -23,11 +27,11 @@ Key benefits of the suggested tasks feature are:
 - **Automated tasks suggestions**: As sales teams collaborate within collaboration spaces in Teams, the Copilot for Sales bot actively monitors the conversations in the channel for relevant discussions and action items. When it finds a potential task, it suggests the task to the channel members, who can then decide whether to add the task to their task list. Tasks are suggested once every 24 hours for new posts and replies in the channel.
 
     > [!NOTE]
-    > - Automated task suggestions are available only in collaboration spaces that are created using the account team or deal room template in Microsoft Teams.
+    > - Automated task suggestions are available only in collaboration spaces that are created using the account team or deal room template in Microsoft Teams. They are not available in all Teams channels.
     > - Task suggestions are displayed only in the Standard channel and not in the private channel or shared channel.
     > - Task suggestions are shown only for the collaboration spaces that are created after March 2024 and not for the existing collaboration spaces.
 
-- **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as tasks in the Planner app. They can also assign the tasks to themselves or to other channel members. If required, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
+- **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If required, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
 
 - **Planner app integration**: The Planner app is pinned as **Tasks** tab in the channel. This helps the sales team not only to create tasks, but also to maintain a shared view of the tasks in the channel. Planner tasks are readily accessible from the dedicated account team or deal room channel through the **Tasks** tab in Teams. Planner tasks can also be viewed and managed from the Planner app in Teams.
 
@@ -53,7 +57,7 @@ Collaboration space must be created for [account team](set-up-team-account-team-
 
     If task suggestions are available, you'll see the **Suggested tasks** card for a post in the channel.
 
-2. In the **Suggested tasks** card, review the suggested tasks. Task name, assignee, and due date.
+2. In the **Suggested tasks** card, review the suggested tasks. Task name, assignee, and due date are shown for each task.
 
 3. If required, edit the task details inline. You can change the task name, assignee, and due date.
 
