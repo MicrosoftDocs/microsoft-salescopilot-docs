@@ -229,6 +229,306 @@
       "source_path": "articles/sales/faqs-oppty-summary.md",
       "redirect_url": "/microsoft-sales-copilot/faqs-oppty-summary",
       "redirect_document_id": false
-    }    
+    },
+    {
+      "source_path": "articles/try-sales-copilot.md",
+      "redirect_url": "/microsoft-sales-copilot/install-viva-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "articles/tsg-admin-mode.md", 
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-api-perm.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-app-blocked.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-auth-issue.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-blocked-connector-sf.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-connection-lost.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-create-private-channel.md",
+      "redirect_url": "/troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-disabled-connections-sf.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-disabled-user.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-enhanced-email-sf.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-incorrect-cust-domain.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-mailbox-errors.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-mailbox-settings.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-missing-roles.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-no-access-crm.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-no-column.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-no-default-bap-loc.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-object-update-perm.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-oppty-summary.md",
+      "redirect_url": "/troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-record-update-perm.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-sign-in-error.md",
+      "redirect_url": "/troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-trial-env.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-two-factor.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-update-add-in-error.md",
+      "redirect_url": "/troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/tsg-field-mismatch.md",
+      "redirect_url": "/troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error",
+      "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/mar-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/apr-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/may-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jun-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jul-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/aug-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sep-23.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/use-sales-copilot-outlook.md",
+        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/use-sales-copilot-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/create-crm-tasks-meeting-summary.md",
+        "redirect_url": "/microsoft-sales-copilot/view-understand-meeting-summary#create-crm-tasks-from-meeting-summary",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/conv-intelli-settings.md",
+        "redirect_url": "/microsoft-sales-copilot/administrator-settings-for-viva-sales",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/about-entity-reference.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationactionitem.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationaggregatedinsights.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationcomment.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationparticipantinsights.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationparticipantsentiment.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/developer/entities/msdyn_conversationquestion.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsegmentsentiment.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsentiment.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsignal.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsubject.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsummarysuggestion.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationsystemtag.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_conversationtag.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_ocrecording.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_recording.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_sciconversation.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustomhighlight.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustompublisher.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_sciusersettings.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_transcript.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scicustomemailhighlight.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      },
+      {
+      "source_path": "articles/developer/entities/msdyn_scienvironmentsettings.md",
+      "redirect_url": "/microsoft-sales-copilot/landing",
+      "redirect_document_id": false
+      }                   
   ]
 }

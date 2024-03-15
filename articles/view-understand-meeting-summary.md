@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 10/12/2023
+ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,19 +14,23 @@ Sellers and their managers need an easy way to review the conversations they've 
 
 The meeting summary page provides a high-level view of how the conversation with a customer went, and includes follow-up action items and relevant keywords, a timeline, a transcript of the call, and more.
 
+## License requirements
+
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
+
 ## View the meeting summary
 
-When the meeting summary is ready, you'll receive a message from the **Sales Copilot** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Sales Copilot** tab in the meeting.
+When the meeting summary is ready, you'll receive a message from the **Copilot for Sales** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Copilot for Sales** tab in the meeting.
 
-- Go to the **Sales Copilot** bot in your chat list and select **Open summary**.
+- Go to the **Copilot for Sales** bot in your chat list and select **Open summary**.
 
-  :::image type="content" source="media/meeting-summary.png" alt-text="Screenshot showing the Viva Sales meeting summary card.":::
+  :::image type="content" source="media/meeting-summary.png" alt-text="Screenshot showing the Copilot for Sales meeting summary card.":::
 
-- Go to the meeting chat in your chat list, or open the event on your calendar in Teams, and select the **Sales Copilot** tab.
+- Go to the meeting chat in your chat list, or open the event on your calendar in Teams, and select the **Copilot for Sales** tab.
 
 If there are multiple recordings of a single meeting (happens when you stop and restart the recording), or recordings of a recurring meeting, you can view the meeting summary of an individual meeting by selecting the date from the drop-down list in the meeting summary.
 
-:::image type="content" source="media/recurring.png" alt-text="Screenshot showing the Viva Sales meeting summary for a recurring meeting.":::
+:::image type="content" source="media/recurring.png" alt-text="Screenshot showing the Copilot for Sales meeting summary for a recurring meeting.":::
 
 ## Understand the meeting summary
 
@@ -40,12 +44,12 @@ The meeting summary page includes the following sections:
 
 ### Recap
 
-The **Recap** tab displays call highlights and follow-up action items that Sales Copilot identified during the call.
+The **Recap** tab displays call highlights and follow-up action items that Copilot for Sales identified during the call.
 
 > [!NOTE]
-> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes.
+> Call highlights won't be generated if the meeting recording duration exceeds 70 minutes. In North Ameraica and Europe regions, the supported meeting recording duration is 100 minutes.
 
-:::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Viva Sales meeting summary.":::
+:::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing the Recap tab in Copilot for Sales meeting summary.":::
 
 To share the call highlights and follow-up action items, select **Copy to clipboard**, and then paste the data into an email, Teams chat, or any other medium you like. The summary appears in the following format:
 
@@ -59,9 +63,9 @@ To share the call highlights and follow-up action items, select **Copy to clipbo
 
 - **Follow-ups**: Displays action items in a bulleted list
 
-:::image type="content" source="media/recap.png" alt-text="Screenshot showing how to copy and paste content from Recap tab in Viva Sales meeting summary.":::
+:::image type="content" source="media/recap.png" alt-text="Screenshot showing how to copy and paste content from Recap tab in Copilot for Sales meeting summary.":::
 
-You can create CRM tasks from the follow-up action items. More information: [Create CRM tasks from meeting summary](create-crm-tasks-meeting-summary.md)
+You can create CRM tasks from the follow-up action items. More information: [Create CRM tasks from meeting summary](#create-crm-tasks-from-meeting-summary)
 
 ### Mentions
 
@@ -102,7 +106,7 @@ To view details of a topic, hover over the keyword to open its card. By default,
 
 The **Details** tab displays the names of the people who participated in the meeting.
 
-:::image type="content" source="media/overview-tab.png" alt-text="Screenshot showing the Overview tab in Viva Sales meeting summary.":::
+:::image type="content" source="media/details-tab.png" alt-text="Screenshot showing the Details tab in Copilot for Sales meeting summary.":::
 
 ### Call transcript and translation
 
@@ -125,4 +129,32 @@ The timeline also indicates the conversation segments, such as introduction, sol
 > [!NOTE]
 > The playback capability is available only to the meeting organizer and call recorder.
 
-:::image type="content" source="media/playback.png" alt-text="Screenshot showing the timeline playback in Viva Sales meeting summary.":::
+:::image type="content" source="media/playback.png" alt-text="Screenshot showing the timeline playback in Copilot for Sales meeting summary.":::
+
+## Create CRM tasks from meeting summary
+
+You can convert the suggested action items in a meeting summary to a task and save it in CRM directly from Teams.
+
+1. [Open a meeting summary](view-understand-meeting-summary.md) and go to the **Recap** tab.
+
+1. Find the follow-up item for which you need to create a task, and then select **Create task**.
+
+   :::image type="content" source="media/create-task.png" alt-text="Screenshot showing the Create task link.":::
+
+1. Add or update the following information:
+
+   | Item | Description | Required |
+   |------|-------------|----------|
+   | Subject | Name of the task | Yes |
+   | Owner | Who will complete the task; if it isn't you, you can assign someone else | Yes |
+   | Connected to | A record that provides information about the task; select from accounts and opportunities that are associated with the email's recipients | No |
+   | Due date | The date by which the owner should complete the task | No |
+   | Description | Text snippet of the follow-up item; you can change it if needed. <br><br> **Note**: A link to the meeting is populated automatically in this field. | No |
+
+   :::image type="content" source="media/create-crm.png" alt-text="Screenshot showing the Create CRM task in Dynamics 365.":::
+
+1. Select **Create**.
+
+    After you've created a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
+
+   :::image type="content" source="media/open-task.png" alt-text="Screenshot showing the Open task link.":::

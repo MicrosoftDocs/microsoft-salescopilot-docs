@@ -1,7 +1,7 @@
 ---
 title: FAQ for email summary feature in Outlook
-description: This FAQ provides information about the AI technology used in the email summary feature in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/24/2023
+description: This FAQ provides information about the AI technology used in the email summary feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 02/02/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQ for email summary feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Sales Copilot's email summary feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's email summary feature in Outlook.
 
 ## What is email summary feature in Outlook?
 
-Sales Copilot summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
+Copilot for Sales summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
 
 ## What are the feature's capabilities?
 
-Through advanced text analysis and summarization techniques, Sales Copilot extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
+Through advanced text analysis and summarization techniques, Copilot for Sales extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
 
 ## What is the feature's intended use?
 

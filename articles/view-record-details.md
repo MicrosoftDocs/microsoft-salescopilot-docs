@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 10/12/2023
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,23 +19,24 @@ You can view details about your saved contact and its related records such as ac
 > [!NOTE]
 > All record types that are added by your administrator are displayed, if related to contact, when viewing saved contact details.
 
-1. Open the **Sales Copilot** pane and select the **Dynamics 365** or **Salesforce** tab.
+1. Open the **Copilot for Sales** pane.
 
 1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.
-
-   :::image type="content" source="media/opportunities.png" alt-text="Screenshot showing how to select a record to see its details.":::
 
 If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed for contacts, opportunities, and accounts. More information: [View People.ai insights](#view-peopleai-insights-preview)
 
 ## Open a record in CRM
 
-You can also open a record in CRM to view its complete details. In record details, select **More actions** (**...**), and then select **Open in Dynamics 365** or **Open in Salesforce**. The record details will open in a new tab.
+You can also open a record in CRM to view its complete details. In record details, select **More actions** (**...**), and then select **Open in (CRM)**. The record details open in a new tab.
 
 :::image type="content" source="media/open-dynamics.png" alt-text="Screenshot showing the open in CRM icon.":::
 
-Alternately, you can also open a record in CRM from the **Dynamics 365** or **Salesforce** tab. Hover over a record, select **More actions** (**...**), and then select **Open in Dynamics 365** or **Open in Salesforce**.
+Alternatively, you can also open a record in CRM from the **Copilot for Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
+
+> [!NOTE]
+> If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 
 ## View People.ai insights (preview)
 
@@ -78,10 +79,10 @@ The following insights are displayed:
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
-You can view records that are related to CRM records from partner applications within Sales Copilot. To view related records from partner applications, you must:
+You can view records that are related to CRM records from partner applications within Copilot for Sales. To view related records from partner applications, you must:
 
 1. Get the feature enabled, as it is not enabled by default.
-2. Create a connection using Power Apps connectors.
+2. Create a connection using Power Platform connectors.
 3. View related records from partner applications.
 
 ### Get the feature enabled
@@ -90,11 +91,11 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Sales Copilot and the partner application using the partner's certified Power Apps connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
 
 > [!NOTE]
-> - All Power Apps connectors are not certified to work with Sales Copilot. Sales Copilot displays activities from partner applications that have implemented specific APIs and made them available through their Power Apps connectors.
-> - If you are a partner application maker and would like to integrate with Sales Copilot, see Extend Sales Copilot. Currently, DocuSign can be integrated with Sales Copilot. 
+> - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
+> - If you are a partner application maker and would like to integrate with Copilot for Sales, see Extend Copilot for Sales. Currently, DocuSign can be integrated with Copilot for Sales. 
 
 ### View related records
 
@@ -105,7 +106,7 @@ Related records from partner applications are displayed in a new card under reco
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-All the information about related records comes from the partner applications. Sales Copilot renders the related record information retrieved from the partner application through the Power Apps connector. Sales Copilot does not edit or filter the information.
+All the information about related records comes from the partner applications. Copilot for Sales renders the related record information retrieved from the partner application through the Power Platform connector. Copilot for Sales does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 

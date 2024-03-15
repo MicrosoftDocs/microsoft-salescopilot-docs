@@ -25,7 +25,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -50,7 +51,13 @@
         "salescopilot-docs"
       ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.collection": {
+        "**.*": [
+          "bap-ai-copilot"
+        ]
+      }
+    },
     "template": [],
     "dest": "viva-bap"
   }

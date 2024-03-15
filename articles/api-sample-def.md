@@ -1,7 +1,7 @@
 ---
 title: Sample OpenAPI definition (preview)
 description: Sample OpenAPI definition for the API implementation.
-ms.date: 11/13/2023
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -26,7 +26,7 @@ Refer to the following guidelines when creating the OpenAPI definition for the A
 - Input parameter names should be the same as the ones specified in the OpenAPI definition. OpenAPI definition returned by the connector is used to map the input parameters by names. All the required input parameters in the sample OpenAPI definition must be present in the actual connector definition.
 - Input parameter types should be same as the ones specified in the OpenAPI definition. 
 - Operation IDs should be same as the ones specified in the OpenAPI definition. Every operation described by the OpenAPI definition must have a unique identifier. APIs are invoked based on the operation IDs.
-- APIs described by the OpenAPI definition should not contain any additional required parameters that are not present in the sample OpenAPI definition. If there are any additional required parameters, Sales Copilot won't invoke the APIs and will fail with an internal error.
+- APIs described by the OpenAPI definition should not contain any additional required parameters that are not present in the sample OpenAPI definition. If there are any additional required parameters, Copilot for Sales won't invoke the APIs and will fail with an internal error.
 - Properties of output objects that are marked as required in the OpenAPI definition must be present in the API response.
 - Include the following internal properties. It helps Power Platform to do the required processing:
     - x-ms-keywords 

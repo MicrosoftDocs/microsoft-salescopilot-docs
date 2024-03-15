@@ -1,7 +1,7 @@
 ---
 title: GetRelatedActivities API (preview)
 description: Get the latest activities from partner application to be shown in the opportunity summary.
-ms.date: 11/13/2023
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,7 +37,7 @@ The API is called with the following parameters:
 crmOrgUrl|String|No|Host name of the CRM organization. For example, `contoso.crm.dynamics.com`.|
 
 > [!NOTE]
-> - Authentication is expected to be handled by the constructs in the Power Apps connector and is outside the scope of this API.
+> - Authentication is expected to be handled by the constructs in the Power Platform connector and is outside the scope of this API.
 > - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
 > - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
 >   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
@@ -61,6 +61,43 @@ The API is expected to return activities in the following format:
 |dateTime|String with format 'date-time'|Yes|Date and time of the activity in UTC format. If there is a start and end time, application needs to decide which one to show.<br>The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z.|
 |url|String|No|A valid URL to open activity in the partner application.|
 |additionalProperties|Object with Property Name and Property Value|No|Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br>“Status reason”: “Signed off”,<br>“Owner”: “Kenny Smith”<br>}|
+
+### Example
+
+```json
+{
+        "value": [
+             {
+                "title": "Auto Renewal Contract",
+                "description": "Kenny Smith sent AutomaticRenewalcontract.docx on 11/11/2023 12:50:53 PM",
+                "dateTime": "12:50 PM, 11/11/23",
+                "url": https://app.docusign.com/documents/details/000baf00-2342-42ab-8eff-00000000000,
+                "additionalProperties": {
+                    "Recipients": "Logan Edwards",
+                    "Sender Name": "Kenny Smith",
+                    "Status": "Sent",
+                    "Date": "12:50 PM, 11/11/23"
+                }
+            },
+            {
+                "title": "Purchase Contract",
+                "description": "Logan Edwards completed PurchaseContract.docx on 11/11/2023 12:56:14 PM",
+                "dateTime": "12:56 PM, 11/11/23",
+                "url": https://app.docusign.com/documents/details/000baf11-2342-42ab-8eff-00000000000,
+                "additionalProperties": {
+                    "Recipients": "Logan Edwards",
+                    "Sender Name": "Kenny Smith",
+                    "Status": "Completed",
+                    "Date": "12:56 PM, 11/11/23"
+                }
+            }
+        ],
+        "hasMoreResults": false
+    }
+
+```
+
+To see an example of how the above response is displayed in the Copilot for Sales pane, see [Show latest activities from your application in opportunity summary](extend-sales-copilot.md#show-latest-activities-from-your-application-in-opportunity-summary).
 
 ### See also
 

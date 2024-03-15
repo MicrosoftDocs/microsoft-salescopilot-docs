@@ -1,7 +1,7 @@
 ---
 title: Learn More – Call or Meeting Recording
 description: Learn about the purpose of call recording and the information collected.
-ms.date: 08/28/2023
+ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

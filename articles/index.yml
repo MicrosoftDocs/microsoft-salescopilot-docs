@@ -1,21 +1,21 @@
 ### YamlMime:Hub
-title:  Microsoft Sales Copilot documentation
-summary:  Discover how to make the most of Microsoft Sales Copilot with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Sales Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title:  Microsoft Copilot for Sales documentation
+summary:  Discover how to make the most of Microsoft Copilot for Sales with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: sales-copilot
 metadata:
-  title: Microsoft Sales Copilot documentation
-  description: Learn about how you can use Microsoft Sales Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
+  title: Microsoft Copilot for Sales documentation
+  description: Learn about how you can use Microsoft Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
   author: sbmjais
   ms.author: shjais
-  ms.date: 10/19/2023
+  ms.date: 02/02/2024
   ms.custom: bap-template
   hide_bc: true
 
 highlightedContent:
   items:
     # Card
-    - title: Welcome to Microsoft Sales Copilot
+    - title: Welcome to Microsoft Copilot for Sales
       itemType: get-started
       url: introduction.md
     # Card
@@ -33,18 +33,14 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Sales Copilot
+  - title: Implement Copilot for Sales
     items:
-    - title: Try
-      links: 
-      - url: try-sales-copilot.md
-        text: Try Microsoft Sales Copilot
     - title: Install
       links: 
       - url:  install-viva-sales-as-an-integrated-app.md
-        text: Install Sales Copilot add-in for Outlook
+        text: Install Copilot for Sales in Outlook
       - url:  install-pin-viva-sales-teams.md
-        text: Install Sales Copilot in Teams
+        text: Install Copilot for Sales in Teams
     - title: Deployment scenarios
       links: 
       - url: deploy-viva-sales-d365.md
@@ -53,7 +49,7 @@ additionalContent:
         text: Deployment guide for Salesforce users
 
 
-  - title: Administer Sales Copilot
+  - title: Administer Copilot for Sales
     items:
     - title: Configure for Outlook and Teams
       links: 
@@ -62,28 +58,22 @@ additionalContent:
       - url: suggested-replies.md
         text: Set up Copilot AI features
       - url:  m365-admin-setting.md
-        text: Configure Sales Copilot for Microsoft 365 apps
+        text: Configure Copilot for Sales for Microsoft 365 apps
     - title: Manage for Outlook and Teams
       links:
       - url: disable-viva-sales.md
-        text: Remove Sales Copilot from Microsoft 365 admin center
+        text: Remove Copilot for Sales from Microsoft 365 admin center
       - url: block-viva-sales-app-teams.md
-        text: Block the Sales Copilot app in Teams
-    - title: Configure for Dynamics 365 Sales
-      links:
-      - url: /dynamics365/sales/enable-setup-copilot
-        text: Enable and set up Sales Copilot
-      - url: /dynamics365/sales/configure-sales-copilot
-        text: Configure Sales Copilot
+        text: Block the Copilot for Sales app in Teams
 
-  - title: Be productive with Sales Copilot
+  - title: Be productive with Copilot for Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: In Outlook
       links: 
       - url: use-sales-copilot-outlook.md
-        text: Learn the basics of Sales Copilot in Outlook
+        text: Learn the basics of Copilot for Sales in Outlook
       - url: connect-contact.md
         text: Connect a contact to your CRM
       - url: create-contact-crm-sales-copilot.md
@@ -93,19 +83,21 @@ additionalContent:
       - url: edit-crm-record.md
         text: Edit a CRM record
 
-    - title: AI in Outlook
+    - title: AI capabilities
       links: 
       - url: use-copilot-kickstart-email-messages.md
-        text: Kickstart email messages
+        text: Draft email messages
       - url: view-save-email-summary-crm.md
-        text: View and save email summary to CRM
+        text: View email summary
       - url: view-opportunity-summary.md
         text: View opportunity summary
+      - url: meeting-report-word.md
+        text: Generate pre-meeting report
 
     - title: In Teams
       links: 
       - url: use-sales-copilot-app-during-meeting.md
-        text: Use Sales Copilot app during a meeting
+        text: Use Copilot for Sales app during a meeting
       - url: generate-meeting-summary.md
         text: Generate a meeting summary
       - url: view-understand-meeting-summary.md
@@ -114,15 +106,6 @@ additionalContent:
         text: Create CRM tasks from meeting summary
       - url: share-crm-record-teams-conversation.md
         text: Share a CRM record in a Teams conversation
-
-    - title: In Dynamics 365 Sales
-      links: 
-      - url: /dynamics365/sales/use-sales-copilot
-        text: Use Sales Copilot
-      - url: /dynamics365/sales/compose-send-email-copilot
-        text: Compose and send email messages
-      - url: /dynamics365/sales/view-copy-email-summary
-        text: View and copy email summary
 
 
     - title: Collaboration templates for Outlook and Teams
