@@ -40,7 +40,7 @@ For information about pricing, see [Microsoft Copilot for Sales pricing](https:/
 
 With Copilot in Outlook and Copilot for Sales together, you get email summaries in Outlook enriched with sales information from your CRM system such as Dynamics 365 or Salesforce ©.
 
-You can also open the **Copilot for Sales** pane from the email summary to view sales specific information in the context of the email. Sales information is displayed in the **Key sales info** card. The card displays information about the connected opportunity, account, and contact.
+You can also open the **Copilot for Sales** pane from the email summary to view sales specific information in the context of the email. Sales information is displayed in the [**Key sales info**](key-sales-info.md) card. The card displays information about the connected opportunity, account, and contact.
 
 **To view email summary**
 
