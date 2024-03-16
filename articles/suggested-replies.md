@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft Copilot for Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 02/19/2024
+ms.date: 03/18/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -30,7 +30,7 @@ If you're a new customer in a region other than North America or Europe, you mus
 - Turn on data movement in your tenant and/or environment.
 
 > [!NOTE]
-> If the data movement consent isn't provided, Copilot AI features won't be available to your sellers.
+> If the data movement consent isn't provided, Copilot AI features won't be available to your sellers and meeting insights won't be generated.
 
 ## Turn on Copilot AI features for your organization
 
