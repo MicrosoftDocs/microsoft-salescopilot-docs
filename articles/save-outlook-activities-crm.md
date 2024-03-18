@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save Outlook activities to your CRM.
-ms.date: 02/21/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -38,7 +38,7 @@ Updating the CRM with all your activities across all the communication channels 
 
 1. Under **Connect to a record**, select the record you want to connect the activity to.
 
-    By default, Copilot for Sales displays the suggestions (few powered by AI) for accounts and opportunities that are related to contacts in the activity. AI-powered suggestions are provided for opportunities only when the email and meeting content is in English.
+    By default, Copilot for Sales displays suggestions for accounts and opportunities that are related to contacts in the activity. A few AI-powered suggestions are provided for opportunities only when the email and meeting content is in English.
 
    You can choose one of the suggested records to connect to or use the search box to find and connect to another record of any record type added to Copilot for Sales by your administrator.
 
