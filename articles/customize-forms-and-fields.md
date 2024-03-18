@@ -222,8 +222,6 @@ Sellers can edit records by opening them in CRM from a link in Copilot for Sales
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fHzM]
-
 **To allow editing of records**
 
 1.  In Copilot for Sales admin settings, select **Forms**.

@@ -12,6 +12,10 @@ ms.author: shjais
 
 You can create a new record in your CRM from within the Copilot for Sales side pane. This is useful when you want to create a new record in your CRM without having to navigate to the CRM system. New record creation is supported for all record types that are added to Copilot for Sales by your administrator.
 
+> [!NOTE]
+> - Option to create a new record is available only when it is enabled by your administrator.
+> - CRM administrator can enable either inline creation or creation in CRM or both for a record type.
+
 ## Create a new record using the global option
 
 1. In the **Copilot for Sales** pane, select the **+** icon at the upper right corner.
@@ -20,13 +24,12 @@ You can create a new record in your CRM from within the Copilot for Sales side p
     - **Create record**: This option is displayed when only inline creation enabled for the record type.
     - **Create in CRM**: This option is displayed when only creation in CRM is enabled for the record type.
 
+> [!NOTE]
+> You can also create a new record when searching for a record to [save the email to](save-outlook-activities-crm.md).
 
 ## Create a new record from a related record card    
 
 Copilot for Sales displays records that are related to the saved contacts in the email in their respective record type cards. You can create a new record from a related record card. This is useful when you want to create a new record that is related to an existing record without having to navigate to the CRM system.
-
-> [!NOTE]
-> Option to create a new record is available only when it is enabled by your administrator.
 
 1. In the **Copilot for Sales** pane, go to the related record card for which you want to create a new record.
 2. Select the **+** icon at the upper right corner.
@@ -37,4 +40,5 @@ Copilot for Sales displays records that are related to the saved contacts in the
         - **Create in CRM**: Create a new record in the CRM system.
 
 ### See also
+
 [Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)
