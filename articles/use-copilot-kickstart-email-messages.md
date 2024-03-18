@@ -1,8 +1,8 @@
 ---
-title: Draft an email message within Copilot for Sales app
-description: Generate an email reply with pre-defined categories or custom prompt using Copilot for Sales's AI to save time and effort.
+title: Draft an email message in Copilot for Sales app
+description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
 ms.date: 03/18/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -12,9 +12,9 @@ ms.custom:
   - ai-seo-date:11/08/2023
 ---
 
-# Draft an email message within Copilot for Sales app
+# Draft an email message in Copilot for Sales app
 
-When you compose a new email or reply to your customers by email, Copilot for Sales uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from pre-defined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
+When you compose a new email or reply to your customers by email, Copilot for Sales uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
 > [!NOTE]
 >
@@ -26,9 +26,9 @@ When you compose a new email or reply to your customers by email, Copilot for S
 
 Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
 
-## Ananomy of suggested content
+## Anatomy of suggested content
 
-:::image type="content" source="media/anatomy.png" alt-text="Screenshot showing the numbered anatomy of the suggested content corresponding to the following table.":::
+:::image type="content" source="media/anatomy.png" alt-text="Screenshot showing the anatomy of suggested content.":::
 
 | Annotation | Description |
 |------------|-------------|
@@ -39,7 +39,7 @@ Capabilities mentioned in this article are available only to users with the Copi
 | 5 | Add the suggested content to email. |
 | 6 | Copy the suggested content and paste it in email or Teams chat. |
 | 7 | **More options** menu to:<ul><li>Restore suggested content to its previous version. More information: [Restore suggested content](#restore-suggested-content)</li><li>Generate another version of the suggested content.</li><li>Start over and generate a new suggested content.</li></ul> |
-| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of the suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Enter text to refine the suggested content](#refine-suggested-content)</li></ul> |
+| 8 | **Adjust draft** menu to:<ul><li>[Set length of suggested content](#set-length-of-suggested-content)</li><li>[Adjust tone of suggested content](#adjust-tone-of-the-suggested-content)</li><li>[Add or remove meeting suggestion](#add-or-remove-meeting-suggestions)</li><li>[Set language of suggested content](#set-language-of-suggested-content)</li><li>[Refine suggested content](#refine-suggested-content)</li></ul> |
 
 ## Supported languages
 
@@ -57,7 +57,7 @@ AI in Copilot for Sales is supported in the following languages:
 
 The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
-## Create an email reply using pre-defined categories
+## Create an email reply using predefined categories
 
 You can get suggested responses when you reply to a customer email or as you're reading one.
 
@@ -67,15 +67,15 @@ You can get suggested responses when you reply to a customer email or as you're 
 
     - When you're reading an email, open the **Copilot for Sales** pane.
 
-1. In the **Key email info** card, select the down arrow next to the **Draft an email** button, and then select a pre-defined category.
+1. In the **Key email info** card, select the down arrow next to the **Draft an email** button, and then select a predefined category.
 
-   :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the pre-defined response categories.":::
+   :::image type="content" source="media/response-categories.png" alt-text="Screenshot showing the predefined response categories.":::
 
 1. Review the suggested content.
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+    You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, [Refine the suggested content](#refine-suggested-content).
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -88,7 +88,7 @@ You can get suggested responses when you reply to a customer email or as you're 
 
 ## Create an email message using custom prompt
 
-If the pre-defined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
+If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
 
 You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
@@ -109,13 +109,13 @@ You can get suggested email content when you reply to a customer email, read an 
    :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 
    > [!NOTE]
-   > Pre-defined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
+   > Predefined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send.
 
-1. To use a suggested prompt, select :::image type="icon" source="media/suggestions-icon.png" border="false":::, and then choose a prompt. More information: [Use suggested prompts](#use-suggested-prompts)
+1. To use a suggested prompt, select :::image type="icon" source="media/suggestions-icon.png" border="false"::: and then choose a prompt. More information: [Use suggested prompts](#use-suggested-prompts)
 
-1. To use a saved prompt, select :::image type="icon" source="media/fav-icon.png" border="false":::, and then choose the prompt you want to use. More information: [Save and reuse custom prompts](#save-and-reuse-custom-prompts)
+1. To use a saved prompt, select :::image type="icon" source="media/fav-icon.png" border="false"::: and then choose the prompt you want to use. More information: [Save and reuse custom prompts](#save-and-reuse-custom-prompts)
 
     :::image type="content" source="media/custom-promt-text.png" alt-text="Screenshot showing custom prompt text.":::
 
@@ -125,7 +125,7 @@ You can get suggested email content when you reply to a customer email, read an 
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+   You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, [Refine the suggested content](#refine-suggested-content).
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -140,9 +140,9 @@ Here are some best practices for writing custom prompt:
 
 - **Keep it concise**: Although the AI engine can handle longer prompts, shorter prompts are simpler to use and can help you get targeted replies.
 
-- **Be specific**: The more specific you are in your prompt, the more targeted the response will be. For example, instead of asking "What's your favorite food?" you could ask "What's your favorite type of Mexican food?"
+- **Be specific**: The more specific you are in your prompt, the more targeted the response. For example, instead of asking "What's your favorite food?" you could ask "What's your favorite type of Mexican food?"
 
-- **Use context**: Be sure to include relevant context in your prompts to help the AI better understand what you're asking.
+- **Use context**: To help the AI better understand what you're asking, be sure to include relevant context in your prompts.
 
 - **Avoid using personal pronouns**: Don't include personal pronouns (for example, "I," "me," "my") in your prompts.
 
@@ -150,7 +150,7 @@ Here are some best practices for writing custom prompt:
 
 ### Use suggested prompts
 
-When you enter a custom prompt, suggested prompts are displayed based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can add more details or add other prompts.
+When you enter a custom prompt, suggested prompts are generated based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can also add more details or other prompts.
 
 1. Open Copilot for Sales and select **Draft an email**.
 
@@ -170,9 +170,9 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Save a custom prompt
 
-1.  [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
+1. [Generate suggested content using custom prompt](#create-an-email-message-using-custom-prompt).
 
-2.  At the top of the suggested content, hover over the prompt, and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
+1. At the top of the suggested content, hover over the prompt and then select the star icon :::image type="icon" source="media/save-prompt-icon.png" border="false":::.
 
     :::image type="content" source="media/save-prompt.png" alt-text="Screenshot showing icon to save a prompt.":::
 
@@ -182,9 +182,9 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Use a saved prompt
 
-1.  Open Copilot for Sales and select **Draft an email**.
+1. Open Copilot for Sales and select **Draft an email**.
 
-3.  Select :::image type="icon" source="media/fav-icon.png" border="false":::, and then select the prompt you want to use.
+1. Select :::image type="icon" source="media/fav-icon.png" border="false"::: and then select the prompt you want to use.
 
     :::image type="content" source="media/select-prompt.png" alt-text="Screenshot showing saved prompts.":::
 
@@ -192,22 +192,21 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
-1.  Open Copilot for Sales and select **Draft an email**.
+1. Open Copilot for Sales and select **Draft an email**.
 
-3.  Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
+1. Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 
     Alternatively, you can generate suggested content using the saved prompt, and then select the star icon :::image type="icon" source="media/remove-prompt-icon2.png" border="false"::: beside the prompt.
 
     :::image type="content" source="media/remove-prompt.png" alt-text="Screenshot showing icon to remove a saved prompt":::
 
-
 ## Enhance suggested content with another opportunity
 
-If you've used a response category (Make a proposal or Address a concern) that uses an opportunity record to generate the suggested content, a message is displayed that the generated content is based on the opportunity. If there are multiple opportunities related to the contact, you'll get an option to select another opportunity to regenerate content.
+If you use a response category (Make a proposal or Address a concern) that uses an opportunity record to generate the suggested content, a message is displayed indicating that the generated content is based on the opportunity. If there are multiple opportunities related to the contact, you get an option to select another opportunity to regenerate the content.
 
-If there are multiple opportunities related to contact, the most relevant opportunity is selected by AI. You'll get an option to select another opportunity, if the previously selected opportunity is not correct, and then regenerate the suggested content.
+If there are multiple opportunities related to contact, AI selects the most relevant opportunity. You can select another opportunity, if the previously selected opportunity isn't correct, and then regenerate the suggested content.
 
-If there are no additional open opportunities identified by the AI model, no option is displayed to select an opportunity.
+If there are no more open opportunities identified by the AI model, no option is displayed to select an opportunity.
 
 1. Generate the suggested reply using an appropriate response category. In the message at the bottom of the suggested reply, select **Change**.
 
@@ -259,7 +258,7 @@ The following information is displayed in the suggested content:
 
 ## Refine suggested content
 
-After you've generated the suggested content, you can refine the results further by providing a new prompt that builds upon the previous suggestion. This allows you to fine-tune your email replies according to the needs and preferences. For example: Make it formal, make it shorter, or suggest a meeting next week.
+After you generate the suggested content, you can refine the results further by providing a new prompt that builds upon the previous suggestion. This allows you to fine-tune your email replies according to your needs and preferences. For example, make it formal, make it shorter, or suggest a meeting next week.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -271,7 +270,7 @@ After you've generated the suggested content, you can refine the results furthe
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    Refine the suggested content further, if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+    You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, refine the suggested content.
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -282,7 +281,7 @@ After you've generated the suggested content, you can refine the results furthe
 
 ## Set length of suggested content
 
-You can set the length of the suggested content to be short, medium, or long. The default length is medium. 
+You can set the length of the suggested content to be short, medium, or long. The default length is medium.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -294,18 +293,17 @@ You can set the length of the suggested content to be short, medium, or long. Th
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+    You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, [Refine the suggested content](#refine-suggested-content).
 
-1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you're reading an email.
 
-   > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+    Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
-1. Edit the email content as required, and then send it.
+1. Edit the email content as required and then send it.
 
 ## Adjust tone of the suggested content
 
-After you've generated the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
+After you generate the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -317,9 +315,9 @@ After you've generated the suggested content, you can adjust the tone of the con
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+    You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, [Refine the suggested content](#refine-suggested-content).
 
-1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you're reading an email.
 
    > [!NOTE]
    > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
@@ -344,7 +342,7 @@ To restore suggested content to its previous version, select **More options**, a
 
 ## Add or remove meeting suggestions
 
-By default, a meeting time is not included in the suggested content. If a customer has requested a meeting at a certain time and mentioned the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
+By default, a meeting time isn't included in the suggested content. If a customer requests a meeting at a certain time and mentions the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
 
 ### Add a meeting time suggestion
 
@@ -373,10 +371,11 @@ If you want to have a meeting with a customer, you can include a meeting time in
 ## Set language of suggested content
 
 The language of the suggested content is determined as follows:
-- If you're replying to an email, the language of the suggested content is the same as the language of the email. 
-- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt. 
 
-In some cases, you may want to generate the suggested content in a different language. For example, you may want to generate the suggested content in the language of the customer.
+- If you're replying to an email, the language of the suggested content is the same as the language of the email.
+- If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt.
+
+In some cases, you might want to generate the suggested content in a different language. For example, you might want to generate the suggested content in the language of the customer.
 
 You can set the language of the suggested content to be one of the supported languages. The default language is set to English.
 
@@ -390,12 +389,11 @@ You can set the language of the suggested content to be one of the supported lan
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    [Refine the suggested content](#refine-suggested-content), if required. You can also [restore the suggested content](#restore-suggested-content) to the previous version.
+    You can also [restore the suggested content](#restore-suggested-content) to the previous version or if necessary, [Refine the suggested content](#refine-suggested-content).
 
-1. Select **Add to email** to paste the content in the email body or **Copy content** when you are reading an email.
+1. Select **Add to email** to paste the content in the email body or **Copy content** when you're reading an email.
 
-   > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+    Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -420,14 +418,14 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 
    > [!TIP]
    > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
-   
-    :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the Summarize meeting option.":::
+
+    :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the summarized meeting option.":::
 
 1. Review the suggested content.
 
     To generate a different suggestion, select **More options**, and then select **Try again**.
 
-    If required, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary).
+    If necessary, [change the meeting that is used to create the summary](#change-the-meeting-used-to-create-a-summary).
 
 1. Select **Add to email** to paste the content in the email body.
 
@@ -476,13 +474,13 @@ If you have any feedback about the suggested content, you can share it by select
 
 Text moderation uses machine-assisted classification to help detect potentially inappropriate   content  and reject it when you use custom prompt to generated suggested content or refine the already generated suggested content. It conveys the likelihood of each category. The feature uses a trained model to identify possible abusive, derogatory, or discriminatory language. This includes slang, abbreviated words, offensive, and intentionally misspelled words.
 
-If you enter text that contains undesired or inappropriate content (potential presence of language that may be considered sexually explicit, suggestive, adult, or offensive), the suggested content is not generated, and an error message is displayed.
+If you enter text that contains undesired or inappropriate content (potential presence of language that might be considered sexually explicit, suggestive, adult, or offensive), the suggested content isn't generated, and an error message is displayed.
 
 ## How is suggested content generated?
 
-Copilot for Sales uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it was written by a person.
+Copilot for Sales uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it's written by a person.
 
-Original content is generated every time, but it isn't always factual. In addition, the underlying technology uses AI that has been trained on a wide range of internet sources. Some suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your reply is accurate and appropriate.
+Original content is generated every time, but it isn't always factual. In addition, the underlying technology uses AI that is trained on a wide range of internet sources. Some suggestions might include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your reply is accurate and appropriate.
 
 ## What data is collected to suggest email replies?
 
