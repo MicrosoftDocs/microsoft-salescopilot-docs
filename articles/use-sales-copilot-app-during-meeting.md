@@ -22,7 +22,7 @@ Select the **Copilot for Sales** icon on the meeting toolbar. The **Copilot for 
 > [!NOTE]
 > You must invite at least one connected contact for Outlook to add the Copilot for Sales app to the meeting.
 
-If the meeting is connected to an opportunity in CRM, an [opportunity summary](view-opportunity-summary.md) card is displayed showing the key details and status of the current opportunity.
+If the meeting is connected to an opportunity in CRM, an [opportunity summary](view-opportunity-summary.md) card is displayed on the **Highlights** tab showing the key details and status of the current opportunity.
 
 The connected record is displayed in the **Connected to** card. If the meeting is not connected and saved to CRM, a message is displayed to save and connect the meeting to a CRM record. For details about saving a meeting to CRM, see [Save Outlook activities to your CRM](save-outlook-activities-crm.md).
 
@@ -53,7 +53,7 @@ To view data sources used in getting brand and competitor information, select **
 
 ## View connected record details
 
-1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
 
 1. In the **Connected to** card, select the record to see its details in the **Copilot for Sales** panel.
 
@@ -68,7 +68,7 @@ You can also open a record in CRM to view its complete details. The record detai
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
-1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 
