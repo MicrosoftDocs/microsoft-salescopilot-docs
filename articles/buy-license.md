@@ -29,7 +29,7 @@ For more information on our pricing, [view our pricing page](https://www.microso
 
 1. Open the [Copilot for Sales pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
 2. Select **Buy now** and follow the instructions to complete the purchase.
-3. Open [Microsoft 365 admin center](https://admin.microsoft.com/) and [assign the license to the users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) who need access to Copilot for Sales.
+3. Open [Microsoft 365 admin center](https://admin.microsoft.com/) and [assign the license to the users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true ) who need access to Copilot for Sales.
 
 ## Buy Copilot for Sales through Microsoft 365 admin center
 
@@ -39,7 +39,7 @@ For more information on our pricing, [view our pricing page](https://www.microso
 1. On the **Copilot for Sales** tile, select **Details**.
 1. Specify the license quantity and billing frequency, and then select **Buy**.
 1. Provide the billing and payment information to complete the purchase.
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) to [assign the licenses to your users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) to [assign the licenses to your users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true ).
 
 
 ## Buy Copilot for Sales through volume licensing
