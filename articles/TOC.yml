@@ -40,6 +40,8 @@
       href: install-pin-viva-sales-teams.md
     - name: Install Copilot for Sales (user-deployed)
       href: install-sales-copilot.md
+  - name: Enable Copilot for Sales
+    href: enable-license.md
   - name: Early Access Program (EAP)
     items:
     - name: Redeem Copilot for Sales EAP trial licenses
