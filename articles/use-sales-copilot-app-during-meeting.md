@@ -53,21 +53,22 @@ To view data sources used in getting brand and competitor information, select **
 
 ## View connected record details
 
-1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
 
 1. In the **Connected to** card, select the record to see its details in the **Copilot for Sales** panel.
 
 You can also open a record in CRM to view its complete details. The record details open in a new tab. Perform either of the following actions to open a record in CRM:
 
-- Open the record details in the **Copilot for Sales** panel, select **More actions** (**...**), and then select **Open in Dynamics 365** or **Open in Salesforce**.
+- Hover over the record, select **More actions** (**...**), and then select **Open in (CRM)**.
 
-- In the **Dynamics 365** or **Salesforce** tab, hover over the record, select **More actions** (**...**), and then select **Open in Dynamics 365** or **Open in Salesforce**.
+- Select the record to see its details in the **Copilot for Sales** panel, select **More actions** (**...**), and then select **Open in (CRM)**.
+
 
 ## Copy link to connected record
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
-1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app) and select the **Dynamics 365** or **Salesforce** tab.
+1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 
