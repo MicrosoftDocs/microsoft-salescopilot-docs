@@ -155,8 +155,6 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 #### Add fields
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
-
 **To add fields**
 
 1.  In Copilot for Sales admin settings, select **Forms**.
@@ -232,7 +230,7 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 4.  To restrict editing for specific fields, go to the **Manage fields** section, and turn off **Allow editing** for corresponding fields.
 
-    ![Screenshot showing how to enable editing of records and fields in Copilot for Sales.](media/viva-sales-allow-edit.png "Screenshot showing how to enable editing of records and fields in Copilot for Sales.")
+    :::image type="content" source="media/viva-sales-allow-edit.png" alt-text="Screenshot showing how to enable editing of records and fields in Copilot for Sales.":::
 
 5.  Select **Publish** to save your changes.
 
@@ -250,7 +248,8 @@ Choose how, where, and if sellers can create new records from Copilot for Sales.
     - **Create new records inside Copilot for Sales**: Allow sellers to create new records inline, directly in Copilot for Sales.
     - **Create new records by opening (CRM) from a link**: Allow sellers to create new records in CRM by opening a link in a browser.
 
-    ![Screenshot showing how to configure contact creation in Copilot for Sales.](media/viva-sales-inline-contact-create.png "Screenshot showing how to configure contact creation in Copilot for Sales.")
+
+    :::image type="content" source="media/viva-sales-inline-contact-create.png" alt-text="Screenshot showing how to configure contact creation in Copilot for Sales.":::
 
 4.  Select **Publish** to save your changes.
 

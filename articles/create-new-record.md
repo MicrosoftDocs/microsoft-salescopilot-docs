@@ -19,10 +19,15 @@ You can create a new record in your CRM from within the Copilot for Sales side p
 ## Create a new record using the global option
 
 1. In the **Copilot for Sales** pane, select the **+** icon at the upper right corner.
+    
+    :::image type="content" source="media/global-create.png" alt-text="Screenshot showing global option to create a new record.":::
+
 1. In the **Choose which type of record to create** step, the following options are displayed for the record types based on the new record creation configuration:
     - **Create**: This option is displayed when inline creation and creation in CRM are both enabled for the record type. Select and choose the appropriate action.
     - **Create record**: This option is displayed when only inline creation enabled for the record type.
     - **Create in CRM**: This option is displayed when only creation in CRM is enabled for the record type.
+
+    :::image type="content" source="media/choose-create-record.png" alt-text="Screenshot showing record types that can be created.":::
 
 > [!NOTE]
 > You can also create a new record when searching for a record to [save the email to](save-outlook-activities-crm.md).
@@ -32,8 +37,12 @@ You can create a new record in your CRM from within the Copilot for Sales side p
 Copilot for Sales displays records that are related to the saved contacts in the email in their respective record type cards. You can create a new record from a related record card. This is useful when you want to create a new record that is related to an existing record without having to navigate to the CRM system.
 
 1. In the **Copilot for Sales** pane, go to the related record card for which you want to create a new record.
+
 2. Select the **+** icon at the upper right corner.
-3. Based on the new record creation configuration, following will be the behavior:
+
+    :::image type="content" source="media/related-record-create.png" alt-text="Screenshot showing option to create a new record from a related record card.":::
+
+1. Based on the new record creation configuration, following will be the behavior:
     - If only the inline creation or creation in CRM is enabled for the record type, selecting the **+** icon will create a new record based on the enabled configuration.
     - If both inline creation and creation in CRM are enabled for the record type, selecting the **+** icon displays the following options:
         - **Create record**: Create a new record inline within the Copilot for Sales pane.
