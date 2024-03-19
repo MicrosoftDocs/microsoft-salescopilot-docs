@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales license overview
 description: This article provides overview of the Copilot for Sales license.
-ms.date: 03/04/2024
+ms.date: 03/19/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

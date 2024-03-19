@@ -1,7 +1,7 @@
 ---
 title: Buy Copilot for Sales
 description: This article describes the process of buying Copilot for Sales.
-ms.date: 03/04/2024
+ms.date: 03/19/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
