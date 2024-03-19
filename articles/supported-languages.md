@@ -64,5 +64,19 @@ Conversation intelligence is available in the following languages:
 
 ## AI in Copilot for Sales
 
+AI features in Copilot for Sales are available in the following languages:
+
+- Danish
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+
+> [!NOTE]
+> The following languages are partially supported and the meeting insights are generated in English: Chinese (simplified), Portuguese, Portuguese (Brazil), Hebrew, Swedish, Finnish, Norwegian, and Arabic
+
 See the feature specific documentation for the supported languages.
 
