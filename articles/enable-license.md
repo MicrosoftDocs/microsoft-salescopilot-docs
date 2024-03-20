@@ -1,11 +1,15 @@
 ---
 title: Enable Copilot for Sales licenses
-description: 
+description: Enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
 ms.date: 03/22/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/20/2024
 ---
 
 # Enable Copilot for Sales licenses
@@ -22,7 +26,7 @@ To enable Copilot for Sales licenses, you must:
 
 Each user must have a Copilot for Sales license assigned to them from within the Microsoft 365 admin center. You must be a global admin, license admin, or user admin to assign licenses to users.
 
-For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true ).
 
 ## Deploy the Copilot for Sales app
 
@@ -72,7 +76,7 @@ View email summary enriched with sales information from CRM in Outlook. For more
 
 ## Generative email replies in Outlook
 
-Generate email replies with sales specific insights in Outlook. For more information, see [Generate email replies with sales information in Outlook](email-replies-premium.md).
+Generate email replies with sales specific insights in Outlook. For more information, see [Generate email replies with sales information in Outlook](email-reply-premium.md).
 
 :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
 

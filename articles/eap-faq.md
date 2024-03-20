@@ -68,7 +68,7 @@ If you encounter any issues or errors while redeeming the offer, reach out to th
 
 ## How do I use the new licenses?
 
-To use the new licenses, you must [assign the licenses to the users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide) and deploy the Copilot for Sales app. For more information, see: [Use Copilot for Sales licenses](eap-redeem-license.md#use-copilot-for-sales-licenses).
+To use the new licenses, you must [assign the licenses to the users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true ) and deploy the Copilot for Sales app. For more information, see: [Use Copilot for Sales licenses](eap-redeem-license.md#use-copilot-for-sales-licenses).
 
 ## How do I start adopting the new licenses?
 

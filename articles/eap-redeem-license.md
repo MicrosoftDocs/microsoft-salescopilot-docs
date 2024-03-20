@@ -43,7 +43,7 @@ You are now ready to start trying Copilot for Sales.
 
 ## Use Copilot for Sales licenses
 
-1. [Assign the licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+1. [Assign the licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true )
 
     For premium features to be enabled, each user must have a Copilot for Sales license assigned to them from within the Microsoft 365 admin center. You must be a global admin, license admin, or user admin to assign licenses to users.
 
