@@ -1,6 +1,6 @@
 ---
 title: FAQ for real-time sales tips feature in Microsoft Teams
-description: This FAQ provides information about the AI technology used in the real-time sales tips feature in Microsoft Sales Copilot, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the real-time sales tips feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/17/2023
 ms.custom: 
   - responsible-ai-faqs
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQ for real-time sales tips feature in Microsoft Teams
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Sales Copilot's real-time sales tips feature in Teams.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's real-time sales tips feature in Teams.
 
 ## What is real-time sales tips feature in Teams? 
 
-Sales Copilot provides real-time assistance for sellers during virtual Teams meetings, to help them overcome objections and competitor mentions. Triggered by the call transcript, this feature provides a hands-free experience, so sellers can leverage the suggested content to smoothly incorporate it in their sales pitch without any unnecessary distractions. 
+Copilot for Sales provides real-time assistance for sellers during virtual Teams meetings, to help them overcome objections and competitor mentions. Triggered by the call transcript, this feature provides a hands-free experience, so sellers can leverage the suggested content to smoothly incorporate it in their sales pitch without any unnecessary distractions. 
 
 ## What are the feature's capabilities? 
 
-During Teams meetings, Sales Copilot analyzes the meeting transcription and finds helpful information about the companies and brands discussed. It creates easy-to-read cards with data from CRM or Bing that show sellers competitive or brand information. These cards appear in the Sales Copilot panel in real time to help  have more effective conversations.
+During Teams meetings, Copilot for Sales analyzes the meeting transcription and finds helpful information about the companies and brands discussed. It creates easy-to-read cards with data from CRM or Bing that show sellers competitive or brand information. These cards appear in the Copilot for Sales panel in real time to help have more effective conversations.
 
 ## What is the feature's intended use? 
 
