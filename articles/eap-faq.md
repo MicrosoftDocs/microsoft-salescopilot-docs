@@ -20,25 +20,25 @@ We've compiled a list of frequently asked questions and provided brief answers t
 
 ## What do I have access to?
 
-You now have access to the latest Copilot for Sales capabilities at no additional cost. The new Copilot for Sales SKU includes Copilot for Microsoft 365 and the sales specific functionality. This is packaged together as a single license and fully integrated to show a powerful combined experience.
+You now have access to the latest Copilot for Sales capabilities at no extra cost. The new Copilot for Sales license includes Copilot for Microsoft 365 and the sales specific functionality. This is packaged together as a single license and fully integrated to show a powerful combined experience.
 
-We'll issue a unique code for your organization to redeem Copilot for Sales before the code expires on May 17, 2024. With this code, all Early Access Program (EAP) customers have access to 300 trial licenses of Copilot for Sales for six months from when the code is redeemed. If you decide not to use this code, you will continue to see limited capabilities of Sales Copilot for the remainder of their pilot term. Microsoft strongly recommends upgrading to the new Copilot for Sales SKU to experience the full set of sales capabilities.
+We'll issue a unique code for your organization to redeem Copilot for Sales before the code expires on May 17, 2024. With this code, all Early Access Program (EAP) customers have access to 300 trial licenses of Copilot for Sales for six months from when the code is redeemed. If you decide not to use this code, you'll continue to see limited capabilities of Sales Copilot for the remainder of their pilot term. Microsoft strongly recommends upgrading to the new Copilot for Sales license to experience the full set of sales capabilities.
 
 ## Why am I getting access?
 
-You are getting access to new Copilot for Sales licenses because you are an Early Access Program (EAP) customer who has already invested in this program to get early access to Microsoft Copilot. We appreciate your participation in the EAP program and recommend upgrading to the new Copilot for Sales SKU to experience the latest capabilities.
+You're getting access to new Copilot for Sales licenses because you're an Early Access Program (EAP) customer who has already invested in this program to get early access to Microsoft Copilot. We appreciate your participation in the EAP program and recommend upgrading to the new Copilot for Sales license to experience the latest capabilities.
 
 ## How do I try Copilot for Sales?
 
-You will receive an email in your Microsoft 365 message center with a link to activate a one-time access code. Only a global administrator or billing administrator can redeem the access code. [Learn how to redeem the code](eap-redeem-license.md)
+You'll receive an email in your Microsoft 365 message center with a link to activate a one-time access code. Only a global administrator or billing administrator can redeem the access code [Learn how to redeem the code](eap-redeem-license.md).
 
 ## What is the access code?
 
-The code is a one-time use code that expires on May 17, 2024. The global or billing administrator must follow the steps in the [instruction guide](eap-redeem-license.md) accurately, as the redemption process can only be attempted once. This is your unique code, do not share the link with anyone else.
+The code is a one-time use code that expires on May 17, 2024. The global or billing administrator must follow the steps in the [instruction guide](eap-redeem-license.md) accurately, as the redemption process can only be attempted once. This is your unique code, don't share the link with anyone else.
 
 ## Who can activate the access code?
 
-Only the global administrator or billing administrator can activate the access code. If you are not the global or billing administrator, do not select the link. You must find your global tenant or billing administrator. Follow the [instruction guide](eap-redeem-license.md) to redeem your code.
+Only the global administrator or billing administrator can activate the access code. If you aren't the global or billing administrator, don't select the link. You must find your global tenant or billing administrator. Follow the [instruction guide](eap-redeem-license.md) to redeem your code.
 
 ## How can I find my global administrator?
 
@@ -56,11 +56,11 @@ You have 60 days to redeem the code. The code expires on May 15, 2024.
 
 ## How long do I have access to the new licenses?
 
-You have access to Microsoft Copilot for Sales for six months from the date you redeem the code. For example, if you redeem the access code on March 15, 2024, you will have access to Copilot for Sales until September 15, 2024.
+You have access to Microsoft Copilot for Sales for six months from the date you redeem the code. For example, if you redeem the access code on March 15, 2024, you'll have access to Copilot for Sales until September 15, 2024.
 
 ## What happens after the licenses expire?
 
-At the end of the six-month period, the licenses will expire, and you will no longer be able to use the EAP licenses. Ensure that you have plans to purchase the required licenses to continue using Copilot for Sales. You can contact your Microsoft account manager or partner for more information on how to purchase.
+At the end of the six-month period, the licenses expire, and you'll no longer be able to use the EAP licenses. Ensure that you have plans to purchase the required licenses to continue using Copilot for Sales. You can contact your Microsoft account manager or partner for more information on how to purchase.
 
 ## What if I encounter an error redeeming the codes?
 
@@ -72,7 +72,7 @@ To use the new licenses, you must [assign the licenses to the users](/microsoft-
 
 ## How do I start adopting the new licenses?
 
-To get started with Copilot for Sales, visit the [adoption website](https://aka.ms/C4SAdoption). You'll find role-specific resources and guidance on how to set up, configure, and use Copilot for Sales. You can also join our community calls for additional support. For further assistance, reach out to your account team to receive the invitation to the community calls.
+To get started with Copilot for Sales, visit the [adoption website](https://aka.ms/C4SAdoption). You'll find role-specific resources and guidance on how to set up, configure, and use Copilot for Sales. You can also join our community calls for more support. For further assistance, reach out to your account team to receive the invitation to the community calls.
 
 ## Do these licenses need to be assigned to the same users as Copilot for Microsoft 365?
 
@@ -80,19 +80,19 @@ No, Copilot for Sales licenses do not need to be assigned to the same users as C
 
 ## How will the experience change? 
 
-If you are familiar with Sales Copilot, screens will be updated to display the new name Copilot for Sales and will have more detailed product experience. For more information, see: [What's new in Sales Copilot changing to Copilot for Sales](whats-new-copilot-sales.md)
+If you're familiar with Sales Copilot, screens are updated to display the new name Copilot for Sales and have more detailed product experience. For more information, see: [What's new in Sales Copilot changing to Copilot for Sales](whats-new-copilot-sales.md)
 
 ## Why should I upgrade to Copilot for Sales?
 
-Microsoft recommends upgrading to the new Copilot for Sales SKU to experience the latest sales innovations such as sales data and insights in Microsoft 365 Copilot, Word meeting preparation, and leads capture (currently in preview). For a full summary of the latest product updates, see: [What's new in Sales Copilot changing to Copilot for Sales](whats-new-copilot-sales.md).
+Microsoft recommends upgrading to the new Copilot for Sales license to experience the latest sales innovations such as sales data and insights in Microsoft 365 Copilot, Word meeting preparation, and leads capture (currently in preview). For a full summary of the latest product updates, see: [What's new in Sales Copilot changing to Copilot for Sales](whats-new-copilot-sales.md).
 
 ## What about any data I have tested to date? 
 
-All data from Sales Copilot testing will remain as you change the licenses, but new functionalities are added. There is no need to reinstall the app.
+All data from Sales Copilot testing remains as you change the licenses, but new functionalities are added. There's no need to reinstall the app.
 
-## Does any of this change impact my current 300 pilot licenses of Copilot for Microsoft 365? 
+## Does any of this change affect my current 300 pilot licenses of Copilot for Microsoft 365? 
 
-No! Copilot for Sales provides additional access to Copilot for Microsoft 365 and will not make any changes to existing Microsoft 365 Copilot license allocations.
+No! Copilot for Sales provides additional access to Copilot for Microsoft 365 and won't make any changes to existing Microsoft 365 Copilot license allocations.
 
 ## Who do I contact for help?
 
