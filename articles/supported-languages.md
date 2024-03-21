@@ -64,19 +64,19 @@ Conversation intelligence is available in the following languages:
 
 ## AI in Copilot for Sales
 
-AI features in Copilot for Sales are available in the following languages:
+| Language/Feature  | Signature detection | Email summary in side pane | Suggested email content in side pane | Meeting follow-up email | Opportunity summary | Combined Copilot experience in Outlook | Meeting report in Word | Post-meeting summary in Teams recap |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Chinese (simplified)| Yes | Yes | Yes | Yes | Yes | Yes | Yes | No  |
+| Danish              | Yes | Yes | Yes | Yes | Yes | No  | No  | Yes |
+| Dutch               | Yes | Yes | Yes | Yes | Yes | No  | No  | Yes |
+| English             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| French              | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| German              | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Italian             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Portuguese (Brazil) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No  |
+| Spanish             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
-- Danish
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
 
 > [!NOTE]
-> The following languages are partially supported and the meeting insights are generated in English: Chinese (simplified), Portuguese, Portuguese (Brazil), Hebrew, Swedish, Finnish, Norwegian, and Arabic
-
-See the feature specific documentation for the supported languages.
+> For meeting summary, the following languages are partially supported and the insights are generated in English: Chinese (simplified), Portuguese, Portuguese (Brazil), Hebrew, Swedish, Finnish, Norwegian, and Arabic.
 
