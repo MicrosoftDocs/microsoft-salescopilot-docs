@@ -52,7 +52,7 @@ The access code adds 300 trial licenses for Copilot for Sales into your tenant. 
 
 ## How long do I have to redeem the access codes?
 
-You have 60 days to redeem the code. The code expires on May 15, 2024.
+You have 60 days to redeem the code. The code expires on May 17, 2024.
 
 ## How long do I have access to the new licenses?
 
