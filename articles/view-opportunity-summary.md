@@ -41,18 +41,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 ## Supported languages
 
-The generation of opportunity summary is supported in the following languages:
-
-- Chinese (simplified)
-- Danish
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Portuguese (Brazil)
-- Spanish
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 ## View opportunity summary
 

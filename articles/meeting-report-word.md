@@ -20,23 +20,6 @@ ms.custom:
 
 Sellers use Microsoft Word to perform daily sales tasks such as preparing for strategic meetings, creating proposals, and drafting contracts. Copilot in Microsoft Word helps sellers create documents faster by providing relevant content and recommendations. Integrating Microsoft Copilot for Sales with Copilot in Microsoft Word enables sellers to create detailed premeeting reports and share them with their team members.
 
-## Supported languages
-
-This feature is available in the following languages:
-
-- Chinese (simplified)
-- English
-- French
-- German
-- Italian
-- Japanese
-- Portuguese (Brazil)
-- Spanish
-
-## Region availability
-
-This feature is available in all [regions in which Copilot for Sales is supported](introduction.md#region-availability).
-
 ## License requirements
 
 [Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
@@ -48,6 +31,14 @@ This feature is available in all [regions in which Copilot for Sales is supporte
 - You must sign into Copilot for Sales and Microsoft Word with the same account.
 
 - You must contact Microsoft support to enable Copilot for your organization.
+
+## Supported languages
+
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
+
+## Region availability
+
+This feature is available in all [regions in which Copilot for Sales is supported](introduction.md#region-availability).
 
 ## Generate premeeting report
 

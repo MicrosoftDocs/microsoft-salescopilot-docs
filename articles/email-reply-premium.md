@@ -37,18 +37,7 @@ If you have the Copilot for Sales standard license, see [Draft an email message 
 
 ## Supported languages
 
-The combined experience of Copilot for Microsoft 365 and Copilot for Sales is available in the following languages:
-
-- Chinese (simplified)
-- Danish
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Portuguese (Brazil)
-- Spanish
+To see a list of supported languages for the combined experience of Copilot for Microsoft 365 and Copilot for Sales, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested email message.
 

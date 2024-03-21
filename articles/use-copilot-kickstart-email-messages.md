@@ -43,17 +43,7 @@ Capabilities mentioned in this article are available only to users with the Copi
 
 ## Supported languages
 
-AI in Copilot for Sales is supported in the following languages: 
-- Chinese (simplified)
-- Danish
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Portuguese (Brazil)
-- Spanish
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested content.
 

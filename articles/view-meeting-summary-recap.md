@@ -31,17 +31,7 @@ To view sales related insights in Microsoft Teams meeting recap, you need one of
 
 ## Supported languages
 
-This capability is supported in the following languages:
-
-- Danish
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
-
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 ## View sales related insights in meeting recap
 
