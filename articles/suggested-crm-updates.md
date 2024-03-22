@@ -1,6 +1,6 @@
 ---
 title: View suggested CRM updates
-description: Save time and reduce errors by letting AI suggest CRM updates based on email conversations
+description: Learn how to use AI to suggest CRM updates based on email conversations.
 ms.date: 02/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -16,9 +16,9 @@ ms.custom:
 
 When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone.
 
-Copilot for Sales uses AI to suggest CRM updates based on the email conversations. Suggestions include update to estimated revenue and close date of the opportunity to which the email is connected. If the email is not connected to an opportunity, you can choose an opportunity you want to update with the suggestions.
+Copilot for Sales uses AI to suggest CRM updates based on the email conversations. Suggestions include update to estimated revenue and close date of the opportunity to which the email is connected. If the email isn't connected to an opportunity, you can choose an opportunity you want to update with the suggestions.
 
-The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card is not displayed.
+The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card isn't displayed.
 
 :::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
 
@@ -39,23 +39,23 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 1. In the Copilot for Sales pane, go to the **Suggested actions** card.
 
-2. Select **Update opportunity** for the update you want to apply. Based on whether the email is connected to an opportunity or not, the following happens:
+1. Select **Update opportunity** for the update you want to apply. Based on whether the email is connected to an opportunity or not, the following happens:
 
-    - If the email is connected to an opportunity, the opportunity form opens within the Copilot for Sales pane.
+    - If the email is connected to an opportunity, the opportunity form opens in the Copilot for Sales pane.
 
         :::image type="content" source="media/suggested-data-review.png" alt-text="Screenshot showing opportunity form to review suggested updates.":::
 
-    - If the email is not connected to an opportunity, you are prompted to select an opportunity to update. Select an opportunity and proceed to the next step.
-    
+    - If the email isn't connected to an opportunity, you're prompted to select an opportunity to update. Select an opportunity and proceed to the next step.
+
         :::image type="content" source="media/suggested-select-oppty.png" alt-text="Screenshot showing form to select an opportunity to update.":::
 
 1. To change the opportunity, select **Choose a different opportunity** and select the opportunity you want to update.
 
 1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject** icon.
 
-1. Select **Update**. You are navigated to the **Suggested actions** card. 
+1. Select **Update**. You're navigated to the **Suggested actions** card.
 
-1. Update the next available suggestion, if required.
+1. Update the next available suggestion, if necessary.
 
 ### Update CRM from record details
 
@@ -63,11 +63,10 @@ You can also update an opportunity record with the suggested updates when viewin
 
 1. In the Copilot for Sales pane, [view details of an opportunity](view-record-details.md).
 
-2. In the highlight card, select **Update opportunity** for the update you want to apply.
+1. In the highlight card, select **Update opportunity** for the update you want to apply.
 
-3. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject** icon.
+1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject**.
 
     :::image type="content" source="media/suggested-oppty-details.png" alt-text="Screenshot showing option to update opportunity from details view.":::
 
-4. Select **Save**.
-
+1. Select **Save**.
