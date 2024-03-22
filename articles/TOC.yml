@@ -106,6 +106,8 @@
         href: change-connected-crm-contact.md
       - name: Create a contact in your CRM from Copilot for Sales
         href: create-contact-crm-sales-copilot.md
+      - name: Create a new record in your CRM from Copilot for Sales
+        href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
       - name: View recent and upcoming activities

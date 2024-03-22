@@ -24,7 +24,7 @@ To create a contact:
 1. In the **New contact** form, add the required information, and then select **Save**.
 
    > [!NOTE]
-   > If your administrator has disabled the inline contact creation, the **New Contact** form opens in your CRM to fill in the details. More information: [Configure new contact creation](customize-forms-and-fields.md#configure-new-contact-creation)
+   > If your administrator has disabled the inline record creation, the **New Contact** form opens in your CRM to fill in the details. More information: [Configure new contact creation](customize-forms-and-fields.md#configure-new-record-creation)
 
    :::image type="content" source="media/add-person.png" alt-text="Screenshot showing how to create a contact inline.":::
 
@@ -40,3 +40,7 @@ If you open the **Copilot for Sales** pane from an incoming email that contains 
 This capability is available only for emails in the [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 :::image type="content" source="media/pre-fill.png" alt-text="Screenshot showing prefilled details from signature.":::
+
+### See also
+
+[Create a new record in your CRM from Copilot for Sales](create-new-record.md)
