@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies
 description: Learn why you need to opt in to allow Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
-ms.date: 02/21/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 Although Copilot is available in all geographic regions, it requires the Microsoft Azure OpenAI Service, which is available only in specific regions. If your CRM environment is located in a region where Azure OpenAI Service is not available, your data, including personal data or data used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
 
-You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in a different region. You can opt in by [providing consent in admin settings](suggested-replies.md). If you don't provide consent, Copilot AI features won't be available to your sellers.
+You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in a different region. You can opt in by [providing consent in admin settings](suggested-replies.md). If you don't provide consent, Copilot AI features won't be available to your sellers and meeting insights won't be generated.
 
 ## How data movement across regions works
 

@@ -35,6 +35,7 @@ For information about pricing, see [Microsoft Copilot for Sales pricing](https:/
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 - You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
+- The Copilot for Sales app must be installed by your admin.
 
 ## Supported languages
 
@@ -53,6 +54,8 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
 1. In Outlook, open an email thread that you want to summarize.
 1. Select the **Summary by Copilot** box at the top of the email thread. Copilot scans the email thread, creates, and displays a summary at the top of the email thread.
 1. In the **Summary by Copilot** box, select the **From Outlook** dropdown list at top-right, and select **Add Sales insights**. The summary is updated to include sales information from CRM.
+    > [!NOTE]
+    > If an external email is included in the email thread, **Add Sales insights** is selected by default.
 1. To open **Copilot for Sales**, select **Go to Sales**. The **Key sales info** card displays information about the connected opportunity, account, and contact.
 
 ### See also

@@ -21,3 +21,4 @@ ms.reviewer: shjais
 - [FAQ for email summary feature in Outlook](faqs-email-summary.md)
 - [FAQ for meeting follow-up feature in Outlook](faqs-meeting-follow-up.md)
 - [FAQ for opportunity summary feature in Outlook](faqs-oppty-summary.md)
+- [FAQ for real-time tips feature in Teams](faqs-real-time-tips.md)
