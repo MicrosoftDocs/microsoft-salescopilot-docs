@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 02/06/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,7 +46,7 @@ Capabilities mentioned in this article are available only to users with the Copi
 
 ## Supported languages
 
-The generation of email summary is supported in the following languages: English, Spanish, German, and French.
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 ## View email summary
 

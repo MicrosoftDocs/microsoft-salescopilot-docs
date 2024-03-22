@@ -40,6 +40,14 @@
       href: install-pin-viva-sales-teams.md
     - name: Install Copilot for Sales (user-deployed)
       href: install-sales-copilot.md
+  - name: Enable Copilot for Sales
+    href: enable-license.md
+  - name: Early Access Program (EAP)
+    items:
+    - name: Redeem Copilot for Sales EAP trial licenses
+      href: eap-redeem-license.md
+    - name: EAP customer transition FAQ
+      href: eap-faq.md
 
 - name: Deployment scenarios
   items:
@@ -98,6 +106,8 @@
         href: change-connected-crm-contact.md
       - name: Create a contact in your CRM from Copilot for Sales
         href: create-contact-crm-sales-copilot.md
+      - name: Create a new record in your CRM from Copilot for Sales
+        href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
       - name: View recent and upcoming activities
