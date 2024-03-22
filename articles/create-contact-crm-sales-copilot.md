@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 02/02/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,7 +37,6 @@ To create a contact:
 
 If you open the **Copilot for Sales** pane from an incoming email that contains the signature of the sender, and you add the contact to your CRM, Copilot for Sales prefills the contact details based on the signature and highlights the fields that it populated. You can update the information and select **Save**.
 
-> [!NOTE]
-> This capability is available only for emails in English.
+This capability is available only for emails in the [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 :::image type="content" source="media/pre-fill.png" alt-text="Screenshot showing prefilled details from signature.":::
