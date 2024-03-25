@@ -77,17 +77,6 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 |³ Requires Copilot for Sales app to be installed in Microsoft Teams.  |               |                              |
 
 
-### Uninstall Copilot for Sales Outlook add-in
-
-1. Open [https://aka.ms/olksideload](https://aka.ms/olksideload). If required, sign in to your Microsoft Outlook account.
-
-1. In the **Add-Ins for Outlook** window, select **My add-ins** in the left pane.
-
-1. On the **Copilot for Sales for Microsoft Outlook** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
-
-> [!NOTE]
-> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
-
 ## Install Copilot for Sales app for Microsoft Teams
 
 1. Sign in to Microsoft Teams.
@@ -108,7 +97,7 @@ After you've installed Copilot for Sales, you can start using Copilot for Sales 
 
 Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
-### Uninstall Copilot for Sales app for Microsoft Teams
+### Uninstall Copilot for Sales app from Microsoft Teams
 
 1. Sign in to Microsoft Teams.
 
@@ -135,3 +124,7 @@ You can check if the Copilot for Sales add-in for Outlook is admin-deployed or u
     If the add-in is available under **Admin-managed** tab, it is admin-deployed. Contact your administrator to [uninstall the add-in](disable-viva-sales.md).
 
     If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](#uninstall-copilot-for-sales-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.
+
+### See also
+
+[Uninstall Copilot for Sales add-in for Outlook](disable-viva-sales.md)
