@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
-ms.date: 02/02/2024
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -204,7 +204,8 @@ If a record type is not based on a CRM view, you can select fields to include in
 If the fields in CRM are not marked as required, you can mark them as required only for Copilot for Sales. Sellers will be required to enter values for these fields before they can save the record in Copilot for Sales.
 
 > [!NOTE]
-> If a field is marked as required in CRM, it's marked as required in Copilot for Sales as well and you can't make it optional.
+> - If a field is marked as required in CRM, it's marked as required in Copilot for Sales as well and you can't make it optional.
+> - If you're using Salesforce, and [you've marked a field as required using the page layout option](https://help.salesforce.com/s/articleView?id=000384974&type=1), the field is not marked as required automatically in Copilot for Sales. You must manually mark the field as required in Copilot for Sales.  
 
 1.	In Copilot for Sales admin settings, select **Forms**.
 
