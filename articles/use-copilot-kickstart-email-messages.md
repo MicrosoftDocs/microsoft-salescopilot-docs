@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 02/06/2024
+ms.date: 03/18/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -43,7 +43,9 @@ Capabilities mentioned in this article are available only to users with the Copi
 
 ## Supported languages
 
-AI in Copilot for Sales is supported in the following languages: English, Spanish, German, and French. The email and custom prompt must be in one of the supported languages to generate the suggested content.
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
+
+The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
 ## Create an email reply using predefined categories
 

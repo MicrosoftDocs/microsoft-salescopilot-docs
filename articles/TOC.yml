@@ -17,6 +17,8 @@
     href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
+  - name: License overview
+    href: license-info.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
@@ -24,12 +26,10 @@
   - name: Copilot for Sales FAQ
     href: sales-copilot-faq.md
 
-- name: Get started
+- name: Buy and install
   items:
-  - name: Deployment guide for Dynamics 365 users
-    href: deploy-viva-sales-d365.md
-  - name: Deployment guide for Salesforce users
-    href: deploy-viva-sales-sf.md
+  - name: Buy Copilot for Sales
+    href: buy-license.md
   - name: Install Copilot for Sales
     items:
     - name: Install Copilot for Sales (admin-deployed)
@@ -40,6 +40,21 @@
       href: install-pin-viva-sales-teams.md
     - name: Install Copilot for Sales (user-deployed)
       href: install-sales-copilot.md
+  - name: Enable Copilot for Sales
+    href: enable-license.md
+  - name: Early Access Program (EAP)
+    items:
+    - name: Redeem Copilot for Sales EAP trial licenses
+      href: eap-redeem-license.md
+    - name: EAP customer transition FAQ
+      href: eap-faq.md
+
+- name: Deployment scenarios
+  items:
+  - name: Deployment guide for Dynamics 365 users
+    href: deploy-viva-sales-d365.md
+  - name: Deployment guide for Salesforce users
+    href: deploy-viva-sales-sf.md
 
 
 - name: Administration guide
@@ -91,6 +106,8 @@
         href: change-connected-crm-contact.md
       - name: Create a contact in your CRM from Copilot for Sales
         href: create-contact-crm-sales-copilot.md
+      - name: Create a new record in your CRM from Copilot for Sales
+        href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
       - name: View recent and upcoming activities
@@ -294,6 +311,8 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+  - name: FAQ for real-time tips
+    href: faqs-real-time-tips.md
   - name: FAQ for key sales info
     href: faqs-key-sales-info.md
 
