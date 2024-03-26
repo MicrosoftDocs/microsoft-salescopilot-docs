@@ -28,13 +28,13 @@ ms.custom:
 
 Alternatively, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in Copilot for Sales.
 
-  1. In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
+1. In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
 
-    :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing deal rooms from record card.":::
+   :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing deal rooms from record card.":::
     
-  1. Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+1. Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-    :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing deal rooms in record details view.":::
+   :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing deal rooms in record details view.":::
 
 ## Access linked teams and channels from Dynamics 365 Sales
 
