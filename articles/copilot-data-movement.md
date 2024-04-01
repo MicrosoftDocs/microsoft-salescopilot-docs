@@ -20,7 +20,7 @@ When you use copilots and generative AI features, your inputs (prompts) and outp
 
 Effective February 21, 2024, for new customers, the following table describes when and how data can move across regions for copilots and generative AI features.
 
-| Region where your CRM environment is hosted | Content required for data movement across regions? | How to allow data to move across regions|
+| Region where your CRM environment is hosted | Consent required for data movement across regions? | How to allow data to move across regions|
 |-------------------|-------------------|-------------------|
 | Australia</br>United Kingdom</br>United States | No | No action required. Data doesn't move across regions in this scenario.|
 | Europe | Yes\* | No action required. Data doesn't move outside the [EU Data Boundary](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb) in this scenario.<br><br>You can clear the [**Allow moving data outside boundaries**](suggested-replies.md) checkbox, if you want to. |
