@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 03/18/2024
+ms.date: 04/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -32,6 +32,15 @@ To create a contact:
    > You can also open the contact form in your CRM. Select **Open in (CRM)**, and then enter details.
 
     Copilot for Sales automatically connects the new CRM contact to your external contact.
+
+>[!IMPORTANT]
+>
+> With the implementation of the global create feature in Copilot for Sales, contact creation might fail when you are using the external contact creation process. To continue creating contacts in CRM, perform the following steps in Teams admin settings:
+>1. Go to **Settings** > **Environment** > **Forms** > **Contact**.  
+>1. Select one of the following options:  
+>      - **Create new records inside Copilot for Sales**  
+>      - **Create new records by opening Salesforce from a link**  
+>1. Save the settings and create the contact again.
 
 ## Signature available in email
 
