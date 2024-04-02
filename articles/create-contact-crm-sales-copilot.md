@@ -35,8 +35,8 @@ To create a contact:
 
 >[!IMPORTANT]
 >
-> With the implementation of the global create feature in Copilot for Sales, contact creation may fail when using the external contact creation process. To continue creating contacts in CRM, perform the following steps in Teams admin settings:
->1. Go to **Settings** > **Environment** > **Forms** > **Contact**  
+> With the implementation of the global create feature in Copilot for Sales, contact creation might fail when you are using the external contact creation process. To continue creating contacts in CRM, perform the following steps in Teams admin settings:
+>1. Go to **Settings** > **Environment** > **Forms** > **Contact**.  
 >1. Select one of the following options:  
 >      - **Create new records inside Copilot for Sales**  
 >      - **Create new records by opening Salesforce from a link**  
