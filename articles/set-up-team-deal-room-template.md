@@ -76,9 +76,9 @@ When you create a collaboration space with the deal room team template, you can 
 
     Team members are recommended based on the following criteria:
 
-    - **Dynamics 365**: The CRM opportunity owner, members of the account team, and members the opportunity is shared with. If the opportunity owner is a group, the members of the group are listed.
+    - **Dynamics 365**: The CRM opportunity owner, members of the opportunity team, and members the opportunity is shared with. If the opportunity owner is a group, the members of the group are listed.
 
-    - **Salesforce CRM**: The CRM opportunity owner and members of the opportunity team. [Learn more about using account teams in Salesforce](https://help.salesforce.com/s/articleView?id=sf.accountteam_enable.htm&type=5).
+    - **Salesforce CRM**: The CRM opportunity owner and members of the opportunity team. [Learn more about using opportunity teams in Salesforce](https://help.salesforce.com/s/articleView?id=sf.teamselling_enabling.htm&type=5).
 
 1. In the **Set up your channels** step, change the channel name, if necessary, and select a privacy option. To add a shared channel for collaborating with customers, leave **Include shared channel** selected.
 
