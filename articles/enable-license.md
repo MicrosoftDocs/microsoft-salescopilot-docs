@@ -68,29 +68,29 @@ The personal app should open with the **Home** and **Settings** tabs. This confi
 
 Following are the integrated experiences that Copilot for Sales provides across Microsoft 365 applications:
 
-## Email summarization in Outlook
+### Email summarization in Outlook
 
 View email summary enriched with sales information from CRM in Outlook. For more information, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md).
 
-Ensure that the [prerequisites](email-summary-premium.md#prerequisites) are met to view the email summary in Outlook.
+**Prerequisites**: You must use Outlook on the web or the new Outlook for Windows to use the integrated experience. For a list of all prerequisites, see [prerequisites](email-summary-premium.md#prerequisites).
 
 :::image type="content" source="media/outlook-email-summary.svg" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
 
-## Generative email replies in Outlook
+### Generative email replies in Outlook
 
 Generate email replies with sales specific insights in Outlook. For more information, see [Generate email replies with sales information in Outlook](email-reply-premium.md).
 
-Ensure that the [prerequisites](email-reply-premium.md#prerequisites) are met to generate email replies in Outlook.
+**Prerequisites**: You must use Outlook on the web or the new Outlook for Windows to use the integrated experience. For a list of all prerequisites, see [prerequisites](email-reply-premium.md#prerequisites).
 
 :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
 
-## Teams meeting recap
+### Teams meeting recap
 
 View sales related insights in Microsoft Teams meeting recap. For more information, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
 
-## Premeeting report in Microsoft Word
+### Premeeting report in Microsoft Word
 
 Generate premeeting reports with sales insights in Microsoft Word. For more information, see [Generate premeeting reports with sales insights in Microsoft Word](meeting-report-word.md).
 
