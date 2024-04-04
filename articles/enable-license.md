@@ -88,10 +88,14 @@ Generate email replies with sales specific insights in Outlook. For more informa
 
 View sales related insights in Microsoft Teams meeting recap. For more information, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
+**Prerequisites**: For a list of all prerequisites, see [prerequisites](view-meeting-summary-recap.md#prerequisites).
+
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
 
 ### Premeeting report in Microsoft Word
 
 Generate premeeting reports with sales insights in Microsoft Word. For more information, see [Generate premeeting reports with sales insights in Microsoft Word](meeting-report-word.md).
+
+**Prerequisites**: For a list of all prerequisites, see [prerequisites](meeting-report-word.md#prerequisites).
 
 :::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::

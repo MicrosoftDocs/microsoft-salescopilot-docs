@@ -13,7 +13,7 @@ ms.author: shjais
 As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, and opportunities that are related to the email. Key sales information is based on the opportunity that is connected to the email or the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one.
 
 > [!NOTE]
-> Key sales information doesn't show the email summary and the option to generate email reply. The [email summary](email-summary-premium.md) and the option to [generate email reply](email-reply-premium.md) are available within Microsoft Outlook.
+> With the premium license, you can see the integrated experience within Microsoft Outlook, which includes the ability to [view email summary](email-summary-premium.md) and [generate email replies](email-reply-premium.md). The key sales information provides a comprehensive CRM context overview. 
 
 ## License requirements
 
