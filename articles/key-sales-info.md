@@ -1,7 +1,7 @@
 ---
 title: View key sales information in Copilot for Sales
 description: Learn how to view key sales information in Copilot for Sales as you read and compose emails in Outlook.
-ms.date: 03/18/2024
+ms.date: 04/04/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,10 @@ ms.author: shjais
 
 # View key sales information in Copilot for Sales
 
-As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, and opportunities that are related to the email. Key sales information is based on the opportunity that is connected to the email or the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one. 
+As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, and opportunities that are related to the email. Key sales information is based on the opportunity that is connected to the email or the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one.
+
+> [!NOTE]
+> Key sales information doesn't show the email summary and the option to generate email reply. The [email summary](email-summary-premium.md) and the option to [generate email reply](email-reply-premium.md) are available within Microsoft Outlook.
 
 ## License requirements
 

@@ -1,7 +1,7 @@
 ---
 title: Enable Copilot for Sales licenses
 description: Enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
-ms.date: 03/22/2024
+ms.date: 04/04/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -72,11 +72,15 @@ Following are the integrated experiences that Copilot for Sales provides across 
 
 View email summary enriched with sales information from CRM in Outlook. For more information, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md).
 
+Ensure that the [prerequisites](email-summary-premium.md#prerequisites) are met to view the email summary in Outlook.
+
 :::image type="content" source="media/outlook-email-summary.svg" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
 
 ## Generative email replies in Outlook
 
 Generate email replies with sales specific insights in Outlook. For more information, see [Generate email replies with sales information in Outlook](email-reply-premium.md).
+
+Ensure that the [prerequisites](email-reply-premium.md#prerequisites) are met to generate email replies in Outlook.
 
 :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
 
