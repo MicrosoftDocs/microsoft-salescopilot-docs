@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 02/06/2024
+ms.date: 04/04/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,7 +22,7 @@ When available, the summary includes information whether budget, stakeholders, n
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md)
+Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, you can see the integrated experience within Microsoft Outlook. For more information, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md).
 
 ## Anatomy of email summary
 
@@ -46,7 +46,7 @@ Capabilities mentioned in this article are available only to users with the Copi
 
 ## Supported languages
 
-The generation of email summary is supported in the following languages: English, Spanish, German, and French.
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 ## View email summary
 

@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Copilot for Sales for Outlook and Teams
 description: Lean which languages are supported in Copilot for Sales
-ms.date: 02/02/2024
+ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -11,8 +11,6 @@ ms.localizationpriority: medium
 ---
 
 # Supported languages in Copilot for Sales for Outlook and Teams 
-
-
 
 ## User interface
 
@@ -66,10 +64,19 @@ Conversation intelligence is available in the following languages:
 
 ## AI in Copilot for Sales
 
-AI in Copilot for Sales for suggested email content and email summary is available in the following languages:
+| Language/Feature  | Signature detection | Email summary in side pane | Suggested email content in side pane | Meeting follow-up email | Opportunity summary | Combined Copilot experience in Outlook | Meeting report in Word | Meeting summary in Teams (SCI) | Post-meeting summary in Teams recap |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------|
+| Chinese (simplified)| Yes | Yes | Yes | Yes | Yes | Yes | Yes | No  | No  |
+| Danish              | Yes | Yes | Yes | Yes | Yes | No  | No  | Yes | Yes |
+| Dutch               | Yes | Yes | Yes | Yes | Yes | No  | No  | Yes | Yes |
+| English             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| French              | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| German              | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Italian             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Portuguese (Brazil) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No  | No  |
+| Spanish             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |    
 
-- English
-- French
-- German
-- Spanish
+
+> [!NOTE]
+> For meeting summary, the following languages are partially supported and the insights are generated in English: Chinese (simplified), Portuguese, Portuguese (Brazil), Hebrew, Swedish, Finnish, Norwegian, and Arabic.
 
