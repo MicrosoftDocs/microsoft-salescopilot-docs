@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (user-deployed)
 description: Learn how to install Copilot for Sales.
-ms.date: 02/23/2024
+ms.date: 04/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -96,18 +96,6 @@ After you've installed Copilot for Sales, you can start using Copilot for Sales 
 ### Welcome message
 
 Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
-
-### Uninstall Copilot for Sales app from Microsoft Teams
-
-1. Sign in to Microsoft Teams.
-
-1. In the navigation bar on the left, select **Store**.
-
-1. At the bottom of the **Apps** sidebar, select **Manage your apps**.
-
-1. Find the Copilot for Sales app and select it to expand its row.
-
-1. Select **Remove** :::image type="content" source="media/trash.png" alt-text="Delete team trash can button."::: for the personal app and confirm you want to remove the app from the selected location.
 
 ## FAQ
 
