@@ -115,4 +115,4 @@ You can check if the Copilot for Sales add-in for Outlook is admin-deployed or u
 
 ### See also
 
-[Uninstall Copilot for Sales add-in for Outlook](disable-viva-sales.md)
+[Uninstall Copilot for Sales app](disable-viva-sales.md)

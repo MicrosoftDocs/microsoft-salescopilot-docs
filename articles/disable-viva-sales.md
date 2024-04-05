@@ -1,6 +1,6 @@
 ---
-title: Uninstall Copilot for Sales add-in for Outlook
-description: Uninstall Copilot for Sales add-in for Outlook using Microsoft 365 admin center or PowerShell.
+title: Uninstall Copilot for Sales app
+description: Uninstall Copilot for Sales app using Microsoft 365 admin center or PowerShell.
 ms.date: 04/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,13 +14,13 @@ ms.custom:
   - ai-seo-date:10/17/2023
 ---
 
-# Uninstall Copilot for Sales add-in for Outlook
+# Uninstall Copilot for Sales app
 
-You can uninstall the Copilot for Sales add-in for Outlook from your organization or for individual users. The steps to uninstall the add-in depend on whether you are an admin or a user.
+You can uninstall the Copilot for Sales app from your organization or for individual users. The steps to uninstall the app depend on whether you are an admin or a user.
 
 ## Uninstall as a user
 
-You can uninstall the Copilot for Sales add-in for Outlook and the Copilot for Sales app from Microsoft Teams.
+You can uninstall the Copilot for Sales add-in for Outlook and the Copilot for Sales personal app from Microsoft Teams.
 
 ### Uninstall Copilot for Sales Outlook add-in
 
