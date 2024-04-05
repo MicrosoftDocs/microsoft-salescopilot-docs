@@ -529,6 +529,11 @@
       "source_path": "articles/developer/entities/msdyn_scienvironmentsettings.md",
       "redirect_url": "/microsoft-sales-copilot/landing",
       "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/introduction-sales-copilot.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction",
+        "redirect_document_id": false
       }                   
   ]
 }
