@@ -1,7 +1,7 @@
 ---
 title: Advanced collaboration with AI powered Planner tasks
 description: Efficient task management for sales teams with AI powered Planner tasks in Copilot for Sales
-ms.date: 03/18/2024
+ms.date: 04/15/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -73,3 +73,8 @@ Collaboration space must be created for [account team](set-up-team-account-team-
      
 
 `image`
+
+### See also
+
+[Set up account team template in Microsoft Teams](set-up-team-account-team-template.md) <br>
+[Set up deal room template in Microsoft Teams](set-up-team-deal-room-template.md)
