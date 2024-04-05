@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 02/21/2024
+ms.date: 04/05/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -58,6 +58,9 @@ Internal channels like **General** and **Coffee Machine** have the following app
 [use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
 
 - **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the channel.
+
+    > [!NOTE]
+    > If the **CRM OneNote** tab shows an error message when you open it, you must delete the tab by right-clicking it and selecting **Remove**. You must use the **Notes** tab provided by Teams to share notes in the channel.
 
 Shared channels like **Customer - Fourth Coffee** or **Customer - Coffee Machine** have the following apps pinned as tabs:
 
