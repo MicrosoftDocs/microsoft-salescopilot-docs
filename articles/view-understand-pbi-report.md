@@ -1,6 +1,6 @@
 ﻿---
 title: View and understand Copilot for Sales dashboard report
-description: Identify coaching opportunities and increase sales wins and productivity gains for your business with the help of Copilot for Sales dashboard report.
+description: Learn how to identify coaching opportunities and increase sales wins and productivity gains for your business using the Copilot for Sales dashboard report.
 ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -20,35 +20,35 @@ ms.custom:
 
 Sales conversations are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. This report helps you analyze the overall behavior of your team during customer conversations and sentiment of your customers. It also helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
-The following pages are available in the report:
+The following pages are available in your report:
 
--   [Coaching opportunities](#coaching-opportunities)
+- [Coaching opportunities](#coaching-opportunities)
 
--   [Customer insights](#customer-insights)
+- [Customer insights](#customer-insights)
 
--   [Call recordings](#call-recordings)
+- [Call recordings](#call-recordings)
 
-You can use the following filters in the report:
+You can use the following filters in your report:
 
 - **Time period filter**: Filter the information on the report based on a time period, such as the last 24 hours, the last seven days, this month, all time, or a custom time period. Time filter applies to information displayed on all pages.
 
 - **Data filters**: Use the following filters to view the information you need:
 
-    - **Team**: Displays names of all managers in the organization hierarchy up to the current user. If you are a seller, your manager's name is displayed. If you are a manager, the names of managers reporting to you are displayed.
+  - **Team**: Displays names of all managers in the organization hierarchy up to the current user. If you're a seller, your manager's name is displayed. If you're a manager, the names of sellers reporting to you, are displayed.
 
-    - **Seller**: Displays names of sellers under the selected manager. If you are a seller, you can only view your own data.
+  - **Seller**: Displays names of sellers under the selected manager. If you're a seller, you can only view your own data.
 
-    - **Activity type**: Displays activity type such as phone calls (inbound and outbound) and meetings.
+  - **Activity type**: Displays activity type such as phone calls (inbound and outbound) and meetings.
 
-    - **Connected record** (available for Dynamics 365 Sales users): Displays a list of CRM records with related activities.
+  - **Connected record** (available for Dynamics 365 Sales users): Displays a list of CRM records with related activities.
 
-    - **Stage** (available for Dynamics 365 Sales users): Filters the connected records list according to the record's status.
+  - **Stage** (available for Dynamics 365 Sales users): Filters the connected records list according to the record's status.
 
-    - **Campaign** (available for Dynamics 365 Sales users): Displays a list of campaigns with relevant activities.
+  - **Campaign** (available for Dynamics 365 Sales users): Displays a list of campaigns with relevant activities.
 
-    - **Tags**: Allows filtering of conversation data by the tags they were tagged with.
+  - **Tags**: Allows filtering of conversation data by the tags they were tagged with.
 
-    - **Call category**: Displays call categories such as wrong number, voicemail, and contact unavailable.
+  - **Call category**: Displays call categories such as wrong number, voicemail, and contact unavailable.
 
 ## Coaching opportunities
 
@@ -64,7 +64,7 @@ The following conversational KPIs are displayed:
 
 - **Switches per call**: Displays the average number of switches between a sales rep and customer in a conversation, meaning the number of times the conversation switched from one person to another. It helps you identify if your sellers are engaging with customers during conversations.
 
-- **Pause before speak**: Displays the average pause time before a sales rep speaks during a conversation. It helps you identify if your sellers are interrupting their customers before they are done talking or do they have enough patience.
+- **Pause before speak**: Displays the average pause time before a sales rep speaks during a conversation. It helps you identify if your sellers are interrupting their customers before they're done talking or do they have enough patience.
 
 - **Longest customer monologue**: Displays the longest time a customer spoke during a conversation. It helps you identify if your sellers are giving enough time to customers to speak and express their needs.
 
@@ -86,13 +86,13 @@ The following summary charts are displayed:
 
 - **Seller's conversation content**
 
-    - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations. It is the count of how many times a brand was mentioned by sellers during conversations for the selected time period.  
+  - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations. It's the count of how many times a brand was mentioned by sellers during conversations for the selected time period.
 
-    - **Top trending brands by sellers**: Displays the top trending brands by sellers during conversations. It's the frequency of a brand mentioned in a day by all sellers. Select **Explore** to drill down and view trends for the **Top trending brands by sellers** chart over time.
+  - **Top trending brands by sellers**: Displays the top trending brands by sellers during conversations. It's the frequency of a brand mentioned in a day by all sellers. Select **Explore** to drill down and view trends for the **Top trending brands by sellers** chart over time.
 
-    - **Seller's frequently used words**: Displays the top frequently used words by sellers during conversations.
+  - **Seller's frequently used words**: Displays the top frequently used words by sellers during conversations.
 
-    - **Seller's trending used words**: Displays the top trending used words by sellers during conversations.
+  - **Seller's trending used words**: Displays the top trending used words by sellers during conversations.
 
 ## Customer insights
 
@@ -102,9 +102,9 @@ The following charts are displayed for the selected time period. You can use the
 
 - **Customer sentiment**: Displays the number of conversations analyzed for the selected time period and percentage of conversations that are positive, negative, and neutral on an average. Using this insight, you can:
 
-    -   Analyze the pain points that customers express during the call, and coach your sellers on how to handle customer conversations well.
+  - Analyze the pain points that customers express during the call, and coach your sellers on how to handle customer conversations well.
 
-    -   Analyze why customers are expressing these pain points and identify selling opportunities by addressing the gaps that are causing pain points.
+  - Analyze why customers are expressing these pain points and identify selling opportunities by addressing the gaps that are causing pain points.
 
 Select **Explore** to view more details on how the three customer sentiments (positive, negative, and neutral) are spanning across the specified timeframe.
 
@@ -122,6 +122,4 @@ The following charts are displayed for the selected time period. You can use the
 
 - **Call categories**: Displays the number and percentage of conversations for each automatic call category for the selected time period.
 
-Below the charts, a list of all conversations is displayed for the selected time period. You can view details such as call category, subject, duration, seller name, and a break-up of sentiments for each conversation. Select the subject of a conversation to open its [call summary page](view-understand-meeting-summary.md) in a new browser tab (for Dynamics 365 orgs, this will open the related activity, from which you can access the summary tab). You can review the conversations sellers had with their customers and quickly find relevant talking points, keywords, and insights.
-
-
+Below the charts, a list of all conversations is displayed for the selected time period. You can view details such as call category, subject, duration, seller name, and a break-up of sentiments for each conversation. Select the subject of a conversation to open its [call summary page](view-understand-meeting-summary.md) in a new browser tab (for Dynamics 365 orgs, this opens the related activity, from which you can access the summary tab). You can review the conversations sellers had with their customers and quickly find relevant talking points, keywords, and insights.
