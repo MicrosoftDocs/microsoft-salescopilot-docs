@@ -86,7 +86,7 @@ The following summary charts are displayed:
 
 - **Seller's conversation content**
 
-  - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations.
+  - **Top mentioned brands by sellers**: Displays the top mentioned brands by sellers during conversations. It's the count of how many times a brand was mentioned by sellers during conversations for the selected time period.
 
   - **Top trending brands by sellers**: Displays the top trending brands by sellers during conversations. It's the frequency of a brand mentioned in a day by all sellers. Select **Explore** to drill down and view trends for the **Top trending brands by sellers** chart over time.
 

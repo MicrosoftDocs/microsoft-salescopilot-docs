@@ -24,7 +24,7 @@ The following table lists the Dataverse tables used in the dashboard reports.
 | Table | Where in dashboard? | Use  |
 |----------------------------------|--------------------------------------------|------------------------------------------|
 | SCI Conversation                 | Time filter                                | The minimum and maximum values of the time filter are set according to the Start time field of the table.                |
-| SCI Conversation                 | Team or Seller filters                     | The Team or Seller filters the data in the dashboard based on the owner of the table.                             |
+| SCI Conversation                 | Team or Seller filters                     | The **Team** or **Seller** filters filter the data in the dashboard based on the owner of the table.                             |
 | SCI Conversation                 | Activity type filter                       | Displays the source for the type of activity (for example, email, phone call, or meeting).                               |
 | SCI Conversation                 | Coaching opportunities and call recordings | Displays the count of daily conversations by conversation type.                                                                          |
 | SCI Conversation                 | Call recordings                            | Displays type, time, subject, and owner of the conversation in a table.                                                  |
@@ -43,7 +43,7 @@ The following table lists the Dataverse tables used in the dashboard reports.
 | Participants insights            | Coaching opportunities                     | Displays data for Pause before speak, Longest seller monologue, Switches per call, and Talk to listen ratio KPIs.         |
 | Participants insights            | Call recordings                            | Displays the participants data on the conversation summary page.                                                         |
 | Participant's sentiment          | Call recordings                            | Displays the participant's sentiment on the playback timeline on the conversation summary page.                          |
-| Tracked keywords and competitors | Call recordings                            | Displays the tracked keywords and competitors in the transcript and highlights section on the conversation summary page. |
+| Tracked keywords and competitors | Call recordings                            | Displays the tracked keywords and competitors in the transcript and **Highlights** section on the conversation summary page. |
 | Segment sentiment                | Call recordings                            | Indicates the sentiment of specific utterances on the conversation summary page.                                         |
 | Summary suggestion               | Call recordings                            | Displays the summary suggestion on the conversation summary page.                                                        |
 | Questions                        | Coaching opportunities                     | Displays data for the Engaging questions rate KPI.                                                                       |
