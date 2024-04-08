@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 04/04/2024
+ms.date: 04/08/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -72,7 +72,7 @@ To see a list of supported languages, see [supported languages](supported-langua
    > - Your search results will be added to the suggested records list, so you can safely search and try again.
    > - Currently, you can save the summary to one record using Copilot for Sales.
    > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
-   > - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. But, Copilot for Sales supports the "Notes and Attachments" object out of the box. If you want to use the Notes object, ask your administrator to contact Microsoft support.
+   > - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, Copilot for Sales only supports the "Notes and Attachments" object out of the box. If you want Copilot for Sales to support the Notes object, ask your administrator to contact Microsoft support.
 
    :::image type="content" source="media/select-record.png" alt-text="Screenshot showing how to select an opportunity to save the email summary.":::
 
