@@ -35,13 +35,9 @@ Capabilities mentioned in this article are available only to users with the Copi
 | 3 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 
 > [!NOTE]
->
 > - Email summary will be generated only for emails or email threads with more than 1000 characters, which is about 180 words.
->
 > - The email summary will contain up to 400 characters.
->
 > - After adding the summary to your CRM system, you can edit it as needed.
->
 > - You must check the AI-generated content carefully, as it can have mistakes. It is your responsibility to review and edit the AI-generated summaries to make sure it's accurate and appropriate.
 
 ## Supported languages
@@ -76,6 +72,7 @@ To see a list of supported languages, see [supported languages](supported-langua
    > - Your search results will be added to the suggested records list, so you can safely search and try again.
    > - Currently, you can save the summary to one record using Copilot for Sales.
    > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+   > - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. But, Copilot for Sales supports the "Notes and Attachments" object out of the box. If you want to use the Notes object, ask your administrator to contact Microsoft support.
 
    :::image type="content" source="media/select-record.png" alt-text="Screenshot showing how to select an opportunity to save the email summary.":::
 
@@ -86,6 +83,7 @@ To see a list of supported languages, see [supported languages](supported-langua
    :::image type="content" source="media/timeline.png" alt-text="Screenshot showing the Email summary saved as a note in CRM.":::
 
 ## View data source in email summary
+
 Information identified from the CRM, such as contact and account records, is displayed as a data source within the email summary for quick reference.
 
 CRM data in the email summary is displayed in blue color. Select the content to see information about the CRM data. You can also open a record in CRM to view its complete details by selecting :::image type="icon" source="media/open-record.png" border="false"::: on the CRM record card.
