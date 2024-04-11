@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 02/06/2024
+ms.date: 04/12/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -88,6 +88,9 @@ The **Mentions** tab displays keywords, stakeholders, products, and competitors 
 #### View Viva Topics in meeting summary (preview)
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
+
+> [!IMPORTANT]
+> Copilot for Sales integration with Viva Topics in Conversation Intelligence will be deprecated on February 22, 2025 due to the deprecation of Viva Topics. If you already have an integration with Viva Topics, you can continue to use this feature until the deprecation date. New integrations with Viva Topics will be blocked on May 10, 2024 for Copilot for Sales.
 
 **Prerequisites**: 
 
