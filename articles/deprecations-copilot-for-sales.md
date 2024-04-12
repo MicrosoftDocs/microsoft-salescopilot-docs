@@ -1,11 +1,15 @@
 ---
 title: Deprecations in Copilot for Sales
-description: View the list of deprecated features and functionalities for Copilot for Sales.
+description: Features deprecated in Copilot for Sales are listed in this article, giving users time to update their code before removal.
 ms.date: 04/12/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/12/2024
 ---
 
 # Deprecations in Copilot for Sales
@@ -17,4 +21,4 @@ The features that have been deprecated in Copilot for Sales are listed in this a
 
 ## Viva Topics integration
 
-Copilot for Sales integration with Viva Topics in Conversation Intelligence will be deprecated on February 22, 2025 due to the deprecation of Viva Topics. If you already have an integration with Viva Topics, you can continue to use this feature until the deprecation date. New integrations with Viva Topics will be blocked on May 10, 2024 for Copilot for Sales.
+Copilot for Sales integration with Viva Topics in conversation intelligence will be deprecated on February 22, 2025 due to the deprecation of Viva Topics. If you already have an integration with Viva Topics, you can continue to use this feature until the deprecation date. New integrations between Copilot for Sales and Viva Topics will be blocked from May 10, 2024.
