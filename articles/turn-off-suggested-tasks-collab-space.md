@@ -20,9 +20,13 @@ As an administrator, you can control whether AI powered tasks should be suggeste
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
-2. Under **Environment**, select **Collaboration spaces**.
+2. Under **Tenant**, select **Collaboration spaces**.
 
 3. Turn off **Suggested tasks in collaboration spaces**.
+
+    :::image type="content" source="media/collab-space-ai-tasks-admin.png" alt-text="Screenshot showing admin settings for collaboration spaces.":::
+
+4. Select **Save**.
 
 ### See also
 

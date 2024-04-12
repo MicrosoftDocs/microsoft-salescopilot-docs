@@ -18,7 +18,7 @@ Sales teams work together closely and use apps like Microsoft Planner to manage 
 
 The AI powered Planner tasks feature in Copilot for Sales helps sellers to stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Teams and helps sellers to capture and track tasks that are discussed in their conversations. It automatically turns important discussions into Planner tasks, making it easy to track important activities. Sellers can also assign tasks to the right people and set deadlines.
 
-`image`
+Planner tasks that are created from the suggested tasks can be accessed from the Microsoft Planner app. Sales team members can also add the Planner app as a tab in the channel to view and manage the tasks from it.
 
 Key benefits of the suggested tasks feature are:
 
@@ -31,16 +31,17 @@ Key benefits of the suggested tasks feature are:
 
 - **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If required, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
 
-- **Planner app integration**: Sales team members can add the Planner app as a tab in the channel to view and manage the tasks from it. They can also view and manage the tasks from the Planner app in Teams.
+- **Planner app integration**: Sales team members can add the Planner app as a tab in the channel to view and manage the tasks from it. They can also view and manage the tasks from the Planner app.
 
 > [!NOTE]
 > - Planner tasks created from collaboration spaces are not synced to the CRM system. They can only be accessed from the Planner app in Teams.
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the AI-generated content to make sure it's accurate and appropriate.
+> - Suggested tasks are shown only to the active participants who either replied or reacted to the messages in the channel.
 
 ## License requirements
 
-- Copilot for Sales
-- Microsoft Planner
+- Copilot for Sales (standard or premium)
+- Microsoft Teams
 
 ## Supported languages
 
@@ -56,22 +57,25 @@ Collaboration space must be created for [account team](set-up-team-account-team-
 
     If task suggestions are available, you'll see the **Suggested Planner tasks** card for a post in the channel.
 
-2. In the **Suggested Planner tasks** card, review the suggested tasks. Task name, assignee, and due date are shown for each task.
+1. In the **Suggested Planner tasks** card, review the suggested tasks. Task name and assignee are shown for each task.
 
-3. If required, edit the task details inline. You can change the task name, assignee, and due date.
+1. Add the due date for each task. If required, edit the task task name and assignee.
 
-4. If you've multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list.
+1. If you've multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list, else select **Create a new plan**.
 
-4. Perform one of the following actions:
-    - If there's only one task, select **Create task**. 
-    - If there are multiple tasks, select the tasks you want to create, and then select **Create selected tasks**.
+1. Select the tasks you want to create, and then select **Create tasks**.
 
-4. In the confirmation message, select **Go to Planner** to view the created tasks in the Planner app. Alternatively, you also add the Planner app as a tab in the channel. You must use the plan name from the confirmation message to add an existing plan. For information about adding an app in a tab, see [Use an app in a tab in a channel or chat in Microsoft Teams](https://support.microsoft.com/office/use-an-app-in-a-tab-in-a-channel-or-chat-in-microsoft-teams-83d0514f-2134-4db5-80f2-e9b43e111d57).
+    :::image type="content" source="media/collab-space-ai-tasks.png" alt-text="Screenshot showing AI suggested Planner tasks.":::
+
+1. In the confirmation message, select **Go to Planner** to add the Planner app as a tab in the channel. 
+
+1. Select **Set up tab**.
+
+1. In the Planner window, select **Use an existing plan from this team**, and then select the plan name shown in the confirmation message.
+
+    :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing option to set up Planner tab.":::
 
     Sales team members can make updates to the tasks directly from the Planner app added in a tab without switching to the Planner app. Tasks updates are automatically reflected in the Planner app as well.
-     
-
-`image`
 
 ### See also
 
