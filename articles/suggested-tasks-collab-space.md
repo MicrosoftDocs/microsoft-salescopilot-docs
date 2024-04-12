@@ -71,7 +71,7 @@ Collaboration space must be created for [account team](set-up-team-account-team-
 
 1. Select **Set up tab**.
 
-1. In the Planner window, select **Use an existing plan from this team**, and then select the plan name shown in the confirmation message.
+1. In the Planner window, select **Use an existing plan from this team**, select the plan name shown in the confirmation message, and then select **Save**.
 
     :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing option to set up Planner tab.":::
 
