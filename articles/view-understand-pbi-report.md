@@ -123,3 +123,7 @@ The following charts are displayed for the selected time period. You can use the
 - **Call categories**: Displays the number and percentage of conversations for each automatic call category for the selected time period.
 
 Below the charts, a list of all conversations is displayed for the selected time period. You can view details such as call category, subject, duration, seller name, and a break-up of sentiments for each conversation. Select the subject of a conversation to open its [call summary page](view-understand-meeting-summary.md) in a new browser tab (for Dynamics 365 orgs, this opens the related activity, from which you can access the summary tab). You can review the conversations sellers had with their customers and quickly find relevant talking points, keywords, and insights.
+
+### See also
+
+- [Analyze your sellers' conversation data with Power BI](analyze-sellers-conv-data-pbi.md)
