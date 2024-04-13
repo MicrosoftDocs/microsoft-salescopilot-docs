@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 02/02/2024
+ms.date: 04/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,3 +46,11 @@ If the email address you entered matches multiple contacts in the CRM, you must 
     If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).
     
     If you've connected the external contact to an incorrect CRM contact, by mistake, you can [change the connected record](change-connected-crm-contact.md).
+
+## Show saved contacts
+
+When you read an email from external contacts or compose an email to external contacts, and have saved at least one contact in your CRM, the banner message at the top of the email shows the option to see the saved contacts. Select **Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the Copilot for Sales pane.
+
+### See also
+
+[Create a contact in your CRM](create-contact-crm-sales-copilot.md)
