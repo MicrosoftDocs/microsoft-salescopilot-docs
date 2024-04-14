@@ -50,7 +50,7 @@ This capability is available only for emails in the [supported languages](suppor
 
 :::image type="content" source="media/pre-fill.png" alt-text="Screenshot showing prefilled details from signature.":::
 
-## Create a contact from banner message
+## Create a contact from the banner message
 
 When you read an email from external contacts or compose an email to external contacts, and have not saved them in your CRM, the banner message at the top of the email shows the option to create a contact. 
 
