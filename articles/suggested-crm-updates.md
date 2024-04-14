@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 02/21/2024
+ms.date: 04/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -51,7 +51,9 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 1. To change the opportunity, select **Choose a different opportunity** and select the opportunity you want to update.
 
-1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject** icon.
+1. Review the suggested update and update the value, if necessary.
+
+1. Accept or reject the update by selecting the **Accept** or **Reject** icon.
 
 1. Select **Update**. You're navigated to the **Suggested actions** card.
 
@@ -65,8 +67,20 @@ You can also update an opportunity record with the suggested updates when viewin
 
 1. In the highlight card, select **Update opportunity** for the update you want to apply.
 
-1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject**.
+1. Review the suggested update and update the value, if necessary.
+
+1. Accept or reject the update by selecting the **Accept** or **Reject** icon.
 
     :::image type="content" source="media/suggested-oppty-details.png" alt-text="Screenshot showing option to update opportunity from details view.":::
 
 1. Select **Save**.
+
+## View data source
+
+Suggested CRM updates are displayed with citation numbers. Select the citation number to see either of the following:
+- Exact quote from the email conversation and the name of the person quoting it.
+- Any change noted in the signature such as phone number and job title of the sender.
+
+### See also
+
+[View opportunity summary](view-opportunity-summary.md)
