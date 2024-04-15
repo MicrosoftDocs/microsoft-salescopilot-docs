@@ -1,7 +1,7 @@
 ---
 title: Access the Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 03/01/2024
+ms.date: 04/05/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -51,7 +51,10 @@ You can access Copilot for Sales using any of the following options:
     - On the ribbon, select **Apps** > **Copilot for Sales**. In the pop-up, select **Copilot for Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Copilot for Sales** and then find and select the CRM entity.
     
         :::image type="content" source="media/access-app-web.svg" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
-
+    
+    > [!NOTE]
+    > If Copilot for Sales is admin-deployed, the app is automatically pinned to the ribbon.  
+ 
     - Select **Show contact** or **Add contact** in the banner message (for emails)
     
     - Select **Show summary** in the banner message (for meetings)
@@ -61,6 +64,9 @@ You can access Copilot for Sales using any of the following options:
     - On the email action bar, select **Apps** > **Copilot for Sales**.
 
         :::image type="content" source="media/access-app-web-read-email.svg" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
+
+    > [!NOTE]    
+    > If Copilot for Sales is admin-deployed, the app is automatically pinned to the email action bar.
 
 - While creating or opening a meeting
 

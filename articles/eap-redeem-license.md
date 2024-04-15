@@ -1,7 +1,7 @@
 ---
 title: Redeem Copilot for Sales EAP trial licenses
 description: Redeem Copilot for Sales EAP trial licenses and start using the product.
-ms.date: 03/22/2024
+ms.date: 04/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,12 @@ ms.custom:
 
 # Redeem Copilot for Sales EAP trial licenses
 
-As an Early Access Program (EAP) customer, you get 300 trial license for Copilot for Sales. The new licenses include the better together experience with Copilot for Microsoft 365, and work for six months from the date you redeem the code. You will receive a code in your Microsoft 365 message center. This article helps you redeem your code to receive 300 trial licenses and start using the product.
+As an Early Access Program (EAP) customer, you get 300 trial license for Copilot for Sales. The new licenses include the better together experience with Copilot for Microsoft 365, and work for six months from the date you redeem the code. You will receive a code in your Microsoft 365 message center with the following ID and subject: 
+
+- **Message center post ID**: MC759455
+- **Message center post subject**: Copilot for Sales trial licenses now available for EAP Customers
+
+This article helps you redeem your code to receive 300 trial licenses and start using the product.
 
 ## Prerequisites
 

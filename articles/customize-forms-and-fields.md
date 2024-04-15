@@ -217,7 +217,7 @@ If the fields in CRM are not marked as required, you can mark them as required o
 
 ## Configure editing of records and fields
 
-Sellers can edit records by opening them in CRM from a link in Copilot for Sales. Help them to be more productive by allowing them to edit records directly in Copilot for Sales. You can also control which fields sellers can edit directly in Copilot for Sales.
+Sellers can edit records by opening them in CRM from a link in Copilot for Sales. Help them be more productive by allowing them to edit records directly in Copilot for Sales. You can also control which fields sellers can edit directly in Copilot for Sales.
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
 
@@ -225,11 +225,11 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 1.  In Copilot for Sales admin settings, select **Forms**.
 
-2.  Select a record type for which you need to allow editing.
+2.  Select the record type that you must allow editing for.
 
-3.  In the **Editing records** section, select **Edit records inside Copilot for Sales** to allow sellers to edit all relevant fields in that record type.
+3.  In the **Editing records** section, select **Edit records inside Copilot for Sales** to allow sellers to edit all relevant fields for that record type.
 
-4.  To restrict editing for specific fields, go to the **Manage fields** section, and turn off **Allow editing** for corresponding fields.
+4.  To restrict editing for specific fields, in the **Manage fields** section, turn off **Allow editing** for the appropriate fields.
 
     :::image type="content" source="media/viva-sales-allow-edit.png" alt-text="Screenshot showing how to enable editing of records and fields in Copilot for Sales.":::
 
@@ -237,18 +237,18 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 ## Configure new record creation
 
-Choose how, where, and if sellers can create new records from Copilot for Sales. Help them save time by allowing them to create new records inline, directly in Copilot for Sales, and make it easy for them to go to their CRM in a browser with a click.
+Choose whether, how, and where sellers can create new records from Copilot for Sales. Help them save time by allowing them to create new records inline, directly in Copilot for Sales, and make it easy for them to go to their CRM in a browser with a click.
 
-**To configure new contact creation**:
+**To configure new contact creation**
 
 1.  In Copilot for Sales admin settings, select **Forms**.
 
-2.  Select the record type for which you need to configure new record creation.
+2.  Select the record type that you must configure new record creation for.
 
-3.  In the **Creating records**, select either or both of the following options:
+3.  In the **Creating records** section, select one or both of the following options:
+
     - **Create new records inside Copilot for Sales**: Allow sellers to create new records inline, directly in Copilot for Sales.
     - **Create new records by opening (CRM) from a link**: Allow sellers to create new records in CRM by opening a link in a browser.
-
 
     :::image type="content" source="media/viva-sales-inline-contact-create.png" alt-text="Screenshot showing how to configure contact creation in Copilot for Sales.":::
 
