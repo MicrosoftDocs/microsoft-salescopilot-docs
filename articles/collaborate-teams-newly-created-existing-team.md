@@ -57,7 +57,7 @@ Internal channels like **General** and **Coffee Machine** have the following app
   > - If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
   > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams, [use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
 
-- **Notes** is a OneNote notebook you can use to share notes with all the members of the channel. It is provided by Teams. It is available only in the new collaboration spaces that are created after April 2024.
+- **Notes** is a OneNote notebook you can use to share notes with all the members of the channel. It is provided by Teams.
 
 - **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the channel. It is available only in the existing collaboration spaces that were created before April 2024.
 
