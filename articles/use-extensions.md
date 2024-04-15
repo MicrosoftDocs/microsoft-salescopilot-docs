@@ -1,7 +1,7 @@
 ---
 title: Integrate Microsoft Copilot for Sales with other applications
 description: Learn how to integrate Copilot for Sales with other applications
-ms.date: 02/02/2024
+ms.date: 04/12/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,6 +17,10 @@ ms.author: shjais
 You can integrate Copilot for Sales with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Copilot for Sales and add insights for your sellers.
 
 ## Integrate with Viva Topics
+
+> [!IMPORTANT]
+> Copilot for Sales integration with Viva Topics in conversation intelligence will be deprecated on February 22, 2025 due to the deprecation of Viva Topics. If you already have an integration with Viva Topics, you can continue to use this feature until the deprecation date. New integrations between Copilot for Sales and Viva Topics will be blocked from May 10, 2024.
+
 
 Viva Topics provides information to users when they need it. When sellers are having a conversation with a customer in a Teams meeting and some topics are mentioned that are not familiar to sellers, Viva Topics can help them understand what a topic means, who in the organization is an expert on the topic, and websites and documents that are related to the topic. Learn more about [Viva Topics](/viva/topics/topic-experiences-overview).
 
