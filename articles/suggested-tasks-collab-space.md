@@ -14,7 +14,7 @@ ms.custom:
 
 # Advanced collaboration with AI-powered Planner tasks
 
-Sales teams work together closely and use apps like Microsoft Planner to manage their tasks efficiently. Numerous critical next steps and action items emerge in their daily conversations. However, many of these tasks are not captured and tracked, leading to missed opportunities and lost revenue.
+Sales teams work together closely and use apps like Microsoft Planner to manage their tasks efficiently. Numerous critical next steps and action items emerge in their daily conversations. However, many of these tasks aren't captured and tracked, leading to missed opportunities and lost revenue.
 
 The AI powered Planner tasks feature in Copilot for Sales helps sellers to stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Teams and helps sellers to capture and track tasks that are discussed in their conversations. It automatically turns important discussions into Planner tasks, making it easy to track important activities. Sellers can also assign tasks to the right people and set deadlines.
 
@@ -29,7 +29,7 @@ Key benefits of the suggested tasks feature are:
     > - Task suggestions are displayed only in the Standard channel and not in the private channel or shared channel.
     > - Task suggestions are shown only for the collaboration spaces that are created after April 15, 2024 and not for the existing collaboration spaces.
 
-- **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If required, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
+- **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If necessary, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
 
 - **Planner app integration**: Sales team members can add the Planner app as a tab in the channel to view and manage the tasks from it. They can also view and manage the tasks from the Planner app.
 

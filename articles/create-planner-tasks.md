@@ -12,13 +12,13 @@ ms.author: shjais
 
 1. Open an account team or deal room channel in Microsoft Teams. 
 
-    If task suggestions are available, you'll see the **Suggested Planner tasks** card for a post in the channel.
+    If task suggestions are available, you see the **Suggested Planner tasks** card for a post in the channel.
 
 1. In the **Suggested Planner tasks** card, review the suggested tasks. Task name and assignee are shown for each task.
 
-1. Add the due date for each task. If required, edit the task, task name, and assignee.
+1. Add the due date for each task. If necessary, edit the task, task name, and assignee.
 
-1. If you've multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list, else select **Create a new plan**.
+1. If you have multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list, else select **Create a new plan**.
 
 1. Select the tasks you want to create, and then select **Create tasks**.
 
