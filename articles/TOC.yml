@@ -204,8 +204,12 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
-      - name: View suggested tasks
-        href: suggested-tasks-collab-space.md
+      - name: AI-powered Planner tasks
+        items:
+        - name: Overview
+          href: suggested-tasks-collab-space.md
+        - name: Create Planner tasks from suggested tasks
+          href: create-planner-tasks.md
 
   - name: Conversation intelligence dashboard (preview)
     items:

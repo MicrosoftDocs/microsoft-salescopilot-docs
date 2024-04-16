@@ -1,8 +1,8 @@
 ---
-title: Advanced collaboration with AI powered Planner tasks
-description: Efficient task management for sales teams with AI powered Planner tasks in Copilot for Sales
+title: Advanced collaboration with AI-powered Planner tasks
+description: Efficient task management for sales teams with AI-powered Planner tasks in Copilot for Sales
 ms.date: 04/15/2024
-ms.topic: how-to
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:03/14/2024
 ---
 
-# Advanced collaboration with AI powered Planner tasks
+# Advanced collaboration with AI-powered Planner tasks
 
 Sales teams work together closely and use apps like Microsoft Planner to manage their tasks efficiently. Numerous critical next steps and action items emerge in their daily conversations. However, many of these tasks are not captured and tracked, leading to missed opportunities and lost revenue.
 
@@ -27,7 +27,7 @@ Key benefits of the suggested tasks feature are:
     > [!NOTE]
     > - Automated task suggestions are available only in collaboration spaces that are created using the account team or deal room template in Microsoft Teams. They are not available in all Teams channels.
     > - Task suggestions are displayed only in the Standard channel and not in the private channel or shared channel.
-    > - Task suggestions are shown only for the collaboration spaces that are created after March 2024 and not for the existing collaboration spaces.
+    > - Task suggestions are shown only for the collaboration spaces that are created after April 15, 2024 and not for the existing collaboration spaces.
 
 - **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If required, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
 
@@ -51,33 +51,8 @@ This feature is currently supported only in English.
 
 Collaboration space must be created for [account team](set-up-team-account-team-template.md) or [deal room](set-up-team-deal-room-template.md) in Microsoft Teams.
 
-## Create Planner tasks from suggested tasks
-
-1. Open an account team or deal room channel in Microsoft Teams. 
-
-    If task suggestions are available, you'll see the **Suggested Planner tasks** card for a post in the channel.
-
-1. In the **Suggested Planner tasks** card, review the suggested tasks. Task name and assignee are shown for each task.
-
-1. Add the due date for each task. If required, edit the task task name and assignee.
-
-1. If you've multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list, else select **Create a new plan**.
-
-1. Select the tasks you want to create, and then select **Create tasks**.
-
-    :::image type="content" source="media/collab-space-ai-tasks.png" alt-text="Screenshot showing AI suggested Planner tasks.":::
-
-1. In the confirmation message, select **Go to Planner** to add the Planner app as a tab in the channel. 
-
-1. Select **Set up tab**.
-
-1. In the Planner window, select **Use an existing plan from this team**, select the plan name shown in the confirmation message, and then select **Save**.
-
-    :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing option to set up Planner tab.":::
-
-    Sales team members can make updates to the tasks directly from the Planner app added in a tab without switching to the Planner app. Tasks updates are automatically reflected in the Planner app as well.
-
 ### See also
 
+[Create Planner tasks from suggested tasks](create-planner-tasks.md)<br>
 [Set up account team template in Microsoft Teams](set-up-team-account-team-template.md) <br>
 [Set up deal room template in Microsoft Teams](set-up-team-deal-room-template.md)
