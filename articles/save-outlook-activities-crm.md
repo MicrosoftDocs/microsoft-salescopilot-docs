@@ -84,14 +84,16 @@ Copilot for Sales displays records that are related to the saved contacts in the
 
 1. The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
 
-## Save Outlook activities from the banner message
+## Save Outlook activities through quick CRM actions in email banners
 
-When you read an email from external contacts or compose an email to external contacts, and have not saved the email in your CRM, the banner message at the top of the email shows the option to save the email to the CRM. 
+When you read a customer email from external contacts and have not saved the email in your CRM, the banner message at the top of the email enables you to save the email through quick CRM actions.
 
 1. Open or compose an email with at least one external contact.
 2. In the banner message, select **Save this email**.
 3. In the **Copilot for Sales** pane, under **Connect to a record**, select select the record you want to connect the meeting to. 
 4. Select **Save**.
+
+Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
 
 ## Change the connected record
 

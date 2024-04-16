@@ -47,9 +47,12 @@ If the email address you entered matches multiple contacts in the CRM, you must 
     
     If you've connected the external contact to an incorrect CRM contact, by mistake, you can [change the connected record](change-connected-crm-contact.md).
 
-## Show saved contacts
+## Show saved contacts through quick CRM actions in email banners
 
-When you read an email from external contacts or compose an email to external contacts, and have saved at least one contact in your CRM, the banner message at the top of the email shows the option to see the saved contacts. Select **Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the Copilot for Sales pane.
+When you read an email from external contacts and have all the contacts saved in your CRM, the banner message at the top of the email enables you to access the saved CRM contact details through quick CRM actions in the banner. Select
+**Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the **Copilot for Sales** pane.
+
+Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
 
 ### See also
 

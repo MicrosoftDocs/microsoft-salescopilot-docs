@@ -50,14 +50,16 @@ This capability is available only for emails in the [supported languages](suppor
 
 :::image type="content" source="media/pre-fill.png" alt-text="Screenshot showing prefilled details from signature.":::
 
-## Create a contact from the banner message
+## Add new contacts through quick CRM actions in email banners
 
-When you read an email from external contacts or compose an email to external contacts, and have not saved them in your CRM, the banner message at the top of the email shows the option to create a contact. 
+When you read an email from external contacts and have at least one contact (in the email thread) that's not saved in CRM, the banner message at the top of the email enables you to add the new contacts through quick CRM actions.
 
-1. Open or compose an email to external contacts.
+1. Open an email with external contacts.
 2. Select **Add contact** or **Add contacts**.
 3. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**.
 4. In the **New contact** form, add the required information, and then select **Save**.
+
+Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
 
 ### See also
 
