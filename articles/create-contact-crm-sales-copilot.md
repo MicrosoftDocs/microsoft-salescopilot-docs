@@ -55,11 +55,19 @@ This capability is available only for emails in the [supported languages](suppor
 When you read an email from external contacts and have at least one contact (in the email thread) that's not saved in CRM, the banner message at the top of the email enables you to add the new contacts through quick CRM actions.
 
 1. Open an email with external contacts.
+
 2. Select **Add contact** or **Add contacts**.
+
 3. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**.
+
+    :::image type="content" source="media/banner-add-contact.png" alt-text="Screenshot showing banner message with quick action to add a new contact.":::
+
 4. In the **New contact** form, add the required information, and then select **Save**.
 
 Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+
+> [!NOTE]
+> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
 
 ### See also
 

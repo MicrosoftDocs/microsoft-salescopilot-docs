@@ -89,11 +89,19 @@ Copilot for Sales displays records that are related to the saved contacts in the
 When you read a customer email from external contacts and have not saved the email in your CRM, the banner message at the top of the email enables you to save the email through quick CRM actions.
 
 1. Open or compose an email with at least one external contact.
+
 2. In the banner message, select **Save this email**.
+
 3. In the **Copilot for Sales** pane, under **Connect to a record**, select select the record you want to connect the meeting to. 
+
+    :::image type="content" source="media/banner-save-email.png" alt-text="Screenshot showing banner message with quick action to save an email.":::
+
 4. Select **Save**.
 
 Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+
+> [!NOTE]
+> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
 
 ## Change the connected record
 

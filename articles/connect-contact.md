@@ -52,7 +52,12 @@ If the email address you entered matches multiple contacts in the CRM, you must 
 When you read an email from external contacts and have all the contacts saved in your CRM, the banner message at the top of the email enables you to access the saved CRM contact details through quick CRM actions in the banner. Select
 **Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the **Copilot for Sales** pane.
 
+:::image type="content" source="media/banner-show-contact.png" alt-text="Screenshot showing banner message with quick action to see saved contacts.":::
+
 Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+
+> [!NOTE]
+> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
 
 ### See also
 
