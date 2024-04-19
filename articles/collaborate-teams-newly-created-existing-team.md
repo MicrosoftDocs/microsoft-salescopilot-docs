@@ -61,8 +61,8 @@ Internal channels like **General** and **Coffee Machine** have the following app
 
 - **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the Teams channel. It's available only in the existing collaboration spaces that were created before April 15, 2024.
 
-    > [!NOTE]
-    > If the **CRM OneNote** tab shows an error message when you open it, you must delete the tab by right-clicking it and selecting **Remove**. You must use the **Notes** tab provided by Teams to share notes in the channel.
+  > [!NOTE]
+  > If the **CRM OneNote** tab shows an error message when you open it, you must delete the tab by right-clicking it and selecting **Remove**. You must use the **Notes** tab provided by Teams to share notes in the channel.
 
 Shared channels like **Customer - Fourth Coffee** or **Customer - Coffee Machine** have the following apps pinned as tabs:
 
