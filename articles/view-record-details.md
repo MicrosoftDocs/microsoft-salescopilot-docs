@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 04/15/2024
+ms.date: 04/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
