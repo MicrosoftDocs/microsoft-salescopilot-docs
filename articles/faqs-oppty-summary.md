@@ -1,7 +1,7 @@
 ---
-title: FAQ for opportunity summary feature in Outlook
+title: FAQ for opportunity summary feature in Outlook and Teams
 description: This FAQ provides information about the AI technology used in the opportunity summary feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/02/2024
+ms.date: 04/24/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -11,21 +11,21 @@ ms.author: shjais
 ms.reviewer: shjais
 ---
 
-# FAQ for opportunity summary feature in Outlook
+# FAQ for opportunity summary feature in Outlook and Teams
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's opportunity summary feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's opportunity summary feature in Outlook and Teams. 
 
-## What is opportunity summary feature in Outlook?
+## What is opportunity summary feature in Outlook and Teams?
 
-Leveraging CRM data, Copilot for Sales provides salespeople with a summary of relevant information before a meeting. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions during the meeting.
+Leveraging CRM data, Copilot for Sales provides salespeople with a summary of relevant information before a meeting and in Teams chat and channel conversations. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions.
 
 ## What are the feature's capabilities?
 
-Leveraging its integration with CRM systems and customer databases, Copilot for Sales retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions during the meeting.
+Leveraging its integration with CRM systems and customer databases, Copilot for Sales retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions.
 
 ## What is the feature's intended use?
 
-The intended use of this feature is to provide salespeople with an overview of customer information and insights based on CRM information. By aggregating and analyzing data from CRM systems and customer databases, it aims to equip salespeople with the necessary context, enabling them to have well-informed discussions, build stronger relationships, and increase the chances of successful outcomes during customer meetings.
+The intended use of this feature is to provide salespeople with an overview of customer information and insights based on CRM information. By aggregating and analyzing data from CRM systems and customer databases, it aims to equip salespeople with the necessary context, enabling them to have well-informed discussions, build stronger relationships, and increase the chances of successful outcomes when communicating with the customer or collaborating with colleagues.
 
 ## How was the opportunity summary feature evaluated? What metrics are used to measure performance?
 

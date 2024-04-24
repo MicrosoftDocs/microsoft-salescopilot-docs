@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in a Teams conversation
 description: Learn how to share a CRM record in a Teams conversation.
-ms.date: 02/02/2024
+ms.date: 04/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Share a CRM record in a Teams conversation
 
-Copilot for Sales does even more than offer rich insights after a Teams meeting with customers. You can also use it to share a customer's record in a Teams chat or channel as an adaptive card.
+Copilot for Sales does even more than offer rich insights after a Teams meeting with customers. You can also use it to share a customer's record in a Teams chat or channel as an adaptive card. The adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. Note that the AI-generated summary is displayed only if the Copilot features are enabled for your organization.
 
 With the Copilot for Sales app, you can:
 
