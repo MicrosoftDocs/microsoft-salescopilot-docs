@@ -60,7 +60,8 @@ You can add new custom or out-of-the-box record types to Copilot for Sales. For 
     > [!NOTE]
     > - Only record types that are related to a currently available record type are displayed. For example, contact, account, and opportunity record types are available by default, so you can add other out-of-the-box and custom record types that are related to these record types.
     > - You can add only one record type at a time.
-    > - Logical names of record types and fields are displayed to optimize performance. 
+    > - Logical names of record types and fields are displayed to optimize performance.
+    > - For Dynamics 365, ActivityParty and ActivityPointer record types can't be added, as they are currently not supported. 
 
     :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 
