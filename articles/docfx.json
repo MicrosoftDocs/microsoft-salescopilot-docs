@@ -45,7 +45,7 @@
       "breadcrumb_path": "/microsoft-sales-copilot/breadcrumb/toc.json",
       "extendBreadcrumb": false,
       "feedback_system": "Standard",
-            "search.app": [
+      "search.app": [
         "microsoftviva-docs",
         "salescopilot-docs"
       ]
