@@ -44,9 +44,8 @@
       "uhfHeaderId": "MSDocsHeader-MicrosoftSalesCopilot",
       "breadcrumb_path": "/microsoft-sales-copilot/breadcrumb/toc.json",
       "extendBreadcrumb": false,
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/microsoft-salescopilot-docs",
-      "search.app": [
+      "feedback_system": "Standard",
+            "search.app": [
         "microsoftviva-docs",
         "salescopilot-docs"
       ]
