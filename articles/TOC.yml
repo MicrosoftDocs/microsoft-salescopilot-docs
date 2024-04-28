@@ -176,8 +176,6 @@
           href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
-      - name: Share a CRM record in a Teams conversation
-        href: share-crm-record-teams-conversation.md
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
     - name: Share feedback
@@ -202,7 +200,10 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
-
+    - name: Share a CRM record in a Teams and Outlook
+      href: share-crm-record-teams-conversation.md
+    - name: Copilot for Sales personal app
+      href: personal-app.md
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Analyze your sellers' conversation data with Power BI
