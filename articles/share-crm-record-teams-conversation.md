@@ -20,7 +20,7 @@ The adaptive card also displays the AI-generated summary of the record, enabling
 > - For Outlook support, ensure that the enhanced Teams app has been deployed.
 > - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
 > - If you're using Salesforce as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view data in the adaptive card while also having read access for the record and Copilot for Sales privileges.
-> - Data in the adaptive card is refreshed from the CRM system only when you manually refresh the card or when you add the card to the email. 
+> - Data in the adaptive card is refreshed from the CRM system every time you view the card in Teams chat or email, or when you manually refresh the card.
 
 ## Share a CRM record in Teams using search message extension
 
