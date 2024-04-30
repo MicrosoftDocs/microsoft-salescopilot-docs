@@ -114,7 +114,7 @@ The experience of using the Copilot for Sales search message extension when comp
 1. Send the message to the chat.
 
 > [!NOTE]
-> You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from the Saleforce, it doesn't unfurl and display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls and displays the adaptive card.
+> You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from the Salesforce, it doesn't unfurl and display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls and displays the adaptive card.
 
 ### See also
 
