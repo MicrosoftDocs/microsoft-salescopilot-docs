@@ -1,7 +1,7 @@
 ---
 title: Advanced collaboration with AI-powered Planner tasks
 description: Efficient task management for sales teams with AI-powered Planner tasks in Copilot for Sales
-ms.date: 04/15/2024
+ms.date: 05/01/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,11 @@ ms.custom:
   - ai-seo-date:03/14/2024
 ---
 
-# Advanced collaboration with AI-powered Planner tasks
+# Advanced collaboration with AI-powered Planner tasks (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Sales teams work together closely and use apps like Microsoft Planner to manage their tasks efficiently. Numerous critical next steps and action items emerge in their daily conversations. However, many of these tasks aren't captured and tracked, leading to missed opportunities and lost revenue.
 
@@ -22,12 +26,13 @@ Planner tasks that are created from the suggested tasks can be accessed from the
 
 Key benefits of the suggested tasks feature are:
 
-- **Automated tasks suggestions**: As sales teams collaborate within collaboration spaces in Teams, the Copilot for Sales bot actively monitors the conversations in the channel for relevant discussions and action items. When it finds a potential task, it suggests the task to the channel members, who can then decide whether to add the task to their task list. Tasks are suggested once every 24 hours for new posts and replies in the channel.
+- **Automated tasks suggestions**: As sales teams collaborate within collaboration spaces in Teams, the Copilot for Sales bot actively monitors the conversations in the channel for relevant discussions and action items. When it finds a potential task, it suggests the task to the channel members, who can then decide whether to add the task to their task list. Tasks are suggested once every 24 hours for each post and its replies in the channel.
 
     > [!NOTE]
+    > - The channel must have at least 10 messages in the last 24 hours in at least one of the posts in the channel for the task suggestions to be generated. If there's no task suggestion, a message is displayed informing the user about the same.
     > - Automated task suggestions are available only in collaboration spaces that are created using the account team or deal room template in Microsoft Teams. They are not available in all Teams channels.
     > - Task suggestions are displayed only in the Standard channel and not in the private channel or shared channel.
-    > - Task suggestions are shown only for the collaboration spaces that are created after April 15, 2024 and not for the existing collaboration spaces.
+    > - Task suggestions are shown only for the collaboration spaces that are created after May 01, 2024 and not for the existing collaboration spaces.
 
 - **Task creation and assignment**: Sales team members can select all or some of the suggested tasks and create them as Planner tasks. They can also assign the tasks to themselves or to other channel members. If necessary, they can update the task title, owner, and due date. Preview of the task is shown to the user creating the task.
 

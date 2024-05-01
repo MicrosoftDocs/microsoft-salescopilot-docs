@@ -1,7 +1,7 @@
 ---
 title: Turn off task suggestion in collaboration spaces
 description: Control AI-powered task suggestions in collaboration spaces as a Sales administrator to customize the user experience in Microsoft Teams.
-ms.date: 03/18/2024
+ms.date: 05/01/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,11 @@ ms.custom:
   - ai-seo-date:03/14/2024
 ---
 
-# Turn off task suggestion in collaboration spaces
+# Turn off task suggestion in collaboration spaces (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Sales team members spend a lot of time communicating and coordinating with colleagues within Microsoft Teams. Copilot for Sales makes it easy for sellers to stay on top of their action items by suggesting tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or to other channel members.
 

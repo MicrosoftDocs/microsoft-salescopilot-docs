@@ -1,14 +1,18 @@
 ---
 title: Create Planner tasks from suggested tasks
 description: Learn how to create Planner tasks from suggested tasks in collaboration spaces in Microsoft Teams.
-ms.date: 04/15/2024
+ms.date: 05/01/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Create Planner tasks from suggested tasks
+# Create Planner tasks from suggested tasks (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 1. Open an account team or deal room channel in Microsoft Teams. 
 
@@ -28,7 +32,7 @@ ms.author: shjais
 
 1. Select **Set up tab**.
 
-1. In the Planner window, select **Use an existing plan from this team**, select the plan name shown in the confirmation message, and then select **Save**.
+1. In the **Planner** window, select **Use an existing plan from this team**, select the plan name shown in the confirmation message, and then select **Save**.
 
     :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing option to set up Planner tab.":::
 
