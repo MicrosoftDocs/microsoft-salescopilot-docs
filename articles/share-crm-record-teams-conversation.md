@@ -1,40 +1,36 @@
 ---
-title: Share a CRM record in a Teams conversation
-description: Learn how to share a CRM record in a Teams conversation.
-ms.date: 02/02/2024
+title: Share a CRM record in a Teams conversation or email
+description: Learn how to share a CRM record in a Teams conversation or email using Copilot for Sales.
+ms.date: 05/01/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Share a CRM record in a Teams conversation
+# Share a CRM record in Teams or Outlook
 
-Copilot for Sales does even more than offer rich insights after a Teams meeting with customers. You can also use it to share a customer's record in a Teams chat or channel as an adaptive card.
+Copilot for Sales enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.
 
-With the Copilot for Sales app, you can:
-
-- Search for a record to share
-
-- Paste a link to a record that will unfurl into a rich adaptive card
+You can share a CRM record either by using the Copilot for Sales search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
 
 > [!NOTE]
-> - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
-> - If you're using Salesforce as your CRM system, and you receive an adaptive card in a Teams chat or channel, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view data in the adaptive card while also having read access for the record and Copilot for Sales privileges.
+> - For Outlook support, ensure that the [enhanced Teams app has been deployed](whats-new-copilot-sales.md#enhanced-teams-app-support).
+> - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
+> - If you're using Salesforce as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view data in the adaptive card while also having read access for the record and Copilot for Sales privileges.
+> - Data in the adaptive card is refreshed from the CRM system every time you view the card in Teams chat or email, or when you manually refresh the card.
 
-## Search for a CRM record to share
+## Share a CRM record in Teams using search message extension
 
-1. Go to the conversation in which you want to share the contact. Select the **Copilot for Sales** icon under the message box.
+1. Go to the conversation in which you want to share the CRM record. Select **More apps** (**...**), search for the **Copilot for Sales** app, and then select it. If the app is pinned to the action bar, select the **Copilot for Sales** icon under the message box.
 
    :::image type="content" source="media/viva-sales-icon.png" alt-text="Screenshot showing the Copilot for Sales icon under message box.":::
-
-    If the Copilot for Sales icon isn't there, select **Messaging extensions** (**...**), search for the **Copilot for Sales** app, and then select it.
 
 1. In the **Copilot for Sales** window, search for and select the record.
 
    > [!NOTE]
    >
-   > - By default, the recently accessed records are displayed, without performing any search. You can either search for the record or use [advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
+   > - By default, the recently accessed records are displayed, without performing any search. You can either search for the record or select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
    >
    > - If you change the name of a record type in CRM, they are not updated in Adaptive Card or messaging extensions in Teams. For example, if you rename Account to Customer, the name in Adaptive Card and messaging extensions will show as Account.
 
@@ -49,13 +45,46 @@ With the Copilot for Sales app, you can:
 
 1. Send the message to the chat.
 
-### Share a record using advanced search
+If the recipients don't have the Copilot for Sales app installed in Teams, a message is displayed at the bottom of the card prior to sending the message. The message informs the recipients that they need to install the Copilot for Sales app to view the record details. Once the app is installed, the adaptive card is displayed with the record details if the recipients have access to the CRM record, otherwise, a link to the record is displayed in the card.
 
-1. Go to the conversation in which you want to share the contact. Select the **Copilot for Sales** icon under the message box.
+If the app is blocked by the admin, the message informs the recipients that they need to contact their admin to enable the app.
 
-    If the Copilot for Sales icon isn't there, select **Messaging extensions** (**...**), search for the **Copilot for Sales** app, and then select it.
+## Share a CRM record in Outlook using search message extension
 
-1. In the **Copilot for Sales** window, select **Advanced search** in the upper-right corner.
+The experience of using the Copilot for Sales search message extension when composing an email is a bit different in classic Outlook desktop, new Outlook desktop, and Outlook on the web. 
+
+### Classic Outlook desktop
+
+1. On the ribbon, select **Copilot for Sales** or **All Apps** > **Copilot for Sales**.
+
+2. In the pop-up, select **Search Microsoft Copilot for Sales**. 
+
+    Alternatively, you can select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
+
+    :::image type="content" source="media/search-outlook-classic.png" alt-text="Screenshot showing search option in the Copilot for Sales app in classic Outlook.":::
+
+3. In the **Microsoft Copilot for Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
+
+    :::image type="content" source="media/search-pane-outlook-classic.png" alt-text="Screenshot showing search pane for the Copilot for Sales app in classic Outlook.":::
+
+    The adaptive card is added to the email.
+
+
+### New Outlook desktop and Outlook on the web
+
+1. On the ribbon, select **Apps** > **Copilot for Sales**.
+
+1. In the pop-up, select **Search Copilot for Sales**.
+
+    :::image type="content" source="media/search-outlook-new.png" alt-text="Screenshot showing search option in the Copilot for Sales app in new Outlook.":::
+
+1. In the **Copilot for Sales** pop-up, select a record from the list of recently accessed records or search for and select the CRM record.
+
+    :::image type="content" source="media/search-pane-outlook-new.png" alt-text="Screenshot showing search pop-up for the Copilot for Sales app in new Outlook.":::
+
+    The adaptive card is added to the email.
+
+## Share a record using advanced search
 
 1. In the **Advanced search** window, enter or select the following values:
 
@@ -74,7 +103,7 @@ With the Copilot for Sales app, you can:
 
 1. [Copy the record link from the Copilot for Sales app in Outlook](share-link-crm-record.md).
 
-1. Go to the conversation in which you want to share the record. Paste the link.
+1. Paste the link in the chat or email.
 
     The record card is added to the message box.
 
@@ -83,4 +112,9 @@ With the Copilot for Sales app, you can:
 1. Send the message to the chat.
 
 > [!NOTE]
-> You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from the CRM system, it doesn't add the Copilot for Sales record card.
+> You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from Salesforce, it doesn't unfurl to display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls to display the adaptive card.
+
+### See also
+
+[Access the Copilot for Sales app](open-app.md)<br>
+[Share a link to a CRM record](share-link-crm-record.md)
