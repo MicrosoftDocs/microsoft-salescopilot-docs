@@ -14,8 +14,6 @@ Copilot for Sales enables you to share a CRM record with your team members in a 
 
 You can share a CRM record either by using the Copilot for Sales search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
 
-The adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. Note that the AI-generated summary is displayed only if the Copilot features are enabled for your organization.
-
 > [!NOTE]
 > - For Outlook support, ensure that the [enhanced Teams app has been deployed](whats-new-copilot-sales.md#enhanced-teams-app-support).
 > - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
