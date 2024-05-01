@@ -67,7 +67,7 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
-    - name: Turn off task suggestion in collaboration spaces
+    - name: Turn off task suggestion in collaboration spaces (preview)
       href: turn-off-suggested-tasks-collab-space.md
     - name: Copilot data movement across geographies
       href: copilot-data-movement.md
@@ -204,7 +204,7 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
-      - name: AI-powered Planner tasks
+      - name: AI-powered Planner tasks (preview)
         items:
         - name: Overview
           href: suggested-tasks-collab-space.md
