@@ -178,8 +178,6 @@
       items:
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-    - name: Share feedback
-      href: share-feedback-teams.md
 
   - name: Capabilities in Microsoft Word
     items:
