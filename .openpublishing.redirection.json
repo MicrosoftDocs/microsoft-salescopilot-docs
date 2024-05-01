@@ -534,6 +534,21 @@
         "source_path": "articles/introduction-sales-copilot.md",
         "redirect_url": "/microsoft-sales-copilot/introduction",
         "redirect_document_id": false
-      }                   
+      },
+      {
+        "source_path": "articles/api-ref-partner-apps.md",
+        "redirect_url": "/microsoft-sales-copilot/build-apis",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/api-get-related-activities.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-record-summary",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/api-get-related-records.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-record-details",
+        "redirect_document_id": false
+      }                       
   ]
 }
