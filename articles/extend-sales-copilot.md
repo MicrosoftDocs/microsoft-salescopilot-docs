@@ -14,9 +14,9 @@ ms.custom:
 
 # Extend Microsoft Copilot for Sales with partner applications (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Microsoft Copilot for Sales is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
@@ -67,9 +67,7 @@ Additionally, you can introduce new Q&A capabilities to the chat features in Cop
     > [!NOTE]
     > If you want to extend any capability other than the ones listed [here](#copilot-capabilities-that-can-be-extended), contact us using [this link](https://aka.ms/SalesCopilotPartnerSignUp).
 
-2. Implement the APIs to extend the capabilities you chose in step 1.
-    1. Latest activities in opportunity summary - [GetRelatedActivities](api-get-related-activities.md)
-    1. Records from non-CRM applications related to CRM records - [GetRelatedRecords](api-get-related-records.md)
+2. [Implement the APIs](build-apis.md) to extend the capabilities you chose in step 1.
 
 3. Add the above APIs to an existing or a new [Power Platform copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
 

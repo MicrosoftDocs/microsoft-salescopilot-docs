@@ -1,5 +1,5 @@
 ---
-title: Enrich CRM record details  with insights from your application (preview)
+title: Enrich CRM record details with insights from your application (preview)
 description: 
 ms.date: 05/15/2024
 ms.topic: article
@@ -13,11 +13,11 @@ ms.custom:
 ---
 
 
-# Enrich CRM record details  with insights from your application (preview)
+# Enrich CRM record details with insights from your application (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Sellers can view details about a saved contact, along with its associated records such as accounts and opportunities. You can extend the CRM record details capability provided by Copilot for Sales with insights from your own application.
 
@@ -29,7 +29,7 @@ You need to add the API description to the plugin action to enable Copilot for S
 
 ## Input parameters
 
-Copilot is designed to provide the following input parameters to your plugin APIs.
+Copilot for Sales is designed to provide the following input parameters to your plugin APIs.
 
 | Name | Data type / Format | Required | Details | Description to be added in plugin |
 |------|--------------------|----------|---------|-----------------------------------|
@@ -49,11 +49,11 @@ Copilot is designed to provide the following input parameters to your plugin API
 
 ## Output parameters
 
-Copilot anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure Copilot can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
-|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-an-activity-record)|
+|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-insight)|
 |hasMoreResults|Boolean|No|Indicates if there are more results available.|
 
 ### Schema for insight

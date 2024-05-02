@@ -15,9 +15,9 @@ ms.custom:
 
 # Enrich CRM record summary with insights from your application (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 When preparing for a customer meeting or reading an email, sellers seek pertinent CRM information such as customer queries, concerns, and notes to gain a better understanding of the context prior to the meeting. Copilot for Sales uses AI to generate a summary of each CRM record, highlighting crucial details such as sales stage, budget, and projected close date. You can extend the CRM record summary capability provided by Copilot for Sales with insights from your own application.
 
@@ -29,7 +29,7 @@ You need to add the API description to the plugin action to enable Copilot for S
 
 ## Input parameters
 
-Copilot is designed to provide the following input parameters to your plugin APIs.
+Copilot for Sales is designed to provide the following input parameters to your plugin APIs.
 
 | Name | Data type / Format | Required | Details | Description to be added in plugin |
 |------|--------------------|----------|---------|-----------------------------------|
@@ -51,11 +51,11 @@ Copilot is designed to provide the following input parameters to your plugin API
 
 ## Output parameters
 
-Copilot anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure Copilot can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
-|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-an-activity-record)|
+|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-insight)|
 |hasMoreResults|Boolean|No|Indicates if there are more results available.|
 
 ### Schema for insight

@@ -14,15 +14,15 @@ ms.custom:
 
 # Build application APIs to extend Copilot for Sales (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This section outlines what Copilot for Sales expects from your application APIs that either enhance an existing feature or introduce a new one. It covers the following aspects:
+This section outlines what Copilot for Sales expects from your application APIs that either enhance an existing capability or introduce a new one. It covers the following aspects:
 
-- The input context that your application APIs can anticipate from Copilot (feature experience).
-- The kind of insights that each feature experience can display in the user interface (and hence, what your APIs should provide).
-- The descriptions needed at the API level, as well as for each API input and output, to assist Copilot in identifying the correct API to invoke at runtime.
+- The input context that your application APIs can anticipate from Copilot for Sales (capability).
+- The kind of insights that each capability can display in the user interface (and hence, what your APIs should provide).
+- The descriptions needed at the API level, as well as for each API input and output, to assist Copilot for Sales in identifying the correct API to invoke at runtime.
 
 > [!NOTE]
 > These definitions are provided with high confidence, but they are subject to change based on our internal reviews, testing, and feedback. Some descriptions might currently be empty. We are in the process of defining these and will provide updates in a future version of the guide.
