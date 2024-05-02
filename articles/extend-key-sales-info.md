@@ -33,8 +33,35 @@ Copilot for Sales is designed to provide the following input parameters to your 
 | Name | Data type / Format | Required | Details | Description to be added in plugin |
 |------|--------------------|----------|---------|----------------------------------|
 | recordType | String with one for the following values: account, opportunity, lead, contact. | Yes | Record Type in CRM. | This input identifies the record type in CRM for which key sales info is requested. |
-| recordId | String | Yes | Record ID in CRM. | This input provides the unique identifier of the CRM record for which key sales info is requested |
-| crmType | String | No | Type of CRM system. Valid values: Salesforce, Dynamics365 | This input indicates the type of CRM in which the CRM record exists, for which key sales info is requested |
-| crmOrgUrl | String | No | CRM Organization URL. | This input indicates the URL of the CRM environment in which the CRM record exists, for which key sales info is requested |
-| top | Integer | No | Number of insights to fetch. | This input indicates the number of sales highlights to fetch |
-| skip | Integer | No | Number of insights to skip. | This input indicates the number of items to skip when fetching sales highlights |
+| recordId | String | Yes | Record ID in CRM. | This input provides the unique identifier of the CRM record for which key sales info is requested. |
+| crmType | String | No | Type of CRM system. Valid values are Salesforce amd Dynamics 365 | This input indicates the type of CRM in which the CRM record exists, for which key sales info is requested. |
+| crmOrgUrl | String | No | CRM Organization URL. | This input indicates the URL of the CRM environment in which the CRM record exists, for which key sales info is requested. |
+| top | Integer | No | Number of insights to fetch. | This input indicates the number of sales highlights to fetch. |
+| skip | Integer | No | Number of insights to skip. | This input indicates the number of items to skip when fetching sales highlights. |
+
+## Output parameters
+
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+
+|Parameter|Data type|Required|Details|
+|---------|----|--------|-----------|
+|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-insight)|
+|hasMoreResults|Boolean|No|Indicates if there are more results available.|
+
+### Schema for insight
+
+| Name | Data type / Format | Required | Details | Description to be added in plugin |
+|------|--------------------|----------|---------|----------------------------------|
+| Title | String (up to 20 characters) | Yes | Title of the sales insight citation card. Should include only the partner's name. Up to 20 characters. | This output indicates the title of citation card for the insight. |
+| description | String (up to 130 characters) | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria` | This output indicates the text of the insight to be included in key sales info. |
+| url | String | No | A valid URL to open the insight in the partner application. | This output indicates the URL to learn more about the insight. |
+| dateTime | DateTime | No |  | This output indicates the time associated with the insight. |
+| additionalProperties | Dict<String, String> | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This will be displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
+
+### Example
+
+`json example as per the below example image`
+
+The following image shows an example of how the output of the API is mapped to the related records.
+
+`image`
