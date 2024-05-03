@@ -32,7 +32,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 | Name | Data type / Format | Required | Details | Description to be added to the plugin |
 |------|--------------------|----------|---------|---------------------------------------|
-| recordType | String with one of the following values: account, opportunity, lead, contact. | No | Record Type in CRM such as Opportunity, Product, and Lead, which is related to the email. | This input identifies the record type in CRM which is related to the summarized email. |
+| recordType | String | No | Record Type in CRM. The value can be account, opportunity, lead, or contact that is related to the email. | This input identifies the record type in CRM which is related to the summarized email. |
 | recordId | String | No | Record ID in CRM for which related records are requested. | This input provides the unique identifier of the CRM record which is related to the summarized email. |
 | crmType | String | No | Type of the CRM system. Valid values are Salesforce and Dynamics 365. | This input indicates the type of CRM in which the record related to the summarized email exists. |
 | crmOrgUrl | String | No | CRM Organization URL | This input indicates the URL of the CRM environment in which the record related to the summarized email exists. |
@@ -55,6 +55,9 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 |------|--------------------|----------|---------|----------------------------------|
 | Title | String, up to 20 characters | Yes | Title of the sales insight. | This output indicates the title of the partner section and should include only the partner's name. |
 | Description | String | Yes | Insight delivered to the users. Ex: Your colleagues Mona Kane, Ray Tanaka and Daniela Smith have worked with them before. | This output indicates the text you would like to be included in the email summary. |
+
+> [!NOTE]
+> While the API requirements for extending the email summary and record summary capabilities may look similar, they must be added as separate actions in the connector.
 
 ### Example
 

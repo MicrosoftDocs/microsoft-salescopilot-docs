@@ -32,7 +32,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 | Name | Data type / Format | Required | Details | Description to be added in plugin |
 |------|--------------------|----------|---------|----------------------------------|
-| recordType | String with one for the following values: account, opportunity, lead, contact. | Yes | Record Type in CRM. | This input identifies the record type in CRM for which key sales info is requested. |
+| recordType | String | Yes | Record Type in CRM. The value can be account, opportunity, lead, or contact that is related to the email. | This input identifies the record type in CRM for which key sales info is requested. |
 | recordId | String | Yes | Record ID in CRM. | This input provides the unique identifier of the CRM record for which key sales info is requested. |
 | crmType | String | No | Type of CRM system. Valid values are Salesforce amd Dynamics 365 | This input indicates the type of CRM in which the CRM record exists, for which key sales info is requested. |
 | crmOrgUrl | String | No | CRM Organization URL. | This input indicates the URL of the CRM environment in which the CRM record exists, for which key sales info is requested. |

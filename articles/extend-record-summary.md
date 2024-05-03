@@ -68,6 +68,9 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | url | String | No | A valid URL to open activity in the partner application. | This output indicates the URL to open insight. |
 | additionalProperties | Object with Property Name and Property Value | No | Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br> "Status reason": "Signed off",<br> "Owner": "Kenny Smith" <br>} | This output indicates additional properties displayed in the detailed view of the insight. |
 
+> [!NOTE]
+> While the API requirements for extending the email summary and record summary capabilities may look similar, they must be added as separate actions in the connector.
+
 ### Example
 
 ```json
