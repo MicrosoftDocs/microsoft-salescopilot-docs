@@ -20,7 +20,7 @@ ms.custom:
 
 Microsoft Copilot for Sales is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
-Copilot for Sales connects to CRMs such as Salesforce Sales Cloud and Microsoft Dynamics 365 Sales out-of-box. However, sales is more than CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the copilot experience. 
+Copilot for Sales connects to CRMs such as Salesforce Sales Cloud and Microsoft Dynamics 365 Sales out-of-box. However, sales is more than CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Copilot for Sales experience. 
 
 If you are a partner application developer, you can integrate your application with Copilot for Sales to provide contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook.
 
@@ -36,17 +36,17 @@ Copilot for Sales in Microsoft 365 is composed of multiple individual capability
 `image`
 
 To ensure that everything works properly, Copilot for Sales needs to:
-- Identify which of your application APIs is relevant for getting insights to enrich a specific copilot capability.
+- Identify which of your application APIs is relevant for getting insights to enrich a specific Copilot for Sales capability.
 - Pass the required contextual information to your application API.
 - Identify the right parts of your application APIs to render in the capability.
 
 
 You, as a plugin maker, must build:
-1. The APIs that match the expectations of the copilot features you are trying to extend. The API used to extend a capability in Copilot for Sales must accept the required inputs from the app and return the required outputs expected by the app.
+1. The APIs that match the expectations of the Copilot for Sales capabilities you are trying to extend. The API used to extend a capability in Copilot for Sales must accept the required inputs from Copilot for Sales and return the required outputs expected by Copilot for Sales.
 1. A power platform connector with the APIs and oAuth authentication.
 1. A copilot plugin that adds the copilot provided descriptions to the connector.
 
-    Copilot doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure are not constraints for Copilot. Your responsibility is to ensure that your APIs can handle the inputs supplied by Copilot and return the expected outputs. Additionally, you must provide appropriate descriptions to enable Copilot to correctly match them during runtime.
+    Copilot for Sales doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure are not constraints for Copilot. Your responsibility is to ensure that your APIs can handle the inputs supplied by Copilot and return the expected outputs. Additionally, you must provide appropriate descriptions to enable Copilot to correctly match them during runtime.
 
 For instance, suppose you wish to enhance the [Key sales info](key-sales-info.md) capability in Copilot for Sales. To do this, you'll need to create an API that, at the very least, accepts a CRM record reference (passed as 'recordType' and 'recordId') as input and provides the insight title, description, and date as output. This API should be added to a new or existing Power Platform connector that utilizes OAuth for authentication. Furthermore, the APIs in the connector should be supplemented with descriptions as required by Copilot for Sales.
 

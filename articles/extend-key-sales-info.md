@@ -52,11 +52,11 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 | Name | Data type / Format | Required | Details | Description to be added in plugin |
 |------|--------------------|----------|---------|----------------------------------|
-| Title | String (up to 20 characters) | Yes | Title of the sales insight citation card. Should include only the partner's name. Up to 20 characters. | This output indicates the title of citation card for the insight. |
-| description | String (up to 130 characters) | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria` | This output indicates the text of the insight to be included in key sales info. |
+| Title | String | Yes | Title of the sales insight citation card. Should include only the partner's name. Title can be up to 20 characters. | This output indicates the title of citation card for the insight. |
+| description | String | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria`. Description can be up to 130 characters. | This output indicates the text of the insight to be included in key sales info. |
 | url | String | No | A valid URL to open the insight in the partner application. | This output indicates the URL to learn more about the insight. |
 | dateTime | DateTime | No |  | This output indicates the time associated with the insight. |
-| additionalProperties | Dict<String, String> | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This will be displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
+| additionalProperties | Object with Property Name and Property Value | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This will be displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
 
 ### Example
 

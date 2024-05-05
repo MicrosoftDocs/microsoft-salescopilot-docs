@@ -1,0 +1,191 @@
+---
+title: Add a new Q&A capability to the Sales chat (preview)
+description: 
+ms.date: 05/15/2024
+ms.topic: article
+ms.service: microsoft-sales-copilot
+author: sbmjais
+ms.author: shjais
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/07/2023
+---
+
+# Add a new Q&A capability to the Sales chat (preview)
+
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a Q&A experience to ask questions and get answers from a partner application within the chat interface. By using your plugins, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
+
+`image`
+
+## Input parameters
+
+Introducing new capabilities to the Q&A experience significantly differs from enriching the out-of-the-box capabilities in the non-chat experience. Unlike the latter, the former does not have predefined inputs from Copilot for Sales. Instead, based on the context and user's question in the chat, the copilot orchestrator passes relevant inputs to the parameters defined in the plugin swagger actions. Currently, this experience supports parameters of data types such as int, double, and string, but does not support complex or nested objects.
+
+> [!NOTE]
+> Copilot for Sales currently does not have the capability to pass the entire user utterance as-is to a plugin. It only supports simple skill-like APIs, such as computing engagement scores for an opportunity.
+
+## Output parameters
+
+Copilot for Sales anticipates that APIs introducing new capabilities to the chat will return one or more adaptive cards. There are three variations in terms of how Copilot for Sales expects and will display the response from your plugin.
+
+Refer to the [sample expected output in the .json format](#sample-expected-output-in-the-json-format)  to understand how to return the output parameters.
+
+### Structured data or insights about one record or topic
+
+`image`
+
+| Annotation | Description |
+|------------|-------------|
+| 1 | Logo – sourced from the plugin metadata |
+| 2 | Title – obtained from the API response |
+| 3 | Subtitle – derived from the API response |
+| 4 | Section displaying additional information as key-value pairs – sourced from the API response |
+| 5 | Call to action – The URL is derived from the API response. The button text will either be `Open <object type>` or `Open in <plugin name>`. |
+
+### Structured data or insights about multiple records or topic
+
+When the API returns multiple adaptive cards, Copilot for Sales will compile a summary of the cards and provide citations that can be selected to view each individual card.
+
+`image`
+
+| Annotation | Description |
+|------------|-------------|
+| 1 | Summary card by Copilot for Sales  |
+| 2 | Citation number to view more details from summary |
+| 3 | Citation card to show full details of each adaptive card returned by the API |
+
+### Free form data or insights
+
+`image`
+
+| Annotation | Description |
+|------------|-------------|
+| 1 | Card from Copilot for Sales based on the API response |
+| 2 | Title – formulated from the plugin name as `Info from <plugin name>` |
+| 3 | Body text (one paragraph, max 230 characters) derived from the API response |
+| 4 | Additional sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets |
+| 5 | Call to action – The URL is sourced from the API response. The button text will be `Open in <plugin name>` |
+
+### Sample expected output in the .json format
+
+```json
+{
+    "adaptiveCards": [
+      {
+        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see as .json below)>",
+        "previewCardData": {
+          "title": "title 1",
+          "subTitle": "subTitle 1",
+          "url": "https://adaptivecards.io/"
+        }
+      },
+      {
+        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see as .json below)>",
+        "previewCardData": {
+          "title": "title 1",
+          "subTitle": "subTitle 1",
+          "url": "https://adaptivecards.io/"
+        }
+      }
+    ]
+  }
+```
+
+Here's an example of an adaptive card in .json format. To visualize it, open [Designer | Adaptive Cards](https://adaptivecards.io/designer/), and then paste the following .json content into the **Card Paylod Editor** area.
+
+```json
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Info from [Partner name]",
+            "wrap": true,
+            "weight": "default"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Body 1 a short sentence a short sentence  a short sentence a short sentence a short sentence. This is some awesome text.",
+            "wrap": true,
+            "spacing": "None"
+        },
+        {
+            "type": "Container",
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Body 2 (optional)",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Smith sent Renewal Contract on 04/23/2023",
+                    "wrap": true,
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Alberto Burgos is the primary contact for the Alpine Ski House account.",
+                    "wrap": true,
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Smith sent Renewal Contract on 04/23/2023",
+                    "wrap": true,
+                    "spacing": "None"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Body 5 (optional)",
+                    "wrap": true
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Body 3 (paragraph with bullets)",
+                    "wrap": true,
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Body 3 (paragraph with bullets)",
+                    "wrap": true,
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "- Body 3 (paragraph with bullets)",
+                    "wrap": true,
+                    "spacing": "None"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Open [partner name]",
+            "url": "https://adaptivecards.io",
+            "iconUrl": "https://connectoricons-prod.azureedge.net/master/1.0.1460.2388/docusign/icon.png"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}
+```
+
+
+

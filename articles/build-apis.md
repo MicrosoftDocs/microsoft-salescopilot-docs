@@ -29,10 +29,10 @@ This section outlines what Copilot for Sales expects from your application APIs 
 
 In this section, you will find the information to enrich the following Copilot for Sales capabilities with insights from your application:
 
-- Email summary
-- Key sales information
-- CRM record summary
-- CRM record details
+- [Email summary](extend-email-summary.md)
+- [Key sales information](extend-key-sales-info.md)
+- [CRM record summary](extend-record-summary.md)
+- [CRM record details](extend-record-details.md)
 - Q&A capabilities in chat
 
 ### See also
