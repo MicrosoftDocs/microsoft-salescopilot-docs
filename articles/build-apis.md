@@ -33,8 +33,13 @@ In this section, you will find the information to enrich the following Copilot f
 - [Key sales information](extend-key-sales-info.md)
 - [CRM record summary](extend-record-summary.md)
 - [CRM record details](extend-record-details.md)
-- Q&A capabilities in chat
+- [Q&A capabilities in chat](extend-m365-chat.md)
 
 ### See also
 
-[Extend Copilot for Sales with partner applications](extend-sales-copilot.md)
+[Add a new Q&A capability to the Sales chat](extend-m365-chat.md)<br>
+[Enrich email summary with insights from your application](extend-email-summary.md)<br>
+[Enrich key sales info with insights from your application](extend-key-sales-info.md)<br>
+[Enrich CRM record details with insights from your application](extend-record-details.md)<br>
+[Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
+[Extend Microsoft Copilot for Sales with partner applications](extend-sales-copilot.md)

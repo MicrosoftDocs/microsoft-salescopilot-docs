@@ -215,18 +215,26 @@
   items:
   - name: Overview
     href: extend-sales-copilot.md
-  - name: Copilot for Sales APIs
+  - name: Build application APIs
     items:
     - name: Overview
-      href: api-ref-partner-apps.md
-    - name: GetRelatedActivities
-      href: api-get-related-activities.md
-    - name: GetRelatedRecords
-      href: api-get-related-records.md
+      href: build-apis.md
+    - name: Enrich email summary
+      href: extend-email-summary.md
+    - name: Enrich key sales info
+      href: extend-key-sales-info.md
+    - name: Enrich CRM record summary
+      href: extend-record-summary.md
+    - name: Enrich CRM record details
+      href: extend-record-details.md
+    - name: Add a new Q&A capability to the Sales chat
+      href: extend-m365-chat.md
     - name: Standardize error responses
       href: api-error-responses.md
     - name: Sample OpenAPI definition
       href: api-sample-def.md
+  - name: Create a custom connector
+    href: create-custom-connector.md
 
 
 - name: Troubleshooting guide

@@ -65,3 +65,12 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 The following image shows an example of how the output of the API is mapped to the related records.
 
 `image`
+
+### See also
+
+[Add a new Q&A capability to the Sales chat](extend-m365-chat.md)<br>
+[Enrich email summary with insights from your application](extend-email-summary.md)<br>
+[Enrich CRM record details with insights from your application](extend-record-details.md)<br>
+[Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
+[Extend Microsoft Copilot for Sales with partner applications](extend-sales-copilot.md)<br>
+[Build application APIs to extend Copilot for Sales](build-apis.md)

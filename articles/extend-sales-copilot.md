@@ -2,7 +2,7 @@
 title: Extend Microsoft Copilot for Sales with partner applications (preview)
 description: Extend Copilot for Sales to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
 ms.date: 05/15/2024
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -69,9 +69,14 @@ Additionally, you can introduce new Q&A capabilities to the chat features in Cop
 
 2. [Implement the APIs](build-apis.md) to extend the capabilities you chose in step 1.
 
-3. Add the above APIs to an existing or a new [Power Platform copilot enabled connector](https://go.microsoft.com/fwlink/?linkid=2251841) and get your connector certified.
+3. [Create a custom connector with your plugin APIs](create-custom-connector.md).
 
 
 ### See also
 
-[Get activities and records from partner applications](api-ref-partner-apps.md)
+[Add a new Q&A capability to the Sales chat](extend-m365-chat.md)<br>
+[Enrich email summary with insights from your application](extend-email-summary.md)<br>
+[Enrich key sales info with insights from your application](extend-key-sales-info.md)<br>
+[Enrich CRM record details with insights from your application](extend-record-details.md)<br>
+[Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
+[Build application APIs to extend Copilot for Sales](build-apis.md)
