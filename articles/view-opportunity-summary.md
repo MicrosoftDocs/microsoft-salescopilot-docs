@@ -106,7 +106,13 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you see an action card in the Copilot for Sales pane in Outlook to create a connection with the partner application. For example, in the following image, the action card to sign in to the connector for the partner application **DocuSign** is displayed. Select **Sign in** to connect to the partner application. 
+
+:::image type="content" source="media/action-card-connector.svg" alt-text="Screenshot showing action card to sign in to connector.":::
+
+In the pop-up message in Outlook, select **Create** to create a connector for the partner application. 
+
+:::image type="content" source="media/create-connector.svg" alt-text="Screenshot showing pop-up to create a connector.":::
 
 > [!NOTE]
 > - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
