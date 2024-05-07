@@ -61,7 +61,17 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ### Example
 
-`json example as per the below example image`
+```json
+{
+  "value": [
+    {
+      "title": "From Contoso Customer Insights",
+      "description": "Your colleagues Mona Kane, Ray Tanaka and Daniela Smith have worked with them before."
+    }
+  ],
+  "hasMoreResults": false
+}
+```
 
 The following image shows an example of how the output of the API is mapped to the related records.
 

@@ -75,34 +75,34 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ```json
 {
-        "value": [
-             {
-                "title": "Auto Renewal Contract",
-                "description": "Kenny Smith sent AutomaticRenewalcontract.docx on 11/11/2023 12:50:53 PM",
-                "dateTime": "12:50 PM, 11/11/23",
-                "url": https://app.docusign.com/documents/details/000baf00-2342-42ab-8eff-00000000000,
-                "additionalProperties": {
-                    "Recipients": "Logan Edwards",
-                    "Sender Name": "Kenny Smith",
-                    "Status": "Sent",
-                    "Date": "12:50 PM, 11/11/23"
-                }
-            },
-            {
-                "title": "Purchase Contract",
-                "description": "Logan Edwards completed PurchaseContract.docx on 11/11/2023 12:56:14 PM",
-                "dateTime": "12:56 PM, 11/11/23",
-                "url": https://app.docusign.com/documents/details/000baf11-2342-42ab-8eff-00000000000,
-                "additionalProperties": {
-                    "Recipients": "Logan Edwards",
-                    "Sender Name": "Kenny Smith",
-                    "Status": "Completed",
-                    "Date": "12:56 PM, 11/11/23"
-                }
-            }
-        ],
-        "hasMoreResults": false
+  "value": [
+    {
+      "title": "Contract signed",
+      "description": "You have 5 connections in Fourth Coffee Inc",
+      "dateTime": "2024-05-07T03:28:38.0667701Z",
+      "url": null,
+      "additionalProperties": {
+        "Contract name": "50 Cafe-A-100 Automatic Renewal Contract",
+        "Signed by": "Alberto Burgos, Tony",
+        "Signed": "9/7/23"
+      }
+    },
+    {
+      "title": "Contract signed",
+      "description": "Multiple stakeholders from Fourth Coffee have visited the Contoso website four times in the last four months",
+      "dateTime": "2024-05-07T03:28:38.0669445Z",
+      "url": null,
+      "additionalProperties": {
+        "Contract name": "50 Cafe-A-100 Automatic Renewal Contract",
+        "Signed by": "Alberto Burgos, Tony",
+        "Signed": "9/7/23"
+      }
     }
+  ],
+  "hasMoreResults": false
+}
+
+
 
 ```
 

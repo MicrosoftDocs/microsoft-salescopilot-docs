@@ -72,38 +72,40 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ```json
 {
-        "value": [
-             {
-                "recordId": "000baf00-2342-42ab-8eff-00000000000",
-                "recordTypeDisplayName": "Agreement",
-                "recordTypePluralDisplayName": "Agreements",
-                "recordType": "Agreement",
-                "recordTitle": "Automatic Renewal Contract",
-                "url": https://app.docusign.com/documents/details/000baf00-2342-42ab-8eff-00000000000,
-                "additionalProperties": {
-                    "Recipients": "Logan Edwards",
-                    "Sender Name": "Kenny Smith",
-                    "Status": "Sent",
-                    "Date": "12:50 PM, 11/11/23"
-                }
-            },
-            {
-                "recordId": "000baf11-2342-42ab-8eff-00000000000",
-                "recordTypeDisplayName": "Agreement",
-                "recordTypePluralDisplayName": "Agreements",
-                "recordType": "Agreement",
-                "recordTitle": "Purchase Contract",
-                "url": https://app.docusign.com/documents/details/000baf11-2342-42ab-8eff-00000000000,
-                "additionalProperties": {
-                    "Recipients": "Logan Edwards",
-                    "Sender Name": "Kenny Smith",
-                    "Status": "Completed",
-                    "Date": "12:56 PM, 11/11/23"
-                }
-            }
-        ],
-        "hasMoreResults": false
+  "value": [
+    {
+      "recordId": "ID1",
+      "recordTypeDisplayName": "Agreement",
+      "recordTitle": "Automatic Renewal Contrct",
+      "recordTypePluralDisplayName": "Agreements",
+      "recordType": "agreement",
+      "url": null,
+      "additionalProperties": {
+        "Recipients": "Logan Edwards",
+        "Sender Name": "Kenny Smith",
+        "Status": "Completed",
+        "Date": "12:56 PM, 11/11/23"
+      }
+    },
+    {
+      "recordId": "ID2",
+      "recordTypeDisplayName": "Agreement",
+      "recordTitle": "Purchase Contract",
+      "recordTypePluralDisplayName": "Agreements",
+      "recordType": "agreement",
+      "url": null,
+      "additionalProperties": {
+        "Recipients": "Logan Edwards",
+        "Sender Name": "Kenny Smith",
+        "Status": "Completed",
+        "Date": "12:56 PM, 11/11/23"
+      }
     }
+  ],
+  "hasMoreResults": false
+}
+
+
 
 ```
 The following image shows an example of how the output of the API is mapped to the related records.

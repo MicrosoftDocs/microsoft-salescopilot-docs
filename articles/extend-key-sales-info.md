@@ -60,7 +60,35 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ### Example
 
-`json example as per the below example image`
+```json
+{
+  "value": [
+    {
+      "title": "Next best action from Contoso Hub",
+      "description": "Validation next step: Align on timeline and success criteria",
+      "dateTime": "2024-05-07T03:42:35.4662309Z",
+      "url": null,
+      "additionalProperties": {
+        "Current step": "Step name",
+        "Next step": "Step name",
+        "Due date": "Date"
+      }
+    },
+    {
+      "title": "Next best action from Contoso Hub",
+      "description": "Nina and Daisy in your team are connected to Alberto and can help influence the deal",
+      "dateTime": "2024-05-07T03:42:35.4663109Z",
+      "url": null,
+      "additionalProperties": {
+        "Current step": "Step name",
+        "Next step": "Step name",
+        "Due date": "Date"
+      }
+    }
+  ],
+  "hasMoreResults": false
+}
+```
 
 The following image shows an example of how the output of the API is mapped to the related records.
 

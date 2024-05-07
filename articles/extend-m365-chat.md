@@ -77,7 +77,7 @@ When the API returns multiple adaptive cards, Copilot for Sales will compile a s
 {
     "adaptiveCards": [
       {
-        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see as .json below)>",
+        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see the example of adaptive card below)>",
         "previewCardData": {
           "title": "title 1",
           "subTitle": "subTitle 1",
@@ -85,7 +85,7 @@ When the API returns multiple adaptive cards, Copilot for Sales will compile a s
         }
       },
       {
-        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see as .json below)>",
+        "adaptiveCard": "<a serialized adaptive card with version 1.5 (see the example of adaptive card below)>",
         "previewCardData": {
           "title": "title 1",
           "subTitle": "subTitle 1",
