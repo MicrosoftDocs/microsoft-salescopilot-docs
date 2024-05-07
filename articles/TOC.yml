@@ -75,7 +75,7 @@
       href: hierarchy-settings-sf.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
-  - name: Uninstall Copilot for Sales add-in for Outlook
+  - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
   - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
@@ -176,12 +176,8 @@
           href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
-      - name: Share a CRM record in a Teams conversation
-        href: share-crm-record-teams-conversation.md
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-    - name: Share feedback
-      href: share-feedback-teams.md
 
   - name: Capabilities in Microsoft Word
     items:
@@ -202,7 +198,10 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
-
+    - name: Share a CRM record in Teams or Outlook
+      href: share-crm-record-teams-conversation.md
+    - name: Copilot for Sales personal app
+      href: personal-app.md
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Analyze your sellers' conversation data with Power BI
@@ -298,6 +297,9 @@
 
 - name: Copilot for Sales adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
+
+- name: Deprecations in Copilot for Sales
+  href: deprecations-copilot-for-sales.md
 
 - name: Responsible AI
   items:

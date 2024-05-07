@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 02/21/2024
+ms.date: 04/05/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,17 +18,18 @@ ms.custom:
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in a variety of ways.
 
 - In Outlook, open Copilot for Sales, and then follow one of these steps:
-    - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
-
-        :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the deal room channel highlighted.":::
-
-    - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
     
-        :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing deal rooms from record card.":::
-    
-    - Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+  - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-        :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing deal rooms in record details view.":::
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the deal room channel highlighted.":::
+
+  - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
+    
+    :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing deal rooms from record card.":::
+    
+  - Open account or opportunity details. Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
+
+     :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing deal rooms in record details view.":::
 
 - In Teams, select the account team or deal room channel.
 
@@ -36,15 +37,15 @@ You can open a collaboration space&mdash;an account team or a deal room channel 
 
 ## Anatomy of a collaboration space
 
-A team that was created using the account team template or the deal room template includes the following channels. It always has a **General** channel. Other channels depend on how the team was created and whether more channels were created later.
+A team that was created using the account team template or the deal room template always has a **General** channel. Other channels depend on how the team was created and whether more channels were created later.
 
-- The channel named **General** is where you can work with members of the sales team or other colleagues on account-related activities. If the team was created using the account team template, the **General** channel is linked to the account in your CRM.
+- The **General** channel is where you can work with members of the sales team or other colleagues on account-related activities. If the team was created using the account team template, the **General** channel is linked to the account in your CRM.
 
 - A channel named for an opportunity, like **Coffee Machine**, is where you can work with the sales team or other colleagues on activities that are related to a specific opportunity. If the team was created using the deal room template, the channel is linked to the opportunity in your CRM.
 
 - Shared channels, named **Customer - *AccountName*** or **Customer - *OpportunityName***, are where you can work with people outside your organization, like customers, on account and opportunity activities.
 
-  Before you can add customers to shared channels using their federated identity, your tenant administrator needs to have turned on shared channels in Teams. [Learn more about collaborating with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true).
+  Before you can add customers to shared channels using their federated identity, your tenant administrator needs to turn on shared channels in Teams. [Learn more about collaborating with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true).
 
 Internal channels like **General** and **Coffee Machine** have the following apps pinned as tabs:
 
@@ -54,10 +55,14 @@ Internal channels like **General** and **Coffee Machine** have the following app
 
   > [!NOTE]
   > - If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
-  > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams,
-[use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
+  > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams, [use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
 
-- **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the channel.
+- **Notes** is a OneNote notebook you can use to share notes with all the members of the Teams channel.
+
+- **CRM OneNote** is a OneNote notebook you can use to share notes with all the members of the Teams channel. It's available only in the existing collaboration spaces that were created before April 15, 2024.
+
+  > [!NOTE]
+  > If the **CRM OneNote** tab shows an error message when you open it, you must delete the tab by right-clicking it and selecting **Remove**. You must use the **Notes** tab provided by Teams to share notes in the channel.
 
 Shared channels like **Customer - Fourth Coffee** or **Customer - Coffee Machine** have the following apps pinned as tabs:
 

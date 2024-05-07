@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 02/02/2024
+ms.date: 04/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,3 +46,19 @@ If the email address you entered matches multiple contacts in the CRM, you must 
     If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).
     
     If you've connected the external contact to an incorrect CRM contact, by mistake, you can [change the connected record](change-connected-crm-contact.md).
+
+## Show saved contacts through quick CRM actions in email banners
+
+When you read an email from external contacts and have all the contacts saved in your CRM, the banner message at the top of the email enables you to access the saved CRM contact details through quick CRM actions in the banner. Select
+**Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the **Copilot for Sales** pane.
+
+:::image type="content" source="media/banner-show-contact.png" alt-text="Screenshot showing banner message with quick action to see saved contacts.":::
+
+Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+
+> [!NOTE]
+> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
+
+### See also
+
+[Create a contact in your CRM](create-contact-crm-sales-copilot.md)
