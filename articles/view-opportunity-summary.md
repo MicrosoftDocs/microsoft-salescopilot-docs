@@ -27,7 +27,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 > - If a meeting is not connected to an opportunity, the opportunity summary for the meeting is displayed based on the most relevant opportunity selected by AI. You'll get an option to select another opportunity and regenerate the suggested content.
 > - When you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
 > - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Copilot for Sales pane in Outlook.
-> - You can view the opportunity summary when [sharing CRM records in Teams](share-crm-records-teams.md).
+> - You can view the opportunity summary when [sharing CRM records in Teams](share-crm-record-teams-conversation.md).
 > - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, Copilot for Sales only supports the "Notes and Attachments" object out of the box. If you want Copilot for Sales to support the Notes object, ask your administrator to contact Microsoft support.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
