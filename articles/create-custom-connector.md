@@ -1,6 +1,6 @@
 ---
 title: Create a custom connector with your plugin APIs (preview)
-description: 
+description: Learn how to build a Power Platform connector using your application APIs, extending Copilot for Sales functionality.
 ms.date: 05/15/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -9,7 +9,7 @@ ms.author: shjais
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:11/07/2023
+  - ai-seo-date:05/07/2024
 ---
 
 # Create a custom connector with your plugin APIs (preview)

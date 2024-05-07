@@ -1,6 +1,6 @@
 ---
 title: Enrich key sales info with insights from your application (preview)
-description: 
+description: Enhance sales information with Copilot for Sales in Outlook. Extend its capabilities using insights from your own application.
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -9,7 +9,7 @@ ms.author: shjais
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:11/07/2023
+  - ai-seo-date:05/07/2024
 ---
 
 # Enrich key sales info with insights from your application (preview)

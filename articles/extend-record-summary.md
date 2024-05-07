@@ -1,6 +1,6 @@
 ---
-title: Enrich CRM record summary with insights from your application API (preview)
-description: 
+title: Enrich CRM record summary with insights from your application (preview)
+description: Enhance CRM record summaries in Copilot for Sales using AI and insights from your own application, improving customer understanding.
 ms.date: 02/02/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -9,8 +9,7 @@ ms.author: shjais
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:11/07/2023
-  - ai-gen-title
+  - ai-seo-date:05/07/2024
 ---
 
 # Enrich CRM record summary with insights from your application (preview)

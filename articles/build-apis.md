@@ -1,6 +1,6 @@
 ---
 title: Build application APIs to extend Copilot for Sales (preview)
-description: Discover how to build application APIs to extend Copilot for Sales.
+description: Explore how to build application APIs that enhance capabilities and introduce new ones for Copilot for Sales.
 ms.date: 05/15/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -9,7 +9,7 @@ ms.author: shjais
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:11/07/2023
+  - ai-seo-date:05/07/2024
 ---
 
 # Build application APIs to extend Copilot for Sales (preview)
