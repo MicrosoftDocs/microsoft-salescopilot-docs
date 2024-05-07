@@ -40,7 +40,7 @@ You can share a CRM record either by using the Copilot for Sales search message 
 
     The record card is added to the message box.
 
-   :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
+    :::image type="content" source="media/entity-summary-adaptive-card.png" alt-text="Screenshot showing the AI-generated record summary in adaptive card.":::
 
    > [!NOTE]
    > The fields on a record's card are displayed as configured by your CRM administrator.
@@ -71,6 +71,7 @@ The experience of using the Copilot for Sales search message extension when comp
 
     The adaptive card is added to the email.
 
+    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
 
 ### New Outlook desktop and Outlook on the web
 
