@@ -45,11 +45,9 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
     If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
-   > [!NOTE]
-   >
-   > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
-   >
-   > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+    > [!NOTE]
+    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
+    > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card shows the contacts in the activity, as this activity is shown in their timeline.
 
