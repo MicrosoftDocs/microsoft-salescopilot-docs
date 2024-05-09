@@ -1,7 +1,7 @@
 ---
 title: Use Copilot for Sales app during a meeting
 description: Learn how to use the Copilot for Sales app during a meeting.
-ms.date: 05/07/2024
+ms.date: 05/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,12 +17,12 @@ The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct m
 When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting preparation card contains the following sections:
 
 - **General meeting information**: Overview information about the meeting and the related opportunity.
-- **Meeting participants**: A single statement about meeting participants and their role in the opportunity.
-- **Opportunity info**: Overview and latest notes activity from the timeline.
-- **Notes from CRM**: `text`
-- **Open tasks**: A single statement about the total number of open and overdue tasks related to the opportunity.
-- **Recent meeting insights**: Highlights and follow-up action items from the latest meeting that is connected to the opportunity.
-- **Related records**: A single statement about the number of open opportunities and cases for the account.
+- **Meeting participants**: Information about the external participants and their role in the opportunity.
+- **Opportunity info**: Summary of the key information about the related opportunity.
+- **Notes from CRM**: Two recent notes from the opportunity timeline.
+- **Open tasks**: Total number of open tasks and count of high priority tasks.
+- **Recent meeting insights**: Last two meetings with sales insights related to the opportunity.
+- **Related records**: Number of open cases.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
