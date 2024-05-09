@@ -26,7 +26,7 @@ As an administrator, you can control whether AI powered tasks should be suggeste
 
 2. Under **Tenant**, select **Collaboration spaces**.
 
-3. Turn off **Suggested tasks in collaboration spaces**.
+3. Turn off **Suggested tasks in collaboration spaces (preview)**.
 
     :::image type="content" source="media/collab-space-ai-tasks-admin.png" alt-text="Screenshot showing admin settings for collaboration spaces.":::
 
