@@ -14,7 +14,7 @@ The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct m
 
 ## View meeting preparation card
 
-When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message after a few seconds from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting preparation card contains the following sections:
+When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message after a few seconds from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting preparation card contains the following sections:
 
 - **General meeting information**: Overview information about the meeting and the related opportunity.
 - **Meeting participants**: Information about the external participants and their role in the opportunity.
