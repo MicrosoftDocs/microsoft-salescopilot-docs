@@ -229,13 +229,14 @@
       href: extend-record-details.md
     - name: Add a new Q&A capability to the Sales chat
       href: extend-m365-chat.md
-    - name: Standardize error responses
-      href: api-error-responses.md
+  - name: Author a plugin
+    items:
+    - name: Create a custom connector
+      href: create-custom-connector.md
     - name: Sample OpenAPI definition
       href: api-sample-def.md
-  - name: Create a custom connector
-    href: create-custom-connector.md
-
+    - name: Standardize error responses
+      href: api-error-responses.md
 
 - name: Troubleshooting guide
   items:
