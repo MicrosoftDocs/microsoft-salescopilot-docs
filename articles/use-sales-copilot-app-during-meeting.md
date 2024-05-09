@@ -1,7 +1,7 @@
 ---
 title: Use Copilot for Sales app during a meeting
 description: Learn how to use the Copilot for Sales app during a meeting.
-ms.date: 04/15/2024
+ms.date: 05/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,10 +10,21 @@ ms.author: shjais
 
 # Use Copilot for Sales app during a meeting
 
-With the Copilot for Sales app, you can view and edit the connected CRM record during the meeting in Teams. This helps you access and update the CRM record in the flow of your work.
+The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can view the meeting preparation card, view and edit the connected CRM record, and get real-time sales tips during the meeting. This helps you stay focused on the meeting and close deals faster.
 
-> [!NOTE]
-> You must [save and connect the meeting to a CRM record](save-outlook-activities-crm.md) to view details of the connected record.
+## View meeting preparation card
+
+When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message after a few seconds from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting preparation card contains the following sections:
+
+- **General meeting information**: Overview information about the meeting and the related opportunity.
+- **Meeting participants**: Information about the external participants and their role in the opportunity.
+- **Opportunity info**: Summary of the key information about the related opportunity.
+- **Notes from CRM**: Two recent notes from the opportunity timeline.
+- **Open tasks**: Total number of open tasks and count of high priority tasks.
+- **Recent meeting insights**: Last two meetings with sales insights related to the opportunity.
+- **Related records**: Number of open cases.
+
+:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
 ## Open the Copilot for Sales app
 
@@ -53,6 +64,11 @@ To view data sources used in getting brand and competitor information, select **
 
 ## View connected record details
 
+With the Copilot for Sales app, you can view and edit the connected CRM record during the meeting in Teams. This helps you access and update the CRM record in the flow of your work.
+
+> [!NOTE]
+> You must [save and connect the meeting to a CRM record](save-outlook-activities-crm.md) to view details of the connected record.
+
 1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
 
 1. In the **Connected to** card, select the record to see its details in the **Copilot for Sales** panel.
@@ -64,7 +80,7 @@ You can also open a record in CRM to view its complete details. The record detai
 - Select the record to see its details in the **Copilot for Sales** panel, select **More actions** (**...**), and then select **Open in (CRM)**.
 
 
-## Copy link to connected record
+### Copy link to connected record
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
@@ -74,7 +90,7 @@ You can copy a link to the connected record and then share it in a Teams chat or
 
 Alternatively, you can select the connected record to open its details, and then select **More actions** (**...**) > **Copy link**.
 
-## Edit connected record
+### Edit connected record
 
 1. [Open the connected record details](#view-connected-record-details).
 

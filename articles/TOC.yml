@@ -67,6 +67,8 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
+    - name: Turn off task suggestion in collaboration spaces (preview)
+      href: turn-off-suggested-tasks-collab-space.md
     - name: Copilot data movement across geographies
       href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
@@ -198,10 +200,17 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
+      - name: AI-powered Planner tasks (preview)
+        items:
+        - name: Overview
+          href: suggested-tasks-collab-space.md
+        - name: Create Planner tasks from suggested tasks
+          href: create-planner-tasks.md
     - name: Share a CRM record in Teams or Outlook
       href: share-crm-record-teams-conversation.md
     - name: Copilot for Sales personal app
       href: personal-app.md
+
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Analyze your sellers' conversation data with Power BI
