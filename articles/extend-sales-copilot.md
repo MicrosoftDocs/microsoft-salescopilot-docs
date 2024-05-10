@@ -27,11 +27,11 @@ If you are a partner application developer, you can integrate your application w
 This article provides guidance on how to extend Copilot for Sales with your application APIs. It provides the following information:
 - Capabilities you can extend in Copilot for Sales.
 - Input and output parameters for the APIs you need to build.
-- Specific descriptions searched by Copilot for Sales within your plugin to determine the intended API for a particular capability. It also guides you on how to manage the input and output for these APIs. 
+- Specific descriptions searched by Copilot for Sales within your action to determine the intended API for a particular capability. It also guides you on how to manage the input and output for these APIs. 
 
 ## How does extensibility work in Copilot for Sales?
 
-Copilot for Sales in Microsoft 365 is composed of multiple individual capabilitys that are made available contextually to users. Each of these features is backed by a skill service owned by Copilot for Sales. When an end user interacts with a capability, the skill service for the capability generates the insights to deliver as part of that capability. Out-of-the-box, the skill service uses data in Graph and CRMs to get insights. With extensibility, the skill service will call into your application APIs made available in your copilot plugin in real-time to get additional insights to enrich the capability. When the skill service calls into your application APIs, it will pass all available context that your application APIs accept; and expects to get back insights in a format that aligns with how the insights are presented to users of the copilot in the capability.
+Copilot for Sales in Microsoft 365 is composed of multiple individual capabilitys that are made available contextually to users. Each of these features is backed by a skill service owned by Copilot for Sales. When an end user interacts with a capability, the skill service for the capability generates the insights to deliver as part of that capability. Out-of-the-box, the skill service uses data in Graph and CRMs to get insights. With extensibility, the skill service will call into your application APIs made available in your action in real-time to get additional insights to enrich the capability. When the skill service calls into your application APIs, it will pass all available context that your application APIs accept; and expects to get back insights in a format that aligns with how the insights are presented to users of the Copilot for Sales in the capability.
 
 `image`
 
@@ -41,10 +41,10 @@ To ensure that everything works properly, Copilot for Sales needs to:
 - Identify the right parts of your application APIs to render in the capability.
 
 
-You, as a plugin maker, must build:
+You, as a maker, must build:
 1. The APIs that match the expectations of the Copilot for Sales capabilities you are trying to extend. The API used to extend a capability in Copilot for Sales must accept the required inputs from Copilot for Sales and return the required outputs expected by Copilot for Sales.
-1. A power platform connector with the APIs and oAuth authentication.
-1. A copilot plugin that adds the copilot provided descriptions to the connector.
+1. A Power Platform connector with the APIs and oAuth authentication.
+1. An action that adds the Copilot for Sales provided descriptions to the connector.
 
     Copilot for Sales doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure are not constraints for Copilot. Your responsibility is to ensure that your APIs can handle the inputs supplied by Copilot and return the expected outputs. Additionally, you must provide appropriate descriptions to enable Copilot to correctly match them during runtime.
 
@@ -69,7 +69,11 @@ Additionally, you can introduce new Q&A capabilities to the chat features in Cop
 
 2. [Implement the APIs](build-apis.md) to extend the capabilities you chose in step 1.
 
-3. [Create a custom connector with your plugin APIs](create-custom-connector.md).
+1. Author an action
+    1. [Create a custom connector with your APIs](custom-connector-action.md#create-and-test-a-custom-connector-in-power-platform).
+    1. [Create and publish an action in Microsoft Copilot Studio](custom-connector-action.md#create-and-publish-an-action-in-microsoft-copilot-studio).
+    1. [Enable the connector action for users](custom-connector-action.md#enable-the-connector-action-for-users).
+    1. [Get your connector and action certified (optional)](custom-connector-action.md#get-your-connector-and-action-certified-optional).
 
 
 ### See also

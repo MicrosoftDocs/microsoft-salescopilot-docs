@@ -12,7 +12,6 @@ ms.custom:
   - ai-seo-date:05/07/2024
 ---
 
-
 # Enrich CRM record details with insights from your application (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
@@ -23,15 +22,15 @@ Sellers can view details about a saved contact, along with its associated record
 
 ## API description
 
-You need to add the API description to the plugin action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
+You need to add the API description to the action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
 
 `This action gets records related to a CRM record. The action enhances the existing skills of Copilot for Sales.`
 
 ## Input parameters
 
-Copilot for Sales is designed to provide the following input parameters to your plugin APIs.
+Copilot for Sales is designed to provide the following input parameters to your APIs.
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|-----------------------------------|
 | recordType | String | Yes | Entity or Object type in CRM for which related records are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on. | This input identifies the record type in CRM for which related records are requested. |
 | recordId | String | Yes | Unique identifier of the CRM record. | This input provides the unique identifier of the CRM record for which related records are requested. |
@@ -49,7 +48,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
@@ -58,7 +57,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ### Schema for insight
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|-----------------------------------|
 | recordId | String | Yes | Unique identifier of the record. | This output uniquely identifies each related record returned by the action. |
 | recordTypeDisplayName | String | Yes | Display name of the record type which should be localized in the language specified with the `Accept-Language` header. For example, Contract. | This output indicates the display name of record type of each related record returned by the action. |

@@ -22,15 +22,15 @@ Sellers can use Copilot for Sales while reading and composing emails in Outlook 
 
 ## API description
 
-You need to add the API description to the plugin action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
+You need to add the API description to the action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
 
 `This action gets additional sales insights that will be shown in C4S key sales info card in outlook sidecar. The action enhances the existing skills of copilot for sales.`
 
 ## Input parameters
 
-Copilot for Sales is designed to provide the following input parameters to your plugin APIs.
+Copilot for Sales is designed to provide the following input parameters to your APIs.
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|----------------------------------|
 | recordType | String | Yes | Record Type in CRM. The value can be account, opportunity, lead, or contact that is related to the email. | This input identifies the record type in CRM for which key sales info is requested. |
 | recordId | String | Yes | Record ID in CRM. | This input provides the unique identifier of the CRM record for which key sales info is requested. |
@@ -41,7 +41,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
@@ -50,7 +50,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ### Schema for insight
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|----------------------------------|
 | Title | String | Yes | Title of the sales insight citation card. Should include only the partner's name. Title can be up to 20 characters. | This output indicates the title of citation card for the insight. |
 | description | String | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria`. Description can be up to 130 characters. | This output indicates the text of the insight to be included in key sales info. |

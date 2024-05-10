@@ -22,15 +22,15 @@ When preparing for a customer meeting or reading an email, sellers seek pertinen
 
 ## API description
 
-You need to add the API description to the plugin action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
+You need to add the API description to the action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
 
 `This action gets additional sales insights related to a CRM record that will be shown in the C4S record summary card. The action enhances the existing skills of copilot for sales.`
 
 ## Input parameters
 
-Copilot for Sales is designed to provide the following input parameters to your plugin APIs.
+Copilot for Sales is designed to provide the following input parameters to your APIs.
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|-----------------------------------|
 | recordType | String | Yes | Entity or Object type in CRM for which related insights such as activities are requested. It includes language agnostic unique name of the entity or object type, and not the display name that can be localized. For example, account, opportunity, and so on. | This input indicates the entity or object type in CRM for which insights are requested. |
 | recordId | String | Yes | Unique identifier of the CRM record. | This input indicates the unique identifier of the CRM record for which insights are requested. |
@@ -50,7 +50,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your plugin APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
@@ -59,7 +59,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 ### Schema for insight
 
-| Name | Data type / Format | Required | Details | Description to be added in plugin |
+| Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|-----------------------------------|
 | Title | String | Yes | Title of the insight in the citation card. It is the natural language title of the insight in the language specified in the `Accept-Language` request header. For example, Contract signed. | This output indicates the title of the activity in the citation card. |
 | Description | String | Yes | Description of the insight displayed as bullet points in the record summary. It is the natural language description of the insight in the language specified with the `Accept-Language` header. For example, Kenny, Logan, and two others signed the Contoso 2023 Renewal Contract on 9/7/2023. | This output indicates the description of the insight. |

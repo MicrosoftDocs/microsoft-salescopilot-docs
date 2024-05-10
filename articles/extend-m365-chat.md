@@ -18,20 +18,20 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a Q&A experience to ask questions and get answers from a partner application within the chat interface. By using your plugins, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
+Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a Q&A experience to ask questions and get answers from a partner application within the chat interface. By using your actions, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
 
 `image`
 
 ## Input parameters
 
-Introducing new capabilities to the Q&A experience significantly differs from enriching the out-of-the-box capabilities in the non-chat experience. Unlike the latter, the former does not have predefined inputs from Copilot for Sales. Instead, based on the context and user's question in the chat, the copilot orchestrator passes relevant inputs to the parameters defined in the plugin swagger actions. Currently, this experience supports parameters of data types such as int, double, and string, but does not support complex or nested objects.
+Introducing new capabilities to the Q&A experience significantly differs from enriching the out-of-the-box capabilities in the non-chat experience. Unlike the latter, the former does not have predefined inputs from Copilot for Sales. Instead, based on the context and user's question in the chat, the copilot orchestrator passes relevant inputs to the parameters defined in the swagger actions. Currently, this experience supports parameters of data types such as int, double, and string, but does not support complex or nested objects.
 
 > [!NOTE]
-> Copilot for Sales currently does not have the capability to pass the entire user utterance as-is to a plugin. It only supports simple skill-like APIs, such as computing engagement scores for an opportunity.
+> Copilot for Sales currently does not have the capability to pass the entire user utterance as-is to a action. It only supports simple skill-like APIs, such as computing engagement scores for an opportunity.
 
 ## Output parameters
 
-Copilot for Sales anticipates that APIs introducing new capabilities to the chat will return one or more adaptive cards. There are three variations in terms of how Copilot for Sales expects and will display the response from your plugin.
+Copilot for Sales anticipates that APIs introducing new capabilities to the chat will return one or more adaptive cards. There are three variations in terms of how Copilot for Sales expects and will display the response from your action.
 
 Refer to the [sample expected output in the .json format](#sample-expected-output-in-the-json-format)  to understand how to return the output parameters.
 
@@ -41,11 +41,11 @@ Refer to the [sample expected output in the .json format](#sample-expected-outpu
 
 | Annotation | Description |
 |------------|-------------|
-| 1 | Logo – sourced from the plugin metadata |
+| 1 | Logo – sourced from the action metadata |
 | 2 | Title – obtained from the API response |
 | 3 | Subtitle – derived from the API response |
 | 4 | Section displaying additional information as key-value pairs – sourced from the API response |
-| 5 | Call to action – The URL is derived from the API response. The button text will either be `Open <object type>` or `Open in <plugin name>`. |
+| 5 | Call to action – The URL is derived from the API response. The button text will either be `Open <object type>` or `Open in <action name>`. |
 
 ### Structured data or insights about multiple records or topic
 
@@ -66,10 +66,10 @@ When the API returns multiple adaptive cards, Copilot for Sales will compile a s
 | Annotation | Description |
 |------------|-------------|
 | 1 | Card from Copilot for Sales based on the API response |
-| 2 | Title – formulated from the plugin name as `Info from <plugin name>` |
+| 2 | Title – formulated from the action name as `Info from <action name>` |
 | 3 | Body text (one paragraph, max 230 characters) derived from the API response |
 | 4 | Additional sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets |
-| 5 | Call to action – The URL is sourced from the API response. The button text will be `Open in <plugin name>` |
+| 5 | Call to action – The URL is sourced from the API response. The button text will be `Open in <action name>` |
 
 ### Sample expected output in the .json format
 
