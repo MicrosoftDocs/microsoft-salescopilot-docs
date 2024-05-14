@@ -37,7 +37,7 @@ This feature is currently supported only in English .
 
 ## Region availability
 
-This feature is available in all [regions in which Sales Copilot is supported](https://learn.microsoft.com/microsoft-sales-copilot/introduction#region-availability).
+This feature is available in all [regions in which Sales Copilot is supported](/microsoft-sales-copilot/introduction#region-availability).
 
 ## Add the Copilot app to Teams
 
