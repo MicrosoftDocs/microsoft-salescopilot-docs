@@ -90,7 +90,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 }
 ```
 
-The following image shows an example of how the output of the API is mapped to the related records.
+The following image shows an example of how the output of the API is mapped to the key sales info.
 
 `image`
 
