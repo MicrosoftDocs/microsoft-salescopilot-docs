@@ -549,6 +549,11 @@
         "source_path": "articles/api-get-related-records.md",
         "redirect_url": "/microsoft-sales-copilot/extend-record-details",
         "redirect_document_id": false
-      }                       
+      },
+      {                       
+        "source_path": "articles/share-feedback-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/personal-app#share-feedback-from-personal-app",
+        "redirect_document_id": false
+      }                     
   ]
 }

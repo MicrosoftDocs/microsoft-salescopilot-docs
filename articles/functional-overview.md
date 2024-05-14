@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales functional overview
 description: Maximize seller productivity with Copilot for Sales, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 02/02/2024
+ms.date: 05/01/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -34,6 +34,8 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 [Generate sales meeting preparation briefs in Microsoft Word](meeting-report-word.md), pulling from CRM platform and Microsoft Graph data.
 
+:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::
+
 ## Personalize customer engagements 
 
 Build stronger customer relationships with AI capabilities that help you understand customer needs and personalize engagements.
@@ -42,13 +44,21 @@ Build stronger customer relationships with AI capabilities that help you underst
 
 Get real-time call insights in Teams such as summaries of past meeting notes, CRM record information, sales tips, competitor insights, and meeting agenda items.
 
+:::image type="content" source="media/teams-copilot-chat.png" alt-text="Screenshot showing Copilot in Teams chat user interface.":::
+
 ### Improve customer interactions
 
-- [View AI-generated email summaries](view-save-email-summary-crm.md) in Outlook with CRM insights and BANT (Budget, Authority, Need, Timing) sales assessment. Save summaries directly to your CRM.
+- [View AI-generated email summaries](email-summary-premium.md) in Outlook with CRM insights and BANT (Budget, Authority, Need, Timing) sales assessment.
 
-- [Generate email drafts](use-copilot-kickstart-email-messages.md) in Outlook with relevant product and opportunity information, pulling from CRM platform and Microsoft Graph data.
+    :::image type="content" source="media/outlook-email-summary.svg" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
 
-- [View AI-generated meeting summaries](view-understand-meeting-summary.md) including keyword and conversation analysis, competitor mentions, KPIs, and suggested tasks. Create tasks in your CRM. 
+- [Generate email drafts](email-reply-premium.md) in Outlook with relevant product and opportunity information, pulling from CRM platform and Microsoft Graph data.
+
+    :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
+
+- [View AI-generated meeting summaries](view-meeting-summary-recap.md) including keyword and conversation analysis, competitor mentions, KPIs, and suggested tasks. Create tasks in your CRM. 
+
+    :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
 
 ## Enhance sales team performance
 
@@ -58,7 +68,11 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 - Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from Microsoft Copilot for Sales in Outlook or directly from the Dynamics 365 Sales app.
 
-- [Share linked CRM record in a Microsoft Teams conversation](share-crm-record-teams-conversation.md). 
+    :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook.":::
+
+- [Share linked CRM record in a Microsoft Teams conversation](share-crm-record-teams-conversation.md).
+
+    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
 
 ## Customize for your needs
 
@@ -72,3 +86,8 @@ Customize Copilot for Sales for a uniquely tailored experience that meets your o
 
 [Extend Copilot for Sales](extend-sales-copilot.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
+### See also
+
+[Copilot for Sales architecture](architecture.md)<br>
+[Copilot for Sales license overview](license-info.md)<br>
+[Microsoft Copilot for Sales FAQ](sales-copilot-faq.md)

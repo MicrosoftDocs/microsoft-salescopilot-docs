@@ -21,7 +21,7 @@ But updating the CRM with all your activities across all the communication chann
 > - Saving Outlook activities from shared mailboxes is not supported.
 > - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 > - Saving recurring meetings to your CRM is not supported.
-> - If you've saved an email using Dynamics 365 App for Outlook, it's not shown as saved in Copilot for Sales. You must save the email using Copilot for Sales. If you save the email again using Copilot for Sales, a duplicate record is created in CRM.
+> - If you've saved an Outlook activity (email or appointment) using Dynamics 365 App for Outlook, it's not shown as saved in Copilot for Sales. You must save the Outlook activity using Copilot for Sales. If you save the Outlook activity again using Copilot for Sales, a duplicate record is created in CRM.
 
 ## Save Outlook activities from the highlight card
 
@@ -45,11 +45,9 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
     If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
-   > [!NOTE]
-   >
-   > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
-   >
-   > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+    > [!NOTE]
+    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
+    > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card shows the contacts in the activity, as this activity is shown in their timeline.
 

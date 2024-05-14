@@ -32,7 +32,7 @@ The app is installed in Fixed mode by default. In a Fixed deployment, users rece
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, on the **Microsoft Copilot for Sales** card, select **Get it now**. 
+5. In the search results, on the **Copilot for Sales** card, select **Get it now**. 
 
     :::image type="content" source="media/get-enhanced-app.svg" alt-text="Screenshot showing Copilot for Sales enhanced app in Microsoft 365 admin center.":::
 

@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 04/05/2024
+ms.date: 04/15/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ms.custom:
 
 # Collaborate in account and deal room teams
 
-You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in a variety of ways.
+You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in various ways.
 
 - In Outlook, open Copilot for Sales, and then follow one of these steps:
     
