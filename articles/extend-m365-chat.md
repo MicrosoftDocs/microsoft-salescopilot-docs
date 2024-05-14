@@ -193,5 +193,5 @@ Here's an example of an adaptive card in .json format. To visualize it, open [De
 [Enrich key sales info with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-sales-copilot.md)<br>
+[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build application APIs to extend Copilot for Sales](build-apis.md)

@@ -42,4 +42,4 @@ In this section, you will find the information to enrich the following Copilot f
 [Enrich key sales info with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-sales-copilot.md)
+[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)

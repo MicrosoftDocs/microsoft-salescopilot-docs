@@ -226,7 +226,7 @@
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
-    href: extend-sales-copilot.md
+    href: extend-copilot-for-sales.md
   - name: Build application APIs
     items:
     - name: Overview

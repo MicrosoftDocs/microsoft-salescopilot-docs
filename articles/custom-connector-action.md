@@ -53,5 +53,5 @@ Upon creating a custom connector and connector action in Microsoft Copilot Studi
 
 ### See also
 
-[Extend Microsoft Copilot for Sales with partner applications](extend-sales-copilot.md)<br>
+[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build application APIs to extend Copilot for Sales](build-apis.md)
