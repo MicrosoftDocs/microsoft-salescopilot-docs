@@ -17,6 +17,8 @@
     href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
+  - name: License overview
+    href: license-info.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
@@ -24,12 +26,10 @@
   - name: Copilot for Sales FAQ
     href: sales-copilot-faq.md
 
-- name: Get started
+- name: Buy and install
   items:
-  - name: Deployment guide for Dynamics 365 users
-    href: deploy-viva-sales-d365.md
-  - name: Deployment guide for Salesforce users
-    href: deploy-viva-sales-sf.md
+  - name: Buy Copilot for Sales
+    href: buy-license.md
   - name: Install Copilot for Sales
     items:
     - name: Install Copilot for Sales (admin-deployed)
@@ -40,6 +40,21 @@
       href: install-pin-viva-sales-teams.md
     - name: Install Copilot for Sales (user-deployed)
       href: install-sales-copilot.md
+  - name: Enable Copilot for Sales
+    href: enable-license.md
+  - name: Early Access Program (EAP)
+    items:
+    - name: Redeem Copilot for Sales EAP trial licenses
+      href: eap-redeem-license.md
+    - name: EAP customer transition FAQ
+      href: eap-faq.md
+
+- name: Deployment scenarios
+  items:
+  - name: Deployment guide for Dynamics 365 users
+    href: deploy-viva-sales-d365.md
+  - name: Deployment guide for Salesforce users
+    href: deploy-viva-sales-sf.md
 
 
 - name: Administration guide
@@ -52,13 +67,17 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
+    - name: Turn off task suggestion in collaboration spaces (preview)
+      href: turn-off-suggested-tasks-collab-space.md
+    - name: Copilot data movement across geographies
+      href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
     - name: Hierarchy settings for Salesforce orgs (preview)
       href: hierarchy-settings-sf.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
-  - name: Uninstall Copilot for Sales add-in for Outlook
+  - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
   - name: Block the Copilot for Sales app in Teams
     href: block-viva-sales-app-teams.md
@@ -89,6 +108,8 @@
         href: change-connected-crm-contact.md
       - name: Create a contact in your CRM from Copilot for Sales
         href: create-contact-crm-sales-copilot.md
+      - name: Create a new record in your CRM from Copilot for Sales
+        href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
       - name: View recent and upcoming activities
@@ -121,6 +142,10 @@
           href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
+      - name: View suggested CRM updates
+        href: suggested-crm-updates.md
+      - name: View key sales info
+        href: key-sales-info.md
       
     - name: More options
       items:
@@ -145,16 +170,16 @@
         href: use-sales-copilot-app-during-meeting.md
       - name: Generate a meeting summary
         href: generate-meeting-summary.md
-      - name: View and understand the meeting summary
-        href: view-understand-meeting-summary.md
+      - name: View meeting summary
+        items:
+        - name: View meeting summary using premium license
+          href: view-meeting-summary-recap.md
+        - name: View meeting summary using standard license  
+          href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
-      - name: Share a CRM record in a Teams conversation
-        href: share-crm-record-teams-conversation.md
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-    - name: Share feedback
-      href: share-feedback-teams.md
     - name: Get sales data in Teams Copilot app (preview)
       href: teams-copilot-chat.md
 
@@ -177,6 +202,16 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
+      - name: AI-powered Planner tasks (preview)
+        items:
+        - name: Overview
+          href: suggested-tasks-collab-space.md
+        - name: Create Planner tasks from suggested tasks
+          href: create-planner-tasks.md
+    - name: Share a CRM record in Teams or Outlook
+      href: share-crm-record-teams-conversation.md
+    - name: Copilot for Sales personal app
+      href: personal-app.md
 
   - name: Conversation intelligence dashboard (preview)
     items:
@@ -267,55 +302,15 @@
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 
-- name: Developer guide
-  items:
-  - name: Table reference
-    items:
-    - name: "About Table/Entity Reference"
-      href: developer/about-entity-reference.md
-    - name: msdyn_ConversationActionItem
-      href: developer/entities/msdyn_conversationactionitem.md
-    - name: msdyn_ConversationAggregatedInsights
-      href: developer/entities/msdyn_conversationaggregatedinsights.md
-    - name: msdyn_ConversationComment
-      href: developer/entities/msdyn_conversationcomment.md
-    - name: msdyn_ConversationParticipantInsights
-      href: developer/entities/msdyn_conversationparticipantinsights.md
-    - name: msdyn_ConversationParticipantSentiment
-      href: developer/entities/msdyn_conversationparticipantsentiment.md
-    - name: msdyn_ConversationQuestion
-      href: developer/entities/msdyn_conversationquestion.md
-    - name: msdyn_ConversationSegmentSentiment
-      href: developer/entities/msdyn_conversationsegmentsentiment.md
-    - name: msdyn_ConversationSentiment
-      href: developer/entities/msdyn_conversationsentiment.md
-    - name: msdyn_ConversationSignal
-      href: developer/entities/msdyn_conversationsignal.md
-    - name: msdyn_ConversationSubject
-      href: developer/entities/msdyn_conversationsubject.md
-    - name: msdyn_ConversationSummarySuggestion
-      href: developer/entities/msdyn_conversationsummarysuggestion.md
-    - name: msdyn_ConversationSystemTag
-      href: developer/entities/msdyn_conversationsystemtag.md
-    - name: msdyn_ConversationTag
-      href: developer/entities/msdyn_conversationtag.md
-    - name: msdyn_ocrecording
-      href: developer/entities/msdyn_ocrecording.md
-    - name: msdyn_recording
-      href: developer/entities/msdyn_recording.md
-    - name: msdyn_SCIConversation
-      href: developer/entities/msdyn_sciconversation.md
-    - name: msdyn_SciCustomHighlight
-      href: developer/entities/msdyn_scicustomhighlight.md
-    - name: msdyn_SciCustomPublisher
-      href: developer/entities/msdyn_scicustompublisher.md
-    - name: msdyn_sciusersettings
-      href: developer/entities/msdyn_sciusersettings.md
-    - name: msdyn_transcript
-      href: developer/entities/msdyn_transcript.md
 
 - name: Copilot for Sales training
   href: /training/modules/boost-sales-performance/
+
+- name: Copilot for Sales adoption resources
+  href: https://adoption.microsoft.com/copilot-for-sales/
+
+- name: Deprecations in Copilot for Sales
+  href: deprecations-copilot-for-sales.md
 
 - name: Responsible AI
   items:
@@ -329,6 +324,8 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
+  - name: FAQ for real-time tips
+    href: faqs-real-time-tips.md
   - name: FAQ for key sales info
     href: faqs-key-sales-info.md
   - name: FAQ for Copilot for Sales in M365 Chat

@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
 description: Learn how to set up a team using a deal room team template in the Copilot for Sales add-in for Outlook.
-ms.date: 02/02/2024
+ms.date: 02/21/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -76,9 +76,9 @@ When you create a collaboration space with the deal room team template, you can 
 
     Team members are recommended based on the following criteria:
 
-    - **Dynamics 365**: The CRM opportunity owner, members of the account team, and members the opportunity is shared with. If the opportunity owner is a group, the members of the group are listed.
+    - **Dynamics 365**: The CRM opportunity owner, members of the opportunity team, and members the opportunity is shared with. If the opportunity owner is a group, the members of the group are listed.
 
-    - **Salesforce CRM**: The CRM opportunity owner and members of the opportunity team. [Learn more about using account teams in Salesforce](https://help.salesforce.com/s/articleView?id=sf.accountteam_enable.htm&type=5).
+    - **Salesforce CRM**: The CRM opportunity owner and members of the opportunity team. [Learn more about using opportunity teams in Salesforce](https://help.salesforce.com/s/articleView?id=sf.teamselling_enabling.htm&type=5).
 
 1. In the **Set up your channels** step, change the channel name, if necessary, and select a privacy option. To add a shared channel for collaborating with customers, leave **Include shared channel** selected.
 
@@ -91,3 +91,17 @@ When you create a collaboration space with the deal room team template, you can 
     After the basic General channel is set up, a confirmation message is displayed. Select **Open in Teams** to view the new team.
 
 [Learn how to collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
+
+## Alternative ways to set up a deal room team
+
+You can also set up a team using the deal room template in the following ways:
+
+- In the **Opportunities** card in the Copilot for Sales pane, hover over the opportunity name, and then select **More actions (...)** > **Teams** > **Set up deal room**. [Set up a new team](#create-a-deal-room-team) or [use an existing team as a deal room team](#set-up-an-existing-team-as-a-deal-room-team).
+
+    :::image type="content" source="media/deal-room-record-card.png" alt-text="Screenshot showing creating deal room team from record card.":::
+
+- When viewing opportunity details in the Copilot for Sales pane, go to the **Collaborate in Teams** card, and then select **Set up deal room**. If deal room teams already exist, the button name displayed is **Set up another deal room**. [Set up a new team](#create-a-deal-room-team) or [use an existing team as a deal room team](#set-up-an-existing-team-as-a-deal-room-team).
+
+    :::image type="content" source="media/deal-room-record-details-view.png" alt-text="Screenshot showing creating deal room team from record details view.":::
+
+After you set up a team, you can [collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).

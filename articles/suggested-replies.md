@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft Copilot for Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 02/02/2024
+ms.date: 03/18/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,6 +22,16 @@ Copilot AI features in Copilot for Sales are available only in some [supported l
 > [!NOTE]
 > After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.
 
+## Prerequisites
+
+If you're a new customer in a region other than North America or Europe, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance.
+
+- Read the [Copilot data movement](copilot-data-movement.md) article carefully.
+- Turn on data movement in your tenant and/or environment.
+
+> [!NOTE]
+> If the data movement consent isn't provided, Copilot AI features won't be available to your sellers and meeting insights won't be generated.
+
 ## Turn on Copilot AI features for your organization
 
 As a tenant administrator, you can control who can use AI capabilities in Copilot for Sales for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
@@ -31,6 +41,8 @@ As a tenant administrator, you can control who can use AI capabilities in Copilo
 1. Under **Tenant**, select **Copilot**.
 
 1. Turn on **Copilot**.
+
+1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.
 
 1. Under **Apply to**, select one of the following options:
 
@@ -52,6 +64,8 @@ As a CRM administrator, you can control who can use AI capabilities in Copilot f
 
 1. Turn on **Copilot**.
 
+1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.
+1. To turn on real-time sales tips feature, select **Show tips about competitors and brands**.
 1. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.
 
     Preview features allow sellers to benefit from new features before they're generally available. Preview features are turned off by default.

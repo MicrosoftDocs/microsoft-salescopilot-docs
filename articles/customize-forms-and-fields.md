@@ -1,13 +1,12 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
-ms.date: 02/02/2024
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.localizationpriority: medium
 ---
 
 # Customize forms and fields
@@ -61,7 +60,8 @@ You can add new custom or out-of-the-box record types to Copilot for Sales. For 
     > [!NOTE]
     > - Only record types that are related to a currently available record type are displayed. For example, contact, account, and opportunity record types are available by default, so you can add other out-of-the-box and custom record types that are related to these record types.
     > - You can add only one record type at a time.
-    > - Logical names of record types and fields are displayed to optimize performance. 
+    > - Logical names of record types and fields are displayed to optimize performance.
+    > - For Dynamics 365, ActivityParty and ActivityPointer record types can't be added, as they are currently not supported. 
 
     :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 
@@ -156,8 +156,6 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 #### Add fields
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fC5a]
-
 **To add fields**
 
 1.  In Copilot for Sales admin settings, select **Forms**.
@@ -204,7 +202,8 @@ If a record type is not based on a CRM view, you can select fields to include in
 If the fields in CRM are not marked as required, you can mark them as required only for Copilot for Sales. Sellers will be required to enter values for these fields before they can save the record in Copilot for Sales.
 
 > [!NOTE]
-> If a field is marked as required in CRM, it's marked as required in Copilot for Sales as well and you can't make it optional.
+> - If a field is marked as required in CRM, it's marked as required in Copilot for Sales as well and you can't make it optional.
+> - If you're using Salesforce, and [you've marked a field as required using the page layout option](https://help.salesforce.com/s/articleView?id=000384974&type=1), the field is not marked as required automatically in Copilot for Sales. You must manually mark the field as required in Copilot for Sales.  
 
 1.	In Copilot for Sales admin settings, select **Forms**.
 
@@ -219,39 +218,40 @@ If the fields in CRM are not marked as required, you can mark them as required o
 
 ## Configure editing of records and fields
 
-You can control which records and fields sellers can edit directly in Copilot for Sales.
+Sellers can edit records by opening them in CRM from a link in Copilot for Sales. Help them be more productive by allowing them to edit records directly in Copilot for Sales. You can also control which fields sellers can edit directly in Copilot for Sales.
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE5fHzM]
 
 **To allow editing of records**
 
 1.  In Copilot for Sales admin settings, select **Forms**.
 
-2.  Select a record type for which you need to allow editing.
+2.  Select the record type that you must allow editing for.
 
-3.  Turn on **Allow editing** to allow sellers to edit all relevant fields in that record type.
+3.  In the **Editing records** section, select **Edit records inside Copilot for Sales** to allow sellers to edit all relevant fields for that record type.
 
-4.  To restrict editing for specific fields, in the **Manage fields** section, and turn off **Allow editing** for corresponding fields.
+4.  To restrict editing for specific fields, in the **Manage fields** section, turn off **Allow editing** for the appropriate fields.
 
-    ![Screenshot showing how to enable editing of records and fields in Copilot for Sales.](media/viva-sales-allow-edit.png "Screenshot showing how to enable editing of records and fields in Copilot for Sales.")
+    :::image type="content" source="media/viva-sales-allow-edit.png" alt-text="Screenshot showing how to enable editing of records and fields in Copilot for Sales.":::
 
 5.  Select **Publish** to save your changes.
 
-## Configure new contact creation
+## Configure new record creation
 
-You can control whether sellers can create contacts inline, directly in Copilot for Sales, or must do so in the CRM. By default, new contacts are created inline in Copilot for Sales.
+Choose whether, how, and where sellers can create new records from Copilot for Sales. Help them save time by allowing them to create new records inline, directly in Copilot for Sales, and make it easy for them to go to their CRM in a browser with a click.
 
-**To configure new contact creation**:
+**To configure new contact creation**
 
 1.  In Copilot for Sales admin settings, select **Forms**.
 
-2.  Select the **Contact** record type.
+2.  Select the record type that you must configure new record creation for.
 
-3.  Under **Allow editing**, select **Allow new contacts to be created directly from Copilot for Sales**.
+3.  In the **Creating records** section, select one or both of the following options:
 
-    ![Screenshot showing how to configure contact creation in Copilot for Sales.](media/viva-sales-inline-contact-create.png "Screenshot showing how to configure contact creation in Copilot for Sales.")
+    - **Create new records inside Copilot for Sales**: Allow sellers to create new records inline, directly in Copilot for Sales.
+    - **Create new records by opening (CRM) from a link**: Allow sellers to create new records in CRM by opening a link in a browser.
+
+    :::image type="content" source="media/viva-sales-inline-contact-create.png" alt-text="Screenshot showing how to configure contact creation in Copilot for Sales.":::
 
 4.  Select **Publish** to save your changes.
 

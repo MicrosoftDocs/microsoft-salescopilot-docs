@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 02/02/2024
+ms.date: 04/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -25,8 +25,10 @@ If there are notes added to the opportunity, they are also summarized and displa
 > [!NOTE]
 > - The opportunity summary for an email is displayed only if the email is saved to CRM and connected to an opportunity.
 > - If a meeting is not connected to an opportunity, the opportunity summary for the meeting is displayed based on the most relevant opportunity selected by AI. You'll get an option to select another opportunity and regenerate the suggested content.
-> - When you when you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
+> - When you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
 > - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Copilot for Sales pane in Outlook.
+> - You can view the opportunity summary when [sharing CRM records in Teams](share-crm-record-teams-conversation.md).
+> - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, Copilot for Sales only supports the "Notes and Attachments" object out of the box. If you want Copilot for Sales to support the Notes object, ask your administrator to contact Microsoft support.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
 
@@ -38,6 +40,10 @@ If there are notes added to the opportunity, they are also summarized and displa
 | 4 | Change the opportunity used to generate the summary. More information: [Change the opportunity used to generate summary](#change-the-opportunity-used-to-generate-summary) |
 | 5 | Name of the opportunity for which summary is generated. |
 | 6 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
+
+## Supported languages
+
+To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
 
 ## View opportunity summary
 
@@ -100,7 +106,13 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ### Create a connection
 
-After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
+After the feature is enabled, you see an action card in the Copilot for Sales pane in Outlook to create a connection with the partner application. For example, in the following image, the action card to sign in to the connector for the partner application **DocuSign** is displayed. Select **Sign in** to connect to the partner application. 
+
+:::image type="content" source="media/action-card-connector.svg" alt-text="Screenshot showing action card to sign in to connector.":::
+
+In the pop-up message in Outlook, select **Create** to create a connector for the partner application. 
+
+:::image type="content" source="media/create-connector.svg" alt-text="Screenshot showing pop-up to create a connector.":::
 
 > [!NOTE]
 > - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
