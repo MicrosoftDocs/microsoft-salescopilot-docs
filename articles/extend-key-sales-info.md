@@ -34,14 +34,14 @@ Copilot for Sales is designed to provide the following input parameters to your 
 |------|--------------------|----------|---------|----------------------------------|
 | recordType | String | Yes | Record Type in CRM. The value can be account, opportunity, lead, or contact that is related to the email. | This input identifies the record type in CRM for which key sales info is requested. |
 | recordId | String | Yes | Record ID in CRM. | This input provides the unique identifier of the CRM record for which key sales info is requested. |
-| crmType | String | No | Type of CRM system. Valid values are Salesforce amd Dynamics 365 | This input indicates the type of CRM in which the CRM record exists, for which key sales info is requested. |
+| crmType | String | No | Type of CRM system. Valid values are Salesforce and Dynamics 365 | This input indicates the type of CRM in which the CRM record exists, for which key sales info is requested. |
 | crmOrgUrl | String | No | CRM Organization URL. | This input indicates the URL of the CRM environment in which the CRM record exists, for which key sales info is requested. |
 | top | Integer | No | Number of insights to fetch. | This input indicates the number of sales highlights to fetch. |
 | skip | Integer | No | Number of insights to skip. | This input indicates the number of items to skip when fetching sales highlights. |
 
 ## Output parameters
 
-Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure as described in the following table. 
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
@@ -55,8 +55,8 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | Title | String | Yes | Title of the sales insight citation card. Should include only the partner's name. Title can be up to 20 characters. | This output indicates the title of citation card for the insight. |
 | description | String | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria`. Description can be up to 130 characters. | This output indicates the text of the insight to be included in key sales info. |
 | url | String | No | A valid URL to open the insight in the partner application. | This output indicates the URL to learn more about the insight. |
-| dateTime | DateTime | No | Date and time of the activity in UTC format. If there is a start and end time, application needs to decide which one to show. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z. | This output indicates the time associated with the insight. |
-| additionalProperties | Object with Property Name and Property Value | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This will be displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
+| dateTime | DateTime | No | Date and time of the activity in UTC format. If there's a start and end time, application needs to decide which one to show. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z. | This output indicates the time associated with the insight. |
+| additionalProperties | Object with Property Name and Property Value | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This is displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
 
 ### Example
 
@@ -96,7 +96,7 @@ The following image shows an example of how the output of the API is mapped to t
 
 ### See also
 
-[Add a new Q&A capability to the Sales chat](extend-m365-chat.md)<br>
+[Add a new question and answer (Q&A) capability to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summary with insights from your application](extend-email-summary.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>

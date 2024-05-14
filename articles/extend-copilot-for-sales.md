@@ -22,7 +22,7 @@ Microsoft Copilot for Sales is an AI assistant designed for sales teams to maxim
 
 Copilot for Sales connects to CRMs such as Salesforce Sales Cloud and Microsoft Dynamics 365 Sales out-of-box. However, sales is more than CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Copilot for Sales experience. 
 
-If you are a partner application developer, you can integrate your application with Copilot for Sales to provide contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook.
+If you're a partner application developer, you can integrate your application with Copilot for Sales to provide contextual insights and recommendations in the context of the seller's daily workflow in Microsoft Teams and Outlook.
 
 This article provides guidance on how to extend Copilot for Sales with your application APIs. It provides the following information:
 - Capabilities you can extend in Copilot for Sales.
@@ -31,7 +31,7 @@ This article provides guidance on how to extend Copilot for Sales with your appl
 
 ## How does extensibility work in Copilot for Sales?
 
-Copilot for Sales in Microsoft 365 is composed of multiple individual capabilitys that are made available contextually to users. Each of these features is backed by a skill service owned by Copilot for Sales. When an end user interacts with a capability, the skill service for the capability generates the insights to deliver as part of that capability. Out-of-the-box, the skill service uses data in Graph and CRMs to get insights. With extensibility, the skill service will call into your application APIs made available in your action in real-time to get additional insights to enrich the capability. When the skill service calls into your application APIs, it will pass all available context that your application APIs accept; and expects to get back insights in a format that aligns with how the insights are presented to users of the Copilot for Sales in the capability.
+Copilot for Sales in Microsoft 365 is composed of multiple individual capabilities that are made available contextually to users. Each of these features is backed by a skill service owned by Copilot for Sales. When an end user interacts with a capability, the skill service for the capability generates the insights to deliver as part of that capability. Out-of-the-box, the skill service uses data in Graph and CRMs to get insights. With extensibility, the skill service calls into your application APIs made available in your action in real-time to get additional insights to enrich the capability. When the skill service calls into your application APIs, it passes all available context that your application APIs accept; and expects to get back insights in a format that aligns with how the insights are presented to users of the Copilot for Sales in the capability.
 
 `image`
 
@@ -42,13 +42,13 @@ To ensure that everything works properly, Copilot for Sales needs to:
 
 
 You, as a maker, must build:
-1. The APIs that match the expectations of the Copilot for Sales capabilities you are trying to extend. The API used to extend a capability in Copilot for Sales must accept the required inputs from Copilot for Sales and return the required outputs expected by Copilot for Sales.
+1. The APIs that match the expectations of the Copilot for Sales capabilities you're trying to extend. The API used to extend a capability in Copilot for Sales must accept the required inputs from Copilot for Sales and return the required outputs expected by Copilot for Sales.
 1. A Power Platform connector with the APIs and oAuth authentication.
 1. An action that adds the Copilot for Sales provided descriptions to the connector.
 
-    Copilot for Sales doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure are not constraints for Copilot. Your responsibility is to ensure that your APIs can handle the inputs supplied by Copilot and return the expected outputs. Additionally, you must provide appropriate descriptions to enable Copilot to correctly match them during runtime.
+    Copilot for Sales doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure aren't constraints for Copilot. Your responsibility is to ensure that your APIs can handle the inputs supplied by Copilot and return the expected outputs. Additionally, you must provide appropriate descriptions to enable Copilot to correctly match them during runtime.
 
-For instance, suppose you wish to enhance the [Key sales info](key-sales-info.md) capability in Copilot for Sales. To do this, you'll need to create an API that, at the very least, accepts a CRM record reference (passed as 'recordType' and 'recordId') as input and provides the insight title, description, and date as output. This API should be added to a new or existing Power Platform connector that utilizes OAuth for authentication. Furthermore, the APIs in the connector should be supplemented with descriptions as required by Copilot for Sales.
+For instance, suppose you wish to enhance the [Key sales info](key-sales-info.md) capability in Copilot for Sales. To do this, you need to create an API that, at least, accepts a CRM record reference (passed as 'recordType' and 'recordId') as input and provides the insight title, description, and date as output. This API should be added to a new or existing Power Platform connector that utilizes OAuth for authentication. Furthermore, the APIs in the connector should be supplemented with descriptions as required by Copilot for Sales.
 
 ## Copilot capabilities that can be extended
 
@@ -58,7 +58,7 @@ Extensibility enables you to enhance existing capabilities or add new capabiliti
 - [Opportunity summary](view-opportunity-summary.md)
 - [Record details](view-record-details.md)
 
-Additionally, you can introduce new Q&A capabilities to the chat features in Copilot for Sales. However, it's important to note that you cannot add new capabilities to the non-chat features in Copilot for Sales.
+Additionally, you can introduce new Q&A capabilities to the chat features in Copilot for Sales. However, it's important to note that you can't add new capabilities to the non-chat features in Copilot for Sales.
 
 ## Extend Copilot for Sales
 

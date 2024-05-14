@@ -24,13 +24,13 @@ After you have built your custom connector, you must create an action in Microso
 
 ## Create and test a custom connector in Power Platform
 
-Download the OpenAI file to quickly start with the connector actions needed to extend Copilot for Sales. Note that the OpenAI file contains swagger for an API designed to get content suggestions in an email. This can be disregarded as the Copilot for Sales user interface does not support this API.
+Download the OpenAI file to quickly start with the connector actions needed to extend Copilot for Sales. The OpenAI file contains swagger for an API designed to get content suggestions in an email. This can be disregarded as the Copilot for Sales user interface doesn't support this API.
 
 You can create a custom connector either from [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/). 
 
-Ensure to use an environment that has Dynamics 365 apps enabled, as these are the environments used in Copilot for Sales Outlook add-in. Environments without Dynamics 365 apps, such as the default environment, are not supported for custom connectors. To create a new environment with Dynamics 365 apps enabled, see [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
+Ensure to use an environment that has Dynamics 365 apps enabled, as these are the environments used in Copilot for Sales Outlook add-in. Environments without Dynamics 365 apps, such as the default environment, aren't supported for custom connectors. To create a new environment with Dynamics 365 apps enabled, see [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
 
-When setting up the authentication for the connector, ensure to use the OAuth 2.0 authentication type and Microsoft Entra Id (formerly known as Azure Active Directory) as the authentication provider. This enables your backend service to receive Entra Id tokens that can subsequently be exchanged when invoking Microsoft services such as Graph. The connector and the backend service are secured using two different application registrations as mentioned in the [Set up Microsoft Entra ID authentication](/connectors/custom-connectors/create-web-api-connector#set-up-microsoft-entra-id-authentication) article.
+When setting up the authentication for the connector, ensure to use the OAuth 2.0 authentication type and Microsoft Entra ID (formerly known as Azure Active Directory) as the authentication provider. This enables your backend service to receive Microsoft Entra ID tokens that can then be exchanged when invoking Microsoft services such as Graph. The connector and the backend service are secured using two different application registrations as mentioned in the [Set up Microsoft Entra ID authentication](/connectors/custom-connectors/create-web-api-connector#set-up-microsoft-entra-id-authentication) article.
 
 For steps to create a custom connector, set up authentication, and test the connector, see [Create a custom connector from an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition).
 

@@ -1,5 +1,5 @@
 ---
-title: Add a new Q&A capability to the Sales chat (preview)
+title: Add a new question and answer (Q&A) capability to the Sales chat (preview)
 description: Enhance your Microsoft 365 Copilot chat with a new Q&A feature for sellers, introducing insights from various applications directly.
 ms.date: 05/15/2024
 ms.topic: article
@@ -12,28 +12,28 @@ ms.custom:
   - ai-seo-date:05/07/2024
 ---
 
-# Add a new Q&A capability to the Sales chat (preview)
+# Add a new question and answer (Q&A) capability to the Sales chat (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a Q&A experience to ask questions and get answers from a partner application within the chat interface. By using your actions, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
+Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a question and answer (Q&A) experience to ask questions and get answers from a partner application within the chat interface. By using your actions, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
 
 `image`
 
 ## Input parameters
 
-Introducing new capabilities to the Q&A experience significantly differs from enriching the out-of-the-box capabilities in the non-chat experience. Unlike the latter, the former does not have predefined inputs from Copilot for Sales. Instead, based on the context and user's question in the chat, the copilot orchestrator passes relevant inputs to the parameters defined in the swagger actions. Currently, this experience supports parameters of data types such as int, double, and string, but does not support complex or nested objects.
+Introducing new capabilities to the Q&A experience significantly differs from enriching the out-of-the-box capabilities in the nonchat experience. Unlike the latter, the former doesn't have predefined inputs from Copilot for Sales. Instead, based on the context and user's question in the chat, the copilot orchestrator passes relevant inputs to the parameters defined in the swagger actions. Currently, this experience supports parameters of data types such as int, double, and string, but doesn't support complex or nested objects.
 
 > [!NOTE]
 > Copilot for Sales currently does not have the capability to pass the entire user utterance as-is to a action. It only supports simple skill-like APIs, such as computing engagement scores for an opportunity.
 
 ## Output parameters
 
-Copilot for Sales anticipates that APIs introducing new capabilities to the chat will return one or more adaptive cards. There are three variations in terms of how Copilot for Sales expects and will display the response from your action.
+Copilot for Sales anticipates that APIs introducing new capabilities to the chat return one or more adaptive cards. There are three variations in terms of how Copilot for Sales expects and displays the response from your action.
 
-Refer to the [sample expected output in the .json format](#sample-expected-output-in-the-json-format)  to understand how to return the output parameters.
+See the [sample expected output in the .json format](#sample-expected-output-in-the-json-format) for example about returning the output parameters.
 
 ### Structured data or insights about one record or topic
 
@@ -45,11 +45,11 @@ Refer to the [sample expected output in the .json format](#sample-expected-outpu
 | 2 | Title – obtained from the API response |
 | 3 | Subtitle – derived from the API response |
 | 4 | Section displaying additional information as key-value pairs – sourced from the API response |
-| 5 | Call to action – The URL is derived from the API response. The button text will either be `Open <object type>` or `Open in <action name>`. |
+| 5 | Call to action – The URL is derived from the API response. The button text can either be `Open <object type>` or `Open in <action name>`. |
 
 ### Structured data or insights about multiple records or topic
 
-When the API returns multiple adaptive cards, Copilot for Sales will compile a summary of the cards and provide citations that can be selected to view each individual card.
+When the API returns multiple adaptive cards, Copilot for Sales compiles a summary of the cards and provide citations that can be selected to view each individual card.
 
 `image`
 
@@ -68,8 +68,8 @@ When the API returns multiple adaptive cards, Copilot for Sales will compile a s
 | 1 | Card from Copilot for Sales based on the API response |
 | 2 | Title – formulated from the action name as `Info from <action name>` |
 | 3 | Body text (one paragraph, max 230 characters) derived from the API response |
-| 4 | Additional sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets |
-| 5 | Call to action – The URL is sourced from the API response. The button text will be `Open in <action name>` |
+| 4 | Other sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets |
+| 5 | Call to action – The URL is sourced from the API response. The button text is in the format `Open in <action name>` |
 
 ### Sample expected output in the .json format
 
@@ -96,7 +96,7 @@ When the API returns multiple adaptive cards, Copilot for Sales will compile a s
   }
 ```
 
-Here's an example of an adaptive card in .json format. To visualize it, open [Designer | Adaptive Cards](https://adaptivecards.io/designer/), and then paste the following .json content into the **Card Paylod Editor** area.
+Here's an example of an adaptive card in .json format. To visualize it, open [Designer | Adaptive Cards](https://adaptivecards.io/designer/), and then paste the following .json content into the **Card Payload Editor** area.
 
 ```json
 {

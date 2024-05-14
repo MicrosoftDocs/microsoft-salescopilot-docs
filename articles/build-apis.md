@@ -22,12 +22,12 @@ This section outlines what Copilot for Sales expects from your application APIs 
 
 - The input context that your application APIs can anticipate from Copilot for Sales (capability).
 - The kind of insights that each capability can display in the user interface (and hence, what your APIs should provide).
-- The descriptions needed at the API level, as well as for each API input and output, to assist Copilot for Sales in identifying the correct API to invoke at runtime.
+- The descriptions needed at the API level, and for each API input and output, to assist Copilot for Sales in identifying the correct API to invoke at runtime.
 
 > [!NOTE]
 > These definitions are provided with high confidence, but they are subject to change based on our internal reviews, testing, and feedback. Some descriptions might currently be empty. We are in the process of defining these and will provide updates in a future version of the guide.
 
-In this section, you will find the information to enrich the following Copilot for Sales capabilities with insights from your application:
+In this section, you'll find the information to enrich the following Copilot for Sales capabilities with insights from your application:
 
 - [Email summary](extend-email-summary.md)
 - [Key sales information](extend-key-sales-info.md)
