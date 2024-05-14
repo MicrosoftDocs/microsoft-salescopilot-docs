@@ -155,6 +155,8 @@
         href: view-update-crm-record-details.md
     - name: Share feedback
       href: share-feedback-teams.md
+    - name: Get sales data in Teams Copilot app (preview)
+      href: teams-copilot-chat.md
 
   - name: Capabilities in Microsoft Word
     items:
