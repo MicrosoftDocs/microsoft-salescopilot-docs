@@ -554,6 +554,16 @@
         "source_path": "articles/share-feedback-teams.md",
         "redirect_url": "/microsoft-sales-copilot/personal-app#share-feedback-from-personal-app",
         "redirect_document_id": false
-      }                     
+      },
+      {                       
+        "source_path": "articles/extend-sales-copilot.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
+        "redirect_document_id": false
+      },
+      {                       
+        "source_path": "articles/view-opportunity-summary.md#view-peopleai-insights-in-opportunity-summary-preview",
+        "redirect_url": "/microsoft-sales-copilot/people-ai-insights",
+        "redirect_document_id": false
+      }                        
   ]
 }

@@ -67,7 +67,7 @@ Additionally, you can introduce new Q&A capabilities to the chat features in Cop
     > [!NOTE]
     > If you want to extend any capability other than the ones listed [here](#copilot-capabilities-that-can-be-extended), contact us using [this link](https://aka.ms/SalesCopilotPartnerSignUp).
 
-2. [Implement the APIs](build-apis.md) to extend the capabilities you chose in step 1.
+1. [Implement the APIs](build-apis.md) to extend the capabilities you chose in step 1.
 
 1. Author an action
     1. [Create a custom connector with your APIs](custom-connector-action.md#create-and-test-a-custom-connector-in-power-platform).
