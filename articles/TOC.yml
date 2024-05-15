@@ -124,6 +124,8 @@
         href: edit-crm-record.md
       - name: Use server-side synchronization with Copilot for Sales
         href: use-server-side-sync.md
+      - name: Search experiences in Copilot for Sales
+        href: search-experiences.md
     - name: AI capabilities
       items:
       - name: Overview
