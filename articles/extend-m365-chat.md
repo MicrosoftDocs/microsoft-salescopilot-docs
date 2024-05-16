@@ -20,7 +20,7 @@ ms.custom:
 
 Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a question and answer (Q&A) experience to ask questions and get answers from a partner application within the chat interface. By using your actions, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
 
-`image`
+:::image type="content" source="media/extend-sales-chat.png" alt-text="Screenshot showing sales chat.":::
 
 ## Input parameters
 
@@ -37,15 +37,14 @@ See the [sample expected output in the .json format](#sample-expected-output-in-
 
 ### Structured data or insights about one record or topic
 
-`image`
+:::image type="content" source="media/extend-sales-chat-one-topic.png" alt-text="Screenshot showing one record in sales chat.":::
 
-| Annotation | Description |
-|------------|-------------|
-| 1 | Logo – sourced from the action metadata |
-| 2 | Title – obtained from the API response |
-| 3 | Subtitle – derived from the API response |
-| 4 | Section displaying additional information as key-value pairs – sourced from the API response |
-| 5 | Call to action – The URL is derived from the API response. The button text can either be `Open <object type>` or `Open in <action name>`. |
+Legend:
+1. Logo – sourced from the action metadata
+2. Title – obtained from the API response 
+3. Subtitle – derived from the API response
+4. Section displaying additional information as key-value pairs – sourced from the API response 
+5. Call to action – The URL is derived from the API response. The button text can either be `Open <object type>` or `Open in <action name>`.
 
 ### Structured data or insights about multiple records or topic
 
@@ -61,15 +60,14 @@ When the API returns multiple adaptive cards, Copilot for Sales compiles a summa
 
 ### Free form data or insights
 
-`image`
+:::image type="content" source="media/extend-sales-chat-free-form.svg" alt-text="Screenshot showing free form data in sales chat.":::
 
-| Annotation | Description |
-|------------|-------------|
-| 1 | Card from Copilot for Sales based on the API response |
-| 2 | Title – formulated from the action name as `Info from <action name>` |
-| 3 | Body text (one paragraph, max 230 characters) derived from the API response |
-| 4 | Other sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets |
-| 5 | Call to action – The URL is sourced from the API response. The button text is in the format `Open in <action name>` |
+Legend:
+1. Card from Copilot for Sales based on the API response 
+2. Title – formulated from the action name as `Info from <action name>` 
+3. Body text (one paragraph, max 230 characters) derived from the API response 
+4. Other sections in the body, each with a title (max three words) and text bullets (1 sentence each). Minimum 1 bullet, Maximum 5 bullets 
+5. Call to action – The URL is sourced from the API response. The button text is in the format `Open in <action name>` 
 
 ### Sample expected output in the .json format
 

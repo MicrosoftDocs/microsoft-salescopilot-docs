@@ -104,20 +104,18 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
   "hasMoreResults": false
 }
 
-
-
 ```
+
 The following image shows an example of how the output of the API is mapped to the related records.
 
 :::image type="content" source="media/extend-record-details.png" alt-text="Screenshot showing anatomy of related records from a partner application.":::
 
-|Annotation|Description|
-|----------|-----------|
-|1|Card showing related records from partner application.|
-|2|Icon and title of the card. The icon is retrieved from the Power Platform connector metadata. The card title is the name of the Power Platform connector.|
-|3|Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.|
-|4|More actions icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.|
-|5|Additional properties of the related record from API response.|
+Legend:
+1. Card showing related records from partner application.
+2. Icon and title of the card. The icon is retrieved from the Power Platform connector metadata. The card title is the name of the Power Platform connector.
+3. Related record titles from API response. Two additional properties from API response are rendered as key fields of each related record.
+4. More actions icon to either copy a link to the record or view record details in the partner application. The link is based on the URL of the related record in API response.
+5. Additional properties of the related record from API response.
 
 ### See also
 
