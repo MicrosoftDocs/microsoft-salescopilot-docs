@@ -25,7 +25,7 @@ You need to go to the Microsoft Teams admin center and create setup policies to 
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dJYp]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
 
 ## Privileges required to use Copilot for Sales
 

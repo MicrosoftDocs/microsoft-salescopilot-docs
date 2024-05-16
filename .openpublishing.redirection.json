@@ -397,12 +397,12 @@
       },
       {
         "source_path": "articles/use-sales-copilot-outlook.md",
-        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_url": "/microsoft-sales-copilot/open-app#access-copilot-for-sales-in-outlook",
         "redirect_document_id": false
       },
       {
         "source_path": "articles/use-sales-copilot-teams.md",
-        "redirect_url": "/microsoft-sales-copilot/functional-overview",
+        "redirect_url": "/microsoft-sales-copilot/open-app#access-copilot-for-sales-in-teams",
         "redirect_document_id": false
       },
       {
@@ -534,6 +534,11 @@
         "source_path": "articles/introduction-sales-copilot.md",
         "redirect_url": "/microsoft-sales-copilot/introduction",
         "redirect_document_id": false
-      }                   
+      },
+      {
+        "source_path": "articles/share-feedback-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/personal-app#share-feedback-from-personal-app",
+        "redirect_document_id": false
+      }                     
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 03/28/2024
+ms.date: 04/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,7 +21,7 @@ But updating the CRM with all your activities across all the communication chann
 > - Saving Outlook activities from shared mailboxes is not supported.
 > - If you are using Salesforce as your CRM, you can't save draft emails and appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 > - Saving recurring meetings to your CRM is not supported.
-> - If you've saved an email using Dynamics 365 App for Outlook, it's not shown as saved in Copilot for Sales. You must save the email using Copilot for Sales. If you save the email again using Copilot for Sales, a duplicate record is created in CRM.
+> - If you've saved an Outlook activity (email or appointment) using Dynamics 365 App for Outlook, it's not shown as saved in Copilot for Sales. You must save the Outlook activity using Copilot for Sales. If you save the Outlook activity again using Copilot for Sales, a duplicate record is created in CRM.
 
 ## Save Outlook activities from the highlight card
 
@@ -45,11 +45,9 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
     If you want to save the email or meeting to CRM without connecting to a record, select **Save without connecting**. The email or meeting will still be associated with contacts on the To, Cc, and Bcc fields.
 
-   > [!NOTE]
-   >
-   > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
-   >
-   > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+    > [!NOTE]
+    > - When you search for a record to connect to, the search results display the record name and the key fields selected by your administrator. For more information about key fields, see [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
+    > - You can connect to all record types that are enabled for activities and added to Copilot for Sales by your administrator. For more information about adding record types, see [Add a new record type (or a Salesforce object)](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
    The **Related contacts** card shows the contacts in the activity, as this activity is shown in their timeline.
 
@@ -83,6 +81,25 @@ Copilot for Sales displays records that are related to the saved contacts in the
     You can also select a record to open its details and then select **More actions** (**...**) > **Save email to (CRM)**.
 
 1. The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
+
+## Save Outlook activities through quick CRM actions in email banners
+
+When you read a customer email from external contacts and have not saved the email in your CRM, the banner message at the top of the email enables you to save the email through quick CRM actions.
+
+1. Open or compose an email with at least one external contact.
+
+2. In the banner message, select **Save this email**.
+
+3. In the **Copilot for Sales** pane, under **Connect to a record**, select select the record you want to connect the meeting to. 
+
+    :::image type="content" source="media/banner-save-email.png" alt-text="Screenshot showing banner message with quick action to save an email.":::
+
+4. Select **Save**.
+
+Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+
+> [!NOTE]
+> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
 
 ## Change the connected record
 
