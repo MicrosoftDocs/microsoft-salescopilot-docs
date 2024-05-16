@@ -92,7 +92,17 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 The following image shows an example of how the output of the API is mapped to the key sales info.
 
-`image`
+:::image type="content" source="media/extend-ksi.svg" alt-text="Screenshot showing insights from partner apps in key sales info.":::
+
+Legend:
+1. Section showing insights from partner application. The section title is derived from the name of the Power Platform connector. 
+1. Descriptions (of insight) from API response.
+1. Citation numbers to see details about the insight.
+1. Citation card showing details about the insight.
+1. Icon and title of the insight. The icon is retrieved from the Power Platform connector metadata. The title text is the title of the insight from API response.
+1. Additional properties of the insight from API response.
+1. Name of the partner application. The name displayed is the name of the Power Platform connector.
+1. Link to view insight details in the partner application. It is based on the URL of the insight in API response.
 
 ### See also
 

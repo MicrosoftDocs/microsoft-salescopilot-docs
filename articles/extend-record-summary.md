@@ -101,24 +101,21 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
   "hasMoreResults": false
 }
 
-
-
 ```
 
 The following image shows an example of how the output of the API is mapped to the record summary.
 
-:::image type="content" source="media/extend-oppty-summ.png" alt-text="Screenshot showing anatomy of latest activities from a partner application.":::
+:::image type="content" source="media/extend-oppty-summ.svg" alt-text="Screenshot showing anatomy of latest activities from a partner application.":::
 
-|Annotation|Output parameter|
-|----------|-----------|
-|1|Section showing insights from partner application in record summary. The section title is derived from the name of the Power Platform connector.|
-|2|Descriptions of the insight, obtained from the API response.|
-|3|Citation number to see details about the insight.|
-|4|Citation card showing details about the insight.|
-|5|Icon and title of the insight. The icon is retrieved from the Power Platform connector metadata. The title text is the title of the insight from API response.|
-|6|Additional properties of the insight from API response.|
-|7|Name of the partner application. The name displayed is the name of the Power Platform connector.|
-|8|Link to view insight details in the partner application. It is based on the URL of the insight in API response.|
+Legend:
+1. Section showing insights from partner application. The section title is derived from the name of the Power Platform connector. 
+1. Descriptions (of insight) from API response.
+1. Citation numbers to see details about the insight.
+1. Citation card showing details about the insight.
+1. Icon and title of the insight. The icon is retrieved from the Power Platform connector metadata. The title text is the title of the insight from API response.
+1. Additional properties of the insight from API response.
+1. Name of the partner application. The name displayed is the name of the Power Platform connector.
+1. Link to view insight details in the partner application. It is based on the URL of the insight in API response.
 
 
 ### See also

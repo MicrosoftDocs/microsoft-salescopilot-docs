@@ -33,7 +33,7 @@ This article provides guidance on how to extend Copilot for Sales with your appl
 
 Copilot for Sales in Microsoft 365 is composed of multiple individual capabilities that are made available contextually to users. Each of these features is backed by a skill service owned by Copilot for Sales. When an end user interacts with a capability, the skill service for the capability generates the insights to deliver as part of that capability. Out-of-the-box, the skill service uses data in Graph and CRMs to get insights. With extensibility, the skill service calls into your application APIs made available in your action in real-time to get additional insights to enrich the capability. When the skill service calls into your application APIs, it passes all available context that your application APIs accept; and expects to get back insights in a format that aligns with how the insights are presented to users of the Copilot for Sales in the capability.
 
-`image`
+:::image type="content" source="media/extend-copilot-sales-arc.svg" alt-text="Screenshot showing extensibility architecture":::
 
 To ensure that everything works properly, Copilot for Sales needs to:
 - Identify which of your application APIs is relevant for getting insights to enrich a specific Copilot for Sales capability.

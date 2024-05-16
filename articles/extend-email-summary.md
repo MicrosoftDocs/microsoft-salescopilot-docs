@@ -54,7 +54,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | Name | Data type / Format | Required | Details | Description to be added in action |
 |------|--------------------|----------|---------|----------------------------------|
 | Title | String, up to 20 characters | Yes | Title of the sales insight. | This output indicates the title of the partner section and should include only the partner's name. |
-| Description | String | Yes | Insight delivered to the users. For example: Your colleagues Kenny Smith, Logan Edwards, and Monica Thomsom have worked with them before. | This output indicates the text you would like to be included in the email summary. |
+| Description | String | Yes | Insight delivered to the users. For example: Your colleagues Mona Kane, Ray Tanaka and Daniela Smith have worked with them before. | This output indicates the text you would like to be included in the email summary. |
 
 > [!NOTE]
 > While the API requirements for extending the email summary and record summary capabilities may look similar, they must be added as separate actions in the connector.
@@ -75,7 +75,11 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 The following image shows an example of how the output of the API is mapped to the email summary.
 
-`image`
+:::image type="content" source="media/extend-email-summary.svg" alt-text="Screenshot showing insights from partner apps in email summary.":::
+
+Legend:
+1. Title of the insight. Insights with same title are grouped together.
+1. Description of the insight. One description per insight.
 
 ### See also
 
