@@ -1,5 +1,5 @@
 ---
-title: Buy step-up license for Copilot for Sales
+title: Understanding the Copilot for Sales step-up license
 description: Learn how to assign Microsoft Copilot for Sales step-up licenses and upgrade from the Copilot for Microsoft 365 license.
 ms.date: 05/17/2024
 ms.topic: overview
@@ -12,13 +12,13 @@ ms.custom:
   - ai-seo-date:05/17/2024
 ---
 
-# Buy step-up license for Copilot for Sales
-
-This article guides you through the process of assigning Microsoft Copilot for Sales step-up licenses to your existing Copilot for Microsoft 365 licenses so that you get sales-related insights.
+# Understanding the Copilot for Sales step-up license
 
 The Copilot for Sales step-up license enables you to upgrade from the Copilot for Microsoft 365 license to the Copilot for Sales license that offers sales related insights and capabilities.
 
 The step-up license is a fractional license, and not a standalone license, hence it requires a Copilot for Microsoft 365 license when added into the tenant.
+
+This article guides you through the process of assigning Microsoft Copilot for Sales step-up licenses to your existing Copilot for Microsoft 365 licenses.
 
 > [!IMPORTANT]
 > A step-up license automatically upgrades the prerequisite license to the full license. This means that the Copilot for Sales step-up license automatically upgrades the Copilot for Microsoft 365 license to a Copilot for Sales license, thereby reducing the number of available Copilot for Microsoft 365 licenses in the tenant.
@@ -32,8 +32,6 @@ Before you add Copilot for Sales step-up licenses to your tenant, ensure that yo
 1. Verify whether you have sufficient Copilot for Microsoft 365 licenses available for the users who need access to Copilot for Sales.
 
 > [!NOTE]
-> - There must be enough Copilot for Microsoft 365 licenses available in the tenant to allow the conversion to Copilot for Sales licenses.
-> - The Copilot for Microsoft 365 licenses should not be assigned to any users.
 > - The unassigned Copilot for Microsoft 365 licenses are the ones that you can upgrade to Copilot for Sales licenses. So ensure that you have as many Copilot for Microsoft 365 licenses available as the number of step-up licenses you need. 
 > - The available and unaasigned Copilot for Microsoft 365 licenses should have the same or later expiry date as the Copilot for Sales step-up licenses.
 
