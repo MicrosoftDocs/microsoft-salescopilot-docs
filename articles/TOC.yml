@@ -30,6 +30,8 @@
   items:
   - name: Buy Copilot for Sales
     href: buy-license.md
+  - name: Buy step-up license
+    href: buy-step-up-license.md
   - name: Install Copilot for Sales
     items:
     - name: Install Copilot for Sales (admin-deployed)
