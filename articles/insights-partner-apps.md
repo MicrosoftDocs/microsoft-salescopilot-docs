@@ -1,7 +1,7 @@
 ---
 title: View insights from partner applications (preview)
 description: View insights from partner applications within Copilot for Sales.
-ms.date: 05/15/2024
+ms.date: 05/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
