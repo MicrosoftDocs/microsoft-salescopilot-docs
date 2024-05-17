@@ -29,7 +29,7 @@ Before you add Copilot for Sales step-up licenses to your tenant, ensure that yo
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Billing** > **Your products**.
-1. Ensure that you have sufficient Copilot for Microsoft 365 licenses available for the users who need access to Copilot for Sales.
+1. Verify whether you have sufficient Copilot for Microsoft 365 licenses available for the users who need access to Copilot for Sales.
 
 > [!NOTE]
 > - There must be enough Copilot for Microsoft 365 licenses available in the tenant to allow the conversion to Copilot for Sales licenses.
