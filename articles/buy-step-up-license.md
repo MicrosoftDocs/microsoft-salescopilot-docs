@@ -25,7 +25,7 @@ The step-up license is a fractional license, and not a standalone license, hence
 
 ## Prerequisites
 
-Before you add Copilot for Sales step-up licenses to your tenant, ensure that you have available  Copilot for Microsoft 365 licenses by following these steps:
+Before you add Copilot for Sales step-up licenses to your tenant, ensure that you have the required number of Copilot for Microsoft 365 licenses by following these steps:
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. In the left navigation pane, select **Billing** > **Your products**.
