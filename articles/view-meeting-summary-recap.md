@@ -27,7 +27,7 @@ To view sales related insights in Microsoft Teams meeting recap, you need one of
 
 ## Prerequisites
 
-- [Copilot for Sales must be turned on in your environment](suggested-replies.md)
+- [Copilot AI features must be turned on in your environment](suggested-replies.md)
 - Copilot for Sales app must be added to the meeting
 - Meeting must be transcribed
 

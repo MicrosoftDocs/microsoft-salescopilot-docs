@@ -14,6 +14,12 @@ The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct m
 
 ## View meeting preparation card
 
+**Prerequisites**: The following prerequisites must be met to view the meeting preparation card in Microsoft Teams:
+
+- [You must be connected to a CRM organization in the Copilot for Sales app](sign-in-crm-outlook.md).
+- [At least one CRM contact must be invited to the meeting](connect-contact.md).
+- [Copilot AI features must be turned on in your environment](suggested-replies.md).
+
 When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message after a few seconds from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting preparation card contains the following sections:
 
 - **General meeting information**: Overview information about the meeting and the related opportunity.
@@ -22,7 +28,7 @@ When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'l
 - **Notes from CRM**: Two recent notes from the opportunity timeline.
 - **Open tasks**: Total number of open tasks and count of high priority tasks.
 - **Recent meeting insights**: Last two meetings with sales insights related to the opportunity.
-- **Related records**: Number of open cases.
+- **Related records**: Number of related opportunities and number of related cases for the account.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
