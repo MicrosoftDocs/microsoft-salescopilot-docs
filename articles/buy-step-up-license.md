@@ -34,7 +34,7 @@ Before you add Copilot for Sales step-up licenses to your tenant, ensure that yo
 > [!NOTE]
 > - There must be enough Copilot for Microsoft 365 licenses available in the tenant to allow the conversion to Copilot for Sales licenses.
 > - The Copilot for Microsoft 365 licenses should not be assigned to any users.
-> - The available and unaasigned Copilot for Microsoft 365 licenses should be the ones you want to upgrade to Copilot for Sales licenses, and thus adequate to assign to youy dedicated sales users.
+> - The unassigned Copilot for Microsoft 365 licenses are the ones that you can upgrade to Copilot for Sales licenses. So ensure that you have as many Copilot for Microsoft 365 licenses available as the number of step-up licenses you need. 
 > - The available and unaasigned Copilot for Microsoft 365 licenses should have the same or later expiry date as the Copilot for Sales step-up licenses.
 
 If you don't meet these prerequisites and don't have enough Copilot for Microsoft 365 licenses available, you can purchase the full [Copilot for Sales licenses](buy-license.md).
