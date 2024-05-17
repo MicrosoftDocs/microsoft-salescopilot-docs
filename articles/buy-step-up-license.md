@@ -14,7 +14,7 @@ ms.custom:
 
 # Buy step-up license for Copilot for Sales
 
-This article guides you through the process of assigning Microsoft Copilot for Sales step-up licenses to existing Copilot for Microsoft 365 licenses.
+This article guides you through the process of assigning Microsoft Copilot for Sales step-up licenses to your existing Copilot for Microsoft 365 licenses so that you get sales-related insights.
 
 The Copilot for Sales step-up license enables you to upgrade from the Copilot for Microsoft 365 license to the Copilot for Sales license that offers sales related insights and capabilities.
 
