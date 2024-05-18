@@ -40,7 +40,7 @@ See the [sample expected output in the .json format](#sample-expected-output-in-
 
 ### Structured data or insights about one record or topic
 
-:::image type="content" source="media/extend-sales-chat-one-topic.png" alt-text="Screenshot showing one record in sales chat.":::
+:::image type="content" source="media/extend-sales-chat-one-topic.svg" alt-text="Screenshot showing one record in sales chat.":::
 
 Legend:
 1. Logo – sourced from the action metadata
@@ -53,13 +53,12 @@ Legend:
 
 When the API returns multiple adaptive cards, Copilot for Sales compiles a summary of the cards and provide citations that can be selected to view each individual card.
 
-`image`
+:::image type="content" source="media/extend-sales-chat-multiple-topics.svg" alt-text="Screenshot showing multiple records in sales chat.":::
 
-| Annotation | Description |
-|------------|-------------|
-| 1 | Summary card by Copilot for Sales  |
-| 2 | Citation number to view more details from summary |
-| 3 | Citation card to show full details of each adaptive card returned by the API |
+Legend:
+1. Summary card by Copilot for Sales
+2. Citation number to view more details from summary
+3. Citation card to show full details of each adaptive card returned by the API
 
 ### Free form data or insights
 

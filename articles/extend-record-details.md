@@ -108,7 +108,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 
 The following image shows an example of how the output of the API is mapped to the related records.
 
-:::image type="content" source="media/extend-record-details.png" alt-text="Screenshot showing anatomy of related records from a partner application.":::
+:::image type="content" source="media/extend-record-details.svg" alt-text="Screenshot showing anatomy of related records from a partner application.":::
 
 Legend:
 1. Card showing related records from partner application.
