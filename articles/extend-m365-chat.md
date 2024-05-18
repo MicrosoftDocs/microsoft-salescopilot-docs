@@ -21,7 +21,7 @@ ms.custom:
 Copilot for Sales extends the Microsoft 365 Copilot chat by providing sellers with a question and answer (Q&A) experience to ask questions and get answers from a partner application within the chat interface. By using your actions, you can introduce new Q&A capabilities to the chat experience, thereby bringing insights from various applications directly to the sellers in the chat interface.
 
 > [!NOTE]
-> This feature is not enabled by default. To enable this feature, contact Microsoft.
+> This feature is not enabled by default. To enable this feature, contact us using [this link](https://aka.ms/CopilotForSalesExtensibilityPreview).
 
 :::image type="content" source="media/extend-sales-chat.png" alt-text="Screenshot showing sales chat.":::
 

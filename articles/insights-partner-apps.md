@@ -27,7 +27,7 @@ You can view records that are related to CRM records and activities that are rel
 
 ## Get the feature enabled
 
-This feature is not enabled by default. To enable this feature, ask your administrator to [sign up for the preview feature](https://aka.ms/SalesCopilotExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization.
+This feature is not enabled by default. To enable this feature, ask your administrator to [sign up for the preview feature](https://aka.ms/CopilotForSalesExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization.
 
 ## Create a connection
 
