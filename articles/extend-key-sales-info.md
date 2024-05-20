@@ -64,25 +64,15 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 {
   "value": [
     {
-      "title": "Next best action from Contoso Hub",
-      "description": "Validation next step: Align on timeline and success criteria",
-      "dateTime": "2024-05-07T03:42:35.4662309Z",
-      "url": null,
+      "title": "Contract signed",
+      "description": "Kenny Smith sent Renewal Contract on 04/23/2023 related to 50 Cafe A-100 Automatic",
+      "dateTime": "2023-09-07T03:42:35.4662309Z",
+      "url": https://contosohub.com,
       "additionalProperties": {
-        "Current step": "Step name",
-        "Next step": "Step name",
-        "Due date": "Date"
-      }
-    },
-    {
-      "title": "Next best action from Contoso Hub",
-      "description": "Nina and Daisy in your team are connected to Alberto and can help influence the deal",
-      "dateTime": "2024-05-07T03:42:35.4663109Z",
-      "url": null,
-      "additionalProperties": {
-        "Current step": "Step name",
-        "Next step": "Step name",
-        "Due date": "Date"
+        "Contract name": "Renewal contract for Fourth Coffee",
+        "Signed by": "Alberto Burgos, Tony Benis",
+        "Signed": "9/7/23",
+         "Related Opportunity": "50 CafeA-100 Automatic"
       }
     }
   ],
