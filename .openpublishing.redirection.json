@@ -539,6 +539,16 @@
         "source_path": "articles/share-feedback-teams.md",
         "redirect_url": "/microsoft-sales-copilot/personal-app#share-feedback-from-personal-app",
         "redirect_document_id": false
-      }                     
+      },
+      {
+        "source_path": "articles/eap-redeem-license.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/eap-faq.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction",
+        "redirect_document_id": false
+      }                        
   ]
 }
