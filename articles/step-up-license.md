@@ -23,6 +23,9 @@ This article guides you through the process of assigning Microsoft Copilot for S
 > [!IMPORTANT]
 > A step-up license automatically upgrades the prerequisite license to the full license. This means that the Copilot for Sales step-up license automatically upgrades the Copilot for Microsoft 365 license to a Copilot for Sales license, thereby reducing the number of available Copilot for Microsoft 365 licenses in the tenant.
 
+For example, let's assume that Contoso has 1000 Copilot for Microsoft 365 licenses, with 200 of them unassigned to users. Contoso plans to deploy 300 Copilot for Sales licenses. In this scenario, they can purchase 200 Copilot for Sales step-up licenses and 100 standalone Copilot for Sales licenses. Their 200 unassigned Copilot for Microsoft 365 licenses are converted into Copilot for Sales licenses. Subsequently, a Contoso admin can then assign the 300 Copilot for Sales licenses to selected users.
+
+
 ## Prerequisites
 
 Before you add Copilot for Sales step-up licenses to your tenant, ensure that you have the required number of Copilot for Microsoft 365 licenses by following these steps:
