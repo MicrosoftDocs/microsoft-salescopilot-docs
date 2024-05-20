@@ -80,7 +80,7 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app which includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
-The enhanced Team app is initially supported in the desktop and web version of Outlook, but support for other Outlook clients such as Mac and mobile are not currently available. If your sellers use an unsupported version of the Outlook client, you should deploy both the new enhanced Teams app and the Outlook add-in. 
+The enhanced Teams app is initially supported in the desktop and web version of Outlook, but support for other Outlook clients such as Mac and mobile are not currently available. If your sellers use an unsupported version of the Outlook client, you should deploy both the new enhanced Teams app and the Outlook add-in. 
 
 ### New deployments
 
