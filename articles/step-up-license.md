@@ -28,7 +28,7 @@ This article guides you through the process of assigning Microsoft Copilot for S
 Before you add Copilot for Sales step-up licenses to your tenant, ensure that you have the required number of Copilot for Microsoft 365 licenses by following these steps:
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/).
-1. In the left navigation pane, select **Billing** > **Your products**.
+1. In the left navigation pane, select **Billing** > **Licenses**.
 1. Verify whether you have sufficient Copilot for Microsoft 365 licenses available for the users who need access to Copilot for Sales.
 
 > [!NOTE]
@@ -39,7 +39,7 @@ If you don't meet these prerequisites and don't have enough Copilot for Microsof
 
 > [!IMPORTANT]
 > - If you've already assigned Copilot for Microsoft 365 licenses to users within your tenant and there aren't enough available and unassigned licenses for the step-up license, the process will continue by removing the standalone allocation to complete the upgrade to a full Copilot for Sales license. This action will reduce the number of available standalone Copilot for Microsoft 365 licenses, potentially causing a discrepancy between available licenses and those assigned. In such a case, you'll receive a message indicating over-allocation.
-> - No Copilot for Sales license is assigned to a user without intervention from the admin team. An alert message will indicate that you have more licenses assigned to users than are available for standalone Copilot for Microsoft 365. The license count for Copilot for Sales should increase. If this situation arises and you wish to reassign these licenses, please refer to the [Frequently asked questions](#frequently-asked-questions) section.
+> - No Copilot for Sales license is assigned to a user without intervention from the admin team. An alert message will indicate that you have more licenses assigned to users than are available for standalone Copilot for Microsoft 365. The license count for Copilot for Sales increases to number of step-up licenses added. If this situation arises and you wish to reassign these licenses, please refer to the [Frequently asked questions](#frequently-asked-questions) section.
 
 ## Add Copilot for Sales step-up licenses
 
@@ -53,6 +53,6 @@ If you don't meet these prerequisites and don't have enough Copilot for Microsof
 
 If there aren't enough unassigned Copilot for Microsoft 365 licenses in your tenant, the step-up license will continue to use a Copilot for Microsoft 365 license, converting it into Copilot for Sales license. This will result in a reduction of Copilot for Microsoft 365 (standalone) licenses, which will be replaced with Copilot for Sales licenses.
 
-### What should I do if the system indicates that more users are accessing Copilot for Microsoft 365 than there are available licenses in the tenant?
+### What should I do if the system indicates that the Copilot for Microsoft 365 license is allocated more than the available licenses?
 
 To rectify this, the admin must remove the Copilot for Microsoft 365 licenses from a sales user and instead assign them a Copilot for Sales license. For information on how to assign or unassign licenses, see [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).
