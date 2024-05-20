@@ -1,6 +1,6 @@
 ---
-title: Build application APIs to extend Copilot for Sales (preview)
-description: Explore how to build application APIs that enhance capabilities and introduce new ones for Copilot for Sales.
+title: Build Copilot for Sales extensions (preview)
+description: Explore how to build extensions that enhance capabilities and introduce new ones for Copilot for Sales.
 ms.date: 05/20/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:05/07/2024
 ---
 
-# Build application APIs to extend Copilot for Sales (preview)
+# Build Copilot for Sales extensions (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

@@ -227,7 +227,15 @@
   items:
   - name: Overview
     href: extend-copilot-for-sales.md
-  - name: Build application APIs
+  - name: Get started with creating an extension
+    items:
+    - name: Create a custom connector and connector action
+      href: custom-connector-action.md
+    - name: Sample OpenAPI definition
+      href: api-sample-def.md
+    - name: Standardize error responses
+      href: api-error-responses.md
+  - name: Extension points
     items:
     - name: Overview
       href: build-apis.md
@@ -241,14 +249,7 @@
       href: extend-record-details.md
     - name: Add a new Q&A capability to the Sales chat
       href: extend-m365-chat.md
-  - name: Author an action
-    items:
-    - name: Create a custom connector and connector action
-      href: custom-connector-action.md
-    - name: Sample OpenAPI definition
-      href: api-sample-def.md
-    - name: Standardize error responses
-      href: api-error-responses.md
+
 
 - name: Troubleshooting guide
   items:
