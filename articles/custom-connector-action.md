@@ -36,7 +36,7 @@ For steps to create a custom connector, set up authentication, and test the conn
 
 ## Create and publish an action in Microsoft Copilot Studio
 
-Actions determine the operations to be performed with the custom insights and data sources, such as the custom connectors you've built. They enable Copilot for Sales in identifying which external sources to extract insights from, thereby enriching the Copilot for Sales experience. You can create actions based on the connector you've developed using Microsoft Copilot Studio. More information: `link`
+Actions determine the operations to be performed with the custom insights and data sources, such as the custom connectors you've built. They enable Copilot for Sales in identifying which external sources to extract insights from, thereby enriching the Copilot for Sales experience. You can create actions based on the connector you've developed using Microsoft Copilot Studio. More information: [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
 ## Enable the connector action for users
 
@@ -49,7 +49,7 @@ ask your administrator to [sign up for the preview feature](https://aka.ms/Sales
 
 ## Get your connector and action certified (optional)
 
-Upon creating a custom connector and connector action in Microsoft Copilot Studio, it becomes accessible within your tenant. However, if you wish to make it available to all Copilot for Sales users, you must get your connector and action certified. More information: `link`
+Upon creating a custom connector and connector action in Microsoft Copilot Studio, it becomes accessible within your tenant. However, if you wish to make it available to all Copilot for Sales users, you must get your connector and action certified. More information: More information: [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
 ### See also
 
