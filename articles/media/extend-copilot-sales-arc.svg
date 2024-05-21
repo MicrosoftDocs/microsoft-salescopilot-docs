@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="885.84302"
+   height="700.35553"
+   overflow="hidden"
+   version="1.1"
+   id="svg164"
+   sodipodi:docname="Sales Copilot - Architecture.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview164"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4664062"
+     inkscape:cx="277.89025"
+     inkscape:cy="347.44806"
+     inkscape:window-width="2496"
+     inkscape:window-height="1540"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg164" />
+  <defs
+     id="defs32">
+    <filter
+       id="fx0"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer1">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR1" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG1" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB1" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA1" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur1" />
+    </filter>
+    <filter
+       id="fx1"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer2">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR2" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG2" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB2" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA2" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       id="fx2"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer3">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR3" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG3" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB3" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA3" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur3" />
+    </filter>
+    <filter
+       id="fx3"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer4">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR4" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG4" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB4" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA4" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur4" />
+    </filter>
+    <filter
+       id="fx4"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer5">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR5" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG5" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB5" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA5" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur5" />
+    </filter>
+    <filter
+       id="fx5"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer6">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR6" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG6" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB6" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA6" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur6" />
+    </filter>
+    <filter
+       id="fx6"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer7">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR7" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG7" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB7" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA7" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur7" />
+    </filter>
+    <filter
+       id="fx7"
+       x="-128"
+       y="-72"
+       width="1536"
+       height="864.00006"
+       filterUnits="userSpaceOnUse"
+       primitiveUnits="userSpaceOnUse">
+      <feComponentTransfer
+         color-interpolation-filters="sRGB"
+         id="feComponentTransfer8">
+        <feFuncR
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncR8" />
+        <feFuncG
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncG8" />
+        <feFuncB
+           type="discrete"
+           tableValues="0 0"
+           id="feFuncB8" />
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           intercept="0"
+           id="feFuncA8" />
+      </feComponentTransfer>
+      <feGaussianBlur
+         stdDeviation="1.77778 1.77778"
+         id="feGaussianBlur8" />
+    </filter>
+    <clipPath
+       id="clip8">
+      <rect
+         x="11"
+         y="11"
+         width="99"
+         height="29"
+         id="rect8" />
+    </clipPath>
+    <image
+       width="43"
+       height="43"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img9" />
+    <clipPath
+       id="clip10">
+      <rect
+         x="0"
+         y="0"
+         width="266700"
+         height="266700"
+         id="rect9" />
+    </clipPath>
+    <clipPath
+       id="clip11">
+      <rect
+         x="11"
+         y="9"
+         width="136"
+         height="58"
+         id="rect10" />
+    </clipPath>
+    <clipPath
+       id="clip12">
+      <rect
+         x="0"
+         y="0"
+         width="276225"
+         height="247650"
+         id="rect11" />
+    </clipPath>
+    <image
+       width="71"
+       height="63"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img13" />
+    <clipPath
+       id="clip14">
+      <rect
+         x="0"
+         y="0"
+         width="276225"
+         height="245101"
+         id="rect12" />
+    </clipPath>
+    <clipPath
+       id="clip15">
+      <rect
+         x="11"
+         y="9"
+         width="105"
+         height="53"
+         id="rect13" />
+    </clipPath>
+    <clipPath
+       id="clip16">
+      <rect
+         x="0"
+         y="0"
+         width="323850"
+         height="323850"
+         id="rect14" />
+    </clipPath>
+    <image
+       width="65"
+       height="65"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img17" />
+    <clipPath
+       id="clip18">
+      <rect
+         x="-0.25"
+         y="0"
+         width="323850"
+         height="323850"
+         id="rect15" />
+    </clipPath>
+    <image
+       width="33"
+       height="33"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img19" />
+    <clipPath
+       id="clip20">
+      <rect
+         x="0"
+         y="0"
+         width="161925"
+         height="161925"
+         id="rect16" />
+    </clipPath>
+    <clipPath
+       id="clip21">
+      <rect
+         x="0"
+         y="0"
+         width="171450"
+         height="171450"
+         id="rect17" />
+    </clipPath>
+    <clipPath
+       id="clip22">
+      <rect
+         x="11"
+         y="9"
+         width="132"
+         height="31"
+         id="rect18" />
+    </clipPath>
+    <clipPath
+       id="clip23">
+      <rect
+         x="0"
+         y="0"
+         width="504825"
+         height="333375"
+         id="rect19" />
+    </clipPath>
+    <image
+       width="94"
+       height="63"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img24" />
+    <clipPath
+       id="clip25">
+      <rect
+         x="0"
+         y="0"
+         width="497417"
+         height="333375"
+         id="rect20" />
+    </clipPath>
+    <clipPath
+       id="clip26">
+      <rect
+         x="0"
+         y="1.16415e-10"
+         width="209550"
+         height="200025"
+         id="rect21" />
+    </clipPath>
+    <image
+       width="35"
+       height="32"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVXSURBVFhHzZZtTFNXGMevUB2RW1r6AnNE3aYrfNk+LNmyhJh9WBY/mPjyYXHRRRCKiK+IMF6lIGjcFJ3T6aaLzrkhZmZOVMBlvqIIWihQWqwWEZ2gTLNIUFHn/e85t71wcbelaj/sJL80ubc5zy/n+Z9zLhfQ+KRtzKik6uOh5moh1FyDYBJirmnhFpw0eCuNPFTmqg+UJgoWIeaqud5SIw9V8rF4pUmCBa3OPG+pkcf/Syb1RHzIwhPwRWjaCYzNOOMXXX6dbwrqApfhcu3xXE4bfKEqcCKuotcv09sFzHRBkVku4Tlk0uviuRXn4QtVVj1MP1xF3L7biiKMgGSiS12JxpLL9VElLmtUySVr1OpLViPD4qWovTGywO7S5reAoWHkDRGRY0NY8j7hzbJaEupUFGEEJGMsuXSfREASIiQCY7EHQxGjHQZLO/QShQwndKu8UIsisxuEmIxdMO3uUBRhBCQTVdwu+JSQi4gS7UMSRCQTYeRYhZj0nS8vYyxyCpKE8RmJaHr23uYOvE+8WiwTkSTyGQ6SaURQZeQS40td2FZ3F30DTyGN/kdP8S09i6H/ShJaRh7JZAdJxmBxCvJ2sNWou3ZfFOjpeyIKbD93F933nojPznT0Q1/gkRDJbUPEyovgZpaBy6hX3PoMU7nvnRZXcVuScQjyXKQf6hGLuu88wqS1rsFcTFrjQtffj8V35v1/ihIaKqLJtiNixYXgyOhJRh7OU+5+seCyg93DcsFWoaDqlviusu0eSZDI53ZoslqhTm8IkkyhQ9DJtupNbzumbO0YlgttrgMzvu8U37XefEgSJJLZSi0imWUvJxOz8uhu7p3PwjndqjZBvkOkbHxIMvJcsJbM2OmRsV5/gAhRhA69jBbwS0jiJWSMs7djrCnlMqcraBOkXLCVkNqUVdkzLBesJSU1njbtqb8rSkSsaKYWNYNfTNfCC8pM2uqAbloZtIkV4CLzSUaWi7QDN8WCbIXeXucazMW7X7hwp9+zalO3XBEl1Mtt1CIb+LS655Z5a4cb43OOITrnJAzrXTB81emRkedCR6tR7ewTi7Kz5SiFtdrRh4ePPWfOttO9gxLqpU3gifDUswj5uBAhSZUIST2uSJjFiTA6OMPymxG+4AjUqYdhWOcQJSQ4bZ5dYBLylujpd9WRHlzpHYBAAv88FdB84wEW/tw1XGQJsbgR4Sm1CPkoD6EJvyp+PDFGZdoQmlSFsHkHoLU0DZMYksmxC/JcsJbIw6nPbEFkxlBL5BL8IiLNirHJpxE6ZaWyTHI1VLPL8cqcCmhyzytKSHCa7FZBSUIKpz+J8IVE6kXw5lrwU7MwetoWqOb9NiiimvMLxkzfgYilv8OwsUNRQA6nzmy9L50XHokW/xKLSEAUuSiKhC+4AD75lHg3vb6xCZr5+zF61i5RgjcfhP5LuvcUCitBMi2JJFDPp9usIsu9LGuy8oubrOqUPwbUKcegNnvgk2vAJxHzq8EnEglHoP20DPLvmYll1N68k9CtbiAZCulGt2LxZxFPYX8jKqHYHZVQAl9EJ5ZiXNpmTLAcgunHrsGtG0ufoBO2OOnOq4WutBH69XQZb/LfKm9J32OipdI9sfgwRmLyN7ZBETmmn7rx2oZm6ArPQr+2GfoN7Ey5+h+RgGRMezrdpj1d8Efs3huKInIm776O6LUN0BWdh36dHYayK88vE1vR61aa/EV5/TvKT/E5ytMFypNzWJ68JX2PYMswWJ7Gf02nfaGUJ9pxm64GIFN+26E0YTAw7e3GuPVNYp50a2wD3pK+R2zFX3Pjym/1KU0WLN7YdW3AWFSb+y9AvJdmuFAIsgAAAABJRU5ErkJggg=="
+       preserveAspectRatio="none"
+       id="img27" />
+    <clipPath
+       id="clip28">
+      <rect
+         x="0"
+         y="0"
+         width="209550"
+         height="191589"
+         id="rect22" />
+    </clipPath>
+    <image
+       width="120"
+       height="68"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img29" />
+    <clipPath
+       id="clip30">
+      <rect
+         x="0"
+         y="0"
+         width="352425"
+         height="199708"
+         id="rect23" />
+    </clipPath>
+    <clipPath
+       id="clip31">
+      <rect
+         x="0"
+         y="5.8207703e-11"
+         width="219075"
+         height="228600"
+         id="rect24" />
+    </clipPath>
+    <clipPath
+       id="clip32">
+      <rect
+         x="0"
+         y="0"
+         width="219075"
+         height="219075"
+         id="rect25" />
+    </clipPath>
+    <clipPath
+       id="clip33">
+      <rect
+         x="0"
+         y="0"
+         width="171450"
+         height="171450"
+         id="rect26" />
+    </clipPath>
+    <clipPath
+       id="clip34">
+      <rect
+         x="0"
+         y="-0.0625"
+         width="171450"
+         height="171450"
+         id="rect27" />
+    </clipPath>
+    <clipPath
+       id="clip35">
+      <rect
+         x="0"
+         y="0"
+         width="209550"
+         height="209550"
+         id="rect28" />
+    </clipPath>
+    <image
+       width="32"
+       height="32"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       id="img36" />
+    <clipPath
+       id="clip37">
+      <rect
+         x="-0.5"
+         y="0"
+         width="209550"
+         height="209550"
+         id="rect29" />
+    </clipPath>
+    <clipPath
+       id="clip38">
+      <rect
+         x="0"
+         y="0"
+         width="171450"
+         height="171450"
+         id="rect30" />
+    </clipPath>
+    <clipPath
+       id="clip39">
+      <rect
+         x="0"
+         y="0"
+         width="209550"
+         height="209550"
+         id="rect31" />
+    </clipPath>
+    <clipPath
+       id="clip40">
+      <rect
+         x="0"
+         y="-0.03125"
+         width="209550"
+         height="209550"
+         id="rect32" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath164">
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#e40000;stroke-width:1.12996;stroke-opacity:0.980447"
+         id="rect165"
+         width="885.84302"
+         height="700.35553"
+         x="362.10779"
+         y="12.272956" />
+    </clipPath>
+  </defs>
+  <g
+     id="g164"
+     transform="translate(-362.10779,-12.272956)"
+     clip-path="url(#clipPath164)">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       fill="#ffffff"
+       id="rect33" />
+    <g
+       filter="url(#fx0)"
+       transform="translate(381,652)"
+       id="g34">
+      <g
+         id="g33">
+        <path
+           d="m 6.82843,13.5478 c 0,-3.71099 3.00834,-6.71937 6.71927,-6.71937 H 682.109 c 3.711,0 6.719,3.00838 6.719,6.71937 V 47.109 c 0,3.7111 -3.008,6.7194 -6.719,6.7194 H 13.5477 c -3.71093,0 -6.71927,-3.0083 -6.71927,-6.7194 z"
+           fill="#111c2d"
+           fill-rule="evenodd"
+           id="path33" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip8)"
+       filter="url(#fx1)"
+       transform="translate(420,657)"
+       id="g36">
+      <g
+         id="g35">
+        <path
+           d="m 1.64209,0 v -13.3037 h 3.84082 c 4.90459,0 7.35689,2.1616 7.35689,6.48485 0,2.05339 -0.6803,3.70321 -2.041,4.94947 C 9.43815,-0.623128 7.61361,0 5.3252,0 Z m 2.19873,-11.4297 v 9.56495 h 1.7627 c 1.5524,0 2.76001,-0.42675 3.6228,-1.28027 0.86278,-0.85351 1.29418,-2.05957 1.29418,-3.61816 0,-3.11101 -1.61116,-4.66652 -4.83349,-4.66652 z M 22.0262,0 h -2.0874 v -1.48438 h -0.0371 c -0.6556,1.138026 -1.6174,1.707036 -2.8853,1.707036 -0.9339,0 -1.6652,-0.2535805 -2.1941,-0.760742 -0.5288,-0.507164 -0.7932,-1.178224 -0.7932,-2.013184 0,-1.79362 1.0329,-2.83887 3.0987,-3.13574 l 2.8203,-0.39893 c 0,-1.35449 -0.6432,-2.03174 -1.9297,-2.03174 -1.1318,0 -2.1524,0.38965 -3.0615,1.16895 v -1.8833 c 1.0019,-0.59375 2.1585,-0.89063 3.4697,-0.89063 2.3997,0 3.5996,1.18132 3.5996,3.54395 z m -2.0781,-4.6665 -1.9946,0.27832 c -0.6185,0.0804 -1.084,0.23038 -1.3963,0.44995 -0.3123,0.21956 -0.4685,0.60457 -0.4685,1.15503 0,0.40202 0.1438,0.73136 0.4314,0.98803 0.2876,0.25668 0.6726,0.38501 1.155,0.38501 0.6556,0 1.1984,-0.23038 1.6282,-0.69116 0.4299,-0.46077 0.6448,-1.04061 0.6448,-1.7395 z m 9.4625,4.564449 c -0.4205,0.210287 -0.9741,0.31543 -1.6606,0.31543 -1.8431,0 -2.7646,-0.88444 -2.7646,-2.653319 V -7.81152 H 23.3989 V -9.5 h 1.5865 v -2.1987 l 2.1523,-0.6123 V -9.5 h 2.2729 v 1.68848 h -2.2729 v 4.75 c 0,0.56282 0.102,0.96484 0.3061,1.20605 0.2041,0.24121 0.5443,0.36182 1.0206,0.36182 0.3649,0 0.6803,-0.10515 0.9462,-0.31543 z M 38.3595,0 H 36.2721 V -1.48438 H 36.235 c -0.6556,1.138026 -1.6173,1.707036 -2.8852,1.707036 -0.9339,0 -1.6653,-0.2535805 -2.1941,-0.760742 -0.5288,-0.507164 -0.7932,-1.178224 -0.7932,-2.013184 0,-1.79362 1.0328,-2.83887 3.0986,-3.13574 l 2.8203,-0.39893 c 0,-1.35449 -0.6432,-2.03174 -1.9297,-2.03174 -1.1318,0 -2.1523,0.38965 -3.0615,1.16895 v -1.8833 c 1.002,-0.59375 2.1585,-0.89063 3.4697,-0.89063 2.3998,0 3.5996,1.18132 3.5996,3.54395 z m -2.0781,-4.6665 -1.9946,0.27832 c -0.6185,0.0804 -1.0839,0.23038 -1.3963,0.44995 -0.3123,0.21956 -0.4685,0.60457 -0.4685,1.15503 0,0.40202 0.1438,0.73136 0.4314,0.98803 0.2876,0.25668 0.6726,0.38501 1.1551,0.38501 0.6556,0 1.1983,-0.23038 1.6281,-0.69116 0.4299,-0.46077 0.6448,-1.04061 0.6448,-1.7395 z M 48.9168,-9.5 45.243,0 h -2.3286 l -3.4976,-9.5 h 2.3379 l 2.106,6.64258 c 0.1608,0.48861 0.2597,0.91536 0.2969,1.28027 h 0.0278 c 0.0557,-0.45768 0.1422,-0.87207 0.2598,-1.24316 L 46.6532,-9.5 Z m 9.2142,5.33447 h -6.4756 c 0.0248,0.87826 0.2953,1.5555 0.8118,2.03174 0.5164,0.47624 1.2261,0.71436 2.1291,0.71436 1.0144,0 1.9452,-0.30306 2.7925,-0.90918 v 1.73486 c -0.8659,0.5442708 -2.0101,0.816406 -3.4326,0.816406 -1.3978,0 -2.4941,-0.431396 -3.2888,-1.294186 -0.7948,-0.8628 -1.1922,-2.07658 -1.1922,-3.64136 0,-1.47819 0.4376,-2.6827 1.3128,-3.61353 0.8751,-0.93082 1.9621,-1.39624 3.261,-1.39624 1.2988,0 2.3038,0.41748 3.0151,1.25245 0.7113,0.83496 1.0669,1.99462 1.0669,3.479 z m -2.0781,-1.52148 c -0.0062,-0.77311 -0.1887,-1.37459 -0.5474,-1.80445 -0.3587,-0.42985 -0.8535,-0.64477 -1.4844,-0.64477 -0.6185,0 -1.1426,0.22575 -1.5725,0.67725 -0.4298,0.45149 -0.6942,1.04215 -0.7932,1.77197 z m 9.5454,-1.7627 c -0.2598,-0.2041 -0.634,-0.30615 -1.1226,-0.30615 -0.637,0 -1.1689,0.2876 -1.5957,0.86279 -0.4267,0.5752 -0.6401,1.35759 -0.6401,2.34717 V 0 h -2.1524 v -9.5 h 2.1524 v 1.95752 h 0.0371 c 0.2103,-0.66797 0.5334,-1.18905 0.9695,-1.56323 0.436,-0.37419 0.9231,-0.56128 1.4612,-0.56128 0.3896,0 0.6865,0.05875 0.8906,0.17627 z m 0.8488,7.152835 V -2.2915 c 0.8041,0.6123 1.6916,0.91845 2.6626,0.91845 1.2989,0 1.9483,-0.38346 1.9483,-1.15039 0,-0.21647 -0.0557,-0.40047 -0.167,-0.552 -0.1114,-0.15153 -0.2613,-0.28605 -0.45,-0.40356 -0.1886,-0.11752 -0.4113,-0.22266 -0.6679,-0.31543 -0.2567,-0.09278 -0.5428,-0.19792 -0.8582,-0.31543 -0.3896,-0.15463 -0.7406,-0.31853 -1.053,-0.4917 -0.3123,-0.17318 -0.5721,-0.36955 -0.7793,-0.58911 -0.2072,-0.21957 -0.3633,-0.46851 -0.4685,-0.74683 -0.1051,-0.27832 -0.1577,-0.60303 -0.1577,-0.97412 0,-0.45768 0.1082,-0.86125 0.3247,-1.21069 0.2165,-0.34945 0.5072,-0.64323 0.8721,-0.88135 0.3649,-0.23812 0.7793,-0.41748 1.2431,-0.53809 0.4639,-0.1206 0.9432,-0.18091 1.438,-0.18091 0.8783,0 1.6638,0.13298 2.3565,0.39893 v 1.8833 c -0.668,-0.45768 -1.4349,-0.68652 -2.3008,-0.68652 -0.2721,0 -0.518,0.02783 -0.7375,0.08349 -0.2196,0.05567 -0.4067,0.13298 -0.5613,0.23194 -0.1547,0.09896 -0.2753,0.21801 -0.3618,0.35717 -0.0866,0.13916 -0.1299,0.29224 -0.1299,0.45923 0,0.2041 0.0433,0.37728 0.1299,0.51953 0.0865,0.14226 0.2149,0.2675 0.385,0.37574 0.17,0.10823 0.3741,0.20719 0.6123,0.29687 0.2381,0.08968 0.5118,0.18709 0.821,0.29224 0.4082,0.16699 0.7747,0.33707 1.0994,0.51025 0.3247,0.17318 0.6015,0.36955 0.8303,0.58911 0.2288,0.21957 0.4051,0.47315 0.5288,0.76075 0.1237,0.28759 0.1856,0.62931 0.1856,1.02514 0,0.48242 -0.1114,0.903 -0.334,1.26172 -0.2227,0.35872 -0.5196,0.655599 -0.8907,0.890625 -0.371,0.235027 -0.7994,0.4097498 -1.2849,0.5241704 -0.4855,0.1144206 -0.9973,0.1716306 -1.5354,0.1716306 -1.039,0 -1.9389,-0.1731769 -2.6997,-0.519531 z M 83.0843,-4.16553 h -6.4756 c 0.0248,0.87826 0.2954,1.5555 0.8118,2.03174 0.5165,0.47624 1.2262,0.71436 2.1292,0.71436 1.0143,0 1.9451,-0.30306 2.7924,-0.90918 v 1.73486 c -0.8658,0.5442708 -2.01,0.816406 -3.4326,0.816406 -1.3978,0 -2.494,-0.431396 -3.2888,-1.294186 -0.7947,-0.8628 -1.1921,-2.07658 -1.1921,-3.64136 0,-1.47819 0.4375,-2.6827 1.3127,-3.61353 0.8752,-0.93082 1.9622,-1.39624 3.261,-1.39624 1.2988,0 2.3039,0.41748 3.0151,1.25245 0.7113,0.83496 1.0669,1.99462 1.0669,3.479 z M 81.0062,-5.68701 C 81,-6.46012 80.8176,-7.0616 80.4588,-7.49146 c -0.3587,-0.42985 -0.8535,-0.64477 -1.4843,-0.64477 -0.6185,0 -1.1427,0.22575 -1.5725,0.67725 -0.4299,0.45149 -0.6943,1.04215 -0.7933,1.77197 z"
+           fill="#ffffff"
+           transform="translate(18.1488,31)"
+           id="path34" />
+      </g>
+    </g>
+    <path
+       d="m 385,662.719 c 0,-3.711 3.008,-6.719 6.719,-6.719 h 668.561 c 3.71,0 6.72,3.008 6.72,6.719 v 33.562 c 0,3.711 -3.01,6.719 -6.72,6.719 H 391.719 C 388.008,703 385,699.992 385,696.281 Z"
+       fill="#111c2d"
+       fill-rule="evenodd"
+       id="path36" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(435.32,685)"
+       id="text36">Dataverse</text>
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,399,664)"
+       id="g38">
+      <g
+         clip-path="url(#clip10)"
+         id="g37">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img9"
+           transform="scale(6202.33)"
+           id="use36" />
+      </g>
+    </g>
+    <g
+       id="g41">
+      <g
+         id="g40">
+        <g
+           id="g39">
+          <path
+             d="m 1198.6,680.75 c -1.9,0.75 -3.65,1.75 -5.25,3 -1.1,0.9 -1.8,2.25 -1.85,3.7 l -0.85,7.4 c -0.15,1.1 0.35,2.2 1.25,2.8 0.9,0.6 1.85,1.05 2.85,1.45 h 0.45 v -1.95 c -0.75,-0.3 -1.5,-0.7 -2.2,-1.15 -0.3,-0.2 -0.45,-0.55 -0.4,-0.9 l 0.9,-7.5 v -0.1 c 0.05,-0.9 0.45,-1.7 1.15,-2.25 1.35,-1.15 3.3,-2.2 6,-3.2 1.5,0.9 3.8,1.45 6.35,1.45 2.55,0 4.85,-0.55 6.35,-1.45 2.75,1 4.65,2.05 6,3.2 0.7,0.55 1.1,1.4 1.15,2.25 l 0.9,7.55 c 0.05,0.35 -0.1,0.7 -0.4,0.9 v 0 c -0.7,0.45 -1.4,0.85 -2.2,1.15 v 1.95 h 0.45 c 1,-0.35 1.95,-0.85 2.85,-1.45 v 0 c 0.9,-0.65 1.4,-1.7 1.25,-2.8 l -0.85,-7.35 c -0.05,-1.45 -0.75,-2.8 -1.85,-3.7 -1.6,-1.25 -3.35,-2.3 -5.25,-3 0,-2.55 0.1,-9.55 0.1,-12.4 0,-0.8 -0.1,-1.6 -0.3,-2.4 -0.65,-2.4 -2.3,-4.4 -4.5,-5.55 -0.2,-0.1 -0.5,-0.1 -0.65,0.05 l -0.45,0.35 -0.5,-0.7 c -0.15,-0.25 -0.4,-0.4 -0.65,-0.45 -0.5,-0.1 -0.95,-0.15 -1.45,-0.15 -2,0 -4,0.75 -5.5,2.05 -1.9,1.7 -2.95,4.1 -2.9,6.65 z m 2.5,-8.15 0.35,-4.1 h 11.05 l 0.35,4.1 c -0.6,3.25 -3.7,5.4 -7,4.8 -2.4,-0.45 -4.3,-2.35 -4.75,-4.8 z m 2,8.35 c 0.55,-0.45 0.9,-1.2 0.9,-1.95 v -0.1 c 1.9,0.8 4.1,0.8 6,0 v 0.1 c 0,0.75 0.35,1.45 0.9,1.95 -1.25,0.4 -2.6,0.55 -3.9,0.55 -1.3,0 -2.65,-0.15 -3.9,-0.55 z"
+             fill="#ffc000"
+             id="path38" />
+          <path
+             d="m 1217.8,687.65 c 0,-0.7 -0.55,-1.25 -1.25,-1.25 v 0 h -19.05 c -0.7,0 -1.25,0.55 -1.25,1.25 v 0 12.45 h -3.8 v 0.65 c 0,0.7 0.55,1.25 1.25,1.25 h 26.65 c 0.7,0 1.25,-0.55 1.25,-1.25 v -0.65 h -3.8 z m -13.4,8.25 -0.7,0.7 -2.8,-2.8 2.8,-2.8 0.7,0.7 -2.1,2.1 z m 1.9,1.05 -0.9,-0.4 2.35,-5.65 0.9,0.4 z m 4,-0.3 -0.7,-0.7 2.1,-2.1 -2.1,-2.1 0.7,-0.7 2.8,2.8 z"
+             fill="#ffc000"
+             id="path39" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="m 759.5,670.408 c 0,-1.606 1.302,-2.908 2.908,-2.908 h 141.184 c 1.606,0 2.908,1.302 2.908,2.908 v 18.184 c 0,1.606 -1.302,2.908 -2.908,2.908 H 762.408 c -1.606,0 -2.908,-1.302 -2.908,-2.908 z"
+       stroke="#ffc000"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       stroke-dasharray="2.66667, 2"
+       fill="#ffc000"
+       fill-rule="evenodd"
+       fill-opacity="0.101961"
+       id="path41" />
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(798.049,683)"
+       id="text41">ISV Connector</text>
+    <path
+       d="M 0.00426716,-0.999991 8.00419,-0.965854 7.99566,1.03413 -0.00426716,0.999991 Z m 13.99983284,0.05974 8,0.034138 L 21.9955,1.09387 13.9956,1.05973 Z M 28.004,-0.88051 36.0039,-0.846373 35.9954,1.15361 27.9955,1.11947 Z m 13.9999,0.05974 7.9999,0.034137 -0.0085,1.999983 -8,-0.03414 z m 13.9998,0.05974 8,0.034138 -0.0086,1.999982 -7.9999,-0.03414 z m 13.9999,0.059741 8,0.034137 L 77.995,1.33283 69.9951,1.29869 Z m 13.9999,0.05974 7.9999,0.034137 L 91.9949,1.39257 83.995,1.35843 Z m 13.9999,0.05974 7.9996,0.034138 -0.008,1.999981 -8.0002,-0.03414 z m 13.9996,0.05974 1.904,0.008123 -0.009,1.999986 -1.903,-0.00813 z m -2.886,-3.193671 6.672,4.209838 -6.707,4.152742 c -0.47,0.29071 -1.086,0.14571 -1.377,-0.32387 -0.291,-0.46959 -0.146,-1.08592 0.324,-1.37663 l 5.347,-3.310546 -0.007,1.695976 -5.319,-3.35606 c -0.467,-0.2947 -0.607,-0.91225 -0.312,-1.37934 0.295,-0.46708 0.912,-0.60682 1.379,-0.31211 z"
+       fill="#ffc000"
+       transform="matrix(-1,0,0,1,1182.78,679)"
+       id="path42" />
+    <text
+       fill="#bf9000"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(1077.11,694)"
+       id="text42">Publish Connector</text>
+    <g
+       filter="url(#fx2)"
+       transform="translate(381,525)"
+       id="g44">
+      <g
+         id="g43">
+        <path
+           d="m 6.82843,14.4443 c 0,-4.2061 3.40967,-7.61587 7.61577,-7.61587 H 681.213 c 4.206,0 7.615,3.40977 7.615,7.61587 v 69.7683 c 0,4.2061 -3.409,7.6158 -7.615,7.6158 H 14.4442 c -4.2061,0 -7.61577,-3.4097 -7.61577,-7.6158 z"
+           fill="#111c2d"
+           fill-rule="evenodd"
+           id="path43" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip11)"
+       filter="url(#fx3)"
+       transform="translate(420,531)"
+       id="g46">
+      <g
+         id="g45">
+        <path
+           d="m 15.9292,0 h -2.1895 v -8.60938 c 0,-0.70507 0.0433,-1.56782 0.1299,-2.58842 h -0.0371 c -0.136,0.5814 -0.2567,0.9989 -0.3618,1.25249 L 9.5,0 H 7.97852 L 3.99854,-9.87109 C 3.88721,-10.1618 3.76969,-10.604 3.646,-11.1978 H 3.60889 c 0.04948,0.5319 0.07422,1.40092 0.07422,2.60698 V 0 H 1.64209 V -13.3037 H 4.75 l 3.49756,8.85985 c 0.26595,0.68034 0.43913,1.1875 0.51953,1.52149 h 0.04639 c 0.22884,-0.6989 0.41438,-1.21843 0.55664,-1.5586 l 3.56248,-8.82274 h 2.9966 z m 3.8905,-11.4946 c -0.3526,0 -0.6541,-0.1144 -0.9046,-0.3433 -0.2505,-0.2288 -0.3757,-0.5195 -0.3757,-0.8721 0,-0.3525 0.1252,-0.6463 0.3757,-0.8813 0.2505,-0.235 0.552,-0.3525 0.9046,-0.3525 0.3649,0 0.6741,0.1175 0.9277,0.3525 0.2536,0.235 0.3804,0.5288 0.3804,0.8813 0,0.334 -0.1268,0.6201 -0.3804,0.8582 -0.2536,0.2381 -0.5628,0.3572 -0.9277,0.3572 z M 20.8866,0 h -2.1524 v -9.5 h 2.1524 z m 9.4812,-0.436035 c -0.7607,0.43912742 -1.6606,0.658691 -2.6997,0.658691 -1.4101,0 -2.5481,-0.440674 -3.414,-1.322026 -0.8659,-0.88134 -1.2989,-2.024 -1.2989,-3.42797 0,-1.56478 0.4655,-2.82186 1.3963,-3.77124 0.9308,-0.94938 2.1755,-1.42408 3.7341,-1.42408 0.8659,0 1.6297,0.15153 2.2915,0.45459 v 2.00391 c -0.6618,-0.49479 -1.3668,-0.74219 -2.1152,-0.74219 -0.9092,0 -1.6545,0.3077 -2.2359,0.9231 -0.5813,0.6154 -0.872,1.42098 -0.872,2.41675 0,0.98339 0.2737,1.7596 0.821,2.32861 0.5474,0.56901 1.2818,0.85351 2.2034,0.85351 0.7731,0 1.5029,-0.27522 2.1894,-0.82568 z m 7.5438,-7.013675 c -0.2597,-0.2041 -0.6339,-0.30615 -1.1225,-0.30615 -0.6371,0 -1.169,0.2876 -1.5957,0.86279 -0.4268,0.5752 -0.6402,1.35759 -0.6402,2.34717 V 0 h -2.1523 v -9.5 h 2.1523 v 1.95752 h 0.0371 c 0.2103,-0.66797 0.5335,-1.18905 0.9695,-1.56323 0.436,-0.37419 0.9231,-0.56128 1.4612,-0.56128 0.3896,0 0.6865,0.05875 0.8906,0.17627 z m 5.3679,7.672366 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3685,-3.73877 0.9122,-0.89681 2.1415,-1.34522 3.6877,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4947,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 6.259,7.709475 V -2.2915 c 0.804,0.6123 1.6915,0.91845 2.6626,0.91845 1.2988,0 1.9482,-0.38346 1.9482,-1.15039 0,-0.21647 -0.0557,-0.40047 -0.167,-0.552 -0.1113,-0.15153 -0.2613,-0.28605 -0.4499,-0.40356 -0.1887,-0.11752 -0.4113,-0.22266 -0.668,-0.31543 -0.2567,-0.09278 -0.5427,-0.19792 -0.8582,-0.31543 -0.3896,-0.15463 -0.7406,-0.31853 -1.0529,-0.4917 -0.3124,-0.17318 -0.5721,-0.36955 -0.7793,-0.58911 -0.2072,-0.21957 -0.3634,-0.46851 -0.4685,-0.74683 -0.1052,-0.27832 -0.1578,-0.60303 -0.1578,-0.97412 0,-0.45768 0.1083,-0.86125 0.3247,-1.21069 0.2165,-0.34945 0.5072,-0.64323 0.8721,-0.88135 0.3649,-0.23812 0.7793,-0.41748 1.2432,-0.53809 0.4638,-0.1206 0.9432,-0.18091 1.438,-0.18091 0.8782,0 1.6637,0.13298 2.3564,0.39893 v 1.8833 c -0.668,-0.45768 -1.4349,-0.68652 -2.3008,-0.68652 -0.2721,0 -0.518,0.02783 -0.7375,0.08349 -0.2196,0.05567 -0.4067,0.13298 -0.5613,0.23194 -0.1546,0.09896 -0.2752,0.21801 -0.3618,0.35717 -0.0866,0.13916 -0.1299,0.29224 -0.1299,0.45923 0,0.2041 0.0433,0.37728 0.1299,0.51953 0.0866,0.14226 0.2149,0.2675 0.385,0.37574 0.1701,0.10823 0.3742,0.20719 0.6123,0.29687 0.2381,0.08968 0.5118,0.18709 0.8211,0.29224 0.4082,0.16699 0.7746,0.33707 1.0993,0.51025 0.3247,0.17318 0.6015,0.36955 0.8303,0.58911 0.2289,0.21957 0.4051,0.47315 0.5288,0.76075 0.1237,0.28759 0.1856,0.62931 0.1856,1.02514 0,0.48242 -0.1113,0.903 -0.334,1.26172 -0.2226,0.35872 -0.5195,0.655599 -0.8906,0.890625 -0.3711,0.235027 -0.7994,0.4097498 -1.2849,0.5241704 -0.4855,0.1144206 -0.9973,0.1716306 -1.5354,0.1716306 -1.0391,0 -1.939,-0.1731769 -2.6997,-0.519531 z m 12.8056,0.519531 c -1.4658,0 -2.6363,-0.443766 -3.5114,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4561,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1415,-1.34522 3.6878,-1.34522 1.4843,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0952,1.368406 -3.6043,1.368406 z m 0.1021,-8.229006 c -0.8412,0 -1.506,0.29379 -1.9946,0.88135 -0.4887,0.58757 -0.733,1.39779 -0.733,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4948,0.5721 1.1566,0.85815 1.9854,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6818,-1.36377 0.6818,-2.40284 0,-1.04524 -0.2272,-1.85237 -0.6818,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z M 74.4658,-12.311 c -0.2907,-0.167 -0.6216,-0.2505 -0.9927,-0.2505 -1.0452,0 -1.5678,0.5906 -1.5678,1.7719 V -9.5 h 2.208 v 1.68848 H 71.9145 V 0 H 69.7622 V -7.81152 H 68.1386 V -9.5 h 1.6236 v -1.54 c 0,-1.002 0.3278,-1.7921 0.9834,-2.3704 0.6556,-0.5783 1.4751,-0.8674 2.4585,-0.8674 0.5319,0 0.9525,0.0587 1.2617,0.1762 z m 6.4848,12.208949 c -0.4205,0.210287 -0.9741,0.31543 -1.6606,0.31543 -1.8431,0 -2.7646,-0.88444 -2.7646,-2.653319 V -7.81152 H 74.9389 V -9.5 h 1.5865 v -2.1987 l 2.1523,-0.6123 V -9.5 h 2.2729 v 1.68848 h -2.2729 v 4.75 c 0,0.56282 0.102,0.96484 0.3061,1.20605 0.2041,0.24121 0.5443,0.36182 1.0206,0.36182 0.3649,0 0.6803,-0.10515 0.9462,-0.31543 z"
+           fill="#ffffff"
+           transform="translate(18.4003,31)"
+           id="path44" />
+        <path
+           d="M 10.9194,-0.556641 C 9.91748,-0.0371094 8.67122,0.222656 7.18066,0.222656 5.25098,0.222656 3.70475,-0.386556 2.54199,-1.60498 1.37923,-2.8234 0.797852,-4.4222 0.797852,-6.40137 c 0,-2.1276 0.654048,-3.84703 1.962158,-5.15823 1.30811,-1.3112 2.96102,-1.9668 4.95874,-1.9668 1.28646,0 2.35335,0.1825 3.20065,0.5474 v 2.1894 c -0.8968,-0.5319 -1.88636,-0.7978 -2.96872,-0.7978 -1.44108,0 -2.60848,0.4608 -3.50219,1.3823 -0.89372,0.92157 -1.34058,2.15237 -1.34058,3.6924 0,1.46582 0.41748,2.63322 1.25244,3.5022 0.83496,0.86898 1.93278,1.30347 3.29346,1.30347 1.25553,0 2.34407,-0.29688 3.26559,-0.89063 z m 6.3601,0.779297 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1416,-1.34522 3.6878,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4948,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 9.0422,6.60547 H 26.3866 V 4.36963 H 24.2342 V -9.5 h 2.1524 v 1.66992 h 0.0371 c 0.736,-1.26172 1.8121,-1.89258 3.2285,-1.89258 1.206,0 2.1461,0.42367 2.8203,1.271 0.6741,0.84733 1.0112,1.98535 1.0112,3.41406 0,1.58334 -0.3803,2.85124 -1.1411,3.80371 -0.7607,0.952477 -1.7998,1.428714 -3.1172,1.428714 -1.2122,0 -2.1461,-0.531901 -2.8017,-1.595704 z M 26.368,-5.14893 v 1.17823 c 0,0.69271 0.2211,1.28027 0.6633,1.76269 0.4423,0.48242 1.0035,0.72363 1.6839,0.72363 0.7978,0 1.424,-0.31079 1.8786,-0.93237 0.4546,-0.62158 0.6819,-1.48901 0.6819,-2.60229 0,-0.93392 -0.2118,-1.66529 -0.6355,-2.19409 -0.4236,-0.52881 -0.9973,-0.79322 -1.7209,-0.79322 -0.767,0 -1.3839,0.27214 -1.8509,0.81641 -0.4669,0.54427 -0.7004,1.22461 -0.7004,2.04101 z m 10.1183,-6.34567 c -0.3525,0 -0.654,-0.1144 -0.9045,-0.3433 -0.2505,-0.2288 -0.3757,-0.5195 -0.3757,-0.8721 0,-0.3525 0.1252,-0.6463 0.3757,-0.8813 0.2505,-0.235 0.552,-0.3525 0.9045,-0.3525 0.3649,0 0.6742,0.1175 0.9278,0.3525 0.2535,0.235 0.3803,0.5288 0.3803,0.8813 0,0.334 -0.1268,0.6201 -0.3803,0.8582 -0.2536,0.2381 -0.5629,0.3572 -0.9278,0.3572 z M 37.5532,0 h -2.1523 v -9.5 h 2.1523 z m 4.8426,0 h -2.1616 v -14.0645 h 2.1616 z m 6.8837,0.222656 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1416,-1.34522 3.6878,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4947,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 11.8625,7.904299 c -0.4206,0.210287 -0.9741,0.31543 -1.6607,0.31543 -1.8431,0 -2.7646,-0.88444 -2.7646,-2.653319 V -7.81152 H 55.2323 V -9.5 h 1.5864 v -2.1987 L 58.971,-12.311 V -9.5 h 2.273 v 1.68848 h -2.273 v 4.75 c 0,0.56282 0.1021,0.96484 0.3062,1.20605 0.2041,0.24121 0.5442,0.36182 1.0205,0.36182 0.3649,0 0.6803,-0.10515 0.9463,-0.31543 z m 6.4524,-0.426758 V -2.80176 c 0.2041,0.18555 0.4469,0.35254 0.7283,0.50098 0.2814,0.14844 0.5799,0.27368 0.8953,0.37573 0.3154,0.10205 0.6308,0.18091 0.9463,0.23657 0.3154,0.05567 0.6061,0.0835 0.872,0.0835 0.9278,0 1.6189,-0.15462 2.0735,-0.46387 0.4546,-0.30924 0.6819,-0.75765 0.6819,-1.34521 0,-0.31543 -0.0758,-0.58911 -0.2273,-0.82105 -0.1515,-0.23193 -0.3633,-0.44376 -0.6355,-0.6355 -0.2721,-0.19173 -0.5922,-0.37573 -0.9602,-0.552 -0.368,-0.17627 -0.7623,-0.36027 -1.1828,-0.552 -0.4515,-0.24121 -0.8721,-0.48551 -1.2618,-0.73291 -0.3896,-0.2474 -0.7282,-0.52108 -1.0158,-0.82104 -0.2876,-0.29997 -0.5134,-0.63859 -0.6773,-1.01587 -0.1639,-0.37728 -0.2458,-0.8195 -0.2458,-1.32666 0,-0.62471 0.1407,-1.16741 0.4221,-1.62821 0.2814,-0.4607 0.6525,-0.8411 1.1133,-1.1411 0.4607,-0.2999 0.9849,-0.5226 1.5725,-0.6679 0.5875,-0.1454 1.1875,-0.2181 1.7998,-0.2181 1.3916,0 2.4059,0.1577 3.043,0.4732 v 2.1802 c -0.7546,-0.5443 -1.7256,-0.8165 -2.9131,-0.8165 -0.3278,0 -0.6541,0.031 -0.9788,0.0928 -0.3247,0.0619 -0.6154,0.1639 -0.8721,0.3062 -0.2566,0.1422 -0.4654,0.3247 -0.6262,0.5473 -0.1608,0.2227 -0.2412,0.4917 -0.2412,0.80716 0,0.29688 0.0619,0.55355 0.1856,0.77002 0.1237,0.21648 0.3046,0.41439 0.5427,0.59375 0.2381,0.17937 0.5288,0.35409 0.872,0.52417 0.3433,0.17009 0.7407,0.35409 1.1922,0.55201 0.4639,0.24121 0.9014,0.49479 1.3127,0.76074 0.4113,0.26595 0.7731,0.55973 1.0855,0.88135 0.3123,0.32161 0.5597,0.67879 0.7422,1.07153 0.1824,0.39274 0.2736,0.8396 0.2737,1.34058 -1e-4,0.67415 -0.1361,1.24316 -0.4083,1.70703 -0.2721,0.46386 -0.6385,0.841143 -1.0993,1.131833 -0.4608,0.29069 -0.9912,0.500976 -1.5911,0.630859 -0.5999,0.129883 -1.2339,0.194824 -1.9018,0.194824 -0.2227,0 -0.4964,-0.017008 -0.8211,-0.051025 C 70.0668,0.137614 69.7344,0.0881348 69.3942,0.0231934 69.054,-0.041748 68.7324,-0.120605 68.4294,-0.213379 68.1263,-0.306152 67.882,-0.411296 67.6964,-0.528809 Z m 15.0076,0.426758 c -0.4206,0.210287 -0.9741,0.31543 -1.6607,0.31543 -1.8431,0 -2.7646,-0.88444 -2.7646,-2.653319 V -7.81152 H 76.6923 V -9.5 h 1.5864 v -2.1987 L 80.431,-12.311 V -9.5 h 2.273 v 1.68848 h -2.273 v 4.75 c 0,0.56282 0.1021,0.96484 0.3062,1.20605 0.2041,0.24121 0.5442,0.36182 1.0205,0.36182 0.3649,0 0.6803,-0.10515 0.9463,-0.31543 z M 92.6455,0 h -2.1523 v -1.50293 h -0.0371 c -0.6247,1.150391 -1.5957,1.725586 -2.9131,1.725586 -2.2451,0 -3.3677,-1.348306 -3.3677,-4.044926 V -9.5 h 2.1524 v 5.45508 c 0,1.70703 0.6587,2.56054 1.976,2.56054 0.6371,0 1.1613,-0.23502 1.5726,-0.70507 0.4113,-0.47006 0.6169,-1.08545 0.6169,-1.84619 V -9.5 h 2.1523 z m 11.1855,0 h -2.152 v -1.61426 h -0.037 c -0.693,1.224612 -1.7596,1.836916 -3.2007,1.836916 -1.169,0 -2.1044,-0.425211 -2.8064,-1.275636 -0.702,-0.85042 -1.053,-2.00854 -1.053,-3.47436 0,-1.57097 0.3881,-2.82959 1.1643,-3.77588 0.7762,-0.94629 1.8106,-1.41944 3.1033,-1.41944 1.2805,0 2.2115,0.51335 2.7925,1.54004 h 0.037 v -5.88188 h 2.152 z m -2.124,-4.3418 v -1.24316 c 0,-0.67415 -0.22,-1.24626 -0.659,-1.71631 -0.439,-0.47005 -0.999,-0.70508 -1.679,-0.70508 -0.804,0 -1.4364,0.29997 -1.8972,0.8999 -0.4608,0.59994 -0.6912,1.43181 -0.6912,2.49561 0,0.96484 0.2211,1.72713 0.6634,2.28687 0.4422,0.55973 1.0375,0.83959 1.7859,0.83959 0.736,0 1.3331,-0.27058 1.7901,-0.81176 0.458,-0.54118 0.687,-1.22307 0.687,-2.04566 z m 5.739,-7.1528 c -0.352,0 -0.654,-0.1144 -0.904,-0.3433 -0.251,-0.2288 -0.376,-0.5195 -0.376,-0.8721 0,-0.3525 0.125,-0.6463 0.376,-0.8813 0.25,-0.235 0.552,-0.3525 0.904,-0.3525 0.365,0 0.674,0.1175 0.928,0.3525 0.254,0.235 0.38,0.5288 0.38,0.8813 0,0.334 -0.126,0.6201 -0.38,0.8582 -0.254,0.2381 -0.563,0.3572 -0.928,0.3572 z M 108.513,0 h -2.152 v -9.5 h 2.152 z m 6.893,0.222656 c -1.466,0 -2.636,-0.443766 -3.511,-1.331296 -0.876,-0.88754 -1.313,-2.06421 -1.313,-3.53003 0,-1.59571 0.456,-2.84196 1.368,-3.73877 0.913,-0.89681 2.142,-1.34522 3.688,-1.34522 1.484,0 2.641,0.43604 3.47,1.30811 0.829,0.87207 1.243,2.08122 1.243,3.62744 0,1.5153 -0.447,2.72909 -1.341,3.64136 -0.893,0.91227 -2.095,1.368406 -3.604,1.368406 z m 0.102,-8.229006 c -0.841,0 -1.506,0.29379 -1.994,0.88135 -0.489,0.58757 -0.733,1.39779 -0.733,2.43066 0,0.99577 0.247,1.77971 0.742,2.35181 0.495,0.5721 1.156,0.85815 1.985,0.85815 0.847,0 1.498,-0.28141 1.953,-0.84423 0.455,-0.56283 0.682,-1.36377 0.682,-2.40284 0,-1.04524 -0.227,-1.85237 -0.682,-2.42138 -0.455,-0.56901 -1.106,-0.85352 -1.953,-0.85352 z"
+           fill="#ffffff"
+           transform="translate(18.4003,54)"
+           id="path45" />
+      </g>
+    </g>
+    <path
+       d="m 385,536.616 c 0,-4.206 3.41,-7.616 7.616,-7.616 h 666.764 c 4.21,0 7.62,3.41 7.62,7.616 v 69.768 c 0,4.206 -3.41,7.616 -7.62,7.616 H 392.616 C 388.41,614 385,610.59 385,606.384 Z"
+       fill="#111c2d"
+       fill-rule="evenodd"
+       id="path46" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(435.572,559)"
+       id="text46">Microsoft</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(435.572,582)"
+       id="text47">Copilot Studio</text>
+    <g
+       clip-path="url(#clip12)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,398,542)"
+       id="g48">
+      <g
+         clip-path="url(#clip14)"
+         transform="scale(1,1.0104)"
+         id="g47">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img13"
+           transform="scale(3890.49)"
+           id="use47" />
+      </g>
+    </g>
+    <path
+       d="m 906.5,549.891 c 0,-4.082 3.309,-7.391 7.391,-7.391 h 133.219 c 4.08,0 7.39,3.309 7.39,7.391 v 46.218 c 0,4.082 -3.31,7.391 -7.39,7.391 H 913.891 c -4.082,0 -7.391,-3.309 -7.391,-7.391 z"
+       stroke="#ffc000"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       stroke-dasharray="2.66667, 2"
+       fill="#ffc000"
+       fill-rule="evenodd"
+       fill-opacity="0.101961"
+       id="path48" />
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(955.567,559)"
+       id="text48">ISV Plugin</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(928.48,572)"
+       id="text49">Copilot for Sales</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(1004.48,572)"
+       id="text50">p</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(1010.48,572)"
+       id="text51">lugin</text>
+    <text
+       fill="#ffc000"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="11px"
+       transform="translate(947.98,593)"
+       id="text52">Net new skills</text>
+    <path
+       d="m 611.5,549.891 c 0,-4.082 3.309,-7.391 7.391,-7.391 h 133.218 c 4.082,0 7.391,3.309 7.391,7.391 v 46.218 c 0,4.082 -3.309,7.391 -7.391,7.391 H 618.891 c -4.082,0 -7.391,-3.309 -7.391,-7.391 z"
+       stroke="#ffc000"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       stroke-dasharray="2.66667, 2"
+       fill="#ffc000"
+       fill-rule="evenodd"
+       fill-opacity="0.101961"
+       id="path52" />
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(660.034,559)"
+       id="text53">ISV Plugin</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(632.948,572)"
+       id="text54">Copilot for Sales</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(708.948,572)"
+       id="text55">p</text>
+    <text
+       fill="#fff2cc"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(714.948,572)"
+       id="text56">lugin</text>
+    <text
+       fill="#ffc000"
+       font-family="'Segoe UI', 'Segoe UI_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="11px"
+       transform="translate(632.868,593)"
+       id="text57">Enhance existing skills</text>
+    <g
+       id="g60">
+      <g
+         id="g59">
+        <g
+           id="g58">
+          <path
+             d="m 1198.6,573.75 c -1.9,0.75 -3.65,1.75 -5.25,3 -1.1,0.9 -1.8,2.25 -1.85,3.7 l -0.85,7.4 c -0.15,1.1 0.35,2.2 1.25,2.8 0.9,0.6 1.85,1.05 2.85,1.45 h 0.45 v -1.95 c -0.75,-0.3 -1.5,-0.7 -2.2,-1.15 -0.3,-0.2 -0.45,-0.55 -0.4,-0.9 l 0.9,-7.5 v -0.1 c 0.05,-0.9 0.45,-1.7 1.15,-2.25 1.35,-1.15 3.3,-2.2 6,-3.2 1.5,0.9 3.8,1.45 6.35,1.45 2.55,0 4.85,-0.55 6.35,-1.45 2.75,1 4.65,2.05 6,3.2 0.7,0.55 1.1,1.4 1.15,2.25 l 0.9,7.55 c 0.05,0.35 -0.1,0.7 -0.4,0.9 v 0 c -0.7,0.45 -1.4,0.85 -2.2,1.15 v 1.95 h 0.45 c 1,-0.35 1.95,-0.85 2.85,-1.45 v 0 c 0.9,-0.65 1.4,-1.7 1.25,-2.8 l -0.85,-7.35 c -0.05,-1.45 -0.75,-2.8 -1.85,-3.7 -1.6,-1.25 -3.35,-2.3 -5.25,-3 0,-2.55 0.1,-9.55 0.1,-12.4 0,-0.8 -0.1,-1.6 -0.3,-2.4 -0.65,-2.4 -2.3,-4.4 -4.5,-5.55 -0.2,-0.1 -0.5,-0.1 -0.65,0.05 l -0.45,0.35 -0.5,-0.7 c -0.15,-0.25 -0.4,-0.4 -0.65,-0.45 -0.5,-0.1 -0.95,-0.15 -1.45,-0.15 -2,0 -4,0.75 -5.5,2.05 -1.9,1.7 -2.95,4.1 -2.9,6.65 z m 2.5,-8.15 0.35,-4.1 h 11.05 l 0.35,4.1 c -0.6,3.25 -3.7,5.4 -7,4.8 -2.4,-0.45 -4.3,-2.35 -4.75,-4.8 z m 2,8.35 c 0.55,-0.45 0.9,-1.2 0.9,-1.95 v -0.1 c 1.9,0.8 4.1,0.8 6,0 v 0.1 c 0,0.75 0.35,1.45 0.9,1.95 -1.25,0.4 -2.6,0.55 -3.9,0.55 -1.3,0 -2.65,-0.15 -3.9,-0.55 z"
+             fill="#ffc000"
+             id="path57" />
+          <path
+             d="m 1217.8,580.65 c 0,-0.7 -0.55,-1.25 -1.25,-1.25 v 0 h -19.05 c -0.7,0 -1.25,0.55 -1.25,1.25 v 0 12.45 h -3.8 v 0.65 c 0,0.7 0.55,1.25 1.25,1.25 h 26.65 c 0.7,0 1.25,-0.55 1.25,-1.25 v -0.65 h -3.8 z m -13.4,8.25 -0.7,0.7 -2.8,-2.8 2.8,-2.8 0.7,0.7 -2.1,2.1 z m 1.9,1.05 -0.9,-0.4 2.35,-5.65 0.9,0.4 z m 4,-0.3 -0.7,-0.7 2.1,-2.1 -2.1,-2.1 0.7,-0.7 2.8,2.8 z"
+             fill="#ffc000"
+             id="path58" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="m 1182.78,573.374 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.045 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.045 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.046 -8,-0.025 0.01,-2 8,0.026 z m -14,-0.045 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.045 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.045 -8,-0.026 0.01,-2 8,0.026 z m -14,-0.046 -8,-0.025 0.01,-2 8,0.025 z m -14,-0.045 -1.9,-0.006 v -2 l 1.91,0.006 z m 2.89,3.191 -6.68,-4.203 6.71,-4.16 c 0.47,-0.291 1.08,-0.147 1.37,0.323 0.29,0.469 0.15,1.085 -0.32,1.377 l -5.34,3.316 v -1.696 l 5.33,3.35 c 0.46,0.295 0.6,0.912 0.31,1.379 -0.3,0.468 -0.91,0.608 -1.38,0.314 z"
+       fill="#ffc000"
+       id="path60" />
+    <text
+       fill="#bf9000"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(1077.11,586)"
+       id="text60">Publish Plugins</text>
+    <g
+       filter="url(#fx4)"
+       transform="translate(381,229)"
+       id="g62">
+      <g
+         id="g61">
+        <path
+           d="m 6.82843,12.3186 c 0,-3.03214 2.45803,-5.49017 5.49017,-5.49017 H 683.338 c 3.032,0 5.49,2.45803 5.49,5.49017 V 256.338 c 0,3.032 -2.458,5.49 -5.49,5.49 H 12.3186 c -3.03214,0 -5.49017,-2.458 -5.49017,-5.49 z"
+           fill="#2475be"
+           fill-rule="evenodd"
+           id="path61" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip15)"
+       filter="url(#fx5)"
+       transform="translate(420,234)"
+       id="g64">
+      <g
+         id="g63">
+        <path
+           d="M 10.9194,-0.556641 C 9.91748,-0.0371094 8.67122,0.222656 7.18066,0.222656 5.25098,0.222656 3.70475,-0.386556 2.54199,-1.60498 1.37923,-2.8234 0.797852,-4.4222 0.797852,-6.40137 c 0,-2.1276 0.654048,-3.84703 1.962158,-5.15823 1.30811,-1.3112 2.96102,-1.9668 4.95874,-1.9668 1.28646,0 2.35335,0.1825 3.20065,0.5474 v 2.1894 c -0.8968,-0.5319 -1.88636,-0.7978 -2.96872,-0.7978 -1.44108,0 -2.60848,0.4608 -3.50219,1.3823 -0.89372,0.92157 -1.34058,2.15237 -1.34058,3.6924 0,1.46582 0.41748,2.63322 1.25244,3.5022 0.83496,0.86898 1.93278,1.30347 3.29346,1.30347 1.25553,0 2.34407,-0.29688 3.26559,-0.89063 z m 6.3601,0.779297 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1416,-1.34522 3.6878,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4948,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 9.0422,6.60547 H 26.3866 V 4.36963 H 24.2342 V -9.5 h 2.1524 v 1.66992 h 0.0371 c 0.736,-1.26172 1.8121,-1.89258 3.2285,-1.89258 1.206,0 2.1461,0.42367 2.8203,1.271 0.6741,0.84733 1.0112,1.98535 1.0112,3.41406 0,1.58334 -0.3803,2.85124 -1.1411,3.80371 -0.7607,0.952477 -1.7998,1.428714 -3.1172,1.428714 -1.2122,0 -2.1461,-0.531901 -2.8017,-1.595704 z M 26.368,-5.14893 v 1.17823 c 0,0.69271 0.2211,1.28027 0.6633,1.76269 0.4423,0.48242 1.0035,0.72363 1.6839,0.72363 0.7978,0 1.424,-0.31079 1.8786,-0.93237 0.4546,-0.62158 0.6819,-1.48901 0.6819,-2.60229 0,-0.93392 -0.2118,-1.66529 -0.6355,-2.19409 -0.4236,-0.52881 -0.9973,-0.79322 -1.7209,-0.79322 -0.767,0 -1.3839,0.27214 -1.8509,0.81641 -0.4669,0.54427 -0.7004,1.22461 -0.7004,2.04101 z m 10.1183,-6.34567 c -0.3525,0 -0.654,-0.1144 -0.9045,-0.3433 -0.2505,-0.2288 -0.3757,-0.5195 -0.3757,-0.8721 0,-0.3525 0.1252,-0.6463 0.3757,-0.8813 0.2505,-0.235 0.552,-0.3525 0.9045,-0.3525 0.3649,0 0.6742,0.1175 0.9278,0.3525 0.2535,0.235 0.3803,0.5288 0.3803,0.8813 0,0.334 -0.1268,0.6201 -0.3803,0.8582 -0.2536,0.2381 -0.5629,0.3572 -0.9278,0.3572 z M 37.5532,0 h -2.1523 v -9.5 h 2.1523 z m 4.8426,0 h -2.1616 v -14.0645 h 2.1616 z m 6.8837,0.222656 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1416,-1.34522 3.6878,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4947,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 11.8625,7.904299 c -0.4206,0.210287 -0.9741,0.31543 -1.6607,0.31543 -1.8431,0 -2.7646,-0.88444 -2.7646,-2.653319 V -7.81152 H 55.2323 V -9.5 h 1.5864 v -2.1987 L 58.971,-12.311 V -9.5 h 2.273 v 1.68848 h -2.273 v 4.75 c 0,0.56282 0.1021,0.96484 0.3062,1.20605 0.2041,0.24121 0.5442,0.36182 1.0205,0.36182 0.3649,0 0.6803,-0.10515 0.9463,-0.31543 z M 73.4391,-12.311 c -0.2907,-0.167 -0.6216,-0.2505 -0.9927,-0.2505 -1.0452,0 -1.5678,0.5906 -1.5678,1.7719 V -9.5 h 2.208 v 1.68848 H 70.8879 V 0 H 68.7355 V -7.81152 H 67.112 V -9.5 h 1.6235 v -1.54 c 0,-1.002 0.3278,-1.7921 0.9834,-2.3704 0.6556,-0.5783 1.4751,-0.8674 2.4585,-0.8674 0.5319,0 0.9525,0.0587 1.2617,0.1762 z m 5.3404,12.533656 c -1.4659,0 -2.6364,-0.443766 -3.5115,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4562,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1416,-1.34522 3.6878,-1.34522 1.4844,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4947,0.5721 1.1565,0.85815 1.9853,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 12.3634,0.55664 c -0.2597,-0.2041 -0.6339,-0.30615 -1.1225,-0.30615 -0.6371,0 -1.169,0.2876 -1.5957,0.86279 -0.4268,0.5752 -0.6401,1.35759 -0.6401,2.34717 V 0 h -2.1524 v -9.5 h 2.1524 v 1.95752 h 0.0371 c 0.2102,-0.66797 0.5334,-1.18905 0.9694,-1.56323 0.4361,-0.37419 0.9231,-0.56128 1.4612,-0.56128 0.3897,0 0.6865,0.05875 0.8906,0.17627 z"
+           fill="#ffffff"
+           transform="translate(17.7689,31)"
+           id="path62" />
+        <path
+           d="M 1.02979,-0.528809 V -2.80176 c 0.2041,0.18555 0.44685,0.35254 0.72827,0.50098 0.28141,0.14844 0.57983,0.27368 0.89526,0.37573 0.31543,0.10205 0.63086,0.18091 0.94629,0.23657 0.31543,0.05567 0.60612,0.0835 0.87207,0.0835 0.92773,0 1.6189,-0.15462 2.07349,-0.46387 0.45459,-0.30924 0.68188,-0.75765 0.68188,-1.34521 0,-0.31543 -0.07576,-0.58911 -0.22729,-0.82105 C 6.84823,-4.46704 6.63639,-4.67887 6.36426,-4.87061 6.09212,-5.06234 5.77205,-5.24634 5.40405,-5.42261 5.03605,-5.59888 4.64176,-5.78288 4.22119,-5.97461 3.76969,-6.21582 3.34912,-6.46012 2.95947,-6.70752 2.56982,-6.95492 2.2312,-7.2286 1.9436,-7.52856 1.65601,-7.82853 1.43026,-8.16715 1.26636,-8.54443 1.10246,-8.92171 1.02051,-9.36393 1.02051,-9.87109 c 0,-0.62471 0.1407,-1.16741 0.42212,-1.62821 0.28141,-0.4607 0.6525,-0.8411 1.11328,-1.1411 0.46077,-0.2999 0.98494,-0.5226 1.57251,-0.6679 0.58756,-0.1454 1.1875,-0.2181 1.7998,-0.2181 1.3916,0 2.40593,0.1577 3.04297,0.4732 v 2.1802 c -0.75456,-0.5443 -1.72558,-0.8165 -2.91308,-0.8165 -0.3278,0 -0.65406,0.031 -0.97876,0.0928 -0.32471,0.0619 -0.6154,0.1639 -0.87207,0.3062 -0.25668,0.1422 -0.46542,0.3247 -0.62623,0.5473 -0.1608,0.2227 -0.24121,0.4917 -0.24121,0.80716 0,0.29688 0.06185,0.55355 0.18555,0.77002 0.1237,0.21648 0.30461,0.41439 0.54273,0.59375 0.23811,0.17937 0.5288,0.35409 0.87207,0.52417 0.34326,0.17009 0.74064,0.35409 1.19213,0.55201 0.46387,0.24121 0.90145,0.49479 1.31275,0.76074 0.41129,0.26595 0.77311,0.55973 1.08545,0.88135 0.31233,0.32161 0.55973,0.67879 0.74219,1.07153 0.18245,0.39274 0.27368,0.8396 0.27368,1.34058 0,0.67415 -0.13607,1.24316 -0.40821,1.70703 C 8.86605,-1.271 8.49959,-0.893717 8.03882,-0.603027 7.57804,-0.312337 7.04769,-0.102051 6.44775,0.027832 5.84782,0.157715 5.21387,0.222656 4.5459,0.222656 4.32324,0.222656 4.04956,0.205648 3.72485,0.171631 3.40015,0.137614 3.06771,0.0881348 2.72754,0.0231934 2.38737,-0.041748 2.06576,-0.120605 1.7627,-0.213379 1.45964,-0.306152 1.21533,-0.411296 1.02979,-0.528809 Z M 18.8595,0 H 16.7721 V -1.48438 H 16.735 c -0.6556,1.138026 -1.6173,1.707036 -2.8852,1.707036 -0.9339,0 -1.6653,-0.2535805 -2.1941,-0.760742 -0.5288,-0.507164 -0.7932,-1.178224 -0.7932,-2.013184 0,-1.79362 1.0328,-2.83887 3.0986,-3.13574 l 2.8203,-0.39893 c 0,-1.35449 -0.6432,-2.03174 -1.9297,-2.03174 -1.1318,0 -2.1523,0.38965 -3.0615,1.16895 v -1.8833 c 1.002,-0.59375 2.1585,-0.89063 3.4697,-0.89063 2.3998,0 3.5996,1.18132 3.5996,3.54395 z m -2.0781,-4.6665 -1.9946,0.27832 c -0.6185,0.0804 -1.0839,0.23038 -1.3963,0.44995 -0.3123,0.21956 -0.4685,0.60457 -0.4685,1.15503 0,0.40202 0.1438,0.73136 0.4314,0.98803 0.2876,0.25668 0.6726,0.38501 1.1551,0.38501 0.6556,0 1.1983,-0.23038 1.6281,-0.69116 0.4299,-0.46077 0.6448,-1.04061 0.6448,-1.7395 z M 23.3958,0 h -2.1616 v -14.0645 h 2.1616 z M 34.111,-4.16553 h -6.4756 c 0.0248,0.87826 0.2953,1.5555 0.8118,2.03174 0.5164,0.47624 1.2261,0.71436 2.1291,0.71436 1.0144,0 1.9452,-0.30306 2.7925,-0.90918 v 1.73486 c -0.8659,0.5442708 -2.0101,0.816406 -3.4326,0.816406 -1.3978,0 -2.4941,-0.431396 -3.2888,-1.294186 -0.7948,-0.8628 -1.1922,-2.07658 -1.1922,-3.64136 0,-1.47819 0.4376,-2.6827 1.3128,-3.61353 0.8751,-0.93082 1.9621,-1.39624 3.261,-1.39624 1.2988,0 2.3038,0.41748 3.0151,1.25245 0.7113,0.83496 1.0669,1.99462 1.0669,3.479 z m -2.0781,-1.52148 c -0.0062,-0.77311 -0.1887,-1.37459 -0.5474,-1.80445 -0.3587,-0.42985 -0.8535,-0.64477 -1.4844,-0.64477 -0.6185,0 -1.1426,0.22575 -1.5725,0.67725 -0.4298,0.45149 -0.6942,1.04215 -0.7932,1.77197 z m 3.4409,5.390135 V -2.2915 c 0.804,0.6123 1.6916,0.91845 2.6626,0.91845 1.2988,0 1.9482,-0.38346 1.9482,-1.15039 0,-0.21647 -0.0556,-0.40047 -0.167,-0.552 -0.1113,-0.15153 -0.2613,-0.28605 -0.4499,-0.40356 -0.1886,-0.11752 -0.4113,-0.22266 -0.668,-0.31543 -0.2567,-0.09278 -0.5427,-0.19792 -0.8581,-0.31543 -0.3897,-0.15463 -0.7407,-0.31853 -1.053,-0.4917 -0.3123,-0.17318 -0.5721,-0.36955 -0.7793,-0.58911 -0.2072,-0.21957 -0.3634,-0.46851 -0.4685,-0.74683 -0.1052,-0.27832 -0.1577,-0.60303 -0.1577,-0.97412 0,-0.45768 0.1082,-0.86125 0.3247,-1.21069 0.2165,-0.34945 0.5071,-0.64323 0.8721,-0.88135 0.3649,-0.23812 0.7792,-0.41748 1.2431,-0.53809 0.4639,-0.1206 0.9432,-0.18091 1.438,-0.18091 0.8783,0 1.6637,0.13298 2.3564,0.39893 v 1.8833 c -0.6679,-0.45768 -1.4348,-0.68652 -2.3007,-0.68652 -0.2722,0 -0.518,0.02783 -0.7376,0.08349 -0.2195,0.05567 -0.4066,0.13298 -0.5613,0.23194 -0.1546,0.09896 -0.2752,0.21801 -0.3618,0.35717 -0.0866,0.13916 -0.1299,0.29224 -0.1299,0.45923 0,0.2041 0.0433,0.37728 0.1299,0.51953 0.0866,0.14226 0.2149,0.2675 0.385,0.37574 0.1701,0.10823 0.3742,0.20719 0.6123,0.29687 0.2382,0.08968 0.5118,0.18709 0.8211,0.29224 0.4082,0.16699 0.7746,0.33707 1.0993,0.51025 0.3248,0.17318 0.6015,0.36955 0.8304,0.58911 0.2288,0.21957 0.4051,0.47315 0.5288,0.76075 0.1237,0.28759 0.1855,0.62931 0.1855,1.02514 0,0.48242 -0.1113,0.903 -0.334,1.26172 -0.2226,0.35872 -0.5195,0.655599 -0.8906,0.890625 -0.3711,0.235027 -0.7994,0.4097498 -1.2849,0.5241704 -0.4855,0.1144206 -0.9973,0.1716306 -1.5354,0.1716306 -1.0391,0 -1.939,-0.1731769 -2.6997,-0.519531 z"
+           fill="#ffffff"
+           transform="translate(17.7689,54)"
+           id="path63" />
+      </g>
+    </g>
+    <path
+       d="m 385,238.49 c 0,-3.032 2.458,-5.49 5.49,-5.49 h 671.02 c 3.03,0 5.49,2.458 5.49,5.49 v 244.02 c 0,3.032 -2.46,5.49 -5.49,5.49 H 390.49 c -3.032,0 -5.49,-2.458 -5.49,-5.49 z"
+       fill="#2475be"
+       fill-rule="evenodd"
+       id="path64" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(434.94,262)"
+       id="text64">Copilot for</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(434.94,285)"
+       id="text65">Sales</text>
+    <g
+       clip-path="url(#clip16)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,396,239)"
+       id="g66">
+      <g
+         clip-path="url(#clip18)"
+         id="g65">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img17"
+           transform="matrix(4982.31,0,0,4982.31,-0.25,0)"
+           id="use65" />
+      </g>
+    </g>
+    <path
+       d="m 573,252.118 c 0,-2.826 2.292,-5.118 5.118,-5.118 h 470.762 c 2.83,0 5.12,2.292 5.12,5.118 v 67.764 c 0,2.826 -2.29,5.118 -5.12,5.118 H 578.118 C 575.292,325 573,322.708 573,319.882 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path66" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(583.645,266)"
+       id="text66">Orchestrator</text>
+    <path
+       d="m 1.88,-1 h 31.4028 v 148.765 l -1,-1 h 30.4029 v 2 H 31.2828 V 0 l 1,1 H 1.88 Z M 6.68333,4.18133 -0.00679626,0 6.68333,-4.18133 c 0.46834,-0.29271 1.08529,-0.15034 1.378,0.318 0.29271,0.46833 0.15034,1.08528 -0.318,1.37799 L 2.41,0.847998 V -0.847998 L 7.74333,2.48534 c 0.46834,0.29271 0.61071,0.90966 0.318,1.37799 -0.29271,0.46834 -0.90966,0.61071 -1.378,0.318 z M 57.8823,143.583 l 6.6902,4.182 -6.6902,4.181 c -0.4683,0.293 -1.0853,0.15 -1.378,-0.318 -0.2927,-0.468 -0.1503,-1.085 0.318,-1.378 l 5.3334,-3.333 v 1.696 l -5.3334,-3.334 c -0.4683,-0.292 -0.6107,-0.909 -0.318,-1.378 0.2927,-0.468 0.9097,-0.61 1.378,-0.318 z"
+       fill="#ffc000"
+       transform="matrix(0,1,1,0,685,603)"
+       id="path67" />
+    <path
+       d="m 981.765,604.88 v 31.403 H 833 l 1,-1 v 30.403 h -2 v -31.403 h 148.765 l -1,1 V 604.88 Z m -5.182,4.803 4.182,-6.69 4.181,6.69 c 0.293,0.469 0.15,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.334,5.333 c -0.292,0.469 -0.909,0.611 -1.378,0.318 -0.468,-0.292 -0.61,-0.909 -0.318,-1.378 z m -139.402,51.199 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.292 1.085,-0.15 1.378,0.318 l 3.333,5.334 h -1.696 l 3.333,-5.334 c 0.293,-0.468 0.91,-0.61 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#ffc000"
+       id="path68" />
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,615,547)"
+       id="g69">
+      <g
+         clip-path="url(#clip20)"
+         id="g68">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img19"
+           transform="scale(4906.82)"
+           id="use68" />
+      </g>
+    </g>
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,911,547)"
+       id="g71">
+      <g
+         clip-path="url(#clip21)"
+         id="g70">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img19"
+           transform="scale(5195.45)"
+           id="use69" />
+      </g>
+    </g>
+    <path
+       d="m 573,453.719 c 0,-2.606 2.113,-4.719 4.719,-4.719 h 471.561 c 2.61,0 4.72,2.113 4.72,4.719 v 18.562 c 0,2.606 -2.11,4.719 -4.72,4.719 H 577.719 C 575.113,477 573,474.887 573,472.281 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path71" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(583.654,468)"
+       id="text71">3</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="9px"
+       transform="translate(590.988,464)"
+       id="text72">rd</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(603.321,468)"
+       id="text73">p</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(611.321,468)"
+       id="text74">arty</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(638.654,468)"
+       id="text75">s</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(644.321,468)"
+       id="text76">kill</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(665.488,468)"
+       id="text77">d</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(673.488,468)"
+       id="text78">iscovery</text>
+    <path
+       d="m 573,353.053 c 0,-2.791 2.262,-5.053 5.053,-5.053 h 249.894 c 2.791,0 5.053,2.262 5.053,5.053 v 66.894 c 0,2.791 -2.262,5.053 -5.053,5.053 H 578.053 C 575.262,425 573,422.738 573,419.947 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path78" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(583.76,367)"
+       id="text79">Out of</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(626.427,367)"
+       id="text80">the b</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(657.927,367)"
+       id="text81">ox</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(676.26,367)"
+       id="text82">s</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(681.927,367)"
+       id="text83">kill</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(703.094,367)"
+       id="text84">r</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(708.094,367)"
+       id="text85">epository</text>
+    <path
+       d="m 579,386.12 c 0,-2.276 1.844,-4.12 4.12,-4.12 h 236.76 c 2.276,0 4.12,1.844 4.12,4.12 v 25.76 c 0,2.276 -1.844,4.12 -4.12,4.12 H 583.12 c -2.276,0 -4.12,-1.844 -4.12,-4.12 z"
+       fill="#0f3455"
+       fill-rule="evenodd"
+       id="path85" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(589.625,396)"
+       id="text86">Opportunity</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(652.292,396)"
+       id="text87">s</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(656.959,396)"
+       id="text88">ummary</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(697.125,396)"
+       id="text89">,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(702.625,396)"
+       id="text90">g</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(709.125,396)"
+       id="text91">enerate</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(748.625,396)"
+       id="text92">e</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(754.292,396)"
+       id="text93">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(758.625,396)"
+       id="text94">m</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(768.125,396)"
+       id="text95">ail</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(782.292,396)"
+       id="text96">r</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(786.292,396)"
+       id="text97">eply</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(806.792,396)"
+       id="text98">,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(589.625,409)"
+       id="text99">e</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(595.292,409)"
+       id="text100">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(599.625,409)"
+       id="text101">m</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(609.125,409)"
+       id="text102">ail</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(623.292,409)"
+       id="text103">s</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(627.959,409)"
+       id="text104">ummary,</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(673.625,409)"
+       id="text105">and more.</text>
+    <path
+       d="m 686,478.88 v 31.701 h -1 l 1,-1 v 30.701 h -2 v -31.701 h 1 l -1,1 V 478.88 Z m -5.181,4.803 4.181,-6.69 4.182,6.69 c 0.292,0.469 0.15,1.086 -0.318,1.378 -0.469,0.293 -1.086,0.151 -1.378,-0.318 l -3.334,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.468,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,51.796 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.293 1.085,-0.15 1.378,0.318 l 3.333,5.333 h -1.696 l 3.333,-5.333 c 0.293,-0.468 0.91,-0.611 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path105" />
+    <path
+       d="m 686,417.88 v 29.118 h -2 V 417.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,19.512 -4.181,6.69 -4.181,-6.69 c -0.293,-0.469 -0.151,-1.086 0.318,-1.378 0.468,-0.293 1.085,-0.151 1.378,0.318 l 3.333,5.333 h -1.696 l 3.333,-5.333 c 0.293,-0.469 0.91,-0.611 1.378,-0.318 0.469,0.292 0.611,0.909 0.318,1.378 z"
+       fill="#70ad47"
+       id="path106" />
+    <path
+       d="m 1.00398,1.87792 0.06112,28.84638 -2,0.0042 L -0.996015,1.88216 Z M -4.16716,6.69218 -1.44025e-5,-0.00679605 4.19548,6.67446 C 4.48918,7.14218 4.34812,7.75943 3.8804,8.05313 3.41269,8.34683 2.79544,8.20576 2.50173,7.73805 L -0.84289,2.41179 0.853102,2.4082 -2.46892,7.74858 C -2.76064,8.21754 -3.37729,8.36122 -3.84624,8.0695 -4.3152,7.77778 -4.45888,7.16113 -4.16716,6.69218 Z M 4.23624,25.9142 0.0690957,32.6132 -4.1264,25.9319 c -0.2937,-0.4677 -0.15264,-1.0849 0.31508,-1.3786 0.46771,-0.2937 1.08496,-0.1527 1.37867,0.3151 l 3.344622,5.3262 -1.695993,0.0036 3.322031,-5.3404 c 0.29171,-0.4689 0.90836,-0.6126 1.37732,-0.3209 0.46895,0.2917 0.61263,0.9084 0.32091,1.3773 z"
+       fill="#70ad47"
+       transform="matrix(-1,0,0,1,685.069,315)"
+       id="path107" />
+    <path
+       d="m 981,478.88 v 61.403 h -2 V 478.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,51.796 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.292 1.085,-0.15 1.378,0.318 l 3.333,5.334 h -1.696 l 3.333,-5.334 c 0.293,-0.468 0.91,-0.61 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path108" />
+    <path
+       d="m 981.008,317.876 0.551,129.153 -2,0.009 -0.551,-129.154 z m -5.161,4.825 4.153,-6.708 4.21,6.672 c 0.295,0.468 0.155,1.085 -0.312,1.38 -0.467,0.295 -1.085,0.155 -1.38,-0.312 l -3.356,-5.319 1.696,-0.008 -3.31,5.348 c -0.291,0.469 -0.907,0.614 -1.377,0.324 -0.47,-0.291 -0.615,-0.907 -0.324,-1.377 z m 8.872,119.511 -4.152,6.708 -4.21,-6.673 c -0.295,-0.467 -0.155,-1.084 0.312,-1.379 0.467,-0.295 1.085,-0.155 1.379,0.312 l 3.356,5.319 -1.696,0.007 3.311,-5.347 c 0.291,-0.47 0.907,-0.615 1.377,-0.324 0.469,0.291 0.614,0.907 0.323,1.377 z"
+       fill="#70ad47"
+       id="path109" />
+    <text
+       fill="#70ad47"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(989.914,513)"
+       id="text109">Load new skills</text>
+    <text
+       fill="#70ad47"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(694.384,512)"
+       id="text110">Load skill enhancements</text>
+    <path
+       d="m 914,286.119 c 0,-2.275 1.844,-4.119 4.119,-4.119 h 123.761 c 2.28,0 4.12,1.844 4.12,4.119 v 25.762 c 0,2.275 -1.84,4.119 -4.12,4.119 H 918.119 C 915.844,316 914,314.156 914,311.881 Z"
+       fill="#0f3455"
+       fill-rule="evenodd"
+       id="path110" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(924.352,296)"
+       id="text111">LLM</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(947.518,296)"
+       id="text112">b</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(954.018,296)"
+       id="text113">ased</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(979.352,296)"
+       id="text114">c</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(984.352,296)"
+       id="text115">hat</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(924.352,309)"
+       id="text116">o</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(930.685,309)"
+       id="text117">rchestrator</text>
+    <path
+       d="m 579,286.119 c 0,-2.275 1.844,-4.119 4.119,-4.119 h 292.762 c 2.275,0 4.119,1.844 4.119,4.119 v 25.762 c 0,2.275 -1.844,4.119 -4.119,4.119 H 583.119 C 580.844,316 579,314.156 579,311.881 Z"
+       fill="#0f3455"
+       fill-rule="evenodd"
+       id="path117" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(589.626,296)"
+       id="text118">Out</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(607.626,296)"
+       id="text119">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(611.959,296)"
+       id="text120">of</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(621.959,296)"
+       id="text121">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(626.292,296)"
+       id="text122">the</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(641.959,296)"
+       id="text123">-</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(646.292,296)"
+       id="text124">box</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(589.626,309)"
+       id="text125">skill registry</text>
+    <path
+       d="m 946.144,317.88 v 15.127 H 703 l 1,-1 v 14.128 h -2 v -15.128 h 243.144 l -1,1 V 317.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m -233.782,18.648 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.292 1.085,-0.15 1.378,0.318 l 3.333,5.334 h -1.696 l 3.333,-5.334 c 0.293,-0.468 0.91,-0.61 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path125" />
+    <g
+       filter="url(#fx6)"
+       transform="translate(382,25)"
+       id="g127">
+      <g
+         id="g126">
+        <path
+           d="m 6.82843,11.2753 c 0,-2.45592 1.99095,-4.44687 4.44687,-4.44687 H 683.381 c 2.456,0 4.447,1.99095 4.447,4.44687 V 164.382 c 0,2.455 -1.991,4.446 -4.447,4.446 H 11.2753 c -2.45592,0 -4.44687,-1.991 -4.44687,-4.446 z"
+           fill="#e7e6e6"
+           fill-rule="evenodd"
+           id="path126" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip22)"
+       filter="url(#fx7)"
+       transform="translate(420,30)"
+       id="g130">
+      <g
+         id="g129">
+        <path
+           d="m 15.9292,0 h -2.1895 v -8.60938 c 0,-0.70507 0.0433,-1.56782 0.1299,-2.58842 h -0.0371 c -0.136,0.5814 -0.2567,0.9989 -0.3618,1.25249 L 9.5,0 H 7.97852 L 3.99854,-9.87109 C 3.88721,-10.1618 3.76969,-10.604 3.646,-11.1978 H 3.60889 c 0.04948,0.5319 0.07422,1.40092 0.07422,2.60698 V 0 H 1.64209 V -13.3037 H 4.75 l 3.49756,8.85985 c 0.26595,0.68034 0.43913,1.1875 0.51953,1.52149 h 0.04639 c 0.22884,-0.6989 0.41438,-1.21843 0.55664,-1.5586 l 3.56248,-8.82274 h 2.9966 z"
+           fill="#070c13"
+           transform="translate(17.9028,31)"
+           id="path127" />
+        <path
+           d="m 2.48633,-11.4946 c -0.35254,0 -0.65405,-0.1144 -0.90454,-0.3433 -0.25049,-0.2288 -0.37574,-0.5195 -0.37574,-0.8721 0,-0.3525 0.12525,-0.6463 0.37574,-0.8813 0.25049,-0.235 0.552,-0.3525 0.90454,-0.3525 0.36491,0 0.67415,0.1175 0.92773,0.3525 0.25358,0.235 0.38037,0.5288 0.38037,0.8813 0,0.334 -0.12679,0.6201 -0.38037,0.8582 -0.25358,0.2381 -0.56282,0.3572 -0.92773,0.3572 z M 3.55322,0 H 1.40088 v -9.5 h 2.15234 z m 9.48128,-0.436035 c -0.7607,0.43912742 -1.6606,0.658691 -2.6997,0.658691 -1.41016,0 -2.54818,-0.440674 -3.41406,-1.322026 -0.86589,-0.88134 -1.29883,-2.024 -1.29883,-3.42797 0,-1.56478 0.46541,-2.82186 1.39624,-3.77124 0.93082,-0.94938 2.17554,-1.42408 3.73415,-1.42408 0.8659,0 1.6297,0.15153 2.2915,0.45459 v 2.00391 c -0.6618,-0.49479 -1.3669,-0.74219 -2.1153,-0.74219 -0.9091,0 -1.65441,0.3077 -2.23579,0.9231 -0.58138,0.6154 -0.87207,1.42098 -0.87207,2.41675 0,0.98339 0.27368,1.7596 0.82104,2.32861 0.54737,0.56901 1.28182,0.85351 2.20342,0.85351 0.7731,0 1.5029,-0.27522 2.1894,-0.82568 z m 7.5438,-7.013675 c -0.2598,-0.2041 -0.634,-0.30615 -1.1226,-0.30615 -0.637,0 -1.1689,0.2876 -1.5957,0.86279 -0.4267,0.5752 -0.6401,1.35759 -0.6401,2.34717 V 0 h -2.1524 v -9.5 h 2.1524 v 1.95752 h 0.0371 c 0.2103,-0.66797 0.5334,-1.18905 0.9695,-1.56323 0.436,-0.37419 0.9231,-0.56128 1.4612,-0.56128 0.3896,0 0.6865,0.05875 0.8906,0.17627 z m 5.3678,7.672366 c -1.4658,0 -2.6363,-0.443766 -3.5114,-1.331296 -0.8752,-0.88754 -1.3128,-2.06421 -1.3128,-3.53003 0,-1.59571 0.4561,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1415,-1.34522 3.6878,-1.34522 1.4843,0 2.6409,0.43604 3.4697,1.30811 0.8288,0.87207 1.2432,2.08122 1.2432,3.62744 0,1.5153 -0.4469,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0952,1.368406 -3.6043,1.368406 z m 0.1021,-8.229006 c -0.8412,0 -1.506,0.29379 -1.9946,0.88135 -0.4887,0.58757 -0.733,1.39779 -0.733,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4948,0.5721 1.1566,0.85815 1.9854,0.85815 0.8473,0 1.4983,-0.28141 1.9529,-0.84423 0.4545,-0.56283 0.6818,-1.36377 0.6818,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6818,-2.42138 -0.4546,-0.56901 -1.1056,-0.85352 -1.9529,-0.85352 z m 6.2589,7.709475 V -2.2915 c 0.8041,0.6123 1.6916,0.91845 2.6626,0.91845 1.2989,0 1.9483,-0.38346 1.9483,-1.15039 0,-0.21647 -0.0557,-0.40047 -0.167,-0.552 -0.1113,-0.15153 -0.2613,-0.28605 -0.45,-0.40356 -0.1886,-0.11752 -0.4113,-0.22266 -0.6679,-0.31543 -0.2567,-0.09278 -0.5428,-0.19792 -0.8582,-0.31543 -0.3896,-0.15463 -0.7406,-0.31853 -1.053,-0.4917 -0.3123,-0.17318 -0.5721,-0.36955 -0.7793,-0.58911 -0.2072,-0.21957 -0.3633,-0.46851 -0.4685,-0.74683 -0.1051,-0.27832 -0.1577,-0.60303 -0.1577,-0.97412 0,-0.45768 0.1082,-0.86125 0.3247,-1.21069 0.2165,-0.34945 0.5072,-0.64323 0.8721,-0.88135 0.3649,-0.23812 0.7793,-0.41748 1.2432,-0.53809 0.4638,-0.1206 0.9431,-0.18091 1.4379,-0.18091 0.8783,0 1.6638,0.13298 2.3565,0.39893 v 1.8833 c -0.668,-0.45768 -1.4349,-0.68652 -2.3008,-0.68652 -0.2721,0 -0.518,0.02783 -0.7375,0.08349 -0.2196,0.05567 -0.4067,0.13298 -0.5613,0.23194 -0.1546,0.09896 -0.2753,0.21801 -0.3618,0.35717 -0.0866,0.13916 -0.1299,0.29224 -0.1299,0.45923 0,0.2041 0.0433,0.37728 0.1299,0.51953 0.0865,0.14226 0.2149,0.2675 0.385,0.37574 0.1701,0.10823 0.3742,0.20719 0.6123,0.29687 0.2381,0.08968 0.5118,0.18709 0.821,0.29224 0.4082,0.16699 0.7747,0.33707 1.0994,0.51025 0.3247,0.17318 0.6015,0.36955 0.8303,0.58911 0.2288,0.21957 0.4051,0.47315 0.5288,0.76075 0.1237,0.28759 0.1856,0.62931 0.1856,1.02514 0,0.48242 -0.1114,0.903 -0.334,1.26172 -0.2227,0.35872 -0.5196,0.655599 -0.8906,0.890625 -0.3711,0.235027 -0.7994,0.4097498 -1.285,0.5241704 -0.4855,0.1144206 -0.9973,0.1716306 -1.5354,0.1716306 -1.039,0 -1.9389,-0.1731769 -2.6997,-0.519531 z m 12.8057,0.519531 c -1.4658,0 -2.6363,-0.443766 -3.5115,-1.331296 -0.8751,-0.88754 -1.3127,-2.06421 -1.3127,-3.53003 0,-1.59571 0.4561,-2.84196 1.3684,-3.73877 0.9123,-0.89681 2.1415,-1.34522 3.6877,-1.34522 1.4844,0 2.641,0.43604 3.4698,1.30811 0.8287,0.87207 1.2431,2.08122 1.2431,3.62744 0,1.5153 -0.4468,2.72909 -1.3406,3.64136 -0.8937,0.91227 -2.0951,1.368406 -3.6042,1.368406 z m 0.102,-8.229006 c -0.8411,0 -1.506,0.29379 -1.9946,0.88135 -0.4886,0.58757 -0.7329,1.39779 -0.7329,2.43066 0,0.99577 0.2474,1.77971 0.7422,2.35181 0.4948,0.5721 1.1566,0.85815 1.9853,0.85815 0.8474,0 1.4983,-0.28141 1.9529,-0.84423 0.4546,-0.56283 0.6819,-1.36377 0.6819,-2.40284 0,-1.04524 -0.2273,-1.85237 -0.6819,-2.42138 -0.4546,-0.56901 -1.1055,-0.85352 -1.9529,-0.85352 z M 57.1325,-12.311 c -0.2907,-0.167 -0.6216,-0.2505 -0.9927,-0.2505 -1.0453,0 -1.5679,0.5906 -1.5679,1.7719 V -9.5 h 2.208 v 1.68848 H 54.5812 V 0 H 52.4289 V -7.81152 H 50.8053 V -9.5 h 1.6236 v -1.54 c -10e-5,-1.002 0.3277,-1.7921 0.9834,-2.3704 0.6555,-0.5783 1.475,-0.8674 2.4584,-0.8674 0.5319,0 0.9525,0.0587 1.2618,0.1762 z m 6.4848,12.208949 c -0.4206,0.210287 -0.9741,0.31543 -1.6606,0.31543 -1.8431,0 -2.7647,-0.88444 -2.7647,-2.653319 V -7.81152 H 57.6056 V -9.5 h 1.5864 v -2.1987 l 2.1524,-0.6123 V -9.5 h 2.2729 v 1.68848 h -2.2729 v 4.75 c 0,0.56282 0.102,0.96484 0.3061,1.20605 0.2041,0.24121 0.5443,0.36182 1.0205,0.36182 0.3649,0 0.6804,-0.10515 0.9463,-0.31543 z"
+           fill="#070c13"
+           transform="translate(35.2361,31)"
+           id="path128" />
+        <path
+           d="M 1.14111,-0.491699 V -2.51416 c 0.86589,0.68652 1.8431,1.02978 2.93164,1.02978 0.88444,0 1.59107,-0.201 2.11988,-0.60302 0.52881,-0.40202 0.79321,-0.94629 0.79321,-1.63281 0,-1.50912 -1.15348,-2.26368 -3.46045,-2.26368 H 2.49561 V -7.70947 H 3.479 c 2.0472,0 3.0708,-0.71127 3.0708,-2.13379 0,-1.31124 -0.79785,-1.96684 -2.39355,-1.96684 -0.89063,0 -1.72868,0.3186 -2.51416,0.9556 v -1.9111 c 0.90299,-0.5072 1.96989,-0.7608 3.20068,-0.7608 1.18132,0 2.12761,0.2969 2.83887,0.8907 0.71126,0.5937 1.0669,1.3545 1.0669,2.2822 0,1.75031 -0.89063,2.87596 -2.67188,3.37694 v 0.03711 c 0.95866,0.09277 1.71631,0.4283 2.27295,1.00659 0.55664,0.57829 0.83496,1.30037 0.83496,2.16626 0,1.19368 -0.4484,2.15698 -1.34521,2.889891 -0.89681,0.73291 -2.07813,1.099365 -3.54395,1.099365 -1.31738,0 -2.36882,-0.2381183 -3.1543,-0.714355 z M 20.2137,-4.27686 c 0,0.66797 -0.1098,1.27719 -0.3293,1.82764 -0.2196,0.55046 -0.5242,1.02515 -0.9139,1.42407 -0.3896,0.398929 -0.8519,0.708174 -1.3869,0.9277379 -0.535,0.2195641 -1.1148,0.3293461 -1.7395,0.3293461 -0.668,0 -1.2818,-0.129883 -1.8416,-0.389649 -0.5597,-0.259765 -1.0421,-0.646321 -1.4472,-1.159665 -0.4052,-0.51335 -0.719,-1.15194 -0.9417,-1.91577 -0.2226,-0.76384 -0.334,-1.64983 -0.334,-2.65796 0,-1.2308 0.1469,-2.32243 0.4407,-3.27491 0.2938,-0.95248 0.6973,-1.75028 1.2107,-2.39358 0.5133,-0.6432 1.1164,-1.1318 1.8091,-1.4658 0.6927,-0.334 1.4411,-0.501 2.2451,-0.501 0.501,0 0.9571,0.0341 1.3684,0.1021 0.4113,0.068 0.7406,0.1608 0.988,0.2783 v 1.939 c -0.3154,-0.1608 -0.6525,-0.2969 -1.0112,-0.4082 -0.3587,-0.1114 -0.77,-0.167 -1.2339,-0.167 -0.5195,0 -0.9988,0.1051 -1.438,0.3154 -0.4391,0.2103 -0.8179,0.518 -1.1364,0.9231 -0.3186,0.4051 -0.5691,0.90609 -0.7515,1.50293 -0.1825,0.59684 -0.2768,1.28491 -0.283,2.06421 h 0.0557 c 0.2845,-0.43913 0.6695,-0.78548 1.155,-1.03906 0.4855,-0.25359 1.0561,-0.38038 1.7117,-0.38038 0.5814,0 1.1055,0.09432 1.5725,0.28296 0.467,0.18864 0.8659,0.46078 1.1968,0.81641 0.3309,0.35563 0.586,0.78857 0.7654,1.29883 0.1793,0.51025 0.269,1.0839 0.269,1.72094 z m -2.1709,0.17627 c 0,-0.38346 -0.0448,-0.73291 -0.1345,-1.04834 -0.0897,-0.31543 -0.2258,-0.58601 -0.4082,-0.81176 -0.1825,-0.22575 -0.4113,-0.40048 -0.6865,-0.52417 -0.2753,-0.1237 -0.5984,-0.18555 -0.9695,-0.18555 -0.3711,0 -0.6974,0.06649 -0.9788,0.19946 -0.2814,0.13298 -0.518,0.3077 -0.7097,0.52417 -0.1917,0.21647 -0.3355,0.46387 -0.4314,0.74219 -0.0959,0.27832 -0.1438,0.56283 -0.1438,0.85352 0,0.31543 0.0448,0.63859 0.1345,0.96948 0.0897,0.33089 0.2273,0.6324 0.4129,0.90454 0.1855,0.27213 0.4221,0.49634 0.7097,0.67261 0.2876,0.17627 0.6293,0.2644 1.0251,0.2644 0.3526,0 0.6649,-0.06494 0.937,-0.19482 0.2722,-0.12989 0.4995,-0.30925 0.6819,-0.53809 0.1825,-0.22884 0.3216,-0.49943 0.4175,-0.81177 0.0959,-0.31233 0.1438,-0.65096 0.1438,-1.01587 z m 4.2285,3.794438 V -2.375 c 0.8721,0.58757 1.7565,0.88135 2.6533,0.88135 0.903,0 1.6298,-0.23039 2.1802,-0.69116 0.5505,-0.46078 0.8257,-1.07463 0.8257,-1.84156 0,-0.75455 -0.2799,-1.34212 -0.8396,-1.76269 -0.5597,-0.42058 -1.3622,-0.63086 -2.4075,-0.63086 -0.3587,0 -1.0854,0.03711 -2.1801,0.11133 l 0.4731,-6.99511 h 6.5498 v 1.8369 h -4.7593 l -0.2226,3.33057 c 0.4267,-0.02474 0.8133,-0.03711 1.1596,-0.03711 1.4102,0 2.5003,0.36182 3.2703,1.08545 0.77,0.72363 1.155,1.71322 1.155,2.96875 0,1.31738 -0.4406,2.37345 -1.322,3.168212 -0.8813,0.794759 -2.092,1.192139 -3.6321,1.192139 -1.2988,0 -2.2667,-0.1824545 -2.9038,-0.547363 z"
+           fill="#070c13"
+           transform="translate(104.276,31)"
+           id="path129" />
+      </g>
+    </g>
+    <path
+       d="M 386,33.4469 C 386,30.991 387.991,29 390.447,29 h 672.103 c 2.46,0 4.45,1.991 4.45,4.4469 V 186.553 c 0,2.456 -1.99,4.447 -4.45,4.447 H 390.447 C 387.991,191 386,189.009 386,186.553 Z"
+       fill="#e7e6e6"
+       fill-rule="evenodd"
+       id="path130" />
+    <text
+       fill="#070c13"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(435.074,58)"
+       id="text130">M</text>
+    <text
+       fill="#070c13"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(452.408,58)"
+       id="text131">icrosoft</text>
+    <text
+       fill="#070c13"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="19px"
+       transform="translate(521.448,58)"
+       id="text132">365</text>
+    <g
+       clip-path="url(#clip23)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,385,36)"
+       id="g133">
+      <g
+         clip-path="url(#clip25)"
+         transform="matrix(1.01489,0,0,1,-0.25,-0.03125)"
+         id="g132">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img24"
+           transform="scale(5291.67)"
+           id="use132" />
+      </g>
+    </g>
+    <path
+       d="M 573,46.1877 C 573,42.7703 575.77,40 579.188,40 h 135.624 c 3.418,0 6.188,2.7703 6.188,6.1877 v 85.6243 c 0,3.418 -2.77,6.188 -6.188,6.188 H 579.188 C 575.77,138 573,135.23 573,131.812 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path133" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(613.124,60)"
+       id="text133">Copilot for</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(613.124,76)"
+       id="text134">Sales</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(613.124,97)"
+       id="text135">Side</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Light', 'Segoe UI Light_MSFontService', sans-serif"
+       font-weight="300"
+       font-size="11px"
+       transform="translate(634.958,97)"
+       id="text136">pane</text>
+    <g
+       clip-path="url(#clip26)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,400,76)"
+       id="g137">
+      <g
+         clip-path="url(#clip28)"
+         transform="matrix(1,0,0,1.04403,-0.25,-0.0625)"
+         id="g136">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img27"
+           transform="scale(5987.14)"
+           id="use136" />
+      </g>
+    </g>
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,393,112)"
+       id="g139">
+      <g
+         clip-path="url(#clip30)"
+         transform="scale(1,1.00159)"
+         id="g138">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img29"
+           transform="scale(2936.88)"
+           id="use137" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip31)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,579,43)"
+       id="g141">
+      <g
+         clip-path="url(#clip32)"
+         transform="matrix(1,0,0,1.04348,0,-0.03125)"
+         id="g140">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img19"
+           transform="scale(6638.64)"
+           id="use139" />
+      </g>
+    </g>
+    <path
+       d="M 739,46.1876 C 739,42.7703 741.77,40 745.188,40 h 136.624 c 3.418,0 6.188,2.7703 6.188,6.1876 v 85.6244 c 0,3.418 -2.77,6.188 -6.188,6.188 H 745.188 C 741.77,138 739,135.23 739,131.812 Z"
+       fill="#232323"
+       fill-rule="evenodd"
+       id="path141" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(779.556,59)"
+       id="text141">M</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(791.889,59)"
+       id="text142">icrosoft</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(841.556,59)"
+       id="text143">365</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(779.556,75)"
+       id="text144">Copilot</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(827.389,75)"
+       id="text145">c</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(833.722,75)"
+       id="text146">anvas</text>
+    <path
+       d="m 747,109.518 c 0,-2.495 2.023,-4.518 4.518,-4.518 h 123.964 c 2.495,0 4.518,2.023 4.518,4.518 v 15.964 c 0,2.495 -2.023,4.518 -4.518,4.518 H 751.518 C 749.023,130 747,127.977 747,125.482 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path146" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(777.208,121)"
+       id="text147">Copilot for Sales</text>
+    <g
+       clip-path="url(#clip33)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,754,109)"
+       id="g148">
+      <g
+         clip-path="url(#clip34)"
+         id="g147">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img19"
+           transform="matrix(5195.45,0,0,5195.45,0,-0.0625)"
+           id="use147" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip35)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,749,46)"
+       id="g150">
+      <g
+         clip-path="url(#clip37)"
+         id="g149">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img36"
+           transform="matrix(6548.44,0,0,6548.44,-0.5,0)"
+           id="use148" />
+      </g>
+    </g>
+    <path
+       d="m 814,189.88 v 89.713 h -2 V 189.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,80.106 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.292 1.085,-0.15 1.378,0.318 l 3.333,5.334 h -1.696 l 3.333,-5.334 c 0.293,-0.468 0.91,-0.61 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path150" />
+    <path
+       d="m 685,139.879 v 140.113 h -2 V 139.879 Z m -5.181,4.804 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,130.506 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.293 1.085,-0.15 1.378,0.318 l 3.333,5.333 h -1.696 l 3.333,-5.333 c 0.293,-0.468 0.91,-0.611 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path151" />
+    <path
+       d="M 906,45.1877 C 906,41.7703 908.77,39 912.188,39 h 135.622 c 3.42,0 6.19,2.7703 6.19,6.1877 v 85.6243 c 0,3.418 -2.77,6.188 -6.19,6.188 H 912.188 C 908.77,137 906,134.23 906,130.812 Z"
+       fill="#232323"
+       fill-rule="evenodd"
+       id="path152" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(945.987,59)"
+       id="text152">M</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(958.32,59)"
+       id="text153">icrosoft</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(1007.99,59)"
+       id="text154">365</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(945.987,75)"
+       id="text155">Copilot</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(993.82,75)"
+       id="text156">c</text>
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(1000.15,75)"
+       id="text157">hat</text>
+    <path
+       d="m 914,109.338 c 0,-2.396 1.942,-4.338 4.338,-4.338 h 123.322 c 2.4,0 4.34,1.942 4.34,4.338 v 15.324 c 0,2.396 -1.94,4.338 -4.34,4.338 H 918.338 C 915.942,129 914,127.058 914,124.662 Z"
+       fill="#195285"
+       fill-rule="evenodd"
+       id="path157" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="11px"
+       transform="translate(943.639,121)"
+       id="text158">Copilot for Sales</text>
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,921,108)"
+       id="g159">
+      <g
+         clip-path="url(#clip38)"
+         id="g158">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img19"
+           transform="scale(5195.45)"
+           id="use158" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip39)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,916,45)"
+       id="g161">
+      <g
+         clip-path="url(#clip40)"
+         id="g160">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img36"
+           transform="matrix(6548.44,0,0,6548.44,0,-0.03125)"
+           id="use159" />
+      </g>
+    </g>
+    <path
+       d="m 981,189.88 v 89.713 h -2 V 189.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,80.106 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.292 1.085,-0.15 1.378,0.318 l 3.333,5.334 h -1.696 l 3.333,-5.334 c 0.293,-0.468 0.91,-0.61 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path161" />
+    <path
+       d="m 739,167.089 c 0,-2.811 2.279,-5.089 5.089,-5.089 h 304.821 c 2.81,0 5.09,2.278 5.09,5.089 v 15.822 c 0,2.811 -2.28,5.089 -5.09,5.089 H 744.089 c -2.81,0 -5.089,-2.278 -5.089,-5.089 z"
+       fill="#262626"
+       fill-rule="evenodd"
+       id="path162" />
+    <text
+       fill="#ffffff"
+       font-family="'Segoe UI Semibold', 'Segoe UI Semibold_MSFontService', sans-serif"
+       font-weight="600"
+       font-size="13px"
+       transform="translate(791.545,180)"
+       id="text162">Microsoft 365 Copilot orchestrator</text>
+    <path
+       d="m 815,139.88 v 20.095 h -2 V 139.88 Z m -5.181,4.803 4.181,-6.69 4.181,6.69 c 0.293,0.469 0.151,1.086 -0.318,1.378 -0.468,0.293 -1.085,0.151 -1.378,-0.318 l -3.333,-5.333 h 1.696 l -3.333,5.333 c -0.293,0.469 -0.91,0.611 -1.378,0.318 -0.469,-0.292 -0.611,-0.909 -0.318,-1.378 z m 8.362,10.489 -4.181,6.69 -4.181,-6.69 c -0.293,-0.468 -0.151,-1.085 0.318,-1.378 0.468,-0.293 1.085,-0.15 1.378,0.318 l 3.333,5.333 h -1.696 l 3.333,-5.333 c 0.293,-0.468 0.91,-0.611 1.378,-0.318 0.469,0.293 0.611,0.91 0.318,1.378 z"
+       fill="#70ad47"
+       id="path163" />
+    <path
+       d="m 1.00001,1.87999 9e-5,20.09521 H -0.999903 L -0.999992,1.88 Z M -4.1813,6.68335 -8.11976e-8,-0.00679605 4.18136,6.68332 C 4.47407,7.15165 4.3317,7.7686 3.86337,8.06131 3.39503,8.35403 2.77808,8.21166 2.48537,7.74332 L -0.847988,2.41 H 0.848009 L -2.4853,7.74334 c -0.29271,0.46834 -0.90966,0.61072 -1.378,0.31801 -0.46833,-0.29271 -0.61071,-0.90966 -0.318,-1.378 z M 4.18141,17.1719 1.05068e-4,23.862 -4.18126,17.1719 c -0.29271,-0.4683 -0.15034,-1.0853 0.318,-1.378 0.46833,-0.2927 1.08528,-0.1503 1.378,0.318 l 3.333353,5.3333 H -0.847904 L 2.48541,16.1119 c 0.2927,-0.4684 0.90965,-0.6107 1.37799,-0.318 0.46834,0.2927 0.61072,0.9096 0.31801,1.378 z"
+       fill="#70ad47"
+       transform="matrix(1,0,0,-1,980,161.855)"
+       id="path164" />
+  </g>
+</svg>
