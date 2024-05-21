@@ -15,9 +15,9 @@ ms.custom:
 
 # Standardize error responses (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Error responses must be standardized to ensure that the error messages are consistent and easy to understand. The following table lists the schema for the error object expected in the response body.
 
@@ -41,5 +41,5 @@ The following table lists a few scenarios and the expected error codes:
 
 ### See also
 
-[GetRelatedActivities](api-get-related-activities.md) <br>
-[GetRelatedRecords](api-get-related-records.md)
+[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Build application APIs to extend Copilot for Sales](build-apis.md)
