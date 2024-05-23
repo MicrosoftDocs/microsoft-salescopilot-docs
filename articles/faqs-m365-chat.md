@@ -53,3 +53,6 @@ System may not find relevant CRM information to show, in that case, it will not 
 
 - **Set up the system**: Copilot AI features must be enabled by an administrator and fields for the opportunity record must be selected. Copilot for Sales must be connected to a CRM. 
 
+### See also
+
+[Get sales data in Teams Copilot chat (preview)](teams-copilot-chat.md)
