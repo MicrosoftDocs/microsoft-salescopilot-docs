@@ -1,6 +1,6 @@
 ﻿---
-title: Get sales data in Teams Copilot app (preview)
-description: Maximize CRM data with AI-powered Teams Copilot app, offering sales insights and summaries from emails, calendars, notes, and contacts.
+title: Get sales data in Teams Copilot chat (preview)
+description: Maximize CRM data with AI-powered Teams Copilot chat, offering sales insights and summaries from emails, calendars, notes, and contacts.
 ms.date: 05/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:05/14/2024
 ---
 
-# Get sales data in Teams Copilot app (preview)
+# Get sales data in Teams Copilot chat (preview)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -26,7 +26,7 @@ Copilot works alongside you to bring together data from your CRM, email, calenda
 
 ## Prerequisites
 
--   [Copilot app must be added to Teams](#add-the-copilot-app-to-teams).
+-   [Copilot chat must be added to Teams](#add-the-copilot-chat-to-teams).
 -   [Copilot for Sales plugin must be enabled in Teams copilot](#enable-the-copilot-for-sales-plugin-in-the-copilot-app).
 -   [Copilot AI features must be turned on in your environment](suggested-replies.md).
 -   [Sign in to CRM from Copilot for Sales in Outlook](sign-in-crm-outlook.md).
@@ -39,9 +39,9 @@ This feature is currently supported only in English .
 
 This feature is available in all [regions in which Sales Copilot is supported](/microsoft-sales-copilot/introduction#region-availability).
 
-## Add the Copilot app to Teams
+## Add the Copilot chat to Teams
 
-If the Copilot app is not already added to Teams, you can add it by following these steps:
+If the Copilot chat is not already added to Teams, you can add it by following these steps:
 
 1.  Go to **Apps** on the left side of Teams.
 
@@ -49,7 +49,7 @@ If the Copilot app is not already added to Teams, you can add it by following th
 
 3.  Select **Add** in the **Copilot** window. Copilot is added as a new app in your Teams app list.
 
-## Enable the Copilot for Sales plugin in the Copilot app 
+## Enable the Copilot for Sales plugin in the Copilot chat 
 
 To view sales information with Copilot in Microsoft Teams, the Copilot for Sales plugin must be enabled in Copilot. By default, the plugin is disabled. You must enable it during the first use.
 
@@ -59,9 +59,9 @@ To view sales information with Copilot in Microsoft Teams, the Copilot for Sales
 
     :::image type="content" source="media/enable-plugin-c4s.png" alt-text="Screenshot showing Copilot for Sales plugin.":::
 
-## Get sales data in the Copilot app
+## Get sales data in the Copilot chat
 
-With Copilot for Sales plugin in the Copilot app, you can summarize sales data, catch up on customer meetings, get sales insights and CRM data within the chat using natural language prompts. Use the Copilot app to:
+With Copilot for Sales plugin in the Copilot chat, you can summarize sales data, catch up on customer meetings, get sales insights and CRM data within the chat using natural language prompts. Use the Copilot chat to:
 
 -   Get summaries of opportunity and account records to stay up to date with overall status and recent changes of the records. For example: Show account summary for Fourth Coffee.
 
@@ -79,7 +79,7 @@ With Copilot for Sales plugin in the Copilot app, you can summarize sales data, 
 
 Here's an end-to-end example:
 
-You are a seller preparing for the day. You want to check about your next meeting. In the Copilot app, you enter the following prompt: "What is my next meeting?"
+You are a seller preparing for the day. You want to check about your next meeting. In the Copilot chat, you enter the following prompt: "What is my next meeting?"
 
 You receive a response that your meeting is about "10 automatic coffee machines" deal. You would like to know more information about this opportunity. You enter the following prompt: "Show opportunity summary for 10 automatic coffee machines from Copilot for Sales". Key insights are summarized from CRM and an opportunity summary is displayed in an adaptive card.
 
@@ -91,7 +91,7 @@ You also want to check the current sales cycle KPI. You enter the following prom
 
 You have all the required data at your fingertips for your upcoming meeting.
 
-### Use the Copilot app
+### Use the Copilot chat
 
 1.  In the **Copilot** app, type your prompt. For example, "Show opportunity summary for \[opportunity name\]"
 
