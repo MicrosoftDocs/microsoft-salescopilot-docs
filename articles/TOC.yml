@@ -42,12 +42,6 @@
       href: install-sales-copilot.md
   - name: Enable Copilot for Sales
     href: enable-license.md
-  - name: Early Access Program (EAP)
-    items:
-    - name: Redeem Copilot for Sales EAP trial licenses
-      href: eap-redeem-license.md
-    - name: EAP customer transition FAQ
-      href: eap-faq.md
 
 - name: Deployment scenarios
   items:
@@ -148,6 +142,10 @@
         href: suggested-crm-updates.md
       - name: View key sales info
         href: key-sales-info.md
+      - name: View People.ai insights (preview)
+        href: people-ai-insights.md
+      - name: View insights from partner applications (preview)
+        href: insights-partner-apps.md
       
     - name: More options
       items:
@@ -224,19 +222,29 @@
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
-    href: extend-sales-copilot.md
-  - name: Copilot for Sales APIs
+    href: extend-copilot-for-sales.md
+  - name: Get started with creating an extension
     items:
-    - name: Overview
-      href: api-ref-partner-apps.md
-    - name: GetRelatedActivities
-      href: api-get-related-activities.md
-    - name: GetRelatedRecords
-      href: api-get-related-records.md
-    - name: Standardize error responses
-      href: api-error-responses.md
+    - name: Create a custom connector and connector action
+      href: custom-connector-action.md
     - name: Sample OpenAPI definition
       href: api-sample-def.md
+    - name: Standardize error responses
+      href: api-error-responses.md
+  - name: Extension points
+    items:
+    - name: Overview
+      href: build-apis.md
+    - name: Enrich email summary
+      href: extend-email-summary.md
+    - name: Enrich key sales info
+      href: extend-key-sales-info.md
+    - name: Enrich CRM record summary
+      href: extend-record-summary.md
+    - name: Enrich CRM record details
+      href: extend-record-details.md
+    - name: Add a new Q&A capability to the Sales chat
+      href: extend-m365-chat.md
 
 
 - name: Troubleshooting guide
