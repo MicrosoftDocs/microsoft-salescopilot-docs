@@ -1,7 +1,7 @@
 ﻿---
 title: Get sales data in Teams Copilot app (preview)
 description: Maximize CRM data with AI-powered Teams Copilot app, offering sales insights and summaries from emails, calendars, notes, and contacts.
-ms.date: 05/14/2024
+ms.date: 05/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -65,7 +65,7 @@ With Copilot for Sales plugin in the Copilot app, you can summarize sales data, 
 
 -   Get summaries of opportunity and account records to stay up to date with overall status and recent changes of the records. For example: Show account summary for Fourth Coffee.
 
--   Prepare for an upcoming meeting by getting key insights to catch-up before the meeting. For example: Help me prepare for the meeting 10 automatic coffee machines. The report is generated with the information mentioned in the [report format](#meeting-report-format). Select **Open meeting** to open the meeting in Outlook.
+-   Prepare for an upcoming meeting by getting key insights to catch-up before the meeting. For example: Help me prepare for the meeting 10 automatic coffee machines. The report is generated using the selected meeting and the opportunity where it's saved. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. Select **Open meeting** to open the meeting in Outlook.
 
 -   Ask questions about sales KPIs such as win rate, sales cycle, sales pipeline, and weighted sales pipeline. For example: What's my sales cycle from Copilot for Sales?
 
@@ -90,18 +90,6 @@ A meeting summary is displayed with key sales information related to the meeting
 You also want to check the current sales cycle KPI. You enter the following prompt: "What's my sales cycle from Copilot for Sales?"
 
 You have all the required data at your fingertips for your upcoming meeting.
-
-#### Meeting report format
-
-The content of the report is generated using the selected meeting and the opportunity where it's saved. If the meeting is not connected to an opportunity, a top ranked opportunity is selected by AI. The meeting report contains the following sections:
-
-- **General meeting information**: Overview information about the meeting and the related opportunity.
-- **Meeting participants**: Information about the external participants and their role in the opportunity.
-- **Opportunity info**: Summary of the key information about the related opportunity.
-- **Notes from CRM**: Two recent notes from the opportunity timeline.
-- **Open tasks**: Total number of open tasks and count of high priority tasks.
-- **Recent meeting insights**: Last two meetings with sales insights related to the opportunity.
-- **Related records**: Number of open cases.
 
 ### Use the Copilot app
 
