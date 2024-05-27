@@ -97,7 +97,7 @@ You have all the required data at your fingertips for your upcoming meeting.
 
 2.  Select **Send**.
 
-3.  Once a response is generated, select the sources to understand how the response was cited.
+3.  Once a response is generated, select the sources to understand why the response was cited.
 
     > [!NOTE]
     > AI-generated content may be incorrect, so sources are provided for your review when possible.
