@@ -79,7 +79,7 @@ With Copilot for Sales plugin in the Copilot chat, you can summarize sales data,
 
 Here's an end-to-end example:
 
-You are a seller preparing for the day. You want to check about your next meeting. In the Copilot chat, you enter the following prompt: "What is my next meeting?"
+You are a seller preparing for the day. You want to check about your next meeting. In the Copilot chat, you enter the following prompt: "What is my next meeting about?"
 
 You receive a response that your meeting is about "10 automatic coffee machines" deal. You would like to know more information about this opportunity. You enter the following prompt: "Show opportunity summary for 10 automatic coffee machines from Copilot for Sales". Key insights are summarized from CRM and an opportunity summary is displayed in an adaptive card.
 
