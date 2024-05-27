@@ -31,7 +31,7 @@ Copilot works alongside you to bring together data from your CRM, email, calenda
 
 ## Supported languages
 
-This feature is currently supported only in English .
+This feature is currently supported only in English.
 
 ## Region availability
 
