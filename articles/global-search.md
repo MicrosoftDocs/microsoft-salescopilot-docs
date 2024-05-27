@@ -17,7 +17,7 @@ ms.custom:
 You can search for a CRM record using Copilot for Sales at any time, regardless of the context, using the global search functionality. This feature allows you to quickly reference records, whether they are related to the current context or not. The search functionality is also available in various other surfaces such as saving an email or email summary to you CRM.
 
 > [!NOTE]
-> Global search returns only the record types configured by your administrator.
+> Global search returns only records that belong to the record types configured by your administrator. 
 
 
 ## Search for a record using global search
