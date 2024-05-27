@@ -1,7 +1,7 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
-ms.date: 02/02/2024
+ms.date: 05/27/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -97,3 +97,7 @@ Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams 
 To get the benefits of the new enhanced Teams app within Outlook, the new app will need to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Copilot for Sales for Outlook](install-viva-sales-as-an-integrated-app.md)
 
 The existing Sales Copilot add-in will be automatically updated to Copilot for Sales to support Outlook clients that do not yet support the enhanced Teams app such as Mac and mobile, thus no need to remove the existing deployment for the add-in.
+
+#### Copilot for Sales Outlook side pane unified with Microsoft 365 side pane
+
+The Copilot for Sales Outlook side pane is now unified with the Microsoft 365 side pane. This change allows the user to access the Copilot for Sales capabilities directly from the Microsoft 365 side pane in Outlook.  
