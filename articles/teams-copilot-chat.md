@@ -1,6 +1,6 @@
 ﻿---
-title: Chat with Copilot for Sales on Teams about sales data (preview)
-description: Maximize CRM data with AI-powered Teams Copilot chat, offering sales insights and summaries from emails, calendars, notes, and contacts.
+title: Chat with Copilot for Sales on Teams to get sales insights (preview)
+description: Maximize CRM data with AI-powered Teams Copilot chat, that offers sales insights and summaries from emails, calendars, notes, and contacts.
 ms.date: 05/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:05/14/2024
 ---
 
-# Chat with Copilot for Sales on Teams about sales data
+# Chat with Copilot for Sales on Teams to get sales insights (preview)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
