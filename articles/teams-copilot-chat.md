@@ -27,7 +27,6 @@ Copilot works alongside you to bring together data from your CRM, email, calenda
 ## Prerequisites
 
 -   [Copilot chat must be added to Teams](#add-the-copilot-chat-to-teams).
--   [Copilot for Sales plugin must be enabled in Teams copilot](#enable-the-copilot-for-sales-plugin-in-the-copilot-chat).
 -   [Copilot AI features must be turned on in your environment](suggested-replies.md).
 -   [Sign in to CRM from Copilot for Sales in Outlook](sign-in-crm-outlook.md).
 
