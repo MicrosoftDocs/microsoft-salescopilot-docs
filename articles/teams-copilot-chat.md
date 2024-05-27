@@ -57,7 +57,7 @@ To view sales information with Copilot in Microsoft Teams, the Copilot for Sales
 
     :::image type="content" source="media/enable-plugin-c4s.png" alt-text="Screenshot showing Copilot for Sales plugin.":::
 
-## Get sales data in the Copilot chat
+## Get sales data in the Teams Copilot chat
 
 With Copilot for Sales plugin in the Teams Copilot chat, you can summarize sales data, catch up on customer meetings, get sales insights and CRM data within the chat using natural language prompts. Use the Teams Copilot chat to:
 
