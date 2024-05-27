@@ -29,7 +29,7 @@ When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'l
 - **Opportunity info**: Summary of the key information about the related opportunity.
 - **Notes from CRM**: Two recent notes from the opportunity timeline.
 - **Open tasks**: Total number of open tasks and count of high priority tasks.
-- **Recent meeting insights**: Last two meetings with sales insights that have a participant who is one of the sales contacts in the original meeting.
+- **Recent meeting insights**: Sales insights from last two meetings where a sales contact was a participant. 
 - **Related records**: Number of related opportunities and number of related cases for the account.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
