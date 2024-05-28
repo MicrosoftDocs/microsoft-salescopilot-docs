@@ -80,10 +80,10 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 For users using Outlook for Web or the new Outlook for Windows client, the Copilot for Sales side pane in Outlook is now unified with the Copilot for Microsoft 365 side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Copilot for Microsoft 365 side pane. 
 
+Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Copilot for Microsoft 365 side pane and select **Sales** to access the Copilot for Sales capabilities.
+
 > [!NOTE]
 > The unified Copilot experience is currently available only in Outlook for Web (Outlook online) and the new Outlook for Windows client. For all other Outlook surfaces, users would experience Copilot for Sales capabilities in the dedicated Copilot for Sales side pane in Outlook.
-
-`image of the unified side pane in Outlook`
 
 ## Enhanced Teams app support
 
