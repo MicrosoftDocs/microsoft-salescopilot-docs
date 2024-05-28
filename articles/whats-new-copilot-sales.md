@@ -54,7 +54,7 @@ In Microsoft Teams, the Copilot for Sales Standard license will continue to prov
 
 ### New Copilot for Sales license
 
-The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Copilot for Microsoft 365 subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience. If you're using the Outlook for Web or the new Outlook for Windows client, you can access Copilot for Sales in the Copilot for Microsoft 365 side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-web-and-app)
+The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Copilot for Microsoft 365 subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience. If you're using the Outlook for Web or the new Outlook for Windows client, you can access Copilot for Sales in the Copilot for Microsoft 365 side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-for-web-and-windows-client)
 
 > [!NOTE]
 > If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Copilot for Microsoft 365 license. 
