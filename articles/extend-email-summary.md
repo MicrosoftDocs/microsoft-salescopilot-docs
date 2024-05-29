@@ -1,7 +1,7 @@
 ---
 title: Enrich email summary with insights from your application (preview)
 description: Enhance email summaries in Outlook using Copilot for Sales and insights from your own application, sourced from CRM systems like Dynamics 365 or Salesforce.
-ms.date: 05/20/2024
+ms.date: 05/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -42,11 +42,11 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure the Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
+Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
 
 |Parameter|Data type|Required|Details|
 |---------|----|--------|-----------|
-|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-insight)|
+|value|Array|Yes|List of insights (objects) defined as mentioned in [Schema for insight](#schema-for-insight) <br> **Note**: Though the value parameter includes a list of insights, only the first insight is used in the email enrichment summary.|
 |hasMoreResults|Boolean|No|Indicates if there are more results available.|
 
 ### Schema for insight
