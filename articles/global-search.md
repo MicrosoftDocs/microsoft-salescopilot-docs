@@ -25,6 +25,7 @@ You can search for a CRM record using Copilot for Sales at any time, regardless 
 1. In **Copilot for Sales** pane, select the search icon in the upper-right corner.
 1. In the search box, enter the name of the record you want to search for.
 1. Select the record from the search results to view the details.
+
     :::image type="content" source="media/global-search.png" alt-text="Screenshot of the search results returned by global search.":::
 
 ## Search for a record using other surfaces
