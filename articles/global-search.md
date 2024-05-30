@@ -1,7 +1,7 @@
 ---
 title: Search for a CRM record using Copilot for Sales
 description: Explore Copilot for Sales' CRM integration, offering AI-based recommendations and user-initiated searches to deliver relevant records efficiently.
-ms.date: 05/29/2024
+ms.date: 05/30/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # Search for a CRM record using Copilot for Sales
 
-You can search for a CRM record using Copilot for Sales at any time, regardless of the context, using the global search functionality. This feature allows you to quickly reference records, whether they are related to the current context or not. The search functionality is also available in various other surfaces such as saving an email or email summary to you CRM.
+You can search for a CRM record using Copilot for Sales at any time, regardless of the context, using the global search functionality. This feature allows you to quickly reference records, whether they are related to the current context or not. The search functionality is also available in various other surfaces such as saving an email or email summary to your CRM.
 
 > [!NOTE]
 > Global search returns only records that belong to the record types configured by your administrator. 
@@ -48,8 +48,8 @@ When you open the search box in a context, Copilot for Sales might proactively s
 
 When you search for a record in Copilot for Sales, the search results are displayed in a list with the following details:
 
-- Name of the record. The search returns only those records that belong to the [record types configured by your administrator](customize-forms-and-fields.md).
-- Type of record (for example, account, contact, or opportunity). 
+- Name of the record. 
+- Type of record (for example, account, contact, or opportunity). The search returns only those records that belong to the [record types configured by your administrator](customize-forms-and-fields.md). 
 - Up to two additional fields based on the [key fields configured by the administrator](customize-forms-and-fields.md#select-key-fields-for-the-mini-view)
 
 > [!NOTE]
@@ -60,7 +60,6 @@ You can also filter the search results by record types. The record types availab
 :::image type="content" source="media/global-search-filter.png" alt-text="Screenshot of the filter options in global search.":::
 
 If the search results contain multiple records with the same name, you can select each record to view more details. It also includes a link to view the record in the CRM. More details about a record are displayed based on the admin settings. These details align with the [order of fields listed in the form configuration](customize-forms-and-fields.md#reorder-fields) for the respective record type.
-For Salesforce, these details align with the [order of fields listed in the form configuration](customize-forms-and-fields.md#reorder-fields) for the respective record type. 
 
 When you expand the search results, you can view up to 10 fields. If less than 10 fields are configured, all fields are displayed. Key fields are included in the count of the 10 total fields displayed.
 
