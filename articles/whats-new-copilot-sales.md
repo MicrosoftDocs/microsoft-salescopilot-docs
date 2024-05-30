@@ -1,7 +1,7 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
-ms.date: 02/02/2024
+ms.date: 05/28/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -54,7 +54,7 @@ In Microsoft Teams, the Copilot for Sales Standard license will continue to prov
 
 ### New Copilot for Sales license
 
-The new Copilot for Sales license is referred to as Copilot for Sales premium license. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience.
+The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Copilot for Microsoft 365 subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience. If you're using the Outlook on the web or the new Outlook for Windows, you can access Copilot for Sales in the Copilot for Microsoft 365 side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows)
 
 > [!NOTE]
 > If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Copilot for Microsoft 365 license. 
@@ -75,6 +75,15 @@ In Microsoft Teams, you can use chat capabilities of Copilot in Microsoft Teams 
 After a Teams meeting, the meeting summary is enriched with capabilities such as action items, participant statistics, and task creation in CRM from within Teams.
 
 :::image type="content" source="media/teams-recap.png" alt-text="Screenshot showing meeting summary enriched wih sales data in Teams recap.":::
+
+### Unified side pane in Outlook on the web and Outlook for Windows
+
+For users using Outlook on the web or the new Outlook for Windows, the Copilot for Sales side pane in Outlook is now unified with the Copilot for Microsoft 365 side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Copilot for Microsoft 365 side pane. 
+
+Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Copilot for Microsoft 365 side pane and select **Sales** to access the Copilot for Sales capabilities.
+
+> [!NOTE]
+> The unified Copilot experience is currently available only in Outlook on the web (Outlook online) and the new Outlook for Windows. For all other Outlook surfaces, users would experience Copilot for Sales capabilities in the dedicated Copilot for Sales side pane in Outlook.
 
 ## Enhanced Teams app support
 
