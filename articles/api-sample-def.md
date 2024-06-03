@@ -1,7 +1,7 @@
 ---
 title: Sample OpenAPI definition (preview)
 description: Sample OpenAPI definition for the API implementation.
-ms.date: 05/20/2024
+ms.date: 05/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,14 +23,11 @@ Refer to the following guidelines when creating the OpenAPI definition for the A
 
 - The OpenAPI definition contains placeholders for the actual API paths. You can replace the placeholders with the actual API paths. The actual OpenAPI definition provided by the connector is used and requests are built based on the API paths in the OpenAPI definition.
 - HTTP methods should be same as the ones specified in the OpenAPI definition.
-- Input parameter names should be the same as the ones specified in the OpenAPI definition. OpenAPI definition returned by the connector is used to map the input parameters by names. All the required input parameters in the sample OpenAPI definition must be present in the actual connector definition.
+- OpenAPI definition returned by the connector is used to map the input parameters by descriptions. All the required input parameters in the sample OpenAPI definition must be present in the actual connector definition.
 - Input parameter types should be same as the ones specified in the OpenAPI definition. 
-- Operation IDs should be same as the ones specified in the OpenAPI definition. Every operation described by the OpenAPI definition must have a unique identifier. APIs are invoked based on the operation IDs.
 - APIs described by the OpenAPI definition shouldn't contain any other required parameters that aren't present in the sample OpenAPI definition. If there are any other required parameters, Copilot for Sales won't invoke the APIs and will fail with an internal error.
+- Do not use `connectorId` as an input parameter in the OpenAPI definition as it's a reserved parameter.
 - Properties of output objects that are marked as required in the OpenAPI definition must be present in the API response.
-- Include the following internal properties. It helps Power Platform to do the required processing:
-    - x-ms-keywords 
-    - x-ms-openai-data 
 
 ## Sample OpenAPI file
 
