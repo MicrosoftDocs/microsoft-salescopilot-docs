@@ -24,7 +24,7 @@ Sellers can use Copilot for Sales while reading and composing emails in Outlook 
 
 You need to add the API description to the action to enable Copilot for Sales to identify the correct API to invoke for enriching this capability. The description must be as follows:
 
-`This action gets additional sales insights that will be shown in Copilot for Sales key sales info card in outlook side pane. The action enhances the existing skills of copilot for sales.`
+`This action gets additional sales insights that will be shown in C4S key sales info card in outlook sidecar. The action enhances the existing skills of copilot for sales.`
 
 ## Input parameters
 
