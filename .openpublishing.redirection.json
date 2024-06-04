@@ -11,11 +11,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/sales/install-viva-sales-individual-add-in-admin-center.md",
-      "redirect_url": "install-viva-sales-as-an-integrated-app",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "articles/faqs-m365-chat.md",
       "redirect_url": "responsible-ai-overview",
       "redirect_document_id": false
