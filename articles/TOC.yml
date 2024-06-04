@@ -180,8 +180,6 @@
       items:
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-      - name: Chat with Copilot for Sales to get sales insights (preview)
-        href: teams-copilot-chat.md
 
   - name: Capabilities in Microsoft Word
     items:
@@ -338,6 +336,4 @@
     href: faqs-real-time-tips.md
   - name: FAQ for key sales info
     href: faqs-key-sales-info.md
-  - name: FAQ for Copilot for Sales in Microsoft 365 Chat
-    href: faqs-m365-chat.md
 
