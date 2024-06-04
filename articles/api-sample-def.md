@@ -33,7 +33,7 @@ Refer to the following guidelines when creating the OpenAPI definition for the c
 
 1. [Download the sample connector solution](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly start with the connector needed to extend Copilot for Sales.
 2. Import the downloaded connector solution using Power Apps, see [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions). Ensure to use an environment that has Dynamics 365 apps enabled.
-3. Head to Copilot Studio to create an extension for above connector, see [Create and publish an action in Microsoft Copilot Studio](/microsoft-sales-copilot/custom-connector-action#create-and-publish-an-action-in-microsoft-copilot-studio)
+3. Navigate to Copilot Studio to create an extension for above connector, see [Create and publish an action in Microsoft Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4s#author-a-connector-action)
 
 ### See also
 
