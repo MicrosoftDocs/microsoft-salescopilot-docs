@@ -18,7 +18,11 @@
   - name: Architecture overview
     href: architecture.md
   - name: License overview
-    href: license-info.md
+    items:
+    - name: Copilot for Sales license
+      href: license-info.md
+    - name: Copilot for Sales step-up license
+      href: step-up-license.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
