@@ -1,6 +1,6 @@
 ---
 title: Sample Connector (preview)
-description: Sample connector to easily get started with extensibility in Copilot for Sales.
+description: Sample connector to easily get started with extending Copilot for Sales.
 ms.date: 05/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
