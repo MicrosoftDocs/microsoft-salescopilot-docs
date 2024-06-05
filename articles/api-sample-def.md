@@ -21,7 +21,7 @@ ms.custom:
 
 Refer to the following guidelines when creating the OpenAPI definition for the connector.
 
-- The sample connector contains placeholder for the API paths. You can replace these with the actual API paths.
+- The sample connector contains placeholder for the API paths. You can replace these placeholders with the actual API paths.
 - HTTP methods should be same as the ones specified in the sample OpenAPI definition.
 - OpenAPI definition returned by the connector is used to map the input and output parameters by descriptions. All the required parameters in the sample OpenAPI definition must be present in the actual connector definition with right descriptions.
 - Input parameter types should be same as the ones specified in the OpenAPI definition. 
@@ -32,8 +32,8 @@ Refer to the following guidelines when creating the OpenAPI definition for the c
 ## Getting started
 
 1. [Download the sample connector solution](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly start with the connector needed to extend Copilot for Sales.
-2. Import the downloaded connector solution using Power Apps, see [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions). Ensure to use an environment that has Dynamics 365 apps enabled.
-3. Navigate to Copilot Studio to create an extension for above connector, see [Create and publish an action in Microsoft Copilot Studio](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4s#author-a-connector-action)
+2. [Import the downloaded connector solution using Power Apps](/power-apps/maker/data-platform/import-update-export-solutions). Ensure to use an environment that has Dynamics 365 apps enabled.
+3. [Navigate to Copilot Studio to create an extension for above connector](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4s#author-a-connector-action)
 
 ### See also
 
