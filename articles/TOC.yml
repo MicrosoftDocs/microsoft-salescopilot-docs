@@ -231,7 +231,7 @@
     items:
     - name: Create a custom connector and connector action
       href: custom-connector-action.md
-    - name: Sample OpenAPI definition
+    - name: Sample Connector
       href: api-sample-def.md
     - name: Standardize error responses
       href: api-error-responses.md
