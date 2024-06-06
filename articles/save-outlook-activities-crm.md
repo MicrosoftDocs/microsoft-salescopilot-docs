@@ -53,9 +53,13 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
    :::image type="content" source="media/connect-record.png" alt-text="Screenshot showing Connect to a record to save email.":::
 
+1. Enter additional information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](articles\save-outlook-activities-crm.md). 
+
 1. Select **Save**.
 
-    The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
+    The email or meeting is connected to the selected record and saved in the CRM. 
+    - The **Connected to** card shows the connected record and its type.
+    - The tag icon shows the categorization fields, if you selected any. 
 
    :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing email saved to CRM.":::
 
@@ -101,9 +105,16 @@ Currently, banner messages with quick CRM actions are available on up to two ext
 > [!NOTE]
 > This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
 
-## Change the connected record
+## Edit the activity in Outlook
 
-If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.
+If you'd like to update the activity details in Outlook after saving it to the CRM, you can edit them and save the changes to the CRM again.
+
+You can update the following fields in the activity:
+
+- Connected record  
+- Categorization fields
+
+To edit, select **&hellip;** in the **Connected to** section in the Copilot for Sales side pane and select **Change connected record**, and make the necessary changes. 
 
 :::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
 
