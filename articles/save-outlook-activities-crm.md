@@ -55,7 +55,7 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
 1. (Optional) Select and save the attachments that you'd like to store in the CRM. 
 
-    The attachments are saved to the activity record related to the email or meeting in Dynamics 365. In Salesforce, the attachments are saved as files. [Unable to save the attachment? Learn why](#attachment-limitations)
+    The attachments are saved to the activity record related to the email or meeting in Dynamics 365. In Salesforce, the attachments are saved as files. [Unable to save the attachment? Learn why](#attachment-considerations)
 
 1. Select **Save**.
 
