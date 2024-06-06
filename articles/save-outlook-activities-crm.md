@@ -115,7 +115,7 @@ When saving an email or meeting to the CRM, consider the following limitations r
 
 - Only file types that are allowed by the CRM can be saved. Attachments that are too large or of disallowed type are not saved. Your CRM administrator can configure the file type and size restrictions. Any changes to these settings can take up to an hour to take effect in Copilot for Sales. For more information about configuring file type and size, see:
 
-    - [Dynamics 365](/customer-service/administer/enable-file-attachments#configure-file-size-limit-and-file-extensions)
+    - [Dynamics 365](/dynamics365/customer-service/administer/enable-file-attachments#configure-file-size-limit-and-file-extensions)
     - [Salesforce](https://help.salesforce.com/s/articleView?id=sf.collab_files_size_limits.htm&type=5)
 
 - Inline attachments can't be saved to the CRM. Inline attachments are images or files that are displayed in the body of the email. For example, email signatures, images, or files that are pasted into the email body.
