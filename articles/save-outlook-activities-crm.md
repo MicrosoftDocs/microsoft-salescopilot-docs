@@ -53,7 +53,7 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
    :::image type="content" source="media/connect-record.png" alt-text="Screenshot showing Connect to a record to save email.":::
 
-1. Enter additional information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](articles\save-outlook-activities-crm.md). 
+1. In the **Add email categories** section, enter the information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](articles\save-outlook-activities-crm.md).
 
 1. Select **Save**.
 
@@ -114,7 +114,7 @@ You can update the following fields in the activity:
 - Connected record  
 - Categorization fields
 
-To edit, select **&hellip;** in the **Connected to** section in the Copilot for Sales side pane and select **Change connected record**, and make the necessary changes. 
+To edit, select (**&hellip;**) in the **Connected to** section in the Copilot for Sales side pane and select **Edit email details**, and make the necessary changes. 
 
 :::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
 
@@ -129,7 +129,7 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
 
 1. Select the **Dynamics 365** tab.
 
-1. In the **Connected to** card, select **More actions** (**...**) > **Remove email from Dynamics 365**.
+1. In the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
 
    :::image type="content" source="media/remove.png" alt-text="Screenshot showing how to remove saved email from CRM.":::
 
