@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 04/15/2024
+ms.date: 06/07/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -55,7 +55,7 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
 1. (Optional) Select and save the attachments that you'd like to store in the CRM. 
 
-    The attachments are saved to the activity record related to the email or meeting in Dynamics 365. In Salesforce, the attachments are saved as files. [Unable to save the attachment? Learn why](#attachment-considerations)
+    The attachments are saved to the activity record related to the email or meeting in the CRM. [Unable to save the attachment? Learn why](#attachment-considerations)
 
 1. Select **Save**.
 
@@ -98,9 +98,13 @@ When you read a customer email from external contacts and have not saved the ema
 
 2. In the banner message, select **Save this email**.
 
-3. In the **Copilot for Sales** pane, under **Connect to a record**, select select the record you want to connect the meeting to. 
+3. In the **Copilot for Sales** pane, under **Connect to a record**, select the record you want to connect the meeting to. 
 
     :::image type="content" source="media/banner-save-email.png" alt-text="Screenshot showing banner message with quick action to save an email.":::
+
+4. (Optional) Select and save the attachments that you'd like to store in the CRM. 
+
+   The attachments are saved to the activity record related to the email or meeting in the CRM. [Unable to save the attachment? Learn why](#attachment-considerations)
 
 4. Select **Save**.
 
@@ -111,7 +115,7 @@ Currently, banner messages with quick CRM actions are available on up to two ext
 
 ### Attachment considerations
 
-When saving an email or meeting to the CRM, consider the following limitations related to attachments:
+When saving an email or meeting to the CRM, you can also choose to save the attachments that are part of the email or meeting. Consider the following limitations related to attachments:
 
 - Only file types that are allowed by the CRM can be saved. Attachments that are too large or of disallowed type are not saved. Your CRM administrator can configure the file type and size restrictions. Any changes to these settings can take up to an hour to take effect in Copilot for Sales. For more information about configuring file type and size, see:
 
@@ -119,7 +123,8 @@ When saving an email or meeting to the CRM, consider the following limitations r
     - [Salesforce](https://help.salesforce.com/s/articleView?id=sf.collab_files_size_limits.htm&type=5)
 
 - Inline attachments can't be saved to the CRM. Inline attachments are images or files that are displayed in the body of the email. For example, email signatures, images, or files that are pasted into the email body.
-- Saving an attachment is only supported for emails and meetings saved from the highlight card. It's not supported for emails and meetings saved from the related record card.
+- Saving an attachment is only supported for emails and meetings saved from the highlight card and email banner. It's not supported for emails and meetings saved from the related record card.
+- In Salesforce, the attachments are saved as [files](https://help.salesforce.com/s/articleView?id=000387434&type=1) in activity records.
 
 ## Change the connected record
 
