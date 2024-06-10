@@ -53,6 +53,8 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
    :::image type="content" source="media/connect-record.png" alt-text="Screenshot showing Connect to a record to save email.":::
 
+1. In the **Add email categories** section, enter the information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](save-additional-details-outlook.md).
+
 1. (Optional) Select and save the attachments that you'd like to store in the CRM.
    :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the save attachment option in the Copilot for Sales side pane."::: 
 
@@ -63,8 +65,8 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
    The email or meeting is connected to the selected record and saved in the CRM.
     - The Connected to card shows the connected record and its type.
     - The attachment icon shows the number of attachments saved to the CRM.
+    - The tag icon shows the categorization fields, if you selected any.
     
-
    :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing email saved to CRM.":::
 
    > [!NOTE]
@@ -130,9 +132,16 @@ When saving an email or meeting to the CRM, you can also choose to save the atta
 - Saving an attachment is only supported for emails and meetings saved from the highlight card and email banner. It's not supported for emails and meetings saved from the related record card.
 - In Salesforce, the attachments are saved as [files](https://help.salesforce.com/s/articleView?id=000387434&type=1) in activity records.
 
-## Change the connected record
+## Edit the activity in Outlook
 
-If you need to change the record the activity is connected to, select **More actions** (**...**) > **Change connected record**, and then select another record to connect the email or meeting to.
+If you'd like to update the activity details in Outlook after saving it to the CRM, you can edit them and save the changes to the CRM again.
+
+You can update the following fields in the activity:
+
+- Connected record  
+- Categorization fields
+
+To edit, select (**&hellip;**) in the **Connected to** section in the Copilot for Sales side pane and select **Edit email details**, and make the necessary changes. 
 
 :::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
 
@@ -147,7 +156,7 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
 
 1. Select the **Dynamics 365** tab.
 
-1. In the **Connected to** card, select **More actions** (**...**) > **Remove email from Dynamics 365**.
+1. In the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
 
    :::image type="content" source="media/remove.png" alt-text="Screenshot showing how to remove saved email from CRM.":::
 
