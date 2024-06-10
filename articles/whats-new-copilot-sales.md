@@ -1,7 +1,7 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
-ms.date: 05/28/2024
+ms.date: 06/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -81,6 +81,8 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 For users using Outlook on the web or the new Outlook for Windows, the Copilot for Sales side pane in Outlook is now unified with the Copilot for Microsoft 365 side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Copilot for Microsoft 365 side pane. 
 
 Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Copilot for Microsoft 365 side pane and select **Sales** to access the Copilot for Sales capabilities.
+
+:::image type="content" source="media/unified-m365-sidecar.png" alt-text="Screenshot of the unified side pane for Copilot for Sales":::
 
 > [!NOTE]
 > The unified Copilot experience is currently available only in Outlook on the web (Outlook online) and the new Outlook for Windows. For all other Outlook surfaces, users would experience Copilot for Sales capabilities in the dedicated Copilot for Sales side pane in Outlook.
