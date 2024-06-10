@@ -1,7 +1,7 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
 description: Learn how to configure fields that sellers can use to categorize emails and meetings in CRM using Microsoft Copilot for Sales in Outlook.
-ms.date: 06/06/2024
+ms.date: 06/10/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
