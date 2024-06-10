@@ -161,6 +161,7 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
 1. Select the **Dynamics 365** tab.
 
 1. In the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
+
    :::image type="content" source="media/change-connected.png" alt-text="Screenshot of the options in the Connected to drop-down.":::
 
     This step deletes the email from Dynamics 365 and a confirmation message is displayed.
