@@ -53,13 +53,17 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
    :::image type="content" source="media/connect-record.png" alt-text="Screenshot showing Connect to a record to save email.":::
 
-1. (Optional) Select and save the attachments that you'd like to store in the CRM. 
+1. (Optional) Select and save the attachments that you'd like to store in the CRM.
+   :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the save attachment option in the Copilot for Sales side pane."::: 
 
     The attachments are saved to the activity record related to the email or meeting in the CRM. [Unable to save the attachment? Learn why](#attachment-considerations)
 
 1. Select **Save**.
 
-    The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
+   The email or meeting is connected to the selected record and saved in the CRM.
+    - The Connected to card shows the connected record and its type.
+    - The attachment icon shows the number of attachments saved to the CRM.
+    
 
    :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing email saved to CRM.":::
 
