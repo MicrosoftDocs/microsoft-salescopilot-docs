@@ -111,26 +111,29 @@ If you'd like to update the activity details in Outlook after saving it to the C
 
 You can update the following fields in the activity:
 
-- Connected record  
-- Categorization fields
-
-To edit, select (**&hellip;**) in the **Connected to** section in the Copilot for Sales side pane and select **Edit email details**, and make the necessary changes. 
-
-:::image type="content" source="media/change-connected.png" alt-text="Screenshot showing how to change the connected record.":::
+- Connected record
+- Email categories
+- Related contacts
 
 > [!NOTE]
-> If you save an email to Salesforce CRM, you can't change the connected record.
+> Editing is only available for activities saved to Dynamics 365. 
+
+To edit, select (**&hellip;**) in the **Connected to** section in the Copilot for Sales side pane and select **Edit saved email details**, and make the necessary changes. 
+
+:::image type="content" source="media/change-connected.png" alt-text="Screenshot of the options in the Connected to drop-down.":::
 
 ## Remove saved email from CRM
 
 If you connect Copilot for Sales to your Dynamics 365 environment and enable [server-side synchronization](/power-platform/admin/server-side-synchronization), you can remove saved emails and meetings that are no longer relevant from the CRM using Copilot for Sales. This step helps you keep your CRM clean and current.
+
+> [!NOTE]
+> Removal is only available for activities saved to Dynamics 365. 
 
 1. Open the email or meeting you saved to the CRM, and then open Copilot for Sales.
 
 1. Select the **Dynamics 365** tab.
 
 1. In the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
-
-   :::image type="content" source="media/remove.png" alt-text="Screenshot showing how to remove saved email from CRM.":::
+   :::image type="content" source="media/change-connected.png" alt-text="Screenshot of the options in the Connected to drop-down.":::
 
     This step deletes the email from Dynamics 365 and a confirmation message is displayed.
