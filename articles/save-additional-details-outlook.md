@@ -9,6 +9,7 @@ ms.author: shjais
 ms.reviewer: shjais
 ms.custom:
   - bap-template
+ai-usage: ai-assisted
 ---
 
 # Configure how Outlook emails and events are saved to CRM
@@ -23,15 +24,18 @@ CRM administrators must access administrator settings from the Copilot for Sales
 
 1. In Copilot for Sales admin settings, select **Save to (CRM)**.
 
-1. Select **Save email to (CRM)** or **Save meeting to (CRM)** depending on the type of activity you want to configure.
+1. Select **Save emails to (CRM)** or **Save meetings to (CRM)** depending on the type of activity you want to configure.
    You can select different fields to save along with the email or meeting to CRM. The fields you select are displayed to sellers when they save the email or meeting to CRM.
+
+    :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot of Save emails to CRM settings page in Copilot for Sales in Teams.":::
 
 1. (Optional) Select **Refresh data** to get the latest updates to the fields from CRM. For example, if the CRM administrator has updated a field label in CRM, you can refresh the data to see the updated label in Copilot for Sales.
 
 1. In the **Categorize with fields** section, select **Add fields** and select the fields from the **Add category** dialog.
 
-   The **Add category dialog** displays all the out-of-the-box and custom fields of email and appointment entities in CRM, except the system fields. Only fields of type Option sets, Lookup and text, Multiple lines of text (plaintext/Memo), Boolean, Integer are displayed in the dialog.
+   The **Add category dialog** displays all the out-of-the-box and custom fields of email and appointment entities in CRM, except the system fields. Only fields of type option sets, lookup and text, multiple lines of text (plaintext/Memo), boolean, integer are displayed in the dialog.
 
 1. Save the changes.
 
-   Sellers can now see the fields you configured when they save emails or meetings to CRM.
+   Sellers can now see the fields you configured when they save emails or meetings to CRM. More information: [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
+
