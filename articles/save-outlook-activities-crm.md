@@ -53,7 +53,7 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
    :::image type="content" source="media/connect-record.png" alt-text="Screenshot showing Connect to a record to save email.":::
 
-1. In the **Add email categories** section, enter the information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](articles\save-outlook-activities-crm.md).
+1. In the **Add email categories** section, enter the information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](save-additional-details-outlook.md).
 
 1. Select **Save**.
 
