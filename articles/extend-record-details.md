@@ -74,30 +74,28 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
   "value": [
     {
       "recordId": "ID1",
-      "recordTypeDisplayName": "Agreement",
-      "recordTitle": "Automatic Renewal Contrct",
-      "recordTypePluralDisplayName": "Agreements",
-      "recordType": "agreement",
-      "url": null,
+      "recordTypeDisplayName": "Contract",
+      "recordTitle": "50 Cafe A-100 Automatic Renewal Contract",
+      "recordTypePluralDisplayName": "Documents",
+      "recordType": "contract",
+      "url": "https://contosohub.com/contract/id1",
       "additionalProperties": {
-        "Recipients": "Logan Edwards",
-        "Sender Name": "Kenny Smith",
-        "Status": "Completed",
-        "Date": "12:56 PM, 11/11/23"
+        "Status": "Signed",
+        "Date": "9/7/23",
+        "Signed by": "Alberto Burgos, Tony [last name]"
       }
     },
     {
       "recordId": "ID2",
-      "recordTypeDisplayName": "Agreement",
-      "recordTitle": "Purchase Contract",
-      "recordTypePluralDisplayName": "Agreements",
-      "recordType": "agreement",
-      "url": null,
+      "recordTypeDisplayName": "Contract",
+      "recordTitle": "ABC Company 2023 Renewal Contract",
+      "recordTypePluralDisplayName": "Documents",
+      "recordType": "contract",
+      "url": "https://contosohub.com/contract/id2",
       "additionalProperties": {
-        "Recipients": "Logan Edwards",
-        "Sender Name": "Kenny Smith",
-        "Status": "Completed",
-        "Date": "12:56 PM, 11/11/23"
+        "Status": "Delivered",
+        "Date": "9/3/23",
+         "Signed by": "Alberto Burgos"
       }
     }
   ],
