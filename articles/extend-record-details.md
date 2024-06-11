@@ -65,7 +65,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | recordType | String | Yes | System name of the record type. For example, contract. | This output indicates the type of each related record returned by the action. |
 | recordTitle | String | Yes | Name of the record. For example, Contoso 2023 Renewal Contract. | This output indicates the title of each related record returned by the action. |
 | url | String | No | A valid URL to open record in the partner application. | This output indicates the URL of each related record returned by the action. |
-| additionalProperties | Object with Property Name and Property Value | No | Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br> "Status reason": "Signed off",<br> "Owner": "Kenny Smith" <br>} | This output indicates additional properties as name-value pairs of each related record returned by the action. |
+| additionalProperties | Object with Property Name and Property Value of type String | No | Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br> "Status reason": "Signed off",<br> "Owner": "Kenny Smith" <br>} | This output indicates additional properties as name-value pairs of each related record returned by the action. |
 
 ### Example
 
