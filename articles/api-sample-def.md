@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Refer to the following guidelines when creating the OpenAPI definition for the connector.
+Refer to the following guidelines when creating the OpenAPI definition for the connector and its actions.
 
 - The sample connector contains placeholder for the API paths. You can replace these placeholders with the actual API paths.
 - HTTP methods should be same as the ones specified in the sample OpenAPI definition.
@@ -28,6 +28,7 @@ Refer to the following guidelines when creating the OpenAPI definition for the c
 - APIs described by the OpenAPI definition shouldn't contain any other required parameters that aren't present in the sample OpenAPI definition. If there are any other required parameters, Copilot for Sales won't invoke the APIs and will fail with an internal error.
 - Do not use `connectorId` as an input parameter in the OpenAPI definition as it's a reserved parameter.
 - Properties of output objects that are marked as required in the OpenAPI definition must be present in the API response.
+- Each connector action should complete its execution within 5 seconds, especially the connector actions that enhance existing capabilities. 
 
 ## Getting started
 
