@@ -41,13 +41,6 @@ Copilot for Sales is designed to provide the following input parameters to your 
 | crmType | String | No | Valid values are Dynamics 365 and Salesforce. | This input indicates the type of CRM in which the CRM record exists, for which insights are requested. |
 | crmOrgUrl | String | No | Host name of the CRM organization. For example, contoso.crm.dynamics.com. | This input indicates the URL of the CRM environment in which the CRM record exists, for which insights are requested. |
 
-> [!NOTE]
-> - Authentication is expected to be handled by the constructs in the Power Platform connector and is outside the scope of this API.
-> - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
-> - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
->   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
->   - `x-ms-user-agent`: Value used as "sales-copilot".
-
 ## Output parameters
 
 Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
