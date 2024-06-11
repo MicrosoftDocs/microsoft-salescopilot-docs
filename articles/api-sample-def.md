@@ -28,7 +28,12 @@ Refer to the following guidelines when creating the OpenAPI definition for the c
 - APIs described by the OpenAPI definition shouldn't contain any other required parameters that aren't present in the sample OpenAPI definition. If there are any other required parameters, Copilot for Sales won't invoke the APIs and will fail with an internal error.
 - Do not use `connectorId` as an input parameter in the OpenAPI definition as it's a reserved parameter.
 - Properties of output objects that are marked as required in the OpenAPI definition must be present in the API response.
-- Each connector action should complete its execution within 5 seconds, especially the connector actions that enhance existing capabilities. 
+- Each connector action should complete its execution within 5 seconds, especially the connector actions that enhance existing capabilities.
+- Authentication is expected to be handled by the constructs in the Power Platform connector and is outside the scope of each API.
+- Current user's language is passed in the request header as Accept-Language. Use this for any language specific operations
+- Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
+  - x-ms-client-request-id: A unique identifier for the incoming request.
+  - x-ms-user-agent: Value used as "sales-copilot".
 
 ## Getting started
 
