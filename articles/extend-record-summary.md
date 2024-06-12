@@ -41,13 +41,6 @@ Copilot for Sales is designed to provide the following input parameters to your 
 | crmType | String | No | Valid values are Dynamics 365 and Salesforce. | This input indicates the type of CRM in which the CRM record exists, for which insights are requested. |
 | crmOrgUrl | String | No | Host name of the CRM organization. For example, contoso.crm.dynamics.com. | This input indicates the URL of the CRM environment in which the CRM record exists, for which insights are requested. |
 
-> [!NOTE]
-> - Authentication is expected to be handled by the constructs in the Power Platform connector and is outside the scope of this API.
-> - Current user's language is passed in the request header as `Accept-Language`. Use this for any language specific operations.
-> - Read the following headers from the request to your connector and send them to your backend for a better diagnostics:
->   - `x-ms-client-request-id`: A unique identifier for the incoming request. 
->   - `x-ms-user-agent`: Value used as "sales-copilot".
-
 ## Output parameters
 
 Copilot for Sales anticipates receiving a list of insights (objects), each with specific parameters, from your APIs. To ensure that Copilot for Sales can parse the output correctly, it's crucial to follow the response structure outlined below.
@@ -65,7 +58,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | Description | String | Yes | Description of the insight displayed as bullet points in the record summary. It is the natural language description of the insight in the language specified with the `Accept-Language` header. For example, Kenny, Logan, and two others signed the Contoso 2023 Renewal Contract on 9/7/2023. | This output indicates the description of the insight. |
 | dateTime | String with format 'date-time' | Yes | Date and time of the activity in UTC format. If there is a start and end time, application needs to decide which one to show. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z. | This output indicates the time associated with the insight. |
 | url | String | No | A valid URL to open activity in the partner application. | This output indicates the URL to open insight. |
-| additionalProperties | Object with Property Name and Property Value | No | Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br> "Status reason": "Signed off",<br> "Owner": "Kenny Smith" <br>} | This output indicates additional properties displayed in the detailed view of the insight. |
+| additionalProperties | Object with Property Name and Property Value of type String | No | Additional properties displayed in the detailed view. Property names and values are in natural language in the language specified with the `Accept-Language` header. For example, <br>{<br> "Status reason": "Signed off",<br> "Owner": "Kenny Smith" <br>} | This output indicates additional properties displayed in the detailed view of the insight. |
 
 > [!NOTE]
 > While the API requirements for extending the email summary and record summary capabilities may look similar, they must be added as separate actions in the connector.
