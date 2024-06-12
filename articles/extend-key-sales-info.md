@@ -56,7 +56,7 @@ Copilot for Sales anticipates receiving a list of insights (objects), each with 
 | description | String | Yes | Description of the sales insight displayed as a bullet point in the key sales info panel. For example: `Validation: Next steps: Align with timeline and success criteria`. Description can be up to 130 characters. | This output indicates the text of the insight to be included in key sales info. |
 | url | String | No | A valid URL to open the insight in the partner application. | This output indicates the URL to learn more about the insight. |
 | dateTime | DateTime | No | Date and time of the activity in UTC format. If there's a start and end time, application needs to decide which one to show. The format is as per OpenAPI specification, for example, 2017-07-21T17:32:28Z. | This output indicates the time associated with the insight. |
-| additionalProperties | Object with Property Name and Property Value | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This is displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
+| additionalProperties | Object with Property Name and Property Value of type String | No | This output indicates additional properties as name-value pairs of the related insight returned by the action. This is displayed in a pop-up card when clicking on the insights in the key-sales-info panel. | This output indicates additional properties as name-value pairs of each related insight returned by the action. |
 
 ### Example
 
