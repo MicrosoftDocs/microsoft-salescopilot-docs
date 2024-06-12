@@ -40,7 +40,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 | crmOrgUrl | String | No | Host name of the CRM organization. For example, `contoso.crm.dynamics.com`. | This input indicates the URL of the CRM environment the related records are fetched from. |
 
 > [!NOTE]
-> - This extension point support rendering insights from multiple connector extensions in Outlook sidecar, up to a maximum limit of five.
+> - This extension point supports rendering insights from multiple connector extensions in Outlook sidecar, up to a maximum limit of five.
 
 ## Output parameters
 
