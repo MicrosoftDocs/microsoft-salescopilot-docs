@@ -1,7 +1,7 @@
 ---
 title: Extend Microsoft Copilot for Sales with partner applications (preview)
 description: Extend Copilot for Sales to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
-ms.date: 05/20/2024
+ms.date: 06/14/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -31,6 +31,10 @@ This article provides guidance on how to extend Copilot for Sales with your appl
 - Capabilities you can extend in Copilot for Sales.
 - Input and output parameters for the APIs you need to build.
 - Specific descriptions searched by Copilot for Sales within your action to determine the intended API for a particular capability. It also guides you on how to manage the input and output for these APIs. 
+
+Here's a video that gives you a quick overview about Copilot for Sales extensibility.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1lMwg]
 
 ## How does extensibility work in Copilot for Sales?
 

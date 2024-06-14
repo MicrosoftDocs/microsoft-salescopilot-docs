@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 05/20/2024
+ms.date: 06/14/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -32,8 +32,8 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 | Suggested update | CRM field |
 |------------------|-----------|
-| Budget | Dynamics 365 Sales: Est. Revenue <br>Salesforce: Amount     |
-| Close date | Dynamics 365 Sales: Est. Close Date <br>Salesforce: Close Date |
+| Budget | Dynamics 365 Sales: Est. Revenue (logical name: [estimatedvalue](/dynamics365/sales/developer/entities/opportunity#BKMK_EstimatedValue)) <br>Salesforce: Amount     |
+| Close date | Dynamics 365 Sales: Est. Close Date (logical name: [estimatedclosedate](/dynamics365/sales/developer/entities/opportunity#BKMK_EstimatedCloseDate)) <br>Salesforce: Close Date |
 
 ### Update CRM from the Suggested actions card
 
