@@ -14,9 +14,9 @@ ms.custom:
 
 # View recent communications in Copilot for Sales
 
-If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the first external contact in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations, open the email thread in Outlook, and open the meeting chat in Teams. With this capability, you can quickly catch up on the the customer context and move deals forward with informed responses.
+If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations, open the email thread in Outlook, and open the meeting chat in Teams. With this capability, you can quickly catch up on the the customer context and move deals forward with informed responses.
 
-You can see up to three email threads and three Teams meetings in the last 30 days with the first external contact. The first external contact is the first contact in the email thread who isn't from your organization. It is determined based on the email address as follows:
+Information in the **Recent communications** card is displayed in the context of the email or meeting opened in Outlook. You can see up to three most recent email threads and Teams meetings in the last 30 days with the first external contact in the email or meeting. The first external contact is the first contact in the email or meeting who isn't from your organization. Depending on whether the email or meeting is opened in the read or compose mode, the first external contact is picked from below list of email addresses:
 
 |Outlook item|Read mode|Compose mode|
 |---|---|---|
@@ -29,20 +29,16 @@ The **Recent communications** card retrieves the following communications from G
 - Communications from others to the external contact that include you 
 
 > [!NOTE]
-> - The **Recent communications** card shows previous email threads, not the previous responses in the current email thread.
+> - The **Recent communications** card most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
 > - The **Recent communications** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
 
 ## License requirements
 
 - [Microsoft Copilot for Sales (premium)](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 
-## Email summary - supported languages
+## Supported languages and length for email summarization
 
-The email must be in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales) to generate the summarized email thread.
-
-## Email summary – supported length 
-
-Email summary will be generated only for emails or email threads with more than 1000 characters, which is about 180 words.
+This feature includes a capability to summarize email threads. The email must be in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales) to generate the summarized email thread. Email summary will be generated only for emails or email threads with more than 1000 characters, which is about 180 words.
 
 ## View recent communications
 
@@ -50,7 +46,7 @@ Email summary will be generated only for emails or email threads with more than 
 
 1. Go to the **Recent communications** card.
 
-    By default, the card shows one previous email thread and one Teams meeting related to the first external contact, if any existed in the last 30 days. To see up to three email threads and three Teams meetings in the last 30 days, select **See all**.
+    By default, the card shows the most recent email thread and Teams meeting involving the first external contact, if any existed in the last 30 days. To see up to three email threads and three Teams meetings in the last 30 days, select **See all**.
 
     `image with see all button`
 
