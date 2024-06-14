@@ -30,8 +30,6 @@ Sellers use Microsoft Word to perform daily sales tasks such as preparing for st
 
 - You must sign into Copilot for Sales and Microsoft Word with the same account.
 
-- You must contact Microsoft support to enable Copilot for your organization.
-
 ## Supported languages
 
 To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
