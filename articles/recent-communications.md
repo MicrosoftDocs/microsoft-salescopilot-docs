@@ -42,7 +42,7 @@ The **Recent communications** card retrieves the following communications from G
 
 ## Supported languages and length for email summarization
 
-This feature includes a capability to summarize email threads. The email must be in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales) to generate the summarized email thread. Email summary will be generated only for emails or email threads with more than 1000 characters, which is about 180 words.
+This feature includes a capability to summarize email threads. The email must be in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales) to generate the summarized email thread. Email summary is generated only for emails or email threads with more than 1,000 characters, which is about 180 words.
 
 ## View recent communications
 
