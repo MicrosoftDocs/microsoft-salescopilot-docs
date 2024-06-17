@@ -14,7 +14,7 @@ ms.custom:
 
 # View recent communications in Copilot for Sales
 
-If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations and open the email thread and meeting invitation in Outlook. With this capability, you can quickly catch up on the the customer context and move deals forward with informed responses.
+If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations and open the email thread and meeting invitation in Outlook. With this capability, you can quickly catch up on the customer context and move deals forward with informed responses.
 
 Information in the **Recent communications** card is displayed in the context of the email or meeting opened in Outlook. You can see up to three most recent email threads and Teams meetings in the last 30 days with the first external contact in the email or meeting. The first external contact is the first contact in the email or meeting who isn't from your organization. Depending on whether the email or meeting is opened in the read or compose mode, the first external contact is picked from below list of email addresses:
 
