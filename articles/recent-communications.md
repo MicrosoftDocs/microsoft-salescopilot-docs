@@ -1,7 +1,7 @@
 ---
 title: View recent communications in Copilot for Sales
 description: Explore Copilot for Sales' new feature allowing users to view recent communications, including emails and Teams meetings, with external contacts.
-ms.date: 06/17/2024
+ms.date: 06/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # View recent communications in Copilot for Sales
 
-If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations, open the email thread in Outlook, and open the meeting chat in Teams. With this capability, you can quickly catch up on the the customer context and move deals forward with informed responses.
+If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communications** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations and open the email thread and meeting invitation in Outlook. With this capability, you can quickly catch up on the the customer context and move deals forward with informed responses.
 
 Information in the **Recent communications** card is displayed in the context of the email or meeting opened in Outlook. You can see up to three most recent email threads and Teams meetings in the last 30 days with the first external contact in the email or meeting. The first external contact is the first contact in the email or meeting who isn't from your organization. Depending on whether the email or meeting is opened in the read or compose mode, the first external contact is picked from below list of email addresses:
 
@@ -29,12 +29,16 @@ The **Recent communications** card retrieves the following communications from G
 - Communications from others to the external contact that include you 
 
 > [!NOTE]
-> - The **Recent communications** card most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
+> - The **Recent communications** card shows most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
 > - The **Recent communications** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
 
 ## License requirements
 
 - [Microsoft Copilot for Sales (premium)](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+
+## Prerequisites
+
+- [Copilot AI features must be turned on in your environment](suggested-replies.md)
 
 ## Supported languages and length for email summarization
 
@@ -56,6 +60,6 @@ This feature includes a capability to summarize email threads. The email must be
 
 1. To open the email thread in Outlook, select **Open email**.
 
-1. To open the meeting chat in Teams, select **Open meeting chat**.
+1. To open the meeting invitation in Outlook, select **Open meeting**.
 
     
