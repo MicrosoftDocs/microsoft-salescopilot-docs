@@ -189,4 +189,3 @@ Ensure that the following settings are set to true:
 ## Troubleshooting
 
 The [Copilot for Sales troubleshooting guide](troubleshoot.yml) can help with solutions for common issues.
-
