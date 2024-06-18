@@ -11,8 +11,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "articles/sales/install-viva-sales-individual-add-in-appsource.md",
-      "redirect_url": "install-viva-sales-as-an-integrated-app",
+      "source_path": "articles/faqs-m365-chat.md",
+      "redirect_url": "responsible-ai-overview",
+      "redirect_document_id": false
+    },{
+      "source_path": "articles/teams-copilot-chat.md",
+      "redirect_url": "view-update-crm-record-details",
       "redirect_document_id": false
     },
     {
@@ -536,9 +540,39 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "articles/api-ref-partner-apps.md",
+        "redirect_url": "/microsoft-sales-copilot/build-apis",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/api-get-related-activities.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-record-summary",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/api-get-related-records.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-record-details",
+        "redirect_document_id": false
+      },
+      {                       
         "source_path": "articles/share-feedback-teams.md",
         "redirect_url": "/microsoft-sales-copilot/personal-app#share-feedback-from-personal-app",
         "redirect_document_id": false
-      }                     
+      },
+      {                       
+        "source_path": "articles/extend-sales-copilot.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
+        "redirect_document_id": false
+      },                     
+      {
+        "source_path": "articles/eap-redeem-license.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/eap-faq.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction",
+        "redirect_document_id": false
+      }                        
   ]
 }

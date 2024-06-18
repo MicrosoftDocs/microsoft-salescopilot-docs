@@ -18,7 +18,11 @@
   - name: Architecture overview
     href: architecture.md
   - name: License overview
-    href: license-info.md
+    items:
+    - name: Copilot for Sales license
+      href: license-info.md
+    - name: Copilot for Sales step-up license
+      href: step-up-license.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
@@ -44,12 +48,6 @@
       href: install-sales-copilot.md
   - name: Enable Copilot for Sales
     href: enable-license.md
-  - name: Early Access Program (EAP)
-    items:
-    - name: Redeem Copilot for Sales EAP trial licenses
-      href: eap-redeem-license.md
-    - name: EAP customer transition FAQ
-      href: eap-faq.md
 
 - name: Deployment scenarios
   items:
@@ -69,12 +67,16 @@
       href: customize-forms-and-fields.md
     - name: Turn on Copilot AI features
       href: suggested-replies.md
+    - name: Turn off task suggestion in collaboration spaces (preview)
+      href: turn-off-suggested-tasks-collab-space.md
     - name: Copilot data movement across geographies
       href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
     - name: Hierarchy settings for Salesforce orgs (preview)
       href: hierarchy-settings-sf.md
+    - name: Configure how Outlook emails and events are saved to CRM
+      href: save-additional-details-outlook.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
@@ -124,6 +126,8 @@
         href: edit-crm-record.md
       - name: Use server-side synchronization with Copilot for Sales
         href: use-server-side-sync.md
+      - name: Search for a record in Copilot for Sales
+        href: global-search.md
     - name: AI capabilities
       items:
       - name: Overview
@@ -146,6 +150,10 @@
         href: suggested-crm-updates.md
       - name: View key sales info
         href: key-sales-info.md
+      - name: View People.ai insights (preview)
+        href: people-ai-insights.md
+      - name: View insights from partner applications (preview)
+        href: insights-partner-apps.md
       
     - name: More options
       items:
@@ -200,10 +208,17 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
+      - name: AI-powered Planner tasks (preview)
+        items:
+        - name: Overview
+          href: suggested-tasks-collab-space.md
+        - name: Create Planner tasks from suggested tasks
+          href: create-planner-tasks.md
     - name: Share a CRM record in Teams or Outlook
       href: share-crm-record-teams-conversation.md
     - name: Copilot for Sales personal app
       href: personal-app.md
+
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Analyze your sellers' conversation data with Power BI
@@ -215,19 +230,29 @@
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
-    href: extend-sales-copilot.md
-  - name: Copilot for Sales APIs
+    href: extend-copilot-for-sales.md
+  - name: Get started with creating an extension
     items:
-    - name: Overview
-      href: api-ref-partner-apps.md
-    - name: GetRelatedActivities
-      href: api-get-related-activities.md
-    - name: GetRelatedRecords
-      href: api-get-related-records.md
+    - name: Create a custom connector and connector action
+      href: custom-connector-action.md
+    - name: Sample Connector
+      href: api-sample-def.md
     - name: Standardize error responses
       href: api-error-responses.md
-    - name: Sample OpenAPI definition
-      href: api-sample-def.md
+  - name: Extension points
+    items:
+    - name: Overview
+      href: build-apis.md
+    - name: Enrich email summary
+      href: extend-email-summary.md
+    - name: Enrich key sales info
+      href: extend-key-sales-info.md
+    - name: Enrich CRM record summary
+      href: extend-record-summary.md
+    - name: Enrich CRM record details
+      href: extend-record-details.md
+    - name: Add a new Q&A capability to the Sales chat
+      href: extend-m365-chat.md
 
 
 - name: Troubleshooting guide

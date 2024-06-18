@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 02/21/2024
+ms.date: 06/14/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,11 +14,11 @@ ms.custom:
 
 # View suggested CRM updates
 
-When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone.
+When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone. 
 
 Copilot for Sales uses AI to suggest CRM updates based on the email conversations. Suggestions include update to estimated revenue and close date of the opportunity to which the email is connected. If the email isn't connected to an opportunity, you can choose an opportunity you want to update with the suggestions.
 
-The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card isn't displayed.
+The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card isn't displayed. When you update a record with the suggested updates, the suggestion is marked as complete.
 
 :::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
 
@@ -32,8 +32,8 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 | Suggested update | CRM field |
 |------------------|-----------|
-| Budget | Dynamics 365 Sales: Est. Revenue <br>Salesforce: Amount     |
-| Close date | Dynamics 365 Sales: Est. Close Date <br>Salesforce: Close Date |
+| Budget | Dynamics 365 Sales: Est. Revenue (logical name: [estimatedvalue](/dynamics365/sales/developer/entities/opportunity#BKMK_EstimatedValue)) <br>Salesforce: Amount     |
+| Close date | Dynamics 365 Sales: Est. Close Date (logical name: [estimatedclosedate](/dynamics365/sales/developer/entities/opportunity#BKMK_EstimatedCloseDate)) <br>Salesforce: Close Date |
 
 ### Update CRM from the Suggested actions card
 
@@ -51,7 +51,9 @@ Copilot for Sales scans the email conversations and compares the data with the d
 
 1. To change the opportunity, select **Choose a different opportunity** and select the opportunity you want to update.
 
-1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject** icon.
+1. Review the suggested update and update the value, if necessary.
+
+1. Accept or reject the update by selecting the **Accept** or **Reject** icon.
 
 1. Select **Update**. You're navigated to the **Suggested actions** card.
 
@@ -65,8 +67,14 @@ You can also update an opportunity record with the suggested updates when viewin
 
 1. In the highlight card, select **Update opportunity** for the update you want to apply.
 
-1. Review the suggested update and accept or reject the update by selecting **Accept** or **Reject**.
+1. Review the suggested update and update the value, if necessary.
+
+1. Accept or reject the update by selecting the **Accept** or **Reject** icon.
 
     :::image type="content" source="media/suggested-oppty-details.png" alt-text="Screenshot showing option to update opportunity from details view.":::
 
 1. Select **Save**.
+
+### See also
+
+[View opportunity summary](view-opportunity-summary.md)
