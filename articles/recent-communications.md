@@ -52,11 +52,11 @@ This feature includes a capability to summarize email threads. The email must be
 
     By default, the card shows the most recent email thread and Teams meeting involving the first external contact, if any existed in the last 30 days. To see up to three email threads and three Teams meetings in the last 30 days, select **See all**.
 
-    `image with see all button`
+    :::image type="content" source="media/recent-comms-card.png" alt-text="Screenshot showing the Recent communications card.":::
 
 1. To generate a summary of the email thread, select **Summarize**.
 
-    `image with email summary`
+    :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communications card.":::
 
 1. To open the email thread in Outlook, select **Open email**.
 
