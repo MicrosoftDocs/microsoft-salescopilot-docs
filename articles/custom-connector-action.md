@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Discover how to build a custom connector for Power Platform and create an action in Microsoft Copilot Studio, aimed at enhancing Copilot for Sales.
-ms.date: 05/20/2024
+ms.date: 06/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -39,7 +39,7 @@ For steps to create a custom connector, set up authentication, and test the conn
 Actions determine the operations to be performed with the custom insights and data sources, such as the custom connectors you've built. They enable Copilot for Sales in identifying which external sources to extract insights from, thereby enriching the Copilot for Sales experience. You can create actions based on the connector you've developed using Microsoft Copilot Studio. More information: [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
 > [!NOTE]
-> - To see Copilot for Sales in Copilot Studio, reach out to your admin to deploy the Copilot for Sales enhanced Teams app, see [Deploy the Copilot for Sales app](/microsoft-sales-copilot/enable-license#deploy-the-copilot-for-sales-app)
+> To see Copilot for Sales in Copilot Studio, reach out to your admin to [deploy the Copilot for Sales enhanced Teams app](/microsoft-sales-copilot/enable-license#deploy-the-copilot-for-sales-app).
 
 ## Enable the connector action for users
 
