@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Copilot for Sales for Dynamics 365 customers.
-ms.date: 03/19/2024
+ms.date: 06/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -174,6 +174,19 @@ Users may need to change a few settings to get the best experience of Copilot fo
 - **Safari**: Turn off "Prevent Cross-site tracking."
 
 - **Chrome**: Turn off "Block third-party cookies."
+
+### Why users can't see the Copilot for Sales app in Outlook after it's deployed?
+
+After you deploy the Copilot for Sales app from the Microsoft 365 admin center, it can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If the app doesn't appear after 48 hours, ensure that the public attachment handling is enabled for your mailbox policy. This policy blocks the display of the enhanced Teams apps within Microsoft 365 apps. For instructions to enable public attachment handling, see [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling#task-3---enable-public-attachment-handling-on-an-outlook-on-the-web-mailbox-policy)
+
+Ensure that the following settings are set to true:
+
+- WacViewingOnPublicComputersEnabled
+- WacViewingOnPrivateComputersEnabled
+- DirectFileAccessOnPublicComputersEnabled
+- DirectFileAccessOnPrivateComputersEnabled
+
+## Troubleshoting
 
 The [Copilot for Sales troubleshooting guide](troubleshoot.yml) can help with solutions for common issues.
 
