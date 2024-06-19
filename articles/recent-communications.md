@@ -31,6 +31,7 @@ The **Recent communications** card retrieves the following communications from G
 > [!NOTE]
 > - The **Recent communications** card shows most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
 > - The **Recent communications** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
+> - If there are no recent communications (email or meeting) with the first external contact in the last 30 days, the **Recent communications** card is not displayed.
 
 ## License requirements
 
@@ -54,12 +55,11 @@ This feature includes a capability to summarize email threads. The email must be
 
     :::image type="content" source="media/recent-comms-card.png" alt-text="Screenshot showing the Recent communications card.":::
 
-1. To generate a summary of the email thread, select **Summarize**.
-
-    :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communications card.":::
-
 1. To open the email thread in Outlook, select **Open email**.
 
 1. To open the meeting invitation in Outlook, select **Open meeting**.
 
+1. To generate a summary of the email thread, select **Summarize**. The email summary is displayed in the **Email summary** card.
+
+    :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communications card.":::
     
