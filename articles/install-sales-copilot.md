@@ -40,13 +40,13 @@ With Copilot for Sales, you can:
 > - You may not be able to install Copilot for Sales if downloading add-ins is turned off for your organization. In this case, contact your administrator.
 > - If you are using the Dynamics 365 app for Outlook, you can consider switching to Copilot for Sales, as you can do much more with Copilot for Sales. More information: [Difference between Copilot for Sales and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
 
-### Install Copilot for Sales Outlook from AppSource
+### Install Copilot for Sales in Outlook
 
 1. Sign in to [Microsoft AppSource](https://appsource.microsoft.com/home).
 
 1. Enter **Copilot for Sales** in the **Search** box.
 
-1. From the search results, select **Get it now** on the **Copilot for Sales for Microsoft Outlook** app's card.
+1. From the search results, select **Get it now** on the **Copilot for Sales** app's card.
 
 1. In the **Confirm your details to continue** window, select **Get it now**.
 
@@ -81,7 +81,7 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 |³ Requires Copilot for Sales app to be installed in Microsoft Teams.  |               |                              |
 
 
-## Install Copilot for Sales app for Microsoft Teams
+## Install Copilot for Sales app in Microsoft Teams
 
 1. Sign in to Microsoft Teams.
 
