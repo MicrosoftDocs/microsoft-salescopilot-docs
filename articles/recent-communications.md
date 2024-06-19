@@ -31,7 +31,7 @@ The **Recent communications** card retrieves the following communications from G
 > [!NOTE]
 > - The **Recent communications** card shows most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
 > - The **Recent communications** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
-> - If there are no recent communications (email or meeting) with the first external contact in the last 30 days, the **Recent communications** card is not displayed.
+> - If there are no recent email threads or Teams meetings with the first external contact in the last 30 days, the **Recent communications** card is not displayed.
 
 ## License requirements
 
