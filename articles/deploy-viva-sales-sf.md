@@ -26,7 +26,7 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Sales
 
 ## Step 1: Install Copilot for Sales in Outlook
 
-[Install Copilot for Sales Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)
 
 ![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing Copilot for Sales installed as an integrated app.")
 
