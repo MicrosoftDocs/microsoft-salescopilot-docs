@@ -1,7 +1,7 @@
 ---
 title: Microsoft Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 02/02/2024
+ms.date: 06/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -202,9 +202,42 @@ If you've installed Copilot for Sales app for Teams by yourself, you can update 
 
 You get unlimited call recording and processing hours with Copilot for Sales.
 
+### Are there any special browser settings needed to use Copilot for Sales in the web versions of Outlook and Teams?
+
+Users may need to change a few settings to get the best experience of Copilot for Sales in Outlook and Teams on the web.
+
+- **Edge**:
+  - Turn on "Enable sites to save and read cookie data (recommended)."
+  - Turn off "Block third-party cookies."
+
+- **Safari**: Turn off "Prevent Cross-site tracking."
+
+- **Chrome**: Turn off "Block third-party cookies."
+
 ### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
+
+## Deployment
+
+### How do I find my tenant admin?
+
+[How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
+
+You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
+
+![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
+
+### Why can't users see the Copilot for Sales app in Outlook after it's deployed?
+
+After you deploy the Copilot for Sales app from the Microsoft 365 admin center, it can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If the app doesn't appear after 48 hours, ensure that the public attachment handling is enabled for your mailbox policy. This policy blocks the display of the enhanced Teams apps within Microsoft 365 apps. For instructions to enable public attachment handling, see [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling#task-3---enable-public-attachment-handling-on-an-outlook-on-the-web-mailbox-policy).
+
+Ensure that the following settings are set to true:
+
+- WacViewingOnPublicComputersEnabled
+- WacViewingOnPrivateComputersEnabled
+- DirectFileAccessOnPublicComputersEnabled
+- DirectFileAccessOnPrivateComputersEnabled
 
 ## Security, Privacy and Compliance 
 
