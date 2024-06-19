@@ -1,5 +1,5 @@
 ---
-title: Install Copilot for Sales (admin-deployed)
+title: Install Copilot for Sales
 description: Learn how to install, manage, and update the Copilot for Sales app in Microsoft 365 with this comprehensive guide.
 ms.date: 06/19/2024
 ms.topic: article
