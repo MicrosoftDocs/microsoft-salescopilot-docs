@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Copilot for Sales for Dynamics 365 customers.
-ms.date: 06/21/2024
+ms.date: 06/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

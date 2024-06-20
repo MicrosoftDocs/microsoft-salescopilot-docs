@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales in Outlook
 description: Learn how to install, manage, and update the Copilot for Sales app in Microsoft 365 with this comprehensive guide.
-ms.date: 06/21/2024
+ms.date: 06/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
