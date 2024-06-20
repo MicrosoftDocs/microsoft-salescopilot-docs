@@ -23,6 +23,16 @@ Some of the new innovations enabled in Copilot for Sales include a newly integra
 
 Copilot for Sales includes the Copilot for Microsoft 365 subscription and will be available February 1, 2024. [See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
 
+### How does Copilot for Sales work?
+
+Copilot for Sales uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot).
+
+### Is Copilot for Sales safe and secure?
+
+Copilot for Sales is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy and Compliance](#security-privacy-and-compliance) for more information.
+
+Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft Copilot for Sales](introduction.md).
+
 ## Licensing
 
 ### When is Microsoft Copilot for Sales available for purchase?

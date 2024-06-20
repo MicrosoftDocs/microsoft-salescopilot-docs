@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Copilot for Sales for Dynamics 365 customers.
-ms.date: 06/19/2024
+ms.date: 06/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -134,58 +134,4 @@ We encourage all Copilot for Sales users to visit and register on the [Copilot f
 
 -   Spaces to [share ideas](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) and engage with the product development team.
 
-## FAQ
 
-### Is Copilot for Sales included for Dynamics 365 Sales customers?
-
-Refer to [Will Copilot for Sales be included in Dynamics 365 Sales subscriptions?](sales-copilot-faq.md#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions) for more information.
-
-Here's a quick overview video of the capabilities of Copilot for Sales:
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW181Q4?autoplay=false]
-
-### How does Copilot for Sales work?
-
-Copilot for Sales uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot).
-
-### Is Copilot for Sales safe and secure?
-
-Copilot for Sales is a certified Microsoft app. That means it meets our rigorous security and compliance standards.
-
-Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft Copilot for Sales](introduction.md) and [Copilot for Sales FAQ](sales-copilot-faq.md).
-
-
-### How do I find my tenant admin?
-
-[How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
-
-You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
-
-![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
-
-### Are there any special browser settings needed to use Copilot for Sales in the web versions of Outlook and Teams?
-
-Users may need to change a few settings to get the best experience of Copilot for Sales in Outlook and Teams on the web.
-
-- **Edge**:
-  - Turn on "Enable sites to save and read cookie data (recommended)."
-  - Turn off "Block third-party cookies."
-
-- **Safari**: Turn off "Prevent Cross-site tracking."
-
-- **Chrome**: Turn off "Block third-party cookies."
-
-### Why can't users see the Copilot for Sales app in Outlook after it's deployed?
-
-After you deploy the Copilot for Sales app from the Microsoft 365 admin center, it can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If the app doesn't appear after 48 hours, ensure that the public attachment handling is enabled for your mailbox policy. This policy blocks the display of the enhanced Teams apps within Microsoft 365 apps. For instructions to enable public attachment handling, see [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling#task-3---enable-public-attachment-handling-on-an-outlook-on-the-web-mailbox-policy).
-
-Ensure that the following settings are set to true:
-
-- WacViewingOnPublicComputersEnabled
-- WacViewingOnPrivateComputersEnabled
-- DirectFileAccessOnPublicComputersEnabled
-- DirectFileAccessOnPrivateComputersEnabled
-
-## Troubleshooting
-
-The [Copilot for Sales troubleshooting guide](troubleshoot.yml) can help with solutions for common issues.

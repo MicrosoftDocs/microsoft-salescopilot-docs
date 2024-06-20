@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Copilot for Sales for Salesforce CRM customers.
-ms.date: 06/19/2024
+ms.date: 06/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -144,22 +144,4 @@ We encourage all Copilot for Sales users to visit and register on the [Copilot f
 -   Forums to contribute and receive support on common issues, which are routinely reviewed by our team of experts.
 
 -   Spaces to [share ideas](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) and engage with the product development team.
-
-## FAQ
-
-### Is Copilot for Sales available for Salesforce CRM customers?
-
-Copilot for Sales is a generally available app for Salesforce CRM customers, [watch this short video to learn more](https://www.youtube.com/watch?v=hfDPogeGTHk).
-
-A Microsoft 365 for Enterprise or Office 365 for Enterprise product license is required to use the Copilot for Sales app in Outlook and Microsoft Teams.
-
-### How does Copilot for Sales work?
-
-Copilot for Sales uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Copilot for Sales](https://www.microsoft.com/microsoft-viva/sales).
-
-### Is Copilot for Sales safe and secure?
-
-Copilot for Sales is a certified Microsoft app. That means it meets our rigorous security and compliance standards.
-
-Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft Copilot for Sales](introduction.md) and [Copilot for Sales FAQ](tsg-no-column.md).
 
