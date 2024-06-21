@@ -23,3 +23,4 @@ ms.reviewer: shjais
 - [FAQ for opportunity summary feature in Outlook](faqs-oppty-summary.md)
 - [FAQ for real-time tips feature in Teams](faqs-real-time-tips.md)
 - [FAQ for key sales info feature in Outlook](faqs-key-sales-info.md)
+- [FAQ for meeting summary feature in Teams](faqs-meeting-summary.md)
