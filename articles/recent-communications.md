@@ -1,7 +1,7 @@
 ---
 title: View recent communications in Copilot for Sales
 description: Explore Copilot for Sales' new feature allowing users to view recent communications, including emails and Teams meetings, with external contacts.
-ms.date: 06/18/2024
+ms.date: 06/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -32,6 +32,7 @@ The **Recent communications** card retrieves the following communications from G
 > - The **Recent communications** card shows most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
 > - The **Recent communications** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
 > - If there are no recent email threads or Teams meetings with the first external contact in the last 30 days, the **Recent communications** card is not displayed.
+> - Recurring meetings are not shown in the **Recent communications** card. However, the card shows the first instance of the recurring meeting if it's within the last 30 days.
 
 ## License requirements
 
