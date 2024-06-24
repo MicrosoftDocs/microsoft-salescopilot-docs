@@ -83,15 +83,15 @@ To pin the app, select the pushpin :::image type="icon" source="media/pin-app.pn
 Backed by AI, the Copilot for Sales app in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
 
 > [!NOTE]
-> Copilot for Sales is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extension to search and share CRM records.
+> Copilot for Sales is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
 
 To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
 You can access Copilot for Sales using any of the following options:
 
-### Messaging extensions
+### Message extensions
 
-In a Teams chat or channel, select **Messaging extensions** (**...**), search for the Copilot for Sales app, and then select it. This helps you [share CRM records](share-crm-record-teams-conversation.md) with your team members.
+In a Teams chat or channel, select **Message extensions** (**...**), search for the Copilot for Sales app, and then select it. This helps you [share CRM records](share-crm-record-teams-conversation.md) with your team members.
 
 ### During a meeting
 
