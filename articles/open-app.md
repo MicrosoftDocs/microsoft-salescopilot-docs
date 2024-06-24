@@ -1,7 +1,7 @@
 ---
 title: Access the Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 04/05/2024
+ms.date: 06/24/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -81,6 +81,9 @@ To pin the app, select the pushpin :::image type="icon" source="media/pin-app.pn
 ## Access Copilot for Sales in Teams
 
 Backed by AI, the Copilot for Sales app in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
+
+> [!NOTE]
+> Copilot for Sales is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extension to search and share CRM records.
 
 To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
