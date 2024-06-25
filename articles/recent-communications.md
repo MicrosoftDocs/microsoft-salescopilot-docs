@@ -1,7 +1,7 @@
 ---
 title: View recent communications in Copilot for Sales
 description: Explore Copilot for Sales' new feature allowing users to view recent communications, including emails and Teams meetings, with external contacts.
-ms.date: 06/21/2024
+ms.date: 06/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
