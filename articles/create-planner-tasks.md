@@ -14,34 +14,32 @@ ms.author: shjais
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-1. Open an account team or deal room channel in Microsoft Teams. 
+1. In Microsoft Teams, open an account team or deal room channel.
 
-    If task suggestions are available, you see the **Suggested Planner tasks** card for a post in the channel.
+    If task suggestions are available, the **Suggested Planner tasks** card is shown for a post in the channel.
 
-1. In the **Suggested Planner tasks** card, review the suggested tasks. Task name and assignee are shown for each task.
+1. On the **Suggested Planner tasks** card, review the suggested tasks. For each task, a task name and assignee are shown.
+1. Add a due date for each task. As necessary, edit the task, task name, and assignee.
+1. If you have multiple plans in your Planner app, in the **Add to plan** list, select the plan where you want to create the task. Otherwise, select **Create a new plan**.
+1. Select the tasks that you want to create, and then select **Create tasks**.
 
-1. Add the due date for each task. If necessary, edit the task, task name, and assignee.
+    :::image type="content" source="media/collab-space-ai-tasks.png" alt-text="Screenshot showing the Suggested Planner tasks card, where two tasks are suggested for a plan.":::
 
-1. If you have multiple plans in your Planner app, select the plan where you want to create the task from the **Add to Plan** list, else select **Create a new plan**.
+    When the tasks are successfully created, you receive a confirmation message.
 
-1. Select the tasks you want to create, and then select **Create tasks**.
+1. In the confirmation message, select **Go to Planner** to add the Planner app as a tab in the channel.
 
-    :::image type="content" source="media/collab-space-ai-tasks.png" alt-text="Screenshot showing AI suggested Planner tasks.":::
-
-1. In the confirmation message, select **Go to Planner** to add the Planner app as a tab in the channel. 
-
-    :::image type="content" source="media/collab-space-ai-tasks-msg.png" alt-text="Screenshot showing confirmation message about Planner tasks.":::
+    :::image type="content" source="media/collab-space-ai-tasks-msg.png" alt-text="Screenshot showing a confirmation message about successful creation of Planner tasks.":::
 
 1. Select **Set up tab**.
+1. In the **Planner** window, select **Use an existing plan from this team**, select the plan name that was mentioned in the confirmation message, and then select **Save**.
 
-1. In the **Planner** window, select **Use an existing plan from this team**, select the plan name shown in the confirmation message, and then select **Save**.
+    :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing an existing plan selected for the setup of the Planner tab.":::
 
-    :::image type="content" source="media/collab-space-select-plan.png" alt-text="Screenshot showing option to set up Planner tab.":::
-
-    Sales team members can make updates to the tasks directly from the Planner app added in a tab without switching to the Planner app. Tasks updates are automatically reflected in the Planner app as well.
+Sales team members can update the tasks directly from the Planner app that is added as a tab. They don't have to switch to the Planner app. The Planner app automatically reflects task updates that are made on the tab.
 
 ### See also
 
 [Advanced collaboration with AI-powered Planner tasks](suggested-tasks-collab-space.md)<br>
-[Set up account team template in Microsoft Teams](set-up-team-account-team-template.md) <br>
-[Set up deal room template in Microsoft Teams](set-up-team-deal-room-template.md)
+[Set up a team using the account team template](set-up-team-account-team-template.md)<br>
+[Set up a team using the deal room template](set-up-team-deal-room-template.md)
