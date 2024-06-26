@@ -21,7 +21,7 @@ When you read an email from external contacts or compose an email to external co
 - External email address matches multiple CRM contacts
 
 > [!NOTE]
-> If you're using Dynamics 365 as you CRM, Copilot for Sales matches the email address of the external contact only with the EmailAddress1 field of the contact record in Dynamics 365 and not with EmailAddress2 or EmailAddress3 field. Ensure that email address is populated in the EmailAddress1 field to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, Copilot for Sales won't match the external contact with the CRM contact and considers it as an unsaved contact.
+> If you're using Dynamics 365 as your CRM, Copilot for Sales matches the email address of the external contact only with the EmailAddress1 field of the contact record in Dynamics 365 and not with EmailAddress2 or EmailAddress3 field. Ensure that email address is populated in the EmailAddress1 field to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, Copilot for Sales won't match the external contact with the CRM contact and considers it as an unsaved contact.
 
 ## External email address matches only one CRM contact
 
@@ -45,7 +45,7 @@ If the email address you entered matches multiple contacts in the CRM, you must 
 
     If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).
     
-    If you've connected the external contact to an incorrect CRM contact, by mistake, you can [change the connected record](change-connected-crm-contact.md).
+    If you've connected the external contact to an incorrect CRM contact by mistake, you can [change the connected record](change-connected-crm-contact.md).
 
 ## Show saved contacts through quick CRM actions in email banners
 
