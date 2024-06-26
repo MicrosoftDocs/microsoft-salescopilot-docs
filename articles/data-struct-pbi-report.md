@@ -11,9 +11,9 @@ manager: shujoshi
 
 # Copilot for Sales - Conversation intelligence dashboard data structure (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article describes the data structure of Copilot for Sales conversation intelligence dashboard, where they're saved, and how this data can be controlled.
 
