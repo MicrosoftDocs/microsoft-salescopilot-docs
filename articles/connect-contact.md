@@ -10,9 +10,9 @@ ms.author: shjais
 
 # Connect a contact to your CRM
 
-You’ll get the most benefit from everything Copilot for Sales can do for you when your external contacts are available in your CRM system. In Copilot for Sales, we call this connecting a contact to your CRM. Contacts that are connected to your CRM are referred to as _Saved contacts_.
+You'll get the most benefit from everything Copilot for Sales can do for you when your external contacts are available in your CRM system. In Copilot for Sales, we call this connecting a contact to your CRM. Contacts that are connected to your CRM are referred to as _Saved contacts_.
 
-When you read an email from external contacts or compose an email to external contacts, and open the Copilot for Sales pane, Copilot for Sales searches your CRM for the contact’s primary email address. The external contact is connected to a CRM contact based on one of the following conditions:
+When you read an email from external contacts or compose an email to external contacts, and open the Copilot for Sales pane, Copilot for Sales searches your CRM for the contact's primary email address. The external contact is connected to a CRM contact based on one of the following conditions:
 
 - External email address matches only one CRM contact
 
@@ -29,7 +29,7 @@ If the address you entered in your email matches only one contact in the CRM, Co
 
 ## External email address matches none of the CRM contacts
 
-If the email address you entered doesn’t match any of the contacts in your CRM, [create a contact](create-contact-crm-sales-copilot.md) in your CRM.
+If the email address you entered doesn't match any of the contacts in your CRM, [create a contact](create-contact-crm-sales-copilot.md) in your CRM.
 
 ## External email address matches multiple CRM contacts
 
@@ -49,15 +49,14 @@ If the email address you entered matches multiple contacts in the CRM, you must 
 
 ## Show saved contacts through quick CRM actions in email banners
 
-When you read an email from external contacts and have all the contacts saved in your CRM, the banner message at the top of the email enables you to access the saved CRM contact details through quick CRM actions in the banner. Select
-**Show contacts** to view the saved contacts. All the saved contacts are displayed in the **Contacts** card in the **Copilot for Sales** pane.
+When you read an email from external contacts, if all the contacts are saved in your CRM, the banner message at the top of the email includes a **Show contacts** quick CRM action that you can use to access the saved CRM contact details. When you select **Show contacts**, all the saved contacts are shown on the **Contacts** card in the **Copilot for Sales** pane.
 
-:::image type="content" source="media/banner-show-contact.png" alt-text="Screenshot showing banner message with quick action to see saved contacts.":::
+:::image type="content" source="media/banner-show-contact.png" alt-text="Screenshot showing a banner message with a quick action for viewing saved contacts.":::
 
-Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+Currently, banner messages that include quick CRM actions are available on up to two external emails per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
 > [!NOTE]
-> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
+> This capability is being rolled out gradually. It's expected to be available to all users by the end of May 2024.
 
 ### See also
 
