@@ -20,7 +20,7 @@ ms.custom:
 
 Sales team members spend a lot of time communicating and coordinating with colleagues in Microsoft Teams. To make it easy for sellers to stay on top of their action items, Copilot for Sales suggests tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or other channel members.
 
-As an administrator, you can control whether AI-powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn the feature off.
+As an administrator, you can control whether AI-powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn off the feature.
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Tenant**, select **Collaboration spaces**.
