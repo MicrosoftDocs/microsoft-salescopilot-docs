@@ -16,7 +16,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales team members spend a lot of time communicating and coordinating with colleagues within Microsoft Teams. Copilot for Sales makes it easy for sellers to stay on top of their action items by suggesting tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or to other channel members.
 
