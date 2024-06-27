@@ -1,7 +1,7 @@
 ---
 title: View key sales information in Copilot for Sales
 description: Learn how to view key sales information in Copilot for Sales as you read and compose emails in Outlook.
-ms.date: 04/15/2024
+ms.date: 06/27/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # View key sales information in Copilot for Sales
 
-As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, and opportunities that are related to the email. Key sales information is based either on the opportunity or the lead that is connected to the email. If the email is neither connected to an opportunity nor a lead, Copilot for Sales suggests the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one. If the email is connected to lead, and the lead was not qualified, the key sales information is based on the lead. If an opportunity is connected to the lead, the key sales information is based on the opportunity instead of the lead.
+As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, opportunities, and leads that are related to the email. Key sales information is based either on the opportunity or the lead that is connected to the email. If the email is neither connected to an opportunity nor a lead, Copilot for Sales suggests the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one. If the email is connected to lead, and the lead was not qualified, the key sales information is based on the lead. If an opportunity is connected to the lead, the key sales information is based on the opportunity instead of the lead.
 
 > [!NOTE]
 > If you have the premium license, you can use the integrated experience in Outlook. This experience includes the ability to [view an email summary](email-summary-premium.md) and [generate email replies](email-reply-premium.md). The key sales information provides a comprehensive overview of CRM context. 
