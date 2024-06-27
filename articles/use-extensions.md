@@ -10,9 +10,9 @@ ms.author: shjais
 
 # Integrate Microsoft Copilot for Sales with other applications (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can integrate Copilot for Sales with other applications such as Microsoft Viva Topics and People.ai to enhance the functionality of Copilot for Sales and add insights for your sellers.
 
@@ -45,7 +45,7 @@ By default, the integration is disabled. When enabled, identified topics are dis
 
 Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. Insights from People.ai are displayed for contacts, opportunities, and accounts.
 
-By default, the integration is disabled. When enabled, the insights are displayed in the [detailed view of a record](view-record-details.md#view-peopleai-insights-preview) as well as in the [opportunity summary card](view-opportunity-summary.md#view-peopleai-insights-in-opportunity-summary-preview) in the **Copilot for Sales** pane in Outlook.
+By default, the integration is disabled. When enabled, the insights are displayed in the [detailed view of a record](view-record-details.md) as well as in the [opportunity summary card](view-opportunity-summary.md) in the **Copilot for Sales** pane in Outlook. More information: [View People.ai insights (preview)](people-ai-insights.md)
 
 ### Prerequisites
 

@@ -26,11 +26,12 @@ If you're a Dynamics 365 Sales Premium customer, the sales specific functionalit
 
 For information about pricing, see [Microsoft Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Copilot for Microsoft 365 pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
-If you have the Copilot for Sales standard license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
+> [!NOTE]
+> If you have the Copilot for Sales standard license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
 
 ## Prerequisites
 
-- [Copilot for Sales must be turned on in your environment](suggested-replies.md)
+- [Copilot AI features must be turned on in your environment](suggested-replies.md)
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 - You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.

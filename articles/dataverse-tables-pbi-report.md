@@ -15,9 +15,9 @@ ms.custom:
 
 # Dataverse tables used in the Copilot for Sales dashboard reports (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The following table lists the Dataverse tables used in the dashboard reports.
 

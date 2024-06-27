@@ -1,7 +1,7 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
-ms.date: 02/02/2024
+ms.date: 06/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -54,7 +54,7 @@ In Microsoft Teams, the Copilot for Sales Standard license will continue to prov
 
 ### New Copilot for Sales license
 
-The new Copilot for Sales license is referred to as Copilot for Sales premium license. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience.
+The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Copilot for Microsoft 365 subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience. If you're using the Outlook on the web or the new Outlook for Windows, you can access Copilot for Sales in the Copilot for Microsoft 365 side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows)
 
 > [!NOTE]
 > If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Copilot for Microsoft 365 license. 
@@ -76,11 +76,22 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 :::image type="content" source="media/teams-recap.png" alt-text="Screenshot showing meeting summary enriched wih sales data in Teams recap.":::
 
+### Unified side pane in Outlook on the web and Outlook for Windows
+
+For users using Outlook on the web or the new Outlook for Windows, the Copilot for Sales side pane in Outlook is now unified with the Copilot for Microsoft 365 side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Copilot for Microsoft 365 side pane. 
+
+Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Copilot for Microsoft 365 side pane and select **Sales** to access the Copilot for Sales capabilities.
+
+:::image type="content" source="media/unified-m365-sidecar.png" alt-text="Screenshot of the unified side pane for Copilot for Sales":::
+
+> [!NOTE]
+> The unified Copilot experience is currently available only in Outlook on the web (Outlook online) and the new Outlook for Windows. For all other Outlook surfaces, users would experience Copilot for Sales capabilities in the dedicated Copilot for Sales side pane in Outlook.
+
 ## Enhanced Teams app support
 
 The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app which includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
-The enhanced Team app is initially supported in the desktop and web version of Outlook, but support for other Outlook clients such as Mac and mobile are not currently available. If your sellers use an unsupported version of the Outlook client, you should deploy both the new enhanced Teams app and the Outlook add-in. 
+The enhanced Teams app is initially supported in the desktop and web version of Outlook, but support for other Outlook clients such as Mac and mobile are not currently available. If your sellers use an unsupported version of the Outlook client, you should deploy both the new enhanced Teams app and the Outlook add-in. 
 
 ### New deployments
 

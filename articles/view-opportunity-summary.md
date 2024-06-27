@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 04/08/2024
+ms.date: 04/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -27,6 +27,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 > - If a meeting is not connected to an opportunity, the opportunity summary for the meeting is displayed based on the most relevant opportunity selected by AI. You'll get an option to select another opportunity and regenerate the suggested content.
 > - When you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed in the standard channel as   part of the welcome post.
 > - You can view opportunity summary when [viewing details of an opportunity](view-record-details.md) in the Copilot for Sales pane in Outlook.
+> - You can view the opportunity summary when [sharing CRM records in Teams](share-crm-record-teams-conversation.md).
 > - Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, Copilot for Sales only supports the "Notes and Attachments" object out of the box. If you want Copilot for Sales to support the Notes object, ask your administrator to contact Microsoft support.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
@@ -52,74 +53,7 @@ To see a list of supported languages, see [supported languages](supported-langua
 
     The opportunity summary is displayed in the **Opportunity summary** card.
 
-    If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](#view-peopleai-insights-in-opportunity-summary-preview)
-
-## View People.ai insights in opportunity summary (preview)
-
-[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
-
-**Prerequisites**: 
-
-- The People.ai integration must be [enabled by your administrator](use-extensions.md#integrate-with-peopleai).  
-- You must have a license for People.ai.
-
-Insights from People.ai are displayed under the **Insights from People.ai** section. Insights are displayed with citation numbers. Select the citation number to drill down and see detailed information. To open metrics in People.ai, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card.
-
-:::image type="content" source="media/people-ai-oppty-insights.png" alt-text="Screenshot showing People.ai insights in opportunity summary.":::
-
-The following insights are displayed:
-
-- **Engagement level and trend**: This is the overall engagement level and trend. The engagement level number is calculated by People.ai based on interactions (emails and meetings) that have happened with the customer. The engagement level is displayed as follows:
-   
-    |Engagement level number  |Engagement level  |
-    |---------|---------|
-    |0 to 30     | Low        |
-    |31 to 70     | Medium        |
-    |71 to 100     | High        |
-    
-    The engagement trend is calculated by comparing the current week’s engagement level number with that of the previous week. The engagement trend is displayed as trending up or down based on the increase or decrease of the engagement level respectively.
-    
-    When you drill down into the engagement level and trend, you can see the total number of activities, along with the breakdown of the number of meetings and emails that have been exchanged with the customer.
-
-- **Connections**: This insight suggests the names of your colleagues who have interacted with the customer through emails or meetings. It helps you quickly email your colleagues to request an introduction. When you drill down, you can see the names of the people. By default, the top three connections are displayed. 
-
-    To quickly start an email with one of the top connections, hover over the name, and then select :::image type="icon" source="media/mail-icon.png" border="false":::.
-
-    To see all connections or more metrics, you must open People.ai.
-
-## View latest activities from partner applications (preview)
-
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-[!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
-
-You can view activities that are related to CRM opportunities or deals from partner applications within Copilot for Sales. To view activities from partner applications, you must:
-
-1. Get the feature enabled, as it is not enabled by default.
-2. Create a connection using Power Platform connectors.
-3. View latest activities from partner applications.
-
-### Get the feature enabled
-
-This feature is not enabled by default. To enable this feature, ask your administrator to [sign up for the preview feature](https://aka.ms/SalesCopilotExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization.
-
-### Create a connection
-
-After the feature is enabled, you must create a connection between Copilot for Sales and the partner application using the partner's certified Power Platform connector. For information about how to create a connection, see [Create a new connection](/power-apps/maker/canvas-apps/add-manage-connections#create-a-new-connection).
-
-> [!NOTE]
-> - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
-> - If you are a partner application maker and would like to integrate with Copilot for Sales, see Extend Copilot for Sales. Currently, DocuSign can be integrated with Copilot for Sales. 
-
-### View latest activities
-
-Latest activities from partner applications are displayed under the **Latest activities from (partner app)** section. For example, in the following image, the activities from the partner application **DocuSign** are displayed in the opportunity summary.
-
-:::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
-
-All the information about activities comes from the partner applications. Copilot for Sales renders the activity information retrieved from the partner application through the Power Platform connector. Copilot for Sales does not edit or filter the information.
-
-Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 
+    If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](people-ai-insights.md)
 
 ## View data source in opportunity summary
 

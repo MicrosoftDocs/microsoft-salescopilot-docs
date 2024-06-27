@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Copilot for Sales for Salesforce CRM customers.
-ms.date: 02/02/2024
+ms.date: 06/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,17 +16,17 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Sales
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dJYp]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
 
 ## Prerequisites
 
-- You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). [How do I find my tenant admin?](#how-do-i-find-my-tenant-admin)
+- You must be a tenant administrator to install the integrated app from the [Microsoft 365 admin center](https://admin.microsoft.com/). [How do I find my tenant admin?](sales-copilot-faq.md#how-do-i-find-my-tenant-admin)
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 - You must assign the Copilot for Sales license to each user that will be using the product. [Learn more about assigning licenses from the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 
 ## Step 1: Install Copilot for Sales in Outlook
 
-[Install Copilot for Sales Add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)
 
 ![Screenshot showing Copilot for Sales installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing Copilot for Sales installed as an integrated app.")
 
@@ -132,6 +132,8 @@ Now that you've installed and configured Copilot for Sales in Outlook and Teams,
 |---------|
 |**Subject**: Welcome to Copilot for Sales!</br><br>Dear Sellers,</br><br>Welcome to Copilot for Sales, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Copilot for Sales can do for you by [watching this short video](https://www.microsoft.com/en-us/videoplayer/embed/RW181Q6) and taking the [Microsoft Copilot for Sales training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Copilot for Sales for the first time**</br><br>[Access Copilot for Sales in Outlook](open-app.md#access-copilot-for-sales-in-outlook), [sign in to your CRM system](sign-in-crm-outlook.md), and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Copilot for Sales features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](generate-meeting-summary.md)</li></br><li>[View and understand the meeting summary](view-understand-meeting-summary.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Copilot for Sales troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Microsoft Copilot for Sales · Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
 
+> [!IMPORTANT]
+> It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Copilot for Sales app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)
 
 ## Community
 
@@ -142,45 +144,4 @@ We encourage all Copilot for Sales users to visit and register on the [Copilot f
 -   Forums to contribute and receive support on common issues, which are routinely reviewed by our team of experts.
 
 -   Spaces to [share ideas](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) and engage with the product development team.
-
-## FAQ
-
-### Is Copilot for Sales available for Salesforce CRM customers?
-
-Copilot for Sales is a generally available app for Salesforce CRM customers, [watch this short video to learn more](https://www.youtube.com/watch?v=hfDPogeGTHk).
-
-A Microsoft 365 for Enterprise or Office 365 for Enterprise product license is required to use the Copilot for Sales app in Outlook and Microsoft Teams.
-
-### How does Copilot for Sales work?
-
-Copilot for Sales uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft Copilot for Sales](https://www.microsoft.com/microsoft-viva/sales).
-
-### Is Copilot for Sales safe and secure?
-
-Copilot for Sales is a certified Microsoft app. That means it meets our rigorous security and compliance standards.
-
-Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft Copilot for Sales](introduction.md) and [Copilot for Sales FAQ](tsg-no-column.md).
-
-
-### How do I find my tenant admin?
-
-[How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
-
-You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
-
-![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
-
-### Are there any special browser settings needed to use Copilot for Sales in the web versions of Outlook and Teams?
-
-Users may need to change a few settings to get the best experience of Copilot for Sales in Outlook and Teams on the web.
-
-- **Edge**:
-  - Turn on "Enable sites to save and read cookie data (recommended)."
-  - Turn off "Block third-party cookies."
-
-- **Safari**: Turn off "Prevent Cross-site tracking."
-
-- **Chrome**: Turn off "Block third-party cookies."
-
-The [Copilot for Sales troubleshooting guide](troubleshoot.yml) can help with solutions for common issues.
 
