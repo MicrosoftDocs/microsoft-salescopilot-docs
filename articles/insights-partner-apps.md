@@ -14,9 +14,9 @@ ms.custom:
 
 # View insights from partner applications (preview)
 
-[!INCLUDE [production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can view records that are related to CRM records and activities that are related to CRM opportunities from partner applications within Copilot for Sales. To view related records and latest activities from partner applications, you must:
 

@@ -14,9 +14,9 @@ ms.custom:
 
 # View People.ai insights (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 People.ai insights provide a comprehensive view of your customer interactions and engagement. You can view insights for your accounts, contacts, and opportunities when [viewing details of a record](view-record-details.md) in the Copilot for Sales pane. 
 

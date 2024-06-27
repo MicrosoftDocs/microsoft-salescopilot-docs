@@ -14,9 +14,9 @@ ms.custom:
 
 # Analyze your sellers' conversation data with Power BI (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [Power BI template apps](/power-bi/service-template-apps-overview) are integrated packages of prebuilt Power BI dashboards and reports. Using Power BI template apps provides a convenient, powerful, and quick way to access and analyze your sellers' conversation data.
 
