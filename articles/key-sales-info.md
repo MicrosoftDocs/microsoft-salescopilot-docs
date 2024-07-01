@@ -64,3 +64,7 @@ If you have any feedback about the content, you can share it by selecting the ap
 
 1. Select the link to open the feedback form.
 1. Enter your responses in the feedback form, and then select **Send**.
+
+### See also
+
+[Enrich key sales info with insights from your application](extend-key-sales-info.md)
