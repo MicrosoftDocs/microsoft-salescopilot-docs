@@ -47,7 +47,7 @@ For Copilot for Sales users to access a connector action published in Microsoft 
 ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
 
 > [!NOTE]
-> Actions enabled by your admin could take upto fours hours to be ingested in Copilot for Sales experiences.
+> Actions enabled by your admin could take upto four hours to be ingested in Copilot for Sales experiences.
 
 > [!NOTE]
 > - By enabling a connector action for Copilot for Sales, you may be allowing Copilot for Sales users on Microsoft 365 and Teams applications to send and receive data from external sources using Copilot for Sales even if the same connector action has been disallowed for use directly with Microsoft 365. It is recommended to ensure that this action complies with your organization policies before enabling it.
