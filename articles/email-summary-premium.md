@@ -60,6 +60,7 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
 
 ### See also
 
+[Enrich email summary with insights from your application](extend-email-summary.md) <br>
 [Enable users for Microsoft Copilot for Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users) <br>
 [Summarize an email thread with Copilot for Microsoft 365 in Outlook](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-for-microsoft-365-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640)
 
