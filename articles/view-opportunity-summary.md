@@ -97,5 +97,3 @@ If you have any feedback about the opportunity summary, you can share it by sele
 ### See also
 
 [Enrich CRM record summary with insights from your application](extend-record-summary.md)
-
-
