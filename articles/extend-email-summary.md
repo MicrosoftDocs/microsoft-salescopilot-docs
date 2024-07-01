@@ -90,3 +90,4 @@ Legend:
 [Enrich CRM record summary with insights from your application](extend-record-summary.md)<br>
 [Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build application APIs to extend Copilot for Sales](build-apis.md)
+
