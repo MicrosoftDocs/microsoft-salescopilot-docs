@@ -44,7 +44,10 @@ Actions determine the operations to be performed with the custom insights and da
 ## Enable the connector action for users
 
 For Copilot for Sales users to access a connector action published in Microsoft Copilot Studio, it must first be enabled by a Copilot for Sales administrator. To enable a connector action for your copilot users,
-ask your administrator to [sign up for the preview feature](https://aka.ms/SalesCopilotExtensibilityPreview). The Microsoft team will get in touch to validate the request and enable the feature for your organization. 
+ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
+
+> [!NOTE]
+> Actions enabled by your admin could take upto fours hours to be inhgested in Copilot for Sales experiences.
 
 > [!NOTE]
 > - By enabling a connector action for Copilot for Sales, you may be allowing Copilot for Sales users on Microsoft 365 and Teams applications to send and receive data from external sources using Copilot for Sales even if the same connector action has been disallowed for use directly with Microsoft 365. It is recommended to ensure that this action complies with your organization policies before enabling it.
