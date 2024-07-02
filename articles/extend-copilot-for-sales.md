@@ -78,8 +78,8 @@ Additionally, you can introduce new question and answer (Q&A) capabilities in th
 
 1. Start to create an extension.
 
-    1. [Create a custom connector by using your APIs](custom-connector-action.md#create-and-test-a-custom-connector-in-power-platform).
-    1. [Create and publish an action in Microsoft Copilot Studio](custom-connector-action.md#create-and-publish-an-action-in-microsoft-copilot-studio).
+    1. [Create a custom connector by using your APIs](custom-connector-action.md#create-and-test-a-custom-connector-in-microsoft-power-platform).
+    1. [Create and publish an action in Microsoft Copilot Studio](custom-connector-action.md#create-and-publish-an-action-in-copilot-studio).
     1. [Enable the connector action for users](custom-connector-action.md#enable-the-connector-action-for-users).
     1. [Get your connector and action certified (optional)](custom-connector-action.md#get-your-connector-and-action-certified-optional).
 
