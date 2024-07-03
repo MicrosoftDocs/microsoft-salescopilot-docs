@@ -94,3 +94,6 @@ If you have any feedback about the opportunity summary, you can share it by sele
 
 1. Enter your responses in the feedback form and then select **Send**.
 
+### See also
+
+[Enrich CRM record summary with insights from your application](extend-record-summary.md)
