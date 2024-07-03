@@ -113,6 +113,7 @@ Legend:
 
 ### See also
 
+[Learn more about CRM record summary](view-opportunity-summary.md) <br>
 [Add a new Q&A capability to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summary with insights from your application](extend-email-summary.md)<br>
 [Enrich key sales info with insights from your application](extend-key-sales-info.md)<br>
