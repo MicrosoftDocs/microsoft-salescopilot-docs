@@ -1,7 +1,7 @@
 ---
 title: Create a new record in your CRM from Copilot for Sales
 description: Learn how to create a new record in your CRM from Copilot for Sales.
-ms.date: 03/18/2024
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -13,7 +13,7 @@ ms.author: shjais
 You can create a new record in your CRM from the Copilot for Sales side pane. This capability is useful when you want to create a new record in your CRM without having to go to the CRM system. New record creation is supported for all record types that your administrator adds to Copilot for Sales.
 
 > [!NOTE]
-> - The option to create a new record is available only if your administrator enables it.
+> - The option to create a new record is available only if your [administrator enables it](customize-forms-and-fields.md#configure-new-record-creation).
 > - For each record type, your CRM administrator can enable inline creation, creation in CRM, or both.
 
 ## Create a new record by using the global option
@@ -52,4 +52,5 @@ Copilot for Sales shows records that are related to the saved contacts in the em
 
 ### See also
 
-[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)
+[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)<br>
+[Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

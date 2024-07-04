@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 04/15/2024
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -71,4 +71,5 @@ Currently, banner messages with quick CRM actions are available on up to two ext
 
 ### See also
 
-[Create a new record in your CRM from Copilot for Sales](create-new-record.md)
+[Create a new record in your CRM from Copilot for Sales](create-new-record.md)<br>
+[Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)
