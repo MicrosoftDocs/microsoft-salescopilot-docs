@@ -22,9 +22,13 @@ The meeting preparation card helps you get the latest information related to the
 - [You must be connected to a CRM organization in the Copilot for Sales app](sign-in-crm-outlook.md).
 - [At least one external contact that is saved in CRM must be invited to the meeting](connect-contact.md).
 
-When you join a meeting in Microsoft Teams with the Copilot for Sales app, you'll receive a message after a few seconds from the **Copilot for Sales** bot in your personal chat with the meeting preparation card. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity.
 
-The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM:
+The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot one hour before the meeting starts. If the meeting is scheduled less than an hour before the start time, the card is displayed at the time of the meeting. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. 
+
+The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM. 
+
+> [!NOTE]
+> If the meeting is not connected to an opportunity, the card displays general meeting information, meeting participants, and recent communication.
 
 - **General meeting information**: Information about the meeting such as its name, date, time, connected account, and connected opportunity.
 - **Meeting participants**: Information about the external participants and their role in the opportunity.
@@ -33,8 +37,6 @@ The meeting preparation card contains the following information when a meeting i
 - **Notes from CRM**: Two recent notes from the opportunity timeline.
 - **Open tasks**: Total number of open tasks and count of high priority tasks.
 - **Related records**: Number of related opportunities and number of related cases for the account.
-
-If the meeting is not connected to an opportunity, the card displays general meeting information, meeting participants, and recent communication.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
