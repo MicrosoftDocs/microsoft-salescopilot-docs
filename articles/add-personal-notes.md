@@ -1,7 +1,7 @@
 ---
 title: Add private notes
 description: Learn how to add private notes.
-ms.date: 02/02/2024
+ms.date: 07/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Add private notes
 
-Add notes for yourself to help you prepare for an upcoming meeting, remember details about your relationship with a customer, and so on. These notes are private to you. They're not shared with anyone else or synced to the CRM system.
+Add notes for yourself to help you prepare for an upcoming meeting, remember details about your relationship with a customer, and so on.
 
 1. Open the **Copilot for Sales** pane.
 
