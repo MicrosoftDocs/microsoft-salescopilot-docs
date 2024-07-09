@@ -98,26 +98,24 @@ Copilot for Sales displays records that are related to the saved contacts in the
 
 ## Save Outlook activities through quick CRM actions in email banners
 
-When you read a customer email from external contacts and have not saved the email in your CRM, the banner message at the top of the email enables you to save the email through quick CRM actions.
+When you read a customer email from external contacts, if you haven't saved the email in your CRM, the banner message at the top of the email includes a quick CRM action that you can use to save the email.
 
-1. Open or compose an email with at least one external contact.
+1. Open or compose an email that has at least one external contact.
+1. In the banner message, select **Save this email**.
+1. In the **Copilot for Sales** pane, under **Connect to a record**, select the record that you want to connect the meeting to. 
 
-2. In the banner message, select **Save this email**.
+    :::image type="content" source="media/banner-save-email.png" alt-text="Screenshot showing a banner message with a quick action for saving an email.":::
 
-3. In the **Copilot for Sales** pane, under **Connect to a record**, select the record you want to connect the meeting to. 
+1. (Optional) Select and save the attachments that you want to store in the CRM. 
 
-    :::image type="content" source="media/banner-save-email.png" alt-text="Screenshot showing banner message with quick action to save an email.":::
+   The attachments are saved to the activity record that is related to the email or meeting in the CRM. [Unable to save the attachment? Learn why.](#attachment-considerations)
 
-4. (Optional) Select and save the attachments that you'd like to store in the CRM. 
+1. Select **Save**.
 
-   The attachments are saved to the activity record related to the email or meeting in the CRM. [Unable to save the attachment? Learn why](#attachment-considerations)
-
-4. Select **Save**.
-
-Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your administrator to disable them](m365-admin-setting.md).
+Currently, banner messages that include quick CRM actions are available on up to two external emails per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
 > [!NOTE]
-> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
+> This capability is being rolled out gradually. It's expected to be available to all users by the end of May 2024.
 
 ### Attachment considerations
 
