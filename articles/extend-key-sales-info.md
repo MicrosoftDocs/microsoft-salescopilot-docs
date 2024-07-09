@@ -102,6 +102,7 @@ Legend:
 
 ## See also
 
+[View key sales information in Copilot for Sales](key-sales-info.md)<br>
 [Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>

@@ -112,6 +112,7 @@ Legend:
 
 ## See also
 
+[View record summary](view-opportunity-summary.md) <br>
 [Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>

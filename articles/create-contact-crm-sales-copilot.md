@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 04/15/2024
+ms.date: 07/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -52,23 +52,22 @@ This capability is available only for emails in the [supported languages](suppor
 
 ## Add new contacts through quick CRM actions in email banners
 
-When you read an email from external contacts and have at least one contact (in the email thread) that's not saved in CRM, the banner message at the top of the email enables you to add the new contacts through quick CRM actions.
+When you read an email from external contacts, if at least one contact in the email thread isn't saved in your CRM, the banner message at the top of the email includes quick CRM actions that you can use to add the new contacts.
 
-1. Open an email with external contacts.
+1. Open an email that has external contacts.
+1. In the banner message, select **Add contact** or **Add contacts**.
+1. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**.
 
-2. Select **Add contact** or **Add contacts**.
+    :::image type="content" source="media/banner-add-contact.png" alt-text="Screenshot showing a banner message with a quick action for adding a new contact.":::
 
-3. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**.
+1. In the **New contact** form, add the required information, and then select **Save**.
 
-    :::image type="content" source="media/banner-add-contact.png" alt-text="Screenshot showing banner message with quick action to add a new contact.":::
-
-4. In the **New contact** form, add the required information, and then select **Save**.
-
-Currently, banner messages with quick CRM actions are available on up to two external emails per day. If you wish to disable these banners, [ask your admininstrator to disable them](m365-admin-setting.md).
+Currently, banner messages that include quick CRM actions are available on up to two external emails per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
 > [!NOTE]
-> This capability is being rolled out gradually and is expected to be available by the end of May 2024 to all users
+> This capability is being rolled out gradually. It's expected to be available to all users by the end of May 2024.
 
 ### See also
 
-[Create a new record in your CRM from Copilot for Sales](create-new-record.md)
+[Create a new record in your CRM from Copilot for Sales](create-new-record.md)<br>
+[Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)
