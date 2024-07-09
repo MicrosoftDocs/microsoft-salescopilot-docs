@@ -226,7 +226,12 @@ Users may need to change a few settings to get the best experience of Copilot fo
 
 ### Why do I see the older icon for Copilot for Sales in Outlook desktop?
 
-In some cases, you may see the older icon for Copilot for Sales in Outlook desktop. To see the new icon, you must clear the Outlook cache by following these steps:
+In some cases, you may see the older icon for Copilot for Sales in Outlook desktop. 
+
+:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of Copilot for Sales":::
+
+To see the new icon, you must clear the Outlook cache by following these steps:
+
 1. Close Outlook, and then run the following commands to delete the cache files. Ensure to replace `<alias>` with your alias.
     - `rmdir /s /q "C:\Users\<alias>\AppData\Local\microsoft\office\16.0\ResourceInfoCache"`
     - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Outlook\HubAppCache"`
@@ -271,6 +276,8 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     The **Microsoft Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
 
 1. Select **Merge both versions** and accept the permissions.
+
+    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
    
