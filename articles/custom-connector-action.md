@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
-description: Discover how to build a custom connector for Power Platform and create an action in Microsoft Copilot Studio, aimed at enhancing Copilot for Sales.
-ms.date: 07/02/2024
+description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
+ms.date: 07/09/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,46 +18,43 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article provides concise instructions to help you quickly start building a Power Platform connector using your application APIs, aimed at extending Copilot for Sales. For a more comprehensive understanding of connectors, see [Connectors overview](/connectors/overview).
+This article provides concise instructions to help you quickly start to build a Microsoft Power Platform connector by using your application APIs, so that you can extend Copilot for Sales. For more comprehensive information about connectors, go to [Connectors overview](/connectors/overview).
 
-After you have built your custom connector, you must create an action in Microsoft Copilot Studio, enable it for your users, and get it certified.
+After you build your custom connector, you must create an action in Microsoft Copilot Studio, enable it for your users, and get it certified.
 
-## Create and test a custom connector in Power Platform
+## Create and test a custom connector in Microsoft Power Platform
 
-[Download the OpenAI file](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly start with the connector actions needed to extend Copilot for Sales. The OpenAI file contains swagger for an API designed to get content suggestions in an email. This can be disregarded as the Copilot for Sales user interface doesn't support this API.
+[Download the OpenAI file](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly get started with the connector actions that are needed to extend Copilot for Sales. The OpenAI file contains swagger for an API that is designed to get content suggestions in an email. You can disregard this swagger, because the Copilot for Sales user interface doesn't support the API.
 
-You can create a custom connector either from [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/). 
+You can create a custom connector from either [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/). 
 
-Ensure to use an environment that has Dynamics 365 apps enabled, as these are the environments used in Copilot for Sales Outlook add-in. Environments without Dynamics 365 apps, such as the default environment, aren't supported for custom connectors. To create a new environment with Dynamics 365 apps enabled, see [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
+Be sure to use an environment where Dynamics 365 apps are enabled, because environments of this type are used in the Copilot for Sales Outlook add-in. Environments without Dynamics 365 apps, such as the default environment, aren't supported for custom connectors. To create a new environment where Dynamics 365 apps are enabled, go to [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
 
-When setting up the authentication for the connector, ensure to use the OAuth 2.0 authentication type and Microsoft Entra ID (formerly known as Azure Active Directory) as the authentication provider. This enables your backend service to receive Microsoft Entra ID tokens that can then be exchanged when invoking Microsoft services such as Graph. The connector and the backend service are secured using two different application registrations as mentioned in the [Set up Microsoft Entra ID authentication](/connectors/custom-connectors/create-web-api-connector#set-up-microsoft-entra-id-authentication) article.
+When you set up authentication for the connector, be sure to use the OAuth 2.0 authentication type, and be sure to use Microsoft Entra ID as the authentication provider. (Microsoft Entra ID was previously known as Azure Active Directory or Azure AD.) In this way, your back-end service can receive Microsoft Entra ID tokens that can then be exchanged when Microsoft services such as Microsoft Graph are invoked. The connector and the back-end service are secured by using two different application registrations, as described in [Set up Microsoft Entra ID authentication](/connectors/custom-connectors/create-web-api-connector#set-up-microsoft-entra-id-authentication).
 
-For steps to create a custom connector, set up authentication, and test the connector, see [Create a custom connector from an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition).
+For the steps to create a custom connector, set up authentication, and test the connector, go to [Create a custom connector from an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition).
 
-## Create and publish an action in Microsoft Copilot Studio
+## Create and publish an action in Copilot Studio
 
-Actions determine the operations to be performed with the custom insights and data sources, such as the custom connectors you've built. They enable Copilot for Sales in identifying which external sources to extract insights from, thereby enriching the Copilot for Sales experience. You can create actions based on the connector you've developed using Microsoft Copilot Studio. More information: [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
+Actions determine what operations are performed with the custom insights and data sources, such as the custom connectors that you built. They enable Copilot for Sales to identify the external sources that insights should be extracted from to enrich the Copilot for Sales experience. You can create actions based on the connector that you developed by using Copilot Studio. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
 > [!NOTE]
-> To see Copilot for Sales in Copilot Studio, reach out to your admin to [deploy the Copilot for Sales enhanced Teams app](/microsoft-sales-copilot/enable-license#deploy-the-copilot-for-sales-app).
+> If Copilot for Sales doesn't currently appear in Copilot Studio, ask your administrator to [deploy the Copilot for Sales enhanced Teams app](/microsoft-sales-copilot/enable-license#deploy-the-copilot-for-sales-app).
 
 ## Enable the connector action for users
 
-For Copilot for Sales users to access a connector action published in Microsoft Copilot Studio, it must first be enabled by a Copilot for Sales administrator. To enable a connector action for your copilot users,
-ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
+Before Copilot for Sales users can access a connector action that is published in Copilot Studio, a Copilot for Sales administrator must enable it. If you want to enable a connector action for your copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
 
 > [!NOTE]
-> Actions enabled by your admin could take upto four hours to be ingested in Copilot for Sales experiences.
-
-> [!NOTE]
-> - By enabling a connector action for Copilot for Sales, you may be allowing Copilot for Sales users on Microsoft 365 and Teams applications to send and receive data from external sources using Copilot for Sales even if the same connector action has been disallowed for use directly with Microsoft 365. It is recommended to ensure that this action complies with your organization policies before enabling it.
-> - The data and insights that connector actions bring to Copilot for Sales experiences are powered by third parties and may be subject to third party terms and conditions and/or privacy policies. We recommend you validate such connector actions for compliance with your organization policies.
+> - Actions enabled by your administrator could take upto four hours to be ingested in Copilot for Sales experiences.
+> - When you enable a connector action for Copilot for Sales, Copilot for Sales users in Microsoft 365 and Teams applications might be able to send and receive data from external sources by using Copilot for Sales, even if the same connector action was disallowed for direct use with Microsoft 365. Before you enable a connector action, we recommend that you ensure that it complies with your organization's policies.
+> - The data and insights that connector actions bring to Copilot for Sales experiences are powered by third parties. They might be subject to third-party terms and conditions and/or privacy policies. We recommend that you validate these connector actions for compliance with your organization's policies.
 
 ## Get your connector and action certified (optional)
 
-Upon creating a custom connector and connector action in Microsoft Copilot Studio, it becomes accessible within your tenant. However, if you wish to make it available to all Copilot for Sales users, you must get your connector and action certified. More information: More information: [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
+After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
-### See also
+## See also
 
 [Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
-[Build application APIs to extend Copilot for Sales](build-apis.md)
+[Build Copilot for Sales extensions](build-apis.md)
