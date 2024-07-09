@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (user-deployed)
 description: Discover how to install Microsoft Copilot for Sales as a user-deployed app that streamlines and enhances your selling experience.
-ms.date: 06/19/2024
+ms.date: 07/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -53,7 +53,8 @@ With Copilot for Sales, you can:
     The app is installed, and a confirmation message is displayed.
 
 > [!NOTE]
-> You can also get the add-in from Office Store within Outlook. More information: [Get an Office Add-in for Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
+> - You can also get the add-in from Office Store within Outlook. More information: [Get an Office Add-in for Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
+> - You might see the older icon for Copilot for Sales in Outlook desktop. You must clear the Outlook cache to see the new icon. More information: [Why do I see the older icon for Copilot for Sales in Outlook desktop?](sales-copilot-faq.md#why-do-i-see-the-older-icon-for-copilot-for-sales-in-outlook-desktop)
 
 ### Start using Copilot for Sales in Outlook
 

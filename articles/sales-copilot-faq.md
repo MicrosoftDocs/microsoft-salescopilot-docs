@@ -1,7 +1,7 @@
 ---
 title: Microsoft Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 06/20/2024
+ms.date: 07/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -224,6 +224,17 @@ Users may need to change a few settings to get the best experience of Copilot fo
 
 - **Chrome**: Turn off "Block third-party cookies."
 
+### Why do I see the older icon for Copilot for Sales in Outlook desktop?
+
+In some cases, you may see the older icon for Copilot for Sales in Outlook desktop. To see the new icon, you must clear the Outlook cache by following these steps:
+1. Close Outlook, and then run the following commands to delete the cache files. Ensure to replace `<alias>` with your alias.
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\microsoft\office\16.0\ResourceInfoCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Outlook\HubAppCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Outlook\HubAppFileCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Office\16.0\Wef"`
+
+1. Open Outlook.
+
 ### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
@@ -248,6 +259,21 @@ Ensure that the following settings are set to true:
 - WacViewingOnPrivateComputersEnabled
 - DirectFileAccessOnPublicComputersEnabled
 - DirectFileAccessOnPrivateComputersEnabled
+
+### Why do users see duplicate icons for Copilot for Sales in Outlook desktop?
+
+Users may see duplicate icons for Copilot for Sales due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
+
+1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
+
+1.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
+
+    The **Microsoft Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
+
+1. Select **Merge both versions** and accept the permissions.
+
+    After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
+   
 
 ## Security, Privacy and Compliance 
 

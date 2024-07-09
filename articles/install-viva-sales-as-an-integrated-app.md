@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales in Outlook
 description: Learn how to install, manage, and update the Copilot for Sales app in Microsoft 365 with this comprehensive guide.
-ms.date: 06/21/2024
+ms.date: 07/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -55,7 +55,8 @@ As an administrator, you can install Copilot for Sales as an integrated app from
 
 
 > [!IMPORTANT]
-> It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Copilot for Sales app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)
+> - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Copilot for Sales app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)
+> - Users might see duplicate icons for Copilot for Sales in Outlook desktop, one for the enahanced Teams app and one for the older add-in. You must merge both the version from Microsoft 365 admin center. More information: [Why do users see duplicate icons for Copilot for Sales in Outlook desktop?](sales-copilot-faq.md#why-do-users-see-duplicate-icons-for-copilot-for-sales-in-outlook-desktop)
 
 ## Manage the Copilot for Sales app
 
