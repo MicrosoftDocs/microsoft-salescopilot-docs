@@ -54,7 +54,6 @@ With Copilot for Sales, you can:
 
 > [!NOTE]
 > - You can also get the add-in from Office Store within Outlook. More information: [Get an Office Add-in for Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
-> - You might see the older icon for Copilot for Sales in Outlook desktop. You must clear the Outlook cache to see the new icon. More information: [Why do I see the older icon for Copilot for Sales in Outlook desktop?](sales-copilot-faq.md#why-do-i-see-the-older-icon-for-copilot-for-sales-in-outlook-desktop)
 
 ### Start using Copilot for Sales in Outlook
 
