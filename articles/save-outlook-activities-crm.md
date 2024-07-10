@@ -22,7 +22,7 @@ But updating the CRM with all your activities across all the communication chann
 > - If you are using Salesforce as your CRM, you can't save draft emails and draft appointments to Salesforce. Replies to saved emails and updates to saved events are not automatically saved either. 
 > - Saving recurring meetings to your CRM is not supported.
 > - If you've saved an Outlook activity (email or appointment) using Dynamics 365 App for Outlook, it's not shown as saved in Copilot for Sales. You must save the Outlook activity using Copilot for Sales. If you save the Outlook activity again using Copilot for Sales, a duplicate record is created in CRM.
-> - If you are using Dynamics 365 as your CRM and trying to save an appointment, the appointment time must be within the working hours of all participants to save the appointment to Dynamics 365. If any participant has working hours outside of the appointment time, the appointment cannot be saved to Dynamics 365.
+> - If you are using Dynamics 365 as your CRM and trying to save an appointment, the appointment time must be within the working hours of all participants to save the appointment to Dynamics 365. If any participant has working hours outside of the appointment time, the appointment cannot be saved to Dynamics 365. For information about setting work hours for a user in Dynamics 365, see [Set work hours for a user](/dynamics365/field-service/set-work-hours-resource#set-work-hours-for-a-user)
 
 ## Save Outlook activities from the highlight card
 
