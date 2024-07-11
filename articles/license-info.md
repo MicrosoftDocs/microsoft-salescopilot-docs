@@ -54,4 +54,4 @@ For information about pricing, go to [Features and pricing](https://www.microsof
 
 ## See also
 
-- [Buy Copilot for Sales](buy-license.md)
+[Buy Copilot for Sales](buy-license.md)
