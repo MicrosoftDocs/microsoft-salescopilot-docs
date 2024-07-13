@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in a Teams conversation or email
 description: Learn how to share a CRM record in a Teams conversation or email using Copilot for Sales.
-ms.date: 05/06/2024
+ms.date: 07/22/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -84,6 +84,23 @@ The experience of using the Copilot for Sales search message extension when comp
 1. In the **Copilot for Sales** pop-up, select a record from the list of recently accessed records or search for and select the CRM record.
 
     :::image type="content" source="media/search-pane-outlook-new.png" alt-text="Screenshot showing search pop-up for the Copilot for Sales app in new Outlook.":::
+
+    The adaptive card is added to the email.
+
+## Share a CRM record in Outlook by using /mentions
+
+You can share a CRM record in an email or calendar invite by using the /mentions feature in Outlook. This feature allows you to quickly share a CRM record with your team members when composing an email or calendar invite. 
+
+> [!NOTE]
+> This feature is available only if it has been enabled by your administrator. For more information, see [Share a CRM record in Outlook by using /mentions](share-crm-record-admin.md).
+
+1. In the body of the email or calendar invite, enter the forward slash (/) symbol. Copilot for Sales displays a list of recently accessed records.
+
+1. Select a record from the list or search for a record by entering the first few letters of the record name.
+
+1. Select the record from the search results.
+
+    :::image type="content" source="media/mentions-outlook-search.png" alt-text="Screenshot showing the Copilot for Sales search in Outlook.":::
 
     The adaptive card is added to the email.
 
