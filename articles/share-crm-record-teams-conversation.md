@@ -87,12 +87,12 @@ The experience of using the Copilot for Sales search message extension when comp
 
     The adaptive card is added to the email.
 
-## Share a CRM record in Outlook by using /mentions
+## Share a CRM record in Outlook by using /mention
 
-You can share a CRM record in an email or calendar invite by using the /mentions feature in Outlook. This feature allows you to quickly share a CRM record with your team members when composing an email or calendar invite. 
+You can share a CRM record in an email or calendar invite by using the /mention feature in Outlook. This feature allows you to quickly share a CRM record with your team members when composing an email or calendar invite. 
 
 > [!NOTE]
-> This feature is available only if it has been enabled by your administrator. For more information, see [Share a CRM record in Outlook by using /mentions](share-crm-record-admin.md).
+> This feature is available only if it has been enabled by your administrator. For more information, see [Share a CRM record in Outlook by using /mention](share-crm-record-admin.md).
 
 1. In the body of the email or calendar invite, enter the forward slash (/) symbol. Copilot for Sales displays a list of recently accessed records.
 
