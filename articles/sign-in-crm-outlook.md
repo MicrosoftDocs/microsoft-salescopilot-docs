@@ -1,6 +1,6 @@
 ---
-title: Connect your CRM account for an enriched experience
-description: Sign in to CRM from Outlook and connect your CRM account to get a more enriched experience with CRM data.
+title: Sign in to CRM from Outlook
+description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
 ms.date: 02/02/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -88,3 +88,7 @@ You can use Copilot for Sales and AI capabilities in Outlook without signing in 
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
+
+## App refresh
+
+When you switch the connected environment in Teams, you receive a notification to refresh the Copilot for Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
