@@ -18,13 +18,19 @@
   - name: Architecture overview
     href: architecture.md
   - name: License overview
-    href: license-info.md
+    items:
+    - name: Copilot for Sales license
+      href: license-info.md
+    - name: Copilot for Sales step-up license
+      href: step-up-license.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
     href: data-handling.md
   - name: Copilot for Sales FAQ
     href: sales-copilot-faq.md
+  - name: Get support
+    href: get-support.md
 
 - name: Buy and install
   items:
@@ -69,6 +75,8 @@
       href: use-extensions.md
     - name: Hierarchy settings for Salesforce orgs (preview)
       href: hierarchy-settings-sf.md
+    - name: Configure how Outlook emails and events are saved to CRM
+      href: save-additional-details-outlook.md
   - name: Turn off Copilot for Sales features in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
@@ -142,6 +150,8 @@
         href: suggested-crm-updates.md
       - name: View key sales info
         href: key-sales-info.md
+      - name: View recent communications
+        href: recent-communications.md
       - name: View People.ai insights (preview)
         href: people-ai-insights.md
       - name: View insights from partner applications (preview)
@@ -182,8 +192,6 @@
       items:
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-      - name: Chat with Copilot for Sales to get sales insights (preview)
-        href: teams-copilot-chat.md
 
   - name: Capabilities in Microsoft Word
     items:
@@ -231,7 +239,7 @@
     items:
     - name: Create a custom connector and connector action
       href: custom-connector-action.md
-    - name: Sample OpenAPI definition
+    - name: Sample Connector
       href: api-sample-def.md
     - name: Standardize error responses
       href: api-error-responses.md
@@ -340,6 +348,6 @@
     href: faqs-real-time-tips.md
   - name: FAQ for key sales info
     href: faqs-key-sales-info.md
-  - name: FAQ for Copilot for Sales in Microsoft 365 Chat
-    href: faqs-m365-chat.md
+  - name: FAQ for meeting summary
+    href: faqs-meeting-summary.md
 

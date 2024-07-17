@@ -1,7 +1,7 @@
 ---
 title: View sales related insights in Microsoft Teams meeting recap
 description: View sales insights in Microsoft Teams meeting recap to support customer engagements.
-ms.date: 05/07/2024
+ms.date: 06/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,9 +18,7 @@ Microsoft Copilot for Sales includes all the capabilities within Copilot for Mic
 
 ## License requirements
 
-To view sales related insights in Microsoft Teams meeting recap, you need one of the following licenses:
 - [Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
-- [Microsoft Teams Premium](https://www.microsoft.com/microsoft-teams/premium) and Microsoft Copilot for Sales standard
 
 > [!NOTE]
 > If you have the Copilot for Sales standard license, see [View and understand the meeting summary](view-understand-meeting-summary.md).

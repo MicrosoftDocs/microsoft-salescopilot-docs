@@ -14,9 +14,9 @@ ms.custom:
 
 # Power BI dashboard hierarchy settings for Salesforce organizations (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can use a template from Sales Copilot to create a dashboard in Microsoft Power BI. Sellers and managers can use this to get aggregated views over conversation made by themselves or their teams.
 

@@ -15,9 +15,9 @@ ms.custom:
 
 # Configure the conversation intelligence dashboard (preview)
 
-[!INCLUDE [preview-note](includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-[!INCLUDE [preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Copilot for Sales conversation intelligence dashboard is a Power BI template app that provides insights into your sales conversations. The dashboard includes a prebuilt report and pages that help you understand the quality of your sales conversations, and how to improve them.
 

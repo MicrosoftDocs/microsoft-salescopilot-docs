@@ -16,22 +16,20 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales team members spend a lot of time communicating and coordinating with colleagues within Microsoft Teams. Copilot for Sales makes it easy for sellers to stay on top of their action items by suggesting tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or to other channel members.
+Sales team members spend a lot of time communicating and coordinating with colleagues in Microsoft Teams. To make it easy for sellers to stay on top of their action items, Copilot for Sales suggests tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or other channel members.
 
-As an administrator, you can control whether AI powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn off the feature.
+As an administrator, you can control whether AI-powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn off the feature.
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Tenant**, select **Collaboration spaces**.
+1. Turn off **Suggested tasks in collaboration spaces (preview)**.
 
-2. Under **Tenant**, select **Collaboration spaces**.
+    :::image type="content" source="media/collab-space-ai-tasks-admin.png" alt-text="Screenshot showing the admin settings for collaboration spaces.":::
 
-3. Turn off **Suggested tasks in collaboration spaces (preview)**.
-
-    :::image type="content" source="media/collab-space-ai-tasks-admin.png" alt-text="Screenshot showing admin settings for collaboration spaces.":::
-
-4. Select **Save**.
+1. Select **Save**.
 
 ### See also
 
-[Advanced collaboration with AI powered Planner tasks](suggested-tasks-collab-space.md)
+[Advanced collaboration with AI-powered Planner tasks](suggested-tasks-collab-space.md)

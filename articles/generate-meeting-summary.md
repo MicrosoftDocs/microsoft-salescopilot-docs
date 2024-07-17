@@ -1,7 +1,7 @@
 ---
 title: Generate a meeting summary
 description: Learn how to generate a meeting summary.
-ms.date: 02/02/2024
+ms.date: 07/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,7 +23,7 @@ Transcription helps to make your meeting productive and inclusive for participan
 > [!NOTE]
 > The spoken language is not detected automatically. If the transcript language is not same as the language spoken in the meeting, the generated transcript will be unusable.
 
-When you end the meeting, Copilot for Sales uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more.
+When you end the meeting, Copilot for Sales uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more. For information about how to view the meeting summary, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 > [!IMPORTANT]
 >
@@ -34,3 +34,8 @@ When you end the meeting, Copilot for Sales uses the recorded call and transcrip
 Use the meeting summary to review past conversations with customers, understand historical needs and sentiments, and highlight your commitments.
 
 Only you and any other sellers you invited to the meeting can view the meeting summary. It isn't visible to the customers who participated in the call.
+
+### See also
+
+[View and understand the meeting summary](view-understand-meeting-summary.md)<br>
+[View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)
