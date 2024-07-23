@@ -23,7 +23,7 @@ The meeting preparation card helps you get the latest information related to the
 - [At least one external contact that is saved in CRM must be invited to the meeting](connect-contact.md).
 
 
-The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot 45 minutes to 75 minutes before the meeting starts. If the meeting is scheduled less than an hour before the start time, the card is displayed at the time of the meeting. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. 
+The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot 45 minutes to 75 minutes before the meeting starts. If the meeting is scheduled less than an hour before the start time, the card is triggered once the meeting invite is sent. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. 
 
 The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM. 
 
