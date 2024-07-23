@@ -156,6 +156,8 @@
         href: people-ai-insights.md
       - name: View insights from partner applications (preview)
         href: insights-partner-apps.md
+      - name: Share insights from Outlook to Teams
+        href: share-insights-from-outlook-to-teams.md
       
     - name: More options
       items:
