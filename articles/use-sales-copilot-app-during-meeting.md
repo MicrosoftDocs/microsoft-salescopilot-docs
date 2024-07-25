@@ -1,7 +1,7 @@
 ---
 title: Use Copilot for Sales app during a meeting
 description: Learn how to use the Copilot for Sales app during a meeting.
-ms.date: 07/22/2024
+ms.date: 07/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,7 +28,8 @@ The meeting preparation card is displayed in your personal chat with the **Copil
 The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM. 
 
 > [!NOTE]
-> If the meeting is not connected to an opportunity, the card displays general meeting information, meeting participants, and recent communication.
+> - If the meeting is not connected to an opportunity, the card displays general meeting information, meeting participants, and recent communication.
+> - The meeting preparation card is not displayed for recurring meetings.
 
 - **General meeting information**: Information about the meeting such as its name, date, time, connected account, and connected opportunity.
 - **Meeting participants**: Information about the external participants and their role in the opportunity.
