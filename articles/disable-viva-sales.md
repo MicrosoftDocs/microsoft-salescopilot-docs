@@ -1,7 +1,7 @@
 ---
 title: Uninstall Copilot for Sales app
 description: Uninstall Copilot for Sales app using Microsoft 365 admin center or PowerShell.
-ms.date: 05/08/2024
+ms.date: 07/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -70,7 +70,7 @@ If the Copilot for Sales add-in for Outlook was installed automatically for your
 > [!NOTE]
 > - You must be a tenant administrator to run PowerShell scripts.
 > - PowerShell scripts can only be used to uninstall user-deployed add-ins. If you run these scripts to uninstall admin-deployed add-ins, an error message is displayed.
-> - To remove the older Sales Copilot add-in, use the app ID `c92c289e-ceb4-4755-819d-0d1dffdab6fa`. If the older add-in is not found, it might have been updated to the enhanced Teams app. In that case, use the app ID `c92c289e-ceb4-4755-819d-0d1dffdab6fa`.
+> - To remove the older Sales Copilot add-in, use the app ID `c3b456a3-a41a-4ed4-8040-354f73574021`. If the older add-in is not found, it might have been updated to the enhanced Teams app. In that case, use the app ID `c92c289e-ceb4-4755-819d-0d1dffdab6fa`.
 
 #### Uninstall for individual user
 
