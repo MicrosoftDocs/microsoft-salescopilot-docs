@@ -73,4 +73,4 @@ To see the list of supported languages, see [Supported languages](supported-lang
 
 ### See also
 
-[Install Copilot for Sales](install-viva-sales.md) 
+[Install Copilot for Sales](install-viva-sales.md)
