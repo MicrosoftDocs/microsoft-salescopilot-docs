@@ -1,7 +1,7 @@
 ---
 title: Enable Copilot for Sales licenses
 description: Enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
-ms.date: 04/04/2024
+ms.date: 07/31/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -24,9 +24,9 @@ To enable Copilot for Sales licenses, you must:
 
 ## Assign Copilot for Sales licenses to users
 
-Each user must have a Copilot for Sales license assigned to them from within the Microsoft 365 admin center. You must be a global admin, license admin, or user admin to assign licenses to users.
+Each user must have a Copilot for Sales license assigned to them from within the Microsoft 365 admin center. You must be assigned an appropriate [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) such as license admin or user admin to assign licenses to users.
 
-For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true ).
+For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).
 
 ## Deploy the Copilot for Sales app
 
