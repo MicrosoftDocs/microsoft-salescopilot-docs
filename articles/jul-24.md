@@ -24,7 +24,7 @@ We're excited to announce our newest updates! This article summarizes general av
 |------------|-------------|------------|----------|-----------|----------|
 | Recent Communications|Sellers can see a streamlined user experience for recent communication card in Copilot for Sales side pane in Outlook with the ability to see previews of emails and meetings. |Outlook|[View recent communication in Copilot for Sales](recent-communications.md)|Automatically|General availability|
 |Access Copilot for Sales usage data via Viva Insights Analyst Workbench|Sellers can access the Copilot for Sales adoption dashboard through Viva Insights to track their usage metrics.|Viva Insights|NA|Administrator|Private preview|
-|Use Microsoft Copilot Studio to enable partner application integrations for Copilot for Sales users|Copilot for Sales admins can use Microsoft Copilot Studio to enable partner application integrations Copilot for Sales users connected to a specific CRM.|`need info`|[Create a custom connector and connector action (preview)](custom-connector-action.md)|Administrator|Public preview|
+|Use Microsoft Copilot Studio to enable partner application integrations for Copilot for Sales users|Copilot for Sales admins can use Microsoft Copilot Studio to enable partner application integrations Copilot for Sales users connected to a specific CRM.|Copilot Studio|[Create a custom connector and connector action (preview)](custom-connector-action.md)|Administrator|Public preview|
 
 
 \* Learn more about [Copilot for Sales administrator settings](administrator-settings-for-viva-sales.md).
