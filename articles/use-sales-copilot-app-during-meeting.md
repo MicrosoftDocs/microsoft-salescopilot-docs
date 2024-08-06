@@ -10,11 +10,11 @@ ms.author: shjais
 
 # Use Copilot for Sales app during a meeting
 
-The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can view the meeting preparation card, view and edit the connected CRM record, and get real-time sales tips during the meeting. This helps you stay focused on the meeting and close deals faster.
+The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can view the meeting preparation card, view and edit the connected CRM record, and get real-time sales tips during the meeting. These features help you stay focused on the meeting and close deals faster.
 
 ## View a meeting preparation card
 
-The meeting preparation card gives you the latest information related to the meeting from CRM. This helps you stay informed and up-to-date.
+The meeting preparation card gives you the latest information related to the meeting from CRM. This card helps you stay informed and up-to-date.
 
 **Prerequisites**: To view a meeting preparation card in Teams, you need to:
 
@@ -56,7 +56,7 @@ The connected record appears in the **Connected to** card. If the meeting isn't 
 
 ## Get real-time sales tips
 
-As a seller, you can get real-time sales tips during your meetings with sales contacts in the Copilot for Sales panel in Microsoft Teams. These tips provide information about competitors or brands mentioned in the meeting, and help you respond to inquiries. The information you need is right in front of you, and this leads to better communication and helps you close deals faster.
+As a seller, you can get real-time sales tips during your meetings with sales contacts in the Copilot for Sales panel in Microsoft Teams. These tips provide information about competitors or brands mentioned in the meeting, and help you respond to inquiries. The information you need is right in front of you, and leads to better communication and helps you close deals faster.
 
 > [!NOTE]
 > - You must transcribe the meeting to get real-time sales tips.
@@ -64,7 +64,7 @@ As a seller, you can get real-time sales tips during your meetings with sales co
 
 To view real-time sales tips during a meeting, [open the Copilot for Sales app](#open-the-copilot-for-sales-app).
 
-If you don't start transcribing the meeting, you'll see a banner that encourages you to record the meeting to get real-time sales tips.
+If you don't start transcribing the meeting, you see a banner that encourages you to record the meeting to get real-time sales tips.
 
 An introduction card appears in the Copilot for Sales panel explaining how real-time sales tips work and the benefits it offers.
 
@@ -80,7 +80,7 @@ To view data sources used in getting brand and competitor information, select **
 
 ## View and edit connected record details
 
-With the Copilot for Sales app, you can view and edit the connected CRM record during the meeting in Teams. This helps you access and update the CRM record in the flow of your work.
+With the Copilot for Sales app, you can view and edit the connected CRM record during the meeting in Teams. The app helps you access and update the CRM record in the flow of your work.
 
 > [!NOTE]
 > You must [save and connect the meeting to a CRM record](save-outlook-activities-crm.md) to view details of the connected record.
@@ -97,7 +97,7 @@ You can also open a record in CRM to view its complete details. The record detai
 
 ### Copy a link to the connected record
 
-You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
+You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into Teams chat, it unfurls into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
 1. [Open the Copilot for Sales app](#open-the-copilot-for-sales-app).
 
