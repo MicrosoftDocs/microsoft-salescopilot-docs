@@ -28,11 +28,11 @@ The meeting preparation card helps you get the latest information related to the
 
 The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot 45 to 75 minutes before the meeting starts. If the meeting is scheduled less than an hour before the start time, the card is triggered once the meeting invite is sent. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity. 
 
-The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM. 
-
 > [!NOTE]
 > - If the meeting is not connected to an opportunity, the card displays general meeting information, meeting participants, and recent communication.
 > - The meeting preparation card is not displayed for recurring meetings.
+
+The meeting preparation card contains the following information when a meeting is connected to an opportunity in CRM: 
 
 - **General meeting information**: Information about the meeting such as its name, date, time, connected account, and connected opportunity.
 - **Meeting participants**: Information about the external participants and their role in the opportunity.
