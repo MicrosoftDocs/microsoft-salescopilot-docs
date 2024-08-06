@@ -28,3 +28,8 @@ We're excited to announce our newest updates! This article summarizes general av
 
 
 \* Learn more about [Copilot for Sales administrator settings](administrator-settings-for-viva-sales.md).
+
+
+## Additional resources
+
+[What's New in Copilot for Sales - July 2024](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales-blog/what-s-new-in-copilot-for-sales-july-2024/ba-p/4202592)
