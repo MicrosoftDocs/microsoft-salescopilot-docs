@@ -1,6 +1,6 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
-description: Learn how to view sales insights in Microsoft Teams meeting recap to support customer engagements.
+description:  Use Copilot for Sales in Teams to get sales insights from meeting recaps. View follow-up tasks, questions, participant statistics, and keywords.
 ms.date: 06/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.custom:
 
 # View sales insights in Microsoft Teams meeting recap
 
-Microsoft Copilot for Sales includes all the capabilities within Copilot for Microsoft 365 to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams helps helps you with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable you to grow customer relationships and close deals.
+Microsoft Copilot for Sales includes all the capabilities within Copilot for Microsoft 365 to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams helps you with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and more to enable you to grow customer relationships and close deals.
 
 ## License requirements
 
@@ -54,7 +54,7 @@ The following information is available:
     - **People**: Names of people mentioned during the meeting.
     - **Others**: Other keywords mentioned during the meeting.
     
-    If you have tracked keywords and competitors in your CRM, they also appear in this section.
+    If you track keywords and competitors in your CRM, they also appear in this section.
 
 > [!NOTE]
 > If you start and stop a meeting recording multiple times, sales insights aren't generated.
@@ -81,7 +81,7 @@ The following information is available:
 
 4.	Select **Create**.
 
-    After you've created a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
+    After you create a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
 
 ### See also
 
