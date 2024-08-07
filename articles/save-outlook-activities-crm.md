@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 08/05/2024
+ms.date: 08/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -56,8 +56,9 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
 
 1. In the **Add email categories** section, enter the information to categorize the email or meeting in the CRM. These fields are displayed only if your administrator has [configured the fields for categorization](save-additional-details-outlook.md).
 
-1. (Optional) Select and save the attachments that you'd like to store in the CRM.
-   :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the save attachment option in the Copilot for Sales side pane."::: 
+1. In the **Save attachments** section, select and save the attachments that you'd like to store in the CRM. This section appears only if your administrator has [enabled the capability to save attachments](save-additional-details-outlook.md#configure-attachment-saving-settings).
+   
+    :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the save attachment option in the Copilot for Sales side pane."::: 
 
     The attachments are saved to the activity record related to the email or meeting in the CRM. [Unable to save the attachment? Learn why](#attachment-considerations)
 
@@ -95,7 +96,8 @@ Copilot for Sales displays records that are related to the saved contacts in the
 1. The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
 
 > [!NOTE]
-> Attachments can't be saved from the related record card.
+> - If your administrator has enabled capability to save all attachments by default, the eligible attachments are saved to the CRM.
+> - If your administrator has disabled the capability to save attachments or turned off the capability to save all attachments by default, attachments are not saved to the CRM.
 
 ## Save Outlook activities through quick CRM actions in email banners
 
