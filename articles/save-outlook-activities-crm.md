@@ -89,9 +89,9 @@ Copilot for Sales displays records that are related to the saved contacts in the
 
 1. Open the email or meeting you want to save to the CRM, and then open Copilot for Sales.
 
-1. In the (record type) card, hover over the record to which you want to save the email or meeting, select **More actions** (**...**), and then select **Save email to (CRM)**. For example, if you want to save the email to the account, hover over the account in the **Accounts** card, select **More actions** (**...**), and then select **Save email to (CRM)**.
+1. In the (record type) card, hover over the record to which you want to save the email or meeting, select **More actions** (**...**), and then select **Save and connect email**. For example, if you want to save the email to the account, hover over the account in the **Accounts** card, select **More actions** (**...**), and then select **Save and connect email**.
 
-    You can also select a record to open its details and then select **More actions** (**...**) > **Save email to (CRM)**.
+    You can also select a record to open its details and then select **More actions** (**...**) > **Save and connect email**.
 
 1. The email or meeting is connected to the selected record and saved in the CRM. The **Connected to** card shows the connected record and its type.
 
@@ -130,9 +130,11 @@ When saving an email or meeting to the CRM, you can also choose to save the atta
     - [Salesforce](https://help.salesforce.com/s/articleView?id=sf.collab_files_size_limits.htm&type=5)
 
 - Inline attachments can't be saved to the CRM. Inline attachments are images or files that are displayed in the body of the email. For example, email signatures, images, or files that are pasted into the email body.
-- Saving an attachment is only supported for emails and meetings saved from the highlight card and email banner. It's not supported for emails and meetings saved from the related record card.
 - In Salesforce, the attachments are saved as [files](https://help.salesforce.com/s/articleView?id=000387434&type=1) in activity records.
 - In Dynamics 365, if attachment saving for appointments is turned off in server-side synchronization, attachments for meetings can't be saved to CRM from Copilot for Sales. Learn more about [syncing appointment attachments](/power-platform/admin/sync-logic#syncing-appointment-attachments).
+
+> [!NOTE]
+> The **Save attachments** section appears only if your administrator has [enabled the capability to save attachments](save-additional-details-outlook.md#configure-attachment-saving-settings).
 
 ## Edit the activity in Outlook
 

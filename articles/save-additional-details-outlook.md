@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 
 As an administrator, you can configure the fields that sellers can use to categorize their emails and meetings when they're saved to CRM. By categorizing emails and meetings in their CRM inbox, sellers can easily find and track their interactions with customers. For example, sellers might want to categorize emails and meetings based on priority, account, or deal stage.
 
-You can also control whether sellers can save attachments along with the email or meeting to CRM. When attachments saving is enabled, you can also configure whether all attachments are saved to CRM by default or sellers can choose which attachments to save. By default, all attachments are saved to CRM.
+You can also control whether sellers can save attachments along with the email or meeting to CRM. When attachments saving is enabled, you can also configure whether all attachments are selected or not by default to be saved to CRM. In either case, sellers can choose which attachments to save when they save the email or meeting to CRM.
 
 ## Prerequisites
 
