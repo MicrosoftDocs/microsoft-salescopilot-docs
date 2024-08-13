@@ -1,7 +1,7 @@
 ---
 title: View recent communication in Copilot for Sales
 description: Explore Copilot for Sales' new feature allowing users to view recent communication, including emails and Teams meetings, with external contacts.
-ms.date: 07/29/2024
+ms.date: 08/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -61,4 +61,6 @@ This feature includes a capability to summarize email threads. The email must be
 1. To generate a summary of the email thread, select **Summarize**. The email summary is displayed in the **Email summary** card.
 
     :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communication card.":::
+
+1. To view recap of the Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
     
