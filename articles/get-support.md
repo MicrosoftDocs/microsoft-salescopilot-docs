@@ -1,6 +1,6 @@
 ---
 title: Get support for Microsoft Copilot for Sales
-description: Learn how to get support for Microsoft Copilot for Sales, including technical support and community support options.
+description: Learn how to get support for Microsoft Copilot for Sales, including technical support and community support.
 ms.date: 06/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -11,15 +11,15 @@ ai-usage: ai-assisted
 
 # Get support for Microsoft Copilot for Sales
 
-If you need help with Microsoft Copilot for Sales, you can contact our support team for assistance. Our support team is available to help you with any questions, issues, or feedback related to Copilot for Sales. This article provides information on how to get support for Copilot for Sales.
+If you need help with Microsoft Copilot for Sales, you can contact our support team for assistance. Our support team is available to help you with any question, issue, or feedback that is related to Copilot for Sales. This article provides information about how to get support for Copilot for Sales.
 
 ## Technical and community support
 
-For technical support, you can reach out to our support team by submitting a support request through the Power Platorm admin center. Our support team will review your request and provide assistance to help resolve any issues you may encounter while using Copilot for Sales. For step-by-step instructions on how to submit a support request, see [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
+For technical support if you encounter any issues while you use Copilot for Sales, you can submit a support request through the Power Platform admin center. Our support team will review your request and provide assistance to help resolve your issues. For step-by-step instructions that show how to submit a support request, go to [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
 
 For community support, you can visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales/bd-p/VivaSales) to connect with other users, ask questions, and share your experiences with Copilot for Sales. The community forums are a great place to find answers to common questions, learn best practices, and engage with other users who are using Copilot for Sales.
 
-For information on how to get support for your Dynamics 365 product, see [Get support for your Dynamics 365 product](/dynamics365/get-started/support/)
+For information about how to get support for your Dynamics 365 product, go to [Get support for your Dynamics 365 product](/dynamics365/get-started/support/).
 
 ## Suggest a feature or provide feedback
 
