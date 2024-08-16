@@ -10,6 +10,8 @@
     href: whats-new.md
   - name: Sales Copilot changing to Copilot for Sales
     href: whats-new-copilot-sales.md
+  - name: July 2024
+    href: jul-24.md
 
 - name: Product overview
   items:
@@ -156,6 +158,8 @@
         href: people-ai-insights.md
       - name: View insights from partner applications (preview)
         href: insights-partner-apps.md
+      - name: Share insights from Outlook to Teams
+        href: share-insights-from-outlook-to-teams.md
       
     - name: More options
       items:

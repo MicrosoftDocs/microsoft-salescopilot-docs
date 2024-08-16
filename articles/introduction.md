@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft Copilot for Sales
 description: Get to know Copilot for Sales
-ms.date: 04/04/2024
+ms.date: 07/31/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,7 +18,7 @@ Sellers can work more efficiently and improve customer experiences with email as
 
 Copilot for Sales for Microsoft Teams has permissions to participate in Teams meetings and access meeting recordings. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings. Copilot for Sales for Outlook has permissions to access calendar events, contacts, and read and write emails. Copilot for Sales for Word has permissions to read and write documents to prepare sales meeting briefs.
 
-A Microsoft 365 global administrator is required to install and set up Copilot for Sales. Copilot for Sales allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing is not enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
+An appropriate [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Copilot for Sales](install-viva-sales.md). Copilot for Sales allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing is not enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
 
 > [!NOTE]
 > Copilot for Sales is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
@@ -73,4 +73,4 @@ To see the list of supported languages, see [Supported languages](supported-lang
 
 ### See also
 
-[Install Copilot for Sales](install-viva-sales.md) 
+[Install Copilot for Sales](install-viva-sales.md)

@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 07/10/2024
+ms.date: 08/05/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -135,6 +135,7 @@ When you save an email or meeting to your CRM, you can also save any attachments
 - Inline attachments can't be saved to the CRM. Inline attachments are images or files that are shown in the body of an email. Examples include email signatures, images, and files that are pasted into the email body.
 - Attachments can be saved only for emails and meetings that were saved from the highlight card or email banner. They can't be saved for emails and meetings that were saved from a related record card.
 - In Salesforce, attachments are saved as [files](https://help.salesforce.com/s/articleView?id=000387434&type=1) in activity records.
+- In Dynamics 365, if attachment saving for appointments is turned off in server-side synchronization, attachments for meetings can't be saved to CRM from Copilot for Sales. Learn more about [syncing appointment attachments](/power-platform/admin/sync-logic#syncing-appointment-attachments).
 
 ## Edit activities in Outlook
 
