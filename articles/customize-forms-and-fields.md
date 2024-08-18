@@ -71,6 +71,7 @@ You can add new custom or out-of-the-box record types to Copilot for Sales. For 
     > - 1:N and N:1 relationships are supported.
     > - Logical names of record types and fields are displayed to optimize performance.
     > - This step is displayed if the record type you selected in the previous step relates to more than one record type or field. Otherwise, the relationship is automatically set.
+    > - If the desired relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](#impact-of-the-order-of-record-types-on-relationships)
 
     :::image type="content" source="media/select-relationship.png" alt-text="Select relationship for the record type.":::
 
@@ -342,10 +343,19 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 > - When you remove a record type that has related record types in Copilot for Sales, all related record types are also removed.
 > - You can't remove the contact record type.
 
+## Control the order of record types in Outlook side pane
 
-## Control order of record types in side pane
+The order in which record types are added to admin settings determines the order in which they're displayed in the **Copilot for Sales** side pane in Outlook. By default, the order of record types in a new environment is contact, opportunity, and account. Newly added record types are added at the end of the list.
 
-You can control the order in which record types are displayed in the **Copilot for Sales** side pane in Outlook. The order is based on the order in which record types are added to Copilot for Sales. You can change the order by removing and adding record types in the desired order. Default order for new environments is contact, opportunity, and account. Newly added record types are added at the end of the list.
+You can change the order by removing and adding record types in the desired order.
+
+## Impact of the order of record types on relationships
+
+The order of record types in admin settings affects the relationship settings between record types. When you add a new record type, you can select the relationship to existing record types or fields in Copilot for Sales. Only relationships with record types that precede the current record type in the list are displayed in the **Select the relationship for (record type)** window. 
+
+For example, let's assume that the order of record types is contact, opportunity, and account. In this case, the relationship between opportunity and account is displayed in the account settings, and not in the opportunity settings because account is configured after opportunity. Opportunity is considered the source record type, and account is the related record type. In this scenario, Copilot for Sales is configured to fetch accounts related to opportunities, but not opportunities related to accounts. The exception to this is when the CRM view is set to **None**. When no view is selected, default relationships are used instead of any previously selected relationships. In this case, the ordering of record types doesn't matter.
+
+Therefore, adjust the ordering of record types in admin settings by removing and re-adding record types in the desired order. Ensure that the source record type is configured before the related record type. Then, select the desired relationship in the related record type settings.
 
 ## Impact of CRM customization on collaboration spaces
 
@@ -407,4 +417,8 @@ In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesfo
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
 If you've connected Copilot for Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
+
+### Why don't I see the desired relationship for a record type during configuration?
+
+The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](#impact-of-the-order-of-record-types-on-relationships)
 
