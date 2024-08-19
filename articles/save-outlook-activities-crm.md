@@ -105,7 +105,7 @@ Copilot for Sales shows records that are related to the saved contacts in an ema
     The email or meeting is connected to the selected record and saved to the CRM. The **Connected to** card shows the connected record and its type.
 
 > [!NOTE]
-> - If your administrator has enabled capability to save all attachments by default, the eligible attachments are saved to the CRM.
+> - If your administrator has enabled the capability to save all attachments by default, the eligible attachments are saved to the CRM automatically. 
 > - If your administrator has disabled the capability to save attachments or turned off the capability to save all attachments by default, attachments are not saved to the CRM.
 
 ## Save Outlook activities through quick CRM actions in email banners
