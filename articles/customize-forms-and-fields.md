@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
-ms.date: 03/25/2024
+ms.date: 08/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -371,54 +371,4 @@ The following table lists the change in admin settings and the corresponding beh
 |Account is not available, and opportunity is available     |   Collaboration spaces can be created only for opportunities.      |
 |Account and opportunity are not available     |  Collaboration spaces cannot be created. The **Collaborate in Teams** card is not visible on the **Copilot for Sales** pane in Outlook.       |
 
-
-## FAQ
-
-### Are changes in the CRM reflected automatically in Copilot for Sales?
-
-Changes made in the CRM aren't reflected automatically in Copilot for Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](#refresh-data-from-crm)
-
-### Why is the delete option disabled for some fields in the contact record?
-
-If you enable new contact creation from within Copilot for Sales, you can't remove a field from the contact form if it's marked as required in CRM.
-
-### Which fields can't be customized?
-
-The following fields can't be added from the Copilot for Sales **Admin settings** page:
-
-**Dynamics 365**
-
--   Fields of type File, Image, Rich text, or MultiSelect Option Set.
-
--   Entity Id
-
--   All fields where [**IsValidODataAttribute**](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest&preserve-view=true) is set to false. 
-
-**Salesforce**
-
--   Fields of type Geolocation, Text area (rich), Text area (encrypted), External Lookup Relationship, or Picklist (Multi-Select).
-
--   Entity Id
-
-### How many fields can I add to a record?
-
-You can add a maximum of 40 fields to a record.
-
-### Why are some fields non-editable, although the record is set as editable?
-
-A field can be noneditable in the following cases:
-- The field is calculated
-- The field is required in the CRM
-
-### How are hyperlink formula fields from Salesforce CRM displayed in Copilot for Sales?
-
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Copilot for Sales, hyperlink formula fields containing URLs (but no images) are displayed as clickable links.
-
-### Why are users getting an error with error code 4100 when viewing a CRM record?
-
-If you've connected Copilot for Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
-
-### Why don't I see the desired relationship for a record type during configuration?
-
-The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](#impact-of-the-order-of-record-types-on-relationships)
 
