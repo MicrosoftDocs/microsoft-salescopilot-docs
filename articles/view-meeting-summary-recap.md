@@ -93,9 +93,15 @@ With Copilot for Sales, you can quickly draft an email from the meeting recap in
 To create a post-meeting summary email:
 
 1. [Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-in-meeting-recap).
+
 1. Under the **Post-meeting actions** section, select **Draft email**. The email is drafted and opened in a pop-up window.
+
+    :::image type="content" source="media/draft-email-recap.png" alt-text="Screenshot showing AI-generatd draft email from meeting recap in Teams.":::
+
 1. To copy the email content to your clipboard, select **Copy**.
+
 1. To open the email in Outlook web, select **Open in Outlook web**.
+
 1. Review and update the email content as needed, and then send it to your customers.
 
 ### See also
