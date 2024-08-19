@@ -63,4 +63,4 @@ This feature includes the capability to summarize email threads. A summary of an
 
         :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communication card.":::
 
-    - To view recap of the Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
+    - To view the recap of a Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
