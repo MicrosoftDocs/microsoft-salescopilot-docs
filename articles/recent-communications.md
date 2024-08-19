@@ -1,6 +1,6 @@
 ---
 title: View recent communication in Copilot for Sales
-description: Explore Copilot for Sales' new feature allowing users to view recent communication, including emails and Teams meetings, with external contacts.
+description: Explore the new Copilot for Sales feature that you can use to view recent communication (emails and Teams meetings) with external contacts.
 ms.date: 08/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,25 +14,26 @@ ms.custom:
 
 # View recent communication in Copilot for Sales
 
-If you've interacted with a customer recently using Outlook or Teams, you can view your recent email threads and Teams meetings with the customer in the **Recent communication** card in the Copilot for Sales pane in Outlook. You can get AI-based summaries of past email conversations and open the email thread and meeting invitation in Outlook. With this capability, you can quickly catch up on the customer context and move deals forward with informed responses.
+If you recently used Outlook or Teams to interact with a customer, the **Recent communication** card in the Copilot for Sales pane in Outlook shows your recent email threads and Teams meetings with that customer. From the card, you can get AI-based summaries of the email threads. You can also open the email threads and meeting invitations in Outlook. Therefore, you can quickly catch up on the customer context and move deals forward through informed responses.
 
-Information in the **Recent communication** card is displayed in the context of the email or meeting opened in Outlook. You can see up to three most recent email threads and Teams meetings in the last 30 days with the first external contact in the email or meeting. The first external contact is the first contact in the email or meeting who isn't from your organization. Depending on whether the email or meeting is opened in the read or compose mode, the first external contact is picked from below list of email addresses:
+Information on the **Recent communication** card is shown in the context of the email or meeting that is opened in Outlook. You can view up to the three most recent email threads and the three most recent Teams meetings that you had with the first external contact in the open email or meeting during the last 30 days. (The first external contact is the first contact in the email or meeting who isn't from your organization.) Depending on whether the email or meeting was opened in read or compose mode, the first external contact is selected from the following email addresses.
 
-|Outlook item|Read mode|Compose mode|
+| Outlook item | Read mode | Compose mode |
 |---|---|---|
-|Emails|Sender + To + Cc|To + Cc|
-|Meetings|Organizer + Required + Optional|Required + Optional|
+| Email | Sender + To + Cc | To + Cc |
+| Meeting | Organizer + Required + Optional | Required + Optional |
 
-The **Recent communication** card retrieves the following communications from Graph:
-- Communications from the external contact to you 
-- Communications from you to the external contact 
-- Communications from others to the external contact that include you 
+The **Recent communications** card retrieves the following communications from Microsoft Graph:
+
+- Communications from the external contact to you
+- Communications from you to the external contact
+- Communications from others to the external contact that include you
 
 > [!NOTE]
-> - The **Recent communication** card shows most recent email threads that are different from the current thread. It does not show previous responses in the current email thread.
-> - The **Recent communication** card shows meetings that include a Teams meeting link. Meetings without a Teams meeting link aren't shown in the card.
-> - If there are no recent email threads or Teams meetings with the first external contact in the last 30 days, the **Recent communication** card is not displayed.
-> - Recurring meetings are not shown in the **Recent communication** card. However, the card shows the first instance of the recurring meeting if it's within the last 30 days.
+> - The **Recent communication** card shows the most recent email threads that differ from the current thread. It doesn't show previous responses from the current email thread.
+> - The **Recent communication** card shows only meetings that include a Teams meeting link.
+> - The **Recent communication** card doesn't show recurring meetings. However, it shows the first instance of a recurring meeting if that instance occurred during the last 30 days.
+> - If there were no email threads or Teams meetings with the first external contact during the last 30 days, the **Recent communication** card isn't shown.
 
 ## License requirements
 
@@ -40,27 +41,26 @@ The **Recent communication** card retrieves the following communications from Gr
 
 ## Prerequisites
 
-- [Copilot AI features must be turned on in your environment](suggested-replies.md)
+- [Copilot AI features must be turned on in your environment.](suggested-replies.md)
 
 ## Supported languages and length for email summarization
 
-This feature includes a capability to summarize email threads. The email must be in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales) to generate the summarized email thread. Email summary is generated only for emails or email threads with more than 1,000 characters, which is about 180 words.
+This feature includes the capability to summarize email threads. A summary of an email thread can be generated only if the email is in one of the [supported languages](supported-languages.md#ai-in-copilot-for-sales). A summary is generated only for emails or email threads that have more than 1,000 characters (that is, more than about 180 words).
 
 ## View recent communication
 
-1. [Open the Copilot for Sales side pane in Outlook](open-app.md#access-copilot-for-sales-in-outlook).
-
+1. In Outlook, [open the Copilot for Sales side pane](open-app.md#access-copilot-for-sales-in-outlook).
 1. Go to the **Recent communication** card.
 
-    By default, the card shows the most recent email thread and Teams meeting involving the first external contact, if any existed in the last 30 days. To see up to three email threads and three Teams meetings in the last 30 days, select **See all**.
+    By default, the card shows the most recent email thread and Teams meeting that involve the first external contact, if there were any during the last 30 days. To view up to three email threads and three Teams meetings from the last 30 days, select **See all**.
 
-    :::image type="content" source="media/recent-comms-card.png" alt-text="Screenshot showing the Recent communication card.":::
+    :::image type="content" source="media/recent-comms-card.png" alt-text="Screenshot showing the most recent email thread and Teams meeting on the Recent communication card.":::
 
-1. To open the email thread or meeting invitation in Outlook, select its name.
+1. Follow these steps to work the email threads and Teams meetings on the **Recent communication** card: 
 
-1. To generate a summary of the email thread, select **Summarize**. The email summary is displayed in the **Email summary** card.
+    - To open the email thread or meeting invitation in Outlook, select its name.
+    - To generate a summary of an email thread, select **Summarize**. The email summary is shown on the **Email summary** card.
 
-    :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communication card.":::
+        :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communication card.":::
 
-1. To view recap of the Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
-    
+    - To view recap of the Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
