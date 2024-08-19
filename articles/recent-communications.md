@@ -56,7 +56,7 @@ This feature includes the capability to summarize email threads. A summary of an
 
     :::image type="content" source="media/recent-comms-card.png" alt-text="Screenshot showing the most recent email thread and Teams meeting on the Recent communication card.":::
 
-1. Follow these steps to work the email threads and Teams meetings on the **Recent communication** card: 
+1. Follow these steps to work with the email threads and Teams meetings on the **Recent communication** card: 
 
     - To open the email thread or meeting invitation in Outlook, select its name.
     - To generate a summary of an email thread, select **Summarize**. The email summary is shown on the **Email summary** card.
