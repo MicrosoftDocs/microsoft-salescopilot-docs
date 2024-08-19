@@ -10,6 +10,8 @@
     href: whats-new.md
   - name: Sales Copilot changing to Copilot for Sales
     href: whats-new-copilot-sales.md
+  - name: July 2024
+    href: jul-24.md
 
 - name: Product overview
   items:
@@ -150,7 +152,7 @@
         href: suggested-crm-updates.md
       - name: View key sales info
         href: key-sales-info.md
-      - name: View recent communications
+      - name: View recent communication
         href: recent-communications.md
       - name: View People.ai insights (preview)
         href: people-ai-insights.md
