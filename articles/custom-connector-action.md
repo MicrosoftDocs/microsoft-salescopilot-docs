@@ -52,7 +52,7 @@ Before Copilot for Sales users can access a connector action that is published i
 
 ## Get your connector and action certified (optional)
 
-After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
+After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. For more information, see [Certify your Connector - Overview](https://learn.microsoft.com/en-us/connectors/custom-connectors/submit-certification) and follow the steps listed here: [Prepare Power Platform connector and plugin files for certification](https://learn.microsoft.com/en-us/connectors/custom-connectors/certification-submission)
 
 ## See also
 
