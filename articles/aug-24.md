@@ -25,7 +25,7 @@ We're excited to announce our newest updates! This article summarizes general av
 | Post meeting follow-up email |Sellers can easily send AI-generated follow up emails post their Teams meetings to recipients. |Teams|TBD|Automatically|General availability|
 |Teams meeting recaps in recent communication|Sellers can directly navigate to recaps of Teams meetings involving the customer. Recurring meetings are also supported. |Outlook|TBD|Automatically|General availability|
 |Date and time support for record creation and editing|Sellers can start defining specific dates and times when they create or edit CRM records using Copilot for Sales (in Outlook). |Outlook|NA|Automatically|General availability|
-|Admin level setting for controlling attachment save default behavior| Admins can control the default behavior of saving attachments to CRM.|Outlook|NA|Administrator|General availability|
+|Configure the default behavior for saving attachments| Admins can configure the default behavior of saving attachments to CRM.|Outlook|NA|Administrator|General availability|
 
 
 \* Learn more about [Copilot for Sales administrator settings](administrator-settings-for-viva-sales.md).
