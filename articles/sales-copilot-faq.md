@@ -1,7 +1,7 @@
 ---
 title: Microsoft Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 08/12/2024
+ms.date: 08/21/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -285,7 +285,7 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
 
 ### Are changes in the CRM reflected automatically in Copilot for Sales?
 
-Changes made in the CRM aren't reflected automatically in Copilot for Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](#refresh-data-from-crm)
+Changes made in the CRM aren't reflected automatically in Copilot for Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
 
 ### Why is the delete option disabled for some fields in the contact record?
 
