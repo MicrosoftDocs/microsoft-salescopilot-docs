@@ -327,7 +327,7 @@ In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesfo
 
 If you've connected Copilot for Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
 
-### Why don't I see the desired relationship for a record type during configuration?
+### Why don't I see the required relationship for a record type during configuration?
 
 The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](customize-forms-and-fields.md#impact-of-the-order-of-record-types-on-relationships)
 
