@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
-ms.date: 07/09/2024
+ms.date: 08/21/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -52,7 +52,7 @@ Before Copilot for Sales users can access a connector action that is published i
 
 ## Get your connector and action certified (optional)
 
-After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
+After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. Learn more about [getting your Power Platform connector and plugin certified](/connectors/custom-connectors/submit-certification). To get your connector and action certified, you must [prepare Power Platform connector and plugin files for certification](/connectors/custom-connectors/certification-submission).
 
 ## See also
 
