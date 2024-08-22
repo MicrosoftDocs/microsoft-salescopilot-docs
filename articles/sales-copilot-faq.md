@@ -289,7 +289,7 @@ Changes made in the CRM aren't reflected automatically in Copilot for Sales. You
 
 ### Why is the delete option disabled for some fields in the contact record?
 
-If you enable new contact creation from within Copilot for Sales, you can't remove a field from the contact form if it's marked as required in CRM.
+If you enable new contact creation from within Copilot for Sales, you can't remove a field from the contact record if it's marked as required in CRM.
 
 ### Which fields can't be customized?
 
@@ -315,13 +315,13 @@ You can add a maximum of 40 fields to a record.
 
 ### Why are some fields non-editable, although the record is set as editable?
 
-A field can be noneditable in the following cases:
+A field can be non-editable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
 ### How are hyperlink formula fields from Salesforce CRM displayed in Copilot for Sales?
 
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Copilot for Sales, hyperlink formula fields containing URLs (but no images) are displayed as clickable links.
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Copilot for Sales, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
 
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
