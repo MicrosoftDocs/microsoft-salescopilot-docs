@@ -1,7 +1,7 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
 description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using Microsoft Copilot for Sales in Outlook.
-ms.date: 06/10/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,6 +15,8 @@ ai-usage: ai-assisted
 # Configure how Outlook emails and events are saved to CRM
 
 As an administrator, you can configure the fields that sellers can use to categorize emails and meetings that they save to the customer relationship management (CRM) system. By categorizing emails and meetings in their CRM inbox, sellers can easily find and track their interactions with customers. For example, sellers might want to categorize emails and meetings based on priority, account, or deal stage.
+
+You can also control whether sellers can save attachments along with the email or meeting to CRM. When attachments saving is enabled, you can also configure whether all attachments are selected or not by default to be saved to CRM. In either case, sellers can choose which attachments to save when they save the email or meeting to CRM.
 
 ## Prerequisites
 
@@ -38,3 +40,26 @@ You can select the fields that are saved to the CRM together with emails or meet
 1. Save your changes.
 
 The fields that you configured are now available to sellers when they save emails or meetings to the CRM. For more information, go to [Save Outlook activities to your CRM](save-outlook-activities-crm.md).
+
+## Configure attachment saving settings
+
+1. In Copilot for Sales admin settings, select **Save to (CRM)**.
+
+1. To configure attachment saving settings for emails:
+
+    1. Under the **Save emails to (CRM)** section, turn on **Save attachments with emails**.
+
+    1. To save all attachments by default, select **Save all attachments in the email by default**. If you don't select this option, sellers can choose which attachments to save when they save the email to CRM. 
+
+        :::image type="content" source="media/save-attach-admin.png" alt-text="Screenshot of Save attachments with emails admin settings.":::
+
+1. To configure attachment saving settings for meetings:
+
+    1. Under the select **Save meetings to (CRM)**, turn on **Save attachments with meetings**.
+
+    1. To save all attachments by default, select **Save all attachments in the meeting by default**. If you don't select this option, sellers can choose which attachments to save when they save the meeting to CRM.
+
+### See also
+
+[Save Outlook activities to your CRM](save-outlook-activities-crm.md)
+

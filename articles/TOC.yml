@@ -81,7 +81,7 @@
       href: hierarchy-settings-sf.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
-  - name: Turn off Copilot for Sales features in Microsoft 365 apps
+  - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
