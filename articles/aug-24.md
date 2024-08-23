@@ -22,15 +22,10 @@ We're excited to announce our newest updates! This article summarizes general av
 
 | Feature | Details | Client | Resources | Enabled by * | Availability |
 |------------|-------------|------------|----------|-----------|----------|
-| Post meeting follow-up email |Sellers can easily send AI-generated follow up emails post their Teams meetings to recipients. |Teams|TBD|Automatically|General availability|
-|Teams meeting recaps in recent communication|Sellers can directly navigate to recaps of Teams meetings involving the customer. Recurring meetings are also supported. |Outlook|TBD|Automatically|General availability|
+| Post meeting follow-up email |Sellers can easily send AI-generated follow up emails post their Teams meetings to recipients. |Teams|[Create a post-meeting summary email](view-meeting-summary-recap.md#create-a-post-meeting-summary-email) |Automatically|General availability|
+|Teams meeting recaps in recent communication|Sellers can directly navigate to recaps of Teams meetings involving the customer. Recurring meetings are also supported. |Outlook|[View recent communication in Copilot for Sales](recent-communications.md)|Automatically|General availability|
 |Date and time support for record creation and editing|Sellers can start defining specific dates and times when they create or edit CRM records using Copilot for Sales (in Outlook). |Outlook|NA|Automatically|General availability|
-|Configure the default behavior for saving attachments| Admins can configure the default behavior of saving attachments to CRM.|Outlook|NA|Administrator|General availability|
+|Configure the default behavior for saving attachments| Admins can configure the default behavior of saving attachments to CRM.|Outlook|[Configure attachment saving settings](save-additional-details-outlook.md#configure-attachment-saving-settings)|Administrator|General availability|
 
 
 \* Learn more about [Copilot for Sales administrator settings](administrator-settings-for-viva-sales.md).
-
-
-## Additional resources
-
-[What's New in Copilot for Sales - August 2024](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales-blog/what-s-new-in-copilot-for-sales-august-2024/ba-p/4202592)
