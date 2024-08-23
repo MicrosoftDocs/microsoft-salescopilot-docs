@@ -14,7 +14,7 @@ ms.custom:
 
 # View recent communication in Copilot for Sales
 
-If you recently used Outlook or Teams to interact with a customer, the **Recent communication** card in the Copilot for Sales pane in Outlook shows your recent email threads and Teams meetings with that customer. From the card, you can get AI-based summaries of the email threads. You can also open the email threads and meeting invitations in Outlook. Therefore, you can quickly catch up on the customer context and move deals forward through informed responses.
+If you recently used Outlook or Teams to interact with a customer, the **Recent communication** card in the Copilot for Sales pane in Outlook shows your recent email threads and Teams meetings with that customer. From the card, you can get AI-generated summaries of the email threads and navigate to AI-generated meeting recaps in Teams. You can also open the email threads and meeting invitations in Outlook. Therefore, you can quickly catch up on the customer context and move deals forward through informed responses.
 
 Information on the **Recent communication** card is shown in the context of the email or meeting that is opened in Outlook. You can view up to the three most recent email threads and the three most recent Teams meetings that you had with the first external contact in the open email or meeting during the last 30 days. (The first external contact is the first contact in the email or meeting who isn't from your organization.) Depending on whether the email or meeting was opened in read or compose mode, the first external contact is selected from the following email addresses.
 
@@ -32,8 +32,8 @@ The **Recent communications** card retrieves the following communications from M
 > [!NOTE]
 > - The **Recent communication** card shows the most recent email threads that differ from the current thread. It doesn't show previous responses from the current email thread.
 > - The **Recent communication** card shows only meetings that include a Teams meeting link.
-> - The **Recent communication** card doesn't show recurring meetings. However, it shows the first instance of a recurring meeting if that instance occurred during the last 30 days.
 > - If there were no email threads or Teams meetings with the first external contact during the last 30 days, the **Recent communication** card isn't shown.
+> - The option to see a meeting recap is available only if the Teams meeting was recorded and you have access to the recording.
 
 ## License requirements
 
@@ -58,7 +58,9 @@ This feature includes the capability to summarize email threads. A summary of an
 
 1. Follow these steps to work with the email threads and Teams meetings on the **Recent communication** card: 
 
-    - To open the email thread or meeting invitation in Outlook, select its name.
-    - To generate a summary of an email thread, select **Summarize**. The email summary is shown on the **Email summary** card.
+    - To open an email thread or a meeting invitation in Outlook, select its name.
+    - To generate a summary of the email thread, select **Summarize**. The email summary is shown on the **Email summary** card.
 
-        :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing an email summary generated from an email thread on the Recent communications card.":::
+        :::image type="content" source="media/recent-comms-email-summary.png" alt-text="Screenshot showing email summary opened from the Recent communication card.":::
+
+    - To view the recap of a Teams meeting, select **View recap**. You are navigated to the [meeting recap in Teams](view-meeting-summary-recap.md).
