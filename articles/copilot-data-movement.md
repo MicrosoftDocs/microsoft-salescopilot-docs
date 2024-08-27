@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies
 description: Learn why you need to opt in to allow Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
-ms.date: 03/18/2024
+ms.date: 08/28/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,7 +23,7 @@ Effective February 21, 2024, for new customers, the following table describes wh
 | Region where your CRM environment is hosted | Consent required for data movement across regions? | How to allow data to move across regions|
 |-------------------|-------------------|-------------------|
 | Australia</br>United Kingdom</br>United States | No | No action required. Data doesn't move across regions in this scenario.|
-| Europe | Yes\* | No action required. Data doesn't move outside the [EU Data Boundary](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb) in this scenario.<br><br>You can clear the [**Allow moving data outside boundaries**](suggested-replies.md) checkbox, if you want to. |
-| Asia</br>Brazil</br>Canada</br>France</br>Germany</br>India</br>Japan</br>Norway</br>South Africa</br>South Korea</br>United Arab Emirates | Yes | [Provide consent in admin settings](suggested-replies.md). |
+| Europe | Yes\* | No action required. Data doesn't move outside the [EU Data Boundary](https://www.microsoft.com/en-us/trust-center/privacy/european-data-boundary-eudb) in this scenario.<br><br>By default, the [**Allow moving data outside boundaries**](suggested-replies.md) checkbox is selected. <br><br> **Note**: If you don't want to provide data movement consent, you can clear the **Allow moving data outside boundaries** checkbox. In this case, Copilot AI features won't be available to your sellers and meeting insights won't be generated.|
+| Asia</br>Brazil</br>Canada</br>France</br>Germany</br>India</br>Japan</br>Norway</br>South Africa</br>South Korea</br>United Arab Emirates | Yes | [Provide consent in admin settings](suggested-replies.md). <br><br> **Note**:If you don't provide data movement consent, Copilot AI features won't be available to your sellers and meeting insights won't be generated.|
 
 \* If your CRM environment is hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary.
