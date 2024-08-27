@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -112,7 +112,7 @@ Copilot for Sales shows records that are related to the saved contacts in an ema
 
 When you read a customer email from external contacts, if you didn't save the email to your CRM, the banner message at the top of the email includes a quick CRM action that you can use to save the email.
 
-1. Open or compose an email that has at least one external contact.
+1. Open an email that has at least one external contact.
 1. In the banner message, select **Save this email**.
 1. In the **Copilot for Sales** pane, under **Connect to a record**, select the record that you want to connect the meeting to.
 
@@ -125,8 +125,7 @@ When you read a customer email from external contacts, if you didn't save the em
 1. Select **Save**.
 
 > [!NOTE]
-> - Currently, banner messages that include quick CRM actions are available on up to two external emails per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
-> - This capability is being rolled out gradually. It's expected to be available to all users by the end of May 2024.
+> - Currently, banner messages that include quick CRM actions are available on up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
 ### Attachment considerations
 
@@ -175,3 +174,7 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
     :::image type="content" source="media/change-connected.png" alt-text="Screenshot showing the Remove email from Dynamics 365 option on the More actions menu on the Connected to card.":::
 
     The email is deleted from Dynamics 365, and you receive a confirmation message.
+
+### See also
+
+[Configure how Outlook emails and events are saved to CRM](save-additional-details-outlook.md)
