@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 04/15/2024
+ms.date: 08/23/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
