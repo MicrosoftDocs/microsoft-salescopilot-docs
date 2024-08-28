@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to use Copilot for Sales to save your Outlook emails and meetings to Dynamics 365 or Salesforce CRM.
-ms.date: 08/28/2024
+ms.date: 08/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
