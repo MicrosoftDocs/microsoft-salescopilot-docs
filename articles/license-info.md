@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales license overview
 description: Learn about licenses for Copilot for Sales, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
-ms.date: 03/19/2024
+ms.date: 09/03/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -39,7 +39,10 @@ Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations 
 
 ## Capabilities
 
-The following table provides a high-level overview of the capabilities that are available with Copilot for Sales. It includes information about where the capabilities can be accessed. This list of capabilities isn't exhaustive.
+The following table provides a high-level overview of the capabilities that are available with Copilot for Sales. It also shows where the capabilities can be accessed from. 
+
+> [!NOTE]
+> The list of capabilities is not exhaustive. The capabilities might change over time or release in future updates. Keep track of changes on the [Microsoft Copilot for Sales release planner](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales) site.
 
 | Capabilities | Accessed from |
 |--------------|---------------|
@@ -54,4 +57,6 @@ For information about pricing, go to [Features and pricing](https://www.microsof
 
 ## See also
 
-[Buy Copilot for Sales](buy-license.md)
+[Buy Copilot for Sales](buy-license.md)<br>
+[Install Copilot for Sales (admin-deployed)](install-viva-sales.md)<br>
+[Enable Copilot for Sales licenses](enable-license.md)
