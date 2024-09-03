@@ -333,6 +333,9 @@
 - name: Copilot for Sales adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
 
+- name: Copilot for Sales success kit
+  href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
+
 - name: Deprecations in Copilot for Sales
   href: deprecations-copilot-for-sales.md
 
