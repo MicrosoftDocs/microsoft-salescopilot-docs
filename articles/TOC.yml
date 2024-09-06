@@ -164,17 +164,7 @@
         href: share-insights-from-outlook-to-teams.md
       
     - name: More options
-      items:
-      - name: Switch environments or CRM
-        href: switch-environments-crm.md
-      - name: View diagnostics data
-        href: view-diagnostics-data.md
-      - name: Share feedback
-        href: share-feedback.md
-      - name: Sign out of Copilot for Sales
-        href: sign-out-sales-copilot.md
-      - name: Delete your personal data from Copilot for Sales
-        href: delete-personal-data.md
+      href: more-options.md
 
   - name: Capabilities in Teams
     items:
