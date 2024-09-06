@@ -598,6 +598,11 @@
         "source_path": "articles/view-diagnostics-data.md",
         "redirect_url": "/microsoft-sales-copilot/more-options",
         "redirect_document_id": false
-      }                                   
+      },
+      {
+        "source_path": "articles/supported-languages.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction#supported-languages",
+        "redirect_document_id": false
+      }                                    
   ]
 }
