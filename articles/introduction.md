@@ -69,7 +69,7 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 
 ## Supported languages
 
-To see the list of supported languages, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+For the list of supported languages, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
 ### See also
 
