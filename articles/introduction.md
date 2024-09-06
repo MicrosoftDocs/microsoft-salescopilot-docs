@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft Copilot for Sales
 description: Get to know Copilot for Sales
-ms.date: 07/31/2024
+ms.date: 09/06/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -69,7 +69,7 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 
 ## Supported languages
 
-To see the list of supported languages, see [Supported languages](supported-languages.md).
+To see the list of supported languages, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
 ### See also
 
