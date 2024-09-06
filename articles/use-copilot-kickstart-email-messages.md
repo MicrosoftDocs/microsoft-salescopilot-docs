@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 04/04/2024
+ms.date: 09/04/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -403,9 +403,6 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
 1. In the **Key email info** card, select **Draft an email**.
 
     Under the **More options** section, select **Summarize a sales meeting**. Five recently transcribed meetings are displayed in the list. Select the meeting that you want to summarize.
-
-   > [!TIP]
-   > You can hover over a meeting and select :::image type="icon" source="media/open-record.png" border="false"::: to open the meeting summary in Teams.
 
     :::image type="content" source="media/summarize-meeting.png" alt-text="Screenshot showing the summarized meeting option.":::
 
