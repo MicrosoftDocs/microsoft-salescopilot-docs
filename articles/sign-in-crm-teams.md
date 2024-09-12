@@ -1,7 +1,7 @@
 ---
 title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get enriched experience with CRM data.
-ms.date: 07/22/2024
+ms.date: 09/16/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
