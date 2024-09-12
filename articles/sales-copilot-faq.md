@@ -1,7 +1,7 @@
 ---
 title: Microsoft Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 06/20/2024
+ms.date: 08/22/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -224,6 +224,22 @@ Users may need to change a few settings to get the best experience of Copilot fo
 
 - **Chrome**: Turn off "Block third-party cookies."
 
+### Why do I see the older icon for Copilot for Sales in Outlook desktop?
+
+In some cases, you may see the older icon for Copilot for Sales in Outlook desktop. 
+
+:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of Copilot for Sales":::
+
+To see the new icon, you must clear the Outlook cache by following these steps:
+
+1. Close Outlook, and then run the following commands to delete the cache files. Ensure to replace `<alias>` with your alias.
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\microsoft\office\16.0\ResourceInfoCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Outlook\HubAppCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Outlook\HubAppFileCache"`
+    - `rmdir /s /q "C:\Users\<alias>\AppData\Local\Microsoft\Office\16.0\Wef"`
+
+1. Open Outlook.
+
 ### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
@@ -248,6 +264,72 @@ Ensure that the following settings are set to true:
 - WacViewingOnPrivateComputersEnabled
 - DirectFileAccessOnPublicComputersEnabled
 - DirectFileAccessOnPrivateComputersEnabled
+
+### Why do users see duplicate icons for Copilot for Sales in Outlook desktop?
+
+Users may see duplicate icons for Copilot for Sales due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
+
+1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
+
+1.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
+
+    The **Microsoft Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
+
+1. Select **Merge both versions** and accept the permissions.
+
+    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
+
+    After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
+   
+## Forms and fields customization
+
+### Are changes in the CRM reflected automatically in Copilot for Sales?
+
+Changes made in the CRM aren't reflected automatically in Copilot for Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
+
+### Why is the delete option disabled for some fields in the contact record?
+
+If you enable new contact creation from within Copilot for Sales, you can't remove a field from the contact record if it's marked as required in CRM.
+
+### Which fields can't be customized?
+
+The following fields can't be added from the Copilot for Sales **Admin settings** page:
+
+**Dynamics 365**
+
+-   Fields of type File, Image, Rich text, or MultiSelect Option Set.
+
+-   Entity Id
+
+-   All fields where [**IsValidODataAttribute**](/dotnet/api/microsoft.xrm.sdk.metadata.attributemetadata.isvalidodataattribute?view=dataverse-sdk-latest&preserve-view=true) is set to false. 
+
+**Salesforce**
+
+-   Fields of type Geolocation, Text area (rich), Text area (encrypted), External Lookup Relationship, or Picklist (Multi-Select).
+
+-   Entity Id
+
+### How many fields can I add to a record?
+
+You can add a maximum of 40 fields to a record.
+
+### Why are some fields non-editable, although the record is set as editable?
+
+A field can be non-editable in the following cases:
+- The field is calculated
+- The field is required in the CRM
+
+### How are hyperlink formula fields from Salesforce CRM displayed in Copilot for Sales?
+
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Copilot for Sales, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
+
+### Why are users getting an error with error code 4100 when viewing a CRM record?
+
+If you've connected Copilot for Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
+
+### Why don't I see the required relationship for a record type during configuration?
+
+The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](customize-forms-and-fields.md#impact-of-the-order-of-record-types-on-relationships)
 
 ## Security, Privacy and Compliance 
 
@@ -286,4 +368,5 @@ The Dynamics App for Outlook is strictly an enablement app that bridges the gap 
 - [Copilot for Microsoft 365 FAQ](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-365-copilot-500fc65e-9973-4e42-9cf4-bdefb0eb04ce)
 - [Microsoft Copilot for Sales GA blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/02/01/microsoft-copilot-for-sales-and-copilot-for-service-are-now-generally-available/)
 - [Ignite announcements blog](https://aka.ms/Ignite2023BAannounceblog)
-- [Copilot for Sales Adoption page](https://adoption.microsoft.com/en-us/copilot-for-sales/)
+- [Copilot for Sales adoption resources](https://adoption.microsoft.com/en-us/copilot-for-sales/)
+- [Copilot for Sales success kit](https://adoption.microsoft.com/copilot-for-sales/success-kit/)

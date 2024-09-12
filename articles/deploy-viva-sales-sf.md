@@ -100,7 +100,7 @@ Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM
 
 When the first user in the tenant connects to Salesforce CRM, Copilot for Sales provisions a Dataverse environment to store the data generated  while using Copilot for Sales. Refer to [Copilot for Sales architecture](architecture.md) for more details on how the environment is used and what data is stored.
 
-Copilot for Sales automatically sets one of the Power Platform administrators or Microsoft 365 global administrators as the environment administrator. We recommend you review the administrators in the environment after it is created to ensure that the right users are set as administrators.
+Copilot for Sales automatically assigns all the Power Platform administrators and Microsoft 365 global administrators as the System Administrator role in the **Trial** environment. We recommend you review the administrators in the environment after it is created to ensure that the right users are set as administrators.
 
 > [!NOTE]
 > The first user connecting to Salesforce CRM from Copilot for Sales will see an error if they are not an admin user and trial environment creation by non-admin users is disabled for the tenant in the Power platform admin center.
