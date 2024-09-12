@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in a Teams conversation or email
 description: Learn how to share a CRM record in a Teams conversation or email using Copilot for Sales.
-ms.date: 07/22/2024
+ms.date: 09/16/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
