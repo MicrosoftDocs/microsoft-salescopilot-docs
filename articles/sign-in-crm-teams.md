@@ -32,7 +32,7 @@ If you have any Dynamics 365 environment (production or non-production) that has
 For first and second scenarios, a message is displayed at the top-right corner in the **Home** tab of the Copilot for Sales app. It shows the environment you are connected to automatically. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
 - **Switch environments**: Select this option to switch to another Dynamics 365 environment. In the **Connected to Dynamics 365** dialog box, select another environment from the **Choose a Dynamics 365 environment** list, and then select **Switch environment**.
-- **Switch to Salesforce® CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
+- **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
 - **Disconnect**: Disconnect from the current environment. You can connect to another environment later.
 
 :::image type="content" source="media/single-env-teams.png" alt-text="Screenshot showing connected to a single environment.":::
@@ -59,12 +59,12 @@ You must be connected to your CRM to interact with CRM data in the Copilot for S
 
 1. On the **Home** tab, select **Connect to CRM** in the upper-right corner, and then connect to your CRM using one of the following options:
 
-    - **Salesforce® CRM**: Select your Salesforce environment, and then select **Connect to Salesforce® CRM**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
-    
     - **Dynamics 365**: You're connected automatically using your Office credentials. Select your Dynamics 365 environment, and then select **Connect to environment**.
 
         Your Dynamics 365 environment matches the URL your browser shows when you sign in to Dynamics 365. For example, if the URL is `salesorg.crm.dynamics.com`, select **salesorg.crm.dynamics.com** in the list.
-        
+    
+    - **Salesforce® CRM**: Select your Salesforce environment, and then select **Connect to Salesforce® CRM**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
+    
     :::image type="content" source="media/manual-sign-in-teams.png" alt-text="Screenshot showing sign in button.":::
 
 
