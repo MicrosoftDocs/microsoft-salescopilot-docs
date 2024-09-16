@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
-ms.date: 08/21/2024
+ms.date: 09/16/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -33,6 +33,9 @@ Be sure to use an environment where Dynamics 365 apps are enabled, because envir
 When you set up authentication for the connector, be sure to use the OAuth 2.0 authentication type, and be sure to use Microsoft Entra ID as the authentication provider. (Microsoft Entra ID was previously known as Azure Active Directory or Azure AD.) In this way, your back-end service can receive Microsoft Entra ID tokens that can then be exchanged when Microsoft services such as Microsoft Graph are invoked. The connector and the back-end service are secured by using two different application registrations, as described in [Set up Microsoft Entra ID authentication](/connectors/custom-connectors/create-web-api-connector#set-up-microsoft-entra-id-authentication).
 
 For the steps to create a custom connector, set up authentication, and test the connector, go to [Create a custom connector from an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition).
+
+> [!NOTE]
+> To automatically create connection for connector plugins using Microsoft Entra ID, you must set the **Enable on-behalf-of login** value to "true" in the **Security** section of the custom connector. For more information, see [Manage connections](/power-apps/maker/canvas-apps/add-manage-connections#consent-dialog-fine-grained-permssions)
 
 ## Create and publish an action in Copilot Studio
 

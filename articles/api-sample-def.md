@@ -1,7 +1,7 @@
 ---
 title: Sample connector (preview)
-description: Sample connector to help you easily start to extend Copilot for Sales.
-ms.date: 05/29/2024
+description: Sample connector to help you easily start to extend Microsoft 365 Copilot for Sales.
+ms.date: 09/16/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,7 +19,12 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Refer to the following guidelines when you create the OpenAPI definition for the connector and its actions:
+You can use the certified connector action based on [Contoso Hub - Connectors](/connectors/contosohub/) to check out the extensibility points available in Microsoft 365 Copilot for Sales.
+
+To try the certified connector action, follow the instructions in [Manage extensions for Copilot for Sales](/microsoft-copilot-studio/manage-copilot-for-sales) and enable the Contoso Hub connector action for Copilot for Sales.
+
+
+You can edit the sample connector and action to get started quickly. Refer to the following guidelines when you edit the create the connector or its actions:
 
 - The sample connector contains placeholders for the API paths. You can replace these placeholders with the actual API paths.
 - HTTP methods should match the ones that are specified in the sample OpenAPI definition.
