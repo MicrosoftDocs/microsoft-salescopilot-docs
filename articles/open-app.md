@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Access the Copilot for Sales app
 
-Microsoft Copilot for Sales is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
+Microsoft 365 Copilot for Sales is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
 
 If you don't have access to Copilot for Sales, ask your administrator to install it.
 

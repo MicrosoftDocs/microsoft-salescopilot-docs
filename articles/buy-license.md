@@ -14,7 +14,7 @@ ms.custom:
 
 # Buy Copilot for Sales
 
-Microsoft Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects to sales solutions to provide next-generation AI and customer relationship management (CRM) platform updates and insights across productivity workflows. Subscriptions are licensed per user and include access to Copilot for Microsoft 365.
+Microsoft 365 Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects to sales solutions to provide next-generation AI and customer relationship management (CRM) platform updates and insights across productivity workflows. Subscriptions are licensed per user and include access to Microsoft 365 Copilot.
 
 You can buy Copilot for Sales through the following sources:
 

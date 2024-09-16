@@ -55,7 +55,7 @@ If you've installed the Copilot for Sales add-in for Outlook from the Microsoft 
 
 1.  In the Microsoft 365 admin center, go to **Settings** &gt; **Integrated apps**.
 
-2.  Select **Microsoft Copilot for Sales** and then select the **Configuration** tab.
+2.  Select **Microsoft 365 Copilot for Sales** and then select the **Configuration** tab.
 
 3. Select the app to be removed and then select **Remove**.
 

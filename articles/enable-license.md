@@ -14,7 +14,7 @@ ms.custom:
 
 # Enable Copilot for Sales licenses
 
-The new Copilot for Sales license brings together the power of Copilot for Microsoft 365 and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.
+The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.
 
 To enable Copilot for Sales licenses, you must complete these steps:
 
@@ -64,7 +64,7 @@ When the personal app is opened, it should have **Home** and **Settings** tabs. 
 
 :::image type="content" source="media/outlook-personal-app.svg" alt-text="Screenshot showing a personal app that has Home and Settings tabs in Outlook.":::
 
-## Integrated experiences with Copilot for Microsoft 365
+## Integrated experiences with Microsoft 365 Copilot
 
 This section describes the integrated experiences that Copilot for Sales provides across Microsoft 365 applications.
 

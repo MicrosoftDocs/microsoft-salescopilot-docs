@@ -1,5 +1,5 @@
 ---
-title: Extend Microsoft Copilot for Sales with partner applications (preview)
+title: Extend Microsoft 365 Copilot for Sales with partner applications (preview)
 description: Extend Copilot for Sales to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
 ms.date: 06/14/2024
 ms.topic: overview
@@ -12,13 +12,13 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Extend Microsoft Copilot for Sales with partner applications (preview)
+# Extend Microsoft 365 Copilot for Sales with partner applications (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Microsoft Copilot for Sales is an AI assistant that is designed to help sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
+Microsoft 365 Copilot for Sales is an AI assistant that is designed to help sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
 Out of the box, Copilot for Sales connects to customer relationship management (CRM) systems such as Salesforce Sales Cloud and Dynamics 365 Sales. However, there is more to sales than just CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Copilot for Sales experience. 
 

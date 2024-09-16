@@ -42,5 +42,5 @@ If you need to delete Copilot for Sales data (for example, delete data for a spe
 
 ### See also
 
-[Introduction to Microsoft Copilot for Sales](introduction.md)<br>
+[Introduction to Microsoft 365 Copilot for Sales](introduction.md)<br>
 [Install Copilot for Sales](install-viva-sales.md)

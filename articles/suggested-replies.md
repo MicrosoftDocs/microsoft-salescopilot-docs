@@ -1,6 +1,6 @@
 ---
 title: Turn on Copilot AI features
-description: Learn how to turn on AI features in Microsoft Copilot for Sales to help your sellers write better emails and stay on top of their deals.
+description: Learn how to turn on AI features in Microsoft 365 Copilot for Sales to help your sellers write better emails and stay on top of their deals.
 ms.date: 03/18/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
