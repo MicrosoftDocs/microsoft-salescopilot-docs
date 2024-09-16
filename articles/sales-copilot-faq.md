@@ -15,9 +15,9 @@ We've compiled a list of frequently asked questions and provided brief answers t
 
 ## General
 
-### What is Copilot for Sales?  
+### What is Microsoft 365 Copilot for Sales?  
 
-Microsoft 365 Copilot for Sales brings together the power of Microsoft 365 Copilot with seller workflows. Microsoft 365 Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
+Copilot for Sales brings together the power of Microsoft 365 Copilot with seller workflows. Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
 Some of the new innovations enabled in Copilot for Sales include a newly integrated experience with Microsoft Word and Microsoft Teams.  Sellers can prompt Copilot to create a meeting preparation brief in Microsoft Word, automatically populated with customer information such as an account and opportunity summary, names and titles of meeting participants, open tasks, highlights from recent meetings and email threads, and more. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
 
@@ -35,7 +35,7 @@ Get information about license requirements, role requirements, and region availa
 
 ## Licensing
 
-### When is Microsoft 365 Copilot for Sales available for purchase?
+### When is Copilot for Sales available for purchase?
 
 Copilot for Sales includes the Microsoft 365 Copilot subscription and will be available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales will be available to purchase on CSP from March 1, 2024. Copilot for Sales includes the rich sales specific capabilities alongside Microsoft 365 Copilot. It's priced at $50 per user/month, or $20 per user/month if the customer already has Microsoft 365 Copilot. [See our pricing page for more information](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
 
@@ -61,35 +61,35 @@ Future innovation in Copilot across the Microsoft 365 apps will require purchase
 
 ### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who purchased that standalone subscription?  
 
-Microsoft 365 Copilot for Sales subscription replaces the Microsoft Sales Copilot subscription. The capabilities in Sales Copilot will continue to be available and further enhanced with the power of Microsoft 365 Copilot, under the new Copilot for Sales subscription. The integration with Word and enhanced integration with Teams are just some examples of the innovations to come.
+Copilot for Sales subscription replaces the Microsoft Sales Copilot subscription. The capabilities in Sales Copilot will continue to be available and further enhanced with the power of Microsoft 365 Copilot, under the new Copilot for Sales subscription. The integration with Word and enhanced integration with Teams are just some examples of the innovations to come.
 
 We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality during their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
 
 ## Availability
 
-### What languages will Microsoft 365 Copilot for Sales support? 
+### What languages will Copilot for Sales support? 
 
 There are no changes to [country/region availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
-### What geographies will Microsoft 365 Copilot for Sales support?   
+### What geographies will Copilot for Sales support?   
 
 Copilot in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
-### Will Microsoft 365 Copilot for Sales be available for US GCC, GCC High, or DoD?  
+### Will Copilot for Sales be available for US GCC, GCC High, or DoD?  
 
-Currently, Microsoft 365 Copilot for Sales isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
+Currently, Copilot for Sales isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
 
 ## Skilling
 
-### How can I learn about Microsoft 365 Copilot for Sales?  
+### How can I learn about Copilot for Sales?  
 
 Customers can access existing Microsoft Sales Copilot and Microsoft 365 Copilot content through Microsoft Learn. Content will be refreshed in 2024 to align to the new naming and licensing structure. [View our adoption webpage for access to further materials](https://adoption.microsoft.com/copilot-for-sales/).
 
-### How can I get certified in Microsoft 365 Copilot for Sales? 
+### How can I get certified in Copilot for Sales? 
 
-There currently aren't any certifications for Microsoft 365 Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
+There currently aren't any certifications for Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
 
 ## Functionality
 
@@ -355,7 +355,7 @@ Copilot unlocks business value by connecting LLMs to the customer’s own busine
 
 Copilot generates answers anchored in real-time business content (customer's own documents, emails, calendar, chats, meetings, contacts, and other business data) and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week, and  to deliver accurate, relevant, contextual responses. 
 
-Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train Microsoft 365 Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
+Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
 
 ### How will Copilot for Sales manage GDPR policies?  
 

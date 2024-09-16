@@ -17,7 +17,7 @@ As you read and compose emails in Outlook, you can use Copilot for Sales to view
 
 ## License requirements
 
-- [Microsoft 365 Copilot for Sales (premium)](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 
 ## View key sales information
 

@@ -11,7 +11,7 @@ ai-usage: ai-assisted
 
 # Get support for Microsoft 365 Copilot for Sales
 
-If you need help with Microsoft 365 Copilot for Sales, you can contact our support team for assistance. Our support team is available to help you with any question, issue, or feedback that is related to Copilot for Sales. This article provides information about how to get support for Copilot for Sales.
+If you need help with Copilot for Sales, you can contact our support team for assistance. Our support team is available to help you with any question, issue, or feedback that is related to Copilot for Sales. This article provides information about how to get support for Copilot for Sales.
 
 ## Technical and community support
 

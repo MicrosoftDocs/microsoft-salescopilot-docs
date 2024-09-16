@@ -1,6 +1,6 @@
 ---
-title: Copilot for Sales - Conversation intelligence dashboard data structure
-description: Learn how to review the data structure of Copilot for Sales - conversation intelligence dashboard.
+title: Microsoft 365 Copilot for Sales - Conversation intelligence dashboard data structure
+description: Learn how to review the data structure of Microsoft 365 Copilot for Sales - conversation intelligence dashboard.
 ms.date: 02/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Copilot for Sales - Conversation intelligence dashboard data structure (preview)
+# Microsoft 365 Copilot for Sales - Conversation intelligence dashboard data structure (preview)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -47,7 +47,7 @@ Conversation intelligence insights are saved for each instance of a conversation
 
 - **msdyn_SCIConversation**: Contains data required to correlate between the conversation intelligence data, the activity, and Microsoft Teams files.
 - **Recording**: Contains a link to the recording file in Teams. However, it doesn't store the recording itself.
-- **Transcript**: Contains a link to the transcript file in Teams. If an admin provides consent, a copy of the transcript file can also be stored for extensibility use. For more information, see, [Extend Microsoft 365 Copilot for Sales with partner applications (preview)](extend-copilot-for-sales.md)
+- **Transcript**: Contains a link to the transcript file in Teams. If an admin provides consent, a copy of the transcript file can also be stored for extensibility use. For more information, see, [Extend Copilot for Sales with partner applications (preview)](extend-copilot-for-sales.md)
 - **msdyn_conversationAggregatedInsights**: Contains Key Performance Indicators (KPIs) such as longest monologue, switch count throughout the conversation, meeting duration, and more. It also contains IDs to correlate the lower level insights.
 - **msdyn_conversationSentiment**: Contains sentiment data for the conversation such as overall percent of positive, negative, and neutral customer sentiments during the conversation.
 - **msdyn_conversationSubject**: Contains the automatic categorization of segments of the conversation such as introduction, negotiation, and closure.

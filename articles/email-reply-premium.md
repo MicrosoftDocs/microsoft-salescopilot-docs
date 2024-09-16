@@ -1,6 +1,6 @@
 ---
 title: Draft an email message using sales information in Outlook
-description: Learn how to combine Microsoft 365 Copilot with Copilot for Sales for a seamless and powerful sales experience in Outlook.
+description: Learn how to combine Microsoft 365 Copilot with Microsoft 365 Copilot for Sales for a seamless and powerful sales experience in Outlook.
 ms.date: 03/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot

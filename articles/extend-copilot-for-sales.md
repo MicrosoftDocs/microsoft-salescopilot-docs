@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Microsoft 365 Copilot for Sales is an AI assistant that is designed to help sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
+Copilot for Sales is an AI assistant that is designed to help sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
 Out of the box, Copilot for Sales connects to customer relationship management (CRM) systems such as Salesforce Sales Cloud and Dynamics 365 Sales. However, there is more to sales than just CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Copilot for Sales experience. 
 
