@@ -46,7 +46,7 @@ With Copilot for Sales, you can:
 
 1. Enter **Copilot for Sales** in the **Search** box.
 
-1. From the search results, select **Get it now** on the **Copilot for Sales** app's card.
+1. From the search results, select **Get it now** on the **Microsoft 365 Copilot for Sales** app's card.
 
 1. In the **Confirm your details to continue** window, select **Get it now**.
 

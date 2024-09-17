@@ -30,7 +30,7 @@ As an administrator, you can install Copilot for Sales as an integrated app from
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, on the **Copilot for Sales** card, select **Get it now**. 
+5. In the search results, on the **Microsoft 365 Copilot for Sales** card, select **Get it now**. 
 
     :::image type="content" source="media/get-enhanced-app.png" alt-text="Screenshot showing Copilot for Sales enhanced app in Microsoft 365 admin center.":::
 
