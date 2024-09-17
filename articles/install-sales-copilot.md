@@ -1,6 +1,6 @@
 ---
-title: Install Copilot for Sales (user-deployed)
-description: Discover how to install Microsoft Copilot for Sales as a user-deployed app that streamlines and enhances your selling experience.
+title: Install Microsoft 365 Copilot for Sales (user-deployed)
+description: Discover how to install Microsoft 365 Copilot for Sales as a user-deployed app that streamlines and enhances your selling experience.
 ms.date: 06/19/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -12,9 +12,9 @@ ms.custom:
   - ai-seo-date:06/19/2024
 ---
 
-# Install Copilot for Sales (user-deployed)
+# Install Microsoft 365 Copilot for Sales (user-deployed)
 
-Microsoft Copilot for Sales is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily, your CRM, Microsoft 365, and Microsoft Teams, to provide a more streamlined and AI-powered selling experience.
+Copilot for Sales is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily, your CRM, Microsoft 365, and Microsoft Teams, to provide a more streamlined and AI-powered selling experience.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW181Q6]
@@ -46,7 +46,7 @@ With Copilot for Sales, you can:
 
 1. Enter **Copilot for Sales** in the **Search** box.
 
-1. From the search results, select **Get it now** on the **Copilot for Sales** app's card.
+1. From the search results, select **Get it now** on the **Microsoft 365 Copilot for Sales** app's card.
 
 1. In the **Confirm your details to continue** window, select **Get it now**.
 

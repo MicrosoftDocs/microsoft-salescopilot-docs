@@ -14,11 +14,11 @@ ms.custom:
 
 # View sales related insights in Microsoft Teams meeting recap
 
-Microsoft Copilot for Sales includes all the capabilities within Copilot for Microsoft 365 to provide users with valuable insight to help support customer engagements. The combined Copilot experience within products like Microsoft Teams really help support sellers with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable sellers to grow customer relationships and close deals.
+Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experience within products like Microsoft Teams really help support sellers with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable sellers to grow customer relationships and close deals.
 
 ## License requirements
 
-- [Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 
 > [!NOTE]
 > If you have the Copilot for Sales standard license, see [View and understand the meeting summary](view-understand-meeting-summary.md).
