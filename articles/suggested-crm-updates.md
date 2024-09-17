@@ -24,7 +24,7 @@ The suggestions are displayed in the **Suggested actions** card in the Copilot f
 
 ## License requirements
 
-[Microsoft Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+[Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 
 ## Update CRM with suggested updates
 
