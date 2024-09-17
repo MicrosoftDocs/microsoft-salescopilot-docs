@@ -41,11 +41,6 @@ You can edit the sample connector and action to get started quickly. Refer to th
     - `x-ms-client-request-id`: A unique identifier for the incoming request.
     - `x-ms-user-agent`: "sales-copilot" is used as the value.
 
-## Getting started
-
-1. [Download the sample connector solution](https://go.microsoft.com/fwlink/p/?linkid=2272334).
-1. [Import the downloaded connector solution by using Power Apps](/power-apps/maker/data-platform/import-update-export-solutions). Be sure to use an environment where Dynamics 365 apps are enabled.
-1. [Open Microsoft Copilot Studio, and create an extension for the connector](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4s#author-a-connector-action).
 
 ## See also
 
