@@ -111,6 +111,6 @@ Alternatively, you can select the connected record to open its details, and then
 
 ### Edit the connected record
 
-1. [Open the connected record details](#view-connected-record-details).
+1. [Open the connected record details](#view-and-edit-connected-record-details).
 
 1. Select **More actions** (**...**) > **Edit record**.
