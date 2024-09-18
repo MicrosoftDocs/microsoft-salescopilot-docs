@@ -1,6 +1,6 @@
 ---
 title: FAQ for real-time sales tips feature in Microsoft Teams
-description: This FAQ provides information about the AI technology used in the real-time sales tips feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the real-time sales tips feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/17/2023
 ms.custom: 
   - responsible-ai-faqs
@@ -13,7 +13,7 @@ ms.reviewer: shjais
 
 # FAQ for real-time sales tips feature in Microsoft Teams
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's real-time sales tips feature in Teams.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot for Sales's real-time sales tips feature in Teams.
 
 ## What is real-time sales tips feature in Teams? 
 

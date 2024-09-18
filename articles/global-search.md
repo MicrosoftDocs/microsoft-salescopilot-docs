@@ -1,7 +1,7 @@
 ---
 title: Search for a CRM record using Copilot for Sales
 description: Explore the Copilot for Sales CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
-ms.date: 05/30/2024
+ms.date: 08/21/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -77,6 +77,9 @@ To enable Dataverse search for a record type, admins must:
 1. Enable Dataverse search in the Power Platform admin center.
 1. Add the tables to the search index.
 1. (Optional) Configure Quick Find Views for each table.
+
+> [!NOTE]
+> Changes made to the Dataverse search configuration or to the searchable data may take up to 15 minutes to appear in the search service. It may take up to an hour or more to complete a full sync for average size organizations, and a couple of days for very large size organizations.
 
 It's crucial to understand that these search configurations affect all searches in Dynamics 365, not just searches in Copilot for Sales. Other searches that use this configuration include lookups, Quick Find search, and Search this view on grid pages.
 

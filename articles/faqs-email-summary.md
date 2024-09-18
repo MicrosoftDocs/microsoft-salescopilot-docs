@@ -1,6 +1,6 @@
 ---
 title: FAQ for email summary feature in Outlook
-description: This FAQ provides information about the AI technology used in the email summary feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the email summary feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 02/02/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -13,7 +13,7 @@ ms.reviewer: shjais
 
 # FAQ for email summary feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's email summary feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot for Sales's email summary feature in Outlook.
 
 ## What is email summary feature in Outlook?
 

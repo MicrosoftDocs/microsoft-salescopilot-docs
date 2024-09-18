@@ -1,7 +1,7 @@
 ---
-title: Install Copilot for Sales in Outlook
+title: Install Microsoft 365 Copilot for Sales in Outlook
 description: Learn how to install, manage, and update the Copilot for Sales app in Microsoft 365 with this comprehensive guide.
-ms.date: 07/15/2024
+ms.date: 08/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ ms.custom:
   - ai-seo-date:06/19/2024
 ---
 
-# Install Copilot for Sales in Outlook
+# Install Microsoft 365 Copilot for Sales in Outlook
 
 As an administrator, you can install Copilot for Sales as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
@@ -30,7 +30,7 @@ As an administrator, you can install Copilot for Sales as an integrated app from
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, on the **Copilot for Sales** card, select **Get it now**. 
+5. In the search results, on the **Microsoft 365 Copilot for Sales** card, select **Get it now**. 
 
     :::image type="content" source="media/get-enhanced-app.png" alt-text="Screenshot showing Copilot for Sales enhanced app in Microsoft 365 admin center.":::
 
@@ -40,7 +40,7 @@ As an administrator, you can install Copilot for Sales as an integrated app from
 
     :::image type="content" source="media/apps-to-deploy.png" alt-text="Screenshot showing apps to deploy.":::
 
-8. In the **Users** step, select the users or groups who will have access to the app, and then select **Next**.
+8. In the **Users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)
 
 9. In the **Deployment** (**Permissions**) step, read the app permissions and capabilities, select **Accept permissions** for the app, and then select **Next**.
 
@@ -63,9 +63,9 @@ After you've installed Copilot for Sales as an integrated app, you can manage it
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
+2.  On the **Integrated apps** page, select the **Microsoft 365 Copilot for Sales** app.
 
-The **Microsoft Copilot for Sales** panel opens with the following tabs:
+The **Microsoft 365 Copilot for Sales** panel opens with the following tabs:
 
 - **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
 
@@ -79,9 +79,9 @@ The **Microsoft Copilot for Sales** panel opens with the following tabs:
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft Copilot for Sales** app.
+2.  On the **Integrated apps** page, select the **Microsoft 365 Copilot for Sales** app.
 
-    The **Microsoft Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
+    The **Microsoft 365 Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 
 3. Select **Know more and update**.
 

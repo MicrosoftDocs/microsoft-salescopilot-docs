@@ -12,6 +12,10 @@ ms.author: shjais
 
 The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can view the meeting preparation card, view and edit the connected CRM record, and get real-time sales tips during the meeting. This helps you stay focused on the meeting and close deals faster.
 
+## License requirements
+
+Capabilities mentioned in this article are available to users with either the Copilot for Sales standard or premium license.
+
 ## Get meeting preparation card
 
 The meeting preparation card helps you get the latest information related to the meeting from CRM. This helps you stay informed and up to date.
