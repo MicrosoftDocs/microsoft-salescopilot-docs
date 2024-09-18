@@ -1,7 +1,7 @@
 ---
-title: View sales related insights in Microsoft Teams meeting recap
-description: View sales insights in Microsoft Teams meeting recap to support customer engagements.
-ms.date: 08/19/2024
+title: View sales insights in Microsoft Teams meeting recap
+description:  Use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. View follow-up tasks, questions, participant statistics, and keywords.
+ms.date: 06/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,9 +12,9 @@ ms.custom:
   - ai-seo-date:01/25/2024
 ---
 
-# View sales related insights in Microsoft Teams meeting recap
+# View sales insights in Microsoft Teams meeting recap
 
-Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experience within products like Microsoft Teams really help support sellers with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable sellers to grow customer relationships and close deals.
+Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams helps you with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable sellers to grow customer relationships and close deals.
 
 ## License requirements
 
@@ -25,9 +25,9 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 
 ## Prerequisites
 
-- [Copilot AI features must be turned on in your environment](suggested-replies.md)
-- Copilot for Sales app must be added to the meeting
-- Meeting must be transcribed
+- [Turn on Copilot AI features in your environment](suggested-replies.md)
+- Add Copilot for Sales app to the meeting
+- Transcribe the meeting
 
 ## Supported languages
 
@@ -35,34 +35,34 @@ To see a list of supported languages, see [supported languages](supported-langua
 
 ## View sales related insights in meeting recap
 
-You can view meeting recap if a meeting is recorded and transcribed. With Copilot for Sales added to the Teams meeting, you can view sales related insights in the meeting recap.
+You can view a meeting recap if you record and transcribe a meeting. With Copilot for Sales added to the Teams meeting, you can view sales related insights in the meeting recap.
 
 To view sales related insights, [open the meeting recap in Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef), select the down-arrow next to **Transcript**, and then select **Sales**.
 
 The following information is available:
 
 - **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email). 
-- **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-meeting-recap) by selecting **Create task**.
-- **Questions**: Displays questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
+- **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
+- **Questions**: See questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
 - **Participant statistics**: View a list of participants (from inside and outside your organization) and the following statistics:
-    - **Talk to listen ratio**: Displays the average ratio of talk time to listen time. It helps you to identify if your sellers are talking too much or too little during customer calls. It also helps you to identify if your sellers are listening to customers and understanding their needs.
-    - **Switches per conversation**: Displays the average number of switches between a sales rep and customer in a conversation, meaning the number of times the conversation switched from one person to another. It helps you to identify if your sellers are engaging with customers during conversations.
-    - **Avg. pause**: Displays the average pause time before a sales rep speaks during a conversation. It helps you to identify if your sellers are interrupting their customers before they are done talking or do they have enough patience.
-    - **Longest monologue**: Displays the longest time a customer spoke during a conversation. It helps you to identify if your sellers are giving enough time to customers to speak and express their needs.
-- **Keywords mentioned**: Displays keywords that were mentioned during the meeting. Keywords are grouped as per the following categories:
+    - **Talk to listen ratio**: See the average ratio of talk time to listen time. It helps you to identify if your sellers are talking too much or too little during customer calls. It also helps you to identify if your sellers are listening to customers and understanding their needs.
+    - **Switches per conversation**: View the average number of switches between a sales rep and customer in a conversation, meaning the number of times the conversation switched from one person to another. It helps you to identify if your sellers are engaging with customers during conversations.
+    - **Avg. pause**: View the average pause time before a sales rep speaks during a conversation. It helps you to identify if your sellers are interrupting their customers before they finish talking or do they have enough patience.
+    - **Longest monologue**: View the longest time a customer spoke during a conversation. It helps you to identify if your sellers are giving enough time to customers to speak and express their needs.
+- **Keywords mentioned**: View keywords that were mentioned during the meeting. Keywords are grouped as per the following categories:
     - **Brands**: Names of brands that were mentioned during the meeting.
     - **Times**: Time periods mentioned during the meeting.
     - **People**: Names of people mentioned during the meeting.
     - **Others**: Other keywords mentioned during the meeting.
     
-    If you have tracked keywords and competitors in your CRM, they are also displayed in this section.
+    If you track keywords and competitors in your CRM, they also appear in this section.
 
 > [!NOTE]
-> If you start and stop a meeting recording multiple times, sales insights are not generated.
+> If you start and stop a meeting recording multiple times, sales insights aren't generated.
 
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
 
-## Create a CRM task from meeting recap
+## Create a CRM task from a meeting recap
 
 1.	[Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-in-meeting-recap).
 
@@ -82,7 +82,7 @@ The following information is available:
 
 4.	Select **Create**.
 
-    After you've created a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
+    After you create a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
 
 ## Create a post-meeting summary email
 
@@ -106,5 +106,5 @@ To create a post-meeting summary email:
 
 ### See also
 
-[Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef)<br>
-[Intelligent productivity with Microsoft Teams Premium](https://support.microsoft.com/office/intelligent-productivity-with-microsoft-teams-premium-d5b02821-b9b1-4687-8c77-2f903ea68ad2)
+- [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef)<br>
+- [Intelligent productivity with Microsoft Teams Premium](https://support.microsoft.com/office/intelligent-productivity-with-microsoft-teams-premium-d5b02821-b9b1-4687-8c77-2f903ea68ad2)
