@@ -1,6 +1,6 @@
 ---
 title: What's new in Sales Copilot changing to Copilot for Sales
-description: Revamped Sales Copilot, now called Microsoft Copilot for Sales, merges features and improves user experience.
+description: Revamped Sales Copilot, now called Microsoft 365 Copilot for Sales, merges features and improves user experience.
 ms.date: 07/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,10 +14,10 @@ ms.custom:
 
 # What's new in Sales Copilot changing to Copilot for Sales
 
-On February 1, 2024, Sales Copilot will be changing to bring the power of Copilot for Microsoft 365 and the role specific insights and actions together under a new offering called Microsoft Copilot for Sales. As part of the effort, we're excited to bring the following updates:
+On February 1, 2024, Sales Copilot will be changing to bring the power of Microsoft 365 Copilot and the role specific insights and actions together under a new offering called Microsoft 365 Copilot for Sales. As part of the effort, we're excited to bring the following updates:
 
 - **New user experience**: The **Highlights** and CRM tabs are merged into one unified view.
-- **License changes**: A new Copilot for Sales license is introduced, which includes Copilot for Microsoft 365 subscription.
+- **License changes**: A new Copilot for Sales license is introduced, which includes Microsoft 365 Copilot subscription.
 - **Enhanced Teams app**: The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. 
 
 ## New user experience
@@ -34,7 +34,7 @@ Legend:
 
 ## License changes
 
-A new Copilot for Sales license is introduced, which includes Copilot for Microsoft 365 subscription. 
+A new Copilot for Sales license is introduced, which includes Microsoft 365 Copilot subscription. 
 
 ### Existing Sales Copilot license
 
@@ -54,15 +54,15 @@ In Microsoft Teams, the Copilot for Sales Standard license will continue to prov
 
 ### New Copilot for Sales license
 
-The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Copilot for Microsoft 365 subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Copilot for Microsoft 365 experience. If you're using the Outlook on the web or the new Outlook for Windows, you can access Copilot for Sales in the Copilot for Microsoft 365 side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows)
+The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Microsoft 365 Copilot subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Microsoft 365 Copilot experience. If you're using the Outlook on the web or the new Outlook for Windows, you can access Copilot for Sales in the Microsoft 365 Copilot side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows)
 
 > [!NOTE]
-> If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Copilot for Microsoft 365 license. 
+> If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Microsoft 365 Copilot license. 
 
 :::image type="content" source="media/premium-license-small.png" alt-text="Screenshot showing premium license user interface." lightbox="media/premium-license.png":::
 
 Legend:
-1. Email summary and generative replies integrated into Outlook as part of the Copilot for Microsoft 365 experience.
+1. Email summary and generative replies integrated into Outlook as part of the Microsoft 365 Copilot experience.
 1. Save to CRM is moved to the top and related CRM records are placed after the **Key sales info** card.
 1. The **Key sales info** card provides an overview about account, contact, and opportunity.
 
@@ -78,9 +78,9 @@ After a Teams meeting, the meeting summary is enriched with capabilities such as
 
 ### Unified side pane in Outlook on the web and Outlook for Windows
 
-For users using Outlook on the web or the new Outlook for Windows, the Copilot for Sales side pane in Outlook is now unified with the Copilot for Microsoft 365 side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Copilot for Microsoft 365 side pane. 
+For users using Outlook on the web or the new Outlook for Windows, the Copilot for Sales side pane in Outlook is now unified with the Microsoft 365 Copilot side pane. This allows users to experience a single unified Copilot in Outlook wherein all the Copilot for Sales capabilities can be accessed directly from the Microsoft 365 Copilot side pane. 
 
-Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Copilot for Microsoft 365 side pane and select **Sales** to access the Copilot for Sales capabilities.
+Select the hamburger menu (:::image type="icon" source="media/hamburger.png" border="false":::) in the Microsoft 365 Copilot side pane and select **Sales** to access the Copilot for Sales capabilities.
 
 :::image type="content" source="media/unified-m365-sidecar.png" alt-text="Screenshot of the unified side pane for Copilot for Sales":::
 
@@ -89,7 +89,7 @@ Select the hamburger menu (:::image type="icon" source="media/hamburger.png" bor
 
 ## Enhanced Teams app support
 
-The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Copilot for Microsoft 365 capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
+The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
 ### New deployments
 

@@ -1,7 +1,7 @@
-- name: Microsoft Copilot for Sales documentation
+- name: Microsoft 365 Copilot for Sales documentation
   href: landing.yml
 
-- name: Welcome to Microsoft Copilot for Sales
+- name: Welcome to Microsoft 365 Copilot for Sales
   href: introduction.md
 
 - name: What's new in Copilot for Sales
@@ -10,6 +10,10 @@
     href: whats-new.md
   - name: Sales Copilot changing to Copilot for Sales
     href: whats-new-copilot-sales.md
+  - name: July 2024
+    href: jul-24.md
+  - name: August 2024
+    href: aug-24.md
 
 - name: Product overview
   items:
@@ -77,7 +81,7 @@
       href: hierarchy-settings-sf.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
-  - name: Turn off Copilot for Sales features in Microsoft 365 apps
+  - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
@@ -150,7 +154,7 @@
         href: suggested-crm-updates.md
       - name: View key sales info
         href: key-sales-info.md
-      - name: View recent communications
+      - name: View recent communication
         href: recent-communications.md
       - name: View People.ai insights (preview)
         href: people-ai-insights.md
@@ -160,17 +164,7 @@
         href: share-insights-from-outlook-to-teams.md
       
     - name: More options
-      items:
-      - name: Switch environments or CRM
-        href: switch-environments-crm.md
-      - name: View diagnostics data
-        href: view-diagnostics-data.md
-      - name: Share feedback
-        href: share-feedback.md
-      - name: Sign out of Copilot for Sales
-        href: sign-out-sales-copilot.md
-      - name: Delete your personal data from Copilot for Sales
-        href: delete-personal-data.md
+      href: more-options.md
 
   - name: Capabilities in Teams
     items:
@@ -258,7 +252,6 @@
     - name: Add a new Q&A capability to the Sales chat
       href: extend-m365-chat.md
 
-
 - name: Troubleshooting guide
   items:
   - name: Overview
@@ -273,18 +266,28 @@
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Can't save email to CRM due to invalid mailbox settings
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Fix mailbox errors in Dynamics 365" error'
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Missing privileges error when signing in
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"No access to Dynamics 365" error'
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"Required fields are missing" error'
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/required-fields-missing?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Salesforce CRM users can't see data in Copilot for Sales
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Salesforce CRM users can't view, edit, or save data in Copilot for Sales
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/salesforce-permission-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: '"This contact already exists" error when creating a CRM record'
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/duplicate-record-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: You don't have permission for this error
+        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-admin-exists-error?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Outlook side panel
     items:
       - name: Sign-in issue when opening the Copilot for Sales pane in Outlook
         href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
-        href: /troubleshoot/sales-copilot/outlook-side-panel/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Setup, installation, and sign-in
     items:
       - name: Authentication issues when connecting to Salesforce CRM
@@ -297,10 +300,8 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Can't sign in to Salesforce due to blocked Salesforce connector
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't connect to Dynamics 365 with two-factor authentication enabled
+      - name: Can't connect to Dynamics 365 with multifactor authentication enabled
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Failure passed to redirect url" error when signing in'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: First Salesforce CRM user can't access Copilot for Sales
@@ -309,25 +310,29 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"No default BAP location found for this tenant" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"No access to Dynamics 365" error'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context  
       - name: '"User does not have required privileges to access the org" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Teams collaboration spaces
     items:
       - name: Can't create private channels in Microsoft Teams
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
+      - name: Can't create a team for an account or opportunity
+        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/create-team-error?context=/microsoft-sales-copilot/context/sales-copilot-context       
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
-
 
 - name: Copilot for Sales training
   href: /training/modules/boost-sales-performance/
 
 - name: Copilot for Sales adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
+
+- name: Copilot for Sales success kit
+  href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
 
 - name: Deprecations in Copilot for Sales
   href: deprecations-copilot-for-sales.md

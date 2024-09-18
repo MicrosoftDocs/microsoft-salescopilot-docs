@@ -1,6 +1,6 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
-description:  Use Copilot for Sales in Teams to get sales insights from meeting recaps. View follow-up tasks, questions, participant statistics, and keywords.
+description:  Use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. View follow-up tasks, questions, participant statistics, and keywords.
 ms.date: 06/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -14,11 +14,11 @@ ms.custom:
 
 # View sales insights in Microsoft Teams meeting recap
 
-Microsoft Copilot for Sales includes all the capabilities within Copilot for Microsoft 365 to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams helps you with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and more to enable you to grow customer relationships and close deals.
+Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams helps you with the power of Copilot in Teams and the Copilot for Sales role specific capabilities in a seamless 'better together' design. The experience shows summarized meeting insights, generated meeting recaps, and much more to enable sellers to grow customer relationships and close deals.
 
 ## License requirements
 
-- [Microsoft Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
 
 > [!NOTE]
 > If you have the Copilot for Sales standard license, see [View and understand the meeting summary](view-understand-meeting-summary.md).
@@ -41,7 +41,8 @@ To view sales related insights, [open the meeting recap in Teams](https://suppor
 
 The following information is available:
 
-- **Follow-up tasks**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-meeting-recap) by selecting **Create task**.
+- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email). 
+- **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
 - **Questions**: See questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
 - **Participant statistics**: View a list of participants (from inside and outside your organization) and the following statistics:
     - **Talk to listen ratio**: See the average ratio of talk time to listen time. It helps you to identify if your sellers are talking too much or too little during customer calls. It also helps you to identify if your sellers are listening to customers and understanding their needs.
@@ -82,6 +83,26 @@ The following information is available:
 4.	Select **Create**.
 
     After you create a task, **Create task** changes to **Open task**. Select **Open task** to open the task in your CRM.
+
+## Create a post-meeting summary email
+
+After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
+
+With Copilot for Sales, you can quickly draft an email from the meeting recap in Teams. The email includes a summary of the meeting, action items, and follow-up tasks.
+
+To create a post-meeting summary email:
+
+1. [Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-in-meeting-recap).
+
+1. Under the **Post-meeting actions** section, select **Draft email**. The email is drafted and opened in a pop-up window.
+
+    :::image type="content" source="media/draft-email-recap.png" alt-text="Screenshot showing AI-generatd draft email from meeting recap in Teams.":::
+
+1. To copy the email content to your clipboard, select **Copy**.
+
+1. To open the email in Outlook web, select **Open in Outlook web**.
+
+1. Review and update the email content as needed, and then send it to your customers.
 
 ### See also
 

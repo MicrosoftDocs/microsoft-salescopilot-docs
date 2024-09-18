@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 07/05/2024
+ms.date: 08/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -56,16 +56,14 @@ When you read an email from external contacts, if at least one contact in the em
 
 1. Open an email that has external contacts.
 1. In the banner message, select **Add contact** or **Add contacts**.
-1. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**.
+1. In the **Copilot for Sales** pane, hover over the unsaved contact, and then select **Add**. If [leads support is enabled](customize-forms-and-fields.md#configure-leads-support-preview) in your environment, you can choose to add it as a lead or a contact.
 
     :::image type="content" source="media/banner-add-contact.png" alt-text="Screenshot showing a banner message with a quick action for adding a new contact.":::
 
-1. In the **New contact** form, add the required information, and then select **Save**.
+1. In the **New contact** or **New lead** form, add the required information, and then select **Save**.
 
-Currently, banner messages that include quick CRM actions are available on up to two external emails per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
+Currently, banner messages that include quick CRM actions are available on up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
-> [!NOTE]
-> This capability is being rolled out gradually. It's expected to be available to all users by the end of May 2024.
 
 ### See also
 
