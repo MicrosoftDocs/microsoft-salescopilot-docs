@@ -1,15 +1,12 @@
 ---
 title: Use Copilot for Sales app during a meeting
 description: Learn how to use the Copilot for Sales app during a meeting.
-ms.date: 07/25/2024
+ms.date: 09/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
-
-<!-- Unsure about the wording in line 81, where it says "... select the links to see Bing search results or competitor in CRM system." Should it say "...select the links to see Bing search results or competitor information in your CRM system"? --> 
-
 
 # Use Copilot for Sales app during a meeting
 
@@ -78,7 +75,7 @@ The brand information is based on a Bing knowledge graph. The competitor informa
 
 :::image type="content" source="media/real-time-tips.png" alt-text="Screenshot showing real-time sales tips in Microsoft Teams during a meeting.":::
 
-To view data sources used in getting brand and competitor information, select **(n) references** at the bottom-left of the card, and then select the links to see Bing search results or competitor in CRM system.
+To view data sources used in getting brand and competitor information, select **(n) references** at the bottom-left of the card, and then select the links to see Bing search results or competitor information in your CRM system.
 
 :::image type="content" source="media/real-time-tips-ref.png" alt-text="Screenshot showing references for real-time-tips.":::
 
