@@ -55,4 +55,4 @@ The suggestions that appear automatically in real time may not include all the b
 
 ### See also
 
-- [Real-time sales tips](use-sales-copilot-app-during-meeting.md#view-real-time-sales-tips)
+- [Real-time sales tips](use-sales-copilot-app-during-meeting.md#get-real-time-sales-tips)
