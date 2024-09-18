@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
-ms.date: 09/16/2024
+ms.date: 09/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
