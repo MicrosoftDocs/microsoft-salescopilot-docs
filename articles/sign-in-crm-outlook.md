@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 09/16/2024
+ms.date: 09/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you open Copilot for Sales, you can sign in to Copilot for Sales and connect your CRM account to get a more enriched experience with CRM data.
+After you open the Microsoft 365 Copilot for Sales app in Outlook, you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 

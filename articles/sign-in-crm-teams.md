@@ -1,7 +1,7 @@
 ---
 title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get enriched experience with CRM data.
-ms.date: 09/16/2024
+ms.date: 09/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Connect to CRM from Teams
 
-After you open the Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data.
+After you open the Microsoft 365 Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data.
 
 ## Automatically connect to CRM
 
