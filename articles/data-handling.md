@@ -1,5 +1,5 @@
 ---
-title: Data handling in Copilot for Sales 
+title: Data handling in Microsoft 365 Copilot for Sales 
 description: Know how data is handled in Copilot for Sales 
 ms.date: 02/02/2024
 ms.topic: article
@@ -11,9 +11,7 @@ ms.localizationpriority: medium
 ---
 
 
-# Data handling in Copilot for Sales 
-
-
+# Data handling in Microsoft 365 Copilot for Sales 
 
 This article gives you an overview of how data is handled in Copilot for Sales.
 
@@ -42,5 +40,5 @@ If you need to delete Copilot for Sales data (for example, delete data for a spe
 
 ### See also
 
-[Introduction to Microsoft Copilot for Sales](introduction.md)<br>
+[Introduction to Microsoft 365 Copilot for Sales](introduction.md)<br>
 [Install Copilot for Sales](install-viva-sales.md)

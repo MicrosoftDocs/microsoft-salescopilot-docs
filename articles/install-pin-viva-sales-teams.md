@@ -1,5 +1,5 @@
 ---
-title: Install and pin Copilot for Sales in Teams
+title: Install and pin Microsoft 365 Copilot for Sales in Teams
 description: Learn how to install and pin Copilot for Sales in Teams
 ms.date: 03/01/2024
 ms.topic: article
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install and pin Copilot for Sales in Teams
+# Install and pin the Microsoft 365 Copilot for Sales app in Teams
 
 To install the Copilot for Sales app in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We also recommend that you pin it to increase discoverability and encourage your sellers to use it.
 
@@ -34,7 +34,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 6.  Under **Installed apps**, select **Add apps**.
 
-7.  In the **Add installed apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.
+7.  In the **Add installed apps** panel, search for the **Microsoft 365 Copilot for Sales** app. You can also filter apps by app permission policy.
 
 8.  Select **Add** to add Copilot for Sales to the list of apps to install.
 
@@ -42,7 +42,7 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 
 10. Under **Pinned apps**, select **Add apps**.
 
-11. In the **Add pinned apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.
+11. In the **Add pinned apps** panel, search for the **Microsoft 365 Copilot for Sales** app. You can also filter apps by app permission policy.
 
 12. Select **Add** to add Copilot for Sales to the list of apps to pin.
 
