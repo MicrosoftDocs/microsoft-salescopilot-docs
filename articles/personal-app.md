@@ -1,5 +1,5 @@
 ---
-title: Copilot for Sales personal app
+title: Microsoft 365 Copilot for Sales personal app
 description: Learn about the Copilot for Sales personal app and how to share feedback from the app.
 ms.date: 04/29/2024
 ms.topic: article
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Copilot for Sales personal app
+# Microsoft 365 Copilot for Sales personal app
 
 Copilot for Sales personal app is the enhanced Teams personal app that has **Home** and **Settings** tabs available in Outlook and other Microsoft 365 apps. 
 
@@ -44,8 +44,8 @@ If you have any feedback about Copilot for Sales, you can share it from the app.
 
 ## Settings tab
 
-The **Settings** tab is currently available only for the admin users. More information: [Microsoft Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
+The **Settings** tab is currently available only for the admin users. More information: [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
 
 ### See also
 
-- [Microsoft Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
+- [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
