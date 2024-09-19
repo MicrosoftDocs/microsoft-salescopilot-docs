@@ -573,6 +573,31 @@
         "source_path": "articles/eap-faq.md",
         "redirect_url": "/microsoft-sales-copilot/introduction",
         "redirect_document_id": false
-      }                        
+      },
+      {
+        "source_path": "articles/delete-personal-data.md",
+        "redirect_url": "/microsoft-sales-copilot/more-options",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/share-feedback.md",
+        "redirect_url": "/microsoft-sales-copilot/more-options",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sign-out-sales-copilot.md",
+        "redirect_url": "/microsoft-sales-copilot/more-options",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/switch-environments-crm.md",
+        "redirect_url": "/microsoft-sales-copilot/more-options",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/view-diagnostics-data.md",
+        "redirect_url": "/microsoft-sales-copilot/more-options",
+        "redirect_document_id": false
+      }                                   
   ]
 }

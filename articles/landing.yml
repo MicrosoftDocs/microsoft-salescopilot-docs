@@ -2,13 +2,13 @@
 
 
 
-title: Microsoft Copilot for Sales documentation
-summary: Discover how to make the most of Microsoft Copilot for Sales with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title: Microsoft 365 Copilot for Sales documentation
+summary: Discover how to make the most of Microsoft 365 Copilot for Sales with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 
 
 metadata:
 
-  title: Microsoft Copilot for Sales documentation
+  title: Microsoft 365 Copilot for Sales documentation
   description: Eliminates manual data entry and give sellers more time to focus on selling.
   author: sbmjais
   ms.author: shjais
@@ -28,7 +28,7 @@ landingContent:
 
 
 # Card 
-  - title: About Microsoft Copilot for Sales
+  - title: About Microsoft 365 Copilot for Sales
     linkLists:
        - linkListType: overview
          links:

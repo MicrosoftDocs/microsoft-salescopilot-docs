@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title:  Microsoft Copilot for Sales documentation
-summary:  Discover how to make the most of Microsoft Copilot for Sales with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title:  Microsoft 365 Copilot for Sales documentation
+summary:  Discover how to make the most of Microsoft 365 Copilot for Sales with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: sales-copilot
 metadata:
-  title: Microsoft Copilot for Sales documentation
-  description: Learn about how you can use Microsoft Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+  title: Microsoft 365 Copilot for Sales documentation
+  description: Learn about how you can use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
   author: sbmjais
   ms.author: shjais
@@ -15,7 +15,7 @@ metadata:
 highlightedContent:
   items:
     # Card
-    - title: Welcome to Microsoft Copilot for Sales
+    - title: Welcome to Microsoft 365 Copilot for Sales
       itemType: get-started
       url: introduction.md
     # Card
