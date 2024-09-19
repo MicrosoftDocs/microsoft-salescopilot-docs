@@ -39,7 +39,7 @@ Customers must purchase Copilot for Sales licenses, as Sales Copilot is no longe
 
 ### Existing Sales Copilot license
 
-Existing customers with the Sales Copilot licenses will continue to see a subset of functionality until moving to Copilot for Sales. For information about the available features, see [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
+Existing customers with the Sales Copilot licenses will continue to see a subset of functionality until moving to Copilot for Sales. For information about limited features, see [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
 
 ### Copilot for Sales license
 
