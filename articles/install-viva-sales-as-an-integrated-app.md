@@ -30,7 +30,7 @@ As an administrator, you can install Copilot for Sales as an integrated app from
 
 4. In the **AppSource** window, search for **Copilot for Sales**.
 
-5. In the search results, on the **Microsoft 365 Copilot for Sales** card, select **Get it now**. 
+5. In the search results, on the **Copilot for Sales** card, select **Get it now**. 
 
     :::image type="content" source="media/get-enhanced-app.png" alt-text="Screenshot showing Copilot for Sales enhanced app in Microsoft 365 admin center.":::
 
@@ -63,9 +63,9 @@ After you've installed Copilot for Sales as an integrated app, you can manage it
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft 365 Copilot for Sales** app.
+2.  On the **Integrated apps** page, select the **Copilot for Sales** app.
 
-The **Microsoft 365 Copilot for Sales** panel opens with the following tabs:
+The **Copilot for Sales** panel opens with the following tabs:
 
 - **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
 
@@ -79,9 +79,9 @@ The **Microsoft 365 Copilot for Sales** panel opens with the following tabs:
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-2.  On the **Integrated apps** page, select the **Microsoft 365 Copilot for Sales** app.
+2.  On the **Integrated apps** page, select the **Copilot for Sales** app.
 
-    The **Microsoft 365 Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
+    The **Copilot for Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.
 
 3. Select **Know more and update**.
 

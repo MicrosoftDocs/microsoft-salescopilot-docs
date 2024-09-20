@@ -36,7 +36,7 @@ For information about pricing, go to [Features and pricing](https://www.microsof
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. On the left navigation pane, select **Billing** > **Purchase services**.
 1. Search for *Copilot for Sales*.
-1. On the **Microsoft 365 Copilot for Sales** tile, select **Details**.
+1. On the **Copilot for Sales** tile, select **Details**.
 1. Specify the license quantity and billing frequency, and then select **Buy**.
 1. Provide the billing and payment information to complete the purchase.
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/), and [assign the licenses to your users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
