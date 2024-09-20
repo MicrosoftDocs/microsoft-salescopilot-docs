@@ -37,7 +37,7 @@ The **Recent communications** card retrieves the following communications from M
 
 ## License requirements
 
-- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## Prerequisites
 

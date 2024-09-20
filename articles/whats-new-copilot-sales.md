@@ -35,7 +35,7 @@ Legend:
 
 ## License changes
 
-Customers must purchase Copilot for Sales licenses, as Sales Copilot is no longer available. For information on Copilot for Sales pricing and licensing guidance, view the [licensing and pricing pages](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing). 
+Customers must purchase Copilot for Sales licenses, as Sales Copilot is no longer available. For information on Copilot for Sales pricing and licensing guidance, view the [licensing and pricing pages](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
 
 ### Existing Sales Copilot license
 

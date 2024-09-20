@@ -23,11 +23,11 @@ You can buy Copilot for Sales through the following sources:
 - Through Volume Licensing
 - Through certified cloud partners (CSPs)
 
-For information about pricing, go to [Features and pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing), or contact your Microsoft representative.
+For information about pricing, go to [Features and pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing), or contact your Microsoft representative.
 
 ## Buy Copilot for Sales directly from the website
 
-1. Go to [Features and pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
+1. Go to [Features and pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 1. Select **Buy now**, and follow the instructions to complete the purchase.
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/), and [assign the license to the users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) who need access to Copilot for Sales.
 

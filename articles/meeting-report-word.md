@@ -22,7 +22,7 @@ Sellers use Microsoft Word to perform daily sales tasks such as preparing for st
 
 ## License requirements
 
-[Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+[Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## Prerequisites
 

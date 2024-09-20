@@ -12,7 +12,7 @@ ms.author: shjais
 
 Microsoft 365 Copilot for Sales is an AI-powered tool aimed at optimizing sales workflows and boosting efficiency for users of Microsoft Dynamics 365 Sales or Salesforce CRM platforms. It is tailored to augment Microsoft 365 Copilot with business-specific benefits, offering crucial sales support and CRM-enriched experiences within popular Microsoft 365 applications like Outlook and Teams. 
 
-For information on Copilot for Sales pricing and licensing guidance, see [licensing and pricing pages](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).  
+For information on Copilot for Sales pricing and licensing guidance, see [licensing and pricing pages](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).  
 
 Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to accelerate getting started. This article covers details on the limited functionalities and the supported licenses.
 
@@ -59,13 +59,13 @@ Core value is included for Dynamics 365 users to see Copilot for Sales in action
 |---------|---------|---------|
 |[Work with collaboration spaces](collaboration-space.md)  | Generate or link a customer record and opportunity to a Teams channel and group. <br>See a single access point for collaboration and access to common attachment files. Planner tasks are suggested with the help of AI.    | Copilot for Sales side pane in Outlook and Teams channel        |
 |[Work with adaptive cards](share-crm-record-teams-conversation.md#paste-a-link-to-a-crm-record)    | Create and share a dynamic link of a specific record in Dynamics 365 with another individual or group.    | Teams chat and channel        |
-|[Use Copilot for Sales during a Teams meeting](use-sales-copilot-app-during-meeting.md)   | See the connected CRM record and get real-time sales tips during the meeting. |Copilot for Sales panel in Teams meetings    |
-|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> Note that this experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales full license.    | Teams meeting        |
+|[Use Copilot for Sales during a Teams meeting](use-sales-copilot-app-during-meeting.md)   | See the connected CRM record during a meeting. |Copilot for Sales panel in Teams meetings    |
+|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> Note that this experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting        |
 |[View conversation intelligence dashboard](analyze-sellers-conv-data-pbi.md)     | Access a summary of calls to spot trends and compare sales team members.   | Power BI template        |
 
 :::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing conversation intellignce in Teams meeting summary.":::
 
-## Moving to full Copilot for Sales
+## Moving to Copilot for Sales
 
 Dynamics 365 Sales users who purchase Copilot for Sales can access the full set of features including the better together experience with Microsoft 365 Copilot. These features are in addition to the limited functionalities available out of the box.
 
@@ -89,7 +89,7 @@ Gain access to upcoming Copilot for Sales enhancements as outlined in the [relea
 
 The planner highlights areas such as natural language communication, deeper integration with Microsoft 365 applications, and new role-specific insights and recommendations. 
 
-Note that the features on this roadmap are intended exclusively for full Copilot for Sales users. 
+Note that the features on this roadmap are intended exclusively for Copilot for Sales users and will not be included within the limited functionality.
 
 ## Frequently asked questions
 

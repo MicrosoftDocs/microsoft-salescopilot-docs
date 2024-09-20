@@ -27,7 +27,7 @@ You must have a Copilot for Sales license to get started with this combined expe
 >    >
 >    > - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
 
-For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
+For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 > [!NOTE]
 > If you have exisitng Sales Copilot license, see [View and save email summary to CRM](view-save-email-summary-crm.md).

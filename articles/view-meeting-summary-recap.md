@@ -18,7 +18,7 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 
 ## License requirements
 
-- [Microsoft 365 Copilot for Sales premium](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales premium](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 > [!NOTE]
 > If you have the Copilot for Sales standard license, see [View and understand the meeting summary](view-understand-meeting-summary.md).
