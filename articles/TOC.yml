@@ -249,8 +249,6 @@
       href: extend-record-summary.md
     - name: Enrich CRM record details
       href: extend-record-details.md
-    - name: Add a new Q&A capability to the Sales chat
-      href: extend-m365-chat.md
 
 - name: Troubleshooting guide
   items:
