@@ -271,9 +271,9 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-1.  On the **Integrated apps** page, select the **Microsoft 365 Copilot for Sales** app.
+1.  On the **Integrated apps** page, select the **Copilot for Sales** app.
 
-    The **Microsoft 365 Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
+    The **Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
 
 1. Select **Merge both versions** and accept the permissions.
 
