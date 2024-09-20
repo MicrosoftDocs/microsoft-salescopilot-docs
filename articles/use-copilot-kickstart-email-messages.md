@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 09/10/2024
+ms.date: 09/20/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,7 +23,7 @@ When you compose a new email or reply to your customers by email, Copilot for S
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, you can see the integrated experience within Microsoft Outlook. For more information, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
+The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their exisitng Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Microsoft Outlook. For more information, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
 
 ## Anatomy of suggested content
 
