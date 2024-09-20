@@ -12,7 +12,7 @@ ms.author: shjais
 
 Microsoft 365 Copilot for Sales is an AI-powered tool aimed at optimizing sales workflows and boosting efficiency for users of Microsoft Dynamics 365 Sales or Salesforce CRM platforms. It is tailored to augment Microsoft 365 Copilot with business-specific benefits, offering crucial sales support and CRM-enriched experiences within popular Microsoft 365 applications like Outlook and Teams. 
 
-For information on Copilot for Sales pricing and licensing guidance, see [licensing and pricing pages](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).  
+For information on Copilot for Sales pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).  
 
 Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to accelerate getting started. This article covers details on the limited functionalities and the supported licenses.
 
