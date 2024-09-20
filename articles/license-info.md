@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales license overview
 description: Learn about licenses for Copilot for Sales, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
-ms.date: 09/12/2024
+ms.date: 09/20/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -38,7 +38,11 @@ In addition, for Microsoft Dynamics 365 Sales customers, Copilot functionality i
 
 Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations that use the Microsoft 365 productivity suite and Salesforce can buy Copilot for Sales to gain access to the role-based skills and Microsoft 365 Copilot. Copilot for Sales optimizes chat, provides integrated actions, and generates insights that combine AI with the data that is held in the CRM application.
 
-## Capabilities
+## Capabilities - new
+
+For information about limited capabilities included with the Dynamics 365 Sales license and the full set of capabilities included with the Copilot for Sales license, see [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
+
+## Capabilities - old
 
 The following table provides a high-level overview of the capabilities that are available with Copilot for Sales. It also shows where the capabilities can be accessed from. 
 
