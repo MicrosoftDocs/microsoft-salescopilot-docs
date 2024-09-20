@@ -104,6 +104,8 @@
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md
+    - name: Connect to CRM from Teams (preview)
+      href: sign-in-crm-teams.md
   - name: Capabilities in Outlook
     items:
     - name: CRM actions

@@ -59,13 +59,13 @@ The experience of using the Copilot for Sales search message extension when comp
 
 1. On the ribbon, select **Copilot for Sales** or **All Apps** > **Copilot for Sales**.
 
-2. In the pop-up, select **Search Microsoft 365 Copilot for Sales**. 
+2. In the pop-up, select **Copilot for Sales**. 
 
     Alternatively, you can select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
 
     :::image type="content" source="media/search-outlook-classic.png" alt-text="Screenshot showing search option in the Copilot for Sales app in classic Outlook.":::
 
-3. In the **Microsoft 365 Copilot for Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
+3. In the **Copilot for Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
 
     :::image type="content" source="media/search-pane-outlook-classic.png" alt-text="Screenshot showing search pane for the Copilot for Sales app in classic Outlook.":::
 
