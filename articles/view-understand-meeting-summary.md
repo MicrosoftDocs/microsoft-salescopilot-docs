@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 04/12/2024
+ms.date: 09/20/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,7 +16,7 @@ The meeting summary page provides a high-level view of how the conversation with
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
+The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their exisitng Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Teams meeting recap. For more information, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 ## View the meeting summary
 
