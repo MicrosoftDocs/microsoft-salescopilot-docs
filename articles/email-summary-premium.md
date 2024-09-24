@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: Learn how to use email summaries enriched with sales information in Outlook.
-ms.date: 09/20/2024
+ms.date: 09/24/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

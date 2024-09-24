@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 09/20/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 09/20/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

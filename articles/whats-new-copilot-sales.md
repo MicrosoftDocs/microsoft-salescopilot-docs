@@ -1,7 +1,7 @@
 ---
 title: What's changed with Sales Copilot to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft 365 Copilot for Sales, merges features and improves user experience.
-ms.date: 09/18/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
