@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: Learn how to use email summaries enriched with sales information in Outlook.
-ms.date: 03/18/2024
+ms.date: 09/24/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,16 +18,19 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 
 ## License requirements
 
-You must have a Microsoft 365 Copilot for Sales license to get started with this combined experience. The Microsoft 365 Copilot for Sales license includes Microsoft 365 Copilot license.
-
-If you already have Microsoft 365 Copilot, you can add the step-up Copilot for Sales license to include all the role-based functionality and CRM connections.
-
-If you're a Dynamics 365 Sales Premium customer, the sales specific functionality is included. The only purchase required is Microsoft 365 Copilot for full Copilot for Sales functionality.
-
-For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
+You must have a Copilot for Sales license to get started with this combined experience. 
 
 > [!NOTE]
-> If you have the Copilot for Sales standard license, see [View and save email summary to CRM](view-save-email-summary-crm.md).
+> The Copilot for Sales license includes Microsoft 365 Copilot license and provides combined results which are optimized for sales roles. CRM integration is provided out of the box and can be configured within the application and with Microsoft Copilot Studio.
+>    >
+>    > - If you have already purchased Microsoft 365 Copilot, you can add the step-up Copilot for Sales license to include all the role-based functionality and out of the box CRM connections.
+>    >
+>    > - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
+
+For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
+
+> [!NOTE]
+> If you have exisitng Sales Copilot license, see [View and save email summary to CRM](view-save-email-summary-crm.md).
 
 ## Prerequisites
 
