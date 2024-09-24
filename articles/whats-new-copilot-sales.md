@@ -1,7 +1,7 @@
 ---
-title: What's new in Sales Copilot changing to Copilot for Sales
+title: What's changed with Sales Copilot to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft 365 Copilot for Sales, merges features and improves user experience.
-ms.date: 07/15/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,17 +12,18 @@ ms.custom:
   - ai-seo-date:01/23/2024
 ---
 
-# What's new in Sales Copilot changing to Copilot for Sales
+# What's changed with Sales Copilot to Microsoft 365 Copilot for Sales
 
-On February 1, 2024, Sales Copilot will be changing to bring the power of Microsoft 365 Copilot and the role specific insights and actions together under a new offering called Microsoft 365 Copilot for Sales. As part of the effort, we're excited to bring the following updates:
+On February 1, 2024, Sales Copilot updated to bring the power of Microsoft 365 Copilot and the role specific insights and actions together under a new offering called Microsoft 365 Copilot for Sales. As part of the effort, we're excited to bring the following updates:
 
 - **New user experience**: The **Highlights** and CRM tabs are merged into one unified view.
-- **License changes**: A new Copilot for Sales license is introduced, which includes Microsoft 365 Copilot subscription.
+- **License changes**: A new Microsoft 365 Copilot for Sales license is introduced, which includes Microsoft 365 Copilot subscription.
 - **Enhanced Teams app**: The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. 
+- **Better together experience**: : Copilot for Sales combines the power of your CRM application with Microsoft 365 Copilot. It provides an AI-optimized out of the box experience that has been enriched with role specific insights and recommendations. 
 
 ## New user experience
 
-The new user experience brings the **Highlights** and CRM tabs together into one unified view. The new view is designed to provide a more streamlined experience by bringing the most relevant information to the top of the view.
+The new user experience brings the **Highlights** and CRM tabs together into one unified view and combines the data to make a single enriched result. The new view is designed to provide a more streamlined experience by bringing the most relevant information to the top of the view.
 
 :::image type="content" source="media/comparison.png" alt-text="Screenshot showing old and new user interface." lightbox="media/comparison.png":::
 
@@ -34,30 +35,18 @@ Legend:
 
 ## License changes
 
-A new Copilot for Sales license is introduced, which includes Microsoft 365 Copilot subscription. 
+Customers must purchase Copilot for Sales licenses, as Sales Copilot is no longer available. For information on Copilot for Sales pricing and licensing guidance, view the [licensing and pricing pages](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
 
 ### Existing Sales Copilot license
 
-The existing Sales Copilot license is referred to as Copilot for Sales standard license. The Copilot for Sales standard license will continue to provide the same capabilities as the Sales Copilot license, but with the new order of the cards in the Outlook mailbox view.
+Existing customers with the Sales Copilot licenses will continue to see a subset of functionality until moving to Copilot for Sales. For information about limited features, see [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
 
-:::image type="content" source="media/standard-license-small.png" alt-text="Screenshot showing standard license user interface." lightbox="media/standard-license.png":::
+### Copilot for Sales license
 
-Legend:
-1. Email summary and generative replies
-1. Save email to CRM is moved to the top and related CRM records are placed after the **Key email info** card.
-1. Opportunity summary
-1. Create and access collaboration spaces in Teams
-
-In the Outlook calendar view, the cards order will remain the same as in the mailbox view, but there will be no email summary.
-
-In Microsoft Teams, the Copilot for Sales Standard license will continue to provide the same capabilities as the Sales Copilot license. 
-
-### New Copilot for Sales license
-
-The new Copilot for Sales license is referred to as Copilot for Sales premium license. This license also includes the Microsoft 365 Copilot subscription. In this license, email summary and generative replies are integrated into Outlook as part of the Microsoft 365 Copilot experience. If you're using the Outlook on the web or the new Outlook for Windows, you can access Copilot for Sales in the Microsoft 365 Copilot side pane in Outlook. [Learn more](#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows)
+The Copilot for Sales license includes the Microsoft 365 Copilot subscription. In this license, you can expect to see an integrated experience combining the value of Microsoft 365 Copilot and the role-based sales insights with out of the box CRM integration as part of the core package. Email summary and generative replies are integrated into Outlook as part of the Microsoft 365 Copilot experience.
 
 > [!NOTE]
-> If you're a Dynamics 365 Premium customer, you can get the same capabilities as the Copilot for Sales premium license by purchasing the Microsoft 365 Copilot license. 
+> If you're a Dynamics 365 Sales Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable Copilot for Sales.
 
 :::image type="content" source="media/premium-license-small.png" alt-text="Screenshot showing premium license user interface." lightbox="media/premium-license.png":::
 

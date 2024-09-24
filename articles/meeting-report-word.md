@@ -1,7 +1,7 @@
 ---
 title: Generate premeeting report with Copilot in Microsoft Word
 description: Learn how to generate premeeting reports in Microsoft Word with Copilot for Sales, providing relevant content and recommendations for sellers.
-ms.date: 03/18/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,7 +22,7 @@ Sellers use Microsoft Word to perform daily sales tasks such as preparing for st
 
 ## License requirements
 
-[Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## Prerequisites
 

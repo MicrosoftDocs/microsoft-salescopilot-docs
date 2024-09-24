@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Copilot for Sales for Dynamics 365 customers.
-ms.date: 06/20/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -103,7 +103,7 @@ To make onboarding to Copilot for Sales easier for select organizations, Microso
 - Dynamics 365 Sales Enterprise
 - Dynamics 365 Sales Premium
 
-In some cases, the Power Platform licensees can also get Copilot for Sales automatically installed. These users can start using basic capabilities of Copilot for Sales such as email drafting and email summarization without signing in to their CRM. If your sellers are using a Dynamics 365 license that doesn't include Copilot for Sales, or the Salesforce CRM, or Power Apps, you can purchase the appropriate license. [Visit the pricing page for information about license cost](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing).
+In some cases, the Power Platform licensees can also get Copilot for Sales automatically installed. These users can start using basic capabilities of Copilot for Sales such as email drafting and email summarization without signing in to their CRM. If your sellers are using a Dynamics 365 license that doesn't include Copilot for Sales, or the Salesforce CRM, or Power Apps, you can purchase the appropriate license. [Visit the pricing page for information about license cost](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
 > [!NOTE]
 > To simplify your sellers' experience for automatic installation of Copilot for Sales app, you can set up [server-side synchronization](/power-platform/admin/connect-exchange-online) of emails and appointments for all Copilot for Sales users.

@@ -1,7 +1,7 @@
 ---
 title: FAQ for key sales info feature in Outlook
 description: This FAQ provides information about the AI technology used in the key sales info feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/06/2024
+ms.date: 09/24/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -17,7 +17,7 @@ These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 C
 
 ## What is the key sales info feature?
 
-The key sales info feature shows shows relevant CRM data based on the context of an email in the **Key sales info** card in the Copilot for Sales app in Microsoft Outlook. Users must have the Copilot for Sales premium license to see this card. The data is retrieved from the connected CRM and emails. User must open the Copilot for Sales side pane in Outlook to see the **Key sales info** card. Based on the email that the user has selected, the app finds relevant CRM key information related to email like contact, account, and opportunity.
+The key sales info feature shows shows relevant CRM data based on the context of an email in the **Key sales info** card in the Copilot for Sales app in Microsoft Outlook. Users must have the Copilot for Sales license to see this card. The data is retrieved from the connected CRM and emails. User must open the Copilot for Sales side pane in Outlook to see the **Key sales info** card. Based on the email that the user has selected, the app finds relevant CRM key information related to email like contact, account, and opportunity.
 
 
 ## What the feature can do?
