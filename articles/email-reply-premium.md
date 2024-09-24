@@ -21,9 +21,9 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 > [!NOTE]
 > The Copilot for Sales license includes Microsoft 365 Copilot license and provides combined results which are optimized for sales roles. CRM integration is provided out of the box and can be configured within the application and with Microsoft Copilot Studio.
 >    
->     - If you have already purchased Microsoft 365 Copilot, you can add the step-up Copilot for Sales license to include all the role-based functionality and out of the box CRM connections.
+>    > - If you have already purchased Microsoft 365 Copilot, you can add the step-up Copilot for Sales license to include all the role-based functionality and out of the box CRM connections.
 >    
->     - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
+>    > - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
 
 For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
