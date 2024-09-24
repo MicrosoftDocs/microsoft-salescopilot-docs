@@ -75,7 +75,7 @@
       href: suggested-replies.md
     - name: Turn off task suggestion in collaboration spaces (preview)
       href: turn-off-suggested-tasks-collab-space.md
-    - name: Copilot data movement across geographies
+    - name: Copilot for Sales data movement across geographies
       href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
@@ -106,6 +106,8 @@
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md
+    - name: Connect to CRM from Teams (preview)
+      href: sign-in-crm-teams.md
   - name: Capabilities in Outlook
     items:
     - name: CRM actions
@@ -251,8 +253,6 @@
       href: extend-record-summary.md
     - name: Enrich CRM record details
       href: extend-record-details.md
-    - name: Add a new Q&A capability to the Sales chat
-      href: extend-m365-chat.md
 
 - name: Troubleshooting guide
   items:
