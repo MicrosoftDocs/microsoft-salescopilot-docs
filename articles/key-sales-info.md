@@ -1,7 +1,7 @@
 ---
 title: View key sales information in Copilot for Sales
 description: Learn how to view key sales information in Copilot for Sales as you read and compose emails in Outlook.
-ms.date: 06/27/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
