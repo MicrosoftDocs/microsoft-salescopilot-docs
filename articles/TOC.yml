@@ -142,15 +142,15 @@
         href: ai-sales-copilot.md
       - name: View email summary
         items:
-        - name: View email summary using premium license
+        - name: View email summary using Copilot for Sales license
           href: email-summary-premium.md
-        - name: View email summary using standard license
+        - name: View email summary using Sales Copilot license
           href: view-save-email-summary-crm.md
       - name: Draft an email message
         items:
-        - name: Draft an email message using premium license
+        - name: Draft an email message using Copilot for Sales license
           href: email-reply-premium.md
-        - name: Draft an email message using standard license
+        - name: Draft an email message using Sales Copilot license
           href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
@@ -182,9 +182,9 @@
         href: generate-meeting-summary.md
       - name: View meeting summary
         items:
-        - name: View meeting summary using premium license
+        - name: View meeting summary using Copilot for Sales license
           href: view-meeting-summary-recap.md
-        - name: View meeting summary using standard license  
+        - name: View meeting summary using Sales Copilot license  
           href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
