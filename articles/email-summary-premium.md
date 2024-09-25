@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: Learn how to use email summaries enriched with sales information in Outlook.
-ms.date: 09/24/2024
+ms.date: 09/25/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -56,10 +56,12 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
 
 1. In Outlook, open an email thread that you want to summarize.
 1. Select the **Summary by Copilot** box at the top of the email thread. Copilot scans the email thread, creates, and displays a summary at the top of the email thread.
-1. In the **Summary by Copilot** box, select the **From Outlook** dropdown list at top-right, and select **Add Sales insights**. The summary is updated to include sales information from CRM.
+1. In the **Summary by Copilot** box, select the **From Outlook** dropdown list at top-right, and select **With Sales insights added**. The summary is updated to include sales information from CRM.
     > [!NOTE]
-    > If an external email is included in the email thread, **Add Sales insights** is selected by default.
+    > If an external email is included in the email thread, **With Sales insights added** is selected by default.
 1. To open **Copilot for Sales**, select **Go to Sales**. The **Key sales info** card displays information about the connected opportunity, account, and contact.
+
+    :::image type="content" source="media/email-summary-premium-license.png" alt-text="Screenshot showing email summary in Outlook enriched with sales information from your CRM system.":::
 
 ### See also
 
