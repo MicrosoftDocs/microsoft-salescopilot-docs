@@ -51,8 +51,12 @@ With Copilot in Outlook and Copilot for Sales together, you can draft an email m
 
 1. In Outlook, reply to an email thread.
 1. In the **Draft with Copilot** area, select the **From Outlook** dropdown at top-right, and select **From Sales**. Predefined response categories are displayed.
+
+    :::image type="content" source="media/email-draft-premium-license.png" alt-text="Screenshot showing email drafting capability within Outlook with predefined response categories."::: 
+
     > [!NOTE]
     > If an external email is included in the email thread, **From Sales** is selected by default.
+   
 1. Select a response category. Copilot generates a reply using sales information from CRM.
 1. Review the generated content. To generate a different suggestion, select **Regenerate**.
 1. Select **Keep it** to add the content to the email body.
