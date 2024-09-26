@@ -1,6 +1,6 @@
 ---
 title: Copilot for Sales features for Dynamics 365 Sales users
-description: Learn about the limited functionalities available for Dynamics 365 Sales users in Copilot for Sales.
+description: Discover the limited functionalities available for Dynamics 365 Sales users in Copilot for Sales.
 ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -25,7 +25,7 @@ Limited functionalities are only available for the following Dynamics 365 licens
 - Microsoft Relationship Sales (MRSs) 
 
 > [!NOTE]
-> Customers still using CE plan licenses are also eligible as they equate to Dynamics 365 Sales Enterprise.
+> Customers still using CE plan licenses are eligible as they equate to Dynamics 365 Sales Enterprise.
 
 ## Limited functionalities
 
@@ -35,11 +35,11 @@ The limited functionalities are available through the following applications:
 - Microsoft Teams
 
 > [!NOTE]
-> Mobile applications are not supported for the limited functionalities.
+> Mobile applications are not supported due to limited functionalities.
 
 ### Microsoft Outlook
 
-Limited functionalities in Microsoft Outlook are available through the contextual side pane. For information on how to access the side pane, see [Access Copilot for Sales in Outlook](open-app.md#access-copilot-for-sales-in-outlook).
+Limited functionalities in Microsoft Outlook are available through the contextual side pane. For information on how to access the side pane, go to [Access Copilot for Sales in Outlook](open-app.md#access-copilot-for-sales-in-outlook).
 
 The limited functionalities do not depend on the Microsoft 365 Copilot user experience or functionality. For an integrated experience that includes Microsoft 365 Copilot and Microsoft Teams meeting recap, you must purchase Copilot for Sales.
 
@@ -60,7 +60,7 @@ Core value is included for Dynamics 365 users to see Copilot for Sales in action
 |[Work with collaboration spaces](collaboration-space.md)  | Generate or link a customer record and opportunity to a Teams channel and group. <br>See a single access point for collaboration and access to common attachment files. Planner tasks are suggested with the help of AI.    | Copilot for Sales side pane in Outlook and Teams channel        |
 |[Work with adaptive cards](share-crm-record-teams-conversation.md#paste-a-link-to-a-crm-record)    | Create and share a dynamic link of a specific record in Dynamics 365 with another individual or group.    | Teams chat and channel        |
 |[Use Copilot for Sales during a Teams meeting](use-sales-copilot-app-during-meeting.md)   | See the connected CRM record during a meeting. |Copilot for Sales panel in Teams meetings    |
-|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> Note that this experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting        |
+|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> This experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting        |
 |[View conversation intelligence dashboard](analyze-sellers-conv-data-pbi.md)     | Access a summary of calls to spot trends and compare sales team members.   | Power BI template        |
 
 :::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing conversation intellignce in Teams meeting summary.":::
@@ -89,7 +89,7 @@ Gain access to upcoming Copilot for Sales enhancements as outlined in the [relea
 
 The planner highlights areas such as natural language communication, deeper integration with Microsoft 365 applications, and new role-specific insights and recommendations. 
 
-Note that the features on this roadmap are intended exclusively for Copilot for Sales users and will not be included within the limited functionality.
+The features on this roadmap are intended exclusively for Copilot for Sales users and will not be included within the limited functionality.
 
 ## Frequently asked questions
 
@@ -103,8 +103,8 @@ Yes! Dynamics 365 Sales Premium customers who also purchase Microsoft 365 Copilo
 
 ### Will the limited capabilities provide access to any Microsoft 365 Copilot functionality?
 
-The limited capabilities do not provide any access to the Microsoft 365 Copilot functionality. All combined experiences with Microsoft 365 Copilot which include chat, Teams meeting recap, and access via other Microsoft 365 surfaces such as Microsoft Word are only available with the purchase of Copilot for Sales.
+The limited capabilities do not provide access to the Microsoft 365 Copilot functionality. All combined experiences with Microsoft 365 Copilot which include chat, Teams meeting recap, and access via other Microsoft 365 surfaces such as Microsoft Word are only available with the purchase of Copilot for Sales.
 
 ### Will Dynamics 365 Sales customers see any Copilot functionality embedded within their CRM application?
 
-Yes, Dynamics 365 Sales customers will see Copilot functionality within the Dynamics 365 client. This is in addition to the limited functionality for Copilot for Sales in Microsoft Outlook and Teams. For more information, see [Copilot in Dynamics 365 Sales overview](/dynamics365/sales/copilot-overview).
+Yes, Dynamics 365 Sales customers will see Copilot functionality within the Dynamics 365 client. This is in addition to the limited functionality for Copilot for Sales in Microsoft Outlook and Teams. For more information, go to [Copilot in Dynamics 365 Sales overview](/dynamics365/sales/copilot-overview).
