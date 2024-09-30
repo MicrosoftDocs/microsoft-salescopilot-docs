@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 09/24/2024
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -237,6 +237,18 @@ To see the new icon, you must clear the Outlook cache by following these steps:
 ### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
+
+Multi tenant support: We don't have multi tenant support. We use M365 AAD credentials as the foundation to authenticate end users, so all access is restricted to environments in the same tenant.
+
+Guest user access: We don’t support access to Copilot for Sales by users added as guests to a tenant.
+
+### Is multi-tenant support available for Copilot for Sales?
+
+Copilot for Sales doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
+
+### Can guest users access Copilot for Sales?
+
+Users added as guests to a tenant can't access Copilot for Sales.
 
 ## Deployment
 
