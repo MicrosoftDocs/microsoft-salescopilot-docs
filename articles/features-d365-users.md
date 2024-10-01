@@ -1,7 +1,7 @@
 ---
 title: Copilot for Sales features for Dynamics 365 Sales users
 description: Learn about the limited functionalities available for Dynamics 365 Sales users in Copilot for Sales.
-ms.date: 09/24/2024
+ms.date: 10/01/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -33,9 +33,6 @@ The limited functionalities are available through the following applications:
 
 - Microsoft Outlook
 - Microsoft Teams
-
-> [!NOTE]
-> Mobile applications are not supported for the limited functionalities.
 
 ### Microsoft Outlook
 
