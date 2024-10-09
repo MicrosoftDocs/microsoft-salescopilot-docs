@@ -242,14 +242,6 @@ Multi tenant support: We don't have multi tenant support. We use M365 AAD creden
 
 Guest user access: We don’t support access to Copilot for Sales by users added as guests to a tenant.
 
-### Is multi-tenant support available for Copilot for Sales?
-
-Copilot for Sales doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
-
-### Can guest users access Copilot for Sales?
-
-Users added as guests to a tenant can't access Copilot for Sales.
-
 ## Deployment
 
 ### How do I find my tenant admin?
