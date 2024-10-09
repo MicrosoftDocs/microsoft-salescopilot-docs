@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 09/24/2024
+ms.date: 10/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,9 +17,10 @@ ms.custom:
 When you compose a new email or reply to your customers by email, Copilot for Sales uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
 > [!NOTE]
-> - This feature is available only when enabled by your administrator. More information: [Configure suggested email content in Outlook](suggested-replies.md)
+> - This feature is available only when enabled by your administrator. More information: [Turn on Copilot AI features](suggested-replies.md)
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending your email.
 > - If the email is connected to a CRM record and the associated activities have attachments exceeding a total of 28 MB, you may encounter issues while drafting the email. To prevent this, either remove the attachments from the activities or reduce their size so that the total size of the attachments is less than 28 MB per draft request.
+> - If you've opened an encrypted email, the capability to draft an email using Copilot for Sales is not available.
 
 ## License requirements
 

@@ -1,7 +1,7 @@
 ---
 title: View and save email summary to CRM
 description: Learn how to view and save an email summary to CRM.
-ms.date: 09/24/2024
+ms.date: 10/09/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -53,7 +53,8 @@ To see a list of supported languages, see [supported languages](supported-langua
 1. The email summary is displayed in the **Key email info** card.
 
 > [!NOTE]
-> If the email content is less than 1000 characters, the email summary is not generated.
+> - If the email content is less than 1000 characters, the email summary is not generated.
+> - If you've opened an encrypted email, the email summary is not displayed.
 
 ## Save email summary to CRM
 
