@@ -1,7 +1,7 @@
 ---
 title: Summarize an email thread using sales information in Outlook
 description: Learn how to use email summaries enriched with sales information in Outlook.
-ms.date: 09/25/2024
+ms.date: 10/09/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -62,6 +62,9 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
 1. To open **Copilot for Sales**, select **Go to Sales**. The **Key sales info** card displays information about the connected opportunity, account, and contact.
 
     :::image type="content" source="media/email-summary-premium-license.png" alt-text="Screenshot showing email summary in Outlook enriched with sales information from your CRM system.":::
+
+    > [!NOTE]
+    > If you've opened an encrypted email, information is not displayed in the **Key sales info** card.
 
 ### See also
 
