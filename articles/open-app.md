@@ -81,7 +81,7 @@ You can access Copilot for Sales using any of the following options:
 - While reading an email from external contacts, a banner message is displayed at the top of the email with two of the following contextual actions:
     - **Add contacts**: This action is displayed if at least one contact in the email thread isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
     - **Save this email**: This action is displayed if you didn't save the email to your CRM. More information: [Save emails to CRM through quick CRM actions in email banners](save-outlook-activities-crm.md#save-outlook-activities-through-quick-crm-actions-in-email-banners)
-        - **See sales insights**: Select to open the **Copilot for Sales** pane. 
+    - **See sales insights**: Select to open the **Copilot for Sales** pane. 
 
 
 ### Pin the Copilot for Sales app in Outlook
