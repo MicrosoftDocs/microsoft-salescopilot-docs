@@ -1,7 +1,7 @@
 ---
 title: Access the Microsoft 365 Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 06/24/2024
+ms.date: 10/24/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -71,6 +71,18 @@ You can access Copilot for Sales using any of the following options:
 - While creating or opening a meeting
 
     - Select **Copilot for Sales** on the ribbon.
+
+### Email banners in Outlook
+
+- While drafting an email or creating a meeting with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:
+    - **See sales insights**: This action is displayed if external contacts in email are saved to CRM. Select to open the **Copilot for Sales** pane.
+    - **Add contacts**: This action is displayed if at least one contact in the email isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
+
+- While reading an email from external contacts, a banner message is displayed at the top of the email with two of the following contextual actions:
+    - **Add contacts**: This action is displayed if at least one contact in the email thread isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
+    - **Save this email**: This action is displayed if you didn't save the email to your CRM. More information: [Save emails to CRM through quick CRM actions in email banners](save-outlook-activities-crm.md#save-outlook-activities-through-quick-crm-actions-in-email-banners)
+        - **See sales insights**: Select to open the **Copilot for Sales** pane. 
+
 
 ### Pin the Copilot for Sales app in Outlook
 
