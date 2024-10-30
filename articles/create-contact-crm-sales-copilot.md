@@ -52,11 +52,11 @@ This capability is available only for emails in the [supported languages](suppor
 
 ## Add new contacts through quick CRM actions in email banners
 
-When you read or compose emails with external contacts in the From, To, or Cc fields, you can add new contacts to your CRM using quick CRM actions in the banner message. 
+When you read, compose, or reply to emails with external contacts in the From, To, or Cc fields, you can add new contacts to your CRM using quick CRM actions in the banner message. 
 
 When you read an email from external contacts, if at least one contact in the email thread isn't saved in your CRM, the banner message at the top of the email includes an action that you can use to add the new contacts. Currently, banner messages in this scenario are available on up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
-When you compose an email or create a meeting invitation with external contacts, if at least one contact in the email isn't saved in your CRM, the banner message at the top of the email includes an action to add the new contacts. The banner message in this scenario is displayed for every email that contains external contacts.
+When you compose an email, create a meeting invite, or reply to an email or a meeting invite with external contacts, if at least one contact in the email isn't saved in your CRM, the banner message at the top of the email includes an action to add the new contacts. The banner message in this scenario is displayed for every email that contains external contacts.
 
 1. Open an email that has external contacts.
 1. In the banner message, select **Add contact** or **Add contacts**.

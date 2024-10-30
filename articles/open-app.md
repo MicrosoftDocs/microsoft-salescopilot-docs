@@ -74,15 +74,20 @@ You can access Copilot for Sales using any of the following options:
 
 ### Email banners in Outlook
 
-- While drafting an email or creating a meeting with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:
+- While drafting an email, creating a meeting, or replying to an email or a meeting invite with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:
     - **See sales insights**: This action is displayed if external contacts in email are saved to CRM. Select to open the **Copilot for Sales** pane.
     - **Add contacts**: This action is displayed if at least one contact in the email isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
+    
+    > [!NOTE]
+    > The banner message in this scenario is displayed for every email or meeting that contains external contacts.
 
 - While reading an email from external contacts, a banner message is displayed at the top of the email with two of the following contextual actions:
     - **Add contacts**: This action is displayed if at least one contact in the email thread isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
     - **Save this email**: This action is displayed if you didn't save the email to your CRM. More information: [Save emails to CRM through quick CRM actions in email banners](save-outlook-activities-crm.md#save-outlook-activities-through-quick-crm-actions-in-email-banners)
     - **See sales insights**: Select to open the **Copilot for Sales** pane. 
 
+    > [!NOTE]
+    > The banner message in this scenario is displayed for up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
 ### Pin the Copilot for Sales app in Outlook
 
