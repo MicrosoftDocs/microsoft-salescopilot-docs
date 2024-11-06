@@ -603,6 +603,16 @@
         "source_path": "articles/extend-m365-chat.md",
         "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jul-24.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/aug-24.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
       }                                     
   ]
 }
