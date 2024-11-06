@@ -172,6 +172,8 @@
       items:
       - name: Create a Teams meeting
         href: create-teams-meeting.md
+      - name: View meeting preparation card
+        href: meeting-prep.md
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
       - name: Generate a meeting summary
