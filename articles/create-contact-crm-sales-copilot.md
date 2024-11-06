@@ -1,7 +1,7 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 10/24/2024
+ms.date: 11/06/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
