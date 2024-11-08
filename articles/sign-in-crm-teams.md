@@ -1,6 +1,6 @@
 ---
 title: Connect to CRM from Teams (preview)
-description: Connect to a CRM environment from Teams to get enriched experience with CRM data.
+description: Connect to a CRM environment from Teams to get an enriched experience with CRM data.
 ms.date: 09/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -18,10 +18,10 @@ After you open the Microsoft 365 Copilot for Sales app in Teams, you must connec
 
 ## Automatically connect to CRM
 
-If you have any Dynamics 365 environment (production or non-production) that has the Copilot for Sales solution, you're connected automatically to your environment the first time you open the Copilot for Sales app. The environment you're connected to is selected per the following rules:
+If you have a Dynamics 365 environment (production or non-production) with the Copilot for Sales solution, you're automatically connected to your environment the first time you open the Copilot for Sales app. The environment you're connected to is determined based on the following rules:
 
 
-|Scenario  |Auto connect rule  |You'll see  |
+|Scenario  |Auto connect rule  |You see  |
 |---------|---------|---------|
 |Single environment (production or non-production)     |  Connected to the available environment       | Message in the **Home** tab of the Copilot for Sales app        |
 |Single production environment and multiple non-production environments     |Connected to the production environment         |  Message in the **Home** tab of the Copilot for Sales app       |
@@ -29,11 +29,11 @@ If you have any Dynamics 365 environment (production or non-production) that has
 |Multiple non-production environments but no production environment     |  Connected to the first non-production environment       |  Dialog box to confirm or change the connected environment       |
 
 > [!NOTE]
-> Copilot for Sales does not have access to data on your most frequently accessed or most recently accessed environment to automatically connect. Copilot for Sales fetches a list of environments having the Copilot for Sales solution, and then selects the first environment in the list to automatically connect to.
+> Copilot for Sales doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. Copilot for Sales fetches a list of environments that have the Copilot for Sales solution and then connects to the first environment in the list.
 
 ### Single environment or single production environment
 
-For first and second scenarios, a message is displayed at the top-right corner in the **Home** tab of the Copilot for Sales app. It shows the environment you are connected to automatically. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
+For the first and second scenarios, a message is displayed at the top-right corner in the **Home** tab of the Copilot for Sales app. It shows the environment you are connected to automatically. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
 - **Switch environments**: Select this option to switch to another Dynamics 365 environment. In the **Connected to Dynamics 365** dialog box, select another environment from the **Choose a Dynamics 365 environment** list, and then select **Switch environment**.
 - **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
@@ -43,17 +43,16 @@ For first and second scenarios, a message is displayed at the top-right corner i
 
 ### Multiple environments
 
-For third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to, or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name, type (Production/Sandbox), and URL for each environment.
+For the third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name, type (Production/Sandbox), and URL for each environment.
 
-:::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation a when there are multiple environments.":::
+:::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation when there are multiple environments.":::
 
 ## Manually connect to CRM
 
 You must manually connect to your CRM in the following cases:
 
-- If you're using Dynamics 365 environment and have disconnected your CRM from the Copilot for Sales app
-
-- If you're using Salesforce CRM
+- If you're using Dynamics 365 environment and have disconnected your CRM from the Copilot for Sales app.
+- If you're using Salesforce CRM.
 
 You must be connected to your CRM to interact with CRM data in the Copilot for Sales app. Follow these steps to connect to your CRM:
 
