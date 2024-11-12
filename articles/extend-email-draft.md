@@ -133,7 +133,7 @@ In addition to the above parameters, headers containing metadata related to the 
 
 The example in the following image shows how the output of the API is mapped to the email draft.
 
-:::image type="content" source="media/extend-email-draft.svg" alt-text="Screenshot showing file links from partner apps in the email draft.":::
+:::image type="content" source="media/extend-email-draft.png" alt-text="Screenshot showing file links from partner apps in the email draft.":::
 
 Legend:
 
