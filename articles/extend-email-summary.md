@@ -85,9 +85,9 @@ Legend:
 ## See also
 
 [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

@@ -33,11 +33,9 @@ This section provides the information that you need to enrich the following Copi
 - [Key sales information](extend-key-sales-info.md)
 - [Customer relationship management (CRM) record summaries](extend-record-summary.md)
 - [CRM record details](extend-record-details.md)
-- [Question and answer (Q&A) capabilities in chat](extend-m365-chat.md)
 
 ## See also
 
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>

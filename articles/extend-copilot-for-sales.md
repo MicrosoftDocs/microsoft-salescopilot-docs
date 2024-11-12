@@ -87,8 +87,8 @@ Additionally, you can introduce new question and answer (Q&A) capabilities in th
 
 ## See also
 
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>

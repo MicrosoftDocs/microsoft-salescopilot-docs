@@ -142,7 +142,6 @@ Legend:
 ## See also
 
 [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
