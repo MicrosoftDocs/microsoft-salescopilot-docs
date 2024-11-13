@@ -226,7 +226,9 @@
     - name: View and understand Copilot for Sales dashboard report
       href: view-understand-pbi-report.md
 
-
+- name: Copilot for Sales adoption report
+  href: adoption-report.md
+  
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
