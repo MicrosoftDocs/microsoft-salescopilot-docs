@@ -42,7 +42,7 @@ You can edit the sample connector and action to get started quickly. Refer to th
     - `x-ms-user-agent`: "sales-copilot" is used as the value.
 
 
-## See also
+### Related information
 
 [Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

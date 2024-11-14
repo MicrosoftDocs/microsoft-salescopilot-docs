@@ -100,6 +100,6 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 Their Copilot for Sales for Outlook add-in is out of date. Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Copilot for Sales app](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
 
-### See also
+### Related information
 
 - [Use AI to kickstart email messages](use-copilot-kickstart-email-messages.md)

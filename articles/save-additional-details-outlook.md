@@ -59,7 +59,7 @@ The fields you configured are now available to sellers when they save emails or 
 
     1. To save all attachments by default, select **Save all attachments in the meeting by default**. If you don't select this option, sellers can choose which attachments to save when they save the meeting to CRM.
 
-### See also
+### Related information
 
 [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
 

@@ -42,6 +42,6 @@ Microsoft 365 Copilot for Sales standard license
 
     :::image type="content" source="media/outlook-teams-share-post.png" alt-text="Screenshot of the post shared on Teams.":::
 
-### See also
+### Related information
 
 [View and save email summary to CRM](view-save-email-summary-crm.md)

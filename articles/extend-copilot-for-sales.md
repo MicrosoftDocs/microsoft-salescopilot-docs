@@ -85,7 +85,7 @@ Additionally, you can introduce new question and answer (Q&A) capabilities in th
 
 1. [Learn about the extension points](build-apis.md) that you can use to extend the capability that you chose in step 1.
 
-## See also
+### Related information
 
 [Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>

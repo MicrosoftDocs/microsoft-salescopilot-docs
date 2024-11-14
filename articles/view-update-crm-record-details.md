@@ -20,6 +20,6 @@ After you receive a CRM record card in a Teams conversation, you can view and up
 
    :::image type="content" source="media/refresh.png" alt-text="Screenshot showing how to refresh the Copilot for Sales contact card.":::
 
-### See also
+### Related information
 
 [Share a CRM record in a Teams conversation](share-crm-record-teams-conversation.md)

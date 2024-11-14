@@ -38,6 +38,6 @@ Alternatively, you can also open a record in CRM from the **Copilot for Sales**Â
 > [!NOTE]
 > If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 
-### See also
+### Related information
 
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>

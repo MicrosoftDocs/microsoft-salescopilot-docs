@@ -53,6 +53,6 @@ The suggestions that appear automatically in real time may not include all the b
 
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
-### See also
+### Related information
 
 - [Real-time sales tips](use-sales-copilot-app-during-meeting.md#get-real-time-sales-tips)

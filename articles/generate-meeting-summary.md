@@ -35,7 +35,7 @@ Use the meeting summary to review past conversations with customers, understand 
 
 Only you and any other sellers you invited to the meeting can view the meeting summary. It isn't visible to the customers who participated in the call.
 
-### See also
+### Related information
 
 [View and understand the meeting summary](view-understand-meeting-summary.md)<br>
 [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)
