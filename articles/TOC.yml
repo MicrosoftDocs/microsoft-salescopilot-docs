@@ -8,12 +8,8 @@
   items:
   - name: What's new overview
     href: whats-new.md
-  - name: Sales Copilot changing to Copilot for Sales
+  - name: Sales Copilot changed to Copilot for Sales
     href: whats-new-copilot-sales.md
-  - name: July 2024
-    href: jul-24.md
-  - name: August 2024
-    href: aug-24.md
 
 - name: Product overview
   items:
@@ -27,6 +23,8 @@
       href: license-info.md
     - name: Copilot for Sales step-up license
       href: step-up-license.md
+    - name: Included features for Dynamics 365 users
+      href: features-d365-users.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
@@ -140,15 +138,15 @@
         href: ai-sales-copilot.md
       - name: View email summary
         items:
-        - name: View email summary using premium license
+        - name: View email summary using Copilot for Sales license
           href: email-summary-premium.md
-        - name: View email summary using standard license
+        - name: View email summary using Sales Copilot license
           href: view-save-email-summary-crm.md
       - name: Draft an email message
         items:
-        - name: Draft an email message using premium license
+        - name: Draft an email message using Copilot for Sales license
           href: email-reply-premium.md
-        - name: Draft an email message using standard license
+        - name: Draft an email message using Sales Copilot license
           href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
@@ -174,15 +172,17 @@
       items:
       - name: Create a Teams meeting
         href: create-teams-meeting.md
+      - name: View meeting preparation card
+        href: meeting-prep.md
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
       - name: Generate a meeting summary
         href: generate-meeting-summary.md
       - name: View meeting summary
         items:
-        - name: View meeting summary using premium license
+        - name: View meeting summary using Copilot for Sales license
           href: view-meeting-summary-recap.md
-        - name: View meeting summary using standard license  
+        - name: View meeting summary using Sales Copilot license  
           href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
@@ -208,7 +208,7 @@
         href: collaborate-teams-newly-created-existing-team.md
       - name: Access linked teams and channels
         href: access-linked-teams-channels.md
-      - name: AI-powered Planner tasks (preview)
+      - name: AI-powered Planner tasks
         items:
         - name: Overview
           href: suggested-tasks-collab-space.md

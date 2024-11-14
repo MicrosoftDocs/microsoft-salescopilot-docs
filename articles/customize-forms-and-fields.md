@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
-ms.date: 08/22/2024
+ms.date: 09/25/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -62,6 +62,7 @@ You can add new custom or out-of-the-box record types to Copilot for Sales. For 
     > - You can add only one record type at a time.
     > - Logical names of record types and fields are displayed to optimize performance.
     > - For Dynamics 365, ActivityParty and ActivityPointer record types can't be added, as they are currently not supported. 
+    > - For Salesforce, the Note object can't be added, as it's currently not supported.
 
     :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 

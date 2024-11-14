@@ -1,18 +1,14 @@
 ---
-title: Create Planner tasks from suggested tasks (preview)
+title: Create Planner tasks from suggested tasks
 description: Learn how to create Planner tasks from suggested tasks in collaboration spaces in Microsoft Teams.
-ms.date: 05/08/2024
+ms.date: 09/27/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Create Planner tasks from suggested tasks (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+# Create Planner tasks from suggested tasks
 
 1. In Microsoft Teams, open an account team or deal room channel.
 

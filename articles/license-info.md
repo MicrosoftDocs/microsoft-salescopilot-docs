@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales license overview
 description: Learn about licenses for Copilot for Sales, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
-ms.date: 09/12/2024
+ms.date: 10/16/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,7 +18,7 @@ Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects t
 
 ## Prerequisites
 
-- A product license for E3 or E5, or Office 365 E3 or E5, is required to buy Microsoft 365 Copilot.
+- A product license for Microsoft 365 E3, E5, Business Standard, or Business Premium, or Office 365 E3 or E5, or a version of these suites that does not include Microsoft Teams, is required to purchase Copilot for Sales.
 - A subscription to one of the following sales solutions is required to use Copilot for Sales:
 
     - Dynamics 365 Sales
@@ -40,21 +40,11 @@ Copilot for Sales also supports Salesforce Sales Cloud customers. Organizations 
 
 ## Capabilities
 
-The following table provides a high-level overview of the capabilities that are available with Copilot for Sales. It also shows where the capabilities can be accessed from. 
-
-> [!NOTE]
-> The list of capabilities is not exhaustive. The capabilities might change over time or release in future updates. Keep track of changes on the [Microsoft 365 Copilot for Sales release planner](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales) site.
-
-| Capabilities | Accessed from |
-|--------------|---------------|
-| Microsoft 365 Copilot experiences such as Copilot in Microsoft 365 apps, Copilot Studio, and Microsoft Graph. | Microsoft 365 Copilot |
-| <p>Outlook integrated experiences such as viewing email summaries and drafting email replies by using sales insights in the Outlook canvas.</p><p>Create and update CRM records, view recommended CRM updates and buying intent, and use sales-enabled chat.</p> | Outlook |
-| <p>Teams integrated experiences such as in-meeting prompts and an intelligent meeting recap experience that is combined with CRM updates and actions.</p><p>Get meeting summaries with conversation intelligence, create collaboration spaces, and share CRM records.</p> | Teams |
-| Microsoft 365 Copilot integrated experiences such as premeeting report generation in Word and sales pitch presentation in PowerPoint. | Microsoft 365 apps |
+For information about limited capabilities included with the Dynamics 365 Sales license and the full set of capabilities included with the Copilot for Sales license, go to [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
 
 ## Pricing
 
-For information about pricing, go to [Features and pricing](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing), or contact your Microsoft representative.
+For information about pricing, go to [Features and pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing), or contact your Microsoft representative.
 
 ## See also
 
