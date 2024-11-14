@@ -38,7 +38,7 @@ You can find the name and details of your default Dataverse instance named **msd
 
 If you need to delete Copilot for Sales data (for example, delete data for a specific user), you can choose to [manually delete it](/power-platform/admin/remove-user-personal-data). 
 
-### See also
+### Related information
 
 [Introduction to Microsoft 365 Copilot for Sales](introduction.md)<br>
 [Install Copilot for Sales](install-viva-sales.md)

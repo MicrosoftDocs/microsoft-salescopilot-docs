@@ -67,7 +67,7 @@ When you compose an email, create a meeting invite, or reply to an email or a me
 1. In the **New contact** or **New lead** form, add the required information, and then select **Save**.
 
 
-### See also
+### Related information
 
 [Create a new record in your CRM from Copilot for Sales](create-new-record.md)<br>
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

@@ -22,6 +22,6 @@ You can't delete or uninstall the Copilot for Sales app in Teams. You can block 
 
 3.  Select **Block**.
 
-### See also
+### Related information
 
 [Remove Copilot for Sales from Microsoft 365 admin center](disable-viva-sales.md)

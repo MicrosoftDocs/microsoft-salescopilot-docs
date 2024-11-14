@@ -104,7 +104,7 @@ To create a post-meeting summary email:
 
 1. Review and update the email content as needed, and then send it to your customers.
 
-### See also
+### Related information
 
 - [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef)<br>
 - [Intelligent productivity with Microsoft Teams Premium](https://support.microsoft.com/office/intelligent-productivity-with-microsoft-teams-premium-d5b02821-b9b1-4687-8c77-2f903ea68ad2)

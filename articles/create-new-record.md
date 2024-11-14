@@ -50,7 +50,7 @@ Copilot for Sales shows records that are related to the saved contacts in the em
         - **Create record**: Create a new record inline in the **Copilot for Sales** pane.
         - **Create in CRM**: Create a new record in the CRM system.
 
-### See also
+### Related information
 
 [Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)<br>
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

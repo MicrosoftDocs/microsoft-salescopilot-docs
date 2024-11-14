@@ -111,7 +111,7 @@ Legend:
 1. "More actions" button that can be used either to copy a link to the record or to view record details in the partner application. The link is based on the URL of the related record in the API response.
 1. Additional properties of the related record from the API response.
 
-## See also
+### Related information
 
 [View record details](view-record-details.md)<br>
 [Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>

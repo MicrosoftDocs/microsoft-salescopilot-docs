@@ -54,6 +54,6 @@ The quality of the meeting summary depends on how accurately the system can tran
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
 - [Generate a meeting summary](generate-meeting-summary.md)

@@ -56,6 +56,6 @@ To minimize the impact, users should review and customize the generated drafts t
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
 - [Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)

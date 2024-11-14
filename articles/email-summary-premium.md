@@ -66,7 +66,7 @@ You can also open the **Copilot for Sales** pane from the email summary to view 
     > [!NOTE]
     > If you've opened an encrypted email, information is not displayed in the **Key sales info** card.
 
-### See also
+### Related information
 
 [Enrich email summary with insights from your application](extend-email-summary.md) <br>
 [Enable users for Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-enable-users) <br>
