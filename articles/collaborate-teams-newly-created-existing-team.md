@@ -123,7 +123,7 @@ The AI-generated opportunity summary is available only when your administrator h
 
 If your administrator has turned off the Copilot for Sales app in Teams, the opportunity summary isn't available at all.
 
-### See also
+### Related information
 
 - [Set up a team using the account team template](set-up-team-account-team-template.md)
 - [Set up a team using the deal room template](set-up-team-deal-room-template.md)

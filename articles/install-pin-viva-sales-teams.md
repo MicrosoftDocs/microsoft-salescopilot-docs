@@ -77,6 +77,6 @@ For more information about assigning user and group policies, go to [Assign poli
 
 Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
-### See also
+### Related information
 
 [Install Copilot for Sales add-in for Outlook](install-viva-sales-as-an-integrated-app.md)

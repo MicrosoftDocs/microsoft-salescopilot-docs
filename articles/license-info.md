@@ -46,7 +46,7 @@ For information about limited capabilities included with the Dynamics 365 Sales 
 
 For information about pricing, go to [Features and pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing), or contact your Microsoft representative.
 
-## See also
+### Related information
 
 [Buy Copilot for Sales](buy-license.md)<br>
 [Install Copilot for Sales (admin-deployed)](install-viva-sales.md)<br>

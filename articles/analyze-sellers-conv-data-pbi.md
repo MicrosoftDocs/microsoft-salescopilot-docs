@@ -36,6 +36,6 @@ As a sales manager, use this dashboard to:
 
 :::image type="content" source="media/pbi-dashboard.png" alt-text="Screenshot display of Power BI dashboard.":::
 
-### See also
+### Related information
 
 [View and understand Copilot for Sales dashboard report (preview)](view-understand-pbi-report.md)

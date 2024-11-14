@@ -71,6 +71,6 @@ Sales Conversation Intelligence is currently available in limited geographies. B
 
 To see the list of supported languages, see [Supported languages](supported-languages.md).
 
-### See also
+### Related information
 
 [Install Copilot for Sales](install-viva-sales.md)

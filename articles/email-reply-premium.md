@@ -62,7 +62,7 @@ With Copilot in Outlook and Copilot for Sales together, you can draft an email m
 1. Select **Keep it** to add the content to the email body.
 1. Edit the email content as required, and then send it.
 
-### See also
+### Related information
 
 [Enable users for Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-enable-users) <br>
 [Draft an email message with Copilot in Outlook](https://support.microsoft.com/office/draft-an-email-message-with-copilot-in-outlook-3eb1d053-89b8-491c-8a6e-746015238d9b)

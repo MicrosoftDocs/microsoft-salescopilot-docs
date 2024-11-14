@@ -56,6 +56,6 @@ To minimize the impact, users should carefully review the summaries and verify c
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
 - [View and save email summary to CRM](view-save-email-summary-crm.md)

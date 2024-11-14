@@ -47,6 +47,6 @@ If the email address you entered matches multiple contacts in the CRM, you must 
     
     If you've connected the external contact to an incorrect CRM contact by mistake, you can [change the connected record](change-connected-crm-contact.md).
 
-### See also
+### Related information
 
 [Create a contact in your CRM](create-contact-crm-sales-copilot.md)

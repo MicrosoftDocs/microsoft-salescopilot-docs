@@ -56,6 +56,6 @@ To minimize the impact, users should carefully review and tailor the follow-up e
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
 - [Create a sales meeting summary email](use-copilot-kickstart-email-messages.md#create-a-sales-meeting-summary-email)

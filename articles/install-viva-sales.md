@@ -87,7 +87,7 @@ Looking for step-by-step instructions on how to deploy Copilot for Sales? Here a
 
 After you install Copilot for Sales for your users, they can start using it in Outlook and Teams. For information on how to use Copilot for Sales, see [Access the Copilot for Sales app](open-app.md).
 
-### See also
+### Related information
 
 [Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)<br>
 [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md) 

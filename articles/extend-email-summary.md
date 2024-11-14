@@ -82,7 +82,7 @@ Legend:
 1. Title of the insight. Insights that have the same title are grouped together.
 1. Description of the insight. Each insight has one description.
 
-## See also
+### Related information
 
 [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)<br>
 [Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>

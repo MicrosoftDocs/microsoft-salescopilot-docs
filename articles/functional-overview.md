@@ -90,7 +90,7 @@ Customize Copilot for Sales for a uniquely tailored experience that meets your o
 
 [Extend Copilot for Sales](extend-copilot-for-sales.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
-### See also
+### Related information
 
 [Copilot for Sales architecture](architecture.md)<br>
 [Copilot for Sales license overview](license-info.md)<br>

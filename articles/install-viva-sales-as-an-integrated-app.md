@@ -93,6 +93,6 @@ End users can install the Outlook add-in and Teams app from within Microsoft App
 
 If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales is not added automatically to meeting invites. However, sellers can manually add Copilot for Sales to the meeting to get meeting summaries.
 
-### See also
+### Related information
 
 [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)
