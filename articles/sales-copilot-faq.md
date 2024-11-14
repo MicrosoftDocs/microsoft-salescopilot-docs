@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 09/24/2024
+ms.date: 11/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -274,7 +274,11 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
-   
+
+### How does optional connected experiences affect Copilot for Sales?
+
+If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Copilot for Sales app is not displayed in Outlook for users that have installed the app by themselves. If the Copilot for Sales app has been deployed by an administrator, it will be displayed for users.
+
 ## Forms and fields customization
 
 ### Are changes in the CRM reflected automatically in Copilot for Sales?
