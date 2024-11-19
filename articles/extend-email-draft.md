@@ -48,15 +48,9 @@ You must add the following API description to the action. In this way, Copilot f
 | cc  | String[]  | Receivers' email addresses added in the Cc field of the email. | This input provides all the receiver's email addresses that are included in the Cc field of the email. |
 | bcc | String[]  | Receivers' email addresses added in the Bcc field of the email.  | This input provides all the receiver's email addresses that are added in the Bcc field of the email. |
 | sentDateTime  | DateTimeOffset | The date and time of the email in UTC format along with the Offset property. For more information, go to DateTimeOffset Struct (System) | This input provides the timestamp of the email. |
+| messageId | String  | The Graph message Id of the email. | This input provides the message ID of the email. |
+| conversationId | String  | The Graph conversation Id of the email thread. | This input provides the conversation ID of the email thread. |
 
-### Headers
-
-In addition to the above parameters, headers containing metadata related to the current email will be included in the connector API request.
-
-| Header Name | Type   | Details   | Description to add in the action  |
-|-------------|--------|-----------|-----------------------------------|
-| x-ms-message-id | String | The Graph message Id of the email message for which the content suggestion is being requested. | This input provides the message ID of the email content for which suggestions are being requested. |
-| x-ms-conversation-id  | String | The Graph conversation Id of the email message for which the content suggestion is being requested. | This input provides the conversation ID of the email content for which suggestions are being requested. |
 
 ## Output parameters
 
