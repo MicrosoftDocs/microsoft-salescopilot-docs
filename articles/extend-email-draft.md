@@ -22,7 +22,7 @@ You must add the following API description to the action. In this way, Copilot f
 
 *This action gets files relevant to the email conversation, which will be shown in C4S email drafts in Outlook. The action enhances the existing skills of copilot for sales.*
 
-## Imput payload
+## Input payload
 
 | Name           | Data Type | Required | Details | Description to add in the action |
 |----------------|-----------|----------|---------|----------------------------------|
