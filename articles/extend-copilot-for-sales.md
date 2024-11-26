@@ -34,7 +34,7 @@ The article also provides guidance about how to manage the input and output for 
 
 The following video provides a quick overview of Copilot for Sales extensibility.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1lMwg]
+> [!VIDEO 28b9cf57-b05f-4b68-8a37-49310e749e1c]
 
 ## How does extensibility work in Copilot for Sales?
 
