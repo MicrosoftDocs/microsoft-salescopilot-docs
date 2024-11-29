@@ -32,7 +32,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 | Annotation | Description |
 |------------|-------------|
 | 1 | Summary about the opportunity. |
-| 2 | Summarized notes added to the opportunity with citation numbers to show note text used to generate summary. More information: [View data source in opportunity summary](#view-data-source-in-opportunity-summary) |
+| 2 | Summarized notes added to the opportunity with citation numbers to show note text used to generate summary. More information: [View data source in opportunity summary](#view-data-source-in-summary) |
 | 3 | Copy the opportunity summary to clipboard. You can then paste the content as per your preferences. |
 | 4 | Change the opportunity used to generate the summary. More information: [Change the opportunity used to generate summary](#change-the-opportunity-used-to-generate-summary) |
 | 5 | Name of the opportunity for which summary is generated. |

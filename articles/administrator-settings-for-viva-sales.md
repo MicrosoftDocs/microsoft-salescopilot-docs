@@ -27,7 +27,7 @@ As a tenant administrator or CRM (customer relationship management) administrato
 
 Administrator settings are visible only when you sign in with administrator credentials to Copilot for Sales in Outlook. The permissions you need depend on which CRM you use.
 
-- **Dynamics 365:** You must have the **System Administrator** or **System Customizer** role. If you're using a custom security role, you might need [more privileges to use Copilot for Sales](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
+- **Dynamics 365:** You must have the **System Administrator** or **System Customizer** role. If you're using a custom security role, you might need [more privileges to use Copilot for Sales](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
 
 - **Salesforce:** Your user profile must have the **Modify All Data** or **Manage Data Integrations** permission. Permissions need to be set in your user profile, not in a permission set that's assigned to you.
 
