@@ -1,7 +1,7 @@
 ---
 title: Generate a meeting summary
 description: Learn how to generate a meeting summary.
-ms.date: 07/05/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -27,8 +27,7 @@ When you end the meeting, Copilot for Sales uses the recorded call and transcrip
 
 > [!IMPORTANT]
 >
-> - You must transcribe the meeting to generate meeting insights.
->
+> - You must transcribe the meeting to generate meeting insights.  
 > - Version of the Copilot for Sales app in Microsoft Teams must be 1.0.9 or higher to generate meeting insights. For more information, click [here](sales-copilot-faq.md#why-are-meeting-insights-not-getting-generated-even-if-meeting-is-transcribed).
 
 Use the meeting summary to review past conversations with customers, understand historical needs and sentiments, and highlight your commitments.

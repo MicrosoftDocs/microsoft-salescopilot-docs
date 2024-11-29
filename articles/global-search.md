@@ -1,8 +1,8 @@
 ---
 title: Search for a CRM record using Copilot for Sales
 description: Explore the Copilot for Sales CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
-ms.date: 08/21/2024
-ms.topic: overview
+ms.date: 11/29/2024
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
