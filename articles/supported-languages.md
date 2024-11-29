@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Copilot for Sales for Outlook and Teams
 description: Lean which languages are supported in Copilot for Sales
-ms.date: 05/03/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,8 +17,7 @@ ms.localizationpriority: medium
 User interface is available in the following languages:
 
 - Arabic
-- Chinese   (simplified)
-- Chinese   (traditional)
+- Chinese (simplified and traditional)
 - Czech
 - Danish
 - Dutch
@@ -34,8 +33,7 @@ User interface is available in the following languages:
 - Korean
 - Norwegian
 - Polish
-- Portuguese   (Brazil)
-- Portuguese   (Portugal)
+- Portuguese (brazilian and portugal)
 - Spanish
 - Swedish
 - Thai
@@ -45,15 +43,14 @@ User interface is available in the following languages:
 
 Conversation intelligence is available in the following languages:
 
-- Chinese   Simplified (PRC)
+- Chinese (simplified)
 - Dutch
 - English
 - French
 - German
 - Italian
 - Japanese
-- Portuguese
-- Portuguese   (Brazil)
+- Portuguese (brazilian and portugal)
 - Spanish
 - Hebrew
 - Danish
@@ -75,9 +72,7 @@ Conversation intelligence is available in the following languages:
 | Italian             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Japanese            | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Portuguese (Brazil) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes  | Yes  |
-| Spanish             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |    
-
+| Spanish             | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 > [!NOTE]
 > For meeting summary, the following languages are partially supported and the insights are generated in English: Chinese (simplified), Portuguese, Portuguese (Brazil), Hebrew, Swedish, Finnish, Norwegian, and Arabic.
-

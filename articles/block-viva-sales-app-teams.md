@@ -1,8 +1,8 @@
 ---
-title: Block the Copilot for Sales app in Microsoft Teams
+title: Block the Copilot for Sales app in Teams
 description: Learn how to block the Copilot for Sales app in Microsoft Teams
-ms.date: 02/02/2024
-ms.topic: article
+ms.date: 11/29/2024
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -14,13 +14,9 @@ ms.localizationpriority: medium
 
 You can't delete or uninstall the Copilot for Sales app in Teams. You can block it if your sellers no longer need it.
 
-**To block the Copilot for Sales app**:
-
-1.  In the Microsoft Teams admin center, go to **Teams apps** &gt; **Manage apps**.
-
-2.  Select the check mark to the left of Copilot for Sales in the app list.
-
-3.  Select **Block**.
+1. In the Microsoft Teams admin center, go to **Teams apps** &gt; **Manage apps**.  
+1. Select the check mark to the left of Copilot for Sales in the app list.  
+1. Select **Block**.
 
 ### Related information
 

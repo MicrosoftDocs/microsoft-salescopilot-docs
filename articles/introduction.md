@@ -1,7 +1,7 @@
 ---
 title: Welcome to Microsoft 365 Copilot for Sales
 description: Get to know Copilot for Sales
-ms.date: 07/31/2024
+ms.date: 11/29/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,20 +12,29 @@ ms.localizationpriority: medium
 
 # Welcome to Microsoft 365 Copilot for Sales
 
-Copilot for Sales is an AI assistant designed for sellers to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily like Microsoft Outlook, Microsoft Teams, and Microsoft Word.
+Copilot for Sales is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook, Microsoft Teams, and Microsoft Word.  
+Depending on the following roles, you can use Copilot for Sales to:  
 
-Sellers can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps. Sales managers can empower their teams with AI-powered manager insights and collaboration tools. Copilot for Sales can also be customized according to your business needs. Copilot for Sales integrates seamlessly with Microsoft Dynamics 365 Sales and Salesforce Sales Cloud, and can be configured to connect to other sales solutions.
+- As a **seller**, you can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps.  
+- As a **sales managers**, you can empower their teams with AI-powered manager insights and collaboration tools.  
 
-Copilot for Sales for Microsoft Teams has permissions to participate in Teams meetings and access meeting recordings. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings. Copilot for Sales for Outlook has permissions to access calendar events, contacts, and read and write emails. Copilot for Sales for Word has permissions to read and write documents to prepare sales meeting briefs.
+Here's how you can use Copilot for sales to improve your sales productivity:
 
-An appropriate [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Copilot for Sales](install-viva-sales.md). Copilot for Sales allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing is not enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
-
-> [!NOTE]
-> Copilot for Sales is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
+- Customize by integrating with **Microsoft Dynamics 365 Sales**, **Salesforce Sales Cloud**, and other sales solutions to get insights and recommendations tailored to your business needs.  
+- Participate in Teams meetings and access meeting recordings through **Microsoft Teams**. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings.  
+- Access calendar events, contacts, and read and write emails through **Microsoft Outlook**. It provides email assistance, insights, and recommendations to help you close deals faster.  
+- Read and write documents to prepare sales meeting briefs through **Microsoft Word**. It provides insights and recommendations to help you create personalized sales content.
 
 Here's a video that gives you a quick overview of Copilot for Sales.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1f1Ja]
+
+## Consideration
+
+A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Copilot for Sales](install-viva-sales.md). Copilot for Sales allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
+
+> [!NOTE]
+> Copilot for Sales is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
 
 ## License requirements
 
@@ -48,6 +57,7 @@ If you're using Salesforce as your CRM system, see [Permissions required for Sal
 ## Region availability
 
 Copilot for Sales is available globally except in the following countries:
+
 - Myanmar
 - Cabo Verde
 - China
