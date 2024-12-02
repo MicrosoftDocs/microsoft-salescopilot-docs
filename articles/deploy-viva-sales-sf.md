@@ -16,7 +16,7 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Sales
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
+> [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
 
 ## Prerequisites
 
