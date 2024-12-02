@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 08/23/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,10 +14,8 @@ You'll get the most benefit from everything Copilot for Sales can do for you whe
 
 When you read an email from external contacts or compose an email to external contacts, and open the Copilot for Sales pane, Copilot for Sales searches your CRM for the contact's primary email address. The external contact is connected to a CRM contact based on one of the following conditions:
 
-- External email address matches only one CRM contact
-
-- External email address matches none of the CRM contacts
-
+- External email address matches only one CRM contact  
+- External email address matches none of the CRM contacts  
 - External email address matches multiple CRM contacts
 
 > [!NOTE]
@@ -39,13 +37,12 @@ If the email address you entered matches multiple contacts in the CRM, you must 
 
     :::image type="content" source="media/choose-contact-crm.png" alt-text="Screenshot showing to choose contact from CRM tab.":::
 
-2. Select the contact you want to connect to.
+1. Select the contact you want to connect to.
 
     :::image type="content" source="media/choose-correct-contact.png" alt-text="Screenshot showing to choose the correct contact.":::
 
-    If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).
-    
-    If you've connected the external contact to an incorrect CRM contact by mistake, you can [change the connected record](change-connected-crm-contact.md).
+    - If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).  
+    - If you've connected the external contact to an incorrect CRM contact by mistake, you can [change the connected record](change-connected-crm-contact.md).
 
 ### Related information
 

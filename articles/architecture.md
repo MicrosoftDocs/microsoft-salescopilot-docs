@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales architecture
 description: Information about Microsoft 365 Copilot for Sales architecture
-ms.date: 02/02/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,8 +22,6 @@ The architecture document provides an in-depth view of the Copilot for Sales arc
 |[Download Copilot for Sales architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
 
 <br>
-Here's a video that gives you a quick overview of Copilot for Sales.
+Watch this video to get a quick overview of Copilot for Sales.
 
 > [!VIDEO 233cbdb3-6610-4fbe-af9a-d402622d2c7a]
-
-
