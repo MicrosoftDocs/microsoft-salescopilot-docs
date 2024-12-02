@@ -24,6 +24,6 @@ The architecture document provides an in-depth view of the Copilot for Sales arc
 <br>
 Here's a video that gives you a quick overview of Copilot for Sales.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1f1Ja]
+> [!VIDEO 233cbdb3-6610-4fbe-af9a-d402622d2c7a]
 
 

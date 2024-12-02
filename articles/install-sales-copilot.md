@@ -17,7 +17,7 @@ ms.custom:
 Copilot for Sales is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily, your CRM, Microsoft 365, and Microsoft Teams, to provide a more streamlined and AI-powered selling experience.
 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW181Q6]
+> [!VIDEO e7eb1248-4d7f-464b-896c-70f47e6e7fdf]
 
 ## Install Copilot for Sales in Outlook
 
