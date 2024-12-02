@@ -23,7 +23,7 @@ You need to be a Microsoft 365 administrator to deploy and install the Copilot f
 
 Watch this video to learn how to install Copilot for Sales in Outlook and Teams:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
+> [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
 
 ## Privileges required to use Copilot for Sales
 

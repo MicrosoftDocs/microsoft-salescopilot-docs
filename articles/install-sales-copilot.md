@@ -26,7 +26,7 @@ With Copilot for Sales, you can:
 
 Watch this video to learn more about Copilot for Sales:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW181Q6]
+> [!VIDEO e7eb1248-4d7f-464b-896c-70f47e6e7fdf]
 
 ## Install and use Copilot for Sales in Outlook
 
