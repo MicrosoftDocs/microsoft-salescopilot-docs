@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 10/09/2024
+ms.date: 12/03/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -333,6 +333,9 @@ To restore suggested content to its previous version, select **More options**, a
 ## Add or remove meeting suggestions
 
 By default, a meeting time isn't included in the suggested content. If a customer requests a meeting at a certain time and mentions the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
+
+> [!NOTE]
+> This feature is not supported for Korean and Thai languages.
 
 ### Add a meeting time suggestion
 
