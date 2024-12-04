@@ -16,7 +16,7 @@ Copilot for Sales is an AI assistant for sales teams to maximize productivity an
 Depending on the following roles, you can use Copilot for Sales to:  
 
 - As a **seller**, you can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps.  
-- As a **sales managers**, you can empower their teams with AI-powered manager insights and collaboration tools.  
+- As a **sales manager**, you can empower your team with AI-powered manager insights and collaboration tools.  
 
 Here's how you can use Copilot for sales to improve your sales productivity:
 
