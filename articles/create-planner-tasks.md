@@ -34,7 +34,7 @@ ms.author: shjais
 
 Sales team members can update the tasks directly from the Planner app that is added as a tab. They don't have to switch to the Planner app. The Planner app automatically reflects task updates that are made on the tab.
 
-### See also
+### Related information
 
 [Advanced collaboration with AI-powered Planner tasks](suggested-tasks-collab-space.md)<br>
 [Set up a team using the account team template](set-up-team-account-team-template.md)<br>
