@@ -1,7 +1,7 @@
 ---
 title: Install Microsoft 365 Copilot for Sales (user-deployed)
 description: Discover how to install Microsoft 365 Copilot for Sales as a user-deployed app that streamlines and enhances your selling experience.
-ms.date: 06/19/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,33 +14,28 @@ ms.custom:
 
 # Install Microsoft 365 Copilot for Sales (user-deployed)
 
-Copilot for Sales is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. It brings together the applications you work with daily, your CRM, Microsoft 365, and Microsoft Teams, to provide a more streamlined and AI-powered selling experience.
-
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW181Q6]
-
-## Install Copilot for Sales in Outlook
+Copilot for Sales is an AI tool that helps sales teams work the way they want to, without unnecessary context-switching and manual data entry. It brings together various applications you use each day such as your email, calendar, and CRM, to provide a more streamlined and AI-powered selling experience.
 
 With Copilot for Sales, you can:
 
-- Reply quickly and confidently with assistance from AI
-
-- Save Outlook emails and events to Dynamics 365
-
-- Connect Outlook emails and events to relevant Dynamics 365 records
-
-- Create new contacts in Dynamics 365 from Outlook
-
+- Reply quickly and confidently with assistance from AI  
+- Save Outlook emails and events to Dynamics 365  
+- Connect Outlook emails and events to relevant Dynamics 365 records  
+- Create new contacts in Dynamics 365 from Outlook  
 - Update opportunities, accounts and contacts in Dynamics 365 from Outlook
 
->
+Watch this video to learn more about Copilot for Sales:
+
+> [!VIDEO e7eb1248-4d7f-464b-896c-70f47e6e7fdf]
+
+## Install and use Copilot for Sales in Outlook
+
 > [!IMPORTANT]
+>
 > - This article provides instructions for business users without administrator privileges to install Copilot for Sales. If you are a CRM administrator trying to install Copilot for Sales for your sales team, see [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md) or [Copilot for Sales deployment guide for Salesforce customers](deploy-viva-sales-sf.md) as per your requirement.
 > - When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales app is not added automatically to meeting invites. However, you can manually add Copilot for Sales to the meeting to get meeting summaries.
 > - You may not be able to install Copilot for Sales if downloading add-ins is turned off for your organization. In this case, contact your administrator.
 > - If you are using the Dynamics 365 app for Outlook, you can consider switching to Copilot for Sales, as you can do much more with Copilot for Sales. More information: [Difference between Copilot for Sales and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
-
-**To install Copilot for Sales in Outlook**
 
 1. Sign in to [Microsoft AppSource](https://appsource.microsoft.com/home).
 
@@ -80,18 +75,15 @@ After you've installed Copilot for Sales, you can open Copilot for Sales and sig
 | ² Copilot for Sales allows creating contacts and editing contacts, accounts, and opportunities. Support for creating and editing additional entities is coming soon. | | |
 |³ Requires Copilot for Sales app to be installed in Microsoft Teams.  |               |                              |
 
+## Install and use Copilot for Sales app in Microsoft Teams
 
-## Install Copilot for Sales app in Microsoft Teams
-
-1. Sign in to Microsoft Teams.
-
+1. Sign in to Microsoft Teams.  
 1. In the navigation bar on the left, select **Apps**.
 
-	:::image type="content" source="media/store.png" alt-text="Screenshot showing Apps on the navigation bar.":::
+    :::image type="content" source="media/store.png" alt-text="Screenshot showing Apps on the navigation bar.":::
 
-1.  Search for **Copilot for Sales**, and then select it.
-
-1.  Select **Add** in the **Copilot for Sales** window.
+1. Search for **Copilot for Sales**, and then select it.  
+1. Select **Add** in the **Copilot for Sales** window.
 
 ### Start using Copilot for Sales in Teams
 
@@ -101,7 +93,7 @@ After you've installed Copilot for Sales, you can start using Copilot for Sales 
 
 Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
-## FAQ
+## FAQs
 
 ### How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?
 
@@ -111,12 +103,12 @@ You can check if the Copilot for Sales add-in for Outlook is admin-deployed or u
 
 1. Open [https://aka.ms/olksideload](https://aka.ms/olksideload). If required, sign in to your Microsoft Outlook account.
 
-2. In the **Add-Ins for Outlook** window, go to **My add-ins** and **Admin-managed** tabs in the left pane, and check if the add-in is available under these tabs.
+1. In the **Add-Ins for Outlook** window, go to **My add-ins** and **Admin-managed** tabs in the left pane, and check if the add-in is available under these tabs.
 
     If the add-in is available under **Admin-managed** tab, it is admin-deployed. Contact your administrator to [uninstall the add-in](disable-viva-sales.md).
 
     If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](disable-viva-sales.md#uninstall-copilot-for-sales-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.
 
-### See also
+### Related information
 
 [Uninstall Copilot for Sales app](disable-viva-sales.md)

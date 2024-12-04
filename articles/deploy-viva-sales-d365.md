@@ -16,7 +16,7 @@ Follow the instructions in this guide to deploy Copilot for Sales for your Dynam
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
+> [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
 
 ## Prerequisites
 
@@ -66,7 +66,7 @@ If you're using the following out-of-the-box Dynamics 365 Sales security roles, 
 
 -   Administration roles: System Administrator or System Customizer
 
-If you're using custom security roles, [assign users the right roles and privileges required for Dynamics 365 customers](install-viva-sales.md#additional-privileges-required-for-dynamics-365-customers).
+If you're using custom security roles, [assign users the right roles and privileges required for Dynamics 365 customers](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
 
 ## Step 6 (optional): Customize Copilot for Sales
 

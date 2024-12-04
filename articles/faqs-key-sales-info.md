@@ -54,6 +54,6 @@ System may not find relevant CRM information to show, in that case, it will not 
 
 - **Set up the system**: Copilot AI features must be enabled by an administrator and fields for the opportunity record must be selected. Copilot for Sales must be connected to a CRM. 
 
-## See also
+### Related information
 
 - [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)

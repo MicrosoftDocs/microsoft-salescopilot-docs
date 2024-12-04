@@ -46,6 +46,6 @@ If you have any feedback about Copilot for Sales, you can share it from the app.
 
 The **Settings** tab is currently available only for the admin users. More information: [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
 
-### See also
+### Related information
 
 - [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)

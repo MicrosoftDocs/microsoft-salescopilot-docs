@@ -100,7 +100,7 @@ Legend:
 1. Name of the partner application. The name that is shown is the name of the Microsoft Power Platform connector.
 1. Link that can be selected to view insight details in the partner application. It's based on the URL of the insight in the API response.
 
-## See also
+### Related information
 
 [View key sales information in Copilot for Sales](key-sales-info.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>

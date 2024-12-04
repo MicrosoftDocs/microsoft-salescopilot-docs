@@ -22,27 +22,25 @@ You can access Copilot for Sales using any of the following options:
 
 ### Outlook desktop
 
-- While drafting an email or creating a meeting
+- While drafting an email or creating a meeting  
 
-    - Select **Copilot for Sales** on the ribbon or **All Apps** > **Copilot for Sales** (in Classic ribbon)
+    - Select **Copilot for Sales** on the ribbon or **All Apps** > **Copilot for Sales** (in Classic ribbon)  
 
         :::image type="content" source="media/access-app-desktop.svg" alt-text="Screenshot showing accessing the app from Outlook desktop.":::
 
-    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)
-    
-    - Select **Show contact** or **Add contact** in the banner message (for emails)
-    
+    - Select **More commands** (**...**) and then select **Copilot for Sales** (in Simplified ribbon)  
+    - Select **Show contact** or **Add contact** in the banner message (for emails)  
     - Select **Show details** in the banner message (for meetings)
 
 - While reading an email or opening a meeting
 
-    - In Classic ribbon: Perform one of the following actions: 
-        - Select **Copilot for Sales** on the ribbon.
-        - Select **All Apps** > **Copilot for Sales**. In the pop-up, select **Copilot for Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Copilot for Sales** and then find and select the CRM entity.
+    - In **Classic** ribbon, do one of the following actions:  
+        - Select **Copilot for Sales** on the ribbon.  
+        - Select **All Apps** > **Copilot for Sales**. In the pop-up, select **Copilot for Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Copilot for Sales** and then find and select the CRM entity.  
 
         :::image type="content" source="media/access-app-desktop-read-email.svg" alt-text="Screenshot showing accessing the app from Outlook desktop while reading an email.":::
-     
-    - In Simplified ribbon: Select **More commands** (**...**) and then select **Copilot for Sales**.
+
+    - In Simplified ribbon: Select **More commands** (**...**) and then select **Copilot for Sales**.  
 
 ### New Outlook desktop and Outlook on the web
 
@@ -51,30 +49,27 @@ You can access Copilot for Sales using any of the following options:
     - On the ribbon, select **Apps** > **Copilot for Sales**. In the pop-up, select **Copilot for Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Copilot for Sales** and then find and select the CRM entity.
     
         :::image type="content" source="media/access-app-web.svg" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
-    
+
     > [!NOTE]
     > If Copilot for Sales is admin-deployed, the app is automatically pinned to the ribbon.  
- 
-    - Select **Show contact** or **Add contact** in the banner message (for emails)
-    
+
+    - Select **Show contact** or **Add contact** in the banner message (for emails)  
     - Select **Show summary** in the banner message (for meetings)
-    
+
 - While reading an email
 
     - On the email action bar, select **Apps** > **Copilot for Sales**.
 
         :::image type="content" source="media/access-app-web-read-email.svg" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
 
-    > [!NOTE]    
+    > [!NOTE]
     > If Copilot for Sales is admin-deployed, the app is automatically pinned to the email action bar.
 
-- While creating or opening a meeting
-
-    - Select **Copilot for Sales** on the ribbon.
+- While creating or opening a meeting, select **Copilot for Sales** on the ribbon.
 
 ### Email banners in Outlook
 
-- While drafting an email, creating a meeting, or replying to an email or a meeting invite with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:
+- While drafting an email, creating a meeting, or replying to an email or a meeting invite with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:  
     - **See sales insights**: This action is displayed if external contacts in email are saved to CRM. Select to open the **Copilot for Sales** pane.
     - **Add contacts**: This action is displayed if at least one contact in the email isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
     
