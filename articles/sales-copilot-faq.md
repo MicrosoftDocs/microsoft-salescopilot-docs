@@ -254,11 +254,7 @@ The settings are specific to the environment you're signed in to in Copilot for 
 
 ### How can I switch CRM environments?
 
-If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first.
-
-1. [Sign out of Copilot for Sales in Outlook](more-options.md#sign-out-of-copilot-for-sales).  
-1. On the **Welcome to Copilot for Sales!** page, select **Sign in to get started**, and then select your CRM and the environment you want to customize.  
-1. Come back to the Copilot for Sales app in Teams and refresh the **Settings** tab to confirm you're working in the correct environment.  
+If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](sign-in-crm-teams.md#single-environment-or-single-production-environment). 
 
 ### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
 
