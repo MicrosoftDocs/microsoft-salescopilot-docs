@@ -254,8 +254,6 @@
 
 - name: Troubleshooting guide
   items:
-  - name: Overview
-    href: troubleshoot.yml
   - name: CRM permissions and configurations
     items:
       - name: '"Align missing fields" error'

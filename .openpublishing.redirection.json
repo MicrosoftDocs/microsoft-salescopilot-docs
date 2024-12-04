@@ -613,6 +613,11 @@
         "source_path": "articles/aug-24.md",
         "redirect_url": "/microsoft-sales-copilot/whats-new",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/troubleshoot.yml",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
       }                                     
   ]
 }

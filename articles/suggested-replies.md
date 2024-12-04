@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft 365 Copilot for Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 11/29/2024
+ms.date: 12/04/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,8 +37,8 @@ If you're a new customer in a region other than North America or Europe, you mus
 As a tenant administrator, you can control who can use AI capabilities in Copilot for Sales for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
-1. Under **Tenant**, select **Copilot**.  
-1. Turn on **Copilot**.  
+1. Under **Tenant**, select **Copilot AI**.  
+1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.  
 1. Under **Apply to**, select one of the following options:
 
@@ -55,8 +55,8 @@ As a tenant administrator, you can control who can use AI capabilities in Copilo
 As a CRM administrator, you can control who can use AI capabilities in Copilot for Sales in the environments you manage. If a tenant admin turned off Copilot AI features for your organization, you can't turn them on in your environments.
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
-1. Under **Environment**, select **Copilot**.  
-1. Turn on **Copilot**.  
+1. Under **Environment**, select **Copilot AI**.  
+1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.  
 1. To turn on real-time sales tips feature, select **Show tips about competitors and brands**.  
 1. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.  
