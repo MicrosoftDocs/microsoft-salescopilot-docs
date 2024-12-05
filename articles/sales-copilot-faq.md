@@ -268,7 +268,7 @@ You need to sign in to a CRM environment in Copilot for Sales in Outlook before 
 
 You signed in to Copilot for Sales in Outlook or Teams with an account that doesn't have admin rights. Personal settings for Copilot for Sales will be accessible in the **Settings** tab soon.
 
-If you're signed in with tenant administrator or CRM administrator credentials, you shouldn't see the "Settings are coming soon" message. You should see the administrator settings page. If you do see this message, make sure you have the [right permissions or security roles](#who-can-access-administrator-settings).
+If you're signed in with tenant administrator or CRM administrator credentials, you shouldn't see the "Settings are coming soon" message. You should see the administrator settings page. If you do see this message, make sure you have the [right permissions or security roles](administrator-settings-for-viva-sales.md#who-can-access-administrator-settings).
 
 ### Can I change the administrator settings on my mobile device?
 
