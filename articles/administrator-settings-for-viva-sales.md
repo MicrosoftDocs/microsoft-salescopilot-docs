@@ -20,8 +20,7 @@ As a tenant administrator or CRM (customer relationship management) administrato
 
 ## Prerequisites
 
-- [The Copilot for Sales app is added to Teams](#add-the-copilot-for-sales-app-to-teams).
-- You have the latest version of the Copilot for Sales app in Teams. [Learn how to update an app in Teams](https://support.microsoft.com/office/update-an-app-in-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+- The Copilot for Sales app is installed in either [Outlook](install-viva-sales-as-an-integrated-app.md) or [Teams](install-pin-viva-sales-teams.md). 
 
 ## Who can access administrator settings?
 
