@@ -75,6 +75,6 @@ You can also update an opportunity record with the suggested updates when viewin
 
 1. Select **Save**.
 
-### See also
+### Related information
 
 [View opportunity summary](view-opportunity-summary.md)

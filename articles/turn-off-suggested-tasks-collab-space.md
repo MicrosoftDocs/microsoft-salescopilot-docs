@@ -30,6 +30,6 @@ As an administrator, you can control whether AI-powered tasks should be suggeste
 
 1. Select **Save**.
 
-### See also
+### Related information
 
 [Advanced collaboration with AI-powered Planner tasks](suggested-tasks-collab-space.md)

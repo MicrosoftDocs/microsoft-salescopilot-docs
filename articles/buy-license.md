@@ -53,6 +53,6 @@ To buy Copilot for Sales through CSPs, contact an authorized Microsoft Partner.
 
 [Find a partner.](https://partner.microsoft.com/partnership/find-a-partner)
 
-## See also
+### Related information
 
 [Copilot for Sales license overview](license-info.md)

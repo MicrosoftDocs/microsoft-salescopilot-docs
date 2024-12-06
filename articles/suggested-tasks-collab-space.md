@@ -51,7 +51,7 @@ This feature is currently supported only in English.
 
 A collaboration space must be created for the [account team](set-up-team-account-team-template.md) or [deal room](set-up-team-deal-room-template.md) in Teams.
 
-### See also
+### Related information
 
 [Create Planner tasks from suggested tasks](create-planner-tasks.md)<br>
 [Set up a team using the account team template](set-up-team-account-team-template.md)<br>

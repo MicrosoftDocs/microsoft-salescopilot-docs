@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 09/24/2024
+ms.date: 11/15/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -234,6 +234,10 @@ To see the new icon, you must clear the Outlook cache by following these steps:
 
 1. Open Outlook.
 
+### How does optional connected experiences affect Copilot for Sales?
+
+If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Copilot for Sales app is not displayed in Outlook for users that have installed the app by themselves. If the Copilot for Sales app has been deployed by an administrator, it will be displayed for users.
+
 ### How can I provide feedback about Copilot for Sales?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
@@ -274,7 +278,7 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
-   
+
 ## Forms and fields customization
 
 ### Are changes in the CRM reflected automatically in Copilot for Sales?

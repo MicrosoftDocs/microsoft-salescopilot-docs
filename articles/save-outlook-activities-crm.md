@@ -175,6 +175,6 @@ If you connect Copilot for Sales to your Dynamics 365 environment and enable [se
 
     The email is deleted from Dynamics 365, and you receive a confirmation message.
 
-### See also
+### Related information
 
 [Configure how Outlook emails and events are saved to CRM](save-additional-details-outlook.md)
