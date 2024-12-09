@@ -16,6 +16,9 @@ ms.author: shjais
 
 When you use Copilot for Sales to draft an email, it considers the email's intent and uses CRM information from Salesforce or Dynamics 365 to create the draft. You can extend the email drafting capability that Copilot for Sales provides with recommended files from your own application.
 
+> [!NOTE]
+> This feature is supported only for email drafts created using the Copilot for Sales side pane in Outlook.
+
 ## API description
 
 You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
