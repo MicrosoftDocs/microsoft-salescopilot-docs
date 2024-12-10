@@ -295,7 +295,7 @@ You can set the length of the suggested content to be short, medium, or long. Th
 By default, the content generated is in a professional tone. Once you have the suggested content, you can adjust the tone to suit your relationship with the customer or whatever feels comfortable. This helps you be more productive and write better emails. For example, you can change the tone from professional to formal.
 
 > [!NOTE]
-> If you're using custom prompt to generate the suggested content, you can specify the tone of the suggested content.
+> If you're using custom prompt to generate the suggested content, you can specify the tone of the suggested content in the prompt.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -340,7 +340,7 @@ Working hours and calendar availability are considered before adding a meeting t
 
 > [!NOTE]
 > - This feature is not supported for Korean and Thai languages.
-> - If you're using custom prompt to generate the suggested content, you can include a meeting time in the suggested content.
+> - If you're using custom prompt to generate the suggested content, you can specify a meeting time to be included in the suggested content.
 
 ### Add a meeting time suggestion
 
@@ -372,7 +372,7 @@ The language of the suggested content is determined as follows:
 
 - If you're replying to an email, the language of the suggested content is the same as the language of the email.
 - If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt.
-- If you're using custom prompt to generate the suggested content, you can specify the language of the suggested content.
+- If you're using custom prompt to generate the suggested content, you can specify the language of the suggested content in the prompt.
 
 In some cases, you might want to generate the suggested content in a different language. For example, you might want to generate the suggested content in the language of the customer.
 
