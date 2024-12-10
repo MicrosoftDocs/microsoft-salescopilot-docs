@@ -83,10 +83,9 @@ If the predefined response categories don't suit your requirements, you can ente
 You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
 > [!NOTE]
->
 > - Information from CRM is not displayed when using custom prompt to generated suggested email content.
->
 > - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, pre-defined response categories are made available.
+> - If you provide a [meeting time](#add-or-remove-meeting-suggestions), [tone](#adjust-tone-of-the-suggested-content), or [language](#set-language-of-suggested-content) in the custom prompt, the AI generates the suggested content based on the provided information.
 
 1. In Outlook:
 
@@ -293,7 +292,10 @@ You can set the length of the suggested content to be short, medium, or long. Th
 
 ## Adjust tone of the suggested content
 
-After you generate the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
+By default, the content generated is in a professional tone. Once you have the suggested content, you can adjust the tone to suit your relationship with the customer or whatever feels comfortable. This helps you be more productive and write better emails. For example, you can change the tone from professional to formal.
+
+> [!NOTE]
+> If you're using custom prompt to generate the suggested content, you can specify the tone of the suggested content.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -334,8 +336,11 @@ To restore suggested content to its previous version, select **More options**, a
 
 By default, a meeting time isn't included in the suggested content. If a customer requests a meeting at a certain time and mentions the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
 
+Working hours and calendar availability are considered before adding a meeting time to the draft. If the meeting is scheduled outside of working hours, such as on weekends or during weekday nights, AI will suggest the closest available time during working hours. Similarly, if the time is shown as blocked on the calendar, an alternative available time will be suggested.
+
 > [!NOTE]
-> This feature is not supported for Korean and Thai languages.
+> - This feature is not supported for Korean and Thai languages.
+> - If you're using custom prompt to generate the suggested content, you can include a meeting time in the suggested content.
 
 ### Add a meeting time suggestion
 
@@ -367,6 +372,7 @@ The language of the suggested content is determined as follows:
 
 - If you're replying to an email, the language of the suggested content is the same as the language of the email.
 - If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt.
+- If you're using custom prompt to generate the suggested content, you can specify the language of the suggested content.
 
 In some cases, you might want to generate the suggested content in a different language. For example, you might want to generate the suggested content in the language of the customer.
 
