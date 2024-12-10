@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 12/04/2024
+ms.date: 12/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -244,10 +244,6 @@ You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedbac
 
 ## Admin settings
 
-### Can I access Copilot for Sales administrator settings if I don't have Microsoft Teams?
-
-Administrator settings are accessible only in the Copilot for Sales app in Teams.
-
 ### Which CRM environment do the administrator settings apply to?
 
 The settings are specific to the environment you're signed in to in Copilot for Sales in Outlook. If you want to customize Copilot for Sales for another environment, you must [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
@@ -255,14 +251,6 @@ The settings are specific to the environment you're signed in to in Copilot for 
 ### How can I switch CRM environments?
 
 If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](sign-in-crm-teams.md#single-environment-or-single-production-environment). 
-
-### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
-
-You need to sign in to a CRM environment in Copilot for Sales in Outlook before you can open the Copilot for Sales **Settings** tab in Teams.  
-
-1. [Sign in to Copilot for Sales in Outlook](sign-in-crm-outlook.md) with your administrator credentials.  
-1. On the **Welcome to Copilot for Sales!** page, select **Sign in to get started**, and then select your CRM and environment.  
-1. Come back to the Copilot for Sales app in Teams and refresh the **Settings** tab.
 
 ### Why do I see the message "Settings are coming soon"?
 

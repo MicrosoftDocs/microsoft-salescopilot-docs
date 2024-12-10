@@ -63,8 +63,6 @@ additionalContent:
       links:
       - url: disable-viva-sales.md
         text: Remove Copilot for Sales from Microsoft 365 admin center
-      - url: block-viva-sales-app-teams.md
-        text: Block the Copilot for Sales app in Teams
 
   - title: Be productive with Copilot for Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 

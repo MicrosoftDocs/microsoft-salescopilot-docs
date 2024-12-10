@@ -1,7 +1,7 @@
 ---
 title: Install Microsoft 365 Copilot for Sales in Outlook
 description: Learn how to install, manage, and update the Copilot for Sales app in Microsoft 365 with this comprehensive guide.
-ms.date: 11/29/2024
+ms.date: 12/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -57,10 +57,8 @@ After you've installed Copilot for Sales as an integrated app, you can manage it
 
 The **Copilot for Sales** panel opens with the following tabs:
 
-- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.  
-- **Configuration**: Allows you to remove the app from a selected product. To remove the app, select it, and then select **Remove**.  
+- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
 - **Users**: Allows you to edit the users who can use the app.  
-- **Usage**: Displays the number of active users of the app based on the selected platform and date range.
 
 ## Update the Copilot for Sales app
 

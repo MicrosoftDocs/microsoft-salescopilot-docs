@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Copilot for Sales
 description: Learn how to use administrator settings to customize the Microsoft 365 Copilot for Sales experience in Outlook and Teams.
-ms.date: 12/04/2024
+ms.date: 12/10/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -24,13 +24,13 @@ As a tenant administrator or CRM (customer relationship management) administrato
 
 ## Who can access administrator settings?
 
-Administrator settings are visible only when you sign in with administrator credentials to the Copilot for Sales app in Outlook or Teams. The permissions you need depend on which CRM you use.
+Administrator settings are visible only when you sign in with administrator credentials to the Copilot for Sales app in [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md). The permissions you need depend on which CRM you use.
 
 - **Dynamics 365:** You must have the **System Administrator** or **System Customizer** role. If you're using a custom security role, you might need [more privileges to use Copilot for Sales](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
 
 - **Salesforce:** Your user profile must have the **Modify All Data** or **Manage Data Integrations** permission. Permissions need to be set in your user profile, not in a permission set that's assigned to you.
 
-If you change a user's permissions or security roles in your CRM, ask the user to sign out of Copilot for Sales in Outlook and sign in again for your changes to be reflected. Changes in user permissions or security roles in the CRM can take up to 15 minutes to reflect in the Copilot for Sales app in Teams.
+If you change a user's permissions or security roles in your CRM, ask the user to sign out of Copilot for Sales in Outlook or Teams, and then sign in again for your changes to be reflected. Changes in user permissions or security roles in the CRM can take up to 15 minutes to reflect in the Copilot for Sales app in Teams.
 
 ## Access administrator settings
 

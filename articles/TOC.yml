@@ -83,8 +83,6 @@
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
-  - name: Block the Copilot for Sales app in Teams
-    href: block-viva-sales-app-teams.md
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Configure conversation intelligence dashboard 
