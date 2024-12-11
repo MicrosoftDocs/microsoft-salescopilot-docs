@@ -44,7 +44,7 @@ For the first and second scenarios, a message is displayed at the top-right corn
 
 ### Multiple environments
 
-For the third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name, type (Production/Sandbox), and URL for each environment.
+For the third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name for each environment.
 
 :::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation when there are multiple environments.":::
 
