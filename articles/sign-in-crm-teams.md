@@ -21,7 +21,7 @@ Once you're connected to your CRM, the environment name is displayed at the top-
 :::image type="content" source="media/single-env-teams.png" alt-text="Screenshot showing connected to a single environment.":::
 
 > [!NOTE]
-> The option to switch environments is available only when there are multiple environments available to connect to.
+> The option to switch environments is available only when connected to a Dynamics 365 environment and there are other Dynamics 365 environments available to connect to.
 
 ## Automatically connect to CRM
 
