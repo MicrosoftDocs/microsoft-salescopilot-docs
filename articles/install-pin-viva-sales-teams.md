@@ -17,7 +17,6 @@ To install the Copilot for Sales app in Teams, go to the Teams admin center and 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
->
 > - The Teams meeting must be transcribed for Copilot for Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
 > - The connection between Copilot for Sales and your CRM is controlled through Copilot for Sales add-in in Outlook. More information: [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Uninstall the Microsoft 365 Copilot for Sales app
 description: Uninstall the Microsoft 365 Copilot for Sales app using Microsoft 365 admin center or PowerShell.
-ms.date: 11/29/2024
+ms.date: 12/10/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -41,9 +41,11 @@ You can uninstall the Copilot for Sales add-in for Outlook and the Copilot for S
 
 ## Uninstall as an admin
 
-As as admin, you can uninstall the Copilot for Sales add-in for Outlook using the Microsoft 365 admin center or PowerShell.
+As as admin, you can uninstall the Copilot for Sales add-in for Outlook using the Microsoft 365 admin center or PowerShell. 
 
-### Uninstall using Microsoft 365 admin center
+For the Copilot for Sales app in Teams, you can either remove the remove the group policy assignment or block the app if your sellers no longer need it.
+
+### Uninstall Copilot for Sales Outlook add-in using Microsoft 365 admin center
 
 If you've installed the Copilot for Sales add-in for Outlook from the Microsoft 365 admin center, it is considered as admin-deployed. You can remove the Copilot for Sales add-in if your sellers no longer need it.
 
@@ -53,7 +55,7 @@ If you've installed the Copilot for Sales add-in for Outlook from the Microsoft 
 1. Confirm about your choice and then select **Remove**.  
 1. When the app is successfully removed, select **Done**.
 
-### Uninstall using PowerShell
+### Uninstall Copilot for Sales Outlook add-in using PowerShell
 
 If the Copilot for Sales add-in for Outlook was installed automatically for your organization or sellers have installed it themselves, you can use PowerShell to remove it.
 
@@ -92,7 +94,32 @@ Connect-ExchangeOnline -UserPrincipalName <tenant admin email>
 Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | ForEach-Object { Remove-App -Mailbox $_.Identity -Identity $appIdentity -Confirm:$false }
 ```
 
+### Uninstall Copilot for Sales app from Microsoft Teams
+
+You can't delete or uninstall the Copilot for Sales app in Teams. You can either remove the group policy assignment, block the app, or change the app's availability if your sellers no longer need it.
+
+#### Remove the group policy assignment
+
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
+1. In the left pane, select **Teams apps** &gt; **Setup policies**.
+1. On the **Group policy assignment** tab, select the group policy assignment that includes the Copilot for Sales app.
+1. Select **Remove**.
+1. Select **Confirm**.
+
+#### Block the app
+
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
+1. In the left pane, go to **Teams apps** &gt; **Manage apps**.
+1. Select the app to open its details.
+1. Select Actions at the top-right, and then select **Block app**.
+
+#### Change the app's availability
+
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
+1. In the left pane, go to **Teams apps** &gt; **Manage apps**.  
+1. Select the check mark to the left of Copilot for Sales in the app list, and then select **Edit availability**. 
+1. In the **Edit availability** pane, select **No one** from the **Available to** list.
+
 ### Related information
 
-[Block the Copilot for Sales app in Teams](block-viva-sales-app-teams.md)  
 [Check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed](install-sales-copilot.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed)

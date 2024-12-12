@@ -1,20 +1,27 @@
 ---
-title: Connect to CRM from Teams (preview)
+title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get an enriched experience with CRM data.
-ms.date: 09/18/2024
+ms.date: 12/12/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Connect to CRM from Teams (preview)
+# Connect to CRM from Teams
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+After you open the Microsoft 365 Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Copilot for Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
-After you open the Microsoft 365 Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data.
+- **Switch environments**: Select this option to switch to another Dynamics 365 environment. In the **Connected to Dynamics 365** dialog box, select another environment from the **Choose a Dynamics 365 environment** list, and then select **Switch environment**.
+- **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
+- **Disconnect**: Disconnect from the current environment. You can connect to another environment later.
+
+:::image type="content" source="media/single-env-teams.png" alt-text="Screenshot showing connected to a single environment.":::
+
+> [!NOTE]
+> The option to switch environments is available only when connected to a Dynamics 365 environment and there are other Dynamics 365 environments available to connect to.
 
 ## Automatically connect to CRM
 
@@ -33,17 +40,11 @@ If you have a Dynamics 365 environment (production or non-production) with the C
 
 ### Single environment or single production environment
 
-For the first and second scenarios, a message is displayed at the top-right corner in the **Home** tab of the Copilot for Sales app. It shows the environment you are connected to automatically. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
-
-- **Switch environments**: Select this option to switch to another Dynamics 365 environment. In the **Connected to Dynamics 365** dialog box, select another environment from the **Choose a Dynamics 365 environment** list, and then select **Switch environment**.
-- **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
-- **Disconnect**: Disconnect from the current environment. You can connect to another environment later.
-
-:::image type="content" source="media/single-env-teams.png" alt-text="Screenshot showing connected to a single environment.":::
+For the first and second scenarios, a message is displayed at the top-right corner in the **Home** tab of the Copilot for Sales app. It shows the environment you are connected to automatically.
 
 ### Multiple environments
 
-For the third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name, type (Production/Sandbox), and URL for each environment.
+For the third and fourth scenarios, a dialog box is displayed to confirm the environment the user has been connected to or to select another environment. Select **OK** to confirm the environment or select another environment from the **Choose a Dynamics 365 environment** list. The list displays the friendly name for each environment.
 
 :::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation when there are multiple environments.":::
 

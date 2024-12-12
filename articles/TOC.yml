@@ -83,8 +83,6 @@
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
     href: disable-viva-sales.md
-  - name: Block the Copilot for Sales app in Teams
-    href: block-viva-sales-app-teams.md
   - name: Conversation intelligence dashboard (preview)
     items:
     - name: Configure conversation intelligence dashboard 
@@ -104,7 +102,7 @@
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md
-    - name: Connect to CRM from Teams (preview)
+    - name: Connect to CRM from Teams
       href: sign-in-crm-teams.md
   - name: Capabilities in Outlook
     items:
@@ -255,8 +253,6 @@
 
 - name: Troubleshooting guide
   items:
-  - name: Overview
-    href: troubleshoot.yml
   - name: CRM permissions and configurations
     items:
       - name: '"Align missing fields" error'
