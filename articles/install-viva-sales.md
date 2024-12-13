@@ -1,7 +1,7 @@
 ---
 title: Install Copilot for Sales (admin-deployed)
 description: Learn what are the various ways to install Copilot for Sales
-ms.date: 11/29/2024
+ms.date: 12/13/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -50,7 +50,7 @@ If you're using custom security roles, you must assign the following security ro
 
 |Requirement type  |You must have  |
 |------------------|---------------|
-| Security role | Copilot for Sales Administrator |
+| Security role | Sales Copilot Administrator |
 | Privilege | **Read** privilege on **User** table |
 
 #### Dynamics 365 sellers
@@ -60,7 +60,7 @@ If you're using custom security roles, you must assign the following security ro
 
 |Requirement type  |You must have  |
 |---------|---------|
-|Security role | Copilot for Sales User |
+|Security role | Sales Copilot User |
 |Privilege | **Read** privilege on **User** table |
 
 The **Copilot for Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.  
