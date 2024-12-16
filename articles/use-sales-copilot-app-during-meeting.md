@@ -27,7 +27,9 @@ If the meeting is connected to an opportunity in CRM, an [opportunity summary](v
 
 The connected record appears in the **Connected to** card. If the meeting isn't connected and saved to CRM, a message appears to save and connect the meeting to a CRM record. For details about saving a meeting to CRM, see [Save Outlook activities to your CRM](save-outlook-activities-crm.md).
 
-## Get real-time sales tips
+## Get real-time sales tips (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 As a seller, you can get real-time sales tips during your meetings with sales contacts in the Copilot for Sales panel in Microsoft Teams. These tips provide information about competitors or brands mentioned in the meeting, and help you respond to inquiries. The information you need is right in front of you, and leads to better communication and helps you close deals faster.
 

@@ -250,7 +250,7 @@ The settings are specific to the environment you're signed in to in Copilot for 
 
 ### How can I switch CRM environments?
 
-If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](sign-in-crm-teams.md#single-environment-or-single-production-environment). 
+If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](sign-in-crm-teams.md#switch-environments). 
 
 ### Why do I see the message "Settings are coming soon"?
 
