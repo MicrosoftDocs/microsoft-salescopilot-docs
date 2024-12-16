@@ -29,17 +29,15 @@ This section outlines what Copilot for Sales expects from your application APIs 
 
 This section provides the information that you need to enrich the following Copilot for Sales capabilities with insights from your application:
 
-- [Email summaries](extend-email-summary.md)  
-- [Key sales information](extend-key-sales-info.md)  
-- [Customer relationship management (CRM) record summaries](extend-record-summary.md)  
-- [CRM record details](extend-record-details.md)  
-- [Question and answer (Q&A) capabilities in chat](extend-m365-chat.md)
+- [Email summaries](extend-email-summary.md)
+- [Key sales information](extend-key-sales-info.md)
+- [Customer relationship management (CRM) record summaries](extend-record-summary.md)
+- [CRM record details](extend-record-details.md)
 
 ### Related information
 
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)  
-[Enrich email summaries with insights from your application](extend-email-summary.md)  
-[Enrich key sales information with insights from your application](extend-key-sales-info.md)  
-[Enrich CRM record details with insights from your application](extend-record-details.md)  
-[Enrich CRM record summaries with insights from your application](extend-record-summary.md)  
+[Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
+[Enrich CRM record details with insights from your application](extend-record-details.md)<br>
+[Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)
