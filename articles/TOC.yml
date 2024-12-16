@@ -244,6 +244,8 @@
       href: build-apis.md
     - name: Enrich email summary
       href: extend-email-summary.md
+    - name: Enrich email draft
+      href: extend-email-draft.md
     - name: Enrich key sales info
       href: extend-key-sales-info.md
     - name: Enrich CRM record summary
