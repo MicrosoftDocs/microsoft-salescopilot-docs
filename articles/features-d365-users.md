@@ -69,7 +69,7 @@ Dynamics 365 Sales users who purchase Copilot for Sales can access the full set 
 |Area  |Description  |
 |---------|---------|
 |Better together capabilities with Microsoft 365 Copilot  | Utilizing the user experience embedded within email, the [inline email summary](email-summary-premium.md) is optimized to include sales-related highlights and integrated CRM insights.  |
-|Role-based insights, actions, and recommendations    |  Sales-specific insights are displayed throughout the Microsoft 365 Copilot experiences. This includes [real-time in-meeting tips](use-sales-copilot-app-during-meeting.md#get-real-time-sales-tips), [task recommendations](suggested-tasks-collab-space.md), and [AI-suggested updates to CRM](suggested-crm-updates.md).    |
+|Role-based insights, actions, and recommendations    |  Sales-specific insights are displayed throughout the Microsoft 365 Copilot experiences. This includes [real-time in-meeting tips](use-sales-copilot-app-during-meeting.md#get-real-time-sales-tips-preview), [task recommendations](suggested-tasks-collab-space.md), and [AI-suggested updates to CRM](suggested-crm-updates.md).    |
 |Enriched data summaries   | CRM and Microsoft 365 Office Graph summarization uses combined data sources out of the box. Highlights and data points are optimized for salespeople and surfaced in a unified view in [Teams meeting recap](view-meeting-summary-recap.md) and Outlook.        |
 |Recent communication     |  Stay on top of your customer interactions with [quick views of recent email threads and Teams meeting summaries](recent-communications.md).       |
 |Key sales info     | [Get a comprehensive overview of relevant sales data directly within Outlook.](key-sales-info.md)   |

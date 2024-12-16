@@ -28,7 +28,7 @@ If you have a Dynamics 365 environment (production or non-production) with the C
 
 Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Copilot for Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
-- **Switch environments**: Select this option to switch to another Dynamics 365 environment. In the **Connected to Dynamics 365** dialog box, select another environment from the **Choose a Dynamics 365 environment** list, and then select **Switch environment**.
+- **Switch environments**: Select this option to [switch to another Dynamics 365 environment](#switch-environments).
 - **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
 - **Disconnect**: Disconnect from the current environment. You can connect to another environment later.
 
@@ -58,10 +58,24 @@ You must be connected to your CRM to interact with CRM data in the Copilot for S
     
     - **Salesforce® CRM**: Select your Salesforce environment, and then select **Connect to Salesforce® CRM**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
     
-    :::image type="content" source="media/manual-sign-in-teams.png" alt-text="Screenshot showing sign in button.":::
-
+    :::image type="content" source="media/manual-sign-in-teams.png" alt-text="Screenshot showing Connect to CRM button.":::
 
     Once you're connected to your CRM, **Connect to CRM** in the upper-right corner is replaced with the environment name. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. 
+
+## Switch environments
+
+> [!NOTE]
+> This section is applicable only for users signed in to a Dynamics 365 environment.
+
+You can switch to another Dynamics 365 environment, without signing out of your current environment, from the Copilot for Sales app in Teams. 
+
+1. On the **Home** tab, select the environment name, and then select **Switch environments**. 
+
+2. From the **Choose a Dynamics 365 environment** list, select another environment.
+
+    :::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation when there are multiple environments.":::
+
+3. Select **Switch environment**.
 
 ## App refresh
 
