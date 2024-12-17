@@ -1,7 +1,7 @@
 ---
 title: Search for a CRM record using Copilot for Sales
 description: Explore the Copilot for Sales CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
-ms.date: 11/29/2024
+ms.date: 12/17/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -54,7 +54,9 @@ When you search for a record in Copilot for Sales, the search results are shown 
     > [!NOTE]
     > For Dynamics 365, the key fields must be configured as View Columns in the Quick Find View for the record type. Otherwise, the additional fields aren't shown in the search results.
 
-You can also filter the search results by record type. The record types that are available for filtering depend on the record types that your administrator configured. The record types are shown above the list of search results. Select a record type to filter the search to results by that record type.
+### Filter search results by record type
+
+You can filter the search results by record type. The record types that are available for filtering depend on the record types that your administrator configured. The record types are shown above the list of search results. Select a record type to filter the search to results by that record type.
 
 :::image type="content" source="media/global-search-filter.png" alt-text="Screenshot of filter options in global search.":::
 
@@ -63,6 +65,19 @@ If the search results contain multiple records that have the same name, you can 
 When you expand the search results, you can view up to 10 fields. This number includes key fields. If fewer than 10 fields are configured, all fields are shown.
 
 :::image type="content" source="media/global-search-features.png" alt-text="Screenshot of search results.":::
+
+### Filter search results by using quick filters
+
+It can be challenging to find the right record, especially when multiple records have similar names. By default, Copilot for Sales searches everything in the CRM to ensure that nothing is left out. However, this can result in too many options, which might not meet your expectations for relevance. 
+
+To help you find the right record more easily, Copilot for Sales provides quick filters that you can use to narrow down the search results. Quick filters are available for select record types when you save an email or meeting to the CRM. You can filter the search results by the following criteria:
+
+- **Active records**: This filter shows only records that are active.
+- **Owned by me**: This filter shows only records that are owned by you.
+
+For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **Owner** field.
+
+For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **OwnerId** field.
 
 ## How does search work in Copilot for Sales?
 
