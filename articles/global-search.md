@@ -68,16 +68,14 @@ When you expand the search results, you can view up to 10 fields. This number in
 
 ### Filter search results by using quick filters
 
-It can be challenging to find the right record, especially when multiple records have similar names. By default, Copilot for Sales searches everything in the CRM to ensure that nothing is left out. However, this can result in too many options, which might not meet your expectations for relevance. 
-
 To help you find the right record more easily, Copilot for Sales provides quick filters that you can use to narrow down the search results. Quick filters are available for select record types when you save an email or meeting to the CRM. You can filter the search results by the following criteria:
 
 - **Active records**: This filter shows only records that are active.
 - **Owned by me**: This filter shows only records that are owned by you.
 
-For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **Owner** field.
+For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **ownerId** field.
 
-For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **OwnerId** field.
+For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **ownerId** field.
 
 ## How does search work in Copilot for Sales?
 
