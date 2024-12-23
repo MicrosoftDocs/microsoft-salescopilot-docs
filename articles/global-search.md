@@ -76,26 +76,20 @@ You can filter the search results by record details and record type.
 
 3. Select **Filter results** to filter the search results by record details and record type.
 
-4. In the **Apply filters** box, select the filters that you want to apply. Learn more about the [record details](#by-record-details) and [record types](#by-record-type) filters.
+4. In the **Apply filters** box, select the filters that you want to apply. 
+
+    - **Record details**: Filter the search results by **Active records** or **Owned by me**.
+        > [!NOTE]
+        > - For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **ownerId** field.
+        > - For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **ownerId** field.
+
+    - **Record type**: Filter the search results by the record type.
+        > [!NOTE]
+        > The record types that are available for filtering depend on the record types that your administrator configured.
 
     :::image type="content" source="media/global-search-filter.png" alt-text="Screenshot of filter options.":::
 
 5. Select **Apply**.
-
-#### By record details
-
-You can filter the search results by the following criteria:
-
-- **Active records**: This filter shows only records that are active.
-- **Owned by me**: This filter shows only records that are owned by you.
-
-For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **ownerId** field.
-
-For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **ownerId** field.
-
-#### By record type
-
-The record types that are available for filtering depend on the record types that your administrator configured. Select a record type to filter the search results by that record type.
 
 ## How does search work in Copilot for Sales?
 
