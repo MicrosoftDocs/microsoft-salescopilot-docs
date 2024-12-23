@@ -51,7 +51,7 @@ To sync an email or meeting from Outlook with your CRM, follow these steps:
         > [!NOTE]
         > Some AI-powered suggestions for opportunities are provided only when the email and meeting content is in English.
     
-    - Alternatively, use the search box to find and connect to another record of any record type that your administrator added to Copilot for Sales. You can also filter the search results by [record type](global-search.md#filter-search-results-by-record-type) or use [quick filters](global-search.md#filter-search-results-by-using-quick-filters) to narrow down the search results.
+    - Alternatively, use the search box to find and connect to another record of any record type that your administrator added to Copilot for Sales. You can also [filter the search results](global-search.md#filter-search-results) to narrow down the search results.
     - To save the email or meeting to the CRM without connecting to a record, select **Save without connecting**. The email or meeting is still associated with contacts in the **To**, **Cc**, and **Bcc** fields.
 
     > [!NOTE]

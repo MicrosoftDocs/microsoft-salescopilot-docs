@@ -83,7 +83,7 @@ You can filter the search results by record details and record type.
         > - For Dynamics 365 Sales, these filters apply to opportunities, accounts, and contacts. The **Active records** filter is based on the default **Status** field, and the **Owned by me** filter is based on the default **ownerId** field.
         > - For Salesforce, the **Active records** filter applies to opportunities and is based on the default **IsClosed** field. The **Owned by me** filter applies to opportunities, accounts, and contacts and is based on the default **ownerId** field.
 
-    - **Record type**: Filter the search results by the record type.
+    - **Record types**: Filter the search results by the record type.
         > [!NOTE]
         > The record types that are available for filtering depend on the record types that your administrator configured.
 
