@@ -1,7 +1,7 @@
 ---
 title: Search for a CRM record using Copilot for Sales
 description: Explore the Copilot for Sales CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
-ms.date: 12/19/2024
+ms.date: 12/24/2024
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -58,7 +58,7 @@ When you search for a record in Copilot for Sales, the search results are shown 
 
 ### Filter search results 
 
-To help you find the right record more easily, Copilot for Sales provides filters that you can use to narrow down the search results. Filters are available for select record types and only when you save an email or meeting to the CRM. The record types that are available for filtering depend on the record types that your administrator configured.
+To help you find the right record more easily, Copilot for Sales provides filters that you can use to narrow down the search results. Filters are available for select record types and only when you save an email or a meeting to the CRM. The record types that are available for filtering depend on the record types that your administrator configured.
 
 If the search results contain multiple records that have the same name, you can select each record to view more details. There is also a link that you can select to view the record in CRM. More details about a record are shown, based on the admin settings. These details are aligned with the [order of fields that are listed in the form configuration](customize-forms-and-fields.md#reorder-fields) for the record type.
 
@@ -70,7 +70,7 @@ You can filter the search results by record details and record type.
 
 **To filter the search results**:
 
-1. [Save an email or meeting to the CRM](save-outlook-activities-crm.md#save-outlook-activities-from-the-highlight-card). 
+1. [Save an email or a meeting to the CRM](save-outlook-activities-crm.md#save-outlook-activities-from-the-highlight-card). 
 
 2. Under **Connect to a record**, use the search box to find a record.
 
@@ -95,7 +95,7 @@ For Salesforce, the **Active records** filter applies to opportunities and is ba
 
 #### By record type
 
-The record types that are available for filtering depend on the record types that your administrator configured. Select a record type to filter the search to results by that record type.
+The record types that are available for filtering depend on the record types that your administrator configured. Select a record type to filter the search results by that record type.
 
 ## How does search work in Copilot for Sales?
 
