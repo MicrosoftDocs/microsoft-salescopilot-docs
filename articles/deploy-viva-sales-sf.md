@@ -100,7 +100,7 @@ Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM
 
 When the first user signs in to Salesforce CRM from the Copilot for Sales app in [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm), an API call is triggered to provision a msdyn_viva Dataverse environment for the tenant to store the data generated while using Copilot for Sales. 
 
-The environment is provisioned using server-to-server (S2S) authentication, which means any user can initiate the process. The platform API provisions the trial environment and assigns the administrator role to a predefined admin user rather than the initiating user. For more details on the architecture and how data is stored, refer to [Copilot for Sales architecture](architecture.md).
+The environment is provisioned using server-to-server (S2S) authentication, which means any user can initiate the process. The platform API provisions the trial environment and assigns the administrator role to a predefined admin user rather than the initiating user. For more details on the architecture and how data is stored, go to [Copilot for Sales architecture](architecture.md).
 
 **Administer roles in the provisioned environment**
 
