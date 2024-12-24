@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Microsoft 365 Copilot for Sales for Salesforce CRM customers.
-ms.date: 09/24/2024
+ms.date: 12/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -98,14 +98,16 @@ Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM
 
 ## Step 7: First user sign in
 
-When the first user in the tenant connects to Salesforce CRM, Copilot for Sales provisions a Dataverse environment to store the data generated  while using Copilot for Sales. Refer to [Copilot for Sales architecture](architecture.md) for more details on how the environment is used and what data is stored.
+When the first user signs in to Salesforce CRM from the Copilot for Sales app in [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm), an API call is triggered to provision a msdyn_viva Dataverse environment for the tenant to store the data generated while using Copilot for Sales. 
 
-Copilot for Sales automatically assigns all the Power Platform administrators and Microsoft 365 global administrators as the System Administrator role in the **Trial** environment. We recommend you review the administrators in the environment after it is created to ensure that the right users are set as administrators.
+The environment is provisioned using server-to-server (S2S) authentication, which means any user can initiate the process. The platform API provisions the trial environment and assigns the administrator role to a predefined admin user rather than the initiating user. For more details on the architecture and how data is stored, go to [Copilot for Sales architecture](architecture.md).
 
-> [!NOTE]
-> The first user connecting to Salesforce CRM from Copilot for Sales will see an error if they are not an admin user and trial environment creation by non-admin users is disabled for the tenant in the Power platform admin center.
-To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Copilot for Sales first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Copilot for Sales. For information on how to sign in to Copilot for Sales, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
+**Administer roles in the provisioned environment**
 
+Copilot for Sales automatically assigns all Power Platform administrators and Microsoft 365 global administrators to the System Administrator role in the trial environment. After the environment is created, it is recommended to review the list of administrators to ensure appropriate access levels.
+
+> [!IMPORTANT]
+> In the Power Platform Admin Center, tenant administrators can restrict trial environment creation to administrators. However, due to the current provisioning flow, this setting is bypassed because the system assigns a predefined administrator during provisioning. This means tenant administrators cannot gate these environments from being created.
 
 ## Step 8 (optional): Customize Copilot for Sales
 
