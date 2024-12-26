@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales personal app
 description: Learn about the Copilot for Sales personal app and how to share feedback from the app.
-ms.date: 04/29/2024
+ms.date: 12/26/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -26,7 +26,7 @@ On the left navigation pane, select **View more apps** (**...**), and then searc
 
 ## Home tab
 
-The **Home** tab provides you with links to various resources, such as the Copilot for Sales documentation and the feedback form.
+The **Home** tab provides you with links to various resources, such as the Copilot for Sales documentation and the feedback form. It also shows the environment name you are connected to. The environment name is displayed at the top-right corner of the **Home** tab. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment.
 
 ### Share feedback from personal app
 
