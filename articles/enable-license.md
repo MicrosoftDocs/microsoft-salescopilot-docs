@@ -61,7 +61,7 @@ In Outlook, select **More Apps** on the left navigation bar, and then search for
 
 When the personal app is opened, it should have **Home** and **Settings** tabs. If it does, the enhanced Teams app is correctly deployed and installed.
 
-:::image type="content" source="media/outlook-personal-app.svg" alt-text="Screenshot showing a personal app that has Home and Settings tabs in Outlook.":::
+:::image type="content" source="media/outlook-personal-app.png" alt-text="Screenshot showing a personal app that has Home and Settings tabs in Outlook.":::
 
 ## Integrated experiences with Microsoft 365 Copilot
 
