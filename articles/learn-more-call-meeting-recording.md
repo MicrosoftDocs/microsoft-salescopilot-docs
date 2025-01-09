@@ -1,7 +1,7 @@
 ---
 title: Learn More – Call or Meeting Recording
 description: Learn about the purpose of call recording and the information collected.
-ms.date: 02/02/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,7 +16,7 @@ Your privacy is important to us. When Microsoft sales teams engage in conversati
 
 The data collected during a call or meeting recording may be used globally by Microsoft and its affiliates, subsidiaries, and service providers for training, coaching purposes, business strategy, to improve the sales process and customer experience, and for product development purposes.
 
-We use automated tools, including machine learning, to transcribe the call and analyze and draw insights from call transcriptions.  For example, a Microsoft product called Conversation Intelligence uses analytics and data science to gather data from the call transcriptions and CRM systems.  Conversation Intelligence analyzes the data and provides our sellers with information and insights such as a summary of items discussed on the call, a list of follow-up action items, key words, customer sentiment, and call history. Conversation Intelligence uses models developed in accordance with [Microsoft’s Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai).
+We use automated tools, including machine learning, to transcribe the call and analyze and draw insights from call transcriptions.  For example, a Microsoft product called Conversation Intelligence uses analytics and data science to gather data from the call transcriptions and CRM systems.  Conversation Intelligence analyzes the data and provides our sellers with information and insights such as a summary of items discussed on the call, a list of follow-up action items, key words, customer sentiment, and call history. Conversation Intelligence uses models developed in accordance with [Microsoft’s Responsible AI principles](https://www.microsoft.com/ai/responsible-ai).
 
 ## Information We Record or Collect
 
@@ -26,8 +26,7 @@ Call recording tools may collect information including audio and video from call
 
 In addition to the access and deletion rights outlined in the Microsoft Privacy Statement, you have choices regarding whether you're recorded during calls and meetings.
 
-- **Right to Know**: You'll be notified before any call or meeting is recorded.
-
-- **Right to Choose**: You have the right to choose whether you're recorded. If you choose not to be recorded,  inform your Microsoft call host that you don't consent to recording.
+- **Right to Know**: You'll be notified before any call or meeting is recorded.  
+- **Right to Choose**: You have the right to choose whether you're recorded. If you choose not to be recorded,  inform your Microsoft call host that you don't consent to recording.  
 
 For more information about how Microsoft processes personal data, see the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).  

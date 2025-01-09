@@ -1,7 +1,7 @@
 ---
 title: Enable Copilot for Sales licenses
 description: Learn how to enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
-ms.date: 08/16/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,8 +14,7 @@ ms.custom:
 
 # Enable Copilot for Sales licenses
 
-The new Copilot for Sales license brings together the power of Copilot for Microsoft 365 and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.
-
+The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.  
 To enable Copilot for Sales licenses, you must complete these steps:
 
 1. Assign a Copilot for Sales license to each user.
@@ -24,19 +23,19 @@ To enable Copilot for Sales licenses, you must complete these steps:
 
 ## Assign Copilot for Sales licenses to users
 
-A Copilot for Sales license must be assigned to each user from the Microsoft 365 admin center. To assign licenses to users, you must be assigned an appropriate [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) such as license admin or user admin.
-
+A Copilot for Sales license must be assigned to each user from the Microsoft 365 admin center. To assign licenses to users, you must be assigned an appropriate [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) such as license admin or user admin.  
 For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).
 
 ## Deploy the Copilot for Sales app
 
 For Outlook and Microsoft 365 integration capabilities, the new Copilot for Sales [enhanced Teams app](whats-new-copilot-sales.md#enhanced-teams-app-support) must be deployed to users through the Microsoft 365 admin center. For Teams integration capabilities, the app must be deployed through the Teams admin center. The enhanced Teams app includes the necessary integration for Microsoft 365 Copilot integration.
 
-For instructions for Dynamics 365, go to [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md).
+- For instructions for Dynamics 365, go to [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md).
 
-For instructions for Salesforce, go to [Copilot for Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md).
+- For instructions for Salesforce, go to [Copilot for Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md).
 
 > [!NOTE]
+>
 > - If Copilot for Sales was deployed before February 2024, you must [deploy the enhanced Teams app](whats-new-copilot-sales.md#update-existing-sales-copilot-deployments) to enable the full capabilities of the product.
 > - Ensure that an admin deploys the Copilot for Sales app by using the instructions in the preceding links. If system users install the app directly in Outlook, it won't have the required permissions for all supported scenarios.
 
@@ -56,15 +55,15 @@ After the app is deployed, validate that the correct license is assigned to each
 
 To ensure that you deployed the enhanced Teams app, check for the new integration that it provides in Outlook. One of the new features is the Teams personal app. For this app, **Home** and **Settings** tabs are available in Outlook and other Microsoft 365 apps.
 
-In Outlook, select **More Apps** on the left navigation bar, and then search for and select **Copilot for Sales**. 
+In Outlook, select **More Apps** on the left navigation bar, and then search for and select **Copilot for Sales**.  
 
 :::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing the Copilot for Sales app in Outlook.":::
 
 When the personal app is opened, it should have **Home** and **Settings** tabs. If it does, the enhanced Teams app is correctly deployed and installed.
 
-:::image type="content" source="media/outlook-personal-app.svg" alt-text="Screenshot showing a personal app that has Home and Settings tabs in Outlook.":::
+:::image type="content" source="media/outlook-personal-app.png" alt-text="Screenshot showing a personal app that has Home and Settings tabs in Outlook.":::
 
-## Integrated experiences with Copilot for Microsoft 365
+## Integrated experiences with Microsoft 365 Copilot
 
 This section describes the integrated experiences that Copilot for Sales provides across Microsoft 365 applications.
 

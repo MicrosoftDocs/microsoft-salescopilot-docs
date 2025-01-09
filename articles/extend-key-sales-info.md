@@ -100,12 +100,12 @@ Legend:
 1. Name of the partner application. The name that is shown is the name of the Microsoft Power Platform connector.
 1. Link that can be selected to view insight details in the partner application. It's based on the URL of the insight in the API response.
 
-## See also
+### Related information
 
 [View key sales information in Copilot for Sales](key-sales-info.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

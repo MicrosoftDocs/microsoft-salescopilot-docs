@@ -598,6 +598,31 @@
         "source_path": "articles/view-diagnostics-data.md",
         "redirect_url": "/microsoft-sales-copilot/more-options",
         "redirect_document_id": false
-      }                                   
+      },
+      {
+        "source_path": "articles/extend-m365-chat.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/jul-24.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/aug-24.md",
+        "redirect_url": "/microsoft-sales-copilot/whats-new",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/troubleshoot.yml",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/block-viva-sales-app-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/disable-viva-sales#uninstall-copilot-for-sales-app-from-microsoft-teams-1",
+        "redirect_document_id": false
+      }                                     
   ]
 }

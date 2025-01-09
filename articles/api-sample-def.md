@@ -1,7 +1,7 @@
 ---
 title: Sample connector (preview)
-description: Sample connector to help you easily start to extend Copilot for Sales.
-ms.date: 05/29/2024
+description: Sample connector to help you easily start to extend Microsoft 365 Copilot for Sales.
+ms.date: 09/18/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,7 +19,12 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Refer to the following guidelines when you create the OpenAPI definition for the connector and its actions:
+You can use the certified connector action based on [Contoso Hub - Connectors](/connectors/contosohub/) to check out the extensibility points available in Microsoft 365 Copilot for Sales.
+
+To try the certified connector action, follow the instructions in [Manage extensions for Copilot for Sales](/microsoft-copilot-studio/manage-copilot-for-sales) and enable the Contoso Hub connector action for Copilot for Sales.
+
+
+You can edit the sample connector and action to get started quickly. Refer to the following guidelines when you edit the create the connector or its actions:
 
 - The sample connector contains placeholders for the API paths. You can replace these placeholders with the actual API paths.
 - HTTP methods should match the ones that are specified in the sample OpenAPI definition.
@@ -36,13 +41,8 @@ Refer to the following guidelines when you create the OpenAPI definition for the
     - `x-ms-client-request-id`: A unique identifier for the incoming request.
     - `x-ms-user-agent`: "sales-copilot" is used as the value.
 
-## Getting started
 
-1. [Download the sample connector solution](https://go.microsoft.com/fwlink/p/?linkid=2272334).
-1. [Import the downloaded connector solution by using Power Apps](/power-apps/maker/data-platform/import-update-export-solutions). Be sure to use an environment where Dynamics 365 apps are enabled.
-1. [Open Microsoft Copilot Studio, and create an extension for the connector](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4s#author-a-connector-action).
+### Related information
 
-## See also
-
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

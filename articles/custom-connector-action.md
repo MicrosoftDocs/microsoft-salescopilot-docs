@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
-ms.date: 08/21/2024
+ms.date: 09/18/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -34,6 +34,9 @@ When you set up authentication for the connector, be sure to use the OAuth 2.0 a
 
 For the steps to create a custom connector, set up authentication, and test the connector, go to [Create a custom connector from an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition).
 
+> [!NOTE]
+> To automatically create connection for connector plugins using Microsoft Entra ID, you must set the **Enable on-behalf-of login** value to "true" in the **Security** section of the custom connector. For more information, see [Manage connections](/power-apps/maker/canvas-apps/add-manage-connections#consent-dialog-fine-grained-permssions)
+
 ## Create and publish an action in Copilot Studio
 
 Actions determine what operations are performed with the custom insights and data sources, such as the custom connectors that you built. They enable Copilot for Sales to identify the external sources that insights should be extracted from to enrich the Copilot for Sales experience. You can create actions based on the connector that you developed by using Copilot Studio. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
@@ -54,7 +57,7 @@ Before Copilot for Sales users can access a connector action that is published i
 
 After you create a custom connector and connector action in Copilot Studio, they become accessible in your tenant. If you want to make your connector and action available to all Copilot for Sales users, you must get them certified. Learn more about [getting your Power Platform connector and plugin certified](/connectors/custom-connectors/submit-certification). To get your connector and action certified, you must [prepare Power Platform connector and plugin files for certification](/connectors/custom-connectors/certification-submission).
 
-## See also
+### Related information
 
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

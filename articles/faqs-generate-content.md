@@ -1,7 +1,7 @@
 ---
 title: FAQ for generate content feature in Outlook
-description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/02/2024
+description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 12/09/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: shjais
 
 # FAQ for generate content feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's generate content feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot for Sales's generate content feature in Outlook.
 
 ## What is generate content feature in Outlook?
 
@@ -22,6 +22,8 @@ Copilot for Sales empowers salespeople to be more productive with their time by 
 ## What are the feature's capabilities?
 
 Copilot for Sales utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
+
+When a user requests an email draft in a specific language using a custom prompt, AI generates the email in that language. If no specific language is requested, the email is generated based on the client's UI language set in Outlook.
 
 ## What is the feature's intended use?
 
@@ -56,6 +58,7 @@ To minimize the impact, users should review and customize the generated drafts t
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
-- [Use Copilot to kickstart email messages](use-copilot-kickstart-email-messages.md)
+- [Draft an email message in Copilot for Sales app](use-copilot-kickstart-email-messages.md)
+- [Draft an email message using sales information with Copilot in Outlook](email-reply-premium.md)

@@ -1,7 +1,7 @@
 ---
 title: View key sales information in Copilot for Sales
 description: Learn how to view key sales information in Copilot for Sales as you read and compose emails in Outlook.
-ms.date: 06/27/2024
+ms.date: 09/24/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,7 +17,7 @@ As you read and compose emails in Outlook, you can use Copilot for Sales to view
 
 ## License requirements
 
-- [Microsoft Copilot for Sales (premium)](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## View key sales information
 
@@ -65,6 +65,6 @@ If you have any feedback about the content, you can share it by selecting the ap
 1. Select the link to open the feedback form.
 1. Enter your responses in the feedback form, and then select **Send**.
 
-### See also
+### Related information
 
 [Enrich key sales info with insights from your application](extend-key-sales-info.md)

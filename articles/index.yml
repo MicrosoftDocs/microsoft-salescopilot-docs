@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title:  Microsoft Copilot for Sales documentation
-summary:  Discover how to make the most of Microsoft Copilot for Sales with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title:  Microsoft 365 Copilot for Sales documentation
+summary:  Discover how to make the most of Microsoft 365 Copilot for Sales with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: sales-copilot
 metadata:
-  title: Microsoft Copilot for Sales documentation
-  description: Learn about how you can use Microsoft Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+  title: Microsoft 365 Copilot for Sales documentation
+  description: Learn about how you can use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
   author: sbmjais
   ms.author: shjais
@@ -15,7 +15,7 @@ metadata:
 highlightedContent:
   items:
     # Card
-    - title: Welcome to Microsoft Copilot for Sales
+    - title: Welcome to Microsoft 365 Copilot for Sales
       itemType: get-started
       url: introduction.md
     # Card
@@ -63,8 +63,6 @@ additionalContent:
       links:
       - url: disable-viva-sales.md
         text: Remove Copilot for Sales from Microsoft 365 admin center
-      - url: block-viva-sales-app-teams.md
-        text: Block the Copilot for Sales app in Teams
 
   - title: Be productive with Copilot for Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 

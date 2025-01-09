@@ -1,7 +1,7 @@
 ---
-title: Share a CRM record in a Teams conversation or email
+title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using Copilot for Sales.
-ms.date: 09/16/2024
+ms.date: 11/29/2024
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,13 +10,12 @@ ms.author: shjais
 
 # Share a CRM record in Teams or Outlook
 
-Copilot for Sales enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.
-
-In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. Note that the AI-generated summary is displayed only if the Copilot features are enabled for your organization.
-
+Copilot for Sales enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.  
+In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. Note that the AI-generated summary is displayed only if the Copilot features are enabled for your organization.  
 You can share a CRM record either by using the Copilot for Sales search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
 
 > [!NOTE]
+>
 > - For Outlook support, ensure that the [enhanced Teams app has been deployed](whats-new-copilot-sales.md#enhanced-teams-app-support).
 > - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you can view data in the adaptive even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
 > - If you're using Salesforce as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view data in the adaptive card while also having read access for the record and Copilot for Sales privileges.
@@ -57,15 +56,13 @@ The experience of using the Copilot for Sales search message extension when comp
 
 ### Classic Outlook desktop
 
-1. On the ribbon, select **Copilot for Sales** or **All Apps** > **Copilot for Sales**.
-
-2. In the pop-up, select **Search Microsoft Copilot for Sales**. 
-
+1. On the ribbon, select **Copilot for Sales** or **All Apps** > **Copilot for Sales**.  
+1. In the pop-up, select **Copilot for Sales**.  
     Alternatively, you can select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
 
     :::image type="content" source="media/search-outlook-classic.png" alt-text="Screenshot showing search option in the Copilot for Sales app in classic Outlook.":::
 
-3. In the **Microsoft Copilot for Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
+1. In the **Copilot for Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
 
     :::image type="content" source="media/search-pane-outlook-classic.png" alt-text="Screenshot showing search pane for the Copilot for Sales app in classic Outlook.":::
 
@@ -75,8 +72,7 @@ The experience of using the Copilot for Sales search message extension when comp
 
 ### New Outlook desktop and Outlook on the web
 
-1. On the ribbon, select **Apps** > **Copilot for Sales**.
-
+1. On the ribbon, select **Apps** > **Copilot for Sales**.  
 1. In the pop-up, select **Search Copilot for Sales**.
 
     :::image type="content" source="media/search-outlook-new.png" alt-text="Screenshot showing search option in the Copilot for Sales app in new Outlook.":::
@@ -106,10 +102,8 @@ You can share a CRM record in an email or calendar invite by using the /mention 
 
 ## Share a record using advanced search
 
-1. In the **Advanced search** window, enter or select the following values:
-
-    - **Search for a record to share**: Name of the record to share.
-
+1. In the **Advanced search** window, enter or select the following values:  
+    - **Search for a record to share**: Name of the record to share.  
     - **Filter by**: Record type to search for.
 
       > [!NOTE]
@@ -121,10 +115,8 @@ You can share a CRM record in an email or calendar invite by using the /mention 
 
 ## Paste a link to a CRM record
 
-1. [Copy the record link from the Copilot for Sales app in Outlook](share-link-crm-record.md).
-
-1. Paste the link in the chat or email.
-
+1. [Copy the record link from the Copilot for Sales app in Outlook](share-link-crm-record.md).  
+1. Paste the link in the chat or email.  
     The record card is added to the message box.
 
    :::image type="content" source="media/contact-card-link.png" alt-text="Screenshot showing the Copilot for Sales contact card link.":::
@@ -134,7 +126,7 @@ You can share a CRM record in an email or calendar invite by using the /mention 
 > [!NOTE]
 > You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from Salesforce, it doesn't unfurl to display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls to display the adaptive card.
 
-### See also
+### Related information
 
-[Access the Copilot for Sales app](open-app.md)<br>
+[Access the Copilot for Sales app](open-app.md)  
 [Share a link to a CRM record](share-link-crm-record.md)

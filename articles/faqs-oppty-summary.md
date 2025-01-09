@@ -1,6 +1,6 @@
 ---
 title: FAQ for opportunity summary feature in Outlook and Teams
-description: This FAQ provides information about the AI technology used in the opportunity summary feature in Microsoft Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the opportunity summary feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 04/24/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -13,7 +13,7 @@ ms.reviewer: shjais
 
 # FAQ for opportunity summary feature in Outlook and Teams
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft Copilot for Sales's opportunity summary feature in Outlook and Teams. 
+These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot for Sales's opportunity summary feature in Outlook and Teams. 
 
 ## What is opportunity summary feature in Outlook and Teams?
 
@@ -56,6 +56,6 @@ To minimize the impact, users should supplement the retrieved information with t
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
 
-## See also
+### Related information
 
 - [View opportunity summary](view-opportunity-summary.md)

@@ -1,7 +1,7 @@
 ---
-title: Advanced collaboration with AI-powered Planner tasks (preview)
+title: Advanced collaboration with AI-powered Planner tasks
 description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in Copilot for Sales.
-ms.date: 05/08/2024
+ms.date: 09/27/2024
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,11 +12,7 @@ ms.custom:
   - ai-seo-date:03/14/2024
 ---
 
-# Advanced collaboration with AI-powered Planner tasks (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+# Advanced collaboration with AI-powered Planner tasks
 
 Sales teams work together closely and use apps such as Microsoft Planner to efficiently manage their tasks. Although numerous critical next steps and action items emerge during their daily conversations, many of these tasks aren't captured and tracked. The results are missed opportunities and lost revenue.
 
@@ -55,7 +51,7 @@ This feature is currently supported only in English.
 
 A collaboration space must be created for the [account team](set-up-team-account-team-template.md) or [deal room](set-up-team-deal-room-template.md) in Teams.
 
-### See also
+### Related information
 
 [Create Planner tasks from suggested tasks](create-planner-tasks.md)<br>
 [Set up a team using the account team template](set-up-team-account-team-template.md)<br>
