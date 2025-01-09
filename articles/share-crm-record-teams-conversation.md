@@ -100,6 +100,8 @@ You can share a CRM record in an email or calendar invite by using the /mention 
 
     The adaptive card is added to the email.
 
+    :::image type="content" source="media/mentions-outlook-adaptive-card.png" alt-text="Screenshot showing the adaptive card added in Outlook email.":::
+
 ## Share a record using advanced search
 
 1. In the **Advanced search** window, enter or select the following values:  
