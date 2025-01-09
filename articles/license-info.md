@@ -49,5 +49,5 @@ For information about pricing, go to [Features and pricing](https://www.microsof
 ### Related information
 
 [Buy Copilot for Sales](buy-license.md)<br>
-[Install Copilot for Sales (admin-deployed)](install-viva-sales.md)<br>
+[Install Copilot for Sales](install-viva-sales.md)<br>
 [Enable Copilot for Sales licenses](enable-license.md)

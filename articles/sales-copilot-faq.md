@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 12/10/2024
+ms.date: 01/10/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -302,6 +302,20 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
+
+### How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?
+
+If the Copilot for Sales add-in for Outlook was installed from the Microsoft 365 admin center, it is considered as admin-deployed. If the Copilot for Sales add-in for Outlook was installed automatically for your organization or sellers have installed it themselves, it is considered as user-deployed.
+
+You can check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed by following these steps:
+
+1. Open [https://aka.ms/olksideload](https://aka.ms/olksideload). If required, sign in to your Microsoft Outlook account.
+
+1. In the **Add-Ins for Outlook** window, go to **My add-ins** and **Admin-managed** tabs in the left pane, and check if the add-in is available under these tabs.
+
+    If the add-in is available under **Admin-managed** tab, it is admin-deployed. Contact your administrator to [uninstall the add-in](disable-viva-sales.md).
+
+    If the add-in is available under **My add-ins** tab, it is user-deployed. You can [uninstall the add-in](disable-viva-sales.md#uninstall-copilot-for-sales-outlook-add-in) by yourself. If you are unable to uninstall the add-in, contact your administrator.
 
 ## Forms and fields customization
 

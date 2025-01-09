@@ -29,7 +29,7 @@ You can uninstall the Copilot for Sales add-in for Outlook and the Copilot for S
 1. On the **Copilot for Sales for Microsoft Outlook** card, select **Manage Add-In** (**...**) at the bottom-right, and then select **Remove**.
 
 > [!NOTE]
-> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](install-sales-copilot.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
+> If there's no option to uninstall the add-in, it's likely that the add-in was installed by your administrator. Contact your administrator to uninstall the add-in. To know if the add-in is admin-deployed or user-deployed, see [How do I know if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed?](sales-copilot-faq.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed).
 
 ### Uninstall Copilot for Sales app from Microsoft Teams
 
@@ -122,4 +122,4 @@ You can't delete or uninstall the Copilot for Sales app in Teams. You can either
 
 ### Related information
 
-[Check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed](install-sales-copilot.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed)
+[Check if the Copilot for Sales add-in for Outlook is admin-deployed or user-deployed](sales-copilot-faq.md#how-do-i-know-if-the-copilot-for-sales-add-in-for-outlook-is-admin-deployed-or-user-deployed)
