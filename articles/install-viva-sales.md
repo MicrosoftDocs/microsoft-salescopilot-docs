@@ -12,13 +12,13 @@ ms.localizationpriority: medium
 
 # Install Microsoft 365 Copilot for Sales
 
-Copilot for Sales can be installed either by an administrator or by an end user. As an administrator, you can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
+Copilot for Sales can be installed either by an administrator or by an end user. As an administrator, you can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use Copilot for Sales, see [Privileges required to use Copilot for Sales](privileges.md).
 
 ## Admin-deployed installation
 
 You can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability.  
 
-You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Copilot for Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
+Additionally, to install the app within Teams, you need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Copilot for Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
 You need to be a Microsoft 365 administrator to deploy and install the Copilot for Sales add-in for Outlook and Microsoft 365 apps. You need to be a Teams administrator to deploy and install Copilot for Sales for Teams.
 
@@ -103,5 +103,6 @@ After Copilot for Sales is installed, you can start using it in Outlook and Team
 
 ### Related information
 
-[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)  
-[Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)  
+[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)<br>  
+[Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)<br>
+[Privileges required to use Copilot for Sales](privileges.md)

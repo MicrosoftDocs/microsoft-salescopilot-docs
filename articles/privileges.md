@@ -60,4 +60,4 @@ Looking for step-by-step instructions on how to deploy Copilot for Sales? Here a
 
 ### Related information
 
-- [Install Copilot for Sales](install-viva-sales.md)
+[Install Copilot for Sales](install-viva-sales.md)
