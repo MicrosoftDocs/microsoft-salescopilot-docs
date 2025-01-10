@@ -1,7 +1,7 @@
 ---
-title: Install Copilot for Sales (admin-deployed)
+title: Install Microsoft 365 Copilot for Sales
 description: Learn what are the various ways to install Copilot for Sales
-ms.date: 12/13/2024
+ms.date: 01/10/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,13 +10,19 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install Copilot for Sales (admin-deployed)
+# Install Microsoft 365 Copilot for Sales
+
+Copilot for Sales can be installed either by an administrator or by an end user. As an administrator, you can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use Copilot for Sales, see [Privileges required to use Copilot for Sales](privileges.md).
+
+## Admin-deployed installation
 
 You can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability.  
 
-You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Copilot for Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
+Additionally, to install the app within Teams, you need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Copilot for Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
 
 You need to be a Microsoft 365 administrator to deploy and install the Copilot for Sales add-in for Outlook and Microsoft 365 apps. You need to be a Teams administrator to deploy and install Copilot for Sales for Teams.
+
+For steps to install Copilot for Sales in Outlook and Teams, see [Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md) and [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md).
 
 > [!NOTE]
 > If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce. If it's blocked, you need to unblock it to use Copilot for Sales and might take up to 24 hours for the add-in to show up for your users.
@@ -25,61 +31,78 @@ Watch this video to learn how to install Copilot for Sales in Outlook and Teams:
 
 > [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
 
-## Privileges required to use Copilot for Sales
+## User-deployed installation
 
-Copilot for Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Copilot for Sales.
+As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
+
+When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales app is not added automatically to meeting invites. However, you can manually add Copilot for Sales to the meeting to get meeting summaries.
+
+Watch this video to learn more about Copilot for Sales:
+
+> [!VIDEO e7eb1248-4d7f-464b-896c-70f47e6e7fdf]
+
+> [!IMPORTANT]
+>
+> - This article provides instructions for business users without administrator privileges to install Copilot for Sales. If you are a CRM administrator trying to install Copilot for Sales for your sales team, see [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md) or [Copilot for Sales deployment guide for Salesforce customers](deploy-viva-sales-sf.md) as per your requirement.
+> - You may not be able to install Copilot for Sales if downloading add-ins is turned off for your organization. In this case, contact your administrator.
+> - If you are using the Dynamics 365 app for Outlook, you can consider switching to Copilot for Sales, as you can do much more with Copilot for Sales. More information: [Difference between Copilot for Sales and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
+
+### Install Copilot for Sales in Outlook
+
+1. Sign in to [Microsoft AppSource](https://appsource.microsoft.com/home).
+
+1. Enter **Copilot for Sales** in the **Search** box.
+
+1. From the search results, select **Get it now** on the **Copilot for Sales** app's card.
+
+1. In the **Confirm your details to continue** window, select **Get it now**.
+
+    The app is installed, and a confirmation message is displayed.
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Copilot for Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Copilot for Sales app for Teams.
+> You can also get the add-in from Office Store within Outlook. More information: [Get an Office Add-in for Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 
-### Permissions required for Salesforce administrators
+#### Difference between Copilot for Sales and Dynamics 365 app for Outlook
 
-Salesforce administrators who need to customize Copilot for Sales must have the following permissions.
+| Capability | Copilot for Sales | Dynamics 365 app for Outlook |
+|------------|---------------|------------------------------|
+| **Work in Outlook**        |               |              | 
+| Intelligent context-aware email content suggestions with copilot  | Supported    | Not supported          |
+| Save Outlook emails and calendar events to Dynamics 365   | Supported     | Supported       |
+| Connect saved Outlook emails and events to Dynamics 365 accounts and opportunities  | Supported¹    | Supported      |
+| Create new CRM contacts from Outlook   | Supported     | Supported    |
+| Automatically capture email signature during new contact creation | Supported     | Not supported                |
+| Create and edit non-contact records in Dynamics 365     | Supported²    | Supported      |
+| Delegate access (allow a user to act on behalf of another user)    | Not supported | Supported    |
+| Mobile support | Not supported | Supported |
+| **Work in Teams³**   |               |               |
+| Collaborate on customer records with colleagues in Teams    | Supported     | Not supported    |
+| Post-meeting: Play back and transcript with highlights, topics, executive summary, action items, and sentiment analysis  | Supported     | Not supported    |
+| Mobile support | Supported | Supported |
+| ¹ Copilot for Sales supports connecting Microsoft Outlook activities to accounts and opportunities. Support for connecting Outlook activities to other entities is coming soon. | | |
+| ² Copilot for Sales allows creating contacts and editing contacts, accounts, and opportunities. Support for creating and editing additional entities is coming soon. | | |
+|³ Requires Copilot for Sales app to be installed in Microsoft Teams.  |               |                              |      
 
-|Requirement type  |You must have  |
-|---------|---------|
-| Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
+### Install Copilot for Sales app in Microsoft Teams
 
-### Privileges required for Dynamics 365 customers
+1. Sign in to Microsoft Teams.  
+1. In the navigation bar on the left, select **Apps**.
 
-#### Dynamics 365 administrators
+    :::image type="content" source="media/store.png" alt-text="Screenshot showing Apps on the navigation bar.":::
 
-If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Copilot for Sales administration privileges are added automatically.  
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Copilot for Sales.  
+1. Search for **Copilot for Sales**, and then select it.  
+1. Select **Add** in the **Copilot for Sales** window.
 
-|Requirement type  |You must have  |
-|------------------|---------------|
-| Security role | Sales Copilot Administrator |
-| Privilege | **Read** privilege on **User** table |
+### Welcome message
 
-#### Dynamics 365 sellers
-
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Copilot for Sales privileges are added automatically and no further action is required.  
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Copilot for Sales.
-
-|Requirement type  |You must have  |
-|---------|---------|
-|Security role | Sales Copilot User |
-|Privilege | **Read** privilege on **User** table |
-
-The **Copilot for Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.  
-For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).  
-To edit custom security roles to match with out-of-the-box Salesperson or Sales Manager role, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role).  
-For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
-
-## Deploy Copilot for Sales
-
-Looking for step-by-step instructions on how to deploy Copilot for Sales? Here are the Copilot for Sales deployment guides:
-
-- [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
-- [Copilot for Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
 
 ## How to use Copilot for Sales?
 
-After you install Copilot for Sales for your users, they can start using it in Outlook and Teams. For information on how to use Copilot for Sales, see [Access the Copilot for Sales app](open-app.md).
+After Copilot for Sales is installed, you can start using it in Outlook and Teams. For information on how to use Copilot for Sales, see [Access the Copilot for Sales app](open-app.md).
 
 ### Related information
 
-[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)  
-[Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)  
+[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)<br>  
+[Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)<br>
+[Privileges required to use Copilot for Sales](privileges.md)

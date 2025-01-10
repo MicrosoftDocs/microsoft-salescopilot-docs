@@ -1,7 +1,7 @@
 ---
 title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get an enriched experience with CRM data.
-ms.date: 12/16/2024
+ms.date: 01/10/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,7 +28,7 @@ If you have a Dynamics 365 environment (production or non-production) with the C
 
 Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Copilot for Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
-- **Switch environments**: Select this option to [switch to another Dynamics 365 environment](#switch-environments).
+- **Switch environments**: Select this option to [switch to another Dynamics 365 environment](personal-app.md#switch-environments).
 - **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
 - **Disconnect**: Disconnect from the current environment. You can connect to another environment later.
 
@@ -62,21 +62,10 @@ You must be connected to your CRM to interact with CRM data in the Copilot for S
 
     Once you're connected to your CRM, **Connect to CRM** in the upper-right corner is replaced with the environment name. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. 
 
-## Switch environments
-
-> [!NOTE]
-> This section is applicable only for users signed in to a Dynamics 365 environment.
-
-You can switch to another Dynamics 365 environment, without signing out of your current environment, from the Copilot for Sales app in Teams. 
-
-1. On the **Home** tab, select the environment name, and then select **Switch environments**. 
-
-2. From the **Choose a Dynamics 365 environment** list, select another environment.
-
-    :::image type="content" source="media/multiple-env-teams.png" alt-text="Screenshot showing environment confirmation when there are multiple environments.":::
-
-3. Select **Switch environment**.
-
 ## App refresh
 
 When you switch the connected environment in Outlook, you receive a notification to refresh the Copilot for Sales app in Teams. Select **Refresh** to see the updated data from the new environment.
+
+### Related information
+
+- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
