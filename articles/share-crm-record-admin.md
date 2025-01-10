@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Outlook by using /mention
-description: 
-ms.date: 09/16/2024
+description: Learn how to enable the /mention feature in Copilot for Sales to quickly share a CRM record in Outlook.
+ms.date: 01/20/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,9 +12,9 @@ ms.author: shjais
 
 One of the manual tasks that sellers often perform is sharing a CRM record with their colleagues in an email. This task can be time-consuming, as sellers have to [copy the link manually](share-link-crm-record.md) and paste it into the email. 
 
-As an administator, you can allow sellers to use /mention to quickly share a CRM record when composing an email in Outlook. The CRM record is shared as an adaptive card for the CRM record. The adaptive card displays the record details, such as the record name, owner, and key fields. The adaptive card is kept up to date based on the data in your CRM system.
+As an administrator, you can allow sellers to use /mention to quickly share a CRM record when composing an email in Outlook. The CRM record is shared as an adaptive card for the CRM record. The adaptive card displays the record details, such as the record name, owner, and key fields. The adaptive card is kept up to date based on the data in your CRM system.
 
-By default, this feature is turned off. To enable this feature, you must turn on the **Quick-share records in Outlook** setting in the Copilot for Sales administrator settings. When this feature is enabled, the data about recently access records in Copilot for Sales is copied to substrate and useed by the /mention feature in Outlook.
+By default, this feature is turned off. To enable this feature, you must turn on the **Quick-share records in Outlook** setting in the Copilot for Sales administrator settings. When this feature is enabled, the data about recently access records in Copilot for Sales is copied to substrate and used by the /mention feature in Outlook.
 
 ## Turn on the /mention feature
 
