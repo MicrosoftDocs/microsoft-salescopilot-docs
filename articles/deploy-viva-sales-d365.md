@@ -66,7 +66,7 @@ If you're using the following out-of-the-box Dynamics 365 Sales security roles, 
 
 -   Administration roles: System Administrator or System Customizer
 
-If you're using custom security roles, [assign users the right roles and privileges required for Dynamics 365 customers](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
+If you're using custom security roles, [assign users the right roles and privileges required for Dynamics 365 customers](privileges.md#privileges-required-for-dynamics-365-customers).
 
 ## Step 6 (optional): Customize Copilot for Sales
 
