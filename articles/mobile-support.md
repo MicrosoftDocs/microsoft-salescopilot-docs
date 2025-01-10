@@ -25,6 +25,8 @@ You can access the Copilot for Sales app only when reading emails. It's not avai
 
 To open Copilot for Sales, select an email on your mobile device, and then select **...**  next to the email from and to fields. Select Copilot for Sales from the top app list or find it under **More Add-Ins**. When the app is launched, it takes over the full screen due to the smaller mobile screen.
 
+:::image type="content" source="media/open-mobile-app-outlook.png" alt-text="Screenshot of Copilot for Sales opened in Outlook mobile app.":::
+
 ### Supported features
 
 All features available in the desktop version of Copilot for Sales will work on mobile (unless called out in the known issues section) including the following:
@@ -62,9 +64,11 @@ Copilot for Sales Teams app has mixed support on Teams mobile version.
 
 ## Shared Microsoft 365 experience
 
-The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps. You can access the app from the Apps button in the bottom navigation bar in Outlook and Teams mobile apps.
+The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps. You can access the app from the **Apps** button in the bottom navigation bar in Outlook and Teams mobile apps.
 
 The Copilot for Sales personal app includes **Home** and **Settings** tabs. Settings are available only for CRM or system administrators. For more information about the personal app, see [Microsoft 365 Copilot for Sales personal app](personal-app.md).
+
+:::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Copilot for Sales personal app opened in Outlook mobile app.":::
 
 ### Related information
 
