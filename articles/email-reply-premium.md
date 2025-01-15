@@ -28,7 +28,7 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 > [!NOTE]
-> If you have exisitng Sales Copilot license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
+> If you have existing Sales Copilot license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
 
 ## Prerequisites
 
