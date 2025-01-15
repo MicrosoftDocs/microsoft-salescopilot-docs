@@ -27,6 +27,8 @@
       href: features-d365-users.md
   - name: Mobile support (preview)
     href: mobile-support.md
+  - name: Privileges required for Copilot for Sales
+    href: privileges.md
   - name: Supported languages
     href: supported-languages.md
   - name: Data handling in Copilot for Sales
@@ -42,14 +44,12 @@
     href: buy-license.md
   - name: Install Copilot for Sales
     items:
-    - name: Install Copilot for Sales (admin-deployed)
+    - name: Install Copilot for Sales
       href: install-viva-sales.md
     - name: Install Copilot for Sales in Outlook
       href: install-viva-sales-as-an-integrated-app.md
     - name: Install and pin Copilot for Sales in Teams
       href: install-pin-viva-sales-teams.md
-    - name: Install Copilot for Sales (user-deployed)
-      href: install-sales-copilot.md
   - name: Enable Copilot for Sales
     href: enable-license.md
 
@@ -136,8 +136,6 @@
         href: global-search.md
     - name: AI capabilities
       items:
-      - name: Overview
-        href: ai-sales-copilot.md
       - name: View email summary
         items:
         - name: View email summary using Copilot for Sales license

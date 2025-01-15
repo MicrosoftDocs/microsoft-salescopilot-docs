@@ -44,11 +44,11 @@ Copilot for Sales may be subject to an additional free or paid license. For more
 
 If you're using Dynamics 365 Sales as your CRM system:
 
-- Administrators must be assigned either System Administrator or System Customizer security role to customize Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
+- Administrators must be assigned either System Administrator or System Customizer security role to customize Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](privileges.md#privileges-required-for-dynamics-365-customers).
 
-- Users must be assigned either Sales Manager or Salesperson security role to use Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](install-viva-sales.md#privileges-required-for-dynamics-365-customers).
+- Users must be assigned either Sales Manager or Salesperson security role to use Copilot for Sales. If you're using a custom security role, [additional privileges are required to use Copilot for Sales](privileges.md#privileges-required-for-dynamics-365-customers).
 
-If you're using Salesforce as your CRM system, see [Permissions required for Salesforce administrators](install-viva-sales.md#permissions-required-for-salesforce-administrators).
+If you're using Salesforce as your CRM system, see [Permissions required for Salesforce administrators](privileges.md#permissions-required-for-salesforce-administrators).
 
 > [!NOTE]
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Copilot for Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
