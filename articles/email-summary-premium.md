@@ -30,7 +30,7 @@ You must have a Copilot for Sales license to get started with this combined expe
 For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 > [!NOTE]
-> If you have exisitng Sales Copilot license, see [View and save email summary to CRM](view-save-email-summary-crm.md).
+> If you have existing Sales Copilot license, see [View and save email summary to CRM](view-save-email-summary-crm.md).
 
 ## Prerequisites
 
