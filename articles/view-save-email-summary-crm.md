@@ -22,7 +22,7 @@ When available, the summary includes information whether budget, stakeholders, n
 
 ## License requirements
 
-The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their exisitng Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Microsoft Outlook. For more information, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md).
+The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their existing Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Microsoft Outlook. For more information, see [Summarize an email thread using sales information in Outlook](email-summary-premium.md).
 
 ## Anatomy of email summary
 

@@ -16,7 +16,7 @@ The meeting summary page provides a high-level view of how the conversation with
 
 ## License requirements
 
-The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their exisitng Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Teams meeting recap. For more information, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
+The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their existing Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Teams meeting recap. For more information, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 ## View the meeting summary
 
