@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Copilot for Sales adoption report
 
-The Copilot for Sales adoption report is an essential tool for sales leaders looking to understand the usage of Copilot for Sales within their organization. By leveraging this Power BI template, you can gain valuable insights into how different groups and apps are utilizing Copilot for Sales, identify key actions contributing to sales tasks, and explore research findings on its adoption.
+The Copilot for Sales adoption report is an essential tool for sales leaders looking to understand the usage of Copilot for Sales within their organization. Using this Power BI template, you gain valuable insights into how different groups and apps are utilizing Copilot for Sales. You can also identify key actions contributing to sales tasks, and explore research findings on its adoption.
  
 This report is divided into several sections that provide a comprehensive view of usage metrics, trends over time, and practical guides on getting started with Copilot for Sales.
  
