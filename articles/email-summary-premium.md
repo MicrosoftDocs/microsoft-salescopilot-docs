@@ -1,5 +1,5 @@
 ---
-title: View CRM-enriched email summaries in Outlook
+title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Copilot for Sales in Outlook to enrich email summaries with sales information from your CRM.
 ms.date: 01/17/2025
 ms.topic: how-to
@@ -12,21 +12,22 @@ ms.custom:
   - ai-seo-date:01/27/2024
 ---
 
-# View CRM-enriched email summaries in Outlook
+# Boost sales efficiency with CRM-enriched email summaries in Outlook
 
-Copilot for Sales brings together Microsoft 365 Copilot in Outlook and your customer relationship management (CRM) system to help you build customer relationships and close deals faster. Microsoft 365 Copilot summarizes your emails, helping you quickly grasp key details. Copilot for Sales enriches those summaries with sales information from your Dynamics 365 or Salesforce CRM. You can copy the summary to a note in your CRM or to share it in other applications.
+Copilot for Sales integrates Microsoft 365 Copilot in Outlook with your CRM system to help you build customer relationships and close deals faster. Microsoft 365 Copilot summarizes your emails, helping you quickly grasp key details. Copilot for Sales enriches those summaries with sales information from your Dynamics 365 or Salesforce CRM. You can copy the summaries to your CRM or share them in other applications.
 
 Email summaries are available when:
 
-- The email content is more than 1,000 characters. That's about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
+- The email content is more than 1,000 characters, or about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
 - The email is in one of the supported languages. Learn more in [Supported languages in Copilot for Sales for Outlook and Teams](supported-languages.md#ai-in-copilot-for-sales).
 - The email isn't encrypted.
 
 ## License requirements
 
-Some features of the Copilot for Sales email summary are different depending on which license you have. If you have a Copilot for Sales license, or Dynamics 365 Premium with Copilot for Sales activated, you can view and copy email summaries as described in this article.
+Features of the Copilot for Sales email summary vary by license:
 
-If you have a Sales Copilot license, you can view email summaries, save them directly to your CRM, share them to Microsoft Teams, or copy them for use elsewhere. Learn more in [View and save email summaries to your CRM](view-save-email-summary-crm.md).
+- **Copilot for Sales license**: View and copy email summaries as described in this article.
+- **Sales Copilot license**: View, save to CRM, share to Teams, or copy email summaries. Learn more in [View and save email summaries to your CRM](view-save-email-summary-crm.md).
 
 Unsure about the difference between Copilot for Sales and Sales Copilot? Learn more in [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md).
 
@@ -34,7 +35,7 @@ The Copilot for Sales license includes a Microsoft 365 Copilot subscription. If 
 
 ## Anatomy of an email summary
 
-Copilot for Sales looks different depending on which version of Outlook you have. If you're using Outlook on the web or New Outlook for Windows, Copilot for Sales is integrated in the Microsoft 365 Copilot side pane. If you're using Outlook for Windows, Copilot for Sales opens in a dedicated side pane. Learn more in [Unified side pane in Outlook on the web and Outlook for Windows](./whats-new-copilot-sales#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows). The images in this article show Copilot for Sales in Outlook on the web.
+Copilot for Sales looks different depending on your version of Outlook. In Outlook on the web or New Outlook for Windows, it appears in the Microsoft 365 Copilot side pane. In Outlook for Windows, it opens in a dedicated side pane. Learn more in [Unified side pane in Outlook on the web and Outlook for Windows](./whats-new-copilot-sales#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows). The images in this article show Copilot for Sales in Outlook on the web.
 
 :::image type="content" source="./media/email-summary-premium-license.png" alt-text="Screenshot of a Copilot for Sales email summary in Outlook on the web, with numbered callouts.":::
 
@@ -75,7 +76,7 @@ Legend:
 
 In the **Key sales info** card, you can perform the following tasks:
 
-- To view basic information about the contact, account, or opportunity, select the link in blue. To open the record in your CRM to view complete details, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card. You might need to scroll the card to the right to find the icon.
+- To view basic information about the contact, account, or opportunity, select the link in blue. To view complete details in your CRM, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card. You might need to scroll the card to find the icon.
 
 - To check where Copilot got the information for the summary, select a citation number or the **n references** menu, where *n* is the number of citations in the summary.
 
@@ -88,5 +89,5 @@ In the **Key sales info** card, you can perform the following tasks:
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
 - [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md)
 - [Draft an email message in Copilot for Sales app](./use-copilot-kickstart-email-messages.md)
-- [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md)
+- Read about the change from [Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md)
 - [Summarize an email thread with Microsoft 365 Copilot in Outlook](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-for-microsoft-365-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640)
