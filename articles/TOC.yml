@@ -136,7 +136,7 @@
       items:
       - name: View email summary
         items:
-        - name: View CRM-enriched email summaries in Outlook
+        - name: Boost sales efficiency with CRM-enriched email summaries in Outlook
           href: email-summary-premium.md
         - name: View and save email summaries to your CRM
           href: view-save-email-summary-crm.md
