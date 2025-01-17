@@ -1,7 +1,7 @@
 ---
 title: View and save email summaries to your CRM
 description: Learn how to use Copilot for Sales to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
-ms.date: 01/13/2025
+ms.date: 01/17/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:12/18/2023
 ---
 
-# View and save email summaries to your CRM (Sales Copilot license)
+# View and save email summaries to your CRM
 
 As a conscientious salesperson, you capture your email interactions with your customers in your customer relationship management (CRM) system so that, for example, colleagues can pick up where you left off when you're not available. You can [save your emails to the CRM](./save-outlook-activities-crm.md) in their entirety, but often all you need is a summary of the most important parts of the conversation. Drafting meaningful summaries and manually entering them in the CRM is time-consuming. Copilot for Sales can do it for you in seconds. It uses AI to summarize an email, highlighting budget, stakeholders, need, and timing if they were mentioned. You can easily add the summary to your CRM as a note in a customer record, and even share it to Microsoft Teams or copy it for use elsewhere.
 
@@ -21,13 +21,16 @@ Email summaries are available when:
 - Copilot can detect the information with a high degree of confidence.
 - The email is to or from a contact outside your company, and the contact exists in your CRM.
 - The email content is more than 1,000 characters. That's about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
+- The email is in one of the supported languages. Learn more in [Supported languages in Copilot for Sales for Outlook and Teams](supported-languages.md#ai-in-copilot-for-sales).
 - The email isn't encrypted.
 
 ## License requirements
 
-Some features of the Copilot for Sales email summary are different depending on which license you have. If you have a Sales Copilot license, you can view and save email summaries to your CRM as described in this article.
+Some features of the Copilot for Sales email summary are different depending on which license you have. If you have a Sales Copilot license, you can view email summaries, save them directly to your CRM, share them to Microsoft Teams, or copy them for use elsewhere as described in this article.
 
-If you have a Copilot for Sales license, or Dynamics 365 Premium with Copilot for Sales activated, ADD WHAT'S DIFFERENT HERE. Learn more in [ENTER NEW ARTICLE TITLE](email-summary-premium.md).
+If you have a Copilot for Sales license, or Dynamics 365 Premium with Copilot for Sales activated, you can view and copy email summaries. Learn more in [View CRM-enriched email summaries in Outlook](email-summary-premium.md).
+
+Unsure about the difference between Sales Copilot and Copilot for Sales? Learn more in [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md).
 
 ## Anatomy of an email summary
 
@@ -58,17 +61,21 @@ Legend:
 1. Save the summary to your CRM or change the language
 1. Share feedback on the email summary
 
-## Email summary when reading an email
+## View an email summary when reading an email
 
 You can copy the email summary here, but you can't add it to your CRM.
 
 1. In Outlook, open an email in the reading pane or in a separate window.
 
-1. Open the **Copilot for Sales** pane if it isn't already open. After a moment or two, the email summary is displayed in the **Key sales info** card.
+1. Open the **Copilot for Sales** pane if it isn't already open.
 
-    If the contact isn't in your CRM, the email summary isn't displayed. To add the contact to your CRM, select **Add contact**, fill in the required fields, and then select **Save**. The email summary should appear a few moments later.
+    If the contact is in your CRM, the **Key sales info** card displays a summary of the email, along with important information about the account and opportunities related to the contact, with links to the records in your CRM.
+
+    If the contact isn't in your CRM, the **Key sales info** card isn't displayed. Add the contact to your CRM. The email summary should appear a few moments later. Learn more in [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md).
 
 In the **Key sales info** card, you can perform the following tasks:
+
+- To view basic information about the contact, account, or opportunity, select the link in blue. To open the record in your CRM to view complete details, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card. You might need to scroll the card to the right to find the icon.
 
 - To check where Copilot got the information for the summary, select a citation number or the **n references** menu, where *n* is the number of citations in the summary.
 
@@ -76,7 +83,7 @@ In the **Key sales info** card, you can perform the following tasks:
 
 - To provide feedback on the email summary, select the thumbs-up or thumbs-down icon. Be sure not to share personal information in your feedback.
 
-## Email summary when replying to an email
+## View an email summary when replying to an email
 
 You can add the summary to your CRM, share it to Teams, or copy it to the clipboard here.
 
@@ -87,7 +94,7 @@ You can add the summary to your CRM, share it to Teams, or copy it to the clipbo
 
 1. Open the **Copilot for Sales** pane if it isn't already open. After a moment or two, the email summary is displayed in the **Key email info** card.
 
-    If the contact isn't in your CRM, the email summary isn't displayed. To add the contact to your CRM, select **Add contact**, fill in the required fields, and then select **Save**. The email summary should appear a few moments later.
+    If the contact isn't in your CRM, the **Key email info** card isn't displayed. Add the contact to your CRM. The email summary should appear a few moments later. Learn more in [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md).
 
 In the **Key email info** card, you can perform the following tasks:
 
@@ -95,7 +102,7 @@ In the **Key email info** card, you can perform the following tasks:
 
     :::image type="content" source="media/summary-citation.png" alt-text="Screenshot of a citation in the Copilot for Sales pane in Outlook.":::
 
-    To view basic information about the contact, select the link in blue. To open the contact record in your CRM to view complete details, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card.
+    To view basic information about the contact, account, or opportunity, select the link in blue. To open the record in your CRM to view complete details, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card.
 
     :::image type="content" source="media/summary-source.png" alt-text="Screenshot of contact details in the Copilot for Sales pane in Outlook.":::
 
@@ -109,7 +116,7 @@ In the **Key email info** card, you can perform the following tasks:
 
 - To provide feedback on the email summary, select the thumbs-up or thumbs-down icon. Be sure not to share personal information in your feedback.
 
-### Save the email summary to your CRM
+### Save an email summary to your CRM
 
 Using Copilot for Sales, you can save an email summary to one record only. If you try to save it again, the option to save the summary is no longer available.
 
@@ -140,4 +147,6 @@ The email summary is saved to your CRM as a note on the selected record. All Cop
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
+- [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md)
 - [Draft an email message in Copilot for Sales app](./use-copilot-kickstart-email-messages.md)
+- [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md)
