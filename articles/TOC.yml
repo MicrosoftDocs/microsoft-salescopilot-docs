@@ -63,7 +63,7 @@
 
 - name: Administration guide
   items:
-  - name: Admin settings in Teams
+  - name: Admin settings
     items:
     - name: Overview
       href: administrator-settings-for-viva-sales.md
