@@ -333,9 +333,6 @@
 - name: Copilot for Sales success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
 
-- name: Deprecations in Copilot for Sales
-  href: deprecations-copilot-for-sales.md
-
 - name: Responsible AI
   items:
   - name: Overview
