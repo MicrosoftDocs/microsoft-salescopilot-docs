@@ -638,6 +638,11 @@
         "source_path": "articles/deprecations-copilot-for-sales.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                      
+      },
+      {
+        "source_path": "articles/faqs-real-time-tips.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }                                       
   ]
 }
