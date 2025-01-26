@@ -26,4 +26,4 @@ By default, this feature is turned off. When this feature is enabled, the data a
 
 ### Related information
 
-[Share a CRM record in Outlook by using /mention](share-crm-record-teams-conversation.md#share-a-crm-record-in-outlook-by-using-mention)
+[Share a CRM record in Outlook using /mention](share-crm-record-teams-conversation.md#share-a-crm-record-in-outlook-using-mention)
