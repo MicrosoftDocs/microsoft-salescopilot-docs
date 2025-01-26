@@ -10,9 +10,11 @@ ms.author: shjais
 
 # Share a CRM record in Teams or Outlook
 
-Copilot for Sales enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.  
+Copilot for Sales enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.
+
 In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. The AI-generated summary is displayed only if the Copilot features are enabled for your organization.  
-You can share a CRM record either by using the Copilot for Sales search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
+
+You can share a CRM record using the Copilot for Sales search message extension, the /mention feature if your administrator has turned it on, or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
 
 > [!NOTE]
 >
@@ -83,14 +85,11 @@ The experience of using the Copilot for Sales search message extension when comp
 
     The adaptive card is added to the email.
 
-## Share a CRM record in Outlook by using /mention
+## Share a CRM record in Outlook using /mention
 
-You can share a CRM record in an email or calendar invite by using the /mention feature in Outlook. This feature allows you to quickly share a CRM record with your team members when composing an email or calendar invite. 
+Your administrator needs to [turn on this feature](share-crm-record-admin.md) before you can use it. 
 
-> [!NOTE]
-> This feature is available only if it has been enabled by your administrator. For more information, see [Share a CRM record in Outlook by using /mention](share-crm-record-admin.md).
-
-1. In the body of the email or calendar invite, enter the forward slash (/) symbol. Copilot for Sales displays a list of recently accessed records.
+1. In the body of the email or calendar invite, type a forward slash (/) symbol. Copilot for Sales displays a list of recently accessed records.
 
 1. Select a record from the list or search for a record by entering the first few letters of the record name.
 
