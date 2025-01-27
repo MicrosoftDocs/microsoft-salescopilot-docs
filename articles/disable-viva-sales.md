@@ -27,7 +27,7 @@ You can uninstall the Copilot for Sales app from either Microsoft Outlook or Mic
 1. In the navigation bar on the left, right-click the Copilot for Sales app, and then select **Uninstall**.  
 
     > [!NOTE]
-    > If there's no option to uninstall the app, it's likely that the add-in was installed by your administrator.
+    > If there's no option to uninstall the app, it's likely that the app was installed by your administrator.
 
 ## Uninstall as an admin
 
