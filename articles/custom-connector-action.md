@@ -24,7 +24,7 @@ After you build your custom connector, you must create an action in Microsoft Co
 
 ## Create and test a custom connector in Microsoft Power Platform
 
-[Download the OpenAI file](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly get started with the connector actions that are needed to extend Copilot for Sales. The OpenAI file contains swagger for an API that is designed to get content suggestions in an email. You can disregard this swagger, because the Copilot for Sales user interface doesn't support the API.
+[Download the OpenAI file](https://go.microsoft.com/fwlink/p/?linkid=2272334) to quickly get started with the connector actions that are needed to extend Copilot for Sales.
 
 You can create a custom connector from either [Power Apps](https://make.powerapps.com/) or [Power Automate](https://flow.microsoft.com/). 
 
