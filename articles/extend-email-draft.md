@@ -25,7 +25,13 @@ You must add the following API description to the action. In this way, Copilot f
 
 *This action gets files relevant to the email conversation, which will be shown in C4S email drafts in Outlook. The action enhances the existing skills of copilot for sales.*
 
+## API operation
+
+This API uses Operation Type: POST
+
 ## Input payload
+
+This payload goes as the request body of the API request.
 
 | Name           | Data Type | Required | Details | Description to add in the action |
 |----------------|-----------|----------|---------|----------------------------------|

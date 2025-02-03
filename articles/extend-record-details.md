@@ -26,6 +26,10 @@ You must add the following API description to the action. In this way, Copilot f
 
 *This action gets records related to a CRM record. The action enhances the existing skills of Copilot for Sales.*
 
+## API operation
+
+This API uses Operation Type: GET
+
 ## Input parameters
 
 Copilot for Sales is designed to provide the following input parameters to your APIs.
