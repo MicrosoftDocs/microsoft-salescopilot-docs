@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 12/10/2024
+ms.date: 01/10/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -117,7 +117,7 @@ Currently, Copilot for Sales is compatible with Dynamics 365 Sales and Salesforc
 
 ### What privileges are required to use Copilot for Sales?
 
-Copilot for Sales applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Copilot for Sales](install-viva-sales.md#privileges-required-to-use-copilot-for-sales).
+Copilot for Sales applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Copilot for Sales](privileges.md).
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -250,7 +250,7 @@ The settings are specific to the environment you're signed in to in Copilot for 
 
 ### How can I switch CRM environments?
 
-If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](sign-in-crm-teams.md#switch-environments). 
+If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](personal-app.md#switch-environments). 
 
 ### Why do I see the message "Settings are coming soon"?
 

@@ -92,3 +92,7 @@ You can use Copilot for Sales and AI capabilities in Outlook without signing in 
 ## App refresh
 
 When you switch the connected environment in Teams, you receive a notification to refresh the Copilot for Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
+
+### Related information
+
+- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
