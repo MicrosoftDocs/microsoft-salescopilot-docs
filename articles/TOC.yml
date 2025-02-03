@@ -69,6 +69,8 @@
       href: administrator-settings-for-viva-sales.md
     - name: Customize forms and fields
       href: customize-forms-and-fields.md
+    - name: Share a CRM record in Outlook by using /mention
+      href: share-crm-record-admin.md  
     - name: Turn on Copilot AI features
       href: suggested-replies.md
     - name: Turn off task suggestion in collaboration spaces (preview)
@@ -332,9 +334,6 @@
 
 - name: Copilot for Sales success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
-
-- name: Deprecations in Copilot for Sales
-  href: deprecations-copilot-for-sales.md
 
 - name: Responsible AI
   items:
