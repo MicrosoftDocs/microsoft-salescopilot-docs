@@ -89,7 +89,7 @@
     href: disable-viva-sales.md
   - name: Conversation intelligence dashboard (preview)
     items:
-    - name: Configure conversation intelligence dashboard 
+    - name: Configure conversation intelligence dashboard
       href: configure-pbi-dashboard.md
     - name: Conversation intelligence dashboard data structure
       href: data-struct-pbi-report.md
@@ -111,7 +111,7 @@
   - name: Capabilities in Outlook
     items:
     - name: CRM actions
-      items: 
+      items:
       - name: Connect a contact to your CRM
         href: connect-contact.md
       - name: Change the connected CRM contact
@@ -140,9 +140,9 @@
       items:
       - name: View email summary
         items:
-        - name: View email summary using Copilot for Sales license
+        - name: Boost sales efficiency with CRM-enriched email summaries in Outlook
           href: email-summary-premium.md
-        - name: View email summary using Sales Copilot license
+        - name: View and save email summaries to your CRM
           href: view-save-email-summary-crm.md
       - name: Draft an email message
         items:
@@ -164,7 +164,7 @@
         href: insights-partner-apps.md
       - name: Share insights from Outlook to Teams
         href: share-insights-from-outlook-to-teams.md
-      
+
     - name: More options
       href: more-options.md
 
@@ -184,7 +184,7 @@
         items:
         - name: View meeting summary using Copilot for Sales license
           href: view-meeting-summary-recap.md
-        - name: View meeting summary using Sales Copilot license  
+        - name: View meeting summary using Sales Copilot license
           href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
@@ -227,7 +227,7 @@
       href: analyze-sellers-conv-data-pbi.md
     - name: View and understand Copilot for Sales dashboard report
       href: view-understand-pbi-report.md
-  
+
 - name: Extend Copilot for Sales (preview)
   items:
   - name: Overview
@@ -314,7 +314,7 @@
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context  
+        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"User does not have required privileges to access the org" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Teams collaboration spaces
@@ -322,7 +322,7 @@
       - name: Can't create private channels in Microsoft Teams
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Can't create a team for an account or opportunity
-        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/create-team-error?context=/microsoft-sales-copilot/context/sales-copilot-context       
+        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/create-team-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 
@@ -353,4 +353,3 @@
     href: faqs-key-sales-info.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
-
