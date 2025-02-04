@@ -70,7 +70,7 @@ You can filter the search results by record details and record type.
 
 **To filter the search results**:
 
-1. [Save an email or a meeting to the CRM](save-outlook-activities-crm.md#save-outlook-activities-from-the-highlight-card). 
+1. [Save an email or a meeting to the CRM](save-outlook-activities-crm.md#save-from-the-highlight-card). 
 
 2. Under **Connect to a record**, use the search box to find a record.
 
