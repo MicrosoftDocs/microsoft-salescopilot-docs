@@ -33,9 +33,17 @@ Unsure about the difference between Copilot for Sales and Sales Copilot? Learn m
 
 The Copilot for Sales license includes a Microsoft 365 Copilot subscription. If your organization purchased Microsoft 365 Copilot separately, Copilot for Sales is available as a step-up license. Learn more in [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
+## Prerequisites
+
+- [Copilot AI features must be turned on in your environment](suggested-replies.md)
+- [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
+- [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
+- You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
+- The Copilot for Sales app must be installed by your admin.
+
 ## Anatomy of an email summary
 
-Copilot for Sales looks different depending on your version of Outlook. In Outlook on the web or New Outlook for Windows, it appears in the Microsoft 365 Copilot side pane. In Outlook for Windows, it opens in a dedicated side pane. Learn more in [Unified side pane in Outlook on the web and Outlook for Windows](./whats-new-copilot-sales#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows). The images in this article show Copilot for Sales in Outlook on the web.
+Copilot for Sales looks different depending on your version of Outlook. In Outlook on the web or New Outlook for Windows, it appears in the Microsoft 365 Copilot side pane. In Outlook for Windows, it opens in a dedicated side pane. Learn more in [Unified side pane in Outlook on the web and Outlook for Windows](./whats-new-copilot-sales.md#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows). The images in this article show Copilot for Sales in Outlook on the web.
 
 :::image type="content" source="./media/email-summary-premium-license.png" alt-text="Screenshot of a Copilot for Sales email summary in Outlook on the web, with numbered callouts.":::
 
