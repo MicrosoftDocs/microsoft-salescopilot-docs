@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Copilot for Sales
 description: Learn what are the various privileges required to use Copilot for Sales
-ms.date: 01/10/2025
+ms.date: 02/06/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,6 +23,7 @@ Salesforce administrators who need to customize Copilot for Sales must have the 
 |Requirement type  |You must have  |
 |---------|---------|
 | Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
+| Privilege | **Read** and **Write** privileges on **Organization** table. |
 
 ## Privileges required for Dynamics 365 customers
 
@@ -34,7 +35,7 @@ If you're using custom security roles, you must assign the following security ro
 |Requirement type  |You must have  |
 |------------------|---------------|
 | Security role | Sales Copilot Administrator |
-| Privilege | **Read** privilege on **User** table |
+| Privilege | **Read** privilege on **User** table.<br>**Read** and **Write** privileges on **Organization** table. |
 
 ### Dynamics 365 sellers
 
@@ -44,7 +45,7 @@ If you're using custom security roles, you must assign the following security ro
 |Requirement type  |You must have  |
 |---------|---------|
 |Security role | Sales Copilot User |
-|Privilege | **Read** privilege on **User** table |
+|Privilege | **Read** privilege on **User** table. |
 
 The **Copilot for Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.  
 For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).  

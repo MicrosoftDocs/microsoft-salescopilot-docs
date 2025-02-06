@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales deployment guide for Dynamics 365 customers
 description: Learn how to deploy Copilot for Sales for Dynamics 365 customers.
-ms.date: 10/09/2024
+ms.date: 02/06/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -97,37 +97,6 @@ Now that you've installed and configured Copilot for Sales in Outlook and Teams,
 > - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Copilot for Sales app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)
 > - Copilot for Sales doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
 > - Users added as guests to a tenant can't access Copilot for Sales.
-
-## Automatic installation
-
-To make onboarding to Copilot for Sales easier for select organizations, Microsoft automatically installs Copilot for Sales for all users with an appropriate license. The following licenses include Copilot for Sales by default:
-- Microsoft 365 Copilot for Sales license
-- Dynamics 365 Sales Enterprise
-- Dynamics 365 Sales Premium
-
-In some cases, the Power Platform licensees can also get Copilot for Sales automatically installed. These users can start using basic capabilities of Copilot for Sales such as email drafting and email summarization without signing in to their CRM. If your sellers are using a Dynamics 365 license that doesn't include Copilot for Sales, or the Salesforce CRM, or Power Apps, you can purchase the appropriate license. [Visit the pricing page for information about license cost](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
-
-> [!NOTE]
-> To simplify your sellers' experience for automatic installation of Copilot for Sales app, you can set up [server-side synchronization](/power-platform/admin/connect-exchange-online) of emails and appointments for all Copilot for Sales users.
-
-### How is auto installation rolled out?
-
-Auto installation is rolled out in phases to select organizations. Organization receives a notification in both the **Microsoft 365 admin center** and the **Power Platform admin center**. Each organization can opt out of auto installation in the specified period of time. Once the capability is rolled-out, the Outlook add-in and Microsoft Teams app can't be uninstalled from **Microsoft 365 admin center**, but users can choose to uninstall them from their respective Outlook and Teams clients, and a new install won't be performed automatically.
-
-### Are there any limitations for auto installed apps?
-
-Auto installed apps are considered as user-deployed and won't have full feature support. User-deployed apps don't support Copilot for Sales banner notifications that appear within the top of new or reply emails. Also, the Copilot for Sales isn't added automatically to meeting invites. However, sellers can manually add Copilot for Sales to the meeting to get meeting summaries. To get full feature support such as banner notifications, you must install the app for your sellers from **Microsoft 365 admin center**. In this way, the apps are considered as admin-deployed and have full feature support.
-
-### How to uninstall auto installed apps?
-
-Auto installed apps can be uninstalled by users from their respective Outlook and Teams clients. For more information on how to uninstall user-deployed apps, see:
-
-- [Uninstall Copilot for Sales Outlook add-in](disable-viva-sales.md#uninstall-copilot-for-sales-outlook-add-in-using-powershell)
-- [Uninstall Copilot for Sales app from Microsoft Teams](disable-viva-sales.md#uninstall-copilot-for-sales-app-from-microsoft-teams)
-
-### How to opt out of auto installation?
-
-If your organization is enrolled for auto installation and would like to opt out of future auto installation for new users, fill out the [opt-out form](https://go.microsoft.com/fwlink/p/?linkid=2254756). It may take up to two weeks for the opt-out to take effect. Note that Outlook add-in and Microsoft Teams app are not uninstalled from existing users.
 
 ## Community
 
