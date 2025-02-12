@@ -45,7 +45,7 @@ If you're using custom security roles, you must assign the **Sales Copilot Admin
 
 ### Dynamics 365 sellers
 
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Copilot for Sales privileges are added automatically and no further action is required.
+If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, Copilot for Sales privileges are added automatically and no further action is required.
 
 If you're using custom security roles, you must assign the **Sales Copilot User** security role and following privileges to Dynamics 365 sellers who need to use Copilot for Sales.
 
