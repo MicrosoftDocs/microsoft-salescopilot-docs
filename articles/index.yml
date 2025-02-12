@@ -6,9 +6,10 @@ metadata:
   title: Microsoft 365 Copilot for Sales documentation
   description: Learn about how you can use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
+  ms.service: microsoft-sales-copilot
   author: sbmjais
   ms.author: shjais
-  ms.date: 02/02/2024
+  ms.date: 02/11/2025
   ms.custom: bap-template
   hide_bc: true
 
