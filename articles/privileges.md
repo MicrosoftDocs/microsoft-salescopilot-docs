@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Copilot for Sales
 description: Learn what are the various privileges required to use Copilot for Sales
-ms.date: 02/06/2025
+ms.date: 02/12/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -29,27 +29,46 @@ Salesforce administrators who need to customize Copilot for Sales must have the 
 
 ### Dynamics 365 administrators
 
-If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Copilot for Sales administration privileges are added automatically.  
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 administrators who need to customize Copilot for Sales.  
+If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Copilot for Sales administration privileges are added automatically.
 
-|Requirement type  |You must have  |
-|------------------|---------------|
-| Security role | Sales Copilot Administrator |
-| Privilege | **Read** privilege on **User** table.<br>**Read** and **Write** privileges on **Organization** table. |
+If you're using custom security roles, you must assign the **Sales Copilot Administrator** security role and following privileges to Dynamics 365 administrators who need to customize Copilot for Sales.  
+
+|Table| Logical name                        | Permissions                                           | Level       |
+|-----|-----------------------------|-------------------------------------------------------|-------------|
+| msdyn_vivausersetting | msdyn_vivausersetting       | Create, Read, Write, Delete, Append, Append to, Assign, Share | Organization |
+| msdyn_vivaorgextensioncred | msdyn_vivaorgextensioncred  | Create, Read, Write, Delete, Append, Append to        | Organization |
+| msdyn_vivaorgsetting  | msdyn_vivaorgsetting        | Create, Read, Write, Delete, Append, Append to        | Organization |
+| msdyn_vivaentitysetting  | msdyn_vivaentitysetting     | Create, Read, Write, Delete, Append, Append to        | Organization |
+|User | systemuser                  | Read                                                  | Organization |
+| Recently Used | recentlyused                | Create, Read, Write, Delete                           | User        |
+|Organization | organization                | Read, Write, Append to                                | Global      |
 
 ### Dynamics 365 sellers
 
-If you're using the out-of-the-box Salesperson or Sales Manager security roles, Copilot for Sales privileges are added automatically and no further action is required.  
-If you're using custom security roles, you must assign the following security role and privilege to Dynamics 365 sellers who need to use Copilot for Sales.
+If you're using the out-of-the-box Salesperson or Sales Manager security roles, Copilot for Sales privileges are added automatically and no further action is required.
 
-|Requirement type  |You must have  |
-|---------|---------|
-|Security role | Sales Copilot User |
-|Privilege | **Read** privilege on **User** table. |
+If you're using custom security roles, you must assign the **Sales Copilot User** security role and following privileges to Dynamics 365 sellers who need to use Copilot for Sales.
 
-The **Copilot for Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.  
-For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).  
-To edit custom security roles to match with out-of-the-box Salesperson or Sales Manager role, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role).  
+| Table               | Logical name                        | Permissions                                           | Level                          |
+|---------------------|-----------------------------|-------------------------------------------------------|--------------------------------|
+| Tagged Record       | msdyn_taggedrecord          | Create, Read, Write, Delete, Append, Append to        | User                           |
+| External Record     | msdyn_externalrecord        | Create, Read, Write, Delete, Append, Append to        | Read - Organization<br>Create, Write, Delete, Append, Append to - User |
+| External CRM        | msdyn_externalcrm           | Create, Read, Write, Delete, Append, Append to        | Read, Append to - Organization<br>Create, Write, Delete, Append - User |
+| CRM Connection      | msdyn_crmconnection         | Create, Read, Write, Delete, Append, Append to        | User                           |
+| msdyn_vivausersetting| msdyn_vivausersetting       | Create, Read, Write, Delete, Append, Append to, Assign, Share | User                           |
+| msdyn_vivaorgsetting| msdyn_vivaorgsetting        | Read                                                  | Organization                   |
+| msdyn_vivaentitysetting| msdyn_vivaentitysetting   | Read                                                  | Organization                   |
+| Note                | annotation                  | Create, Read, Write, Delete, Append, Append to, Assign, Share | User                           |
+| User                | systemuser                  | Read                                                  | Organization                   |
+| Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
+
+
+The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+
+For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+  
+To edit custom security roles to match with out-of-the-box Salesperson or Sales Manager role, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role). 
+
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 ## Deploy Copilot for Sales
