@@ -1,7 +1,7 @@
 ---
 title: View and understand the meeting summary
 description: Learn how to view and understand the meeting summary.
-ms.date: 01/24/2025
+ms.date: 02/11/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,7 +22,7 @@ The experience covered within this article is only displayed to Dynamics 365 Sal
 
 When the meeting summary is ready, you'll receive a message from the **Copilot for Sales** bot in your personal chat. The message includes meeting details such as the title, date, time, and attendees, and a link to the summary. You can use the link in the message to view the summary or go to the **Copilot for Sales** tab in the meeting.
 
-- Go to the **Copilot for Sales** bot in your chat list and select **Open summary**.
+- Go to the **Copilot for Sales** bot in your chat list and select **Open recap**. The notification provides a summary of the meeting and follow-up action items.    
 
   :::image type="content" source="media/meeting-summary.png" alt-text="Screenshot showing the Copilot for Sales meeting summary card.":::
 
