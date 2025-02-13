@@ -6,9 +6,10 @@ metadata:
   title: Microsoft 365 Copilot for Sales documentation
   description: Learn about how you can use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
+  ms.service: microsoft-sales-copilot
   author: sbmjais
   ms.author: shjais
-  ms.date: 02/02/2024
+  ms.date: 02/12/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -56,13 +57,13 @@ additionalContent:
       - url: customize-forms-and-fields.md
         text: Customize forms and fields
       - url: suggested-replies.md
-        text: Set up Copilot AI features
+        text: Turn on Copilot AI features
       - url:  m365-admin-setting.md
-        text: Configure Copilot for Sales for Microsoft 365 apps
+        text: Turn off actionable banners
     - title: Manage for Outlook and Teams
       links:
       - url: disable-viva-sales.md
-        text: Remove Copilot for Sales from Microsoft 365 admin center
+        text: Uninstall the Copilot for Sales app
 
   - title: Be productive with Copilot for Sales
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
@@ -70,40 +71,42 @@ additionalContent:
     items:
     - title: In Outlook
       links: 
-      - url: use-sales-copilot-outlook.md
-        text: Learn the basics of Copilot for Sales in Outlook
+      - url: open-app.md#access-copilot-for-sales-in-outlook
+        text: Access the Copilot for Sales app
       - url: connect-contact.md
-        text: Connect a contact to your CRM
-      - url: create-contact-crm-sales-copilot.md
-        text: Create a contact in your CRM 
+        text: Connect a contact to your CRM 
+      - url: create-new-record.md
+        text: Create a new record in your CRM
       - url: save-outlook-activities-crm.md
         text: Save Outlook activities to your CRM
-      - url: edit-crm-record.md
-        text: Edit a CRM record
+      - url: global-search.md
+        text: Search for a CRM record
 
     - title: AI capabilities
       links: 
-      - url: use-copilot-kickstart-email-messages.md
+      - url: email-reply-premium.md
         text: Draft email messages
-      - url: view-save-email-summary-crm.md
+      - url: email-summary-premium.md
         text: View email summary
       - url: view-opportunity-summary.md
         text: View opportunity summary
-      - url: meeting-report-word.md
-        text: Generate pre-meeting report
+      - url: suggested-crm-updates.md
+        text: View suggested CRM updates
+      - url: key-sales-info.md
+        text: View key sales information
 
     - title: In Teams
       links: 
+      - url: sign-in-crm-teams.md
+        text: Connect to CRM from Teams
+      - url: meeting-prep.md
+        text: View a meeting preparation card
       - url: use-sales-copilot-app-during-meeting.md
         text: Use Copilot for Sales app during a meeting
       - url: generate-meeting-summary.md
         text: Generate a meeting summary
-      - url: view-understand-meeting-summary.md
+      - url: view-meeting-summary-recap.md
         text: View and understand the meeting summary
-      - url: create-crm-tasks-meeting-summary.md
-        text: Create CRM tasks from meeting summary
-      - url: share-crm-record-teams-conversation.md
-        text: Share a CRM record in a Teams conversation
 
 
     - title: Collaboration templates for Outlook and Teams
@@ -116,8 +119,17 @@ additionalContent:
         text: Collaborate in Teams using the newly created or existing team
       - url: access-linked-teams-channels.md
         text: Access linked teams and channels
+      - url: suggested-tasks-collab-space.md
+        text: Collaborate using AI-powered Planner tasks
 
-
+    - title: Extend Copilot for Sales
+      links: 
+      - url: extend-copilot-for-sales.md
+        text: Extend with partner applications 
+      - url: custom-connector-action.md
+        text: Create a custom connector and connector action
+      - url: build-apis.md
+        text: Build Copilot for Sales extensions
 
   - title: Related products
     items:
