@@ -1,7 +1,7 @@
 ---
 title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Copilot for Sales in Outlook to enrich email summaries with sales information from your CRM.
-ms.date: 02/04/2025
+ms.date: 02/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,6 +21,10 @@ Email summaries are available when:
 - The email content is more than 1,000 characters, or about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
 - The email is in one of the supported languages. Learn more in [Supported languages in Copilot for Sales for Outlook and Teams](supported-languages.md#ai-in-copilot-for-sales).
 - The email isn't encrypted.
+
+Here's the video that shows how to view an email summary and [draft an email message](email-reply-premium.md) in Copilot for Sales:
+
+> [!VIDEO 903b4088-0566-401b-80b6-8dfcb7c96408]
 
 ## License requirements
 

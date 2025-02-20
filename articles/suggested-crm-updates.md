@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 09/24/2024
+ms.date: 02/20/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,6 +21,10 @@ Copilot for Sales uses AI to suggest CRM updates based on the email conversation
 The suggestions are displayed in the **Suggested actions** card in the Copilot for Sales pane. If there are no suggestions, the card isn't displayed. When you update a record with the suggested updates, the suggestion is marked as complete.
 
 :::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
+
+Here's the video that shows [how to view the opportunity summary](view-opportunity-summary.md) and update the CRM based on suggested updates:
+
+> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
 
 ## License requirements
 

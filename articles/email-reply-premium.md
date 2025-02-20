@@ -1,7 +1,7 @@
 ---
 title: Draft an email message using sales information in Outlook
 description: Learn how to combine Microsoft 365 Copilot with Microsoft 365 Copilot for Sales for a seamless and powerful sales experience in Outlook.
-ms.date: 09/25/2024
+ms.date: 02/20/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,6 +15,10 @@ ms.custom:
 # Draft an email message using sales information with Copilot in Outlook
 
 Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
+
+Here's the video that shows how to [view an email summary](email-summary-premium.md) and draft an email message in Copilot for Sales:
+
+> [!VIDEO 903b4088-0566-401b-80b6-8dfcb7c96408]
 
 ## License requirements
 
@@ -61,6 +65,7 @@ With Copilot in Outlook and Copilot for Sales together, you can draft an email m
 1. Review the generated content. To generate a different suggestion, select **Regenerate**.
 1. Select **Keep it** to add the content to the email body.
 1. Edit the email content as required, and then send it.
+
 
 ### Related information
 
