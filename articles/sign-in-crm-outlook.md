@@ -66,6 +66,12 @@ You must manually sign in to your CRM in the following cases:
 
 You can use basic capabilities of Copilot for Sales without signing in to your CRM. However, to use all the advanced capabilities of Copilot for Sales, you must sign in to your CRM.
 
+Here's the video that shows how to sign in to your CRM from Outlook:
+
+> [!VIDEO 3be716ef-858e-4f12-a699-701168585907]
+
+**To manually sign in to your CRM from Outlook**:
+
 1. In the **Copilot for Sales** pane, select **Sign in** in the banner at the top or card at the bottom.
 
     :::image type="content" source="media/manual-sign-in.png" alt-text="Screenshot showing sign in button.":::
@@ -81,10 +87,6 @@ You can use basic capabilities of Copilot for Sales without signing in to your C
         :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
     Once you're signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
-
-Here's the video that shows how to sign in to your CRM from Outlook:
-
-> [!VIDEO 3be716ef-858e-4f12-a699-701168585907]
 
 ## Use Copilot for Sales without signing in
 

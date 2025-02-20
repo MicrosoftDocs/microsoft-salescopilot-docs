@@ -24,7 +24,7 @@ The suggestions are displayed in the **Suggested actions** card in the Copilot f
 
 Here's the video that shows [how to view the opportunity summary](view-opportunity-summary.md) and update the CRM based on suggested updates:
 
-[!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
+> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
 
 ## License requirements
 

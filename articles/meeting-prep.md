@@ -8,15 +8,21 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# View a meeting preparation card
+# Meeting preparation card
 
-The meeting preparation card gives you the latest information related to the meeting from CRM. This card helps you stay informed and up to date.
+The meeting preparation card gives you the latest information related to the meeting from CRM. This card helps you stay informed and up to date. It shows information about the meeting, participants, recent communication, opportunity info, notes from CRM, open tasks, and related records. You can use this information to prepare for the meeting and have a productive discussion.
 
-**Prerequisites**: To view a meeting preparation card in Teams, you need to:
+Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
+
+> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
+
+## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
 - [Connect to a CRM organization in the Copilot for Sales app](sign-in-crm-outlook.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
+
+## View a meeting preparation card
 
 The meeting preparation card appears in your personal chat with the **Copilot for Sales** bot 45 to 75 minutes before the meeting starts. If you schedule the meeting less than an hour before the start time, the card appears when you send the meeting invite. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity.
 
@@ -39,6 +45,3 @@ The meeting preparation card contains the following information when a meeting i
 > [!NOTE]
 > You must check the AI-generated content carefully because it can have mistakes. It's your responsibility to review the AI-generated content to make sure it's accurate and appropriate.
 
-Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
-
-> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]

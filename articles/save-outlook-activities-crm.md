@@ -24,7 +24,7 @@ Copilot for Sales can save emails and meetings to your CRM from the highlight ca
 
 Here's the video that shows how to save an email to CRM using Copilot for Sales:
 
-[!VIDEO 58889511-ae98-4933-a317-204bfda884b6]
+> [!VIDEO 58889511-ae98-4933-a317-204bfda884b6]
 
 ## Save from the highlight card
 

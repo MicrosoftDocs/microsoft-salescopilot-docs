@@ -40,7 +40,7 @@ If there are notes added to the opportunity, they are also summarized and displa
 
 Here's the video that shows how to view the opportunity summary and [update the CRM based on suggested updates](suggested-crm-updates.md):
 
-[!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
+> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
 
 ## Supported languages
 
