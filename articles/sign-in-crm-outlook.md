@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 09/18/2024
+ms.date: 02/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -81,6 +81,10 @@ You can use basic capabilities of Copilot for Sales without signing in to your C
         :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
     Once you're signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
+
+Here's the video that shows how to sign in to your CRM from Outlook:
+
+> [!VIDEO 3be716ef-858e-4f12-a699-701168585907]
 
 ## Use Copilot for Sales without signing in
 

@@ -1,7 +1,7 @@
 ---
 title: View opportunity summary
 description: Generate an opportunity summary with AI to help you interact better with customers and boost sales.
-ms.date: 11/29/2024
+ms.date: 02/20/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,6 +37,10 @@ If there are notes added to the opportunity, they are also summarized and displa
 | 4 | Change the opportunity used to generate the summary. More information: [Change the opportunity used to generate summary](#change-the-opportunity-used-to-generate-summary) |
 | 5 | Name of the opportunity for which summary is generated. |
 | 6 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
+
+Here's the video that shows how to view the opportunity summary and [update the CRM based on suggested updates](suggested-crm-updates.md):
+
+[!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
 
 ## Supported languages
 

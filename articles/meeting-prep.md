@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 10/30/2024
+ms.date: 02/20/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -38,3 +38,7 @@ The meeting preparation card contains the following information when a meeting i
 
 > [!NOTE]
 > You must check the AI-generated content carefully because it can have mistakes. It's your responsibility to review the AI-generated content to make sure it's accurate and appropriate.
+
+Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
+
+> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
