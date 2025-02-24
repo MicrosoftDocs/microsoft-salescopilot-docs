@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
-ms.date: 09/25/2024
+ms.date: 02/24/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -270,9 +270,6 @@ When you enable leads support in Copilot for Sales, leads related accounts and o
 After you enable leads support, the user experience to work with leads is similar to working with contacts. You'll notice a minor difference in the flow to create a new contact or lead. You'll be able to choose whether you want to add an external email address as a contact or a lead.
 
 ### Prerequisites
-
-- Turn on leads support
-    - Fill out the [preview request form](https://ncv.microsoft.com/fkzZ0QIiU6) to enable leads support in your environment.
  
 - Recognize leads in Copilot for Sales
     - You must add the Leads record (or Salesforce object) to Copilot for Sales admin settings.
