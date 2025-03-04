@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 01/10/2025
+ms.date: 03/04/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -302,6 +302,10 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
+
+### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
+
+You need to sign in to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md) before you can open the Copilot for Sales **Settings** tab. After you sign in, select **Refresh** on the **Settings** tab.
 
 ## Forms and fields customization
 
