@@ -266,6 +266,10 @@ Administrator settings can't be opened on phones, small tablets, or windows that
 
 The Teams dark and high contrast themes aren't supported.
 
+### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
+
+You must be connected to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you can open the Copilot for Sales **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
+
 ## Deployment
 
 ### How do I find my tenant admin?
@@ -302,10 +306,6 @@ Users may see duplicate icons for Copilot for Sales due to a recent update to th
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
 
     After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
-
-### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
-
-You need to sign in to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md) before you can open the Copilot for Sales **Settings** tab. After you sign in, select **Refresh** on the **Settings** tab.
 
 ## Forms and fields customization
 
