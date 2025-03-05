@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 02/20/2025
+ms.date: 03/04/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you open the Microsoft 365 Copilot for Sales app in Outlook, you can sign in and connect your CRM account to get a more enriched experience with CRM data.
+After you [open the Microsoft 365 Copilot for Sales app in Outlook](open-app.md#access-copilot-for-sales-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 
@@ -90,7 +90,7 @@ Here's the video that shows how to sign in to your CRM from Outlook:
 
 ## Use Copilot for Sales without signing in
 
-You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account. [Access Copilot for Sales](open-app.md#access-copilot-for-sales-in-outlook) to get started.
+You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
