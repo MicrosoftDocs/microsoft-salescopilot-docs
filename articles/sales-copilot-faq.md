@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
-ms.date: 01/10/2025
+ms.date: 03/04/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -67,7 +67,7 @@ There are no changes to [country/region availability or languages](supported-lan
 
 ### What geographies will Copilot for Sales support?   
 
-Copilot in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
+Copilot for Sales in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
@@ -265,6 +265,10 @@ Administrator settings can't be opened on phones, small tablets, or windows that
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 
 The Teams dark and high contrast themes aren't supported.
+
+### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
+
+You must be connected to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the Copilot for Sales **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
 
 ## Deployment
 

@@ -103,6 +103,6 @@ After Copilot for Sales is installed, you can start using it in Outlook and Team
 
 ### Related information
 
-[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)<br>  
+[Install Copilot for Sales in Outlook](install-viva-sales-as-an-integrated-app.md)<br>
 [Install and pin Copilot for Sales in Teams](install-pin-viva-sales-teams.md)<br>
 [Privileges required to use Copilot for Sales](privileges.md)
