@@ -1,7 +1,7 @@
 ---
-title: Integrate Microsoft 365 Copilot for Sales with other applications
-description: Learn how to integrate Copilot for Sales with other applications
-ms.date: 01/24/2025
+title: Integrate Microsoft 365 Copilot for Sales with other applications (preview) 
+description: Learn how to integrate Copilot for Sales with People.ai to enhance the functionality of Copilot for Sales and add insights for your sellers.
+ms.date: 03/10/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,8 +18,9 @@ You can integrate Copilot for Sales with other applications such as People.ai to
 
 ## Integrate with People.ai
 
-Integrate with People.ai to get insights into your sellers' activities and their engagement with customers. The insights are based on the data that is collected from your sellers' email and meeting. Insights from People.ai are displayed for contacts, opportunities, and accounts.  
-By default, the integration is disabled. When enabled, the insights are displayed in the [detailed view of a record](view-record-details.md) as well as in the [opportunity summary card](view-opportunity-summary.md) in the **Copilot for Sales** pane in Outlook. More information: [View People.ai insights (preview)](people-ai-insights.md)
+If your organization uses Salesforce for customer relationship management, integrate Copilot for Sales with People.ai to get insights into your sellers' activities and their engagement with customers. People.ai insights are based on your sellers' emails and meetings and are displayed for contacts, opportunities, and accounts.
+
+People.ai integration is turned off by default. When it's turned on, insights are displayed in the **Copilot for Sales** pane in Outlook. More information: [View People.ai insights (preview)](people-ai-insights.md)
 
 ### Prerequisites
 
@@ -31,7 +32,12 @@ By default, the integration is disabled. When enabled, the insights are displaye
 
 ### Turn on People.ai integration
 
-1. In Copilot for Sales admin settings, select **Extensions**.  
-1. Turn on **People.ai (preview)**.  
-1. Enter the values for API key and API Secret.  
+1. [Open Copilot for Sales administrator settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+
+1. Under **Environment**, select **Extensions**.
+
+1. Turn on **People.ai (preview)**.
+
+1. Enter the API key and API secret you generated in the People.ai administrative settings.
+
 1. Select **Save**.
