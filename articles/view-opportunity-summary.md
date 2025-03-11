@@ -22,9 +22,9 @@ An opportunity summary can include the following kinds of information:
 
 - If notes are added to the opportunity, they're summarized and displayed in the **Latest activity** section of the opportunity summary. The notes summary highlights any issues or concerns that are mentioned in the notes, making it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
 
-- If you [saved an email summary to your CRM and it's connected to the opportunity](view-save-email-summary-crm.md#save-email-summary-to-crm), it's included in the summarized notes. The notes summary highlights any issues or concerns addressed within notes. It makes it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
+- If you [saved an email summary to your CRM and it's connected to the opportunity](view-save-email-summary-crm.md#save-an-email-summary-to-your-crm), it's included in the summarized notes. The notes summary highlights any issues or concerns addressed within notes. It makes it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
 
-If the opportunity isn't connected to a meeting, the opportunity summary is based on the most relevant opportunity the AI can find. You can [select a different opportunity](#change-the-summarized-opportunity) and generate another summary if needed.
+If the opportunity isn't connected to a meeting, the opportunity summary is based on the most relevant opportunity the AI can find. You can [select a different opportunity](#change-the-opportunity-used-to-generate-summary) and generate another summary if needed.
 
 You can view the opportunity summary in the following places:
 
