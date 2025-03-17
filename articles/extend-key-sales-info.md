@@ -31,6 +31,10 @@ You must add the following API description to the action. In this way, Copilot f
 
 *This action gets additional sales insights that will be shown in C4S key sales info card in outlook sidecar. The action enhances the existing skills of copilot for sales.*
 
+## API operation
+
+This API uses Operation Type: GET
+
 ## Input parameters
 
 Copilot for Sales is designed to provide the following input parameters to your APIs.
@@ -103,8 +107,8 @@ Legend:
 ### Related information
 
 [View key sales information in Copilot for Sales](key-sales-info.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
