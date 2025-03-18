@@ -1,7 +1,7 @@
 ---
 title: Access the Microsoft 365 Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 02/03/2025
+ms.date: 03/17/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -86,9 +86,12 @@ You can access Copilot for Sales using any of the following options:
 
 ### Pin the Copilot for Sales app in Outlook
 
-To keep Copilot for Sales in view as you move through your emails and meetings, pin it so that the app pane stays open.
+To keep Copilot for Sales visible as you navigate through your emails and meetings, you can pin the app so that the app pane remains open.
 
-To pin the app, select the pushpin :::image type="icon" source="media/pin-app.png" border="false":::. To unpin it, select the pushpin :::image type="icon" source="media/unpin-app.png" border="false"::: again.
+- To pin the app, select the pushpin icon: :::image type="icon" source="media/pin-app.png" border="false":::.
+- To unpin the app, select the pushpin icon again: :::image type="icon" source="media/unpin-app.png" border="false":::.
+
+You can pin the app only in the classic Outlook or in the new Outlook when Microsoft 365 Copilot is not installed. When Microsoft 365 Copilot is installed, the app is integrated with the Microsoft 365 Copilot side pane.
 
 ## Access Copilot for Sales in Teams
 
