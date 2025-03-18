@@ -1,7 +1,7 @@
 ---
 title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Copilot for Sales in Outlook to enrich email summaries with sales information from your CRM.
-ms.date: 02/20/2025
+ms.date: 03/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -70,11 +70,11 @@ Legend:
 
     Microsoft 365 Copilot scans the email content, summarizes the key points, and displays its summary at the top of the email thread.
 
-    If Copilot for Sales detects that the email is from a contact outside your company and finds related records in your CRM, the summary includes the information from your CRM and **With Sales insights added** appears in the upper-right corner of the **Summary by Copilot** box. Otherwise, Microsoft 365 Copilot generates the summary without sales information from your CRM.
+    If Copilot for Sales detects that the email is from a contact outside your company and finds related records in your CRM, the summary includes the information from your CRM and the Copilot for Sales logo appears in the upper-left corner of the **Summary by Copilot** box. Otherwise, Microsoft 365 Copilot generates the summary without sales information from your CRM and the Microsoft 365 Copilot logo appears in the upper-left corner.
 
     :::image type="content" source="./media/email-summary-premium-license-copilot-summary-from-conversation.png" alt-text="Screenshot of a Copilot email summary in Outlook on the web.":::
 
-1. If **With Sales insights added** isn't already selected in the upper-right corner of the **Summary by Copilot** box, select **From this conversation** > **Add Sales insights**.
+1. If the email summary doesn't include CRM information, select the Copilot icon in the upper-left corner of the **Summary by Copilot** box, and then select **Add Sales insights**.
 
     Copilot for Sales searches your CRM and updates the summary with information from related contact, account, and opportunity records.
 
