@@ -1,7 +1,7 @@
 ---
 title: Enrich email summary with content suggestions from your application (preview) 
 description: Enhance email summaries in Outlook by using Copilot for Sales with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 05/29/2024
+ms.date: 03/29/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -26,9 +26,13 @@ You must add the following API description to the action. In this way, Copilot f
 
 *This action gets additional sales insights that will be shown in C4S email summary experience inside outlook summary. The action enhances the existing skills of copilot for sales.*
 
-## API operation
+## API details
 
-This API uses Operation Type: GET
+- **API name**: Email Summary Skill Version 2
+- **Swagger operation Id**: scp-get-email-insights-v2
+- **Swagger operation method**: post 
+- **Path**: `<PowerAppsConnectorHostName>/api/enhanceskills/email-insights-v2`
+
 
 ## Input payload
 
@@ -82,7 +86,8 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 | insightMarkdown | String | Yes | The insight that is delivered to users, such as *Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before.* | This  output indicates the markdown text you would like to be included in the email summary. |
 
 > [!NOTE]
-> Markdown supported is for hypertext only, another markdown will be sanitized. Enclose the link text in brackets (for example, [Document]) and then follow it immediately with the URL in parentheses (for example, (https:// /view/?id=123)).
+> - Markdown supported is for hyperlinks only, another markdown will be sanitized. You must enclose the link text in brackets (for example, [Home page]) and then follow it immediately with the URL in parentheses (for example, (https://www.contoso.com)).
+> - Hyperlinks are only supported in the email summary that is displayed in the Key email info card in side pane, and not in the integrated experience within the email body.
 
 ### Example
 
