@@ -20,6 +20,9 @@ ms.custom:
 
 When Copilot in Outlook and Copilot for Sales are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that Copilot for Sales provides with insights from your own application.
 
+> [!NOTE]
+> This API replaces the existing _Email Summary Skill_ API (Operation Id: scp-get-email-insights) with a new version. 
+
 ## API description
 
 You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
