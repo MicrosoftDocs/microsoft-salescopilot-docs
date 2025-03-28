@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales license overview
 description: Learn about licenses for Copilot for Sales, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
-ms.date: 10/16/2024
+ms.date: 03/28/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,7 +18,7 @@ Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects t
 
 ## Prerequisites
 
-- A product license for Microsoft 365 E3, E5, Business Standard, or Business Premium, or Office 365 E3 or E5, or a version of these suites that does not include Microsoft Teams, is required to purchase Copilot for Sales.
+- A product license for Microsoft 365 E3, E5, Business Standard, or Business Premium, or Office 365 E1, E3, or E5, or a version of these suites that does not include Microsoft Teams, is required to purchase Copilot for Sales.
 - A subscription to one of the following sales solutions is required to use Copilot for Sales:
 
     - Dynamics 365 Sales
