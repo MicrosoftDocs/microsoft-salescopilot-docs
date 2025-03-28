@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales - Conversation intelligence dashboard data structure
 description: Learn how to review the data structure of Microsoft 365 Copilot for Sales - conversation intelligence dashboard.
-ms.date: 02/06/2024
+ms.date: 03/28/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
