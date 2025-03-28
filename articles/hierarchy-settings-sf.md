@@ -1,7 +1,7 @@
 ---
 title: Power BI dashboard hierarchy settings for Salesforce organizations
 description: Learn how to import your org chart to Dataverse and keep it synced with Copilot for Sales administrator settings in Power BI.
-ms.date: 02/06/2024
+ms.date: 03/28/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais

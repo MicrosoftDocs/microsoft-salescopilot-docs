@@ -1,7 +1,7 @@
 ---
 title: View recent and upcoming activities
 description: Learn how to view recent and upcoming activities.
-ms.date: 02/02/2024
+ms.date: 03/28/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
