@@ -150,6 +150,10 @@ Copilot for Sales isn't available for Dynamics 365 or Microsoft Exchange on prem
 
 Copilot for Sales works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
 
+### Does Copilot for Sales support shared mailboxes?
+
+No, there are currently no plans to add shared mailbox support.
+
 ### Does Copilot for Sales work in incognito mode?
 
 When you use the Copilot for Sales app in incognito mode or you have disabled third-party cookies, the following message is displayed:
