@@ -66,7 +66,7 @@ Copilot for Sales Teams app has mixed support on Teams mobile version.
 
 The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps via **Apps** button in the bottom navigation bar.
 
-The personal app includes **Home** and **Settings** tabs. Settings are only available for CRM or system administrators. Learn more at [Microsoft 365 Copilot for Sales personal app](personal-app.md).
+The personal app includes **Home** and **Settings** tabs. The settings tab is only available to CRM or system administrators. Learn more at [Microsoft 365 Copilot for Sales personal app](personal-app.md).
 
 :::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Copilot for Sales personal app opened in Outlook mobile app.":::
 
