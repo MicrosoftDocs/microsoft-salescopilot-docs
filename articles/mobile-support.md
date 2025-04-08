@@ -17,7 +17,7 @@ ms.author: shjais
 Copilot for Sales is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Copilot for Sales aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
 
 > [!NOTE]
-> During the preview, if Copilot for Sales was deployed to your organization prior to the mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Copilot for Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Copilot for Sales](install-viva-sales.md) article.
+> During the preview, if Copilot for Sales was deployed to your organization before mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Copilot for Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Copilot for Sales](install-viva-sales.md) article.
 
 ## Outlook experience
 
@@ -40,10 +40,10 @@ All features available in the desktop version of Copilot for Sales work on mobil
 
 ### Unsupported features
 
-- Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version .
+- Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version.
 - Copilot for Sales Outlook app doesn't load with RTL languages. No workaround is currently available.
 - Selecting the **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
-- The **Saved to CRM** tag isn't displayed in Android for emails already saved to CRM. This is a known Android platform limitation that email categorization feature doesn't work.
+- The **Saved to CRM** tag isn't displayed in Android for emails already saved to CRM due to platform limitations with email categorization.
 - The **Saved to Salesforce** tag isn't displayed in iOS. When an email is saved to CRM using Copilot for Sales, two different tags are generated based on the CRM you're signed in to. The **Tracked to Dynamics 365** tag is displayed when signed in to Dynamics 365 and the **Saved to Salesforce** tag is displayed when signed in to Salesforce. Both the tags are displayed in the desktop and web versions of Outlook. However, only the **Tracked to Dynamics 365** tag is displayed in iOS. 
 - The Copilot for Sales app doesn't appear when signed in to multiple accounts in Outlook. Ensure your primary account is used with Copilot.
 
