@@ -1,6 +1,6 @@
 ---
 title: Mobile support for Copilot for Sales (preview)
-description: Copilot for Sales is supported on mobile (iOS and Android) versions of Outlook and Teams. This article outlines what is and isn't supported on mobile.
+description: Learn about the mobile support for Copilot for Sales on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
 ms.date: 01/10/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
@@ -17,11 +17,11 @@ ms.author: shjais
 Copilot for Sales is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Copilot for Sales aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
 
 > [!NOTE]
-> During the preview, if Copilot for Sales was deployed to your organization prior to the mobile support, you must redeploy the app from the Microsoft 365 admin center. In the Microsoft 365 admin center, find the existing Copilot for Sales integrated app and remove it. You can then redeploy the app by following the instructions in the [Install Copilot for Sales](install-viva-sales.md) article.
+> During the preview, if Copilot for Sales was deployed to your organization prior to the mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Copilot for Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Copilot for Sales](install-viva-sales.md) article.
 
 ## Outlook experience
 
-You can access the Copilot for Sales app only when reading emails. It's not available when composing or replying to emails. It's also not available when viewing or creating a meeting or appointment.
+You can access the Copilot for Sales app only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
 
 To open Copilot for Sales, select an email on your mobile device, and then select **...**  next to the email from and to fields. Select Copilot for Sales from the top app list or find it under **More Add-Ins**. When the app is launched, it takes over the full screen due to the smaller mobile screen.
 
@@ -40,12 +40,12 @@ All features available in the desktop version of Copilot for Sales work on mobil
 
 ### Unsupported features
 
-- Salesforce sign-in isn't supported in iOS. As a workaround, you can sign in from the desktop or web version of Outlook and then the mobile version will work.
-- Copilot for Sales Outlook app doesn't load with RTL languages. This is a known issue and no workaround is available currently.
-- When selecting the **Open in Salesforce** link, the home page opens in the browser and not the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
+- Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version .
+- Copilot for Sales Outlook app doesn't load with RTL languages. No workaround is currently available.
+- Selecting the **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
 - The **Saved to CRM** tag isn't displayed in Android for emails already saved to CRM. This is a known Android platform limitation that email categorization feature doesn't work.
 - The **Saved to Salesforce** tag isn't displayed in iOS. When an email is saved to CRM using Copilot for Sales, two different tags are generated based on the CRM you're signed in to. The **Tracked to Dynamics 365** tag is displayed when signed in to Dynamics 365 and the **Saved to Salesforce** tag is displayed when signed in to Salesforce. Both the tags are displayed in the desktop and web versions of Outlook. However, only the **Tracked to Dynamics 365** tag is displayed in iOS. 
-- The Copilot for Sales app doesn't appear when signed in to multiple accounts in Outlook. Ensure that the account you're using with Copilot for Sales app is the primary account in Outlook.
+- The Copilot for Sales app doesn't appear when signed in to multiple accounts in Outlook. Ensure your primary account is used with Copilot.
 
 ## Teams experience
 
@@ -60,17 +60,17 @@ Copilot for Sales Teams app has mixed support on Teams mobile version.
 ### Unsupported features
 
 - The Sales tab with meeting recap, mentions, and details is only available on larger screens.
-- The Sales pill within the Teams recap isn't available on Teams mobile to see post meeting information.
+- The Sales pill within the Teams recap isn't available on Teams mobile for post-meeting information.
 
 ## Shared Microsoft 365 experience
 
-The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps. You can access the app from the **Apps** button in the bottom navigation bar in Outlook and Teams mobile apps.
+The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps via **Apps** button in the bottom navigation bar.
 
-The Copilot for Sales personal app includes **Home** and **Settings** tabs. Settings are available only for CRM or system administrators. For more information about the personal app, see [Microsoft 365 Copilot for Sales personal app](personal-app.md).
+The personal app includes **Home** and **Settings** tabs. Settings are only available for CRM or system administrators. Learn more at [Microsoft 365 Copilot for Sales personal app](personal-app.md).
 
 :::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Copilot for Sales personal app opened in Outlook mobile app.":::
 
 ### Related information
 
-[Buy Microsoft 365 Copilot for Sales](buy-license.md)<br>
-[Install Copilot for Sales](install-viva-sales.md)
+- [Buy Microsoft 365 Copilot for Sales](buy-license.md)<br>
+- [Install Copilot for Sales](install-viva-sales.md)
