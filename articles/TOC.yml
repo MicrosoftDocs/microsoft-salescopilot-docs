@@ -83,6 +83,8 @@
       href: hierarchy-settings-sf.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
+    - name: Configure how AI meeting notes are saved from Teams recap to CRM
+      href: save-ai-notes-crm.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
