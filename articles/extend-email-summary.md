@@ -1,7 +1,7 @@
 ---
 title: Enrich email summary with content suggestions from your application (preview) 
 description: Enhance email summaries in Outlook by using Copilot for Sales with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 03/29/2025
+ms.date: 04/15/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -86,46 +86,42 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|------------------|----------|---------|----------------------------------|
-| insightMarkdown | String | Yes | The insight that is delivered to users, such as *Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before.* | This  output indicates the markdown text you would like to be included in the email summary. |
-
-> [!NOTE]
-> - Markdown supported is for hyperlinks only, another markdown will be sanitized. You must enclose the link text in brackets (for example, [Home page]) and then follow it immediately with the URL in parentheses (for example, (https://www.contoso.com)).
-> - Hyperlinks are only supported in the email summary that is displayed in the Key email info card in side pane, and not in the integrated experience within the email body.
+| insight | String | Yes | The insight that is delivered to users, such as *Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before.* | This  output indicates the text you would like to be included in the email summary. |
 
 ### Example
 
 ```json
-{ 
-
-    "value": [ 
-
-        { 
-
-            "insightMarkdown": "Kenny Smith is looking for information on product details, make sure to check out the [Product home page](https://www.contoso.com)." 
-
-        }, 
-
-        { 
-
-            "insightMarkdown": "[Mona Kane](mailto:monak@contoso.com), your colleague, worked with Kenny before." 
-
-        } 
-
-    ], 
-
-    "hasMoreResults": false 
-
-} 
+{
+    "value": [
+        {
+            "insight": "Your colleagues Mona Kane, Ray Tanaka and Daniela Smith have worked with them before."
+        },
+        {
+            "insight": "The email was opened three times in the last month."
+        }
+    ],
+    "hasMoreResults": false
+}
+ 
 ```
 
-The example in the following image shows how the output of the API is mapped to the email summary.
+The example in the following image shows how the output of the API is mapped to the email summary in side pane.
 
-:::image type="content" source="media/extend-email-summary.svg" alt-text="Screenshot showing insights from partner apps in the email summary.":::
+:::image type="content" source="media/extend-email-summary-sidepane.png" alt-text="Screenshot showing insights from partner apps in the email summary.":::
 
 Legend:
 
-1. Kenny Smith is looking for information on product details, make sure to check out the Product home page. 
-1. Mona Kane, your colleague, worked with Kenny before. 
+1. Title of the insight. Insights that have the same title are grouped together.
+1. Descriptions of the insight. Each insight has one description.
+
+The example in the following image shows how the output of the API is mapped to the email summary in the email body.
+
+:::image type="content" source="media/extend-email-summary-oncanvas.png" alt-text="Screenshot showing insights from partner apps in the email body.":::
+
+Legend:
+
+1. Title of the insight. Insights that have the same title are grouped together.
+1. Description of the insight. Each insight has one description.
 
 ### Related information
 
