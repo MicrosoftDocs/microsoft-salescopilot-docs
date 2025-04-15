@@ -56,7 +56,7 @@ This payload goes as the request body of the API request.
 | to  | String[]  | Receiver's email addresses.   | This input provides the receiver's email address. |
 | cc  | String[]  | Receivers' email addresses added in the Cc field of the email. | This input provides all the receiver's email addresses that are included in the Cc field of the email. |
 | bcc | String[]  | Receivers' email addresses added in the Bcc field of the email.  | This input provides all the receiver's email addresses that are added in the Bcc field of the email. |
-| sentDateTime  | DateTimeOffset | The date and time of the email in UTC format along with the Offset property. For more information, go to [DateTimeOffset Struct (System)](/dotnet/api/system.datetimeoffset?view=net-9.0) | This input provides the timestamp of the email. |
+| sentDateTime  | DateTimeOffset | The date and time of the email in UTC format along with the Offset property. For more information, go to [DateTimeOffset Struct (System)](/dotnet/api/system.datetimeoffset?view=net-9.0&preserve-view=true) | This input provides the timestamp of the email. |
 | messageId | String  | The Graph message Id of the email. | This input provides the message ID of the email. |
 | conversationId | String  | The Graph conversation Id of the email thread. | This input provides the conversation ID of the email thread. |
 
