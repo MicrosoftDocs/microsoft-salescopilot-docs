@@ -59,8 +59,8 @@ This payload goes as the request body of the API request.
 | subject   | String   | Subject of the email. | This input provides the subject of the email.   |
 | from    | String   | Sender's email address.  | This input provides the sender's email address. |
 | to  | String[]  | Receiver's email addresses.   | This input provides the receiver's email address. |
-| cc  | String[]  | Receivers' email addresses added in the Cc field of the email. | This input provides all the receiver's email addresses that are included in the Cc field of the email. |
-| bcc | String[]  | Receivers' email addresses added in the Bcc field of the email.  | This input provides all the receiver's email addresses that are added in the Bcc field of the email. |
+| cc  | String[]  | Receiver's email addresses added in the Cc field of the email. | This input provides all the receiver's email addresses that are included in the Cc field of the email. |
+| bcc | String[]  | Receiver's email addresses added in the Bcc field of the email.  | This input provides all the receiver's email addresses that are added in the Bcc field of the email. |
 | sentDateTime  | DateTimeOffset | The date and time of the email in UTC format along with the Offset property. For more information, go to DateTimeOffset Struct (System) | This input provides the timestamp of the email. |
 | messageId | String  | The Graph message Id of the email. | This input provides the message ID of the email. |
 | conversationId | String  | The Graph conversation Id of the email thread. | This input provides the conversation ID of the email thread. |
