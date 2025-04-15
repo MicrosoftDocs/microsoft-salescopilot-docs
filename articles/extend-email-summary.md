@@ -25,7 +25,7 @@ When Copilot in Outlook and Copilot for Sales are used together, email summaries
 
 ## API description
 
-You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. This helps Copilot for Sales identify the correct API to invoke for enriching the capability.
 
 *This action gets additional sales insights that will be shown in C4S email summary experience inside outlook summary. The action enhances the existing skills of copilot for sales.*
 
