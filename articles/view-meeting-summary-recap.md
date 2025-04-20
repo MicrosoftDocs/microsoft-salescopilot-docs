@@ -45,7 +45,7 @@ To view sales related insights, [open the meeting recap in Teams](https://suppor
 
 The following information is available:
 
-- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email). 
+- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email) and [Save AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm).
 - **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
 - **Questions**: See questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
 - **Participant statistics**: View a list of participants (from inside and outside your organization) and the following statistics:
