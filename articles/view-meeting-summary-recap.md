@@ -110,7 +110,7 @@ To create a post-meeting summary email:
 
 ## Save AI-generated meeting notes to CRM
 
-With intelligent recap, you can focus on the meeting discussion itself and not on capturing notes. AI-generated notes allow you to see key points and takeaways after the meeting.
+With intelligent recap, you can focus on the meeting discussion and not on capturing notes. AI-generated notes allow you to see key points and takeaways after the meeting.
 
 You can save AI-generated notes to your CRM directly from the Teams meeting recap summary page. This allows you to save the meeting notes to a specific record in your CRM, such as an opportunity or account, or to the appointment description field by default. This is useful if you want to keep a record of the meeting notes in your CRM for future reference or to share with other team members.
 
