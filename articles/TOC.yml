@@ -83,6 +83,8 @@
       href: hierarchy-settings-sf.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
+    - name: Configure auto-recording for sales meetings
+      href: auto-record-meeting.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
