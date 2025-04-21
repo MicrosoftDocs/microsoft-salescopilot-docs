@@ -6,6 +6,7 @@ ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ai-usage: ai-assisted
 ---
 
 # Configure auto-recording for sales meetings
@@ -19,7 +20,11 @@ A meeting is recorded only if it is with external contacts and the Copilot for S
 To configure auto-recording for sales meetings:
 
 1. In Copilot for Sales admin settings, select **Meeting agent**.
-2. Under Recordings, select **Auto-record sales meetings**.
+2. Under **Recordings**, select **Auto-record sales meetings**.
 3. In the **Auto-record sales meetings** pane, select **On** or **Off** to enable or disable the feature.
 4. Select **Save**.
 
+### Related information
+
+[Create a Teams meeting](create-teams-meeting.md)<br>
+[Generate a meeting summary](generate-meeting-summary.md)
