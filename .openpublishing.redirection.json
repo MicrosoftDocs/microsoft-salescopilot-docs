@@ -673,6 +673,11 @@
         "source_path": "articles/meeting-report-word.md",
         "redirect_url": "/microsoft-sales-copilot/meeting-prep",
         "redirect_document_id": false
-      }                                             
+      },
+      {
+        "source_path": "articles/hierarchy-settings-sf.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }                                              
   ]
 }
