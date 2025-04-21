@@ -90,11 +90,3 @@ View sales-related insights in Teams meeting recap. For more information, go to 
 **Prerequisites**: For a complete list of prerequisites, go to [Prerequisites](view-meeting-summary-recap.md#prerequisites).
 
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
-
-### Premeeting reports in Word
-
-In Word, generate premeeting reports that use sales insights. For more information, go to [Generate premeeting report with Copilot in Microsoft Word (preview)](meeting-report-word.md).
-
-**Prerequisites**: For a complete list of prerequisites, go to [Prerequisites](meeting-report-word.md#prerequisites).
-
-:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot showing Sales meetings select on the menu in Word.":::

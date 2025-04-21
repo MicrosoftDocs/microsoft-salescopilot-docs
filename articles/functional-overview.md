@@ -34,12 +34,6 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 - View Copilot-generated opportunity summaries and CRM record information in Outlook and Teams.
 
-### Create personalized sales content
-
-[Generate sales meeting preparation briefs in Microsoft Word](meeting-report-word.md), pulling from CRM platform and Microsoft Graph data.
-
-:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::
-
 ## Personalize customer engagements 
 
 Build stronger customer relationships with AI capabilities that help you understand customer needs and personalize engagements.
