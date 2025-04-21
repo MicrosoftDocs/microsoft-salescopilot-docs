@@ -183,11 +183,6 @@
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
 
-  - name: Capabilities in Microsoft Word
-    items:
-    - name: Generate pre-meeting report (preview)
-      href: meeting-report-word.md
-
   - name: Cross-app capabilities
     items:
     - name: Collaboration space in Copilot for Sales
