@@ -1,7 +1,7 @@
 ---
 title: Create a Teams meeting
 description: Learn how to create a Teams meeting.
-ms.date: 11/29/2024
+ms.date: 05/12/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -20,6 +20,9 @@ The Copilot for Sales app is added automatically to a Teams meeting when the fol
 - You must transcribe the meeting for Copilot for Sales to generate insights.  
 
 If you create a recurring meeting, the Copilot for Sales app is added to all occurrences of the meeting if the above conditions are met.
+
+> [!NOTE]
+> If your administrator has enabled the [auto-recording capability](auto-record-meeting.md), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
 
 ## Add the Copilot for Sales app manually to a Teams meeting
 

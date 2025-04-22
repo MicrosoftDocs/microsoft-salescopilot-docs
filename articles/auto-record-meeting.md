@@ -26,5 +26,5 @@ To configure auto-recording for sales meetings:
 
 ### Related information
 
-[Create a Teams meeting](create-teams-meeting.md)<br>
-[Generate a meeting summary](generate-meeting-summary.md)
+- [Create a Teams meeting](create-teams-meeting.md)<br>
+- [Generate a meeting summary](generate-meeting-summary.md)
