@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 02/20/2025
+ms.date: 04/15/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -45,7 +45,7 @@ To view sales related insights, [open the meeting recap in Teams](https://suppor
 
 The following information is available:
 
-- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email). 
+- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email) and [Save AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm).
 - **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
 - **Questions**: See questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
 - **Participant statistics**: View a list of participants (from inside and outside your organization) and the following statistics:
@@ -107,6 +107,24 @@ To create a post-meeting summary email:
 1. To open the email in Outlook web, select **Open in Outlook web**.
 
 1. Review and update the email content as needed, and then send it to your customers.
+
+## Save AI-generated meeting notes to CRM
+
+With intelligent recap, you can focus on the meeting discussion and not on capturing notes. AI-generated notes allow you to see key points and takeaways after the meeting.
+
+You can save AI-generated notes to your CRM directly from the Teams meeting recap summary page. This allows you to save the meeting notes to a specific record in your CRM, such as an opportunity or account, or to the appointment description field by default. This is useful if you want to keep a record of the meeting notes in your CRM for future reference or to share with other team members.
+
+> [!NOTE]
+> This feature is enabled by default, but [administrators can revoke access](save-ai-notes-crm.md).
+
+To save AI-generated meeting notes to CRM:
+
+1. [Open a meeting recap in Teams and view sales related insights](#view-sales-related-insights-in-meeting-recap).
+1. Under the **Post-meeting actions** section, select **Save to (CRM)**.
+1. In the **Save meeting notes** window, search and select the record from the **CRM record** field. If the meeting is already saved to the CRM, the search bar doesn't appear. 
+1. If required, edit the notes before saving them to CRM. 
+1. Select **Save**.
+    A confirmation message appears indicating that the meeting notes are saved to your CRM. You can view the saved meeting notes in your CRM by selecting **View saved notes**. Once notes are saved, all applicable internal participants will see the URL to the CRM record in place of the "Save to (CRM)" button.
 
 ### Related information
 
