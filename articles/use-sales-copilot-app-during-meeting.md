@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Use Copilot for Sales app during a meeting
 
-The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can view the meeting preparation card, view and edit the connected CRM record, and get real-time sales tips during the meeting. These features help you stay focused on the meeting and close deals faster.
+The Copilot for Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can also view and edit the connected CRM record.
 
 ## License requirements
 
