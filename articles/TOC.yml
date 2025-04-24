@@ -81,6 +81,8 @@
       href: use-extensions.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
+    - name: Configure the time of pre-meeting notifications
+      href: configure-pre-meeting-notif.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
@@ -166,6 +168,8 @@
         href: create-teams-meeting.md
       - name: View meeting preparation card
         href: meeting-prep.md
+      - name: View daily summary of upcoming meetings
+        href: daily-digest.md
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
       - name: Generate a meeting summary
