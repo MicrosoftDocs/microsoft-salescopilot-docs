@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 03/04/2025
+ms.date: 04/29/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -77,14 +77,17 @@ Here's the video that shows how to sign in to your CRM from Outlook:
     :::image type="content" source="media/manual-sign-in.png" alt-text="Screenshot showing sign in button.":::
 
 2. Select **Sign in to your CRM** and sign in to your CRM using one of the following options:
-
-    - **Salesforce CRM**: Select your Salesforce environment, and then select **Sign in**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
-    
+ 
     - **Dynamics 365**: You’re signed in automatically using your Office credentials. Select your Dynamics 365 environment, and then select **Get started**.
 
         Your Dynamics 365 environment matches the URL your browser shows when you sign in to Dynamics 365. For example, if the URL is `salesorg.crm.dynamics.com`, select **salesorg.crm.dynamics.com** in the list.
-        
-        :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
+    
+    - **Salesforce CRM**: Select your Salesforce environment, and then select **Sign in**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
+
+        > [!NOTE]
+        > If you're using Outlook on the web to sign in to Salesforce, you must enable popups in your browser to connect to your Salesforce environment. If you don't enable popups, an error message is displayed.
+
+    :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
     Once you're signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
 
