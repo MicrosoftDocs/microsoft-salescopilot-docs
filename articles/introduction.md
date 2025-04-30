@@ -55,7 +55,7 @@ If you're using Salesforce as your CRM system, see [Permissions required for Sal
 
 ## Region availability
 
-Copilot for Sales is available globally except in the following countries:
+Copilot for Sales is available globally except in the following countries/regions:
 
 - Myanmar
 - Cabo Verde
