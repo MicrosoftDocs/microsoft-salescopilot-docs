@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Welcome to Microsoft 365 Copilot for Sales
 
-Copilot for Sales is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook, Microsoft Teams, and Microsoft Word.  
+Copilot for Sales is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.  
 Depending on the following roles, you can use Copilot for Sales to:  
 
 - As a **seller**, you can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps.  
@@ -22,8 +22,7 @@ Here's how you can use Copilot for sales to improve your sales productivity:
 
 - Customize by integrating with **Microsoft Dynamics 365 Sales**, **Salesforce Sales Cloud**, and other sales solutions to get insights and recommendations tailored to your business needs.  
 - Participate in Teams meetings and access meeting recordings through **Microsoft Teams**. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings.  
-- Access calendar events, contacts, and read and write emails through **Microsoft Outlook**. It provides email assistance, insights, and recommendations to help you close deals faster.  
-- Read and write documents to prepare sales meeting briefs through **Microsoft Word**. It provides insights and recommendations to help you create personalized sales content.
+- Access calendar events, contacts, and read and write emails through **Microsoft Outlook**. It provides email assistance, insights, and recommendations to help you close deals faster. 
 
 Here's a video that gives you a quick overview of Copilot for Sales.
 
