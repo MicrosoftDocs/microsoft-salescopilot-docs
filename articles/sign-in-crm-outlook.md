@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 04/29/2025
+ms.date: 04/30/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -85,7 +85,7 @@ Here's the video that shows how to sign in to your CRM from Outlook:
     - **Salesforce CRM**: Select your Salesforce environment, and then select **Sign in**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
 
         > [!NOTE]
-        > If you're using Outlook on the web to sign in to Salesforce, you must enable popups in your browser to connect to your Salesforce environment. If you don't enable popups, an error message is displayed.
+        > If you're using Outlook or Teams on the web to sign in to Salesforce, you must enable popups in your browser to connect to your Salesforce environment. If you don't enable popups, an error message is displayed.
 
     :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
