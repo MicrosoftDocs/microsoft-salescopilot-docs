@@ -1,7 +1,7 @@
 ---
 title: Advanced collaboration with AI-powered Planner tasks
 description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in Copilot for Sales.
-ms.date: 09/27/2024
+ms.date: 04/30/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

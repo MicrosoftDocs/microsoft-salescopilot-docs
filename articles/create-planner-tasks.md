@@ -1,7 +1,7 @@
 ---
 title: Create Planner tasks from suggested tasks
 description: Learn how to create Planner tasks from suggested tasks in collaboration spaces in Microsoft Teams.
-ms.date: 09/27/2024
+ms.date: 04/30/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
