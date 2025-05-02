@@ -1,7 +1,7 @@
 ---
 title: Mobile support for Copilot for Sales (preview)
 description: Learn about the mobile support for Copilot for Sales on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
-ms.date: 04/10/2025
+ms.date: 02/05/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -41,7 +41,6 @@ All features available in the desktop version of Copilot for Sales work on mobil
 ### Unsupported features
 
 - Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version.
-- Copilot for Sales Outlook app doesn't load with RTL languages. No workaround is currently available.
 - Selecting the **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
 - The **Saved to CRM** tag isn't displayed in Android for emails already saved to CRM due to platform limitations with email categorization.
 - The **Saved to Salesforce** tag isn't displayed in iOS. When an email is saved to CRM using Copilot for Sales, two different tags are generated based on the CRM you're signed in to. The **Tracked to Dynamics 365** tag is displayed when signed in to Dynamics 365 and the **Saved to Salesforce** tag is displayed when signed in to Salesforce. Both the tags are displayed in the desktop and web versions of Outlook. However, only the **Tracked to Dynamics 365** tag is displayed in iOS. 
@@ -66,7 +65,7 @@ Copilot for Sales Teams app has mixed support on Teams mobile version.
 
 The Copilot for Sales personal app can be accessed from both Outlook and Teams mobile apps via **Apps** button in the bottom navigation bar.
 
-The personal app includes **Home** and **Settings** tabs. The settings tab is only available to CRM or system administrators. Learn more at [Microsoft 365 Copilot for Sales personal app](personal-app.md).
+The personal app includes **Home** and **Settings** tabs. The **Settings** tab is only available to CRM or system administrators. Learn more at [Microsoft 365 Copilot for Sales personal app](personal-app.md).
 
 :::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Copilot for Sales personal app opened in Outlook mobile app.":::
 
