@@ -646,28 +646,38 @@
       },
       {
         "source_path": "articles/configure-pbi-dashboard.md",
-        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_url": "/microsoft-sales-copilot/adoption-report",
         "redirect_document_id": false
       },
       {
         "source_path": "articles/data-struct-pbi-report.md",
-        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_url": "/microsoft-sales-copilot/adoption-report",
         "redirect_document_id": false
       },
       {
         "source_path": "articles/dataverse-tables-pbi-report.md",
-        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_url": "/microsoft-sales-copilot/adoption-report",
         "redirect_document_id": false
       },
       {
         "source_path": "articles/analyze-sellers-conv-data-pbi.md",
-        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_url": "/microsoft-sales-copilot/adoption-report",
         "redirect_document_id": false
       },
       {
         "source_path": "articles/view-understand-pbi-report.md",
+        "redirect_url": "/microsoft-sales-copilot/adoption-report",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/meeting-report-word.md",
+        "redirect_url": "/microsoft-sales-copilot/meeting-prep",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/hierarchy-settings-sf.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                           
+      }                                              
   ]
 }

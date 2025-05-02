@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales personal app
 description: Learn about the Copilot for Sales personal app and how to share feedback from the app.
-ms.date: 01/10/2025
+ms.date: 04/30/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -37,6 +37,9 @@ If you're connected to Dynamics 365 and you select the environment name, it show
 :::image type="content" source="media/single-env-teams.png" alt-text="Screenshot showing connected to a single environment.":::
 
 If you're connected to Salesforce and you select the environment name, it shows the environment type (Production/Sandbox) and URL for the environment. In the dropdown, it only shows the **Disconnect** option.
+
+> [!NOTE]
+> If you're using Outlook or Teams on the web to sign in to Salesforce, you must enable popups in your browser to connect to your Salesforce environment. If you don't enable popups, an error message is displayed.
 
 ### Share feedback from personal app
 

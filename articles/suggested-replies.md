@@ -57,22 +57,12 @@ As a CRM administrator, you can control who can use AI capabilities in Copilot f
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
 1. Under **Environment**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
-1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.  
-1. To turn on real-time sales tips feature, select **Show tips about competitors and brands**.  
+1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**. 
 1. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.  
     Preview features allow sellers to benefit from new features before they're generally available. Preview features are turned off by default.  
 1. Select **Save**.  
 
     :::image type="content" source="media/viva-sales-crm-admin.png" alt-text="Screenshot of Copilot for Sales settings for an environment.":::
-
-The following Copilot AI features are generally available:
-
-- **Generate suggested email content**: Offers content that's generated using context from Outlook and your CRM, making it easy for sellers to compose or reply to emails quickly and confidently.  
-    *The AI-generated content is just a suggestion.* It's the seller's responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending the message.  
-    Ensure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality of the suggested content feature. [Learn how to update the Copilot for Sales app](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).  
-- **View and save email summary**: Allows sellers to view a summary of recent emails and save it to the CRM system.  
-- **View opportunity summary**: Allows sellers to view a summary of recent notes added to an opportunity.  
-- **Summarize sales meeting**: Offers an automated recap of a recently recorded Teams meeting with sales contacts that sellers can easily insert in an email.
 
 ## Data access and use
 

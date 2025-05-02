@@ -1,7 +1,7 @@
 ---
 title: Create a custom connector and connector action (preview)
 description: Learn how to build a custom connector for Microsoft Power Platform and create an action in Microsoft Copilot Studio to enhance Copilot for Sales.
-ms.date: 09/18/2024
+ms.date: 04/18/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -49,7 +49,7 @@ Actions determine what operations are performed with the custom insights and dat
 Before Copilot for Sales users can access a connector action that is published in Copilot Studio, a Copilot for Sales administrator must enable it. If you want to enable a connector action for your copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
 
 > [!NOTE]
-> - Actions enabled by your administrator could take upto four hours to be ingested in Copilot for Sales experiences.
+> - Actions enabled by your administrator could take upto 12 hours to be ingested in Copilot for Sales experiences.
 > - When you enable a connector action for Copilot for Sales, Copilot for Sales users in Microsoft 365 and Teams applications might be able to send and receive data from external sources by using Copilot for Sales, even if the same connector action was disallowed for direct use with Microsoft 365. Before you enable a connector action, we recommend that you ensure that it complies with your organization's policies.
 > - The data and insights that connector actions bring to Copilot for Sales experiences are powered by third parties. They might be subject to third-party terms and conditions and/or privacy policies. We recommend that you validate these connector actions for compliance with your organization's policies.
 
