@@ -41,7 +41,7 @@ All features available in the desktop version of Copilot for Sales work on mobil
 ### Unsupported features
 
 - Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version.
-- Selecting the **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
+- Selecting **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
 - The **Saved to CRM** tag isn't displayed in Android for emails already saved to CRM due to platform limitations with email categorization.
 - The **Saved to Salesforce** tag isn't displayed in iOS. When an email is saved to CRM using Copilot for Sales, two different tags are generated based on the CRM you're signed in to. The **Tracked to Dynamics 365** tag is displayed when signed in to Dynamics 365 and the **Saved to Salesforce** tag is displayed when signed in to Salesforce. Both the tags are displayed in the desktop and web versions of Outlook. However, only the **Tracked to Dynamics 365** tag is displayed in iOS. 
 - The Copilot for Sales app doesn't appear when signed in to multiple accounts in Outlook. Ensure your primary account is used with Copilot.
