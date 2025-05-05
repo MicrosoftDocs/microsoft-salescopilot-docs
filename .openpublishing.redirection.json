@@ -678,6 +678,11 @@
         "source_path": "articles/hierarchy-settings-sf.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                              
+      },
+      {
+        "source_path": "articles/view-understand-meeting-summary.md",
+        "redirect_url": "/microsoft-sales-copilot/view-meeting-summary-recap",
+        "redirect_document_id": false
+      }                                                 
   ]
 }

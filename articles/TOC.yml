@@ -173,11 +173,8 @@
       - name: Generate a meeting summary
         href: generate-meeting-summary.md
       - name: View meeting summary
-        items:
-        - name: View meeting summary using Copilot for Sales license
-          href: view-meeting-summary-recap.md
-        - name: View meeting summary using Sales Copilot license
-          href: view-understand-meeting-summary.md
+        href: view-meeting-summary-recap.md
+
     - name: CRM actions
       items:
       - name: View and update CRM record details

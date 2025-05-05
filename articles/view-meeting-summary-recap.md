@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 04/28/2025
+ms.date: 05/12/2025
 ms.topic: article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,13 +19,6 @@ Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 3
 Here's the video that shows a [meeting preparation card in Teams](meeting-prep.md) and how to view sales insights using Teams meeting recap:
 
 > [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
-
-## License requirements
-
-- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
-
-> [!NOTE]
-> If you have existing Sales Copilot license, go to [View and understand the meeting summary](view-understand-meeting-summary.md).
 
 ## Prerequisites
 
@@ -45,14 +38,9 @@ To view sales related insights, [open the meeting recap in Teams](https://suppor
 
 The following information is available:
 
-- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email) and [saving AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm).
+- **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email) and [saving AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm). This section is not available if you are viewing the meeting recap using the older Sales Copilot license.
 - **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
 - **Questions**: See questions that were asked during the meeting. It helps you to identify if your sellers are asking the right questions to understand customer needs. Questions are grouped by the person who asked them. When you select a question, the video jumps to the point in the conversation where the question was asked.
-- **Participant statistics**: View a list of participants (from inside and outside your organization) and the following statistics:
-    - **Talk to listen ratio**: See the average ratio of talk time to listen time. It helps you to identify if your sellers are talking too much or too little during customer calls. It also helps you to identify if your sellers are listening to customers and understanding their needs.
-    - **Switches per conversation**: View the average number of switches between a sales rep and a customer in a conversation, meaning the number of times the conversation switched from one person to another. It helps you to identify if your sellers are engaging with customers during conversations.
-    - **Avg. pause**: View the average pause time before a sales rep speaks during a conversation. It helps you to identify if your sellers are interrupting their customers before they finish talking or do they have enough patience.
-    - **Longest monologue**: View the longest time a customer spoke during a conversation. It helps you to identify if your sellers are giving enough time to customers to speak and express their needs.
 - **Keywords mentioned**: View keywords that were mentioned during the meeting. Keywords are grouped as per the following categories:
     - **Brands**: Names of brands that were mentioned during the meeting.
     - **Times**: Time mentioned during the meeting.
@@ -60,6 +48,9 @@ The following information is available:
     - **Others**: Other keywords mentioned during the meeting.
     
     If you track keywords and competitors in your CRM, they also appear in this section.
+- **Key highlights**: View topics discussed during the meeting, including time stamps for each topic and speaker names. The summary is generated using AI and is based on the meeting recording and transcript. It helps you to quickly understand the main topics discussed during the meeting. This section is available only if you are viewing the meeting recap using the older Sales Copilot license.
+- **Overall meeting sentiment**: View the overall sentiment of the meeting, which is calculated based on the tone of the conversation. The sentiment is categorized as positive, negative, or neutral. It also shows the trend of the sentiment over time, which helps you to understand how speakers felt during each phase of the meeting.
+- **Speaker-level insights**: View insights for each speaker, including their talk time, sentiment distribution, and summary. This helps you to understand how each speaker contributed to the meeting and how they felt during the conversation.
 
 > [!NOTE]
 > If you start and stop a meeting recording multiple times, sales insights aren't generated.

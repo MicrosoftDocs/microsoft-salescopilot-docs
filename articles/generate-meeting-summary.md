@@ -36,5 +36,4 @@ Only you and any other sellers you invited to the meeting can view the meeting s
 
 ### Related information
 
-[View and understand the meeting summary](view-understand-meeting-summary.md)<br>
 [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)
