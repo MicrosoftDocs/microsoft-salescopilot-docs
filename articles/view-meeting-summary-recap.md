@@ -2,7 +2,7 @@
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
 ms.date: 04/28/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

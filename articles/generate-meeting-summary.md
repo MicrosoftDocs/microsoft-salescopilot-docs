@@ -2,7 +2,7 @@
 title: Generate a meeting summary
 description: Learn how to generate a meeting summary.
 ms.date: 11/29/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

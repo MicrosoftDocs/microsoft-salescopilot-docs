@@ -2,7 +2,7 @@
 title: Customize forms and fields
 description: Learn how to customize the CRM information your sellers see in Copilot for Sales.
 ms.date: 02/24/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
