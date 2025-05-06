@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft 365 Copilot for Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 12/04/2024
+ms.date: 05/12/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -58,6 +58,7 @@ As a CRM administrator, you can control who can use AI capabilities in Copilot f
 1. Under **Environment**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**. 
+1. To turn off generating and showing AI-generated sentiment analysis and participant statistics in [meeting recap](view-meeting-summary-recap.md), clear the **Store and show meeting and email AI-generated sentiment analysis and meeting participant statistics** checkbox.
 1. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.  
     Preview features allow sellers to benefit from new features before they're generally available. Preview features are turned off by default.  
 1. Select **Save**.  
