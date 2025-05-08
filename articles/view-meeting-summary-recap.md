@@ -126,6 +126,12 @@ To save AI-generated meeting notes to CRM:
 1. Select **Save**.
     A confirmation message appears indicating that the meeting notes are saved to your CRM. You can view the saved meeting notes in your CRM by selecting **View saved notes**. Once notes are saved, all applicable internal participants will see the URL to the CRM record in place of the "Save to (CRM)" button.
 
+If you dont see the button to save AI notes, please verify the following: 
+1. The meeting does not have multiple recordings.
+2. The meeting is not apart of a series.
+3. You are signed into your CRM.
+4. You have a Copilot for Sales premium license.
+5. The meeting transcript is sufficiently long to generate meeting notes.
 ### Related information
 
 - [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef)<br>
