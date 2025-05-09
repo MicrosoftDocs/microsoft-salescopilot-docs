@@ -2,7 +2,7 @@
 title: Microsoft 365 Copilot for Sales personal app
 description: Learn about the Copilot for Sales personal app and how to share feedback from the app.
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
