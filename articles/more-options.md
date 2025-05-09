@@ -2,7 +2,7 @@
 title: Access more options in Copilot For Sales
 description: Explore Copilot for Sales options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
