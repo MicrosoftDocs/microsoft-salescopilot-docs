@@ -16,7 +16,7 @@ When Copilot for Sales is added to a Teams meeting, it generates a meeting summa
 
 1. [Start the recording and transcription](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).
 
-    If your administrator has enabled the [auto recording capability](auto-record-meeting.md), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
+    If your administrator has enabled the [auto recording capability](configure-meeting-agent.md#enable-or-disable-auto-recording-for-sales-meetings), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
 
 When you start recording the meeting, [live transcription](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) also starts if your Teams admin has [allowed transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription). If the recording starts but transcription doesn't, ask your admin to turn on recording transcription.
 

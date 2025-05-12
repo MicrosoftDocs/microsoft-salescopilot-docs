@@ -24,7 +24,9 @@ Here's the video that shows a meeting preparation card in Teams and [how to view
 
 ## View a meeting preparation card
 
-The meeting preparation card appears in your personal chat with the **Copilot for Sales** bot 45 to 75 minutes before the meeting starts. If you schedule the meeting less than an hour before the start time, the card appears when you send the meeting invite. This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity.
+The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot in Teams. The meeting preparation card is sent at a time that is [configured by your administrator](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications). By default, the meeting preparation card is sent one hour before the meeting. If you schedule the meeting less than an hour before the start time, the card appears when you send the meeting invite. 
+
+This card helps you prepare for the meeting and get context about the attendees and the connected record. The content of the card is based on the connected opportunity.
 
 > [!NOTE]
 > - If the meeting isn't connected to an opportunity, the card shows general meeting information, meeting participants, and recent communication.

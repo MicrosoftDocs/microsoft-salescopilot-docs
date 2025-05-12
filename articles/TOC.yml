@@ -81,8 +81,8 @@
       href: use-extensions.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
-    - name: Enable or disable auto recording for sales meetings
-      href: auto-record-meeting.md
+    - name: Configure recordings and notifications for sales meetings
+      href: configure-meeting-agent.md
     - name: Configure how AI meeting notes are saved from Teams recap to CRM
       href: save-ai-notes-crm.md
   - name: Turn off actionable banners in Microsoft 365 apps

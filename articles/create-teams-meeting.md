@@ -22,7 +22,7 @@ The Copilot for Sales app is added automatically to a Teams meeting when the fol
 If you create a recurring meeting, the Copilot for Sales app is added to all occurrences of the meeting if the above conditions are met.
 
 > [!NOTE]
-> If your administrator has enabled the [auto recording capability](auto-record-meeting.md), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
+> If your administrator has enabled the [auto recording capability](configure-meeting-agent.md#enable-or-disable-auto-recording-for-sales-meetings), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
 
 ## Add the Copilot for Sales app manually to a Teams meeting
 
