@@ -13,9 +13,9 @@ ai-usage: ai-assisted
 
 Agents such as Sales Agent need to connect to a data source in order to collect data. This is done by setting up a server-to-server connection to the data source. This connection allows the agent to run in the background and access and retrieve data from the data source without requiring user interaction.
 
-If you are using Dynamics 365 Sales as your CRM, the agent connects directly to it, as it is deployed in the same environment. No additional setup steps are needed.
+If you're using Dynamics 365 Sales as your CRM, the agent connects directly to it, as it is deployed in the same environment. No extra setup steps are needed.
 
-If you are using other CRMs, such as Salesforce, the agent needs to connect to it in order to collect data. This is done by setting up a server-to-server connection.
+If you're using other CRM systems, such as Salesforce, the agent needs to connect to it in order to collect data. This is done by setting up a server-to-server connection.
 
 ## Set up server-to-server connection to Salesforce
 
@@ -30,16 +30,16 @@ When you set up a server-to-server connection to Salesforce, a connected app and
 
 The connection might take a few minutes to get established. Once the connection is established, connected app and integration user details are displayed under **Connection details**.
 
-If in the future you want to disable the server-to-server connection to Salesforce, you can do so by turning off the **Turn on access** toggle. This will delete the connected app and integration user from Salesforce. The agent will no longer be able to access data in Salesforce, and you will need to set up the connection again if you want to use the agent with Salesforce.
+If in the future you want to disable the server-to-server connection to Salesforce, you can do so by turning off the **Turn on access** toggle. This deletes the connected app and integration user from Salesforce. The agent will no longer be able to access data in Salesforce, and you need to set up the connection again if you want to use the agent with Salesforce.
 
 ### How is the connection established?
 
 When a connection is established, following components are created in Salesforce using the Salesforce APIs. The components can be viewed in Salesforce CRM on the **Setup** page.
 
-- **Connected app**: This is used to authenticate the agent with Salesforce. The name of the connected app is `Copilot for Sales connected app`. 
-- **Integration user**: This is used to access data in Salesforce. The name of the integration user is `Copilot for Sales integration user`.
-- **Permission set**: This is used to grant the integration user access to the data needed by the agent. The name of the permission set is `Copilot for Sales permission set`.
+- **Connected app**: Used to authenticate the agent with Salesforce. The name of the connected app is `Copilot for Sales connected app`. 
+- **Integration user**: Used to access data in Salesforce. The name of the integration user is `Copilot for Sales integration user`.
+- **Permission set**: Used to grant the integration user access to the data needed by the agent. The name of the permission set is `Copilot for Sales permission set`.
 
-The minimum privilege principle is followed to ensure that the integration user has only the permissions needed to access the data required by the agent. If the agent is reconfigured to access additional custom fields in the CRM, the connection must be recreated to access them correctly. An error message is shown in that case, and an option to recreate the connection is made available.
+The minimum privilege principle is followed to ensure that the integration user has only the permissions needed to access the data required by the agent. If the agent is reconfigured to access more custom fields in the CRM, the connection must be recreated to access them correctly. An error message is shown in that case, and an option to recreate the connection is made available.
 
-If an error occurs that prevents the connection from working properly, an error message is shown. Select **Reconnect** to recreate the connection. This will delete the existing connection and create a new one. 
+If an error occurs that prevents the connection from working properly, an error message is shown. Select **Reconnect** to recreate the connection. This action deletes the existing connection and creates a new one. 
