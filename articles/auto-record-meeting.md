@@ -1,6 +1,6 @@
 ---
-title: Configure autorecording for sales meetings
-description: Learn how to enable or disable the autorecording feature for all sales meetings in your organization.
+title: Enable or disable auto recording for sales meetings
+description: Learn how to enable or disable the auto recording feature for all sales meetings in your organization.
 ms.date: 05/12/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -9,15 +9,16 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Configure autorecording for sales meetings
+# Configure auto recording for sales meetings
 
-As an administrator, you can enable or disable the autorecording feature for all sales meetings in your organization. By default, the feature is enabled.
+As an administrator, you can enable or disable the auto recording feature for all sales meetings in your organization. It ensures that all meetings with external contacts are automatically recorded, so you don't have to remember to start the recording manually. By default, the feature is enabled.
 
-The autorecording feature is useful for ensuring that important discussions and decisions are captured without having to remember to start the recording manually. This is useful for sales teams who need to keep track of customer interactions and follow up on action items discussed during meetings.
+A meeting is recorded only if it is with external contacts and the Copilot for Sales app is added to the meeting automatically before the meeting. 
 
-A meeting is recorded only if it is with external contacts and the Copilot for Sales app is added to the meeting automatically before the meeting. If a meeting is marked as private, it isn't recorded. 
+> [!NOTE]
+> If a meeting is marked as private, it isn't recorded. 
 
-To configure autorecording for sales meetings:
+To configure auto recording for sales meetings:
 
 1. In Copilot for Sales admin settings, select **Meeting agent**.
 2. Under **Recordings**, select **Auto-record sales meetings**.
