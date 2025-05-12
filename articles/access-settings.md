@@ -18,7 +18,7 @@ ms.custom:
 As an administrator, you can control how AI-generated meeting insights are stored in Copilot for Sales. This feature provides governance options to address storage costs and data management concerns. With these settings, you can enable or disable the storage of meeting insights in Dataverse, ensuring better control over organizational data.
 
 > [!NOTE]
-> If a meeting is marked as Private, the meeting insights will not be stored in Dataverse, regardless of the settings you choose. This ensures that sensitive information remains confidential and is not accessible to others in the organization.
+> If a meeting is marked as Private, the meeting insights won't be stored in Dataverse, regardless of the settings you choose. This ensures that sensitive information remains confidential and isn't accessible to others in the organization.
 
 ## Prerequisites
 
