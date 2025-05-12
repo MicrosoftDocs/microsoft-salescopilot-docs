@@ -2,7 +2,7 @@
 title: Enable Copilot for Sales licenses
 description: Learn how to enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
 ms.date: 11/29/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

@@ -2,7 +2,7 @@
 title: Use Copilot for Sales app during a meeting
 description: Learn how to use the Copilot for Sales app during a meeting.
 ms.date: 01/24/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
