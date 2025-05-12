@@ -2,7 +2,7 @@
 title: Supported languages in Copilot for Sales for Outlook and Teams
 description: Lean which languages are supported in Copilot for Sales
 ms.date: 04/30/2025
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

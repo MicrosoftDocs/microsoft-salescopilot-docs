@@ -2,7 +2,7 @@
 title: View an opportunity summary
 description: Learn how to view an AI-powered opportunity summary in Microsoft Copilot for Sales to help you interact more productively with customers and boost sales.
 ms.date: 03/10/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

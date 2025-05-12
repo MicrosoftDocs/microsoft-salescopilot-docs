@@ -4,7 +4,7 @@ description: This FAQ provides information about the AI technology used in the g
 ms.date: 12/09/2024
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
