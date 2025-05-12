@@ -2,7 +2,7 @@
 title: Install and pin Microsoft 365 Copilot for Sales in Teams
 description: Learn how to install and pin Copilot for Sales in Teams
 ms.date: 11/29/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

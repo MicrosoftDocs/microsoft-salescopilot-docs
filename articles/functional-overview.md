@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales functional overview
 description: Maximize seller productivity with Copilot for Sales, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 10/16/2024
+ms.date: 04/30/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -34,12 +34,6 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 - View Copilot-generated opportunity summaries and CRM record information in Outlook and Teams.
 
-### Create personalized sales content
-
-[Generate sales meeting preparation briefs in Microsoft Word](meeting-report-word.md), pulling from CRM platform and Microsoft Graph data.
-
-:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::
-
 ## Personalize customer engagements 
 
 Build stronger customer relationships with AI capabilities that help you understand customer needs and personalize engagements.
@@ -54,11 +48,11 @@ Get real-time call insights in Teams such as summaries of past meeting notes, CR
 
 - [View AI-generated email summaries](email-summary-premium.md) in Outlook with CRM insights and BANT (Budget, Authority, Need, Timing) sales assessment.
 
-    :::image type="content" source="media/outlook-email-summary.svg" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
+    :::image type="content" source="media/email-summary-premium-license-copilot-summary-sales-insights.png" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
 
 - [Generate email drafts](email-reply-premium.md) in Outlook with relevant product and opportunity information, pulling from CRM platform and Microsoft Graph data.
 
-    :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
+    :::image type="content" source="media/email-draft-premium-license.png" alt-text="Screenshot showing email reply option in Outlook.":::
 
 - [View AI-generated meeting summaries](view-meeting-summary-recap.md) including keyword and conversation analysis, competitor mentions, KPIs, and suggested tasks. Create tasks in your CRM. 
 

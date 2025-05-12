@@ -2,7 +2,7 @@
 title: Copilot for Sales features for Dynamics 365 Sales users
 description: Discover the limited functionalities available for Dynamics 365 Sales users in Copilot for Sales.
 ms.date: 01/24/2025
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -57,8 +57,7 @@ Core value is included for Dynamics 365 users to see Copilot for Sales in action
 |[Work with collaboration spaces](collaboration-space.md)  | Generate or link a customer record and opportunity to a Teams channel and group. <br>See a single access point for collaboration and access to common attachment files. Planner tasks are suggested with the help of AI.    | Copilot for Sales side pane in Outlook and Teams channel        |
 |[Work with adaptive cards](share-crm-record-teams-conversation.md#paste-a-link-to-a-crm-record)    | Create and share a dynamic link of a specific record in Dynamics 365 with another individual or group.    | Teams chat and channel        |
 |[Use Copilot for Sales during a Teams meeting](use-sales-copilot-app-during-meeting.md)   | See the connected CRM record during a meeting. |Copilot for Sales panel in Teams meetings    |
-|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> This experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting        |
-|[View conversation intelligence dashboard](analyze-sellers-conv-data-pbi.md)     | Access a summary of calls to spot trends and compare sales team members.   | Power BI template        |
+|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> This experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting     |
 
 :::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing conversation intellignce in Teams meeting summary.":::
 
@@ -73,7 +72,6 @@ Dynamics 365 Sales users who purchase Copilot for Sales can access the full set 
 |Enriched data summaries   | CRM and Microsoft 365 Office Graph summarization uses combined data sources out of the box. Highlights and data points are optimized for salespeople and surfaced in a unified view in [Teams meeting recap](view-meeting-summary-recap.md) and Outlook.        |
 |Recent communication     |  Stay on top of your customer interactions with [quick views of recent email threads and Teams meeting summaries](recent-communications.md).       |
 |Key sales info     | [Get a comprehensive overview of relevant sales data directly within Outlook.](key-sales-info.md)   |
-|Meeting preparation with Microsoft Word  | Leverage Copilot in Microsoft Word with CRM data integration to create a [meeting preparation document](meeting-report-word.md). This document pulls key sales insights, ensuring you're well-prepared for customer interactions by providing an opportunity summary and sales stakeholder insights in one clear format.        |
 |Core foundation with Microsoft 365 Copilot      |  Copilot for Sales includes Microsoft 365 Copilot and Teams meeting recap. Microsoft 365 Copilot brings AI capabilities across the Microsoft 365 suite. Copilot for Sales brings the role-based insights and CRM integration embedded as one product offering.  |
 | Copilot for Sales powered by GPT-4    | Copilot for Sales utilizes GPT-4 to provide the best quality responses and insight.  |
 | Extend with Copilot Studio   | Full access to Copilot Studio to allow for [extensions and further customizations](extend-copilot-for-sales.md).   |

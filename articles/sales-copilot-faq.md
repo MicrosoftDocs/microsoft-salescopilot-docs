@@ -2,7 +2,7 @@
 title: Microsoft 365 Copilot for Sales FAQ
 description: Copilot for Sales Frequently Asked Questions
 ms.date: 03/04/2025
-ms.topic: article
+ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -19,7 +19,7 @@ We've compiled a list of frequently asked questions and provided brief answers t
 
 Copilot for Sales brings together the power of Microsoft 365 Copilot with seller workflows. Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
-Some of the new innovations enabled in Copilot for Sales include a newly integrated experience with Microsoft Word and Microsoft Teams.  Sellers can prompt Copilot to create a meeting preparation brief in Microsoft Word, automatically populated with customer information such as an account and opportunity summary, names and titles of meeting participants, open tasks, highlights from recent meetings and email threads, and more. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
+Some of the new innovations enabled in Copilot for Sales include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
 
 Copilot for Sales includes the Microsoft 365 Copilot subscription and is available from February 1, 2024. [See our pricing page for more information](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
 
@@ -55,7 +55,7 @@ Future innovation in Copilot across the Microsoft 365 apps will require purchase
 
 ### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who purchased that standalone subscription?  
 
-Copilot for Sales subscription replaces the Microsoft Sales Copilot subscription. The capabilities in Sales Copilot will continue to be available and further enhanced with the power of Microsoft 365 Copilot, under the new Copilot for Sales subscription. The integration with Word and enhanced integration with Teams are just some examples of the innovations to come.
+Copilot for Sales subscription replaces the Microsoft Sales Copilot subscription. The capabilities in Sales Copilot will continue to be available and further enhanced with the power of Microsoft 365 Copilot, under the new Copilot for Sales subscription.
 
 We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality during their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
 

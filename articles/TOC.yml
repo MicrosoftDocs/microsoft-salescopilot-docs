@@ -79,12 +79,12 @@
       href: copilot-data-movement.md
     - name: Integrate with other applications (preview)
       href: use-extensions.md
-    - name: Hierarchy settings for Salesforce orgs (preview)
-      href: hierarchy-settings-sf.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
     - name: Configure auto-recording for sales meetings
       href: auto-record-meeting.md
+    - name: Configure how AI meeting notes are saved from Teams recap to CRM
+      href: save-ai-notes-crm.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
@@ -184,11 +184,6 @@
       items:
       - name: View and update CRM record details
         href: view-update-crm-record-details.md
-
-  - name: Capabilities in Microsoft Word
-    items:
-    - name: Generate pre-meeting report (preview)
-      href: meeting-report-word.md
 
   - name: Cross-app capabilities
     items:
@@ -334,8 +329,6 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
-  - name: FAQ for real-time tips
-    href: faqs-real-time-tips.md
   - name: FAQ for key sales info
     href: faqs-key-sales-info.md
   - name: FAQ for meeting summary

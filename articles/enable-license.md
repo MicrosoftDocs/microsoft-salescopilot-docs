@@ -2,7 +2,7 @@
 title: Enable Copilot for Sales licenses
 description: Learn how to enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
 ms.date: 11/29/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # Enable Copilot for Sales licenses
 
-The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.  
+The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook and Teams.  
 To enable Copilot for Sales licenses, you must complete these steps:
 
 1. Assign a Copilot for Sales license to each user.
@@ -90,11 +90,3 @@ View sales-related insights in Teams meeting recap. For more information, go to 
 **Prerequisites**: For a complete list of prerequisites, go to [Prerequisites](view-meeting-summary-recap.md#prerequisites).
 
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
-
-### Premeeting reports in Word
-
-In Word, generate premeeting reports that use sales insights. For more information, go to [Generate premeeting report with Copilot in Microsoft Word (preview)](meeting-report-word.md).
-
-**Prerequisites**: For a complete list of prerequisites, go to [Prerequisites](meeting-report-word.md#prerequisites).
-
-:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot showing Sales meetings select on the menu in Word.":::
