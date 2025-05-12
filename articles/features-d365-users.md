@@ -2,7 +2,7 @@
 title: Copilot for Sales features for Dynamics 365 Sales users
 description: Discover the limited functionalities available for Dynamics 365 Sales users in Copilot for Sales.
 ms.date: 01/24/2025
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

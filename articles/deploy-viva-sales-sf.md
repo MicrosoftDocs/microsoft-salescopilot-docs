@@ -2,7 +2,7 @@
 title: Microsoft 365 Copilot for Sales deployment guide for Salesforce CRM customers
 description: Learn how to deploy Microsoft 365 Copilot for Sales for Salesforce CRM customers.
 ms.date: 03/04/2025
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

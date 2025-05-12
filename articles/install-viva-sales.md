@@ -2,7 +2,7 @@
 title: Install Microsoft 365 Copilot for Sales
 description: Learn what are the various ways to install Copilot for Sales
 ms.date: 01/10/2025
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
