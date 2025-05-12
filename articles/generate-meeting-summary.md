@@ -21,15 +21,15 @@ When you start recording the meeting, [live transcription](https://support.micro
 Transcription helps to make your meeting productive and inclusive for participants. By default, the transcript is available in English. You can change the transcript language to be the same as the language being spoken in the meeting. For details, see the **Change the transcript language** section in [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
 > [!NOTE]
-> - The spoken language is not detected automatically. If the transcript language is not same as the language spoken in the meeting, the generated transcript will be unusable.
-> - If your administrator has enabled the [auto-recording capability](auto-record-meeting.md), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
+> - The spoken language isn't detected automatically. If the transcript language isn't same as the language spoken in the meeting, the generated transcript is unusable.
+> - If your administrator has enabled the [autorecording capability](auto-record-meeting.md), the meeting is recorded automatically when the Copilot for Sales app is added to the meeting.
 
 When you end the meeting, Copilot for Sales uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more. For information about how to view the meeting summary, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 > [!IMPORTANT]
 >
 > - You must transcribe the meeting to generate meeting insights.  
-> - Version of the Copilot for Sales app in Microsoft Teams must be 1.0.9 or higher to generate meeting insights. For more information, click [here](sales-copilot-faq.md#why-are-meeting-insights-not-getting-generated-even-if-meeting-is-transcribed).
+> - Version of the Copilot for Sales app in Microsoft Teams must be 1.0.9 or higher to generate meeting insights. For more information, see [here](sales-copilot-faq.md#why-are-meeting-insights-not-getting-generated-even-if-meeting-is-transcribed).
 
 Use the meeting summary to review past conversations with customers, understand historical needs and sentiments, and highlight your commitments.
 
