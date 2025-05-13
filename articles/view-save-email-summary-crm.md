@@ -2,7 +2,7 @@
 title: View and save email summaries to your CRM
 description: Learn how to use Copilot for Sales to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
 ms.date: 02/04/2025
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

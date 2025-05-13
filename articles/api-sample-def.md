@@ -1,8 +1,8 @@
 ---
 title: Sample connector (preview)
 description: Sample connector to help you easily start to extend Microsoft 365 Copilot for Sales.
-ms.date: 09/18/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

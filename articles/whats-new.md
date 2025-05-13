@@ -4,7 +4,7 @@ description: Visit this page to see what's recently updated or added in Microsof
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 09/03/2024
+ms.date: 04/30/2025
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -15,8 +15,7 @@ Wondering about upcoming and recently released capabilities in Copilot for Sales
 
 See the release plans for what's coming. Choose the following links to learn about the latest versions of Copilot for Sales.
 
-- [2024 release wave 2](/dynamics365/release-plan/2024wave2/sales/microsoft-copilot-sales/planned-features)
-- [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/microsoft-copilot-sales/planned-features)
+- [2025 release wave 1](/copilot/release-plan/2025wave1/copilot-sales/planned-features)
 
 Keep track of changes on the [Microsoft 365 Copilot for Sales release planner](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales) site, or download the release plan as a single PDF.
 

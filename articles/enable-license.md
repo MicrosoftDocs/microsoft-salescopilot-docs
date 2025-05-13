@@ -2,7 +2,7 @@
 title: Enable Copilot for Sales licenses
 description: Learn how to enable Copilot for Sales licenses and deploy the app to users for enhanced integration with Microsoft 365 applications.
 ms.date: 11/29/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # Enable Copilot for Sales licenses
 
-The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook, Word, and Teams.  
+The new Copilot for Sales license brings together the power of Microsoft 365 Copilot and sales-specific insights. The result is a "better together" experience across Microsoft 365 applications, such as Outlook and Teams.  
 To enable Copilot for Sales licenses, you must complete these steps:
 
 1. Assign a Copilot for Sales license to each user.

@@ -1,7 +1,7 @@
 ---
 title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get an enriched experience with CRM data.
-ms.date: 01/10/2025
+ms.date: 04/30/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -57,6 +57,9 @@ You must be connected to your CRM to interact with CRM data in the Copilot for S
         Your Dynamics 365 environment matches the URL your browser shows when you sign in to Dynamics 365. For example, if the URL is `salesorg.crm.dynamics.com`, select **salesorg.crm.dynamics.com** in the list.
     
     - **Salesforce® CRM**: Select your Salesforce environment, and then select **Connect to Salesforce® CRM**. In the confirmation message, select **Allow**. Enter your Salesforce credentials, and then select **Log In**. Select **Allow**, and then select **Allow access**.
+
+        > [!NOTE]
+        > If you're using Outlook or Teams on the web to sign in to Salesforce, you must enable popups in your browser to connect to your Salesforce environment. If you don't enable popups, an error message is displayed.
     
     :::image type="content" source="media/manual-sign-in-teams.png" alt-text="Screenshot showing Connect to CRM button.":::
 

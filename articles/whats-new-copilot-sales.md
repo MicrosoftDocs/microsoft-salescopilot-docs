@@ -1,8 +1,8 @@
 ---
 title: What's changed with Sales Copilot to Copilot for Sales
 description: Revamped Sales Copilot, now called Microsoft 365 Copilot for Sales, merges features and improves user experience.
-ms.date: 09/25/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -55,7 +55,7 @@ In Microsoft Teams, you can use chat capabilities of Copilot in Microsoft Teams 
 
 After a Teams meeting, the meeting summary is enriched with capabilities such as action items, participant statistics, and task creation in CRM from within Teams.
 
-:::image type="content" source="media/teams-recap.png" alt-text="Screenshot showing meeting summary enriched with sales data in Teams recap.":::
+:::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing meeting summary enriched with sales data in Teams recap.":::
 
 ### Unified side pane in Outlook on the web and Outlook for Windows
 
