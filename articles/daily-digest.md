@@ -17,7 +17,7 @@ ms.custom:
 
 The daily summary of meetings provides you with a single notification summarizing the next five upcoming sales meetings. It helps you stay organized and reduces notification fatigue while delivering critical insights.
 
-The daily summary of meetings is displayed in your personal chat with the **Copilot for Sales** bot in Microsoft Teams. The daily summary of meetings is sent at a time that is [configured by your administrator](configure-pre-meeting-notif.md#configure-daily-summary-of-meetings). 
+The daily summary of meetings is displayed in your personal chat with the **Copilot for Sales** bot in Microsoft Teams. The daily summary of meetings is sent at a time that is [configured by your administrator](configure-meeting-agent.md#configure-daily-summary-of-meetings). 
 
 Meetings in the notification are categorized under **Today**, **Tomorrow**, and dates in the future. It provides essential details like duration and agenda summaries, helping you stay organized and prepared for your meetings. You can open meeting details in Teams by selecting a meeting title in the notification. To open the [meeting preparation card](meeting-prep.md), select **Get meeting insights**.
 
