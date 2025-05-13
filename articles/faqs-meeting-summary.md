@@ -49,4 +49,4 @@ The quality of the meeting summary depends on how accurately the system can tran
 
 ### Related information
 
-[Generate a meeting summary](generate-meeting-summary.md)
+[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)

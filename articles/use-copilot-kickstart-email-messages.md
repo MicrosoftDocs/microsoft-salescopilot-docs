@@ -403,7 +403,7 @@ After meeting with your customers, you often send an email with a summary of you
 With Copilot for Sales, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
 
 > [!IMPORTANT]
-> Ensure that Copilot for Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](generate-meeting-summary.md)
+> Ensure that Copilot for Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
 
 1. In Outlook:
 
