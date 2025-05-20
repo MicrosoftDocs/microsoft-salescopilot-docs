@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 05/12/2025
+ms.date: 05/28/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -49,13 +49,21 @@ The following information is available:
     
     If you track keywords and competitors in your CRM, they also appear in this section.
 - **Key highlights**: View topics discussed during the meeting, including time stamps for each topic and speaker names. The summary is generated using AI and is based on the meeting recording and transcript. It helps you to quickly understand the main topics discussed during the meeting. This section is available only if you are viewing the meeting recap using the older Sales Copilot license.
-- **Overall meeting sentiment**: View the overall sentiment of the meeting, which is calculated based on the tone of the conversation. The sentiment is categorized as positive, negative, or neutral. It also shows the trend of the sentiment over time, which helps you to understand how speakers felt during each phase of the meeting.
+- **Overall meeting sentiment**: View the overall sentiment of the meeting, which is calculated based on the tone of the conversation. The sentiment is categorized as positive, negative, or neutral. It also shows the trend of the sentiment over time, which helps you to understand how speakers felt during each phase of the meeting. [Learn more about accuracy of sentiment analysis](#accuracy-of-sentiment-analysis).
 - **Speaker-level insights**: View insights for each speaker, including their talk time, sentiment distribution, and summary. This helps you to understand how each speaker contributed to the meeting and how they felt during the conversation.
 
 > [!NOTE]
 > If you start and stop a meeting recording multiple times, sales insights aren't generated.
 
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
+
+### Accuracy of sentiment analysis
+
+The sentiment analysis is AI-generated and based on the content and tone of the meeting transcript. While it can provide a helpful high-level view of customer tone and engagement, it's not always perfectly accurate and may misinterpret nuance, sarcasm, or context.
+
+This feature is intended to help you quickly gauge the general sentiment of a meeting—for example, whether the conversation was mostly positive, neutral, or negative—but it should not be used as a definitive assessment of individual participants' intent or satisfaction.
+
+It is strongly recommended that you verify insights using your own judgment and follow up directly with customers as needed. Sentiment insights are best used as a supporting tool, not a replacement for human evaluation.
 
 ## Create a CRM task from a meeting recap
 
