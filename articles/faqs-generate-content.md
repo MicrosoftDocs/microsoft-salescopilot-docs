@@ -23,7 +23,13 @@ Copilot for Sales empowers salespeople to be more productive with their time by 
 
 Copilot for Sales utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
 
-When a user requests an email draft in a specific language using a custom prompt, AI generates the email in that language. If no specific language is requested, the email is generated based on the client's UI language set in Outlook.
+Copilot for Sales supports the following capabilities:
+
+- **CRM-aware email generation**: When the seller's prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited to accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
+- **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours based on their calendar.
+- **Tone and language refinement**: The system detects tone and language preferences from the prompt and adjusts the draft accordingly. 
+- **Multilingual generation**: When a specific language is indicated in the seller's custom prompt, the email is generated in that language. If no language is specified, the system infers the language from the prompt. For out-of-the-box (OOB) prompts, the email is generated in the client's UI language set in Outlook.
+- **Sales meeting summary email generation**: When a seller selects a specific sales meeting to summarize under **More options** in the email drafting capabilities available in the **Key email info** card in the Outlook side pane, the system generates a draft including a summary of the interaction and relevant action items or next steps. 
 
 ## What is the feature's intended use?
 
@@ -37,9 +43,16 @@ End-users provide ongoing feedback on each Copilot feature, along with iterative
 
 ## What are the limitations of this feature? How can users minimize the impact of the limitations when using the system?
 
-The generated email drafts may not always capture the nuance or tone of the salesperson's individual style, potentially affecting personalization.
+The generated email drafts may not always fully capture the nuance, tone, or stylistic preferences of an individual salesperson. This can affect the degree of personalization and alignment with the seller's communication style.
 
-To minimize the impact, users should review and customize the generated drafts to align with their preferred style, ensuring personalized communication.
+Additionally, while the system can detect and incorporate CRM data when prompted, it only includes information from a single CRM record—specifically, the one saved to the email. If no CRM record is associated with the email, no CRM data will be referenced in the generated draft. 
+
+To minimize the impact of these limitations:
+
+- **Use clear prompts**: Provide specific instructions in the custom prompt—such as tone, language, meeting details, or CRM references—helps the system generate more accurate and relevant content.
+- **Verify CRM associations**: Ensure that the appropriate CRM record (account or opportunity) is saved to the email if CRM data is expected to be included in the draft.
+- **Adjust meeting suggestions**: Review suggested meeting times and adjust them as needed to better match your availability and the customer's preferences.
+- **Meeting follow up**: Up to five recently transcribed Teams meetings with your sales contacts are available to summarize from email drafting in the Outlook side pane.
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 
