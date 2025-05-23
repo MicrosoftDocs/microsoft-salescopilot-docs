@@ -33,6 +33,6 @@ Sales Agent also generates personalized outreach emails based on the insights ga
 
 ## Getting started
 
-Sales Agent is configured by your administrator to work on behalf of your entire sales team. Learn more about how to [configure Sales Agent](setup-sales-agent.md).
+Sales Agent is configured by your administrator to work on behalf of your entire sales team. Learn more about how to [configure Sales Agent](set-up-sales-agent.md).
 
 Once configured, you can view summaries within your CRM or browse the Sales Agent's list of researched leads in the Copilot for Sales app. Learn more about how to [use Sales Agent](use-sales-agent.md).
