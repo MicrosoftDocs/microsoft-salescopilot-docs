@@ -1,5 +1,5 @@
 ---
-title: Set up Sales Agent
+title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
 ms.date: 05/30/2025
 ms.topic: how-to
@@ -8,7 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Set up Sales Agent
+# Set up Sales Agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from deep research and generating personalized outreach emails tailored to the lead.
 

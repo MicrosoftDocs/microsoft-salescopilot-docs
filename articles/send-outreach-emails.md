@@ -1,5 +1,5 @@
 ---
-title: Send outreach email to leads
+title: Send outreach email to leads (preview)
 description: Learn how to send outreach email to leads using Sales Agent.
 ms.date: 05/30/2025
 ms.topic: how-to
@@ -8,7 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Send outreach email to leads
+# Send outreach email to leads (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales Agent creates personalized email drafts for each lead by leveraging comprehensive research data to ensure your emails are both relevant and compelling. This capability transforms all the research effort done from the previous stage into actionable results while reducing the time you spend crafting individual emails and increasing your overall engagement rates.
 

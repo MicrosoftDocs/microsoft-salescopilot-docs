@@ -1,5 +1,5 @@
 ---
-title: Sales Agent overview
+title: Sales Agent overview (preview)
 description: Learn how Sales Agent helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
 ms.date: 05/30/2025
 ms.topic: overview
@@ -9,7 +9,11 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Sales Agent overview
+# Sales Agent overview (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales teams need to constantly generate enough pipeline to stay ahead of their sales goals. This requires deciding which leads to engage, a time-consuming process that today requires sellers to sift through large amount of data across tools and data sources, including data from internal systems like their CRM and external resources like the web and third-party data services.
 

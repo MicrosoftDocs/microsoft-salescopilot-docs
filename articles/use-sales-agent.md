@@ -1,5 +1,5 @@
 ---
-title: View lead research
+title: Use Sales Agent (preview)
 description: Learn how to view the research conducted on your leads by Sales Agent.
 ms.date: 05/30/2025
 ms.topic: how-to
@@ -8,7 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# View lead research
+# Use Sales Agent (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales Agent provides you with a comprehensive overview of the research conducted on your leads. This includes insights into the lead's company, recent news, and other relevant information that can help you tailor your outreach strategy. You can view this research in your CRM and in the Copilot for Sales personal app.
 
