@@ -98,8 +98,8 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
 1. Scroll down to the bottom of the page and select **Deactivate**.
 1. In the confirmation dialog, select **Deactivate**. 
-
-The status is changed to **Deactivated**.
+    
+    The status is changed to **Deactivated**.
 
 ## Related information
 
