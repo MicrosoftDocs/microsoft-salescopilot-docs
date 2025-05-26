@@ -28,3 +28,8 @@ This capability provides you with complete control over your outreach process wh
 1. Perform one of the following actions:
     - Select **Copy** to copy the email content to your clipboard and then paste it into your preferred email clietn or CRM system.
     - Select **Edit in Outlook** to open the email in Outlook for further editing.
+
+## Related information
+
+- [Sales Agent overview](sales-agent-overview.md)
+- [Use Sales Agent](use-sales-agent.md)

@@ -41,3 +41,4 @@ Once configured, you can view summaries within your CRM or browse the Sales Agen
 
 - [Set up Sales Agent](set-up-sales-agent.md)
 - [Use Sales Agent](use-sales-agent.md)
+- [Send outreach email to leads](send-outreach-emails.md)
