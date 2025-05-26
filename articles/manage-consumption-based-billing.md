@@ -1,7 +1,7 @@
 ---
 title: Manage consumption-based billing
 description: Learn about managing consumption-based billing for agent capabilities in Copilot for Sales.
-ms.date: 05/30/2025
+ms.date: 06/04/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -29,39 +29,34 @@ Copilot and agent capabilities in Copilot for Sales support two billing models: 
 Both models require that you use a production Power Platform environment. [Learn more about converting a trial environment to a production environment](convert-trial-prod.md). 
 
 > [!NOTE]
-> Both billing models can be used on the Dynamics 365 Sales environment. Prepaid capacity is consumed first.
-> Message capacity on the Power Platform environment is consumed by Dynamics 365 Sales environments and other Microsoft services on the tenant.
+> Both billing models can be used on the Power Platform environment. Prepaid capacity is consumed first. Message capacity on the Power Platform environment is consumed by Copilot for Sales and other Microsoft services on the tenant.
 
 ### Set up prepaid capacity
 
-Complete these tasks to set up the Dynamics 365 Sales environment for prepaid capacity.
+Complete these tasks to set up the Power Platform environment for prepaid capacity.
 
-1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center (customer) or Partner Center (reseller).
+1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center or Partner Center.
 
    Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admin)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
 
-1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center (customer or reseller).
+1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center.
 
    Learn more in [Manage Capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
 
-1. Link the Dynamics 365 Sales environment to the Power Platform environment (internal admin).
+    > [!NOTE]
+    > If you are using a non-Dynamics 365 CRM, such as Salesforce, you must assign the prepaid capacity to the environment named **msdyn_viva**.
 
 ### Set up pay-as-you-go
 
-Complete these tasks to set up the Dynamics 365 Sales environment for pay-as-you-go.
+To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
 
-1. Set up pay-as-you-go on the Power Platform tenant (reseller):
-
-   To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
-
-   Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
-1. Link the Dynamics 365 Sales environment to the Power Platform environment (internal admin).
+Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
 ## Manage capacity and usage
 
 You can view Copilot Studio message capacity and usage for prepaid capacity and pay-as-you-go in the Power Platform admin center. Learn more in [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
 
-Dynamics 365 Sales regularly checks the available capacity (quota) of Copilot Studio messages. If your organization's quota is low or depleted, users receive in-app notifications about the status and necessary actions. It's important to take timely action on these notifications by reallocating existing capacity or purchasing more capacity.
+If the available capacity (quota) of your organization is low or depleted, it is important to take timely action by reallocating existing capacity or purchasing more capacity.
 
 - For prepaid capacity, use the Power Platform admin center to allocate more capacity to the environment from the total available on the tenant. Learn more in [Manage capacity](/power-platform/admin/manage-copilot-studio-messages-capacity#manage-capacity). If there's no quantity to allocate, purchase more.
 - For pay-as-you-go, use Microsoft Cost Management in the Azure portal to view detailed usage and adjust spending limits (budgets) to free up more capacity. Learn more in [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs). If there's no quantity to allocate, purchase more.
