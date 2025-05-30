@@ -1,5 +1,5 @@
 ---
-title: Mobile support for Copilot for Sales
+title: Mobile support for Copilot for Sales (preview)
 description: Learn about the mobile support for Copilot for Sales on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
 ms.date: 02/05/2025
 ms.topic: concept-article
@@ -8,7 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Mobile support for Copilot for Sales
+# Mobile support for Copilot for Sales (preview)
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Copilot for Sales is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Copilot for Sales aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
 
