@@ -21,7 +21,7 @@ As you read and compose emails in Outlook, you can use Copilot for Sales to view
 
 ## Prerequisites
 
-You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to view the key sales information. If you use the classic Outlook for Windows, the [**Key email info**](view-save-email-summary-crm.md) card is displayed instead of the Key sales info card. 
+You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to view the key sales information. If you use the classic Outlook for Windows or the native Outlook app for Mac destop, the [**Key email info**](view-save-email-summary-crm.md) card is displayed instead of the Key sales info card. 
 
 ## Anatomy of key sales information
 
