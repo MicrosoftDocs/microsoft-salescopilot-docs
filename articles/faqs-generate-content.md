@@ -49,7 +49,7 @@ Additionally, while the system can detect and incorporate CRM data when prompted
 
 To minimize the impact of these limitations:
 
-- **Use clear prompts**: Provide specific instructions in the custom prompt—such as tone, language, meeting details, or CRM references—helps the system generate more accurate and relevant content.
+- **Use clear prompts**: Provide specific instructions in the custom prompt—such as tone, language, meeting details, or CRM references—to help the system generate more accurate and relevant content.
 - **Verify CRM associations**: Ensure that the appropriate CRM record (account or opportunity) is saved to the email if CRM data is expected to be included in the draft.
 - **Adjust meeting suggestions**: Review suggested meeting times and adjust them as needed to better match your availability and the customer's preferences.
 - **Meeting follow up**: Up to five recently transcribed Teams meetings with your sales contacts are available to summarize from email drafting in the Outlook side pane.
