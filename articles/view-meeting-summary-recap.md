@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 04/28/2025
+ms.date: 05/31/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -125,6 +125,13 @@ To save AI-generated meeting notes to CRM:
 1. If required, edit the notes before saving them to CRM. 
 1. Select **Save**.
     A confirmation message appears indicating that the meeting notes are saved to your CRM. You can view the saved meeting notes in your CRM by selecting **View saved notes**. Once notes are saved, all applicable internal participants will see the URL to the CRM record in place of the "Save to (CRM)" button.
+
+If you don't see the **Save to (CRM)** button, it could be due to one of the following reasons:
+- The meeting has multiple recordings.
+- The meeting is a part of a recurring series.
+- You're not signed in to the CRM.
+- You don't have a Copilot for Sales license.
+- The meeting transcript is not sufficiently long to generate meeting notes.
 
 ### Related information
 
