@@ -43,7 +43,7 @@ End-users provide ongoing feedback on each Copilot feature, along with iterative
 
 ## What are the limitations of this feature? How can users minimize the impact of the limitations when using the system?
 
-The generated email drafts may not always fully capture the nuance, tone, or stylistic preferences of an individual salesperson. This can affect the degree of personalization and alignment with the seller's communication style.
+The generated email drafts may not always fully capture the nuance, tone, or stylistic preferences of an individual salesperson. This might affect the degree of personalization and alignment with the seller's communication style.
 
 Additionally, while the system can detect and incorporate CRM data when prompted, it only includes information from a single CRM record—specifically, the one saved to the email. If no CRM record is associated with the email, no CRM data will be referenced in the generated draft. 
 
