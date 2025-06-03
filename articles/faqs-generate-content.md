@@ -26,7 +26,7 @@ Copilot for Sales utilizes large language models (LLM), natural language process
 Copilot for Sales supports the following capabilities:
 
 - **CRM-aware email generation**: When the seller's prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited to accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
-- **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours based on their calendar.
+- **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours as per their calendar.
 - **Tone and language refinement**: The system detects tone and language preferences from the prompt and adjusts the draft accordingly. 
 - **Multilingual generation**: When a specific language is indicated in the seller's custom prompt, the email is generated in that language. If no language is specified, the system infers the language from the prompt. For out-of-the-box (OOB) prompts, the email is generated in the client's UI language set in Outlook.
 - **Sales meeting summary email generation**: When a seller selects a specific sales meeting to summarize under **More options** in the email drafting capabilities available in the **Key email info** card in the Outlook side pane, the system generates a draft including a summary of the interaction and relevant action items or next steps. 
