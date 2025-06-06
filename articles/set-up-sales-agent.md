@@ -14,7 +14,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from deep research and generating personalized outreach emails tailored to the lead.
+Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from deep research and generating personalized outreach emails tailored to the lead and its product of interest.
 
 Sales Agent connects to both Microsoft Dynamics 365 Sales and Salesforce Sales Cloud to research your leads, and discover related contact, account, opportunity, and activity records. Sales Agent uncovers the insights hidden in your CRM that go easily missed.
 
