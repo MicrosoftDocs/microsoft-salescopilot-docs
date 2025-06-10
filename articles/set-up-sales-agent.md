@@ -39,6 +39,9 @@ Sales Agent uses a CRM list view to find, filter, and monitor the records to res
 
 Sales Agent monitors the leads that are included in the query results and researches each of the leads returned. It also monitors the set of leads for changes and runs research any time a record is modified.
 
+In Dynamics, the view must be a *System* view that the admin has permission to view.
+In Salesforce, the admin must have permission to read the view.
+
 Learn more about creating a list view in [Salesforce](https://help.salesforce.com/s/articleView?id=xcloud.customviews_lex.htm&type=5) or [Dynamics 365 Sales](/dynamics365/sales/customize-views?tabs=SE).
 
 > [!TIP]
