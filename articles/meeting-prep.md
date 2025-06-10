@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 05/30/2025
+ms.date: 06/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,9 +12,9 @@ ms.author: shjais
 
 The meeting preparation card provides the latest information and out-of-the-box insights about the opportunities derived from your past customer interactions such as emails and meetings as well as CRM. This card helps you stay informed and prepared before walking into a customer meeting. It shows general information about the meeting, opportunity info, recent communication and strategic insights. You can use this information to prepare for the upcoming meeting accordingly and have a productive discussion.
 
-Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
+:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
-> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
+Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
 
 ## Prerequisites
 
@@ -32,13 +32,19 @@ The meeting preparation card contains the following information:
 - **Matched account**: Title of the card shows the name of the account matched in CRM. 
 - **General meeting information**: Information about the meeting such as its name, date, time, number of participants, and their acceptance status.
 - **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, and budget.
+
+    :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot showing opportunity summary in meeting preparation card":::
+
 - **Recent communication**: Displays up to 10 most recent meetings on the opportunity. In addition to the meetings you organized or participated in, it also includes meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer.
-- **Strategic insights**: Shows key contacts of the opportunity in CRM among the meeting participants, key risks identified and their summary from all past interactions, and the next follow-up action items agreed with the customer. 
+
+    :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot showing recent communications in meeting preparation card":::
+
+- **Strategic insights**: Shows key contacts of the opportunity in CRM among the meeting participants, key risks identified and their summary from all past interactions, and the next follow-up action items agreed with the customer.
+
+    :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card"::: 
 
 > [!TIP]
 > You can regenerate the meeting preparation card by entering the `Meeting prep card` prompt in the Copilot for Sales chat. You are prompted to select the meeting for which you want to regenerate the card. 
-
-:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
 ## How does the card work?
 
