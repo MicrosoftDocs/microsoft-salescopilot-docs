@@ -67,7 +67,7 @@ Allows you to select the data sources to be used by the agent and tell where to 
 1. In the **Map the fields** step, map the fields in your lead table to the fields used by Sales Agent.
 1. Expand the **Additional fields the agent should know about (recommended)** section to add more fields that you want the agent to use for research. For example, source marketing campaign and source event description. To add more fields, select **Add field** and then select the field from the list.
     > [!TIP] 
-> Use the description field to descibe the type of data the additional fields contain. The better your description, the better the agent will be at interpreting this data and using it to research your leads.
+    > Use the description field to descibe the type of data the additional fields contain. The better your description, the better the agent will be at interpreting this data and using it to research your leads.
 1. Select **Done**.
 1. To configure the data sources related to leads, select **Add data source for accounts** and **Add data source for opportunities**. Follow the same steps as above to select a table and view for accounts and opportunities.
 
@@ -172,7 +172,7 @@ Allows you to enter the company profile details that will be used by the agent t
 - **Company URL**: The URL of your company website.
 - **Company offerings**: A brief description of the products or services your company offers. To add more offerings, select **Add** and enter the details.
     > [!TIP] 
-> The names and descriptions of your offerings will be used by the agent to match leads with potential solutions they may be interested in.
+    > The names and descriptions of your offerings will be used by the agent to match leads with potential solutions they may be interested in.
 
 ## Deactivate the agent
 
