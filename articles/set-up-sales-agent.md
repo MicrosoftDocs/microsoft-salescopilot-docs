@@ -75,14 +75,14 @@ Allows you to select the data sources to be used by the agent and tell where to 
 The Sales Agent will optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you will need to first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
 Create table to store Sales Agent research summary:
-1. Create a custom table in your CRM to store the Sales Agent research summmary. (For example, **SalesAgentResearchSummary**)
+1. Create a custom table in your CRM to store the Sales Agent research summmary. (For example, `SalesAgentResearchSummary`)
 1. Set the permissions on the new table to allow for the Sales Agent to create and update entries in the table.
-1. In that table, create a field labled **SummaryText**. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics, the type of the filed should be *Multiple Lines of Text*.
+1. In that table, create a field labled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics, the type of the filed should be *Multiple Lines of Text*.
 1. Set the permissions on the field to allow your sellers read the contents of the newly created field.
 
 Create a field on lead record to reference the summary:
 1. Locate the table in your CRM that represents your leads being researched.
-1. Add a field to store the relationship from the lead to the summary table created above. (For example, **SalesAgentResearchSummary**). In Salesforce, the data type of the field should be a *Lookup Relationship* related to the **SalesAgentResearchSummary** table created above. In Dynamics, create a *New relationship > Many-to-one* from the *Relationships* tab of the table.
+1. Add a field to store the relationship from the lead to the summary table created above. (For example, `SalesAgentResearchSummary`). In Salesforce, the data type of the field should be a *Lookup Relationship* related to the `SalesAgentResearchSummary` table created above. In Dynamics, create a *New relationship > Many-to-one* from the *Relationships* tab of the table.
 1. Set the permissions to allow the field be visable and read-only to your sellers. Set the permissions to allow the Sales Agent to write to this field. In Salesforce, the field-level security should allow the "Salesforce API Only System Integrations" to write this field.
 
 Once the above steps are complete, you can enable the Sales Agent to write summarized insights into the CRM.
