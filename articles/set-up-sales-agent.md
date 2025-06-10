@@ -77,7 +77,6 @@ The Sales Agent will optionally store a summary of the research in your CRM so t
 
 **Create table to store Sales Agent research summary:**
 1. Create a custom table in your CRM to store the Sales Agent research summmary. (For example, `SalesAgentResearchSummaries`)
-1. In the summary table, add a field to store the relationship from summary table to the lead table. Label the field `Lead`. In Salesforce, the data type of the field should be a *Lookup Relationship* related to the CRM lead table. In Dynamics, create a *New relationship > Many-to-one* to the lead table from the *Relationships* tab of the summary table.
 1. In the summary table, create a field labled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics, the type of the filed should be *Multiple Lines of Text*.
 1. Set the permissions on the table and fields to allow your sellers read the contents the records.
 1. Salesforce users will need to give permission to the Salesforce integration user to read and write to this table.
@@ -149,7 +148,6 @@ If configured to write research summaries to Salesforce, you will need to give t
         1. `Created By`: Read Access
         1. `Last Modified By`: Read Access
         1. `Owner`: Read Access, Edit Access
-        1. `Lead`: Read Access, Edit Access
         1. `SummaryText`: Read Access, Edit Access
 
 **Give permission to create links from the lead to reserach summaries**
