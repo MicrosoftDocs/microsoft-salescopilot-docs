@@ -121,11 +121,11 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 1. Enable the *Access Activities* permission and **Save**.
 1. Return to the `Sales Agent` permission set overview and select **Object Settings**.
 1. For both the `Tasks` and `Events` objects, ensure that Read Access is set on the following fields:
-    1. Description
-    1. Due Date
-    1. Name
-    1. Related To
-    1. Type
+    - Description
+    - Due Date
+    - Name
+    - Related To
+    - Type
 1. Return to the `Sales Agent` permission set overview and select **Manage Assignments**.
 1. Select **Add Assignment** and assign this permission set to the `Copilot for Sales integration user`.
 
@@ -148,12 +148,12 @@ If configured to write research summaries to Salesforce, you will need to give t
 1. Select **Object Settings**.
 1. Select the object configured to store the research summaries. For example, `SalesAgentResearchSummaries`.
 1. Select **Edit Properties**, and set the following permissions:
-    1. *Object permissions*: Read, Create, Edit, View All Records, View All Fields
-    1. *Field Permissions*:
-        1. `Created By`: Read Access
-        1. `Last Modified By`: Read Access
-        1. `Owner`: Read Access, Edit Access
-        1. `SummaryText`: Read Access, Edit Access
+    - **Object permissions**: Read, Create, Edit, View All Records, View All Fields
+    - **Field permissions**:
+        - `Created By`: Read Access
+        - `Last Modified By`: Read Access
+        - `Owner`: Read Access, Edit Access
+        - `SummaryText`: Read Access, Edit Access
 
 ##### Give permission to create links from the lead to reserach summaries
 
@@ -164,9 +164,9 @@ If configured to write research summaries to Salesforce, you will need to give t
 1. Select **Object Settings**.
 1. Select the object representing your leads being researched. For example, `Leads`.
 1. Select **Edit Properties**, and set the following permissions:
-    1. *Object permissions*: Read, Edit, View All Records
-    1. *Field Permissions*:
-        1. `SalesAgentResearchSummary`: Read Access, Edit Access
+    - **Object permissions**: Read, Edit, View All Records
+    - **Field permissions**:
+        - `SalesAgentResearchSummary`: Read Access, Edit Access
 
 ### Company profile
 
