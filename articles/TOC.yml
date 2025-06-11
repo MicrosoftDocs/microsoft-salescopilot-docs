@@ -91,6 +91,10 @@
       items:
       - name: Set up Sales Agent
         href: set-up-sales-agent.md
+    - name: Convert the environment from Trial to Production
+      href: convert-trial-prod.md
+    - name: Manage consumption-based billing for agent capabilities
+      href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
