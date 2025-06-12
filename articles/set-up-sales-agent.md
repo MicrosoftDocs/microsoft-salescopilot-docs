@@ -49,7 +49,23 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 > - You do not have to use the standard (out-of-the-box) lead object or entity for your leads. If your leads are stored in another type of record, you can choose to define your 'leads' using that object or entity.
 > - Only include records that are useful to research. It helps you save costs by only researching leads that your sellers are going to work on. For example, you can include leads that have been created within the past 30 days so that Sales Agent is only researching new leads. Researching old leads is not likely helpful to your sellers. Additionally, only researching leads that have not yet been converted to opportunities and those which have not been disqualified are helpful filters to save cost.
 
-## Step 2: Set up and activate the agent
+## Step 2: Select where to store research summaries
+
+The Sales Agent can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
+
+### Create a table to store Sales Agent research summary
+
+1. Create a custom table in your CRM to store the Sales Agent research summmary. For example, `SalesAgentResearchSummaries`.
+1. In the summary table, create a field labled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics 365, the type of the filed should be *Multiple Lines of Text*.
+1. Set the permissions on the table and fields to allow your sellers read the content of the records. In Salesforce, you must give permission to the Salesforce integration user to read and write to this table.
+
+### Create a field on lead record to reference the summary
+
+1. Locate the table in your CRM that represents your leads being researched. For example, `Lead`.
+1. Add a field to store the relationship from the lead to the summary table created above. For example, `SalesAgentResearchSummaries`. In Salesforce, the data type of the field should be a *Lookup Relationship* related to the `SalesAgentResearchSummaries` table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
+1. Set the permissions to allow the field be visible and read-only to your sellers. In Salesforce, you must give permission to the Salesforce integration user to write this field.
+
+## Step 3: Set up and activate the agent
 
 1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
 1. If you're using Salesforce, confirm that the status does not show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
@@ -75,42 +91,33 @@ Allows you to select the data sources to be used by the agent and tell where to 
 1. Select **Done**.
 1. To configure the data sources related to leads, select **Add data source for accounts** and **Add data source for opportunities**. Follow the same steps as above to select a table and view for accounts and opportunities.
 
-##### Select where to store research summaries
-
-The Sales Agent will optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
-
-**Step 1: Create a table to store Sales Agent research summary**
-
-1. Create a custom table in your CRM to store the Sales Agent research summmary. For example, `SalesAgentResearchSummaries`.
-1. In the summary table, create a field labled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics 365, the type of the filed should be *Multiple Lines of Text*.
-1. Set the permissions on the table and fields to allow your sellers read the content of the records. In Salesforce, you must give permission to the Salesforce integration user to read and write to this table.
-
-**Step 2: Create a field on lead record to reference the summary**
-
-1. Locate the table in your CRM that represents your leads being researched. For example, `Lead`.
-1. Add a field to store the relationship from the lead to the summary table created above. For example, `SalesAgentResearchSummaries`. In Salesforce, the data type of the field should be a *Lookup Relationship* related to the `SalesAgentResearchSummaries` table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
-1. Set the permissions to allow the field be visible and read-only to your sellers. In Salesforce, you must give permission to the Salesforce integration user to write this field.
-
-**Step 3: Enable Sales agent to write summaries back to the CRM**
-
-Once the above steps are complete, you can enable the Sales Agent to write summarized insights into the CRM. In the Copilot for Sales admin settings for the Sales Agent:
+#### Enable Sales agent to write summaries back to the CRM
 
 1. Expand the **Where should the agent store research insights?** section.
 1. Turn on the toggle for **Store a summary of research in your CRM**.
-1. Select **Choose a CRM table** and follow the steps to the table and field where the insights should be stored.
+1. Select **Choose a CRM table** and follow the steps to select the table and field you created in [Step 2](#step-2-select-where-to-store-research-summaries) where the insights should be stored.
 1. Select the field on the lead table that references the summary.
 1. Select **Next** and then select **Save**.
 
-#### Configure Salesforce permissions for Sales Agent
+### Company profile
+
+Allows you to enter the company profile details that will be used by the agent to generate insights. The company profile is used to provide context about your organization and helps the agent generate more relevant insights. Enter the following details:
+- **Company name**: The name of your company.
+- **Company URL**: The URL of your company website.
+- **Company offerings**: A brief description of the products or services your company offers. To add more offerings, select **Add** and enter the details.
+    > [!TIP] 
+    > The names and descriptions of your offerings will be used by the agent to match leads with potential solutions they may be interested in.
+
+## Configure Salesforce permissions for Sales Agent
 
 > [!NOTE]
-> These steps are only needed for Salesforce CRM integration.
+> These steps in this section are only needed for Salesforce CRM integration.
 
 The Sales Agent connects to Salesforce using the [server-to-server data connection](connect-agent-datasource.md) which creates and manages permissions for the `Copilot for Sales integration user` user in Salesforce. By default, that user is granted permissions to read a subset of data in Salesforce. The Sales Agent needs additional permission to access records to fully research each lead.
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
-##### Give permission to read activities, tasks, and events
+### Give permission to read activities, tasks, and events
 
 1. Go to **Users** > **Permission Sets**
 1. Create a new permission set named `Sales Agent`.
@@ -129,7 +136,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 1. Return to the `Sales Agent` permission set overview and select **Manage Assignments**.
 1. Select **Add Assignment** and assign this permission set to the `Copilot for Sales integration user`.
 
-##### Give permission to read custom objects and fields
+### Give permission to read custom objects and fields
 
 If the Sales Agent needs to acces custom objects or custom fields configured in Salesforce, you will need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent will need to be granted read access to each of those fields on your lead object.
 
@@ -139,7 +146,7 @@ If the Sales Agent needs to acces custom objects or custom fields configured in 
 1. For each custom object, ensure the object permissions are set to allow the following permissions: Read, View All Records.
 1. For each custom field used in the configuration, ensure the field level permissions allow for Read Access.
 
-##### Give permission to write summaries to Salesforce
+### Give permission to write summaries to Salesforce
 
 If configured to write research summaries to Salesforce, you will need to give the Sales Agent permission to write to the summaries table.
 
@@ -155,7 +162,7 @@ If configured to write research summaries to Salesforce, you will need to give t
         - `Owner`: Read Access, Edit Access
         - `SummaryText`: Read Access, Edit Access
 
-##### Give permission to create links from the lead to reserach summaries
+### Give permission to create links from the lead to reserach summaries
 
 If configured to write research summaries to Salesforce, you will need to give the Sales Agent permission to write to the lead records to link to their summary.
 
@@ -167,15 +174,6 @@ If configured to write research summaries to Salesforce, you will need to give t
     - **Object permissions**: Read, Edit, View All Records
     - **Field permissions**:
         - `SalesAgentResearchSummary`: Read Access, Edit Access
-
-### Company profile
-
-Allows you to enter the company profile details that will be used by the agent to generate insights. The company profile is used to provide context about your organization and helps the agent generate more relevant insights. Enter the following details:
-- **Company name**: The name of your company.
-- **Company URL**: The URL of your company website.
-- **Company offerings**: A brief description of the products or services your company offers. To add more offerings, select **Add** and enter the details.
-    > [!TIP] 
-    > The names and descriptions of your offerings will be used by the agent to match leads with potential solutions they may be interested in.
 
 ## Deactivate the agent
 
