@@ -24,11 +24,11 @@ When your administrator has enabled the Sales Agent, you can view the leads that
 1. Navigate to the **Home** tab of the app.
 1. On the **Automated lead research with Sales Agent** card, select **View leads**.
 
-    :::image type="content" source="media/sales-agent-home.png" alt-text="Screenshot showing home page of Copilot for Sales with card for the Sales Agent.":::
+    :::image type="content" source="./media/sales-agent-home.png" alt-text="Screenshot showing home page of Copilot for Sales with card for the Sales Agent.":::
 
     The **Leads researched by Sales Agent** page opens with a list of leads that are researched by Sales Agent. 
 
-    :::image type="content" source="media/sales-agent-lead-list.png" alt-text="Screenshot showing leads researched by Sales Agent in Copilot for Sales.":::
+    :::image type="content" source="./media/sales-agent-lead-list.png" alt-text="Screenshot showing leads researched by Sales Agent in Copilot for Sales.":::
 
     > [!NOTE]
     > - Only leads that your admin has configured to be researched are displayed in this list.
@@ -41,7 +41,7 @@ When your administrator has enabled the Sales Agent, you can view the leads that
 
 The Sales Agent shows the key insights it has gathered, such as if the lead is a decision maker or even a real person or company, so you can make quick decisions to disqualify or pursue each lead. The company's key information, such as their industry, finances, strategic priorities, and business challenges are summarized to help you learn what you need to know about every lead.
 
-:::image type="content" source="media/sales-agent-lead-research-details.png" alt-text="Screenshot showing the Sales Agent research details for a lead.":::
+:::image type="content" source="./media/sales-agent-lead-research-details.png" alt-text="Screenshot showing the Sales Agent research details for a lead.":::
 
 ## View lead research in your CRM
 
@@ -52,7 +52,7 @@ A summary of the lead research will be available in your CRM if your admin has c
 1. Look for the **Sales Agent** section on the lead record page. This section contains the summary of the research conducted by Sales Agent.
 1. Select **View research details** to see the full research report in the Copilot for Sales personal app.
 
-    :::image type="content" source="media/sales-agent-crm-summary.png" alt-text="Screenshot showing a CRM with the lead research summary card.":::
+    :::image type="content" source="./media/sales-agent-crm-summary.png" alt-text="Screenshot showing a CRM with the lead research summary card.":::
 
 ## Related information
 

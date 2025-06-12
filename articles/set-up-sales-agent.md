@@ -35,9 +35,9 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 
 ## Step 1: Create a view and query that defines the leads to research
 
-Sales Agent uses a CRM list view to find, filter, and monitor the records to research. The list view also defines which fields the agent will have access to read. You must create a list view that's specific to the Sales Agent and make sure it has access to that list view.
+Sales Agent uses a CRM list view to find, filter, and monitor the records to research. The list view also defines which fields the agent has access to read. You must create a list view that's specific to the Sales Agent and make sure it has access to that list view.
 
-Sales Agent monitors the leads that are included in the query results and researches each of the leads returned. It also monitors the set of leads for changes and runs research any time a record is modified.
+Sales Agent monitors the leads that are included in the query results and researches each of the leads returned. It also monitors the set of leads for changes and runs research anytime a record is modified.
 
 In Dynamics 365, the view must be a *System* view that the admin has permission to view.
 
@@ -46,8 +46,8 @@ In Salesforce, the admin must have permission to read the view.
 Learn more about creating a list view in [Salesforce](https://help.salesforce.com/s/articleView?id=xcloud.customviews_lex.htm&type=5) or [Dynamics 365 Sales](/dynamics365/sales/customize-views?tabs=SE).
 
 > [!TIP]
-> - You do not have to use the standard (out-of-the-box) lead object or entity for your leads. If your leads are stored in another type of record, you can choose to define your 'leads' using that object or entity.
-> - Only include records that are useful to research. It helps you save costs by only researching leads that your sellers are going to work on. For example, you can include leads that have been created within the past 30 days so that Sales Agent is only researching new leads. Researching old leads is not likely helpful to your sellers. Additionally, only researching leads that have not yet been converted to opportunities and those which have not been disqualified are helpful filters to save cost.
+> - You don't have to use the standard (out-of-the-box) lead object or entity for your leads. If your leads are stored in another type of record, you can choose to define your 'leads' using that object or entity.
+> - Only include records that are useful to research. It helps you save costs by only researching leads that your sellers are going to work on. For example, you can include leads that are created within the past 30 days so that Sales Agent is only researching new leads. Researching old leads isn't likely helpful to your sellers. Additionally, only researching leads that haven't yet been converted to opportunities and those which haven't been disqualified are helpful filters to save cost.
 
 ## Step 2: Select where to store research summaries
 
@@ -55,8 +55,8 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 
 ### Create a table to store Sales Agent research summary
 
-1. Create a custom table in your CRM to store the Sales Agent research summmary. For example, `SalesAgentResearchSummaries`.
-1. In the summary table, create a field labled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics 365, the type of the filed should be *Multiple Lines of Text*.
+1. Create a custom table in your CRM to store the Sales Agent research summary. For example, `SalesAgentResearchSummaries`.
+1. In the summary table, create a field labeled `SummaryText`. In Salesforce, the type of the field should be *Text Area (Rich)*. In Dynamics 365, the type of the filed should be *Multiple Lines of Text*.
 1. Set the permissions on the table and fields to allow your sellers read the content of the records. In Salesforce, you must give permission to the Salesforce integration user to read and write to this table.
 
 ### Create a field on lead record to reference the summary
@@ -68,11 +68,11 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ## Step 3: Set up and activate the agent
 
 1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
-1. If you're using Salesforce, confirm that the status does not show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
+1. If you're using Salesforce, confirm that the status doesn't show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
    - **Company profile**: Enter the company profile details.
-1. Salesforce users will need to take additional steps to configure permissions for the Sales Agent.
+1. Salesforce users need to take additional steps to configure permissions for the Sales Agent.
 1. Select **Activate**. The activation process may take a few minutes. Once activated, the status changes to **Activated**.
 
 ### Data configuration
@@ -82,12 +82,12 @@ Allows you to select the data sources to be used by the agent and tell where to 
 #### Add a data source
 
 1. Expand the **What structures represent your leads, accounts, and opportunities?** section and select **Add data source**.
-1. In the **Choose lead table** step, select the table that stores your leads, and then selct **Next**.
+1. In the **Choose lead table** step, select the table that stores your leads, and then select **Next**.
 1. In the **Choose a view for the Lead table** step, select the view you created in [Step 1](#step-1-create-a-view-and-query-that-defines-the-leads-to-research), and then select **Next**.
 1. In the **Map the fields** step, map the fields in your lead table to the fields used by Sales Agent.
 1. Expand the **Additional fields the agent should know about (recommended)** section to add more fields that you want the agent to use for research. For example, source marketing campaign and source event description. To add more fields, select **Add field** and then select the field from the list.
     > [!TIP] 
-    > Use the description field to descibe the type of data the additional fields contain. The better your description, the better the agent will be at interpreting this data and using it to research your leads.
+    > Use the description field to describe the type of data the additional fields contain. The better your description, the better the agent is at interpreting this data and using it to research your leads.
 1. Select **Done**.
 1. To configure the data sources related to leads, select **Add data source for accounts** and **Add data source for opportunities**. Follow the same steps as above to select a table and view for accounts and opportunities.
 
@@ -119,9 +119,9 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 ### Give permission to read activities, tasks, and events
 
-1. Go to **Users** > **Permission Sets**
+1. Go to **Users** > **Permission Sets**.
 1. Create a new permission set named `Sales Agent`.
-1. Set the permission set liscense to *--None--*.
+1. Assign the permission set license to **None**.
 1. **Save** the permission set and open it.
 1. Select **System Permissions**.
 1. Select **Edit**.
@@ -138,7 +138,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 ### Give permission to read custom objects and fields
 
-If the Sales Agent needs to acces custom objects or custom fields configured in Salesforce, you will need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent will need to be granted read access to each of those fields on your lead object.
+If the Sales Agent needs to access custom objects or custom fields configured in Salesforce, you'll need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent needs to be granted read access to each of those fields on your lead object.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the `Sales Agent` permission set created in the previous step.
@@ -148,7 +148,7 @@ If the Sales Agent needs to acces custom objects or custom fields configured in 
 
 ### Give permission to write summaries to Salesforce
 
-If configured to write research summaries to Salesforce, you will need to give the Sales Agent permission to write to the summaries table.
+If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the summaries table.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the `Copilot for Sales connected app permission set`.
@@ -162,9 +162,9 @@ If configured to write research summaries to Salesforce, you will need to give t
         - `Owner`: Read Access, Edit Access
         - `SummaryText`: Read Access, Edit Access
 
-### Give permission to create links from the lead to reserach summaries
+### Give permission to create links from the lead to research summaries
 
-If configured to write research summaries to Salesforce, you will need to give the Sales Agent permission to write to the lead records to link to their summary.
+If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the lead records to link to their summary.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the `Copilot for Sales connected app permission set`.
