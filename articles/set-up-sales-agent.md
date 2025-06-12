@@ -74,6 +74,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
    - **Company profile**: Enter the company profile details.
 1. Salesforce users need to take additional steps to configure permissions for the Sales Agent.
 1. Select **Activate**. The activation process may take a few minutes. Once activated, the status changes to **Activated**.
+    :::image type="content" source="media/sales-agent-admin.png" alt-text="Screenshot showing admin settings for Sales Agent.":::
 
 ### Data configuration
 
