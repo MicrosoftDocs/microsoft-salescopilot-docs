@@ -23,15 +23,15 @@ This capability provides you with complete control over your outreach process wh
 ## Send outreach email
 
 1. Open the lead research details for which you want to send an outreach email.
-1. Select **Draft an email**. 
+1. Select **Draft Email**.
 1. Review the generated email draft.
 1. Under the **Customize talking points** section, perform the following actions:
-    1. **Account talking points**: Select the talking points you want to include in the email draft. 
+    1. **Account talking points**: Select the talking points you want to include in the email draft.
     1. **Prompt for next steps**: Specify the next steps you want the lead to take.
     1. Select **Apply changes** to update the email draft with the selected talking points and next steps.
 1. Perform one of the following actions:
-    - Select **Copy** to copy the email content to your clipboard and then paste it into your preferred email clietn or CRM system.
-    - Select **Edit in Outlook** to open the email in Outlook for further editing.
+    - Select the copy icon to copy the email content to your clipboard and then paste it into your preferred email client or CRM system.
+    - Select **Edit in mail client** to open the email in Outlook for further editing.
 
 ## Related information
 
