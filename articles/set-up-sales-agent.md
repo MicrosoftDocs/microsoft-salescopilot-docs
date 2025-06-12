@@ -118,6 +118,9 @@ The Sales Agent connects to Salesforce using the [server-to-server data connecti
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
+> [!IMPORTANT]
+> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by Copilot for Sales. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
+
 ### Give permission to read activities, tasks, and events
 
 1. Go to **Users** > **Permission Sets**.
@@ -152,7 +155,7 @@ If the Sales Agent needs to access custom objects or custom fields configured in
 If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the summaries table.
 
 1. Go to **Users** > **Permission Sets**.
-1. Open **Copilot for Sales connected app permission set**.
+1. Open the **Sales Agent** permission set created in the previous step.
 1. Select **Object Settings**.
 1. Select the object configured to store the research summaries. For example, **SalesAgentResearchSummaries**.
 1. Select **Edit Properties**, and set the following permissions:
@@ -168,7 +171,7 @@ If configured to write research summaries to Salesforce, you'll need to give the
 If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the lead records to link to their summary.
 
 1. Go to **Users** > **Permission Sets**.
-1. Open **Copilot for Sales connected app permission set**.
+1. Open the **Sales Agent** permission set created in the previous step.
 1. Select **Object Settings**.
 1. Select the object representing your leads being researched. For example, **Leads**.
 1. Select **Edit Properties**, and set the following permissions:
