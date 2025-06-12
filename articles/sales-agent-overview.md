@@ -1,7 +1,7 @@
 ---
 title: Sales Agent overview (preview)
 description: Learn how Sales Agent helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
-ms.date: 05/30/2025
+ms.date: 06/13/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

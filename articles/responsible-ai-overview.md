@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQs for Microsoft 365 Copilot for Sales
 description: Responsible AI FAQs provide information about the AI technology used in Microsoft 365 Copilot for Sales, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/28/2024
+ms.date: 06/13/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -23,3 +23,4 @@ ms.reviewer: shjais
 - [FAQ for opportunity summary feature in Outlook](faqs-oppty-summary.md)
 - [FAQ for key sales info feature in Outlook](faqs-key-sales-info.md)
 - [FAQ for meeting summary feature in Teams](faqs-meeting-summary.md)
+- [FAQ for Sales Agent](faqs-sales-agent.md)

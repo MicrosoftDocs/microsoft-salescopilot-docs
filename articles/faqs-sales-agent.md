@@ -1,7 +1,7 @@
 ---
 title: FAQ for Sales Agent
 description: This FAQ provides information about the AI technology used in the Sales Agent feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/16/2025
+ms.date: 06/13/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -50,13 +50,13 @@ The generated email drafts may not always capture the nuance or tone of the sale
 
 ## Which languages does Sales Agent support?
 
-Sales Agent supports English at this time.
+Sales Agent currently supports only English. 
 
 ## What data sources does Sales Agent use?
 
 Sales Agent currently makes use of data from the following data sources:
-* Dynamics 365 Sales or Salesforce CRM: Data from lead, account, contact, opportunity records and their related activity records are used when performing lead research.
-* Publicly available web pages available internet.
+- Dynamics 365 Sales or Salesforce CRM: Data from lead, account, contact, opportunity records and their related activity records are used when performing lead research.
+- Publicly available web pages available internet.
 
 ## Related Information
 
