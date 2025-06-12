@@ -48,9 +48,15 @@ The generated email drafts may not always capture the nuance or tone of the sale
 - **Transparency and explainability**: Foster transparency by clearly communicating to users how the system works, the underlying technologies used, and any limitations or potential biases. Ensure that users have a basic understanding of the system's capabilities and are informed about its AI-powered nature.  
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
-## Which languages does Sales Agent support? 
+## Which languages does Sales Agent support?
 
-Sales Agent supports English at this time. 
+Sales Agent supports English at this time.
+
+## What data sources does Sales Agent use?
+
+Sales Agent currently makes use of data from the following data sources:
+* Dynamics 365 Sales or Salesforce CRM: Data from lead, account, contact, opportunity records and their related activity records are used when performing lead research.
+* Publicly available web pages available internet.
 
 ## Related Information
 
