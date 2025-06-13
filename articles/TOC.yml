@@ -87,6 +87,12 @@
       href: save-ai-notes-crm.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
+    - name: Sales Agent (preview)
+      items:
+      - name: Overview
+        href: sales-agent-overview.md
+      - name: Set up Sales Agent
+        href: set-up-sales-agent.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities
@@ -215,6 +221,14 @@
       href: share-crm-record-teams-conversation.md
     - name: Copilot for Sales personal app
       href: personal-app.md
+    - name: Sales Agent (preview)
+      items:
+      - name: Overview
+        href: sales-agent-overview.md
+      - name: Use Sales Agent
+        href: use-sales-agent.md
+      - name: Send outreach emails
+        href: send-outreach-emails.md
 
 - name: Extend Copilot for Sales (preview)
   items:
@@ -339,3 +353,5 @@
     href: faqs-key-sales-info.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
+  - name: FAQ for Sales Agent
+    href: faqs-sales-agent.md
