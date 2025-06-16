@@ -32,7 +32,7 @@ The meeting preparation card contains the following information:
 
     :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot showing opportunity summary in meeting preparation card":::
 
-- **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it also includes meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. If there are meetings that are not recorded or the Copilot for Sales app is not added to the meeting, those meetings are included in the list so you can still see the past interactions. 
+- **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it also includes meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. If there are meetings that are not recorded or the Copilot for Sales app is not added to the meetings, those meetings are included in the list so you can still see the past interactions. 
 
     :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot showing recent communications in meeting preparation card":::
 
