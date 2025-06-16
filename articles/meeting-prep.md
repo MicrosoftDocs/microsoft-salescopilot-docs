@@ -14,14 +14,11 @@ The meeting preparation card provides the latest information and out-of-the-box 
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
-Here's the video that shows a meeting preparation card in Teams and [how to view sales insights using Teams meeting recap](view-meeting-summary-recap.md):
-
 ## Prerequisites
 
 - [Connect to a CRM organization in the Copilot for Sales app](sign-in-crm-outlook.md).
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
-- At least one previous recorded meeting with the same contact.
 
 ## View a meeting preparation card
 
@@ -31,11 +28,11 @@ The meeting preparation card contains the following information:
 
 - **Matched account**: Title of the card shows the name of the account matched in CRM. 
 - **General meeting information**: Information about the meeting such as its name, date, time, number of participants, and their acceptance status.
-- **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, and budget.
+- **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, budget, related records, and open tasks retrieved from CRM. 
 
     :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot showing opportunity summary in meeting preparation card":::
 
-- **Recent communication**: Displays up to 10 most recent meetings on the opportunity. In addition to the meetings you organized or participated in, it also includes meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer.
+- **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it also includes meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. If there are meetings that are not recorded or the Copilot for Sales app is not added to the meeting, those meetings are included in the list so you can still see the past interactions. 
 
     :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot showing recent communications in meeting preparation card":::
 
@@ -48,7 +45,7 @@ The meeting preparation card contains the following information:
 
 ## How does the card work?
 
-The AI-generated insights displayed on the meeting preparation card are based on opportunities identified and matched with meeting participants who are recognized as contacts in your CRM. If there are multiple meeting participants who are contacts, Copilot for Sales uses the Microsoft Graph API to determine the order and prioritizes the first contact returned to locate linked opportunities in CRM. When multiple opportunities are linked with this contact, the most recent one is selected for display on the card. After identifying the relevant opportunity, Copilot for Sales uses AI-powered soft-linking to scan and match past customer meetings related to this opportunity, including meetings organized by other team members, such as peer sellers. The system then generates a summary of all matched past meetings, providing synthesized insights into key risks and upcoming actions. Insights are presented in your supported local language and your local time zone. 
+The AI-generated insights displayed on the meeting preparation card are based on opportunities identified and matched with meeting participants who are recognized as contacts in your CRM. If there are multiple meeting participants who are contacts, Copilot for Sales uses the Microsoft Graph API to determine the order and prioritizes the first contact returned with most recent modification in CRM to locate linked opportunities in CRM. When multiple opportunities are linked with this contact, the most recent one is selected for display on the card. After identifying the relevant opportunity, Copilot for Sales pulls the emails and meetings saved in CRM that are linked to this opportunity, and uses AI-powered soft-linking to scan and match the other unsaved meetings related to this opportunity, including meetings organized by other team members, such as peer sellers. The system then generates a summary of all matched past meetings, providing synthesized insights into key risks and upcoming actions. Insights are presented in your supported local language and your local time zone. 
 
 > [!NOTE]
 > You must check the AI-generated content carefully because it can have mistakes. It's your responsibility to review the AI-generated content to make sure it's accurate and appropriate.
@@ -73,8 +70,8 @@ It might happen that appropriate data is not available to generate the required 
 
 - The meeting preparation card does not appear for recurring meetings.
 - The card is only after the meeting is initially scheduled. If you make changes to the meeting after it's scheduled, no new card is generated.
-- Only past meetings are shown and insights are generated. Emails are not included currently.
-- Meeting insights are linked only to an opportunity in CRM. 
+- Only past meetings have insights generated. Email insights are not included currently.
+- Meeting insights are linked only to one opportunity in CRM. 
 
 ## Data storage and retention
 
