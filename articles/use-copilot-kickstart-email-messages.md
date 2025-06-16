@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 01/15/2025
+ms.date: 06/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -78,9 +78,9 @@ You can get suggested responses when you reply to a customer email or as you're 
 
 ## Create an email message using custom prompt
 
-If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
+If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content. You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
-You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
+If your prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited to accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 
 > [!NOTE]
 > - Information from CRM isn't displayed when using custom prompt to generated suggested email content.

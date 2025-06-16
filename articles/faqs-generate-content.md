@@ -1,7 +1,7 @@
 ---
 title: FAQ for generate content feature in Outlook
 description: This FAQ provides information about the AI technology used in the generate content feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 12/09/2024
+ms.date: 06/18/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -29,7 +29,7 @@ Copilot for Sales supports the following capabilities:
 - **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours as per their calendar.
 - **Tone and language refinement**: The system detects tone and language preferences from the prompt and adjusts the draft accordingly. 
 - **Multilingual generation**: When a specific language is indicated in the seller's custom prompt, the email is generated in that language. If no language is specified, the system infers the language from the prompt. For out-of-the-box (OOB) prompts, the email is generated in the client's UI language set in Outlook.
-- **Sales meeting summary email generation**: When a seller selects a specific sales meeting to summarize under **More options** in the email drafting capabilities available in the **Key email info** card in the Outlook side pane, the system generates a draft including a summary of the interaction and relevant action items or next steps. 
+- **Sales meeting summary email generation**: When a seller selects a specific sales meeting to summarize under **More options** in the **Draft an email** section while drafting an email in the Outlook side pane, the system generates a summary of the interaction and relevant action items or next steps. 
 
 ## What is the feature's intended use?
 
