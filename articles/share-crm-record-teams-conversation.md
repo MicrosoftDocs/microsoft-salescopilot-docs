@@ -18,7 +18,7 @@ You can share a CRM record using the Copilot for Sales search message extension,
 
 > [!NOTE]
 >
-> - For Outlook support, ensure that the [enhanced Teams app has been deployed](whats-new-copilot-sales.md#enhanced-teams-app-support).
+> - For Outlook support, ensure that the [enhanced Teams app has been deployed](sales-copilot-faq.md#what-is-enhanced-teams-app).
 > - If you're using Dynamics 365 as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you can view data in the adaptive even if you aren't signed in to the Copilot for Sales app in Outlook or if you're signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges.
 > - If you're using Salesforce as your CRM system, and you receive an adaptive card in an email or a Teams chat or channel, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view data in the adaptive card while also having read access for the record and Copilot for Sales privileges.
 > - Data in the adaptive card is refreshed from the CRM system every time you view the card in Teams chat or email, or when you manually refresh the card.

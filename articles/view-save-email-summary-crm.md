@@ -32,8 +32,6 @@ Features of the Copilot for Sales email summary vary by license:
 - **Sales Copilot license**: View, save to CRM, share to Teams, or copy email summaries as described in this article.
 - **Copilot for Sales license**: See the fully integrated experience within Microsoft Outlook. Learn more in [View CRM-enriched email summaries in Outlook](./email-summary-premium.md).
 
-Unsure about the difference between Sales Copilot and Copilot for Sales? Learn more in [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md).
-
 ## Anatomy of an email summary
 
 :::image type="content" source="media/email-summary-replying.png" alt-text="Screenshot of an email summary card in the Copilot for Sales pane in Outlook when replying to an email, with numbered callouts.":::
@@ -119,4 +117,3 @@ The email summary is saved to your CRM as a note on the selected record. The sub
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
 - [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md)
 - [Draft an email message in Copilot for Sales app](./use-copilot-kickstart-email-messages.md)
-- Read about the change from [Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md)
