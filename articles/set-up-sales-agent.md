@@ -173,7 +173,7 @@ If configured to write research summaries to Salesforce, you'll need to give the
 1. Go to **Users** > **Permission Sets**.
 1. Open the **Sales Agent** permission set created in the previous step.
 1. Select **Object Settings**.
-1. Select the object representing your leads being researched. For example, **Leads**.
+1. Select the object representing your leads being researched. For example, **Lead**.
 1. Select **Edit Properties**, and set the following permissions:
     - **Object permissions**: Read, Edit, View All Records
     - **Field permissions**:
