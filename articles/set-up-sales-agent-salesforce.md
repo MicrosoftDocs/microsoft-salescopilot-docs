@@ -127,6 +127,9 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 1. **Save** the page.
 1. From the list of pages, select **Security** for the **Sales Agent Summary** page and configure the page to be accessable to the appropriate profiles.
 
+> [!TIP]
+> If your leads are stored in an object other than the standard **Lead** object, you'll need to modify the code above to replace all references to the **Lead** object with the one that stores your leads.
+
 ### Add the summary to the lead page
 1. Open the **Lead Record Page** in the **Lightning App Builder** by navigating to a lead, selecting the setup icon, and choosing **Edit Page**.
 1. In the left panel of the editor, search for the **Visualforce** component.
@@ -135,9 +138,6 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 1. Deselect the **Show Label** checkbox.
 1. Set the **Height (in pixels)** to **200**.
 1. **Save** the page.
-
-> [!TIP]
-> If your leads are stored in an object other than the standard **Lead** object, you'll need to modify the code above to replace all references to the **Lead** object with the one that stores your leads.
 
 ## Related information
 
