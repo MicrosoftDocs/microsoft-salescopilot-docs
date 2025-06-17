@@ -22,7 +22,7 @@ These instructions cover the steps necessary to integrate the Sales Agent in Sal
 
 ## Prerequisites
 
-- The Sales Agent has been configured and connected to Salesforce by following the steps to [set up the Sales Agent](setup-sales-agent.md).
+- The Sales Agent has been configured and connected to Salesforce by following the steps to [set up the Sales Agent](set-up-sales-agent.md).
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
 
 ## Create a link to Sales Agent research from leads
@@ -52,7 +52,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 You can make a summary of the lead research available on each lead page. The summary provides a short summary of the information gathered about the lead, along with a link to view the full research details in the Copilot for Sales personal app.
 
 > [!IMPORTANT]
-> Sales Agent must be configured to [write summaries](setup-sales-agent.md) into the **SalesAgentResearchSummaries** object and store a link to the summary from the lead in the **SalesAgentResearchSummary** field.
+> Sales Agent must be configured to [write summaries](set-up-sales-agent.md) into the **SalesAgentResearchSummaries** object and store a link to the summary from the lead in the **SalesAgentResearchSummary** field.
 
 :::image type="content" source="./media/sales-agent-crm-summary.png" alt-text="Screenshot showing a CRM with the lead research summary card.":::
 
