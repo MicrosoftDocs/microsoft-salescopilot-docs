@@ -53,6 +53,9 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 
 The Sales Agent can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
+> [!IMPORTANT]
+> At this time, the preview of Sales Agent does not support writing summaries to Dynamics 365 Sales.
+
 ### Create a table to store Sales Agent research summary
 
 1. Create a custom table in your CRM to store the Sales Agent research summary. For example, **SalesAgentResearchSummaries**.
@@ -62,7 +65,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ### Create a field on lead record to reference the summary
 
 1. Locate the table in your CRM that represents your leads being researched. For example, **Lead**.
-1. Add a field to store the relationship from the lead to the summary table created above. For example, **SalesAgentResearchSummaries**. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
+1. Add a field to store the relationship from the lead to the summary table created above with the label **SalesAgentResearchSummary**. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
 1. Set the permissions to allow the field be visible and read-only to your sellers. In Salesforce, you must give permission to the Salesforce integration user to write this field.
 
 ## Step 3: Set up and activate the agent
@@ -179,6 +182,9 @@ If configured to write research summaries to Salesforce, you'll need to give the
     - **Field permissions**:
         - **SalesAgentResearchSummary**: Read Access, Edit Access
 
+## Complete the CRM configuration
+Once the Sales Agent is activated, follow the the instructions to [integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md) to create a link to the lead's research, or optionally embed a widget to display the research summary on the lead page.
+
 ## Deactivate the agent
 
 You can deactivate the agent at any time. When you deactivate the agent, it stops researching leads and generating insights. However, the insights that have already been generated will still be available.
@@ -193,3 +199,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 
 - [Use Sales Agent](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
+- [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
