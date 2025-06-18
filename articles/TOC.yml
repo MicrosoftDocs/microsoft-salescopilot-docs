@@ -93,6 +93,8 @@
         href: sales-agent-overview.md
       - name: Set up Sales Agent
         href: set-up-sales-agent.md
+      - name: Integrate Sales Agent with Salesforce
+        href: set-up-sales-agent-salesforce.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities

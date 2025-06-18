@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 05/30/2025
+ms.date: 06/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -65,7 +65,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ### Create a field on lead record to reference the summary
 
 1. Locate the table in your CRM that represents your leads being researched. For example, **Lead**.
-1. Add a field to store the relationship from the lead to the summary table created above with the label **SalesAgentResearchSummary**. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
+1. Add a field named **SalesAgentResearchSummary**, to store the relationship from the lead to the summary table created above. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
 1. Set the permissions to allow the field be visible and read-only to your sellers. In Salesforce, you must give permission to the Salesforce integration user to write this field.
 
 ## Step 3: Set up and activate the agent
@@ -183,7 +183,8 @@ If configured to write research summaries to Salesforce, you'll need to give the
         - **SalesAgentResearchSummary**: Read Access, Edit Access
 
 ## Complete the CRM configuration
-Once the Sales Agent is activated, follow the the instructions to [integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md) to create a link to the lead's research, or optionally embed a widget to display the research summary on the lead page.
+
+Once the Sales Agent is activated, you must [integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md) to create a link to the lead's research, or optionally embed a widget to display the research summary on the lead page.
 
 ## Deactivate the agent
 
