@@ -38,14 +38,14 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
     1. **Field Label**: Sales Agent Research
     1. **Field Name**: Sales_Agent_Research
     1. **Formula Return Type**: Text
-1. Enter the following forumla into the formula text box and select **Next** when done:
+1. Enter the following formula into the formula text box and select **Next** when done:
 
     ```html
     HYPERLINK("https://teams.microsoft.com/v2/#/l/entity/c92c289e-ceb4-4755-819d-0d1dffdab6fa/homeTab?context=%7B%22subEntityId%22%3A%22%7B%5C%22route%5C%22%3A%5C%22/researchhub/lead/" & CASESAFEID(Id) & "%5C%22%7D%22%7D","Click here")
     ```
 
-1. Set the visability to allow the field to be seen by the appropriate profile for your users. Set all profiles with visability to **Read-Only**, and then select **Next**.
-1. Add the field to the appropraite record pages and select **Next**.
+1. Set the visibility to allow the field to be seen by the appropriate profile for your users. Set all profiles with visibility to **Read-Only**, and then select **Next**.
+1. Add the field to the appropriate record pages and select **Next**.
 1. Add the field to page layouts and select **Save**.
 
 ## Show lead research summary on lead page
@@ -127,10 +127,10 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
     </apex:page>
     ```
 1. Select **Save**.
-1. From the list of pages, select **Security** for the **Sales Agent Summary** page and configure the page to be accessable to the appropriate profiles.
+1. From the list of pages, select **Security** for the **Sales Agent Summary** page and configure the page to be accessible to the appropriate profiles.
 
 > [!TIP]
-> If your leads are stored in an object other than the standard **Lead** object, you'll need to modify the code above to replace all references to the **Lead** object with the one that stores your leads.
+> If your leads are stored in an object other than the standard **Lead** object, you need to modify the above code to replace all references to the **Lead** object with the one that stores your leads.
 
 ### Add the summary to the lead page
 

@@ -54,7 +54,7 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 The Sales Agent can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
 > [!IMPORTANT]
-> At this time, the preview of Sales Agent does not support writing summaries to Dynamics 365 Sales.
+> At this time, the preview of Sales Agent doesn't support writing summaries to Dynamics 365 Sales.
 
 ### Create a table to store Sales Agent research summary
 
@@ -75,7 +75,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
    - **Company profile**: Enter the company profile details.
-1. Salesforce users need to take additional steps to configure permissions for the Sales Agent.
+1. Salesforce users need to take additional steps to [configure permissions for the Sales Agent](#configure-salesforce-permissions-for-sales-agent).
 1. Select **Activate**. The activation process may take a few minutes. Once activated, the status changes to **Activated**.
     :::image type="content" source="media/sales-agent-admin.png" alt-text="Screenshot showing admin settings for Sales Agent.":::
 
@@ -145,7 +145,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 ### Give permission to read custom objects and fields
 
-If the Sales Agent needs to access custom objects or custom fields configured in Salesforce, you'll need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent needs to be granted read access to each of those fields on your lead object.
+If the Sales Agent needs to access custom objects or custom fields configured in Salesforce, you need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent needs to be granted read access to each of those fields on your lead object.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the **Sales Agent** permission set created in the previous step.
@@ -155,7 +155,7 @@ If the Sales Agent needs to access custom objects or custom fields configured in
 
 ### Give permission to write summaries to Salesforce
 
-If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the summaries table.
+If configured to write research summaries to Salesforce, you need to give the Sales Agent permission to write to the summaries table.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the **Sales Agent** permission set created in the previous step.
@@ -171,7 +171,7 @@ If configured to write research summaries to Salesforce, you'll need to give the
 
 ### Give permission to create links from the lead to research summaries
 
-If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the lead records to link to their summary.
+If configured to write research summaries to Salesforce, you need to give the Sales Agent permission to write to the lead records to link to their summary.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the **Sales Agent** permission set created in the previous step.
