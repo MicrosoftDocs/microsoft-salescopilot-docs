@@ -22,9 +22,6 @@ Sales teams need to constantly generate enough pipeline to stay ahead of their s
 
 As a seller, you can save time and engage more leads with Sales Agent's AI-generated insights and personalized outreach messages. Sales Agent does the grunt work of looking at every available data source to build a comprehensive summary of each lead so you can quickly decide to engage or pass on the prospect. Sales Agent reviews every lead in your queue, gathers information, and synthesizes insights that are specific to your business. At a glance, you can determine if a lead is worth reaching out to and what they may be interested in. The information is then used to automatically generates personalized emails to send to the lead that increase response rates leading to a larger, more qualified pipeline, at a fraction of the time spent before.
 
-> [!TIP]
-> Sales Agent can also operate autonomously to engage with your leads directly to send emails, follow up, respond to questions, and hand off to sellers when the lead is ready. Request early access to the Sales Agent autonomous capabilities by [submitting this form.](https://go.microsoft.com/fwlink/?linkid=2325020)
-
 ## How it works
 
 Sales Agent uses a combination of internal and external data sources to research leads. It connects to your CRM (Microsoft Dynamics 365 Sales or Salesforce Sales Cloud) to find leads, and then uses the web and third-party data services to gather additional information about the lead's company, recent news, and other relevant insights. This information is then synthesized into a comprehensive summary that helps you decide whether to engage with the lead or not.
