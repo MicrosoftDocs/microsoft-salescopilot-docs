@@ -18,7 +18,7 @@ Sales Agent is a powerful tool that helps you automate your sales processes and 
 
 As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Copilot for Sales app.
 
-This article covers the steps required to integrate Sales Agent with Salesforce to give sellers the best experience in Salesforce.
+This article provides instructions to integrate Sales Agent with Salesforce to give sellers the best experience in Salesforce.
 
 ## Prerequisites
 
