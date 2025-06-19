@@ -1,7 +1,7 @@
 ---
 title: Sales Agent overview (preview)
 description: Learn how Sales Agent helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
-ms.date: 06/13/2025
+ms.date: 06/18/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,9 +15,15 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+> [!NOTE]
+> The Sales Agent is currently being rolled out to different regions in phases. If you don't see the agent in your environment, it might not have reached your region yet. The rollout is expected to be completed by June 23, 2025.
+
 Sales teams need to constantly generate enough pipeline to stay ahead of their sales goals. This requires deciding which leads to engage, a time-consuming process that today requires sellers to sift through large amount of data across tools and data sources, including data from internal systems like their CRM and external resources like the web and third-party data services.
 
 As a seller, you can save time and engage more leads with Sales Agent's AI-generated insights and personalized outreach messages. Sales Agent does the grunt work of looking at every available data source to build a comprehensive summary of each lead so you can quickly decide to engage or pass on the prospect. Sales Agent reviews every lead in your queue, gathers information, and synthesizes insights that are specific to your business. At a glance, you can determine if a lead is worth reaching out to and what they may be interested in. The information is then used to automatically generates personalized emails to send to the lead that increase response rates leading to a larger, more qualified pipeline, at a fraction of the time spent before.
+
+> [!TIP]
+> Sales Agent can also operate autonomously to engage with your leads directly to send emails, follow up, respond to questions, and hand off to sellers when the lead is ready. Request early access to the Sales Agent autonomous capabilities by [submitting this form.](https://go.microsoft.com/fwlink/?linkid=2325020)
 
 ## How it works
 

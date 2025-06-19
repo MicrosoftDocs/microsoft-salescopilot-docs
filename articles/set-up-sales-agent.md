@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 05/30/2025
+ms.date: 06/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -53,6 +53,9 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 
 The Sales Agent can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
+> [!IMPORTANT]
+> At this time, the preview of Sales Agent doesn't support writing summaries to Dynamics 365 Sales.
+
 ### Create a table to store Sales Agent research summary
 
 1. Create a custom table in your CRM to store the Sales Agent research summary. For example, **SalesAgentResearchSummaries**.
@@ -62,7 +65,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ### Create a field on lead record to reference the summary
 
 1. Locate the table in your CRM that represents your leads being researched. For example, **Lead**.
-1. Add a field to store the relationship from the lead to the summary table created above. For example, **SalesAgentResearchSummaries**. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
+1. Add a field named **SalesAgentResearchSummary**, to store the relationship from the lead to the summary table created above. In Salesforce, the data type of the field should be a **Lookup Relationship** related to the **SalesAgentResearchSummaries** table created above. In Dynamics 365, create a New relationship **Many-to-one** from the **Relationships** tab of the table.
 1. Set the permissions to allow the field be visible and read-only to your sellers. In Salesforce, you must give permission to the Salesforce integration user to write this field.
 
 ## Step 3: Set up and activate the agent
@@ -72,7 +75,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
    - **Company profile**: Enter the company profile details.
-1. Salesforce users need to take additional steps to configure permissions for the Sales Agent.
+1. Salesforce users need to take additional steps to [configure permissions for the Sales Agent](#configure-salesforce-permissions-for-sales-agent).
 1. Select **Activate**. The activation process may take a few minutes. Once activated, the status changes to **Activated**.
     :::image type="content" source="media/sales-agent-admin.png" alt-text="Screenshot showing admin settings for Sales Agent.":::
 
@@ -118,6 +121,9 @@ The Sales Agent connects to Salesforce using the [server-to-server data connecti
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
+> [!IMPORTANT]
+> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by Copilot for Sales. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
+
 ### Give permission to read activities, tasks, and events
 
 1. Go to **Users** > **Permission Sets**.
@@ -139,7 +145,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 ### Give permission to read custom objects and fields
 
-If the Sales Agent needs to access custom objects or custom fields configured in Salesforce, you'll need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent needs to be granted read access to each of those fields on your lead object.
+If the Sales Agent needs to access custom objects or custom fields configured in Salesforce, you need to give the Sales Agent explicit permission to read those objects and fields. For example, if you configured **Additional fields the agent should know about (recommended)**, the Sales Agent needs to be granted read access to each of those fields on your lead object.
 
 1. Go to **Users** > **Permission Sets**.
 1. Open the **Sales Agent** permission set created in the previous step.
@@ -149,10 +155,10 @@ If the Sales Agent needs to access custom objects or custom fields configured in
 
 ### Give permission to write summaries to Salesforce
 
-If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the summaries table.
+If configured to write research summaries to Salesforce, you need to give the Sales Agent permission to write to the summaries table.
 
 1. Go to **Users** > **Permission Sets**.
-1. Open **Copilot for Sales connected app permission set**.
+1. Open the **Sales Agent** permission set created in the previous step.
 1. Select **Object Settings**.
 1. Select the object configured to store the research summaries. For example, **SalesAgentResearchSummaries**.
 1. Select **Edit Properties**, and set the following permissions:
@@ -165,16 +171,20 @@ If configured to write research summaries to Salesforce, you'll need to give the
 
 ### Give permission to create links from the lead to research summaries
 
-If configured to write research summaries to Salesforce, you'll need to give the Sales Agent permission to write to the lead records to link to their summary.
+If configured to write research summaries to Salesforce, you need to give the Sales Agent permission to write to the lead records to link to their summary.
 
 1. Go to **Users** > **Permission Sets**.
-1. Open **Copilot for Sales connected app permission set**.
+1. Open the **Sales Agent** permission set created in the previous step.
 1. Select **Object Settings**.
-1. Select the object representing your leads being researched. For example, **Leads**.
+1. Select the object representing your leads being researched. For example, **Lead**.
 1. Select **Edit Properties**, and set the following permissions:
     - **Object permissions**: Read, Edit, View All Records
     - **Field permissions**:
         - **SalesAgentResearchSummary**: Read Access, Edit Access
+
+## Complete the CRM configuration
+
+Once the Sales Agent is activated, you must [integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md) to create a link to the lead's research, or optionally embed a widget to display the research summary on the lead page.
 
 ## Deactivate the agent
 
@@ -190,3 +200,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 
 - [Use Sales Agent](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
+- [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
