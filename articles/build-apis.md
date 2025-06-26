@@ -1,7 +1,7 @@
 ---
 title: Build Copilot for Sales extensions (preview)
 description: Explore how to build extensions that enhance capabilities and introduce new ones for Copilot for Sales.
-ms.date: 11/29/2024
+ms.date: 06/26/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

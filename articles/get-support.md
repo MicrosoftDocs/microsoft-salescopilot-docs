@@ -1,7 +1,7 @@
 ---
 title: Get support for Microsoft 365 Copilot for Sales
 description: Learn how to get support for Microsoft 365 Copilot for Sales, including technical support and community support.
-ms.date: 06/18/2024
+ms.date: 06/26/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

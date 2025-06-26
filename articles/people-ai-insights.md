@@ -1,7 +1,7 @@
 ---
 title: View People.ai insights (preview)
 description: View comprehensive customer insights from People.ai, including engagement levels, connections, and predicted buying power.
-ms.date: 05/20/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
