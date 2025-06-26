@@ -2,19 +2,19 @@
 
 
 
-title: Microsoft Copilot for Sales documentation
-summary: Discover how to make the most of Microsoft Copilot for Sales with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title: Microsoft 365 Copilot for Sales documentation
+summary: Discover how to make the most of Microsoft 365 Copilot for Sales with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Microsoft 365 Copilot for Sales to build strong relationships with your customers, take actions based on insights, and close deals faster.
 
 
 metadata:
 
-  title: Microsoft Copilot for Sales documentation
+  title: Microsoft 365 Copilot for Sales documentation
   description: Eliminates manual data entry and give sellers more time to focus on selling.
   author: sbmjais
   ms.author: shjais
   ms.topic: landing-page
   ms.service: microsoft-sales-copilot
-  ms.date: 02/02/2024
+  ms.date: 06/26/2025
   ms.custom: bap-template
 
 
@@ -28,7 +28,7 @@ landingContent:
 
 
 # Card 
-  - title: About Microsoft Copilot for Sales
+  - title: About Microsoft 365 Copilot for Sales
     linkLists:
        - linkListType: overview
          links:
@@ -66,8 +66,8 @@ landingContent:
             url: customize-forms-and-fields.md
           - text: Set up Copilot AI features
             url: suggested-replies.md
-          - text: Configure Copilot for Sales for Microsoft 365 apps
-            url: m365-admin-setting.md
+          - text: Set up Sales Agent
+            url: set-up-sales-agent.md
 
 
 # Card 
@@ -91,8 +91,6 @@ landingContent:
             url: email-summary-premium.md
           - text: View opportunity summary
             url: view-opportunity-summary.md
-          - text: Generate pre-meeting report
-            url: meeting-report-word.md
             
 
 # Card 

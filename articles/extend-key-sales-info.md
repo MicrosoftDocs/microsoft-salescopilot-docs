@@ -1,8 +1,8 @@
 ---
 title: Enrich key sales information with insights from your application (preview)
 description: Enhance sales information with Copilot for Sales in Outlook. Extend its capabilities by using insights from your own application.
-ms.date: 05/20/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -30,6 +30,10 @@ You can extend the key sales information capability that Copilot for Sales provi
 You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets additional sales insights that will be shown in C4S key sales info card in outlook sidecar. The action enhances the existing skills of copilot for sales.*
+
+## API operation
+
+This API uses Operation Type: GET
 
 ## Input parameters
 
@@ -100,12 +104,12 @@ Legend:
 1. Name of the partner application. The name that is shown is the name of the Microsoft Power Platform connector.
 1. Link that can be selected to view insight details in the partner application. It's based on the URL of the insight in the API response.
 
-## See also
+### Related information
 
 [View key sales information in Copilot for Sales](key-sales-info.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

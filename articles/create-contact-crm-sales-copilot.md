@@ -1,8 +1,8 @@
 ---
 title: Create a contact in your CRM from Copilot for Sales
 description: Learn how to create a contact in your CRM from Copilot for Sales.
-ms.date: 08/29/2024
-ms.topic: article
+ms.date: 02/20/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -15,7 +15,11 @@ If an external contact doesn't exist in your CRM, create a contact in the CRM r
 > [!TIP]
 > Enter the contact's email address in the following format when you compose an email or meeting invitation: **FirstName LastName &lt;email address&gt;**. If you do, the corresponding items in the CRM contact form fill automatically.
 
-To create a contact:
+Here's the video that shows how to create a contact in your CRM from Copilot for Sales:
+
+> [!VIDEO ee9d39c5-4f97-4355-9515-e7ace2866ebf]
+
+**To create a contact**:
 
 1. In the **Copilot for Sales** pane, hover over an unsaved contact, and then select **Add to (CRM)**.
 
@@ -52,7 +56,11 @@ This capability is available only for emails in the [supported languages](suppor
 
 ## Add new contacts through quick CRM actions in email banners
 
-When you read an email from external contacts, if at least one contact in the email thread isn't saved in your CRM, the banner message at the top of the email includes quick CRM actions that you can use to add the new contacts.
+When you read, compose, or reply to emails with external contacts in the From, To, or Cc fields, you can add new contacts to your CRM using quick CRM actions in the banner message. 
+
+When you read an email from external contacts, if at least one contact in the email thread isn't saved in your CRM, the banner message at the top of the email includes an action that you can use to add the new contacts. Currently, banner messages in this scenario are available on up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
+
+When you compose an email, create a meeting invite, or reply to an email or a meeting invite with external contacts, if at least one contact in the email isn't saved in your CRM, the banner message at the top of the email includes an action to add the new contacts. The banner message in this scenario is displayed for every email that contains external contacts.
 
 1. Open an email that has external contacts.
 1. In the banner message, select **Add contact** or **Add contacts**.
@@ -62,10 +70,8 @@ When you read an email from external contacts, if at least one contact in the em
 
 1. In the **New contact** or **New lead** form, add the required information, and then select **Save**.
 
-Currently, banner messages that include quick CRM actions are available on up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
-
-### See also
+### Related information
 
 [Create a new record in your CRM from Copilot for Sales](create-new-record.md)<br>
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

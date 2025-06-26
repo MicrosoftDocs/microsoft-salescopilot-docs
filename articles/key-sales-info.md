@@ -1,8 +1,8 @@
 ---
 title: View key sales information in Copilot for Sales
 description: Learn how to view key sales information in Copilot for Sales as you read and compose emails in Outlook.
-ms.date: 06/27/2024
-ms.topic: article
+ms.date: 05/30/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -13,11 +13,27 @@ ms.author: shjais
 As you read and compose emails in Outlook, you can use Copilot for Sales to view key sales information about the contacts, accounts, opportunities, and leads that are related to the email. Key sales information is based either on the opportunity or the lead that is connected to the email. If the email is neither connected to an opportunity nor a lead, Copilot for Sales suggests the most relevant opportunity based on the contacts and accounts in the email. You can choose a different opportunity if the suggested opportunity is not the most relevant one. If the email is connected to lead, and the lead was not qualified, the key sales information is based on the lead. If an opportunity is connected to the lead, the key sales information is based on the opportunity instead of the lead.
 
 > [!NOTE]
-> If you have the premium license, you can use the integrated experience in Outlook. This experience includes the ability to [view an email summary](email-summary-premium.md) and [generate email replies](email-reply-premium.md). The key sales information provides a comprehensive overview of CRM context. 
+> With the Copilot for Sales license, email summaries and replies are available in Outlook. Learn more about [viewing an email summary](email-summary-premium.md) and [generating email replies](email-reply-premium.md) using the integrated experience in Outlook. 
 
 ## License requirements
 
-- [Microsoft Copilot for Sales (premium)](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
+
+## Prerequisites
+
+You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to view the key sales information. If you use the classic Outlook for Windows or the native Outlook app for Mac destop, the [**Key email info**](view-save-email-summary-crm.md) card is displayed instead of the Key sales info card. 
+
+## Anatomy of key sales information
+
+:::image type="content" source="media/email-summary-reading.png" alt-text="Screenshot of an email summary card in the Copilot for Sales pane in Outlook when reading an email, with numbered callouts.":::
+
+Legend:
+
+1. Card title
+1. Citation number
+1. Share feedback on the email summary
+1. Copy the summary to the clipboard
+1. View the summary source
 
 ## View key sales information
 
@@ -65,6 +81,6 @@ If you have any feedback about the content, you can share it by selecting the ap
 1. Select the link to open the feedback form.
 1. Enter your responses in the feedback form, and then select **Send**.
 
-### See also
+### Related information
 
 [Enrich key sales info with insights from your application](extend-key-sales-info.md)

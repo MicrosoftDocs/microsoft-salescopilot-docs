@@ -1,8 +1,8 @@
 ---
 title: Enrich CRM record details with insights from your application (preview)
 description: Enhance your CRM record details with insights from your application by using the Copilot for Sales extension capability.
-ms.date: 05/20/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -25,6 +25,10 @@ Sellers can view details about a saved contact, together with associated records
 You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets records related to a CRM record. The action enhances the existing skills of Copilot for Sales.*
+
+## API operation
+
+This API uses Operation Type: GET
 
 ## Input parameters
 
@@ -111,12 +115,12 @@ Legend:
 1. "More actions" button that can be used either to copy a link to the record or to view record details in the partner application. The link is based on the URL of the related record in the API response.
 1. Additional properties of the related record from the API response.
 
-## See also
+### Related information
 
 [View record details](view-record-details.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

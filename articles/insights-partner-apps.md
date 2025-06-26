@@ -1,8 +1,8 @@
 ---
 title: View insights from partner applications (preview)
 description: View insights from partner applications within Copilot for Sales.
-ms.date: 05/20/2024
-ms.topic: article
+ms.date: 04/30/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -40,8 +40,9 @@ In the pop-up message in Outlook, select **Create** to create a connector for th
 :::image type="content" source="media/create-connector.svg" alt-text="Screenshot showing pop-up to create a connector.":::
 
 > [!NOTE]
+> - If the connector uses Microsoft Entra ID for authentication, the connection is created automatically and you are not prompted to sign in.
 > - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
-> - If you are a partner application maker and would like to integrate with Copilot for Sales, see Extend Copilot for Sales. Currently, DocuSign can be integrated with Copilot for Sales. 
+> - If you are a partner application maker and would like to integrate with Copilot for Sales, see [Extend Copilot for Sales](extend-copilot-for-sales.md). Currently, DocuSign can be integrated with Copilot for Sales. 
 
 ## View related records
 

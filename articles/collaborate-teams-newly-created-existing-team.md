@@ -1,7 +1,7 @@
 ---
 title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
-ms.date: 04/15/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -123,7 +123,7 @@ The AI-generated opportunity summary is available only when your administrator h
 
 If your administrator has turned off the Copilot for Sales app in Teams, the opportunity summary isn't available at all.
 
-### See also
+### Related information
 
 - [Set up a team using the account team template](set-up-team-account-team-template.md)
 - [Set up a team using the deal room template](set-up-team-deal-room-template.md)

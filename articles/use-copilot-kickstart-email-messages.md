@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Copilot for Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Copilot for Sales's AI.
-ms.date: 09/04/2024
+ms.date: 06/23/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,12 +17,14 @@ ms.custom:
 When you compose a new email or reply to your customers by email, Copilot for Sales uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
 > [!NOTE]
-> - This feature is available only when enabled by your administrator. More information: [Configure suggested email content in Outlook](suggested-replies.md)
+> - This feature is available only when enabled by your administrator. More information: [Turn on Copilot AI features](suggested-replies.md)
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending your email.
+> - If the email is connected to a CRM record and the associated activities have attachments exceeding a total of 28 MB, you may encounter issues while drafting the email. To prevent this, either remove the attachments from the activities or reduce their size so that the total size of the attachments is less than 28 MB per draft request.
+> - If you've opened an encrypted email, the capability to draft an email using Copilot for Sales isn't available.
 
 ## License requirements
 
-Capabilities mentioned in this article are available only to users with the Copilot for Sales standard license. If you have the Copilot for Sales premium license, you can see the integrated experience within Microsoft Outlook. For more information, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
+The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their existing Sales Copilot license](features-d365-users.md). Organizations that have purchased Copilot for Sales will see the fully integrated experience within Microsoft Outlook. For more information, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
 
 ## Anatomy of suggested content
 
@@ -68,7 +70,7 @@ You can get suggested responses when you reply to a customer email or as you're 
 1. Select **Add to email** to paste the content in the email body.
 
    > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+   > Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
    :::image type="content" source="media/suggested-content.png" alt-text="Screenshot showing the suggested content.":::
 
@@ -76,15 +78,13 @@ You can get suggested responses when you reply to a customer email or as you're 
 
 ## Create an email message using custom prompt
 
-If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content.
+If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content. You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
 
-You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
+If your prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited only to out-of-the-box fields of accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 
 > [!NOTE]
->
-> - Information from CRM is not displayed when using custom prompt to generated suggested email content.
->
-> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, pre-defined response categories are made available.
+> - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, predefined response categories are made available.
+> - If you provide a [meeting time](#add-or-remove-meeting-suggestions), [tone](#adjust-tone-of-the-suggested-content), or [language](#set-language-of-suggested-content) in the custom prompt, the AI generates the suggested content based on the provided information.
 
 1. In Outlook:
 
@@ -97,7 +97,7 @@ You can get suggested email content when you reply to a customer email, read an 
    :::image type="content" source="media/draft-an-email.png" alt-text="Screenshot showing the Draft an email button.":::
 
    > [!NOTE]
-   > Predefined response categories are not available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
+   > Predefined response categories aren't available while composing a new email. You can only enter custom prompt or [create an email to summarize your sales meeting](#create-a-sales-meeting-summary-email).
 
 1. In the textbox, enter a phrase to describe the kind of reply you want to send.
 
@@ -118,7 +118,7 @@ You can get suggested email content when you reply to a customer email, read an 
 1. Select **Add to email** to paste the content in the email body.
 
    > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+   > Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -263,7 +263,7 @@ After you generate the suggested content, you can refine the results further by
 1. Select **Add to email** to paste the content in the email body.
 
    > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+   > Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -291,7 +291,10 @@ You can set the length of the suggested content to be short, medium, or long. Th
 
 ## Adjust tone of the suggested content
 
-After you generate the suggested content, you can adjust the tone of the content according to the relationship with the customer or whatever feels comfortable. It helps you to be more productive and write better emails. For example, you can change the tone from professional to formal.
+By default, the content is generated in a professional tone. Once you have the suggested content, you can adjust the tone to suit your relationship with the customer or whatever feels comfortable. This helps you be more productive and write better emails. For example, you can change the tone from professional to formal.
+
+> [!NOTE]
+> If you're using custom prompt to generate the suggested content, you can specify the tone of the suggested content in the prompt.
 
 1. Generate the suggested reply using an appropriate response category.
 
@@ -308,7 +311,7 @@ After you generate the suggested content, you can adjust the tone of the content
 1. Select **Add to email** to paste the content in the email body or **Copy content** when you're reading an email.
 
    > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+   > Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 
@@ -331,6 +334,12 @@ To restore suggested content to its previous version, select **More options**, a
 ## Add or remove meeting suggestions
 
 By default, a meeting time isn't included in the suggested content. If a customer requests a meeting at a certain time and mentions the same in an email, the meeting time is included in the suggested content. The meeting time displayed in the suggested content is in your time zone.
+
+Working hours and calendar availability are considered before adding a meeting time to the draft. If the meeting is scheduled outside of working hours, such as on weekends or during weekday nights, AI suggests the closest available time during working hours. Similarly, if the time is shown as blocked on the calendar, an alternative available time is suggested.
+
+> [!NOTE]
+> - This feature isn't supported for Korean and Thai languages.
+> - If you're using custom prompt to generate the suggested content, you can specify a meeting time to be included in the suggested content.
 
 ### Add a meeting time suggestion
 
@@ -362,6 +371,7 @@ The language of the suggested content is determined as follows:
 
 - If you're replying to an email, the language of the suggested content is the same as the language of the email.
 - If you're composing a new email and using custom prompt to generate the suggested content, the language of the suggested content is the same as the language of the custom prompt.
+- If you're using custom prompt to generate the suggested content, you can specify the language of the suggested content in the prompt.
 
 In some cases, you might want to generate the suggested content in a different language. For example, you might want to generate the suggested content in the language of the customer.
 
@@ -417,7 +427,7 @@ With Copilot for Sales, you can summarize your most recent transcribed Teams mee
    :::image type="content" source="media/summary.png" alt-text="Screenshot showing the summarized meeting content.":::
 
    > [!NOTE]
-   > Existing content in the email body is not replaced. The suggested content is prepended to any existing content in the email body.
+   > Existing content in the email body isn't replaced. The suggested content is prepended to any existing content in the email body.
 
 1. Edit the email content as required, and then send it.
 

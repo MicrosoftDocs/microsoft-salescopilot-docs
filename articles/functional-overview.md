@@ -1,7 +1,7 @@
 ---
-title: Copilot for Sales functional overview
+title: Microsoft 365 Copilot for Sales functional overview
 description: Maximize seller productivity with Copilot for Sales, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 05/01/2024
+ms.date: 04/30/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,11 +12,15 @@ ms.custom:
   - ai-seo-date:02/01/2024
 ---
 
-# Copilot for Sales functional overview
+# Microsoft 365 Copilot for Sales functional overview
 
-Microsoft Copilot for Sales is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.  
+Copilot for Sales is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.  
 
-Copilot for Sales connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Copilot for Microsoft 365 is included in Copilot for Sales, helping organizations benefit more broadly from productivity enhancements across their workflows.
+Copilot for Sales connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in Copilot for Sales, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on Copilot for Sales pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
+
+> [!NOTE]
+> - Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to get started. Limited functionalities do not provide access to the Microsoft 365 Copilot functionality. For more information, go to [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
+> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate Copilot for Sales. More information, go to [Microsoft 365 Copilot for Sales license overview](license-info.md).
 
 The following sections provide an overview of the value that Copilot for Sales provides to sales teams.
 
@@ -29,12 +33,6 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 - Get Copilot assistance to [add contacts](create-contact-crm-sales-copilot.md) and update CRM records in [Outlook](edit-crm-record.md) and [Teams](view-update-crm-record-details.md) and sync to your CRM platform.
 
 - View Copilot-generated opportunity summaries and CRM record information in Outlook and Teams.
-
-### Create personalized sales content
-
-[Generate sales meeting preparation briefs in Microsoft Word](meeting-report-word.md), pulling from CRM platform and Microsoft Graph data.
-
-:::image type="content" source="media/word-sales-meetings.png" alt-text="Screenshot of a selected Sales meeting from the menu.":::
 
 ## Personalize customer engagements 
 
@@ -50,11 +48,11 @@ Get real-time call insights in Teams such as summaries of past meeting notes, CR
 
 - [View AI-generated email summaries](email-summary-premium.md) in Outlook with CRM insights and BANT (Budget, Authority, Need, Timing) sales assessment.
 
-    :::image type="content" source="media/outlook-email-summary.svg" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
+    :::image type="content" source="media/email-summary-premium-license-copilot-summary-sales-insights.png" alt-text="Screenshot showing email summary with sales insights in Outlook.":::
 
 - [Generate email drafts](email-reply-premium.md) in Outlook with relevant product and opportunity information, pulling from CRM platform and Microsoft Graph data.
 
-    :::image type="content" source="media/outlook-email-reply.svg" alt-text="Screenshot showing email reply option in Outlook.":::
+    :::image type="content" source="media/email-draft-premium-license.png" alt-text="Screenshot showing email reply option in Outlook.":::
 
 - [View AI-generated meeting summaries](view-meeting-summary-recap.md) including keyword and conversation analysis, competitor mentions, KPIs, and suggested tasks. Create tasks in your CRM. 
 
@@ -66,7 +64,7 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 ### Improve team collaboration
 
-- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from Microsoft Copilot for Sales in Outlook or directly from the Dynamics 365 Sales app.
+- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from Copilot for Sales in Outlook or directly from the Dynamics 365 Sales app.
 
     :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook.":::
 
@@ -86,8 +84,8 @@ Customize Copilot for Sales for a uniquely tailored experience that meets your o
 
 [Extend Copilot for Sales](extend-copilot-for-sales.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
-### See also
+### Related information
 
 [Copilot for Sales architecture](architecture.md)<br>
 [Copilot for Sales license overview](license-info.md)<br>
-[Microsoft Copilot for Sales FAQ](sales-copilot-faq.md)
+[Microsoft 365 Copilot for Sales FAQ](sales-copilot-faq.md)

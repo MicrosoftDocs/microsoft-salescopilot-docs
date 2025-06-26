@@ -1,8 +1,8 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 06/14/2024
-ms.topic: article
+ms.date: 02/20/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -22,9 +22,13 @@ The suggestions are displayed in the **Suggested actions** card in the Copilot f
 
 :::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
 
+Here's the video that shows [how to view the opportunity summary](view-opportunity-summary.md) and update the CRM based on suggested updates:
+
+> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
+
 ## License requirements
 
-[Microsoft Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot#featuresandpricing)
+- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## Update CRM with suggested updates
 
@@ -75,6 +79,6 @@ You can also update an opportunity record with the suggested updates when viewin
 
 1. Select **Save**.
 
-### See also
+### Related information
 
 [View opportunity summary](view-opportunity-summary.md)

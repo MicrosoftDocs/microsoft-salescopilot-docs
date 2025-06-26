@@ -1,8 +1,8 @@
 ---
 title: Standardize error responses (preview)
 description: Standardize error responses to ensure consistent and understandable messages.
-ms.date: 02/02/2024
-ms.topic: article
+ms.date: 03/28/2025
+ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -39,7 +39,7 @@ The following table lists a few scenarios and the expected error codes.
 | Too many requests were sent to the connector. | REQUEST_THROTTLED | 429 |
 | An unhandled service error occurred. | INTERNAL_SERVER_ERROR | 500 |
 
-## See also
+### Related information
 
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

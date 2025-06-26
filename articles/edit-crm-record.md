@@ -1,8 +1,8 @@
 ---
 title: Edit a CRM record
 description: Learn how to edit a CRM record.
-ms.date: 02/02/2024
-ms.topic: article
+ms.date: 03/28/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

@@ -1,8 +1,8 @@
 ---
 title: Create a new record in your CRM from Copilot for Sales
 description: Learn how to create a new record in your CRM from Copilot for Sales.
-ms.date: 07/05/2024
-ms.topic: article
+ms.date: 06/26/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -22,8 +22,7 @@ You can create a new record in your CRM from the Copilot for Sales side pane. Th
 
     :::image type="content" source="media/global-create.png" alt-text="Screenshot showing the global option to create a new record.":::
 
-1. In the **Choose which type of record to create** step, the following options are shown for the record types, based on the configuration of new record creation:
-
+1. In the **Choose which type of record to create** step, the following options are shown for the record types, based on the configuration of new record creation:  
     - **Create**: This option is shown if both inline creation and creation in CRM are enabled for the record type. Select this option, and then select the appropriate action.
     - **Create record**: This option is shown if only inline creation is enabled for the record type.
     - **Create in CRM**: This option is shown if only creation in CRM is enabled for the record type.
@@ -42,15 +41,13 @@ Copilot for Sales shows records that are related to the saved contacts in the em
 
     :::image type="content" source="media/related-record-create.png" alt-text="Screenshot showing the option to create a new record from a related record card.":::
 
-1. Based on the configuration of new record creation, the following behavior occurs:
-
+1. Based on the configuration of new record creation, the following behavior occurs:  
     - If only inline creation or only creation in CRM is enabled for the record type, a new record is created based on the enabled configuration.
-    - If both inline creation and creation in CRM are enabled for the record type, the following options are shown:
-
-        - **Create record**: Create a new record inline in the **Copilot for Sales** pane.
+    - If both inline creation and creation in CRM are enabled for the record type, the following options are shown:  
+        - **Create record**: Create a new record inline in the **Copilot for Sales** pane.  
         - **Create in CRM**: Create a new record in the CRM system.
 
-### See also
+### Related information
 
-[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)<br>
+[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)  
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

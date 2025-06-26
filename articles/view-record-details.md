@@ -1,8 +1,8 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 04/24/2024
-ms.topic: article
+ms.date: 03/10/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -14,30 +14,31 @@ ms.custom:
 
 # View record details
 
-You can view details about your saved contact and its related records such as account and opportunities.
+You can view details about your saved contact and its related records such as account and opportunities. The record types that you can view are determined by your administrator.
 
-> [!NOTE]
-> All record types that are added by your administrator are displayed, if related to contact, when viewing saved contact details.
+If you have a license for People.ai and and your administrator [turned on the People.ai integration](use-extensions.md#integrate-with-peopleai), then [insights from People.ai](people-ai-insights.md) are displayed for contacts, opportunities, and accounts.
 
-1. Open the **Copilot for Sales** pane.
+1. In Outlook, open the **Copilot for Sales** pane.  
 
-1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.
+1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.  
 
-If you have a license for People.ai and the capability to display insights from People.ai is [enabled by your administrator](use-extensions.md#integrate-with-peopleai), insights from People.ai are displayed for contacts, opportunities, and accounts. More information: [View People.ai insights](people-ai-insights.md)
 
-## Open a record in CRM
+## Open a record in your CRM
 
-You can also open a record in CRM to view its complete details. In record details, select **More actions** (**...**), and then select **Open in (CRM)**. The record details open in a new tab.
+The information that's available in Copilot for Sales is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
 
-:::image type="content" source="media/open-dynamics.png" alt-text="Screenshot showing the open in CRM icon.":::
+If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
+
+1. View the record details.
+
+1. In record details, select **More actions** (**...**), and then select **Open in (CRM)**. The record details open in a new tab.
+
+    :::image type="content" source="media/open-dynamics.png" alt-text="Screenshot showing the open in CRM icon.":::
 
 Alternatively, you can also open a record in CRM from the **Copilot for Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
 
-> [!NOTE]
-> If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
+### Related information
 
-### See also
-
-[Enrich CRM record details with insights from your application](extend-record-details.md)<br>
+[Enrich CRM record details with insights from your application](extend-record-details.md)

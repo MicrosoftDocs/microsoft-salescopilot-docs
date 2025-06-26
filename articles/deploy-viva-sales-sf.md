@@ -1,8 +1,8 @@
 ---
-title: Copilot for Sales deployment guide for Salesforce CRM customers
-description: Learn how to deploy Copilot for Sales for Salesforce CRM customers.
-ms.date: 06/20/2024
-ms.topic: article
+title: Microsoft 365 Copilot for Sales deployment guide for Salesforce CRM customers
+description: Learn how to deploy Microsoft 365 Copilot for Sales for Salesforce CRM customers.
+ms.date: 03/04/2025
+ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -10,13 +10,13 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Copilot for Sales deployment guide for Salesforce CRM customers
+# Microsoft 365 Copilot for Sales deployment guide for Salesforce CRM customers
 
 Follow the instructions in this guide to deploy Copilot for Sales for your Salesforce CRM customers. Here's a quick video overview of the steps involved:
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1kFRW]
+> [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ Enable transcripts for Teams calls so that when Copilot for Sales is added to a 
 
 Copilot for Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Copilot for Sales.
 
-Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](install-viva-sales.md#permissions-required-for-salesforce-administrators).
+Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](privileges.md#permissions-required-for-salesforce-administrators).
 
 Users of Copilot for Sales need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
@@ -98,14 +98,16 @@ Copilot for Sales uses the Power Platform connector to connect to Salesforce CRM
 
 ## Step 7: First user sign in
 
-When the first user in the tenant connects to Salesforce CRM, Copilot for Sales provisions a Dataverse environment to store the data generated  while using Copilot for Sales. Refer to [Copilot for Sales architecture](architecture.md) for more details on how the environment is used and what data is stored.
+When the first user signs in to Salesforce CRM from the Copilot for Sales app in [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm), an API call is triggered to provision a msdyn_viva Dataverse environment for the tenant to store the data generated while using Copilot for Sales. 
 
-Copilot for Sales automatically assigns all the Power Platform administrators and Microsoft 365 global administrators as the System Administrator role in the **Trial** environment. We recommend you review the administrators in the environment after it is created to ensure that the right users are set as administrators.
+The environment is provisioned using server-to-server (S2S) authentication, which means any user can initiate the process. The platform API provisions the trial environment and assigns the administrator role to a predefined admin user rather than the initiating user. For more details on the architecture and how data is stored, go to [Copilot for Sales architecture](architecture.md).
 
-> [!NOTE]
-> The first user connecting to Salesforce CRM from Copilot for Sales will see an error if they are not an admin user and trial environment creation by non-admin users is disabled for the tenant in the Power platform admin center.
-To avoid this error, it's recommended that the tenant administrator signs in to Salesforce CRM from Copilot for Sales first. This creates a trial environment in Dataverse. Once the trial environment is created, other users can sign in to Copilot for Sales. For information on how to sign in to Copilot for Sales, see [Sign in to CRM](use-sales-copilot-outlook.md#sign-in-to-crm).
+**Administer roles in the provisioned environment**
 
+Copilot for Sales automatically assigns all Power Platform administrators and Microsoft 365 global administrators to the System Administrator role in the trial environment. After the environment is created, it is recommended to review the list of administrators to ensure appropriate access levels.
+
+> [!IMPORTANT]
+> In the Power Platform Admin Center, tenant administrators can restrict trial environment creation to administrators. However, due to the current provisioning flow, this setting is bypassed because the system assigns a predefined administrator during provisioning. This means tenant administrators cannot gate these environments from being created.
 
 ## Step 8 (optional): Customize Copilot for Sales
 
@@ -130,7 +132,7 @@ Now that you've installed and configured Copilot for Sales in Outlook and Teams,
 
 | |
 |---------|
-|**Subject**: Welcome to Copilot for Sales!</br><br>Dear Sellers,</br><br>Welcome to Copilot for Sales, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Copilot for Sales can do for you by [watching this short video](https://www.microsoft.com/en-us/videoplayer/embed/RW181Q6) and taking the [Microsoft Copilot for Sales training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Copilot for Sales for the first time**</br><br>[Access Copilot for Sales in Outlook](open-app.md#access-copilot-for-sales-in-outlook), [sign in to your CRM system](sign-in-crm-outlook.md), and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Copilot for Sales features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](generate-meeting-summary.md)</li></br><li>[View and understand the meeting summary](view-understand-meeting-summary.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Copilot for Sales troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Microsoft Copilot for Sales · Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
+|**Subject**: Welcome to Copilot for Sales!</br><br>Dear Sellers,</br><br>Welcome to Copilot for Sales, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Copilot for Sales can do for you by [watching this short video](https://learn-video.azurefd.net/vod/player?id=e7eb1248-4d7f-464b-896c-70f47e6e7fdf) and taking the [Copilot for Sales training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Copilot for Sales for the first time**</br><br>[Sign in to your CRM system](sign-in-crm-outlook.md) and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Copilot for Sales features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Copilot for Sales](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](generate-meeting-summary.md)</li></br><li>[View and understand the meeting summary](view-understand-meeting-summary.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Copilot for Sales troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Copilot for Sales - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Microsoft 365 Copilot for Sales · Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
 
 > [!IMPORTANT]
 > It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Copilot for Sales app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)

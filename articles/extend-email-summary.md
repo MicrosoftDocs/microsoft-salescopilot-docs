@@ -1,8 +1,8 @@
 ---
-title: Enrich email summaries with insights from your application (preview)
-description: Enhance email summaries in Outlook by using Copilot for Sales and insights from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 05/29/2024
-ms.topic: article
+title: Enrich email summary with content suggestions from your application (preview) 
+description: Enhance email summaries in Outlook by using Copilot for Sales with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
+ms.date: 04/15/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:05/07/2024
 ---
 
-# Enrich email summaries with insights from your application (preview)
+# Enrich email summary with content suggestions from your application (preview) 
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -20,25 +20,58 @@ ms.custom:
 
 When Copilot in Outlook and Copilot for Sales are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that Copilot for Sales provides with insights from your own application.
 
+> [!NOTE]
+> This API replaces the existing _Email Summary Skill_ API (Operation Id: scp-get-email-insights) with a new version. 
+
 ## API description
 
-You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. This helps Copilot for Sales identify the correct API to invoke for enriching the capability.
 
 *This action gets additional sales insights that will be shown in C4S email summary experience inside outlook summary. The action enhances the existing skills of copilot for sales.*
 
-## Input parameters
+## API details
 
-Copilot for Sales is designed to provide the following input parameters to your APIs.
+- **API name**: Email Summary Skill Version 2
+- **Swagger operation Id**: scp-get-email-insights-v2
+- **Swagger operation method**: post 
+- **Path**: `<PowerAppsConnectorHostName>/api/enhanceskills/email-insights-v2`
 
-| Name | Data type/format | Required | Details | Description to add in the action |
-|------|------------------|----------|---------|----------------------------------|
-| recordType | String | No | The record type in CRM. The record can specify the account, opportunity, lead, or contact that is related to the email. | This input identifies the record type in CRM, which is related to the summarized email. |
-| recordId | String | No | The record ID in CRM that related records are requested for. | This input provides the unique identifier of the CRM record that is related to the summarized email. |
-| crmType | String | No | The type of CRM system. The valid values are *Salesforce* and *Dynamics 365*. | This input indicates the type of CRM in which the record related to the summarized email exists. |
-| crmOrgUrl | String | No | The CRM organization URL. | This input indicates the URL of the CRM environment in which the record related to the summarized email exists. |
-| emailContacts | String | Yes | A comma-separated list of email addresses, such as `kenny@contoso.com,logan@contoso.com`. | This input indicates a list of all relevant participant emails in the current email thread. |
-| Top | Integer | No | The number of insights to fetch. | This input indicates the number of insights to fetch. |
-| Skip | Integer | No | The number of insights to skip. | This input indicates the number of items to skip when fetching insights. |
+
+## Input payload
+
+This payload goes as the request body of the API request.
+
+| Name           | Data Type | Required | Details | Description to add in the action |
+|----------------|-----------|----------|---------|----------------------------------|
+| resourceData   | Object    | Yes      | The resource data to be used for fetching the suggested content. For the data structure, go to [Extensibility email data model](#extensibility-email-data-model). | This input identifies the email content which is a collection of email thread, subject, and other details. |
+| relatedEntities   | Array    | No      | The array of related entities. For the data structure, go to [Related entity data model](#related-entity-data-model). | This input identifies the array of CRM records, which is related to the email thread. |
+| crmType        | String    | No       | The type of CRM system, if connected. The valid values are Salesforce and Dynamics 365. | This input indicates the type of CRM in which the record related to the email thread exists. |
+| crmOrgUrl      | String    | No       | The CRM organization URL. | This input indicates the URL of the CRM environment in which the record related to the email thread exists. |
+| top            | Integer   | No       | The number of items to fetch. | This input indicates the number of file links to fetch. |
+| skip           | Integer   | No       | The number of items to skip. | This input indicates the number of items to skip when fetching suggested file links. |
+
+### Extensibility email data model
+
+| Property  | Type | Details | Description to add in the action |
+|-----------|------|---------|----------|
+| plaintextBody | String  | The complete email body includes all the previous messages of the email thread in it.| This input provides all the content from the email thread in text format.   |
+| fullHtmlBody | String  | The full HTML version of the email body that includes all the previous messages of the email thread in it. | This input provides all the content from the email thread in HTML format. |
+| subject   | String   | Subject of the email. | This input provides the subject of the email.   |
+| from    | String   | Sender's email address.  | This input provides the sender's email address. |
+| to  | String[]  | Receiver's email addresses.   | This input provides the receiver's email address. |
+| cc  | String[]  | Receiver's email addresses added in the Cc field of the email. | This input provides all the receiver's email addresses that are included in the Cc field of the email. |
+| bcc | String[]  | Receiver's email addresses added in the Bcc field of the email.  | This input provides all the receiver's email addresses that are added in the Bcc field of the email. |
+| sentDateTime  | DateTimeOffset | The date and time of the email in UTC format along with the Offset property. For more information, go to [DateTimeOffset Struct (System)](/dotnet/api/system.datetimeoffset?view=net-9.0&preserve-view=true) | This input provides the timestamp of the email. |
+| messageId | String  | The Graph message Id of the email. | This input provides the message ID of the email. |
+| conversationId | String  | The Graph conversation Id of the email thread. | This input provides the conversation ID of the email thread. |
+
+### Related entity data model
+
+| Property    | Type   | Required | Details | Description to add in the action |
+|-------------|--------|----------|-----------|-----------------------------|
+| entityId    | String | Yes   | The type of CRM record such as account or opportunity.  | This input provides the unique identifier of the CRM record that is related to the email thread. |
+| entityType  | String | Yes   | The unique identifier of the CRM record to use for suggested contents. | This input identifies the record type in CRM, which is related to the email thread. |
+| entitySource| String | No  | This input indicates the entity source, currently contains "connected" or empty values. | This input indicates the entity source type.  |
 
 ## Output parameters
 
@@ -46,18 +79,14 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|
-| value | Array | Yes | <p>A list of insights (objects) that are defined as described in the [Schema for insights](#schema-for-insights) section.</p><p>**Note**: Although this parameter includes a list of insights, only the first insight is used in the email enrichment summary.</p> |
+| value | Array | Yes | <p>A list of insights (objects) that are defined as described in the [Schema for insights](#schema-for-insights) section.</p><p>**Note**: Although this parameter includes a list of insights, only the first insight is used in the email enrichment summary for Outlook Canvas experience.</p> |
 | hasMoreResults | Boolean | No | A value that indicates whether more results are available. |
 
 ### Schema for insights
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|------------------|----------|---------|----------------------------------|
-| Title | String of up to 20 characters | Yes | The title of the sales insight. | This output indicates the title of the partner section and should include only the partner's name. |
-| Description | String | Yes | The insight that is delivered to users, such as *Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before.* | This output indicates the text you would like to be included in the email summary. |
-
-> [!NOTE]
-> Although the API requirements for extending email summary capabilities and record summary capabilities might look similar, they must be added as separate actions in the connector.
+| insight | String | Yes | The insight that is delivered to users, such as *Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before.* | This  output indicates the text you would like to be included in the email summary. |
 
 ### Example
 
@@ -65,29 +94,41 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 {
     "value": [
         {
-            "title": "From Contoso Customer Insights",
-            "description": "Your colleagues Mona Kane, Ray Tanaka, and Daniela Smith have worked with them before."
+            "insight": "Your colleagues Mona Kane, Ray Tanaka and Daniela Smith have worked with them before."
+        },
+        {
+            "insight": "The email was opened three times in the last month."
         }
     ],
     "hasMoreResults": false
 }
+ 
 ```
 
-The example in the following image shows how the output of the API is mapped to the email summary.
+The example in the following image shows how the output of the API is mapped to the email summary in side pane.
 
-:::image type="content" source="media/extend-email-summary.svg" alt-text="Screenshot showing insights from partner apps in the email summary.":::
+:::image type="content" source="media/extend-email-summary-sidepane.png" alt-text="Screenshot showing insights from partner apps in the email summary.":::
+
+Legend:
+
+1. Title of the insight. Insights that have the same title are grouped together.
+1. Descriptions of the insight. Each insight has one description.
+
+The example in the following image shows how the output of the API is mapped to the email summary in the email body.
+
+:::image type="content" source="media/extend-email-summary-oncanvas.png" alt-text="Screenshot showing insights from partner apps in the email body.":::
 
 Legend:
 
 1. Title of the insight. Insights that have the same title are grouped together.
 1. Description of the insight. Each insight has one description.
 
-## See also
+### Related information
 
 [Summarize an email thread using sales information with Copilot in Outlook](email-summary-premium.md)<br>
-[Add new question and answer (Q&A) capabilities to the Sales chat](extend-m365-chat.md)<br>
 [Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)
