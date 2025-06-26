@@ -13,16 +13,16 @@ ms.author: shjais
 > [!NOTE]
 > This article is relevant only if you've connected Copilot for Sales to your Dynamics 365 environment.
 
-[Server-side synchronization](/power-platform/admin/server-side-synchronization) provides direct synchronization of emails, appointments, contacts, and tasks between Dynamics 365 applications and Exchange email server. Turning on server-side synchronization is a pre-requisite for saving Outlook emails and appointments to Dynamics 365. Enabling server-side synchronization has the following benefits:
+[Server-side synchronization](/power-platform/admin/server-side-synchronization) provides direct synchronization of emails, appointments, contacts, and tasks between Dynamics 365 applications and Exchange email server. Turning on server-side synchronization is a prerequisite for saving Outlook emails and appointments to Dynamics 365. Enabling server-side synchronization has the following benefits:
 
 - All participants in an email or appointments who are Copilot for Sales users will see the same status (saved or unsaved) of the Outlook activity.  
 - Remove saved emails and appointments.  
-- Automatically save replies to emails which were saved to CRM.
+- Automatically save replies to emails that were saved to CRM.
 
 ## Turn on server-side synchronization
 
-If you are a CRM administrator, you can simplify seller experience by setting up server-side synchronization of emails and appointments for all Copilot for Sales users. For information about enabling server-side synchronization, see [Connect to Exchange Online](/power-platform/admin/connect-exchange-online).  
-If you are a seller and if server-side synchronization is not enabled for you by your administrator, you are prompted to enable server-side synchronization for your mailbox when you save Outlook activities to Dynamics 365 using Copilot for Sales for the first time.
+If you're a CRM administrator, you can simplify seller experience by setting up server-side synchronization of emails and appointments for all Copilot for Sales users. For information about enabling server-side synchronization, see [Connect to Exchange Online](/power-platform/admin/connect-exchange-online).  
+If you're a seller and if server-side synchronization isn't enabled for you by your administrator, you're prompted to enable server-side synchronization for your mailbox when you save Outlook activities to Dynamics 365 using Copilot for Sales for the first time.
 
 > [!NOTE]
 > If you don't turn on server-side synchronization, a message is displayed when you save an email or a meeting for the first time to your CRM.
