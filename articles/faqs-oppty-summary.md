@@ -1,7 +1,7 @@
 ---
 title: FAQ for opportunity summary feature in Outlook and Teams
 description: This FAQ provides information about the AI technology used in the opportunity summary feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 04/24/2024
+ms.date: 06/26/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

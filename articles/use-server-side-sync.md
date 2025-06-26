@@ -1,7 +1,7 @@
 ---
 title: Use server-side synchronization with Copilot for Sales
 description: Learn how to use server-side synchronization with Copilot for Sales.
-ms.date: 11/29/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
