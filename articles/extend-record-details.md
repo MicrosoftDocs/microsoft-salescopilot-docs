@@ -1,7 +1,7 @@
 ---
 title: Enrich CRM record details with insights from your application (preview)
 description: Enhance your CRM record details with insights from your application by using the Copilot for Sales extension capability.
-ms.date: 05/20/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

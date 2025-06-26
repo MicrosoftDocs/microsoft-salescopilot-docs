@@ -1,7 +1,7 @@
 ---
 title: Enrich email drafts with file links from your application (preview)
 description: Enhance email drafts in Outlook by using Copilot for Sales and file links from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 12/11/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
