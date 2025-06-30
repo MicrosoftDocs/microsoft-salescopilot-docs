@@ -178,17 +178,17 @@
 
   - name: Capabilities in Teams
     items:
-    - name: Elevate sales meeting
+    - name: Overview
+      href: create-teams-meeting.md
+    - name: Pre-meeting
       items:
-      - name: Create a Teams meeting
-        href: create-teams-meeting.md
       - name: View meeting preparation card
         href: meeting-prep.md
+    - name: During meeting 
+      items: 
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
-      - name: Generate a meeting summary
-        href: generate-meeting-summary.md
-      - name: View meeting summary
+      - name: Post-meeting
         items:
         - name: View meeting summary using Copilot for Sales license
           href: view-meeting-summary-recap.md
