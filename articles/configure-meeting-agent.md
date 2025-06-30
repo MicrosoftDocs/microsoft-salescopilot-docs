@@ -31,17 +31,17 @@ To configure auto recording for sales meetings:
 
 ## Configure daily summary of meetings
 
-The daily summary of meetings helps sellers stay organized by providing a single notification summarizing the next five upcoming sales meetings. It reduces notification fatigue while delivering critical insights. The notification categorizes meetings by date, includes clickable meeting titles, and provides essential details like duration and agenda summaries.
+The daily summary of meetings helps sellers stay organized by providing a single notification summarizing the next five upcoming sales meetings. It reduces notification fatigue while delivering critical insights. The notification categorizes meetings by date, includes clickable meeting titles, and provides essential details like duration and agenda summaries. By default, the feature is turned off. 
 
-By default, the daily summary of meetings is sent at 7:30 AM in the seller's time zone. You can change the time based on your organizational needs.
-
-To configure the time of daily summary of meetings:
+To turn on the daily summary of meetings feature:
 
 1. In Copilot for Sales admin settings, select **Meeting agent**.
 2. Under **Notifications**, select **Daily digest**.
-3. In the **Daily digest** pane, select **On** or **Off** to enable or disable the feature.
+3. In the **Daily digest** pane, select **On**.
 4. From the **Delivery time** list, select the time when the daily digest is sent. By default, 7:30 AM is selected.
 5. Select **Save**.
+
+If you want to turn off the daily summary of meetings feature, follow the same steps and select **Off** in step 3.
 
 ## Configure pre-meeting preparation notifications
 
