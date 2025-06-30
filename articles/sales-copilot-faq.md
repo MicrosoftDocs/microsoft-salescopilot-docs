@@ -63,7 +63,7 @@ We appreciate the customers that have invested early in the standalone Sales Cop
 
 ### What languages will Copilot for Sales support? 
 
-There are no changes to [country/region availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
+There are no changes to [country/region availability or languages](introduction#supported-languages) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
 ### What geographies will Copilot for Sales support?   
 

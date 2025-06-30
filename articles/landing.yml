@@ -34,10 +34,10 @@ landingContent:
          links:
           - text: What is Copilot for Sales?
             url: introduction.md
-          - text: Supported languages
-            url: supported-languages.md
-          - text: Data handling
-            url: data-handling.md
+          - text: Priviliges required
+            url: privileges.md
+          - text: Mobile support
+            url: mobile-support.md
        - linkListType: architecture
          links:
           - text: Copilot for Sales architecture

@@ -54,7 +54,7 @@ Here's the video that shows how to view the opportunity summary and [update the 
 
 ## Supported languages
 
-To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
+To see a list of supported languages, see [supported languages](introduction#supported-languages).
 
 ## View the summary
 
