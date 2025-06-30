@@ -188,12 +188,12 @@
       items: 
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
-      - name: Post-meeting
-        items:
-        - name: View meeting summary using Copilot for Sales license
-          href: view-meeting-summary-recap.md
-        - name: View meeting summary using Sales Copilot license
-          href: view-understand-meeting-summary.md
+    - name: Post-meeting
+      items:
+      - name: View meeting summary using Copilot for Sales license
+        href: view-meeting-summary-recap.md
+      - name: View meeting summary using Sales Copilot license
+        href: view-understand-meeting-summary.md
     - name: CRM actions
       items:
       - name: View and update CRM record details
