@@ -41,7 +41,7 @@ The meeting preparation card contains the following information:
     :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card"::: 
 
 > [!TIP]
-> You can regenerate the meeting preparation card by entering the `Meeting prep card` prompt in the Copilot for Sales chat. You are prompted to select the meeting for which you want to regenerate the card. 
+> You can regenerate the meeting preparation card by entering the `Meeting prep card` prompt in the personal chat with the **Copilot for Sales** bot or in the **Chat** tab of the Copilot for Sales personal app in Teams. You are prompted to select the meeting for which you want to regenerate the card. 
 
 ## How does the card work?
 
