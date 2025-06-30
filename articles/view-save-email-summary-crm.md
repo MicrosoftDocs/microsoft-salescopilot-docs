@@ -22,7 +22,7 @@ Email summaries are available when:
 
 - The email is to or from a contact outside your company, and the contact exists in your CRM.
 - The email content is more than 1,000 characters, or about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
-- The email is in one of the supported languages. Learn more in [Supported languages in Copilot for Sales for Outlook and Teams](introduction#supported-languages).
+- The email is in one of the supported languages. Learn more in [Supported languages in Copilot for Sales for Outlook and Teams](introduction.md#supported-languages).
 - The email isn't encrypted.
 
 ## License requirements
@@ -76,7 +76,7 @@ In the **Key email info** card, you can perform the following tasks:
 
 - To copy the summary for use in other applications, select **Share** > **Copy summary**.
 
-- To change the language of the email summary, select **...** > **Change language**, select the language from the list, and then select **Change**. View the [list of supported languages](introduction#supported-languages).
+- To change the language of the email summary, select **...** > **Change language**, select the language from the list, and then select **Change**. View the [list of supported languages](introduction.md#supported-languages).
 
 - To provide feedback on the email summary, select the thumbs-up or thumbs-down icon. Be sure not to share personal information in your feedback.
 

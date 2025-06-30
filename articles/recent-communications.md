@@ -45,7 +45,7 @@ The **Recent communications** card retrieves the following communications from M
 
 ## Supported languages and length for email summarization
 
-This feature includes the capability to summarize email threads. A summary of an email thread can be generated only if the email is in one of the [supported languages](introduction#supported-languages). A summary is generated only for emails or email threads that have more than 1,000 characters (that is, more than about 180 words).
+This feature includes the capability to summarize email threads. A summary of an email thread can be generated only if the email is in one of the [supported languages](introduction.md#supported-languages). A summary is generated only for emails or email threads that have more than 1,000 characters (that is, more than about 180 words).
 
 ## View recent communication
 

@@ -50,7 +50,7 @@ Here's the video that shows how to create a contact in your CRM from Copilot for
 
 If you open the **Copilot for Sales** pane from an incoming email that contains the signature of the sender, and you add the contact to your CRM, Copilot for Sales prefills the contact details based on the signature and highlights the fields that it populated. You can update the information and select **Save**.
 
-This capability is available only for emails in the [supported languages](introduction#supported-languages).
+This capability is available only for emails in the [supported languages](introduction.md#supported-languages).
 
 :::image type="content" source="media/pre-fill.png" alt-text="Screenshot showing prefilled details from signature.":::
 
