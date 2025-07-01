@@ -601,7 +601,7 @@
       },
       {
         "source_path": "articles/supported-languages.md",
-        "redirect_url": "/microsoft-sales-copilot/introduction.md#supported-languages",
+        "redirect_url": "/microsoft-sales-copilot/introduction#supported-languages-and-geographies",
         "redirect_document_id": false
       },
       {                                    

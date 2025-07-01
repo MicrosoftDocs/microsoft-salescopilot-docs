@@ -19,7 +19,7 @@ Copilot for Sales integrates Microsoft 365 Copilot in Outlook with your CRM syst
 Email summaries are available when:
 
 - The email content is more than 1,000 characters, or about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
-- The email is in one of the [supported languages](introduction.md#supported-languages).
+- The email is in one of the [supported languages](introduction.md#supported-languages-and-geographies).
 - The email isn't encrypted.
 
 Here's the video that shows how to view an email summary and [draft an email message](email-reply-premium.md) in Copilot for Sales:

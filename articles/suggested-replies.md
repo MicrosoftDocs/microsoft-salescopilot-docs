@@ -17,7 +17,7 @@ Microsoft 365 Copilot for Sales can use communication with sales contacts and in
 
 Copilot AI features might or might not be turned on by default, depending on where your tenant is located. For instance, if you're a new customer, your Dynamics 365 organization is located in North America or Europe, and your CRM resides in the same geography as Microsoft Entra ID, then Copilot AI features are turned on by default. Otherwise, you need to turn them on before your sellers can use them.
 
-Copilot AI features in Copilot for Sales are available only in some [supported languages](introduction.md#supported-languages).
+Copilot AI features in Copilot for Sales are available only in some [supported languages](introduction.md#supported-languages-and-geographies).
 
 > [!NOTE]
 > After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.

@@ -44,7 +44,7 @@ For information about pricing, see [Microsoft 365 Copilot for Sales pricing](htt
 
 ## Supported languages
 
-To see a list of supported languages for the combined experience of Microsoft 365 Copilot and Copilot for Sales, see [supported languages](introduction.md#supported-languages).
+To see a list of supported languages for the combined experience of Microsoft 365 Copilot and Copilot for Sales, see [supported languages](introduction.md#supported-languages-and-geographies).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested email message.
 
