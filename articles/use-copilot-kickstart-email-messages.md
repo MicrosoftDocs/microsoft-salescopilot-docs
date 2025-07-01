@@ -43,7 +43,7 @@ The experience covered within this article is only displayed to Dynamics 365 Sal
 
 ## Supported languages
 
-To see a list of supported languages, see [supported languages](supported-languages.md#ai-in-copilot-for-sales).
+To see a list of supported languages, see [supported languages](introduction.md#supported-languages-and-geographies).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested content.
 

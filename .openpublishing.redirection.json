@@ -600,6 +600,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "articles/supported-languages.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction#supported-languages-and-geographies",
+        "redirect_document_id": false
+      },
+      {                                    
         "source_path": "articles/extend-m365-chat.md",
         "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
         "redirect_document_id": false

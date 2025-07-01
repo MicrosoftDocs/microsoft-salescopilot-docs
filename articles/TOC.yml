@@ -29,8 +29,6 @@
     href: mobile-support.md
   - name: Privileges required for Copilot for Sales
     href: privileges.md
-  - name: Supported languages
-    href: supported-languages.md
   - name: Data handling in Copilot for Sales
     href: data-handling.md
   - name: Copilot for Sales FAQ
@@ -184,6 +182,8 @@
       items:
       - name: View meeting preparation card
         href: meeting-prep.md
+      - name: View daily summary of upcoming meetings
+        href: daily-digest.md
     - name: During meeting 
       items: 
       - name: Use Copilot for Sales app during a meeting

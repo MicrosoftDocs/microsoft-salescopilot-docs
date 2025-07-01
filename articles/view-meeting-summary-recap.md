@@ -35,7 +35,7 @@ Here's the video that shows a [meeting preparation card in Teams](meeting-prep.m
 
 ## Supported languages
 
-To see a list of supported languages, go to [supported languages](supported-languages.md#ai-in-copilot-for-sales).
+To see a list of supported languages, go to [supported languages](introduction.md#supported-languages-and-geographies).
 
 ## View sales related insights in meeting recap
 
