@@ -182,6 +182,8 @@
       items:
       - name: View meeting preparation card
         href: meeting-prep.md
+      - name: View daily summary of upcoming meetings
+        href: daily-digest.md
     - name: During meeting 
       items: 
       - name: Use Copilot for Sales app during a meeting

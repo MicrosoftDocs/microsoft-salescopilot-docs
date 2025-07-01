@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 06/18/2025
+ms.date: 07/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
