@@ -600,6 +600,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "articles/supported-languages.md",
+        "redirect_url": "/microsoft-sales-copilot/introduction#supported-languages-and-geographies",
+        "redirect_document_id": false
+      },
+      {                                    
         "source_path": "articles/extend-m365-chat.md",
         "redirect_url": "/microsoft-sales-copilot/extend-copilot-for-sales",
         "redirect_document_id": false
@@ -678,6 +683,11 @@
         "source_path": "articles/hierarchy-settings-sf.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                              
+      },
+      {
+        "source_path": "articles/generate-meeting-summary.md",
+        "redirect_url": "/microsoft-sales-copilot/create-teams-meeting.md#generate-a-meeting-summary",
+        "redirect_document_id": false
+      }                                               
   ]
 }

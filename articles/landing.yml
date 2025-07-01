@@ -14,7 +14,7 @@ metadata:
   ms.author: shjais
   ms.topic: landing-page
   ms.service: microsoft-sales-copilot
-  ms.date: 11/24/2024
+  ms.date: 06/26/2025
   ms.custom: bap-template
 
 
@@ -34,10 +34,10 @@ landingContent:
          links:
           - text: What is Copilot for Sales?
             url: introduction.md
-          - text: Supported languages
-            url: supported-languages.md
-          - text: Data handling
-            url: data-handling.md
+          - text: Priviliges required
+            url: privileges.md
+          - text: Mobile support
+            url: mobile-support.md
        - linkListType: architecture
          links:
           - text: Copilot for Sales architecture
@@ -66,8 +66,8 @@ landingContent:
             url: customize-forms-and-fields.md
           - text: Set up Copilot AI features
             url: suggested-replies.md
-          - text: Configure Copilot for Sales for Microsoft 365 apps
-            url: m365-admin-setting.md
+          - text: Set up Sales Agent
+            url: set-up-sales-agent.md
 
 
 # Card 
