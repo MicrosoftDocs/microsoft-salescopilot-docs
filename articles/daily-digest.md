@@ -1,7 +1,7 @@
 ---
 title: View daily summary of upcoming meetings in Microsoft Teams
 description: Learn how to view a daily summary of upcoming meetings in Microsoft Teams. Access insights and stay prepared with ease.
-ms.date: 05/29/2025
+ms.date: 07/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
