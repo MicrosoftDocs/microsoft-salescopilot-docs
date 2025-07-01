@@ -67,7 +67,7 @@ There are no changes to [country/region availability or languages](introduction.
 
 ### What geographies will Copilot for Sales support?   
 
-Copilot for Sales in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
+For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
