@@ -20,13 +20,17 @@ To configure how AI meeting notes are saved from Teams recap to CRM:
 1. In Copilot for Sales admin settings, select **Save to (CRM)**. 
 1. Under the **Save AI meeting notes from Teams to (CRM)** section, turn on or off the **Save AI meeting notes from Teams recap** toggle.
 1. Select one of the following options:
-   - **Save to appointment description field by default**: This option saves the AI-generated meeting notes to the appointment description field in CRM by default. 
+   - **Save to appointment description field by default**: This option saves the AI-generated meeting notes to the appointment description field in CRM by default.
+       > [!NOTE]
+       > If you're using Salesforce as your CRM, the **Description** field of the **Event** object does not support HTML formatting. Therefore, the AI-generated meeting notes are saved as plain text in the **Description** field.
    - **Save to specified record**: This option allows you to select a specific record and its field in CRM where the AI-generated meeting notes will be saved. You can choose from a list of available records in your CRM system. After you select this option, perform the following steps:
      1. Select **Add record**.
      1. In the **Add a record type** window, select the record type from the list of available records or search for a specific record type using the search bar.
      1. Select **Next**.
      1. In the **Select a field** window, select the field where you want to save the AI-generated meeting notes. 
      1. Select **Add and save**.
+        > [!NOTE]
+        > If you're using Salesforce as your CRM, ensure that the field you select supports HTML formatting. If the field does not support HTML formatting, the AI-generated meeting notes are saved as plain text.
 
 ### Related information
 
