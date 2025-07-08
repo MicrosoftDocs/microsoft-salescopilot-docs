@@ -1,8 +1,8 @@
 ---
 title: Create a Teams meeting and generate meeting insights
 description: Learn how to create a Teams meeting and generate meeting insights using Copilot for Sales.
-ms.date: 05/12/2025
-ms.topic: overview
+ms.date: 06/30/2025
+ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais

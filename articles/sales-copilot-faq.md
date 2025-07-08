@@ -63,11 +63,11 @@ We appreciate the customers that have invested early in the standalone Sales Cop
 
 ### What languages will Copilot for Sales support? 
 
-There are no changes to [country/region availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
+There are no changes to [country/region availability or languages](introduction.md#supported-languages-and-geographies) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
 ### What geographies will Copilot for Sales support?   
 
-Copilot for Sales in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
+For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 

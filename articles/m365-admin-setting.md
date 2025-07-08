@@ -1,7 +1,7 @@
 ---
 title: Turn off actionable banners in Microsoft 365 apps
 description: Learn how to turn off actionable banners in Microsoft 365 apps.
-ms.date: 11/29/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
