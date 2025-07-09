@@ -133,7 +133,7 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 - Due to network or connection error. Try closing and reopening the Copilot for Sales pane.
 
-For information on how to transcribe a meeting, see [Generate a meeting summary.](generate-meeting-summary.md)
+For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
 ### With which Salesforce Sales Cloud editions does Copilot for Sales work?
 

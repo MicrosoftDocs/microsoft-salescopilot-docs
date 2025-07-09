@@ -47,6 +47,14 @@ The quality of the meeting summary depends on how accurately the system can tran
 - **Transparency and explainability**: Foster transparency by clearly communicating to users how the system works, the underlying technologies used, and any limitations or potential biases. Ensure that users have a basic understanding of the system's capabilities and are informed about its AI-powered nature.  
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
+## How accurate is the sentiment analysis shown in Copilot for Sales meeting insights?
+
+The sentiment analysis is AI-generated and based on the content and tone of the meeting transcript. While it can provide a helpful high-level view of customer tone and engagement, it's not always perfectly accurate and may misinterpret nuance, sarcasm, or context.
+
+This feature is intended to help sellers quickly gauge the general sentiment of a meeting—for example, whether the conversation was mostly positive, neutral, or negative—but it should not be used as a definitive assessment of individual participants' intent or satisfaction.
+
+It is strongly recommended that sellers and managers verify insights using your own judgment and follow up directly with customers as needed. Sentiment insights are best used as a supporting tool, not a replacement for human evaluation.
+
 ### Related information
 
-[Generate a meeting summary](generate-meeting-summary.md)
+[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
