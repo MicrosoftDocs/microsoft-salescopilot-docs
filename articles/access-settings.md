@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for meeting insights
 description: Control how AI-generated meeting insights are stored in Copilot for Sales with customizable access settings for better data governance.
-ms.date: 05/12/2025
+ms.date: 07/09/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
