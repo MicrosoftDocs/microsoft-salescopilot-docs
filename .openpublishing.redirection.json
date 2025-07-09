@@ -686,7 +686,7 @@
       },
       {
         "source_path": "articles/generate-meeting-summary.md",
-        "redirect_url": "/microsoft-sales-copilot/create-teams-meeting.md#generate-a-meeting-summary",
+        "redirect_url": "/microsoft-sales-copilot/create-teams-meeting#generate-a-meeting-summary",
         "redirect_document_id": false
       }                                               
   ]
