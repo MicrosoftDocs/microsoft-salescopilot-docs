@@ -1,7 +1,7 @@
 ---
 title: Understand the Copilot for Sales step-up license
 description: Learn how to assign Copilot for Sales step-up licenses and upgrade from the Microsoft 365 Copilot license.
-ms.date: 11/29/2024
+ms.date: 06/26/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

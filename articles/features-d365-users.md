@@ -57,9 +57,7 @@ Core value is included for Dynamics 365 users to see Copilot for Sales in action
 |[Work with collaboration spaces](collaboration-space.md)  | Generate or link a customer record and opportunity to a Teams channel and group. <br>See a single access point for collaboration and access to common attachment files. Planner tasks are suggested with the help of AI.    | Copilot for Sales side pane in Outlook and Teams channel        |
 |[Work with adaptive cards](share-crm-record-teams-conversation.md#paste-a-link-to-a-crm-record)    | Create and share a dynamic link of a specific record in Dynamics 365 with another individual or group.    | Teams chat and channel        |
 |[Use Copilot for Sales during a Teams meeting](use-sales-copilot-app-during-meeting.md)   | See the connected CRM record during a meeting. |Copilot for Sales panel in Teams meetings    |
-|[View meeting summary](view-understand-meeting-summary.md)   |  Join a meeting in Teams with meeting highlights, tasks, keywords and sentiment captured. <br> This experience doesn't use Teams meeting recap. A separate summary experience is displayed with just the core sales insight and top highlights. Further enrichment is with Copilot for Sales license.  | Teams meeting     |
 
-:::image type="content" source="media/recap-tab.png" alt-text="Screenshot showing conversation intellignce in Teams meeting summary.":::
 
 ## Moving to Copilot for Sales
 

@@ -29,8 +29,6 @@
     href: mobile-support.md
   - name: Privileges required for Copilot for Sales
     href: privileges.md
-  - name: Supported languages
-    href: supported-languages.md
   - name: Data handling in Copilot for Sales
     href: data-handling.md
   - name: Copilot for Sales FAQ
@@ -81,10 +79,26 @@
       href: use-extensions.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
+    - name: Configure recordings and notifications for sales meetings
+      href: configure-meeting-agent.md
     - name: Configure how AI meeting notes are saved from Teams recap to CRM
       href: save-ai-notes-crm.md
     - name: Configure access settings for meeting insights
       href: access-settings.md
+    - name: Connect your agents to a data source
+      href: connect-agent-datasource.md
+    - name: Sales Agent (preview)
+      items:
+      - name: Overview
+        href: sales-agent-overview.md
+      - name: Set up Sales Agent
+        href: set-up-sales-agent.md
+      - name: Integrate Sales Agent with Salesforce
+        href: set-up-sales-agent-salesforce.md
+    - name: Convert the environment from Trial to Production
+      href: convert-trial-prod.md
+    - name: Manage consumption-based billing for agent capabilities
+      href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Copilot for Sales app
@@ -164,22 +178,22 @@
 
   - name: Capabilities in Teams
     items:
-    - name: Elevate sales meeting
+    - name: Overview
+      href: create-teams-meeting.md
+    - name: Pre-meeting
       items:
-      - name: Create a Teams meeting
-        href: create-teams-meeting.md
       - name: View meeting preparation card
         href: meeting-prep.md
+      - name: View daily summary of upcoming meetings
+        href: daily-digest.md
+    - name: During meeting 
+      items: 
       - name: Use Copilot for Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
-      - name: Generate a meeting summary
-        href: generate-meeting-summary.md
+    - name: Post-meeting
+      items:
       - name: View meeting summary
-        items:
-        - name: View meeting summary using Copilot for Sales license
-          href: view-meeting-summary-recap.md
-        - name: View meeting summary using Sales Copilot license
-          href: view-understand-meeting-summary.md
+        href: view-meeting-summary-recap.md
     - name: CRM actions
       items:
       - name: View and update CRM record details
@@ -209,6 +223,14 @@
       href: share-crm-record-teams-conversation.md
     - name: Copilot for Sales personal app
       href: personal-app.md
+    - name: Sales Agent (preview)
+      items:
+      - name: Overview
+        href: sales-agent-overview.md
+      - name: Use Sales Agent
+        href: use-sales-agent.md
+      - name: Send outreach emails
+        href: send-outreach-emails.md
 
 - name: Extend Copilot for Sales (preview)
   items:
@@ -333,3 +355,5 @@
     href: faqs-key-sales-info.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
+  - name: FAQ for Sales Agent
+    href: faqs-sales-agent.md
