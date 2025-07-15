@@ -33,7 +33,7 @@ The connection might take a few minutes to get established. Once the connection 
 If in the future you want to disable the server-to-server connection to Salesforce, you can do so by turning off the **Turn on access** toggle. This deletes the connected app and integration user from Salesforce. The agent will no longer be able to access data in Salesforce, and you need to set up the connection again if you want to use the agent with Salesforce.
 
 > [!NOTE]
-> A single Salesforce environment can only be connected to one Microsoft tenant using the server-to-server connection. Connecting the same Salesforce environment to multiple Microsoft tenants is not supported and may lead to unexpected errors.
+> You can connect a Salesforce environment to only one Microsoft tenant using the server-to-server connection. Connecting the same Salesforce environment to multiple Microsoft tenants is not supported and may lead to unexpected errors.
 
 ### How is the connection established?
 
