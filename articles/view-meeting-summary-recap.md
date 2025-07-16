@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 07/08/2025
+ms.date: 07/16/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -115,7 +115,8 @@ With intelligent recap, you can focus on the meeting discussion and not on captu
 You can save AI-generated notes to your CRM directly from the Teams meeting recap summary page. This allows you to save the meeting notes to a specific record in your CRM, such as an opportunity or account, or to the appointment description field by default. This is useful if you want to keep a record of the meeting notes in your CRM for future reference or to share with other team members.
 
 > [!NOTE]
-> This feature is enabled by default, but [administrators can revoke access](save-ai-notes-crm.md).
+> - This feature is enabled by default, but [administrators can revoke access](save-ai-notes-crm.md).
+> - Admins can configure meeting notes to be saved either to the default appointment or event description field, or directly to a specific CRM record or object. If the default option is selected, saving AI-generated notes will create a new appointment or event and link it to the selected CRM record. If categorization fields have been set up by the admin, these options will appear when saving to a new appointment or event. However, categorization fields will not be shown if the appointment or event has already been created and saved to the CRM.
 
 To save AI-generated meeting notes to CRM:
 
