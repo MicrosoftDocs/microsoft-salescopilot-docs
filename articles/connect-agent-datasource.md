@@ -1,7 +1,7 @@
 ---
 title: Connect your agents to a data source
 description: Learn how to connect agents to a data source for seamless data retrieval using server-to-server connections.
-ms.date: 05/12/2025
+ms.date: 07/16/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -31,6 +31,9 @@ When you set up a server-to-server connection to Salesforce, a connected app and
 The connection might take a few minutes to get established. Once the connection is established, connected app and integration user details are displayed under **Connection details**.
 
 If in the future you want to disable the server-to-server connection to Salesforce, you can do so by turning off the **Turn on access** toggle. This deletes the connected app and integration user from Salesforce. The agent will no longer be able to access data in Salesforce, and you need to set up the connection again if you want to use the agent with Salesforce.
+
+> [!NOTE]
+> You can connect a Salesforce environment to only one Microsoft Entra tenant using the server-to-server connection. Connecting the same Salesforce environment to multiple Microsoft Entra tenants is not supported and may lead to unexpected errors.
 
 ### How is the connection established?
 
