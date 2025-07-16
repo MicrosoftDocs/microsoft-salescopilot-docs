@@ -55,7 +55,10 @@
         "**.*": [
           "bap-ai-copilot"
         ]
-      }
+      },
+      "ms.update-cycle": {
+        "**.*": "180-days"
+      },
     },
     "template": [],
     "dest": "viva-bap"
