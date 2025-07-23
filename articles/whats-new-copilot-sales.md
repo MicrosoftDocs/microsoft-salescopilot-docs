@@ -10,6 +10,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:01/23/2024
+  - sfi-image-nochange
 ---
 
 # What's changed with Sales Copilot to Microsoft 365 Copilot for Sales
