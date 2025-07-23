@@ -6,6 +6,7 @@ ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Microsoft 365 Copilot for Sales FAQ
