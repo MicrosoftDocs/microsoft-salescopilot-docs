@@ -271,6 +271,27 @@ The Teams dark and high contrast themes aren't supported.
 
 You must be connected to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the Copilot for Sales **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
 
+### What is enhanced Teams app?
+
+The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
+
+#### New deployments
+
+Although the new Copilot for Sales enhanced Teams app is packaged as a single app, deployment is still needed in both the Microsoft 365 admin center for Outlook and Microsoft 365 apps and the Teams admin center for Teams deployment. See deployment guides for details: [Dynamics 365 customers](deploy-viva-sales-d365.md) and [Salesforce CRM customers](deploy-viva-sales-sf.md).
+
+#### Update existing Sales Copilot deployments
+
+##### Upgrade the app within Teams 
+
+Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams app, every Teams user will be presented with an update button within Teams. In this case, no administration is needed in the Teams admin center. [Learn more about updating an app in Microsoft Teams](https://support.microsoft.com/office/update-an-app-in-microsoft-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+
+##### Upgrade the app for Outlook 
+
+To get the benefits of the new enhanced Teams app within Outlook, the new app needs to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Copilot for Sales for Outlook](install-viva-sales-as-an-integrated-app.md)
+
+If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-viva-sales-as-an-integrated-app.md#manage-the-copilot-for-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
+
+
 ## Deployment
 
 ### How do I find my tenant admin?

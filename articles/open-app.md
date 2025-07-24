@@ -1,7 +1,7 @@
 ---
 title: Access the Microsoft 365 Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 03/17/2025
+ms.date: 07/24/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -43,6 +43,12 @@ You can access Copilot for Sales using any of the following options:
     - In Simplified ribbon: Select **More commands** (**...**) and then select **Copilot for Sales**.  
 
 ### New Outlook desktop and Outlook on the web
+
+On the ribbon, select the down arrow on the **Copilot** icon, and then select **Sales**.
+
+:::image type="content" source="media/access-app-new-outlook.png" alt-text="Screenshot showing accessing the app from New Outlook desktop.":::
+
+To know how to access the app while drafting an email, reading an email, or creating a meeting, see the following sections.
 
 - While drafting an email
 

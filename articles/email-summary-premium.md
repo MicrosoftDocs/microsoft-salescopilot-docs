@@ -33,8 +33,6 @@ Features of the Copilot for Sales email summary vary by license:
 - **Copilot for Sales license**: See the fully integrated experience within Microsoft Outlook as described in this article.
 - **Sales Copilot license**: View, save to CRM, share to Teams, or copy email summaries. Learn more in [View and save email summaries to your CRM](view-save-email-summary-crm.md).
 
-Unsure about the difference between Copilot for Sales and Sales Copilot? Learn more in [What's changed with Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md).
-
 The Copilot for Sales license includes a Microsoft 365 Copilot subscription. If your organization purchased Microsoft 365 Copilot separately, Copilot for Sales is available as a step-up license. Learn more in [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 ## Prerequisites
@@ -46,8 +44,6 @@ The Copilot for Sales license includes a Microsoft 365 Copilot subscription. If 
 - The Copilot for Sales app must be installed by your admin.
 
 ## Anatomy of an email summary
-
-Copilot for Sales looks different depending on your version of Outlook. In Outlook on the web or New Outlook for Windows, it appears in the Microsoft 365 Copilot side pane. In Outlook for Windows, it opens in a dedicated side pane. Learn more in [Unified side pane in Outlook on the web and Outlook for Windows](./whats-new-copilot-sales.md#unified-side-pane-in-outlook-on-the-web-and-outlook-for-windows). The images in this article show Copilot for Sales in Outlook on the web.
 
 :::image type="content" source="./media/email-summary-premium-license.png" alt-text="Screenshot of a Copilot for Sales email summary in Outlook on the web, with numbered callouts.":::
 
@@ -101,5 +97,4 @@ In the **Key sales info** card, you can perform the following tasks:
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
 - [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md)
 - [Draft an email message in Copilot for Sales app](./use-copilot-kickstart-email-messages.md)
-- Read about the change from [Sales Copilot to Microsoft 365 Copilot for Sales](./whats-new-copilot-sales.md)
 - [Summarize an email thread with Microsoft 365 Copilot in Outlook](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-for-microsoft-365-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640)
