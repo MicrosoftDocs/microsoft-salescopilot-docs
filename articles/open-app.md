@@ -1,7 +1,7 @@
 ---
 title: Access the Microsoft 365 Copilot for Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
-ms.date: 06/17/2025
+ms.date: 07/24/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
