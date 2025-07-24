@@ -6,6 +6,7 @@ ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Microsoft 365 Copilot for Sales FAQ
@@ -63,11 +64,11 @@ We appreciate the customers that have invested early in the standalone Sales Cop
 
 ### What languages will Copilot for Sales support? 
 
-There are no changes to [country/region availability or languages](supported-languages.md) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
+There are no changes to [country/region availability or languages](introduction.md#supported-languages-and-geographies) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
 ### What geographies will Copilot for Sales support?   
 
-Copilot for Sales in Outlook and Teams is available in these [supported geographies](introduction.md#region-availability).  
+For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
@@ -133,7 +134,7 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 - Due to network or connection error. Try closing and reopening the Copilot for Sales pane.
 
-For information on how to transcribe a meeting, see [Generate a meeting summary.](generate-meeting-summary.md)
+For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
 ### With which Salesforce Sales Cloud editions does Copilot for Sales work?
 

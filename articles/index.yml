@@ -103,8 +103,6 @@ additionalContent:
         text: View a meeting preparation card
       - url: use-sales-copilot-app-during-meeting.md
         text: Use Copilot for Sales app during a meeting
-      - url: generate-meeting-summary.md
-        text: Generate a meeting summary
       - url: view-meeting-summary-recap.md
         text: View and understand the meeting summary
 

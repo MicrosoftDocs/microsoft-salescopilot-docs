@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Microsoft 365 Copilot for Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 12/04/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,7 +17,7 @@ Microsoft 365 Copilot for Sales can use communication with sales contacts and in
 
 Copilot AI features might or might not be turned on by default, depending on where your tenant is located. For instance, if you're a new customer, your Dynamics 365 organization is located in North America or Europe, and your CRM resides in the same geography as Microsoft Entra ID, then Copilot AI features are turned on by default. Otherwise, you need to turn them on before your sellers can use them.
 
-Copilot AI features in Copilot for Sales are available only in some [supported languages](supported-languages.md).
+Copilot AI features in Copilot for Sales are available only in some [supported languages](introduction.md#supported-languages-and-geographies).
 
 > [!NOTE]
 > After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.
@@ -58,6 +58,7 @@ As a CRM administrator, you can control who can use AI capabilities in Copilot f
 1. Under **Environment**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**. 
+1. To turn off generating and showing AI-generated sentiment analysis and participant statistics in [meeting recap](view-meeting-summary-recap.md), clear the **Store and show meeting and email AI-generated sentiment analysis and meeting participant statistics** checkbox.
 1. To turn on preview features, select **Try our newest preview features before they're rolled out to everyone.**.  
     Preview features allow sellers to benefit from new features before they're generally available. Preview features are turned off by default.  
 1. Select **Save**.  

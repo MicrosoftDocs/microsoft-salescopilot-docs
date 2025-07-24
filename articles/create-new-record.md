@@ -1,7 +1,7 @@
 ---
 title: Create a new record in your CRM from Copilot for Sales
 description: Learn how to create a new record in your CRM from Copilot for Sales.
-ms.date: 07/05/2024
+ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
