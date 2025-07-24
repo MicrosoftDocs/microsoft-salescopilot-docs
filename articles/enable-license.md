@@ -28,7 +28,7 @@ For detailed instructions, see [Assign licenses to users](/microsoft-365/admin/m
 
 ## Deploy the Copilot for Sales app
 
-For Outlook and Microsoft 365 integration capabilities, the new Copilot for Sales [enhanced Teams app](whats-new-copilot-sales.md#enhanced-teams-app-support) must be deployed to users through the Microsoft 365 admin center. For Teams integration capabilities, the app must be deployed through the Teams admin center. The enhanced Teams app includes the necessary integration for Microsoft 365 Copilot integration.
+For Outlook and Microsoft 365 integration capabilities, the new Copilot for Sales [enhanced Teams app](sales-copilot-faq.md#what-is-enhanced-teams-app) must be deployed to users through the Microsoft 365 admin center. For Teams integration capabilities, the app must be deployed through the Teams admin center. The enhanced Teams app includes the necessary integration for Microsoft 365 Copilot integration.
 
 - For instructions for Dynamics 365, go to [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md).
 
@@ -36,7 +36,7 @@ For Outlook and Microsoft 365 integration capabilities, the new Copilot for Sale
 
 > [!NOTE]
 >
-> - If Copilot for Sales was deployed before February 2024, you must [deploy the enhanced Teams app](whats-new-copilot-sales.md#update-existing-sales-copilot-deployments) to enable the full capabilities of the product.
+> - If Copilot for Sales was deployed before February 2024, you must [deploy the enhanced Teams app](sales-copilot-faq.md#update-existing-sales-copilot-deployments) to enable the full capabilities of the product.
 > - Ensure that an admin deploys the Copilot for Sales app by using the instructions in the preceding links. If system users install the app directly in Outlook, it won't have the required permissions for all supported scenarios.
 
 ## Validate the app installation
