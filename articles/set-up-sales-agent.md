@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 06/18/2025
+ms.date: 07/23/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -88,8 +88,8 @@ Allows you to select the data sources to be used by the agent and tell where to 
 1. Expand the **What structures represent your leads, accounts, and opportunities?** section and select **Add data source**.
 1. In the **Choose lead table** step, select the table that stores your leads, and then select **Next**.
 1. In the **Choose a view for the Lead table** step, select the view you created in [Step 1](#step-1-create-a-view-and-query-that-defines-the-leads-to-research), and then select **Next**.
-1. In the **Map the fields** step, map the fields in your lead table to the fields used by Sales Agent.
-1. Expand the **Additional fields the agent should know about (recommended)** section to add more fields that you want the agent to use for research. For example, source marketing campaign and source event description. To add more fields, select **Add field** and then select the field from the list.
+1. In the **Map the fields** step, map the fields in your lead table to the fields used by Sales Agent, and then select **Next**. 
+1. In the **Additional fields the agent should know about (recommended)** step, add more fields that you want the agent to use for research. For example, source marketing campaign and source event description. To add more fields, select **Add field** and then select the field from the list.
     > [!TIP] 
     > Use the description field to describe the type of data the additional fields contain. The better your description, the better the agent is at interpreting this data and using it to research your leads.
 1. Select **Done**.
@@ -97,11 +97,15 @@ Allows you to select the data sources to be used by the agent and tell where to 
 
 #### Store research insights in CRM
 
+> [!NOTE]
+> In the below steps, the table and field names are the ones you created in [Step 2](#step-2-select-where-to-store-research-summaries). If you used different names, use those names instead.
+
 1. Expand the **Where should the agent store research insights?** section.
-1. Turn on the toggle for **Store a summary of research in your CRM**.
-1. Select **Choose a CRM table** and follow the steps to select the table and field you created in [Step 2](#step-2-select-where-to-store-research-summaries) where the insights should be stored.
-1. Select the field on the lead table that references the summary.
-1. Select **Next** and then select **Save**.
+1. Turn on the toggle for **Store a summary of research in your CRM**, and then select **Add data source**.
+1. In the **Choose table** step, select the table to store the research summaries, and then select **Next**. For example, **SalesAgentResearchSummaries**.
+1. In the **Map the fields** step, select the field to store the summary, and then select **Next**. For example, **SummaryText**.
+1. In the **Choose field** step, select the field on the lead table that references the summary. For example, **SalesAgentResearchSummary**.
+1. Select **Done**.
 
 ### Company profile
 
