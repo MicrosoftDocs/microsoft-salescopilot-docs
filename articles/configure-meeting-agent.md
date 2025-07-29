@@ -1,17 +1,22 @@
 ---
 title: Configure recordings and notifications for sales meetings
 description: Learn how to configure auto recording and notifications for sales meetings to ensure sellers are well-prepared and important details are captured.
-ms.date: 07/03/2025
+ms.date: 07/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted
+ms.custom: CXT
 ---
 
 # Configure recordings and notifications for sales meetings
 
-As an administrator, you can optimize the meeting experience for your sellers by enabling or disabling auto recording for all sales meetings and configuring the time of pre-meeting notifications. Pre-meeting notifications are sent to sellers before their meetings to help them prepare. You can choose if a daliy summary of meetings should be sent to sellers or if they should receive notifications before each meeting or both. These features help ensure that sellers are well-prepared and that important meeting details are captured seamlessly.
+As an administrator, you can optimize the meeting experience for your sellers by enabling or disabling auto recording for all sales meetings and configuring the time of pre-meeting notifications. Pre-meeting notifications are sent to sellers before their meetings to help them prepare. You can choose if a daily summary of meetings should be sent to sellers or if they should receive notifications before each meeting or both. These features help ensure that sellers are well-prepared and that important meeting details are captured seamlessly.
+
+Here's a video that provides an overview of configuring recordings and notifications for sales meetings:
+
+> [!VIDEO 8ca8b57a-3714-4918-b544-c70613e2be98]
 
 ## Enable or disable auto recording for sales meetings
 

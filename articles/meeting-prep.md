@@ -1,11 +1,12 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 07/01/2025
+ms.date: 07/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
+ms.custom: CXT
 ---
 
 # Meeting preparation card
@@ -13,6 +14,10 @@ ms.author: shjais
 The meeting preparation card provides the latest information and out-of-the-box insights about the opportunities derived from your past customer interactions such as emails and meetings as well as CRM. This card helps you stay informed and prepared before walking into a customer meeting. It shows general information about the meeting, opportunity info, recent communication and strategic insights. You can use this information to prepare for the upcoming meeting accordingly and have a productive discussion.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
+
+Here's a video that provides an overview of the meeting preparation card:
+
+> [!VIDEO a3e0e6dd-a215-4f78-a384-4249d472f60c]
 
 ## Prerequisites
 
