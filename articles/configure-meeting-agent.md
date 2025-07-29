@@ -14,10 +14,6 @@ ms.custom: CXT
 
 As an administrator, you can optimize the meeting experience for your sellers by enabling or disabling auto recording for all sales meetings and configuring the time of pre-meeting notifications. Pre-meeting notifications are sent to sellers before their meetings to help them prepare. You can choose if a daily summary of meetings should be sent to sellers or if they should receive notifications before each meeting or both. These features help ensure that sellers are well-prepared and that important meeting details are captured seamlessly.
 
-Here's a video that provides an overview of configuring recordings and notifications for sales meetings:
-
-> [!VIDEO 8ca8b57a-3714-4918-b544-c70613e2be98]
-
 ## Enable or disable auto recording for sales meetings
 
 Auto recording enables your sellers to automatically record all sales meetings with external contacts without having to remember to start the recording manually. By default, the feature is turned off.
@@ -35,6 +31,10 @@ To turn on auto recording for sales meetings:
 4. Select **Save**.
 
 If you want to turn off auto recording for sales meetings, follow the same steps and select **Off** in step 3.
+
+Here's a video that provides an overview of enabling auto recording for sales meetings:
+
+> [!VIDEO 8ca8b57a-3714-4918-b544-c70613e2be98]
 
 ## Configure daily summary of meetings
 
