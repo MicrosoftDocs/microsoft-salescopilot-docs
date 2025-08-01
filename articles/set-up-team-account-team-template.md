@@ -21,7 +21,7 @@ Regardless of how you set them up, you can access linked teams and channels from
 
 When you create a collaboration space with the account team template, you can [create an account team](#create-an-account-team) or [set up an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
-The creation and setup of an account team is done from the **Collaborate in Teams** card in the Copilot for Sales pane in Outlook. If you don't see the **Collaborate in Teams** card, ensure that the contact you're viewing in the Copilot for Sales pane has an account associated with it in your CRM.a
+The creation and setup of an account team is done from the **Collaborate in Teams** card in the Copilot for Sales pane in Outlook. If you don't see the **Collaborate in Teams** card, ensure that the contact you're viewing in the Copilot for Sales pane has an account associated with it in your CRM.
 
 ## Create an account team
 
