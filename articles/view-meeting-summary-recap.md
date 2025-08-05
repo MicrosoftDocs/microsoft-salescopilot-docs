@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 07/17/2025
+ms.date: 08/05/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -53,6 +53,7 @@ The following information is available:
 - **Speaker-level insights**: View insights for each speaker, including their talk time, sentiment distribution, and summary. This helps you to understand how each speaker contributed to the meeting and how they felt during the conversation.
 
 > [!NOTE]
+> - Sales insights aren't generated for recurring meetings.
 > - If you start and stop a meeting recording multiple times, sales insights aren't generated.
 > - If the meeting organizer has not provided access to the meeting recording and transcription to everyone, an error message is displayed when you try to view sales insights in meeting recap.
 
