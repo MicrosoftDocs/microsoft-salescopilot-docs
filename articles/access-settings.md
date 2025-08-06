@@ -1,6 +1,6 @@
 ---
-title: Configure access settings for meeting insights
-description: Control how AI-generated meeting insights are stored in Copilot for Sales with customizable access settings for better data governance.
+title: Configure access settings for features in Copilot for Sales
+description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
 ms.date: 08/06/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:05/06/2025
 ---
 
-# Configure access settings for meeting insights
+# Configure access settings for features in Copilot for Sales
 
 As an administrator, you can turn features on or off and manage access permissions for sellers across Microsoft products.
 

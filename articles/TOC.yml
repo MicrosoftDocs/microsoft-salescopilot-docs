@@ -81,7 +81,7 @@
       href: configure-meeting-agent.md
     - name: Configure how AI meeting notes are saved from Teams recap to CRM
       href: save-ai-notes-crm.md
-    - name: Configure access settings for meeting insights
+    - name: Configure access settings for features
       href: access-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
