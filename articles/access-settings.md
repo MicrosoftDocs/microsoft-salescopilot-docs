@@ -62,8 +62,8 @@ To configure access settings for Sales Agent:
 
     If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales.
 1. If the toggle is turned on, you can choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
-    - **No restrictions**: All sellers can access the Sales Agent feature.
-    - **Set access restrictions**: The Sales Agent feature is available only to sellers in the selected security groups. You can add security groups in **Allow access** and **Restrict access** sections. Leaving the **Allow access** section empty will allow all sellers to access the feature.
+    - **No restrictions**: All sellers in the environment can use the feature.
+    - **Set access restrictions**: Only sellers in the selected security groups can use the feature. You can add security groups in **Allow access** and **Restrict access** sections. Ensure you add security groups is either of the sections. Leaving them empty is not allowed.
 1. Select **Save** to apply the changes.
 
 After you configure the access settings, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
