@@ -48,6 +48,10 @@ With this setting, you can specify whether meeting insights are stored in Datave
 
 ## Configure email insights storage settings (preview)
 
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 With this setting, you can specify whether email insights are stored in Dataverse. By default, this setting is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are stored in Dataverse. You can also choose whether to store email insights of all users or only of specific security groups.
 
 ### Prerequisites

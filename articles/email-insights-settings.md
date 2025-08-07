@@ -15,6 +15,10 @@ ms.custom:
 
 # Configure email insights settings (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 As an admin, you can configure settings for email insights in Copilot for Sales. Email insights are generated from sales emails sent and received with at least one CRM contact. These settings allow you to control whether email insights are shared with other sellers and which emails are included based on sensitivity labels.
 
 ## Configure email insights sharing settings
