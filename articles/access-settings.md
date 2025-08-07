@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in Copilot for Sales
 description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
-ms.date: 08/06/2025
+ms.date: 08/07/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,12 +46,16 @@ To configure meeting insights storage settings:
 
 1. Select **Save** to apply the changes.
 
-## Configure access settings for Sales Agent
+## Configure access settings for Sales Agent (preview)
 
-With this setting, you can specify whether the Sales Agent feature is available to all sellers or only to specific security groups. By default, this setting is turned on, meaning that all sellers in your organization can access the Sales Agent feature in Copilot for Sales.
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+With this setting, you can specify whether the Sales Agent feature is available to all sellers or only to specific security groups. By default, this setting is turned off.
 
 > [!NOTE]
-> You configure and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page regardless of the access settings you choose here. This setting only controls whether sellers can see and use the Sales Agent feature in Copilot for Sales.
+> You can see the **Sales Agent - Lead Research** configuration page but can't configure and activate the Sales Agent until you turn on the Sales Agent feature in access settings.
 
 To configure access settings for Sales Agent:
 
