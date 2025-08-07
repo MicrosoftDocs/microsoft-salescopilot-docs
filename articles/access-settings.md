@@ -64,11 +64,11 @@ To configure access settings for Sales Agent:
 1. Select **Sales Agent**.
 1. Turn on or off the **Turn on access** toggle.
 
-    If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales.
+    If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales. Turning off the agent will stop the agent from researching leads. 
 1. If the toggle is turned on, you can choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
     - **No restrictions**: All sellers in the environment can use the feature.
     - **Set access restrictions**: Only sellers in the selected security groups can use the feature. You can add security groups in **Allow access** and **Restrict access** sections. Ensure you add security groups is either of the sections. Leaving them empty is not allowed.
 1. Select **Save** to apply the changes.
 
-After you configure the access settings, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
+After you turn on the Sales Agent in access settings, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
 
