@@ -25,7 +25,7 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 - The Copilot for Sales app is installed in either Outlook or Teams.
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
-- [Sales Agent must be turned on](access-settings.md#configure-access-settings-for-sales-agent).
+- [Sales Agent must be turned on](access-settings.md#configure-access-settings-for-sales-agent-preview).
 - The Dataverse environment connected to Copilot for Sales is a production environment.
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Copilot for Sales environment.
 
