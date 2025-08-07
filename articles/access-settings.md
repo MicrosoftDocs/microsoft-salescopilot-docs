@@ -76,6 +76,7 @@ With this setting, you can specify whether email insights are stored in Datavers
     - **Set access restrictions**: Email insights are stored only of users in the selected security groups. You can add security groups in **Allow access** and **Restrict access** sections. Leaving the **Allow access** section empty will allow all users to access the feature, except those in the **Restrict access** section.
 
 1. Select **Save** to apply the changes.
+1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels you want to be included in generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, select **Continue without labels**.
 
 After you turn on this setting, you can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including email with sensitivity labels.
 
