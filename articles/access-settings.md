@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in Copilot for Sales
 description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
-ms.date: 08/07/2025
+ms.date: 08/08/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,7 +28,7 @@ With this setting, you can specify whether meeting insights are stored in Datave
 
 [Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
 
-To configure meeting insights storage settings:
+### Turn on or off meeting insights storage
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
