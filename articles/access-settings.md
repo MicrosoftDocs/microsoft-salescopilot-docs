@@ -57,7 +57,7 @@ With this setting, you can specify whether the Sales Agent feature is available 
 > [!NOTE]
 > You can see the **Sales Agent - Lead Research** configuration page but can't configure and activate the Sales Agent until you turn on the Sales Agent feature in access settings.
 
-To configure access settings for Sales Agent:
+### Turn on or off Sales Agent feature
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
