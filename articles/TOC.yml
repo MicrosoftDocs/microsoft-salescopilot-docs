@@ -95,7 +95,7 @@
         href: set-up-sales-agent-salesforce.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
-    - name: Manage consumption-based billing for agent capabilities
+    - name: Manage consumption-based billing for agent capabilities (preview)
       href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
