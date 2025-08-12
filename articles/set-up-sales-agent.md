@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 08/06/2025
+ms.date: 08/12/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
