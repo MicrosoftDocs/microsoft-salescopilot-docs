@@ -81,7 +81,7 @@
       href: configure-meeting-agent.md
     - name: Configure how AI meeting notes are saved from Teams recap to CRM
       href: save-ai-notes-crm.md
-    - name: Configure access settings for meeting insights
+    - name: Configure access settings for features
       href: access-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
@@ -95,7 +95,7 @@
         href: set-up-sales-agent-salesforce.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
-    - name: Manage consumption-based billing for agent capabilities
+    - name: Manage consumption-based billing for agent capabilities (preview)
       href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
