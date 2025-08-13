@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 08/12/2025
+ms.date: 08/13/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -25,7 +25,7 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 - The Copilot for Sales app is installed in either Outlook or Teams.
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
-- [Sales Agent must be turned on in Access settings](access-settings.md#configure-access-settings-for-sales-agent-preview).
+- [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
 - The Dataverse environment connected to Copilot for Sales is a production environment.
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Copilot for Sales environment.
 
@@ -206,4 +206,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Use Sales Agent](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
-- [Turn on Sales Agent](access-settings.md#configure-access-settings-for-sales-agent)
+- [Turn on Sales Agent](access-settings.md#sales-agent-preview)
