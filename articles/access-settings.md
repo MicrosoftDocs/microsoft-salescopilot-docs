@@ -50,7 +50,7 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
     :::image type="content" source="media/meeting-insights-access-settings.png" alt-text="Screenshot showing meeting insights access settings.":::
 
-After you turn on meeting insights storage, you can configure [meeting insights settings](configure-meeting-agent.md) such as auto-recording of sales meetings and pre-and-post meeting notification configurations.
+You can configure [meeting insights settings](configure-meeting-agent.md) such as auto-recording of sales meetings and pre-and-post meeting notification configurations on the **Meeting insights** settings page.
 
 If you want to turn off meeting insights storage, follow the same steps to access the **Allow meeting insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any meeting insights, and related features will be hidden.
 

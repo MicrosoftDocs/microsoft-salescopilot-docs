@@ -14,10 +14,6 @@ ms.custom: CXT
 
 As an administrator, you can optimize the meeting experience for your sellers by enabling or disabling auto recording for all sales meetings and configuring the time of pre-meeting notifications. Pre-meeting notifications are sent to sellers before their meetings to help them prepare. You can choose if a daily summary of meetings should be sent to sellers or if they should receive notifications before each meeting or both. These features help ensure that sellers are well-prepared and that important meeting details are captured seamlessly.
 
-## Prerequisites
-
-- [Meeting insights storage must be turned on in Access settings](access-settings.md#meeting-insights).
-
 ## Enable or disable auto recording for sales meetings
 
 Auto recording enables your sellers to automatically record all sales meetings with external contacts without having to remember to start the recording manually. By default, the feature is turned off.
