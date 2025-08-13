@@ -38,15 +38,17 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
 1. In the **Allow meeting insights** pane, turn on or off the toggle.
 
-1. If you turn on the toggle, you can choose to store meeting insights for all users or only for specific security groups. To do this, select one of the following options:
+1. If you turn on the toggle, you can choose to store meeting insights for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users' meeting insights are stored.
     - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. 
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-        
-        Ensure you add security groups in either of the sections. Leaving them empty is not allowed.
+
+        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
+
+    :::image type="content" source="media/meeting-insights-access-settings.png" alt-text="Screenshot showing meeting insights access settings.":::
 
 After you turn on meeting insights storage, you can configure [meeting insights settings](configure-meeting-agent.md) such as auto-recording of sales meetings and pre-and-post meeting notification configurations.
 
@@ -73,10 +75,12 @@ To turn on Sales Agent:
     - **Set access restrictions**: Use security groups to decide which sellers can use the feature. 
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-        
-        Ensure you add security groups in either of the sections. Leaving them empty is not allowed.
+
+        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
+
+    :::image type="content" source="media/sales-agent-access-settings.png" alt-text="Screenshot showing Sales Agent access settings.":::
 
 After you turn on Sales Agent, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
 
