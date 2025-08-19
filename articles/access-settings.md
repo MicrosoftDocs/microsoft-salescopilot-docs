@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in Copilot for Sales
 description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
-ms.date: 07/09/2025
+ms.date: 08/13/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,20 +15,20 @@ ms.custom:
 
 # Configure access settings for features in Copilot for Sales
 
-As an administrator, you can turn features on or off and manage access permissions for sellers across Microsoft products.
+As an administrator, you can enable or disable features in Copilot for Sales. You can also control who has access to these features by specifying security groups. 
 
-## Configure meeting insights storage settings
+## Meeting insights
 
-With this setting, you can specify whether meeting insights are stored in Dataverse. By default, this setting is turned on, meaning that post-meeting insights such as AI-generated notes, questions, and action items for all recorded sales meetings are stored in Dataverse. You can also choose whether to store meeting insights of all users or only of specific security groups.
+You can control whether meeting insights are stored in Dataverse. By default, the feature is turned on, so post-meeting insights—including AI-generated notes, questions, and action items from all recorded sales meetings—are stored in Dataverse. You can choose to store meeting insights for all users or for specific security groups.
 
 > [!NOTE]
 > If a meeting is marked as Private, the meeting insights won't be stored in Dataverse, regardless of the settings you choose. This ensures that sensitive information remains confidential and isn't accessible to others in the organization.
 
 ### Prerequisites
 
-- [Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
+[Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
 
-### Turn on or off meeting insights storage 
+### Configure meeting insights access settings
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
@@ -36,30 +36,70 @@ With this setting, you can specify whether meeting insights are stored in Datave
 
 1. Select **Allow meeting insights**. 
 
-1. Turn on or off the **Turn on access** toggle.
-    
-    If you turn off this setting, users will no longer receive any meeting insights, and related features will be hidden.
+1. In the **Allow meeting insights** pane, turn on or off the toggle.
 
-1. If the toggle is turned on, you can choose to store meeting insights of all users or only of specific security groups. To do this, select one of the following options:
+1. If you turn on the toggle, you can choose to store meeting insights for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users' meeting insights are stored.
-    - **Set access restrictions**: Meeting insights are stored only of users in the selected security groups. You can add security groups in **Allow access** and **Restrict access** sections. Leaving the **Allow access** section empty will allow all users to access the feature, except those in the **Restrict access** section.
+    - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. 
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
 
-1. Select **Save** to apply the changes.
+        You must add security groups in either of the sections to save the changes.
 
-## Configure email insights storage settings (preview)
+1. Select **Save**.
+
+    :::image type="content" source="media/meeting-insights-access-settings.png" alt-text="Screenshot showing meeting insights access settings.":::
+
+You can configure [meeting insights settings](configure-meeting-agent.md) such as auto-recording of sales meetings and pre-and-post meeting notification configurations on the **Meeting insights** settings page.
+
+If you want to turn off meeting insights storage, follow the same steps to access the **Allow meeting insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any meeting insights, and related features will be hidden.
+
+## Sales Agent (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-With this setting, you can specify whether email insights are stored in Dataverse. By default, this setting is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are stored in Dataverse. You can also choose whether to store email insights of all users or only of specific security groups.
+Sales Agent allows sellers to automate lead research and get insights about their leads. It helps sellers prepare for meetings by providing relevant information about the lead, such as company details and recent news. 
+
+By default, Sales Agent is turned off. When you turn it on, you can control whether Sales Agent is available to all sellers or only to specific security groups.
+
+To turn on Sales Agent:
+
+1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Environment**, select **Access settings**.
+1. Select **Sales Agent**.
+1. In the **Sales Agent** pane, turn on the toggle.   
+1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
+    - **No restrictions**: All sellers in the environment can use the feature.
+    - **Set access restrictions**: Use security groups to decide which sellers can use the feature. 
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
+
+        You must add security groups in either of the sections to save the changes.
+
+1. Select **Save**.
+
+    :::image type="content" source="media/sales-agent-access-settings.png" alt-text="Screenshot showing Sales Agent access settings.":::
+
+After you turn on Sales Agent, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
+
+If you want to turn off Sales Agent, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales. Turning off the agent will stop the agent from researching leads.
+
+## Email insights (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+You can control whether email insights are stored in Dataverse. By default, the feature is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are stored in Dataverse. You can choose to store email insights for all users or only for specific security groups.
 
 ### Prerequisites
 
 - [Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
 - If you're using Salesforce, you must have [set up a server-to-server connection](connect-agent-datasource.md#set-up-server-to-server-connection-to-salesforce) to allow the agent to access data in Salesforce.
 
-### Turn on or off email insights storage
+### Turn on email insights storage
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
@@ -67,19 +107,26 @@ With this setting, you can specify whether email insights are stored in Datavers
 
 1. Select **Email insights (preview)**.
 
-1. Turn on or off the **Turn on access** toggle.
+1. In the **Email insights** pane, turn on the toggle.
 
-    If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
-
-1. If the toggle is turned on, you can choose to store email insights of all users or only of specific security groups. To do this, select one of the following options:
+1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
     - **No restrictions**: All users' email insights are stored.
-    - **Set access restrictions**: Email insights are stored only of users in the selected security groups. You can add security groups in **Allow access** and **Restrict access** sections. Leaving the **Allow access** section empty will allow all users to access the feature, except those in the **Restrict access** section.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are stored.
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
 
-1. Select **Save** to apply the changes.
+        You must add security groups in either of the sections to save the changes.
+
+1. Select **Save**.
 1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels you want to be included in generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, select **Continue without labels**.
 
-After you turn on this setting, you can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including email with sensitivity labels.
+You can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including email with sensitivity labels.
+
+If you want to turn off email insights storage, follow the same steps to access the **Email insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
+
 
 ## Related information
 
+- [Configure meeting insights settings](configure-meeting-agent.md)
+- [Set up and activate Sales Agent](set-up-sales-agent.md)
 - [Configure email insights settings (preview)](email-insights-settings.md)
