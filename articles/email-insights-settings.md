@@ -23,22 +23,28 @@ As an admin, you can configure settings for email insights in Copilot for Sales.
 
 ## Configure email insights sharing settings
 
-With this setting, you can control whether stored email insights contribute to the AI knowledge base and other sellers can see them. By default, this setting is turned off, meaning that email insights are not shared. If you turn on this setting, only team members with access to the associated CRM record to an email can see email insights for that email. You can also choose whether to share email insights of all users or only of specific security groups.
+You can control whether stored email insights contribute to the AI knowledge base and other sellers can see them. By default, this setting is turned off, meaning that email insights are not shared. If you turn on this setting, only team members with access to the associated CRM record to an email can see email insights for that email. You can also choose whether to share email insights of all users or only of specific security groups.
 
 ### Prerequisites
 
 - [Email insights storage must be turned on](access-settings.md#configure-email-insights-storage-settings-preview)
 
-### Turn on or off email insights sharing
+### Turn on email insights sharing
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Email insights (preview)**.
 1. Select **Share email insights**.
-1. Turn on or off the **Turn on access** toggle.
-1. If the toggle is turned on, you can choose to share email insights of all users or only of specific security groups. To do this, select one of the following options:
+1. In the **Share email insights** pane, turn on the toggle.
+1. Under **Who can access this feature?**, choose to share email insights of all users or only of specific security groups. To do this, select one of the following options:
+
     - **No restrictions**: All users' email insights are shared.
-    - **Set access restrictions**: Email insights are shared only of users in the selected security groups. You can add security groups in **Allow access** and **Restrict access** sections. Leaving the **Allow access** section empty will allow all users to access the feature, except those in the **Restrict access** section.
-1. Select **Save** to apply the changes.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are shared.
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
+
+        You must add security groups in either of the sections to save the changes.
+
+1. Select **Save**.
 
 ## Include email based on sensitivity labels
 
