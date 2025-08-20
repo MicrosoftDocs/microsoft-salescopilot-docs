@@ -54,9 +54,6 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 
 The Sales Agent can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
-> [!IMPORTANT]
-> At this time, the preview of Sales Agent doesn't support writing summaries to Dynamics 365 Sales.
-
 ### Create a table to store Sales Agent research summary
 
 1. Create a custom table in your CRM to store the Sales Agent research summary. For example, **SalesAgentResearchSummaries**.

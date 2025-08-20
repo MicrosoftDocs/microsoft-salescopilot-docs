@@ -51,7 +51,6 @@ You can access the administrator settings in the Copilot for Sales app in Outloo
       - **Copilot AI**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.      
       - **Save to (CRM)**: [Configure fields that sellers can use to categorize emails and meetings in CRM](save-additional-details-outlook.md).
       - **Forms**: [Determines what information is displayed in Copilot for Sales in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in Copilot for Sales.
-      - **Extensions**: [Integrates Copilot for Sales with other applications](use-extensions.md) to enhance its functionality and provide more insights for your sellers.
       
     :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Screenshot showing admin settings.":::
 

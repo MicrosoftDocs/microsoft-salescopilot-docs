@@ -80,9 +80,6 @@ You can [set up AI features in Copilot for Sales](suggested-replies.md) to use A
 
 Copilot for Sales comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
-### Integrate with other applications
-
-You can [integrate Copilot for Sales with other applications](use-extensions.md) to extend the capabilities of Copilot for Sales.
 
 ## Step 7: Welcome sellers to Copilot for Sales
 
