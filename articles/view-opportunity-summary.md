@@ -18,8 +18,6 @@ When you're preparing for a meeting with a customer, context from your customer 
 
 An opportunity summary can include the following kinds of information:
 
-- If you have a license for People.ai and your administrator [turned on the People.ai integration](use-extensions.md#integrate-with-peopleai), the opportunity summary includes [insights from People.ai](people-ai-insights.md). 
-
 - If notes are added to the opportunity, they're summarized and displayed in the **Latest activity** section of the opportunity summary. The notes summary highlights any issues or concerns that are mentioned in the notes, making it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
 
 - If you [saved an email summary to your CRM and it's connected to the opportunity](view-save-email-summary-crm.md#save-an-email-summary-to-your-crm), it's included in the summarized notes. The notes summary highlights any issues or concerns addressed within notes. It makes it easy to catch up on the latest updates and quickly prepare for meetings with potential buyers.
@@ -60,8 +58,7 @@ To see a list of supported languages, see [supported languages](introduction.md#
 
 1. In Outlook, open an email or the scheduled meeting.  
 1. Open the **Copilot for Sales** pane.  
-    The opportunity summary is displayed in the **Opportunity summary** card.  
-If you have a license for People.ai, insights from People.ai are also displayed. More information: [View People.ai insights](people-ai-insights.md)
+    The opportunity summary is displayed in the **Opportunity summary** card.
 
 ## View data source in summary
 

@@ -16,8 +16,6 @@ ms.custom:
 
 You can view details about your saved contact and its related records such as account and opportunities. The record types that you can view are determined by your administrator.
 
-If you have a license for People.ai and and your administrator [turned on the People.ai integration](use-extensions.md#integrate-with-peopleai), then [insights from People.ai](people-ai-insights.md) are displayed for contacts, opportunities, and accounts.
-
 1. In Outlook, open the **Copilot for Sales** pane.  
 
 1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.  

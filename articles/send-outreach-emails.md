@@ -1,7 +1,7 @@
 ---
 title: Send outreach email to leads (preview)
 description: Learn how to send outreach email to leads using Sales Agent.
-ms.date: 08/13/2025
+ms.date: 08/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -29,7 +29,7 @@ This capability provides you with complete control over your outreach process wh
 1. Open the lead research details for which you want to send an outreach email.
 1. Select **Draft Email**.
 1. Review the generated email draft.
-1. Under the **Customization** section, perform the following actions:
+1. Under the **Customize talking points** section, perform the following actions:
     1. **Account talking points**: Select the talking points you want to include in the email draft.
     1. **Prompt for next steps**: Specify the next steps you want the lead to take.
     1. **Language**: Select the language in which you want to send the email. 

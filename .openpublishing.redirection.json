@@ -698,6 +698,16 @@
         "source_path": "articles/generate-meeting-summary.md",
         "redirect_url": "/microsoft-sales-copilot/create-teams-meeting#generate-a-meeting-summary",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/use-extensions.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/people-ai-insights.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
       }                                                 
   ]
 }
