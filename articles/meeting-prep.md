@@ -30,7 +30,7 @@ Here's a video that provides an overview of the meeting preparation card:
 The meeting preparation card is displayed in your personal chat with the **Copilot for Sales** bot or in the **Chat** tab of the Copilot for Sales personal app in Teams. The meeting preparation card is sent at a time that is [configured by your administrator](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications). By default, the meeting preparation card is sent one hour before the meeting. If you schedule the meeting less than an hour before the start time, the card appears soon after you send the meeting invite. 
 
 > [!NOTE]
-> To see the meeting preparation card in your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
+> The meeting preparation card is displayed in the language set for your Microsoft 365 account. To change the language of the meeting preparation card to your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
 
 The meeting preparation card contains the following information: 
 
