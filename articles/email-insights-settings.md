@@ -1,7 +1,7 @@
 ---
 title: Configure email insights settings in Copilot for Sales
 description: Learn how to configure email insights settings in Copilot for Sales, including sharing settings and sensitivity labels.
-ms.date: 08/07/2025
+ms.date: 08/27/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -48,7 +48,7 @@ You can control whether stored email insights contribute to the AI knowledge bas
 
 ## Include email based on sensitivity labels
 
-With this setting, you can control whether emails with specific sensitivity labels are included in email insights. Emails without a sensitivity label are always included in email insights.
+You can control whether emails with specific sensitivity labels are included in email insights. Emails without a sensitivity label are always included in email insights.
 
 To include emails based on sensitivity labels:
 
@@ -57,8 +57,20 @@ To include emails based on sensitivity labels:
 1. Select **Include emails based on sensitivity labels**.
 1. Select **Edit** next to **Choose Sensitivity labels**.
 1. Select the sensitivity labels you want to include in email insights.
-1. Select **Save** to apply the changes.
+1. Select **Save**.
+
+## Automatically summarize email in the Key email info card
+
+You can control whether emails are automatically summarized in the [**Key email info**](view-save-email-summary-crm.md) card. By default, this setting is turned on. If you turn it off, sellers must manually summarize emails in the **Key email info** card by selecting **Summarize email**.
+
+To configure this setting:
+
+1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Environment**, select **Email insights (preview)**.
+1. Select **Auto-summarize emails**.
+1. Turn the toggle on or off.
 
 ## Related information
 
 - [Configure email insights storage settings (preview)](access-settings.md#configure-email-insights-storage-settings-preview)
+- [View and save email summaries to your CRM](view-save-email-summary-crm.md)
