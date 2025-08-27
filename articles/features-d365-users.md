@@ -68,8 +68,8 @@ Dynamics 365 Sales users who purchase Copilot for Sales can access the full set 
 |Better together capabilities with Microsoft 365 Copilot  | Utilizing the user experience embedded within email, the [inline email summary](email-summary-premium.md) is optimized to include sales-related highlights and integrated CRM insights.  |
 |Role-based insights, actions, and recommendations    |  Sales-specific insights are displayed throughout the Microsoft 365 Copilot experiences. This includes [task recommendations](suggested-tasks-collab-space.md) and [AI-suggested updates to CRM](suggested-crm-updates.md).    |
 |Enriched data summaries   | CRM and Microsoft 365 Office Graph summarization uses combined data sources out of the box. Highlights and data points are optimized for salespeople and surfaced in a unified view in [Teams meeting recap](view-meeting-summary-recap.md) and Outlook.        |
-|Recent communication     |  Stay on top of your customer interactions with [quick views of recent email threads and Teams meeting summaries](recent-communications.md).       |
-|Key sales info     | [Get a comprehensive overview of relevant sales data directly within Outlook.](key-sales-info.md)   |
+|Roadmap card     |  Stay on top of your customer interactions with [insights of email and meeting related to an opportunity](view-roadmap-card.md).       |
+|Opportunity insights     | [Get a comprehensive overview of opportunity-level insights directly within Outlook.](view-opportunity-insights.md)   |
 |Core foundation with Microsoft 365 Copilot      |  Copilot for Sales includes Microsoft 365 Copilot and Teams meeting recap. Microsoft 365 Copilot brings AI capabilities across the Microsoft 365 suite. Copilot for Sales brings the role-based insights and CRM integration embedded as one product offering.  |
 | Copilot for Sales powered by GPT-4    | Copilot for Sales utilizes GPT-4 to provide the best quality responses and insight.  |
 | Extend with Copilot Studio   | Full access to Copilot Studio to allow for [extensions and further customizations](extend-copilot-for-sales.md).   |
