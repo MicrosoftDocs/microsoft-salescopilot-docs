@@ -27,7 +27,7 @@ You can control whether stored email insights contribute to the AI knowledge bas
 
 ### Prerequisites
 
-- [Email insights storage must be turned on](access-settings.md#configure-email-insights-storage-settings-preview)
+- [Email insights storage must be turned on](access-settings.md#email-insights-preview)
 
 ### Turn on email insights sharing
 
@@ -72,5 +72,5 @@ To configure this setting:
 
 ## Related information
 
-- [Configure email insights storage settings (preview)](access-settings.md#configure-email-insights-storage-settings-preview)
+- [Configure email insights storage settings (preview)](access-settings.md#email-insights-preview)
 - [View and save email summaries to your CRM](view-save-email-summary-crm.md)
