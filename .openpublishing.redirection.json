@@ -708,6 +708,16 @@
         "source_path": "articles/people-ai-insights.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                                 
+      },
+      {
+        "source_path": "articles/recent-communications.md",
+        "redirect_url": "/microsoft-sales-copilot/view-roadmap-card",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/key-sales-info.md",
+        "redirect_url": "/microsoft-sales-copilot/view-opportunity-insights",
+        "redirect_document_id": false
+      }                                                    
   ]
 }
