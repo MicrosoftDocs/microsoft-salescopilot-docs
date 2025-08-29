@@ -83,6 +83,8 @@
       href: save-ai-notes-crm.md
     - name: Configure access settings for features
       href: access-settings.md
+    - name: Configure email insights settings (preview)
+      href: email-insights-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
     - name: Sales Agent (preview)
