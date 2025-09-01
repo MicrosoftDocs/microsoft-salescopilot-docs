@@ -1,7 +1,7 @@
 ---
 title: Configure email insights settings in Copilot for Sales
 description: Learn how to configure email insights settings in Copilot for Sales.
-ms.date: 08/29/2025
+ms.date: 09/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -30,7 +30,7 @@ To configure this setting:
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Features**, select **Email insights (preview)**.
 1. Select **Auto-summarize emails**.
-1. Turn the toggle on or off.
+1. Turn the toggle on or off to enable or disable automatic email summarization.
 
 ## Related information
 
