@@ -73,8 +73,6 @@
       href: turn-off-suggested-tasks-collab-space.md
     - name: Copilot for Sales data movement across geographies
       href: copilot-data-movement.md
-    - name: Integrate with other applications (preview)
-      href: use-extensions.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
     - name: Configure recordings and notifications for sales meetings
@@ -83,6 +81,8 @@
       href: save-ai-notes-crm.md
     - name: Configure access settings for features
       href: access-settings.md
+    - name: Configure email insights settings (preview)
+      href: email-insights-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
     - name: Sales Agent (preview)
@@ -164,8 +164,6 @@
         href: key-sales-info.md
       - name: View recent communication
         href: recent-communications.md
-      - name: View People.ai insights (preview)
-        href: people-ai-insights.md
       - name: View insights from partner applications (preview)
         href: insights-partner-apps.md
       - name: Share insights from Outlook to Teams

@@ -1,7 +1,7 @@
 ---
 title: View and save email summaries to your CRM
 description: Learn how to use Copilot for Sales to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
-ms.date: 02/04/2025
+ms.date: 08/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -56,7 +56,9 @@ You can add the summary to your CRM, share it to Teams, or copy it to the clipbo
 
 1. Open the **Copilot for Sales** pane if it isn't already open. After a moment or two, the email summary is displayed in the **Key email info** card.
 
-    If the contact isn't in your CRM, the **Key email info** card isn't displayed. Add the contact to your CRM. The email summary should appear a few moments later. Learn more in [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md).
+    > [!NOTE]
+    > - If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm-sales-copilot.md). The email summary should appear a few moments later.
+    > - If you see the **Summarize email** button, select it to generate the email summary. This is because your admin has disabled automatic email summarization.
 
 In the **Key email info** card, you can perform the following tasks:
 
