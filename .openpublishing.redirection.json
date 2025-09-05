@@ -718,6 +718,16 @@
         "source_path": "articles/key-sales-info.md",
         "redirect_url": "/microsoft-sales-copilot/view-opportunity-insights",
         "redirect_document_id": false
-      }                                                    
+      },
+      {
+        "source_path": "articles/extend-key-sales-info.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-opportunity-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/faqs-key-sales-info.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }                                                      
   ]
 }

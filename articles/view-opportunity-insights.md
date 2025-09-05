@@ -14,7 +14,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The **Opportunity insights** card provides you with a consolidated view of opportunity-related emails and meetings, highlighting risks and upcoming actions to help you stay updated without leaving Outlook. The card offers a detailed perspective on opportunities by analyzing all related emails and meetings, helping you understand potential risks and progress. For an opportunity, Copilot for Sales provides AI-generated insights to indicate how the opportunity is evolving.
+The **Opportunity insights** card provides you with a consolidated view of opportunity-related emails and meetings, highlighting risks and upcoming actions to help you stay updated without leaving Outlook. The card offers a detailed perspective on the opportunity by analyzing all related emails and meetings, helping you understand potential risks and progress. For an opportunity, Copilot for Sales provides AI-generated insights to indicate how the opportunity is evolving.
 
 When working on opportunities, you often juggle multiple activities, making it challenging to keep track of key insights from each interaction. The **Opportunity insights** card brings together all these events and surfaces opportunity-level insights directly within Outlook. If you've access to an opportunity in CRM, you can see insights from all relevant emails and meetings, even those you did not attend. This helps you stay updated and informed without leaving your workflow. 
 

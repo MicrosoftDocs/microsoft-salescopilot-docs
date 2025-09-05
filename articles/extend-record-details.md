@@ -120,7 +120,7 @@ Legend:
 [View record details](view-record-details.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
-[Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
+[Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

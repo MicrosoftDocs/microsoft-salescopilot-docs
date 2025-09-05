@@ -52,14 +52,14 @@ As a maker, you must build the following elements:
 1. An action that adds the Copilot for Sales–provided descriptions to the connector.  
     Copilot for Sales doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure aren't constraints for Copilot. You're responsible for ensuring that your APIs can handle the inputs that Copilot supplies, and that they return the expected outputs. Additionally, you must provide appropriate descriptions to ensure that Copilot can correctly match them during runtime.
 
-For example, you want to enhance the [key sales information](key-sales-info.md) capability in Copilot for Sales. For this extension, you must create an API that, at a minimum, accepts a CRM record reference (passed as `recordType` and `recordId` parameter values) as input and provides the insight title, description, and date as output. This API should be added to a new or existing Microsoft Power Platform connector that uses OAuth for authentication. Additionally, the APIs in the connector should be supplemented with descriptions as required by Copilot for Sales.
+For example, you want to enhance the [opportunity insights](extend-opportunity-insights.md) capability in Copilot for Sales. For this extension, you must create an API that, at a minimum, accepts a CRM record reference (passed as `recordType` and `recordId` parameter values) as input and provides the insight title, description, and date as output. This API should be added to a new or existing Microsoft Power Platform connector that uses OAuth for authentication. Additionally, the APIs in the connector should be supplemented with descriptions as required by Copilot for Sales.
 
 ## Copilot capabilities that can be extended
 
 Through extensibility, you can enhance existing capabilities or add new capabilities in Copilot for Sales. You can bring data and insights from your application into the copilot experience. The following capabilities can be extended:
 
 - [Email summaries](email-summary-premium.md)
-- [Key sales information](key-sales-info.md)
+- [Opportunity insights](extend-opportunity-insights.md)
 - [Opportunity summaries](view-opportunity-summary.md)
 - [Record details](view-record-details.md)
 
@@ -83,7 +83,7 @@ Additionally, you can introduce new question and answer (Q&A) capabilities in th
 
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
-[Enrich key sales information with insights from your application](extend-key-sales-info.md)<br>
+[Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)
