@@ -158,8 +158,8 @@
         href: view-opportunity-summary.md
       - name: View suggested CRM updates
         href: suggested-crm-updates.md
-      - name: View the Roadmap card (preview)
-        href: view-roadmap-card.md
+      - name: View the Timeline card (preview)
+        href: view-timeline-card.md
       - name: View opportunity insights (preview)
         href: view-opportunity-insights.md
       - name: View insights from partner applications (preview)
@@ -332,6 +332,9 @@
 
 - name: Copilot for Sales success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
+
+- name: Deprecations in Copilot for Sales
+  href: deprecations-copilot-for-sales.md
 
 - name: Responsible AI
   items:
