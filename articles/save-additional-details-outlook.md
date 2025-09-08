@@ -28,6 +28,8 @@ You can control if sellers can save emails and meetings to the CRM. By default, 
 1. To turn off saving emails to CRM, turn off **Save emails to (CRM)**.
 1. To turn off saving meetings to CRM, turn off **Save meetings to (CRM)**.
 
+    :::image type="content" source="media/save-to-crm.png" alt-text="Screenshot showing the settings to save Outlook activities to CRM in Copilot for Sales admin settings in Teams.":::
+
 ## Configure the fields to save to the CRM
 
 You can select the fields that are saved to the CRM together with emails or meetings. Those fields are then shown to sellers when they save emails or meetings to the CRM. Sellers can easily find and track customer interactions by categorizing emails and meetings in their CRM inbox. For example, sellers might want to categorize emails and meetings based on priority, account, or deal stage.
