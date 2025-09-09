@@ -21,4 +21,4 @@ Effective September 2025, the **Key sales info** card is deprecated and replaced
 
 ## Recent communications
 
-Effective September 2025, the **Recent communications** card is deprecated and replaced by the [**Timeline**](view-timeline-card.md) card.
+Effective September 2025, the **Recent communications** card is deprecated and replaced by the [**Customer Communication**](view-customer-communication.md) card.
