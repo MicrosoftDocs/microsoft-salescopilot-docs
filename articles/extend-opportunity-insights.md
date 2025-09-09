@@ -1,7 +1,7 @@
 ---
 title: Enrich opportunity insights with data from your application (preview)
 description: Enhance sales information with Copilot for Sales in Outlook. Extend its capabilities by using data from your own application.
-ms.date: 06/26/2025
+ms.date: 09/08/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -88,10 +88,11 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 
 The example in the following image shows how the output of the API is mapped to the opportunity insights.
 
-:::image type="content" source="media/extend-ksi.svg" alt-text="Screenshot showing insights from partner apps in opportunity insights.":::
+:::image type="content" source="media/extend-oppty-insights.png" alt-text="Screenshot showing insights from partner apps in opportunity insights.":::
 
 Legend:
 
+1. Card that shows data from your partner application. 
 1. Section that shows insights from the partner application. The section title is derived from the name of the Microsoft Power Platform connector. 
 1. Descriptions of the insight from the API response.
 1. Citation numbers that can be selected to view details about the insight.
