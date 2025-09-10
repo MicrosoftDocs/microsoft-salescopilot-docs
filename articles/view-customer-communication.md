@@ -34,6 +34,8 @@ When working on opportunities, you often manage numerous activities, such as mee
 1. Go to the **Customer communication** card.
 1. To view insights for a meeting, select **View meeting insights**.
 
+    :::image type="content" source="media/customer-communication.png" alt-text="Screenshot of the Customer communication card":::
+
 ## Related information
 
 - [Save Outlook activities to your CRM](save-outlook-activities-crm.md)

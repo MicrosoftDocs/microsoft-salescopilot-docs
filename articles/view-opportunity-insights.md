@@ -34,6 +34,8 @@ When working on opportunities, you often juggle multiple activities, making it c
 1. Go to the **Opportunity insights** card.
 1. Select **See all risks and insights for this opportunity** to view detailed information.
 
+    :::image type="content" source="media/opportunity-insights.png" alt-text="Screenshot of the Opportunity insights card":::
+
 ## Related information
 
 - [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
