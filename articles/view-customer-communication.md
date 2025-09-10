@@ -16,7 +16,7 @@ ms.author: shjais
 
 The **Customer communication** card in the Copilot for Sales pane in Outlook shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that have happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, Copilot for Sales provides AI-generated insights such as the summary, sentiment, objections, and next steps.
 
-When working on opportunities, you often manage numerous activities, such as emails and meetings, making it difficult to keep track of every interaction and discussion. The **Customer communication** card consolidates all these events and provides insights for each one directly within Outlook. If you've access to an opportunity in CRM, you can view insights from related meetings, even if you did not attend the meeting. This helps you stay updated and informed without leaving your workflow.
+When working on opportunities, you often manage numerous activities, such as meetings, making it difficult to keep track of every interaction and discussion. The **Customer communication** card consolidates all these events and provides insights for each one directly within Outlook. If you've access to an opportunity in CRM, you can view insights from related meetings, even if you did not attend the meeting. This helps you stay updated and informed without leaving your workflow.
 
 > [!NOTE]
 > - The **Customer communication** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the **Customer communication** card displays the meeting activities related to that.
@@ -32,7 +32,7 @@ When working on opportunities, you often manage numerous activities, such as ema
 1. In Outlook, open an email or a meeting.
 1. [Open the Copilot for Sales side pane](open-app.md#access-copilot-for-sales-in-outlook).
 1. Go to the **Customer communication** card.
-1. To view insights for a meeting or email, select **View meeting insights**.
+1. To view insights for a meeting, select **View meeting insights**.
 
 ## Related information
 
