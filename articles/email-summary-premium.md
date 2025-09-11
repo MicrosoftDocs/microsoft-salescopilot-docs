@@ -78,20 +78,6 @@ Legend:
 
 1. To open the **Copilot for Sales** pane, select **Go to Sales**.
 
-    If the contact is in your CRM, the **Key sales info** card displays a concise summary of the email, along with important information about the account and opportunities related to the contact, with links to the records in your CRM.
-
-    If the contact isn't in your CRM, the **Key sales info** card isn't displayed. Add the contact to your CRM. Learn more in [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md). The **Key sales info** card should appear a few moments later. If it doesn't, close and reopen the email.
-
-In the **Key sales info** card, you can perform the following tasks:
-
-- To view basic information about the contact, account, or opportunity, select the link in blue. To view complete details in your CRM, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card. You might need to scroll the card to find the icon.
-
-- To check where Copilot got the information for the summary, select a citation number or the **n references** menu, where *n* is the number of citations in the summary.
-
-- To copy the summary to the clipboard, select the copy icon.
-
-- To provide feedback on the email summary, select the thumbs-up or thumbs-down icon. Be sure not to share personal information in your feedback.
-
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
