@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 08/13/2025
+ms.date: 10/10/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,13 +12,13 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from research and generating personalized outreach emails tailored to the lead and its product of interest.
 
 Sales Agent connects to both Microsoft Dynamics 365 Sales and Salesforce Sales Cloud to research your leads, and discover related contact, account, opportunity, and activity records. Sales Agent uncovers the insights hidden in your CRM that go easily missed.
 
 As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Copilot for Sales app. 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 

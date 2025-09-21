@@ -41,7 +41,7 @@ This scenario is ideal for users who:
 - Get me the account summary for `<account name>`. Organize the opportunities in a table sorted by close date
 - What is the number of employees at `<account name>`?
 - What is the opportunity pipeline for `<account name>`?
-- Briefly summarize the discussion on shipping costs with `<account name>`.
+- Briefly summarize the discussion on `<topic>` with `<account name>`.
 - Has `<account name>` mentioned any competitors in past meetings?
 
 #### Relationship prompts
