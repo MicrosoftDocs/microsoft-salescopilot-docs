@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Copilot for Sales
 description: Learn what are the various privileges required to use Copilot for Sales
-ms.date: 02/12/2025
+ms.date: 10/10/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -43,6 +43,16 @@ If you're using custom security roles, you must assign the **Sales Copilot Admin
 | Recently Used | recentlyused                | Create, Read, Write, Delete                           | User        |
 |Organization | organization                | Read, Write, Append to                                | Global      |
 
+For Sales Chat, you must also assign the following privileges:
+
+| Table       | Logical name       | Privileges        | Access level             |
+|----------------|---------------------|---------------------|---------------------|
+| DVTableSearch | msdyn_dvtablesearch | Create, Read, Write, Delete, Append, Append to  | Global |
+| DVTableSearchEntity | msdyn_dvtablesearchentity | Create, Read, Write, Delete, Append, Append to  | Global |
+| connectionreference | msdyn_dvconnectionreference | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotGlossaryTerm | msdyn_copilotglossaryterm | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotSynonyms | msdyn_copilotsynonymset | Create, Read, Write, Delete, Append, Append to  | Global |
+
 ### Dynamics 365 sellers
 
 If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, Copilot for Sales privileges are added automatically and no further action is required.
@@ -62,6 +72,13 @@ If you're using custom security roles, you must assign the **Sales Copilot User*
 | User                | systemuser                  | Read                                                  | Organization                   |
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
 
+For Sales Chat, you must also assign the following privileges for Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
+
+| Table       | Logical name       | Privileges        | Access level             |
+|----------------|---------------------|---------------------|---------------------|
+| DVTableSearchEntity | msdyn_dvsearchentity | Read  | Global |
+| CopilotGlossaryTerm | msdyn_copilotglossaryterm | Read  | Global |
+| CopilotSynonyms | msdyn_copilotsynonymset | Read  | Global |
 
 The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 

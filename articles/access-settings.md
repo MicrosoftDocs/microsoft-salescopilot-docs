@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in Copilot for Sales
 description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
-ms.date: 08/13/2025
+ms.date: 10/10/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -85,6 +85,24 @@ To turn on Sales Agent:
 After you turn on Sales Agent, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
 
 If you want to turn off Sales Agent, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales. Turning off the agent will stop the agent from researching leads.
+
+## Sales Chat (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+Sales Chat is an AI-powered chat interface that allows sellers to interact with their sales data using natural language. Sellers can ask questions and gain insights from their CRM data and past customer conversations.
+
+By default, Sales Chat is turned on. 
+
+To turn off Sales Chat:
+
+1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Environment**, select **Access settings**.
+1. Select **Sales Chat**.
+1. In the **Sales Chat** pane, turn off the toggle.
+
 
 ## Related information
 
