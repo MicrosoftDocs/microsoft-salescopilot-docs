@@ -102,6 +102,9 @@ When the first user signs in to Salesforce CRM from the Copilot for Sales app in
 
 The environment is provisioned using server-to-server (S2S) authentication, which means any user can initiate the process. The platform API provisions the trial environment and assigns the administrator role to a predefined admin user rather than the initiating user. For more details on the architecture and how data is stored, go to [Copilot for Sales architecture](architecture.md).
 
+> [!WARNING]
+> Do not remove or edit the **msdyn_viva** environment because it is holds important data for Copilot for Sales. If the environment is removed or edited, Copilot for Sales might stop working.
+
 **Administer roles in the provisioned environment**
 
 Copilot for Sales automatically assigns all Power Platform administrators and Microsoft 365 global administrators to the System Administrator role in the trial environment. After the environment is created, it is recommended to review the list of administrators to ensure appropriate access levels.

@@ -20,6 +20,9 @@ You can find the name and details of your environment in the **Environments** se
 
 :::image type="content" source="media/ppac-admin-center.png" alt-text="Screenshot that shows the default Dataverse instance in Power Platform admin center.":::
 
+> [!WARNING]
+> Do not remove or edit the **msdyn_viva** environment because it is holds important data for Copilot for Sales. If the environment is removed or edited, Copilot for Sales might stop working.
+
 To use Sales Agent, you must convert the trial environment to production in which Copilot for Sales is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
 
 ## Convert the environment from Trial to Production
