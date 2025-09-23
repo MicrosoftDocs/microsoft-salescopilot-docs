@@ -16,7 +16,9 @@ Copilot for Sales applies your organization's existing CRM access controls and u
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Copilot for Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
 > - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Copilot for Sales app for Teams.
 
-## Permissions required for Salesforce administrators
+## Privileges required for Salesforce customers
+
+### Salesforce administrators
 
 Salesforce administrators who need to customize Copilot for Sales must have the following permissions.
 
@@ -24,6 +26,26 @@ Salesforce administrators who need to customize Copilot for Sales must have the 
 |---------|---------|
 | Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
 | Privilege | **Read** and **Write** privileges on **Organization** table. |
+
+For Sales Chat, you must assign the following permissions to Copilot for Sales Extended User:
+
+| Table       | Logical name       | Privileges        | Access level             |
+|----------------|---------------------|---------------------|--------------------|
+| DVTableSearch | dvtablesearch | Create, Read, Write, Delete, Append, Append to  | Global |
+| DVTableSearchEntity | dvtablesearchentity | Create, Read, Write, Delete, Append, Append to  | Global |
+| connectionreference | connectionreference | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotGlossaryTerm | copilotglossaryterm | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotSynonyms | copilotsynonyms | Create, Read, Write, Delete, Append, Append to  | Global |
+
+### Salesforce users
+
+For Sales Chat, you must also assign the following privileges to Viva Sales (Sales Productivity App):
+
+| Table       | Logical name       | Privileges        | Access level             |
+|----------------|---------------------|---------------------|---------------------|
+| DVTableSearchEntity | dvtablesearchentity | Read  | Global |
+| CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
+| CopilotSynonyms | copilotsynonyms | Read  | Global |
 
 ## Privileges required for Dynamics 365 customers
 
@@ -46,12 +68,12 @@ If you're using custom security roles, you must assign the **Sales Copilot Admin
 For Sales Chat, you must also assign the following privileges:
 
 | Table       | Logical name       | Privileges        | Access level             |
-|----------------|---------------------|---------------------|---------------------|
-| DVTableSearch | msdyn_dvtablesearch | Create, Read, Write, Delete, Append, Append to  | Global |
-| DVTableSearchEntity | msdyn_dvtablesearchentity | Create, Read, Write, Delete, Append, Append to  | Global |
-| connectionreference | msdyn_dvconnectionreference | Create, Read, Write, Delete, Append, Append to  | Global |
-| CopilotGlossaryTerm | msdyn_copilotglossaryterm | Create, Read, Write, Delete, Append, Append to  | Global |
-| CopilotSynonyms | msdyn_copilotsynonymset | Create, Read, Write, Delete, Append, Append to  | Global |
+|----------------|---------------------|---------------------|--------------------|
+| DVTableSearch | dvtablesearch | Create, Read, Write, Delete, Append, Append to  | Global |
+| DVTableSearchEntity | dvtablesearchentity | Create, Read, Write, Delete, Append, Append to  | Global |
+| connectionreference | connectionreference | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotGlossaryTerm | copilotglossaryterm | Create, Read, Write, Delete, Append, Append to  | Global |
+| CopilotSynonyms | copilotsynonyms | Create, Read, Write, Delete, Append, Append to  | Global |
 
 ### Dynamics 365 sellers
 
@@ -72,13 +94,13 @@ If you're using custom security roles, you must assign the **Sales Copilot User*
 | User                | systemuser                  | Read                                                  | Organization                   |
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
 
-For Sales Chat, you must also assign the following privileges for Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
+For Sales Chat, you must also assign the following privileges to Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
-| DVTableSearchEntity | msdyn_dvsearchentity | Read  | Global |
-| CopilotGlossaryTerm | msdyn_copilotglossaryterm | Read  | Global |
-| CopilotSynonyms | msdyn_copilotsynonymset | Read  | Global |
+| DVTableSearchEntity | dvtablesearchentity | Read  | Global |
+| CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
+| CopilotSynonyms | copilotsynonyms | Read  | Global |
 
 The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 
