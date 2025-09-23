@@ -106,3 +106,8 @@ This scenario is ideal for users who:
 Sales Chat is configured by your administrator to help you converse with your sales data. Learn more about how to [set up Sales Chat](set-up-sales-chat.md).
 
 Once configured, you can start using Sales Chat to ask questions about your sales data and get insights to help you close deals faster. Learn more about how to [use Sales Chat](use-sales-chat.md).
+
+## Related information
+
+- [Set up Sales Chat](set-up-sales-chat.md)
+- [Use Sales Chat](use-sales-chat.md)

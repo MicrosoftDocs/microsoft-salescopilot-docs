@@ -93,6 +93,12 @@
         href: set-up-sales-agent.md
       - name: Integrate Sales Agent with Salesforce
         href: set-up-sales-agent-salesforce.md
+    - name: Sales Chat (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Set up Sales Chat
+        href: set-up-sales-chat.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities (preview)
@@ -227,6 +233,12 @@
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
+    - name: Sales Chat (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Use Sales Chat
+        href: use-sales-chat.md
 
 - name: Extend Copilot for Sales (preview)
   items:

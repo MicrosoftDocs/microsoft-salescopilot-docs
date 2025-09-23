@@ -61,3 +61,7 @@ You can use Sales Chat to look up information about your customer accounts, cont
 - Who is the primary customer contact for `<account name>`?
 
 For a list of example prompts you can use with Sales Chat, see [What can Sales Chat help you with?](sales-chat-overview.md#what-can-sales-chat-help-you-with)
+
+## Related information
+
+- [Sales Chat overview](sales-chat-overview.md)
