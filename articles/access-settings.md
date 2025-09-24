@@ -92,19 +92,28 @@ If you want to turn off Sales Agent, follow the same steps to access the **Sales
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales Chat is an AI-powered chat interface that allows sellers to interact with their sales data using natural language. Sellers can ask questions and gain insights from their CRM data and past customer conversations.
+Sales Chat is an AI-powered chat interface that allows sellers to interact with their sales data using natural language. Sellers can ask questions and gain insights from their CRM data and past customer conversations. By default, Sales Chat is turned on for all users. You can choose to restrict access to specific security groups or turn off the feature entirely.
 
-By default, Sales Chat is turned on. 
-
-To turn off Sales Chat:
+To configure Sales Chat access settings:
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
 1. Select **Sales Chat**.
-1. In the **Sales Chat** pane, turn off the toggle.
+1. In the **Sales Chat** pane, turn on or off the toggle.
+1. If you turn on the toggle, you can choose to allow access for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
+    - **No restrictions**: All users can use Sales Chat.
+    - **Set access restrictions**: Use security groups to decide which users can use the feature.
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
 
+        You must add security groups in either of the sections to save the changes.
+
+1. Select **Save**.
+
+After you turn on Sales Chat, you can [set up and configure Sales Chat from the **Sales Chat** settings page](set-up-sales-chat.md).
 
 ## Related information
 
 - [Configure meeting insights settings](configure-meeting-agent.md)
 - [Set up and activate Sales Agent](set-up-sales-agent.md)
+- [Set up Sales Chat](set-up-sales-chat.md)
