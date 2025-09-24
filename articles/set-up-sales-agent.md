@@ -31,7 +31,7 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 
 ### Additional prerequisites for Salesforce
 
-- Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production]().
+- Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - Configure the server-to-server connection between Copilot for Sales and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
 
 ## Step 1: Create a view and query that defines the leads to research
