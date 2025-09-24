@@ -1,7 +1,7 @@
 ---
 title: Data handling in Microsoft 365 Copilot for Sales 
 description: Know how data is handled in Copilot for Sales 
-ms.date: 06/04/2025
+ms.date: 09/24/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,8 +28,9 @@ When Copilot for Sales is connected to a non-Dynamics 365 CRM, a default Dataver
 
 You can find the name and details of your default Dataverse instance named **msdyn_viva** in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-> [!NOTE]
-> The **msdyn_viva** environment is of type **Trial**. If you need to convert the environment to **Production**, follow the steps in the [Convert the Copilot for Sales environment from Trial to Production](convert-trial-prod.md) article.
+> [!IMPORTANT]
+> - The **msdyn_viva** environment is of type **Trial**. If you need to convert the environment to **Production**, follow the steps in the [Convert the Copilot for Sales environment from Trial to Production](convert-trial-prod.md) article.
+> - Do not remove or edit the **msdyn_viva** environment because it is holds important data for Copilot for Sales. If the environment is removed or edited, Copilot for Sales might stop working.
 
 :::image type="content" source="media/ppac-admin-center.png" alt-text="Screenshot that shows the default Dataverse instance in Power Platform admin center.":::
 
