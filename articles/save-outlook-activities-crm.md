@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with Copilot for Sales.
-ms.date: 09/08/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -96,10 +96,12 @@ Copilot for Sales can show a banner message that includes quick CRM actions in u
 
 ## Open saved activities in your CRM
 
-After you save an email or meeting to your CRM, you can open it from the **Email from** or meeting title card in the Copilot for Sales side pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
+After you save an email or meeting to your CRM, you can open it from the **Email from** or the meeting title card in the Copilot for Sales side pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
 
 1. Open the email or meeting, and then open Copilot for Sales.
-1. On the **Email from** or **meeting title** card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
+1. On the **Email from** or the meeting title card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
+
+:::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::
 
 ## Edit activities saved to Dynamics 365
 
