@@ -31,7 +31,7 @@ Sales Chat is available to users who have a Copilot for Sales license. If you do
 - Right licenses and [message capacity](manage-consumption-based-billing.md) have been set up.
 - Sales Chat must be turned on in Access settings.
 - Copilot for Sales must be connected to a CRM system.
-- [Appropriate privileges must be assigned to users in the CRM system to access the data.](privileges.md)
+- [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
 
 ## Step 1: Configure CRM record types (tables)
 
