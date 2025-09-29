@@ -65,3 +65,4 @@ For a list of example prompts you can use with Sales Chat, see [What can Sales C
 ## Related information
 
 - [Sales Chat overview](sales-chat-overview.md)
+- [Meeting preparation card in Microsoft 365 Copilot](meeting-prep-sales-chat.md)
