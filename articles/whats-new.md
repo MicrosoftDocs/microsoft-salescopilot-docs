@@ -4,7 +4,7 @@ description: Visit this page to see what's recently updated or added in Microsof
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 04/30/2025
+ms.date: 09/29/2025
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---

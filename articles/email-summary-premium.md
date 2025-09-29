@@ -1,7 +1,7 @@
 ---
 title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Copilot for Sales in Outlook to enrich email summaries with sales information from your CRM.
-ms.date: 03/18/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
