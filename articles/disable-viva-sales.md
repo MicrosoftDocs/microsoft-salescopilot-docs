@@ -1,7 +1,7 @@
 ---
 title: Uninstall the Microsoft 365 Copilot for Sales app
 description: Uninstall the Microsoft 365 Copilot for Sales app using Microsoft 365 admin center or PowerShell.
-ms.date: 01/27/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

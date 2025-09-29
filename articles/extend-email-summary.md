@@ -1,7 +1,7 @@
 ---
 title: Enrich email summary with content suggestions from your application (preview) 
 description: Enhance email summaries in Outlook by using Copilot for Sales with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 04/15/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
