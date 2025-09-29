@@ -12,7 +12,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The meeting preparation card in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It combines AI-generated insights, CRM data, and recent communications into a single, easy-to-read card. This card appears directly alongside Sales Chat, so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
+The meeting preparation card in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It combines AI-generated insights, CRM data, and recent communications into a single, easy-to-read card. This card appears directly alongside [Sales Chat](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -22,7 +22,7 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 ## View a meeting preparation card
 
-For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card. Key features include:
+For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card in [Sales Chat](use-sales-chat.md). Key features include:
 
 - **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
 - **Essential meeting details**: See the meeting title, time, duration, and a direct link to join the meeting.
