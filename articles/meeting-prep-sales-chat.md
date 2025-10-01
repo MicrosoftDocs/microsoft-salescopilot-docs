@@ -22,7 +22,7 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 ## View a meeting preparation card
 
-For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card in [Sales Chat](use-sales-chat.md). Key features include:
+For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card in Teams and [Sales Chat](use-sales-chat.md). Key features include:
 
 - **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
 - **Essential meeting details**: See the meeting title, time, and a direct link to join the meeting. It also shows account information, if available.
