@@ -1,5 +1,5 @@
 ---
-title: View meeting preparation card in Microsoft 365 Copilot (preview)
+title: Prepare for your upcoming meetings in Microsoft 365 Copilot (preview)
 description: Learn how to view the meeting preparation card in Microsoft 365 Copilot.
 ms.date: 10/10/2025
 ms.topic: how-to
@@ -8,11 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Meeting preparation card in Microsoft 365 Copilot (preview)
+# Prepare for your upcoming meetings in Microsoft 365 Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The meeting preparation card in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It combines AI-generated insights, CRM data, and recent communications into a single, easy-to-read card. This card appears directly alongside [Sales Chat](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
+The meeting preparation card in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside [Sales Chat](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -25,15 +25,15 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card in [Sales Chat](use-sales-chat.md). Key features include:
 
 - **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
-- **Essential meeting details**: See the meeting title, time, duration, and a direct link to join the meeting.
-- **AI-powered insights**: Get the top three AI-generated insights to help you prepare quickly.
-- **Quick access**: Includes a link to open the full meeting preparation card.
-- **Efficient design**: The minimized card format lets you scan information and take action fast.
+- **Essential meeting details**: See the meeting title, time, and a direct link to join the meeting. It also shows account information, if available.
+- **Meeting highlights**: See the top three topics to help you prepare quickly. 
+- **Quick access**: Includes a link to open meeting preparation details.
+- **Efficient design**: The minimized card format lets you quickly scan the information and simplifies navigation across preparation content.
 
-You can select **Prepare with insights** to open the full meeting preparation card alongside Sales Chat. This helps you quickly ask follow-up questions, dig deeper, and collaborate with your team in real time—without leaving your workflow. The full card includes:
+You can select **Prepare with insights** to open meeting preparation details alongside Sales Chat. This helps you quickly ask follow-up questions, and dig deeper, without leaving your workflow. The meeting preparation details include:
 
-- **Meeting information**: View the meeting title, time, duration, and a direct link to open the meeting in calendar.
-- **Highlights**: See the top three AI-generated insights to help you prepare quickly. These highlights are the same as those shown in the notification card. Each highlight provides more context and suggests actions tailored to your upcoming meeting.
+- **Meeting information**: View the meeting title, time, and a direct link to open the meeting in calendar.
+- **Highlights**: This section offers more detailed information on the topics featured in the meeting card. Each highlight includes relevant context and recommends actions tailored to your upcoming meeting.
 - **CRM record summary**: This section is displayed only if the meeting is linked to a CRM record such as an opportunity or account. It shows AI-generated summary of the record. Note that meeting can only be linked to a CRM record from the Copilot for Sales side pane Outlook.
 - **Customer communication**: This section is displayed only if the meeting is connected to an opportunity. It shows insights from recent emails and meetings related to the linked CRM record. It may include insights from conversations organized by other team members for the same record, providing a complete view of past customer interactions. Note that insights are displayed only if enabled by your administrator. Learn more about the [Customer communication card](view-customer-communication.md).
 - **AI-generated insights**: This section provides in-depth, AI-driven context to help you prepare for your meeting. It includes:
@@ -55,7 +55,7 @@ You can select **Prepare with insights** to open the full meeting preparation ca
 
 > [!NOTE]
 > - On the left side, just below the Sales Chat input box, you'll see a list of your upcoming meetings scheduled within the next 24 hours.
-- Meeting preparation insights are generated automatically for all upcoming meetings.
+- Meeting preparation insights are generated automatically for all upcoming sales meetings.
 - If you schedule a new meeting, it may take up to 20 minutes for insights to be generated and for the notification card to appear.
 - Until insights are ready, meetings in the left panel are labeled as "insights not available". Once insights are available, the meeting entry updates to show the highlights.
 
