@@ -37,7 +37,6 @@ You can also search for records in the following scenarios:
 - Creating or editing a relationship for an existing record (for example, searching for an account when [you create a new contact](create-contact-crm-sales-copilot.md))
 - [Saving a summary of an email or a meeting to your CRM](view-save-email-summary-crm.md)
 - [Searching for a record that you want to share with a colleague](share-crm-record-teams-conversation.md)
-- [Changing the opportunity in key sales information](key-sales-info.md#change-the-opportunity)
 - [Searching for an opportunity when you update your CRM with suggested updates](suggested-crm-updates.md#update-crm-with-suggested-updates)
 - [Searching for a record when you create a CRM task from a meeting recap](view-meeting-summary-recap.md#create-a-crm-task-from-a-meeting-recap)
 

@@ -1,7 +1,7 @@
 ---
 title: View an opportunity summary
 description: Learn how to view an AI-powered opportunity summary in Microsoft Copilot for Sales to help you interact more productively with customers and boost sales.
-ms.date: 03/10/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -27,8 +27,6 @@ If the opportunity isn't connected to a meeting, the opportunity summary is base
 You can view the opportunity summary in the following places:
 
 - When you [set up a channel in Microsoft Teams using the deal room template](set-up-team-deal-room-template.md) and then [open it in Teams for the first time](collaborate-teams-newly-created-existing-team.md), the opportunity summary is displayed as part of the welcome post in the standard channel.
-
-- When you [view details of an opportunity](view-record-details.md) in the Copilot for Sales pane in Outlook.
 
 - When you [share CRM records in Teams](share-crm-record-teams-conversation.md).
 
@@ -57,8 +55,9 @@ To see a list of supported languages, see [supported languages](introduction.md#
 ## View the summary
 
 1. In Outlook, open an email or the scheduled meeting.  
-1. Open the **Copilot for Sales** pane.  
-    The opportunity summary is displayed in the **Opportunity summary** card.
+1. Open the **Copilot for Sales** pane.
+1. In the **Opportunities** card, select the opportunity to view its details.
+    The opportunity summary is displayed at the top of the pane.
 
 ## View data source in summary
 

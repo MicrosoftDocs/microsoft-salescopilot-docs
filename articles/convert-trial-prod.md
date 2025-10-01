@@ -1,7 +1,7 @@
 ---
 title: Convert the Copilot for Sales environment from Trial to Production
 description: Learn how to convert the Copilot for Sales environment from Trial to Production.
-ms.date: 05/28/2025
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,6 +19,9 @@ If you are using a non-Dynamics 365 CRM, such as Salesforce, Copilot for Sales c
 You can find the name and details of your environment in the **Environments** section of the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). The type of the environment is shown in the **Type** column.
 
 :::image type="content" source="media/ppac-admin-center.png" alt-text="Screenshot that shows the default Dataverse instance in Power Platform admin center.":::
+
+> [!WARNING]
+> Do not remove or edit the **msdyn_viva** environment because it is holds important data for Copilot for Sales. If the environment is removed or edited, Copilot for Sales might stop working.
 
 To use Sales Agent, you must convert the trial environment to production in which Copilot for Sales is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
 

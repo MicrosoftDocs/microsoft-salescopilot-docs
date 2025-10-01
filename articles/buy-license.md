@@ -1,7 +1,7 @@
 ---
 title: Buy Microsoft 365 Copilot for Sales
 description: Learn how to buy Copilot for Sales through the website, the Microsoft 365 admin center, Volume Licensing, and certified cloud partners (CSPs).
-ms.date: 04/30/2025
+ms.date: 09/29/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

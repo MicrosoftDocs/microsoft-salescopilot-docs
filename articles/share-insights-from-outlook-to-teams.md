@@ -1,7 +1,7 @@
 ---
 title: Share key email info from Outlook to Teams
 description: Learn how to share key email info from Outlook to Teams using Copilot for Sales.
-ms.date: 04/30/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

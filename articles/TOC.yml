@@ -166,10 +166,10 @@
         href: view-opportunity-summary.md
       - name: View suggested CRM updates
         href: suggested-crm-updates.md
-      - name: View key sales info
-        href: key-sales-info.md
-      - name: View recent communication
-        href: recent-communications.md
+      - name: View customer communication (preview)
+        href: view-customer-communication.md
+      - name: View opportunity insights (preview)
+        href: view-opportunity-insights.md
       - name: View insights from partner applications (preview)
         href: insights-partner-apps.md
       - name: Share insights from Outlook to Teams
@@ -262,8 +262,8 @@
       href: extend-email-summary.md
     - name: Enrich email draft
       href: extend-email-draft.md
-    - name: Enrich key sales info
-      href: extend-key-sales-info.md
+    - name: Enrich opportunity insights
+      href: extend-opportunity-insights.md
     - name: Enrich CRM record summary
       href: extend-record-summary.md
     - name: Enrich CRM record details
@@ -349,6 +349,9 @@
 - name: Copilot for Sales success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
 
+- name: Deprecations in Copilot for Sales
+  href: deprecations-copilot-for-sales.md
+
 - name: Responsible AI
   items:
   - name: Overview
@@ -361,8 +364,6 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
-  - name: FAQ for key sales info
-    href: faqs-key-sales-info.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
   - name: FAQ for Sales Agent

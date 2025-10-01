@@ -1,7 +1,7 @@
 ---
 title: View suggested CRM updates
 description: Learn how to use AI to suggest CRM updates based on email conversations.
-ms.date: 02/20/2025
+ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
