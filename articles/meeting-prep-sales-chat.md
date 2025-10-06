@@ -1,18 +1,20 @@
 ---
-title: Prepare for your upcoming meetings in Microsoft 365 Copilot (preview)
-description: Learn how to view the meeting preparation card in Microsoft 365 Copilot.
+title: Prepare for your Sales meetings in Microsoft 365 Copilot (preview)
 ms.date: 10/10/2025
+ms.reviewer: shjais
+description: Prepare for your sales meetings with confidence using Microsoft 365 Copilot. Access AI-driven insights, CRM data, and communication highlights in one view.
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Prepare for your upcoming meetings in Microsoft 365 Copilot (preview)
+
+# Prepare for your Sales meetings in Microsoft 365 Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The meeting preparation card in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside [Sales Chat](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
+The meeting preparation feature in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside [Sales Chat](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -38,7 +40,7 @@ You can select **Prepare with insights** to open meeting preparation details alo
 - **Customer communication**: This section is displayed only if the meeting is connected to an opportunity. It shows insights from recent emails and meetings related to the linked CRM record. It may include insights from conversations organized by other team members for the same record, providing a complete view of past customer interactions. Note that insights are displayed only if enabled by your administrator. Learn more about the [Customer communication card](view-customer-communication.md).
 - **AI-generated insights**: This section provides in-depth, AI-driven context to help you prepare for your meeting. It includes:
     - **Meeting overview**: A summary of the meeting's purpose.
-    - **Company overview**: AI-generated highlights about the company. If no CRM account is linked, AI uses the domains of external attendees to infer the company. If there are multiple domains, AI selects the best match.
+    - **Company overview**: AI-generated highlights about the company. If no CRM record is linked, AI uses the domains of external attendees to infer the company. If there are multiple domains, AI selects the best match.
     - **External attendees**: AI-enriched details about external participants, based on their email domains (not just CRM contacts).
     - **Talking points**: Tailored to your role (for example, seller or executive), and may include:
       - Strategic themes
