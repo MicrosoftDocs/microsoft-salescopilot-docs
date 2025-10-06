@@ -29,7 +29,7 @@ Sales Chat is available to users who have a Copilot for Sales license. If you do
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
 - [The Dataverse environment connected to Copilot for Sales is a production environment.](convert-trial-prod.md)
 - Right licenses and [message capacity](manage-consumption-based-billing.md) have been set up.
-- Sales Chat must be turned on in Access settings.
+- [Sales Chat must be turned on in Access settings.](access-settings.md#sales-chat-preview)
 - Copilot for Sales must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
 
@@ -132,7 +132,7 @@ To change the CRM information included in the account summary, update the CRM da
 
     1. Go to the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
     1. Under **Environment**, select **Custom AI instructions**.
-    1. For the **Account summary** report name, select **Edit**.
+    1. For the **Account summary** report, select **...** > **Edit**.
     1. Select Customized instructions and then enter your custom instructions.
     1. Select **Save**.
 
