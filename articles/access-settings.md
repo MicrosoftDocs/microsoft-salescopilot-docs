@@ -98,8 +98,8 @@ To configure Sales Chat access settings:
 
 1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
-1. Select **Sales Chat**.
-1. In the **Sales Chat** pane, turn on or off the toggle.
+1. Select **Allow access to Sales Chat**.
+1. In the **Allow access to Sales Chat** pane, turn on or off the toggle.
 1. If you turn on the toggle, you can choose to allow access for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users can use Sales Chat.
     - **Set access restrictions**: Use security groups to decide which users can use the feature.
@@ -110,7 +110,11 @@ To configure Sales Chat access settings:
 
 1. Select **Save**.
 
+    :::image type="content" source="media/sales-chat-access-settings.png" alt-text="Screenshot showing Sales Chat access settings.":::
+
 After you turn on Sales Chat, you can [set up and configure Sales Chat from the **Sales Chat** settings page](set-up-sales-chat.md).
+
+If you want to turn off Sales Chat, follow the same steps to access the **Allow access to Sales Chat** pane and turn off the toggle. If you turn off this setting, users who have Copilot for Sales app installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses will not include any Sales data.
 
 ## Related information
 

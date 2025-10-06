@@ -25,10 +25,8 @@ Sales Chat is available to users who have a Copilot for Sales license. If you do
 
 ## Prerequisites
 
-- [The Copilot for Sales app is installed in either Outlook or Teams.](install-viva-sales.md)
+- [The Copilot for Sales app is installed in both Outlook and Teams.](install-viva-sales.md)
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
-- [The Dataverse environment connected to Copilot for Sales is a production environment.](convert-trial-prod.md)
-- Right licenses and [message capacity](manage-consumption-based-billing.md) have been set up.
 - [Sales Chat must be turned on in Access settings.](access-settings.md#sales-chat-preview)
 - Copilot for Sales must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
@@ -51,6 +49,7 @@ Setting up CRM knowledge for Sales Chat may take a few minutes. During this proc
 > - Before users can access CRM information through Sales Chat, CRM knowledge for Sales Chat must be set up at least once. This is required even if your organization has previously used Copilot for Sales and has already customized record types (tables).
 > - Once CRM knowledge for Sales Chat has been set up, any changes you make to record types in the Copilot for Sales admin settings, such as adding or removing record types, will automatically update the CRM knowledge for Sales Chat.
 > - It is recommended to monitor the status of CRM knowledge setup periodically to ensure that Sales Chat continues to function correctly.
+> - Sales Chat will access all columns in the record types (tables) that are added to Copilot for Sales.
 
 ## Step 3: Set up additional synonyms and glossary terms
 
@@ -63,7 +62,7 @@ Synonyms are alternative names or phrases that users might use to refer to speci
 To add a synonym:
 
 1. [Create a custom model-driven app with PowerApps](/power-apps/maker/model-driven-apps/build-first-model-driven-app).
-1. Add a new table named **CopilotSynonyms** with the following columns, and then publish the app.
+1. Add the table named **CopilotSynonyms** with the following columns, and then publish the app.
    - Logical Name
    - Synonyms
    - Description
@@ -96,7 +95,7 @@ The following table shows examples of how adding glossary definitions can give y
 To add a glossary term:
 
 1. [Create a custom model-driven app with PowerApps](/power-apps/maker/model-driven-apps/build-first-model-driven-app) or use the same app you created for adding synonyms.
-1. Add a new table named **CopilotGlossaryTerms** with the following columns, and then publish the app.
+1. Add the table named **CopilotGlossaryTerms** with the following columns, and then publish the app.
    - Term
    - Description
    - Skill
@@ -133,8 +132,13 @@ To change the CRM information included in the account summary, update the CRM da
     1. Go to the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
     1. Under **Environment**, select **Custom AI instructions**.
     1. For the **Account summary** report, select **...** > **Edit**.
-    1. Select Customized instructions and then enter your custom instructions.
+
+        :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
+
+    1. Select **Customized instructions** and then enter your custom instructions.
     1. Select **Save**.
+
+        :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
 
         The new instructions will be applied the next time a user requests an account summary in Sales Chat. You can test the instructions by requesting an account summary in Sales Chat.
 

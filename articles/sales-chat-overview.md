@@ -1,7 +1,7 @@
 ---
 title: Sales Chat overview (preview)
-description: 
-ms.date: 09/09/2025
+description: Learn about Sales Chat, an AI-powered chat interface that helps you interact with your sales data using natural language.
+ms.date: 10/10/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -24,6 +24,9 @@ As a seller, you can use natural language with Sales Chat to request the informa
 ## What can Sales Chat help you with?
 
 You can use natural language with Sales Chat to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales Chat.
+
+> [!NOTE]
+> If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.
 
 Below are some example scenarios where you can use Sales Chat, along with sample prompts for each.
 

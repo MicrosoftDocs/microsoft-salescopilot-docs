@@ -383,16 +383,6 @@ The relationship between record types is based on the order in which record type
 
 ### Administrator
 
-#### Why do I see a banner about message capacity allocation?
-
-If no users in your organization have a Copilot for Sales license, a banner message is displayed in Sales Chat admin settings prompting you to set up message capacity allocation. Learn about [message capacity allocation](manage-consumption-based-billing.md). 
-
-#### Why do I see a banner about converting the connected Dataverse environment to production type?
-
-If your organization has a non-production Dataverse environment connected to Copilot for Sales, a banner message is displayed in Sales Chat admin settings prompting you to convert the environment to production type. Learn about [converting the Copilot for Sales environment from Trial to Production](convert-trial-prod.md).
-
-If your organization already uses Sales Agent, the connected Dataverse environment may already have been converted to a production environment.
-
 #### Can I disable Sales Chat for users who have a Copilot for Sales license?
 
 All users with Copilot for Sales license will automatically see Sales Chat as an agent in Microsoft 365 Copilot Chat by default.
@@ -402,17 +392,20 @@ If needed, you can hide Sales Chat for individual users or groups by one of the 
 - [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility). This will hide all Copilot agents, including Sales Chat.
 - Turn off Sales Chat in [Access settings](access-settings.md#sales-chat-preview).
 
+> [!NOTE]
+> If you turn off Sales Chat from **Access settings**, users who have Copilot for Sales app installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses will not include any Sales data.
+
 ### End user
-
-#### Why does Sales Chat say there is no message capacity set up when I ask a question?
-
-If you do not have a Copilot for Sales license and your administrator has not set up message capacity, you will still see Sales Chat in Microsoft 365 Copilot. However, any questions you ask will prompt a response asking you to set up message capacity. Learn about [message capacity](manage-consumption-based-billing.md). 
 
 #### Why does Sales Chat say I do not have access?
 
 This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-chat-preview). In this case, you may still see Sales Chat as an agent in Microsoft 365 Copilot Chat, but you will not receive responses to your queries.
 
 Contact your administrator to request access to Sales Chat.
+
+#### Why do I get a message saying I do not have the right license?
+
+You must have a [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365-copilot) license to access Sales Chat. 
 
 #### Why does Sales Chat say CRM Knowledge has not been set up?
 

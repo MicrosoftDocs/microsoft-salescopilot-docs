@@ -23,6 +23,9 @@ Sales Chat is available as an agent in Microsoft 365 Copilot Chat. To access Sal
 1. Open [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat).
 1. Under **Agents**, select **Sales**.
 1. Enter your question in the chat box and select the send icon or press Enter.
+
+    > [!NOTE]
+    > A few starter prompts are available below the chat box to help you get started.
     
     Microsoft 365 Copilot Chat will prompt you to grant permission to share information with the Sales Chat service. Review the request and select **Accept** to continue.
     
@@ -32,7 +35,7 @@ For a list of example prompts you can use with Sales Chat, see [What can Sales C
 
 > [!NOTE]
 > - You must install Copilot for Sales to see the Sales agent in Microsoft 365 Copilot Chat.
-> - You must be connected to your CRM system to use Sales Chat.
+> - You must be signed in to your CRM system from Copilot for Sales to use Sales Chat.
 
 ## Get a summary of an account
 
