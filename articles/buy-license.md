@@ -1,5 +1,5 @@
 ---
-title: Buy Microsoft 365 Copilot for Sales
+title: Buy Sales app
 description: Learn how to buy Copilot for Sales through the website, the Microsoft 365 admin center, Volume Licensing, and certified cloud partners (CSPs).
 ms.date: 09/29/2025
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:03/19/2024
 ---
 
-# Buy Microsoft 365 Copilot for Sales
+# Buy Sales app
 
 Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects to sales solutions to provide next-generation AI and customer relationship management (CRM) platform updates and insights across productivity workflows. Subscriptions are licensed per user and include access to Microsoft 365 Copilot.
 

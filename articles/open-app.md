@@ -1,5 +1,5 @@
 ---
-title: Access the Microsoft 365 Copilot for Sales app
+title: Access the Sales app
 description: Learn how to access the Copilot for Sales app in Outlook and Teams.
 ms.date: 07/24/2025
 ms.topic: overview
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Access the Microsoft 365 Copilot for Sales app
+# Access the Sales app
 
 Copilot for Sales is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
 

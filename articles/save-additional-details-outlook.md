@@ -1,6 +1,6 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
-description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using Microsoft 365 Copilot for Sales in Outlook.
+description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using Sales app in Outlook.
 ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -19,7 +19,7 @@ You can also control whether sellers can save attachments along with the email o
 
 ## Prerequisites
 
-CRM administrators must access admin settings from the Copilot for Sales app in Teams. For more information, go to [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
+CRM administrators must access admin settings from the Copilot for Sales app in Teams. For more information, go to [Sales admin settings](administrator-settings-for-viva-sales.md).
 
 ## Configure the fields to save to the CRM
 

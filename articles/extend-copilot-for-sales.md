@@ -1,5 +1,5 @@
 ---
-title: Extend Microsoft 365 Copilot for Sales with partner applications (preview)
+title: Extend Sales with partner applications (preview)
 description: Extend Copilot for Sales to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
 ms.date: 06/26/2025
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Extend Microsoft 365 Copilot for Sales with partner applications (preview)
+# Extend Sales with partner applications (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 

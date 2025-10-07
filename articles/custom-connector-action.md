@@ -59,5 +59,5 @@ After you create a custom connector and connector action in Copilot Studio, they
 
 ### Related information
 
-[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

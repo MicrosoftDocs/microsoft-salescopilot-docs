@@ -28,7 +28,7 @@ Here's the video that shows [how to view the opportunity summary](view-opportuni
 
 ## License requirements
 
-- [Microsoft 365 Copilot for Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
+- [Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
 
 ## Update CRM with suggested updates
 

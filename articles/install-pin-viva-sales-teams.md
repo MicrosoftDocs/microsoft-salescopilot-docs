@@ -1,6 +1,6 @@
 ---
-title: Install and pin Microsoft 365 Copilot for Sales in Teams
-description: Learn how to install and pin Copilot for Sales in Teams
+title: Install and pin Sales app in Teams
+description: Learn how to install and pin Sales app in Teams
 ms.date: 06/26/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
@@ -10,15 +10,15 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install and pin the Microsoft 365 Copilot for Sales app in Teams
+# Install and pin the Sales app in Teams
 
-To install the Copilot for Sales app in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We recommend you to pin the app to increase discoverability and encourage your sellers to use it.
+To install the Sales app in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We recommend you to pin the app to increase discoverability and encourage your sellers to use it.
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
-> - The Teams meeting must be transcribed for Copilot for Sales to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection between Copilot for Sales and your CRM is controlled through Copilot for Sales add-in in Outlook. More information: [Use Copilot for Sales in Outlook](use-sales-copilot-outlook.md)
+> - The Teams meeting must be transcribed for Sales app to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
+> - The connection between Sales app and your CRM is controlled through Sales app in Outlook. More information: [Use Sales app in Outlook](use-sales-copilot-outlook.md)
 
 ## Create a custom Teams app setup policy
 

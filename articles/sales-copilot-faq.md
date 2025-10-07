@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Copilot for Sales FAQ
-description: Copilot for Sales Frequently Asked Questions
+title: Sales solution in Microsoft 365 Copilot FAQ
+description: Sales solution in Microsoft 365 Copilot Frequently Asked Questions
 ms.date: 03/04/2025
 ms.topic: faq
 ms.service: microsoft-sales-copilot
@@ -9,14 +9,14 @@ ms.author: shjais
 ms.custom: sfi-image-nochange
 ---
 
-# Microsoft 365 Copilot for Sales FAQ
+#  Sales solution in Microsoft 365 Copilot FAQ
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly.
 
 
 ## General
 
-### What is Microsoft 365 Copilot for Sales?  
+### What is Sales solution in Microsoft 365 Copilot?  
 
 Copilot for Sales brings together the power of Microsoft 365 Copilot with seller workflows. Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
@@ -24,15 +24,15 @@ Some of the new innovations enabled in Copilot for Sales include an integrated e
 
 Copilot for Sales includes the Microsoft 365 Copilot subscription and is available from February 1, 2024. [See our pricing page for more information](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
 
-### How does Copilot for Sales work?
+### How does Sales solution in Microsoft 365 Copilot work?
 
-Copilot for Sales uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Microsoft 365 Copilot for Sales](https://www.microsoft.com/ai/microsoft-sales-copilot).
+Sales solution in Microsoft 365 Copilot uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Sales solution in Microsoft 365 Copilot](https://www.microsoft.com/ai/microsoft-sales-copilot).
 
-### Is Copilot for Sales safe and secure?
+### Is Sales solution in Microsoft 365 Copilot safe and secure?
 
-Copilot for Sales is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy and Compliance](#security-privacy-and-compliance) for more information.
+Sales solution in Microsoft 365 Copilot is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy and Compliance](#security-privacy-and-compliance) for more information.
 
-Get information about license requirements, role requirements, and region availability in [Introduction to Microsoft 365 Copilot for Sales](introduction.md).
+Get information about license requirements, role requirements, and region availability in [Introduction to Sales solution in Microsoft 365 Copilot](introduction.md).
 
 ## Licensing
 
@@ -414,7 +414,7 @@ The Dynamics App for Outlook is strictly an enablement app that bridges the gap 
 ## Resources 
 
 - [Microsoft 365 Copilot FAQ](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-365-copilot-500fc65e-9973-4e42-9cf4-bdefb0eb04ce)
-- [Microsoft 365 Copilot for Sales GA blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/02/01/microsoft-copilot-for-sales-and-copilot-for-service-are-now-generally-available/)
+- [Sales solution in Microsoft 365 Copilot GA blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/02/01/microsoft-copilot-for-sales-and-copilot-for-service-are-now-generally-available/)
 - [Ignite announcements blog](https://aka.ms/Ignite2023BAannounceblog)
-- [Copilot for Sales adoption resources](https://adoption.microsoft.com/en-us/copilot-for-sales/)
-- [Copilot for Sales success kit](https://adoption.microsoft.com/copilot-for-sales/success-kit/)
+- [Sales solution in Microsoft 365 Copilot adoption resources](https://adoption.microsoft.com/en-us/copilot-for-sales/)
+- [Sales solution in Microsoft 365 Copilot success kit](https://adoption.microsoft.com/copilot-for-sales/success-kit/)

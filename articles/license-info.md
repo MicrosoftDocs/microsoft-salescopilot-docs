@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Copilot for Sales license overview
-description: Learn about licenses for Copilot for Sales, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
+title:  Sales solution in Microsoft 365 Copilot license overview
+description: Learn about licenses for Sales solution in Microsoft 365 Copilot, an AI assistant that connects to sales solutions and provides next-generation insights and updates.
 ms.date: 03/28/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:03/19/2024
 ---
 
-# Microsoft 365 Copilot for Sales license overview
+# Sales solution in Microsoft 365 Copilot license overview
 
 Copilot for Sales is an AI assistant for sellers in Microsoft 365. It connects to sales solutions to provide next-generation AI and customer relationship management (CRM) platform updates and insights across productivity workflows. Subscriptions are licensed per user and include access to Microsoft 365 Copilot.
 

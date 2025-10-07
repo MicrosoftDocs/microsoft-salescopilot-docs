@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Connect to CRM from Teams
 
-After you open the Microsoft 365 Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
+After you open the Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
 
 ## Automatically connect to CRM
 
@@ -71,4 +71,4 @@ When you switch the connected environment in Outlook, you receive a notification
 
 ### Related information
 
-- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
+- [Sales personal app](personal-app.md)

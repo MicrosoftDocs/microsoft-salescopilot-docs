@@ -1,5 +1,5 @@
 ---
-title: Data handling in Microsoft 365 Copilot for Sales 
+title: Data handling in Sales solution in Microsoft 365 Copilot 
 description: Know how data is handled in Copilot for Sales 
 ms.date: 09/24/2025
 ms.topic: concept-article
@@ -10,15 +10,15 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Data handling in Microsoft 365 Copilot for Sales 
+# Data handling in Sales solution in Microsoft 365 Copilot
 
-This article gives you an overview of how data is handled in Copilot for Sales.
+This article gives you an overview of how data is handled in Sales solution.
 
-Copilot for Sales is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
+Sales solution is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
 
 ## Data retention
 
-Since Copilot for Sales data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other Microsoft 365 applications and non-Dynamics 365 CRM solutions. For example, when your Microsoft 365 subscription ends, your data is retained for 90 days before it's automatically deleted (in accordance to [Microsoft 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use Copilot for Sales, that data isn't automatically deleted 90 days after your subscription ends.  
+Since Sales solution data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other Microsoft 365 applications and non-Dynamics 365 CRM solutions. For example, when your Microsoft 365 subscription ends, your data is retained for 90 days before it's automatically deleted (in accordance to [Microsoft 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use Sales solution, that data isn't automatically deleted 90 days after your subscription ends.
 
 ## Copilot for Sales, Dataverse, and your CRM
 
@@ -52,5 +52,5 @@ If you need to delete Copilot for Sales data (for example, delete data for a spe
 
 ### Related information
 
-[Introduction to Microsoft 365 Copilot for Sales](introduction.md)<br>
-[Install Copilot for Sales](install-viva-sales.md)
+[Introduction to Sales solution in Microsoft 365 Copilot](introduction.md)<br>
+[Install Sales app](install-viva-sales.md)

@@ -1,6 +1,6 @@
 ---
-title: Install Microsoft 365 Copilot for Sales
-description: Learn what are the various ways to install Copilot for Sales
+title: Install Sales app
+description: Learn what are the various ways to install Sales app.
 ms.date: 01/10/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
@@ -10,9 +10,9 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install Microsoft 365 Copilot for Sales
+# Install Sales app
 
-Copilot for Sales can be installed either by an administrator or by an end user. As an administrator, you can install Copilot for Sales as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use Copilot for Sales, see [Privileges required to use Copilot for Sales](privileges.md).
+Sales app can be installed either by an administrator or by an end user. As an administrator, you can install Sales app as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use Sales app, see [Privileges required to use Sales app](privileges.md).
 
 ## Admin-deployed installation
 

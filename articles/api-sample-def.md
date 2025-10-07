@@ -1,6 +1,6 @@
 ---
 title: Sample connector (preview)
-description: Sample connector to help you easily start to extend Microsoft 365 Copilot for Sales.
+description: Sample connector to help you easily start to extend Sales.
 ms.date: 09/29/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-You can use the certified connector action based on [Contoso Hub - Connectors](/connectors/contosohub/) to check out the extensibility points available in Microsoft 365 Copilot for Sales.
+You can use the certified connector action based on [Contoso Hub - Connectors](/connectors/contosohub/) to check out the extensibility points available in Sales.
 
 To try the certified connector action, follow the instructions in [Manage extensions for Copilot for Sales](/microsoft-copilot-studio/manage-copilot-for-sales) and enable the Contoso Hub connector action for Copilot for Sales.
 
@@ -44,5 +44,5 @@ You can edit the sample connector and action to get started quickly. Refer to th
 
 ### Related information
 
-[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
 [Build Copilot for Sales extensions](build-apis.md)

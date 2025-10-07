@@ -15,7 +15,7 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you [open the Microsoft 365 Copilot for Sales app in Outlook](open-app.md#access-copilot-for-sales-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
+After you [open the Sales app in Outlook](open-app.md#access-copilot-for-sales-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 
@@ -104,4 +104,4 @@ When you switch the connected environment in Teams, you receive a notification t
 
 ### Related information
 
-- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
+- [Sales personal app](personal-app.md)

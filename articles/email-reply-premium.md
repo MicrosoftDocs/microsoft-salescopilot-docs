@@ -1,6 +1,6 @@
 ---
 title: Draft an email message using sales information in Outlook
-description: Learn how to combine Microsoft 365 Copilot with Microsoft 365 Copilot for Sales for a seamless and powerful sales experience in Outlook.
+description: Learn how to combine Microsoft 365 Copilot with Sales app for a seamless and powerful sales experience in Outlook.
 ms.date: 06/23/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.custom:
 
 # Draft an email message using sales information with Copilot in Outlook
 
-Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
+Sales app includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
 
 Here's the video that shows how to [view an email summary](email-summary-premium.md) and draft an email message in Copilot for Sales:
 
@@ -29,7 +29,7 @@ Here's the video that shows how to [view an email summary](email-summary-premium
 >    
 >    > - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
 
-For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
+For information about pricing, see [Sales app pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 > [!NOTE]
 > If you have existing Sales Copilot license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
