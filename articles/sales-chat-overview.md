@@ -87,7 +87,7 @@ This scenario is ideal for users who:
 
 #### Analyze your pipeline health
 
-- Get the estimated revenue across opportunities by forecast category
+- Get the estimated revenue across opportunities by forecast category.
 - Get the list of opportunities owned by `<seller name>` in the "Pipeline" forecasting category. Show the results in a table with one row for each opportunity. Each row should have four columns, one each for opportunity title, account name, estimated value and close date.
 - What are the top 5 opportunities by estimated revenue that have a target close date this quarter?
 - What are the largest opportunities by revenue owned by `<seller name>`?

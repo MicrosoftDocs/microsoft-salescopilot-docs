@@ -32,6 +32,8 @@ For every upcoming sales meeting (a meeting with at least one external contact),
 - **Quick access**: Includes a link to open meeting preparation details.
 - **Efficient design**: The minimized card format lets you quickly scan the information and simplifies navigation across preparation content.
 
+:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot of the Sales Chat meeting preparation card in Teams.":::
+
 You can select **Prepare with insights** to open meeting preparation details alongside Sales Chat. This helps you quickly ask follow-up questions, and dig deeper, without leaving your workflow. The meeting preparation details include:
 
 - **Meeting information**: View the meeting title, time, and a direct link to open the meeting in calendar.
@@ -54,6 +56,8 @@ You can select **Prepare with insights** to open meeting preparation details alo
       - What's happening next
 
     You can configure the view to show insights either in a card-based format or as a list. Select **View** and then choose **Card** or **All in one**.
+
+:::image type="content" source="media/sales-chat-meeting-prep-full.png" alt-text="Screenshot of the full Sales Chat meeting preparation view.":::
 
 > [!NOTE]
 > - On the left side, just below the Sales Chat input box, you'll see a list of your upcoming meetings scheduled within the next 24 hours.

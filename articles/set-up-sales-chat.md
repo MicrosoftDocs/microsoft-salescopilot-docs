@@ -43,6 +43,8 @@ After configuring the record types (tables), you must enable Sales Chat to use C
 1. Under **Features**, select **Sales Chat**.
 1. In the status message, select **Set up**.
 
+    :::image type="content" source="media/set-up-sales-chat.png" alt-text="Screenshot of the set up Sales Chat option":::
+
 Setting up CRM knowledge for Sales Chat may take a few minutes. During this process, a banner will display the current setup status. If any errors occur, the banner will provide details about the issue and the actions you need to take.
 
 > [!NOTE]
@@ -74,6 +76,9 @@ To add a synonym:
    - **Synonyms**: Enter one or more synonyms for the field, separated by commas.
    - **Description**: Provide a description of the synonym entry.
    - **Skill Entity**: If you're connected to Salesforce CRM, set the value to **SalesChatSalesforceQnA**. If you're connected to Dynamics 365 Sales, set the value to **SalesChatDVQnA**.
+1. Select **Save**.
+
+    :::image type="content" source="media/set-up-synonym.png" alt-text="Screenshot of the set up Synonym option.":::
 
 ### Glossary terms
 
@@ -95,7 +100,7 @@ The following table shows examples of how adding glossary definitions can give y
 To add a glossary term:
 
 1. [Create a custom model-driven app with PowerApps](/power-apps/maker/model-driven-apps/build-first-model-driven-app) or use the same app you created for adding synonyms.
-1. Add the table named **CopilotGlossaryTerms** with the following columns, and then publish the app.
+1. Add the table named **CopilotGlossaryTerm** with the following columns, and then publish the app.
    - Term
    - Description
    - Skill
@@ -105,6 +110,9 @@ To add a glossary term:
    - **Term**: Enter the specific term or phrase users might use in their prompts.
    - **Description**: Provide a clear description of the term.
    - **Skill**: If you're connected to Salesforce CRM, set the value to **SalesChatSalesforceQnA**. If you're connected to Dynamics 365 Sales, set the value to **SalesChatDVQnA**.
+1. Select **Save**.
+
+    :::image type="content" source="media/set-up-glossary.png" alt-text="Screenshot of the set up Glossary option.":::
 
 ## Step 4: Configure account summary
 

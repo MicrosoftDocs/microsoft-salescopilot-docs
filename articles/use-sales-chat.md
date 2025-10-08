@@ -21,6 +21,7 @@ Sales Chat is an AI-powered chat interface that allows you to interact with your
 Sales Chat is available as an agent in Microsoft 365 Copilot Chat. To access Sales Chat:
 
 1. Open [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat).
+    Alternatively, in Microsoft Teams, select the Copilot icon on the left sidebar to open Microsoft 365 Copilot Chat.
 1. Under **Agents**, select **Sales**.
 1. Enter your question in the chat box and select the send icon or press Enter.
 
@@ -30,6 +31,8 @@ Sales Chat is available as an agent in Microsoft 365 Copilot Chat. To access Sal
     Microsoft 365 Copilot Chat will prompt you to grant permission to share information with the Sales Chat service. Review the request and select **Accept** to continue.
     
     Sales Chat will then provide a response with the information you requested.
+
+    :::image type="content" source="media/sales-chat-starter-prompts.png" alt-text="Screenshot of the Sales Chat starter prompts.":::
 
 For a list of example prompts you can use with Sales Chat, see [What can Sales Chat help you with?](sales-chat-overview.md#what-can-sales-chat-help-you-with)
 
@@ -43,6 +46,8 @@ You can use Sales Chat to get a summary of an account, including key account inf
 - Get me the summary of account `<account name>`.
 - Give me an overview of account `<account name>`. Summarize the meetings in the last (x) months.
 - Get the key details of account `<account name>`. List the open opportunities as a table.
+
+:::image type="content" source="media/sales-chat-account-summary.png" alt-text="Screenshot of the Sales Chat account summary.":::
 
 For a list of example prompts you can use with Sales Chat, see [What can Sales Chat help you with?](sales-chat-overview.md#what-can-sales-chat-help-you-with)
 
@@ -62,6 +67,9 @@ For a list of example prompts you can use with Sales Chat, see [What can Sales C
 You can use Sales Chat to look up information about your customer accounts, contacts, and deals in your CRM system. For example, you can ask:
 - What is the opportunity pipeline for `<account name>`?
 - Who is the primary customer contact for `<account name>`?
+- Get the estimated revenue across opportunities by forecast category.
+
+:::image type="content" source="media/sales-chat-crm-info.png" alt-text="Screenshot of the Sales Chat CRM information.":::
 
 For a list of example prompts you can use with Sales Chat, see [What can Sales Chat help you with?](sales-chat-overview.md#what-can-sales-chat-help-you-with)
 
