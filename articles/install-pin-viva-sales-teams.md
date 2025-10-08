@@ -59,4 +59,4 @@ Once the Copilot for Sales app is deployed, each user is welcomed by an engaging
 
 ### Related information
 
-[Install Copilot for Sales add-in for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Copilot for Sales for Outlook](install-viva-sales-as-an-integrated-app.md)

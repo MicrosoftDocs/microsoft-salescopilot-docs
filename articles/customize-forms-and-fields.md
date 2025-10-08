@@ -288,7 +288,7 @@ After you enable leads support, the user experience to work with leads is simila
 
 Each record type has a mini view that displays limited information when they're collapsed or shown in a list. The mini view is available at various places in the Copilot for Sales pane, such as in the quick view on the CRM tab.
 
-The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in Copilot for Sales add-in for Outlook. More information: [Search behavior in Copilot for Sales add-in for Outlook](#search-behavior-in-copilot-for-sales-add-in-for-outlook)
+The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in Copilot for Sales for Outlook. More information: [Search behavior in Copilot for Sales for Outlook](#search-behavior-in-copilot-for-sales-add-in-for-outlook)
 
 ![Screenshot showing mini view of CRM records in Copilot for Sales.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Copilot for Sales.")
 
@@ -304,7 +304,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 4.  Select **Publish** to save your changes.
 
-### Search behavior in Copilot for Sales add-in for Outlook
+### Search behavior in Copilot for Sales for Outlook
 
 Key field settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the key fields you select for the mini view exist in the [quick find view](/dynamics365/customerengagement/on-premises/customize/choose-and-configure-columns?view=op-9-1&preserve-view=true), otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
 

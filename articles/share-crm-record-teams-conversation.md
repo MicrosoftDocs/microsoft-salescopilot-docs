@@ -125,7 +125,7 @@ Your administrator needs to [turn on this feature](share-crm-record-admin.md) be
 1. Send the message to the chat.
 
 > [!NOTE]
-> You must copy the record link from the Copilot for Sales add-in in Outlook. If you copy the record link from Salesforce, it doesn't unfurl to display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls to display the adaptive card.
+> You must copy the record link from the Copilot for Sales in Outlook. If you copy the record link from Salesforce, it doesn't unfurl to display the adaptive card. However, if you copy the record link from Dynamics 365, it unfurls to display the adaptive card.
 
 ### Related information
 

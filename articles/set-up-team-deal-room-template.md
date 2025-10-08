@@ -1,6 +1,6 @@
 ---
 title: Set up a team using the deal room template 
-description: Learn how to set up a team using a deal room team template in the Copilot for Sales add-in for Outlook.
+description: Learn how to set up a team using a deal room team template in the Copilot for Sales for Outlook.
 ms.date: 09/29/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -15,7 +15,7 @@ ms.custom:
 
 # Set up a team using the deal room template
 
-You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Copilot for Sales add-in for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
+You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Copilot for Sales for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
 
 Regardless of how you set them up, you can access linked teams and channels from both Outlook and the Sales app.
 

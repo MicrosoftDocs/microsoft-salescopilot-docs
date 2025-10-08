@@ -1,6 +1,6 @@
 ---
-title: Configure access settings for features in Copilot for Sales
-description: Control access to various features in Copilot for Sales, including meeting insights and Sales Agent capabilities.
+title: Configure access settings for features in Sales app
+description: Control access to various features in Sales app, including meeting insights and Sales Agent capabilities.
 ms.date: 08/13/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -13,9 +13,9 @@ ms.custom:
   - ai-seo-date:05/06/2025
 ---
 
-# Configure access settings for features in Copilot for Sales
+# Configure access settings for features in Sales app
 
-As an administrator, you can enable or disable features in Copilot for Sales. You can also control who has access to these features by specifying security groups. 
+As an administrator, you can enable or disable features in Sales app. You can also control who has access to these features by specifying security groups. 
 
 ## Meeting insights
 
@@ -30,7 +30,7 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
 ### Configure meeting insights access settings
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 
 1. Under **Environment**, select **Access settings**.
 
@@ -66,7 +66,7 @@ By default, Sales Agent is turned off. When you turn it on, you can control whet
 
 To turn on Sales Agent:
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
 1. Select **Sales Agent**.
 1. In the **Sales Agent** pane, turn on the toggle.   
@@ -84,7 +84,7 @@ To turn on Sales Agent:
 
 After you turn on Sales Agent, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
 
-If you want to turn off Sales Agent, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Sales Agent feature in Copilot for Sales. Turning off the agent will stop the agent from researching leads.
+If you want to turn off Sales Agent, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Sales Agent feature in Sales app. Turning off the agent will stop the agent from researching leads.
 
 ## Related information
 

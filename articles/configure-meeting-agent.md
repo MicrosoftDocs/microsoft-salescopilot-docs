@@ -18,14 +18,14 @@ As an administrator, you can optimize the meeting experience for your sellers by
 
 Auto recording enables your sellers to automatically record all sales meetings with external contacts without having to remember to start the recording manually. By default, the feature is turned off.
 
-Auto recording is applicable only to sales meetings that have the [**Copilot for Sales** app added automatically](create-teams-meeting.md#add-the-copilot-for-sales-app-automatically-to-a-teams-meeting) before the meeting. 
+Auto recording is applicable only to sales meetings that have the [**Sales** app added automatically](create-teams-meeting.md#add-the-copilot-for-sales-app-automatically-to-a-teams-meeting) before the meeting. 
 
 > [!NOTE]
 > If a meeting is marked as private, it isn't recorded. 
 
 To turn on auto recording for sales meetings:
 
-1. In Copilot for Sales admin settings, select **Meeting insights**.
+1. In Sales app admin settings, select **Meeting insights**.
 2. Under **Recordings**, select **Auto-record sales meetings**.
 3. In the **Auto-record sales meetings** pane, turn on the toggle.
 4. Select **Save**.
@@ -42,7 +42,7 @@ The daily summary of meetings helps sellers stay organized by providing a single
 
 To turn on the daily summary of meetings feature:
 
-1. In Copilot for Sales admin settings, select **Meeting insights**.
+1. In Sales app admin settings, select **Meeting insights**.
 2. Under **Notifications**, select **Daily digest**.
 3. In the **Daily digest** pane, turn on the toggle.
 4. From the **Delivery time** list, select the time when the daily digest is sent. By default, 7:30 AM is selected.
@@ -56,7 +56,7 @@ If you want to turn off the daily summary of meetings feature, follow the same s
 
 To configure the time of pre-meeting preparation notifications:
 
-1. In Copilot for Sales admin settings, select **Meeting insights**.
+1. In Sales app admin settings, select **Meeting insights**.
 2. Under **Notifications**, select **Pre-meeting preparation**.
 3. In the **Pre-meeting preparation** pane, turn on or off the toggle to enable or disable the feature.
 4. From the **Delivery interval** list, select the time interval before the meeting when the notification is sent. By default, 1 hour is selected.

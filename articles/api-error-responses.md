@@ -42,4 +42,4 @@ The following table lists a few scenarios and the expected error codes.
 ### Related information
 
 [Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
-[Build Copilot for Sales extensions](build-apis.md)
+[Build Sales app extensions](build-apis.md)

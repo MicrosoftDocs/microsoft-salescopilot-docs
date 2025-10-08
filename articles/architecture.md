@@ -12,16 +12,16 @@ ms.localizationpriority: medium
 
 # Architecture of Sales solution in Microsoft 365 Copilot
 
-This article contains links to download Copilot for Sales architecture document and top 10 most frequently asked questions about Copilot for Sales architecture.
+This article contains links to download Sales app architecture document and top 10 most frequently asked questions about Sales app architecture.
 
-The architecture document provides an in-depth view of the Copilot for Sales architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how Copilot for Sales integrates with their CRM and the broader Microsoft 365 ecosystem.
+The architecture document provides an in-depth view of the Sales app architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how Sales app integrates with their CRM and the broader Microsoft 365 ecosystem.
 
 |Document|Last update|Last updated release|
 |--------|----------|--------------|
-|[Download Copilot for Sales architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
-|[Download Copilot for Sales architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
+|[Download Sales app architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
+|[Download Sales app architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
 
 <br>
-Watch this video to get a quick overview of Copilot for Sales.
+Watch this video to get a quick overview of Sales app.
 
 > [!VIDEO 233cbdb3-6610-4fbe-af9a-d402622d2c7a]

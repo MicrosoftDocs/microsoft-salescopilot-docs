@@ -18,7 +18,7 @@ You can create a new record in your CRM from the Copilot for Sales side pane. Th
 
 ## Create a new record by using the global option
 
-1. In the **Copilot for Sales** pane, select the plus sign (**+**) in the upper-right corner.
+1. In the **Sales** pane, select the plus sign (**+**) in the upper-right corner.
 
     :::image type="content" source="media/global-create.png" alt-text="Screenshot showing the global option to create a new record.":::
 

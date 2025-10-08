@@ -17,11 +17,11 @@ ms.custom:
 
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in various ways.
 
-- In Outlook, open Copilot for Sales, and then follow one of these steps:
+- In Outlook, open Sales app, and then follow one of these steps:
     
   - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the deal room channel highlighted.":::
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the deal room channel highlighted.":::
 
   - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
     
@@ -55,7 +55,7 @@ Internal channels like **General** and **Coffee Machine** have the following app
 
   > [!NOTE]
   > - If you're using Salesforce as your CRM, you need to use the Teams desktop application to view account or opportunity details. The **CRM** tab doesn't load in the Teams web application.
-  > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams, [use the Copilot for Sales app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
+  > - The CRM tab doesn't load in the new version of Teams. To see a CRM record in the new version of Teams, [use the Sales app app to share a customer's record as an adaptive card](share-crm-record-teams-conversation.md). Alternatively, you can use the classic version of Teams to view account or opportunity details in the CRM tab.
 
 - **Notes** is a OneNote notebook you can use to share notes with all the members of the Teams channel.
 
@@ -89,19 +89,19 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 
 ## View an AI-generated opportunity summary in the deal room channel
 
-When you [set up a deal room](set-up-team-deal-room-template.md), the Copilot for Sales Teams app and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
+When you [set up a deal room](set-up-team-deal-room-template.md), the Sales app in Teams and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
 > [!NOTE]
-> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Copilot for Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Copilot for Sales privileges. This applies only to the auto posted opportunity summary.
-> - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Copilot for Sales app in Outlook to view opportunity summary while also having read access for the record and Copilot for Sales privileges.
+> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Sales app privileges. This applies only to the auto posted opportunity summary.
+> - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Sales app in Outlook to view opportunity summary while also having read access for the record and Sales app privileges.
 > - Opportunity summary is not displayed in a private channel, as bots are not supported by Microsoft Teams in private channels. Also, shared channels have customers added, therefore, CRM information is not shared here as well.
 
 :::image type="content" source="media/oppty-summary-deal-room.png" alt-text="Screenshot of an AI-generated opportunity summary in a deal room channel in Teams.":::
 
 To view the opportunity summary again later, use either of the following methods:
 
-- Enter `@Copilot for Sales show opportunity summary` in the message box.
-- Enter `@Copilot for Sales help` in the message box, and then select **Generate Opportunity Summary** from the list of options.
+- Enter `@Sales show opportunity summary` in the message box.
+- Enter `@Sales help` in the message box, and then select **Generate Opportunity Summary** from the list of options.
 
 The summary uses the following columns in the opportunity record in your CRM:
 
@@ -121,7 +121,7 @@ The AI-generated opportunity summary is available only when your administrator h
 
 :::image type="content" source="media/oppty-summary-deal-room-non-ai.png" alt-text="Screenshot of an opportunity summary in a deal room channel when copilot AI features are turned off.":::
 
-If your administrator has turned off the Copilot for Sales app in Teams, the opportunity summary isn't available at all.
+If your administrator has turned off the Sales app in Teams, the opportunity summary isn't available at all.
 
 ### Related information
 

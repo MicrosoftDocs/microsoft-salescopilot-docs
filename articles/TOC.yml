@@ -313,7 +313,7 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
+      - name: Update add-in error in Copilot for Sales for Microsoft Outlook
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"User does not have required privileges to access the org" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
