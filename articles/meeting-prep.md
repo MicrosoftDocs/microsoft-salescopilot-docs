@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 08/21/2025
+ms.date: 10/09/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,10 +46,7 @@ The meeting preparation card contains the following information:
 
 - **Strategic insights**: Shows key contacts of the opportunity in CRM among the meeting participants, key risks identified and their summary from all past interactions, and the next follow-up action items agreed with the customer. This section is displayed only if the AI-generated insights are available. 
 
-    :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card"::: 
-
-> [!TIP]
-> You can regenerate the meeting preparation card by entering the `Meeting prep card` prompt in the personal chat with the **Copilot for Sales** bot or in the **Chat** tab of the Copilot for Sales personal app in Teams. You are prompted to select the meeting for which you want to regenerate the card. 
+    :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
 
 ## How does the card work?
 
