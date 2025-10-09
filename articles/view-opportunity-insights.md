@@ -1,6 +1,6 @@
 ---
 title: View opportunity insights (preview)
-description: Learn how to view opportunity insights in Copilot for Sales.
+description: Learn how to view opportunity insights in Sales app.
 ms.date: 09/09/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The **Opportunity insights** card provides you with a consolidated view of opportunity-related meetings, highlighting risks and upcoming actions to help you stay updated without leaving Outlook. The card offers a detailed perspective on the opportunity by analyzing all related meetings, helping you understand potential risks and progress. For an opportunity, Copilot for Sales provides AI-generated insights to indicate how the opportunity is evolving.
+The **Opportunity insights** card provides you with a consolidated view of opportunity-related meetings, highlighting risks and upcoming actions to help you stay updated without leaving Outlook. The card offers a detailed perspective on the opportunity by analyzing all related meetings, helping you understand potential risks and progress. For an opportunity, Sales app provides AI-generated insights to indicate how the opportunity is evolving.
 
 When working on opportunities, you often juggle multiple activities, making it challenging to keep track of key insights from each interaction. The **Opportunity insights** card brings together all these events and surfaces opportunity-level insights directly within Outlook. If you've access to an opportunity in CRM, you can see insights from all relevant meetings, even those you did not attend. This helps you stay updated and informed without leaving your workflow. 
 
@@ -30,7 +30,7 @@ When working on opportunities, you often juggle multiple activities, making it c
 ## Access the Opportunity insights card
 
 1. In Outlook, open an email or a meeting.
-1. [Open the Copilot for Sales side pane](open-app.md#access-copilot-for-sales-in-outlook).
+1. [Open the Sales side pane](open-app.md#access-copilot-for-sales-in-outlook).
 1. Go to the **Opportunity insights** card.
 1. Select **See all risks and insights for this opportunity** to view detailed information.
 
@@ -39,4 +39,4 @@ When working on opportunities, you often juggle multiple activities, making it c
 ## Related information
 
 - [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
-- [Configure access settings for features in Copilot for Sales](access-settings.md)
+- [Configure access settings for features in Sales app](access-settings.md)

@@ -17,7 +17,7 @@ Sales can use communication with sales contacts and information from your organi
 
 Copilot AI features might or might not be turned on by default, depending on where your tenant is located. For instance, if you're a new customer, your Dynamics 365 organization is located in North America or Europe, and your CRM resides in the same geography as Microsoft Entra ID, then Copilot AI features are turned on by default. Otherwise, you need to turn them on before your sellers can use them.
 
-Copilot AI features in Copilot for Sales are available only in some [supported languages](introduction.md#supported-languages-and-geographies).
+Copilot AI features in Sales app are available only in some [supported languages](introduction.md#supported-languages-and-geographies).
 
 > [!NOTE]
 > After you turn on Copilot AI features, it takes up to 30 minutes for the changes to take effect.
@@ -34,9 +34,9 @@ If you're a new customer in a region other than North America or Europe, you mus
 
 ## Turn on Copilot AI features for your organization
 
-As a tenant administrator, you can control who can use AI capabilities in Copilot for Sales for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
+As a tenant administrator, you can control who can use AI capabilities in Sales app for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
+1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
 1. Under **Tenant**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.  
@@ -46,15 +46,15 @@ As a tenant administrator, you can control who can use AI capabilities in Copilo
     - **Specific security groups**: Allows only selected security groups in your organization to use Copilot AI features. Search for and select the security groups you want to turn on Copilot AI features for.
     - **Exclude specific security groups**: Prevents selected security groups from using Copilot AI features. Search for and select the security groups you want to exclude.
 
-    :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Screenshot of Copilot for Sales settings for a tenant.":::
+    :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Screenshot of Sales app settings for a tenant.":::
 
 1. Select **Save**.
 
 ## Turn on Copilot AI features in your environment
 
-As a CRM administrator, you can control who can use AI capabilities in Copilot for Sales in the environments you manage. If a tenant admin turned off Copilot AI features for your organization, you can't turn them on in your environments.
+As a CRM administrator, you can control who can use AI capabilities in Sales app in the environments you manage. If a tenant admin turned off Copilot AI features for your organization, you can't turn them on in your environments.
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
+1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
 1. Under **Environment**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**. 
@@ -63,11 +63,11 @@ As a CRM administrator, you can control who can use AI capabilities in Copilot f
     Preview features allow sellers to benefit from new features before they're generally available. Preview features are turned off by default.  
 1. Select **Save**.  
 
-    :::image type="content" source="media/viva-sales-crm-admin.png" alt-text="Screenshot of Copilot for Sales settings for an environment.":::
+    :::image type="content" source="media/viva-sales-crm-admin.png" alt-text="Screenshot of Sales app settings for an environment.":::
 
 ## Data access and use
 
-Copilot for Sales uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).
+Sales app uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).
 
 The Azure OpenAI Service is available in limited geographies. By using Copilot features powered by Azure OpenAI, you agree that data might be stored or processed outside of your geographic region, compliance boundary, or national cloud instance. Learn more about [data residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
@@ -75,7 +75,7 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 ### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their Copilot for Sales for Outlook add-in is out of date. Make sure that the Copilot for Sales for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Copilot for Sales app](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
+Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
 
 ### Related information
 

@@ -11,9 +11,9 @@ ms.topic: whats-new
 
 # What's new or changed in Sales solution in Microsoft 365 Copilot
 
-Wondering about upcoming and recently released capabilities in Copilot for Sales? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.
+Wondering about upcoming and recently released capabilities in Sales solution? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.
 
-See the release plans for what's coming. Choose the following links to learn about the latest versions of Copilot for Sales.
+See the release plans for what's coming. Choose the following links to learn about the latest versions of Sales solution.
 
 - [2025 release wave 1](/copilot/release-plan/2025wave1/copilot-sales/planned-features)
 

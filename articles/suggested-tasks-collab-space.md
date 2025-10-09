@@ -1,6 +1,6 @@
 ---
 title: Advanced collaboration with AI-powered Planner tasks
-description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in Copilot for Sales.
+description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in Sales app.
 ms.date: 09/29/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -16,13 +16,13 @@ ms.custom:
 
 Sales teams work together closely and use apps such as Microsoft Planner to efficiently manage their tasks. Although numerous critical next steps and action items emerge during their daily conversations, many of these tasks aren't captured and tracked. The results are missed opportunities and lost revenue.
 
-The AI-powered Planner tasks feature in Copilot for Sales helps sellers stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Microsoft Teams and helps sellers capture and track tasks that are discussed during their conversations. It automatically turns important discussions into Planner tasks, so that important activities can easily be tracked. Sellers can assign these tasks to the right people and set deadlines.
+The AI-powered Planner tasks feature in Sales app helps sellers stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Microsoft Teams and helps sellers capture and track tasks that are discussed during their conversations. It automatically turns important discussions into Planner tasks, so that important activities can easily be tracked. Sellers can assign these tasks to the right people and set deadlines.
 
 Planner tasks that are created from the suggested tasks can be accessed from the Planner app. In addition, sales team members can add the Planner app as a tab in the channel and then view and manage the tasks from there.
 
 Key benefits of the suggested tasks feature are:
 
-- **Automated tasks suggestions**: As sales teams collaborate in collaboration spaces in Teams, the Copilot for Sales bot actively monitors the conversations in the channel for relevant discussions and action items. When the bot finds a potential task, it suggests that task to the channel members. Those individuals can then decide whether to add the task to their task list. Tasks are suggested once every 24 hours for each post and its replies in the channel.
+- **Automated tasks suggestions**: As sales teams collaborate in collaboration spaces in Teams, the Sales bot actively monitors the conversations in the channel for relevant discussions and action items. When the bot finds a potential task, it suggests that task to the channel members. Those individuals can then decide whether to add the task to their task list. Tasks are suggested once every 24 hours for each post and its replies in the channel.
 
     > [!NOTE]
     > - At least one post in the channel must have at least 10 messages during the last 24 hours. Otherwise, task suggestions aren't generated. A message informs the user if there are no task suggestions.
@@ -37,11 +37,6 @@ Key benefits of the suggested tasks feature are:
 > - Planner tasks that are created from collaboration spaces aren't synced to the customer relationship management (CRM) system. They can be accessed only from the Planner app in Teams.
 > - The AI-generated content is just a suggestion. You're responsible for reviewing and editing the AI-generated content to ensure that it's accurate and appropriate.
 > - Suggested tasks are shown only to active participants who either replied or reacted to the messages in the channel.
-
-## License requirements
-
-- Copilot for Sales (standard or premium)
-- Microsoft Teams
 
 ## Supported languages
 

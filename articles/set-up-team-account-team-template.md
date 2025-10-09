@@ -1,6 +1,6 @@
 ---
 title: Set up a team using the account team template
-description: Learn how to set up a team using an account team template in the Copilot for Sales for Outlook.
+description: Learn how to set up a team using an account team template in the Sales app for Outlook.
 ms.date: 08/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -15,21 +15,21 @@ ms.custom:
 
 # Set up a team using the account team template
 
-You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Copilot for Sales for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
+You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Sales app for Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
 
 Regardless of how you set them up, you can access linked teams and channels from both Outlook and the Sales app.
 
 When you create a collaboration space with the account team template, you can [create an account team](#create-an-account-team) or [set up an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
-The creation and setup of an account team is done from the **Collaborate in Teams** card in the Copilot for Sales pane in Outlook. If you don't see the **Collaborate in Teams** card, ensure that the contact you're viewing in the Copilot for Sales pane has an account associated with it in your CRM.
+The creation and setup of an account team is done from the **Collaborate in Teams** card in the **Sales** pane in Outlook. If you don't see the **Collaborate in Teams** card, ensure that the contact you're viewing in the **Sales** pane has an account associated with it in your CRM.
 
 ## Create an account team
 
-1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
+1. In Outlook, open an email to or from your customer, and then open Sales app.
 
 1. Go to the **Collaborate in Teams** card, hover over the account name, and then select **Set up account team**.
 
-    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up account team button highlighted.":::
+    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up account team button highlighted.":::
 
 1. In the **Set up an account team** step, select **Create a new team**.
 
@@ -41,7 +41,7 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
-    :::image type="content" source="media/add-members.png" alt-text="Screenshot of the Add team members step in Copilot for Sales for Outlook.":::
+    :::image type="content" source="media/add-members.png" alt-text="Screenshot of the Add team members step in Sales app for Outlook.":::
 
     Team members are recommended based on the following criteria:
 
@@ -61,11 +61,11 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
 When you set up an account team for an existing team, a new channel is created in the team and linked to the CRM account.
 
-1. In Outlook, open an email to or from your customer, and then open Copilot for Sales.
+1. In Outlook, open an email to or from your customer, and then open Sales app.
 
 1. Go to the **Collaborate in Teams card**, hover over the account name, and then select **Set up account team**.
 
-    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook, with the Set up account team button highlighted.":::
+    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up account team button highlighted.":::
 
 1. In the **Set up an account team** step, select **Use an existing team**.
 
@@ -90,11 +90,11 @@ When you set up an account team for an existing team, a new channel is created i
 
 You can also set up a team using the account team template in the following ways:
 
-- In the **Accounts** card in the Copilot for Sales pane, hover over the account name, and then select **More actions (...)** > **Teams** > **Set up account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
+- In the **Accounts** card in the **Sales** pane, hover over the account name, and then select **More actions (...)** > **Teams** > **Set up account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
     :::image type="content" source="media/accnt-team-record-card.png" alt-text="Screenshot showing creating account team from record card.":::
 
-- When viewing account details in the Copilot for Sales pane, go to the **Collaborate in Teams** card, and then select **Set up account team**. If account teams already exist, the button name displayed is **Set up another account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
+- When viewing account details in the **Sales** pane, go to the **Collaborate in Teams** card, and then select **Set up account team**. If account teams already exist, the button name displayed is **Set up another account team**. [Set up a new team](#create-an-account-team) or [use an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
     :::image type="content" source="media/accnt-team-record-details-view.png" alt-text="Screenshot showing creating account team from record details view.":::
 

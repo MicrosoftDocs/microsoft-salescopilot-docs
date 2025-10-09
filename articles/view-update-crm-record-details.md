@@ -16,7 +16,7 @@ After you receive a CRM record card in a Teams conversation, you can view and up
 1. Update the information as needed and save your changes.  
 1. To see the updated information, hover over the card, select **More options** (**...**), and then select **Refresh**.  
 
-   :::image type="content" source="media/refresh.png" alt-text="Screenshot showing how to refresh the Copilot for Sales contact card.":::
+   :::image type="content" source="media/refresh.png" alt-text="Screenshot showing how to refresh the Sales contact card.":::
 
 ### Related information
 
