@@ -32,7 +32,7 @@ landingContent:
     linkLists:
        - linkListType: overview
          links:
-          - text: What is Copilot for Sales?
+          - text: What is Sales solution in Microsoft 365 Copilot?
             url: introduction.md
           - text: Priviliges required
             url: privileges.md
@@ -40,7 +40,7 @@ landingContent:
             url: mobile-support.md
        - linkListType: architecture
          links:
-          - text: Copilot for Sales architecture
+          - text: Architecture of Sales solution in Microsoft 365 Copilot
             url: architecture.md
 
 # Card 
@@ -48,13 +48,13 @@ landingContent:
     linkLists:
        - linkListType: quickstart
          links:
-          - text: Deploy Copilot for Sales for Dynamics 365 customers 
+          - text: Deploy Sales app for Dynamics 365 customers 
             url: deploy-viva-sales-d365.md
-          - text: Deploy Copilot for Sales for Salesforce customers
+          - text: Deploy Sales app for Salesforce customers
             url: deploy-viva-sales-sf.md
        - linkListType: learn
          links:
-          - text: Boost sales performance with Copilot for Sales
+          - text: Boost sales performance with Sales app
             url: /training/modules/boost-sales-performance/
 
 # Card 
@@ -71,7 +71,7 @@ landingContent:
 
 
 # Card 
-  - title: Use Copilot for Sales
+  - title: Use Sales app
     linkLists:
        - linkListType: how-to-guide
          links:

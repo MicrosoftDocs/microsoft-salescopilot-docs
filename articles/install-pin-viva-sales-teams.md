@@ -28,12 +28,12 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 1. Enter a name and description for the policy.  
 1. Turn on **User pinning**.  
 1. Under **Installed apps**, select **Add apps**.  
-1. In the **Add installed apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add Copilot for Sales to the list of apps to install.  
+1. In the **Add installed apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
+1. Select **Add** to add Sales app to the list of apps to install.  
 1. Select **Add** again to install the listed apps.  
 1. Under **Pinned apps**, select **Add apps**.  
-1. In the **Add pinned apps** panel, search for the **Copilot for Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add Copilot for Sales to the list of apps to pin.  
+1. In the **Add pinned apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
+1. Select **Add** to add Sales app to the list of apps to pin.  
 1. Select **Add** again to pin the listed apps.  
 1. Under **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.  
 1. Select **Save**.
@@ -55,8 +55,8 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ## Welcome message
 
-Once the Copilot for Sales app is deployed, each user is welcomed by an engaging message from the Copilot for Sales bot in Teams. This message outlines the key capabilities in Copilot for Sales and provides direct links to comprehensive feature documentation and other learning resources.
+Once the Sales app is deployed, each user is welcomed by an engaging message from the Sales app bot in Teams. This message outlines the key capabilities in Sales app and provides direct links to comprehensive feature documentation and other learning resources.
 
 ### Related information
 
-[Install Copilot for Sales for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Sales app for Outlook](install-viva-sales-as-an-integrated-app.md)

@@ -16,13 +16,13 @@ ms.custom:
 
 Sales solution in Microsoft 365 Copilot is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
-Copilot for Sales connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in Copilot for Sales, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on Copilot for Sales pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
+Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
 > [!NOTE]
-> - Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to get started. Limited functionalities do not provide access to the Microsoft 365 Copilot functionality. For more information, go to [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
-> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate Copilot for Sales. More information, go to [Sales solution in Microsoft 365 Copilot license overview](license-info.md).
+> - Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to get started. Limited functionalities do not provide access to the Microsoft 365 Copilot functionality. For more information, go to [Sales app features for Dynamics 365 Sales users](features-d365-users.md).
+> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate Sales app. More information, go to [Sales solution in Microsoft 365 Copilot license overview](license-info.md).
 
-The following sections provide an overview of the value that Copilot for Sales provides to sales teams.
+The following sections provide an overview of the value that Sales app provides to sales teams.
 
 ## Maximize seller productivity
 
@@ -64,17 +64,17 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 ### Improve team collaboration
 
-- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from Copilot for Sales in Outlook or directly from the Dynamics 365 Sales app.
+- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from Sales app in Outlook or directly from the Dynamics 365 Sales app.
 
-    :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in Copilot for Sales for Outlook.":::
+    :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook.":::
 
 - [Share linked CRM record in a Microsoft Teams conversation](share-crm-record-teams-conversation.md).
 
-    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Copilot for Sales contact card.":::
+    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Sales app contact card.":::
 
 ## Customize for your needs
 
-Customize Copilot for Sales for a uniquely tailored experience that meets your organization's needs.
+Customize Sales app for a uniquely tailored experience that meets your organization's needs.
 
 ### Surface the right information
 
@@ -82,10 +82,10 @@ Customize Copilot for Sales for a uniquely tailored experience that meets your o
 
 ### Connect your data 
 
-[Extend Copilot for Sales](extend-copilot-for-sales.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
+[Extend Sales app](extend-copilot-for-sales.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
 ### Related information
 
-[Copilot for Sales architecture](architecture.md)<br>
-[Copilot for Sales license overview](license-info.md)<br>
+[Sales app architecture](architecture.md)<br>
+[Sales app license overview](license-info.md)<br>
 [Sales solution in Microsoft 365 Copilot FAQ](sales-copilot-faq.md)

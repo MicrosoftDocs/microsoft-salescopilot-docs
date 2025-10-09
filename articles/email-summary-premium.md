@@ -33,7 +33,7 @@ Features of the Copilot for Sales email summary vary by license:
 - **Copilot for Sales license**: See the fully integrated experience within Microsoft Outlook as described in this article.
 - **Sales Copilot license**: View, save to CRM, share to Teams, or copy email summaries. Learn more in [View and save email summaries to your CRM](view-save-email-summary-crm.md).
 
-
+The Copilot for Sales license includes a Microsoft 365 Copilot subscription. If your organization purchased Microsoft 365 Copilot separately, Copilot for Sales is available as a step-up license. Learn more in [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
 
 ## Prerequisites
 

@@ -36,11 +36,11 @@ If you change a user's permissions or security roles in your CRM, ask the user t
 
 Teams and Outlook both play a part in how you access the Sales app administrator settings and what you can change.
 
-You can access the administrator settings in the Sales app app in Outlook and Teams. The settings apply to the CRM environment that you sign in to. To customize Sales app for a different environment, [switch to that environment](sales-copilot-faq.md#how-can-i-switch-crm-environments).
+You can access the administrator settings in the Sales app in Outlook and Teams. The settings apply to the CRM environment that you sign in to. To customize Sales app for a different environment, [switch to that environment](sales-copilot-faq.md#how-can-i-switch-crm-environments).
 
-1. Open the Sales app personal app in [Outlook](personal-app.md#open-the-personal-app-in-outlook) or [Teams](personal-app.md#open-the-personal-app-in-teams).
+1. Open the Sales personal app in [Outlook](personal-app.md#open-the-personal-app-in-outlook) or [Teams](personal-app.md#open-the-personal-app-in-teams).
 1. Sign in to [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md) with your administrator credentials.  
-1. On the left navigation pane, select **Sales app**. If **Sales app** isn't visible, select **View more apps** (**&hellip;**), and then select **Sales app**. If you see the **Sales app** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.  
+1. On the left navigation pane, select **Sales**. If **Sales** isn't visible, select **View more apps** (**&hellip;**), and then select **Sales**. If you see the **Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.  
 1. Select the **Settings** tab.  
 1. Change the settings you need to.  
     **Tenant-level settings**:  

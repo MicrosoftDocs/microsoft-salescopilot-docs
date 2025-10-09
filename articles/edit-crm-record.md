@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Edit a CRM record
 
-1. Open the **Copilot for Sales** pane and select a record you want to edit.
+1. Open the **Sales** pane and select a record you want to edit.
 
 1. In the record's details cards, select **More actions** (**...**) > **Edit record**.
 

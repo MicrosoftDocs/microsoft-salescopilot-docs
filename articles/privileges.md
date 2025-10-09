@@ -1,6 +1,6 @@
 ---
-title: Privileges required to use Copilot for Sales
-description: Learn what are the various privileges required to use Copilot for Sales
+title: Privileges required to use Sales app
+description: Learn what are the various privileges required to use Sales app
 ms.date: 02/12/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -8,17 +8,17 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Privileges required to use Copilot for Sales
+# Privileges required to use Sales app
 
-Copilot for Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Copilot for Sales.
+Sales app applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales app.
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Copilot for Sales in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Copilot for Sales app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Sales app in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in Sales app for Teams.
 
 ## Permissions required for Salesforce administrators
 
-Salesforce administrators who need to customize Copilot for Sales must have the following permissions.
+Salesforce administrators who need to customize Sales app must have the following permissions.
 
 |Requirement type  |You must have  |
 |---------|---------|
@@ -29,9 +29,9 @@ Salesforce administrators who need to customize Copilot for Sales must have the 
 
 ### Dynamics 365 administrators
 
-If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Copilot for Sales administration privileges are added automatically.
+If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Sales app administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **Sales Copilot Administrator** security role and following privileges to Dynamics 365 administrators who need to customize Copilot for Sales.  
+If you're using custom security roles, you must assign the **Sales Copilot Administrator** security role and following privileges to Dynamics 365 administrators who need to customize Sales app.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
@@ -45,9 +45,9 @@ If you're using custom security roles, you must assign the **Sales Copilot Admin
 
 ### Dynamics 365 sellers
 
-If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, Copilot for Sales privileges are added automatically and no further action is required.
+If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, Sales app privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **Sales Copilot User** security role and following privileges to Dynamics 365 sellers who need to use Copilot for Sales.
+If you're using custom security roles, you must assign the **Sales Copilot User** security role and following privileges to Dynamics 365 sellers who need to use Sales app.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -71,13 +71,13 @@ To edit custom security roles to match with out-of-the-box Salesperson or Sales 
 
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-## Deploy Copilot for Sales
+## Deploy Sales app
 
-Looking for step-by-step instructions on how to deploy Copilot for Sales? Here are the Copilot for Sales deployment guides:
+Looking for step-by-step instructions on how to deploy Sales app? Here are the Sales app deployment guides:
 
-- [Copilot for Sales deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
-- [Copilot for Sales deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+- [Sales app deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
+- [Sales app deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
 
 ### Related information
 
-[Install Copilot for Sales](install-viva-sales.md)
+[Install Sales app](install-viva-sales.md)
