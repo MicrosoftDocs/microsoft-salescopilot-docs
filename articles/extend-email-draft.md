@@ -1,6 +1,6 @@
 ---
 title: Enrich email drafts with file links from your application (preview)
-description: Enhance email drafts in Outlook by using Copilot for Sales and file links from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
+description: Enhance email drafts in Outlook by using Sales app and file links from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
 ms.date: 06/26/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,14 +14,14 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When you use Copilot for Sales to draft an email, it considers the email's intent and uses CRM information from Salesforce or Dynamics 365 to create the draft. You can extend the email drafting capability that Copilot for Sales provides with recommended files from your own application.
+When you use Sales app to draft an email, it considers the email's intent and uses CRM information from Salesforce or Dynamics 365 to create the draft. You can extend the email drafting capability that Sales app provides with recommended files from your own application.
 
 > [!NOTE]
-> This feature is supported only for email drafts created using the Copilot for Sales side pane in Outlook.
+> This feature is supported only for email drafts created using the Sales app in Outlook.
 
 ## API description
 
-You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. In this way, Sales app can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets files relevant to the email conversation, which will be shown in C4S email drafts in Outlook. The action enhances the existing skills of copilot for sales.*
 
@@ -150,4 +150,4 @@ Legend:
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
 [Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
-[Build Copilot for Sales extensions](build-apis.md)
+[Build Sales app extensions](build-apis.md)

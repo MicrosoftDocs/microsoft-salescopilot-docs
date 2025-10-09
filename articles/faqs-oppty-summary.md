@@ -17,11 +17,11 @@ These frequently asked questions (FAQ) describe the AI impact of Sales app's opp
 
 ## What is opportunity summary feature in Outlook and Teams?
 
-Leveraging CRM data, Copilot for Sales provides salespeople with a summary of relevant information before a meeting and in Teams chat and channel conversations. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions.
+Leveraging CRM data, Sales app provides salespeople with a summary of relevant information before a meeting and in Teams chat and channel conversations. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions.
 
 ## What are the feature's capabilities?
 
-Leveraging its integration with CRM systems and customer databases, Copilot for Sales retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions.
+Leveraging its integration with CRM systems and customer databases, Sales app retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions.
 
 ## What is the feature's intended use?
 

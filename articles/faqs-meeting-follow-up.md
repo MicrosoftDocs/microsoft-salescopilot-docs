@@ -17,11 +17,11 @@ These frequently asked questions (FAQs) describe the AI impact of Sales app's me
 
 ## What is meeting follow-up feature in Outlook?
 
-Copilot for Sales assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
+Sales app assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
 
 ## What are the feature's capabilities?
 
-Copilot for Sales employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
+Sales app employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
 
 ## What is the feature's intended use?
 

@@ -17,11 +17,11 @@ These frequently asked questions (FAQs) describe the AI impact of Sales app's em
 
 ## What is email summary feature in Outlook?
 
-Copilot for Sales summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
+Sales app summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
 
 ## What are the feature's capabilities?
 
-Through advanced text analysis and summarization techniques, Copilot for Sales extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
+Through advanced text analysis and summarization techniques, Sales app extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
 
 ## What is the feature's intended use?
 

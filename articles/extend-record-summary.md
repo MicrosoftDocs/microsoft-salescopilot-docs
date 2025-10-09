@@ -1,6 +1,6 @@
 ---
 title: Enrich CRM record summaries with insights from your application (preview)
-description: Enhance CRM record summaries in Copilot for Sales by using AI and insights from your own application, improving customer understanding.
+description: Enhance CRM record summaries in Sales app by using AI and insights from your own application, improving customer understanding.
 ms.date: 03/28/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -18,11 +18,11 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-To better understand the context of a meeting that they are preparing for or an email that they are reading, sellers want relevant customer relationship management (CRM) information, such as customer queries, concerns, and notes. Copilot for Sales uses AI to generate a summary of each CRM record. This summary highlights crucial details, such as the sales stage, budget, and projected close date. You can extend the CRM record summary capability that Copilot for Sales provides with insights from your own application.
+To better understand the context of a meeting that they are preparing for or an email that they are reading, sellers want relevant customer relationship management (CRM) information, such as customer queries, concerns, and notes. Sales app uses AI to generate a summary of each CRM record. This summary highlights crucial details, such as the sales stage, budget, and projected close date. You can extend the CRM record summary capability that Sales app provides with insights from your own application.
 
 ## API description
 
-You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. In this way, Sales app can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets additional sales insights related to a CRM record that will be shown in the C4S record summary card. The action enhances the existing skills of copilot for sales.*
 
@@ -32,7 +32,7 @@ This API uses Operation Type: GET
 
 ## Input parameters
 
-Copilot for Sales is designed to provide the following input parameters to your APIs.
+Sales app is designed to provide the following input parameters to your APIs.
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|--------------------|----------|---------|-----------------------------------|
@@ -47,7 +47,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that Copilot for Sales can correctly parse the output, the response structure must adhere to the guidelines in the following table.
+Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|
@@ -122,4 +122,4 @@ Legend:
 [Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
-[Build Copilot for Sales extensions](build-apis.md)
+[Build Sales app extensions](build-apis.md)

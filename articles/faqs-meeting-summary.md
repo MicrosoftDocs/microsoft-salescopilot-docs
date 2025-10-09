@@ -17,15 +17,15 @@ These frequently asked questions (FAQs) describe the AI impact of Sales app's me
 
 ## What is meeting summary feature in Teams?
 
-The Copilot for Sales meeting summary feature offers sellers a quick recap of their meetings, highlighting key discussion points, follow-up actions, and customer questions. It also integrates with CRM systems to ensure all details are recorded, aiding sellers in staying organized and prepared for future interactions. This tool is essential for managing meeting information efficiently and effectively.
+The Sales app meeting summary feature offers sellers a quick recap of their meetings, highlighting key discussion points, follow-up actions, and customer questions. It also integrates with CRM systems to ensure all details are recorded, aiding sellers in staying organized and prepared for future interactions. This tool is essential for managing meeting information efficiently and effectively.
 
 ## What are the feature's capabilities?
 
-The Copilot for Sales meeting summary feature streamlines the post-meeting process by providing a recap of discussions, identifying follow-up tasks mentioned during the meeting, summarizing questions that were asked by customers and representatives, and offering quick access to significant points such as brands, people mentions, time, keywords, and pricing. It also ensures seamless CRM integration to maintain up-to-date customer records.
+The Sales app meeting summary feature streamlines the post-meeting process by providing a recap of discussions, identifying follow-up tasks mentioned during the meeting, summarizing questions that were asked by customers and representatives, and offering quick access to significant points such as brands, people mentions, time, keywords, and pricing. It also ensures seamless CRM integration to maintain up-to-date customer records.
 
 ## What is the feature's intended use?
 
-The Copilot for Sales meeting summary feature is designed to help sellers quickly review sales meetings, highlighting key points and follow-ups, and integrating this information into their CRM for efficient customer engagement and follow-up. 
+The Sales app meeting summary feature is designed to help sellers quickly review sales meetings, highlighting key points and follow-ups, and integrating this information into their CRM for efficient customer engagement and follow-up. 
 
 ## How was the meeting summary feature evaluated? What metrics are used to measure performance?
 
@@ -47,7 +47,7 @@ The quality of the meeting summary depends on how accurately the system can tran
 - **Transparency and explainability**: Foster transparency by clearly communicating to users how the system works, the underlying technologies used, and any limitations or potential biases. Ensure that users have a basic understanding of the system's capabilities and are informed about its AI-powered nature.  
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
-## How accurate is the sentiment analysis shown in Copilot for Sales meeting insights?
+## How accurate is the sentiment analysis shown in Sales app meeting insights?
 
 The sentiment analysis is AI-generated and based on the content and tone of the meeting transcript. While it can provide a helpful high-level view of customer tone and engagement, it's not always perfectly accurate and may misinterpret nuance, sarcasm, or context.
 
