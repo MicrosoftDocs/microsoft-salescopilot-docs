@@ -389,7 +389,7 @@ All users with Copilot for Sales license will automatically see Sales Chat as an
 
 If needed, you can hide Sales Chat for individual users or groups by one of the following methods:
 
-- [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility). This will hide all Copilot agents, including Sales Chat.
+- [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true). This will hide all Copilot agents, including Sales Chat.
 - Turn off Sales Chat in [Access settings](access-settings.md#sales-chat-preview).
 
 > [!NOTE]

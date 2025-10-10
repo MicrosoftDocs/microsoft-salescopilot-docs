@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Chat (preview)
-description: 
-ms.date: 08/13/2025
+description: Learn how to set up Sales Chat, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
+ms.date: 10/10/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -21,7 +21,7 @@ Sales Chat is available to users who have a Copilot for Sales license. If you do
 > [!NOTE]
 > - Users who don't have a Copilot for Sales license can't use Sales Chat until consumption-based billing is set up.
 > - If your team already uses Copilot for Sales, they'll see the Sales Chat in the list of agents in Microsoft 365 Copilot Chat.
-> - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales Chat in the list of agents even if they have a Copilot for Sales license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility).
+> - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales Chat in the list of agents even if they have a Copilot for Sales license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
 
 ## Prerequisites
 

@@ -59,7 +59,7 @@ Enable transcripts for Teams calls so that when Copilot for Sales is added to a 
 
 Copilot for Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Copilot for Sales.
 
-Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](privileges.md#permissions-required-for-salesforce-administrators).
+Salesforce administrators who need to customize Copilot for Sales [must have appropriate permissions](privileges.md#salesforce-administrators).
 
 Users of Copilot for Sales need to be API enabled in Salesforce so that they can access Salesforce using APIs. [Learn how to grant API Enabled permission](tsg-api-perm.md).
 
