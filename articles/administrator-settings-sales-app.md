@@ -20,7 +20,7 @@ As a tenant administrator or CRM (customer relationship management) administrato
 
 ## Prerequisites
 
-- The Sales app app is installed in either [Outlook](install-viva-sales-as-an-integrated-app.md) or [Teams](install-pin-viva-sales-teams.md). 
+- The Sales app app is installed in either [Outlook](install-sales-as-an-integrated-app.md) or [Teams](install-pin-sales-teams.md). 
 
 ## Who can access administrator settings?
 

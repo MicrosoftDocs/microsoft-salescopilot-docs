@@ -77,13 +77,13 @@ To know how to access the app while drafting an email, reading an email, or crea
 
 - While drafting an email, creating a meeting, or replying to an email or a meeting invite with an external contact, a banner message is displayed at the top of the email or meeting invite with either of the following actions:  
     - **See sales insights**: This action is displayed if external contacts in email are saved to CRM. Select to open the **Sales** pane.
-    - **Add contacts**: This action is displayed if at least one contact in the email isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
+    - **Add contacts**: This action is displayed if at least one contact in the email isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
     
     > [!NOTE]
     > The banner message in this scenario is displayed for every email or meeting that contains external contacts.
 
 - While reading an email from external contacts, a banner message is displayed at the top of the email with two of the following contextual actions:
-    - **Add contacts**: This action is displayed if at least one contact in the email thread isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm-sales-copilot.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
+    - **Add contacts**: This action is displayed if at least one contact in the email thread isn't saved in your CRM. More information: [Add new contacts through quick CRM actions in email banners](create-contact-crm.md#add-new-contacts-through-quick-crm-actions-in-email-banners)
     - **Save this email**: This action is displayed if you didn't save the email to your CRM. More information: [Save emails to CRM through quick CRM actions in email banners](save-outlook-activities-crm.md#save-from-quick-crm-actions-in-an-email-banner-message)
     - **See sales insights**: Select to open the **Sales** pane. 
 

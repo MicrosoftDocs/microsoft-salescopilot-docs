@@ -109,5 +109,5 @@ Legend:
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Sales app with partner applications](extend-sales-app.md)<br>
 [Build Sales app extensions](build-apis.md)

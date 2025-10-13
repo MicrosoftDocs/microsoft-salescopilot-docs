@@ -57,7 +57,7 @@ You can add the summary to your CRM, share it to Teams, or copy it to the clipbo
 1. Open the **Sales** pane if it isn't already open. After a moment or two, the email summary is displayed in the **Key email info** card.
 
     > [!NOTE]
-    > - If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm-sales-copilot.md). The email summary should appear a few moments later.
+    > - If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm.md). The email summary should appear a few moments later.
     > - If you see the **Summarize email** button, select it to generate the email summary. This is because your admin has disabled automatic email summarization.
 
 In the **Key email info** card, you can perform the following tasks:
@@ -117,5 +117,5 @@ The email summary is saved to your CRM as a note on the selected record. The sub
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
-- [Create a contact in your CRM from Sales app](./create-contact-crm-sales-copilot.md)
+- [Create a contact in your CRM from Sales app](./create-contact-crm.md)
 - [Draft an email message in Sales app](./use-copilot-kickstart-email-messages.md)

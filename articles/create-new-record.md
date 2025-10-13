@@ -49,5 +49,5 @@ Sales app shows records that are related to the saved contacts in the email on t
 
 ### Related information
 
-[Create a contact in your CRM from Sales app](create-contact-crm-sales-copilot.md)  
+[Create a contact in your CRM from Sales app](create-contact-crm.md)  
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

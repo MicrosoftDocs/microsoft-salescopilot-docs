@@ -36,7 +36,7 @@ If you're a new customer in a region other than North America or Europe, you mus
 
 As a tenant administrator, you can control who can use AI capabilities in Sales app for all environments in your organization. If you turn off Copilot AI features for your organization, CRM administrators can't turn them on in their environments.
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).  
 1. Under **Tenant**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**.  
@@ -54,7 +54,7 @@ As a tenant administrator, you can control who can use AI capabilities in Sales 
 
 As a CRM administrator, you can control who can use AI capabilities in Sales app in the environments you manage. If a tenant admin turned off Copilot AI features for your organization, you can't turn them on in your environments.
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).  
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).  
 1. Under **Environment**, select **Copilot AI**.  
 1. Turn on **Copilot AI**.  
 1. If the consent to move data outside of your region is available, select **Allow moving data outside boundaries**. 
@@ -75,7 +75,7 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 ### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-viva-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
+Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
 
 ### Related information
 

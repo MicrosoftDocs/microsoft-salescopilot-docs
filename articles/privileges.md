@@ -75,9 +75,9 @@ For information on security roles and privileges, see [Security roles and privil
 
 Looking for step-by-step instructions on how to deploy Sales app? Here are the Sales app deployment guides:
 
-- [Sales app deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md)
-- [Sales app deployment guide for Salesforce CRM customers](deploy-viva-sales-sf.md)
+- [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md)
+- [Sales app deployment guide for Salesforce CRM customers](deploy-sales-app-sf.md)
 
 ### Related information
 
-[Install Sales app](install-viva-sales.md)
+[Install Sales app](install-sales-app.md)

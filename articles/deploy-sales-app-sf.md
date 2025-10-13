@@ -26,7 +26,7 @@ Follow the instructions in this guide to deploy Sales app for your Salesforce CR
 
 ## Step 1: Install Sales app in Outlook
 
-[Install Sales app in Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Sales app in Outlook](install-sales-as-an-integrated-app.md)
 
 ![Screenshot showing Sales app installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing Sales app installed as an integrated app.")
 
@@ -35,7 +35,7 @@ Follow the instructions in this guide to deploy Sales app for your Salesforce CR
 
 ## Step 2: Create a setup policy to auto install and pin the Sales app app in Teams
 
-[Install and pin Sales app in your sellers' personal Teams environment and meetings they create](install-pin-viva-sales-teams.md)
+[Install and pin Sales app in your sellers' personal Teams environment and meetings they create](install-pin-sales-teams.md)
 
 ![Screenshot showing Teams policy.](media/teams-policy-viva-sales.png "Screenshot showing Teams policy.")
 
@@ -114,7 +114,7 @@ Sales app automatically assigns all Power Platform administrators and Microsoft 
 
 ## Step 8 (optional): Customize Sales app
 
-[Administrator settings](administrator-settings-for-viva-sales.md) control the seller's Sales app experience in Outlook and Teams. You can customize Sales app to meet your organization's needs.
+[Administrator settings](administrator-settings-sales-app.md) control the seller's Sales app experience in Outlook and Teams. You can customize Sales app to meet your organization's needs.
 
 ### Set up Copilot AI features
 
@@ -131,7 +131,7 @@ Now that you've installed and configured Sales app in Outlook and Teams, get you
 
 | |
 |---------|
-|**Subject**: Welcome to Sales app!</br><br>Dear Sellers,</br><br>Welcome to Sales app, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Sales app can do for you by [watching this short video](https://learn-video.azurefd.net/vod/player?id=e7eb1248-4d7f-464b-896c-70f47e6e7fdf) and taking the [Sales app training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Sales app for the first time**</br><br>[Sign in to your CRM system](sign-in-crm-outlook.md) and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Sales app features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Sales app](create-contact-crm-sales-copilot.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)</li></br><li>[View sales insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Sales app troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Sales app - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Sales app Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
+|**Subject**: Welcome to Sales app!</br><br>Dear Sellers,</br><br>Welcome to Sales app, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what Sales app can do for you by [watching this short video](https://learn-video.azurefd.net/vod/player?id=e7eb1248-4d7f-464b-896c-70f47e6e7fdf) and taking the [Sales app training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into Sales app for the first time**</br><br>[Sign in to your CRM system](sign-in-crm-outlook.md) and [pin the app](open-app.md#pin-the-copilot-for-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various Sales app features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from Sales app](create-contact-crm.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)</li></br><li>[View sales insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Sales app troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Sales app - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Sales app Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
 
 > [!IMPORTANT]
 > It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales app app in Outlook after it's deployed?](sales-copilot-faq.md#why-cant-users-see-the-copilot-for-sales-app-in-outlook-after-its-deployed)

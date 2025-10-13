@@ -16,7 +16,7 @@ By default, this feature is turned off. When this feature is enabled, the data a
 
 ## Turn on the /mention feature
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 
 1. Under **Environment**, select **Forms**.
 

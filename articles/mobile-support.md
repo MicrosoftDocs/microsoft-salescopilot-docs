@@ -18,7 +18,7 @@ ms.custom: CXT
 Sales solution is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Sales solution aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
 
 > [!NOTE]
-> During the preview, if Sales app was deployed to your organization before mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Sales app](install-viva-sales.md) article.
+> During the preview, if Sales app was deployed to your organization before mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Sales app](install-sales-app.md) article.
 
 Here's a video that provides an overview of Sales app on mobile devices:
 
@@ -77,4 +77,4 @@ The personal app includes **Home** and **Settings** tabs. The **Settings** tab i
 ### Related information
 
 - [Buy Sales](buy-license.md)<br>
-- [Install Sales app](install-viva-sales.md)
+- [Install Sales app](install-sales-app.md)

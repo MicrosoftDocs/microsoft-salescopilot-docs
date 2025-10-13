@@ -44,5 +44,5 @@ You can edit the sample connector and action to get started quickly. Refer to th
 
 ### Related information
 
-[Extend Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend Sales app with partner applications](extend-sales-app.md)<br>
 [Build Sales app extensions](build-apis.md)

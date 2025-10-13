@@ -23,7 +23,7 @@ This article provides instructions to integrate Sales Agent with Salesforce to g
 ## Prerequisites
 
 - The Sales Agent is [configured and connected to Salesforce](set-up-sales-agent.md).
-- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-for-viva-sales.md).
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Create a link to Sales Agent research from leads
 

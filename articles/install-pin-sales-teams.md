@@ -59,4 +59,4 @@ Once the Sales app is deployed, each user is welcomed by an engaging message fro
 
 ### Related information
 
-[Install Sales app for Outlook](install-viva-sales-as-an-integrated-app.md)
+[Install Sales app for Outlook](install-sales-as-an-integrated-app.md)

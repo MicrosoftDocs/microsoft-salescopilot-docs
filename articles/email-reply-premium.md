@@ -40,11 +40,11 @@ For information about pricing, see [Sales app pricing](https://www.microsoft.com
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 - You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
-- The Copilot for Sales app must be installed by your admin.
+- The Sales app must be installed by your admin.
 
 ## Supported languages
 
-To see a list of supported languages for the combined experience of Microsoft 365 Copilot and Copilot for Sales, see [supported languages](introduction.md#supported-languages-and-geographies).
+To see a list of supported languages for the combined experience, see [supported languages](introduction.md#supported-languages-and-geographies).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested email message.
 

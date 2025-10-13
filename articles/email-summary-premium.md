@@ -81,6 +81,6 @@ Legend:
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
-- [Create a contact in your CRM from Copilot for Sales](./create-contact-crm-sales-copilot.md)
+- [Create a contact in your CRM from Copilot for Sales](./create-contact-crm.md)
 - [Draft an email message in Copilot for Sales app](./use-copilot-kickstart-email-messages.md)
 - [Summarize an email thread with Microsoft 365 Copilot in Outlook](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-for-microsoft-365-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640)

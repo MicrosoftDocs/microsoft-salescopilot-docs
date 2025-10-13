@@ -30,7 +30,7 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 ### Keep data fresh and accurate
 
-- Get Copilot assistance to [add contacts](create-contact-crm-sales-copilot.md) and update CRM records in [Outlook](edit-crm-record.md) and [Teams](view-update-crm-record-details.md) and sync to your CRM platform.
+- Get Copilot assistance to [add contacts](create-contact-crm.md) and update CRM records in [Outlook](edit-crm-record.md) and [Teams](view-update-crm-record-details.md) and sync to your CRM platform.
 
 - View Copilot-generated opportunity summaries and CRM record information in Outlook and Teams.
 
@@ -82,7 +82,7 @@ Customize Sales app for a uniquely tailored experience that meets your organizat
 
 ### Connect your data 
 
-[Extend Sales app](extend-copilot-for-sales.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
+[Extend Sales app](extend-sales-app.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
 ### Related information
 

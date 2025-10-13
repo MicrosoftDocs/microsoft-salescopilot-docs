@@ -53,4 +53,4 @@ If you need to delete Sales app data (for example, delete data for a specific us
 ### Related information
 
 [Introduction to Sales solution in Microsoft 365 Copilot](introduction.md)<br>
-[Install Sales app](install-viva-sales.md)
+[Install Sales app](install-sales-app.md)

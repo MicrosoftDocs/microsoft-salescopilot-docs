@@ -31,18 +31,18 @@
   - name: Install Sales app
     items:
     - name: Install Sales app
-      href: install-viva-sales.md
+      href: install-sales-app.md
     - name: Install Sales app in Outlook
-      href: install-viva-sales-as-an-integrated-app.md
+      href: install-sales-as-an-integrated-app.md
     - name: Install and pin Sales app in Teams
-      href: install-pin-viva-sales-teams.md
+      href: install-pin-sales-teams.md
 
 - name: Deployment scenarios
   items:
   - name: Deployment guide for Dynamics 365 users
-    href: deploy-viva-sales-d365.md
+    href: deploy-sales-app-d365.md
   - name: Deployment guide for Salesforce users
-    href: deploy-viva-sales-sf.md
+    href: deploy-sales-app-sf.md
 
 
 - name: Administration guide
@@ -50,7 +50,7 @@
   - name: Admin settings
     items:
     - name: Overview
-      href: administrator-settings-for-viva-sales.md
+      href: administrator-settings-sales-app.md
     - name: Customize forms and fields
       href: customize-forms-and-fields.md
     - name: Share a CRM record in Outlook by using /mention
@@ -88,7 +88,7 @@
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
   - name: Uninstall Sales app
-    href: disable-viva-sales.md
+    href: uninstall-sales-app.md
   - name: Sales app adoption report
     href: adoption-report.md
 
@@ -111,7 +111,7 @@
       - name: Change the connected CRM contact
         href: change-connected-crm-contact.md
       - name: Create a contact in your CRM from Sales app
-        href: create-contact-crm-sales-copilot.md
+        href: create-contact-crm.md
       - name: Create a new record in your CRM from Sales app
         href: create-new-record.md
       - name: Save Outlook activities to your CRM
@@ -219,7 +219,7 @@
 - name: Extend Sales (preview)
   items:
   - name: Overview
-    href: extend-copilot-for-sales.md
+    href: extend-sales-app.md
   - name: Get started with creating an extension
     items:
     - name: Create a custom connector and connector action
@@ -324,7 +324,7 @@
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
 
 - name: Deprecations in Sales app
-  href: deprecations-copilot-for-sales.md
+  href: deprecations-sales-app.md
 
 - name: Responsible AI
   items:

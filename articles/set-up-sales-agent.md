@@ -23,7 +23,7 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 ## Prerequisites
 
 - The Sales app is installed in either Outlook or Teams.
-- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-for-viva-sales.md).
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
 - [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
 - The Dataverse environment connected to Sales app is a production environment.

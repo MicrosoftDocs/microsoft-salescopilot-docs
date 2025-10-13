@@ -30,7 +30,7 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
 ### Configure meeting insights access settings
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 
 1. Under **Environment**, select **Access settings**.
 
@@ -66,7 +66,7 @@ By default, Sales Agent is turned off. When you turn it on, you can control whet
 
 To turn on Sales Agent:
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
 1. Select **Sales Agent**.
 1. In the **Sales Agent** pane, turn on the toggle.   

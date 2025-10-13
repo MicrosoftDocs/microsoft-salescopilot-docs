@@ -49,9 +49,9 @@ landingContent:
        - linkListType: quickstart
          links:
           - text: Deploy Sales app for Dynamics 365 customers 
-            url: deploy-viva-sales-d365.md
+            url: deploy-sales-app-d365.md
           - text: Deploy Sales app for Salesforce customers
-            url: deploy-viva-sales-sf.md
+            url: deploy-sales-app-sf.md
        - linkListType: learn
          links:
           - text: Boost sales performance with Sales app

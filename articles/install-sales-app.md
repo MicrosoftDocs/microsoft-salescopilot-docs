@@ -22,7 +22,7 @@ Additionally, to install the app within Teams, you need to go to the Microsoft T
 
 You need to be a Microsoft 365 administrator to deploy and install the Sales app for Outlook and Microsoft 365 apps. You need to be a Teams administrator to deploy and install Sales app for Teams.
 
-For steps to install Sales app in Outlook and Teams, see [Install Sales app in Outlook](install-viva-sales-as-an-integrated-app.md) and [Install and pin Sales app in Teams](install-pin-viva-sales-teams.md).
+For steps to install Sales app in Outlook and Teams, see [Install Sales app in Outlook](install-sales-as-an-integrated-app.md) and [Install and pin Sales app in Teams](install-pin-sales-teams.md).
 
 > [!NOTE]
 > If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce. If it's blocked, you need to unblock it to use Sales app and might take up to 24 hours for the add-in to show up for your users.
@@ -43,7 +43,7 @@ Watch this video to learn more about Sales app:
 
 > [!IMPORTANT]
 >
-> - This article provides instructions for business users without administrator privileges to install Sales app. If you are a CRM administrator trying to install Sales app for your sales team, see [Sales app deployment guide for Dynamics 365 customers](deploy-viva-sales-d365.md) or [Sales app deployment guide for Salesforce customers](deploy-viva-sales-sf.md) as per your requirement.
+> - This article provides instructions for business users without administrator privileges to install Sales app. If you are a CRM administrator trying to install Sales app for your sales team, see [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md) or [Sales app deployment guide for Salesforce customers](deploy-sales-app-sf.md) as per your requirement.
 > - You may not be able to install Sales app if downloading add-ins is turned off for your organization. In this case, contact your administrator.
 > - If you are using the Dynamics 365 app for Outlook, you can consider switching to Sales app, as you can do much more with Sales app. More information: [Difference between Sales app and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
 
@@ -103,6 +103,6 @@ After Sales app is installed, you can start using it in Outlook and Teams. For i
 
 ### Related information
 
-[Install Sales app in Outlook](install-viva-sales-as-an-integrated-app.md)<br>
-[Install and pin Sales app in Teams](install-pin-viva-sales-teams.md)<br>
+[Install Sales app in Outlook](install-sales-as-an-integrated-app.md)<br>
+[Install and pin Sales app in Teams](install-pin-sales-teams.md)<br>
 [Privileges required to use Sales app](privileges.md)

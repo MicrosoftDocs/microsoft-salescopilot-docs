@@ -30,7 +30,7 @@ Here's a video that gives you a quick overview of Sales app.
 
 ## Consideration
 
-A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Sales app](install-viva-sales.md). Sales app allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
+A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Sales app](install-sales-app.md). Sales app allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
 
 > [!NOTE]
 > Sales app is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).
@@ -62,4 +62,4 @@ For the list of supported languages and geographies, see the [Copilot internatio
 
 ### Related information
 
-[Install Sales app](install-viva-sales.md)
+[Install Sales app](install-sales-app.md)

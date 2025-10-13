@@ -42,7 +42,7 @@ You can select a record type to view and edit its settings.
 
 ## Prerequisites
 
-CRM administrators must access administrator settings from the Sales app in Teams. More information: [Administrator settings for Sales solution in Microsoft 365 Copilot](administrator-settings-for-viva-sales.md)
+CRM administrators must access administrator settings from the Sales app in Teams. More information: [Administrator settings for Sales solution in Microsoft 365 Copilot](administrator-settings-sales-app.md)
 
 ## Add a new record type (or a Salesforce object)
 

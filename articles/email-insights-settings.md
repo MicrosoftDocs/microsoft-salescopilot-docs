@@ -27,7 +27,7 @@ You can control whether emails are automatically summarized in the [**Key email 
 
 To configure this setting:
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Email insights (preview)**.
 1. Select **Auto-summarize emails**.
 1. Turn the toggle on or off to enable or disable automatic email summarization.

@@ -23,7 +23,7 @@ You could connect your Sales app contact to a different CRM contact if you conne
 
    :::image type="content" source="media/multiple-matches.png" alt-text="Screenshot showing multiple matches for a CRM contact.":::
 
-1. Select one of the suggested contacts or select **Create a new contact** to [create a new one](create-contact-crm-sales-copilot.md).
+1. Select one of the suggested contacts or select **Create a new contact** to [create a new one](create-contact-crm.md).
     
    :::image type="content" source="media/new-contact.png" alt-text="Screenshot showing choose a CRM to connect.":::
 

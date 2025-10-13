@@ -42,7 +42,7 @@ In the pop-up message in Outlook, select **Create** to create a connector for th
 > [!NOTE]
 > - If the connector uses Microsoft Entra ID for authentication, the connection is created automatically and you are not prompted to sign in.
 > - All Power Platform connectors are not certified to work with Sales app. Sales app displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
-> - If you are a partner application maker and would like to integrate with Sales app, see [Extend Sales app](extend-copilot-for-sales.md). Currently, DocuSign can be integrated with Sales app. 
+> - If you are a partner application maker and would like to integrate with Sales app, see [Extend Sales app](extend-sales-app.md). Currently, DocuSign can be integrated with Sales app. 
 
 ## View related records
 

@@ -42,7 +42,7 @@ As an administrator, you can install Sales app as an integrated app from Microso
     Allow up to six hours for Sales app to appear in users' Outlook ribbon.
 
 > [!NOTE]
-> The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Sales app in Teams, go to [Install and pin Sales app in Teams](install-pin-viva-sales-teams.md).
+> The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Sales app in Teams, go to [Install and pin Sales app in Teams](install-pin-sales-teams.md).
 
 
 > [!IMPORTANT]
@@ -76,4 +76,4 @@ If end users install the Outlook add-in, it's considered user-deployed instead o
 
 ### Related information
 
-[Install and pin Sales app in Teams](install-pin-viva-sales-teams.md)
+[Install and pin Sales app in Teams](install-pin-sales-teams.md)

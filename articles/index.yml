@@ -38,15 +38,15 @@ additionalContent:
     items:
     - title: Install
       links: 
-      - url:  install-viva-sales-as-an-integrated-app.md
+      - url:  install-sales-as-an-integrated-app.md
         text: Install Copilot for Sales in Outlook
-      - url:  install-pin-viva-sales-teams.md
+      - url:  install-pin-sales-teams.md
         text: Install Copilot for Sales in Teams
     - title: Deployment scenarios
       links: 
-      - url: deploy-viva-sales-d365.md
+      - url: deploy-sales-app-d365.md
         text: Deployment guide for Dynamics 365 users
-      - url: deploy-viva-sales-sf.md
+      - url: deploy-sales-app-sf.md
         text: Deployment guide for Salesforce users
 
 
@@ -62,7 +62,7 @@ additionalContent:
         text: Turn off actionable banners
     - title: Manage for Outlook and Teams
       links:
-      - url: disable-viva-sales.md
+      - url: uninstall-sales-app.md
         text: Uninstall the Copilot for Sales app
 
   - title: Be productive with Copilot for Sales
@@ -120,7 +120,7 @@ additionalContent:
 
     - title: Extend Copilot for Sales
       links: 
-      - url: extend-copilot-for-sales.md
+      - url: extend-sales-app.md
         text: Extend with partner applications 
       - url: custom-connector-action.md
         text: Create a custom connector and connector action

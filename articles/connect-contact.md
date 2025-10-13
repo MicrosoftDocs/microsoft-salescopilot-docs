@@ -28,7 +28,7 @@ If the address you entered in your email matches only one contact in the CRM, Sa
 
 ## External email address matches none of the CRM contacts
 
-If the email address you entered doesn't match any of the contacts in your CRM, [create a contact](create-contact-crm-sales-copilot.md) in your CRM.
+If the email address you entered doesn't match any of the contacts in your CRM, [create a contact](create-contact-crm.md) in your CRM.
 
 ## External email address matches multiple CRM contacts
 
@@ -42,9 +42,9 @@ If the email address you entered matches multiple contacts in the CRM, you must 
 
     :::image type="content" source="media/choose-correct-contact.png" alt-text="Screenshot showing to choose the correct contact.":::
 
-    - If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm-sales-copilot.md).  
+    - If none of the matches are correct, select **Create a new contact** to [create a contact](create-contact-crm.md).  
     - If you've connected the external contact to an incorrect CRM contact by mistake, you can [change the connected record](change-connected-crm-contact.md).
 
 ### Related information
 
-[Create a contact in your CRM](create-contact-crm-sales-copilot.md)
+[Create a contact in your CRM](create-contact-crm.md)

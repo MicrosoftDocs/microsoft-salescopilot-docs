@@ -34,7 +34,7 @@ You can filter the search results by record type. The record types that are avai
 You can also search for records in the following scenarios:
 
 - [Saving an email or meeting to your CRM](save-outlook-activities-crm.md)
-- Creating or editing a relationship for an existing record (for example, searching for an account when [you create a new contact](create-contact-crm-sales-copilot.md))
+- Creating or editing a relationship for an existing record (for example, searching for an account when [you create a new contact](create-contact-crm.md))
 - [Saving a summary of an email or a meeting to your CRM](view-save-email-summary-crm.md)
 - [Searching for a record that you want to share with a colleague](share-crm-record-teams-conversation.md)
 - [Searching for an opportunity when you update your CRM with suggested updates](suggested-crm-updates.md#update-crm-with-suggested-updates)

@@ -55,7 +55,7 @@ If you have any feedback about Sales app, you can share it from the app. Your fe
 
 ## Settings tab
 
-The **Settings** tab is currently available only for the admin users. More information: [Sales admin settings](administrator-settings-for-viva-sales.md)
+The **Settings** tab is currently available only for the admin users. More information: [Sales admin settings](administrator-settings-sales-app.md)
 
 ## Switch environments
 
@@ -74,6 +74,6 @@ You can switch to another Dynamics 365 environment, without signing out of your 
 
 ### Related information
 
-- [Sales admin settings](administrator-settings-for-viva-sales.md)
+- [Sales admin settings](administrator-settings-sales-app.md)
 - [Sign in to CRM from Outlook](sign-in-crm-outlook.md)
 - [Connect to CRM from Teams](sign-in-crm-teams.md)

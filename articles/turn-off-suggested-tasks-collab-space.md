@@ -22,7 +22,7 @@ Sales team members spend a lot of time communicating and coordinating with colle
 
 As an administrator, you can control whether AI-powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn off the feature.
 
-1. [Open Sales app administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Tenant**, select **Collaboration spaces**.
 1. Turn off **Suggested tasks in collaboration spaces (preview)**.
 
