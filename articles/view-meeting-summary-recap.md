@@ -23,7 +23,7 @@ Here's the video that shows a [meeting preparation card in Teams](meeting-prep.m
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
-- Add Sales app app to the meeting.
+- Add Sales app to the meeting.
 - Transcribe the meeting.
 
 ## Supported languages

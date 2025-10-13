@@ -145,7 +145,7 @@ Sales app works a little differently depending on which CRM you use. The differe
 
 - You can save draft meetings to Dynamics 365. Draft meetings are saved immediately. If you update a meeting after it's saved, the changes are automatically saved to the CRM.
 
-- Only activities that you save using Sales app appear in the Sales side pane. If you used [Dynamics 365 App for Outlook](/dynamics365/outlook-app/user/track-message-or-appointment) to connect an email or a meeting to a record in your CRM, it isn't shown as saved in Sales app. If you use Sales app to save the activity, a duplicate record is created in the CRM.
+- Only activities that you save using Sales appear in the Sales side pane. If you used [Dynamics 365 App for Outlook](/dynamics365/outlook-app/user/track-message-or-appointment) to connect an email or a meeting to a record in your CRM, it isn't shown as saved in Sales app. If you use Sales app to save the activity, a duplicate record is created in the CRM.
 
 - You can [edit saved activities](#edit-activities-saved-to-dynamics-365) in Outlook and save your changes to Dynamics 365.
 

@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Privileges required to use Sales app
 
-Sales app applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales app.
+Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from Sales app.
 
 > [!NOTE]
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of Sales app in Outlook and then sign in again for these changes to be reflected appropriately. 

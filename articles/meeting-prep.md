@@ -21,7 +21,7 @@ Here's a video that provides an overview of the meeting preparation card:
 
 ## Prerequisites
 
-- [Connect to a CRM organization in the Sales app app](sign-in-crm-outlook.md).
+- [Connect to a CRM organization in the Sales app](sign-in-crm-outlook.md).
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
 

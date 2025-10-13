@@ -33,6 +33,6 @@ A deal room template is applied at the channel level and is linked to a CRM oppo
 ## Prerequisites to use collaboration spaces
 
 - You must have a Dynamics 365 or Salesforce CRM account.  
-- You must have a Microsoft 365 E3 or E5 license. [Learn about the license requirements for Sales app](introduction.md#license-requirements).  
+- You must have a valid license. [Learn about the license requirements for Sales app](introduction.md#license-requirements).  
 - You must have the Sales app for Outlook installed. If you don't have it, ask your administrator to [install it](install-sales-app.md) for you.  
 - Before you can [add customers to shared channels](/microsoft-365/solutions/collaborate-teams-direct-connect?view=o365-worldwide&preserve-view=true) using their federated identity, make sure that your tenant administrator has turned on shared channels in Teams.

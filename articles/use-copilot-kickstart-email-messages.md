@@ -1,5 +1,5 @@
 ---
-title: Draft an email message in Sales app app
+title: Draft an email message in Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Sales app's AI.
 ms.date: 06/23/2025
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:11/08/2023
 ---
 
-# Draft an email message in Sales app app
+# Draft an email message in Sales app
 
 When you compose a new email or reply to your customers by email, Sales app uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
@@ -21,10 +21,7 @@ When you compose a new email or reply to your customers by email, Sales app use
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending your email.
 > - If the email is connected to a CRM record and the associated activities have attachments exceeding a total of 28 MB, you may encounter issues while drafting the email. To prevent this, either remove the attachments from the activities or reduce their size so that the total size of the attachments is less than 28 MB per draft request.
 > - If you've opened an encrypted email, the capability to draft an email using Sales app isn't available.
-
-## License requirements
-
-The experience covered within this article is only displayed to Dynamics 365 Sales customers who are accessing the [included capabilities available with their existing Sales Copilot license](features-d365-users.md). Organizations that have purchased Sales app will see the fully integrated experience within Microsoft Outlook. For more information, see [Draft an email message using sales information in Outlook](email-reply-premium.md).
+> - Based on the license you have, you can see the capability to draft an email message either [within Outlook](email-reply-premium.md) or in the **Sales** app in Outlook.
 
 ## Anatomy of suggested content
 
@@ -402,7 +399,7 @@ After meeting with your customers, you often send an email with a summary of you
 With Sales app, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
 
 > [!IMPORTANT]
-> Ensure that Sales app app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
+> Ensure that Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
 
 1. In Outlook:
 

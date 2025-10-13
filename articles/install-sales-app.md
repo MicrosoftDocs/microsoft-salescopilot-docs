@@ -35,7 +35,7 @@ Watch this video to learn how to install Sales app in Outlook and Teams:
 
 As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
 
-When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app app is not added automatically to meeting invites. However, you can manually add Sales app to the meeting to get meeting summaries.
+When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, you can manually add Sales app to the meeting to get meeting summaries.
 
 Watch this video to learn more about Sales app:
 
@@ -81,9 +81,9 @@ Watch this video to learn more about Sales app:
 | Mobile support | Supported | Supported |
 | ¹ Sales app supports connecting Microsoft Outlook activities to accounts and opportunities. Support for connecting Outlook activities to other entities is coming soon. | | |
 | ² Sales app allows creating contacts and editing contacts, accounts, and opportunities. Support for creating and editing additional entities is coming soon. | | |
-|³ Requires Sales app app to be installed in Microsoft Teams.  |               |                              |      
+|³ Requires Sales app to be installed in Microsoft Teams.  |               |                              |      
 
-### Install Sales app app in Microsoft Teams
+### Install Sales app in Microsoft Teams
 
 1. Sign in to Microsoft Teams.  
 1. In the navigation bar on the left, select **Apps**.
@@ -95,7 +95,7 @@ Watch this video to learn more about Sales app:
 
 ### Welcome message
 
-Once the Sales app app is deployed, each user is welcomed by an engaging message from the Sales bot in Teams. This message outlines the key capabilities in Sales app and provides direct links to comprehensive feature documentation and other learning resources.
+Once the Sales app is deployed, each user is welcomed by an engaging message from the Sales bot in Teams. This message outlines the key capabilities in Sales app and provides direct links to comprehensive feature documentation and other learning resources.
 
 ## How to use Sales app?
 

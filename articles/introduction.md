@@ -37,7 +37,7 @@ A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?vi
 
 ## License requirements
 
-Sales app may be subject to an additional free or paid license. For more details, [see the pricing page](https://www.microsoft.com/ai/microsoft-sales-copilot?rtc=1#featuresandpricing) or contact your Microsoft representative.
+Specific licensing requirements apply when you use Sales app. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) or contact your Microsoft representative.
 
 ## Role requirements
 

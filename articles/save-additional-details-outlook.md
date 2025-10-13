@@ -19,7 +19,7 @@ You can also control whether sellers can save attachments along with the email o
 
 ## Prerequisites
 
-CRM administrators must access admin settings from the Sales app app in Teams. For more information, go to [Sales app admin settings](administrator-settings-sales-app.md).
+CRM administrators must access admin settings from the Sales app in Teams. For more information, go to [Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Configure the fields to save to the CRM
 

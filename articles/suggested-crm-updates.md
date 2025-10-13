@@ -26,10 +26,6 @@ Here's the video that shows [how to view the opportunity summary](view-opportuni
 
 > [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
 
-## License requirements
-
-- [Sales](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing)
-
 ## Update CRM with suggested updates
 
 Sales app scans the email conversations and compares the data with the data in the CRM system to suggest updates. The updates are suggested for the following fields in an opportunity record in CRM system:

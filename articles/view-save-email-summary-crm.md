@@ -25,12 +25,8 @@ Email summaries are available when:
 - The email is in one of the supported languages. Learn more in [Supported languages in Sales app for Outlook and Teams](introduction.md#supported-languages-and-geographies).
 - The email isn't encrypted.
 
-## License requirements
-
-Features of the Sales app email summary vary by license:
-
-- **Sales Copilot license**: View, save to CRM, share to Teams, or copy email summaries as described in this article.
-- **Sales app license**: See the fully integrated experience within Microsoft Outlook. Learn more in [View CRM-enriched email summaries in Outlook](./email-summary-premium.md).
+> [!NOTE]
+> Based on the license you have, you can see the email summary either [within Outlook](email-summary-premium.md) or in the **Sales** app in Outlook.
 
 ## Anatomy of an email summary
 

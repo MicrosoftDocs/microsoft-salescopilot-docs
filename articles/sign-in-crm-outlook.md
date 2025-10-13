@@ -100,7 +100,7 @@ You can use Sales app and AI capabilities in Outlook without signing in to your 
 
 ## App refresh
 
-When you switch the connected environment in Teams, you receive a notification to refresh the Sales app app in Outlook. Select **Refresh** to see the updated data from the new environment.
+When you switch the connected environment in Teams, you receive a notification to refresh the Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
 
 ### Related information
 

@@ -26,7 +26,7 @@ Here's a video that provides an overview of Sales app on mobile devices:
 
 ## Outlook experience
 
-You can access the Sales app app only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
+You can access the Sales app only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
 
 To open Sales app, select an email on your mobile device, and then select **...**  next to the email from and to fields. Select **Sales** from the top app list or find it under **More Add-Ins**. When the app is launched, it takes over the full screen due to the smaller mobile screen.
 

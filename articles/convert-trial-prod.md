@@ -31,7 +31,7 @@ You must be a Power Platform admin to convert the environment.
 
 ### Dynamics 365 environment
 
-If you are using Dynamics 365 and the environment in Dynamics 365 is of type Trial, the Sales app app is connected to the trial environment.
+If you are using Dynamics 365 and the environment in Dynamics 365 is of type Trial, the Sales app is connected to the trial environment.
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 1. Go to **Environments** and the select the trial environment.

@@ -33,7 +33,7 @@ You can uninstall the Sales app from either Microsoft Outlook or Microsoft Teams
 
 As as admin, you can uninstall the Sales app for Outlook using the Microsoft 365 admin center or PowerShell. 
 
-For the Sales app app in Teams, you can either remove the remove the group policy assignment or block the app if your sellers no longer need it.
+For the Sales app in Teams, you can either remove the remove the group policy assignment or block the app if your sellers no longer need it.
 
 ### Uninstall Sales app Outlook add-in using Microsoft 365 admin center
 
@@ -61,7 +61,7 @@ If the Sales app for Outlook was installed automatically for your organization o
 Install-Module -Name ExchangeOnlineManagement
 Import-Module ExchangeOnlineManagement
 
-# Sales app app id
+# Sales app id
 $appIdentity = "c3b456a3-a41a-4ed4-8040-354f73574021"
 
 Connect-ExchangeOnline -UserPrincipalName <tenant admin email>
@@ -76,7 +76,7 @@ Remove-App -Mailbox <user alias to delete from> -Identity $appIdentity -Confirm:
 Install-Module -Name ExchangeOnlineManagement
 Import-Module ExchangeOnlineManagement
 
-# Sales app app id
+# Sales app id
 $appIdentity = "c3b456a3-a41a-4ed4-8040-354f73574021"
 
 Connect-ExchangeOnline -UserPrincipalName <tenant admin email>
@@ -84,9 +84,9 @@ Connect-ExchangeOnline -UserPrincipalName <tenant admin email>
 Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | ForEach-Object { Remove-App -Mailbox $_.Identity -Identity $appIdentity -Confirm:$false }
 ```
 
-### Uninstall Sales app app from Microsoft Teams
+### Uninstall Sales app from Microsoft Teams
 
-You can't delete or uninstall the Sales app app in Teams. You can either remove the group policy assignment, block the app, or change the app's availability if your sellers no longer need it.
+You can't delete or uninstall the Sales app in Teams. You can either remove the group policy assignment, block the app, or change the app's availability if your sellers no longer need it.
 
 #### Remove the group policy assignment
 
