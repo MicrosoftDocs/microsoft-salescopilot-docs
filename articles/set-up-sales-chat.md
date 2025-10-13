@@ -16,30 +16,29 @@ ms.author: shjais
 
 Sales Chat is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales Chat is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
 
-Sales Chat is available to users who have a Copilot for Sales license. If you don't have the license, you can install Copilot for Sales and use Sales Chat on a consumption basis.
+Sales Chat is available to users who have installed the Sales app.
 
 > [!NOTE]
-> - Users who don't have a Copilot for Sales license can't use Sales Chat until consumption-based billing is set up.
-> - If your team already uses Copilot for Sales, they'll see the Sales Chat in the list of agents in Microsoft 365 Copilot Chat.
-> - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales Chat in the list of agents even if they have a Copilot for Sales license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
+> - If your team already uses Sales app, they'll see the Sales Chat in the list of agents in Microsoft 365 Copilot Chat.
+> - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales Chat in the list of agents even if they have a license for Sales app. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
 
 ## Prerequisites
 
-- [The Copilot for Sales app is installed in both Outlook and Teams.](install-viva-sales.md)
-- You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
+- [The Sales app is installed in both Outlook and Teams.](install-viva-sales.md)
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-for-viva-sales.md).
 - [Sales Chat must be turned on in Access settings.](access-settings.md#sales-chat-preview)
-- Copilot for Sales must be connected to a CRM system.
+- Sales app must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
 
 ## Step 1: Configure CRM record types (tables)
 
-The CRM information that Sales Chat can access is determined by the record types (tables) added in the Copilot for Sales admin settings. Learn how to [configure record types in Copilot for Sales](customize-forms-and-fields.md).
+The CRM information that Sales Chat can access is determined by the record types (tables) added in the Sales app admin settings. Learn how to [configure record types in Sales app](customize-forms-and-fields.md).
 
 ## Step 2: Enable Sales Chat to use CRM as a knowledge source
 
 After configuring the record types (tables), you must enable Sales Chat to use CRM as a knowledge source to provide relevant responses to user queries.
 
-1. Go to the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Go to the [Sales app admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Features**, select **Sales Chat**.
 1. In the status message, select **Set up**.
 
@@ -48,10 +47,10 @@ After configuring the record types (tables), you must enable Sales Chat to use C
 Setting up CRM knowledge for Sales Chat may take a few minutes. During this process, a banner will display the current setup status. If any errors occur, the banner will provide details about the issue and the actions you need to take.
 
 > [!NOTE]
-> - Before users can access CRM information through Sales Chat, CRM knowledge for Sales Chat must be set up at least once. This is required even if your organization has previously used Copilot for Sales and has already customized record types (tables).
-> - Once CRM knowledge for Sales Chat has been set up, any changes you make to record types in the Copilot for Sales admin settings, such as adding or removing record types, will automatically update the CRM knowledge for Sales Chat.
+> - Before users can access CRM information through Sales Chat, CRM knowledge for Sales Chat must be set up at least once. This is required even if your organization has previously used Sales app and has already customized record types (tables).
+> - Once CRM knowledge for Sales Chat has been set up, any changes you make to record types in the Sales app admin settings, such as adding or removing record types, will automatically update the CRM knowledge for Sales Chat.
 > - It is recommended to monitor the status of CRM knowledge setup periodically to ensure that Sales Chat continues to function correctly.
-> - Sales Chat will access all columns in the record types (tables) that are added to Copilot for Sales.
+> - Sales Chat will access all columns in the record types (tables) that are added to Sales app.
 
 ## Step 3: Set up additional synonyms and glossary terms
 
@@ -116,20 +115,20 @@ To add a glossary term:
 
 ## Step 4: Configure account summary
 
-Sales reps can get a summary of their accounts in Sales Chat. To enable this feature, you need to configure the account summary settings in the Copilot for Sales admin settings.
+Sales reps can get a summary of their accounts in Sales Chat. To enable this feature, you need to configure the account summary settings in the Sales app admin settings.
 
 Generating the account summary involves two main components:
 
 1. Getting information about the account
 
-    Sales Chat gathers all account-related information that is configured to be available to Copilot for Sales through admin settings. This includes:
+    Sales Chat gathers all account-related information that is configured to be available to Sales app through admin settings. This includes:
 
-    - Columns from the **Account** record type (table) in CRM that are enabled for Copilot for Sales.
-    - Related record types (tables) in CRM that are enabled for Copilot for Sales.
+    - Columns from the **Account** record type (table) in CRM that are enabled for Sales app.
+    - Related record types (tables) in CRM that are enabled for Sales app.
     
     Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
 
-To change the CRM information included in the account summary, update the CRM data available to Copilot for Sales. Learn how to [configure record types in Copilot for Sales](customize-forms-and-fields.md).
+To change the CRM information included in the account summary, update the CRM data available to Sales app. Learn how to [configure record types in Sales app](customize-forms-and-fields.md).
 
 1. Curating the summary
 
@@ -137,7 +136,7 @@ To change the CRM information included in the account summary, update the CRM da
 
     To customize the AI instructions for the account summary:
 
-    1. Go to the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+    1. Go to the [Sales app admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
     1. Under **Environment**, select **Custom AI instructions**.
     1. For the **Account summary** report, select **...** > **Edit**.
 
@@ -156,10 +155,10 @@ To change the CRM information included in the account summary, update the CRM da
 
 ## Step 5: Configure past customer meetings
 
-Meeting insights generated by Copilot for Sales are accessible in Sales Chat. You can [manage access to meeting insights through the Copilot for Sales access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales Chat.
+Meeting insights generated by Sales app are accessible in Sales Chat. You can [manage access to meeting insights through the Sales app access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales Chat.
 
 ## Related information
 
 - [Use Sales Chat](use-sales-chat.md)
 - [Turn on Sales Chat](access-settings.md#sales-chat-preview)
-- [Privileges required to use Copilot for Sales](privileges.md)
+- [Privileges required to use Sales app](privileges.md)

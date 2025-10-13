@@ -101,7 +101,7 @@ This scenario is ideal for users who:
 
 > [!NOTE]
 > - The effectiveness of prompts depends on the quality and structure of your CRM data. Sales Chat generates responses based on your data, so maintaining a strong data foundation is essential.
-> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Copilot for Sales users and that, at a minimum, a transcription is generated.
+> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Sales app users and that, at a minimum, a transcription is generated.
 > - You are encouraged to try prompts beyond the provided samples to discover additional capabilities.
 
 ## Getting started
