@@ -54,6 +54,7 @@ The following information is available:
 
 > [!NOTE]
 > - Sales insights aren't generated for recurring meetings.
+> - Sales insights aren't generated for meetings created in Dynamics 365 Sales.
 > - If you start and stop a meeting recording multiple times, sales insights aren't generated.
 > - If the meeting organizer has not provided access to the meeting recording and transcription to everyone, an error message is displayed when you try to view sales insights in meeting recap.
 
