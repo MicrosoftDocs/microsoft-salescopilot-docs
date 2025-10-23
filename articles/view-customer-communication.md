@@ -24,8 +24,7 @@ You can see **Customer communication** card in the Copilot for Sales side pane i
 
 > [!NOTE]
 > - When viewing an email, the **Customer communication** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the **Customer communication** card displays the meeting activities related to that.
-> - When viewing a meeting, the **Customer communication** card is displayed only when the meeting is connected to an opportunity.
-> - Meetings don't necessarily have to be saved to an opportunity for it to show up in the **Customer communication** card. The opportunity is identified based on the meeting content and contacts.
+> - When viewing a meeting in Outlook calendar, the **Customer communication** card is displayed only when the meeting is connected to an opportunity.
 
 ## Prerequisites
 
