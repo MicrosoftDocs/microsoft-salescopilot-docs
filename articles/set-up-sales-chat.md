@@ -129,7 +129,7 @@ Generating the account summary involves two main components:
     
     Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
 
-To change the CRM information included in the account summary, update the CRM data available to Copilot for Sales. Learn how to [configure record types in Copilot for Sales](customize-forms-and-fields.md).
+    To change the CRM information included in the account summary, update the CRM data available to Copilot for Sales. Learn how to [configure record types in Copilot for Sales](customize-forms-and-fields.md).
 
 1. Curating the summary
 
