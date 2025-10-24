@@ -119,12 +119,12 @@ Allows you to enter the company profile details that will be used by the agent t
 > [!NOTE]
 > These steps in this section are only needed for Salesforce CRM integration.
 
-The Sales Agent connects to Salesforce using the [server-to-server data connection](connect-agent-datasource.md) which creates and manages permissions for the **Sales integration user** user in Salesforce. By default, that user is granted permissions to read a subset of data in Salesforce. The Sales Agent needs additional permission to access records to fully research each lead.
+The Sales Agent connects to Salesforce using the [server-to-server data connection](connect-agent-datasource.md) which creates and manages permissions for the **Copilot for Sales integration user** user in Salesforce. By default, that user is granted permissions to read a subset of data in Salesforce. The Sales Agent needs additional permission to access records to fully research each lead.
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
 > [!IMPORTANT]
-> The server-to-server data connection creates a Salesforce permission set named **Sales connected app permission set** which is managed by Sales app. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Sales integration user** you avoid having your changes being overwritten by future application updates.
+> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by Sales app. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
 
 ### Give permission to read activities, tasks, and events
 
@@ -143,7 +143,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
     - Related To
     - Type
 1. Return to the **Sales Agent** permission set overview and select **Manage Assignments**.
-1. Select **Add Assignment** and assign this permission set to the **Sales integration user** user.
+1. Select **Add Assignment** and assign this permission set to the **Copilot for Sales integration user** user.
 
 ### Give permission to read custom objects and fields
 

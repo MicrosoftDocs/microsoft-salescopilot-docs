@@ -1,5 +1,5 @@
 ---
-title: Customize forms and fields in Sales solution in Microsoft 365 Copilot
+title: Customize forms and fields in Sales in Microsoft 365 Copilot
 description: Learn how to customize the CRM information your sellers see in Sales app.
 ms.date: 02/24/2025
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Customize forms and fields in Sales solution in Microsoft 365 Copilot
+# Customize forms and fields in Sales in Microsoft 365 Copilot
 
 As an administrator, you can customize the CRM information that's displayed in Sales app to give your sellers a more relevant view.
 
@@ -42,7 +42,7 @@ You can select a record type to view and edit its settings.
 
 ## Prerequisites
 
-CRM administrators must access administrator settings from the Sales app in Teams. More information: [Administrator settings for Sales solution in Microsoft 365 Copilot](administrator-settings-sales-app.md)
+CRM administrators must access administrator settings from the Sales app in Teams. More information: [Administrator settings for Sales in Microsoft 365 Copilot](administrator-settings-sales-app.md)
 
 ## Add a new record type (or a Salesforce object)
 

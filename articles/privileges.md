@@ -31,7 +31,7 @@ Salesforce administrators who need to customize Sales app must have the followin
 
 If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, Sales app administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **Sales Copilot Administrator** security role and following privileges to Dynamics 365 administrators who need to customize Sales app.  
+If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role and following privileges to Dynamics 365 administrators who need to customize Sales app.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
@@ -47,7 +47,7 @@ If you're using custom security roles, you must assign the **Sales Copilot Admin
 
 If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, Sales app privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **Sales Copilot User** security role and following privileges to Dynamics 365 sellers who need to use Sales app.
+If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role and following privileges to Dynamics 365 sellers who need to use Sales app.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -63,7 +63,7 @@ If you're using custom security roles, you must assign the **Sales Copilot User*
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
 
 
-The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+The **M365 Copilot Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 
 For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
   

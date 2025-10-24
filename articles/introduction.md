@@ -1,6 +1,6 @@
 ---
-title: Welcome to Sales solution in Microsoft 365 Copilot
-description: Get to know Sales solution in Microsoft 365 Copilot
+title: Welcome to Sales in Microsoft 365 Copilot
+description: Get to know Sales in Microsoft 365 Copilot
 ms.date: 06/26/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Welcome to Sales solution in Microsoft 365 Copilot
+# Welcome to Sales in Microsoft 365 Copilot
 
 Sales app is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.  
 Depending on the following roles, you can use Sales app to:  

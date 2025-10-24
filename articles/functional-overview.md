@@ -1,6 +1,6 @@
 ---
-title: Functional overview of Sales solution in Microsoft 365 Copilot
-description: Maximize seller productivity with Sales solution in Microsoft 365 Copilot, an AI assistant designed to streamline processes and create personalized sales content.
+title: Functional overview of Sales in Microsoft 365 Copilot
+description: Maximize seller productivity with Sales in Microsoft 365 Copilot, an AI assistant designed to streamline processes and create personalized sales content.
 ms.date: 09/29/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -12,15 +12,15 @@ ms.custom:
   - ai-seo-date:02/01/2024
 ---
 
-# Functional overview of Sales solution in Microsoft 365 Copilot
+# Functional overview of Sales in Microsoft 365 Copilot
 
-Sales solution in Microsoft 365 Copilot is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
+Sales in Microsoft 365 Copilot is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
 Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
 > [!NOTE]
 > - Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to get started. Limited functionalities do not provide access to the Microsoft 365 Copilot functionality. For more information, go to [Sales app features for Dynamics 365 Sales users](features-d365-users.md).
-> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate Sales app. More information, go to [Sales solution in Microsoft 365 Copilot license overview](license-info.md).
+> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate Sales app. More information, go to [Sales in Microsoft 365 Copilot license overview](license-info.md).
 
 The following sections provide an overview of the value that Sales app provides to sales teams.
 
@@ -88,4 +88,4 @@ Customize Sales app for a uniquely tailored experience that meets your organizat
 
 [Sales app architecture](architecture.md)<br>
 [Sales app license overview](license-info.md)<br>
-[Sales solution in Microsoft 365 Copilot FAQ](sales-copilot-faq.md)
+[Sales in Microsoft 365 Copilot FAQ](sales-copilot-faq.md)

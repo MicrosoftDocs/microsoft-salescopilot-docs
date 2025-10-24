@@ -1,6 +1,6 @@
 ---
-title: Architecture of Sales solution in Microsoft 365 Copilot
-description: Information about architecture of Sales solution in Microsoft 365 Copilot
+title: Architecture of Sales in Microsoft 365 Copilot
+description: Information about architecture of Sales in Microsoft 365 Copilot
 ms.date: 11/29/2024
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Architecture of Sales solution in Microsoft 365 Copilot
+# Architecture of Sales in Microsoft 365 Copilot
 
 This article contains links to download Sales app architecture document and top 10 most frequently asked questions about Sales app architecture.
 

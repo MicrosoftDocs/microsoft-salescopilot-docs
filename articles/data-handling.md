@@ -1,6 +1,6 @@
 ---
-title: Data handling in Sales solution in Microsoft 365 Copilot 
-description: Know how data is handled in Sales solution in Microsoft 365 Copilot 
+title: Data handling in Sales in Microsoft 365 Copilot 
+description: Know how data is handled in Sales in Microsoft 365 Copilot 
 ms.date: 09/24/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -10,9 +10,9 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Data handling in Sales solution in Microsoft 365 Copilot
+# Data handling in Sales in Microsoft 365 Copilot
 
-This article gives you an overview of how data is handled in Sales solution.
+This article gives you an overview of how data is handled in Sales in Microsoft 365 Copilot.
 
 Sales app is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
 
@@ -52,5 +52,5 @@ If you need to delete Sales app data (for example, delete data for a specific us
 
 ### Related information
 
-[Introduction to Sales solution in Microsoft 365 Copilot](introduction.md)<br>
+[Introduction to Sales in Microsoft 365 Copilot](introduction.md)<br>
 [Install Sales app](install-sales-app.md)

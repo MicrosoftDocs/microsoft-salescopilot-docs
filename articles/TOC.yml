@@ -1,10 +1,10 @@
-- name: Sales solution in Microsoft 365 Copilot documentation
+- name: Sales in Microsoft 365 Copilot documentation
   href: landing.yml
 
-- name: Welcome to Sales solution in Microsoft 365 Copilot
+- name: Welcome to Sales in Microsoft 365 Copilot
   href: introduction.md
 
-- name: What's new in Sales solution
+- name: What's new in Sales in Microsoft 365 Copilot
   items:
   - name: What's new overview
     href: whats-new.md

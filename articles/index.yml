@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title:  Sales solution in Microsoft 365 Copilot documentation
-summary:  Discover how to make the most of Sales solution in Microsoft 365 Copilot with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Sales app to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title:  Sales in Microsoft 365 Copilot documentation
+summary:  Discover how to make the most of Sales in Microsoft 365 Copilot with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Sales app to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: sales-copilot
 metadata:
-  title: Sales solution in Microsoft 365 Copilot documentation
-  description: Learn about how you can use Sales solution in Microsoft 365 Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
+  title: Sales in Microsoft 365 Copilot documentation
+  description: Learn about how you can use Sales in Microsoft 365 Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
   ms.service: microsoft-sales-copilot
   author: sbmjais
@@ -16,7 +16,7 @@ metadata:
 highlightedContent:
   items:
     # Card
-    - title: Welcome to Sales solution in Microsoft 365 Copilot
+    - title: Welcome to Sales in Microsoft 365 Copilot
       itemType: get-started
       url: introduction.md
     # Card
