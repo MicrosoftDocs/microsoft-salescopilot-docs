@@ -26,12 +26,12 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 - You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
 - [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
-- The Dataverse environment connected to Copilot for Sales is a production environment.
+- The Dataverse environment connected to Copilot for Sales is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Copilot for Sales environment.
 
 ### Additional prerequisites for Salesforce
 
-- Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
+- Convert the **msdyn_viva** environment to a production environment while [setting up Sales Agent with Salesforce](#step-3-set-up-and-activate-the-agent).
 - Configure the server-to-server connection between Copilot for Sales and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
 
 ## Step 1: Create a view and query that defines the leads to research
@@ -69,6 +69,7 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ## Step 3: Set up and activate the agent
 
 1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
+1. If you're using a trial environment, convert it to a production environment by selecting **Convert to production** in the banner at the top of the page. 
 1. If you're using Salesforce, confirm that the status doesn't show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
