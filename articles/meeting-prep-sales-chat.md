@@ -24,7 +24,7 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 ## View a meeting preparation card
 
-For every upcoming sales meeting (a meeting with at least one external contact), Sales app sends you a streamlined notification card in Teams. The meeting preparation card is also shown in [Sales Chat](use-sales-chat.md). Key features include:
+For every upcoming sales meeting (a meeting with at least one external contact), Copilot for Sales sends you a streamlined notification card in Teams. The meeting preparation card is also shown in [Sales Chat](use-sales-chat.md). Key features include:
 
 - **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
 - **Essential meeting details**: See the meeting title, time, and a direct link to join the meeting. It also shows account information, if available.
@@ -38,7 +38,7 @@ You can select **Prepare with insights** to open meeting preparation details alo
 
 - **Meeting information**: View the meeting title, time, and a direct link to open the meeting in calendar.
 - **Highlights**: This section offers more detailed information on the topics featured in the meeting card. Each highlight includes relevant context and recommends actions tailored to your upcoming meeting.
-- **CRM record summary**: This section is displayed only if the meeting is linked to a CRM record such as an opportunity or account. It shows AI-generated summary of the record. Note that meeting can only be linked to a CRM record from the **Sales** pane in Outlook.
+- **CRM record summary**: This section is displayed only if the meeting is linked to a CRM record such as an opportunity or account. It shows AI-generated summary of the record. Note that meeting can only be linked to a CRM record from the Copilot for Sales side pane Outlook.
 - **Customer communication**: This section is displayed only if the meeting is connected to an opportunity. It shows insights from recent emails and meetings related to the linked CRM record. It may include insights from conversations organized by other team members for the same record, providing a complete view of past customer interactions. Note that insights are displayed only if enabled by your administrator. Learn more about the [Customer communication card](view-customer-communication.md).
 - **AI-generated insights**: This section provides in-depth, AI-driven context to help you prepare for your meeting. It includes:
     - **Meeting overview**: A summary of the meeting's purpose.
