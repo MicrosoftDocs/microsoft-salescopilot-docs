@@ -18,11 +18,9 @@ We've compiled a list of frequently asked questions and provided brief answers t
 
 ### What is Sales in Microsoft 365 Copilot?  
 
-Copilot for Sales brings together the power of Microsoft 365 Copilot with seller workflows. Copilot for Sales leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Copilot for Sales helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
+Sales in Microsoft 365 Copilot brings together the power of Microsoft 365 Copilot with seller workflows. Sales in Microsoft 365 Copilot leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Sales in Microsoft 365 Copilot helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
-Some of the new innovations enabled in Copilot for Sales include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
-
-Copilot for Sales includes the Microsoft 365 Copilot subscription and is available from February 1, 2024. [See our pricing page for more information](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
+Some of the new innovations enabled in Sales in Microsoft 365 Copilot include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales in Microsoft 365 Copilot role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
 
 ### How does Sales in Microsoft 365 Copilot work?
 
@@ -62,29 +60,29 @@ We appreciate the customers that have invested early in the standalone Sales Cop
 
 ## Availability
 
-### What languages will Copilot for Sales support? 
+### What languages are supported? 
 
 There are no changes to [country/region availability or languages](introduction.md#supported-languages-and-geographies) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
-### What geographies will Copilot for Sales support?   
+### What geographies will Sales in Microsoft 365 Copilot support?   
 
 For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
-### Will Copilot for Sales be available for US GCC, GCC High, or DoD?  
+### Will Sales in Microsoft 365 Copilot be available for US GCC, GCC High, or DoD?  
 
-Currently, Copilot for Sales isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
+Currently, Sales in Microsoft 365 Copilot isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
 
 ## Skilling
 
-### How can I learn about Copilot for Sales?  
+### How can I learn about Sales in Microsoft 365 Copilot?  
 
 Customers can access existing Microsoft Sales Copilot and Microsoft 365 Copilot content through Microsoft Learn. Content will be refreshed in 2024 to align to the new naming and licensing structure. [View our adoption webpage for access to further materials](https://adoption.microsoft.com/copilot-for-sales/).
 
-### How can I get certified in Copilot for Sales? 
+### How can I get certified in Sales in Microsoft 365 Copilot? 
 
-There currently aren't any certifications for Copilot for Sales, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
+There currently aren't any certifications for Sales in Microsoft 365 Copilot, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
 
 ## Functionality
 
@@ -101,24 +99,24 @@ Next, the enriched prompt is sent to an appropriate LLM (large language model). 
 Then, Copilot returns this recommended response to the business user via a command back to the application who then assesses before choosing to use it. 
 
 
-### Who can install Copilot for Sales?
+### Who can install Sales in Microsoft 365 Copilot?
 
-Microsoft 365 administrators can install Copilot for Sales and assign users/security groups to use it.
+Microsoft 365 administrators can install Sales in Microsoft 365 Copilot and assign users/security groups to use it.
 
-### Does Copilot for Sales require CRM connectivity?
+### Does Sales in Microsoft 365 Copilot require CRM connectivity?
 
-Yes, Copilot for Sales requires connectivity to a CRM.
+Yes, Sales in Microsoft 365 Copilot requires connectivity to a CRM.
 
-### Which CRMs work with Copilot for Sales?
+### Which CRMs work with Sales in Microsoft 365 Copilot?
 
-Currently, Copilot for Sales is compatible with Dynamics 365 Sales and Salesforce Sales Cloud.
+Currently, Sales in Microsoft 365 Copilot is compatible with Dynamics 365 Sales and Salesforce Sales Cloud.
 
 > [!NOTE]
 > Salesforce Sales Cloud is a trademark of Salesforce, Inc.
 
-### What privileges are required to use Copilot for Sales?
+### What privileges are required to use Sales in Microsoft 365 Copilot?
 
-Copilot for Sales applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Copilot for Sales](privileges.md).
+Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales app](privileges.md).
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -132,36 +130,36 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 - Meetings are filtered as per the recipients entered in the **To** list. If there are no meetings transcribed with the people in the **To** list, a message is displayed conveying the same.
 
-- Due to network or connection error. Try closing and reopening the Copilot for Sales pane.
+- Due to network or connection error. Try closing and reopening the **Sales** pane.
 
 For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
-### With which Salesforce Sales Cloud editions does Copilot for Sales work?
+### With which Salesforce Sales Cloud editions does Sales in Microsoft 365 Copilot work?
 
-Copilot for Sales works with Salesforce Sales Cloud editions Professional and above.
+Sales in Microsoft 365 Copilot works with Salesforce Sales Cloud editions Professional and above.
 
 > [!NOTE]
 > Salesforce Sales Cloud is a trademark of Salesforce, Inc.
 
-### Is Copilot for Sales available for Dynamics 365 or Microsoft Exchange on premise?
+### Is Sales in Microsoft 365 Copilot available for Dynamics 365 or Microsoft Exchange on premise?
 
-Copilot for Sales isn't available for Dynamics 365 or Microsoft Exchange on premise.
+Sales in Microsoft 365 Copilot isn't available for Dynamics 365 or Microsoft Exchange on premise.
 
-### Does Copilot for Sales work for Power Apps or Dataverse customers without Dynamics 365 licenses?
+### Does Sales in Microsoft 365 Copilot work for Power Apps or Dataverse customers without Dynamics 365 licenses?
 
-Copilot for Sales works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
+Sales in Microsoft 365 Copilot works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
 
-### Does Copilot for Sales work in incognito mode?
+### Does Sales in Microsoft 365 Copilot work in incognito mode?
 
-When you use the Copilot for Sales app in incognito mode or you have disabled third-party cookies, the following message is displayed:
+When you use the Sales in Microsoft 365 Copilot app in incognito mode or you have disabled third-party cookies, the following message is displayed:
 
 :::image type="content" source="media/incognito.png" alt-text="Screenshot showing message in incognito mode.":::
 
-When you search for a record in Copilot for Sales pane in Outlook, the record type filter might not work properly.
+When you search for a record in the **Sales** pane in Outlook, the record type filter might not work properly.
 
-This is normal behavior. The reason for this is that Copilot for Sales uses cookies to save data to local storage. In incognito mode or when third-party cookies are disabled, access to local storage is blocked.
+This is normal behavior. The reason for this is that Sales in Microsoft 365 Copilot uses cookies to save data to local storage. In incognito mode or when third-party cookies are disabled, access to local storage is blocked.
 
-To get full benefit of all features in Copilot for Sales, browse in normal mode and allow Microsoft domain in third-party cookie settings.
+To get full benefit of all features in Sales in Microsoft 365 Copilot, browse in normal mode and allow Microsoft domain in third-party cookie settings.
 
 For information about how to allow third-party cookies, see:
 
@@ -171,19 +169,19 @@ For information about how to allow third-party cookies, see:
 
 - [Enable cookies in Safari](https://support.apple.com/guide/safari/ibrw850f6c51/mac)
 
-### How can I add the Copilot for Sales app manually to a Teams meeting?
+### How can I add the Sales app manually to a Teams meeting?
 
-You can add the Copilot for Sales app manually to a Teams meeting to test it internally before scheduling a call with your customer.
+You can add the Sales app manually to a Teams meeting to test it internally before scheduling a call with your customer.
 
-- To add an app before a meeting, first send the meeting invite then open the meeting. Select **Add a tab **(**+**), search for Copilot for Sales, and then select it.
+- To add an app before a meeting, first send the meeting invite then open the meeting. Select **Add a tab **(**+**), search for Sales, and then select it.
 
-    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add Copilot for Sales app before meeting.":::
+    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add Sales app before meeting.":::
 
-- To add an app during a meeting, after the meeting starts select **Add an app** (**+**), search for Copilot for Sales, and then select it.
+- To add an app during a meeting, after the meeting starts select **Add an app** (**+**), search for Sales, and then select it.
 
-    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Copilot for Sales app during meeting.":::
+    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Sales app during meeting.":::
 
-### What's the minimum version of Outlook required for Copilot for Sales?
+### What's the minimum version of Outlook required for Sales in Microsoft 365 Copilot?
 
 The minimum required version for Outlook is:
 
@@ -193,23 +191,23 @@ The minimum required version for Outlook is:
 
 ### Why are meeting insights not getting generated even if meeting is transcribed?
 
-Meeting insights are generated only if version of the Copilot for Sales app in Microsoft Teams is 1.0.9 or higher. To check your app's version:
+Meeting insights are generated only if version of the Sales app in Microsoft Teams is 1.0.9 or higher. To check your app's version:
 
-1. Open Microsoft Teams and select **Copilot for Sales** in the navigation bar on the left.
+1. Open Microsoft Teams and select **Sales** in the navigation bar on the left.
 
-1. In the Copilot for Sales app, go to the **About** tab and check the version.
+1. In the Sales app, go to the **About** tab and check the version.
 
-If the Copilot for Sales app for Teams is installed by your administrator, you must contact your administrator to update the app to the latest version.
+If the Sales app for Teams is installed by your administrator, you must contact your administrator to update the app to the latest version.
 
-If you've installed Copilot for Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+If you've installed Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 
-### How many hours of conversational intelligence are available with Copilot for Sales?
+### How many hours of conversational intelligence are available with Sales in Microsoft 365 Copilot?
 
-You get unlimited call recording and processing hours with Copilot for Sales.
+You get unlimited call recording and processing hours with Sales in Microsoft 365 Copilot.
 
-### Are there any special browser settings needed to use Copilot for Sales in the web versions of Outlook and Teams?
+### Are there any special browser settings needed to use Sales in Microsoft 365 Copilot in the web versions of Outlook and Teams?
 
-Users may need to change a few settings to get the best experience of Copilot for Sales in Outlook and Teams on the web.
+Users may need to change a few settings to get the best experience of Sales in Microsoft 365 Copilot in Outlook and Teams on the web.
 
 - **Edge**:
   - Turn on "Enable sites to save and read cookie data (recommended)."
@@ -219,11 +217,11 @@ Users may need to change a few settings to get the best experience of Copilot fo
 
 - **Chrome**: Turn off "Block third-party cookies."
 
-### Why do I see the older icon for Copilot for Sales in Outlook desktop?
+### Why do I see the older icon for Sales app in Outlook desktop?
 
-In some cases, you may see the older icon for Copilot for Sales in Outlook desktop. 
+In some cases, you may see the older icon for Sales app in Outlook desktop.
 
-:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of Copilot for Sales":::
+:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of Sales app":::
 
 To see the new icon, you must clear the Outlook cache by following these steps:
 
@@ -235,27 +233,27 @@ To see the new icon, you must clear the Outlook cache by following these steps:
 
 1. Open Outlook.
 
-### How does optional connected experiences affect Copilot for Sales?
+### How does optional connected experiences affect Sales in Microsoft 365 Copilot?
 
-If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Copilot for Sales app is not displayed in Outlook for users that have installed the app by themselves. If the Copilot for Sales app has been deployed by an administrator, it will be displayed for users.
+If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Sales app is not displayed in Outlook for users that have installed the app by themselves. If the Sales app has been deployed by an administrator, it will be displayed for users.
 
-### How can I provide feedback about Copilot for Sales?
+### How can I provide feedback about Sales in Microsoft 365 Copilot?
 
-You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Copilot for Sales.
+You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Sales in Microsoft 365 Copilot.
 
 ## Admin settings
 
 ### Which CRM environment do the administrator settings apply to?
 
-The settings are specific to the environment you're signed in to in Copilot for Sales in Outlook. If you want to customize Copilot for Sales for another environment, you must [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
+The settings are specific to the environment you're signed in to in Sales app in Outlook. If you want to customize Sales app for another environment, you must [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
 
 ### How can I switch CRM environments?
 
-If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any Copilot for Sales settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](personal-app.md#switch-environments). 
+If your organization provides multiple environments for you and your sellers to work in, make sure you're signed in to the right one in Outlook before you change any settings in Teams. If you need to change a setting in a different environment, switch to that environment first either in [Outlook](more-options.md#switch-environments-or-crm) or [Teams](personal-app.md#switch-environments).
 
 ### Why do I see the message "Settings are coming soon"?
 
-You signed in to Copilot for Sales in Outlook or Teams with an account that doesn't have admin rights. Personal settings for Copilot for Sales will be accessible in the **Settings** tab soon.
+You signed in to Sales app in Outlook or Teams with an account that doesn't have admin rights. Personal settings for Sales app will be accessible in the **Settings** tab soon.
 
 If you're signed in with tenant administrator or CRM administrator credentials, you shouldn't see the "Settings are coming soon" message. You should see the administrator settings page. If you do see this message, make sure you have the [right permissions or security roles](administrator-settings-sales-app.md#who-can-access-administrator-settings).
 
@@ -267,17 +265,17 @@ Administrator settings can't be opened on phones, small tablets, or windows that
 
 The Teams dark and high contrast themes aren't supported.
 
-### Why do I see the message "Sign in to Copilot for Sales in Outlook first"?
+### Why do I see the message "Sign in to Sales in Outlook first"?
 
-You must be connected to a CRM environment in Copilot for Sales in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the Copilot for Sales **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
+You must be connected to a CRM environment in Sales app in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
 
 ### What is enhanced Teams app?
 
-The existing Sales Copilot Teams app and Outlook add-in have been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
+The existing Sales app in Teams and Outlook has been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
 #### New deployments
 
-Although the new Copilot for Sales enhanced Teams app is packaged as a single app, deployment is still needed in both the Microsoft 365 admin center for Outlook and Microsoft 365 apps and the Teams admin center for Teams deployment. See deployment guides for details: [Dynamics 365 customers](deploy-sales-app-d365.md) and [Salesforce CRM customers](deploy-sales-app-sf.md).
+Although the new enhanced Teams app is packaged as a single app, deployment is still needed in both the Microsoft 365 admin center for Outlook and Microsoft 365 apps and the Teams admin center for Teams deployment. See deployment guides for details: [Dynamics 365 customers](deploy-sales-app-d365.md) and [Salesforce CRM customers](deploy-sales-app-sf.md).
 
 #### Update existing Sales Copilot deployments
 
@@ -287,9 +285,9 @@ Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams 
 
 ##### Upgrade the app for Outlook 
 
-To get the benefits of the new enhanced Teams app within Outlook, the new app needs to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Copilot for Sales for Outlook](install-sales-as-an-integrated-app.md)
+To get the benefits of the new enhanced Teams app within Outlook, the new app needs to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Sales app for Outlook](install-sales-as-an-integrated-app.md)
 
-If Copilot for Sales was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-sales-as-an-integrated-app.md#manage-the-copilot-for-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
+If Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-sales-as-an-integrated-app.md#manage-the-copilot-for-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
 
 
 ## Deployment
@@ -302,9 +300,9 @@ You may also find your tenant admin's email address on the [Microsoft Entra admi
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 
-### Why can't users see the Copilot for Sales app in Outlook after it's deployed?
+### Why can't users see the Sales app in Outlook after it's deployed?
 
-After you deploy the Copilot for Sales app from the Microsoft 365 admin center, it can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If the app doesn't appear after 48 hours, ensure that the public attachment handling is enabled for your mailbox policy. This policy blocks the display of the enhanced Teams apps within Microsoft 365 apps. For instructions to enable public attachment handling, see [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling#task-3---enable-public-attachment-handling-on-an-outlook-on-the-web-mailbox-policy).
+After you deploy the Sales app from the Microsoft 365 admin center, it can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If the app doesn't appear after 48 hours, ensure that the public attachment handling is enabled for your mailbox policy. This policy blocks the display of the enhanced Teams apps within Microsoft 365 apps. For instructions to enable public attachment handling, see [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling#task-3---enable-public-attachment-handling-on-an-outlook-on-the-web-mailbox-policy).
 
 Ensure that the following settings are set to true:
 
@@ -313,35 +311,35 @@ Ensure that the following settings are set to true:
 - DirectFileAccessOnPublicComputersEnabled
 - DirectFileAccessOnPrivateComputersEnabled
 
-### Why do users see duplicate icons for Copilot for Sales in Outlook desktop?
+### Why do users see duplicate icons for Sales app in Outlook desktop?
 
-Users may see duplicate icons for Copilot for Sales due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
+Users may see duplicate icons for Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-1.  On the **Integrated apps** page, select the **Copilot for Sales** app.
+1.  On the **Integrated apps** page, select the **Sales** app.
 
-    The **Copilot for Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
+    The **Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
 
 1. Select **Merge both versions** and accept the permissions.
 
-    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Copilot for Sales.":::
+    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Sales app.":::
 
-    After the merge is complete, users will see only one icon for Copilot for Sales in Outlook desktop. It may take a few hours for the changes to take effect.
+    After the merge is complete, users will see only one icon for Sales app in Outlook desktop. It may take a few hours for the changes to take effect.
 
 ## Forms and fields customization
 
-### Are changes in the CRM reflected automatically in Copilot for Sales?
+### Are changes in the CRM reflected automatically in Sales app?
 
-Changes made in the CRM aren't reflected automatically in Copilot for Sales. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
+Changes made in the CRM aren't reflected automatically in Sales app. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
 
 ### Why is the delete option disabled for some fields in the contact record?
 
-If you enable new contact creation from within Copilot for Sales, you can't remove a field from the contact record if it's marked as required in CRM.
+If you enable new contact creation from within Sales app, you can't remove a field from the contact record if it's marked as required in CRM.
 
 ### Which fields can't be customized?
 
-The following fields can't be added from the Copilot for Sales **Admin settings** page:
+The following fields can't be added from the Sales app **Admin settings** page:
 
 **Dynamics 365**
 
@@ -367,13 +365,13 @@ A field can be non-editable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
-### How are hyperlink formula fields from Salesforce CRM displayed in Copilot for Sales?
+### How are hyperlink formula fields from Salesforce CRM displayed in Sales app?
 
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Copilot for Sales, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
 
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
-If you've connected Copilot for Sales to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
+If you've connected Sales app to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
 
 ### Why don't I see the required relationship for a record type during configuration?
 
@@ -397,19 +395,19 @@ Microsoft is uniquely positioned to deliver enterprise-ready AI. Powered by Azur
 
     Copilot’s foundation skills are a game changer for productivity and business processes. The capabilities allow you to create, summarize, analyze, collaborate, and automate using your specific business content and context. But it doesn’t stop there. Copilot recommends actions for the user (for example, “create a time and expense application to enable employees to submit their time and expense reports”). And Copilot is designed to learn new skills. For example, Copilot can learn how to connect to CRM systems of record to pull customer data—like interaction and order histories—into communications. As Copilot learns about new domains and processes, it will be able to perform even more sophisticated tasks and queries. 
 
-### How will Microsoft use customer data to train Copilot for Sales?  
+### How will Microsoft use customer data to train Sales in Microsoft 365 Copilot?  
 
 Copilot unlocks business value by connecting LLMs to the customer’s own business data in a secure, complaint, privacy-preserving way. 
 
 Copilot generates answers anchored in real-time business content (customer's own documents, emails, calendar, chats, meetings, contacts, and other business data) and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week, and  to deliver accurate, relevant, contextual responses. 
 
-Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train Copilot for Sales capabilities for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
+Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train capabilities in Sales in Microsoft 365 Copilot for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
 
-### How will Copilot for Sales manage GDPR policies?  
+### How will Sales in Microsoft 365 Copilot manage GDPR policies?  
 
-Copilot for Sales complies with GDPR policies.
+Sales in Microsoft 365 Copilot complies with GDPR policies.
 
-The Dynamics App for Outlook is strictly an enablement app that bridges the gap between outlook and DV data. The app isn't being invested in, but rather we're focusing on bringing critical enablement features to the Copilot for Sales App in addition to all of the empowerment features related to generative AI and insights to help sellers get the job done in the context of their work in Outlook. Sellers should encourage their customers to migrate to the Copilot for Sales app to take advantage of our innovation and investments (two existing gaps, entity creation and entity global search are being worked on and should be delivered in the first quarter of 2024).
+The Dynamics App for Outlook is strictly an enablement app that bridges the gap between outlook and DV data. The app isn't being invested in, but rather we're focusing on bringing critical enablement features to the Sales app in addition to all of the empowerment features related to generative AI and insights to help sellers get the job done in the context of their work in Outlook. Sellers should encourage their customers to migrate to the Sales app to take advantage of our innovation and investments (two existing gaps, entity creation and entity global search are being worked on and should be delivered in the first quarter of 2024).
 
 ## Resources 
 

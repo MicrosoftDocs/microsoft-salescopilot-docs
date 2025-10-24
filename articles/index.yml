@@ -34,14 +34,14 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Copilot for Sales
+  - title: Implement Sales in Microsoft 365 Copilot
     items:
     - title: Install
       links: 
       - url:  install-sales-as-an-integrated-app.md
-        text: Install Copilot for Sales in Outlook
+        text: Install Sales app in Outlook
       - url:  install-pin-sales-teams.md
-        text: Install Copilot for Sales in Teams
+        text: Install Sales app in Teams
     - title: Deployment scenarios
       links: 
       - url: deploy-sales-app-d365.md
@@ -50,7 +50,7 @@ additionalContent:
         text: Deployment guide for Salesforce users
 
 
-  - title: Administer Copilot for Sales
+  - title: Administer Sales in Microsoft 365 Copilot
     items:
     - title: Configure for Outlook and Teams
       links: 
@@ -63,16 +63,16 @@ additionalContent:
     - title: Manage for Outlook and Teams
       links:
       - url: uninstall-sales-app.md
-        text: Uninstall the Copilot for Sales app
+        text: Uninstall the Sales app
 
-  - title: Be productive with Copilot for Sales
+  - title: Be productive with Sales in Microsoft 365 Copilot
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: In Outlook
       links: 
       - url: open-app.md#access-copilot-for-sales-in-outlook
-        text: Access the Copilot for Sales app
+        text: Access the Sales app
       - url: connect-contact.md
         text: Connect a contact to your CRM 
       - url: create-new-record.md
@@ -100,7 +100,7 @@ additionalContent:
       - url: meeting-prep.md
         text: View a meeting preparation card
       - url: use-sales-copilot-app-during-meeting.md
-        text: Use Copilot for Sales app during a meeting
+        text: Use Sales app during a meeting
       - url: view-meeting-summary-recap.md
         text: View and understand the meeting summary
 
@@ -118,14 +118,14 @@ additionalContent:
       - url: suggested-tasks-collab-space.md
         text: Collaborate using AI-powered Planner tasks
 
-    - title: Extend Copilot for Sales
+    - title: Extend Sales in Microsoft 365 Copilot
       links: 
       - url: extend-sales-app.md
         text: Extend with partner applications 
       - url: custom-connector-action.md
         text: Create a custom connector and connector action
       - url: build-apis.md
-        text: Build Copilot for Sales extensions
+        text: Build Sales app extensions
 
   - title: Related products
     items:
