@@ -32,7 +32,7 @@ If you create a recurring meeting, the Sales app is added to all occurrences of 
 
 If the Sales app is not added automatically to a Teams meeting, a meeting organizer can manually add the app to the meeting. The app is visible only to the participants who are in the same tenant as the meeting organizer.  
 Once the app is added to a recurring meeting, it's added to all occurrences of the meeting.  
-For steps to manually add the Sales app to a Teams meeting, see [How can I add the Sales app manually to a Teams meeting?](sales-copilot-faq.md#how-can-i-add-the-copilot-for-sales-app-manually-to-a-teams-meeting)
+For steps to manually add the Sales app to a Teams meeting, see [How can I add the Sales app manually to a Teams meeting?](sales-m365-copilot-faq.md#how-can-i-add-the-copilot-for-sales-app-manually-to-a-teams-meeting)
 
 > [!NOTE]
 > If you try to add the app without signing in to the app from Outlook, a message is displayed to sign in to the app from Outlook. You must sign in to the app from Outlook and then select **Refresh** in the message to add the app to the meeting.
@@ -57,7 +57,7 @@ When you end the meeting, Sales app uses the recorded call and transcript to gen
 > [!IMPORTANT]
 >
 > - You must transcribe the meeting to generate meeting insights.  
-> - Version of the Sales app in Microsoft Teams must be 1.0.9 or higher to generate meeting insights. For more information, click [here](sales-copilot-faq.md#why-are-meeting-insights-not-getting-generated-even-if-meeting-is-transcribed).
+> - Version of the Sales app in Microsoft Teams must be 1.0.9 or higher to generate meeting insights. For more information, click [here](sales-m365-copilot-faq.md#why-are-meeting-insights-not-getting-generated-even-if-meeting-is-transcribed).
 
 Use the meeting summary to review past conversations with customers, understand historical needs and sentiments, and highlight your commitments.
 

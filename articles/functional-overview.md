@@ -88,4 +88,4 @@ Customize Sales app for a uniquely tailored experience that meets your organizat
 
 [Sales app architecture](architecture.md)<br>
 [Sales app license overview](license-info.md)<br>
-[Sales in Microsoft 365 Copilot FAQ](sales-copilot-faq.md)
+[Sales in Microsoft 365 Copilot FAQ](sales-m365-copilot-faq.md)
