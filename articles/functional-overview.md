@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Copilot for Sales functional overview
 description: Maximize seller productivity with Copilot for Sales, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 09/29/2025
+ms.date: 10/29/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -30,7 +30,7 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 ### Keep data fresh and accurate
 
-- Get Copilot assistance to [add contacts](create-contact-crm-sales-copilot.md) and update CRM records in [Outlook](edit-crm-record.md) and [Teams](view-update-crm-record-details.md) and sync to your CRM platform.
+- Get Copilot assistance to [add contacts](create-contact-crm-sales-copilot.md) and update CRM records in [Outlook](edit-crm-record.md), and sync to your CRM platform.
 
 - View Copilot-generated opportunity summaries and CRM record information in Outlook and Teams.
 
