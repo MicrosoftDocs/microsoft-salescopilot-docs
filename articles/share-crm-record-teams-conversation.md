@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using Copilot for Sales.
-ms.date: 09/29/2025
+ms.date: 10/30/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -55,6 +55,9 @@ If the app is blocked by the admin, the message informs the recipients that they
 ## Share a CRM record in Outlook using search message extensions
 
 The experience of using the Copilot for Sales search message extension when composing an email is a bit different in classic Outlook desktop, new Outlook desktop, and Outlook on the web. 
+
+> [!NOTE]
+> If you're using Classic Outlook desktop, the capability to share a CRM record is supported only on [Current Channel](/microsoft-365-apps/updates/overview-update-channels#current-channel-overview).
 
 ### Classic Outlook desktop
 
