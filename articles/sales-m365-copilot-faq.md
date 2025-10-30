@@ -287,7 +287,7 @@ Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams 
 
 To get the benefits of the new enhanced Teams app within Outlook, the new app needs to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Sales app for Outlook](install-sales-as-an-integrated-app.md)
 
-If Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-sales-as-an-integrated-app.md#manage-the-copilot-for-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
+If Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-sales-as-an-integrated-app.md#manage-the-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
 
 
 ## Deployment

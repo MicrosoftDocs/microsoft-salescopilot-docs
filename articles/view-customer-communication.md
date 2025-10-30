@@ -30,7 +30,7 @@ When working on opportunities, you often manage numerous activities, such as mee
 ## Access the Customer communication card
 
 1. In Outlook, open an email or a meeting.
-1. [Open the Sales app](open-app.md#access-copilot-for-sales-in-outlook).
+1. [Open the Sales app](open-app.md#access-sales-app-in-outlook).
 1. Go to the **Customer communication** card.
 1. To view insights for a meeting, select **View meeting insights**.
 

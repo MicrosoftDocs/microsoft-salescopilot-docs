@@ -30,7 +30,7 @@ With the Sales app, you can view and edit the connected CRM record during the me
 > [!NOTE]
 > You must [save and connect the meeting to a CRM record](save-outlook-activities-crm.md) to view details of the connected record.
 
-1. [Open Sales app](#open-the-copilot-for-sales-app).
+1. [Open Sales app](#open-the-sales-app).
 
 1. In the **Connected to** card, select the record to see its details in the **Sales** panel.
 
@@ -44,7 +44,7 @@ You can also open a record in CRM to view its complete details. The record detai
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into a Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
-1. [Open Sales app](#open-the-copilot-for-sales-app).
+1. [Open Sales app](#open-the-sales-app).
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 

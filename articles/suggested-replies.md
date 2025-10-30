@@ -75,7 +75,7 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 ### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-sales-as-an-integrated-app.md#update-the-copilot-for-sales-app).
+Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-sales-as-an-integrated-app.md#update-the-sales-app).
 
 ### Related information
 

@@ -71,7 +71,7 @@ additionalContent:
     items:
     - title: In Outlook
       links: 
-      - url: open-app.md#access-copilot-for-sales-in-outlook
+      - url: open-app.md#access-sales-app-in-outlook
         text: Access the Sales app
       - url: connect-contact.md
         text: Connect a contact to your CRM 

@@ -45,7 +45,7 @@ Watch this video to learn more about Sales app:
 >
 > - This article provides instructions for business users without administrator privileges to install Sales app. If you are a CRM administrator trying to install Sales app for your sales team, see [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md) or [Sales app deployment guide for Salesforce customers](deploy-sales-app-sf.md) as per your requirement.
 > - You may not be able to install Sales app if downloading add-ins is turned off for your organization. In this case, contact your administrator.
-> - If you are using the Dynamics 365 app for Outlook, you can consider switching to Sales app, as you can do much more with Sales app. More information: [Difference between Sales app and Dynamics 365 app for Outlook](#difference-between-copilot-for-sales-and-dynamics-365-app-for-outlook)
+> - If you are using the Dynamics 365 app for Outlook, you can consider switching to Sales app, as you can do much more with Sales app. More information: [Difference between Sales app and Dynamics 365 app for Outlook](#difference-between-sales-app-and-dynamics-365-app-for-outlook)
 
 ### Install Sales app in Outlook
 

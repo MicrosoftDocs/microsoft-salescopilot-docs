@@ -76,9 +76,9 @@ landingContent:
        - linkListType: how-to-guide
          links:
           - text: In Outlook
-            url: open-app.md#access-copilot-for-sales-in-outlook
+            url: open-app.md#access-sales-app-in-outlook
           - text: In Teams
-            url: open-app.md#access-copilot-for-sales-in-teams
+            url: open-app.md#access-sales-app-in-teams
 
 # Card 
   - title: AI capabilities

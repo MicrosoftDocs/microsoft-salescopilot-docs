@@ -35,7 +35,7 @@ When your administrator has enabled the Sales Agent, you can view the leads that
     > - Only leads you have access to view in the CRM are shown.
     > - Sales Agent automatically performs research on leads when they're created or modified in your CRM. You can see the status of the research progress on this list.
 
-1. To view the research details for a lead, select the lead from the list. The lead research details page provides a summary of the research conducted by Sales Agent, including key insights and information about the lead's company. Learn more about the [lead research details](#view-lead-research-details-in-copilot-for-sales-personal-app).
+1. To view the research details for a lead, select the lead from the list. The lead research details page provides a summary of the research conducted by Sales Agent, including key insights and information about the lead's company. Learn more about the [lead research details](#view-lead-research-details-in-sales-personal-app).
 
 ## View lead research details in Sales personal app
 

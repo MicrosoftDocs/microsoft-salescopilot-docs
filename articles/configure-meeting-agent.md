@@ -18,7 +18,7 @@ As an administrator, you can optimize the meeting experience for your sellers by
 
 Auto recording enables your sellers to automatically record all sales meetings with external contacts without having to remember to start the recording manually. By default, the feature is turned off.
 
-Auto recording is applicable only to sales meetings that have the [**Sales** app added automatically](create-teams-meeting.md#add-the-copilot-for-sales-app-automatically-to-a-teams-meeting) before the meeting. 
+Auto recording is applicable only to sales meetings that have the [**Sales** app added automatically](create-teams-meeting.md#add-the-sales-app-automatically-to-a-teams-meeting) before the meeting. 
 
 > [!NOTE]
 > If a meeting is marked as private, it isn't recorded. 

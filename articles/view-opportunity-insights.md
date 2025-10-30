@@ -30,7 +30,7 @@ When working on opportunities, you often juggle multiple activities, making it c
 ## Access the Opportunity insights card
 
 1. In Outlook, open an email or a meeting.
-1. [Open the Sales side pane](open-app.md#access-copilot-for-sales-in-outlook).
+1. [Open the Sales side pane](open-app.md#access-sales-app-in-outlook).
 1. Go to the **Opportunity insights** card.
 1. Select **See all risks and insights for this opportunity** to view detailed information.
 
