@@ -32,37 +32,7 @@ Sales in Microsoft 365 Copilot is a certified Microsoft app. That means it meets
 
 Get information about license requirements, role requirements, and region availability in [Introduction to Sales in Microsoft 365 Copilot](introduction.md).
 
-## Licensing
-
-### When is Copilot for Sales available for purchase?
-
-Copilot for Sales includes the Microsoft 365 Copilot subscription and is available to purchase on February 1, 2024 on the Volume Licensing and Web Direct Channel. Copilot for Sales is available to purchase on CSP from March 1, 2024. Copilot for Sales includes the rich sales specific capabilities alongside Microsoft 365 Copilot. It's priced at $50 per user/month, or $20 per user/month if the customer already has Microsoft 365 Copilot. [See our pricing page for more information](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing). 
-
-### Will Copilot for Sales be included in Dynamics 365 Sales subscriptions?
-
-For information about limited capabilities included with the Dynamics 365 Sales license and the full set of capabilities included with the Copilot for Sales license, see [Copilot for Sales features for Dynamics 365 Sales users](features-d365-users.md).
-
-### How does the new Copilot for Sales affect Dynamics 365 Sales? Is there any change in capability or licensing for Dynamics 365 Sales customers?  
-
-There's no change or impact. 
-
-Dynamics 365 Sales Enterprise and Premium licenses will still include Copilot capabilities in the Dynamics 365 Sales platform (for example, meeting preparation summary in Dynamics 365), as well as a standard set of Copilot for Sales capabilities in Outlook and Teams, which mirror the Sales Copilot capabilities today such as email generation in Outlook, email summary in Outlook, contact updates in Outlook.  
-
-We will continue to innovate on Copilot experiences in the Dynamics 365 Sales platform, such as the [announcements at Ignite](https://aka.ms/Ignite2023BAannounceblog) for natural language support in Dynamics 365 Sales. Customers can use this functionality without purchasing Copilot for Sales. 
-
-Future innovation in Copilot across the Microsoft 365 apps will require purchase of Copilot for Sales. For more detail, see the license chart above which highlights all of the current Copilot functionality that is included in Dynamics 365 Sales licenses.  
-
-### What happens to the standalone Microsoft Sales Copilot subscription? What happens to the customers who purchased that standalone subscription?  
-
-Copilot for Sales subscription replaces the Microsoft Sales Copilot subscription. The capabilities in Sales Copilot will continue to be available and further enhanced with the power of Microsoft 365 Copilot, under the new Copilot for Sales subscription.
-
-We appreciate the customers that have invested early in the standalone Sales Copilot subscriptions. They can remain on their existing subscriptions with access to the current functionality during their contracts. If they wish to try the new capabilities in Copilot for Sales, they must make the move to the new license model.
-
 ## Availability
-
-### What languages are supported? 
-
-There are no changes to [country/region availability or languages](introduction.md#supported-languages-and-geographies) with the evolution from Microsoft Sales Copilot to Copilot for Sales, except for Microsoft 365 Copilot, which can be found in [this blog](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/microsoft-365-copilot-is-generally-available/ba-p/3969331).  
 
 ### What geographies will Sales in Microsoft 365 Copilot support?   
 
@@ -75,10 +45,6 @@ Microsoft 365 Copilot isn't currently available in local region geographies. Ref
 Currently, Sales in Microsoft 365 Copilot isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
 
 ## Skilling
-
-### How can I learn about Sales in Microsoft 365 Copilot?  
-
-Customers can access existing Microsoft Sales Copilot and Microsoft 365 Copilot content through Microsoft Learn. Content will be refreshed in 2024 to align to the new naming and licensing structure. [View our adoption webpage for access to further materials](https://adoption.microsoft.com/copilot-for-sales/).
 
 ### How can I get certified in Sales in Microsoft 365 Copilot? 
 
@@ -276,19 +242,6 @@ The existing Sales app in Teams and Outlook has been upgraded to a single enhanc
 #### New deployments
 
 Although the new enhanced Teams app is packaged as a single app, deployment is still needed in both the Microsoft 365 admin center for Outlook and Microsoft 365 apps and the Teams admin center for Teams deployment. See deployment guides for details: [Dynamics 365 customers](deploy-sales-app-d365.md) and [Salesforce CRM customers](deploy-sales-app-sf.md).
-
-#### Update existing Sales Copilot deployments
-
-##### Upgrade the app within Teams 
-
-Due to the upgrade of the previous Sales Copilot Teams app to an enhanced Teams app, every Teams user will be presented with an update button within Teams. In this case, no administration is needed in the Teams admin center. [Learn more about updating an app in Microsoft Teams](https://support.microsoft.com/office/update-an-app-in-microsoft-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
-
-##### Upgrade the app for Outlook 
-
-To get the benefits of the new enhanced Teams app within Outlook, the new app needs to be deployed to the same set of users as the existing Outlook add-in within the Microsoft 365 admin center. [Learn more about installing Sales app for Outlook](install-sales-as-an-integrated-app.md)
-
-If Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown when you [manage the app](install-sales-as-an-integrated-app.md#manage-the-sales-app). You must select **Merge both versions** to upgrade the app to the latest version. 
-
 
 ## Deployment
 
