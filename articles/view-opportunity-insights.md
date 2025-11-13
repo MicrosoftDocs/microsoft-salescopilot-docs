@@ -1,7 +1,7 @@
 ---
 title: View opportunity insights (preview)
 description: Learn how to view opportunity insights in Copilot for Sales.
-ms.date: 10/01/2025
+ms.date: 11/13/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
