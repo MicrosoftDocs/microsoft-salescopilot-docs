@@ -1,7 +1,7 @@
 ---
 title: View customer communication (preview)
 description: Learn how to work with the Customer communication card in Copilot for Sales
-ms.date: 10/01/2025
+ms.date: 11/13/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -29,6 +29,7 @@ You can see **Customer communication** card in the Copilot for Sales side pane i
 ## Prerequisites
 
 - [Meeting insights must be turned on in Access settings.](access-settings.md#meeting-insights)
+- If you're a Salesforce user, [server-to-server connection must be set up](connect-agent-datasource.md#set-up-server-to-server-connection-to-salesforce).
 
 ## Access the Customer communication card
 
