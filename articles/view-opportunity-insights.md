@@ -1,7 +1,7 @@
 ---
 title: View opportunity insights (preview)
 description: Learn how to view opportunity insights in Copilot for Sales.
-ms.date: 11/13/2025
+ms.date: 11/14/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,15 +16,15 @@ The **Opportunity insights** card provides you with a consolidated view of oppor
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-When working on opportunities, you often juggle multiple activities, making it challenging to keep track of key insights from each interaction. The **Opportunity insights** card brings together all these events and surfaces opportunity-level insights directly within Outlook. If you've access to an opportunity in CRM, you can see insights from all relevant meetings, even those you did not attend. This helps you stay updated and informed without leaving your workflow. 
+When working on opportunities, you often juggle multiple activities, making it challenging to keep track of key insights from each interaction. The **Opportunity insights** card brings together all these events and surfaces opportunity-level insights directly within Outlook. If you've access to an opportunity in CRM, you can see insights from all relevant meetings, even those you didn't attend. This helps you stay updated and informed without leaving your workflow. 
 
 ## Where to see the Opportunity insights card
 
 You can see the **Opportunity insights** card in the Copilot for Sales side pane in Outlook when you open an email or a meeting.
 
 > [!NOTE]
-> - When viewing an email, the **Opportunity insights** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the card displays insights from all relevant meetings.
-> - When viewing a meeting in Outlook calendar, the **Opportunity insights** card is displayed only when the meeting is connected to an opportunity.
+> - When you're viewing an email, the **Opportunity insights** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the card displays insights from all relevant meetings.
+> - When you're viewing a meeting in Outlook calendar, the **Opportunity insights** card is displayed only when the meeting is connected to an opportunity.
 
 ## Prerequisites
 
