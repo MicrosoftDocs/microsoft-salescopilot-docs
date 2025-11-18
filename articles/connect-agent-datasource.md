@@ -1,7 +1,7 @@
 ---
 title: Connect your agents to a data source
 description: Learn how to connect agents to a data source for seamless data retrieval using server-to-server connections.
-ms.date: 11/17/2025
+ms.date: 11/18/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -61,19 +61,21 @@ The integration user is created with a specific set of permissions that allow it
 
 The following fields are readable by the integration user:
 
-- Contact.AccountId
-- Contact.Email
-- Contact.MobilePhone
-- Contact.Phone
-- Contact.Title
-- Opportunity.Amount
-- Opportunity.AccountId
-- Opportunity.ExpectedRevenue
-- Lead.Email
-- Lead.Title
-- Lead.Description
-- Lead.LeadSource
-- Lead.Rating
-- Lead.Phone
-- Product2.Description
+|Object|Field|
+|------|-----|
+|Contact|AccountId|
+|Contact|Email|
+|Contact|MobilePhone|
+|Contact|Phone|
+|Contact|Title|
+|Opportunity|Amount|
+|Opportunity|AccountId|
+|Opportunity|ExpectedRevenue|
+|Lead|Email|
+|Lead|Title|
+|Lead|Description|
+|Lead|LeadSource|
+|Lead|Rating|
+|Lead|Phone|
+|Product2|Description|
 
