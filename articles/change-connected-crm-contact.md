@@ -27,4 +27,4 @@ You could connect your Sales app contact to a different CRM contact if you conne
     
    :::image type="content" source="media/new-contact.png" alt-text="Screenshot showing choose a CRM to connect.":::
 
-    If you don't connect to a different CRM contact, Sales app retains the existing connection.
+    If you don't connect to a different CRM contact, the Sales app retains the existing connection.
