@@ -14,29 +14,29 @@ ms.localizationpriority: medium
 
 This article gives you an overview of how data is handled in Sales in Microsoft 365 Copilot.
 
-the Sales app is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
+The Sales app is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
 
 ## Data retention
 
 Since the Sales app data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other Microsoft 365 applications and non-Dynamics 365 CRM solutions. For example, when your Microsoft 365 subscription ends, your data is retained for 90 days before it's automatically deleted (in accordance to [Microsoft 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use the Sales app, that data isn't automatically deleted 90 days after your subscription ends.
 
-## the Sales app, Dataverse, and your CRM
+## The Sales app, Dataverse, and your CRM
 
 When the Sales app is connected to Dynamics 365, the Sales app data is stored with the Dynamics 365 Sales Dataverse instance.
 
-When the Sales app is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to the Sales app is provided to your tenant. the Sales app data is stored in the default instance in addition to your CRM.
+When the Sales app is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to the Sales app is provided to your tenant. The Sales app data is stored in the default instance in addition to your CRM.
 
 You can find the name and details of your default Dataverse instance named **msdyn_viva** in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
 > [!IMPORTANT]
 > - The **msdyn_viva** environment is of type **Trial**. If you need to convert the environment to **Production**, follow the steps in the [Convert the sales environment from Trial to Production](convert-trial-prod.md) article.
-> - Do not remove or edit the **msdyn_viva** environment because it is holds important data for the Sales app. If the environment is removed or edited, the Sales app might stop working.
+> - Don't remove or edit the **msdyn_viva** environment because it holds important data for the Sales app. If the environment is removed or edited, the Sales app might stop working.
 
 :::image type="content" source="media/ppac-admin-center.png" alt-text="Screenshot that shows the default Dataverse instance in Power Platform admin center.":::
 
 ### Where is the data stored?
 
-the Sales app data is stored in several tables in Dataverse. You should not modify or use these tables directly. They are used by the Sales app features and agents to store and retrieve the insights and data needed to provide the Sales app experience. The tables used for storing insights are:
+The Sales app data is stored in several tables in Dataverse. You shouldn't modify or use these tables directly. They're used by the Sales app features and agents to store and retrieve the insights and data needed to provide the Sales app experience. The tables used for storing insights are:
 
 |Table name|Description|
 |---|---|
