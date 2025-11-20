@@ -1,5 +1,5 @@
 ---
-title: Privileges required to use the Sales app
+title: Privileges required to use Sales app
 description: Learn what are the various privileges required to use the Sales app
 ms.date: 11/20/2025
 ms.topic: overview
@@ -8,9 +8,9 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Privileges required to use the Sales app
+# Privileges required to use Sales app
 
-the Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales app.
+The Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales app.
 
 > [!NOTE]
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of the Sales app in Outlook and then sign in again for these changes to be reflected appropriately. 
@@ -71,13 +71,13 @@ To edit custom security roles to match with out-of-the-box Salesperson or Sales 
 
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-## Deploy the Sales app
+## Deploy Sales app
 
 Looking for step-by-step instructions on how to deploy the Sales app? Here are the Sales app deployment guides:
 
-- [the Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md)
-- [the Sales app deployment guide for Salesforce CRM customers](deploy-sales-app-sf.md)
+- [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md)
+- [Sales app deployment guide for Salesforce CRM customers](deploy-sales-app-sf.md)
 
 ### Related information
 
-[Install the Sales app](install-sales-app.md)
+[Install Sales app](install-sales-app.md)

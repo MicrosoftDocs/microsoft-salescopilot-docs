@@ -75,7 +75,7 @@ This payload goes as the request body of the API request.
 
 ## Output parameters
 
-the Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
+The Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|

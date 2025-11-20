@@ -23,7 +23,7 @@ This article provides instructions to integrate Sales Agent with Salesforce to g
 ## Prerequisites
 
 - The Sales Agent is [configured and connected to Salesforce](set-up-sales-agent.md).
-- You have access to environment-level settings in the [the Sales app admin settings](administrator-settings-sales-app.md).
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Create a link to Sales Agent research from leads
 
@@ -63,7 +63,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 1. Go to **Custom Code** > **Static Resources**, and select **New**.
 1. Set the name of the resource to **copilot_for_sales_logo**.
-1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="the Sales app logo.":::
+1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="Sales app logo.":::
 
 ### Create Visualforce page for the Sales Agent summary
 

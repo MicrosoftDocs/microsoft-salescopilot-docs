@@ -49,7 +49,7 @@ All features available in the desktop version of the Sales app work on mobile (u
 
 ## Teams experience
 
-the Sales app in Teams has mixed support on Teams mobile version.
+The Sales app in Teams has mixed support on Teams mobile version.
 
 ### Supported features
 

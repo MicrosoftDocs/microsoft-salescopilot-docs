@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-the Sales app is an AI assistant that helps sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.  
+The Sales app is an AI assistant that helps sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.  
 Out of the box, the Sales app connects to customer relationship management (CRM) systems such as Salesforce Sales Cloud and Dynamics 365 Sales. However, there is more to sales than just CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Sales app experience.  
 If you're a partner application developer, you can integrate your application with the Sales app to provide contextual insights and recommendations in the context of the seller's daily workflow in Teams and Outlook.  
 This article provides guidance about how to extend the Sales app by using your application APIs. It provides the following information:  
@@ -46,7 +46,7 @@ As a maker, you must build the following elements:
 1. APIs that match the expectations of the Sales app capabilities that you're trying to extend. The API that is used to extend a capability in the Sales app must accept the required inputs from the Sales app and return the required outputs that the Sales app expects.  
 1. A Microsoft Power Platform connector that uses the APIs and OAuth authentication.  
 1. An action that adds the Sales app–provided descriptions to the connector.  
-    the Sales app doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure aren't constraints for Copilot. You're responsible for ensuring that your APIs can handle the inputs that Copilot supplies, and that they return the expected outputs. Additionally, you must provide appropriate descriptions to ensure that Copilot can correctly match them during runtime.
+    The Sales app doesn't require adherence to a specific API specification. The naming of the API or its input/output parameters and structure aren't constraints for Copilot. You're responsible for ensuring that your APIs can handle the inputs that Copilot supplies, and that they return the expected outputs. Additionally, you must provide appropriate descriptions to ensure that Copilot can correctly match them during runtime.
 
 For example, you want to enhance the [opportunity insights](extend-opportunity-insights.md) capability in the Sales app. For this extension, you must create an API that, at a minimum, accepts a CRM record reference (passed as `recordType` and `recordId` parameter values) as input and provides the insight title, description, and date as output. This API should be added to a new or existing Microsoft Power Platform connector that uses OAuth for authentication. Additionally, the APIs in the connector should be supplemented with descriptions as required by the Sales app.
 

@@ -82,7 +82,7 @@ Currently, Sales in Microsoft 365 Copilot is compatible with Dynamics 365 Sales 
 
 ### What privileges are required to use Sales in Microsoft 365 Copilot?
 
-Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use the Sales app](privileges.md).
+Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales app](privileges.md).
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -183,7 +183,7 @@ Users may need to change a few settings to get the best experience of Sales in M
 
 - **Chrome**: Turn off "Block third-party cookies."
 
-### Why do I see the older icon for the Sales app in Outlook desktop?
+### Why do I see the older icon for Sales app in Outlook desktop?
 
 In some cases, you may see the older icon for the Sales app in Outlook desktop.
 
@@ -264,7 +264,7 @@ Ensure that the following settings are set to true:
 - DirectFileAccessOnPublicComputersEnabled
 - DirectFileAccessOnPrivateComputersEnabled
 
-### Why do users see duplicate icons for the Sales app in Outlook desktop?
+### Why do users see duplicate icons for Sales app in Outlook desktop?
 
 Users may see duplicate icons for the Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
 
@@ -282,7 +282,7 @@ Users may see duplicate icons for the Sales app due to a recent update to the en
 
 ## Forms and fields customization
 
-### Are changes in the CRM reflected automatically in the Sales app?
+### Are changes in the CRM reflected automatically in Sales app?
 
 Changes made in the CRM aren't reflected automatically in the Sales app. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
 
@@ -318,7 +318,7 @@ A field can be non-editable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
-### How are hyperlink formula fields from Salesforce CRM displayed in the Sales app?
+### How are hyperlink formula fields from Salesforce CRM displayed in Sales app?
 
 In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In the Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
 

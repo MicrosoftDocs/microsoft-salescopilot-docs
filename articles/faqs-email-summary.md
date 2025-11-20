@@ -17,7 +17,7 @@ These frequently asked questions (FAQs) describe the AI impact of the Sales app'
 
 ## What is email summary feature in Outlook?
 
-the Sales app summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
+The Sales app summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
 
 ## What are the feature's capabilities?
 

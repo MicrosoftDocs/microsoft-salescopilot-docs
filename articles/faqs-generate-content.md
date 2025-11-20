@@ -17,13 +17,13 @@ These frequently asked questions (FAQ) describe the AI impact of the Sales app's
 
 ## What is generate content feature in Outlook?
 
-the Sales app empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
+The Sales app empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
 
 ## What are the feature's capabilities?
 
-the Sales app utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
+The Sales app utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
 
-the Sales app supports the following capabilities:
+The Sales app supports the following capabilities:
 
 - **CRM-aware email generation**: When the seller's prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited to accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 - **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours as per their calendar.

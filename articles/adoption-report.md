@@ -1,5 +1,5 @@
 ---
-title: the Sales app adoption report
+title: Sales app adoption report
 description: Learn how to use the Sales app adoption Power BI template to understand how your company's sales team is using the Sales app.
 ms.date: 11/20/2025
 ms.topic: concept-article
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# the Sales app adoption report
+# Sales app adoption report
 
 The Sales app adoption report is an essential tool for sales leaders looking to understand the usage of the Sales app within their organization. Using this Power BI template, you gain valuable insights into how different groups and apps are utilizing the Sales app. You can also identify key actions contributing to sales tasks, and explore research findings on its adoption.
  
@@ -19,4 +19,4 @@ To learn more about setting up and using this report, go to [the Sales app adopt
 
 ### See also
 
-[the Sales app metrics](/viva/insights/advanced/reference/metrics#copilot-for-sales-metrics)
+[Sales app metrics](/viva/insights/advanced/reference/metrics#copilot-for-sales-metrics)

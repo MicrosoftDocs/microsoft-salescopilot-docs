@@ -14,7 +14,7 @@ ms.custom:
 
 # View an opportunity summary
 
-When you're preparing for a meeting with a customer, context from your customer relationship management (CRM) system, such as the customer's questions and concerns and notes you and your colleagues took, can help you feel more confident and in control when the meeting starts. the Sales app gives you that context. It uses AI to generate a summary of your opportunities that includes key information, helping make your interactions with customers more productive, boosting sales, and leaving your customers satisfied.
+When you're preparing for a meeting with a customer, context from your customer relationship management (CRM) system, such as the customer's questions and concerns and notes you and your colleagues took, can help you feel more confident and in control when the meeting starts. The Sales app gives you that context. It uses AI to generate a summary of your opportunities that includes key information, helping make your interactions with customers more productive, boosting sales, and leaving your customers satisfied.
 
 An opportunity summary can include the following kinds of information:
 

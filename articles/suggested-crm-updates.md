@@ -16,7 +16,7 @@ ms.custom:
 
 When interacting with your customers over email, you often need to update your CRM system with the latest information. Manually updating the CRM system every time you interact with customers via email can be time-consuming and error prone. 
 
-the Sales app uses AI to suggest CRM updates based on the email conversations. Suggestions include update to estimated revenue and close date of the opportunity to which the email is connected. If the email isn't connected to an opportunity, you can choose an opportunity you want to update with the suggestions.
+The Sales app uses AI to suggest CRM updates based on the email conversations. Suggestions include update to estimated revenue and close date of the opportunity to which the email is connected. If the email isn't connected to an opportunity, you can choose an opportunity you want to update with the suggestions.
 
 The suggestions are displayed in the **Suggested actions** card in the **Sales** pane. If there are no suggestions, the card isn't displayed. When you update a record with the suggested updates, the suggestion is marked as complete.
 
@@ -24,7 +24,7 @@ The suggestions are displayed in the **Suggested actions** card in the **Sales**
 
 ## Update CRM with suggested updates
 
-the Sales app scans the email conversations and compares the data with the data in the CRM system to suggest updates. The updates are suggested for the following fields in an opportunity record in CRM system:
+The Sales app scans the email conversations and compares the data with the data in the CRM system to suggest updates. The updates are suggested for the following fields in an opportunity record in CRM system:
 
 | Suggested update | CRM field |
 |------------------|-----------|

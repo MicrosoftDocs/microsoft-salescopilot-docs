@@ -1,5 +1,5 @@
 ---
-title: the Sales app deployment guide for Dynamics 365 customers
+title: Sales app deployment guide for Dynamics 365 customers
 description: Learn how to deploy the Sales app for Dynamics 365 customers.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# the Sales app deployment guide for Dynamics 365 customers
+# Sales app deployment guide for Dynamics 365 customers
 
 Follow the instructions in this guide to deploy the Sales app for your Dynamics 365 Sales customers.
 
@@ -50,7 +50,7 @@ Enable transcripts for Teams calls so that when the Sales app is added to a reco
 
 ## Step 4: Set up server-side synchronization of emails and appointments
 
-the Sales app allows sellers to save Outlook emails and appointments to Dynamics 365. Saving Outlook activities to Dynamics 365 requires [server-side synchronization for emails and appointments](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) to be enabled. While sellers can enable server-side synchronization for their own mailboxes when they save Outlook activities to Dynamics 365 using the Sales app for the first time, you can simplify their experience by setting up server-side synchronization of emails and appointments for all the Sales app users. 
+The Sales app allows sellers to save Outlook emails and appointments to Dynamics 365. Saving Outlook activities to Dynamics 365 requires [server-side synchronization for emails and appointments](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) to be enabled. While sellers can enable server-side synchronization for their own mailboxes when they save Outlook activities to Dynamics 365 using the Sales app for the first time, you can simplify their experience by setting up server-side synchronization of emails and appointments for all the Sales app users. 
 
 For information about enabling server-side synchronization, see [Connect to Exchange Online](/power-platform/admin/connect-exchange-online). 
 
@@ -74,7 +74,7 @@ You can [set up AI features in the Sales app](suggested-replies.md) to use AI fe
 
 ### Customize forms and fields
 
-the Sales app comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
+The Sales app comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
 
 ## Step 7: Welcome sellers to the Sales app
@@ -88,12 +88,12 @@ Now that you've installed and configured the Sales app in Outlook and Teams, get
 
 > [!IMPORTANT]
 > - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales app in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-app-in-outlook-after-its-deployed)
-> - the Sales app doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
+> - The Sales app doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
 > - Users added as guests to a tenant can't access the Sales app.
 
 ## Community
 
-We encourage all the Sales app users to visit and register on the [the Sales app community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
+We encourage all users of the Sales app to visit and register on the [Sales app community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
 
 -   Forums to connect with peers and discuss shared experiences.
 

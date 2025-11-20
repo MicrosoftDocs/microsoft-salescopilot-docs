@@ -20,7 +20,7 @@ The Sales app is built on the [Microsoft Power Platform](https://powerplatform.m
 
 Since the Sales app data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), data retention policies differ from other Microsoft 365 applications and non-Dynamics 365 CRM solutions. For example, when your Microsoft 365 subscription ends, your data is retained for 90 days before it's automatically deleted (in accordance to [Microsoft 365 data retention policies](/microsoft-365/compliance/retention-policies)). However, if you use the Sales app, that data isn't automatically deleted 90 days after your subscription ends.
 
-## The Sales app, Dataverse, and your CRM
+## Sales app, Dataverse, and your CRM
 
 When the Sales app is connected to Dynamics 365, the Sales app data is stored with the Dynamics 365 Sales Dataverse instance.
 

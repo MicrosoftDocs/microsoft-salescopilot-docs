@@ -10,13 +10,13 @@ ms.author: shjais
 
 # Access the Sales app
 
-the Sales app is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
+The Sales app is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
 
 If you don't have access to the Sales app, ask your administrator to install it.
 
 ## Access the Sales app in Outlook
 
-As a seller, you communicate with a lot of potential customers by email. the Sales app helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
+As a seller, you communicate with a lot of potential customers by email. The Sales app helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
 
 You can access the Sales app using any of the following options:
 
@@ -104,7 +104,7 @@ You can pin the app only in the classic Outlook or in the new Outlook when Micro
 Backed by AI, the Sales app in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
 
 > [!NOTE]
-> the Sales app is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
+> The Sales app is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
 
 To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 

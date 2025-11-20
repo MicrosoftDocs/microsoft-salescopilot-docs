@@ -16,11 +16,7 @@ ms.custom:
 
 Sales in Microsoft 365 Copilot is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
-the Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in the Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
-
-> [!NOTE]
-> - Eligible Dynamics 365 Sales customers can access limited functionalities included within their existing license to get started. Limited functionalities do not provide access to the Microsoft 365 Copilot functionality. For more information, go to [the Sales app features for Dynamics 365 Sales users](features-d365-users.md).
-> - Dynamics 365 Sales Premium users just have to buy Microsoft 365 Copilot to activate the Sales app. More information, go to [Sales in Microsoft 365 Copilot license overview](license-info.md).
+The Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in the Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
 The following sections provide an overview of the value that the Sales app provides to sales teams.
 
@@ -64,7 +60,7 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 ### Improve team collaboration
 
-- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales app in Outlook or directly from the Dynamics 365 the Sales app.
+- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales app in Outlook or directly from Dynamics 365 Sales.
 
     :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook.":::
 

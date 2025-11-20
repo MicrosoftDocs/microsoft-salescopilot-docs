@@ -1,5 +1,5 @@
 ---
-title: Install and pin the Sales app in Teams
+title: Install and pin Sales app in Teams
 description: Learn how to install and pin the Sales app in Teams
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install and pin the Sales app in Teams
+# Install and pin Sales app in Teams
 
 To install the Sales app in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We recommend you to pin the app to increase discoverability and encourage your sellers to use it.
 
@@ -59,4 +59,4 @@ Once the Sales app is deployed, each user is welcomed by an engaging message fro
 
 ### Related information
 
-[Install the Sales app for Outlook](install-sales-as-an-integrated-app.md)
+[Install Sales app for Outlook](install-sales-as-an-integrated-app.md)

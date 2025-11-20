@@ -34,7 +34,7 @@ You can create a new record in your CRM from the **Sales** side pane. This capab
 
 ## Create a new record from a related record card
 
-the Sales app shows records that are related to the saved contacts in the email on the appropriate record type cards. You can create a new record from a related record card. This capability is useful when you want to create a new record that is related to an existing record without having to go to the CRM system.
+The Sales app shows records that are related to the saved contacts in the email on the appropriate record type cards. You can create a new record from a related record card. This capability is useful when you want to create a new record that is related to an existing record without having to go to the CRM system.
 
 1. In the **Sales** pane, go to the related record card that you want to create a new record for.
 1. Select the plus sign (**+**) in the upper-right corner.

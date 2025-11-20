@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-the Sales app offers email insights to help sellers quickly understand key information in their inbox. This article explains how to configure the email insights settings, including how to enable or disable automatic email summarization in the Key email info card. Use these settings to tailor the experience for your organization's needs.
+The Sales app offers email insights to help sellers quickly understand key information in their inbox. This article explains how to configure the email insights settings, including how to enable or disable automatic email summarization in the **Key email info** card. Use these settings to tailor the experience for your organization's needs.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 

@@ -67,7 +67,7 @@ As a CRM administrator, you can control who can use AI capabilities in the Sales
 
 ## Data access and use
 
-the Sales app uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).
+The Sales app uses the Azure OpenAI Service to generate AI-derived content. It doesn't process or store content for purposes of monitoring or preventing abusive or harmful uses of the service or for developing, testing, or improving capabilities that are designed to prevent abusive or harmful outputs. No Microsoft personnel have access to this content. Your users bear the sole risk and responsibility for any use of any Azure OpenAI-powered features. [Learn more about Azure OpenAI Service data, privacy, and security](/legal/cognitive-services/openai/data-privacy).
 
 The Azure OpenAI Service is available in limited geographies. By using Copilot features powered by Azure OpenAI, you agree that data might be stored or processed outside of your geographic region, compliance boundary, or national cloud instance. Learn more about [data residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview) and read our [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
@@ -75,7 +75,7 @@ The Azure OpenAI Service is available in limited geographies. By using Copilot f
 
 ### Why do sellers see the Copy content button instead of the Add to email button in the suggested email content feature?
 
-Their the Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-sales-as-an-integrated-app.md#update-the-sales-app).
+Their Sales app for Outlook add-in is out of date. Make sure that the Sales app for Outlook add-in is updated to the latest version (10.0.0.11 or newer) to use the add-to-email functionality. [Learn how to update the Sales app](install-sales-as-an-integrated-app.md#update-the-sales-app).
 
 ### Related information
 

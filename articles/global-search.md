@@ -1,5 +1,5 @@
 ---
-title: Search for a CRM record using the Sales app
+title: Search for a CRM record using Sales app
 description: Explore the Sales app CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
 ms.date: 11/20/2025
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:05/15/2024
 ---
 
-# Search for a CRM record using the Sales app
+# Search for a CRM record using Sales app
 
 With the Sales app, you can use the global search functionality to search for a customer relationship management (CRM) record at any time, regardless of the context. You can quickly reference records even if they aren't related to the current context. The search functionality is also available in a range of other scenarios, such as when you save an email or email summary to your CRM.
 
@@ -113,6 +113,6 @@ For both search mechanisms, only records that are visible in the Quick Find View
 
 ### Salesforce
 
-the Sales app uses Salesforce Object Search Language (SOSL) for search queries. Salesforce recommends this search mechanism because of its efficiency and comprehensive search capabilities. More information: [Introduction to SOQL and SOSL](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_sosl_intro.htm)
+The Sales app uses Salesforce Object Search Language (SOSL) for search queries. Salesforce recommends this search mechanism because of its efficiency and comprehensive search capabilities. More information: [Introduction to SOQL and SOSL](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_sosl_intro.htm)
 
 In Salesforce, all indexable fields of all eligible records are searched.

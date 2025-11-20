@@ -20,7 +20,7 @@ When an email or meeting is saved to the CRM, the **Sales** side pane shows the 
 
 :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing an email that was saved to the CRM.":::
 
-the Sales app can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
+The Sales app can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
 
 ## Save from the highlight card
 
@@ -32,7 +32,7 @@ the Sales app can save emails and meetings to your CRM from the highlight card, 
 
 1. Under **Connect to a record**, select a record to connect the email or meeting to.
 
-    - Select a suggested record: the Sales app uses AI to suggest accounts and opportunities that are related to contacts in the activity. Some suggestions for opportunities are provided only when the email or meeting content is in English.
+    - Select a suggested record: Sales app uses AI to suggest accounts and opportunities that are related to contacts in the activity. Some suggestions for opportunities are provided only when the email or meeting content is in English.
 
     - Search for a record to select: Use the search box to find and connect to a record of any type that your administrator added to the Sales app.
 
@@ -56,7 +56,7 @@ the Sales app can save emails and meetings to your CRM from the highlight card, 
 
 ## Save from a related record card
 
-the Sales app shows records that are related to contacts that are saved in the CRM. All records of the same type, such as accounts or opportunities, appear on a card for that type. You can save the email or meeting to your CRM from these cards. If you already saved it to the CRM from the highlight card, you can't save it again from a related record card.
+The Sales app shows records that are related to contacts that are saved in the CRM. All records of the same type, such as accounts or opportunities, appear on a card for that type. You can save the email or meeting to your CRM from these cards. If you already saved it to the CRM from the highlight card, you can't save it again from a related record card.
 
 1. Open the email or meeting, and then open the Sales app.
 
@@ -88,7 +88,7 @@ When you read an email from an external contact and you haven't already saved it
 
 1. Select **Save**.
 
-the Sales app can show a banner message that includes quick CRM actions in up to two of your external emails per day. If you don't want these banners to appear, ask your administrator to turn them off for your mailbox.
+The Sales app can show a banner message that includes quick CRM actions in up to two of your external emails per day. If you don't want these banners to appear, ask your administrator to turn them off for your mailbox.
 
 ## Open saved activities in your CRM
 
@@ -129,7 +129,7 @@ If your CRM administrator has turned on the capability to save attachments, then
 
 ## Differences between Dynamics 365 and Salesforce
 
-the Sales app works a little differently depending on which CRM you use. The differences are described in the following sections.
+The Sales app works a little differently depending on which CRM you use. The differences are described in the following sections.
 
 ### When you save activities to Dynamics 365
 

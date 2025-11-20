@@ -1,5 +1,5 @@
 ---
-title: the Sales app deployment guide for Salesforce CRM customers
+title: Sales app deployment guide for Salesforce CRM customers
 description: Learn how to deploy the Sales app for Salesforce CRM customers.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -10,7 +10,7 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# the Sales app deployment guide for Salesforce CRM customers
+# Sales app deployment guide for Salesforce CRM customers
 
 Follow the instructions in this guide to deploy the Sales app for your Salesforce CRM customers.
 
@@ -53,7 +53,7 @@ Enable transcripts for Teams calls so that when the Sales app is added to a reco
 
 ## Step 4: Confirm users have the right security roles
 
-the Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales app.
+The Sales app applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales app.
 
 Salesforce administrators who need to customize the Sales app [must have appropriate permissions](privileges.md#permissions-required-for-salesforce-administrators).
 
@@ -65,7 +65,7 @@ If there are Data Loss Prevention (DLP) policies defined in Power Platform for t
 
 ## Step 6: Ensure Microsoft Power Platform connected app isn't blocked in Salesforce
 
-the Sales app uses the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Sales app users.
+The Sales app uses the Power Platform connector to connect to Salesforce CRM. Ensure that the connector is enabled for the Sales app users.
 
 1. Sign in to Salesforce CRM as an administrator.
 
@@ -103,7 +103,7 @@ The environment is provisioned using server-to-server (S2S) authentication, whic
 
 **Administer roles in the provisioned environment**
 
-the Sales app automatically assigns all Power Platform administrators and Microsoft 365 global administrators to the System Administrator role in the trial environment. After the environment is created, it is recommended to review the list of administrators to ensure appropriate access levels.
+The Sales app automatically assigns all Power Platform administrators and Microsoft 365 global administrators to the System Administrator role in the trial environment. After the environment is created, it is recommended to review the list of administrators to ensure appropriate access levels.
 
 > [!IMPORTANT]
 > In the Power Platform Admin Center, tenant administrators can restrict trial environment creation to administrators. However, due to the current provisioning flow, this setting is bypassed because the system assigns a predefined administrator during provisioning. This means tenant administrators cannot gate these environments from being created.
@@ -118,7 +118,7 @@ You can [set up AI features in the Sales app](suggested-replies.md) to use AI fe
 
 ### Customize forms and fields
 
-the Sales app comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
+The Sales app comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
 ## Step 9: Welcome sellers to the Sales app
 
@@ -134,7 +134,7 @@ Now that you've installed and configured the Sales app in Outlook and Teams, get
 
 ## Community
 
-We encourage all the Sales app users to visit and register on the [the Sales app community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
+We encourage all users of the Sales app to visit and register on the [Sales app community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
 
 -   Forums to connect with peers and discuss shared experiences.
 

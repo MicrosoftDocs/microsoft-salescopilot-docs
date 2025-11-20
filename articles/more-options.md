@@ -1,6 +1,6 @@
 ---
-title: Access more options in the Sales app
-description: Explore the Sales app options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
+title: Access more options in Sales app
+description: Explore Sales app options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# More options in the Sales app
+# More options in Sales app
 
 In this article, you learn about the other options available in the Sales app. These options help you share feedback, view diagnostics data, sign out, and switch between environments or CRM systems. You can access these options by selecting **Options** (**...**) in the upper-right corner of the **Sales** pane.
 
@@ -53,7 +53,7 @@ You can view the Sales app diagnostics and troubleshooting data, including appli
 
    :::image type="content" source="media/copy-details.png" alt-text="Screenshot showing how to copy diagnostics data.":::
 
-## Sign out of the Sales app
+## Sign out of Sales app
 
 Signing out of the Sales app disconnects it from the CRM system. You need to sign in again to use the Sales app.
 

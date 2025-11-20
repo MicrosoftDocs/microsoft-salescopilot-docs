@@ -1,5 +1,5 @@
 ---
-title: Install the Sales app
+title: Install Sales app
 description: Learn what are the various ways to install the Sales app.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -10,9 +10,9 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install the Sales app
+# Install Sales app
 
-the Sales app can be installed either by an administrator or by an end user. As an administrator, you can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use the Sales app, see [Privileges required to use the Sales app](privileges.md).
+The Sales app can be installed either by an administrator or by an end user. As an administrator, you can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use the Sales app, see [Privileges required to use the Sales app](privileges.md).
 
 ## Admin-deployed installation
 
@@ -39,7 +39,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 > - You may not be able to install the Sales app if downloading add-ins is turned off for your organization. In this case, contact your administrator.
 > - If you are using the Dynamics 365 app for Outlook, you can consider switching to the Sales app, as you can do much more with the Sales app. More information: [Difference between the Sales app and Dynamics 365 app for Outlook](#difference-between-sales-app-and-dynamics-365-app-for-outlook)
 
-### Install the Sales app in Outlook
+### Install Sales app in Outlook
 
 1. Sign in to [Microsoft AppSource](https://appsource.microsoft.com/home).
 
@@ -54,7 +54,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 > [!NOTE]
 > You can also get the add-in from Office Store within Outlook. More information: [Get an Office Add-in for Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8).
 
-#### Difference between the Sales app and Dynamics 365 app for Outlook
+#### Difference between Sales app and Dynamics 365 app for Outlook
 
 | Capability | the Sales app | Dynamics 365 app for Outlook |
 |------------|---------------|------------------------------|
@@ -75,7 +75,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 | ² the Sales app allows creating contacts and editing contacts, accounts, and opportunities. Support for creating and editing additional entities is coming soon. | | |
 |³ Requires the Sales app to be installed in Microsoft Teams.  |               |                              |      
 
-### Install the Sales app in Microsoft Teams
+### Install Sales app in Microsoft Teams
 
 1. Sign in to Microsoft Teams.  
 1. In the navigation bar on the left, select **Apps**.
@@ -89,12 +89,12 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 
 Once the Sales app is deployed, each user is welcomed by an engaging message from the Sales bot in Teams. This message outlines the key capabilities in the Sales app and provides direct links to comprehensive feature documentation and other learning resources.
 
-## How to use the Sales app?
+## How to use Sales app?
 
 After the Sales app is installed, you can start using it in Outlook and Teams. For information on how to use the Sales app, see [Access the Sales app](open-app.md).
 
 ### Related information
 
-[Install the Sales app in Outlook](install-sales-as-an-integrated-app.md)<br>
-[Install and pin the Sales app in Teams](install-pin-sales-teams.md)<br>
-[Privileges required to use the Sales app](privileges.md)
+[Install Sales app in Outlook](install-sales-as-an-integrated-app.md)<br>
+[Install and pin Sales app in Teams](install-pin-sales-teams.md)<br>
+[Privileges required to use Sales app](privileges.md)

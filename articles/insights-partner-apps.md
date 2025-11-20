@@ -41,7 +41,7 @@ In the pop-up message in Outlook, select **Create** to create a connector for th
 
 > [!NOTE]
 > - If the connector uses Microsoft Entra ID for authentication, the connection is created automatically and you are not prompted to sign in.
-> - All Power Platform connectors are not certified to work with the Sales app. the Sales app displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
+> - All Power Platform connectors are not certified to work with the Sales app. The Sales app displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
 > - If you are a partner application maker and would like to integrate with the Sales app, see [Extend the Sales app](extend-sales-app.md). Currently, DocuSign can be integrated with the Sales app. 
 
 ## View related records
@@ -53,7 +53,7 @@ Related records from partner applications are displayed in a new card under reco
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-All the information about related records comes from the partner applications. the Sales app renders the related record information retrieved from the partner application through the Power Platform connector. the Sales app does not edit or filter the information.
+All the information about related records comes from the partner applications. The Sales app renders the related record information retrieved from the partner application through the Power Platform connector. The Sales app does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 
@@ -65,6 +65,6 @@ Latest activities from partner applications are displayed under the **Latest act
 
 :::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
 
-All the information about activities comes from the partner applications. the Sales app renders the activity information retrieved from the partner application through the Power Platform connector. the Sales app does not edit or filter the information.
+All the information about activities comes from the partner applications. The Sales app renders the activity information retrieved from the partner application through the Power Platform connector. The Sales app does not edit or filter the information.
 
 Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 

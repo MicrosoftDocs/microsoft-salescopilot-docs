@@ -1,5 +1,5 @@
 ---
-title: Use server-side synchronization with the Sales app
+title: Use server-side synchronization with Sales app
 description: Learn how to use server-side synchronization with the Sales app.
 ms.date: 11/20/2025
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Use server-side synchronization with the Sales app
+# Use server-side synchronization with Sales app
 
 > [!NOTE]
 > This article is relevant only if you've connected the Sales app to your Dynamics 365 environment.
@@ -30,7 +30,7 @@ If you're a seller and if server-side synchronization isn't enabled for you by y
 ## Mailbox configuration for saving Outlook activities to Dynamics 365
 
 Dynamics 365 users will have their mailboxes configured based on the settings provided as part of turning on server-side synchronization.  
-For a the Sales app user to save Outlook emails and appointments to Dynamics 365 from the Sales app, their mailboxes need to be:
+For a Sales app user to save Outlook emails and appointments to Dynamics 365 from the Sales app, their mailboxes need to be:
 
 - Configured to use server-side synchronization for incoming email, outgoing email, and appointments.  
 - Approved  

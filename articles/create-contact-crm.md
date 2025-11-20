@@ -31,7 +31,7 @@ If an external contact doesn't exist in your CRM, create a contact in the CRM r
    > [!NOTE]
    > You can also open the contact form in your CRM. Select **Open in (CRM)**, and then enter details.
 
-    the Sales app automatically connects the new CRM contact to your external contact.
+    The Sales app automatically connects the new CRM contact to your external contact.
 
 > [!IMPORTANT]
 >

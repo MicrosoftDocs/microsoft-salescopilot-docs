@@ -1,5 +1,5 @@
 ---
-title: Install the Sales app in Outlook
+title: Install Sales app in Outlook
 description: Learn how to install, manage, and update the Sales app in Microsoft 365 with this comprehensive guide.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -14,7 +14,7 @@ ms.custom:
   - ai-seo-date:06/19/2024
 ---
 
-# Install the Sales app in Outlook
+# Install Sales app in Outlook
 
 As an administrator, you can install the Sales app as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 

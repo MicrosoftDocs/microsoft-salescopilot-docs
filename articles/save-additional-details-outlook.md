@@ -18,7 +18,7 @@ As an administrator, you can customize how sellers save and categorize emails an
 
 ## Prerequisites
 
-CRM administrators must access admin settings from the Sales app in Teams. For more information, go to [the Sales app admin settings](administrator-settings-sales-app.md).
+CRM administrators must access admin settings from the Sales app in Teams. For more information, go to [Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Enable or disable saving emails and meetings to CRM
 

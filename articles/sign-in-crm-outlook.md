@@ -30,7 +30,7 @@ If you have any Dynamics 365 environment (production or non-production) that has
 |Multiple non-production environments but no production environment     |  Signed in to the first non-production environment       |  Dialog box to confirm or change the signed in environment       |
 
 > [!NOTE]
-> the Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. the Sales app fetches a list of environments having Sales in Microsoft 365 Copilot, and then selects the first environment in the list to automatically sign in to.
+> The Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales app fetches a list of environments having Sales in Microsoft 365 Copilot, and then selects the first environment in the list to automatically sign in to.
 
 ### Single environment or single production environment
 
@@ -87,7 +87,7 @@ You can use basic capabilities of the Sales app without signing in to your CRM. 
 
     Once you're signed in, the **Sales** pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
 
-## Use the Sales app without signing in
+## Use Sales app without signing in
 
 You can use the Sales app and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
 

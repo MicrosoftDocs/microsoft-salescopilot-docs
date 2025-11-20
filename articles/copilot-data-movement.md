@@ -1,5 +1,5 @@
 ---
-title: the Sales app data movement across geographies
+title: Sales app data movement across geographies
 description: Learn why you need to opt in to allow Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
 ms.date: 11/20/2025
 ms.topic: concept-article
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# the Sales app data movement across geographies
+# Sales app data movement across geographies
 
 Although the Sales app is available in most of the geographic regions, it requires the Microsoft Azure OpenAI Service, which is available only in specific regions. If your CRM environment is located in a region where Azure OpenAI Service is not available, your data, including personal data or data used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
 

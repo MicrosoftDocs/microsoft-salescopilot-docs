@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Share a CRM record in Teams or Outlook
 
-the Sales app enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.
+The Sales app enables you to share a CRM record with your team members in a Teams chat or channel conversation, or in an email allowing them to view the record details in the flow of their work. The CRM record is shared as an adaptive card that is kept up to date based on the data in your CRM system.
 
 In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. The AI-generated summary is displayed only if the Copilot features are enabled for your organization.  
 

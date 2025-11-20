@@ -1,5 +1,5 @@
 ---
-title: Draft an email message in the Sales app
+title: Draft an email message in Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using the Sales app's AI.
 ms.date: 11/20/2025
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.custom:
   - ai-seo-date:11/08/2023
 ---
 
-# Draft an email message in the Sales app
+# Draft an email message in Sales app
 
 When you compose a new email or reply to your customers by email, the Sales app uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
@@ -203,7 +203,7 @@ If there are no more open opportunities identified by the AI model, no option is
 
    > [!NOTE]
    >
-   > - the Sales app displays opportunities that are related to the contacts in the email.
+   > - The Sales app displays opportunities that are related to the contacts in the email.
    >
    > - The information displayed below the opportunities is displayed as customized by your administrator. More information: [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view)
 
@@ -470,7 +470,7 @@ If you enter text that contains undesired or inappropriate content (potential pr
 
 ## How is suggested content generated?
 
-the Sales app uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it's written by a person.
+The Sales app uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it's written by a person.
 
 Original content is generated every time, but it isn't always factual. In addition, the underlying technology uses AI that is trained on a wide range of internet sources. Some suggestions might include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your reply is accurate and appropriate.
 
