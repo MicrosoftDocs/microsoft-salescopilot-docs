@@ -20,7 +20,7 @@ ms.custom:
 
 This section outlines what Sales app expects from your application APIs that either enhance an existing capability or introduce a new one. It covers the following aspects:
 
-- The input context that your application APIs can expect from Sales app (the capability)  
+- The input context that your application APIs can expect from the Sales app (the capability)  
 - The type of insights that each capability can show in the user interface (and therefore what your APIs should provide)  
 - The descriptions that are needed at the API level, and for each API input and output, to help the Sales app identify the correct API to invoke at runtime
 
