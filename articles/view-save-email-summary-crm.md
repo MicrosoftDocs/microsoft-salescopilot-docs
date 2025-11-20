@@ -108,7 +108,7 @@ The email summary is saved to your CRM as a note on the selected record. The sub
 :::image type="content" source="media/timeline.png" alt-text="Screenshot of a note added to a timeline in Dynamics 365 Sales Hub.":::
 
 > [!NOTE]
-> Salesforce has two types of note objects: "Notes and Attachments" and "Notes," also known as "Content Notes." You can use either of these objects to attach notes to a CRM record. the Sales app only supports the "Notes and Attachments" object out of the box. If you want it to support the "Notes" object, ask your Salesforce administrator to contact Microsoft Support.
+> Salesforce has two types of note objects: "Notes and Attachments" and "Notes," also known as "Content Notes." You can use either of these objects to attach notes to a CRM record. The Sales app only supports the "Notes and Attachments" object out of the box. If you want it to support the "Notes" object, ask your Salesforce administrator to contact Microsoft Support.
 
 ## Related information
 

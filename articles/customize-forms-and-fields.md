@@ -15,7 +15,7 @@ As an administrator, you can customize the CRM information that's displayed in t
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-the Sales app forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
+The Sales app forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
 
 > [!NOTE]
 > You cannot select a view for the Contact record type.
@@ -288,7 +288,7 @@ After you enable leads support, the user experience to work with leads is simila
 
 Each record type has a mini view that displays limited information when they're collapsed or shown in a list. The mini view is available at various places in the Sales app pane, such as in the quick view on the CRM tab.
 
-The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in the Sales app for Outlook. More information: [Search behavior in the Sales app for Outlook](#search-behavior-in-sales-app-for-outlook)
+The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in the Sales app for Outlook. More information: [Search behavior in Sales app for Outlook](#search-behavior-in-sales-app-for-outlook)
 
 ![Screenshot showing mini view of CRM records in the Sales app.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in the Sales app.")
 
@@ -304,7 +304,7 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 4.  Select **Publish** to save your changes.
 
-### Search behavior in the Sales app for Outlook
+### Search behavior in Sales app for Outlook
 
 Key field settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the key fields you select for the mini view exist in the [quick find view](/dynamics365/customerengagement/on-premises/customize/choose-and-configure-columns?view=op-9-1&preserve-view=true), otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
 

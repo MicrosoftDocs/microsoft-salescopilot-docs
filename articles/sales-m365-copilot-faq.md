@@ -185,7 +185,7 @@ Users may need to change a few settings to get the best experience of Sales in M
 
 ### Why do I see the older icon for Sales app in Outlook desktop?
 
-In some cases, you may see the older icon for the Sales app in Outlook desktop.
+In some cases, you might see the older icon for the Sales app in Outlook desktop.
 
 :::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of the Sales app":::
 
@@ -266,7 +266,7 @@ Ensure that the following settings are set to true:
 
 ### Why do users see duplicate icons for Sales app in Outlook desktop?
 
-Users may see duplicate icons for the Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
+Users might see duplicate icons for the Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
@@ -278,7 +278,7 @@ Users may see duplicate icons for the Sales app due to a recent update to the en
 
     :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of the Sales app.":::
 
-    After the merge is complete, users will see only one icon for the Sales app in Outlook desktop. It may take a few hours for the changes to take effect.
+    After the merge is complete, users will see only one icon for the Sales app in Outlook desktop. It might take a few hours for the changes to take effect.
 
 ## Forms and fields customization
 
