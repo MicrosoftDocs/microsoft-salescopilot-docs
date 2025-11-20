@@ -21,7 +21,7 @@ You can open a collaboration space&mdash;an account team or a deal room channel 
     
   - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the deal room channel highlighted.":::
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the deal room channel highlighted.":::
 
   - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
     
