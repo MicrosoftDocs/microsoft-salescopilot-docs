@@ -1,5 +1,5 @@
 ---
-title: Deprecations in the Sales app
+title: Deprecations in Sales app
 description: Features deprecated in the Sales app are listed in this article, giving users time to update their code before removal.
 ms.date: 11/20/2025
 ms.topic: overview
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Deprecations in the Sales app
+# Deprecations in Sales app
 
 The features that have been deprecated in the Sales app are listed in this article. 
 
