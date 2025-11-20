@@ -17,7 +17,7 @@ ms.custom:
 
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in various ways.
 
-- In Outlook, open Sales app, and then follow one of these steps:
+- In Outlook, open the Sales app, and then follow one of these steps:
     
   - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
