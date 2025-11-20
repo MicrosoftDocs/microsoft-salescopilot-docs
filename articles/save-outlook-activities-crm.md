@@ -92,9 +92,9 @@ Sales app can show a banner message that includes quick CRM actions in up to two
 
 ## Open saved activities in your CRM
 
-After you save an email or meeting to your CRM, you can open it from the **Email from** or the meeting title card in the Copilot for Sales side pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
+After you save an email or meeting to your CRM, you can open it from the **Email from** or the meeting title card in the **Sales** pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
 
-1. Open the email or meeting, and then open Copilot for Sales.
+1. Open the email or meeting, and then open Sales app.
 1. On the **Email from** or the meeting title card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
 
 :::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::

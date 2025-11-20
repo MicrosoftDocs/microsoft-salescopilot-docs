@@ -24,11 +24,11 @@ CRM administrators must access admin settings from the Sales app in Teams. For m
 
 You can control if sellers can save emails and meetings to the CRM. By default, the settings to save emails and meetings to the CRM are turned on. If you turn them off, sellers will no longer be able to save emails and meetings to the CRM.
 
-1. In Copilot for Sales admin settings, select **Save to (CRM)**.
+1. In Sales app admin settings, select **Save to (CRM)**.
 1. To turn off saving emails to CRM, turn off **Save emails to (CRM)**.
 1. To turn off saving meetings to CRM, turn off **Save meetings to (CRM)**.
 
-    :::image type="content" source="media/save-to-crm.png" alt-text="Screenshot showing the settings to save Outlook activities to CRM in Copilot for Sales admin settings in Teams.":::
+    :::image type="content" source="media/save-to-crm.png" alt-text="Screenshot showing the settings to save Outlook activities to CRM in Sales app admin settings in Teams.":::
 
 ## Configure the fields to save to the CRM
 
@@ -36,7 +36,7 @@ You can select the fields that are saved to the CRM together with emails or meet
 
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
-1. In Copilot for Sales admin settings, select **Save to (CRM)**.  
+1. In Sales app admin settings, select **Save to (CRM)**.  
 1. Select **Save emails to (CRM)** or **Save meetings to (CRM)**, depending on the type of activity that you want to configure.
 
     :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot showing the Save emails to Salesforce settings in Sales app admin settings in Teams.":::
@@ -55,7 +55,7 @@ You can control whether sellers can save attachments along with the email or mee
 
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
-1. In Copilot for Sales admin settings, select **Save to (CRM)**.  
+1. In Sales app admin settings, select **Save to (CRM)**.  
 1. To configure attachment saving settings for emails:  
     1. Under the **Save emails to (CRM)** section, turn on **Save attachments with emails**.  
     1. To save all attachments by default, select **Save all attachments in the email by default**. If you don't select this option, sellers can choose which attachments to save when they save the email to CRM.  

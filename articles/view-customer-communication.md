@@ -12,7 +12,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, Copilot for Sales provides AI-generated insights such as the summary, sentiment, objections, and next steps.
+The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, Sales app provides AI-generated insights such as the summary, sentiment, objections, and next steps.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -20,7 +20,7 @@ When working on opportunities, you often manage numerous activities, such as mee
 
 ## Where to see the Customer communication card
 
-You can see **Customer communication** card in the Copilot for Sales side pane in Outlook when you open an email or a meeting.
+You can see **Customer communication** card in the **Sales** pane in Outlook when you open an email or a meeting.
 
 > [!NOTE]
 > - When you're viewing an email, the **Customer communication** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the **Customer communication** card displays the meeting activities related to that.
