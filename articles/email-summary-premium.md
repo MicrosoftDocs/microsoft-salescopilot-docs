@@ -61,7 +61,7 @@ Legend:
 
 1. If the email summary doesn't include CRM information, select the Copilot icon in the upper-left corner of the **Summary by Copilot** box, and then select **Add Sales insights**.
 
-    the Sales app searches your CRM and updates the summary with information from related contact, account, and opportunity records.
+    The Sales app searches your CRM and updates the summary with information from related contact, account, and opportunity records.
 
     :::image type="content" source="./media/email-summary-premium-license-copilot-summary-sales-insights.png" alt-text="Screenshot of an email summary in Outlook on the web with account and opportunity details added.":::
 
