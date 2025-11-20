@@ -16,10 +16,6 @@ ms.custom:
 
 Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams combines the power of Copilot in Teams and Sales, offering seamless, role-specific capabilities for improved collaboration. The experience provides summarized meeting insights, and generated meeting recaps to enable sellers to grow customer relationships and close deals.
 
-Here's the video that shows a [meeting preparation card in Teams](meeting-prep.md) and how to view sales insights using Teams meeting recap:
-
-> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
-
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).

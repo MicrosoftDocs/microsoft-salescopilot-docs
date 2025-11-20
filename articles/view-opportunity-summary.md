@@ -44,10 +44,6 @@ You can view the opportunity summary in the following places:
 | 5 | Name of the opportunity for which summary is generated. |
 | 6 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 
-Here's the video that shows how to view the opportunity summary and [update the CRM based on suggested updates](suggested-crm-updates.md):
-
-> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
-
 ## Supported languages
 
 To see a list of supported languages, see [supported languages](introduction.md#supported-languages-and-geographies).

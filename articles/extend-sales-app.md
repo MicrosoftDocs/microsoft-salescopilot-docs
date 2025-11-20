@@ -29,10 +29,6 @@ This article provides guidance about how to extend Sales app by using your appli
 
 The article also provides guidance about how to manage the input and output for the APIs.  
 
-Watch the following video to learn more about Sales app extensibility.  
-
-> [!VIDEO 28b9cf57-b05f-4b68-8a37-49310e749e1c]
-
 ## How does extensibility work in Sales app?
 
 Sales app in Microsoft 365 consists of multiple individual capabilities that are made available contextually to users. Each capability is backed by a skill service that is owned by Sales app. When a system user interacts with a capability, the skill service for that capability generates the insights that are delivered as part of the capability. Out of the box, the skill service uses data in Microsoft Graph and CRMs to get insights. Through extensibility, the skill service gets additional insights, and therefore enriches the capability, by calling into your application APIs that are made available in your action in real time. When the skill service calls into your application APIs, it passes all available context that your application APIs accept. In return, it expects to receive insights in a format that is aligned with the way that insights are presented to Sales app users in the capability.

@@ -15,10 +15,6 @@ If an external contact doesn't exist in your CRM, create a contact in the CRM r
 > [!TIP]
 > Enter the contact's email address in the following format when you compose an email or meeting invitation: **FirstName LastName &lt;email address&gt;**. If you do, the corresponding items in the CRM contact form fill automatically.
 
-Here's the video that shows how to create a contact in your CRM from Sales app:
-
-> [!VIDEO ee9d39c5-4f97-4355-9515-e7ace2866ebf]
-
 **To create a contact**:
 
 1. In the **Sales** pane, hover over an unsaved contact, and then select **Add to (CRM)**.

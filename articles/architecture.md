@@ -20,8 +20,3 @@ The architecture document provides an in-depth view of the Sales app architectur
 |--------|----------|--------------|
 |[Download Sales app architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
 |[Download Sales app architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
-
-<br>
-Watch this video to get a quick overview of Sales app.
-
-> [!VIDEO 233cbdb3-6610-4fbe-af9a-d402622d2c7a]

@@ -32,10 +32,6 @@ To turn on auto recording for sales meetings:
 
 If you want to turn off auto recording for sales meetings, follow the same steps and turn off the toggle in step 3.
 
-Here's a video that provides an overview of enabling auto recording for sales meetings:
-
-> [!VIDEO 8ca8b57a-3714-4918-b544-c70613e2be98]
-
 ## Configure daily summary of meetings
 
 The daily summary of meetings helps sellers stay organized by providing a single notification summarizing the next five upcoming sales meetings. It reduces notification fatigue while delivering critical insights. The notification categorizes meetings by date, includes clickable meeting titles, and provides essential details like duration and agenda summaries. By default, the feature is turned off. 

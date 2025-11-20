@@ -15,10 +15,6 @@ The meeting preparation card provides the latest information and out-of-the-box 
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
-Here's a video that provides an overview of the meeting preparation card:
-
-> [!VIDEO a3e0e6dd-a215-4f78-a384-4249d472f60c]
-
 ## Prerequisites
 
 - [Connect to a CRM organization in the Sales app](sign-in-crm-outlook.md).

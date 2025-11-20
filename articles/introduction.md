@@ -24,10 +24,6 @@ Here's how you can use Sales app to improve your sales productivity:
 - Participate in Teams meetings and access meeting recordings through **Microsoft Teams**. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings.  
 - Access calendar events, contacts, and read and write emails through **Microsoft Outlook**. It provides email assistance, insights, and recommendations to help you close deals faster. 
 
-Here's a video that gives you a quick overview of Sales app.
-
-> [!VIDEO 233cbdb3-6610-4fbe-af9a-d402622d2c7a]
-
 ## Consideration
 
 A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up Sales app](install-sales-app.md). Sales app allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.

@@ -27,19 +27,11 @@ For steps to install Sales app in Outlook and Teams, see [Install Sales app in O
 > [!NOTE]
 > If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce. If it's blocked, you need to unblock it to use Sales app and might take up to 24 hours for the add-in to show up for your users.
 
-Watch this video to learn how to install Sales app in Outlook and Teams:
-
-> [!VIDEO da2701bb-06f0-49e0-b757-80c584af69f7]
-
 ## User-deployed installation
 
 As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
 
 When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, you can manually add Sales app to the meeting to get meeting summaries.
-
-Watch this video to learn more about Sales app:
-
-> [!VIDEO e7eb1248-4d7f-464b-896c-70f47e6e7fdf]
 
 > [!IMPORTANT]
 >

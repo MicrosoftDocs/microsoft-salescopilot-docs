@@ -16,10 +16,6 @@ ms.custom:
 
 Sales app includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales in Microsoft 365 Copilot role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
 
-Here's the video that shows how to [view an email summary](email-summary-premium.md) and draft an email message in Copilot for Sales:
-
-> [!VIDEO 903b4088-0566-401b-80b6-8dfcb7c96408]
-
 > [!NOTE]
 > Based on the license you have, you can see the capability to draft an email message either within Outlook or in the [**Sales** pane in Outlook](use-copilot-kickstart-email-messages.md).
 

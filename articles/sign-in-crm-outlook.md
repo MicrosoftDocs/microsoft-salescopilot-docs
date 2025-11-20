@@ -66,10 +66,6 @@ You must manually sign in to your CRM in the following cases:
 
 You can use basic capabilities of Sales app without signing in to your CRM. However, to use all the advanced capabilities of Sales app, you must sign in to your CRM.
 
-Here's the video that shows how to sign in to your CRM from Outlook:
-
-> [!VIDEO 3be716ef-858e-4f12-a699-701168585907]
-
 **To manually sign in to your CRM from Outlook**:
 
 1. In the **Sales** pane, select **Sign in** in the banner at the top or card at the bottom.

@@ -22,10 +22,6 @@ The suggestions are displayed in the **Suggested actions** card in the **Sales**
 
 :::image type="content" source="media/suggested-actions-card.png" alt-text="Screenshot showing Suggested actions card.":::
 
-Here's the video that shows [how to view the opportunity summary](view-opportunity-summary.md) and update the CRM based on suggested updates:
-
-> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
-
 ## Update CRM with suggested updates
 
 Sales app scans the email conversations and compares the data with the data in the CRM system to suggest updates. The updates are suggested for the following fields in an opportunity record in CRM system:

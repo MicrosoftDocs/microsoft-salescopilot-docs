@@ -20,10 +20,6 @@ Sales in Microsoft 365 Copilot is supported on mobile (iOS and Android) versions
 > [!NOTE]
 > During the preview, if Sales app was deployed to your organization before mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install Sales app](install-sales-app.md) article.
 
-Here's a video that provides an overview of Sales app on mobile devices:
-
-> [!VIDEO d4240ff0-fcfa-47b7-8bd5-61ab0f2d714f]
-
 ## Outlook experience
 
 You can access the Sales app only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.

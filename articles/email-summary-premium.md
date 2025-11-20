@@ -22,10 +22,6 @@ Email summaries are available when:
 - The email is in one of the [supported languages](introduction.md#supported-languages-and-geographies).
 - The email isn't encrypted.
 
-Here's the video that shows how to view an email summary and [draft an email message](email-reply-premium.md) in Copilot for Sales:
-
-> [!VIDEO 903b4088-0566-401b-80b6-8dfcb7c96408]
-
 > [!NOTE]
 > Based on the license you have, you can see the email summary either within Outlook or in the [**Sales** pane in Outlook](view-save-email-summary-crm.md).
 
