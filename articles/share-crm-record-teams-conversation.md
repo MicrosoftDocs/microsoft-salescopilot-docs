@@ -56,6 +56,9 @@ If the app is blocked by the admin, the message informs the recipients that they
 
 The experience of using the Sales app search message extension when composing an email is a bit different in classic Outlook desktop, new Outlook desktop, and Outlook on the web. 
 
+> [!NOTE]
+> If you're using Classic Outlook desktop, the capability to share a CRM record is supported only on [Current Channel](/microsoft-365-apps/updates/overview-update-channels#current-channel-overview).
+
 ### Classic Outlook desktop
 
 1. On the ribbon, select **Sales** or **All Apps** > **Sales**.  

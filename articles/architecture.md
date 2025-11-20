@@ -18,5 +18,4 @@ The architecture document provides an in-depth view of the Sales app architectur
 
 |Document|Last update|Last updated release|
 |--------|----------|--------------|
-|[Download Sales app architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 13, 2023|September 2023|
-|[Download Sales app architecture related frequently asked questions](https://go.microsoft.com/fwlink/p/?linkid=2230849)|September 13, 2023|September 2023|
+|[Download Copilot for Sales architecture document](https://go.microsoft.com/fwlink/p/?linkid=2230905)|September 19, 2025|September 2025|

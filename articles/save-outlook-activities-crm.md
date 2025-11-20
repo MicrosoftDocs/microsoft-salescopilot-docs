@@ -90,6 +90,15 @@ When you read an email from an external contact and you haven't already saved it
 
 Sales app can show a banner message that includes quick CRM actions in up to two of your external emails per day. If you don't want these banners to appear, ask your administrator to turn them off for your mailbox.
 
+## Open saved activities in your CRM
+
+After you save an email or meeting to your CRM, you can open it from the **Email from** or the meeting title card in the Copilot for Sales side pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
+
+1. Open the email or meeting, and then open Copilot for Sales.
+1. On the **Email from** or the meeting title card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
+
+:::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::
+
 ## Edit activities saved to Dynamics 365
 
 If you use Dynamics 365 as your CRM, you can change some of the details of a saved email or meeting in Sales app and then save the changes to the CRM. You can change the record the activity is connected to, its email categories, and related contacts. If you use Salesforce as your CRM, you can't edit saved activities in Sales app.
