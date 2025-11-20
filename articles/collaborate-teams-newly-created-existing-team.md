@@ -92,7 +92,7 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 When you [set up a deal room](set-up-team-deal-room-template.md), the Sales app in Teams and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
 > [!NOTE]
-> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Sales app privileges. This applies only to the auto posted opportunity summary.
+> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you're not signed in to the Sales app in Outlook or if you're signed in to a different Dynamics environment, as long as you have read access for the record and Sales app privileges. This applies only to the auto-posted opportunity summary.
 > - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Sales app in Outlook to view opportunity summary while also having read access for the record and Sales app privileges.
 > - Opportunity summary is not displayed in a private channel, as bots are not supported by Microsoft Teams in private channels. Also, shared channels have customers added, therefore, CRM information is not shared here as well.
 
