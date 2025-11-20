@@ -21,7 +21,7 @@ ms.custom:
 
 You can use the certified connector action based on [Contoso Hub - Connectors](/connectors/contosohub/) to check out the extensibility points available in Sales.
 
-To try the certified connector action, follow the instructions in [Manage extensions for Sales app](/microsoft-copilot-studio/manage-copilot-for-sales) and enable the Contoso Hub connector action for Sales app.
+To try the certified connector action, follow the instructions in [Manage extensions for Sales app](/microsoft-copilot-studio/manage-copilot-for-sales) and enable the Contoso Hub connector action for the Sales app.
 
 
 You can edit the sample connector and action to get started quickly. Refer to the following guidelines when you edit the create the connector or its actions:
