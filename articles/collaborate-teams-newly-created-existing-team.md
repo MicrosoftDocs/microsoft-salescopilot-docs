@@ -17,11 +17,11 @@ ms.custom:
 
 You can open a collaboration space&mdash;an account team or a deal room channel in Microsoft Teams&mdash;in various ways.
 
-- In Outlook, open Sales app, and then follow one of these steps:
+- In Outlook, open the Sales app, and then follow one of these steps:
     
   - Scroll down to the **Collaborate in Teams** card, and then select the account team name or, for opportunities, the opportunity channel name.
 
-    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the deal room channel highlighted.":::
+    :::image type="content" source="media/created-deal-room-viva-sales.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the deal room channel highlighted.":::
 
   - In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
     
@@ -92,7 +92,7 @@ The following screenshot shows an example of a deal room team for the Fourth Cof
 When you [set up a deal room](set-up-team-deal-room-template.md), the Sales app in Teams and bot are automatically installed for the selected team. The first time you open the deal room channel, an AI-generated [opportunity summary](view-opportunity-summary.md) is included in the standard channel welcome post.
 
 > [!NOTE]
-> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you are not signed in to the Sales app in Outlook or if you are signed in to a different Dynamics environment, as long as you have read access for the record and Sales app privileges. This applies only to the auto posted opportunity summary.
+> - If you're using Dynamics 365 as your CRM system, you can view opportunity summary even if you're not signed in to the Sales app in Outlook or if you're signed in to a different Dynamics environment, as long as you have read access for the record and Sales app privileges. This applies only to the auto-posted opportunity summary.
 > - If you're using Salesforce as your CRM system, you must be signed in to Salesforce in the Sales app in Outlook to view opportunity summary while also having read access for the record and Sales app privileges.
 > - Opportunity summary is not displayed in a private channel, as bots are not supported by Microsoft Teams in private channels. Also, shared channels have customers added, therefore, CRM information is not shared here as well.
 
