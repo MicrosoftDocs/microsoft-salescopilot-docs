@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
-description: Discover how to use Copilot for Sales in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 08/05/2025
+description: Discover how to use the Sales app in Teams to get sales insights in Teams meeting recaps. 
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,16 +14,12 @@ ms.custom:
 
 # View sales insights in Microsoft Teams meeting recap
 
-Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams combines the power of Copilot in Teams and Sales, offering seamless, role-specific capabilities for improved collaboration. The experience provides summarized meeting insights, and generated meeting recaps to enable sellers to grow customer relationships and close deals.
-
-Here's the video that shows a [meeting preparation card in Teams](meeting-prep.md) and how to view sales insights using Teams meeting recap:
-
-> [!VIDEO 159e3203-7996-4193-9037-e45cf0744dbf]
+Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams combines the power of Copilot in Teams and Sales, offering seamless, role-specific capabilities for improved collaboration. The experience provides summarized meeting insights, and generated meeting recaps to enable sellers to grow customer relationships and close deals.
 
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
-- Add Copilot for Sales app to the meeting.
+- Add the Sales app to the meeting.
 - Transcribe the meeting.
 
 ## Supported languages
@@ -32,7 +28,7 @@ To see a list of supported languages, go to [supported languages](introduction.m
 
 ## View sales related insights in meeting recap
 
-You can view a meeting recap if you record and transcribe a meeting. With Copilot for Sales added to the Teams meeting, you can view sales related insights in the meeting recap.
+You can view a meeting recap if you record and transcribe a meeting. With the Sales app added to the Teams meeting, you can view sales related insights in the meeting recap.
 
 To view sales related insights, [open the meeting recap in Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef), select the down-arrow next to **Transcript**, and then select **Sales**.
 
@@ -94,7 +90,7 @@ It is strongly recommended that you verify insights using your own judgment and 
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
-With Copilot for Sales, you can quickly draft an email from the meeting recap in Teams. The email includes a summary of the meeting, action items, and follow-up tasks.
+With the Sales app, you can quickly draft an email from the meeting recap in Teams. The email includes a summary of the meeting, action items, and follow-up tasks.
 
 To create a post-meeting summary email:
 
@@ -134,7 +130,7 @@ If you don't see the **Save to (CRM)** button, it could be due to one of the fol
 - The meeting has multiple recordings.
 - The meeting is a part of a recurring series.
 - You're not signed in to the CRM.
-- You don't have a Copilot for Sales license.
+- You don't have a valid license.
 - The meeting transcript is not sufficiently long to generate meeting notes.
 
 ### Related information

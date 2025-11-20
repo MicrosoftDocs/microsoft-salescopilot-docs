@@ -1,7 +1,7 @@
 ---
 title: Configure how AI meeting notes are saved from Teams recap to CRM
-description: Learn how to configure how AI meeting notes are saved from Teams recap to CRM using Microsoft 365 Copilot for Sales in Teams.
-ms.date: 07/11/2025
+description: Learn how to configure how AI meeting notes are saved from Teams recap to CRM using the Sales app in Teams.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,7 +17,7 @@ This feature allows your sellers to keep their CRM up to date with the latest me
 
 To configure how AI meeting notes are saved from Teams recap to CRM: 
 
-1. In Copilot for Sales admin settings, select **Save to (CRM)**. 
+1. In the Sales app admin settings, select **Save to (CRM)**. 
 1. Under the **Save AI meeting notes from Teams to (CRM)** section, turn on or off the **Save AI meeting notes from Teams recap** toggle.
 1. Select one of the following options:
    - **Save to appointment description field by default**: This option saves the AI-generated meeting notes to the appointment description field in CRM by default.

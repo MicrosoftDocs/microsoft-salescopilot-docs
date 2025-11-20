@@ -1,7 +1,7 @@
 ---
 title: Integrate Sales Agent with Salesforce (preview)
 description: Learn how to integrate Sales Agent into Salesforce.
-ms.date: 06/18/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,14 +16,14 @@ ms.author: shjais
 
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from research and generating personalized outreach emails tailored to the lead and its product of interest.
 
-As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Copilot for Sales app.
+As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Sales app.
 
 This article provides instructions to integrate Sales Agent with Salesforce to give sellers the best experience in Salesforce.
 
 ## Prerequisites
 
 - The Sales Agent is [configured and connected to Salesforce](set-up-sales-agent.md).
-- You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Create a link to Sales Agent research from leads
 
@@ -50,7 +50,7 @@ As an admin in Salesforce, open the **Setup** page and perform the following ste
 
 ## Show lead research summary on lead page
 
-You can make a summary of the lead research available on each lead page. The summary provides a short summary of the information gathered about the lead, along with a link to view the full research details in the Copilot for Sales personal app.
+You can make a summary of the lead research available on each lead page. The summary provides a short summary of the information gathered about the lead, along with a link to view the full research details in the Sales personal app.
 
 > [!IMPORTANT]
 > Sales Agent must be configured to [write summaries](set-up-sales-agent.md) into the **SalesAgentResearchSummaries** object and store a link to the summary from the lead in the **SalesAgentResearchSummary** field.
@@ -59,11 +59,11 @@ You can make a summary of the lead research available on each lead page. The sum
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to add the Sales Agent summary to your lead page.
 
-### Upload the Copilot for Sales logo
+### Upload the Sales app logo
 
 1. Go to **Custom Code** > **Static Resources**, and select **New**.
 1. Set the name of the resource to **copilot_for_sales_logo**.
-1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="Copilot for Sales logo.":::
+1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="Sales app logo.":::
 
 ### Create Visualforce page for the Sales Agent summary
 

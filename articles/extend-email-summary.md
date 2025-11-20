@@ -1,7 +1,7 @@
 ---
 title: Enrich email summary with content suggestions from your application (preview) 
-description: Enhance email summaries in Outlook by using Copilot for Sales with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
-ms.date: 09/29/2025
+description: Enhance email summaries in Outlook by using the Sales app with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,14 +18,14 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When Copilot in Outlook and Copilot for Sales are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that Copilot for Sales provides with insights from your own application.
+When Copilot in Outlook and the Sales app are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that the Sales app provides with insights from your own application.
 
 > [!NOTE]
 > This API replaces the existing _Email Summary Skill_ API (Operation Id: scp-get-email-insights) with a new version. 
 
 ## API description
 
-You must add the following API description to the action. This helps Copilot for Sales identify the correct API to invoke for enriching the capability.
+You must add the following API description to the action. This helps the Sales app identify the correct API to invoke for enriching the capability.
 
 *This action gets additional sales insights that will be shown in C4S email summary experience inside outlook summary. The action enhances the existing skills of copilot for sales.*
 
@@ -75,7 +75,7 @@ This payload goes as the request body of the API request.
 
 ## Output parameters
 
-Copilot for Sales expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that Copilot for Sales can correctly parse the output, the response structure must adhere to the guidelines in the following table.
+The Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|
@@ -129,6 +129,6 @@ Legend:
 [Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
+[Extend the Sales app with partner applications](extend-sales-app.md)<br>
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
-[Build Copilot for Sales extensions](build-apis.md)
+[Build the Sales app extensions](build-apis.md)
