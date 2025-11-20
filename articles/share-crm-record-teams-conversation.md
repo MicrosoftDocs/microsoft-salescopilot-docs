@@ -92,7 +92,7 @@ The experience of using the Sales app search message extension when composing an
 
 Your administrator needs to [turn on this feature](share-crm-record-admin.md) before you can use it. 
 
-1. In the body of the email or calendar invite, type a forward slash (/) symbol. the Sales app displays a list of recently accessed records.
+1. In the body of the email or calendar invite, type a forward slash (/) symbol. The Sales app displays a list of recently accessed records.
 
 1. Select a record from the list or search for a record by entering the first few letters of the record name.
 

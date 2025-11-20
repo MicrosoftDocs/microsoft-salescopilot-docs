@@ -56,7 +56,7 @@ For information about enabling server-side synchronization, see [Connect to Exch
 
 ## Step 5: Confirm users have the right security roles
 
-If you're using the following out-of-the-box Dynamics 365 Sales security roles, you don't need to do anything. the Sales app privileges are added automatically for:
+If you're using the following out-of-the-box Dynamics 365 Sales security roles, you don't need to do anything. The Sales app privileges are added automatically for:
 
 -   Primary sales roles: Salesperson or Sales Manager
 

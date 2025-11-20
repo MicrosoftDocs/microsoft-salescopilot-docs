@@ -39,14 +39,14 @@ For the steps to create a custom connector, set up authentication, and test the 
 
 ## Create and publish an action in Copilot Studio
 
-Actions determine what operations are performed with the custom insights and data sources, such as the custom connectors that you built. They enable Sales to identify the external sources that insights should be extracted from to enrich the Sales experience. You can create actions based on the connector that you developed by using Copilot Studio. For more information, go to [Create and configure copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
+Actions determine what operations are performed with the custom insights and data sources, such as the custom connectors that you built. They enable Sales to identify the external sources that insights should be extracted from to enrich the Sales experience. You can create actions based on the connector that you developed by using Copilot Studio. For more information, go to [Create and configure Copilot plugins](/microsoft-copilot-studio/copilot-plugins-overview).
 
 > [!NOTE]
 > If Sales doesn't currently appear in Copilot Studio, ask your administrator to [deploy the Sales enhanced Teams app](/microsoft-sales-copilot/enable-license#deploy-the-copilot-for-sales-app).
 
 ## Enable the connector action for users
 
-Before Sales users can access a connector action that is published in Copilot Studio, a Sales administrator must enable it. If you want to enable a connector action for your copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
+Before Sales users can access a connector action that is published in Copilot Studio, a Sales administrator must enable it. If you want to enable a connector action for your Copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
 
 > [!NOTE]
 > - Actions enabled by your administrator could take up to seven days to be ingested in Sales experiences. To force a quicker update, ask the users to sign out and then sign in again to Sales in either Outlook or Teams.

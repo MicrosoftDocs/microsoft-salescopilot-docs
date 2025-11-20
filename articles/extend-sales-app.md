@@ -52,7 +52,7 @@ For example, you want to enhance the [opportunity insights](extend-opportunity-i
 
 ## Copilot capabilities that can be extended
 
-Through extensibility, you can enhance existing capabilities or add new capabilities in the Sales app. You can bring data and insights from your application into the copilot experience. The following capabilities can be extended:
+Through extensibility, you can enhance existing capabilities or add new capabilities in the Sales app. You can bring data and insights from your application into the Copilot experience. The following capabilities can be extended:
 
 - [Email summaries](email-summary-premium.md)
 - [Opportunity insights](extend-opportunity-insights.md)

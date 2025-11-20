@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 
 [!INCLUDE [vs-rebrand-note](includes/vs-rebrand-note.md)]
 
-The Sales app is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.  
-Depending on the following roles, you can use the Sales app to:  
+Sales in Microsoft 365 Copilot is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.
+
+Depending on the following roles, you can use the Sales app to boost your sales productivity:
 
 - As a **seller**, you can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps.  
 - As a **sales manager**, you can empower your team with AI-powered manager insights and collaboration tools.  
@@ -28,7 +29,7 @@ Here's how you can use the Sales app to improve your sales productivity:
 
 ## Consideration
 
-A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up the Sales app](install-sales-app.md). the Sales app allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
+A [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#commonly-used-microsoft-365-admin-center-roles) is required to [install and set up the Sales app](install-sales-app.md). The Sales app allows administrators and users to access content and share data outside of Microsoft 365, including with third-party customer relationship management (CRM) services. Such data sharing is subject to Microsoft and applicable third-party CRM terms and conditions. Data sharing isn't enabled until administrators and users in your organization consent to connect their Microsoft work or school account with their CRM account.
 
 > [!NOTE]
 > The Sales app is not available on Microsoft Dynamics 365 Customer Engagement (on-premises).

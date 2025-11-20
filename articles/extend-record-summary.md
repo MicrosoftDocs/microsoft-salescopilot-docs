@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-To better understand the context of a meeting that they are preparing for or an email that they are reading, sellers want relevant customer relationship management (CRM) information, such as customer queries, concerns, and notes. the Sales app uses AI to generate a summary of each CRM record. This summary highlights crucial details, such as the sales stage, budget, and projected close date. You can extend the CRM record summary capability that the Sales app provides with insights from your own application.
+To better understand the context of a meeting that they are preparing for or an email that they are reading, sellers want relevant customer relationship management (CRM) information, such as customer queries, concerns, and notes. The Sales app uses AI to generate a summary of each CRM record. This summary highlights crucial details, such as the sales stage, budget, and projected close date. You can extend the CRM record summary capability that the Sales app provides with insights from your own application.
 
 ## API description
 

@@ -59,7 +59,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 | Capability | the Sales app | Dynamics 365 app for Outlook |
 |------------|---------------|------------------------------|
 | **Work in Outlook**        |               |              | 
-| Intelligent context-aware email content suggestions with copilot  | Supported    | Not supported          |
+| Intelligent context-aware email content suggestions with Copilot  | Supported    | Not supported          |
 | Save Outlook emails and calendar events to Dynamics 365   | Supported     | Supported       |
 | Connect saved Outlook emails and events to Dynamics 365 accounts and opportunities  | Supported¹    | Supported      |
 | Create new CRM contacts from Outlook   | Supported     | Supported    |

@@ -32,7 +32,7 @@ If the email address you entered doesn't match any of the contacts in your CRM, 
 
 ## External email address matches multiple CRM contacts
 
-If the email address you entered matches multiple contacts in the CRM, you must manually select and connect to the correct CRM contact. the Sales app displays a message on the **Highlights** card about multiple matches of a contact.
+If the email address you entered matches multiple contacts in the CRM, you must manually select and connect to the correct CRM contact. The Sales app displays a message on the **Highlights** card about multiple matches of a contact.
 
 1. In the **Sales** pane, select the contact in the **Contacts** card, and then select **Choose contact**.
 

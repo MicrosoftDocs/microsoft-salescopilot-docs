@@ -69,4 +69,4 @@ If the available capacity (quota) of your organization is low or depleted, it is
 - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing?tabs=web)  
 - [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing)  
 - [Disable or limit sharing of agents](/microsoft-copilot-studio/admin-sharing-controls-limits)  
-- [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
+- [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  

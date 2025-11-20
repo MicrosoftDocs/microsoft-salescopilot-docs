@@ -42,7 +42,7 @@ You can also search for records in the following scenarios:
 
 ## Search features
 
-When you open the search box in a context, the Sales app might use AI to proactively suggest records before you initiate a search. the Sales app takes advantage of contextual information, anticipates the records that you might be looking for, and presents them as options.
+When you open the search box in a context, the Sales app might use AI to proactively suggest records before you initiate a search. The Sales app takes advantage of contextual information, anticipates the records that you might be looking for, and presents them as options.
 
 :::image type="content" source="media/ai-suggested-records.png" alt-text="Screenshot of AI-suggested records in global search.":::
 
