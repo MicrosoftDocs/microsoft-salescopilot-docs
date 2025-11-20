@@ -24,7 +24,7 @@ If you have a Dynamics 365 environment (production or non-production) with Sales
 |Multiple non-production environments but no production environment     |  Connected to the first non-production environment       | 
 
 > [!NOTE]
-> Sales app doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. Sales app fetches a list of environments that have Sales in Microsoft 365 Copilot and then connects to the first environment in the list.
+> the Sales app doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. the Sales app fetches a list of environments that have Sales in Microsoft 365 Copilot and then connects to the first environment in the list.
 
 Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 

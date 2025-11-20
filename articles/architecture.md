@@ -12,9 +12,9 @@ ms.localizationpriority: medium
 
 # Architecture of Sales in Microsoft 365 Copilot
 
-This article contains links to download Sales app architecture document and top 10 most frequently asked questions about Sales app architecture.
+This article contains links to download the Sales app architecture document and top 10 most frequently asked questions about the Sales app architecture.
 
-The architecture document provides an in-depth view of the Sales app architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how Sales app integrates with their CRM and the broader Microsoft 365 ecosystem.
+The architecture document provides an in-depth view of the Sales app architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how the Sales app integrates with their CRM and the broader Microsoft 365 ecosystem.
 
 |Document|Last update|Last updated release|
 |--------|----------|--------------|

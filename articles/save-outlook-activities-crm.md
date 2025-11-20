@@ -1,6 +1,6 @@
 ---
 title: Save Outlook activities to your CRM
-description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with Sales app.
+description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales app.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Save Outlook activities to your CRM
 
-Sellers often need to capture emails and meetings that are related to their sales activities. In the past, you might have recorded the details in a paper notebook. Today, you're more likely to use a customer relationship management (CRM) system like Dynamics 365 or Salesforce. However, it's still tedious and time-consuming to manually update the CRM with the details of your Outlook interactions with leads and customers. Fortunately, Sales app can do it for you so that you can focus on selling.
+Sellers often need to capture emails and meetings that are related to their sales activities. In the past, you might have recorded the details in a paper notebook. Today, you're more likely to use a customer relationship management (CRM) system like Dynamics 365 or Salesforce. However, it's still tedious and time-consuming to manually update the CRM with the details of your Outlook interactions with leads and customers. Fortunately, the Sales app can do it for you so that you can focus on selling.
 
 When an email or meeting is saved to the CRM, the **Sales** side pane shows the following information:
 
@@ -20,11 +20,11 @@ When an email or meeting is saved to the CRM, the **Sales** side pane shows the 
 
 :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing an email that was saved to the CRM.":::
 
-Sales app can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
+the Sales app can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
 
 ## Save from the highlight card
 
-1. Open the email or meeting, and then open Sales app.
+1. Open the email or meeting, and then open the Sales app.
 
 1. In the **Sales** side pane, select **Save**.
 
@@ -32,15 +32,15 @@ Sales app can save emails and meetings to your CRM from the highlight card, from
 
 1. Under **Connect to a record**, select a record to connect the email or meeting to.
 
-    - Select a suggested record: Sales app uses AI to suggest accounts and opportunities that are related to contacts in the activity. Some suggestions for opportunities are provided only when the email or meeting content is in English.
+    - Select a suggested record: the Sales app uses AI to suggest accounts and opportunities that are related to contacts in the activity. Some suggestions for opportunities are provided only when the email or meeting content is in English.
 
-    - Search for a record to select: Use the search box to find and connect to a record of any type that your administrator added to Sales app.
+    - Search for a record to select: Use the search box to find and connect to a record of any type that your administrator added to the Sales app.
 
     - Save without selecting a record: Select **Save without connecting** to save the email or meeting to the CRM without connecting it to a record. It's still associated with contacts in the **To**, **Cc**, and **Bcc** fields.
 
     > [!NOTE]
     > - When you search for a record to connect to, the search results show the record name and the [key fields that your administrator selected](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
-    > - You can connect to all [record types that your administrator enabled for activities and added to Sales app](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
+    > - You can connect to all [record types that your administrator enabled for activities and added to the Sales app](customize-forms-and-fields.md#add-a-new-record-type-or-a-salesforce-object).
 
     The **Related contacts** card shows the contacts that are in the email or meeting because the activity appears in their timeline.
 
@@ -56,9 +56,9 @@ Sales app can save emails and meetings to your CRM from the highlight card, from
 
 ## Save from a related record card
 
-Sales app shows records that are related to contacts that are saved in the CRM. All records of the same type, such as accounts or opportunities, appear on a card for that type. You can save the email or meeting to your CRM from these cards. If you already saved it to the CRM from the highlight card, you can't save it again from a related record card.
+the Sales app shows records that are related to contacts that are saved in the CRM. All records of the same type, such as accounts or opportunities, appear on a card for that type. You can save the email or meeting to your CRM from these cards. If you already saved it to the CRM from the highlight card, you can't save it again from a related record card.
 
-1. Open the email or meeting, and then open Sales app.
+1. Open the email or meeting, and then open the Sales app.
 
 1. Hover over a record and select **More actions** (**&hellip;**) > **Save and connect email**.
 
@@ -88,22 +88,22 @@ When you read an email from an external contact and you haven't already saved it
 
 1. Select **Save**.
 
-Sales app can show a banner message that includes quick CRM actions in up to two of your external emails per day. If you don't want these banners to appear, ask your administrator to turn them off for your mailbox.
+the Sales app can show a banner message that includes quick CRM actions in up to two of your external emails per day. If you don't want these banners to appear, ask your administrator to turn them off for your mailbox.
 
 ## Open saved activities in your CRM
 
 After you save an email or meeting to your CRM, you can open it from the **Email from** or the meeting title card in the **Sales** pane. This helps you quickly find the activity in your CRM if you want to see more details or make changes.
 
-1. Open the email or meeting, and then open Sales app.
+1. Open the email or meeting, and then open the Sales app.
 1. On the **Email from** or the meeting title card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
 
 :::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::
 
 ## Edit activities saved to Dynamics 365
 
-If you use Dynamics 365 as your CRM, you can change some of the details of a saved email or meeting in Sales app and then save the changes to the CRM. You can change the record the activity is connected to, its email categories, and related contacts. If you use Salesforce as your CRM, you can't edit saved activities in Sales app.
+If you use Dynamics 365 as your CRM, you can change some of the details of a saved email or meeting in the Sales app and then save the changes to the CRM. You can change the record the activity is connected to, its email categories, and related contacts. If you use Salesforce as your CRM, you can't edit saved activities in the Sales app.
 
-1. Open an email or meeting, and then open Sales app.
+1. Open an email or meeting, and then open the Sales app.
 
 1. On the **Connected to** card, select **More actions** (**&hellip;**) > **Edit saved email details**.
 
@@ -111,9 +111,9 @@ If you use Dynamics 365 as your CRM, you can change some of the details of a sav
 
 ## Remove emails saved to Dynamics 365
 
-If you use Dynamics 365 as your CRM, you can use Sales app to remove saved emails and meetings that are no longer relevant, keeping the CRM clean and up to date. If you use Salesforce as your CRM, you can't remove saved activities in Sales app.
+If you use Dynamics 365 as your CRM, you can use the Sales app to remove saved emails and meetings that are no longer relevant, keeping the CRM clean and up to date. If you use Salesforce as your CRM, you can't remove saved activities in the Sales app.
 
-1. Open an email or meeting, and then open Sales app.
+1. Open an email or meeting, and then open the Sales app.
 
 1. On the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
 
@@ -129,11 +129,11 @@ If your CRM administrator has turned on the capability to save attachments, then
 
 ## Differences between Dynamics 365 and Salesforce
 
-Sales app works a little differently depending on which CRM you use. The differences are described in the following sections.
+the Sales app works a little differently depending on which CRM you use. The differences are described in the following sections.
 
 ### When you save activities to Dynamics 365
 
-- If a notification about server-side synchronization appears when you try to save an email or meeting, it means that your mailbox isn't set up to save Outlook activities to Dynamics 365. Select **Turn on** to turn on server-side synchronization for your mailbox. Learn more in [Use server-side synchronization with Sales app](use-server-side-sync.md).
+- If a notification about server-side synchronization appears when you try to save an email or meeting, it means that your mailbox isn't set up to save Outlook activities to Dynamics 365. Select **Turn on** to turn on server-side synchronization for your mailbox. Learn more in [Use server-side synchronization with the Sales app](use-server-side-sync.md).
 
     :::image type="content" source="media/highlight-save-server-side-sync-notice.png" alt-text="Screenshot showing the server-side sync notice in the Sales side pane.":::
 
@@ -144,13 +144,13 @@ Sales app works a little differently depending on which CRM you use. The differe
 
 - You can save a meeting to Dynamics 365 only if the meeting time is within the working hours of *all* participants. Learn how to set your own working hours in [Personailze sales accelerator](/dynamics365/sales/personalize-sales-accelerator#configure-your-work-availability). Sales managers can [set the availability](/dynamics365/sales/manage-seller-availability) of sellers who report to them.
 
-- If saving attachments to meetings is turned off in server-side synchronization settings, meeting attachments can't be saved to the CRM from Sales app.
+- If saving attachments to meetings is turned off in server-side synchronization settings, meeting attachments can't be saved to the CRM from the Sales app.
 
 - You can save draft emails to Dynamics 365; however, a draft email is saved only after it's sent.
 
 - You can save draft meetings to Dynamics 365. Draft meetings are saved immediately. If you update a meeting after it's saved, the changes are automatically saved to the CRM.
 
-- Only activities that you save using Sales appear in the Sales side pane. If you used [Dynamics 365 App for Outlook](/dynamics365/outlook-app/user/track-message-or-appointment) to connect an email or a meeting to a record in your CRM, it isn't shown as saved in Sales app. If you use Sales app to save the activity, a duplicate record is created in the CRM.
+- Only activities that you save using the Sales appear in the Sales side pane. If you used [Dynamics 365 App for Outlook](/dynamics365/outlook-app/user/track-message-or-appointment) to connect an email or a meeting to a record in your CRM, it isn't shown as saved in the Sales app. If you use the Sales app to save the activity, a duplicate record is created in the CRM.
 
 - You can [edit saved activities](#edit-activities-saved-to-dynamics-365) in Outlook and save your changes to Dynamics 365.
 
@@ -172,4 +172,4 @@ Sales app works a little differently depending on which CRM you use. The differe
 
 - If an email that you save has more characters in the message body than the [maximum number of characters that can be stored in Salesforce email records](https://help.salesforce.com/s/articleView?id=000392839&type=1), the email is truncated and then saved. The **Connected to** card includes a notice to that effect.
 
-    :::image type="content" source="media/truncate.png" alt-text="Screenshot of the Connected to card in Sales app, showing that an email saved to Salesforce was truncated.":::
+    :::image type="content" source="media/truncate.png" alt-text="Screenshot of the Connected to card in the Sales app, showing that an email saved to Salesforce was truncated.":::

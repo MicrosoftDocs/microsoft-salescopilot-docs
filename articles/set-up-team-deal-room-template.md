@@ -23,11 +23,11 @@ When you create a collaboration space with the deal room team template, you can 
 
 ## Set up an existing team as a deal room team
 
-1. In Outlook, open an email to or from your customer, and then open Sales app.
+1. In Outlook, open an email to or from your customer, and then open the Sales app.
 
 1. Go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
-    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up deal room button highlighted.":::
+    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the Set up deal room button highlighted.":::
 
 1. In the **Set up a deal room** step, select **Use an existing team**.
 
@@ -35,7 +35,7 @@ When you create a collaboration space with the deal room team template, you can 
 
     If the opportunity's parent account is already linked to a team, the linked team is shown as the recommended one to create the deal room channel in. You can create the channel in any of the other teams listed, however.
 
-    :::image type="content" source="media/select-team-existing-deal-room.png" alt-text="Screenshot of the Select a team step in Sales app for Outlook.":::
+    :::image type="content" source="media/select-team-existing-deal-room.png" alt-text="Screenshot of the Select a team step in the Sales app for Outlook.":::
 
 1. In the **Set up your channels** step, change the channel name, if necessary, and select a privacy option. To add a shared channel for collaborating with customers, leave **Include shared channel** selected.
 
@@ -43,7 +43,7 @@ When you create a collaboration space with the deal room team template, you can 
 
     Customers and colleagues aren't added to the shared channel automatically. Owners of the team can add members to the channel later directly in Teams.
 
-    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Sales app for Outlook.":::
+    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in the Sales app for Outlook.":::
 
 1. Select **Set up team**.
 
@@ -53,11 +53,11 @@ When you create a collaboration space with the deal room team template, you can 
 
 ## Create a deal room team
 
-1. In Outlook, open an email to or from your customer, and then open Sales app.
+1. In Outlook, open an email to or from your customer, and then open the Sales app.
 
 1. Go to the **Collaborate in Teams** card, hover over the opportunity name, and then select **Set up deal room**.
 
-    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up deal room button highlighted.":::
+    :::image type="content" source="media/deal-room.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the Set up deal room button highlighted.":::
 
 1. In the **Set up a deal room** step, select **Create a new team**.
 
@@ -69,7 +69,7 @@ When you create a collaboration space with the deal room team template, you can 
 
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
-    :::image type="content" source="media/add-members-deal-room.png" alt-text="Screenshot of the Add team members step in Sales app for Outlook.":::
+    :::image type="content" source="media/add-members-deal-room.png" alt-text="Screenshot of the Add team members step in the Sales app for Outlook.":::
 
     > [!NOTE]
     > Selected team members are not added to the shared channel. Team owners must add them explicitly from Microsoft Teams.
@@ -84,7 +84,7 @@ When you create a collaboration space with the deal room team template, you can 
 
     Customers and colleagues aren't added to the shared channel automatically. Owners of the team can add members to the channel later directly in Teams.
 
-    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in Sales app for Outlook.":::
+    :::image type="content" source="media/set-channel-deal-room.png" alt-text="Screenshot of the Set up your channels step in the Sales app for Outlook.":::
 
 1. Select **Set up team**.
 

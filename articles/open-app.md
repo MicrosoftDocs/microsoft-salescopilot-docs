@@ -10,15 +10,15 @@ ms.author: shjais
 
 # Access the Sales app
 
-Sales app is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
+the Sales app is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
 
-If you don't have access to Sales app, ask your administrator to install it.
+If you don't have access to the Sales app, ask your administrator to install it.
 
-## Access Sales app in Outlook
+## Access the Sales app in Outlook
 
-As a seller, you communicate with a lot of potential customers by email. Sales app helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
+As a seller, you communicate with a lot of potential customers by email. the Sales app helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
 
-You can access Sales app using any of the following options:
+You can access the Sales app using any of the following options:
 
 ### Outlook desktop
 
@@ -57,7 +57,7 @@ To know how to access the app while drafting an email, reading an email, or crea
         :::image type="content" source="media/access-app-web.svg" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
 
     > [!NOTE]
-    > If Sales app is admin-deployed, the app is automatically pinned to the ribbon.  
+    > If the Sales app is admin-deployed, the app is automatically pinned to the ribbon.  
 
     - Select **Show contact** or **Add contact** in the banner message (for emails)  
     - Select **Show summary** in the banner message (for meetings)
@@ -69,7 +69,7 @@ To know how to access the app while drafting an email, reading an email, or crea
         :::image type="content" source="media/access-app-web-read-email.svg" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
 
     > [!NOTE]
-    > If Sales app is admin-deployed, the app is automatically pinned to the email action bar.
+    > If the Sales app is admin-deployed, the app is automatically pinned to the email action bar.
 
 - While creating or opening a meeting, select **Sales** on the ribbon.
 
@@ -92,23 +92,23 @@ To know how to access the app while drafting an email, reading an email, or crea
 
 ### Pin the Sales app in Outlook
 
-To keep Sales app visible as you navigate through your emails and meetings, you can pin the app so that the app pane remains open.
+To keep the Sales app visible as you navigate through your emails and meetings, you can pin the app so that the app pane remains open.
 
 - To pin the app, select the pushpin icon: :::image type="icon" source="media/pin-app.png" border="false":::.
 - To unpin the app, select the pushpin icon again: :::image type="icon" source="media/unpin-app.png" border="false":::.
 
 You can pin the app only in the classic Outlook or in the new Outlook when Microsoft 365 Copilot is not installed. When Microsoft 365 Copilot is installed, the app is integrated with the Microsoft 365 Copilot side pane.
 
-## Access Sales app in Teams
+## Access the Sales app in Teams
 
 Backed by AI, the Sales app in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
 
 > [!NOTE]
-> Sales app is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
+> the Sales app is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
 
 To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
-You can access Sales app using any of the following options:
+You can access the Sales app using any of the following options:
 
 ### Message extensions
 
@@ -116,4 +116,4 @@ In a Teams chat or channel, select **Message extensions** (**...**), search for 
 
 ### During a meeting
 
-[Use Sales app during a meeting](use-sales-copilot-app-during-meeting.md)
+[Use the Sales app during a meeting](use-sales-copilot-app-during-meeting.md)

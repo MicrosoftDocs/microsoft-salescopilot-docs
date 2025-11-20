@@ -1,6 +1,6 @@
 ---
-title: Create a contact in your CRM from Sales app
-description: Learn how to create a contact in your CRM from Sales app.
+title: Create a contact in your CRM from the Sales app
+description: Learn how to create a contact in your CRM from the Sales app.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -8,9 +8,9 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Create a contact in your CRM from Sales app
+# Create a contact in your CRM from the Sales app
 
-If an external contact doesn't exist in your CRM, create a contact in the CRM right from Sales app.
+If an external contact doesn't exist in your CRM, create a contact in the CRM right from the Sales app.
 
 > [!TIP]
 > Enter the contact's email address in the following format when you compose an email or meeting invitation: **FirstName LastName &lt;email address&gt;**. If you do, the corresponding items in the CRM contact form fill automatically.
@@ -31,11 +31,11 @@ If an external contact doesn't exist in your CRM, create a contact in the CRM r
    > [!NOTE]
    > You can also open the contact form in your CRM. Select **Open in (CRM)**, and then enter details.
 
-    Sales app automatically connects the new CRM contact to your external contact.
+    the Sales app automatically connects the new CRM contact to your external contact.
 
 > [!IMPORTANT]
 >
-> With the implementation of the global create feature in Sales app, contact creation might fail when you are using the external contact creation process. To continue creating contacts in CRM, perform the following steps in Teams admin settings:
+> With the implementation of the global create feature in the Sales app, contact creation might fail when you are using the external contact creation process. To continue creating contacts in CRM, perform the following steps in Teams admin settings:
 >1. Go to **Settings** > **Environment** > **Forms** > **Contact**.  
 >1. Select one of the following options:  
 >      - **Create new records inside Sales**  
@@ -44,7 +44,7 @@ If an external contact doesn't exist in your CRM, create a contact in the CRM r
 
 ## Signature available in email
 
-If you open the **Sales** pane from an incoming email that contains the signature of the sender, and you add the contact to your CRM, Sales app prefills the contact details based on the signature and highlights the fields that it populated. You can update the information and select **Save**.
+If you open the **Sales** pane from an incoming email that contains the signature of the sender, and you add the contact to your CRM, the Sales app prefills the contact details based on the signature and highlights the fields that it populated. You can update the information and select **Save**.
 
 This capability is available only for emails in the [supported languages](introduction.md#supported-languages-and-geographies).
 
@@ -69,5 +69,5 @@ When you compose an email, create a meeting invite, or reply to an email or a me
 
 ### Related information
 
-[Create a new record in your CRM from Sales app](create-new-record.md)<br>
+[Create a new record in your CRM from the Sales app](create-new-record.md)<br>
 [Configure new record creation](customize-forms-and-fields.md#configure-new-record-creation)

@@ -23,7 +23,7 @@ You can view details about your saved contact and its related records such as ac
 
 ## Open a record in your CRM
 
-The information that's available in Sales app is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
+The information that's available in the Sales app is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
 
 If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 

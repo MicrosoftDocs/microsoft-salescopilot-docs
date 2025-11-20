@@ -82,7 +82,7 @@ Currently, Sales in Microsoft 365 Copilot is compatible with Dynamics 365 Sales 
 
 ### What privileges are required to use Sales in Microsoft 365 Copilot?
 
-Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales app](privileges.md).
+Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use the Sales app](privileges.md).
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -141,11 +141,11 @@ You can add the Sales app manually to a Teams meeting to test it internally befo
 
 - To add an app before a meeting, first send the meeting invite then open the meeting. Select **Add a tab **(**+**), search for Sales, and then select it.
 
-    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add Sales app before meeting.":::
+    :::image type="content" source="media/add-before-meeting.png" alt-text="Screenshot showing add the Sales app before meeting.":::
 
 - To add an app during a meeting, after the meeting starts select **Add an app** (**+**), search for Sales, and then select it.
 
-    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add Sales app during meeting.":::
+    :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add the Sales app during meeting.":::
 
 ### What's the minimum version of Outlook required for Sales in Microsoft 365 Copilot?
 
@@ -165,7 +165,7 @@ Meeting insights are generated only if version of the Sales app in Microsoft Tea
 
 If the Sales app for Teams is installed by your administrator, you must contact your administrator to update the app to the latest version.
 
-If you've installed Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
+If you've installed the Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 
 ### How many hours of conversational intelligence are available with Sales in Microsoft 365 Copilot?
 
@@ -183,11 +183,11 @@ Users may need to change a few settings to get the best experience of Sales in M
 
 - **Chrome**: Turn off "Block third-party cookies."
 
-### Why do I see the older icon for Sales app in Outlook desktop?
+### Why do I see the older icon for the Sales app in Outlook desktop?
 
-In some cases, you may see the older icon for Sales app in Outlook desktop.
+In some cases, you may see the older icon for the Sales app in Outlook desktop.
 
-:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of Sales app":::
+:::image type="content" source="media/faq-older-icon.png" alt-text="Older icon of the Sales app":::
 
 To see the new icon, you must clear the Outlook cache by following these steps:
 
@@ -211,7 +211,7 @@ You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedbac
 
 ### Which CRM environment do the administrator settings apply to?
 
-The settings are specific to the environment you're signed in to in Sales app in Outlook. If you want to customize Sales app for another environment, you must [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
+The settings are specific to the environment you're signed in to in the Sales app in Outlook. If you want to customize the Sales app for another environment, you must [switch to that environment in Outlook](#how-can-i-switch-crm-environments).
 
 ### How can I switch CRM environments?
 
@@ -219,7 +219,7 @@ If your organization provides multiple environments for you and your sellers to 
 
 ### Why do I see the message "Settings are coming soon"?
 
-You signed in to Sales app in Outlook or Teams with an account that doesn't have admin rights. Personal settings for Sales app will be accessible in the **Settings** tab soon.
+You signed in to the Sales app in Outlook or Teams with an account that doesn't have admin rights. Personal settings for the Sales app will be accessible in the **Settings** tab soon.
 
 If you're signed in with tenant administrator or CRM administrator credentials, you shouldn't see the "Settings are coming soon" message. You should see the administrator settings page. If you do see this message, make sure you have the [right permissions or security roles](administrator-settings-sales-app.md#who-can-access-administrator-settings).
 
@@ -233,11 +233,11 @@ The Teams dark and high contrast themes aren't supported.
 
 ### Why do I see the message "Sign in to Sales in Outlook first"?
 
-You must be connected to a CRM environment in Sales app in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
+You must be connected to a CRM environment in the Sales app in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
 
 ### What is enhanced Teams app?
 
-The existing Sales app in Teams and Outlook has been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
+The existing the Sales app in Teams and Outlook has been upgraded to a single enhanced Teams app. The enhanced Teams app allows the Teams personal app that includes the **Home** and **Settings** tab to be available in Microsoft 365 applications including Outlook. Additionally, the Teams message extension now allows searching for CRM records and embedding them as rich adaptive cards directly into an email - similar to how it can be used in a Teams chat. The enhanced app also allows the packaging of Microsoft 365 Copilot capabilities thereby opening up the ability to ask questions such as "Summarize account Fabrikam" directly in the Microsoft 365 chat.
 
 #### New deployments
 
@@ -264,9 +264,9 @@ Ensure that the following settings are set to true:
 - DirectFileAccessOnPublicComputersEnabled
 - DirectFileAccessOnPrivateComputersEnabled
 
-### Why do users see duplicate icons for Sales app in Outlook desktop?
+### Why do users see duplicate icons for the Sales app in Outlook desktop?
 
-Users may see duplicate icons for Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
+Users may see duplicate icons for the Sales app due to a recent update to the enhanced Teams apps to support integration of the older Outlook add-in. As an administrator, you must merge the older add-in with the new enhanced Teams app from Microsoft 365 admin center.
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
@@ -276,19 +276,19 @@ Users may see duplicate icons for Sales app due to a recent update to the enhanc
 
 1. Select **Merge both versions** and accept the permissions.
 
-    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of Sales app.":::
+    :::image type="content" source="media/faq-duplicate-icons.png" alt-text="Merge versions of the Sales app.":::
 
-    After the merge is complete, users will see only one icon for Sales app in Outlook desktop. It may take a few hours for the changes to take effect.
+    After the merge is complete, users will see only one icon for the Sales app in Outlook desktop. It may take a few hours for the changes to take effect.
 
 ## Forms and fields customization
 
-### Are changes in the CRM reflected automatically in Sales app?
+### Are changes in the CRM reflected automatically in the Sales app?
 
-Changes made in the CRM aren't reflected automatically in Sales app. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
+Changes made in the CRM aren't reflected automatically in the Sales app. You must select **Refresh data** on the **Customize forms and fields** page to get the latest updates from the CRM. More information: [Refresh data](customize-forms-and-fields.md#refresh-data-from-crm)
 
 ### Why is the delete option disabled for some fields in the contact record?
 
-If you enable new contact creation from within Sales app, you can't remove a field from the contact record if it's marked as required in CRM.
+If you enable new contact creation from within the Sales app, you can't remove a field from the contact record if it's marked as required in CRM.
 
 ### Which fields can't be customized?
 
@@ -318,13 +318,13 @@ A field can be non-editable in the following cases:
 - The field is calculated
 - The field is required in the CRM
 
-### How are hyperlink formula fields from Salesforce CRM displayed in Sales app?
+### How are hyperlink formula fields from Salesforce CRM displayed in the Sales app?
 
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In the Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
 
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
-If you've connected Sales app to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
+If you've connected the Sales app to Salesforce, and your users see a 4100 error when viewing a CRM record, they don't have access to some of the fields added to be displayed. Ensure that all users of the app have access to the fields added to a CRM record.
 
 ### Why don't I see the required relationship for a record type during configuration?
 

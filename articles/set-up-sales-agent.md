@@ -23,16 +23,16 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 ## Prerequisites
 
 - The Sales app is installed in either Outlook or Teams.
-- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
+- You have access to environment-level settings in the [the Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
 - [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
-- The Dataverse environment connected to Sales app is a production environment.
+- The Dataverse environment connected to the Sales app is a production environment.
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales app environment.
 
 ### Additional prerequisites for Salesforce
 
 - Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
-- Configure the server-to-server connection between Sales app and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
+- Configure the server-to-server connection between the Sales app and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
 
 ## Step 1: Create a view and query that defines the leads to research
 
@@ -124,7 +124,7 @@ The Sales Agent connects to Salesforce using the [server-to-server data connecti
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
 > [!IMPORTANT]
-> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by Sales app. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
+> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by the Sales app. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
 
 ### Give permission to read activities, tasks, and events
 

@@ -18,15 +18,15 @@ ms.custom:
 
 ## Access linked teams and channels from Outlook
 
-1. In Outlook, open Sales app, and scroll down to the **Collaborate in Teams** card.
+1. In Outlook, open the Sales app, and scroll down to the **Collaborate in Teams** card.
 
     The card shows the teams and channels that were linked from the Sales app (indicated by the Dynamics 365 Sales icon) or created in Outlook using the Sales app.
 
-    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot of linked teams in Sales app in Outlook.":::
+    :::image type="content" source="media/linked-team-viva-sales.png" alt-text="Screenshot of linked teams in the Sales app in Outlook.":::
 
 1. Select a team or channel to open it in Microsoft Teams.
 
-Alternatively, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in Sales app.
+Alternatively, you can also access linked teams and channels from the **Accounts** or **Opportunities** card in the Sales app.
 
 1. In the **Accounts** or **Opportunities** card, hover over a record, select **More actions (...)** > **Teams**, and then select the account team name or, for opportunities, the opportunity channel name.
 

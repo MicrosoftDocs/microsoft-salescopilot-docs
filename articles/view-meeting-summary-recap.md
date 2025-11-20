@@ -1,6 +1,6 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
-description: Discover how to use Sales app in Teams to get sales insights in Teams meeting recaps. 
+description: Discover how to use the Sales app in Teams to get sales insights in Teams meeting recaps. 
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -19,7 +19,7 @@ Sales includes all the capabilities within Microsoft 365 Copilot to provide user
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
-- Add Sales app to the meeting.
+- Add the Sales app to the meeting.
 - Transcribe the meeting.
 
 ## Supported languages
@@ -28,7 +28,7 @@ To see a list of supported languages, go to [supported languages](introduction.m
 
 ## View sales related insights in meeting recap
 
-You can view a meeting recap if you record and transcribe a meeting. With Sales app added to the Teams meeting, you can view sales related insights in the meeting recap.
+You can view a meeting recap if you record and transcribe a meeting. With the Sales app added to the Teams meeting, you can view sales related insights in the meeting recap.
 
 To view sales related insights, [open the meeting recap in Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef), select the down-arrow next to **Transcript**, and then select **Sales**.
 
@@ -90,7 +90,7 @@ It is strongly recommended that you verify insights using your own judgment and 
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
-With Sales app, you can quickly draft an email from the meeting recap in Teams. The email includes a summary of the meeting, action items, and follow-up tasks.
+With the Sales app, you can quickly draft an email from the meeting recap in Teams. The email includes a summary of the meeting, action items, and follow-up tasks.
 
 To create a post-meeting summary email:
 

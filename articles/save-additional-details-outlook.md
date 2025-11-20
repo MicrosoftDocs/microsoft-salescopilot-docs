@@ -1,6 +1,6 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
-description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using Sales app in Outlook.
+description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using the Sales app in Outlook.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -18,17 +18,17 @@ As an administrator, you can customize how sellers save and categorize emails an
 
 ## Prerequisites
 
-CRM administrators must access admin settings from the Sales app in Teams. For more information, go to [Sales app admin settings](administrator-settings-sales-app.md).
+CRM administrators must access admin settings from the Sales app in Teams. For more information, go to [the Sales app admin settings](administrator-settings-sales-app.md).
 
 ## Enable or disable saving emails and meetings to CRM
 
 You can control if sellers can save emails and meetings to the CRM. By default, the settings to save emails and meetings to the CRM are turned on. If you turn them off, sellers will no longer be able to save emails and meetings to the CRM.
 
-1. In Sales app admin settings, select **Save to (CRM)**.
+1. In the Sales app admin settings, select **Save to (CRM)**.
 1. To turn off saving emails to CRM, turn off **Save emails to (CRM)**.
 1. To turn off saving meetings to CRM, turn off **Save meetings to (CRM)**.
 
-    :::image type="content" source="media/save-to-crm.png" alt-text="Screenshot showing the settings to save Outlook activities to CRM in Sales app admin settings in Teams.":::
+    :::image type="content" source="media/save-to-crm.png" alt-text="Screenshot showing the settings to save Outlook activities to CRM in the Sales app admin settings in Teams.":::
 
 ## Configure the fields to save to the CRM
 
@@ -36,12 +36,12 @@ You can select the fields that are saved to the CRM together with emails or meet
 
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
-1. In Sales app admin settings, select **Save to (CRM)**.  
+1. In the Sales app admin settings, select **Save to (CRM)**.  
 1. Select **Save emails to (CRM)** or **Save meetings to (CRM)**, depending on the type of activity that you want to configure.
 
-    :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot showing the Save emails to Salesforce settings in Sales app admin settings in Teams.":::
+    :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot showing the Save emails to Salesforce settings in the Sales app admin settings in Teams.":::
 
-1. (Optional) Select **Refresh data** to get the latest updates to the fields from the CRM. For example, if the CRM administrator updated a field label in the CRM, you can refresh the data to view the updated label in Sales app.  
+1. (Optional) Select **Refresh data** to get the latest updates to the fields from the CRM. For example, if the CRM administrator updated a field label in the CRM, you can refresh the data to view the updated label in the Sales app.  
 1. In the **Categorize with fields** section, select **Add fields**.  
 1. In the **Add category** dialog box, select the fields that should be shown to sellers.  
     The **Add category** dialog box shows all out-of-box and custom fields of the email and appointment entities in the CRM, except system fields. The dialog box shows only fields of the following types: option sets, look up and text, multiple lines of text (plaintext/Memo), Boolean, and integer.  
@@ -55,7 +55,7 @@ You can control whether sellers can save attachments along with the email or mee
 
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
-1. In Sales app admin settings, select **Save to (CRM)**.  
+1. In the Sales app admin settings, select **Save to (CRM)**.  
 1. To configure attachment saving settings for emails:  
     1. Under the **Save emails to (CRM)** section, turn on **Save attachments with emails**.  
     1. To save all attachments by default, select **Save all attachments in the email by default**. If you don't select this option, sellers can choose which attachments to save when they save the email to CRM.  

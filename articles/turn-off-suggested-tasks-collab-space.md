@@ -18,11 +18,11 @@ ms.custom:
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales team members spend a lot of time communicating and coordinating with colleagues in Microsoft Teams. To make it easy for sellers to stay on top of their action items, Sales app suggests tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or other channel members.
+Sales team members spend a lot of time communicating and coordinating with colleagues in Microsoft Teams. To make it easy for sellers to stay on top of their action items, the Sales app suggests tasks based on the conversations in Teams channels. Sellers can then create Planner tasks from the suggested tasks and assign them to themselves or other channel members.
 
 As an administrator, you can control whether AI-powered tasks should be suggested in collaboration spaces. By default, this feature is turned on. However, if you don't want to receive task suggestions, you can turn off the feature.
 
-1. [Open Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Tenant**, select **Collaboration spaces**.
 1. Turn off **Suggested tasks in collaboration spaces (preview)**.
 

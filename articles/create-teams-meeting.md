@@ -1,6 +1,6 @@
 ---
 title: Create a Teams meeting and generate meeting insights
-description: Learn how to create a Teams meeting and generate meeting insights using Sales app.
+description: Learn how to create a Teams meeting and generate meeting insights using the Sales app.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -19,9 +19,8 @@ Your journey starts when you schedule a Microsoft Teams meeting and invite at le
 ### Add the Sales app automatically to a Teams meeting
 
 The Sales app is added automatically to a Teams meeting when the following conditions are met:
-
 - You must invite at least one external participant to the meeting.  
-- You must transcribe the meeting for Sales app to generate insights.  
+- You must transcribe the meeting for the Sales app to generate insights.  
 
 If you create a recurring meeting, the Sales app is added to all occurrences of the meeting if the above conditions are met.
 
@@ -39,7 +38,7 @@ For steps to manually add the Sales app to a Teams meeting, see [How can I add t
 
 ## Generate a meeting summary
 
-When Sales app is added to a Teams meeting, it generates a meeting summary automatically if the meeting is recorded with transcription on.
+When the Sales app is added to a Teams meeting, it generates a meeting summary automatically if the meeting is recorded with transcription on.
 
 1. [Join the meeting](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9) with your customer. You can use the link in the Outlook calendar event or join from Teams.
 
@@ -52,7 +51,7 @@ Transcription helps to make your meeting productive and inclusive for participan
 > [!NOTE]
 > The spoken language is not detected automatically. If the transcript language is not same as the language spoken in the meeting, the generated transcript will be unusable.
 
-When you end the meeting, Sales app uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more. For information about how to view the meeting summary, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
+When you end the meeting, the Sales app uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more. For information about how to view the meeting summary, see [View sales related insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md).
 
 > [!IMPORTANT]
 >

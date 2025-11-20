@@ -41,5 +41,5 @@ The following table lists a few scenarios and the expected error codes.
 
 ### Related information
 
-[Extend Sales app with partner applications](extend-sales-app.md)<br>
-[Build Sales app extensions](build-apis.md)
+[Extend the Sales app with partner applications](extend-sales-app.md)<br>
+[Build the Sales app extensions](build-apis.md)

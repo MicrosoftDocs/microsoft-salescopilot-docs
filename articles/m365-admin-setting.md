@@ -16,7 +16,7 @@ ms.custom:
 
 # Turn off actionable banners in Microsoft 365 apps
 
-Some Sales app features run in Microsoft 365 app service apart from the Outlook add-in and Teams app. These features are turned on by default. Tenant administrators can turn them off in the Microsoft 365 admin center.
+Some the Sales app features run in Microsoft 365 app service apart from the Outlook add-in and Teams app. These features are turned on by default. Tenant administrators can turn them off in the Microsoft 365 admin center.
 
 1. Sign in to the Microsoft 365 admin center with your tenant admin credentials.  
 1. Select **Settings** > **Org settings**.  
@@ -26,5 +26,5 @@ Some Sales app features run in Microsoft 365 app service apart from the Outlook 
 
 ## Effect on the Sales app email notification banner
 
-To help users find Sales app when they interact with customer emails, a Microsoft 365 service adds a notification banner at the top of incoming messages when the message is from an external email domain or an external email address is included in the **To** or **Cc** field. Banner notifications are displayed on a limited number of emails per day.  
+To help users find the Sales app when they interact with customer emails, a Microsoft 365 service adds a notification banner at the top of incoming messages when the message is from an external email domain or an external email address is included in the **To** or **Cc** field. Banner notifications are displayed on a limited number of emails per day.  
 If you turn off actionable banners in Microsoft 365 apps, banner notifications aren't removed from emails that are already in users' Inboxes. However, no new incoming emails display the banner until you turn the setting on again.

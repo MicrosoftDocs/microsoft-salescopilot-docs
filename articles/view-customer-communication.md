@@ -1,6 +1,6 @@
 ---
 title: View customer communication (preview)
-description: Learn how to work with the Customer communication card in Sales app
+description: Learn how to work with the Customer communication card in the Sales app
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -12,7 +12,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, Sales app provides AI-generated insights such as the summary, sentiment, objections, and next steps.
+The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, the Sales app provides AI-generated insights such as the summary, sentiment, objections, and next steps.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -43,4 +43,4 @@ You can see **Customer communication** card in the **Sales** pane in Outlook whe
 ## Related information
 
 - [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
-- [Configure access settings for features in Sales app](access-settings.md)
+- [Configure access settings for features in the Sales app](access-settings.md)

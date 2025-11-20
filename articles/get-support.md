@@ -15,9 +15,9 @@ If you need help with Sales in Microsoft 365 Copilot, you can contact our suppor
 
 ## Technical and community support
 
-For technical support if you encounter any issues while you use Sales app in Outlook or teams, you can submit a support request through the Power Platform admin center. Our support team will review your request and provide assistance to help resolve your issues. For step-by-step instructions that show how to submit a support request, go to [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
+For technical support if you encounter any issues while you use the Sales app in Outlook or teams, you can submit a support request through the Power Platform admin center. Our support team will review your request and provide assistance to help resolve your issues. For step-by-step instructions that show how to submit a support request, go to [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
 
-For community support, you can visit the [Sales in Microsoft 365 Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales/bd-p/VivaSales) to connect with other users, ask questions, and share your experiences with Sales app. The community forums are a great place to find answers to common questions, learn best practices, and engage with other users who are using Sales app.
+For community support, you can visit the [Sales in Microsoft 365 Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales/bd-p/VivaSales) to connect with other users, ask questions, and share your experiences with the Sales app. The community forums are a great place to find answers to common questions, learn best practices, and engage with other users who are using the Sales app.
 
 For information about how to get support for your Dynamics 365 product, go to [Get support for your Dynamics 365 product](/dynamics365/get-started/support/).
 

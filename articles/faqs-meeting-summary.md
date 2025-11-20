@@ -1,6 +1,6 @@
 ---
 title: FAQs for meeting summary feature in Microsoft Teams
-description: This FAQ provides information about the AI technology used in the meeting summary feature in Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the meeting summary feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
@@ -13,7 +13,7 @@ ms.reviewer: shjais
 
 # FAQs for meeting summary feature in Microsoft Teams
 
-These frequently asked questions (FAQs) describe the AI impact of Sales app's meeting summary feature in Microsoft Teams.
+These frequently asked questions (FAQs) describe the AI impact of the Sales app's meeting summary feature in Microsoft Teams.
 
 ## What is meeting summary feature in Teams?
 
@@ -22,7 +22,6 @@ The Sales app meeting summary feature offers sellers a quick recap of their meet
 ## What are the feature's capabilities?
 
 The Sales app meeting summary feature streamlines the post-meeting process by providing a recap of discussions, identifying follow-up tasks mentioned during the meeting, summarizing questions that were asked by customers and representatives, and offering quick access to significant points such as brands, people mentions, time, keywords, and pricing. It also ensures seamless CRM integration to maintain up-to-date customer records.
-
 ## What is the feature's intended use?
 
 The Sales app meeting summary feature is designed to help sellers quickly review sales meetings, highlighting key points and follow-ups, and integrating this information into their CRM for efficient customer engagement and follow-up. 
@@ -47,7 +46,7 @@ The quality of the meeting summary depends on how accurately the system can tran
 - **Transparency and explainability**: Foster transparency by clearly communicating to users how the system works, the underlying technologies used, and any limitations or potential biases. Ensure that users have a basic understanding of the system's capabilities and are informed about its AI-powered nature.  
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
-## How accurate is the sentiment analysis shown in Sales app meeting insights?
+## How accurate is the sentiment analysis shown in the Sales app meeting insights?
 
 The sentiment analysis is AI-generated and based on the content and tone of the meeting transcript. While it can provide a helpful high-level view of customer tone and engagement, it's not always perfectly accurate and may misinterpret nuance, sarcasm, or context.
 

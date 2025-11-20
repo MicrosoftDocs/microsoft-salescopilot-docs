@@ -1,6 +1,6 @@
 ---
 title: Customize forms and fields in Sales in Microsoft 365 Copilot
-description: Learn how to customize the CRM information your sellers see in Sales app.
+description: Learn how to customize the CRM information your sellers see in the Sales app.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -11,23 +11,23 @@ manager: shujoshi
 
 # Customize forms and fields in Sales in Microsoft 365 Copilot
 
-As an administrator, you can customize the CRM information that's displayed in Sales app to give your sellers a more relevant view.
+As an administrator, you can customize the CRM information that's displayed in the Sales app to give your sellers a more relevant view.
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-Sales app forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
+the Sales app forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
 
 > [!NOTE]
 > You cannot select a view for the Contact record type.
 
-Changes made to record types are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from Sales app to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using Sales app in Teams through messaging extensions, you can search for records of the added record types.
+Changes made to record types are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from the Sales app to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using the Sales app in Teams through messaging extensions, you can search for records of the added record types.
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
 > [!IMPORTANT]
-> The term record type used in this article refers to a Salesforce object in Sales app. The term displayed on user interface depends on the CRM system you're connected to. If you're connected to Dynamics 365, **record type** is displayed. If you're connected to Salesforce, **object** is displayed.
+> The term record type used in this article refers to a Salesforce object in the Sales app. The term displayed on user interface depends on the CRM system you're connected to. If you're connected to Dynamics 365, **record type** is displayed. If you're connected to Salesforce, **object** is displayed.
 
-:::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing Sales app admin settings.":::
+:::image type="content" source="media/admin-settings.png" alt-text="Screenshot showing the Sales app admin settings.":::
 
 
 |Annotation  |Description  |
@@ -35,7 +35,7 @@ Record names, field names, and mandatory fields are displayed as they're defined
 |1     |Select to customize forms and fields.  |
 |2     |Add a new custom or out-of-the-box record type. More information: [Add a new record type](#add-a-new-record-type-or-a-salesforce-object)  |
 |3     |Refresh data from CRM. More information: [Refresh data from CRM](#refresh-data-from-crm) |
-|4     |Record types added to Sales app.  |
+|4     |Record types added to the Sales app.  |
 |5     |CRM view used to control the form of a record type. More information: [Change view of a record type](#change-view-of-a-record-type) |
 
 You can select a record type to view and edit its settings.
@@ -46,10 +46,10 @@ CRM administrators must access administrator settings from the Sales app in Team
 
 ## Add a new record type (or a Salesforce object)
 
-You can add new custom or out-of-the-box record types to Sales app. For example, you can add a custom record type called "Project" to track projects. You can add a maximum of 10 record types.
+You can add new custom or out-of-the-box record types to the Sales app. For example, you can add a custom record type called "Project" to track projects. You can add a maximum of 10 record types.
 
 > [!IMPORTANT]
-> The term record type refers to a Salesforce object in Sales app.
+> The term record type refers to a Salesforce object in the Sales app.
 
 1. In Sales admin settings, select **Forms**.
 
@@ -66,7 +66,7 @@ You can add new custom or out-of-the-box record types to Sales app. For example,
 
     :::image type="content" source="media/select-record-type.png" alt-text="Select a record type to add.":::
 
-4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in Sales app, and then select **Next**.
+4. In the **Select the relationship for (record type)** window, select the relationship to existing record types or fields in the Sales app, and then select **Next**.
 
     > [!NOTE]
     > - 1:N and N:1 relationships are supported.
@@ -80,7 +80,7 @@ You can add new custom or out-of-the-box record types to Sales app. For example,
 
     > [!NOTE]
     > - All public and personal views are displayed in the list.
-    > - For Dynamics 365, Sales app includes only those fields that belong to the record type and not to any related record types.
+    > - For Dynamics 365, the Sales app includes only those fields that belong to the record type and not to any related record types.
 
     :::image type="content" source="media/select-view.png" alt-text="Select view for the record type.":::
 
@@ -92,9 +92,9 @@ You can add new custom or out-of-the-box record types to Sales app. For example,
 
 After you add a record type, you can modify it by performing actions such as changing its view, adding/removing fields, and reordering fields. The actions depends whether the record type is based on a CRM view or not.
 
-Modifying a record type enables you to customize the detailed view of CRM records in Sales app. Changes to the detailed view are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat.
+Modifying a record type enables you to customize the detailed view of CRM records in the Sales app. Changes to the detailed view are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat.
 
-![Screenshot showing detailed view of CRM records in Sales app.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in Sales app.")
+![Screenshot showing detailed view of CRM records in the Sales app.](media/viva-sales-detailed-view.png "Screenshot showing detailed view of CRM records in the Sales app.")
 
 ![Screenshot showing Adaptive card in Teams.](media/viva-sales-contact-card.png "Screenshot showing Adaptive card in Teams.")
 
@@ -103,7 +103,7 @@ Modifying a record type enables you to customize the detailed view of CRM record
 
 ### Modify record types based on a CRM view
 
-If a record type is based on a CRM view, you should change the CRM view to change the fields and the order in which they should appear. You must then select **Refresh data** to get latest changes from CRM and apply them in Sales app.
+If a record type is based on a CRM view, you should change the CRM view to change the fields and the order in which they should appear. You must then select **Refresh data** to get latest changes from CRM and apply them in the Sales app.
 
 #### Change view of a record type
 
@@ -166,14 +166,14 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 3.  In the **Manage fields** section, select **Add fields**.
 
-    ![Screenshot showing how to add fields to a CRM record in Sales app.](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in Sales app.")
+    ![Screenshot showing how to add fields to a CRM record in the Sales app.](media/viva-sales-add-fields.png "Screenshot showing how to add fields to a CRM record in the Sales app.")
 
 4.  In the **Add fields** window, select fields to display in the form, and then select **Add**.
 
     The new fields are added after existing fields, but you can [reorder them](#reorder-fields).
 
     > [!NOTE]
-    > If you've connected Sales app to Salesforce, add only the fields that all users of Sales app have access to. If a user doesn't have access to some of the added fields, they'll not be able to view the CRM record.
+    > If you've connected the Sales app to Salesforce, add only the fields that all users of the Sales app have access to. If a user doesn't have access to some of the added fields, they'll not be able to view the CRM record.
 
 5.  Select **Publish** to save your changes.
 
@@ -199,13 +199,13 @@ If a record type is not based on a CRM view, you can select fields to include in
 
 4.  Select **Publish** to save your changes.
 
-## Mark fields as required in Sales app
+## Mark fields as required in the Sales app
 
-If the fields in CRM are not marked as required, you can mark them as required only for Sales app. Sellers will be required to enter values for these fields before they can save the record in Sales app.
+If the fields in CRM are not marked as required, you can mark them as required only for the Sales app. Sellers will be required to enter values for these fields before they can save the record in the Sales app.
 
 > [!NOTE]
-> - If a field is marked as required in CRM, it's marked as required in Sales app as well and you can't make it optional.
-> - If you're using Salesforce, and [you've marked a field as required using the page layout option](https://help.salesforce.com/s/articleView?id=000384974&type=1), the field is not marked as required automatically in Sales app. You must manually mark the field as required in Sales app.  
+> - If a field is marked as required in CRM, it's marked as required in the Sales app as well and you can't make it optional.
+> - If you're using Salesforce, and [you've marked a field as required using the page layout option](https://help.salesforce.com/s/articleView?id=000384974&type=1), the field is not marked as required automatically in the Sales app. You must manually mark the field as required in the Sales app.  
 
 1.	In Sales admin settings, select **Forms**.
 
@@ -220,7 +220,7 @@ If the fields in CRM are not marked as required, you can mark them as required o
 
 ## Configure editing of records and fields
 
-Sellers can edit records by opening them in CRM from a link in Sales app. Help them be more productive by allowing them to edit records directly in Sales app. You can also control which fields sellers can edit directly in Sales app.
+Sellers can edit records by opening them in CRM from a link in the Sales app. Help them be more productive by allowing them to edit records directly in the Sales app. You can also control which fields sellers can edit directly in the Sales app.
 
 By default, contacts are editable. For other records, you must turn on the option to allow editing.
 
@@ -234,13 +234,13 @@ By default, contacts are editable. For other records, you must turn on the optio
 
 4.  To restrict editing for specific fields, in the **Manage fields** section, turn off **Allow editing** for the appropriate fields.
 
-    :::image type="content" source="media/viva-sales-allow-edit.png" alt-text="Screenshot showing how to enable editing of records and fields in Sales app.":::
+    :::image type="content" source="media/viva-sales-allow-edit.png" alt-text="Screenshot showing how to enable editing of records and fields in the Sales app.":::
 
 5.  Select **Publish** to save your changes.
 
 ## Configure new record creation
 
-Choose whether, how, and where sellers can create new records from Sales app. Help them save time by allowing them to create new records inline, directly in Sales app, and make it easy for them to go to their CRM in a browser with a click.
+Choose whether, how, and where sellers can create new records from the Sales app. Help them save time by allowing them to create new records inline, directly in the Sales app, and make it easy for them to go to their CRM in a browser with a click.
 
 **To configure new contact creation**
 
@@ -250,10 +250,10 @@ Choose whether, how, and where sellers can create new records from Sales app. He
 
 3.  In the **Creating records** section, select one or both of the following options:
 
-    - **Create new records inside Sales**: Allow sellers to create new records inline, directly in Sales app.
+    - **Create new records inside Sales**: Allow sellers to create new records inline, directly in the Sales app.
     - **Create new records by opening (CRM) from a link**: Allow sellers to create new records in CRM by opening a link in a browser.
 
-    :::image type="content" source="media/viva-sales-inline-contact-create.png" alt-text="Screenshot showing how to configure contact creation in Sales app.":::
+    :::image type="content" source="media/viva-sales-inline-contact-create.png" alt-text="Screenshot showing how to configure contact creation in the Sales app.":::
 
 4.  Select **Publish** to save your changes.
 
@@ -261,9 +261,9 @@ Choose whether, how, and where sellers can create new records from Sales app. He
 
 [!INCLUDE [preview-banner-section](includes/preview-banner-section.md)]
 
-When you enable leads support in Sales app, leads related accounts and other related records are displayed to the sellers. Sellers can:
-- View existing leads in Sales app.
-- Create and edit lead records inline in Sales app.
+When you enable leads support in the Sales app, leads related accounts and other related records are displayed to the sellers. Sellers can:
+- View existing leads in the Sales app.
+- Create and edit lead records inline in the Sales app.
 - Associate emails and meetings with lead records.
 - Disambiguate between multiple leads matches.
 
@@ -271,14 +271,14 @@ After you enable leads support, the user experience to work with leads is simila
 
 ### Prerequisites
  
-- Recognize leads in Sales app
-    - You must add the Leads record (or Salesforce object) to Sales app admin settings.
+- Recognize leads in the Sales app
+    - You must add the Leads record (or Salesforce object) to the Sales app admin settings.
     - The Leads record form must have the First Name, Last Name, and Email address1 fields added and set to required.
     - The Leads view that is selected must include the above mentioned fields as columns.
  
 - Related entity card support in Salesforce (as with contacts)
     - A custom relationship between Leads and Account must be established in the CRM system.
-    - The view for the Account object in Sales app settings must be changed to any view other than the default **None**.
+    - The view for the Account object in the Sales app settings must be changed to any view other than the default **None**.
     - The Account field must be added as a column in the view that is selected for the Lead record or object.
 
 - Saving to lead in Salesforce
@@ -288,9 +288,9 @@ After you enable leads support, the user experience to work with leads is simila
 
 Each record type has a mini view that displays limited information when they're collapsed or shown in a list. The mini view is available at various places in the Sales app pane, such as in the quick view on the CRM tab.
 
-The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in Sales app for Outlook. More information: [Search behavior in Sales app for Outlook](#search-behavior-in-sales-app-for-outlook)
+The mini view includes a fixed title and two configurable subtitle fields. The fields available in the mini view are the ones that are available in the detailed view. Key fields setting affect the Search behavior in the Sales app for Outlook. More information: [Search behavior in the Sales app for Outlook](#search-behavior-in-sales-app-for-outlook)
 
-![Screenshot showing mini view of CRM records in Sales app.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in Sales app.")
+![Screenshot showing mini view of CRM records in the Sales app.](media/viva-sales-mini-view.png "Screenshot showing mini view of CRM records in the Sales app.")
 
 **To select key fields**
 
@@ -300,11 +300,11 @@ The mini view includes a fixed title and two configurable subtitle fields. The f
 
 3.  In the **Key fields** section, select fields from the list.
 
-    ![Screenshot showing how to select key fields for mini view in Sales app.](media/viva-sales-key-fields.png "Screenshot showing how to select key fields for mini view in Sales app.")
+    ![Screenshot showing how to select key fields for mini view in the Sales app.](media/viva-sales-key-fields.png "Screenshot showing how to select key fields for mini view in the Sales app.")
 
 4.  Select **Publish** to save your changes.
 
-### Search behavior in Sales app for Outlook
+### Search behavior in the Sales app for Outlook
 
 Key field settings affect the results when sellers search for connected records in Dynamics 365. In Dynamics 365, the search behavior for connected records depends on the quick find view. Make sure that the key fields you select for the mini view exist in the [quick find view](/dynamics365/customerengagement/on-premises/customize/choose-and-configure-columns?view=op-9-1&preserve-view=true), otherwise, the search list won’t show them. In Salesforce, the search is performed on the name and the additional fields selected for the mini view.
 
@@ -313,7 +313,7 @@ Key fields selected for record types affect the search results displayed for the
 
 ## Refresh data from CRM
 
-You should refresh data to get recent changes from CRM into Sales app. For example, if you add a new field to a record type view in CRM, you should refresh data to reflect the new field in Sales app. You can refresh data either for all record type at once or for a specific record type.
+You should refresh data to get recent changes from CRM into the Sales app. For example, if you add a new field to a record type view in CRM, you should refresh data to reflect the new field in the Sales app. You can refresh data either for all record type at once or for a specific record type.
 
 ### Refresh data for all record types
 
@@ -338,7 +338,7 @@ Alternatively, you can select the record type, and then select **Refresh data** 
 2. Hover over the record type you want to remove, and then select **Remove (record type)** (:::image type="icon" source="media/delete-icon.png" border="false":::).
 
 > [!NOTE]
-> - When you remove a record type that has related record types in Sales app, all related record types are also removed.
+> - When you remove a record type that has related record types in the Sales app, all related record types are also removed.
 > - You can't remove the contact record type.
 
 ## Control the order of record types in Outlook side pane
@@ -349,9 +349,9 @@ You can change the order by removing and adding record types in the required ord
 
 ## Impact of the order of record types on relationships
 
-The order of record types in admin settings affects the relationship settings between record types. When you add a new record type, you can select the relationship to existing record types or fields in Sales app. Only relationships with record types that precede the current record type in the list are displayed in the **Select the relationship for (record type)** window. 
+The order of record types in admin settings affects the relationship settings between record types. When you add a new record type, you can select the relationship to existing record types or fields in the Sales app. Only relationships with record types that precede the current record type in the list are displayed in the **Select the relationship for (record type)** window. 
 
-For example, let's assume that the order of record types is contact, opportunity, and account. In this case, the relationship between opportunity and account is displayed in the account settings, and not in the opportunity settings because account is configured after opportunity. Opportunity is considered the source record type, and account is the related record type. In this scenario, Sales app is configured to fetch accounts related to opportunities, but not opportunities related to accounts. The exception to this is when the CRM view is set to **None**. When no view is selected, default relationships are used instead of any previously selected relationships. In this case, the ordering of record types doesn't matter.
+For example, let's assume that the order of record types is contact, opportunity, and account. In this case, the relationship between opportunity and account is displayed in the account settings, and not in the opportunity settings because account is configured after opportunity. Opportunity is considered the source record type, and account is the related record type. In this scenario, the Sales app is configured to fetch accounts related to opportunities, but not opportunities related to accounts. The exception to this is when the CRM view is set to **None**. When no view is selected, default relationships are used instead of any previously selected relationships. In this case, the ordering of record types doesn't matter.
 
 Therefore, adjust the ordering of record types in admin settings by removing and re-adding record types in the required order. Ensure that the source record type is configured before the related record type. Then, select the required relationship in the related record type settings.
 

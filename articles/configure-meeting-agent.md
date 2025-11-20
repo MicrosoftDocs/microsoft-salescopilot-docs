@@ -25,7 +25,7 @@ Auto recording is applicable only to sales meetings that have the [**Sales** app
 
 To turn on auto recording for sales meetings:
 
-1. In Sales app admin settings, select **Meeting insights**.
+1. In the Sales app admin settings, select **Meeting insights**.
 2. Under **Recordings**, select **Auto-record sales meetings**.
 3. In the **Auto-record sales meetings** pane, turn on the toggle.
 4. Select **Save**.
@@ -38,7 +38,7 @@ The daily summary of meetings helps sellers stay organized by providing a single
 
 To turn on the daily summary of meetings feature:
 
-1. In Sales app admin settings, select **Meeting insights**.
+1. In the Sales app admin settings, select **Meeting insights**.
 2. Under **Notifications**, select **Daily digest**.
 3. In the **Daily digest** pane, turn on the toggle.
 4. From the **Delivery time** list, select the time when the daily digest is sent. By default, 7:30 AM is selected.
@@ -52,7 +52,7 @@ If you want to turn off the daily summary of meetings feature, follow the same s
 
 To configure the time of pre-meeting preparation notifications:
 
-1. In Sales app admin settings, select **Meeting insights**.
+1. In the Sales app admin settings, select **Meeting insights**.
 2. Under **Notifications**, select **Pre-meeting preparation**.
 3. In the **Pre-meeting preparation** pane, turn on or off the toggle to enable or disable the feature.
 4. From the **Delivery interval** list, select the time interval before the meeting when the notification is sent. By default, 1 hour is selected.

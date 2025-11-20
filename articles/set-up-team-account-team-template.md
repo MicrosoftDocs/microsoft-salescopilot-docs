@@ -25,11 +25,11 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
 ## Create an account team
 
-1. In Outlook, open an email to or from your customer, and then open Sales app.
+1. In Outlook, open an email to or from your customer, and then open the Sales app.
 
 1. Go to the **Collaborate in Teams** card, hover over the account name, and then select **Set up account team**.
 
-    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up account team button highlighted.":::
+    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the Set up account team button highlighted.":::
 
 1. In the **Set up an account team** step, select **Create a new team**.
 
@@ -41,7 +41,7 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
-    :::image type="content" source="media/add-members.png" alt-text="Screenshot of the Add team members step in Sales app for Outlook.":::
+    :::image type="content" source="media/add-members.png" alt-text="Screenshot of the Add team members step in the Sales app for Outlook.":::
 
     Team members are recommended based on the following criteria:
 
@@ -61,11 +61,11 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
 When you set up an account team for an existing team, a new channel is created in the team and linked to the CRM account.
 
-1. In Outlook, open an email to or from your customer, and then open Sales app.
+1. In Outlook, open an email to or from your customer, and then open the Sales app.
 
 1. Go to the **Collaborate in Teams card**, hover over the account name, and then select **Set up account team**.
 
-    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in Sales app for Outlook, with the Set up account team button highlighted.":::
+    :::image type="content" source="media/team-button.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook, with the Set up account team button highlighted.":::
 
 1. In the **Set up an account team** step, select **Use an existing team**.
 

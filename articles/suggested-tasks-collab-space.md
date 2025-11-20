@@ -1,6 +1,6 @@
 ---
 title: Advanced collaboration with AI-powered Planner tasks
-description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in Sales app.
+description: Efficiently manage tasks for sales teams with AI-powered Planner tasks in the Sales app.
 ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -16,7 +16,7 @@ ms.custom:
 
 Sales teams work together closely and use apps such as Microsoft Planner to efficiently manage their tasks. Although numerous critical next steps and action items emerge during their daily conversations, many of these tasks aren't captured and tracked. The results are missed opportunities and lost revenue.
 
-The AI-powered Planner tasks feature in Sales app helps sellers stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Microsoft Teams and helps sellers capture and track tasks that are discussed during their conversations. It automatically turns important discussions into Planner tasks, so that important activities can easily be tracked. Sellers can assign these tasks to the right people and set deadlines.
+The AI-powered Planner tasks feature in the Sales app helps sellers stay on top of their action items by suggesting tasks that are related to their accounts and opportunities. This feature seamlessly integrates with the collaboration spaces in Microsoft Teams and helps sellers capture and track tasks that are discussed during their conversations. It automatically turns important discussions into Planner tasks, so that important activities can easily be tracked. Sellers can assign these tasks to the right people and set deadlines.
 
 Planner tasks that are created from the suggested tasks can be accessed from the Planner app. In addition, sales team members can add the Planner app as a tab in the channel and then view and manage the tasks from there.
 

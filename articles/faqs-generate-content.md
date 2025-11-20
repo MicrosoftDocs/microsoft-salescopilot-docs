@@ -1,6 +1,6 @@
 ---
 title: FAQ for generate content feature in Outlook
-description: This FAQ provides information about the AI technology used in the generate content feature in Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in the generate content feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
@@ -13,17 +13,17 @@ ms.reviewer: shjais
 
 # FAQ for generate content feature in Outlook
 
-These frequently asked questions (FAQ) describe the AI impact of Sales app's generate content feature in Outlook.
+These frequently asked questions (FAQ) describe the AI impact of the Sales app's generate content feature in Outlook.
 
 ## What is generate content feature in Outlook?
 
-Sales app empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
+the Sales app empowers salespeople to be more productive with their time by generating email drafts for them to send to their customers. By leveraging generative AI, it provides valuable assistance in crafting effective and personalized communication, saving time and enhancing the seller's writing skills.
 
 ## What are the feature's capabilities?
 
-Sales app utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
+the Sales app utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
 
-Sales app supports the following capabilities:
+the Sales app supports the following capabilities:
 
 - **CRM-aware email generation**: When the seller's prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited to accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 - **Meeting intent detection and time suggestions**: The system identifies if a meeting is being proposed and suggests appropriate times based on the seller's availability and working hours as per their calendar.
@@ -73,5 +73,5 @@ To minimize the impact of these limitations:
 
 ### Related information
 
-- [Draft an email message in Sales app](use-copilot-kickstart-email-messages.md)
+- [Draft an email message in the Sales app](use-copilot-kickstart-email-messages.md)
 - [Draft an email message using sales information with Copilot in Outlook](email-reply-premium.md)

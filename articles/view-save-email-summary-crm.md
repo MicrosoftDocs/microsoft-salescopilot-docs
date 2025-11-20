@@ -1,6 +1,6 @@
 ---
 title: View and save email summaries to your CRM
-description: Learn how to use Sales app to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
+description: Learn how to use the Sales app to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,7 +14,7 @@ ms.custom:
 
 # View and save email summaries to your CRM
 
-Save time by letting Sales app summarize and save important email information to your CRM in seconds. Share summaries to Microsoft Teams or copy them for other uses. 
+Save time by letting the Sales app summarize and save important email information to your CRM in seconds. Share summaries to Microsoft Teams or copy them for other uses. 
 
 When available, the summary includes information whether budget, stakeholders, need, and timing are mentioned in the email or not. This information is displayed only for external emails and when detected with a high probability by AI.
 
@@ -22,7 +22,7 @@ Email summaries are available when:
 
 - The email is to or from a contact outside your company, and the contact exists in your CRM.
 - The email content is more than 1,000 characters, or about 150&ndash;200 words in English. If the email is too short, Copilot doesn't have enough information to generate a summary.
-- The email is in one of the supported languages. Learn more in [Supported languages in Sales app for Outlook and Teams](introduction.md#supported-languages-and-geographies).
+- The email is in one of the supported languages. Learn more in [Supported languages in the Sales app for Outlook and Teams](introduction.md#supported-languages-and-geographies).
 - The email isn't encrypted.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ In the **Key email info** card, you can perform the following tasks:
 
     :::image type="content" source="media/summary-source.png" alt-text="Screenshot of contact details in the Sales app pane in Outlook.":::
 
-- To draft a reply from scratch with Copilot's help, select **Draft an email**. To start with some context, select the arrow next to **Draft an email**, and then select either **Reply to an inquiry**, **Make a proposal**, or **Address a concern**. Learn more in [Draft an email message in Sales app](./use-copilot-kickstart-email-messages.md).
+- To draft a reply from scratch with Copilot's help, select **Draft an email**. To start with some context, select the arrow next to **Draft an email**, and then select either **Reply to an inquiry**, **Make a proposal**, or **Address a concern**. Learn more in [Draft an email message in the Sales app](./use-copilot-kickstart-email-messages.md).
 
 - To share the summary to Microsoft Teams, select **Share** > **Share to Teams**. In the search box under **Share to:**, start typing the name of a person, channel, or chat, and then select it from the list. Add a message if you like, edit the summary if needed, and then select **Share**. Learn more in [Share email summaries to Microsoft Teams](./share-insights-from-outlook-to-teams.md).
 
@@ -78,13 +78,13 @@ In the **Key email info** card, you can perform the following tasks:
 
 ### Save an email summary to your CRM
 
-With Sales app, save an email summary to one record only. If you try to save it again, the option is no longer available.
+With the Sales app, save an email summary to one record only. If you try to save it again, the option is no longer available.
 
 1. In the [**Key email info** card](#view-an-email-summary), select **...** > **Save summary to CRM**, where *CRM* is the name of your CRM system.
 
 1. Under **Select a record**, select or search for a contact, account, or opportunity record to add the email summary to. Your search results are added to the suggested records list, so you can safely search and try again.
 
-    If there are multiple opportunities related to contact, Sales app displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
+    If there are multiple opportunities related to contact, the Sales app displays a list of suggested opportunities, ranked by AI, to save the summary. In this case, the first opportunity is selected by default.
     
     If the email is already connected to an opportunity, it's selected by default.
 
@@ -94,24 +94,24 @@ With Sales app, save an email summary to one record only. If you try to save it 
 
     > [!NOTE]
     > - When you search for a record to connect to, the search results show the record name and the key fields that your administrator selected.
-    > - You can connect to all record types that your administrator enabled for activities and added to Sales app.
+    > - You can connect to all record types that your administrator enabled for activities and added to the Sales app.
 
     :::image type="content" source="media/select-record.png" alt-text="Screenshot of suggested records in the Sales pane in Outlook, with numbered callouts.":::
 
 Legend:
 
-1. Records suggested by Sales app
+1. Records suggested by the Sales app
 1. Record added from the search box
 
-The email summary is saved to your CRM as a note on the selected record. The subject is the same for all Sales app notes: "[AI generated] Email summary from Sales Copilot." The note includes the email subject and the timestamp when the note was saved. After you save the summary to the record, you can edit it in your CRM system.
+The email summary is saved to your CRM as a note on the selected record. The subject is the same for all the Sales app notes: "[AI generated] Email summary from Sales Copilot." The note includes the email subject and the timestamp when the note was saved. After you save the summary to the record, you can edit it in your CRM system.
 
 :::image type="content" source="media/timeline.png" alt-text="Screenshot of a note added to a timeline in Dynamics 365 Sales Hub.":::
 
 > [!NOTE]
-> Salesforce has two types of note objects: "Notes and Attachments" and "Notes," also known as "Content Notes." You can use either of these objects to attach notes to a CRM record. Sales app only supports the "Notes and Attachments" object out of the box. If you want it to support the "Notes" object, ask your Salesforce administrator to contact Microsoft Support.
+> Salesforce has two types of note objects: "Notes and Attachments" and "Notes," also known as "Content Notes." You can use either of these objects to attach notes to a CRM record. the Sales app only supports the "Notes and Attachments" object out of the box. If you want it to support the "Notes" object, ask your Salesforce administrator to contact Microsoft Support.
 
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
-- [Create a contact in your CRM from Sales app](./create-contact-crm.md)
-- [Draft an email message in Sales app](./use-copilot-kickstart-email-messages.md)
+- [Create a contact in your CRM from the Sales app](./create-contact-crm.md)
+- [Draft an email message in the Sales app](./use-copilot-kickstart-email-messages.md)

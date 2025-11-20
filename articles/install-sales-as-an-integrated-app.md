@@ -1,5 +1,5 @@
 ---
-title: Install Sales app in Outlook
+title: Install the Sales app in Outlook
 description: Learn how to install, manage, and update the Sales app in Microsoft 365 with this comprehensive guide.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
@@ -14,9 +14,9 @@ ms.custom:
   - ai-seo-date:06/19/2024
 ---
 
-# Install Sales app in Outlook
+# Install the Sales app in Outlook
 
-As an administrator, you can install Sales app as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
+As an administrator, you can install the Sales app as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).  
 1. In the left pane, select **Settings** > **Integrated apps**.  
@@ -39,10 +39,10 @@ As an administrator, you can install Sales app as an integrated app from Microso
 1. In the **Deployment** (**Permissions**) step, read the app permissions and capabilities, select **Accept permissions** for the app, and then select **Next**.  
 1. In the **Deployment** (**Finish**) step, review the selected settings, and then select **Finish deployment**.  
 1. When the deployment is complete, select **Done**.  
-    Allow up to six hours for Sales app to appear in users' Outlook ribbon.
+    Allow up to six hours for the Sales app to appear in users' Outlook ribbon.
 
 > [!NOTE]
-> The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing Sales app in Teams, go to [Install and pin Sales app in Teams](install-pin-sales-teams.md).
+> The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing the Sales app in Teams, go to [Install and pin the Sales app in Teams](install-pin-sales-teams.md).
 
 
 > [!IMPORTANT]
@@ -50,14 +50,14 @@ As an administrator, you can install Sales app as an integrated app from Microso
 
 ## Manage the Sales app
 
-After you've installed Sales app as an integrated app, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
+After you've installed the Sales app as an integrated app, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.  
 1. On the **Integrated apps** page, select the **Sales** app.  
 
 The **Sales** panel opens with the following tabs:
 
-- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
+- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If the Sales app was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
 - **Users**: Allows you to edit the users who can use the app.  
 
 ## Update the Sales app
@@ -72,8 +72,8 @@ The **Sales** panel opens with the following tabs:
 
 End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by the administrator.  
 
-If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, sellers can manually add Sales app to the meeting to get meeting summaries.
+If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support the Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, sellers can manually add the Sales app to the meeting to get meeting summaries.
 
 ### Related information
 
-[Install and pin Sales app in Teams](install-pin-sales-teams.md)
+[Install and pin the Sales app in Teams](install-pin-sales-teams.md)

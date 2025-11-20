@@ -18,11 +18,11 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Sellers can view details about a saved contact, together with associated records such as accounts and opportunities. You can extend the customer relationship management (CRM) record details capability that Sales app provides with insights from your own application.
+Sellers can view details about a saved contact, together with associated records such as accounts and opportunities. You can extend the customer relationship management (CRM) record details capability that the Sales app provides with insights from your own application.
 
 ## API description
 
-You must add the following API description to the action. In this way, Sales app can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. In this way, the Sales app can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets records related to a CRM record. The action enhances the existing skills of Copilot for Sales.*
 
@@ -32,7 +32,7 @@ This API uses Operation Type: GET
 
 ## Input parameters
 
-Sales app is designed to provide the following input parameters to your APIs.
+the Sales app is designed to provide the following input parameters to your APIs.
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|------------------|----------|---------|----------------------------------|
@@ -48,7 +48,7 @@ Sales app is designed to provide the following input parameters to your APIs.
 
 ## Output parameters
 
-Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
+the Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|
@@ -122,5 +122,5 @@ Legend:
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Sales app with partner applications](extend-sales-app.md)<br>
-[Build Sales app extensions](build-apis.md)
+[Extend the Sales app with partner applications](extend-sales-app.md)<br>
+[Build the Sales app extensions](build-apis.md)

@@ -11,20 +11,20 @@ ms.custom: sfi-image-nochange
 
 # Connect a contact to your CRM
 
-You'll get the most benefit from everything Sales app can do for you when your external contacts are available in your CRM system. In Sales app, we call this connecting a contact to your CRM. Contacts that are connected to your CRM are referred to as _Saved contacts_.
+You'll get the most benefit from everything the Sales app can do for you when your external contacts are available in your CRM system. In the Sales app, we call this connecting a contact to your CRM. Contacts that are connected to your CRM are referred to as _Saved contacts_.
 
-When you read an email from external contacts or compose an email to external contacts, and open the Sales app pane, Sales app searches your CRM for the contact's primary email address. The external contact is connected to a CRM contact based on one of the following conditions:
+When you read an email from external contacts or compose an email to external contacts, and open the Sales app pane, the Sales app searches your CRM for the contact's primary email address. The external contact is connected to a CRM contact based on one of the following conditions:
 
 - External email address matches only one CRM contact  
 - External email address matches none of the CRM contacts  
 - External email address matches multiple CRM contacts
 
 > [!NOTE]
-> If you're using Dynamics 365 as your CRM, Sales app matches the email address of the external contact only with the EmailAddress1 field of the contact record in Dynamics 365 and not with EmailAddress2 or EmailAddress3 field. Ensure that email address is populated in the EmailAddress1 field to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, Sales app won't match the external contact with the CRM contact and considers it as an unsaved contact.
+> If you're using Dynamics 365 as your CRM, the Sales app matches the email address of the external contact only with the EmailAddress1 field of the contact record in Dynamics 365 and not with EmailAddress2 or EmailAddress3 field. Ensure that email address is populated in the EmailAddress1 field to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, the Sales app won't match the external contact with the CRM contact and considers it as an unsaved contact.
 
 ## External email address matches only one CRM contact
 
-If the address you entered in your email matches only one contact in the CRM, Sales app automatically connects them. The connected contacts are displayed in the **Contacts** card.
+If the address you entered in your email matches only one contact in the CRM, the Sales app automatically connects them. The connected contacts are displayed in the **Contacts** card.
 
 ## External email address matches none of the CRM contacts
 
@@ -32,7 +32,7 @@ If the email address you entered doesn't match any of the contacts in your CRM, 
 
 ## External email address matches multiple CRM contacts
 
-If the email address you entered matches multiple contacts in the CRM, you must manually select and connect to the correct CRM contact. Sales app displays a message on the **Highlights** card about multiple matches of a contact.
+If the email address you entered matches multiple contacts in the CRM, you must manually select and connect to the correct CRM contact. the Sales app displays a message on the **Highlights** card about multiple matches of a contact.
 
 1. In the **Sales** pane, select the contact in the **Contacts** card, and then select **Choose contact**.
 

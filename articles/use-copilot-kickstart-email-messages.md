@@ -1,6 +1,6 @@
 ---
-title: Draft an email message in Sales app
-description: Learn how to generate an email reply with predefined categories or custom prompts using Sales app's AI.
+title: Draft an email message in the Sales app
+description: Learn how to generate an email reply with predefined categories or custom prompts using the Sales app's AI.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -12,15 +12,15 @@ ms.custom:
   - ai-seo-date:11/08/2023
 ---
 
-# Draft an email message in Sales app
+# Draft an email message in the Sales app
 
-When you compose a new email or reply to your customers by email, Sales app uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
+When you compose a new email or reply to your customers by email, the Sales app uses AI to suggest content, saving you time and effort in composing the perfect message to move a deal forward. Choose from predefined response categories or enter your own text, and the AI generates the suggested content. You can use the suggested content as-is or modify to meet your needs.
 
 > [!NOTE]
 > - This feature is available only when enabled by your administrator. More information: [Turn on Copilot AI features](suggested-replies.md)
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sending your email.
 > - If the email is connected to a CRM record and the associated activities have attachments exceeding a total of 28 MB, you may encounter issues while drafting the email. To prevent this, either remove the attachments from the activities or reduce their size so that the total size of the attachments is less than 28 MB per draft request.
-> - If you've opened an encrypted email, the capability to draft an email using Sales app isn't available.
+> - If you've opened an encrypted email, the capability to draft an email using the Sales app isn't available.
 > - Based on the license you have, you can see the capability to draft an email message either [within Outlook](email-reply-premium.md) or in the **Sales** app in Outlook.
 
 ## Anatomy of suggested content
@@ -203,7 +203,7 @@ If there are no more open opportunities identified by the AI model, no option is
 
    > [!NOTE]
    >
-   > - Sales app displays opportunities that are related to the contacts in the email.
+   > - the Sales app displays opportunities that are related to the contacts in the email.
    >
    > - The information displayed below the opportunities is displayed as customized by your administrator. More information: [Select key fields for the mini view](customize-forms-and-fields.md#select-key-fields-for-the-mini-view)
 
@@ -396,10 +396,10 @@ You can set the language of the suggested content to be one of the supported lan
 
 After meeting with your customers, you often send an email with a summary of your interaction, relevant action items or next steps, and a follow-up date. Manually creating a meeting summary and compiling all the notes and action items taken during the meeting takes some amount of time and often gets missed.
 
-With Sales app, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
+With the Sales app, you can summarize your most recent transcribed Teams meeting with your sales contacts and send it over email whenever you compose a new email or reply to your customer's email.
 
 > [!IMPORTANT]
-> Ensure that Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
+> Ensure that the Sales app is installed, and meeting is transcribed to generate a meeting summary. More information: [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)
 
 1. In Outlook:
 
@@ -470,7 +470,7 @@ If you enter text that contains undesired or inappropriate content (potential pr
 
 ## How is suggested content generated?
 
-Sales app uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it's written by a person.
+the Sales app uses AI to generate suggested email content. Trained on a vast number of text samples from the Internet, Copilot generates new content that looks and sounds like it's written by a person.
 
 Original content is generated every time, but it isn't always factual. In addition, the underlying technology uses AI that is trained on a wide range of internet sources. Some suggestions might include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your reply is accurate and appropriate.
 
@@ -480,7 +480,7 @@ When you open the Sales app while you're reading or replying to an email, the AI
 
 - The contacts, subject, and body of the email
 
-- CRM data connected through Sales app
+- CRM data connected through the Sales app
 
 - The response category you selected or custom prompt you entered
 

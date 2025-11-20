@@ -18,7 +18,7 @@ Sales personal app is the enhanced Teams personal app that has **Home** and **Se
 
 On the left navigation pane, select **More Apps**, and then search and select **Sales**. 
 
-:::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing Sales app in Outlook.":::
+:::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing the Sales app in Outlook.":::
 
 ## Open the personal app in Teams
 
@@ -43,7 +43,7 @@ If you're connected to Salesforce and you select the environment name, it shows 
 
 ### Share feedback from personal app
 
-If you have any feedback about Sales app, you can share it from the app. Your feedback is valuable, and we use it to improve the product.
+If you have any feedback about the Sales app, you can share it from the app. Your feedback is valuable, and we use it to improve the product.
 
 1. Open the personal app in [Outlook](#open-the-personal-app-in-outlook) or [Teams](#open-the-personal-app-in-teams).
 
