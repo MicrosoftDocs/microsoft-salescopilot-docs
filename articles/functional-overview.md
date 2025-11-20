@@ -1,7 +1,7 @@
 ---
 title: Functional overview of Sales in Microsoft 365 Copilot
 description: Maximize seller productivity with Sales in Microsoft 365 Copilot, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: View customer communication (preview)
 description: Learn how to work with the Customer communication card in Sales app
-ms.date: 09/09/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

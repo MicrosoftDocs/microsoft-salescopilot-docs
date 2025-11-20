@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Sales app
 description: Learn what are the various privileges required to use Sales app
-ms.date: 02/12/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

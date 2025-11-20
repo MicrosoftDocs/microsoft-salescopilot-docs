@@ -1,7 +1,7 @@
 ---
 title: View and save email summaries to your CRM
 description: Learn how to use Sales app to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
-ms.date: 08/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

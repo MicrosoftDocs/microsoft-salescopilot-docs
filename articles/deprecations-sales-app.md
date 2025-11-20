@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Sales app
 description: Features deprecated in Sales app are listed in this article, giving users time to update their code before removal.
-ms.date: 09/08/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

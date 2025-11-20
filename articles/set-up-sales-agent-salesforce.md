@@ -1,7 +1,7 @@
 ---
 title: Integrate Sales Agent with Salesforce (preview)
 description: Learn how to integrate Sales Agent into Salesforce.
-ms.date: 06/18/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

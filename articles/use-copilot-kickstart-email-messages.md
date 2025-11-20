@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Sales app
 description: Learn how to generate an email reply with predefined categories or custom prompts using Sales app's AI.
-ms.date: 06/23/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

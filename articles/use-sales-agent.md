@@ -1,7 +1,7 @@
 ---
 title: Use Sales Agent (preview)
 description: Learn how to view the research conducted on your leads by Sales Agent.
-ms.date: 06/13/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

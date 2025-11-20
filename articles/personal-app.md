@@ -1,7 +1,7 @@
 ---
 title: Sales personal app
 description: Learn about the Sales personal app and how to share feedback from the app.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais

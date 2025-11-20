@@ -1,7 +1,7 @@
 ---
 title: Enrich CRM record summaries with insights from your application (preview)
 description: Enhance CRM record summaries in Sales app by using AI and insights from your own application, improving customer understanding.
-ms.date: 03/28/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

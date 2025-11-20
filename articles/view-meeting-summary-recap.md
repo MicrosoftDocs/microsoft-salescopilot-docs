@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use Sales app in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 08/05/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: View and update CRM record details
 description: Learn how to view and update CRM record details.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

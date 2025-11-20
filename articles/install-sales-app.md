@@ -1,7 +1,7 @@
 ---
 title: Install Sales app
 description: Learn what are the various ways to install Sales app.
-ms.date: 01/10/2025
+ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais

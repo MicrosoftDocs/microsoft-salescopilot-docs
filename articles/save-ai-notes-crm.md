@@ -1,7 +1,7 @@
 ---
 title: Configure how AI meeting notes are saved from Teams recap to CRM
 description: Learn how to configure how AI meeting notes are saved from Teams recap to CRM using the Sales app in Teams.
-ms.date: 07/11/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

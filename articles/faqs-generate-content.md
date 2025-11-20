@@ -1,7 +1,7 @@
 ---
 title: FAQ for generate content feature in Outlook
 description: This FAQ provides information about the AI technology used in the generate content feature in Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

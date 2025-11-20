@@ -1,7 +1,7 @@
 ---
 title: Sales app deployment guide for Salesforce CRM customers
 description: Learn how to deploy Sales app for Salesforce CRM customers.
-ms.date: 09/24/2025
+ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais

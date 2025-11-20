@@ -1,7 +1,7 @@
 ---
 title: Search for a CRM record using Sales app
 description: Explore the Sales app CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

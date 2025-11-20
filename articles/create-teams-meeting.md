@@ -1,7 +1,7 @@
 ---
 title: Create a Teams meeting and generate meeting insights
 description: Learn how to create a Teams meeting and generate meeting insights using Sales app.
-ms.date: 06/30/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

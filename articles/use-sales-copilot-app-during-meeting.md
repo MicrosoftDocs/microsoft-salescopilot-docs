@@ -1,7 +1,7 @@
 ---
 title: Use Sales app during a meeting
 description: Learn how to use the Sales app during a meeting.
-ms.date: 01/24/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

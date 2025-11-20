@@ -1,7 +1,7 @@
 ---
 title: Change the connected CRM contact
 description: Learn how to change the connected CRM contact.
-ms.date: 03/28/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

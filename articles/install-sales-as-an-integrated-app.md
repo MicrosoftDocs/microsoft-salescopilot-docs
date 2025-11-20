@@ -1,7 +1,7 @@
 ---
 title: Install Sales app in Outlook
 description: Learn how to install, manage, and update the Sales app in Microsoft 365 with this comprehensive guide.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais

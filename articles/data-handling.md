@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales in Microsoft 365 Copilot 
 description: Know how data is handled in Sales in Microsoft 365 Copilot 
-ms.date: 09/24/2025
+ms.date: 11/20/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais

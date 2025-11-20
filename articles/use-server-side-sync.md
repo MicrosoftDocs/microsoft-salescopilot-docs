@@ -1,7 +1,7 @@
 ---
 title: Use server-side synchronization with Sales app
 description: Learn how to use server-side synchronization with Sales app.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

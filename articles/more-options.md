@@ -1,7 +1,7 @@
 ---
 title: Access more options in Sales app
 description: Explore Sales app options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

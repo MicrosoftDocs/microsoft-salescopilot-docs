@@ -1,7 +1,7 @@
 ---
 title: View opportunity insights (preview)
 description: Learn how to view opportunity insights in Sales app.
-ms.date: 09/09/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

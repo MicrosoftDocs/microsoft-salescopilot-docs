@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields in Sales in Microsoft 365 Copilot
 description: Learn how to customize the CRM information your sellers see in Sales app.
-ms.date: 02/24/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Sales app adoption report
 description: Learn how to use the Sales app adoption Power BI template to understand how your company's sales team is using Sales app.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais

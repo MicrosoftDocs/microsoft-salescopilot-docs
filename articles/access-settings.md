@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in Sales app
 description: Control access to various features in Sales app, including meeting insights and Sales Agent capabilities.
-ms.date: 08/13/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

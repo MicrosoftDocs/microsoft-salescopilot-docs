@@ -1,7 +1,7 @@
 ---
 title: Turn on Copilot AI features
 description: Learn how to turn on AI features in Sales to help your sellers write better emails and stay on top of their deals.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

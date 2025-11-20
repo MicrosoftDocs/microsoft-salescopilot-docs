@@ -1,7 +1,7 @@
 ---
 title: Install and pin Sales app in Teams
 description: Learn how to install and pin Sales app in Teams
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais

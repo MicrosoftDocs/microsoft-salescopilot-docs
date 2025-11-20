@@ -1,7 +1,7 @@
 ---
 title: Build Sales app extensions (preview)
 description: Explore how to build extensions that enhance capabilities and introduce new ones for Sales app.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

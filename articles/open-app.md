@@ -1,7 +1,7 @@
 ---
 title: Access the Sales app
 description: Learn how to access the Sales app in Outlook and Teams.
-ms.date: 07/24/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

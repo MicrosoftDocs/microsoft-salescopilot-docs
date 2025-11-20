@@ -1,7 +1,7 @@
 ---
 title: Turn off task suggestion in collaboration spaces (preview)
 description: Control AI-powered task suggestions in collaboration spaces as a Sales administrator to customize the user experience in Microsoft Teams.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

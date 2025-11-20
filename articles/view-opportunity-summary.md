@@ -1,7 +1,7 @@
 ---
 title: View an opportunity summary
 description: Learn how to view an AI-powered opportunity summary in Sales app to help you interact more productively with customers and boost sales.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

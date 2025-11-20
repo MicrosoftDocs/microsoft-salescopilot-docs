@@ -1,7 +1,7 @@
 ---
 title: Welcome to Sales in Microsoft 365 Copilot
 description: Get to know Sales in Microsoft 365 Copilot
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
 description: Learn how to set up a team using a deal room team template in the Sales app for Outlook.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
