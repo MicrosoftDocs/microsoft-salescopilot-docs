@@ -1,7 +1,7 @@
 ---
 title: Edit a CRM record
 description: Learn how to edit a CRM record.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Edit a CRM record
 
-1. Open the **Copilot for Sales** pane and select a record you want to edit.
+1. Open the **Sales** pane and select a record you want to edit.
 
 1. In the record's details cards, select **More actions** (**...**) > **Edit record**.
 

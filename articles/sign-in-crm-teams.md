@@ -1,7 +1,7 @@
 ---
 title: Connect to CRM from Teams
 description: Connect to a CRM environment from Teams to get an enriched experience with CRM data.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,11 +10,11 @@ ms.author: shjais
 
 # Connect to CRM from Teams
 
-After you open the Microsoft 365 Copilot for Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
+After you open the Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
 
 ## Automatically connect to CRM
 
-If you have a Dynamics 365 environment (production or non-production) with the Copilot for Sales solution, you're automatically connected to your environment the first time you open the Copilot for Sales app. The environment you're connected to is determined based on the following rules:
+If you have a Dynamics 365 environment (production or non-production) with Sales in Microsoft 365 Copilot, you're automatically connected to your environment the first time you open the **Sales** pane. The environment you're connected to is determined based on the following rules:
 
 |Scenario  |Auto connect rule  |
 |---------|---------|
@@ -24,9 +24,9 @@ If you have a Dynamics 365 environment (production or non-production) with the C
 |Multiple non-production environments but no production environment     |  Connected to the first non-production environment       | 
 
 > [!NOTE]
-> Copilot for Sales doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. Copilot for Sales fetches a list of environments that have the Copilot for Sales solution and then connects to the first environment in the list.
+> The Sales app doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. The Sales app fetches a list of environments that have Sales in Microsoft 365 Copilot and then connects to the first environment in the list.
 
-Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Copilot for Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
+Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
 - **Switch environments**: Select this option to [switch to another Dynamics 365 environment](personal-app.md#switch-environments).
 - **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
@@ -41,14 +41,14 @@ Once you're connected to your CRM, the environment name is displayed at the top-
 
 You must manually connect to your CRM in the following cases:
 
-- If you're using Dynamics 365 environment and have disconnected your CRM from the Copilot for Sales app.
+- If you're using Dynamics 365 environment and have disconnected your CRM from the Sales app.
 - If you're using Salesforce CRM.
 
-You must be connected to your CRM to interact with CRM data in the Copilot for Sales app. Follow these steps to connect to your CRM:
+You must be connected to your CRM to interact with CRM data in the Sales app. Follow these steps to connect to your CRM:
 
 1. Sign in to Teams.
 
-1. On the left navigation pane, select **View more apps** (**...**), and then search and select **Copilot for Sales**. 
+1. On the left navigation pane, select **View more apps** (**...**), and then search and select **Sales**. 
 
 1. On the **Home** tab, select **Connect to CRM** in the upper-right corner, and then connect to your CRM using one of the following options:
 
@@ -67,8 +67,8 @@ You must be connected to your CRM to interact with CRM data in the Copilot for S
 
 ## App refresh
 
-When you switch the connected environment in Outlook, you receive a notification to refresh the Copilot for Sales app in Teams. Select **Refresh** to see the updated data from the new environment.
+When you switch the connected environment in Outlook, you receive a notification to refresh the Sales app in Teams. Select **Refresh** to see the updated data from the new environment.
 
 ### Related information
 
-- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
+- [Sales personal app](personal-app.md)

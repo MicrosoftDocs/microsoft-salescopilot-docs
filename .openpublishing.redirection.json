@@ -723,6 +723,86 @@
         "source_path": "articles/faqs-key-sales-info.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                                      
+      },
+      {
+        "source_path": "articles/enable-license.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/license-info.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/buy-license.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/step-up-license.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/features-d365-users.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/administrator-settings-for-viva-sales.md",
+        "redirect_url": "/microsoft-sales-copilot/administrator-settings-sales-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/deploy-viva-sales-d365.md",
+        "redirect_url": "/microsoft-sales-copilot/deploy-sales-app-d365",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/deploy-viva-sales-sf.md",
+        "redirect_url": "/microsoft-sales-copilot/deploy-sales-app-sf",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/create-contact-crm-sales-copilot.md",
+        "redirect_url": "/microsoft-sales-copilot/create-contact-crm",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/deprecations-copilot-for-sales.md",
+        "redirect_url": "/microsoft-sales-copilot/deprecations-sales-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/disable-viva-sales.md",
+        "redirect_url": "/microsoft-sales-copilot/uninstall-sales-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/extend-copilot-for-sales.md",
+        "redirect_url": "/microsoft-sales-copilot/extend-sales-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/install-pin-viva-sales-teams.md",
+        "redirect_url": "/microsoft-sales-copilot/install-pin-sales-teams",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/install-viva-sales-as-an-integrated-app.md",
+        "redirect_url": "/microsoft-sales-copilot/install-sales-as-an-integrated-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/install-viva-sales.md",
+        "redirect_url": "/microsoft-sales-copilot/install-sales-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/sales-copilot-faq.md",
+        "redirect_url": "/microsoft-sales-copilot/sales-m365-copilot-faq",
+        "redirect_document_id": false
+      }                                                                           
   ]
 }
