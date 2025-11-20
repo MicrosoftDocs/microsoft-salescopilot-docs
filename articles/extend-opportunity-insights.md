@@ -34,7 +34,7 @@ This API uses Operation Type: GET
 
 ## Input parameters
 
-the Sales app is designed to provide the following input parameters to your APIs.
+The Sales app is designed to provide the following input parameters to your APIs.
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|------------------|----------|---------|----------------------------------|
