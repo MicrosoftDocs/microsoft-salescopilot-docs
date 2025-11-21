@@ -216,7 +216,7 @@
       - name: Send outreach emails
         href: send-outreach-emails.md
 
-- name: Extend Sales (preview)
+- name: Extend Sales in Microsoft 365 Copilot (preview)
   items:
   - name: Overview
     href: extend-sales-app.md

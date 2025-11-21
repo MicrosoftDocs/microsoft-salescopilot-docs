@@ -129,6 +129,6 @@ Legend:
 [Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend the Sales app with partner applications](extend-sales-app.md)<br>
+[Extend Sales in Microsoft 365 Copilot with partner applications](extend-sales-app.md)<br>
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
-[Build the Sales app extensions](build-apis.md)
+[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)
