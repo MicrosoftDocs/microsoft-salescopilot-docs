@@ -41,5 +41,5 @@ The following table lists a few scenarios and the expected error codes.
 
 ### Related information
 
-[Extend the Sales app with partner applications](extend-sales-app.md)<br>
-[Build the Sales app extensions](build-apis.md)
+[Extend Sales in Microsoft 365 Copilot with partner applications](extend-sales-app.md)<br>
+[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)
