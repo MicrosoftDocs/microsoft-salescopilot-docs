@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,14 +16,14 @@ ms.custom:
 
 You can view details about your saved contact and its related records such as account and opportunities. The record types that you can view are determined by your administrator.
 
-1. In Outlook, open the **Copilot for Sales** pane.  
+1. In Outlook, open the **Sales** pane.  
 
 1. In the **(record type)** card, select the record to see the details. For example, if you want to see details of an opportunity, select the opportunity in the **Opportunities** card.  
 
 
 ## Open a record in your CRM
 
-The information that's available in Copilot for Sales is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
+The information that's available in the Sales app is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
 
 If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 
@@ -33,7 +33,7 @@ If you're using Salesforce as your CRM, this feature works only if you're using 
 
     :::image type="content" source="media/open-dynamics.png" alt-text="Screenshot showing the open in CRM icon.":::
 
-Alternatively, you can also open a record in CRM from the **Copilot for Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
+Alternatively, you can also open a record in CRM from the **Sales** pane. Hover over a record, select **More actions** (**...**), and then select **Open in (CRM)**.
 
 :::image type="content" source="media/more-actions.png" alt-text="Screenshot showing how to open a record in CRM.":::
 

@@ -1,7 +1,7 @@
 ---
 title: Manage consumption-based billing for agent capabilities (preview)
-description: Learn about managing consumption-based billing for agent capabilities in Copilot for Sales.
-ms.date: 08/12/2025
+description: Learn about managing consumption-based billing for agent capabilities in the Sales app.
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,24 +12,24 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-This article explains how to set up billing for Copilot and agent capabilities in Copilot for Sales.  
+This article explains how to set up billing for Copilot and agent capabilities in the Sales app.  
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Consumption-based billing
 
-Selected Copilot and agent capabilities in Copilot for Sales use consumption-based billing, charging per use. These capabilities use Microsoft Copilot Studio messages for AI interactions and tasks, like retrieving information and responding to prompts. Messages are the billing units that measure usage. The number of messages per event depends on its complexity. Learn more about messages in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
+Selected Copilot and agent capabilities in the Sales app use consumption-based billing, charging per use. These capabilities use Microsoft Copilot Studio messages for AI interactions and tasks, like retrieving information and responding to prompts. Messages are the billing units that measure usage. The number of messages per event depends on its complexity. Learn more about messages in [Message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).  
 
 Learn more about billing and rates in [Power Platform Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130).
 
 ### Set up billing model
 
-Copilot and agent capabilities in Copilot for Sales support two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages consumed by agents during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
+Copilot and agent capabilities in the Sales app support two billing models: prepaid capacity and pay-as-you-go. The prepaid capacity model uses Copilot Studio message pack subscriptions, which are a licensing option for Microsoft Copilot Studio that you purchase in advance. The pay-as-you-go model charges for the actual number of messages consumed by agents during the month. Learn more in [Copilot licensing](/microsoft-copilot-studio/billing-licensing).
 
 Both models require that you use a production Power Platform environment. [Learn more about converting a trial environment to a production environment](convert-trial-prod.md). 
 
 > [!NOTE]
-> Both billing models can be used on the Power Platform environment. Prepaid capacity is consumed first. Message capacity on the Power Platform environment is consumed by Copilot for Sales and other Microsoft services on the tenant.
+> Both billing models can be used on the Power Platform environment. Prepaid capacity is consumed first. Message capacity on the Power Platform environment is consumed by the Sales app and other Microsoft services on the tenant.
 
 ### Set up prepaid capacity
 
@@ -69,4 +69,4 @@ If the available capacity (quota) of your organization is low or depleted, it is
 - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing?tabs=web)  
 - [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing)  
 - [Disable or limit sharing of agents](/microsoft-copilot-studio/admin-sharing-controls-limits)  
-- [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
+- [Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  

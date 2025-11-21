@@ -1,7 +1,7 @@
 ---
 title: View an opportunity summary
-description: Learn how to view an AI-powered opportunity summary in Microsoft Copilot for Sales to help you interact more productively with customers and boost sales.
-ms.date: 09/29/2025
+description: Learn how to view an AI-powered opportunity summary in the Sales app to help you interact more productively with customers and boost sales.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,7 +14,7 @@ ms.custom:
 
 # View an opportunity summary
 
-When you're preparing for a meeting with a customer, context from your customer relationship management (CRM) system, such as the customer's questions and concerns and notes you and your colleagues took, can help you feel more confident and in control when the meeting starts. Copilot for Sales gives you that context. It uses AI to generate a summary of your opportunities that includes key information, helping make your interactions with customers more productive, boosting sales, and leaving your customers satisfied.
+When you're preparing for a meeting with a customer, context from your customer relationship management (CRM) system, such as the customer's questions and concerns and notes you and your colleagues took, can help you feel more confident and in control when the meeting starts. The Sales app gives you that context. It uses AI to generate a summary of your opportunities that includes key information, helping make your interactions with customers more productive, boosting sales, and leaving your customers satisfied.
 
 An opportunity summary can include the following kinds of information:
 
@@ -31,7 +31,7 @@ You can view the opportunity summary in the following places:
 - When you [share CRM records in Teams](share-crm-record-teams-conversation.md).
 
 > [!NOTE]
-> Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, Copilot for Sales only supports the "Notes and Attachments" object out of the box. If you want Copilot for Sales to support the Notes object, ask your administrator to contact Microsoft support.
+> Salesforce has two types of notes objects: "Notes and Attachments" and Notes (also known as Content Notes). You can use either of these objects to take notes and attach to the CRM records. However, the Sales app only supports the "Notes and Attachments" object out of the box. If you want the Sales app to support the Notes object, ask your administrator to contact Microsoft support.
 
 :::image type="content" source="media/opportunity-annotations.png" alt-text="Screenshot showing the Opportunity summary with numbered annotations.":::
 
@@ -44,10 +44,6 @@ You can view the opportunity summary in the following places:
 | 5 | Name of the opportunity for which summary is generated. |
 | 6 | Share feedback or wrong content using the thumbs-up or thumbs-down arrow. More information: [Share feedback](#share-feedback) |
 
-Here's the video that shows how to view the opportunity summary and [update the CRM based on suggested updates](suggested-crm-updates.md):
-
-> [!VIDEO 8f9ab913-0eec-48f5-a4ad-a1e3236482bd]
-
 ## Supported languages
 
 To see a list of supported languages, see [supported languages](introduction.md#supported-languages-and-geographies).
@@ -55,7 +51,7 @@ To see a list of supported languages, see [supported languages](introduction.md#
 ## View the summary
 
 1. In Outlook, open an email or the scheduled meeting.  
-1. Open the **Copilot for Sales** pane.
+1. Open the **Sales** pane.
 1. In the **Opportunities** card, select the opportunity to view its details.
     The opportunity summary is displayed at the top of the pane.
 

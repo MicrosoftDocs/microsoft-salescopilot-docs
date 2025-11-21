@@ -1,7 +1,7 @@
 ---
 title: View recent and upcoming activities
 description: Learn how to view recent and upcoming activities.
-ms.date: 09/29/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # View recent and upcoming activities
 
-If you've interacted with a customer through Outlook and Teams, Copilot for Sales displays your recent emails and recent and upcoming meetings in the **Related items** card in the saved contact details. By default, three activities are displayed. To see up to 10 activities, select **Show more**.
+If you've interacted with a customer through Outlook and Teams, the Sales app displays your recent emails and recent and upcoming meetings in the **Related items** card in the saved contact details. By default, three activities are displayed. To see up to 10 activities, select **Show more**.
 
 :::image type="content" source="media/related-items.png" alt-text="Screenshot showing how to view recent activities.":::
 

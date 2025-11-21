@@ -1,7 +1,7 @@
 ---
 title: Sales Agent overview (preview)
 description: Learn how Sales Agent helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
-ms.date: 06/18/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -45,7 +45,7 @@ Sales Agent also generates personalized outreach emails based on the insights ga
 
 Sales Agent is configured by your administrator to work on behalf of your entire sales team. Learn more about how to [configure Sales Agent](set-up-sales-agent.md).
 
-Once configured, you can view summaries within your CRM or browse the Sales Agent's list of researched leads in the Copilot for Sales app. Learn more about how to [use Sales Agent](use-sales-agent.md).
+Once configured, you can view summaries within your CRM or browse the Sales Agent's list of researched leads in the Sales app. Learn more about how to [use Sales Agent](use-sales-agent.md).
 
 ## Related information
 
