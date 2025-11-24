@@ -1,32 +1,32 @@
 ---
-title: Microsoft 365 Copilot for Sales personal app
-description: Learn about the Copilot for Sales personal app and how to share feedback from the app.
-ms.date: 09/29/2025
+title: Sales personal app
+description: Learn about the Sales personal app and how to share feedback from the app.
+ms.date: 11/20/2025
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Microsoft 365 Copilot for Sales personal app
+# Sales personal app
 
-Copilot for Sales personal app is the enhanced Teams personal app that has **Home** and **Settings** tabs available in Outlook and other Microsoft 365 apps. 
+Sales personal app is the enhanced Teams personal app that has **Home** and **Settings** tabs available in Outlook and other Microsoft 365 apps. 
 
 :::image type="content" source="media/outlook-personal-app.png" alt-text="Screenshot showing personal app in Outlook."::: 
 
 ## Open the personal app in Outlook
 
-On the left navigation pane, select **More Apps**, and then search and select **Copilot for Sales**. 
+On the left navigation pane, select **More Apps**, and then search and select **Sales**. 
 
-:::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing Copilot for Sales app in Outlook.":::
+:::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing the Sales app in Outlook.":::
 
 ## Open the personal app in Teams
 
-On the left navigation pane, select **View more apps** (**...**), and then search and select **Copilot for Sales**.
+On the left navigation pane, select **View more apps** (**...**), and then search and select **Sales**.
 
 ## Home tab
 
-The **Home** tab provides you with links to various resources, such as the Copilot for Sales documentation and the feedback form. It also shows the environment name you are connected to. The environment name is displayed at the top-right corner of the **Home** tab.
+The **Home** tab provides you with links to various resources, such as the Sales app documentation and the feedback form. It also shows the environment name you are connected to. The environment name is displayed at the top-right corner of the **Home** tab.
 
 If you're connected to Dynamics 365 and you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
@@ -43,11 +43,11 @@ If you're connected to Salesforce and you select the environment name, it shows 
 
 ### Share feedback from personal app
 
-If you have any feedback about Copilot for Sales, you can share it from the app. Your feedback is valuable, and we use it to improve the product.
+If you have any feedback about the Sales app, you can share it from the app. Your feedback is valuable, and we use it to improve the product.
 
 1. Open the personal app in [Outlook](#open-the-personal-app-in-outlook) or [Teams](#open-the-personal-app-in-teams).
 
-    The Copilot for Sales app is opened with the **Home** tab selected.
+    The Sales app is opened with the **Home** tab selected.
 
 1. Select **Share feedback** in the upper-right corner.
 
@@ -55,14 +55,14 @@ If you have any feedback about Copilot for Sales, you can share it from the app.
 
 ## Settings tab
 
-The **Settings** tab is currently available only for the admin users. More information: [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
+The **Settings** tab is currently available only for the admin users. More information: [Sales admin settings](administrator-settings-sales-app.md)
 
 ## Switch environments
 
 > [!NOTE]
 > This section is applicable only for users signed in to a Dynamics 365 environment.
 
-You can switch to another Dynamics 365 environment, without signing out of your current environment, from the Copilot for Sales app. 
+You can switch to another Dynamics 365 environment, without signing out of your current environment, from the Sales app. 
 
 1. On the **Home** tab, select the environment name, and then select **Switch environments**. 
 
@@ -74,6 +74,6 @@ You can switch to another Dynamics 365 environment, without signing out of your 
 
 ### Related information
 
-- [Microsoft 365 Copilot for Sales admin settings](administrator-settings-for-viva-sales.md)
+- [Sales admin settings](administrator-settings-sales-app.md)
 - [Sign in to CRM from Outlook](sign-in-crm-outlook.md)
 - [Connect to CRM from Teams](sign-in-crm-teams.md)
