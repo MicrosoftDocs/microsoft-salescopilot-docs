@@ -1,7 +1,7 @@
 ---
-title: Sales Chat overview (preview)
-description: Learn about Sales Chat, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 10/10/2025
+title: Sales agent overview (preview)
+description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
+ms.date: 12/01/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -9,26 +9,26 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Sales Chat overview (preview)
+# Sales agent overview (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales Chat is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
+Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
 
 Traditional sales CRM systems are primarily designed to capture information and prevent knowledge loss, but they often make it difficult to quickly retrieve and analyze data. For instance, creating a status report on an account typically requires sellers to navigate through multiple CRM pages and other applications to gather details about past purchases, marketing interactions, and more.
 
-As a seller, you can use natural language with Sales Chat to request the information you need. The system handles the complex task of identifying and compiling relevant data, making it easier and faster for sellers to access insights and take action.
+As a seller, you can use natural language with Sales agent to request the information you need. The system handles the complex task of identifying and compiling relevant data, making it easier and faster for sellers to access insights and take action.
 
-## What can Sales Chat help you with?
+## What can Sales agent help you with?
 
-You can use natural language with Sales Chat to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales Chat.
+You can use natural language with Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
 
 > [!NOTE]
 > If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.
 
-Below are some example scenarios where you can use Sales Chat, along with sample prompts for each.
+Below are some example scenarios where you can use Sales agent, along with sample prompts for each.
 
 ### Scenario 1: Become an expert on your accounts
 
@@ -100,17 +100,17 @@ This scenario is ideal for users who:
 - What are the top three concerns of `<account name>` that `<seller name>` must address to close the deal with them?
 
 > [!NOTE]
-> - The effectiveness of prompts depends on the quality and structure of your CRM data. Sales Chat generates responses based on your data, so maintaining a strong data foundation is essential.
-> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Copilot for Sales users and that, at a minimum, a transcription is generated.
+> - The effectiveness of prompts depends on the quality and structure of your CRM data. Sales agent generates responses based on your data, so maintaining a strong data foundation is essential.
+> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Sales app users and that, at a minimum, a transcription is generated.
 > - You are encouraged to try prompts beyond the provided samples to discover additional capabilities.
 
 ## Getting started
 
-Sales Chat is configured by your administrator to help you converse with your sales data. Learn more about how to [set up Sales Chat](set-up-sales-chat.md).
+Sales agent is configured by your administrator to help you converse with your sales data. Learn more about how to [set up Sales agent](set-up-sales-chat.md).
 
-Once configured, you can start using Sales Chat to ask questions about your sales data and get insights to help you close deals faster. Learn more about how to [use Sales Chat](use-sales-chat.md).
+Once configured, you can start using Sales agent to ask questions about your sales data and get insights to help you close deals faster. Learn more about how to [use Sales agent](use-sales-chat.md).
 
 ## Related information
 
-- [Set up Sales Chat](set-up-sales-chat.md)
-- [Use Sales Chat](use-sales-chat.md)
+- [Set up Sales agent](set-up-sales-chat.md)
+- [Use Sales agent](use-sales-chat.md)
