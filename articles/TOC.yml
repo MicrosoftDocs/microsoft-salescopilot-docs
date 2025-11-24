@@ -81,11 +81,11 @@
         href: set-up-sales-agent.md
       - name: Integrate Sales Agent with Salesforce
         href: set-up-sales-agent-salesforce.md
-    - name: Sales Chat (preview)
+    - name: Sales agent in Microsoft 365 Copilot (preview)
       items:
       - name: Overview
         href: sales-chat-overview.md
-      - name: Set up Sales Chat
+      - name: Set up Sales agent
         href: set-up-sales-chat.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
@@ -221,11 +221,11 @@
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
-    - name: Sales Chat (preview)
+    - name: Sales agent in Microsoft 365 Copilot (preview)
       items:
       - name: Overview
         href: sales-chat-overview.md
-      - name: Use Sales Chat
+      - name: Use Sales agent
         href: use-sales-chat.md
       - name: Prepare for Sales meetings
         href: meeting-prep-sales-chat.md

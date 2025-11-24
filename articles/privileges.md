@@ -27,7 +27,7 @@ Salesforce administrators who need to customize the Sales app must have the foll
 | Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
 | Privilege | **Read** and **Write** privileges on **Organization** table. |
 
-For Sales Chat, you must assign the following permissions to Copilot for Sales Extended User:
+For Sales agent in Microsoft 365 Copilot, you must assign the following permissions to Copilot for Sales Extended User:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|--------------------|
@@ -39,7 +39,7 @@ For Sales Chat, you must assign the following permissions to Copilot for Sales E
 
 ### Salesforce users
 
-For Sales Chat, you must also assign the following privileges to Viva Sales (Sales Productivity App):
+For Sales agent in Microsoft 365 Copilot, you must also assign the following privileges to Viva Sales (Sales Productivity App):
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -65,7 +65,7 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 | Recently Used | recentlyused                | Create, Read, Write, Delete                           | User        |
 |Organization | organization                | Read, Write, Append to                                | Global      |
 
-For Sales Chat, you must also assign the following privileges:
+For Sales agent in Microsoft 365 Copilot, you must also assign the following privileges:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|--------------------|
@@ -94,7 +94,7 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 | User                | systemuser                  | Read                                                  | Organization                   |
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
 
-For Sales Chat, you must also assign the following privileges to Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
+For Sales agent in Microsoft 365 Copilot, you must also assign the following privileges to Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
