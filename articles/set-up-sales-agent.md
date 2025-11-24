@@ -1,7 +1,7 @@
 ---
 title: Set up Sales Agent (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 11/10/2025
+ms.date: 12/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -69,7 +69,12 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ## Step 3: Set up and activate the agent
 
 1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
-1. If you're using a trial environment, convert it to a production environment by selecting **Convert to production** in the banner at the top of the page. 
+1. If you're using a trial environment, convert it to a production environment:
+    1. Select **Convert to production** in the banner at the top of the page.
+    1. In the confirmation dialog, select **Convert to production environment**.
+    1. Select **Check status** to verify if the conversion is complete.
+    > [!CAUTION]
+    > It may take several hours to convert a trial environment to a production environment. The Sales app will be unavailable on all platforms during this process. You must start the conversion outside of business hours to minimize disruption. This action can't be undone. Production environments are billed for Microsoft Dataverse storage overages. Learn more: [Dataverse capacity-based storage details](https://go.microsoft.com/fwlink/?linkid=2332539)
 1. If you're using Salesforce, confirm that the status doesn't show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
