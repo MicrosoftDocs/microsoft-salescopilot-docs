@@ -27,7 +27,7 @@ Salesforce administrators who need to customize the Sales app must have the foll
 | Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
 | Privilege | **Read** and **Write** privileges on **Organization** table. |
 
-For Sales agent in Microsoft 365 Copilot, you must assign the following permissions to Copilot for Sales Extended User:
+For Sales agent in Microsoft 365 Copilot, you must assign the **System Administrator** security role to your user account in the **msdyn_viva** environment and following permissions to Copilot for Sales Extended User:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|--------------------|

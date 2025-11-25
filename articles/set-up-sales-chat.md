@@ -38,6 +38,9 @@ The CRM information that Sales agent can access is determined by the record type
 
 After configuring the record types (tables), you must enable Sales agent to use CRM as a knowledge source to provide relevant responses to user queries.
 
+> [!NOTE]
+> If you're using Salesforce as your CRM, you must add the System Administrator security role to your user account in the **msdyn_viva** environment.
+
 1. Go to the [Sales app admin settings](administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Sales agent**.
 1. In the status message, select **Set up**.
