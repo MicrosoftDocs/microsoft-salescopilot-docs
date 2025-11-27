@@ -14,7 +14,7 @@ The Sales app adoption report is an essential tool for sales leaders looking to 
  
 This report is divided into several sections that provide a comprehensive view of usage metrics, trends over time, and practical guides on getting started with the Sales app.
  
-To learn more about setting up and using this report, go to [the Sales app adoption report](/viva/insights/advanced/analyst/templates/copilot-for-sales-adoption). 
+To learn more about setting up and using this report, go to [Sales app adoption report](/viva/insights/advanced/analyst/templates/copilot-for-sales-adoption). 
 
 
 ### See also
