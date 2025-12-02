@@ -60,8 +60,6 @@ Sales insights aren't generated in the following scenarios:
 - The meeting was created in Dynamics 365 Sales.
 - The meeting recording was started and stopped multiple times.
 - You are not connected to your CRM in the Sales app.
-- Your administrator has disabled the [Save AI notes to CRM](save-ai-notes-crm.md) feature.
-- Your administrator hasn't configured the correct CRM fields for saving notes
 - If the meeting organizer has not provided access to the meeting recording and transcription to everyone.
 
 ### Accuracy of sentiment analysis
@@ -140,6 +138,8 @@ If you don't see the **Save to (CRM)** button, it could be due to one of the fol
 - You're not signed in to the CRM.
 - You don't have a valid license.
 - The meeting transcript is not sufficiently long to generate meeting notes.
+- Your administrator has disabled the [Save AI notes to CRM](save-ai-notes-crm.md) feature.
+- Your administrator hasn't configured the correct CRM fields for saving notes.
 
 ### Related information
 
