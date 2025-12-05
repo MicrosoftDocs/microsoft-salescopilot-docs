@@ -1,0 +1,17 @@
+Following AI features are available in Sales in Microsoft 365 Copilot:
+- Outlook
+    - [View email summary](../email-summary-premium.md)
+    - [Draft email responses](../email-reply-premium.md)
+    - [View opportunity summary](../email-summary-premium.md)
+    - [View suggested CRM updates](../suggested-crm-updates.md)
+    - [View customer communication](../view-customer-communication.md)
+    - [View opportunity insights](../view-opportunity-insights.md)
+    - [View insights from partner applications](../insights-partner-apps.md)
+    - [Share insights from Outlook to Teams](../share-insights-from-outlook-to-teams.md)
+- Teams
+    - [View meeting preparation card](../meeting-prep.md)
+    - [View daily summary of upcoming meetings](../daily-digest.md)
+    - [View sales insights in Microsoft Teams meeting recap](../view-meeting-summary-recap.md)
+    - [Create Planner tasks](../create-planner-tasks.md)
+- Cross-app
+    - [Work with Sales Agent - Lead research](../use-sales-agent.md)
