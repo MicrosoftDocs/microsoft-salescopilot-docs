@@ -26,7 +26,7 @@ Sales agent is available to users who have access to a Microsoft 365 Copilot lic
 
 - [The Sales app is installed in both Outlook and Teams.](install-viva-sales.md)
 - You have access to environment-level settings in the [administrator settings for Sales in Microsoft 365 Copilot](administrator-settings-sales-app.md).
-- [Sales agent must be turned on in Access settings.](access-settings.md#sales-agent-preview)
+- [Sales agent must be turned on in Access settings.](access-settings.md#sales-agent-preview-1)
 - The Sales app must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
 

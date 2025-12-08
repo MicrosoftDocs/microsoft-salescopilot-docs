@@ -73,7 +73,7 @@
       href: email-insights-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
-    - name: Sales Agent (preview)
+    - name: Sales Agent - Lead Research (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
@@ -87,6 +87,10 @@
         href: sales-chat-overview.md
       - name: Set up Sales agent
         href: set-up-sales-chat.md
+      - name: Extend Sales agent with custom tools and knowledge
+        href: extend-sales-chat-custom-tools.md
+      - name: Manage connected agents
+        href: manage-connected-agents.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities (preview)

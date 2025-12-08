@@ -54,7 +54,7 @@ You can configure [meeting insights settings](configure-meeting-agent.md) such a
 
 If you want to turn off meeting insights storage, follow the same steps to access the **Allow meeting insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any meeting insights, and related features will be hidden.
 
-## Sales Agent (preview)
+## Sales Agent - Lead Research (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
