@@ -35,7 +35,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 
 > [!IMPORTANT]
 >
-> - This article provides instructions for business users without administrator privileges to install the Sales app. If you are a CRM administrator trying to install the Sales app for your sales team, see [the Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md) or [the Sales app deployment guide for Salesforce customers](deploy-sales-app-sf.md) as per your requirement.
+> - This article provides instructions for business users without administrator privileges to install the Sales app. If you are a CRM administrator trying to install the Sales app for your sales team, see [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md) or [Sales app deployment guide for Salesforce customers](deploy-sales-app-sf.md) as per your requirement.
 > - You may not be able to install the Sales app if downloading add-ins is turned off for your organization. In this case, contact your administrator.
 > - If you are using the Dynamics 365 app for Outlook, you can consider switching to the Sales app, as you can do much more with the Sales app. More information: [Difference between the Sales app and Dynamics 365 app for Outlook](#difference-between-sales-app-and-dynamics-365-app-for-outlook)
 

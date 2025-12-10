@@ -46,7 +46,7 @@ Actions determine what operations are performed with the custom insights and dat
 
 ## Enable the connector action for users
 
-Before Sales users can access a connector action that is published in Copilot Studio, a Sales administrator must enable it. If you want to enable a connector action for your Copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-copilot-for-sales).
+Before Sales users can access a connector action that is published in Copilot Studio, a Sales administrator must enable it. If you want to enable a connector action for your Copilot users, ask your administrator to [follow these steps](/microsoft-copilot-studio/manage-sales-m365-copilot).
 
 > [!NOTE]
 > - Actions enabled by your administrator could take up to seven days to be ingested in Sales experiences. To force a quicker update, ask the users to sign out and then sign in again to Sales in either Outlook or Teams.

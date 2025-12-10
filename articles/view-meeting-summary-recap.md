@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use the Sales app in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 11/20/2025
+ms.date: 12/02/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,8 +19,10 @@ Sales includes all the capabilities within Microsoft 365 Copilot to provide user
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
-- Add the Sales app to the meeting.
-- Transcribe the meeting.
+- Add the Sales app to the meeting either [manually](create-teams-meeting.md#add-the-sales-app-manually-to-a-teams-meeting) or [automatically](create-teams-meeting.md#add-the-sales-app-automatically-to-a-teams-meeting).
+- Transcribe the meeting. It's required to generate sales insights.
+- Ensure that the meeting is not recurring.
+- Ensure that the meeting is not created in Dynamics 365 Sales.
 
 ## Supported languages
 
@@ -48,13 +50,17 @@ The following information is available:
 - **Overall meeting sentiment**: View the overall sentiment of the meeting, which is calculated based on the tone of the conversation. The sentiment is categorized as positive, negative, or neutral. It also shows the trend of the sentiment over time, which helps you to understand how speakers felt during each phase of the meeting. [Learn more about accuracy of sentiment analysis](#accuracy-of-sentiment-analysis).
 - **Speaker-level insights**: View insights for each speaker, including their talk time, sentiment distribution, and summary. This helps you to understand how each speaker contributed to the meeting and how they felt during the conversation.
 
-> [!NOTE]
-> - Sales insights aren't generated for recurring meetings.
-> - Sales insights aren't generated for meetings created in Dynamics 365 Sales.
-> - If you start and stop a meeting recording multiple times, sales insights aren't generated.
-> - If the meeting organizer has not provided access to the meeting recording and transcription to everyone, an error message is displayed when you try to view sales insights in meeting recap.
-
 :::image type="content" source="media/sales-insights-recap.png" alt-text="Screenshot showing sales insights in Teams meeting recap.":::
+
+### When sales insights aren't generated
+
+Sales insights aren't generated in the following scenarios:
+- The meeting is recurring.
+- The meeting was not transcribed.
+- The meeting was created in Dynamics 365 Sales.
+- The meeting recording was started and stopped multiple times.
+- You are not connected to your CRM in the Sales app.
+- If the meeting organizer has not provided access to the meeting recording and transcription to everyone.
 
 ### Accuracy of sentiment analysis
 
@@ -132,6 +138,8 @@ If you don't see the **Save to (CRM)** button, it could be due to one of the fol
 - You're not signed in to the CRM.
 - You don't have a valid license.
 - The meeting transcript is not sufficiently long to generate meeting notes.
+- Your administrator has disabled the [Save AI notes to CRM](save-ai-notes-crm.md) feature.
+- Your administrator hasn't configured the correct CRM fields for saving notes.
 
 ### Related information
 

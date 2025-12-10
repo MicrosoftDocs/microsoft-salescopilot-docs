@@ -26,12 +26,12 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 - You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
 - [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent---lead-research-preview).
-- The Dataverse environment connected to the Sales app is a production environment.
+- The Dataverse environment connected to the Sales app is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales app environment.
 
 ### Additional prerequisites for Salesforce
 
-- Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
+- Convert the **msdyn_viva** environment to a production environment while [setting up Sales Agent with Salesforce](#step-3-set-up-and-activate-the-agent).
 - Configure the server-to-server connection between the Sales app and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
 
 ## Step 1: Create a view and query that defines the leads to research
@@ -69,6 +69,12 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 ## Step 3: Set up and activate the agent
 
 1. In the Sales app admin settings, select **Sales Agent - Lead Research**.
+1. If you're using a trial environment, convert it to a production environment:
+    1. Select **Convert to production** in the banner at the top of the page.
+    1. In the confirmation dialog, select **Convert to production environment**.
+    1. Select **Check status** to verify if the conversion is complete.
+    > [!CAUTION]
+    > It may take several hours to convert a trial environment to a production environment. The Sales app will be unavailable on all platforms during this process. You must start the conversion outside of business hours to minimize disruption. This action can't be undone. Production environments are billed for Microsoft Dataverse storage overages. Learn more: [Dataverse capacity-based storage details](https://go.microsoft.com/fwlink/?linkid=2332539)
 1. If you're using Salesforce, confirm that the status doesn't show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
