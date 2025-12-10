@@ -1,5 +1,5 @@
 ---
-title: Use Sales agent (preview)
+title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
 ms.date: 12/01/2025
 ms.topic: how-to
@@ -8,11 +8,11 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Use Sales agent (preview)
+# Use Sales agent in Microsoft 365 Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your CRM data and past customer conversations—all through natural language.
+The Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your CRM data and past customer conversations—all through natural language.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -42,7 +42,7 @@ For a list of example prompts you can use with Sales agent, see [What can Sales 
 
 ## Get a summary of an account
 
-You can use Sales agent to get a summary of an account, including key account information, the account's pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
+You can use the Sales agent to get a summary of an account, including key account information, the account's pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
 - Get me the summary of account `<account name>`.
 - Give me an overview of account `<account name>`. Summarize the meetings in the last (x) months.
 - Get the key details of account `<account name>`. List the open opportunities as a table.
@@ -66,7 +66,7 @@ For a list of example prompts you can use with Sales agent, see [What can Sales 
 
 ## Look up information about CRM
 
-You can use Sales agent to look up information about your customer accounts, contacts, and deals in your CRM system. For example, you can ask:
+You can use the Sales agent to look up information about your customer accounts, contacts, and deals in your CRM system. For example, you can ask:
 - What is the opportunity pipeline for `<account name>`?
 - Who is the primary customer contact for `<account name>`?
 - Get the estimated revenue across opportunities by forecast category.

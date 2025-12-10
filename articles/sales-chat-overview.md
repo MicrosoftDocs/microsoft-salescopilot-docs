@@ -1,5 +1,5 @@
 ---
-title: Sales agent overview (preview)
+title: Overview of Sales agent in Microsoft 365 Copilot (preview)
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
 ms.date: 12/01/2025
 ms.topic: overview
@@ -9,21 +9,21 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Sales agent overview (preview)
+# Overview of Sales agent in Microsoft 365 Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
+The Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
 
 Traditional sales CRM systems are primarily designed to capture information and prevent knowledge loss, but they often make it difficult to quickly retrieve and analyze data. For instance, creating a status report on an account typically requires sellers to navigate through multiple CRM pages and other applications to gather details about past purchases, marketing interactions, and more.
 
-As a seller, you can use natural language with Sales agent to request the information you need. The system handles the complex task of identifying and compiling relevant data, making it easier and faster for sellers to access insights and take action.
+As a seller, you can use natural language with the Sales agent to request the information you need. The system handles the complex task of identifying and compiling relevant data, making it easier and faster for sellers to access insights and take action.
 
 ## What can Sales agent help you with?
 
-You can use natural language with Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
+You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
 
 > [!NOTE]
 > If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.

@@ -1,5 +1,5 @@
 ---
-title: Set up Sales Agent (preview)
+title: Set up Sales Agent - Lead Research (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
 ms.date: 11/20/2025
 ms.topic: how-to
@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Set up Sales Agent (preview)
+# Set up Sales Agent - Lead Research (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
