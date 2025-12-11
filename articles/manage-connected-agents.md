@@ -1,5 +1,5 @@
 ---
-title: Manage connected agentss in the Microsoft 365 admin center  
+title: Manage connected agents in the Microsoft 365 admin center  
 description: Learn how to manage connected agents for Sales in the Microsoft 365 admin center. Enhance responses by linking agents and leveraging shared insights.
 ms.date: 12/08/2025
 ms.topic: how-to
@@ -33,10 +33,12 @@ Connected agents are other Copilot-enabled agents in your organization that can 
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All agents**.
 1. Select **Sales** and then go to the **Connected agents** tab.
+   :::image type="content" source="media/connected-agents-tab.png" alt-text="Screenshot of the Connected agents tab.":::   
 1. Select **Connect agents**.
 1. In the **Select agent to connect** pane:
     1. Find the agents using the search box.
     1. Select the agents you want to connect to Sales.
+    :::image type="content" source="media/extend-sales-panel.png" alt-text="Screenshot of the Extend Sales panel.":::
 1. Select **Save**.
 
 ## Manage connected agents
