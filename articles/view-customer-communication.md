@@ -20,7 +20,10 @@ When working on opportunities, you often manage numerous activities, such as mee
 
 ## Where to see the Customer communication card
 
-You can see **Customer communication** card in the **Sales** pane in Outlook when you open an email or a meeting.
+You can see **Customer communication** card in the following places:
+
+- **Sales** pane in Outlook when you open an email or a meeting.
+- Meeting preparation card in [Sales agent in Microsoft 365 Copilot](meeting-prep-sales-chat.md).
 
 > [!NOTE]
 > - When you're viewing an email, the **Customer communication** card is displayed only when the email is connected to an opportunity. Once the opportunity is connected, the **Customer communication** card displays the meeting activities related to that.
@@ -31,7 +34,7 @@ You can see **Customer communication** card in the **Sales** pane in Outlook whe
 - [Meeting insights must be turned on in Access settings.](access-settings.md#meeting-insights)
 - If you're a Salesforce user, [server-to-server connection must be set up](connect-agent-datasource.md#set-up-server-to-server-connection-to-salesforce).
 
-## Access the Customer communication card
+## Access the Customer communication card in Outlook
 
 1. In Outlook, open an email or a meeting.
 1. [Open the Sales app](open-app.md#access-sales-app-in-outlook).
@@ -39,6 +42,11 @@ You can see **Customer communication** card in the **Sales** pane in Outlook whe
 1. To view insights for a meeting, select **View meeting insights**.
 
     :::image type="content" source="media/customer-communication.png" alt-text="Screenshot of the Customer communication card":::
+
+## Access the Customer communication card in Sales agent in Microsoft 365 Copilot
+
+1. [Access Sales agent in Microsoft 365 Copilot](use-sales-chat.md#access-sales-agent).
+1. In the [meeting preparation card](meeting-prep-sales-chat.md), select **Prepare with insights**, and then go to the **Customer communication** section.
 
 ## Related information
 

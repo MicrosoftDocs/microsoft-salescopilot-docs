@@ -73,7 +73,7 @@
       href: email-insights-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
-    - name: Sales Agent (preview)
+    - name: Sales Agent - Lead Research (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
@@ -81,6 +81,16 @@
         href: set-up-sales-agent.md
       - name: Integrate Sales Agent with Salesforce
         href: set-up-sales-agent-salesforce.md
+    - name: Sales agent in Microsoft 365 Copilot (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Set up Sales agent
+        href: set-up-sales-chat.md
+      - name: Extend Sales agent with custom tools and knowledge
+        href: extend-sales-chat-custom-tools.md
+      - name: Manage connected agents
+        href: manage-connected-agents.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities (preview)
@@ -148,8 +158,6 @@
         href: view-opportunity-summary.md
       - name: View suggested CRM updates
         href: suggested-crm-updates.md
-      - name: View customer communication (preview)
-        href: view-customer-communication.md
       - name: View opportunity insights (preview)
         href: view-opportunity-insights.md
       - name: View insights from partner applications (preview)
@@ -207,6 +215,8 @@
       href: share-crm-record-teams-conversation.md
     - name: Sales personal app
       href: personal-app.md
+    - name: View customer communication (preview)
+      href: view-customer-communication.md
     - name: Sales Agent (preview)
       items:
       - name: Overview
@@ -215,6 +225,14 @@
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
+    - name: Sales agent in Microsoft 365 Copilot (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Use Sales agent
+        href: use-sales-chat.md
+      - name: Prepare for Sales meetings
+        href: meeting-prep-sales-chat.md
 
 - name: Extend Sales in Microsoft 365 Copilot (preview)
   items:

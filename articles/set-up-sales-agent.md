@@ -1,18 +1,16 @@
 ---
-title: Set up Sales Agent (preview)
+title: Set up Sales Agent - Lead Research (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Set up Sales Agent (preview)
+# Set up Sales Agent - Lead Research (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from research and generating personalized outreach emails tailored to the lead and its product of interest.
 
@@ -20,12 +18,14 @@ Sales Agent connects to both Microsoft Dynamics 365 Sales and Salesforce Sales C
 
 As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Sales app. 
 
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 ## Prerequisites
 
 - The Sales app is installed in either Outlook or Teams.
 - You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
-- [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
+- [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent---lead-research-preview).
 - The Dataverse environment connected to the Sales app is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales app environment.
 
@@ -209,4 +209,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Use Sales Agent](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
-- [Turn on Sales Agent](access-settings.md#sales-agent-preview)
+- [Turn on Sales Agent](access-settings.md#sales-agent---lead-research-preview)
