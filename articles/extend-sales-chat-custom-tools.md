@@ -41,12 +41,14 @@ This ensures Sales can reference your organization's specific documentation, pol
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All agents**.
 1. Select **Sales** and then go to the **Custom tools & knowledge** tab.
+   :::image type="content" source="media/custom-tools-and-knowledge-tab.png" alt-text="Screenshot of the Custom tools & knowledge tab.":::
 1. Select **Choose agent**.
 1. In the **Extend Sales** pane:
     1. Find the agents using the search box.
     1. Select the agent you want to copy tools and knowledge from.
     > [!NOTE]
     > All tools and knowledge from the selected agent are copied to Sales.
+    :::image type="content" source="media/extend-sales-panel.png" alt-text="Screenshot of the Extend Sales panel.":::
 1. Select **Next**.
 1. In the **Assign Users** pane, select the users or security groups who should have access to the custom tools and knowledge in Sales.
 1. Select **Save**.
