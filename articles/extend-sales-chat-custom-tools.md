@@ -48,6 +48,7 @@ This ensures Sales can reference your organization's specific documentation, pol
     1. Select the agent you want to copy tools and knowledge from.
     > [!NOTE]
     > All tools and knowledge from the selected agent are copied to Sales.
+
     :::image type="content" source="media/extend-sales-panel.png" alt-text="Screenshot of the Extend Sales panel.":::
 1. Select **Next**.
 1. In the **Assign Users** pane, select the users or security groups who should have access to the custom tools and knowledge in Sales.
