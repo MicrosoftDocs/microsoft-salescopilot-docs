@@ -340,7 +340,7 @@ All users with the Microsoft 365 Copilot license and [Sales app installed](insta
 
 If needed, you can hide the Sales agent for individual users or groups by one of the following methods:
 
-- [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility). This hides all Copilot agents, including Sales.
+- [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true). This hides all Copilot agents, including Sales.
 - Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
 
     > [!NOTE]
