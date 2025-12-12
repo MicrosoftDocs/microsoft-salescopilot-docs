@@ -100,7 +100,7 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
-### With which Salesforce Sales Cloud editions do Sales in Microsoft 365 Copilot work?
+### Which Salesforce Sales Cloud editions are supported by Sales in Microsoft 365 Copilot?
 
 Sales in Microsoft 365 Copilot works with Salesforce Sales Cloud editions Professional and above.
 
