@@ -1,7 +1,7 @@
 ---
 title: Sales in Microsoft 365 Copilot FAQ
 description: Sales in Microsoft 365 Copilot Frequently Asked Questions
-ms.date: 11/20/2025
+ms.date: 12/12/2025
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,7 +28,7 @@ Sales in Microsoft 365 Copilot uses an Outlook add-in and a Teams app to bring t
 
 ### Is Sales in Microsoft 365 Copilot safe and secure?
 
-Sales in Microsoft 365 Copilot is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy and Compliance](#security-privacy-and-compliance) for more information.
+Sales in Microsoft 365 Copilot is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy, and Compliance](#security-privacy-and-compliance) for more information.
 
 Get information about license requirements, role requirements, and region availability in [Introduction to Sales in Microsoft 365 Copilot](introduction.md).
 
@@ -54,7 +54,7 @@ There currently aren't any certifications for Sales in Microsoft 365 Copilot, bu
 
 ### How does Copilot work?  
 
-Copilot works by harnessing the power of foundational models, proprietary Microsoft technologies and customer business data. Search technologies like Bing and Azure Cognitive Search bring domain-specific context to Copilot from content like manuals and documents stored in customer’s own tenant. Microsoft applications like Dynamics 365 and Power Platform bring crucial context with data stored in Microsoft Dataverse. Finally, Microsoft Graph API provides additional context from sources such as emails, chats, documents, meetings etc. 
+Copilot works by harnessing the power of foundational models, proprietary Microsoft technologies, and customer business data. Search technologies like Bing and Azure Cognitive Search bring domain-specific context to Copilot from content like manuals and documents stored in customer’s own tenant. Microsoft applications like Dynamics 365 and Power Platform bring crucial context with data stored in Microsoft Dataverse. Finally, Microsoft Graph API provides additional context from sources such as emails, chats, documents, meetings etc. 
 
 Every time a customer uses Copilot to perform a task, three things happen. 
 
@@ -86,7 +86,7 @@ Sales in Microsoft 365 Copilot applies your organization's existing CRM access c
 
 ### I don't see an email summary when opening an email conversation.
 
-Email summary is generated only for emails or email threads with more than 1000 characters, which is about 180 words.
+Email summary is generated only for emails or email threads with more than 1,000 characters, which is about 180 words.
 
 ### I don't see the Summarize a sales meeting button when creating a sales meeting summary email.
 
@@ -100,7 +100,7 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
-### With which Salesforce Sales Cloud editions does Sales in Microsoft 365 Copilot work?
+### Which Salesforce Sales Cloud editions are supported by Sales in Microsoft 365 Copilot?
 
 Sales in Microsoft 365 Copilot works with Salesforce Sales Cloud editions Professional and above.
 
@@ -199,9 +199,9 @@ To see the new icon, you must clear the Outlook cache by following these steps:
 
 1. Open Outlook.
 
-### How does optional connected experiences affect Sales in Microsoft 365 Copilot?
+### How do optional connected experiences affect Sales in Microsoft 365 Copilot?
 
-If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Sales app is not displayed in Outlook for users that have installed the app by themselves. If the Sales app has been deployed by an administrator, it will be displayed for users.
+If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Sales app isn't displayed in Outlook for users that have installed the app by themselves. If the Sales app has been deployed by an administrator, it is displayed for users.
 
 ### How can I provide feedback about Sales in Microsoft 365 Copilot?
 
@@ -249,7 +249,7 @@ Although the new enhanced Teams app is packaged as a single app, deployment is s
 
 [How to find your Microsoft 365 admin](https://support.microsoft.com/en-us/office/how-do-i-find-my-microsoft-365-admin-59b8e361-dbb6-407f-8ac3-a30889e7b99b).
 
-You may also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
+You might also find your tenant admin's email address on the [Microsoft Entra admin center tenant properties page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView), if an administrator hasn't locked it down.
 
 ![Screenshot showing how to find tenant admin.](media/get-tenant-admin.png "Screenshot showing how to find tenant admin.")
 
@@ -320,7 +320,7 @@ A field can be non-editable in the following cases:
 
 ### How are hyperlink formula fields from Salesforce CRM displayed in Sales app?
 
-In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to click on the link. In the Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
+In Salesforce CRM, hyperlink formula fields are rendered as rich text in Salesforce Lightning, allowing users to select the link. In the Sales app, hyperlink formula fields containing URLs (without images) are displayed as clickable links.
 
 ### Why are users getting an error with error code 4100 when viewing a CRM record?
 
@@ -328,9 +328,58 @@ If you've connected the Sales app to Salesforce, and your users see a 4100 error
 
 ### Why don't I see the required relationship for a record type during configuration?
 
-The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship is not displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](customize-forms-and-fields.md#impact-of-the-order-of-record-types-on-relationships)
+The relationship between record types is based on the order in which record types are added to admin settings. Ensure that the source record type is configured before the related record type. If the relationship isn't displayed, reorder the record types in admin settings. More information: [Impact of the order of record types on relationships](customize-forms-and-fields.md#impact-of-the-order-of-record-types-on-relationships)
 
-## Security, Privacy and Compliance 
+## Sales agent in Microsoft 365 Copilot
+
+### Administrator
+
+#### Can I disable Sales agent for users who have a Microsoft 365 Copilot license?
+
+All users with the Microsoft 365 Copilot license and [Sales app installed](install-sales-app.md) will automatically see Sales as an agent in Microsoft 365 Copilot Chat by default.
+
+If needed, you can hide the Sales agent for individual users or groups by one of the following methods:
+
+- [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true). This hides all Copilot agents, including Sales.
+- Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
+
+    > [!NOTE]
+    > If you turn off Sales Chat from **Access settings**, users who have the Sales app installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
+
+### End user
+
+#### Why does Sales agent say I don't have access?
+
+This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot Chat, but you won't receive responses to your queries.
+
+Contact your administrator to request access to Sales Chat.
+
+#### Why do I get a message saying I don't have the right license?
+
+You must have a [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365-copilot) license to access Sales agent.
+
+#### Why does Sales agent say CRM Knowledge hasn't been set up?
+
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the CRM tables that users can access through Sales agent](set-up-sales-chat.md#step-1-configure-crm-record-types-tables).
+
+Contact your CRM administrator to request that CRM access be set up for Sales agent.
+
+#### Why does Sales agent say that account summary wasn't found?
+
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account summary feature](set-up-sales-chat.md#step-4-configure-account-summary).
+
+Reach out to your CRM administrator to have account summary set up for use with Sales agent.
+
+#### Why am I not seeing any meeting insights?
+
+To see meeting insights, make sure that:
+
+- The meeting was recorded using the Sales app.
+- The meeting included at least one external participant who is saved as a contact in your CRM.
+
+If either of these conditions isn't met, meeting insights won't be generated.
+
+## Security, Privacy, and Compliance 
 
 ### How does Microsoft protect customer data privacy? 
 

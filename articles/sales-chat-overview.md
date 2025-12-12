@@ -112,5 +112,5 @@ Once configured, you can start using Sales agent to ask questions about your sal
 
 ## Related information
 
-- [Set up Sales agent](set-up-sales-chat.md)
-- [Use Sales agent](use-sales-chat.md)
+- [Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)
+- [Use Sales agent in Microsoft 365 Copilot](use-sales-chat.md)
