@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
-ms.date: 12/01/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -32,30 +32,68 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 
 ## Step 1: Configure CRM record types (tables)
 
-The CRM information that Sales agent can access is determined by the record types (tables) added in the administrator settings for Sales in Microsoft 365 Copilot. Learn how to [configure record types in Sales in Microsoft 365 Copilot](customize-forms-and-fields.md).
+As an administrator, you can customize which CRM information is available to sellers when they ask questions using the Sales agent. The Sales agent accesses CRM information based on the record types (tables) configured in Sales agent admin settings. 
 
-## Step 2: Enable Sales agent to use CRM as a knowledge source
-
-After configuring the record types (tables), you must enable Sales agent to use CRM as a knowledge source to provide relevant responses to user queries.
+By default, the Sales agent includes a predefined list of record types. You can customize this list by adding out-of-the-box or custom CRM record types. You can also remove record types that are not required.
 
 > [!NOTE]
-> If you're using Salesforce as your CRM, you must add the System Administrator security role to your user account in the **msdyn_viva** environment.
+> When Sales agent is accessed from within a Dynamics 365 app, the record type configuration doesn't apply. Instead, Sales agent automatically accesses all record types (tables) that are available in the Dynamics 365 app from which it is accessed.
 
-1. Go to the [Sales app admin settings](administrator-settings-sales-app.md#access-administrator-settings).
-1. Under **Features**, select **Sales agent**.
-1. In the status message, select **Set up**.
+### Default record types
 
-    :::image type="content" source="media/set-up-sales-chat.png" alt-text="Screenshot of the set up Sales agent option":::
+Sales agent accesses different record types by default depending on your CRM system.
 
-Setting up CRM knowledge for Sales agent may take a few minutes. During this process, a banner will display the current setup status. If any errors occur, the banner will provide details about the issue and the actions you need to take.
+#### Dynamics 365
+
+Sales agent accesses tables for which synonyms are added to Microsoft Copilot Studio associated with Copilot in Dynamics 365. If no synonyms are configured, Sales agent accesses the following default tables:
+- Lead
+- Product
+- Opportunityproduct
+- Opportunityclose
+- Activitypointer
+- Salesorder
+- Invoice
+- Goal
+- Opportunity
+- Account
+- Contact
+- QuoteClose
+- Email
+- Quote
+- Competitor
+
+#### Salesforce
+
+Sales agent accesses the record types configured in [Forms settings](customize-forms-and-fields.md).
 
 > [!NOTE]
-> - Before users can access CRM information through Sales agent, CRM knowledge for Sales agent must be set up at least once. This is required even if your organization has previously used the Sales app and has already customized record types (tables).
-> - Once CRM knowledge for Sales agent has been set up, any changes you make to record types in the Sales app administrator settings, such as adding or removing record types, will automatically update the CRM knowledge for Sales agent.
-> - It is recommended to monitor the status of CRM knowledge setup periodically to ensure that Sales agent continues to function correctly.
-> - Sales agent will access all columns in the record types (tables) that are added to the Sales app.
+> You can customize the list of record types in Sales agent settings independently without affecting Forms settings.
 
-## Step 3: Set up additional synonyms and glossary terms
+### Add new record types to Sales agent
+
+1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. Under **Features**, select **Sales Chat**.
+1. Select **Add**.
+1. In the **Add a record type** window, search and select the record types you want to add.
+1. Select **Add**.
+
+> [!NOTE]
+> - You can add multiple record types at once.
+> - Sales agent will have access to all columns in the added record types (tables).
+
+### Remove record types from Sales agent
+
+1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. Under **Features**, select **Sales Chat**.
+1. Select the record types you want to remove, and then select **Remove**.
+1. In the confirmation dialog box, select **Remove**.
+
+> [!NOTE]
+> - You can remove multiple record types at once.
+> - You must have at least one record type configured for Sales agent to function.
+> - When you remove a record, the Sales agent will no longer have access to it. If this record is configured in Forms settings, it will still be available in Forms and can be used in other features of the Sales app.
+
+## Step 2: Set up additional synonyms and glossary terms
 
 Sales reps can use natural language in Sales agent to access CRM information. However, the terms they use may not always match the standard field names in the CRM. Sales agent relies on CRM metadata about record types to interpret user requests and provide relevant information. Because this metadata is often incomplete, you can supply additional guidance—such as synonyms and glossary terms—to help the AI better understand and map user language to CRM data. Providing this extra information improves the AI’s ability to recognize user requests and generate accurate, helpful responses.
 
@@ -63,7 +101,21 @@ Sales reps can use natural language in Sales agent to access CRM information. Ho
 
 Synonyms are alternative names or phrases that users might use to refer to specific CRM fields. For example, a user might refer to the "Account" field as "Company" or "Client." By adding these synonyms, you help Sales agent understand and respond to user queries more effectively.
 
-To add a synonym:
+#### Dynamics 365
+
+1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
+1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
+1. Select **SalesSpecificQnA** under **Knowledge** section.
+1. Select the **Synonyms** section.
+1. From the **Select item** list, select the CRM record type (table) for which you want to add synonyms.
+1. Select **Add Synonyms** for the column (field) you want to add synonyms for, and then enter one or more synonyms, separated by commas.
+1. In the **Description** field, provide a description for the synonym entry.
+1. Select **Save**.
+
+> [!NOTE]
+> The synonyms you add in Copilot Studio works for both the Sales agent and Copilot in Dynamics 365 Sales.
+
+#### Salesforce
 
 1. [Create a custom model-driven app with PowerApps](/power-apps/maker/model-driven-apps/build-first-model-driven-app).
 1. Add the table named **CopilotSynonyms** with the following columns, and then publish the app.
@@ -99,7 +151,11 @@ The following table shows examples of how adding glossary definitions can give y
 > - The descriptions in the table are provided as examples. Test your own descriptions to see which ones produce the best results.
 > - Updates to glossary terms and definitions may take up to 15 minutes to become available.
 
-To add a glossary term:
+#### Dynamics 365
+
+You must add glossary terms in Microsoft Copilot Studio. The glossary terms you add in Copilot Studio works for both the Sales agent and Copilot in Dynamics 365 Sales. Learn more about [adding glossary terms in Copilot Studio](/dynamics365/sales/extend-copilot-chat#add-glossary-to-help-copilot-understand-your-business-terms).
+
+#### Salesforce
 
 1. [Create a custom model-driven app with PowerApps](/power-apps/maker/model-driven-apps/build-first-model-driven-app) or use the same app you created for adding synonyms.
 1. Add the table named **CopilotGlossaryTerm** with the following columns, and then publish the app.
@@ -116,7 +172,7 @@ To add a glossary term:
 
     :::image type="content" source="media/set-up-glossary.png" alt-text="Screenshot of the set up Glossary option.":::
 
-## Step 4: Configure account summary
+## Step 3: Configure account summary
 
 Sales reps can get a summary of their accounts in Sales agent. To enable this feature, you need to configure the account summary settings in the Sales app admin settings.
 
@@ -155,9 +211,23 @@ Generating the account summary involves two main components:
     > - You can't test the custom instructions before saving them. To validate your changes, connect to a test CRM environment before applying them in your production environment.
     > - The effectiveness of a custom instruction depends on the information included in the account summary. Whenever you update either the custom instructions or the summary content, review and adjust both to ensure they work well together.
 
-## Step 5: Configure past customer meetings
+## Step 4: Configure past customer meetings
 
 Meeting insights generated by the Sales app are accessible in Sales agent. You can [manage access to meeting insights through the Sales app access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales agent.
+
+## Access Sales agent in Microsoft 365 Copilot
+
+Once the Sales app is installed, users can access Sales agent from the following locations:
+- Microsoft 365 Copilot Chat
+- Copilot app in Teams
+- Copilot Chat in Teams
+- Copilot in Word
+- Copilot in PowerPoint
+- Copilot in Excel
+
+### Enable Sales agent in Dynamics 365
+
+To make Sales agent accessible within model-driven apps in Dynamics 365 environments, see [Add Microsoft 365 Copilot chat for app users in model-driven apps](/power-apps/maker/model-driven-apps/add-ai-copilot).
 
 ## Related information
 

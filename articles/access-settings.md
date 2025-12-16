@@ -96,7 +96,7 @@ Sales agent is an AI-powered chat interface that allows sellers to interact with
 
 To configure Sales agent access settings:
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
 1. Select **Allow access to Sales Chat**.
 1. In the **Allow access to Sales Chat** pane, turn on or off the toggle.
