@@ -53,7 +53,7 @@ You can use the Sales agent to get a summary of an account, including key accoun
 For a list of example prompts you can use with Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> Your CRM administrator can [customize the details included in the account summary](set-up-sales-chat.md#step-4-configure-account-summary).
+> Your CRM administrator can [customize the details included in the account summary](set-up-sales-chat.md#step-3-configure-account-summary).
 
 ## Catch up on past customer meetings
 
