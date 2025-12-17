@@ -112,6 +112,8 @@ Synonyms are alternative names or phrases that users might use to refer to speci
 1. In the **Description** field, provide a description for the synonym entry.
 1. Select **Save**.
 
+    :::image type="content" source="media/set-up-synonym-dynamics.png" alt-text="Screenshot of the set up Synonym option in Microsoft Copilot Studio.":::
+
 > [!NOTE]
 > The synonyms you add in Copilot Studio works for both the Sales agent and Copilot in Dynamics 365 Sales.
 
