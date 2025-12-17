@@ -37,7 +37,7 @@ The email and custom prompt must be in one of the supported languages to generat
 
 With Copilot in Outlook and Sales in Microsoft 365 Copilot together, you can draft an email message within Outlook using predefined response categories and sales information from CRM.
 
-1. In Outlook, reply to an external email with an external email address as a recipient.
+1. In Outlook, reply to an email with an external email address as a recipient.
 
     In the **Copilot suggested drafts from Sales** area, predefined response categories are displayed.
 
