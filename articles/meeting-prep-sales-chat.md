@@ -29,7 +29,7 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 For every upcoming sales meeting (a meeting with at least one external contact), the Sales app sends you a streamlined notification card in Teams. The meeting preparation card is also shown in [Sales agent chat interface](use-sales-chat.md). Key features include:
 
-- **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent. md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
+- **Timely delivery**: The card is delivered by default 1 hour before the meeting. [Administrators can configure](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) this timing up to 7 days in advance.
 - **Essential meeting details**: See the meeting title, time, and a direct link to join the meeting. It also shows account information, if available.
 - **Meeting highlights**: See the top three topics to help you prepare quickly. 
 - **Quick access**: Includes a link to open meeting preparation details.
