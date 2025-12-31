@@ -1,6 +1,6 @@
 The following AI features are available out-of-the-box:
 
-| Feature | Description | Learn more link |
+| Feature | Description | Learn more |
 |---------|-------------|------------|
 | **Microsoft Outlook** | | |
 | View email summary | View email summary enriched with sales insights from your CRM within Outlook. | [View email summary](/microsoft-sales-copilot/email-summary-premium) |
