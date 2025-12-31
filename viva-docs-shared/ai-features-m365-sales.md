@@ -1,5 +1,3 @@
-The following AI features are available out-of-the-box:
-
 | Feature | Description | Learn more |
 |---------|-------------|------------|
 | **Microsoft Outlook** | | |
