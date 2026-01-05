@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales in Microsoft 365 Copilot
 description: Learn how to use administrator settings to customize the Sales app experience in Outlook and Teams.
-ms.date: 01/02/2025
+ms.date: 01/05/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
