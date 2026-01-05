@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales in Microsoft 365 Copilot
 description: Learn how to use administrator settings to customize the Sales app experience in Outlook and Teams.
-ms.date: 11/20/2025
+ms.date: 01/05/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -44,13 +44,20 @@ You can access the administrator settings in the Sales app in Outlook and Teams.
 1. Select the **Settings** tab.  
 1. Change the settings you need to.  
     **Tenant-level settings**:  
-      - **Copilot AI**: [Controls who can use the Sales app AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
-      - **Collaboration spaces**: [Controls whether AI-powered tasks should be suggested in collaboration spaces](turn-off-suggested-tasks-collab-space.md)  
+      - **Copilot AI**: [Control who can use the Sales app AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
+      - **Collaboration spaces**: [Control whether AI-powered tasks should be suggested in collaboration spaces](turn-off-suggested-tasks-collab-space.md)  
     
     **Environment-level settings**:  
-      - **Copilot AI**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.      
+      - **Copilot AI**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.
+      - **Access settings**: [Enable or disable features in the Sales app](access-settings.md).
       - **Save to (CRM)**: [Configure fields that sellers can use to categorize emails and meetings in CRM](save-additional-details-outlook.md).
-      - **Forms**: [Determines what information is displayed in the Sales app in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales app.
+      - **Forms**: [Determine what information is displayed in the Sales app in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales app.
+      - **Custom AI instructions**: [Customize the AI instructions for generating the account summary](set-up-sales-chat.md#step-4-configure-account-summary)
+    
+    **Features**:
+      - **Sales Agent - Lead research**: [Set up the Sales Agent - Lead research feature](set-up-sales-agent.md).
+      - **Meeting insights**: [Help sellers stay on top of their deals with AI-driven insights based on their Teams meetings](configure-meeting-agent.md).
+      - **Sales Chat**: [Set up the Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md).
       
     :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Screenshot showing admin settings.":::
 
