@@ -803,6 +803,11 @@
         "source_path": "articles/sales-copilot-faq.md",
         "redirect_url": "/microsoft-sales-copilot/sales-m365-copilot-faq",
         "redirect_document_id": false
-      }                                                                           
+      },
+      {
+        "source_path": "articles/email-insights-settings.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }                                                                            
   ]
 }
