@@ -1,7 +1,7 @@
 ---
 title: FAQs for meeting follow-up feature in Outlook
-description: This FAQ provides information about the AI technology used in the meeting follow-up feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/26/2025
+description: This FAQ provides information about the AI technology used in the meeting follow-up feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -13,19 +13,19 @@ ms.reviewer: shjais
 
 # FAQs for meeting follow-up feature in Outlook
 
-These frequently asked questions (FAQs) describe the AI impact of Microsoft 365 Copilot for Sales's meeting follow-up feature in Outlook.
+These frequently asked questions (FAQs) describe the AI impact of the Sales app's meeting follow-up feature in Outlook.
 
 ## What is meeting follow-up feature in Outlook?
 
-Copilot for Sales assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
+The Sales app assists salespeople in creating follow-up emails after meetings with customers. By analyzing the meeting discussions, it generates personalized and comprehensive follow-up emails, ensuring important points are addressed, and action items are clearly communicated, thereby strengthening customer relationships.
 
 ## What are the feature's capabilities?
 
-Copilot for Sales employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
+The Sales app employs data integration with CRM systems, meeting notes, and customer interaction logs. By analyzing this information, the system identifies action items, decisions, and discussion points from the meeting. It then generates customized follow-up emails, incorporating the necessary context, and ensuring timely and accurate communication with customers.
 
 ## What is the feature's intended use?
 
-This intended use of this feature is to automate the process of creating follow-up emails after meetings with customers. It aims to capture important discussion points, action items, and decisions made during the meeting, and generate customized emails that ensure timely and accurate communication, strengthening customer relationships, and facilitating effective collaboration.
+The intended use of this feature is to automate the process of creating follow-up emails after meetings with customers. It aims to capture important discussion points, action items, and decisions made during the meeting, and generate customized emails that ensure timely and accurate communication, strengthening customer relationships, and facilitating effective collaboration.
 
 ## How was the meeting follow-up feature evaluated? What metrics are used to measure performance?
 

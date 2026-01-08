@@ -1,7 +1,7 @@
 ---
-title: Enrich key sales information with insights from your application (preview)
-description: Enhance sales information with Copilot for Sales in Outlook. Extend its capabilities by using insights from your own application.
-ms.date: 06/26/2025
+title: Enrich opportunity insights with data from your application (preview)
+description: Enhance sales information with the Sales app in Outlook. Extend its capabilities by using data from your own application.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,22 +12,19 @@ ms.custom:
   - ai-seo-date:05/07/2024
 ---
 
-# Enrich key sales information with insights from your application (preview)
+# Enrich opportunity insights with data from your application (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-While sellers read and compose emails in Outlook, they can use Copilot for Sales to view key sales information about contacts, accounts, and opportunities that are related to the email. Key sales information is based on one of the following sources:
+While sellers read and compose emails in Outlook, they can use the Sales app to view opportunity insights to get more information about the opportunity related to the email.
 
-- The opportunity that is connected to the email
-- The most relevant opportunity, based on the contacts and accounts in the email
-
-You can extend the key sales information capability that Copilot for Sales provides with insights from your own application.
+You can extend the opportunity insights capability that the Sales app provides with insights from your own application.
 
 ## API description
 
-You must add the following API description to the action. In this way, Copilot for Sales can identify the correct API that must be invoked to enrich the capability.
+You must add the following API description to the action. In this way, the Sales app can identify the correct API that must be invoked to enrich the capability.
 
 *This action gets additional sales insights that will be shown in C4S key sales info card in outlook sidecar. The action enhances the existing skills of copilot for sales.*
 
@@ -37,7 +34,7 @@ This API uses Operation Type: GET
 
 ## Input parameters
 
-Copilot for Sales is designed to provide the following input parameters to your APIs.
+The Sales app is designed to provide the following input parameters to your APIs.
 
 | Name | Data type/format | Required | Details | Description to add in the action |
 |------|------------------|----------|---------|----------------------------------|
@@ -50,7 +47,7 @@ Copilot for Sales is designed to provide the following input parameters to your 
 
 ## Output parameters
 
-Copilot for Sales expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that Copilot for Sales can correctly parse the output, the response structure must adhere to the guidelines in the following table. 
+The Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table. 
 
 | Parameter | Data type | Required | Details |
 |---------|----|--------|-----------|
@@ -89,12 +86,13 @@ Copilot for Sales expects to receive a list of insights (objects) from your APIs
 }
 ```
 
-The example in the following image shows how the output of the API is mapped to the key sales information.
+The example in the following image shows how the output of the API is mapped to the opportunity insights.
 
-:::image type="content" source="media/extend-ksi.svg" alt-text="Screenshot showing insights from partner apps in key sales information.":::
+:::image type="content" source="media/extend-oppty-insights.png" alt-text="Screenshot showing insights from partner apps in opportunity insights.":::
 
 Legend:
 
+1. Card that shows data from your partner application. 
 1. Section that shows insights from the partner application. The section title is derived from the name of the Microsoft Power Platform connector. 
 1. Descriptions of the insight from the API response.
 1. Citation numbers that can be selected to view details about the insight.
@@ -106,10 +104,10 @@ Legend:
 
 ### Related information
 
-[View key sales information in Copilot for Sales](key-sales-info.md)<br>
+[View opportunity insights in the Sales app](key-sales-info.md)<br>
 [Enrich email summaries with insights from your application](extend-email-summary.md)<br>
 [Enrich email drafts with file links from your application](extend-email-draft.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Extend Microsoft 365 Copilot for Sales with partner applications](extend-copilot-for-sales.md)<br>
-[Build Copilot for Sales extensions](build-apis.md)
+[Extend Sales in Microsoft 365 Copilot with partner applications](extend-sales-app.md)<br>
+[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)

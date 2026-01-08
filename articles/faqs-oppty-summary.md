@@ -1,7 +1,7 @@
 ---
 title: FAQ for opportunity summary feature in Outlook and Teams
-description: This FAQ provides information about the AI technology used in the opportunity summary feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/26/2025
+description: This FAQ provides information about the AI technology used in the opportunity summary feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQ for opportunity summary feature in Outlook and Teams
 
-These frequently asked questions (FAQ) describe the AI impact of Microsoft 365 Copilot for Sales's opportunity summary feature in Outlook and Teams. 
+These frequently asked questions (FAQ) describe the AI impact of the Sales app's opportunity summary feature in Outlook and Teams. 
 
 ## What is opportunity summary feature in Outlook and Teams?
 
-Leveraging CRM data, Copilot for Sales provides salespeople with a summary of relevant information before a meeting and in Teams chat and channel conversations. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions.
+Leveraging CRM data, the Sales app provides salespeople with a summary of relevant information before a meeting and in Teams chat and channel conversations. By aggregating customer data and insights, it equips sellers with the necessary context and background, enabling them to be well-prepared and engage in more meaningful and productive discussions.
 
 ## What are the feature's capabilities?
 
-Leveraging its integration with CRM systems and customer databases, Copilot for Sales retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions.
+Leveraging its integration with CRM systems and customer databases, the Sales app retrieves relevant customer information such as contact details, past interactions, and preferences. It uses this data to generate a concise summary, providing salespeople with a comprehensive overview of the customer's background, needs, and preferences, enabling more informed and tailored discussions.
 
 ## What is the feature's intended use?
 

@@ -1,7 +1,7 @@
 ---
 title: Add private notes
 description: Learn how to add private notes.
-ms.date: 06/26/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 Add notes for yourself to help you prepare for an upcoming meeting, remember details about your relationship with a customer, and so on.
 
-1. Open the **Copilot for Sales** pane.  
+1. Open the **Sales** pane.  
 1. In the **Contacts** card, select the contact to which you want to add notes.  
 1. Enter your notes about the contact in the **Private notes** card.
 

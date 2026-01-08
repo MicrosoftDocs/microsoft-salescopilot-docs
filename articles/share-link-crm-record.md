@@ -1,7 +1,7 @@
 ---
 title: Share a link to a CRM record
 description: Learn how to share a link to a CRM record.
-ms.date: 03/28/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 You can copy a link to a CRM record and then share it in a Teams chat or an email message. When you paste the CRM record's link into Teams chat, it will unfurl into a rich adaptive card. When you paste the CRM record's link in an email message, a link to the record is pasted.
 
-1. Open the **Copilot for Sales** pane.
+1. Open the **Sales** pane.
 
 1. In the **(record type)** card, hover over the record to which you want to copy a link, select **More actions** (...) > **Copy link**.
 

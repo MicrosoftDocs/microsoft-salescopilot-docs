@@ -1,7 +1,7 @@
 ---
 title: FAQ for email summary feature in Outlook
-description: This FAQ provides information about the AI technology used in the email summary feature in Microsoft 365 Copilot for Sales, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 06/26/2025
+description: This FAQ provides information about the AI technology used in the email summary feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 11/20/2025
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -13,15 +13,15 @@ ms.reviewer: shjais
 
 # FAQs for email summary feature in Outlook
 
-These frequently asked questions (FAQs) describe the AI impact of Microsoft 365 Copilot for Sales's email summary feature in Outlook.
+These frequently asked questions (FAQs) describe the AI impact of the Sales app's email summary feature in Outlook.
 
 ## What is email summary feature in Outlook?
 
-Copilot for Sales summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
+The Sales app summarizes lengthy emails by consolidating and analyzing multiple email threads, looking for sales-specific information related to budget, decision makers, needs, and timelines. This feature helps sellers quickly grasp the key points, important information, and context of conversations, enabling them to stay informed and respond more efficiently.
 
 ## What are the feature's capabilities?
 
-Through advanced text analysis and summarization techniques, Copilot for Sales extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
+Through advanced text analysis and summarization techniques, the Sales app extracts key information relating to a sale, identifies important topics, and summarizes the content of email threads. It employs algorithms to prioritize and condense the most relevant details, enabling salespeople to quickly review and comprehend the entire conversation history within the thread, and save it to the CRM for future reference.
 
 ## What is the feature's intended use?
 

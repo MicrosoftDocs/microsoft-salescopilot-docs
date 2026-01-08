@@ -1,7 +1,7 @@
 ---
-title: Configure email insights settings in Copilot for Sales
-description: Learn how to configure email insights settings in Copilot for Sales, including sharing settings and sensitivity labels.
-ms.date: 08/27/2025
+title: Configure email insights settings in the Sales app
+description: Learn how to configure email insights settings in the Sales app.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -65,12 +65,12 @@ You can control whether emails are automatically summarized in the [**Key email 
 
 To configure this setting:
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
-1. Under **Environment**, select **Email insights (preview)**.
+1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. Under **Features**, select **Email insights (preview)**.
 1. Select **Auto-summarize emails**.
-1. Turn the toggle on or off.
+1. Turn the toggle on or off to enable or disable automatic email summarization.
 
 ## Related information
 
-- [Configure email insights storage settings (preview)](access-settings.md#email-insights-preview)
 - [View and save email summaries to your CRM](view-save-email-summary-crm.md)
+- [Configure email insights storage settings (preview)](access-settings.md#email-insights-preview)
