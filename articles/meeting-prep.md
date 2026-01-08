@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 11/20/2025
+ms.date: 01/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -86,23 +86,10 @@ The detailed meeting preparation view includes:
 - Only past meetings have insights generated.
 - Meeting insights are linked only to one opportunity in CRM. 
 
-
-
-
-
-
+> [!NOTE]
+> Based on the license you have, you might see the below version of the meeting preparation card. 
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
-
-
-
-## View a meeting preparation card
-
-The meeting preparation card is displayed in your personal chat with the **Sales** bot or in the **Chat** tab of the Sales personal app in Teams. The meeting preparation card is sent at a time that is [configured by your administrator](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications). By default, the meeting preparation card is sent one hour before the meeting. If you schedule the meeting less than an hour before the start time, the card appears soon after you send the meeting invite. 
-
-> [!IMPORTANT]
-> - The meeting preparation card is displayed in the language set for your Microsoft 365 account. To change the language of the meeting preparation card to your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
-> - Based on the license you have, the **Prepare with insights** button is displayed on the card. When you select this button, it opens the meeting preparation details alongside [Sales agent chat interface](meeting-prep-sales-chat.md). If you don't see the button, proceed further to view the meeting preparation details in Teams.
 
 The meeting preparation card contains the following information: 
 
