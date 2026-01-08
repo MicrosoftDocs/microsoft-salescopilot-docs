@@ -107,6 +107,13 @@ The meeting preparation card contains the following information:
 
     :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
 
+### Limitations
+
+- The meeting preparation card does not appear for recurring meetings.
+- The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after it's scheduled, no new card is generated.
+- Only past meetings have insights generated. Email insights are not included currently.
+- Meeting insights are linked only to one opportunity in CRM. 
+
 ## How does the card work?
 
 The AI-generated insights displayed on the meeting preparation card are based on opportunities identified and matched with meeting participants who are recognized as contacts in your CRM. If there are multiple meeting participants who are contacts, the Sales app uses the Microsoft Graph API to determine the order and prioritizes the first contact returned with most recent modification in CRM to locate linked opportunities in CRM. When multiple opportunities are linked with this contact, the most recent one is selected for display on the card. After identifying the relevant opportunity, the Sales app pulls the emails and meetings saved in CRM that are linked to this opportunity, and uses AI-powered soft-linking to scan and match the other unsaved meetings related to this opportunity, including meetings organized by other team members, such as peer sellers. The system then generates a summary of all matched past meetings, providing synthesized insights into key risks and upcoming actions. Insights are presented in your supported local language and your local time zone. 
@@ -129,13 +136,6 @@ It might happen that appropriate data is not available to generate the required 
 - When the meeting participant is not a CRM contact, the card displays:
     - General information about the meeting
     - Up to 10 recent emails or meetings with the participant
-
-## Limitations
-
-- The meeting preparation card does not appear for recurring meetings.
-- The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after it's scheduled, no new card is generated.
-- Only past meetings have insights generated. Email insights are not included currently.
-- Meeting insights are linked only to one opportunity in CRM. 
 
 ## Data storage and retention
 
