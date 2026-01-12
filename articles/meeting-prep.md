@@ -17,7 +17,6 @@ The card draws on insights from your personal activity and your team's collectiv
 
 ## Prerequisites
 
-- [Connect to a CRM organization in the Sales app](sign-in-crm-outlook.md).
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
 
