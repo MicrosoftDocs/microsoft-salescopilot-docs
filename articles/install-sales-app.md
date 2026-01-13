@@ -12,13 +12,13 @@ ms.localizationpriority: medium
 
 # Install Sales app
 
-The Sales app can be installed either by an administrator or by an end user. As an administrator, you can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use the Sales app, see [Privileges required to use the Sales app](privileges.md).
+The Sales app can be installed either by an administrator or by an end user. As an administrator, you can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. As an end user, you can install the Outlook add-in and Teams app from within Microsoft Marketplace in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. For information about privileges required to use the Sales app, see [Privileges required to use the Sales app](privileges.md).
 
 ## Admin-deployed installation
 
-You can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft AppSource to install it in Outlook and assign users. If you start from AppSource, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability.  
+You can install the Sales app as an integrated app on multiple platforms or as an individual app on a single platform. Whichever method you choose, you can start from either the Microsoft 365 admin center or Microsoft Marketplace to install it in Outlook and assign users. If you start from Marketplace, you'll finish installation in the Microsoft 365 admin center. Either way, we recommend an administrator installs it for best performance and usability.  
 
-Additionally, to install the app within Teams, you need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Sales app for Teams from AppSource, you'll install it to your personal scope only, not for your users.
+Additionally, to install the app within Teams, you need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. If you install the Sales app for Teams from Marketplace, you'll install it to your personal scope only, not for your users.
 
 You need to be a Microsoft 365 administrator to deploy and install the Sales app for Outlook and Microsoft 365 apps. You need to be a Teams administrator to deploy and install the Sales app for Teams.
 
@@ -29,7 +29,7 @@ For steps to install the Sales app in Outlook and Teams, see [Install the Sales 
 
 ## User-deployed installation
 
-As an end user, you can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
+As an end user, you can install the Outlook add-in and Teams app from within Microsoft Marketplace in Outlook or Teams respectively, as long as they aren't explicitly blocked by your administrator. 
 
 When you install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed add-ins don't support the Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, you can manually add the Sales app to the meeting to get meeting summaries.
 
@@ -41,7 +41,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 
 ### Install Sales app in Outlook
 
-1. Sign in to [Microsoft AppSource](https://appsource.microsoft.com/home).
+1. Sign in to [Microsoft Marketplace](https://marketplace.microsoft.com/home).
 
 1. Enter **Sales** in the **Search** box.
 
