@@ -36,9 +36,6 @@ As an administrator, you can customize which CRM information is available to sel
 
 By default, the Sales agent includes a predefined list of record types. You can customize this list by adding out-of-the-box or custom CRM record types. You can also remove record types that are not required.
 
-> [!NOTE]
-> When Sales agent is accessed from within a Dynamics 365 app, the record type configuration doesn't apply. Instead, Sales agent automatically accesses all record types (tables) that are available in the Dynamics 365 app from which it is accessed.
-
 ### Default record types
 
 Sales agent accesses different record types by default depending on your CRM system.
