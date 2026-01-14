@@ -34,9 +34,6 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 
 The CRM information that Sales agent can access is determined by the record types (tables) added in the administrator settings for Sales in Microsoft 365 Copilot. Learn how to [configure record types in Sales in Microsoft 365 Copilot](customize-forms-and-fields.md).
 
-> [!NOTE]
-> When Sales agent is accessed from within a Dynamics 365 app, the record type configuration doesn't apply. Instead, Sales agent automatically accesses all record types (tables) that are available in the Dynamics 365 app from which it is accessed.
-
 ## Step 2: Enable Sales agent to use CRM as a knowledge source
 
 After configuring the record types (tables), you must enable Sales agent to use CRM as a knowledge source to provide relevant responses to user queries.
