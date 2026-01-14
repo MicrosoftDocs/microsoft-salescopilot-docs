@@ -40,6 +40,8 @@ For a list of example prompts you can use with Sales agent, see [What can Sales 
 > - You must install the Sales app to see the Sales agent in Microsoft 365 Copilot Chat.
 > - You must be signed in to your CRM system from the Sales app in either Outlook or Teams to use Sales agent in Microsoft 365 Copilot Chat.
 > - Sales agent is also accessible in Microsoft 365 Copilot Chat within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features are not accessible in these locations.
+> - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot chat in model-driven apps](set-up-sales-chat.md#step-6-optional-enable-microsoft-365-copilot-chat-in-model-driven-apps).
+> - When you access Sales agent from Dynamics 365, you are signed in to the same environment as your Dynamics 365 session.
 
 ## Get a summary of an account
 
