@@ -9,7 +9,6 @@ author: sbmjais
 ms.author: shjais
 ---
 
-
 # Prepare for your Sales meetings in Microsoft 365 Copilot (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
