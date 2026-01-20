@@ -48,7 +48,7 @@ Insights related to emails and meetings have a retention policy of 90 days, and 
 
 ## Additional Dataverse capacity
 
-Dataverse environments used to store data for Sales in Microsoft 365 Copilot get additional capacity entitlements of 3 MB per license of Database capacity as well as an additional 3 MB per license of Log capacity
+Dataverse environments used to store Sales in Microsoft 365 Copilot data receive additional capacity entitlements: 3 MB of Database capacity and 3 MB of Log capacity per license.
 
 ## Delete the Sales app data
 
