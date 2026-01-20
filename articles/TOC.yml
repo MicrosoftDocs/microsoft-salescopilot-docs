@@ -1,10 +1,10 @@
-- name: Microsoft 365 Copilot for Sales documentation
+- name: Sales in Microsoft 365 Copilot documentation
   href: landing.yml
 
-- name: Welcome to Microsoft 365 Copilot for Sales
+- name: Welcome to Sales in Microsoft 365 Copilot
   href: introduction.md
 
-- name: What's new in Copilot for Sales
+- name: What's new in Sales in Microsoft 365 Copilot
   items:
   - name: What's new overview
     href: whats-new.md
@@ -15,46 +15,34 @@
     href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
-  - name: License overview
-    items:
-    - name: Copilot for Sales license
-      href: license-info.md
-    - name: Copilot for Sales step-up license
-      href: step-up-license.md
-    - name: Included features for Dynamics 365 users
-      href: features-d365-users.md
   - name: Mobile support (preview)
     href: mobile-support.md
-  - name: Privileges required for Copilot for Sales
+  - name: Privileges required for Sales app
     href: privileges.md
-  - name: Data handling in Copilot for Sales
+  - name: Data handling in Sales app
     href: data-handling.md
-  - name: Copilot for Sales FAQ
-    href: sales-copilot-faq.md
+  - name: Sales app FAQ
+    href: sales-m365-copilot-faq.md
   - name: Get support
     href: get-support.md
 
-- name: Buy and install
+- name: Install
   items:
-  - name: Buy Copilot for Sales
-    href: buy-license.md
-  - name: Install Copilot for Sales
+  - name: Install Sales app
     items:
-    - name: Install Copilot for Sales
-      href: install-viva-sales.md
-    - name: Install Copilot for Sales in Outlook
-      href: install-viva-sales-as-an-integrated-app.md
-    - name: Install and pin Copilot for Sales in Teams
-      href: install-pin-viva-sales-teams.md
-  - name: Enable Copilot for Sales
-    href: enable-license.md
+    - name: Install Sales app
+      href: install-sales-app.md
+    - name: Install Sales app in Outlook
+      href: install-sales-as-an-integrated-app.md
+    - name: Install and pin Sales app in Teams
+      href: install-pin-sales-teams.md
 
 - name: Deployment scenarios
   items:
   - name: Deployment guide for Dynamics 365 users
-    href: deploy-viva-sales-d365.md
+    href: deploy-sales-app-d365.md
   - name: Deployment guide for Salesforce users
-    href: deploy-viva-sales-sf.md
+    href: deploy-sales-app-sf.md
 
 
 - name: Administration guide
@@ -62,7 +50,7 @@
   - name: Admin settings
     items:
     - name: Overview
-      href: administrator-settings-for-viva-sales.md
+      href: administrator-settings-sales-app.md
     - name: Customize forms and fields
       href: customize-forms-and-fields.md
     - name: Share a CRM record in Outlook by using /mention
@@ -71,10 +59,8 @@
       href: suggested-replies.md
     - name: Turn off task suggestion in collaboration spaces (preview)
       href: turn-off-suggested-tasks-collab-space.md
-    - name: Copilot for Sales data movement across geographies
+    - name: Sales app data movement across geographies
       href: copilot-data-movement.md
-    - name: Integrate with other applications (preview)
-      href: use-extensions.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
     - name: Configure recordings and notifications for sales meetings
@@ -85,7 +71,7 @@
       href: access-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
-    - name: Sales Agent (preview)
+    - name: Sales Agent - Lead Research (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
@@ -93,22 +79,32 @@
         href: set-up-sales-agent.md
       - name: Integrate Sales Agent with Salesforce
         href: set-up-sales-agent-salesforce.md
+    - name: Sales agent in Microsoft 365 Copilot (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Set up Sales agent
+        href: set-up-sales-chat.md
+      - name: Extend Sales agent with custom tools and knowledge
+        href: extend-sales-chat-custom-tools.md
+      - name: Manage connected agents
+        href: manage-connected-agents.md
     - name: Convert the environment from Trial to Production
       href: convert-trial-prod.md
     - name: Manage consumption-based billing for agent capabilities (preview)
       href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
-  - name: Uninstall Copilot for Sales app
-    href: disable-viva-sales.md
-  - name: Copilot for Sales adoption report
+  - name: Uninstall Sales app
+    href: uninstall-sales-app.md
+  - name: Sales app adoption report
     href: adoption-report.md
 
 - name: Seller guide
   items:
   - name: Learn the basics
     items:
-    - name: Access the Copilot for Sales app
+    - name: Access the Sales app
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md
@@ -122,9 +118,9 @@
         href: connect-contact.md
       - name: Change the connected CRM contact
         href: change-connected-crm-contact.md
-      - name: Create a contact in your CRM from Copilot for Sales
-        href: create-contact-crm-sales-copilot.md
-      - name: Create a new record in your CRM from Copilot for Sales
+      - name: Create a contact in your CRM from Sales app
+        href: create-contact-crm.md
+      - name: Create a new record in your CRM from Sales app
         href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
@@ -138,9 +134,9 @@
         href: share-link-crm-record.md
       - name: Edit a CRM record
         href: edit-crm-record.md
-      - name: Use server-side synchronization with Copilot for Sales
+      - name: Use server-side synchronization with Sales app
         href: use-server-side-sync.md
-      - name: Search for a record in Copilot for Sales
+      - name: Search for a record in Sales app
         href: global-search.md
     - name: AI capabilities
       items:
@@ -152,20 +148,16 @@
           href: view-save-email-summary-crm.md
       - name: Draft an email message
         items:
-        - name: Draft an email message using Copilot for Sales license
+        - name: Draft an email message using sales information in Outlook
           href: email-reply-premium.md
-        - name: Draft an email message using Sales Copilot license
+        - name: Draft an email message in Sales app
           href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
       - name: View suggested CRM updates
         href: suggested-crm-updates.md
-      - name: View key sales info
-        href: key-sales-info.md
-      - name: View recent communication
-        href: recent-communications.md
-      - name: View People.ai insights (preview)
-        href: people-ai-insights.md
+      - name: View opportunity insights (preview)
+        href: view-opportunity-insights.md
       - name: View insights from partner applications (preview)
         href: insights-partner-apps.md
       - name: Share insights from Outlook to Teams
@@ -186,7 +178,7 @@
         href: daily-digest.md
     - name: During meeting 
       items: 
-      - name: Use Copilot for Sales app during a meeting
+      - name: Use Sales app during a meeting
         href: use-sales-copilot-app-during-meeting.md
     - name: Post-meeting
       items:
@@ -199,7 +191,7 @@
 
   - name: Cross-app capabilities
     items:
-    - name: Collaboration space in Copilot for Sales
+    - name: Collaboration space in Sales app
       items:
       - name: Overview
         href: collaboration-space.md
@@ -219,8 +211,10 @@
           href: create-planner-tasks.md
     - name: Share a CRM record in Teams or Outlook
       href: share-crm-record-teams-conversation.md
-    - name: Copilot for Sales personal app
+    - name: Sales personal app
       href: personal-app.md
+    - name: View customer communication (preview)
+      href: view-customer-communication.md
     - name: Sales Agent (preview)
       items:
       - name: Overview
@@ -229,11 +223,19 @@
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
+    - name: Sales agent in Microsoft 365 Copilot (preview)
+      items:
+      - name: Overview
+        href: sales-chat-overview.md
+      - name: Use Sales agent
+        href: use-sales-chat.md
+      - name: Prepare for Sales meetings
+        href: meeting-prep-sales-chat.md
 
-- name: Extend Copilot for Sales (preview)
+- name: Extend Sales in Microsoft 365 Copilot (preview)
   items:
   - name: Overview
-    href: extend-copilot-for-sales.md
+    href: extend-sales-app.md
   - name: Get started with creating an extension
     items:
     - name: Create a custom connector and connector action
@@ -250,8 +252,8 @@
       href: extend-email-summary.md
     - name: Enrich email draft
       href: extend-email-draft.md
-    - name: Enrich key sales info
-      href: extend-key-sales-info.md
+    - name: Enrich opportunity insights
+      href: extend-opportunity-insights.md
     - name: Enrich CRM record summary
       href: extend-record-summary.md
     - name: Enrich CRM record details
@@ -279,9 +281,9 @@
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Required fields are missing" error'
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/required-fields-missing?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't see data in Copilot for Sales
+      - name: Salesforce CRM users can't see data in Sales app
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't view, edit, or save data in Copilot for Sales
+      - name: Salesforce CRM users can't view, edit, or save data in Sales app
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/salesforce-permission-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"This contact already exists" error when creating a CRM record'
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/duplicate-record-error?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -289,7 +291,7 @@
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-admin-exists-error?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Outlook side panel
     items:
-      - name: Sign-in issue when opening the Copilot for Sales pane in Outlook
+      - name: Sign-in issue when opening the Sales pane in Outlook
         href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
   - name: Setup, installation, and sign-in
     items:
@@ -307,7 +309,7 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Failure passed to redirect url" error when signing in'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: First Salesforce CRM user can't access Copilot for Sales
+      - name: First Salesforce CRM user can't access Sales app
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Incorrect custom domain in Salesforce
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -315,7 +317,7 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Update add-in error in Copilot for Sales add-in for Microsoft Outlook
+      - name: Update add-in error in Sales app for Microsoft Outlook
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"User does not have required privileges to access the org" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -328,14 +330,17 @@
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 
-- name: Copilot for Sales training
+- name: Sales app training
   href: /training/modules/boost-sales-performance/
 
-- name: Copilot for Sales adoption resources
+- name: Sales app adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
 
-- name: Copilot for Sales success kit
+- name: Sales app success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
+
+- name: Deprecations in Sales app
+  href: deprecations-sales-app.md
 
 - name: Responsible AI
   items:
@@ -349,8 +354,6 @@
     href: faqs-meeting-follow-up.md
   - name: FAQ for opportunity summary
     href: faqs-oppty-summary.md
-  - name: FAQ for key sales info
-    href: faqs-key-sales-info.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
   - name: FAQ for Sales Agent

@@ -1,7 +1,7 @@
 ---
 title: Send outreach email to leads (preview)
 description: Learn how to send outreach email to leads using Sales Agent.
-ms.date: 08/20/2025
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

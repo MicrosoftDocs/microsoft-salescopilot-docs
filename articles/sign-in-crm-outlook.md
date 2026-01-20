@@ -1,7 +1,7 @@
 ---
 title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
-ms.date: 04/30/2025
+ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,26 +15,26 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you [open the Microsoft 365 Copilot for Sales app in Outlook](open-app.md#access-copilot-for-sales-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
+After you [open the Sales app in Outlook](open-app.md#access-sales-app-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 
-If you have any Dynamics 365 environment (production or non-production) that has the Copilot for Sales solution, you're signed in automatically to your environment the first time you open the Copilot for Sales pane. The environment you're signed in to is selected per the following rules:
+If you have any Dynamics 365 environment (production or non-production) that has Sales in Microsoft 365 Copilot, you're signed in automatically to your environment the first time you open the Sales app. The environment you're signed in to is selected per the following rules:
 
 
 |Scenario  |Auto sign-in rule  |You'll see  |
 |---------|---------|---------|
-|Single environment (production or non-production)     |  Signed in to the available environment       | Message at the top of Copilot for Sales pane        |
-|Single production environment and multiple non-production environments     |Signed in to the production environment         |  Message at the top of Copilot for Sales pane       |
+|Single environment (production or non-production)     |  Signed in to the available environment       | Message at the top of the **Sales** pane        |
+|Single production environment and multiple non-production environments     |Signed in to the production environment         |  Message at the top of the **Sales** pane       |
 |Multiple production and non-production environments     |  Signed in to the first production environment       |  Dialog box to confirm or change the signed in environment       |
 |Multiple non-production environments but no production environment     |  Signed in to the first non-production environment       |  Dialog box to confirm or change the signed in environment       |
 
 > [!NOTE]
-> Copilot for Sales does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. Copilot for Sales fetches a list of environments having the Copilot for Sales solution, and then selects the first environment in the list to automatically sign in to.
+> The Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales app fetches a list of environments having Sales in Microsoft 365 Copilot, and then selects the first environment in the list to automatically sign in to.
 
 ### Single environment or single production environment
 
-For first and second scenarios, a message is displayed at the top of the Copilot for Sales pane showing the environment the user was signed in to automatically. It includes a link to change the environment or CRM.
+For first and second scenarios, a message is displayed at the top of the **Sales** pane showing the environment the user was signed in to automatically. It includes a link to change the environment or CRM.
 
 :::image type="content" source="media/single-env.png" alt-text="Screenshot showing signed in to a single environment.":::
 
@@ -60,19 +60,15 @@ The **Environment** list displays the friendly name, type (Production/Sandbox), 
 
 You must manually sign in to your CRM in the following cases:
 
-- If you're using Dynamics 365 environment and have signed out of your CRM from Copilot for Sales
+- If you're using Dynamics 365 environment and have signed out of your CRM from the Sales app
 
 - If you're using Salesforce CRM
 
-You can use basic capabilities of Copilot for Sales without signing in to your CRM. However, to use all the advanced capabilities of Copilot for Sales, you must sign in to your CRM.
-
-Here's the video that shows how to sign in to your CRM from Outlook:
-
-> [!VIDEO 3be716ef-858e-4f12-a699-701168585907]
+You can use basic capabilities of the Sales app without signing in to your CRM. However, to use all the advanced capabilities of the Sales app, you must sign in to your CRM.
 
 **To manually sign in to your CRM from Outlook**:
 
-1. In the **Copilot for Sales** pane, select **Sign in** in the banner at the top or card at the bottom.
+1. In the **Sales** pane, select **Sign in** in the banner at the top or card at the bottom.
 
     :::image type="content" source="media/manual-sign-in.png" alt-text="Screenshot showing sign in button.":::
 
@@ -89,19 +85,19 @@ Here's the video that shows how to sign in to your CRM from Outlook:
 
     :::image type="content" source="media/sign-in-crm.png" alt-text="Screenshot showing sign in to your CRM button.":::
 
-    Once you're signed in, the Copilot for Sales pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
+    Once you're signed in, the **Sales** pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
 
-## Use Copilot for Sales without signing in
+## Use Sales app without signing in
 
-You can use Copilot for Sales and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
+You can use the Sales app and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
 
 ## App refresh
 
-When you switch the connected environment in Teams, you receive a notification to refresh the Copilot for Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
+When you switch the connected environment in Teams, you receive a notification to refresh the Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
 
 ### Related information
 
-- [Microsoft 365 Copilot for Sales personal app](personal-app.md)
+- [Sales personal app](personal-app.md)

@@ -1,38 +1,38 @@
 ---
-title: Set up Sales Agent (preview)
+title: Set up Sales Agent - Lead Research (preview)
 description: Learn how to set up Sales Agent to research leads and generate insights.
-ms.date: 08/13/2025
+ms.date: 12/11/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Set up Sales Agent (preview)
+# Set up Sales Agent - Lead Research (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from research and generating personalized outreach emails tailored to the lead and its product of interest.
 
 Sales Agent connects to both Microsoft Dynamics 365 Sales and Salesforce Sales Cloud to research your leads, and discover related contact, account, opportunity, and activity records. Sales Agent uncovers the insights hidden in your CRM that go easily missed.
 
-As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Copilot for Sales app. 
+As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Sales app. 
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
-- The Copilot for Sales app is installed in either Outlook or Teams.
-- You have access to environment-level settings in the [Copilot for Sales admin settings](administrator-settings-for-viva-sales.md).
+- The Sales app is installed in either Outlook or Teams.
+- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
-- [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent-preview).
-- The Dataverse environment connected to Copilot for Sales is a production environment.
-- [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Copilot for Sales environment.
+- [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent---lead-research-preview).
+- The Dataverse environment connected to the Sales app is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
+- [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales app environment.
 
 ### Additional prerequisites for Salesforce
 
-- Convert the **msdyn_viva** environment to a production environment. Learn more about [converting your environment to production]().
-- Configure the server-to-server connection between Copilot for Sales and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
+- Convert the **msdyn_viva** environment to a production environment while [setting up Sales Agent with Salesforce](#step-3-set-up-and-activate-the-agent).
+- Configure the server-to-server connection between the Sales app and Salesforce. Learn more about [Connect your agents to a data source](connect-agent-datasource.md)
 
 ## Step 1: Create a view and query that defines the leads to research
 
@@ -68,7 +68,13 @@ The Sales Agent can optionally store a summary of the research in your CRM so th
 
 ## Step 3: Set up and activate the agent
 
-1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
+1. In the Sales app admin settings, select **Sales Agent - Lead Research**.
+1. If you're using a trial environment, convert it to a production environment:
+    1. Select **Convert to production** in the banner at the top of the page.
+    1. In the confirmation dialog, select **Convert to production environment**.
+    1. Select **Check status** to verify if the conversion is complete.
+    > [!CAUTION]
+    > It may take several hours to convert a trial environment to a production environment. The Sales app will be unavailable on all platforms during this process. You must start the conversion outside of business hours to minimize disruption. This action can't be undone. Production environments are billed for Microsoft Dataverse storage overages. Learn more: [Dataverse capacity-based storage details](https://go.microsoft.com/fwlink/?linkid=2332539)
 1. If you're using Salesforce, confirm that the status doesn't show **Connect to Salesforce**. If it does, select **Connect to Salesforce**. Learn more about [connecting your agents to a data source](connect-agent-datasource.md).
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
@@ -124,7 +130,7 @@ The Sales Agent connects to Salesforce using the [server-to-server data connecti
 As an admin in Salesforce, open the **Setup** page and perform the following steps to give the Sales Agent the necessary permissions:
 
 > [!IMPORTANT]
-> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by Copilot for Sales. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
+> The server-to-server data connection creates a Salesforce permission set named **Copilot for Sales connected app permission set** which is managed by the Sales app. Any changes made to this permission set will be automatically overwritten. By creating a separate permission set to manage additional permissions for the Sales Agent **Copilot for Sales integration user** you avoid having your changes being overwritten by future application updates.
 
 ### Give permission to read activities, tasks, and events
 
@@ -192,7 +198,7 @@ Once the Sales Agent is activated, you must [integrate Sales Agent with Salesfor
 
 You can deactivate the agent at any time. When you deactivate the agent, it stops researching leads and generating insights. However, the insights that have already been generated will still be available.
 
-1. In the Copilot for Sales admin settings, select **Sales Agent - Lead Research**.
+1. In the Sales app admin settings, select **Sales Agent - Lead Research**.
 1. Scroll down to the bottom of the page and select **Deactivate**.
 1. In the confirmation dialog, select **Deactivate**.
     
@@ -203,4 +209,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Use Sales Agent](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
-- [Turn on Sales Agent](access-settings.md#sales-agent-preview)
+- [Turn on Sales Agent](access-settings.md#sales-agent---lead-research-preview)

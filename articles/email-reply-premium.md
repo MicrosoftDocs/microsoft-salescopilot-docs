@@ -1,7 +1,7 @@
 ---
 title: Draft an email message using sales information in Outlook
-description: Learn how to combine Microsoft 365 Copilot with Microsoft 365 Copilot for Sales for a seamless and powerful sales experience in Outlook.
-ms.date: 06/23/2025
+description: Learn how to combine Microsoft 365 Copilot with the Sales app for a seamless and powerful sales experience in Outlook.
+ms.date: 12/16/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,52 +14,34 @@ ms.custom:
 
 # Draft an email message using sales information with Copilot in Outlook
 
-Microsoft 365 Copilot for Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and the Copilot for Sales role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
-
-Here's the video that shows how to [view an email summary](email-summary-premium.md) and draft an email message in Copilot for Sales:
-
-> [!VIDEO 903b4088-0566-401b-80b6-8dfcb7c96408]
-
-## License requirements
+The Sales app includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales in Microsoft 365 Copilot role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
 
 > [!NOTE]
-> The Copilot for Sales license includes Microsoft 365 Copilot license and provides combined results which are optimized for sales roles. CRM integration is provided out of the box and can be configured within the application and with Microsoft Copilot Studio.
->    
->    > - If you have already purchased Microsoft 365 Copilot, you can add the step-up Copilot for Sales license to include all the role-based functionality and out of the box CRM connections.
->    
->    > - If you're a Dynamics 365 Premium customer, the ability to activate Copilot for Sales is included with the license. To activate, ensure that the users have a Microsoft 365 Copilot license (additional purchase) and Dynamics 365 Sales Premium license associated to their user profile in the Microsoft 365 admin center. This will automatically enable all of Copilot for Sales.
-
-For information about pricing, see [Microsoft 365 Copilot for Sales pricing](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing) and [Microsoft 365 Copilot pricing](https://www.microsoft.com/microsoft-365/enterprise/copilot-for-microsoft-365#Pricing).
-
-> [!NOTE]
-> If you have existing Sales Copilot license, see [Draft an email message within Copilot for Sales app](use-copilot-kickstart-email-messages.md).
+> Based on the license you have, you can see the capability to draft an email message either within Outlook or in the [**Sales** pane in Outlook](use-copilot-kickstart-email-messages.md).
 
 ## Prerequisites
 
 - [Copilot AI features must be turned on in your environment](suggested-replies.md)
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
-- [Assign Copilot for Sales user license to the user profile](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 - You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
-- The Copilot for Sales app must be installed by your admin.
+- The Sales app must be installed by your admin.
 
 ## Supported languages
 
-To see a list of supported languages for the combined experience of Microsoft 365 Copilot and Copilot for Sales, see [supported languages](introduction.md#supported-languages-and-geographies).
+To see a list of supported languages for the combined experience, see [supported languages](introduction.md#supported-languages-and-geographies).
 
 The email and custom prompt must be in one of the supported languages to generate the suggested email message.
 
 
 ## Draft an email message
 
-With Copilot in Outlook and Copilot for Sales together, you can draft an email message within Outlook using predefined response categories and sales information from CRM.
+With Copilot in Outlook and Sales in Microsoft 365 Copilot together, you can draft an email message within Outlook using predefined response categories and sales information from CRM.
 
-1. In Outlook, reply to an email thread.
-1. In the **Copilot suggested drafts** area, select the Copilot icon in the upper-left corner, and select **From Sales**. Predefined response categories are displayed.
+1. In Outlook, reply to an email with an external email address as a recipient.
+
+    In the **Copilot suggested drafts from Sales** area, predefined response categories are displayed.
 
     :::image type="content" source="media/email-draft-premium-license.png" alt-text="Screenshot showing email drafting capability within Outlook with predefined response categories."::: 
-
-    > [!NOTE]
-    > If an external email is included in the email thread, **From Sales** is selected by default.
    
 1. Select a response category. Copilot generates a reply using sales information from CRM.
 1. Review the generated content. To generate a different suggestion, select **Regenerate**.

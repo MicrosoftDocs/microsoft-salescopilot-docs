@@ -1,7 +1,7 @@
 ---
 title: View insights from partner applications (preview)
-description: View insights from partner applications within Copilot for Sales.
-ms.date: 04/30/2025
+description: View insights from partner applications within the Sales app.
+ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-You can view records that are related to CRM records and activities that are related to CRM opportunities from partner applications within Copilot for Sales. To view related records and latest activities from partner applications, you must:
+You can view records that are related to CRM records and activities that are related to CRM opportunities from partner applications within the Sales app. To view related records and latest activities from partner applications, you must:
 
 1. Get the feature enabled, as it is not enabled by default.
 1. Create a connection using Power Platform connectors.
@@ -31,7 +31,7 @@ This feature is not enabled by default. To enable this feature, ask your adminis
 
 ## Create a connection
 
-After the feature is enabled, you see an action card in the Copilot for Sales pane in Outlook to create a connection with the partner application. For example, in the following image, the action card to sign in to the connector for the partner application **DocuSign** is displayed. Select **Sign in** to connect to the partner application. 
+After the feature is enabled, you see an action card in the **Sales** pane in Outlook to create a connection with the partner application. For example, in the following image, the action card to sign in to the connector for the partner application **DocuSign** is displayed. Select **Sign in** to connect to the partner application. 
 
 :::image type="content" source="media/action-card-connector.svg" alt-text="Screenshot showing action card to sign in to connector.":::
 
@@ -41,8 +41,8 @@ In the pop-up message in Outlook, select **Create** to create a connector for th
 
 > [!NOTE]
 > - If the connector uses Microsoft Entra ID for authentication, the connection is created automatically and you are not prompted to sign in.
-> - All Power Platform connectors are not certified to work with Copilot for Sales. Copilot for Sales displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
-> - If you are a partner application maker and would like to integrate with Copilot for Sales, see [Extend Copilot for Sales](extend-copilot-for-sales.md). Currently, DocuSign can be integrated with Copilot for Sales. 
+> - All Power Platform connectors are not certified to work with the Sales app. The Sales app displays activities from partner applications that have implemented specific APIs and made them available through their Power Platform connectors.
+> - If you are a partner application maker and would like to integrate with the Sales app, see [Extend the Sales app](extend-sales-app.md). Currently, DocuSign can be integrated with the Sales app. 
 
 ## View related records
 
@@ -53,7 +53,7 @@ Related records from partner applications are displayed in a new card under reco
 > [!NOTE]
 > Currently, related records from partner applications are shown only for opportunities and accounts.
 
-All the information about related records comes from the partner applications. Copilot for Sales renders the related record information retrieved from the partner application through the Power Platform connector. Copilot for Sales does not edit or filter the information.
+All the information about related records comes from the partner applications. The Sales app renders the related record information retrieved from the partner application through the Power Platform connector. The Sales app does not edit or filter the information.
 
 You can perform the following actions on the related records:
 - To see record details, select the record. 
@@ -65,6 +65,6 @@ Latest activities from partner applications are displayed under the **Latest act
 
 :::image type="content" source="media/latest-activities-partner-app.png" alt-text="Sceenshot showing latest activities from DocuSign.":::
 
-All the information about activities comes from the partner applications. Copilot for Sales renders the activity information retrieved from the partner application through the Power Platform connector. Copilot for Sales does not edit or filter the information.
+All the information about activities comes from the partner applications. The Sales app renders the activity information retrieved from the partner application through the Power Platform connector. The Sales app does not edit or filter the information.
 
 Activities are displayed with citation numbers. Select the citation number to drill down and see detailed information. To view more details in the partner application, select :::image type="icon" source="media/open-record.png" border="false"::: at the bottom-right of the card. 
