@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales in Microsoft 365 Copilot 
 description: Know how data is handled in Sales in Microsoft 365 Copilot 
-ms.date: 11/20/2025
+ms.date: 01/20/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -45,6 +45,10 @@ The Sales app data is stored in several tables in Dataverse. You shouldn't modif
 |**Lead Intelligence Insight**|This table contains insights by the Sales Agent about the leads found in the CRM.|
 
 Insights related to emails and meetings have a retention policy of 90 days, and will be deleted afterwards. If a customer requires custom retention policy, scripts can be created to delete the data from the table.
+
+## Additional Dataverse capacity
+
+Dataverse environments used to store Sales in Microsoft 365 Copilot data receive additional capacity entitlements: 3 MB of Database capacity and 3 MB of Log capacity per license.
 
 ## Delete the Sales app data
 
