@@ -26,7 +26,7 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 ## View a meeting preparation card
 
-For every upcoming sales meeting (a meeting with at least one external contact), the Sales app sends you a [streamlined notification card in Teams](meeting-prep.md#view-a-meeting-preparation-card) and in the [Sales agent chat interface](use-sales-chat.md).
+For every upcoming sales meeting (a meeting with at least one external contact), the Sales app sends you a notification card in the [Sales agent chat interface](use-sales-chat.md).
 
 [!INCLUDE [meeting-prep-include](includes/meeting-prep-include.md)]
 
