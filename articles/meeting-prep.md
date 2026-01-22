@@ -53,12 +53,7 @@ The meeting preparation card contains the following information:
 
     :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
 
-### Limitations
-
-- The meeting preparation card does not appear for recurring meetings.
-- The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after it's scheduled, no new card is generated.
-- Only past meetings have insights generated. Email insights are not included currently.
-- Meeting insights are linked only to one opportunity in CRM. 
+[!INCLUDE [meeting-prep-limit-req](includes/meeting-prep-limit-req.md)]
 
 ## How does the card work?
 

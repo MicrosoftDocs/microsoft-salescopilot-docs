@@ -46,10 +46,3 @@ The detailed meeting preparation view includes:
 > - Meeting preparation insights are generated automatically for all upcoming sales meetings.
 > - If you schedule a new meeting, it may take up to 20 minutes for insights to be generated and for the notification card to appear.
 > - Until insights are ready, meetings in the left panel are labelled as "insights not available". Once insights are available, the meeting entry updates to show the highlights.
-
-### Limitations
-
-- The meeting preparation card does not appear for recurring meetings.
-- The Sales app is automatically added to Teams meetings that include at least one external participant. This process may take a few minutes after the meeting is created and is required for the meeting to be recognized as a sales meeting. If you start and record the meeting before the Sales app has been added, the meeting will not be recognized as a sales meeting and no post-meeting follow-up notification will be generated.
-- Only past meetings have insights generated.
-- Meeting insights are linked only to one opportunity in CRM. 
