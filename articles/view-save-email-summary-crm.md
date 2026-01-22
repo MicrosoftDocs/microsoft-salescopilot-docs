@@ -53,8 +53,7 @@ You can add the summary to your CRM, share it to Teams, or copy it to the clipbo
 1. Open the **Sales** pane if it isn't already open. After a moment or two, the email summary is displayed in the **Key email info** card.
 
     > [!NOTE]
-    > - If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm.md). The email summary should appear a few moments later.
-    > - If you see the **Summarize email** button, select it to generate the email summary. This is because your admin has disabled automatic email summarization.
+    > If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm.md). The email summary should appear a few moments later.
 
 In the **Key email info** card, you can perform the following tasks:
 
