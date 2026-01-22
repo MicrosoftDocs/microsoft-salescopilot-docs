@@ -53,7 +53,7 @@ The meeting preparation card contains the following information:
 
     :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
 
-[!INCLUDE [meeting-prep-limit-req](includes/meeting-prep-limit-req.md)]
+[!INCLUDE [meeting-prep-limit](includes/meeting-prep-limit.md)]
 
 ## How does the card work?
 

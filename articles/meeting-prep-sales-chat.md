@@ -30,7 +30,7 @@ For every upcoming sales meeting (a meeting with at least one external contact),
 
 [!INCLUDE [meeting-prep-include](includes/meeting-prep-include.md)]
 
-[!INCLUDE [meeting-prep-limit-req](includes/meeting-prep-limit-req.md)]
+[!INCLUDE [meeting-prep-limit](includes/meeting-prep-limit.md)]
 
 ## Related information
 
