@@ -1,6 +1,6 @@
 ---
 title: Prepare for your Sales meetings in Microsoft 365 Copilot (preview)
-ms.date: 01/08/2026
+ms.date: 01/22/2026
 ms.reviewer: shjais
 description: Prepare for your sales meetings with confidence using Microsoft 365 Copilot. Access AI-driven insights, CRM data, and communication highlights in one view.
 ms.topic: how-to
