@@ -27,7 +27,7 @@ The meeting preparation card is displayed in your personal chat with the **Sales
 > [!IMPORTANT]
 > The meeting preparation card is displayed in the language set for your Microsoft 365 account. To change the language of the meeting preparation card to your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
 
-`image of new meeting prep card in Teams`
+:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot of the meeting preparation card.":::
 
 [!INCLUDE [meeting-prep-include](includes/meeting-prep-include.md)]
 
