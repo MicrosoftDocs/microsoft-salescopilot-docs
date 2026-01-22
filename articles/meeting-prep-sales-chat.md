@@ -15,8 +15,6 @@ ms.author: shjais
 
 The meeting preparation feature in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside [Sales agent chat interface](use-sales-chat.md), so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
 
-:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot of the meeting preparation card.":::
-
 > [!NOTE]
 > The meeting preparation feature is only available in the full-screen mode of Sales in Microsoft 365 Copilot Chat experience. It's not available when using Microsoft 365 Copilot Chat in Outlook, Word, PowerPoint, Excel, or Dynamics 365.
 
@@ -28,7 +26,9 @@ Specific licensing requirements apply when you use meeting preparation card Micr
 
 ## View a meeting preparation card
 
-For every upcoming sales meeting (a meeting with at least one external contact), the Sales app sends you a notification card in the [Sales agent chat interface](use-sales-chat.md).
+Under the chat box of the [Sales agent](use-sales-chat.md), you can see a list of upcoming sales meetings (a meeting with at least one external contact) scheduled in the next 24 hours.
+
+:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot of the meeting preparation card.":::
 
 [!INCLUDE [meeting-prep-include](includes/meeting-prep-include.md)]
 
