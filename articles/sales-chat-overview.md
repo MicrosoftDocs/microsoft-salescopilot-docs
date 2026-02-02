@@ -21,6 +21,10 @@ Traditional sales CRM systems are primarily designed to capture information and 
 
 As a seller, you can use natural language with the Sales agent to request the information you need. The system handles the complex task of identifying and compiling relevant data, making it easier and faster for sellers to access insights and take action.
 
+Here's a quick video overview of Sales agent:
+
+> [!VIDEO 5fe95b08-8e31-4b14-b016-a58614dc99bb]
+
 ## What can Sales agent help you with?
 
 You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
