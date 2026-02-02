@@ -1,7 +1,7 @@
 ---
 title: Let sellers use /mention to share a CRM record in Outlook
 description: Learn how to turn on the setting that lets sellers use the /mention feature to easily share a CRM record in Outlook.
-ms.date: 11/20/2025
+ms.date: 01/16/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Let sellers use /mention to share a CRM record in Outlook
 
-As an administrator, you can turn on a setting in the Sales app that lets sellers easily share a CRM record in Outlook. When **Quick-share records in Outlook** is turned on, sellers can type a forward slash (/) and select a record to share it as an adaptive card in an email. The adaptive card displays the record details, such as the record name, owner, and key fields. The adaptive card is kept up to date based on the data in your CRM system.
+As an administrator, you can turn on a setting in the Sales app that lets sellers easily share a CRM record in Outlook. When **Quick-share records in Outlook** is turned on, sellers can type a forward slash (/) and select a record to share a link to the record  in an email.
 
 By default, this feature is turned off. When this feature is enabled, the data about recently accessed records in the Sales app is copied to substrate and used by the /mention feature in Outlook.
 

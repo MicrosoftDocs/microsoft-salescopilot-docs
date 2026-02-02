@@ -215,7 +215,7 @@
       href: personal-app.md
     - name: View customer communication (preview)
       href: view-customer-communication.md
-    - name: Sales Agent (preview)
+    - name: Sales Agent - Lead Research (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
@@ -229,8 +229,6 @@
         href: sales-chat-overview.md
       - name: Use Sales agent
         href: use-sales-chat.md
-      - name: Prepare for Sales meetings
-        href: meeting-prep-sales-chat.md
 
 - name: Extend Sales in Microsoft 365 Copilot (preview)
   items:

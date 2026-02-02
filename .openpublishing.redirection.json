@@ -808,6 +808,11 @@
         "source_path": "articles/email-insights-settings.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                                                            
+      },
+      {
+        "source_path": "articles/meeting-prep-sales-chat.md",
+        "redirect_url": "/microsoft-sales-copilot/use-sales-chat#prepare-for-your-sales-meetings",
+        "redirect_document_id": false
+      }                                                                              
   ]
 }
