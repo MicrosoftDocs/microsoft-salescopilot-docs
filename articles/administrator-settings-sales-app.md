@@ -52,7 +52,7 @@ You can access the administrator settings in the Sales app in Outlook and Teams.
       - **Access settings**: [Enable or disable features in the Sales app](access-settings.md).
       - **Save to (CRM)**: [Configure fields that sellers can use to categorize emails and meetings in CRM](save-additional-details-outlook.md).
       - **Forms**: [Determine what information is displayed in the Sales app in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales app.
-      - **Custom AI instructions**: [Customize the AI instructions for generating the account summary](set-up-sales-chat.md#step-4-configure-account-summary)
+      - **Custom AI instructions**: [Customize the AI instructions for generating the account summary](set-up-sales-chat.md#step-3-configure-account-summary)
     
     **Features**:
       - **Sales Agent - Lead research**: [Set up the Sales Agent - Lead research feature](set-up-sales-agent.md).
