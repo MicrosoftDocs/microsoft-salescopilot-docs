@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using the Sales app.
-ms.date: 11/20/2025
+ms.date: 01/16/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -96,13 +96,14 @@ Your administrator needs to [turn on this feature](share-crm-record-admin.md) be
 
 1. Select a record from the list or search for a record by entering the first few letters of the record name.
 
+    > [!NOTE]
+    > Only records that you have recently accessed in the Sales app are displayed or can be searched.
+
 1. Select the record from the search results.
 
     :::image type="content" source="media/mentions-outlook-search.png" alt-text="Screenshot showing the Sales app search in Outlook.":::
 
-    The adaptive card is added to the email.
-
-    :::image type="content" source="media/mentions-outlook-adaptive-card.png" alt-text="Screenshot showing the adaptive card added in Outlook email.":::
+    The record link is added to the email.
 
 ## Share a record using advanced search
 

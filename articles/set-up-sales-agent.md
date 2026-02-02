@@ -26,8 +26,15 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 - You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
 - [Sales Agent must be turned on in Access settings](access-settings.md#sales-agent---lead-research-preview).
+- Dataverse Search must be set to "Default" or "On" for the environment. [Know what this means for generative AI experiences](/power-platform/admin/configure-relevance-search-organization#what-dataverse-search-means-for-generative-ai-enabled-experiences).
 - The Dataverse environment connected to the Sales app is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales app environment.
+
+
+> [NOTE!]
+> - Sales Agent relies on Dataverse Search indexes. Enabling this feature may increase your environment's Dataverse capacity consumption. [Know more about Dataverse search](/power-apps/user/relevance-search-benefits#what-actions-can-makers-or-admins-take-to-manage-dataverse-search-efficiently)
+> - Sufficient Dataverse database capacity must be available to support indexing, semantic search, and Copilot operations. [Learn more about how to varify your environment's Dataverse capacity.](/power-platform/admin/capacity-storage#capacity-page-details)
+
 
 ### Additional prerequisites for Salesforce
 
