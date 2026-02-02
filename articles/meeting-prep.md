@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 11/20/2025
+ms.date: 01/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -11,13 +11,12 @@ ms.custom: CXT
 
 # Meeting preparation card
 
-The meeting preparation card provides the latest information and out-of-the-box insights about the opportunities derived from your past customer interactions such as emails and meetings as well as CRM. This card helps you stay informed and prepared before walking into a customer meeting. It shows general information about the meeting, opportunity info, recent communication and strategic insights. You can use this information to prepare for the upcoming meeting accordingly and have a productive discussion.
+The meeting preparation card helps you prepare for upcoming customer meetings directly in Microsoft Teams. This AI-powered tool provides a concise snapshot of essential meeting details and insights without disrupting their workflow.
 
-:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
+The card draws on insights from your personal activity and your team's collective knowledge, giving you quick access to the information you need. This enables you to walk into every meeting informed, confident, and ready to drive meaningful outcomes.
 
 ## Prerequisites
 
-- [Connect to a CRM organization in the Sales app](sign-in-crm-outlook.md).
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
 
@@ -26,8 +25,66 @@ The meeting preparation card provides the latest information and out-of-the-box 
 The meeting preparation card is displayed in your personal chat with the **Sales** bot or in the **Chat** tab of the Sales personal app in Teams. The meeting preparation card is sent at a time that is [configured by your administrator](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications). By default, the meeting preparation card is sent one hour before the meeting. If you schedule the meeting less than an hour before the start time, the card appears soon after you send the meeting invite. 
 
 > [!IMPORTANT]
-> - The meeting preparation card is displayed in the language set for your Microsoft 365 account. To change the language of the meeting preparation card to your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
-> - Based on the license you have, the **Prepare with insights** button is displayed on the card. When you select this button, it opens the meeting preparation details alongside [Sales agent chat interface](meeting-prep-sales-chat.md). If you don't see the button, proceed further to view the meeting preparation details in Teams.
+> The meeting preparation card is displayed in the language set for your Microsoft 365 account. To change the language of the meeting preparation card to your preferred language, change the display language in your [Microsoft account settings](https://myaccount.microsoft.com/settingsandprivacy/language).
+
+:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot of the meeting preparation card.":::
+
+The meeting preparation card contains the following information:
+
+- **Meeting title**: The subject of the meeting as specified in the meeting invite. It is a clickable link that opens the meeting in calendar.
+- **Meeting date and time**: The scheduled date and time of the meeting.
+- **Highlights**: Below the meeting details, the card displays up to three high-value AI highlights to help you prepare more effectively. These highlights are dynamically generated based on:
+    - Previous meetings and emails with the customer.
+    - Insights contributed by other sellers on the same account.
+    - CRM-linked context such as contacts, opportunities, and account activity.
+    - The inferred sales stage and meeting intent.
+
+    Highlights may include:
+    - Key discussion themes or priorities from recent customer interactions.
+    - Risks, objections, or open questions to be aware of before the meeting.
+    - Notable stakeholders or decision-makers involved in recent communications.
+    
+    Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds.
+- **Prepare with insights**: A button that opens the [detailed meeting preparation view](#detailed-meeting-preparation-view) alongside [Sales agent chat interface](use-sales-chat.md). This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
+
+### Detailed meeting preparation view
+
+The detailed meeting preparation view includes:
+
+- **Meeting information**: View the meeting title, time, and a direct link to open the meeting in calendar.
+- **Highlights**: This section offers more detailed information on the topics featured in the meeting card. Each highlight includes relevant context and recommends actions tailored to your upcoming meeting.
+- **CRM record summary**: This section is displayed only if the meeting is linked to a CRM record such as an opportunity or account. It shows AI-generated summary of the record. Note that meeting can only be linked to a CRM record from the **Sales** pane in Outlook.
+- **Customer communication**: This section is displayed only if the meeting is connected to an opportunity. It shows insights from recent emails and meetings related to the linked CRM record. It may include insights from conversations organized by other team members for the same record, providing a complete view of past customer interactions. Note that insights are displayed only if enabled by your administrator. Learn more about the [Customer communication card](view-customer-communication.md).
+- **AI-generated insights**: This section provides in-depth, AI-driven context to help you prepare for your meeting. It includes:
+    - **Meeting overview**: A summary of the meeting's purpose.
+    - **Company overview**: AI-generated highlights about the company. If no CRM record is linked, AI uses the domains of external attendees to infer the company. If there are multiple domains, AI selects the best match.
+    - **External attendees**: AI-enriched details about external participants, based on their email domains (not just CRM contacts).
+    - **Talking points**: Tailored to your role (for example, seller or executive), and may include:
+      - Strategic themes
+      - Icebreaker questions
+      - Discovery questions
+      - Potential use cases
+      - Likely objections
+    - **Communication highlights (optional)**: An AI summary of previous team discussions, such as:
+      - What's going well
+      - What are the risks
+      - What's happening next
+
+    You can configure the view to show insights either in a card-based format or as a list. Select **View** and then choose **Card** or **All in one**.
+
+:::image type="content" source="media/sales-chat-meeting-prep-full.png" alt-text="Screenshot of the full meeting preparation view.":::
+
+> [!NOTE]
+> - On the left side, just below the Sales agent chat input box, you'll see a list of your upcoming meetings scheduled within the next 24 hours.
+> - Meeting preparation insights are generated automatically for all upcoming sales meetings.
+> - If you schedule a new meeting, it may take up to 15 minutes for insights to be generated and for the notification to appear.
+> - Until insights are ready, meetings in the left panel are labelled as "Insights not available". Once insights are available, the meeting entry updates to show the highlights.
+
+## Alternate version of the meeting preparation card
+
+Based on the license you have, you might see the below version of the meeting preparation card. 
+
+:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
 
 The meeting preparation card contains the following information: 
 
@@ -44,6 +101,24 @@ The meeting preparation card contains the following information:
 - **Strategic insights**: Shows key contacts of the opportunity in CRM among the meeting participants, key risks identified and their summary from all past interactions, and the next follow-up action items agreed with the customer. This section is displayed only if the AI-generated insights are available. 
 
     :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
+
+## Meeting requirements for preparation cards
+
+To generate a meeting preparation card, the meeting must meet the following requirements:
+
+- Has at least one internal participant and no more than 29 internal participants
+- Isn't canceled
+- Isn't marked as private
+- Isn't an all-day event
+- Isn't a recurring meeting
+- Is scheduled for a future date and time
+
+## Limitations
+
+- The Sales app is automatically added to Teams meetings that include at least one external participant. This process might take a few minutes after the meeting is created and is required for the meeting to be recognized as a sales meeting. If you start and record the meeting before the Sales app is added, the meeting isn't recognized as a sales meeting and no post-meeting follow-up notification is generated.
+- Only past meetings have insights generated. Email insights aren't included currently.
+- Meeting insights are linked only to one opportunity in CRM. 
+- The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after scheduling it, no new card is generated.
 
 ## How does the card work?
 
@@ -67,13 +142,6 @@ It might happen that appropriate data is not available to generate the required 
 - When the meeting participant is not a CRM contact, the card displays:
     - General information about the meeting
     - Up to 10 recent emails or meetings with the participant
-
-## Limitations
-
-- The meeting preparation card does not appear for recurring meetings.
-- The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after it's scheduled, no new card is generated.
-- Only past meetings have insights generated. Email insights are not included currently.
-- Meeting insights are linked only to one opportunity in CRM. 
 
 ## Data storage and retention
 
