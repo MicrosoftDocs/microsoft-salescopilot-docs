@@ -32,7 +32,7 @@ As an admin, you can set up Sales Agent to connect to your CRM and enable it for
 
 
 > [NOTE!]
-> - Sales agent relies on Dataverse Search indexes. Enabling this feature may increase your environment's Dataverse capacity consumption. [Know more about Dataverse search](/power-apps/user/relevance-search-benefits#what-actions-can-makers-or-admins-take-to-manage-dataverse-search-efficiently)
+> - Sales Agent relies on Dataverse Search indexes. Enabling this feature may increase your environment's Dataverse capacity consumption. [Know more about Dataverse search](/power-apps/user/relevance-search-benefits#what-actions-can-makers-or-admins-take-to-manage-dataverse-search-efficiently)
 > - Sufficient Dataverse database capacity must be available to support indexing, semantic search, and Copilot operations. [Learn more about how to varify your environment's Dataverse capacity.](/power-platform/admin/capacity-storage#capacity-page-details)
 
 
