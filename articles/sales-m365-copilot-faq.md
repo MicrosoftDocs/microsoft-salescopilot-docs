@@ -366,7 +366,7 @@ Contact your CRM administrator to request that CRM access be set up for Sales ag
 
 #### Why does Sales agent say that account summary wasn't found?
 
-Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account summary feature](set-up-sales-chat.md#step-4-configure-account-summary).
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account summary feature](set-up-sales-chat.md#step-3-configure-account-summary).
 
 Reach out to your CRM administrator to have account summary set up for use with Sales agent.
 
