@@ -24,13 +24,13 @@ As an administrator, you can install the Sales app as an integrated app from Mic
 
     :::image type="content" source="media/get-apps-admin-center.svg" alt-text="Screenshot showing Get apps button in Microsoft 365 admin center.":::
 
-    Microsoft AppSource opens in an embedded window.  
-1. In the **AppSource** window, search for **Sales**.  
+    Microsoft Marketplace opens in an embedded window.  
+1. In the **Marketplace** window, search for **Sales**.  
 1. In the search results, on the **Sales** card, select **Get it now**.  
 
     :::image type="content" source="media/get-enhanced-app.png" alt-text="Screenshot showing Sales enhanced app in Microsoft 365 admin center.":::
 
-    The AppSource window closes. You'll complete the remaining steps in the Microsoft 365 admin center.  
+    The Marketplace window closes. You'll complete the remaining steps in the Microsoft 365 admin center.  
 1. In the **Configuration** step, select **Next**.  
 
     :::image type="content" source="media/apps-to-deploy.png" alt-text="Screenshot showing apps to deploy.":::
@@ -70,7 +70,7 @@ The **Sales** panel opens with the following tabs:
 
 ## User-deployed app installation
 
-End users can install the Outlook add-in and Teams app from within Microsoft AppSource in Outlook or Teams respectively, as long as they aren't explicitly blocked by the administrator.  
+End users can install the Outlook add-in and Teams app from within Microsoft Marketplace in Outlook or Teams respectively, as long as they aren't explicitly blocked by the administrator.  
 
 If end users install the Outlook add-in, it's considered user-deployed instead of admin-deployed and will not have full feature support. User-deployed apps don't support the Sales app banner notifications that appear within the top of new or reply emails. Also, the Sales app is not added automatically to meeting invites. However, sellers can manually add the Sales app to the meeting to get meeting summaries.
 
