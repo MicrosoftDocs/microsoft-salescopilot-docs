@@ -42,7 +42,7 @@ Microsoft 365 Copilot isn't currently available in local region geographies. Ref
 
 ### Will Sales in Microsoft 365 Copilot be available for US GCC, GCC High, or DoD?  
 
-Currently, Sales in Microsoft 365 Copilot isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud.
+Currently, Sales in Microsoft 365 Copilot isn't supported in US GCC, GCC High, or DoD or any other Sovereign cloud.
 
 ## Skilling
 
