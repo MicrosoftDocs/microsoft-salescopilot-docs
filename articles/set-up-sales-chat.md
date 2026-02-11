@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
-ms.date: 02/02/2026
+ms.date: 02/11/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -28,7 +28,7 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 - You have access to environment-level settings in the [administrator settings for Sales in Microsoft 365 Copilot](administrator-settings-sales-app.md).
 - [Sales Chat must be turned on in Access settings.](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
 - The Sales app must be connected to a CRM system.
-- [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md)
+- [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md) If you are a Salesforce admin, you must assign the security role in the msdyn_viva environment.
 
 ## Step 1: Configure CRM record types (tables)
 

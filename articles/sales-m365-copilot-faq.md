@@ -1,7 +1,7 @@
 ---
 title: Sales in Microsoft 365 Copilot FAQ
 description: Sales in Microsoft 365 Copilot Frequently Asked Questions
-ms.date: 12/12/2025
+ms.date: 02/11/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -42,7 +42,7 @@ Microsoft 365 Copilot isn't currently available in local region geographies. Ref
 
 ### Will Sales in Microsoft 365 Copilot be available for US GCC, GCC High, or DoD?  
 
-Currently, Sales in Microsoft 365 Copilot isn't supported under US GCC, GCC High, or DoD or any other Sovereign cloud. Microsoft 365 Copilot is expected to begin rollout in GCC later in 2024. We plan to share more on availability for GCC High and DoD through the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) in early 2024.
+Currently, Sales in Microsoft 365 Copilot isn't supported in US GCC, GCC High, or DoD or any other Sovereign cloud.
 
 ## Skilling
 
