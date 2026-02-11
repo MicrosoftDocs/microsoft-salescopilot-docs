@@ -1,7 +1,7 @@
 ---
 title: Sales in Microsoft 365 Copilot FAQ
 description: Sales in Microsoft 365 Copilot Frequently Asked Questions
-ms.date: 12/12/2025
+ms.date: 02/11/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
