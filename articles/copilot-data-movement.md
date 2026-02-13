@@ -21,7 +21,7 @@ When you use copilots and generative AI features, your inputs (prompts) and outp
 Effective February 21, 2024, new customers connecting the Sales app to their Dynamics 365 environment, the following table describes when and how data can move across regions for copilots and generative AI features.
 
 > [!IMPORTANT]
-> If you've connected the Sales app to your Salesforce environment, consent for data movement across regions is required regardless of the region where your CRM environment is hosted.  
+> If you've connected the Sales app to your Salesforce environment, consent for data movement across regions is required regardless of the region where your CRM environment is hosted.
 
 | Region where your CRM environment is hosted | Consent required for data movement across regions? | How to allow data to move across regions|
 |-------------------|-------------------|-------------------|
