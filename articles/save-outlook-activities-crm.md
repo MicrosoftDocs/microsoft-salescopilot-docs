@@ -97,7 +97,7 @@ After you save an email or meeting to your CRM, you can open it from the **Email
 1. Open the email or meeting, and then open the Sales app.
 1. On the **Email from** or the meeting title card, select **More actions** (**&hellip;**) > **Open in (CRM)**.
 
-:::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::
+    :::image type="content" source="media/open-email-crm.png" alt-text="Screenshot of the Open in (CRM) option in the More actions menu.":::
 
 ## Edit activities saved to Dynamics 365
 
