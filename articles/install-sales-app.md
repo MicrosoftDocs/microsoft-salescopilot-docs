@@ -56,7 +56,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 
 #### Difference between Sales app and Dynamics 365 app for Outlook
 
-| Capability | the Sales app | Dynamics 365 app for Outlook |
+| Capability | Sales app | Dynamics 365 app for Outlook |
 |------------|---------------|------------------------------|
 | **Work in Outlook**        |               |              | 
 | Intelligent context-aware email content suggestions with Copilot  | Supported    | Not supported          |
