@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
-ms.date: 02/11/2026
+ms.date: 02/16/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -39,6 +39,9 @@ By default, the Sales agent includes a predefined list of record types. You can 
 > [!NOTE]
 > - You can customize the list of record types in Sales agent settings independently without affecting Forms settings.
 > - For Dynamics 365, if you've set up Sales agent before January 2026 and added record types in Forms settings, those record types will be available in Sales agent by default.
+
+> [!IMPORTANT]
+> To initialize the Sales agent and set up the connection to your CRM, you must open the **Sales Chat** settings page at least once from the [Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings). When you load the page for the first time, it triggers the initialization process and loads the supported entities for use in the Sales agent. Without this step, the initialization can't be triggered automatically.
 
 ### Default record types
 
