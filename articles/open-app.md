@@ -1,7 +1,7 @@
 ---
 title: Access Sales app
 description: Learn how to access the Sales app in Outlook and Teams.
-ms.date: 11/20/2025
+ms.date: 02/11/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -24,9 +24,11 @@ You can access the Sales app using any of the following options:
 
 - While drafting an email or creating a meeting  
 
-    - Select **Sales** on the ribbon or **All Apps** > **Sales** (in Classic ribbon)  
+    - In Classic ribbon, do one of the following actions:  
+        - Select **Sales** on the ribbon.  
+        - Select **All Apps** > **Sales**. In the pop-up, select **Sales**. To add a CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity. 
 
-        :::image type="content" source="media/access-app-desktop.svg" alt-text="Screenshot showing accessing the app from Outlook desktop.":::
+        :::image type="content" source="media/outlook-classic-access-app-draft-email.png" alt-text="Screenshot showing accessing the Sales app from Outlook desktop while drafting an email.":::
 
     - Select **More commands** (**...**) and then select **Sales** (in Simplified ribbon)  
     - Select **Show contact** or **Add contact** in the banner message (for emails)  
@@ -34,27 +36,19 @@ You can access the Sales app using any of the following options:
 
 - While reading an email or opening a meeting
 
-    - In **Classic** ribbon, do one of the following actions:  
-        - Select **Sales** on the ribbon.  
-        - Select **All Apps** > **Sales**. In the pop-up, select **Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity.  
+    -  In Classic ribbon: Select **Sales** on the ribbon or **All Apps** > **Sales**.
 
-        :::image type="content" source="media/access-app-desktop-read-email.svg" alt-text="Screenshot showing accessing the app from Outlook desktop while reading an email.":::
+        :::image type="content" source="media/outlook-classic-access-app-read-email.png" alt-text="Screenshot showing accessing the Sales app from Outlook desktop while reading an email.":::
 
-    - In Simplified ribbon: Select **More commands** (**...**) and then select **Sales**.  
+    - In Simplified ribbon: Select **More commands** (**...**) and then select **Sales**. Alternatively, you can also select **All Apps** > **Sales**.
 
 ### New Outlook desktop and Outlook on the web
 
-On the ribbon, select the down arrow on the **Copilot** icon, and then select **Sales**.
-
-:::image type="content" source="media/access-app-new-outlook.png" alt-text="Screenshot showing accessing the app from New Outlook desktop.":::
-
-To know how to access the app while drafting an email, reading an email, or creating a meeting, see the following sections.
-
 - While drafting an email
 
-    - On the ribbon, select **Apps** > **Sales**. In the pop-up, select **Sales**. To add an CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity.
+    - On the ribbon, select **Sales**. Alternatively, you can also select **Apps** > **Sales**. In the pop-up, select **Sales**. To add a CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity.
     
-        :::image type="content" source="media/access-app-web.svg" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
+        :::image type="content" source="media/access-app-web.png" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
 
     > [!NOTE]
     > If the Sales app is admin-deployed, the app is automatically pinned to the ribbon.  
@@ -64,14 +58,14 @@ To know how to access the app while drafting an email, reading an email, or crea
 
 - While reading an email
 
-    - On the email action bar, select **Apps** > **Sales**.
+    - On the email action bar, select **Sales**. If the Sales app is not visible, select **More apps** > **Sales**.
 
-        :::image type="content" source="media/access-app-web-read-email.svg" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
+        :::image type="content" source="media/access-app-web-read-email.png" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
 
     > [!NOTE]
     > If the Sales app is admin-deployed, the app is automatically pinned to the email action bar.
 
-- While creating or opening a meeting, select **Sales** on the ribbon.
+- While creating or opening a meeting, select **Apps** > **Sales** on the ribbon.
 
 ### Email banners in Outlook
 
