@@ -1,7 +1,7 @@
 ---
 title: Sales app data movement across geographies
 description: Learn why you need to opt in to allow Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
-ms.date: 11/20/2025
+ms.date: 02/18/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,9 +16,12 @@ You need to opt in to allow your data to move outside of your region to an Azure
 
 ## How data movement across regions works
 
-When you use copilots and generative AI features, your inputs (prompts) and outputs (results) might move outside of your region to the location where the Azure OpenAI Service endpoint that supports these features is hosted. We might store prompt and output data for up to 30 days to [monitor for abuse](/azure/ai-services/openai/concepts/abuse-monitoring), but we don't look at it unless our automated systems flag it for review.
+When you use copilots and generative AI features, your inputs (prompts) and outputs (results) might move outside of your region to the location where the Azure OpenAI Service endpoint that supports these features is hosted.
 
-Effective February 21, 2024, for new customers, the following table describes when and how data can move across regions for copilots and generative AI features.
+Effective February 21, 2024, for new customers who connect the Sales app to their Dynamics 365 environment, the following table explains when and how data for copilots and generative AI features can move across regions.
+
+> [!IMPORTANT]
+> If you've connected the Sales app to your Salesforce environment, consent for data movement across regions is required regardless of the region where your CRM environment is hosted.
 
 | Region where your CRM environment is hosted | Consent required for data movement across regions? | How to allow data to move across regions|
 |-------------------|-------------------|-------------------|
