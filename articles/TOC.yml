@@ -15,7 +15,7 @@
     href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
-  - name: Mobile support (preview)
+  - name: Mobile support
     href: mobile-support.md
   - name: Privileges required for Sales app
     href: privileges.md
