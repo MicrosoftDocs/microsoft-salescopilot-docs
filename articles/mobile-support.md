@@ -1,7 +1,7 @@
 ---
-title: Mobile support for Sales in Microsoft 365 Copilot (preview)
+title: Mobile support for Sales in Microsoft 365 Copilot
 description: Learn about the mobile support for Sales in Microsoft 365 Copilot on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
-ms.date: 11/20/2025
+ms.date: 02/20/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -9,16 +9,9 @@ ms.author: shjais
 ms.custom: CXT
 ---
 
-# Mobile support for Sales in Microsoft 365 Copilot (preview)
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Mobile support for Sales in Microsoft 365 Copilot
 
 Sales in Microsoft 365 Copilot is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Sales in Microsoft 365 Copilot aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
-
-> [!NOTE]
-> During the preview, if the Sales app was deployed to your organization before mobile support, you must redeploy the app from the Microsoft 365 admin center. In the admin center, find the existing Sales integrated app and remove it. Then redeploy the app by following the instructions in the [Install the Sales app](install-sales-app.md) article.
 
 ## Outlook experience
 
