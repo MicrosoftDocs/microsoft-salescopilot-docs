@@ -1,7 +1,7 @@
 ---
 title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Sales in Microsoft 365 Copilot in Outlook to enrich email summaries with sales information from your CRM.
-ms.date: 11/20/2025
+ms.date: 02/23/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -29,8 +29,11 @@ Email summaries are available when:
 
 - [Copilot AI features must be turned on in your environment](suggested-replies.md)
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
-- You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
 - The Sales app must be installed by your admin.
+- You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
+
+> [!NOTE]
+> If you use Classic Outlook for Windows, you'll see the email summary in the **Sales** pane in Outlook in the **Key email info** card.
 
 ## Anatomy of an email summary
 
@@ -46,6 +49,9 @@ Legend:
 1. Copy the summary to the clipboard
 1. View the summary source
 1. Share feedback on the email summary
+
+> [!NOTE]
+> The capabilities to save the email summary to your CRM and share it to Teams are not available when viewing the summary in the **Summary by Copilot** box.
 
 ## View an email summary
 
