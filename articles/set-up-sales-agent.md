@@ -217,3 +217,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Sales Agent with Salesforce](set-up-sales-agent-salesforce.md)
 - [Turn on Sales Agent](access-settings.md#sales-agent---lead-research-preview)
+- [Use the Sales Development agent](/microsoft-agent-365/use)
