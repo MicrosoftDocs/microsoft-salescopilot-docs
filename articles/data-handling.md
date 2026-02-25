@@ -1,6 +1,6 @@
 ---
-title: Data handling in Sales in Microsoft 365 Copilot 
-description: Know how data is handled in Sales in Microsoft 365 Copilot 
+title: Data handling in Sales agent 
+description: Know how data is handled in Sales agent 
 ms.date: 01/20/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -10,9 +10,9 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Data handling in Sales in Microsoft 365 Copilot
+# Data handling in Sales agent
 
-This article gives you an overview of how data is handled in Sales in Microsoft 365 Copilot.
+This article gives you an overview of how data is handled in Sales agent.
 
 The Sales app is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/) and data is stored in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in addition to the connected CRM.
 
@@ -48,7 +48,7 @@ Insights related to emails and meetings have a retention policy of 90 days, and 
 
 ## Additional Dataverse capacity
 
-Dataverse environments used to store Sales in Microsoft 365 Copilot data receive additional capacity entitlements: 3 MB of Database capacity and 3 MB of Log capacity per license.
+Dataverse environments used to store Sales agent data receive additional capacity entitlements: 3 MB of Database capacity and 3 MB of Log capacity per license.
 
 ## Delete the Sales app data
 
@@ -56,5 +56,5 @@ If you need to delete the Sales app data (for example, delete data for a specifi
 
 ### Related information
 
-[Introduction to Sales in Microsoft 365 Copilot](introduction.md)<br>
+[Introduction to Sales agent](introduction.md)<br>
 [Install the Sales app](install-sales-app.md)

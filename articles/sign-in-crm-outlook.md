@@ -19,7 +19,7 @@ After you [open the Sales app in Outlook](open-app.md#access-sales-app-in-outloo
 
 ## Automatically sign in
 
-If you have any Dynamics 365 environment (production or non-production) that has Sales in Microsoft 365 Copilot, you're signed in automatically to your environment the first time you open the Sales app. The environment you're signed in to is selected per the following rules:
+If you have any Dynamics 365 environment (production or non-production) that has Sales agent, you're signed in automatically to your environment the first time you open the Sales app. The environment you're signed in to is selected per the following rules:
 
 
 |Scenario  |Auto sign-in rule  |You'll see  |
@@ -30,7 +30,7 @@ If you have any Dynamics 365 environment (production or non-production) that has
 |Multiple non-production environments but no production environment     |  Signed in to the first non-production environment       |  Dialog box to confirm or change the signed in environment       |
 
 > [!NOTE]
-> The Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales app fetches a list of environments having Sales in Microsoft 365 Copilot, and then selects the first environment in the list to automatically sign in to.
+> The Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales app fetches a list of environments having Sales agent, and then selects the first environment in the list to automatically sign in to.
 
 ### Single environment or single production environment
 

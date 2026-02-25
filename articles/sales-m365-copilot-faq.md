@@ -1,6 +1,6 @@
 ---
-title: Sales in Microsoft 365 Copilot FAQ
-description: Sales in Microsoft 365 Copilot Frequently Asked Questions
+title: Sales agent FAQ
+description: Sales agent Frequently Asked Questions
 ms.date: 02/11/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
@@ -9,46 +9,46 @@ ms.author: shjais
 ms.custom: sfi-image-nochange
 ---
 
-#  Sales in Microsoft 365 Copilot FAQ
+#  Sales agent FAQ
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly.
 
 
 ## General
 
-### What is Sales in Microsoft 365 Copilot?  
+### What is Sales agent?  
 
-Sales in Microsoft 365 Copilot brings together the power of Microsoft 365 Copilot with seller workflows. Sales in Microsoft 365 Copilot leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Sales in Microsoft 365 Copilot helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
+Sales agent brings together the power of Microsoft 365 Copilot with seller workflows. Sales agent leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Sales agent helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
 
-Some of the new innovations enabled in Sales in Microsoft 365 Copilot include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales in Microsoft 365 Copilot role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
+Some of the new innovations enabled in Sales agent include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales agent role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
 
-### How does Sales in Microsoft 365 Copilot work?
+### How does Sales agent work?
 
-Sales in Microsoft 365 Copilot uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Sales in Microsoft 365 Copilot](https://www.microsoft.com/ai/microsoft-sales-copilot).
+Sales agent uses an Outlook add-in and a Teams app to bring the context of your CRM into your sellers' workflows. [Learn more about Sales agent](https://www.microsoft.com/ai/microsoft-sales-copilot).
 
-### Is Sales in Microsoft 365 Copilot safe and secure?
+### Is Sales agent safe and secure?
 
-Sales in Microsoft 365 Copilot is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy, and Compliance](#security-privacy-and-compliance) for more information.
+Sales agent is a certified Microsoft app. That means it meets our rigorous security and compliance standards. See [Security, Privacy, and Compliance](#security-privacy-and-compliance) for more information.
 
-Get information about license requirements, role requirements, and region availability in [Introduction to Sales in Microsoft 365 Copilot](introduction.md).
+Get information about license requirements, role requirements, and region availability in [Introduction to Sales agent](introduction.md).
 
 ## Availability
 
-### What geographies will Sales in Microsoft 365 Copilot support?   
+### What geographies will Sales agent support?   
 
 For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
-### Will Sales in Microsoft 365 Copilot be available for US GCC, GCC High, or DoD?  
+### Will Sales agent be available for US GCC, GCC High, or DoD?  
 
-Currently, Sales in Microsoft 365 Copilot isn't supported in US GCC, GCC High, or DoD or any other Sovereign cloud.
+Currently, Sales agent isn't supported in US GCC, GCC High, or DoD or any other Sovereign cloud.
 
 ## Skilling
 
-### How can I get certified in Sales in Microsoft 365 Copilot? 
+### How can I get certified in Sales agent? 
 
-There currently aren't any certifications for Sales in Microsoft 365 Copilot, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
+There currently aren't any certifications for Sales agent, but all Microsoft’s learning content is in the process of being refreshed with additional Copilot features. You'll first see technical skilling content on Microsoft Learn.
 
 ## Functionality
 
@@ -65,24 +65,24 @@ Next, the enriched prompt is sent to an appropriate LLM (large language model). 
 Then, Copilot returns this recommended response to the business user via a command back to the application who then assesses before choosing to use it. 
 
 
-### Who can install Sales in Microsoft 365 Copilot?
+### Who can install Sales agent?
 
-Microsoft 365 administrators can install Sales in Microsoft 365 Copilot and assign users/security groups to use it.
+Microsoft 365 administrators can install Sales agent and assign users/security groups to use it.
 
-### Does Sales in Microsoft 365 Copilot require CRM connectivity?
+### Does Sales agent require CRM connectivity?
 
-Yes, Sales in Microsoft 365 Copilot requires connectivity to a CRM.
+Yes, Sales agent requires connectivity to a CRM.
 
-### Which CRMs work with Sales in Microsoft 365 Copilot?
+### Which CRMs work with Sales agent?
 
-Currently, Sales in Microsoft 365 Copilot is compatible with Dynamics 365 Sales and Salesforce Sales Cloud.
+Currently, Sales agent is compatible with Dynamics 365 Sales and Salesforce Sales Cloud.
 
 > [!NOTE]
 > Salesforce Sales Cloud is a trademark of Salesforce, Inc.
 
-### What privileges are required to use Sales in Microsoft 365 Copilot?
+### What privileges are required to use Sales agent?
 
-Sales in Microsoft 365 Copilot applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales app](privileges.md).
+Sales agent applies your organization's existing CRM access controls and user permissions. More information: [Privileges required to use Sales app](privileges.md).
 
 ### I don't see an email summary when opening an email conversation.
 
@@ -100,32 +100,32 @@ The **Summarize a sales meeting** button isn't available in the following scenar
 
 For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
 
-### Which Salesforce Sales Cloud editions are supported by Sales in Microsoft 365 Copilot?
+### Which Salesforce Sales Cloud editions are supported by Sales agent?
 
-Sales in Microsoft 365 Copilot works with Salesforce Sales Cloud editions Professional and above.
+Sales agent works with Salesforce Sales Cloud editions Professional and above.
 
 > [!NOTE]
 > Salesforce Sales Cloud is a trademark of Salesforce, Inc.
 
-### Is Sales in Microsoft 365 Copilot available for Dynamics 365 or Microsoft Exchange on premise?
+### Is Sales agent available for Dynamics 365 or Microsoft Exchange on premise?
 
-Sales in Microsoft 365 Copilot isn't available for Dynamics 365 or Microsoft Exchange on premise.
+Sales agent isn't available for Dynamics 365 or Microsoft Exchange on premise.
 
-### Does Sales in Microsoft 365 Copilot work for Power Apps or Dataverse customers without Dynamics 365 licenses?
+### Does Sales agent work for Power Apps or Dataverse customers without Dynamics 365 licenses?
 
-Sales in Microsoft 365 Copilot works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
+Sales agent works for Microsoft 365 customers with an eligible license and a CRM (Dynamics 365 or Salesforce).
 
-### Does Sales in Microsoft 365 Copilot work in incognito mode?
+### Does Sales agent work in incognito mode?
 
-When you use the Sales in Microsoft 365 Copilot app in incognito mode or you have disabled third-party cookies, the following message is displayed:
+When you use the Sales agent app in incognito mode or you have disabled third-party cookies, the following message is displayed:
 
 :::image type="content" source="media/incognito.png" alt-text="Screenshot showing message in incognito mode.":::
 
 When you search for a record in the **Sales** pane in Outlook, the record type filter might not work properly.
 
-This is normal behavior. The reason for this is that Sales in Microsoft 365 Copilot uses cookies to save data to local storage. In incognito mode or when third-party cookies are disabled, access to local storage is blocked.
+This is normal behavior. The reason for this is that Sales agent uses cookies to save data to local storage. In incognito mode or when third-party cookies are disabled, access to local storage is blocked.
 
-To get full benefit of all features in Sales in Microsoft 365 Copilot, browse in normal mode and allow Microsoft domain in third-party cookie settings.
+To get full benefit of all features in Sales agent, browse in normal mode and allow Microsoft domain in third-party cookie settings.
 
 For information about how to allow third-party cookies, see:
 
@@ -147,7 +147,7 @@ You can add the Sales app manually to a Teams meeting to test it internally befo
 
     :::image type="content" source="media/add-during-meeting.png" alt-text="Screenshot showing add the Sales app during meeting.":::
 
-### What's the minimum version of Outlook required for Sales in Microsoft 365 Copilot?
+### What's the minimum version of Outlook required for Sales agent?
 
 The minimum required version for Outlook is:
 
@@ -167,13 +167,13 @@ If the Sales app for Teams is installed by your administrator, you must contact 
 
 If you've installed the Sales app for Teams by yourself, you can update it to the latest version by following the instructions [here](https://support.microsoft.com/office/update-an-app-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 
-### How many hours of conversational intelligence are available with Sales in Microsoft 365 Copilot?
+### How many hours of conversational intelligence are available with Sales agent?
 
-You get unlimited call recording and processing hours with Sales in Microsoft 365 Copilot.
+You get unlimited call recording and processing hours with Sales agent.
 
-### Are there any special browser settings needed to use Sales in Microsoft 365 Copilot in the web versions of Outlook and Teams?
+### Are there any special browser settings needed to use Sales agent in the web versions of Outlook and Teams?
 
-Users may need to change a few settings to get the best experience of Sales in Microsoft 365 Copilot in Outlook and Teams on the web.
+Users may need to change a few settings to get the best experience of Sales agent in Outlook and Teams on the web.
 
 - **Edge**:
   - Turn on "Enable sites to save and read cookie data (recommended)."
@@ -199,13 +199,13 @@ To see the new icon, you must clear the Outlook cache by following these steps:
 
 1. Open Outlook.
 
-### How do optional connected experiences affect Sales in Microsoft 365 Copilot?
+### How do optional connected experiences affect Sales agent?
 
 If your organization has disabled the [optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences) policy, the Sales app isn't displayed in Outlook for users that have installed the app by themselves. If the Sales app has been deployed by an administrator, it is displayed for users.
 
-### How can I provide feedback about Sales in Microsoft 365 Copilot?
+### How can I provide feedback about Sales agent?
 
-You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Sales in Microsoft 365 Copilot.
+You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Sales agent.
 
 ## Admin settings
 
@@ -397,24 +397,24 @@ Microsoft is uniquely positioned to deliver enterprise-ready AI. Powered by Azur
 
     Copilot’s foundation skills are a game changer for productivity and business processes. The capabilities allow you to create, summarize, analyze, collaborate, and automate using your specific business content and context. But it doesn’t stop there. Copilot recommends actions for the user (for example, “create a time and expense application to enable employees to submit their time and expense reports”). And Copilot is designed to learn new skills. For example, Copilot can learn how to connect to CRM systems of record to pull customer data—like interaction and order histories—into communications. As Copilot learns about new domains and processes, it will be able to perform even more sophisticated tasks and queries. 
 
-### How will Microsoft use customer data to train Sales in Microsoft 365 Copilot?  
+### How will Microsoft use customer data to train Sales agent?  
 
 Copilot unlocks business value by connecting LLMs to the customer’s own business data in a secure, complaint, privacy-preserving way. 
 
 Copilot generates answers anchored in real-time business content (customer's own documents, emails, calendar, chats, meetings, contacts, and other business data) and combines them with working context, the meeting the user is in now, the email exchanges had on a topic, the chat conversations had last week, and  to deliver accurate, relevant, contextual responses. 
 
-Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train capabilities in Sales in Microsoft 365 Copilot for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
+Microsoft, however, doesn't use customers' data to train LLMs. We believe the customers’ data is their data, aligned to [Microsoft's data privacy policy](https://aka.ms/privacy). AI-powered LLMs are trained on a large but limited corpus of data. Prompts, responses, and data accessed through Microsoft Graph and Microsoft services aren't used to train capabilities in Sales agent for use by other customers. Furthermore, the foundation models aren't improved through usage of Copilot by individual customers. This means the customer’s own data is accessible only by authorized users within their organization unless the customer explicitly consents to other access or use. 
 
-### How will Sales in Microsoft 365 Copilot manage GDPR policies?  
+### How will Sales agent manage GDPR policies?  
 
-Sales in Microsoft 365 Copilot complies with GDPR policies.
+Sales agent complies with GDPR policies.
 
 The Dynamics App for Outlook is strictly an enablement app that bridges the gap between outlook and DV data. The app isn't being invested in, but rather we're focusing on bringing critical enablement features to the Sales app in addition to all of the empowerment features related to generative AI and insights to help sellers get the job done in the context of their work in Outlook. Sellers should encourage their customers to migrate to the Sales app to take advantage of our innovation and investments (two existing gaps, entity creation and entity global search are being worked on and should be delivered in the first quarter of 2024).
 
 ## Resources 
 
 - [Microsoft 365 Copilot FAQ](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-365-copilot-500fc65e-9973-4e42-9cf4-bdefb0eb04ce)
-- [Sales in Microsoft 365 Copilot GA blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/02/01/microsoft-copilot-for-sales-and-copilot-for-service-are-now-generally-available/)
+- [Sales agent GA blog](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/02/01/microsoft-copilot-for-sales-and-copilot-for-service-are-now-generally-available/)
 - [Ignite announcements blog](https://aka.ms/Ignite2023BAannounceblog)
-- [Sales in Microsoft 365 Copilot adoption resources](https://adoption.microsoft.com/en-us/copilot-for-sales/)
-- [Sales in Microsoft 365 Copilot success kit](https://adoption.microsoft.com/copilot-for-sales/success-kit/)
+- [Sales agent adoption resources](https://adoption.microsoft.com/en-us/copilot-for-sales/)
+- [Sales agent success kit](https://adoption.microsoft.com/copilot-for-sales/success-kit/)

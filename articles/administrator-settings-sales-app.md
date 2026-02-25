@@ -1,5 +1,5 @@
 ---
-title: Administrator settings for Sales in Microsoft 365 Copilot
+title: Administrator settings for Sales agent
 description: Learn how to use administrator settings to customize the Sales app experience in Outlook and Teams.
 ms.date: 01/05/2025
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.custom:
   - bap-template
 ---
 
-# Administrator settings for Sales in Microsoft 365 Copilot
+# Administrator settings for Sales agent
 
 As a tenant administrator or CRM (customer relationship management) administrator, you can use administrator settings to customize how your users experience the Sales app in Outlook and Teams, including who can use AI capabilities, for all environments in your organization.
 

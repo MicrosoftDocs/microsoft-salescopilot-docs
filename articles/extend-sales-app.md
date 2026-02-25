@@ -1,6 +1,6 @@
 ---
-title: Extend Sales in Microsoft 365 Copilot with partner applications (preview)
-description: Extend Sales in Microsoft 365 Copilot to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
+title: Extend Sales agent with partner applications (preview)
+description: Extend Sales agent to integrate with partner applications to provide contextual insights and recommendations in Teams and Outlook.
 ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -12,13 +12,13 @@ ms.custom:
   - ai-seo-date:11/07/2023
 ---
 
-# Extend Sales in Microsoft 365 Copilot with partner applications (preview)
+# Extend Sales agent with partner applications (preview)
 
 [!INCLUDE [production-ready-preview-dynamics365](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Sales in Microsoft 365 Copilot is an AI assistant that helps sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
+Sales agent is an AI assistant that helps sales teams maximize productivity and close more deals. It brings sales insights and next-generation AI into the tools that you use daily, such as Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
 Out of the box, the Sales app in Outlook and Teams connects to customer relationship management (CRM) systems such as Salesforce Sales Cloud and Dynamics 365 Sales. However, there is more to sales than just CRM. Sales teams often use specialized applications for account planning, prospecting, revenue intelligence, quoting, eSignature, and more. Customers and makers of sales applications can now bring data and insights from any of their applications into the Sales app experience.
 
@@ -32,9 +32,9 @@ This article provides guidance about how to extend the Sales app by using your a
 
 The article also provides guidance about how to manage the input and output for the APIs.  
 
-## How does extensibility work in Sales in Microsoft 365 Copilot?
+## How does extensibility work in Sales agent?
 
-Sales in Microsoft 365 Copilot consists of multiple individual capabilities that are made available contextually to users. Each capability is backed by a skill service that is owned by the Sales app. When a system user interacts with a capability, the skill service for that capability generates the insights that are delivered as part of the capability. Out of the box, the skill service uses data in Microsoft Graph and CRMs to get insights. Through extensibility, the skill service gets additional insights, and therefore enriches the capability, by calling into your application APIs that are made available in your action in real time. When the skill service calls into your application APIs, it passes all available context that your application APIs accept. In return, it expects to receive insights in a format that is aligned with the way that insights are presented to the Sales app users in the capability.
+Sales agent consists of multiple individual capabilities that are made available contextually to users. Each capability is backed by a skill service that is owned by the Sales app. When a system user interacts with a capability, the skill service for that capability generates the insights that are delivered as part of the capability. Out of the box, the skill service uses data in Microsoft Graph and CRMs to get insights. Through extensibility, the skill service gets additional insights, and therefore enriches the capability, by calling into your application APIs that are made available in your action in real time. When the skill service calls into your application APIs, it passes all available context that your application APIs accept. In return, it expects to receive insights in a format that is aligned with the way that insights are presented to the Sales app users in the capability.
 
 :::image type="content" source="media/extend-copilot-sales-arc.svg" alt-text="Diagram showing the extensibility architecture":::
 
@@ -64,7 +64,7 @@ Through extensibility, you can enhance existing capabilities or add new capabili
 
 Additionally, you can introduce new question and answer (Q&A) capabilities in the chat features in the Sales app. However, it's important to note that you can't add new capabilities to the non-chat features in the Sales app.
 
-## Extend Sales in Microsoft 365 Copilot
+## Extend Sales agent
 
 1. [Decide which capability you want to extend](#copilot-capabilities-that-can-be-extended).
 
@@ -85,4 +85,4 @@ Additionally, you can introduce new question and answer (Q&A) capabilities in th
 [Enrich opportunity insights with data from your application](extend-opportunity-insights.md)<br>
 [Enrich CRM record details with insights from your application](extend-record-details.md)<br>
 [Enrich CRM record summaries with insights from your application](extend-record-summary.md)<br>
-[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)
+[Build extensions for Sales agent](build-apis.md)

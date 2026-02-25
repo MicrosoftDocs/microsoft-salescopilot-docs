@@ -19,13 +19,13 @@ The Sales agent is a conversational agent available within Microsoft 365 Copilot
 The Sales agent is available to users who have access to a Microsoft 365 Copilot license. To see Sales agent, you must [install the Sales app](install-sales-app.md).
 
 > [!NOTE]
-> - If your team already uses Sales in Microsoft 365 Copilot, they'll see the Sales agent in the list of agents in Microsoft 365 Copilot Chat.
+> - If your team already uses Sales agent, they'll see the Sales in the list of agents in Microsoft 365 Copilot Chat.
 > - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales agent in the list of agents even if they have a Microsoft 365 Copilot license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
 
 ## Prerequisites
 
 - [The Sales app is installed in both Outlook and Teams.](install-viva-sales.md)
-- You have access to environment-level settings in the [administrator settings for Sales in Microsoft 365 Copilot](administrator-settings-sales-app.md).
+- You have access to environment-level settings in the [administrator settings for Sales agent](administrator-settings-sales-app.md).
 - [Sales Chat must be turned on in Access settings.](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
 - The Sales app must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md) If you are a Salesforce admin, you must assign the security role in the msdyn_viva environment.

@@ -14,7 +14,7 @@ ms.custom:
 
 # Draft an email message using sales information with Copilot in Outlook
 
-The Sales app includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales in Microsoft 365 Copilot role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
+The Sales app includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insight to help support customer engagements. The combined Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales agent role in a seamless 'better together' design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals.
 
 > [!NOTE]
 > Based on the license you have, you can see the capability to draft an email message either within Outlook or in the [**Sales** pane in Outlook](use-copilot-kickstart-email-messages.md).
@@ -35,7 +35,7 @@ The email and custom prompt must be in one of the supported languages to generat
 
 ## Draft an email message
 
-With Copilot in Outlook and Sales in Microsoft 365 Copilot together, you can draft an email message within Outlook using predefined response categories and sales information from CRM.
+With Copilot in Outlook and Sales agent together, you can draft an email message within Outlook using predefined response categories and sales information from CRM.
 
 1. In Outlook, reply to an email with an external email address as a recipient.
 

@@ -44,5 +44,5 @@ You can edit the sample connector and action to get started quickly. Refer to th
 
 ### Related information
 
-[Extend Sales in Microsoft 365 Copilot with partner applications](extend-sales-app.md)<br>
-[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)
+[Extend Sales agent with partner applications](extend-sales-app.md)<br>
+[Build extensions for Sales agent](build-apis.md)

@@ -1,6 +1,6 @@
 ---
-title: Functional overview of Sales in Microsoft 365 Copilot
-description: Maximize seller productivity with Sales in Microsoft 365 Copilot, an AI assistant designed to streamline processes and create personalized sales content.
+title: Functional overview of Sales agent
+description: Maximize seller productivity with Sales agent, an AI assistant designed to streamline processes and create personalized sales content.
 ms.date: 11/20/2025
 ms.topic: overview
 ms.service: microsoft-sales-copilot
@@ -12,9 +12,9 @@ ms.custom:
   - ai-seo-date:02/01/2024
 ---
 
-# Functional overview of Sales in Microsoft 365 Copilot
+# Functional overview of Sales agent
 
-Sales in Microsoft 365 Copilot is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
+Sales agent is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
 The Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in the Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
@@ -83,4 +83,4 @@ Customize the Sales app for a uniquely tailored experience that meets your organ
 ### Related information
 
 [Sales app architecture](architecture.md)<br>
-[Sales in Microsoft 365 Copilot FAQ](sales-m365-copilot-faq.md)
+[Sales agent FAQ](sales-m365-copilot-faq.md)

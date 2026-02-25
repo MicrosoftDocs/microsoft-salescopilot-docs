@@ -1,6 +1,6 @@
 ---
-title: Mobile support for Sales in Microsoft 365 Copilot
-description: Learn about the mobile support for Sales in Microsoft 365 Copilot on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
+title: Mobile support for Sales agent
+description: Learn about the mobile support for Sales agent on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
 ms.date: 02/20/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -9,9 +9,9 @@ ms.author: shjais
 ms.custom: CXT
 ---
 
-# Mobile support for Sales in Microsoft 365 Copilot
+# Mobile support for Sales agent
 
-Sales in Microsoft 365 Copilot is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Sales in Microsoft 365 Copilot aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
+Sales agent is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Sales agent aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
 
 ## Outlook experience
 
