@@ -62,7 +62,7 @@ The experience of using the Sales app search message extension when composing an
 ### Classic Outlook desktop
 
 1. On the ribbon, select **Sales** or **All Apps** > **Sales**.  
-1. In the pop-up, select **Sales**.  
+1. In the pop-up, select **Search Sales**.  
     Alternatively, you can select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
 
     :::image type="content" source="media/search-outlook-classic.png" alt-text="Screenshot showing search option in the Sales app in classic Outlook.":::
@@ -77,7 +77,7 @@ The experience of using the Sales app search message extension when composing an
 
 ### New Outlook desktop and Outlook on the web
 
-1. On the ribbon, select **Apps** > **Sales**.  
+1. On the ribbon, select **Sales** or **Apps** > **Sales**.  
 1. In the pop-up, select **Search Sales**.
 
     :::image type="content" source="media/search-outlook-new.png" alt-text="Screenshot showing search option in the Sales app in new Outlook.":::
