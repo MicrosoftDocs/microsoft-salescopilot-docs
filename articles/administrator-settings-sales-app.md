@@ -1,6 +1,6 @@
 ---
 title: Administrator settings for Sales agent
-description: Learn how to use administrator settings to customize the Sales app experience in Outlook and Teams.
+description: Learn how to use administrator settings to customize the Sales agent experience in Outlook and Teams.
 ms.date: 01/05/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -16,27 +16,27 @@ ms.custom:
 
 # Administrator settings for Sales agent
 
-As a tenant administrator or CRM (customer relationship management) administrator, you can use administrator settings to customize how your users experience the Sales app in Outlook and Teams, including who can use AI capabilities, for all environments in your organization.
+As a tenant administrator or CRM (customer relationship management) administrator, you can use administrator settings to customize how your users experience the Sales agent in Outlook and Teams, including who can use AI capabilities, for all environments in your organization.
 
 ## Prerequisites
 
-- The Sales app is installed in either [Outlook](install-sales-as-an-integrated-app.md) or [Teams](install-pin-sales-teams.md). 
+- The Sales agent is installed in either [Outlook](install-sales-as-an-integrated-app.md) or [Teams](install-pin-sales-teams.md). 
 
 ## Who can access administrator settings?
 
-Administrator settings are visible only when you sign in with administrator credentials to the Sales app in [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md). The permissions you need depend on which CRM you use.
+Administrator settings are visible only when you sign in with administrator credentials to the Sales agent in [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md). The permissions you need depend on which CRM you use.
 
-- **Dynamics 365:** You must have the **System Administrator** or **System Customizer** role. If you're using a custom security role, you might need [more privileges to use the Sales app](privileges.md#privileges-required-for-dynamics-365-customers).
+- **Dynamics 365:** You must have the **System Administrator** or **System Customizer** role. If you're using a custom security role, you might need [more privileges to use the Sales agent](privileges.md#privileges-required-for-dynamics-365-customers).
 
 - **Salesforce:** Your user profile must have the **Modify All Data** or **Manage Data Integrations** permission. Permissions need to be set in your user profile, not in a permission set that's assigned to you.
 
-If you change a user's permissions or security roles in your CRM, ask the user to sign out of the Sales app in Outlook or Teams, and then sign in again for your changes to be reflected. Changes in user permissions or security roles in the CRM can take up to 15 minutes to reflect in the Sales app in Teams.
+If you change a user's permissions or security roles in your CRM, ask the user to sign out of the Sales agent in Outlook or Teams, and then sign in again for your changes to be reflected. Changes in user permissions or security roles in the CRM can take up to 15 minutes to reflect in the Sales agent in Teams.
 
 ## Access administrator settings
 
-Teams and Outlook both play a part in how you access the Sales app administrator settings and what you can change.
+Teams and Outlook both play a part in how you access the Sales agent administrator settings and what you can change.
 
-You can access the administrator settings in the Sales app in Outlook and Teams. The settings apply to the CRM environment that you sign in to. To customize the Sales app for a different environment, [switch to that environment](sales-m365-copilot-faq.md#how-can-i-switch-crm-environments).
+You can access the administrator settings in the Sales agent in Outlook and Teams. The settings apply to the CRM environment that you sign in to. To customize the Sales agent for a different environment, [switch to that environment](sales-m365-copilot-faq.md#how-can-i-switch-crm-environments).
 
 1. Open the Sales personal app in [Outlook](personal-app.md#open-the-personal-app-in-outlook) or [Teams](personal-app.md#open-the-personal-app-in-teams).
 1. Sign in to [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md) with your administrator credentials.  
@@ -44,14 +44,14 @@ You can access the administrator settings in the Sales app in Outlook and Teams.
 1. Select the **Settings** tab.  
 1. Change the settings you need to.  
     **Tenant-level settings**:  
-      - **Copilot AI**: [Control who can use the Sales app AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
+      - **Copilot AI**: [Control who can use the Sales agent AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
       - **Collaboration spaces**: [Control whether AI-powered tasks should be suggested in collaboration spaces](turn-off-suggested-tasks-collab-space.md)  
     
     **Environment-level settings**:  
       - **Copilot AI**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.
-      - **Access settings**: [Enable or disable features in the Sales app](access-settings.md).
+      - **Access settings**: [Enable or disable features in the Sales agent](access-settings.md).
       - **Save to (CRM)**: [Configure fields that sellers can use to categorize emails and meetings in CRM](save-additional-details-outlook.md).
-      - **Forms**: [Determine what information is displayed in the Sales app in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales app.
+      - **Forms**: [Determine what information is displayed in the Sales agent in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales agent.
       - **Custom AI instructions**: [Customize the AI instructions for generating the account summary](set-up-sales-chat.md#step-3-configure-account-summary)
     
     **Features**:
@@ -61,9 +61,9 @@ You can access the administrator settings in the Sales app in Outlook and Teams.
       
     :::image type="content" source="media/viva-sales-tenant-admin.png" alt-text="Screenshot showing admin settings.":::
 
-## Add the Sales app to Teams
+## Add the Sales agent to Teams
 
-If the Sales app isn't already added to Teams, you can add it from the Teams app store. Note that the app is added only for you, not for your entire organization.
+If the Sales agent isn't already added to Teams, you can add it from the Teams app store. Note that the app is added only for you, not for your entire organization.
 
 1. Sign in to Microsoft Teams with your administrator credentials.  
 1. In the navigation bar on the left, select **Apps**.  

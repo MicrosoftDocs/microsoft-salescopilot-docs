@@ -12,9 +12,9 @@ ms.localizationpriority: medium
 
 # Architecture of Sales agent
 
-This article contains links to download the Sales app architecture document and top 10 most frequently asked questions about the Sales app architecture.
+This article contains links to download the Sales agent architecture document and top 10 most frequently asked questions about the Sales agent architecture.
 
-The architecture document provides an in-depth view of the Sales app architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how the Sales app integrates with their CRM and the broader Microsoft 365 ecosystem.
+The architecture document provides an in-depth view of the Sales agent architecture. It includes topics such as security, compliance, data residency/management, AI integration points, application lifecycle management, and more. The purpose of this article is to help admins, IT professionals, and developers understand how the Sales agent integrates with their CRM and the broader Microsoft 365 ecosystem.
 
 |Document|Last update|Last updated release|
 |--------|----------|--------------|
