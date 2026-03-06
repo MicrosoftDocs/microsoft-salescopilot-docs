@@ -1,6 +1,6 @@
 ---
 title: Enrich email summary with content suggestions from your application (preview) 
-description: Enhance email summaries in Outlook by using the Sales app with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
+description: Enhance email summaries in Outlook by using the Sales agent with content suggestions from your own application, sourced from CRM systems such as Dynamics 365 or Salesforce.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -18,14 +18,14 @@ ms.custom:
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-When Copilot in Outlook and the Sales app are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that the Sales app provides with insights from your own application.
+When Copilot in Outlook and the Sales agent are used together, email summaries that are shown in Outlook include sales information that is sourced from your customer relationship management (CRM) system, such as Dynamics 365 or Salesforce CRM. You can extend the email summary capability that the Sales agent provides with insights from your own application.
 
 > [!NOTE]
 > This API replaces the existing _Email Summary Skill_ API (Operation Id: scp-get-email-insights) with a new version. 
 
 ## API description
 
-You must add the following API description to the action. This helps the Sales app identify the correct API to invoke for enriching the capability.
+You must add the following API description to the action. This helps the Sales agent identify the correct API to invoke for enriching the capability.
 
 *This action gets additional sales insights that will be shown in C4S email summary experience inside outlook summary. The action enhances the existing skills of copilot for sales.*
 
@@ -75,7 +75,7 @@ This payload goes as the request body of the API request.
 
 ## Output parameters
 
-The Sales app expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales app can correctly parse the output, the response structure must adhere to the guidelines in the following table.
+The Sales agent expects to receive a list of insights (objects) from your APIs, and it expects each insight to have specific parameters. To ensure that the Sales agent can correctly parse the output, the response structure must adhere to the guidelines in the following table.
 
 | Parameter | Data type | Required | Details |
 |-----------|-----------|----------|---------|

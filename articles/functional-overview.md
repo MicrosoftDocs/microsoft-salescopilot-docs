@@ -16,9 +16,9 @@ ms.custom:
 
 Sales agent is an AI assistant designed for sales teams to maximize productivity and close more deals, bringing sales insights and next-generation AI into the tools you use daily like Microsoft Outlook, Microsoft Teams, and other Microsoft 365 apps.
 
-The Sales app connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in the Sales app, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
+The Sales agent connects to Salesforce Sales Cloud and Microsoft Dynamics 365 Sales and can be configured to connect to other sales solutions. Microsoft 365 Copilot is included in the Sales agent, helping organizations benefit more broadly from productivity enhancements across their workflows. For information on pricing and licensing guidance, see the [licensing and pricing page](https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-sales#Pricing).
 
-The following sections provide an overview of the value that the Sales app provides to sales teams.
+The following sections provide an overview of the value that the Sales agent provides to sales teams.
 
 ## Maximize seller productivity
 
@@ -34,11 +34,11 @@ Work more efficiently with AI capabilities in the flow of work that help streaml
 
 Build stronger customer relationships with AI capabilities that help you understand customer needs and personalize engagements.
 
-### Crush the sales call 
+### Prepare for meetings
 
-Get real-time call insights in Teams such as summaries of past meeting notes, CRM record information, sales tips, competitor insights, and meeting agenda items.
+[Prepare for upcoming customer meetings](meeting-prep.md) directly in Microsoft Teams. Get a concise snapshot of essential meeting details and insights without disrupting your workflow.
 
-:::image type="content" source="media/teams-copilot-chat.png" alt-text="Screenshot showing Copilot in Teams chat user interface.":::
+:::image type="content" source="media/sales-chat-meeting-prep.png" alt-text="Screenshot showing meeting preparation card in Teams.":::
 
 ### Improve customer interactions
 
@@ -60,17 +60,17 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 ### Improve team collaboration
 
-- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales app in Outlook or directly from Dynamics 365 Sales.
+- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales agent in Outlook or directly from Dynamics 365 Sales.
 
-    :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales app for Outlook.":::
+    :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales agent in Outlook.":::
 
 - [Share linked CRM record in a Microsoft Teams conversation](share-crm-record-teams-conversation.md).
 
-    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Sales app contact card.":::
+    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Sales agent contact card.":::
 
 ## Customize for your needs
 
-Customize the Sales app for a uniquely tailored experience that meets your organization's needs.
+Customize the Sales agent for a uniquely tailored experience that meets your organization's needs.
 
 ### Surface the right information
 
@@ -78,9 +78,9 @@ Customize the Sales app for a uniquely tailored experience that meets your organ
 
 ### Connect your data 
 
-[Extend the Sales app](extend-sales-app.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
+[Extend the Sales agent](extend-sales-app.md) skills to include data and insights from internal and external data sources using Power Platform connectors.
 
 ### Related information
 
-[Sales app architecture](architecture.md)<br>
+[Sales agent architecture](architecture.md)<br>
 [Sales agent FAQ](sales-m365-copilot-faq.md)

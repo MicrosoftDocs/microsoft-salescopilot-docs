@@ -1,6 +1,6 @@
 ---
-title: Sales app deployment guide for Dynamics 365 customers
-description: Learn how to deploy the Sales app for Dynamics 365 customers.
+title: Sales agent deployment guide for Dynamics 365 customers
+description: Learn how to deploy the Sales agent for Dynamics 365 customers.
 ms.date: 11/20/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
@@ -10,9 +10,9 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Sales app deployment guide for Dynamics 365 customers
+# Sales agent deployment guide for Dynamics 365 customers
 
-Follow the instructions in this guide to deploy the Sales app for your Dynamics 365 Sales customers.
+Follow the instructions in this guide to deploy the Sales agent for your Dynamics 365 Sales customers.
 
 ## Prerequisites
 
@@ -20,21 +20,21 @@ Follow the instructions in this guide to deploy the Sales app for your Dynamics 
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 - You must assign the Microsoft 365 Copilot license to each user that will be using the product. [Learn more about assigning licenses from the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 
-## Step 1: Install the Sales app in Outlook
+## Step 1: Install the Sales agent in Outlook
 
-[Install the Sales app in Outlook](install-sales-as-an-integrated-app.md)
+[Install the Sales agent in Outlook](install-sales-as-an-integrated-app.md)
 
-![Screenshot showing the Sales app installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing the Sales app installed as an integrated app.")
+![Screenshot showing the Sales agent installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing the Sales agent installed as an integrated app.")
 
-## Step 2: Create a policy to automatically install and pin the Sales app in Teams
+## Step 2: Create a policy to automatically install and pin the Sales agent in Teams
 
-[Install and pin the Sales app in your sellers' personal Teams environment and meetings they create](install-pin-sales-teams.md)
+[Install and pin the Sales agent in your sellers' personal Teams environment and meetings they create](install-pin-sales-teams.md)
 
 ![Screenshot showing Teams policy.](media/teams-policy-viva-sales.png "Screenshot showing Teams policy.")
 
 ## Step 3: Enable Teams meeting transcripts
 
-Enable transcripts for Teams calls so that when the Sales app is added to a recorded Teams meeting, it can generate a meeting summary.
+Enable transcripts for Teams calls so that when the Sales agent is added to a recorded Teams meeting, it can generate a meeting summary.
 
 1.  Sign in to the [Teams admin center](https://admin.teams.microsoft.com).
 
@@ -50,13 +50,13 @@ Enable transcripts for Teams calls so that when the Sales app is added to a reco
 
 ## Step 4: Set up server-side synchronization of emails and appointments
 
-The Sales app allows sellers to save Outlook emails and appointments to Dynamics 365. Saving Outlook activities to Dynamics 365 requires [server-side synchronization for emails and appointments](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) to be enabled. While sellers can enable server-side synchronization for their own mailboxes when they save Outlook activities to Dynamics 365 using the Sales app for the first time, you can simplify their experience by setting up server-side synchronization of emails and appointments for all the Sales app users. 
+The Sales agent allows sellers to save Outlook emails and appointments to Dynamics 365. Saving Outlook activities to Dynamics 365 requires [server-side synchronization for emails and appointments](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) to be enabled. While sellers can enable server-side synchronization for their own mailboxes when they save Outlook activities to Dynamics 365 using the Sales agent for the first time, you can simplify their experience by setting up server-side synchronization of emails and appointments for all the Sales agent users. 
 
 For information about enabling server-side synchronization, see [Connect to Exchange Online](/power-platform/admin/connect-exchange-online). 
 
 ## Step 5: Confirm users have the right security roles
 
-If you're using the following out-of-the-box Dynamics 365 Sales security roles, you don't need to do anything. The Sales app privileges are added automatically for:
+If you're using the following out-of-the-box Dynamics 365 Sales security roles, you don't need to do anything. The Sales agent privileges are added automatically for:
 
 -   Primary sales roles: Salesperson or Sales Manager
 
@@ -64,36 +64,36 @@ If you're using the following out-of-the-box Dynamics 365 Sales security roles, 
 
 If you're using custom security roles, [assign users the right roles and privileges required for Dynamics 365 customers](privileges.md#privileges-required-for-dynamics-365-customers).
 
-## Step 6 (optional): Customize the Sales app
+## Step 6 (optional): Customize the Sales agent
 
-[Administrator settings](administrator-settings-sales-app.md) control the seller's the Sales app experience in Outlook and Teams. You can customize the Sales app to meet your organization's needs.
+[Administrator settings](administrator-settings-sales-app.md) control the seller's the Sales agent experience in Outlook and Teams. You can customize the Sales agent to meet your organization's needs.
 
 ### Set up Copilot AI features
 
-You can [set up AI features in the Sales app](suggested-replies.md) to use AI features that are in preview or generally available.
+You can [set up AI features in the Sales agent](suggested-replies.md) to use AI features that are in preview or generally available.
 
 ### Customize forms and fields
 
-The Sales app comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
+The Sales agent comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
 
-## Step 7: Welcome sellers to the Sales app
+## Step 7: Welcome sellers to the Sales agent
 
-Now that you've installed and configured the Sales app in Outlook and Teams, get your sellers to use it. Here's an example email message you can share.
+Now that you've installed and configured the Sales agent in Outlook and Teams, get your sellers to use it. Here's an example email message you can share.
 
 
 | |
 |---------|
-|**Subject**: Welcome to the Sales app!</br><br>Dear Sellers,</br><br>Welcome to the Sales app, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what the Sales app can do for you by taking the [Sales app training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into the Sales app for the first time**</br><br>[Sign in to your CRM system](sign-in-crm-outlook.md) and [pin the app](open-app.md#pin-the-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various the Sales app features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from the Sales app](create-contact-crm.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)</li></br><li>[View sales insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Sales app troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Sales app - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Sales app Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
+|**Subject**: Welcome to the Sales agent!</br><br>Dear Sellers,</br><br>Welcome to the Sales agent, a new app that brings CRM data and AI-powered intelligence into your flow of work in Outlook and Teams.</br><br>See what the Sales agent can do for you by taking the [Sales agent training](/training/modules/boost-sales-performance/). </br><br>**Step 1: Logging into the Sales agent for the first time**</br><br>[Sign in to your CRM system](sign-in-crm-outlook.md) and [pin the app](open-app.md#pin-the-sales-app-in-outlook).</br><br>**Additional resources**</br><br>The following articles guide you through using various the Sales agent features:</br><ul></br><li>[Connect a contact to your CRM](connect-contact.md)</li></br><li>[Change the connected CRM contact](change-connected-crm-contact.md)</li></br><li>[Create a contact in your CRM from the Sales agent](create-contact-crm.md)</li></br><li>[Save Outlook activities to your CRM](save-outlook-activities-crm.md)</li></br><li>[View recent and upcoming activities](view-recent-upcoming-activities.md)</li></br><li>[View record details](view-record-details.md)</li></br><li>[Add private notes](add-personal-notes.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[Edit a CRM record](edit-crm-record.md)</li></br><li>[Draft email messages](use-copilot-kickstart-email-messages.md)</li></br><li>[Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary)</li></br><li>[View sales insights in Microsoft Teams meeting recap](view-meeting-summary-recap.md)</li></br><li>[Share a link to a CRM record](share-link-crm-record.md)</li></br><li>[View and update CRM record details](view-update-crm-record-details.md)</li></br></ul>**Troubleshooting**</br><br>See the [Sales agent troubleshooting guide](troubleshoot.yml) article for common problems and solutions.</br><br>For additional community help, visit the [Sales agent - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) page.</br><br>For ideas and suggestions, visit the [Sales agent Community](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) page.     |
 
 > [!IMPORTANT]
-> - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales app in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-app-in-outlook-after-its-deployed)
-> - The Sales app doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
-> - Users added as guests to a tenant can't access the Sales app.
+> - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales agent in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-app-in-outlook-after-its-deployed)
+> - The Sales agent doesn't support multiple tenants. It uses Microsoft Entra ID credentials to authenticate end users, so access is restricted to environments in the same tenant.
+> - Users added as guests to a tenant can't access the Sales agent.
 
 ## Community
 
-We encourage all users of the Sales app to visit and register on the [Sales app community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
+We encourage all users of the Sales agent to visit and register on the [Sales agent community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales). The community has:
 
 -   Forums to connect with peers and discuss shared experiences.
 

@@ -30,7 +30,7 @@ Email summaries are available when:
 - [Copilot AI features must be turned on in your environment](suggested-replies.md)
 - [You must be enabled to use Copilot in Microsoft 365](/microsoft-365-copilot/microsoft-365-copilot-enable-users)
 - You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to use the combined experience.
-- The Sales app must be installed by your admin.
+- The Sales agent must be installed by your admin.
 
 ## Anatomy of an email summary
 
@@ -55,13 +55,13 @@ Legend:
 
     Microsoft 365 Copilot scans the email content, summarizes the key points, and displays its summary at the top of the email thread.
 
-    If the Sales app detects that the email is from a contact outside your company and finds related records in your CRM, the summary includes the information from your CRM and the Sales agent logo appears in the upper-left corner of the **Summary by Copilot** box. Otherwise, Microsoft 365 Copilot generates the summary without sales information from your CRM and the Microsoft 365 Copilot logo appears in the upper-left corner.
+    If the Sales agent detects that the email is from a contact outside your company and finds related records in your CRM, the summary includes the information from your CRM and the Sales agent logo appears in the upper-left corner of the **Summary by Copilot** box. Otherwise, Microsoft 365 Copilot generates the summary without sales information from your CRM and the Microsoft 365 Copilot logo appears in the upper-left corner.
 
     :::image type="content" source="./media/email-summary-premium-license-copilot-summary-from-conversation.png" alt-text="Screenshot of a Copilot email summary in Outlook on the web.":::
 
 1. If the email summary doesn't include CRM information, select the Copilot icon in the upper-left corner of the **Summary by Copilot** box, and then select **Add Sales insights**.
 
-    The Sales app searches your CRM and updates the summary with information from related contact, account, and opportunity records.
+    The Sales agent searches your CRM and updates the summary with information from related contact, account, and opportunity records.
 
     :::image type="content" source="./media/email-summary-premium-license-copilot-summary-sales-insights.png" alt-text="Screenshot of an email summary in Outlook on the web with account and opportunity details added.":::
 
@@ -70,6 +70,6 @@ Legend:
 ## Related information
 
 - [Save Outlook activities to your CRM](./save-outlook-activities-crm.md)
-- [Create a contact in your CRM from the Sales app](./create-contact-crm.md)
-- [Draft an email message in the Sales app](./use-copilot-kickstart-email-messages.md)
+- [Create a contact in your CRM from the Sales agent](./create-contact-crm.md)
+- [Draft an email message in the Sales agent](./use-copilot-kickstart-email-messages.md)
 - [Summarize an email thread with Microsoft 365 Copilot in Outlook](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-for-microsoft-365-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640)

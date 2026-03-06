@@ -47,13 +47,13 @@ landingContent:
     linkLists:
        - linkListType: quickstart
          links:
-          - text: Deploy Sales app for Dynamics 365 customers 
+          - text: Deploy Sales agent for Dynamics 365 customers 
             url: deploy-sales-app-d365.md
-          - text: Deploy Sales app for Salesforce customers
+          - text: Deploy Sales agent for Salesforce customers
             url: deploy-sales-app-sf.md
        - linkListType: learn
          links:
-          - text: Boost sales performance with Sales app
+          - text: Boost sales performance with Sales agent
             url: /training/modules/boost-sales-performance/
 
 # Card 
@@ -70,7 +70,7 @@ landingContent:
 
 
 # Card 
-  - title: Use Sales app
+  - title: Use Sales agent
     linkLists:
        - linkListType: how-to-guide
          links:

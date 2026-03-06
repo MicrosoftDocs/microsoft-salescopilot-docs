@@ -1,6 +1,6 @@
 ---
-title: Access more options in Sales app
-description: Explore Sales app options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
+title: Access more options in Sales agent
+description: Explore Sales agent options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -14,18 +14,18 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# More options in Sales app
+# More options in Sales agent
 
-In this article, you learn about the other options available in the Sales app. These options help you share feedback, view diagnostics data, sign out, and switch between environments or CRM systems. You can access these options by selecting **Options** (**...**) in the upper-right corner of the **Sales** pane.
+In this article, you learn about the other options available in the Sales agent. These options help you share feedback, view diagnostics data, sign out, and switch between environments or CRM systems. You can access these options by selecting **Options** (**...**) in the upper-right corner of the **Sales** pane.
 
-:::image type="content" source="media/more-options.png" alt-text="More options available in the Sales app.":::
+:::image type="content" source="media/more-options.png" alt-text="More options available in the Sales agent.":::
 
 
 ## Share feedback from Outlook add-in
 
-If you have any feedback about the Sales app, you can share it from the add-in. Your feedback is valuable, and we use it to improve the product.
+If you have any feedback about the Sales agent, you can share it from the add-in. Your feedback is valuable, and we use it to improve the product.
 
-1. Open the Sales app in Outlook.
+1. Open the Sales agent in Outlook.
 
 1. Select **Options** (**...**) in the upper-right corner, and then select **Share feedback**.
 
@@ -43,9 +43,9 @@ Highlight cards display *Is this helpful?* with the options *Yes* and *No*. Sele
 
 ## View diagnostics data
 
-You can view the Sales app diagnostics and troubleshooting data, including application versions, session IDs, and other relevant application metadata. This data is helpful when working with technical support.
+You can view the Sales agent diagnostics and troubleshooting data, including application versions, session IDs, and other relevant application metadata. This data is helpful when working with technical support.
 
-1. Open the Sales app.
+1. Open the Sales agent.
 
 1. Select **Options** (**...**) in the upper-right corner, and then select **Diagnostics**.
 
@@ -53,9 +53,9 @@ You can view the Sales app diagnostics and troubleshooting data, including appli
 
    :::image type="content" source="media/copy-details.png" alt-text="Screenshot showing how to copy diagnostics data.":::
 
-## Sign out of Sales app
+## Sign out of Sales agent
 
-Signing out of the Sales app disconnects it from the CRM system. You need to sign in again to use the Sales app.
+Signing out of the Sales agent disconnects it from the CRM system. You need to sign in again to use the Sales agent.
 
 When you sign in and reconnect to the same CRM system and environment, your information is restored to the state it was in before you signed out. If you connect to a different CRM system or a different environment, the information isn't restored.
 
