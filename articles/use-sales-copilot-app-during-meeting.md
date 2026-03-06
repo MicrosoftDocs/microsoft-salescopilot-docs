@@ -1,6 +1,6 @@
 ---
-title: Use Sales app during a meeting
-description: Learn how to use the Sales app during a meeting.
+title: Use Sales agent during a meeting
+description: Learn how to use the Sales agent during a meeting.
 ms.date: 11/20/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -8,16 +8,16 @@ author: sbmjais
 ms.author: shjais
 ---
 
-# Use Sales app during a meeting
+# Use Sales agent during a meeting
 
-The Sales app in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can also view and edit the connected CRM record.
+The Sales agent in Microsoft Teams helps you prepare for and conduct meetings with your sales contacts. You can also view and edit the connected CRM record.
 
-## Open the Sales app
+## Open the Sales agent
 
-Select the **Sales** app icon on the meeting toolbar. The **Sales** panel opens on the right side of the meeting window. If you don't see the Sales app icon, select **Apps** and then select **Sales**.
+Select the **Sales** agent icon on the meeting toolbar. The **Sales** panel opens on the right side of the meeting window. If you don't see the **Sales** agent icon, select **Apps** and then select **Sales**.
 
 > [!NOTE]
-> You must invite at least one connected contact for Outlook to add the Sales app to the meeting.
+> You must invite at least one connected contact for Outlook to add the Sales agent to the meeting.
 
 If the meeting is connected to an opportunity in CRM, an [opportunity summary](view-opportunity-summary.md) card is displayed showing the key details and status of the current opportunity.
 
@@ -25,12 +25,12 @@ The connected record appears in the **Connected to** card. If the meeting isn't 
 
 ## View and edit connected record details
 
-With the Sales app, you can view and edit the connected CRM record during the meeting in Teams. The app helps you access and update the CRM record in the flow of your work.
+With the Sales agent, you can view and edit the connected CRM record during the meeting in Teams. The app helps you access and update the CRM record in the flow of your work.
 
 > [!NOTE]
 > You must [save and connect the meeting to a CRM record](save-outlook-activities-crm.md) to view details of the connected record.
 
-1. [Open the Sales app](#open-the-sales-app).
+1. [Open the Sales agent](#open-the-sales-app).
 
 1. In the **Connected to** card, select the record to see its details in the **Sales** panel.
 
@@ -44,7 +44,7 @@ You can also open a record in CRM to view its complete details. The record detai
 
 You can copy a link to the connected record and then share it in a Teams chat or an email message. When you paste the record's link into a Teams chat, it will unfurl into a rich adaptive card. When you paste the record's link in an email message, a link to the record is pasted.
 
-1. [Open the Sales app](#open-the-sales-app).
+1. [Open the Sales agent](#open-the-sales-app).
 
 1. Hover over the record and select **More actions** (**...**) > **Copy link**.
 

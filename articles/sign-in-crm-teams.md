@@ -10,7 +10,7 @@ ms.author: shjais
 
 # Connect to CRM from Teams
 
-After you open the Sales app in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
+After you open the Sales agent in Teams, you must connect your CRM account to get an enriched experience with CRM data. You can either connect automatically or manually to your CRM environment.
 
 ## Automatically connect to CRM
 
@@ -24,9 +24,9 @@ If you have a Dynamics 365 environment (production or non-production) with Sales
 |Multiple non-production environments but no production environment     |  Connected to the first non-production environment       | 
 
 > [!NOTE]
-> The Sales app doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. The Sales app fetches a list of environments that have Sales agent and then connects to the first environment in the list.
+> The Sales agent doesn't have access to data on your most frequently accessed or most recently accessed environment to automatically connect. The Sales agent fetches a list of environments that have Sales agent and then connects to the first environment in the list.
 
-Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Sales app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
+Once you're connected to your CRM, the environment name is displayed at the top-right corner of the **Home** tab in the Sales personal app. When you select the environment name, it shows the friendly name, type (Production/Sandbox), and URL for the environment. It also shows the following options:
 
 - **Switch environments**: Select this option to [switch to another Dynamics 365 environment](personal-app.md#switch-environments).
 - **Switch to Salesforce CRM**: Select this option to connect to Salesforce CRM. Follow the steps shown in the wizard.
@@ -41,10 +41,10 @@ Once you're connected to your CRM, the environment name is displayed at the top-
 
 You must manually connect to your CRM in the following cases:
 
-- If you're using Dynamics 365 environment and have disconnected your CRM from the Sales app.
+- If you're using Dynamics 365 environment and have disconnected your CRM from the Sales agent.
 - If you're using Salesforce CRM.
 
-You must be connected to your CRM to interact with CRM data in the Sales app. Follow these steps to connect to your CRM:
+You must be connected to your CRM to interact with CRM data in the Sales agent. Follow these steps to connect to your CRM:
 
 1. Sign in to Teams.
 
@@ -67,7 +67,7 @@ You must be connected to your CRM to interact with CRM data in the Sales app. Fo
 
 ## App refresh
 
-When you switch the connected environment in Outlook, you receive a notification to refresh the Sales app in Teams. Select **Refresh** to see the updated data from the new environment.
+When you switch the connected environment in Outlook, you receive a notification to refresh the Sales agent in Teams. Select **Refresh** to see the updated data from the new environment.
 
 ### Related information
 

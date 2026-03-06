@@ -16,14 +16,14 @@ ms.author: shjais
 
 Sales Agent is a powerful tool that helps you automate your sales processes and improve your productivity. It helps sellers qualify leads by generating insights from research and generating personalized outreach emails tailored to the lead and its product of interest.
 
-As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Sales app.
+As an admin, you can set up Sales Agent to connect to your CRM and enable it for your users. Once set up, sellers can view summaries of the research within their CRM or browse the list of researched leads in the Sales agent.
 
 This article provides instructions to integrate Sales Agent with Salesforce to give sellers the best experience in Salesforce.
 
 ## Prerequisites
 
 - The Sales Agent is [configured and connected to Salesforce](set-up-sales-agent.md).
-- You have access to environment-level settings in the [Sales app admin settings](administrator-settings-sales-app.md).
+- You have access to environment-level settings in the [Sales agent admin settings](administrator-settings-sales-app.md).
 
 ## Create a link to Sales Agent research from leads
 
@@ -59,11 +59,11 @@ You can make a summary of the lead research available on each lead page. The sum
 
 As an admin in Salesforce, open the **Setup** page and perform the following steps to add the Sales Agent summary to your lead page.
 
-### Upload the Sales app logo
+### Upload the Sales agent logo
 
 1. Go to **Custom Code** > **Static Resources**, and select **New**.
 1. Set the name of the resource to **copilot_for_sales_logo**.
-1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="Sales app logo.":::
+1. Upload this image: :::image type="content" source="./media/copilot-for-sales-logo.png" alt-text="Sales agent logo.":::
 
 ### Create Visualforce page for the Sales Agent summary
 

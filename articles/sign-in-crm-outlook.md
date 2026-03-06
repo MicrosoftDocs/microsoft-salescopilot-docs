@@ -15,11 +15,11 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you [open the Sales app in Outlook](open-app.md#access-sales-app-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
+After you [open the Sales agent in Outlook](open-app.md#access-sales-app-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 
-If you have any Dynamics 365 environment (production or non-production) that has Sales agent, you're signed in automatically to your environment the first time you open the Sales app. The environment you're signed in to is selected per the following rules:
+If you have any Dynamics 365 environment (production or non-production) that has Sales agent, you're signed in automatically to your environment the first time you open the Sales agent. The environment you're signed in to is selected per the following rules:
 
 
 |Scenario  |Auto sign-in rule  |You'll see  |
@@ -30,7 +30,7 @@ If you have any Dynamics 365 environment (production or non-production) that has
 |Multiple non-production environments but no production environment     |  Signed in to the first non-production environment       |  Dialog box to confirm or change the signed in environment       |
 
 > [!NOTE]
-> The Sales app does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales app fetches a list of environments having Sales agent, and then selects the first environment in the list to automatically sign in to.
+> The Sales agent does not have access to data on your most frequently accessed or most recently accessed environment to automatically sign in. The Sales agent fetches a list of environments having Sales agent, and then selects the first environment in the list to automatically sign in to.
 
 ### Single environment or single production environment
 
@@ -60,11 +60,11 @@ The **Environment** list displays the friendly name, type (Production/Sandbox), 
 
 You must manually sign in to your CRM in the following cases:
 
-- If you're using Dynamics 365 environment and have signed out of your CRM from the Sales app
+- If you're using Dynamics 365 environment and have signed out of your CRM from the Sales agent
 
 - If you're using Salesforce CRM
 
-You can use basic capabilities of the Sales app without signing in to your CRM. However, to use all the advanced capabilities of the Sales app, you must sign in to your CRM.
+You can use basic capabilities of the Sales agent without signing in to your CRM. However, to use all the advanced capabilities of the Sales agent, you must sign in to your CRM.
 
 **To manually sign in to your CRM from Outlook**:
 
@@ -87,16 +87,16 @@ You can use basic capabilities of the Sales app without signing in to your CRM. 
 
     Once you're signed in, the **Sales** pane is populated with personalized action items and relevant CRM information to help you work more efficiently.
 
-## Use Sales app without signing in
+## Use Sales agent without signing in
 
-You can use the Sales app and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
+You can use the Sales agent and AI capabilities in Outlook without signing in to your CRM. You can use basic capabilities like [email drafting](use-copilot-kickstart-email-messages.md#create-an-email-reply-using-predefined-categories) and [email summarization](view-save-email-summary-crm.md) without signing in to your CRM. For a more enriched experience with CRM data, you must sign in to your Dynamics 365 or Salesforce CRM account either from [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md).
 
 > [!NOTE]
 > This feature is available only for customers in United States and Europe.
 
 ## App refresh
 
-When you switch the connected environment in Teams, you receive a notification to refresh the Sales app in Outlook. Select **Refresh** to see the updated data from the new environment.
+When you switch the connected environment in Teams, you receive a notification to refresh the Sales agent in Outlook. Select **Refresh** to see the updated data from the new environment.
 
 ### Related information
 
