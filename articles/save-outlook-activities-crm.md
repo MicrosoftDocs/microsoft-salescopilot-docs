@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

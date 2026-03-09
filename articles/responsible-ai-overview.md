@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQs for Sales agent
 description: Responsible AI FAQs provide information about the AI technology used in Sales agent, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

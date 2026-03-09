@@ -1,7 +1,7 @@
 ---
 title: View customer communication (preview)
 description: Learn how to work with the Customer communication card in the Sales agent
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

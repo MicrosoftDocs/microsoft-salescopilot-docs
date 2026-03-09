@@ -1,7 +1,7 @@
 ---
 title: Access more options in Sales agent
 description: Explore Sales agent options to share feedback, view diagnostics, sign out, and switch CRM environments effortlessly.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

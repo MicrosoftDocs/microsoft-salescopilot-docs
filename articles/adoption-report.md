@@ -1,7 +1,7 @@
 ---
 title: Sales agent adoption report
 description: Learn how to use the Sales agent adoption Power BI template to understand how your company's sales team is using the Sales agent.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais

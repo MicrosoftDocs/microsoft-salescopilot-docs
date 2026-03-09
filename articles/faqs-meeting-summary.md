@@ -1,7 +1,7 @@
 ---
 title: FAQs for meeting summary feature in Microsoft Teams
 description: This FAQ provides information about the AI technology used in the meeting summary feature in the Sales agent, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq

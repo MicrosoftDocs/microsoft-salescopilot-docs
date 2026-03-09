@@ -1,7 +1,7 @@
 ---
 title: Access Sales agent
 description: Learn how to access the Sales agent in Outlook and Teams.
-ms.date: 02/11/2026
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

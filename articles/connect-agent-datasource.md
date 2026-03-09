@@ -1,7 +1,7 @@
 ---
 title: Connect your agents to a data source
 description: Learn how to connect agents to a data source for seamless data retrieval using server-to-server connections.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

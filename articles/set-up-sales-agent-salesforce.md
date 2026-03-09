@@ -1,7 +1,7 @@
 ---
 title: Integrate Lead Research and Outreach with Salesforce (preview)
 description: Learn how to integrate Lead Research and Outreach into Salesforce.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

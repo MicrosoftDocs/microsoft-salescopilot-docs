@@ -1,7 +1,7 @@
 ---
 title: Lead Research and Outreach overview (preview)
 description: Learn how Lead Research and Outreach helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

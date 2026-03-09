@@ -1,7 +1,7 @@
 ---
 title: View an opportunity summary
 description: Learn how to view an AI-powered opportunity summary in the Sales agent to help you interact more productively with customers and boost sales.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Sales agent data movement across geographies
 description: Learn why you need to opt in to allow Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
-ms.date: 02/18/2026
+ms.date: 03/09/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 02/11/2026
+ms.date: 03/09/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais

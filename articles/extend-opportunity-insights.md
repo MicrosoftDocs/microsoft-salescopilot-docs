@@ -1,7 +1,7 @@
 ---
 title: Enrich opportunity insights with data from your application (preview)
 description: Enhance sales information with the Sales agent in Outlook. Extend its capabilities by using data from your own application.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

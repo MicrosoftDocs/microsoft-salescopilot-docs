@@ -1,7 +1,7 @@
 ---
 title: Let sellers use /mention to share a CRM record in Outlook
 description: Learn how to turn on the setting that lets sellers use the /mention feature to easily share a CRM record in Outlook.
-ms.date: 01/16/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

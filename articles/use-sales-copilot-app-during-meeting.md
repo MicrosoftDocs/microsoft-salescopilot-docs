@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent during a meeting
 description: Learn how to use the Sales agent during a meeting.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

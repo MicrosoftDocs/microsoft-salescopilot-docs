@@ -1,7 +1,7 @@
 ---
 title: View insights from partner applications (preview)
 description: View insights from partner applications within the Sales agent.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Share key email info from Outlook to Teams
 description: Learn how to share key email info from Outlook to Teams using the Sales agent.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

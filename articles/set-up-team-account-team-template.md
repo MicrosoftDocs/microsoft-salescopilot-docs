@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the account team template
 description: Learn how to set up a team using an account team template in the Sales agent for Outlook.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

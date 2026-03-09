@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
-ms.date: 02/02/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

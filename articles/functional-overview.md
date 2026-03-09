@@ -1,7 +1,7 @@
 ---
 title: Functional overview of Sales agent
 description: Maximize seller productivity with Sales agent, an AI assistant designed to streamline processes and create personalized sales content.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais

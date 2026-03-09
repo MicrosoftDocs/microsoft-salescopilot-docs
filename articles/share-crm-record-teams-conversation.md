@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using the Sales agent.
-ms.date: 01/16/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

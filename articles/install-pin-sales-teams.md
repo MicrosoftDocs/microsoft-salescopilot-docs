@@ -1,7 +1,7 @@
 ---
 title: Install and pin Sales agent in Teams
 description: Learn how to install and pin the Sales agent in Teams
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais

@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales agent 
 description: Know how data is handled in Sales agent 
-ms.date: 01/20/2026
+ms.date: 03/09/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
