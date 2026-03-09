@@ -270,7 +270,7 @@ Users might see duplicate icons for the Sales agent due to a recent update to th
 
 1.  In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.
 
-1.  On the **Integrated apps** page, select the **Sales** app.
+1.  On the **Integrated apps** page, select **Sales**.
 
     The **Sales** panel opens. A message is displayed in the **Overview** tab to merge the older add-in with the new enhanced Teams app.
 

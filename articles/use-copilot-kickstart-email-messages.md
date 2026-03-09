@@ -137,7 +137,7 @@ Here are some best practices for writing custom prompt:
 
 When you enter a custom prompt, suggested prompts are generated based on the context of your email. You can select a suggested prompt to add it to the custom prompt's textbox. You can also add more details or other prompts.
 
-1. Open the **Sales** app and select **Draft an email**.
+1. Open the **Sales** pane and select **Draft an email**.
 
 1. Select :::image type="icon" source="media/suggestions-icon.png" border="false"::: to see prompt suggestions.
 
@@ -167,7 +167,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 #### Use a saved prompt
 
-1. Open the **Sales** app and select **Draft an email**.
+1. Open the **Sales** pane and select **Draft an email**.
 
 1. Select :::image type="icon" source="media/fav-icon.png" border="false"::: and then select the prompt you want to use.
 
@@ -177,7 +177,7 @@ When you create an email message using custom prompt, you can save the prompt fo
 
 You can save a maximum of three prompts. If you want to save more prompts, you must remove an existing prompt.
 
-1. Open the **Sales** app and select **Draft an email**.
+1. Open the **Sales** pane and select **Draft an email**.
 
 1. Under the **Favorites** section, select the star icon :::image type="icon" source="media/remove-prompt-icon1.png" border="false"::: for the prompt you want to remove.
 

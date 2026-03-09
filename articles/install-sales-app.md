@@ -45,7 +45,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 
 1. Enter **Sales** in the **Search** box.
 
-1. From the search results, select **Get it now** on the **Sales** app's card.
+1. From the search results, select **Get it now** on the **Sales** card.
 
 1. In the **Confirm your details to continue** window, select **Get it now**.
 

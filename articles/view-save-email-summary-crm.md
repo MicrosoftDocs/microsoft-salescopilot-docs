@@ -26,7 +26,7 @@ Email summaries are available when:
 - The email isn't encrypted.
 
 > [!NOTE]
-> Based on the license you have, you can see the email summary either [within Outlook](email-summary-premium.md) or in the **Sales** app in Outlook.
+> Based on the license you have, you can see the email summary either [within Outlook](email-summary-premium.md) or in the **Sales** pane in Outlook.
 
 ## Anatomy of an email summary
 

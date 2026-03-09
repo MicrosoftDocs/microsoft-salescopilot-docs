@@ -53,7 +53,7 @@ As an administrator, you can install the Sales agent as an integrated app from M
 After you've installed the Sales agent as an integrated app, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.  
-1. On the **Integrated apps** page, select the **Sales** app.  
+1. On the **Integrated apps** page, select **Sales**.  
 
 The **Sales** panel opens with the following tabs:
 
@@ -63,7 +63,7 @@ The **Sales** panel opens with the following tabs:
 ## Update the Sales agent
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Settings** &gt; **Integrated apps**.  
-1. On the **Integrated apps** page, select the **Sales** app.  
+1. On the **Integrated apps** page, select **Sales**.  
     The **Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.  
 1. Select **Know more and update**.  
 1. In the **Updates** panel, select **Accept and update**.

@@ -28,12 +28,12 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 1. Enter a name and description for the policy.  
 1. Turn on **User pinning**.  
 1. Under **Installed apps**, select **Add apps**.  
-1. In the **Add installed apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add the Sales agent to the list of apps to install.  
+1. In the **Add installed apps** panel, search for **Sales**. You can also filter apps by app permission policy.  
+1. Select **Add** to add **Sales** to the list of apps to install.  
 1. Select **Add** again to install the listed apps.  
 1. Under **Pinned apps**, select **Add apps**.  
-1. In the **Add pinned apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add the Sales agent to the list of apps to pin.  
+1. In the **Add pinned apps** panel, search for **Sales**. You can also filter apps by app permission policy.  
+1. Select **Add** to add **Sales** to the list of apps to pin.  
 1. Select **Add** again to pin the listed apps.  
 1. Under **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.  
 1. Select **Save**.

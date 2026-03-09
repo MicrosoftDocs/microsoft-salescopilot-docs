@@ -25,7 +25,7 @@ You can share a CRM record using the Sales agent search message extension, the /
 
 ## Share a CRM record in Teams using search message extensions
 
-1. Go to the conversation in which you want to share the CRM record. Select **More apps** (**...**), search for the **Sales** app, and then select it. If the app is pinned to the action bar, select the **Sales** icon under the message box.
+1. Go to the conversation in which you want to share the CRM record. Select **More apps** (**...**), search for **Sales**, and then select it. If the app is pinned to the action bar, select the **Sales** icon under the message box.
 
    :::image type="content" source="media/viva-sales-icon.png" alt-text="Screenshot showing the Sales icon under message box.":::
 
