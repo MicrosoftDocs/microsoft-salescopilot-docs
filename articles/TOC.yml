@@ -83,7 +83,7 @@
       items:
       - name: Overview
         href: sales-chat-overview.md
-      - name: Set up Sales agent
+      - name: Set up Sales agent in Microsoft 365 Copilot
         href: set-up-sales-chat.md
       - name: Extend Sales agent with custom tools and knowledge
         href: extend-sales-chat-custom-tools.md
