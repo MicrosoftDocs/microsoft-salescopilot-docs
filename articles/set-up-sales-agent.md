@@ -25,7 +25,7 @@ As an admin, you can set up Lead Research and Outreach to connect to your CRM an
 - The Sales agent is installed in either Outlook or Teams.
 - You have access to environment-level settings in the [Sales agent admin settings](administrator-settings-sales-app.md).
 - [Copilot AI features must be turned on in your environment](suggested-replies.md).
-- [Lead Research and Outreach must be turned on in Access settings](access-settings.md#sales-agent---lead-research-preview).
+- [Lead Research and Outreach must be turned on in Access settings](access-settings.md#lead-research-and-outreach-preview).
 - Dataverse Search must be set to "Default" or "On" for the environment. [Know what this means for generative AI experiences](/power-platform/admin/configure-relevance-search-organization#what-dataverse-search-means-for-generative-ai-enabled-experiences).
 - The Dataverse environment connected to the Sales agent is a production environment. Learn more about [converting your environment to production](convert-trial-prod.md).
 - [Message capacity purchased](manage-consumption-based-billing.md) and assigned to the Sales agent environment.
@@ -65,7 +65,7 @@ The Lead Research and Outreach can optionally store a summary of the research in
 
 1. Create a custom table in your CRM to store the Lead Research and Outreach research summary. For example, **SalesAgentResearchSummaries**.
 1. In the summary table, create a field labeled **SummaryText**. In Salesforce, the type of the field should be **Text Area (Rich)**. In Dynamics 365, the type of the filed should be **Multiple Lines of Text**.
-1. Set the permissions on the table and fields to allow your sellers read the content of the records. If you're using Salesforce, you must give permission to the Salesforce integration user to read and write to this table. Learn more about [configuring Salesforce permissions for Lead Research and Outreach](#configure-salesforce-permissions-for-sales-agent).
+1. Set the permissions on the table and fields to allow your sellers read the content of the records. If you're using Salesforce, you must give permission to the Salesforce integration user to read and write to this table. Learn more about [configuring Salesforce permissions for Lead Research and Outreach](#configure-salesforce-permissions-for-lead-research-and-outreach).
 
 ### Create a field on lead record to reference the summary
 
@@ -86,7 +86,7 @@ The Lead Research and Outreach can optionally store a summary of the research in
 1. Enter details in the following sections:
    - **Data configuration**: Select the data sources to be used by the agent.
    - **Company profile**: Enter the company profile details.
-1. Salesforce users need to take additional steps to [configure permissions for the Lead Research and Outreach](#configure-salesforce-permissions-for-sales-agent).
+1. Salesforce users need to take additional steps to [configure permissions for the Lead Research and Outreach](#configure-salesforce-permissions-for-lead-research-and-outreach).
 1. Select **Activate**. The activation process may take a few minutes. Once activated, the status changes to **Activated**.
     :::image type="content" source="media/sales-agent-admin.png" alt-text="Screenshot showing admin settings for Lead Research and Outreach.":::
 
@@ -216,4 +216,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Use Lead Research and Outreach](use-sales-agent.md)
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Lead Research and Outreach with Salesforce](set-up-sales-agent-salesforce.md)
-- [Turn on Lead Research and Outreach](access-settings.md#sales-agent---lead-research-preview)
+- [Turn on Lead Research and Outreach](access-settings.md#lead-research-and-outreach-preview)

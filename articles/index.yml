@@ -71,7 +71,7 @@ additionalContent:
     items:
     - title: In Outlook
       links: 
-      - url: open-app.md#access-sales-app-in-outlook
+      - url: open-app.md#access-sales-agent-in-outlook
         text: Access the Sales agent
       - url: connect-contact.md
         text: Connect a contact to your CRM 

@@ -37,7 +37,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 >
 > - This article provides instructions for business users without administrator privileges to install the Sales agent. If you are a CRM administrator trying to install the Sales agent for your sales team, see [Sales agent deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md) or [Sales agent deployment guide for Salesforce customers](deploy-sales-app-sf.md) as per your requirement.
 > - You may not be able to install the Sales agent if downloading add-ins is turned off for your organization. In this case, contact your administrator.
-> - If you are using the Dynamics 365 app for Outlook, you can consider switching to the Sales agent, as you can do much more with the Sales agent. More information: [Difference between the Sales agent and Dynamics 365 app for Outlook](#difference-between-sales-app-and-dynamics-365-app-for-outlook)
+> - If you are using the Dynamics 365 app for Outlook, you can consider switching to the Sales agent, as you can do much more with the Sales agent. More information: [Difference between the Sales agent and Dynamics 365 app for Outlook](#difference-between-sales-agent-and-dynamics-365-app-for-outlook)
 
 ### Install Sales agent in Outlook
 

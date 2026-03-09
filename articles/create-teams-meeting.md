@@ -31,7 +31,7 @@ If you create a recurring meeting, the Sales agent is added to all occurrences o
 
 If the Sales agent is not added automatically to a Teams meeting, a meeting organizer can manually add the app to the meeting. The app is visible only to the participants who are in the same tenant as the meeting organizer.  
 Once the app is added to a recurring meeting, it's added to all occurrences of the meeting.  
-For steps to manually add the Sales agent to a Teams meeting, see [How can I add the Sales agent manually to a Teams meeting?](sales-m365-copilot-faq.md#how-can-i-add-the-sales-app-manually-to-a-teams-meeting)
+For steps to manually add the Sales agent to a Teams meeting, see [How can I add the Sales agent manually to a Teams meeting?](sales-m365-copilot-faq.md#how-can-i-add-the-sales-agent-manually-to-a-teams-meeting)
 
 > [!NOTE]
 > If you try to add the app without signing in to the app from Outlook, a message is displayed to sign in to the app from Outlook. You must sign in to the app from Outlook and then select **Refresh** in the message to add the app to the meeting.

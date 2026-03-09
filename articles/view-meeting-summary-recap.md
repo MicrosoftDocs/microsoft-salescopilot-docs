@@ -19,7 +19,7 @@ Sales includes all the capabilities within Microsoft 365 Copilot to provide user
 ## Prerequisites
 
 - [Turn on Copilot AI features in your environment](suggested-replies.md).
-- Add the Sales agent to the meeting either [manually](create-teams-meeting.md#add-the-sales-app-manually-to-a-teams-meeting) or [automatically](create-teams-meeting.md#add-the-sales-app-automatically-to-a-teams-meeting).
+- Add the Sales agent to the meeting either [manually](create-teams-meeting.md#add-the-sales-agent-manually-to-a-teams-meeting) or [automatically](create-teams-meeting.md#add-the-sales-agent-automatically-to-a-teams-meeting).
 - Transcribe the meeting. It's required to generate sales insights.
 - Ensure that the meeting is not recurring.
 - Ensure that the meeting is not created in Dynamics 365 Sales.

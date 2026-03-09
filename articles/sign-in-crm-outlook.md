@@ -15,7 +15,7 @@ ms.custom:
 
 # Sign in to CRM from Outlook
 
-After you [open the Sales agent in Outlook](open-app.md#access-sales-app-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
+After you [open the Sales agent in Outlook](open-app.md#access-sales-agent-in-outlook), you can sign in and connect your CRM account to get a more enriched experience with CRM data.
 
 ## Automatically sign in
 
