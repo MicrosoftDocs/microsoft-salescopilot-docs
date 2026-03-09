@@ -11,7 +11,7 @@ ai-usage: ai-assisted
 
 # Connect your agents to a data source
 
-Agents such as Sales Agent need to connect to a data source in order to collect data. This is done by setting up a server-to-server connection to the data source. This connection allows the agent to run in the background and access and retrieve data from the data source without requiring user interaction.
+Agents such as Lead Research and Outreach need to connect to a data source in order to collect data. This is done by setting up a server-to-server connection to the data source. This connection allows the agent to run in the background and access and retrieve data from the data source without requiring user interaction.
 
 If you're using Dynamics 365 Sales as your CRM, the agent connects directly to it, as it is deployed in the same environment. No extra setup steps are needed.
 

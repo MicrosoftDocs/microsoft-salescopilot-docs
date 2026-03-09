@@ -22,4 +22,4 @@ ms.reviewer: shjais
 - [FAQ for meeting follow-up feature in Outlook](faqs-meeting-follow-up.md)
 - [FAQ for opportunity summary feature in Outlook](faqs-oppty-summary.md)
 - [FAQ for meeting summary feature in Teams](faqs-meeting-summary.md)
-- [FAQ for Sales Agent](faqs-sales-agent.md)
+- [FAQ for Lead Research and Outreach](faqs-sales-agent.md)

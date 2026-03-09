@@ -71,13 +71,13 @@
       href: access-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
-    - name: Sales Agent - Lead Research (preview)
+    - name: Lead Research and Outreach (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
-      - name: Set up Sales Agent
+      - name: Set up Lead Research and Outreach
         href: set-up-sales-agent.md
-      - name: Integrate Sales Agent with Salesforce
+      - name: Integrate Lead Research and Outreach with Salesforce
         href: set-up-sales-agent-salesforce.md
     - name: Sales agent in Microsoft 365 Copilot (preview)
       items:
@@ -215,11 +215,11 @@
       href: personal-app.md
     - name: View customer communication (preview)
       href: view-customer-communication.md
-    - name: Sales Agent - Lead Research (preview)
+    - name: Lead Research and Outreach (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
-      - name: Use Sales Agent
+      - name: Use Lead Research and Outreach
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
@@ -354,5 +354,5 @@
     href: faqs-oppty-summary.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
-  - name: FAQ for Sales Agent
+  - name: FAQ for Lead Research and Outreach
     href: faqs-sales-agent.md

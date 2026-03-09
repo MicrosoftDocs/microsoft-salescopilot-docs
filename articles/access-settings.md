@@ -1,6 +1,6 @@
 ---
 title: Configure access settings for features in the Sales agent
-description: Control access to various features in the Sales agent, including meeting insights and Sales Agent capabilities.
+description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
 ms.date: 12/01/2025
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -54,17 +54,17 @@ You can configure [meeting insights settings](configure-meeting-agent.md) such a
 
 If you want to turn off meeting insights storage, follow the same steps to access the **Allow meeting insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any meeting insights, and related features will be hidden.
 
-## Sales Agent - Lead Research (preview)
+## Lead Research and Outreach (preview)
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-Sales Agent allows sellers to automate lead research and get insights about their leads. It helps sellers prepare for meetings by providing relevant information about the lead, such as company details and recent news. 
+Lead Research and Outreach allows sellers to automate lead research and get insights about their leads. It helps sellers prepare for meetings by providing relevant information about the lead, such as company details and recent news. 
 
-By default, Sales Agent is turned off. When you turn it on, you can control whether Sales Agent is available to all sellers or only to specific security groups.
+By default, Lead Research and Outreach is turned off. When you turn it on, you can control whether Lead Research and Outreach is available to all sellers or only to specific security groups.
 
-To turn on Sales Agent:
+To turn on Lead Research and Outreach:
 
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Environment**, select **Access settings**.
@@ -80,11 +80,11 @@ To turn on Sales Agent:
 
 1. Select **Save**.
 
-    :::image type="content" source="media/sales-agent-access-settings.png" alt-text="Screenshot showing Sales Agent access settings.":::
+    :::image type="content" source="media/sales-agent-access-settings.png" alt-text="Screenshot showing Lead Research and Outreach access settings.":::
 
-After you turn on Sales Agent, you can [set up and activate the Sales Agent feature from the **Sales Agent - Lead Research** settings page](set-up-sales-agent.md).
+After you turn on Lead Research and Outreach, you can [set up and activate the Lead Research and Outreach feature from the **Lead Research and Outreach** settings page](set-up-sales-agent.md).
 
-If you want to turn off Sales Agent, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Sales Agent feature in the Sales agent. Turning off the agent will stop the agent from researching leads.
+If you want to turn off Lead Research and Outreach, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Lead Research and Outreach feature in the Sales agent. Turning off the agent will stop the agent from researching leads.
 
 ## Sales agent in Microsoft 365 Copilot (preview)
 
@@ -119,5 +119,5 @@ If you want to turn off Sales agent, follow the same steps to access the **Allow
 ## Related information
 
 - [Configure meeting insights settings](configure-meeting-agent.md)
-- [Set up and activate Sales Agent - Lead Research](set-up-sales-agent.md)
+- [Set up and activate Lead Research and Outreach](set-up-sales-agent.md)
 - [Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)

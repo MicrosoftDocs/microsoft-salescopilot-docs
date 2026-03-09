@@ -23,7 +23,7 @@ You can find the name and details of your environment in the **Environments** se
 > [!WARNING]
 > Do not remove or edit the **msdyn_viva** environment because it is holds important data for the Sales agent. If the environment is removed or edited, the Sales agent might stop working.
 
-To use Sales Agent, you must convert the trial environment to production in which the Sales agent is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
+To use Lead Research and Outreach, you must convert the trial environment to production in which the Sales agent is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
 
 ## Convert the environment from Trial to Production
 
@@ -61,6 +61,6 @@ To assign the role:
 1. Select **More team actions** (vertical ellipsis) and then select **Manage security roles**.
 1. In the **Manage security roles** pane, select **Viva Sales**, and then select **Save**.
 
-## Set up billing options for Sales Agent
+## Set up billing options for Lead Research and Outreach
 
-If you've converted the environment to use Sales Agent, you must set up billing options. Learn more about [managing consumption-based billing for agent capabilities](manage-consumption-based-billing.md).
+If you've converted the environment to use Lead Research and Outreach, you must set up billing options. Learn more about [managing consumption-based billing for agent capabilities](manage-consumption-based-billing.md).

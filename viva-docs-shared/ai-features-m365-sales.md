@@ -15,4 +15,4 @@
 | **View sales insights in Microsoft Teams meeting recap** | Get summarized meeting insights and meeting recaps to grow customer relationships and close deals. | [View sales insights in Microsoft Teams meeting recap](/microsoft-sales-copilot/view-meeting-summary-recap) |
 | **Create Planner tasks** | Easily capture and track tasks that are discussed during their conversations. | [Create Planner tasks](/microsoft-sales-copilot/suggested-tasks-collab-space) |
 | **Cross-app** | | |
-| **Work with Sales Agent - Lead research** | Get a comprehensive overview of the research conducted on your leads. This includes insights into the lead's company, recent news, and other relevant information that can help you tailor your outreach strategy. | [Work with Sales Agent - Lead research](/microsoft-sales-copilot/use-sales-agent) |
+| **Work with Lead Research and Outreach** | Get a comprehensive overview of the research conducted on your leads. This includes insights into the lead's company, recent news, and other relevant information that can help you tailor your outreach strategy. | [Work with Lead Research and Outreach](/microsoft-sales-copilot/use-sales-agent) |

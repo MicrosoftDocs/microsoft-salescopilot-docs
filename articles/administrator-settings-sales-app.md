@@ -55,7 +55,7 @@ You can access the administrator settings in the Sales agent in Outlook and Team
       - **Custom AI instructions**: [Customize the AI instructions for generating the account summary](set-up-sales-chat.md#step-3-configure-account-summary)
     
     **Features**:
-      - **Sales Agent - Lead research**: [Set up the Sales Agent - Lead research feature](set-up-sales-agent.md).
+      - **Sales Agent - Lead Research**: [Set up the Lead Research and Outreach feature](set-up-sales-agent.md).
       - **Meeting insights**: [Help sellers stay on top of their deals with AI-driven insights based on their Teams meetings](configure-meeting-agent.md).
       - **Sales Chat**: [Set up the Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md).
       
