@@ -12,8 +12,6 @@ ms.localizationpriority: medium
 
 # Welcome to Sales agent
 
-[!INCLUDE [vs-rebrand-note](includes/vs-rebrand-note.md)]
-
 Sales agent is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.
 
 Depending on the following roles, you can use the Sales agent to boost your sales productivity:

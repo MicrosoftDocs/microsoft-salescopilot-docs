@@ -18,7 +18,7 @@ Sales personal app is the enhanced Teams personal app that has **Home** and **Se
 
 On the left navigation pane, select **More Apps**, and then search and select **Sales**. 
 
-:::image type="content" source="media/outlook-app-validate.svg" alt-text="Screenshot showing the Sales agent in Outlook.":::
+:::image type="content" source="media/outlook-app-validate.png" alt-text="Screenshot showing the Sales agent in Outlook.":::
 
 ## Open the personal app in Teams
 

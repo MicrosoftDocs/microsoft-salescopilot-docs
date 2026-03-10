@@ -217,3 +217,4 @@ You can deactivate the agent at any time. When you deactivate the agent, it stop
 - [Connect your agents to a data source](connect-agent-datasource.md)
 - [Integrate Lead Research and Outreach with Salesforce](set-up-sales-agent-salesforce.md)
 - [Turn on Lead Research and Outreach](access-settings.md#lead-research-and-outreach-preview)
+- [Use the Sales Development agent](/microsoft-agent-365/use)

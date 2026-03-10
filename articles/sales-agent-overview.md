@@ -49,3 +49,4 @@ Once configured, you can view summaries within your CRM or browse the Lead Resea
 - [Set up Lead Research and Outreach](set-up-sales-agent.md)
 - [Use Lead Research and Outreach](use-sales-agent.md)
 - [Send outreach email to leads](send-outreach-emails.md)
+- [Use the Sales Development agent](/microsoft-agent-365/use)
