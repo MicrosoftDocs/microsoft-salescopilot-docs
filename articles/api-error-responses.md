@@ -1,7 +1,7 @@
 ---
 title: Standardize error responses (preview)
 description: Standardize error responses to ensure consistent and understandable messages.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -41,5 +41,5 @@ The following table lists a few scenarios and the expected error codes.
 
 ### Related information
 
-[Extend Sales in Microsoft 365 Copilot with partner applications](extend-sales-app.md)<br>
-[Build extensions for Sales in Microsoft 365 Copilot](build-apis.md)
+[Extend Sales agent with partner applications](extend-sales-app.md)<br>
+[Build extensions for Sales agent](build-apis.md)
