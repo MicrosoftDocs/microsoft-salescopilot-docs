@@ -1,10 +1,10 @@
-- name: Sales in Microsoft 365 Copilot documentation
+- name: Sales agent documentation
   href: landing.yml
 
-- name: Welcome to Sales in Microsoft 365 Copilot
+- name: Welcome to Sales agent
   href: introduction.md
 
-- name: What's new in Sales in Microsoft 365 Copilot
+- name: What's new in Sales agent
   items:
   - name: What's new overview
     href: whats-new.md
@@ -17,24 +17,24 @@
     href: architecture.md
   - name: Mobile support
     href: mobile-support.md
-  - name: Privileges required for Sales app
+  - name: Privileges required for Sales agent
     href: privileges.md
-  - name: Data handling in Sales app
+  - name: Data handling in Sales agent
     href: data-handling.md
-  - name: Sales app FAQ
+  - name: Sales agent FAQ
     href: sales-m365-copilot-faq.md
   - name: Get support
     href: get-support.md
 
 - name: Install
   items:
-  - name: Install Sales app
+  - name: Install Sales agent
     items:
-    - name: Install Sales app
+    - name: Install Sales agent
       href: install-sales-app.md
-    - name: Install Sales app in Outlook
+    - name: Install Sales agent in Outlook
       href: install-sales-as-an-integrated-app.md
-    - name: Install and pin Sales app in Teams
+    - name: Install and pin Sales agent in Teams
       href: install-pin-sales-teams.md
 
 - name: Deployment scenarios
@@ -59,7 +59,7 @@
       href: suggested-replies.md
     - name: Turn off task suggestion in collaboration spaces (preview)
       href: turn-off-suggested-tasks-collab-space.md
-    - name: Sales app data movement across geographies
+    - name: Sales agent data movement across geographies
       href: copilot-data-movement.md
     - name: Configure how Outlook emails and events are saved to CRM
       href: save-additional-details-outlook.md
@@ -71,19 +71,19 @@
       href: access-settings.md
     - name: Connect your agents to a data source
       href: connect-agent-datasource.md
-    - name: Sales Agent - Lead Research (preview)
+    - name: Lead Research and Outreach (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
-      - name: Set up Sales Agent
+      - name: Set up Lead Research and Outreach
         href: set-up-sales-agent.md
-      - name: Integrate Sales Agent with Salesforce
+      - name: Integrate Lead Research and Outreach with Salesforce
         href: set-up-sales-agent-salesforce.md
     - name: Sales agent in Microsoft 365 Copilot (preview)
       items:
       - name: Overview
         href: sales-chat-overview.md
-      - name: Set up Sales agent
+      - name: Set up Sales agent in Microsoft 365 Copilot
         href: set-up-sales-chat.md
       - name: Extend Sales agent with custom tools and knowledge
         href: extend-sales-chat-custom-tools.md
@@ -95,16 +95,16 @@
       href: manage-consumption-based-billing.md
   - name: Turn off actionable banners in Microsoft 365 apps
     href: m365-admin-setting.md
-  - name: Uninstall Sales app
+  - name: Uninstall Sales agent
     href: uninstall-sales-app.md
-  - name: Sales app adoption report
+  - name: Sales agent adoption report
     href: adoption-report.md
 
 - name: Seller guide
   items:
   - name: Learn the basics
     items:
-    - name: Access the Sales app
+    - name: Access the Sales agent
       href: open-app.md
     - name: Sign in to CRM from Outlook
       href: sign-in-crm-outlook.md
@@ -118,9 +118,9 @@
         href: connect-contact.md
       - name: Change the connected CRM contact
         href: change-connected-crm-contact.md
-      - name: Create a contact in your CRM from Sales app
+      - name: Create a contact in your CRM from Sales agent
         href: create-contact-crm.md
-      - name: Create a new record in your CRM from Sales app
+      - name: Create a new record in your CRM from Sales agent
         href: create-new-record.md
       - name: Save Outlook activities to your CRM
         href: save-outlook-activities-crm.md
@@ -134,9 +134,9 @@
         href: share-link-crm-record.md
       - name: Edit a CRM record
         href: edit-crm-record.md
-      - name: Use server-side synchronization with Sales app
+      - name: Use server-side synchronization with Sales agent
         href: use-server-side-sync.md
-      - name: Search for a record in Sales app
+      - name: Search for a record in Sales agent
         href: global-search.md
     - name: AI capabilities
       items:
@@ -150,7 +150,7 @@
         items:
         - name: Draft an email message using sales information in Outlook
           href: email-reply-premium.md
-        - name: Draft an email message in Sales app
+        - name: Draft an email message in Sales pane
           href: use-copilot-kickstart-email-messages.md
       - name: View opportunity summary
         href: view-opportunity-summary.md
@@ -178,7 +178,7 @@
         href: daily-digest.md
     - name: During meeting 
       items: 
-      - name: Use Sales app during a meeting
+      - name: Use Sales agent during a meeting
         href: use-sales-copilot-app-during-meeting.md
     - name: Post-meeting
       items:
@@ -191,7 +191,7 @@
 
   - name: Cross-app capabilities
     items:
-    - name: Collaboration space in Sales app
+    - name: Collaboration space in Sales agent
       items:
       - name: Overview
         href: collaboration-space.md
@@ -215,11 +215,11 @@
       href: personal-app.md
     - name: View customer communication (preview)
       href: view-customer-communication.md
-    - name: Sales Agent - Lead Research (preview)
+    - name: Lead Research and Outreach (preview)
       items:
       - name: Overview
         href: sales-agent-overview.md
-      - name: Use Sales Agent
+      - name: Use Lead Research and Outreach
         href: use-sales-agent.md
       - name: Send outreach emails
         href: send-outreach-emails.md
@@ -230,7 +230,7 @@
       - name: Use Sales agent
         href: use-sales-chat.md
 
-- name: Extend Sales in Microsoft 365 Copilot (preview)
+- name: Extend Sales agent (preview)
   items:
   - name: Overview
     href: extend-sales-app.md
@@ -279,9 +279,9 @@
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Required fields are missing" error'
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/required-fields-missing?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't see data in Sales app
+      - name: Salesforce CRM users can't see data in Sales agent
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't view, edit, or save data in Sales app
+      - name: Salesforce CRM users can't view, edit, or save data in Sales agent
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/salesforce-permission-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"This contact already exists" error when creating a CRM record'
         href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/duplicate-record-error?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -307,7 +307,7 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Failure passed to redirect url" error when signing in'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: First Salesforce CRM user can't access Sales app
+      - name: First Salesforce CRM user can't access Sales agent
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: Incorrect custom domain in Salesforce
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -315,7 +315,7 @@
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"Request administrator permissions to access Salesforce using APIs" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Update add-in error in Sales app for Microsoft Outlook
+      - name: Update add-in error in Sales agent for Microsoft Outlook
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
       - name: '"User does not have required privileges to access the org" error'
         href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
@@ -328,16 +328,16 @@
       - name: Opportunity summary not displayed in deal rooms
         href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 
-- name: Sales app training
+- name: Sales agent training
   href: /training/modules/boost-sales-performance/
 
-- name: Sales app adoption resources
+- name: Sales agent adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
 
-- name: Sales app success kit
+- name: Sales agent success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
 
-- name: Deprecations in Sales app
+- name: Deprecations in Sales agent
   href: deprecations-sales-app.md
 
 - name: Responsible AI
@@ -354,5 +354,5 @@
     href: faqs-oppty-summary.md
   - name: FAQ for meeting summary
     href: faqs-meeting-summary.md
-  - name: FAQ for Sales Agent
+  - name: FAQ for Lead Research and Outreach
     href: faqs-sales-agent.md

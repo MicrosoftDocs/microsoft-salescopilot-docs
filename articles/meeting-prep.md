@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams.
-ms.date: 01/08/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -94,7 +94,7 @@ The meeting preparation card contains the following information:
 
     :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot showing opportunity summary in meeting preparation card":::
 
-- **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it may also include meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. Meetings without AI-generated insights may also be shown in the list, such as meetings that were not recorded or the Sales app was not added to the meetings. 
+- **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it may also include meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. Meetings without AI-generated insights may also be shown in the list, such as meetings that were not recorded or the Sales agent was not added to the meetings. 
 
     :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot showing recent communications in meeting preparation card":::
 
@@ -115,14 +115,14 @@ To generate a meeting preparation card, the meeting must meet the following requ
 
 ## Limitations
 
-- The Sales app is automatically added to Teams meetings that include at least one external participant. This process might take a few minutes after the meeting is created and is required for the meeting to be recognized as a sales meeting. If you start and record the meeting before the Sales app is added, the meeting isn't recognized as a sales meeting and no post-meeting follow-up notification is generated.
+- The Sales agent is automatically added to Teams meetings that include at least one external participant. This process might take a few minutes after the meeting is created and is required for the meeting to be recognized as a sales meeting. If you start and record the meeting before the Sales agent is added, the meeting isn't recognized as a sales meeting and no post-meeting follow-up notification is generated.
 - Only past meetings have insights generated. Email insights aren't included currently.
 - Meeting insights are linked only to one opportunity in CRM. 
 - The card is sent only after the meeting is initially scheduled. If you make changes to the meeting after scheduling it, no new card is generated.
 
 ## How does the card work?
 
-The AI-generated insights displayed on the meeting preparation card are based on opportunities identified and matched with meeting participants who are recognized as contacts in your CRM. If there are multiple meeting participants who are contacts, the Sales app uses the Microsoft Graph API to determine the order and prioritizes the first contact returned with most recent modification in CRM to locate linked opportunities in CRM. When multiple opportunities are linked with this contact, the most recent one is selected for display on the card. After identifying the relevant opportunity, the Sales app pulls the emails and meetings saved in CRM that are linked to this opportunity, and uses AI-powered soft-linking to scan and match the other unsaved meetings related to this opportunity, including meetings organized by other team members, such as peer sellers. The system then generates a summary of all matched past meetings, providing synthesized insights into key risks and upcoming actions. Insights are presented in your supported local language and your local time zone. 
+The AI-generated insights displayed on the meeting preparation card are based on opportunities identified and matched with meeting participants who are recognized as contacts in your CRM. If there are multiple meeting participants who are contacts, the Sales agent uses the Microsoft Graph API to determine the order and prioritizes the first contact returned with most recent modification in CRM to locate linked opportunities in CRM. When multiple opportunities are linked with this contact, the most recent one is selected for display on the card. After identifying the relevant opportunity, the Sales agent pulls the emails and meetings saved in CRM that are linked to this opportunity, and uses AI-powered soft-linking to scan and match the other unsaved meetings related to this opportunity, including meetings organized by other team members, such as peer sellers. The system then generates a summary of all matched past meetings, providing synthesized insights into key risks and upcoming actions. Insights are presented in your supported local language and your local time zone. 
 
 > [!NOTE]
 > You must check the AI-generated content carefully because it can have mistakes. It's your responsibility to review the AI-generated content to make sure it's accurate and appropriate.

@@ -1,7 +1,7 @@
 ---
 title: View customer communication (preview)
-description: Learn how to work with the Customer communication card in the Sales app
-ms.date: 11/20/2025
+description: Learn how to work with the Customer communication card in the Sales agent
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -12,7 +12,7 @@ ms.author: shjais
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, the Sales app provides AI-generated insights such as the summary, sentiment, objections, and next steps.
+The **Customer communication** card shows a chronological view of your interactions with a customer, including meetings. This card helps you catch up and gain insights into all the activities that happened for a given opportunity. You can see all the meetings related to the opportunity. For each meeting, the Sales agent provides AI-generated insights such as the summary, sentiment, objections, and next steps.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
@@ -37,7 +37,7 @@ You can see **Customer communication** card in the following places:
 ## Access the Customer communication card in Outlook
 
 1. In Outlook, open an email or a meeting.
-1. [Open the Sales app](open-app.md#access-sales-app-in-outlook).
+1. [Open the Sales agent](open-app.md#access-sales-agent-in-outlook).
 1. Go to the **Customer communication** card.
 1. To view insights for a meeting, select **View meeting insights**.
 
@@ -51,4 +51,4 @@ You can see **Customer communication** card in the following places:
 ## Related information
 
 - [Save Outlook activities to your CRM](save-outlook-activities-crm.md)
-- [Configure access settings for features in the Sales app](access-settings.md)
+- [Configure access settings for features in the Sales agent](access-settings.md)
