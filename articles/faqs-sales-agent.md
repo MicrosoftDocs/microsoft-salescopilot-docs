@@ -1,7 +1,7 @@
 ---
-title: FAQ for Sales Agent
-description: This FAQ provides information about the AI technology used in the Sales Agent feature in the Sales app, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/20/2025
+title: FAQ for Lead Research and Outreach
+description: This FAQ provides information about the AI technology used in the Lead Research and Outreach feature in the Sales agent, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 03/09/2026
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -11,24 +11,24 @@ ms.author: shjais
 ms.reviewer: shjais
 ---
 
-# FAQ for Sales Agent
+# FAQ for Lead Research and Outreach
 
-These frequently asked questions (FAQs) describe the AI impact of Sales Agent.
+These frequently asked questions (FAQs) describe the AI impact of Lead Research and Outreach.
 
-## What is Sales Agent?
+## What is Lead Research and Outreach?
 
-Sales Agent uses a combination of internal and external data sources to research leads. It connects to your CRM (Microsoft Dynamics 365 Sales or Salesforce Sales Cloud) to find leads, and then uses the web and third-party data services to gather additional information about the lead's company, recent news, and other relevant insights.
-Sales Agent also generates personalized outreach emails based on the insights gathered during the research process. These emails are tailored to the lead's interests and needs, increasing the chances of a positive response.
+Lead Research and Outreach uses a combination of internal and external data sources to research leads. It connects to your CRM (Microsoft Dynamics 365 Sales or Salesforce Sales Cloud) to find leads, and then uses the web and third-party data services to gather additional information about the lead's company, recent news, and other relevant insights.
+Lead Research and Outreach also generates personalized outreach emails based on the insights gathered during the research process. These emails are tailored to the lead's interests and needs, increasing the chances of a positive response.
 
 ## What are the feature's capabilities?
 
-Sales Agent utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
+Lead Research and Outreach utilizes large language models (LLM), natural language processing (NLP), and machine learning algorithms to analyze salesperson input, customer data, and historical email interactions. It leverages this information to generate tailored email drafts by suggesting content, subject lines, and personalized messaging, enhancing the salesperson's ability to engage with customers effectively.
 
 ## What is the feature's intended use? 
 
 The intended use of this feature is to assist salespeople in qualifying leads and creating effective and personalized email drafts to communicate with customers. It aims to save time, improve writing skills, and enhance customer engagement by providing content suggestions and guidance based on historical data and customer insights.
 
-## How was the Sales Agent feature evaluated? What metrics are used to measure performance?
+## How was the Lead Research and Outreach feature evaluated? What metrics are used to measure performance?
 
 The feature is evaluated through a combination of comparative analysis, human review, and customer engagement metrics. Performance is measured based on criteria such as accuracy, relevance, engagement, and customer satisfaction. Human reviewers assess the quality of system-generated content, ensuring it aligns with human-written drafts.
 End-users provide ongoing feedback on each Copilot feature, along with iterative improvements contribute to optimizing the system's performance across all features.
@@ -48,18 +48,18 @@ The generated email drafts may not always capture the nuance or tone of the sale
 - **Transparency and explainability**: Foster transparency by clearly communicating to users how the system works, the underlying technologies used, and any limitations or potential biases. Ensure that users have a basic understanding of the system's capabilities and are informed about its AI-powered nature.  
 - **Accountability and error correction**: Establish mechanisms for addressing errors or inaccuracies that may occur in system-generated content. Encourage users to review and correct any inaccuracies, taking responsibility for the final output, and ensuring it aligns with their knowledge and expertise.
 
-## Which languages does Sales Agent support?
+## Which languages does Lead Research and Outreach support?
 
-Sales Agent currently supports only English. 
+Lead Research and Outreach currently supports only English. 
 
-## What data sources does Sales Agent use?
+## What data sources does Lead Research and Outreach use?
 
-Sales Agent currently makes use of data from the following data sources:
+Lead Research and Outreach currently makes use of data from the following data sources:
 - Dynamics 365 Sales or Salesforce CRM: Data from lead, account, contact, opportunity records and their related activity records are used when performing lead research.
 - Publicly available web pages available internet.
 
 ## Related Information
 
-- [Set up Sales Agent](set-up-sales-agent.md)
-- [Use Sales Agent](use-sales-agent.md)
+- [Set up Lead Research and Outreach](set-up-sales-agent.md)
+- [Use Lead Research and Outreach](use-sales-agent.md)
 - [Send outreach email to leads](send-outreach-emails.md)

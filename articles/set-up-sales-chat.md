@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
-ms.date: 02/16/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,18 +16,18 @@ ms.author: shjais
 
 The Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales agent is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
 
-The Sales agent is available to users who have access to a Microsoft 365 Copilot license. To see Sales agent, you must [install the Sales app](install-sales-app.md).
+The Sales agent is available to users who have access to a Microsoft 365 Copilot license. To see Sales agent, you must [install the Sales agent](install-sales-app.md).
 
 > [!NOTE]
-> - If your team already uses Sales in Microsoft 365 Copilot, they'll see the Sales agent in the list of agents in Microsoft 365 Copilot Chat.
+> - If your team already uses Sales agent, they'll see the Sales in the list of agents in Microsoft 365 Copilot Chat.
 > - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales agent in the list of agents even if they have a Microsoft 365 Copilot license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
 
 ## Prerequisites
 
-- [The Sales app is installed in both Outlook and Teams](install-viva-sales.md).
-- You have access to environment-level settings in the [administrator settings for Sales in Microsoft 365 Copilot](administrator-settings-sales-app.md).
-- [Sales Chat must be turned on in Access settings.](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
-- The Sales app must be connected to a CRM system.
+- [The Sales agent is installed in both Outlook and Teams](install-viva-sales.md).
+- You have access to environment-level settings in the [administrator settings for Sales agent](administrator-settings-sales-app.md).
+- [Sales Chat must be turned on in Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
+- The Sales agent must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data](privileges.md). If you are a Salesforce admin, you must assign the security role in the [msdyn_viva environment in Power Platform admin center](privileges.md#access-msdyn_viva-environment-and-assign-security-role).
 
 ## Step 1: Configure CRM record types (tables)
@@ -41,7 +41,7 @@ By default, the Sales agent includes a predefined list of record types. You can 
 > - For Dynamics 365, if you've set up Sales agent before January 2026 and added record types in Forms settings, those record types will be available in Sales agent by default.
 
 > [!IMPORTANT]
-> To initialize the Sales agent and set up the connection to your CRM, you must open the **Sales Chat** settings page at least once from the [Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings). When you load the page for the first time, it triggers the initialization process and loads the supported entities for use in the Sales agent. Without this step, the initialization can't be triggered automatically.
+> To initialize the Sales agent and set up the connection to your CRM, you must open the **Sales Chat** settings page at least once from the [Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings). When you load the page for the first time, it triggers the initialization process and loads the supported entities for use in the Sales agent. Without this step, the initialization can't be triggered automatically.
 
 ### Default record types
 
@@ -72,7 +72,7 @@ Sales agent accesses the record types configured in [Forms settings](customize-f
 
 ### Add new record types to Sales agent
 
-1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Sales Chat**.
 1. Select **Add**.
     :::image type="content" source="media/sales-chat-record-types.png" alt-text="Screenshot showing the Sales Chat record types settings.":::
@@ -85,7 +85,7 @@ Sales agent accesses the record types configured in [Forms settings](customize-f
 
 ### Remove record types from Sales agent
 
-1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Sales Chat**.
 1. Select the record types you want to remove, and then select **Remove**.
 1. In the confirmation dialog box, select **Remove**.
@@ -93,7 +93,7 @@ Sales agent accesses the record types configured in [Forms settings](customize-f
 > [!NOTE]
 > - You can remove multiple record types at once.
 > - You must have at least one record type configured for Sales agent to function.
-> - When you remove a record, the Sales agent will no longer have access to it. If this record is configured in Forms settings, it will still be available in Forms and can be used in other features of the Sales app.
+> - When you remove a record, the Sales agent will no longer have access to it. If this record is configured in Forms settings, it will still be available in Forms and can be used in other features of the Sales agent.
 
 ## Step 2: Set up additional synonyms and glossary terms
 
@@ -150,27 +150,27 @@ Glossary terms are not supported for Salesforce CRM currently.
 
 ## Step 3: Configure account summary
 
-Sales reps can get a summary of their accounts in Sales agent. To enable this feature, you need to configure the account summary settings in the Sales app admin settings.
+Sales reps can get a summary of their accounts in Sales agent. To enable this feature, you need to configure the account summary settings in the Sales agent admin settings.
 
 Generating the account summary involves two main components:
 
 1. Getting information about the account
 
-    Sales agent gathers all account-related information that is configured to be available to the Sales app through admin settings. This includes:
+    Sales agent gathers all account-related information that is configured to be available to the Sales agent through admin settings. This includes:
 
-    - Columns from the **Account** record type (table) in CRM that are enabled for the Sales app.
-    - Related record types (tables) in CRM that are enabled for the Sales app.
+    - Columns from the **Account** record type (table) in CRM that are enabled for the Sales agent.
+    - Related record types (tables) in CRM that are enabled for the Sales agent.
     
     Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
 
-    To change the CRM information included in the account summary, update the CRM data available to the Sales app. Learn how to [configure record types in the Sales app](customize-forms-and-fields.md).
+    To change the CRM information included in the account summary, update the CRM data available to the Sales agent. Learn how to [configure record types in the Sales agent](customize-forms-and-fields.md).
 1. Curating the summary
 
     Sales agent uses natural language instructions to organize and present the account information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
 
     To customize the AI instructions for the account summary:
 
-    1. Go to the [Sales app admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+    1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
     1. Under **Environment**, select **Custom AI instructions**.
     1. For the **Account summary** report, select **...** > **Edit**.
 
@@ -189,7 +189,7 @@ Generating the account summary involves two main components:
 
 ## Step 4: Configure past customer meetings
 
-Meeting insights generated by the Sales app are accessible in Sales agent. You can [manage access to meeting insights through the Sales app access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales agent.
+Meeting insights generated by the Sales agent are accessible in Sales agent. You can [manage access to meeting insights through the Sales agent access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales agent.
 
 ## Step 5 (optional): Enable Microsoft 365 Copilot chat in model-driven apps
 
@@ -199,4 +199,4 @@ This step is applicable only if you're using Dynamics 365 as your CRM system. En
 
 - [Use Sales agent in Microsoft 365 Copilot](use-sales-chat.md)
 - [Turn on Sales agent](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
-- [Privileges required to use Sales app](privileges.md)
+- [Privileges required to use Sales agent](privileges.md)

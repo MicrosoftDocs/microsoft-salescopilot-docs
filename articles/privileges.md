@@ -1,26 +1,26 @@
 ---
-title: Privileges required to use Sales app
-description: Learn what are the various privileges required to use the Sales app
-ms.date: 11/20/2025
+title: Privileges required to use Sales agent
+description: Learn what are the various privileges required to use the Sales agent
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Privileges required to use Sales app
+# Privileges required to use Sales agent
 
-The Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales app.
+The Sales applies your organization's existing CRM access controls and user permissions. Administrators must have correct permissions to customize their CRM systems, and users must have the correct permissions to view, update, and create records in their CRM systems from the Sales agent.
 
 > [!NOTE]
-> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of the Sales app in Outlook and then sign in again for these changes to be reflected appropriately. 
-> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in the Sales app for Teams.
+> - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of the Sales agent in Outlook and then sign in again for these changes to be reflected appropriately. 
+> - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in the Sales agent for Teams.
 
 ## Privileges required for Salesforce customers
 
 ### Salesforce administrators
 
-Salesforce administrators who need to customize the Sales app must have the following permissions.
+Salesforce administrators who need to customize the Sales agent must have the following permissions.
 
 |Requirement type  |You must have  |
 |---------|---------|
@@ -63,9 +63,9 @@ Learn more about [assigning security roles in Power Platform admin center](/powe
 
 ### Dynamics 365 administrators
 
-If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, the Sales app administration privileges are added automatically.
+If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, the Sales agent administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) and following privileges to Dynamics 365 administrators who need to customize the Sales app.  
+If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) and following privileges to Dynamics 365 administrators who need to customize the Sales agent.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
@@ -89,9 +89,9 @@ For Sales agent in Microsoft 365 Copilot, also assign the following privileges:
 
 ### Dynamics 365 sellers
 
-If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, the Sales app privileges are added automatically and no further action is required.
+If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, the Sales agent privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role and following privileges to Dynamics 365 sellers who need to use the Sales app.
+If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role and following privileges to Dynamics 365 sellers who need to use the Sales agent.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -122,13 +122,13 @@ To edit custom security roles to match with out-of-the-box Salesperson or Sales 
 
 For information on security roles and privileges, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-## Deploy Sales app
+## Deploy Sales agent
 
-Looking for step-by-step instructions on how to deploy the Sales app? Here are the Sales app deployment guides:
+Looking for step-by-step instructions on how to deploy the Sales agent? Here are the Sales agent deployment guides:
 
-- [Sales app deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md)
-- [Sales app deployment guide for Salesforce CRM customers](deploy-sales-app-sf.md)
+- [Sales agent deployment guide for Dynamics 365 customers](deploy-sales-app-d365.md)
+- [Sales agent deployment guide for Salesforce CRM customers](deploy-sales-app-sf.md)
 
 ### Related information
 
-[Install Sales app](install-sales-app.md)
+[Install Sales agent](install-sales-app.md)
