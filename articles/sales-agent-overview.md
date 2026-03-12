@@ -1,7 +1,7 @@
 ---
-title: Sales Agent overview (preview)
-description: Learn how Sales Agent helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
-ms.date: 11/20/2025
+title: Lead Research and Outreach overview (preview)
+description: Learn how Lead Research and Outreach helps sales teams generate more qualified leads and increase response rates with AI-generated insights and personalized outreach messages.
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -9,46 +9,44 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Sales Agent overview (preview)
+# Lead Research and Outreach overview (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-> [!NOTE]
-> The Sales Agent is currently being rolled out to different regions in phases. If you don't see the agent in your environment, it might not have reached your region yet. The rollout is expected to be completed by June 23, 2025.
-
 Sales teams need to constantly generate enough pipeline to stay ahead of their sales goals. This requires deciding which leads to engage, a time-consuming process that today requires sellers to sift through large amount of data across tools and data sources, including data from internal systems like their CRM and external resources like the web and third-party data services.
 
-As a seller, you can save time and engage more leads with Sales Agent's AI-generated insights and personalized outreach messages. Sales Agent does the grunt work of looking at every available data source to build a comprehensive summary of each lead so you can quickly decide to engage or pass on the prospect. Sales Agent reviews every lead in your queue, gathers information, and synthesizes insights that are specific to your business. At a glance, you can determine if a lead is worth reaching out to and what they may be interested in. The information is then used to automatically generates personalized emails to send to the lead that increase response rates leading to a larger, more qualified pipeline, at a fraction of the time spent before.
+As a seller, you can save time and engage more leads with Lead Research and Outreach's AI-generated insights and personalized outreach messages. Lead Research and Outreach does the grunt work of looking at every available data source to build a comprehensive summary of each lead so you can quickly decide to engage or pass on the prospect. Lead Research and Outreach reviews every lead in your queue, gathers information, and synthesizes insights that are specific to your business. At a glance, you can determine if a lead is worth reaching out to and what they may be interested in. The information is then used to automatically generates personalized emails to send to the lead that increase response rates leading to a larger, more qualified pipeline, at a fraction of the time spent before.
 
 > [!TIP]
-> Sales Agent can also operate autonomously to engage with your leads directly to send emails, follow up, respond to questions, and hand off to sellers when the lead is ready. Request early access to the Sales Agent autonomous capabilities by [submitting this form.](https://go.microsoft.com/fwlink/?linkid=2325020)
+> Lead Research and Outreach can also operate autonomously to engage with your leads directly to send emails, follow up, respond to questions, and hand off to sellers when the lead is ready. Request early access to the Lead Research and Outreach autonomous capabilities by [submitting this form.](https://go.microsoft.com/fwlink/?linkid=2325020)
 
 ## How it works
 
-Sales Agent uses a combination of internal and external data sources to research leads. It connects to your CRM (Microsoft Dynamics 365 Sales or Salesforce Sales Cloud) to find leads, and then uses the web and third-party data services to gather additional information about the lead's company, recent news, and other relevant insights. This information is then synthesized into a comprehensive summary that helps you decide whether to engage with the lead or not.
+Lead Research and Outreach uses a combination of internal and external data sources to research leads. It connects to your CRM (Microsoft Dynamics 365 Sales or Salesforce Sales Cloud) to find leads, and then uses the web and third-party data services to gather additional information about the lead's company, recent news, and other relevant insights. This information is then synthesized into a comprehensive summary that helps you decide whether to engage with the lead or not.
 
-Every lead is deeply researched in advance, instantly ready for you to act upon. Sales Agent gathers key insights, such as if they're a decision maker or even a real person or company, so you can make quick decisions to disqualify or pursue each lead. The company's key information, such as their industry, finances, strategic priorities, and business challenges are summarized to help you learn what you need to know about every lead.
+Every lead is deeply researched in advance, instantly ready for you to act upon. Lead Research and Outreach gathers key insights, such as if they're a decision maker or even a real person or company, so you can make quick decisions to disqualify or pursue each lead. The company's key information, such as their industry, finances, strategic priorities, and business challenges are summarized to help you learn what you need to know about every lead.
 
-Sales Agent also generates personalized outreach emails based on the insights gathered during the research process. These emails are tailored to the lead's interests and needs, increasing the chances of a positive response.
+Lead Research and Outreach also generates personalized outreach emails based on the insights gathered during the research process. These emails are tailored to the lead's interests and needs, increasing the chances of a positive response.
 
 ## Benefits
 
-- **Time-saving**: Sales Agent automates the lead research process, allowing you to focus on engaging with leads rather than spending time sifting through data.
-- **Increased response rates**: The personalized outreach emails generated by Sales Agent are more likely to resonate with leads, leading to higher response rates and more qualified pipeline.
-- **Comprehensive insights**: Sales Agent gathers information from multiple sources, providing you with a well-rounded view of each lead and their potential interests.
-- **Improved decision-making**: With the insights provided by Sales Agent, you can make more informed decisions about which leads to engage with, ultimately leading to better sales outcomes.
-- **Increased productivity**: By automating the lead research and outreach process, Sales Agent allows you to focus on what you do best - selling. This leads to increased productivity and better sales results.
+- **Time-saving**: Lead Research and Outreach automates the lead research process, allowing you to focus on engaging with leads rather than spending time sifting through data.
+- **Increased response rates**: The personalized outreach emails generated by Lead Research and Outreach are more likely to resonate with leads, leading to higher response rates and more qualified pipeline.
+- **Comprehensive insights**: Lead Research and Outreach gathers information from multiple sources, providing you with a well-rounded view of each lead and their potential interests.
+- **Improved decision-making**: With the insights provided by Lead Research and Outreach, you can make more informed decisions about which leads to engage with, ultimately leading to better sales outcomes.
+- **Increased productivity**: By automating the lead research and outreach process, Lead Research and Outreach allows you to focus on what you do best - selling. This leads to increased productivity and better sales results.
 
 ## Getting started
 
-Sales Agent is configured by your administrator to work on behalf of your entire sales team. Learn more about how to [configure Sales Agent](set-up-sales-agent.md).
+Lead Research and Outreach is configured by your administrator to work on behalf of your entire sales team. Learn more about how to [configure Lead Research and Outreach](set-up-sales-agent.md).
 
-Once configured, you can view summaries within your CRM or browse the Sales Agent's list of researched leads in the Sales app. Learn more about how to [use Sales Agent](use-sales-agent.md).
+Once configured, you can view summaries within your CRM or browse the Lead Research and Outreach's list of researched leads in the Sales agent. Learn more about how to [use Lead Research and Outreach](use-sales-agent.md).
 
 ## Related information
 
-- [Set up Sales Agent](set-up-sales-agent.md)
-- [Use Sales Agent](use-sales-agent.md)
+- [Set up Lead Research and Outreach](set-up-sales-agent.md)
+- [Use Lead Research and Outreach](use-sales-agent.md)
 - [Send outreach email to leads](send-outreach-emails.md)
+- [Use the Sales Development agent](/microsoft-agent-365/use)

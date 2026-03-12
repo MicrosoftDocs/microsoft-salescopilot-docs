@@ -1,7 +1,7 @@
 ---
 title: View record details
 description: View details about saved contacts and related records such as accounts and opportunities in CRM.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,7 +23,7 @@ You can view details about your saved contact and its related records such as ac
 
 ## Open a record in your CRM
 
-The information that's available in the Sales app is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
+The information that's available in the Sales agent is a subset of the information that's stored in your organization's customer relationship management (CRM) system. To view the complete details of a record, open it in your CRM.
 
 If you're using Salesforce as your CRM, this feature works only if you're using the Lightning Experience.
 

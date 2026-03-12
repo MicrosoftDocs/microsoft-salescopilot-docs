@@ -1,7 +1,7 @@
 ---
-title: Install and pin Sales app in Teams
-description: Learn how to install and pin the Sales app in Teams
-ms.date: 11/20/2025
+title: Install and pin Sales agent in Teams
+description: Learn how to install and pin the Sales agent in Teams
+ms.date: 03/09/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -10,15 +10,15 @@ manager: shujoshi
 ms.localizationpriority: medium
 ---
 
-# Install and pin Sales app in Teams
+# Install and pin Sales agent in Teams
 
-To install the Sales app in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We recommend you to pin the app to increase discoverability and encourage your sellers to use it.
+To install the Sales agent in Teams, go to the Teams admin center and create setup policies to install the app and assign users. We recommend you to pin the app to increase discoverability and encourage your sellers to use it.
 
 To install and pin the app in Teams, you'll [create a custom Teams app setup policy](#create-a-custom-teams-app-setup-policy) and [assign the policy to a user group](#assign-the-custom-teams-app-setup-policy-to-a-user-group) (security group, organizational unit, or distribution list).
 
 > [!NOTE]
-> - The Teams meeting must be transcribed for the Sales app to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
-> - The connection between the Sales app and your CRM is controlled through the Sales app in Outlook. More information: [Use the Sales app in Outlook](use-sales-copilot-outlook.md)
+> - The Teams meeting must be transcribed for the Sales agent to generate insights. For information about enabling recording transcription for your organization, go to [Turn on or turn off recording transcription](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription).
+> - The connection between the Sales agent and your CRM is controlled through the Sales agent in Outlook. More information: [Use the Sales agent in Outlook](use-sales-copilot-outlook.md)
 
 ## Create a custom Teams app setup policy
 
@@ -28,12 +28,12 @@ To install and pin the app in Teams, you'll [create a custom Teams app setup pol
 1. Enter a name and description for the policy.  
 1. Turn on **User pinning**.  
 1. Under **Installed apps**, select **Add apps**.  
-1. In the **Add installed apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add the Sales app to the list of apps to install.  
+1. In the **Add installed apps** panel, search for **Sales**. You can also filter apps by app permission policy.  
+1. Select **Add** to add **Sales** to the list of apps to install.  
 1. Select **Add** again to install the listed apps.  
 1. Under **Pinned apps**, select **Add apps**.  
-1. In the **Add pinned apps** panel, search for the **Sales** app. You can also filter apps by app permission policy.  
-1. Select **Add** to add the Sales app to the list of apps to pin.  
+1. In the **Add pinned apps** panel, search for **Sales**. You can also filter apps by app permission policy.  
+1. Select **Add** to add **Sales** to the list of apps to pin.  
 1. Select **Add** again to pin the listed apps.  
 1. Under **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.  
 1. Select **Save**.
@@ -55,8 +55,8 @@ For more information about assigning user and group policies, go to [Assign poli
 
 ## Welcome message
 
-Once the Sales app is deployed, each user is welcomed by an engaging message from the Sales app bot in Teams. This message outlines the key capabilities in the Sales app and provides direct links to comprehensive feature documentation and other learning resources.
+Once the Sales agent is deployed, each user is welcomed by an engaging message from the Sales bot in Teams. This message outlines the key capabilities in the Sales agent and provides direct links to comprehensive feature documentation and other learning resources.
 
 ### Related information
 
-[Install Sales app for Outlook](install-sales-as-an-integrated-app.md)
+[Install Sales agent for Outlook](install-sales-as-an-integrated-app.md)

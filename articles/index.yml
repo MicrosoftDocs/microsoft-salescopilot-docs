@@ -1,22 +1,22 @@
 ### YamlMime:Hub
-title:  Sales in Microsoft 365 Copilot documentation
-summary:  Discover how to make the most of Sales in Microsoft 365 Copilot with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Sales app to build strong relationships with your customers, take actions based on insights, and close deals faster.
+title:  Sales agent documentation
+summary:  Discover how to make the most of Sales agent with training courses, docs, and videos covering product capabilities and how-to articles. Learn how to use Sales agent to build strong relationships with your customers, take actions based on insights, and close deals faster.
 brand: sales-copilot
 metadata:
-  title: Sales in Microsoft 365 Copilot documentation
-  description: Learn about how you can use Sales in Microsoft 365 Copilot to build strong relationships with your customers, take actions based on insights, and close deals faster.
+  title: Sales agent documentation
+  description: Learn about how you can use Sales agent to build strong relationships with your customers, take actions based on insights, and close deals faster.
   ms.topic: hub-page
   ms.service: microsoft-sales-copilot
   author: sbmjais
   ms.author: shjais
-  ms.date: 11/20/2025
+  ms.date: 03/09/2026
   ms.custom: bap-template
   hide_bc: true
 
 highlightedContent:
   items:
     # Card
-    - title: Welcome to Sales in Microsoft 365 Copilot
+    - title: Welcome to Sales agent
       itemType: get-started
       url: introduction.md
     # Card
@@ -34,14 +34,14 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Implement Sales in Microsoft 365 Copilot
+  - title: Implement Sales agent
     items:
     - title: Install
       links: 
       - url:  install-sales-as-an-integrated-app.md
-        text: Install Sales app in Outlook
+        text: Install Sales agent in Outlook
       - url:  install-pin-sales-teams.md
-        text: Install Sales app in Teams
+        text: Install Sales agent in Teams
     - title: Deployment scenarios
       links: 
       - url: deploy-sales-app-d365.md
@@ -50,7 +50,7 @@ additionalContent:
         text: Deployment guide for Salesforce users
 
 
-  - title: Administer Sales in Microsoft 365 Copilot
+  - title: Administer Sales agent
     items:
     - title: Configure for Outlook and Teams
       links: 
@@ -63,16 +63,16 @@ additionalContent:
     - title: Manage for Outlook and Teams
       links:
       - url: uninstall-sales-app.md
-        text: Uninstall the Sales app
+        text: Uninstall the Sales agent
 
-  - title: Be productive with Sales in Microsoft 365 Copilot
+  - title: Be productive with Sales agent
 # Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
 # Each card should have at least three and no more than five links. Do not include a "See also" link.
     items:
     - title: In Outlook
       links: 
-      - url: open-app.md#access-sales-app-in-outlook
-        text: Access the Sales app
+      - url: open-app.md#access-sales-agent-in-outlook
+        text: Access the Sales agent
       - url: connect-contact.md
         text: Connect a contact to your CRM 
       - url: create-new-record.md
@@ -100,7 +100,7 @@ additionalContent:
       - url: meeting-prep.md
         text: View a meeting preparation card
       - url: use-sales-copilot-app-during-meeting.md
-        text: Use Sales app during a meeting
+        text: Use Sales agent during a meeting
       - url: view-meeting-summary-recap.md
         text: View and understand the meeting summary
 
@@ -118,14 +118,14 @@ additionalContent:
       - url: suggested-tasks-collab-space.md
         text: Collaborate using AI-powered Planner tasks
 
-    - title: Extend Sales in Microsoft 365 Copilot
+    - title: Extend Sales agent
       links: 
       - url: extend-sales-app.md
         text: Extend with partner applications 
       - url: custom-connector-action.md
         text: Create a custom connector and connector action
       - url: build-apis.md
-        text: Build Sales app extensions
+        text: Build Sales agent extensions
 
   - title: Related products
     items:
