@@ -1,7 +1,7 @@
 ---
 title: Configure email insights settings in the Sales app
 description: Learn how to configure email insights settings in the Sales app.
-ms.date: 11/20/2025
+ms.date: 03/12/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,7 +19,9 @@ ms.custom:
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-As an admin, you can configure settings for email insights in Copilot for Sales. Email insights are generated from sales emails sent and received with at least one CRM contact. These settings allow you to control whether email insights are shared with other sellers and which emails are included based on sensitivity labels.
+Email insights is an AI-powered feature that analyzes sales emails involving CRM contacts and surfaces key details such as summaries, sentiment, objections, and next steps.
+
+As an administrator, you can configure how email insights are stored and shared, and control which emails are included based on sensitivity labels. These settings help ensure that only authorized users or groups can access insights, while supporting your organization’s privacy and compliance requirements. 
 
 ## Configure email insights sharing settings
 
@@ -31,7 +33,7 @@ You can control whether stored email insights contribute to the AI knowledge bas
 
 ### Turn on email insights sharing
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Environment**, select **Email insights (preview)**.
 1. Select **Share email insights**.
 1. In the **Share email insights** pane, turn on the toggle.
@@ -52,7 +54,7 @@ You can control whether emails with specific sensitivity labels are included in 
 
 To include emails based on sensitivity labels:
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Environment**, select **Email insights (preview)**.
 1. Select **Include emails based on sensitivity labels**.
 1. Select **Edit** next to **Choose Sensitivity labels**.
@@ -65,7 +67,7 @@ You can control whether emails are automatically summarized in the [**Key email 
 
 To configure this setting:
 
-1. [Open the Sales app administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Email insights (preview)**.
 1. Select **Auto-summarize emails**.
 1. Turn the toggle on or off to enable or disable automatic email summarization.

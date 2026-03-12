@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in the Sales agent
 description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
-ms.date: 03/09/2026
+ms.date: 03/12/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -131,7 +131,7 @@ You can control whether email insights are stored in Dataverse. By default, the 
 
 ### Turn on email insights storage
 
-1. [Open Copilot for Sales administrator settings](./administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 
 1. Under **Environment**, select **Access settings**.
 
