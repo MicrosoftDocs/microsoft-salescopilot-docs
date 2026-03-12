@@ -1,6 +1,6 @@
 ---
-title: Configure email insights settings in the Sales app
-description: Learn how to configure email insights settings in the Sales app.
+title: Configure email insights settings in Sales agent
+description: Learn how to configure email insights settings in Sales agent.
 ms.date: 03/12/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
