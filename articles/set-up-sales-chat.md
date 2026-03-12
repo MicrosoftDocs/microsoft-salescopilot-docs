@@ -24,11 +24,11 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 
 ## Prerequisites
 
-- [The Sales agent is installed in both Outlook and Teams.](install-viva-sales.md)
+- [The Sales agent is installed in both Outlook and Teams](install-viva-sales.md).
 - You have access to environment-level settings in the [administrator settings for Sales agent](administrator-settings-sales-app.md).
-- [Sales Chat must be turned on in Access settings.](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
+- [Sales Chat must be turned on in Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
 - The Sales agent must be connected to a CRM system.
-- [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data.](privileges.md) If you are a Salesforce admin, you must assign the security role in the msdyn_viva environment.
+- [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data](privileges.md). If you are a Salesforce admin, you must assign the security role in the [msdyn_viva environment in Power Platform admin center](privileges.md#access-msdyn_viva-environment-and-assign-security-role).
 
 ## Step 1: Configure CRM record types (tables)
 
