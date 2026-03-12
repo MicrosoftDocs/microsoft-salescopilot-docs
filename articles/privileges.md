@@ -24,10 +24,10 @@ Salesforce administrators who need to customize the Sales agent must have the fo
 
 |Requirement type  |You must have  |
 |---------|---------|
-| Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on the user's profile and not in permission sets assigned to the user.|
+| Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on your user profile and not in permission sets assigned to you.|
 | Privilege | **Read** and **Write** privileges on **Organization** table. |
 
-For Sales agent in Microsoft 365 Copilot, assign the **System Administrator** security role to your user account in the **msdyn_viva** environment. Also, assign either the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or the following permissions to the **Copilot for Sales Extended User** role:
+For Sales agent in Microsoft 365 Copilot, assign the **System Administrator** security role to your user account in the [**msdyn_viva** environment in the Power Platform admin center](#access-msdyn_viva-environment-and-assign-security-role). Also, assign either the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or the following permissions to the **Copilot for Sales Extended User** role:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|--------------------|
@@ -46,6 +46,18 @@ For Sales agent in Microsoft 365 Copilot, also assign the following privileges t
 | DVTableSearchEntity | dvtablesearchentity | Read  | Global |
 | CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
 | CopilotSynonyms | copilotsynonyms | Read  | Global |
+
+### Access msdyn_viva environment and assign security role
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. In the left navigation pane, select **Manage**, and then select **Environments**.
+1. Find and select the **msdyn_viva** environment from the list of environments.
+1. Select **Settings**.
+1. Select **Users + permissions**, and then select **Users**.
+1. On the **Users** page, select your username, and then select **Manage security roles**.
+1. In the list of security roles, select **System Administrator** and **M365 Copilot Sales Administrator** (formerly known as Sales Copilot Administrator) roles, and then select **Save**.
+
+Learn more about [assigning security roles in Power Platform admin center](/power-platform/admin/assign-security-roles).
 
 ## Privileges required for Dynamics 365 customers
 
