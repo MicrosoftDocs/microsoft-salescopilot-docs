@@ -106,7 +106,7 @@ The meeting preparation card contains the following information:
 
 To generate a meeting preparation card, the meeting must meet the following requirements:
 
-- Has at least one internal participant and no more than 29 internal participants
+- Has at least one external participant and no more than 29 internal participants
 - Isn't canceled
 - Isn't marked as private
 - Isn't an all-day event
