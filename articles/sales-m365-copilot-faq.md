@@ -346,6 +346,16 @@ If needed, you can hide the Sales agent for individual users or groups by one of
     > [!NOTE]
     > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
 
+#### What data is passed to Bing Search?
+
+For meetings with external participants, Bing search is used to find public company and attendee information by using attendee email domains and publicly available web content.
+
+The search query might get processed at any of Bing's data centers, so it's possible that the information in the query might move across regions. The agent does not pass any Personally Identifiable Information (PII) to Bing Search.
+ 
+- For **Company overview**, the service uses the external attendee email domain (for example, `contoso.com`) to identify likely company information from public sources. For example, if the lead's email is contoso.com, then we will send to Bing service following query: https://www.bing.com/search?q=contoso.com. 
+- For **External attendees**, the service performs a public profile lookup for external participants to provide role- and background-level context.
+- Search is limited to publicly available web content and is used only to generate pre-meeting context in the insights experience.
+
 ### End user
 
 #### Why does Sales agent say I don't have access?
