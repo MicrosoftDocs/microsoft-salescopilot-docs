@@ -348,12 +348,12 @@ If needed, you can hide the Sales agent for individual users or groups by one of
 
 #### What data is passed to Bing Search?
 
-The agent uses Bing Search to gather publicly available information and generate insights. For meetings with external participants, it uses attendee email domains to find public company and attendee information from web content. 
+The agent uses Bing Search to gather publicly available information and generate insights. For meetings with external participants, it uses attendees' email address to find public company and attendee information from web content. 
 
 - The search query may be processed at any of Bing's data centers, so information in the query might move across regions.
-- The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed from the email domain or attendee name and company.
-    - For **Company overview**, the service uses the external attendee email domain (for example, `contoso.com`) to identify likely company information from public sources. For example, if the lead's email is contoso.com, the following query is sent to Bing service: `https://www.bing.com/search?q=contoso.com`. 
-    - For **External attendees**, the service performs a public profile lookup for external participants to provide role and background context. For example, if an external attendee is named Jane Doe and is associated with Contoso, the service may send the following queries: `https://www.bing.com/search?q=Jane+Doe+Contoso+role` or `https://www.bing.com/search?q=Jane+Doe+Contoso+LinkedIn`.
+- The agent does not pass any Personally Identifiable Information (PII) to Bing Search. It only passes the search query constructed from the email address or attendee name and company.
+    - For **Company overview**, the service uses the external attendees' email domain (for example, `contoso.com`) to identify likely company information from public sources. For example, if the lead's email is kenny@contoso.com, the following query is sent to Bing service: `https://www.bing.com/search?q=contoso.com`. 
+    - For **External attendees**, the service performs a public profile lookup for external participants to provide role and background context. For example, if an external attendee is named Kenny Smith and is associated with Contoso, the service may send the following queries: `https://www.bing.com/search?q=Kenny+Smith+Contoso+role` or `https://www.bing.com/search?q=Kenny+Smith+Contoso+LinkedIn`.
 - Search is limited to publicly available web content and is used only to generate pre-meeting context in the insights experience.
 
 ### End user
