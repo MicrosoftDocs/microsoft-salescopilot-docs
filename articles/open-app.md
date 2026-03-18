@@ -111,7 +111,7 @@ Backed by AI, the Sales agent in Teams provides recommendations and information 
 
 To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
-You can access the Sales agent in Teams in these ways:
+You can access the Sales agent in Teams in the following ways:
 
 - [Message extensions](#message-extensions) to share CRM records in chat or channel conversations.
 - [During a meeting](#during-a-meeting) to view and edit the connected CRM record.
