@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 03/09/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -20,7 +20,7 @@ When an email or meeting is saved to the CRM, the **Sales** side pane shows the 
 
 :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing an email that was saved to the CRM.":::
 
-The Sales agent can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
+The Sales agent can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
 
 ## Save from the highlight card
 
@@ -29,6 +29,8 @@ The Sales agent can save emails and meetings to your CRM from the highlight card
 1. In the **Sales** side pane, select **Save**.
 
     :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM highlight card in the Sales side pane.":::
+
+    If you're connected to Dynamics 365, you can save recurring meetings to your CRM from the highlight card of any meeting in the series by selecting **Save series**. When you save a recurring meeting, the entire series is saved to the CRM, not just the single instance that you have open. After you save the series, you can [edit](#edit-activities-saved-to-dynamics-365) or [remove](#remove-activities-saved-to-dynamics-365) the connected record.
 
 1. Under **Connect to a record**, select a record to connect the email or meeting to.
 
@@ -51,6 +53,9 @@ The Sales agent can save emails and meetings to your CRM from the highlight card
 1. If your CRM allows you to save files that are attached to an email or meeting, you can select the ones you want to save with the activity. [Can't save an attachment?](#limitations-when-saving-attachments)
 
     :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the Save attachments option in the Sales side pane.":::
+
+    > [!NOTE]
+    > Additional fields for categorization and attachments are not supported when you save a recurring meeting series to Dynamics 365.
 
 1. Select **Save**.
 
@@ -105,17 +110,23 @@ If you use Dynamics 365 as your CRM, you can change some of the details of a sav
 
 1. Open an email or meeting, and then open the **Sales** pane.
 
-1. On the **Connected to** card, select **More actions** (**&hellip;**) > **Edit saved email details**.
+1. On the **Connected to** card, select **More actions** (**&hellip;**) and then select one of the following options based on the type of activity:
+    - **Edit saved email details**
+    - **Edit saved meeting details**
+    - **Edit saved meeting series details** (for recurring meetings)
 
     :::image type="content" source="media/change-email-fields.png" alt-text="Screenshot of the Connected to card in the Sales side pane, showing the More actions menu with the edit option highlighted.":::
 
-## Remove emails saved to Dynamics 365
+## Remove activities saved to Dynamics 365
 
 If you use Dynamics 365 as your CRM, you can use the Sales agent to remove saved emails and meetings that are no longer relevant, keeping the CRM clean and up to date. If you use Salesforce as your CRM, you can't remove saved activities in the Sales agent.
 
 1. Open an email or meeting, and then open the **Sales** pane.
 
-1. On the **Connected to** card, select **More actions** (**&hellip;**) > **Remove email from Dynamics 365**.
+1. On the **Connected to** card, select **More actions** (**&hellip;**) and then select one of the following options based on the type of activity:
+    - **Remove email from Dynamics 365**
+    - **Remove meeting from Dynamics 365**
+    - **Remove meeting series from Dynamics 365** (for recurring meetings)
 
     :::image type="content" source="media/remove-email-from-crm.png" alt-text="Screenshot of the Connected to card in the Sales side pane, showing the More actions menu with the remove option highlighted.":::
 

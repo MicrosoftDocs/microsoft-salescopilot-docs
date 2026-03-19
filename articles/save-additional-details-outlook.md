@@ -1,7 +1,7 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
 description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using the Sales agent in Outlook.
-ms.date: 03/09/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -34,6 +34,9 @@ You can control if sellers can save emails and meetings to the CRM. By default, 
 
 You can select the fields that are saved to the CRM together with emails or meetings. Those fields are then shown to sellers when they save emails or meetings to the CRM. Sellers can easily find and track customer interactions by categorizing emails and meetings in their CRM inbox. For example, sellers might want to categorize emails and meetings based on priority, account, or deal stage.
 
+> [!NOTE]
+> Additional fields for categorization are not supported when saving recurring meeting series to Dynamics 365.
+
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
 1. In the Sales agent admin settings, select **Save to (CRM)**.  
@@ -52,6 +55,9 @@ The fields you configured are now available to sellers when they save emails or 
 ## Configure attachment saving settings
 
 You can control whether sellers can save attachments along with the email or meeting to CRM. When attachment saving is enabled, you can also configure whether all attachments are selected or not by default to be saved to CRM. In either case, sellers can choose which attachments to save when they save the email or meeting to CRM.
+
+> [!NOTE]
+> Saving attachments is not supported when saving recurring meeting series to Dynamics 365.
 
 **Prerequisite**: Depending on the type of activity that you want to configure, [saving emails or meetings to CRM must be enabled](#enable-or-disable-saving-emails-and-meetings-to-crm).
 
