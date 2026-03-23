@@ -389,6 +389,14 @@ To see meeting insights, make sure that:
 
 If either of these conditions isn't met, meeting insights won't be generated.
 
+#### Sales agent features don't load or behave unexpectedly. What should I check?
+
+If features don't load, partially load, or behave unexpectedly, your organization's network security (such as firewall or proxy policies) might be blocking required Microsoft 365 endpoints.
+
+This kind of endpoint blocking can prevent required initialization and might appear as "some features not working" rather than a single clear error.
+
+Work with your network or security admin to allow the required endpoints in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges), including Copilot and Copilot Chat connectivity requirements, and ensure that `config.edge.skype.com` is also allowed.
+
 ## Security, Privacy, and Compliance 
 
 ### How does Microsoft protect customer data privacy? 
