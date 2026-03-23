@@ -1,6 +1,6 @@
 ---
 title: View a meeting preparation card
-description: Learn how to view a meeting preparation card in Teams.
+description: Learn how to view a meeting preparation card in Teams to get AI-powered pre-meeting insights.
 ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -11,7 +11,7 @@ ms.custom: CXT
 
 # Meeting preparation card
 
-The meeting preparation card helps you prepare for upcoming customer meetings directly in Microsoft Teams. This AI-powered tool provides a concise snapshot of essential meeting details and insights without disrupting their workflow.
+This article explains how to view a meeting preparation card in Microsoft Teams before customer meetings. Use it to quickly review AI-generated context and prepare with confidence.
 
 The card draws on insights from your personal activity and your team's collective knowledge, giving you quick access to the information you need. This enables you to walk into every meeting informed, confident, and ready to drive meaningful outcomes.
 
@@ -84,7 +84,7 @@ The detailed meeting preparation view includes:
 
 Based on the license you have, you might see the below version of the meeting preparation card. 
 
-:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot showing meeting preparation card.":::
+:::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot of the meeting preparation card in Teams chat.":::
 
 The meeting preparation card contains the following information: 
 
@@ -92,15 +92,15 @@ The meeting preparation card contains the following information:
 - **General meeting information**: Information about the meeting such as its name, date, time, number of participants, and their acceptance status.
 - **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, budget, related records, and open tasks retrieved from CRM. If the meeing is saved to a CRM opportunity, the connected opportunity is used to generate the insights. If the meeting is not saved to a CRM opportunity, the most recent opportunity linked to the meeting participants is used to generate the insights. If no opportunity is found, the card displays the matched account summary instead.
 
-    :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot showing opportunity summary in meeting preparation card":::
+    :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot of the opportunity summary in the meeting preparation card.":::
 
 - **Recent communication**: Displays up to 10 most recent meetings or emails on the opportunity. In addition to the meetings you organized or participated in, it may also include meetings conducted by other team members for the same opportunity. In this way, you can have a complete view of the past customer interactions. It shows AI-generated summary of the past meetings and AI-generated insights per individual meeting such as key discussion points or key objections raised by the customer. Meetings without AI-generated insights may also be shown in the list, such as meetings that were not recorded or the Sales agent was not added to the meetings. 
 
-    :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot showing recent communications in meeting preparation card":::
+    :::image type="content" source="media/meeting-prep-card-recent-comm.png" alt-text="Screenshot of recent communications in the meeting preparation card.":::
 
 - **Strategic insights**: Shows key contacts of the opportunity in CRM among the meeting participants, key risks identified and their summary from all past interactions, and the next follow-up action items agreed with the customer. This section is displayed only if the AI-generated insights are available. 
 
-    :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot showing strategic insights in meeting preparation card":::  
+    :::image type="content" source="media/meeting-prep-card-insights.png" alt-text="Screenshot of strategic insights in the meeting preparation card.":::  
 
 ## Meeting requirements for preparation cards
 
