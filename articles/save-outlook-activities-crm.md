@@ -10,7 +10,14 @@ ms.author: shjais
 
 # Save Outlook activities to your CRM
 
-Sellers often need to capture emails and meetings that are related to their sales activities. In the past, you might have recorded the details in a paper notebook. Today, you're more likely to use a customer relationship management (CRM) system like Dynamics 365 or Salesforce. However, it's still tedious and time-consuming to manually update the CRM with the details of your Outlook interactions with leads and customers. Fortunately, the Sales agent can do it for you so that you can focus on selling.
+Use Sales agent to save Outlook emails and meetings to Dynamics 365 or Salesforce in a few steps.
+
+In this article, you learn how to:
+
+- Save from the highlight card, related record cards, or banner quick actions.
+- Open saved activities in your CRM.
+- Edit or remove saved activities (Dynamics 365 only).
+- Understand attachment limits and CRM-specific differences.
 
 When an email or meeting is saved to the CRM, the **Sales** side pane shows the following information:
 
@@ -20,7 +27,17 @@ When an email or meeting is saved to the CRM, the **Sales** side pane shows the 
 
 :::image type="content" source="media/saved-email.png" alt-text="Screenshot showing an email that was saved to the CRM.":::
 
-The Sales agent can save emails and meetings to your CRM from the highlight card, from a related record card, or through quick CRM actions in email banner messages. However, you can't save activities from shared mailboxes, and you can't save recurring meetings. If you use Dynamics 365 as your CRM, you can edit saved activities and remove saved emails from the CRM.
+Choose a save method:
+
+- [Save from the highlight card](#save-from-the-highlight-card) (default flow)
+- [Save from a related record card](#save-from-a-related-record-card) (connect while viewing related records)
+- [Save from quick CRM actions in an email banner message](#save-from-quick-crm-actions-in-an-email-banner-message)
+
+Before you start, note these common blockers:
+
+- You can't save activities from shared mailboxes.
+- Dynamics 365 might require server-side synchronization.
+- Salesforce might require Enhanced Email to be enabled.
 
 ## Save from the highlight card
 
@@ -129,7 +146,15 @@ If your CRM administrator has turned on the capability to save attachments, then
 
 ## Differences between Dynamics 365 and Salesforce
 
-The Sales agent works a little differently depending on which CRM you use. The differences are described in the following sections.
+The Sales agent works a little differently depending on which CRM you use. Use this quick comparison table to understand the differences in capabilities when you save Outlook activities to Dynamics 365 versus Salesforce. You can then read the sections below for more details.
+
+| Capability | Dynamics 365 | Salesforce |
+|---|---|---|
+| Save drafts | Yes (email after send; meeting immediately) | No |
+| Auto-save replies/updates | Yes (with prerequisites) | No |
+| Edit saved activities in Sales agent | Yes | No |
+| Remove saved activities in Sales agent | Yes | No |
+| Prerequisite setting | Server-side sync | Enhanced Email |
 
 ### When you save activities to Dynamics 365
 
@@ -173,3 +198,9 @@ The Sales agent works a little differently depending on which CRM you use. The d
 - If an email that you save has more characters in the message body than the [maximum number of characters that can be stored in Salesforce email records](https://help.salesforce.com/s/articleView?id=000392839&type=1), the email is truncated and then saved. The **Connected to** card includes a notice to that effect.
 
     :::image type="content" source="media/truncate.png" alt-text="Screenshot of the Connected to card in the Sales agent, showing that an email saved to Salesforce was truncated.":::
+
+## Related information
+
+- [Use server-side synchronization with the Sales agent](use-server-side-sync.md)
+- [Customize forms and fields for Sales agent](customize-forms-and-fields.md)
+- [Troubleshoot saving issues when Enhanced Email is off in Salesforce](https://go.microsoft.com/fwlink/p/?linkid=2243672)

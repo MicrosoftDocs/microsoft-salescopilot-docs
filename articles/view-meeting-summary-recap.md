@@ -14,7 +14,15 @@ ms.custom:
 
 # View sales insights in Microsoft Teams meeting recap
 
-Sales includes all the capabilities within Microsoft 365 Copilot to provide users with valuable insights to help you support customer engagements. The combined Copilot experience in products like Microsoft Teams combines the power of Copilot in Teams and Sales, offering seamless, role-specific capabilities for improved collaboration. The experience provides summarized meeting insights, and generated meeting recaps to enable sellers to grow customer relationships and close deals.
+Use this article to get sales insights from a Teams meeting recap and take follow-up actions in CRM.
+
+In this article, you learn how to:
+- View sales insights in a meeting recap.
+- Create a CRM task from follow-up items.
+- Draft a post-meeting summary email.
+- Save AI-generated meeting notes to CRM.
+
+If insights don't appear, go to [When sales insights aren't generated](#when-sales-insights-arent-generated).
 
 ## Prerequisites
 
@@ -28,13 +36,21 @@ Sales includes all the capabilities within Microsoft 365 Copilot to provide user
 
 To see a list of supported languages, go to [supported languages](introduction.md#supported-languages-and-geographies).
 
+## Quick links
+
+- [View sales related insights in meeting recap](#view-sales-related-insights-in-meeting-recap)
+- [Create a CRM task from a meeting recap](#create-a-crm-task-from-a-meeting-recap)
+- [Create a post-meeting summary email](#create-a-post-meeting-summary-email)
+- [Save AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm)
+- [When sales insights aren't generated](#when-sales-insights-arent-generated)
+
 ## View sales related insights in meeting recap
 
 You can view a meeting recap if you record and transcribe a meeting. With the Sales agent added to the Teams meeting, you can view sales related insights in the meeting recap.
 
 To view sales related insights, [open the meeting recap in Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef), select the down-arrow next to **Transcript**, and then select **Sales**.
 
-The following information is available:
+After you open the **Sales** tab in recap, you can view the following sales related insights:
 
 - **Post-meeting actions**: View a list of suggested post-meeting actions such as [creating a summary email for meeting participants](#create-a-post-meeting-summary-email) and [saving AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm). This section is not available if you are viewing the meeting recap using the older Sales Copilot license.
 - **Suggested follow-ups from the meeting**: View a list of follow-up tasks that are created during the meeting. You can also [create a task in CRM](#create-a-crm-task-from-a-meeting-recap) by selecting **Create task**.
@@ -55,20 +71,19 @@ The following information is available:
 ### When sales insights aren't generated
 
 Sales insights aren't generated in the following scenarios:
-- The meeting is recurring.
-- The meeting was not transcribed.
-- The meeting was created in Dynamics 365 Sales.
-- The meeting recording was started and stopped multiple times.
-- You are not connected to your CRM in the Sales agent.
-- If the meeting organizer has not provided access to the meeting recording and transcription to everyone.
+
+| Scenario | What to check |
+|---|---|
+| The meeting is recurring. | Use a non-recurring meeting for insights generation. |
+| The meeting was not transcribed. | Verify transcription is enabled for the meeting. |
+| The meeting was created in Dynamics 365 Sales. | Create the meeting in Teams instead. |
+| The meeting recording was started and stopped multiple times. | Use one continuous recording session. |
+| You are not connected to your CRM in the Sales agent. | Sign in to CRM in Sales agent. |
+| The organizer hasn't granted recording/transcript access to everyone. | Ask the organizer to update meeting access permissions. |
 
 ### Accuracy of sentiment analysis
 
-The sentiment analysis is AI-generated and based on the content and tone of the meeting transcript. While it can provide a helpful high-level view of customer tone and engagement, it's not always perfectly accurate and may misinterpret nuance, sarcasm, or context.
-
-This feature is intended to help you quickly gauge the general sentiment of a meeting—for example, whether the conversation was mostly positive, neutral, or negative—but it should not be used as a definitive assessment of individual participants' intent or satisfaction.
-
-It is strongly recommended that you verify insights using your own judgment and follow up directly with customers as needed. Sentiment insights are best used as a supporting tool, not a replacement for human evaluation.
+Sentiment analysis is AI-generated from meeting transcript tone and content. It provides a quick high-level view of whether the conversation was mostly positive, neutral, or negative. Because AI can misinterpret nuance, sarcasm, or context, use these insights as a supporting signal only, not a definitive assessment of participant intent or satisfaction. Always validate with your own judgment and direct customer follow-up.
 
 ## Create a CRM task from a meeting recap
 
@@ -143,5 +158,8 @@ If you don't see the **Save to (CRM)** button, it could be due to one of the fol
 
 ### Related information
 
+- [Turn on Copilot AI features in your environment](suggested-replies.md)
+- [Add the Sales agent to a Teams meeting](create-teams-meeting.md#add-the-sales-agent-manually-to-a-teams-meeting)
+- [Save AI-generated meeting notes to CRM](save-ai-notes-crm.md)
 - [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef)<br>
 - [Intelligent productivity with Microsoft Teams Premium](https://support.microsoft.com/office/intelligent-productivity-with-microsoft-teams-premium-d5b02821-b9b1-4687-8c77-2f903ea68ad2)
