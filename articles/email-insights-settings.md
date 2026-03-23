@@ -48,6 +48,8 @@ You can control whether stored email insights contribute to the AI knowledge bas
 
 1. Select **Save**.
 
+    :::image type="content" source="media/email-insights-share.png" alt-text="Screenshot showing email insights sharing settings.":::
+
 ## Include email based on sensitivity labels
 
 You can control whether emails with specific sensitivity labels are included in email insights. Emails without a sensitivity label are always included in email insights.
@@ -61,6 +63,8 @@ To include emails based on sensitivity labels:
 1. Select the sensitivity labels you want to include in email insights.
 1. Select **Save**.
 
+    :::image type="content" source="media/email-insights-labels.png" alt-text="Screenshot showing email insights sensitivity label settings.":::
+
 ## Automatically summarize email in the Key email info card
 
 You can control whether emails are automatically summarized in the [**Key email info**](view-save-email-summary-crm.md) card. By default, this setting is turned on. If you turn it off, sellers must manually summarize emails in the **Key email info** card by selecting **Summarize email**.
@@ -69,8 +73,9 @@ To configure this setting:
 
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Email insights (preview)**.
-1. Select **Auto-summarize emails**.
-1. Turn the toggle on or off to enable or disable automatic email summarization.
+1. Turn on or off the **Auto-summarize emails** toggle to enable or disable automatic email summarization.
+
+    :::image type="content" source="media/email-insights-auto-summary.png" alt-text="Screenshot showing email insights auto-summary settings.":::
 
 ## Related information
 

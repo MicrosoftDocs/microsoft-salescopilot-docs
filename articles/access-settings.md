@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in the Sales agent
 description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
-ms.date: 03/12/2026
+ms.date: 03/23/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -137,7 +137,7 @@ You can control whether email insights are stored in Dataverse. By default, the 
 
 1. Select **Email insights (preview)**.
 
-1. In the **Email insights** pane, turn on the toggle.
+1. In the **Email insights (preview)** pane, turn on the toggle.
 
 1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
     - **No restrictions**: All users' email insights are stored.
@@ -148,11 +148,14 @@ You can control whether email insights are stored in Dataverse. By default, the 
         You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
+
+    :::image type="content" source="media/email-insights-access.png" alt-text="Screenshot showing the Email insights (preview) access settings.":::
+
 1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels you want to be included in generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, select **Continue without labels**.
 
 You can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including email with sensitivity labels.
 
-If you want to turn off email insights storage, follow the same steps to access the **Email insights** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
+If you want to turn off email insights storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
 
 
 ## Related information
