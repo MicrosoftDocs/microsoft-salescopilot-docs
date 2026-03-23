@@ -11,7 +11,7 @@ ms.custom: CXT
 
 # Meeting preparation card
 
-This article explains how to view a meeting preparation card in Microsoft Teams before customer meetings. Use it to quickly review AI-generated context and prepare with confidence.
+The meeting preparation card helps you prepare for upcoming customer meetings directly in Microsoft Teams. This AI-powered tool provides a concise snapshot of essential meeting details and insights without disrupting their workflow.
 
 The card draws on insights from your personal activity and your team's collective knowledge, giving you quick access to the information you need. This enables you to walk into every meeting informed, confident, and ready to drive meaningful outcomes.
 
