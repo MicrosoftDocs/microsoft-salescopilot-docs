@@ -26,8 +26,6 @@ Depending on the following roles, you can use the Sales agent to boost your sale
 
 Here's how you can use the Sales agent to improve your sales productivity:
 
-Here's how you can use Sales agent:
-
 - **Connect CRM data** to get tailored insights from Dynamics 365 Sales or Salesforce.
 - **Use in Teams meeting** to capture insights and action items from calls.
 - **Use in Outlook** for email drafting, follow-ups, and next-step recommendations.
