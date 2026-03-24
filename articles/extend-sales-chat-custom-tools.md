@@ -10,20 +10,20 @@ ms.author: shjais
 
 # Extend Sales agent with custom tools and knowledge in the Microsoft 365 admin center 
 
-The **Custom tools & knowledge** tab enables you to copy tools and knowledge from other agents in your organization to Sales. This extends the capabilities of Sales by integrating data and insights from your organization's sales applications, providing users with more comprehensive information and answers during their interactions.
+The **Custom tools & knowledge** tab enables you to copy tools and knowledge from other agents in your organization to the Sales agent. This extends the capabilities of the Sales agent by integrating data and insights from your organization's sales applications, providing users with more comprehensive information and answers during their interactions.
 
 ## What are custom tools and knowledge?
 
-Tools are [API plugins](/microsoft-365-copilot/extensibility/overview-api-plugins) that can be added to declarative agents. They enable users to interact with your organization's sales applications using natural language in Sales.
+Tools are [API plugins](/microsoft-365-copilot/extensibility/overview-api-plugins) that can be added to declarative agents. They enable users to interact with your organization's sales applications using natural language in the Sales agent.
 
 With custom tools, users can:
 - Retrieve data and insights from any sales application
 - Create, update, and delete data and objects
 - Execute any action available through the application's REST API or MCP server
 
-[Knowledge sources](/microsoft-365-copilot/extensibility/knowledge-sources) provide additional grounding information for the agent. When you configure SharePoint sites, websites, or other supported content as knowledge sources, Sales searches that content to generate more accurate and contextual responses.
+[Knowledge sources](/microsoft-365-copilot/extensibility/knowledge-sources) provide additional grounding information for the agent. When you configure SharePoint sites, websites, or other supported content as knowledge sources, the Sales agent searches that content to generate more accurate and contextual responses.
 
-This ensures Sales can reference your organization's specific documentation, policies, and information when answering user questions.
+This ensures the Sales agent can reference your organization's specific documentation, policies, and information when answering user questions.
 
 ### Key details
 
@@ -37,7 +37,7 @@ This ensures Sales can reference your organization's specific documentation, pol
 **Access requirements**
 - Ensure all users have the necessary permissions to access the tools and knowledge added to Sales.
 
-## Extend Sales with custom tools and knowledge
+## Extend Sales agent with custom tools and knowledge
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All agents**.
 1. Select **Sales** and then go to the **Custom tools & knowledge** tab.
@@ -60,3 +60,15 @@ This ensures Sales can reference your organization's specific documentation, pol
 1. Select **Sales** and then go to the **Custom tools & knowledge** tab.
 1. Select **Remove agent extension**.
 1. In the **Remove agent extension** pane, select **Remove** to confirm.
+
+## Build a custom declarative agent for Sales
+
+You can build a custom [declarative agent](/microsoft-365-copilot/extensibility/overview-declarative-agent) around specific sales scenarios (for example, account research, renewal planning, or order status), add the required [API plugins](/microsoft-365-copilot/extensibility/overview-api-plugins) for business actions, and attach relevant [knowledge sources](/microsoft-365-copilot/extensibility/knowledge-sources) for grounding. After validating responses and access permissions for the target users, publish the agent, and then copy its tools and knowledge into the Sales agent from the **Custom tools & knowledge** tab.
+
+## Related information
+
+- [Declarative agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-declarative-agent)
+- [Choose the right tool to build your declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-tool-comparison)
+- [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
+- [Plugins for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-plugins?tabs=mcp)
+- [Use developer mode in Microsoft 365 Copilot to test and debug agents](/microsoft-365-copilot/extensibility/debugging-agents-copilot-studio)

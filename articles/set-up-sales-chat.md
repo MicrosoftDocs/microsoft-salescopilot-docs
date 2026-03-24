@@ -30,22 +30,22 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 - The Sales agent must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data](privileges.md). If you are a Salesforce admin, you must assign the security role in the [msdyn_viva environment in Power Platform admin center](privileges.md#access-msdyn_viva-environment-and-assign-security-role).
 
-## Step 1: Configure CRM record types (tables)
+## Step 1: Configure CRM entities (Dynamics 365 tables or Salesforce objects)
 
-As an administrator, you can customize which CRM information is available to sellers when they ask questions using the Sales agent. The Sales agent accesses CRM information based on the record types (tables) configured in Sales agent admin settings. 
+As an administrator, you can customize which CRM information is available to sellers when they ask questions using the Sales agent. The Sales agent accesses CRM information based on the CRM entities configured in Sales agent admin settings. In Dynamics 365, these entities are tables. In Salesforce, these entities are objects.
 
-By default, the Sales agent includes a predefined list of record types. You can customize this list by adding out-of-the-box or custom CRM record types. You can also remove record types that are not required.
+By default, the Sales agent includes a predefined list of CRM entities. You can customize this list by adding out-of-the-box or custom CRM entities. You can also remove entities that are not required.
 
 > [!NOTE]
-> - You can customize the list of record types in Sales agent settings independently without affecting Forms settings.
-> - For Dynamics 365, if you've set up Sales agent before January 2026 and added record types in Forms settings, those record types will be available in Sales agent by default.
+> - You can customize the list of CRM entities in Sales agent settings independently without affecting Forms settings.
+> - For Dynamics 365, if you've set up Sales agent before January 2026 and added tables in Forms settings, those tables will be available in Sales agent by default.
 
 > [!IMPORTANT]
-> To initialize the Sales agent and set up the connection to your CRM, you must open the **Sales Chat** settings page at least once from the [Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings). When you load the page for the first time, it triggers the initialization process and loads the supported entities for use in the Sales agent. Without this step, the initialization can't be triggered automatically.
+> To initialize the Sales agent and set up the connection to your CRM, open the **Sales Chat** settings page at least once from the [Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings). When you load the page for the first time, it triggers the initialization process and loads the supported entities for use in the Sales agent. If you skip this step, the initialization won't be triggered automatically.
 
-### Default record types
+### Default CRM entities
 
-By default, Sales agent can access the following record types depending on your CRM system:
+By default, Sales agent can access the following CRM entities depending on your CRM system:
 
 #### Dynamics 365
 
@@ -68,36 +68,36 @@ Sales agent accesses tables for which synonyms are added to Microsoft Copilot St
 
 #### Salesforce
 
-Sales agent accesses the record types configured in [Forms settings](customize-forms-and-fields.md).
+Sales agent accesses the objects configured in [Forms settings](customize-forms-and-fields.md).
 
-### Add new record types to Sales agent
+### Add CRM entities to Sales agent
 
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Sales Chat**.
 1. Select **Add**.
     :::image type="content" source="media/sales-chat-record-types.png" alt-text="Screenshot showing the Sales Chat record types settings.":::
-1. In the **Add a record type** window, search and select the record types you want to add.
+1. In the **Add a record type** window, search and select the entities you want to add (tables in Dynamics 365 or objects in Salesforce).
 1. Select **Add**.
 
 > [!NOTE]
-> - You can add multiple record types at once.
-> - Sales agent will have access to all columns in the added record types (tables).
+> - You can add multiple entities at once.
+> - Sales agent will have access to all columns in the added entities (tables in Dynamics 365 or objects in Salesforce).
 
-### Remove record types from Sales agent
+### Remove CRM entities from Sales agent
 
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Sales Chat**.
-1. Select the record types you want to remove, and then select **Remove**.
+1. Select the entities you want to remove, and then select **Remove**.
 1. In the confirmation dialog box, select **Remove**.
 
 > [!NOTE]
-> - You can remove multiple record types at once.
-> - You must have at least one record type configured for Sales agent to function.
+> - You can remove multiple entities at once.
+> - You must have at least one entity configured for Sales agent to function.
 > - When you remove a record, the Sales agent will no longer have access to it. If this record is configured in Forms settings, it will still be available in Forms and can be used in other features of the Sales agent.
 
 ## Step 2: Set up additional synonyms and glossary terms
 
-Sales reps can use natural language in Sales agent to access CRM information. However, the terms they use may not always match the standard field names in the CRM. Sales agent relies on CRM metadata about record types to interpret user requests and provide relevant information. Because this metadata is often incomplete, you can supply additional guidance—such as synonyms and glossary terms—to help the AI better understand and map user language to CRM data. Providing this extra information improves the AI’s ability to recognize user requests and generate accurate, helpful responses.
+Sales reps can use natural language in Sales agent to access CRM information. However, the terms they use may not always match the standard field names in the CRM. Sales agent relies on CRM metadata about entities (tables in Dynamics 365 and objects in Salesforce) to interpret user requests and provide relevant information. Because this metadata is often incomplete, you can supply additional guidance, such as synonyms and glossary terms, to help the AI better understand and map user language to CRM data. Providing this extra information improves the AI's ability to recognize user requests and generate accurate, helpful responses.
 
 ### Synonyms
 
@@ -109,7 +109,7 @@ Synonyms are alternative names or phrases that users might use to refer to speci
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
 1. Select the **Synonyms** section.
-1. From the **Select item** list, select the CRM record type (table) for which you want to add synonyms.
+1. From the **Select item** list, select the CRM table for which you want to add synonyms.
 1. Select **Add Synonyms** for the column (field) you want to add synonyms for, and then enter one or more synonyms, separated by commas.
 1. In the **Description** field, provide a description for the synonym entry.
 1. Select **Save**.
@@ -142,7 +142,7 @@ The following table shows examples of how adding glossary definitions can give y
 
 #### Dynamics 365
 
-You must add glossary terms in Microsoft Copilot Studio. The glossary terms you add in Copilot Studio works for both the Sales agent and Copilot in Dynamics 365 Sales. Learn more about [adding glossary terms in Copilot Studio](/dynamics365/sales/extend-copilot-chat#add-glossary-to-help-copilot-understand-your-business-terms).
+You must add glossary terms in Microsoft Copilot Studio. The glossary terms you add in Copilot Studio work for both the Sales agent and Copilot in Dynamics 365 Sales. Learn more about [adding glossary terms in Copilot Studio](/dynamics365/sales/extend-copilot-chat#add-glossary-to-help-copilot-understand-your-business-terms).
 
 #### Salesforce
 
@@ -158,12 +158,12 @@ Generating the account summary involves two main components:
 
     Sales agent gathers all account-related information that is configured to be available to the Sales agent through admin settings. This includes:
 
-    - Columns from the **Account** record type (table) in CRM that are enabled for the Sales agent.
-    - Related record types (tables) in CRM that are enabled for the Sales agent.
+    - Columns from the **Account** entity (table in Dynamics 365 or object in Salesforce) in CRM that are enabled for the Sales agent.
+    - Related entities (tables in Dynamics 365 or objects in Salesforce) in CRM that are enabled for the Sales agent.
     
     Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
 
-    To change the CRM information included in the account summary, update the CRM data available to the Sales agent. Learn how to [configure record types in the Sales agent](customize-forms-and-fields.md).
+    To change the CRM information included in the account summary, update the CRM data available to the Sales agent. Learn how to [configure CRM entities in the Sales agent](customize-forms-and-fields.md).
 1. Curating the summary
 
     Sales agent uses natural language instructions to organize and present the account information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
