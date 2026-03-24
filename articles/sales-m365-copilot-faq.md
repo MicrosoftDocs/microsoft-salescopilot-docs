@@ -11,16 +11,25 @@ ms.custom: sfi-image-nochange
 
 #  Sales agent FAQ
 
-We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly.
+We've compiled a list of frequently asked questions and provided brief answers to help you get the required information quickly. Use this article to quickly find answers by task:
+
+- [Get started and licensing](#general)
+- [Check availability and geographies](#availability)
+- [Fix common feature issues](#functionality)
+- [Configure admin settings](#admin-settings)
+- [Deploy and troubleshoot deployment](#deployment)
+- [Customize forms and fields](#forms-and-fields-customization)
+- [Use Sales agent in Microsoft 365 Copilot](#sales-agent-in-microsoft-365-copilot)
+- [Review security, privacy, and compliance](#security-privacy-and-compliance)
 
 
 ## General
 
 ### What is Sales agent?  
 
-Sales agent brings together the power of Microsoft 365 Copilot with seller workflows. Sales agent leverages data from their CRM platform, as well as large language models and data from Microsoft Graph, Microsoft 365 apps, and the internet. Sales agent helps sales teams save time and energy, generate innovative ideas, build stronger customer relationships and ultimately close more deals.   
+Sales agent combines Microsoft 365 Copilot with everyday seller workflows. It uses data from your CRM system, Microsoft Graph, Microsoft 365 apps, large language models, and relevant web sources to deliver helpful, contextual insights. With this connected experience, sales teams can save time, work more efficiently, strengthen customer relationships, and close more deals.
 
-Some of the new innovations enabled in Sales agent include an integrated experience with Microsoft Outlook and Microsoft Teams. The integrated Copilot experiences in Microsoft Outlook help support sellers with the power of Copilot in Outlook and Sales agent role in a seamless _better together_ design. The experience shows summarized email threads and generated email replies to enable sellers to grow customer relationships and close deals. In addition, meeting recaps in Microsoft Teams can surface action items and tasks, conversation key performance indicators (KPIs), and sales keywords. Sellers can also customize AI-assisted sales processes with Copilot Studio, bringing tailored experiences informed by their own data, logic and actions for specific scenarios. 
+Sales agent also provides integrated experiences in Outlook and Teams. In Outlook, it can summarize email threads and suggest reply drafts so sellers can respond faster and more effectively. In Teams, meeting recaps can highlight action items, key tasks, conversation KPIs, and sales-related keywords. Sellers can further tailor these AI-assisted workflows by using Copilot Studio to apply their own business data, logic, and actions for specific scenarios.
 
 ### How does Sales agent work?
 
@@ -90,15 +99,12 @@ Email summary is generated only for emails or email threads with more than 1,000
 
 ### I don't see the Summarize a sales meeting button when creating a sales meeting summary email.
 
-The **Summarize a sales meeting** button isn't available in the following scenarios:
+If **Summarize a sales meeting** isn't available, check these items:
 
-- There are no meetings transcribed.
-
-- Meetings are filtered as per the recipients entered in the **To** list. If there are no meetings transcribed with the people in the **To** list, a message is displayed conveying the same.
-
-- Due to network or connection error. Try closing and reopening the **Sales** pane.
-
-For information on how to transcribe a meeting, see [Generate a meeting summary.](create-teams-meeting.md#generate-a-meeting-summary)
+- Confirm at least one meeting is transcribed.  
+   See [Generate a meeting summary](create-teams-meeting.md#generate-a-meeting-summary).
+- Verify the **To** recipients match participants from a transcribed meeting.
+- Close and reopen the **Sales** pane to recover from connection issues.
 
 ### Which Salesforce Sales Cloud editions are supported by Sales agent?
 
@@ -370,7 +376,7 @@ You must have a [Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365-
 
 #### Why does Sales agent say CRM Knowledge hasn't been set up?
 
-Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the CRM tables that users can access through Sales agent](set-up-sales-chat.md#step-1-configure-crm-record-types-tables).
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the CRM tables that users can access through Sales agent](set-up-sales-chat.md#step-1-configure-crm-entities-dynamics-365-tables-or-salesforce-objects).
 
 Contact your CRM administrator to request that CRM access be set up for Sales agent.
 
@@ -388,6 +394,14 @@ To see meeting insights, make sure that:
 - The meeting included at least one external participant who is saved as a contact in your CRM.
 
 If either of these conditions isn't met, meeting insights won't be generated.
+
+#### Sales agent features don't load or behave unexpectedly. What should I check?
+
+If features don't load, partially load, or behave unexpectedly, your organization's network security (such as firewall or proxy policies) might be blocking required Microsoft 365 endpoints.
+
+This kind of endpoint blocking can prevent required initialization and might appear as "some features not working" rather than a single clear error.
+
+Work with your network or security admin to allow the required endpoints in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges), including Copilot and Copilot Chat connectivity requirements, and ensure that `config.edge.skype.com` is also allowed.
 
 ## Security, Privacy, and Compliance 
 
