@@ -1,7 +1,7 @@
 ---
 title: Welcome to Sales agent
 description: Get to know Sales agent
-ms.date: 03/09/2026
+ms.date: 03/17/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,6 +14,11 @@ ms.localizationpriority: medium
 
 Sales agent is an AI assistant for sales teams to maximize productivity and close more deals. It brings next-generation AI and sales insights from their CRM platform into the Microsoft 365 productivity tools that they use daily such as Microsoft Outlook and Microsoft Teams.
 
+If you're getting started, use these links:
+- [Install and set up Sales agent](install-sales-app.md)
+- [Check license requirements](#license-requirements)
+- [Check role requirements](#role-requirements)
+
 Depending on the following roles, you can use the Sales agent to boost your sales productivity:
 
 - As a **seller**, you can work more efficiently and improve customer experiences with email assistance, personalized sales content creation, AI-generated insights, and recommendations for next steps.  
@@ -21,9 +26,13 @@ Depending on the following roles, you can use the Sales agent to boost your sale
 
 Here's how you can use the Sales agent to improve your sales productivity:
 
-- Customize by integrating with **Microsoft Dynamics 365 Sales**, **Salesforce Sales Cloud**, and other sales solutions to get insights and recommendations tailored to your business needs.  
-- Participate in Teams meetings and access meeting recordings through **Microsoft Teams**. It analyzes sales calls and extracts insights, action items, and more from the meeting recordings.  
-- Access calendar events, contacts, and read and write emails through **Microsoft Outlook**. It provides email assistance, insights, and recommendations to help you close deals faster. 
+- **Connect CRM data** to get tailored insights from Dynamics 365 Sales or Salesforce.
+- **Use in Teams meeting** to capture insights and action items from calls.
+- **Use in Outlook** for email drafting, follow-ups, and next-step recommendations.
+
+Next steps:
+- [Install Sales agent](install-sales-app.md)
+- [Review required privileges](privileges.md)
 
 ## Consideration
 
@@ -59,4 +68,7 @@ For the list of supported languages and geographies, see the [Copilot internatio
 
 ### Related information
 
-[Install Sales agent](install-sales-app.md)
+- [Install Sales agent](install-sales-app.md)
+- [Review role and privilege requirements](privileges.md)
+- [Check supported languages and geographies](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport)
+- [Review license terms](https://go.microsoft.com/fwlink/?linkid=2309718)

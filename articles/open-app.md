@@ -10,15 +10,24 @@ ms.author: shjais
 
 # Access Sales agent
 
-The Sales agent is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
+Use this article to quickly find where to open the Sales agent in Outlook and Teams.
 
-If you don't have access to the Sales agent, ask your administrator to install it.
+If you don't see **Sales** in Outlook or Teams, ask your administrator to install and deploy the Sales agent.
+
+Use the option that matches your scenario:
+- [Access Sales agent in Outlook](#access-sales-agent-in-outlook)
+- [Access Sales agent in Teams](#access-sales-agent-in-teams)
 
 ## Access Sales agent in Outlook
 
 As a seller, you communicate with a lot of potential customers by email. The Sales agent helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
 
-You can access the Sales agent using any of the following options:
+Use the option that matches your scenario:
+
+- [Outlook desktop](#outlook-desktop)
+- [New Outlook desktop and Outlook on the web](#new-outlook-desktop-and-outlook-on-the-web)
+- [Email banners in Outlook](#email-banners-in-outlook)
+- [Pin the Sales agent in Outlook](#pin-the-sales-agent-in-outlook)
 
 ### Outlook desktop
 
@@ -100,9 +109,13 @@ Backed by AI, the Sales agent in Teams provides recommendations and information 
 > [!NOTE]
 > The Sales agent is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
 
-To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
+To know how call recording is utilized, refer to [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
-You can access the Sales agent using any of the following options:
+You can access the Sales agent in Teams in the following ways:
+
+- Use [Message extensions](#message-extensions) to share CRM records in chat or channel conversations.
+- Use the app [during a meeting](#during-a-meeting) to view and edit the connected CRM record.
+- Access the [mobile app](#access-sales-agent-in-teams) to use the personal app and message extensions.
 
 ### Message extensions
 
@@ -110,4 +123,4 @@ In a Teams chat or channel, select **Message extensions** (**...**), search for 
 
 ### During a meeting
 
-[Use the Sales agent during a meeting](use-sales-copilot-app-during-meeting.md)
+[Use the Sales agent during a meeting](use-sales-copilot-app-during-meeting.md).
