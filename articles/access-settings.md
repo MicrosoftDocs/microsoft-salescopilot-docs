@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in the Sales agent
 description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
-ms.date: 03/23/2026
+ms.date: 03/26/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -40,11 +40,9 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
 1. If you turn on the toggle, you can choose to store meeting insights for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users' meeting insights are stored.
-    - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. 
+    - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -72,11 +70,9 @@ To turn on Lead Research and Outreach:
 1. In the **Sales Agent** pane, turn on the toggle.   
 1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
     - **No restrictions**: All sellers in the environment can use the feature.
-    - **Set access restrictions**: Use security groups to decide which sellers can use the feature. 
+    - **Set access restrictions**: Use security groups to decide which sellers can use the feature. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -102,11 +98,9 @@ To configure Sales agent access settings:
 1. In the **Allow access to Sales Chat** pane, turn on or off the toggle.
 1. If you turn on the toggle, you can choose to allow access for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users can use the feature.
-    - **Set access restrictions**: Use security groups to decide which users can use the feature.
+    - **Set access restrictions**: Use security groups to decide which users can use the feature. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -122,7 +116,7 @@ If you want to turn off Sales agent, follow the same steps to access the **Allow
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can control whether emails insights are generated and stored in Dataverse. By default, this feature is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are generated and stored in Dataverse. You can choose to generate and store email insights for all users or only for specific security groups. You can also choose to include emails with specific sensitivity labels in generating email insights.
+You can control whether email insights are generated and stored in Dataverse. This feature is turned off by default. When you turn it on, the Sales agent generates and stores AI-based insights for sales emails that have at least one CRM contact. These insights can include a summary, sentiment, objections, and next steps. You can enable email insights for all users or limit access to specific security groups. You can also choose whether emails with specific sensitivity labels are included when generating insights.
 
 ### Prerequisites
 
@@ -140,22 +134,20 @@ You can control whether emails insights are generated and stored in Dataverse. B
 1. In the **Email insights (preview)** pane, turn on the toggle.
 
 1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
-    - **No restrictions**: All users' email insights are generated and stored.
-    - **Set access restrictions**: Use security groups to decide which users' email insights are generated and stored.
+    - **No restrictions**: Generate and store email insights for all users in the environment.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are generated and stored. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
     :::image type="content" source="media/email-insights-access.png" alt-text="Screenshot showing the Email insights (preview) access settings.":::
 
-1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels for emails you want to include when generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, don't select any labels and select **Continue without labels**.
+1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels for the emails you want to include when generating email insights, and then select **Save**. If you don't want to include emails with any sensitivity labels, leave all labels unselected and select **Continue without labels**.
 
-You can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including emails with sensitivity labels.
+You can configure additional [email insights settings](email-insights-settings.md) such as sharing email insights and including emails with sensitivity labels.
 
-If you want to turn off email insights generation and storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
+If you want to turn off email insights generation and storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights.
 
 
 ## Related information

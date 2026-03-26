@@ -1,7 +1,7 @@
 ---
 title: Configure email insights settings in the Sales agent
 description: Learn how to configure email insights settings in the Sales agent.
-ms.date: 03/23/2026
+ms.date: 03/26/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -40,11 +40,9 @@ You can control whether stored email insights contribute to the AI knowledge bas
 1. Under **Who can access this feature?**, choose to share email insights of all users or only of specific security groups. To do this, select one of the following options:
 
     - **No restrictions**: All users' email insights are shared.
-    - **Set access restrictions**: Use security groups to decide which users' email insights are shared.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are shared. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
