@@ -122,14 +122,14 @@ If you want to turn off Sales agent, follow the same steps to access the **Allow
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can control whether email insights are stored in Dataverse. By default, the feature is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are stored in Dataverse. You can choose to store email insights for all users or only for specific security groups.
+You can control whether emails insights are generated and stored in Dataverse. By default, this feature is turned off. When you turn it on, AI-generated email insights such as summary, sentiment, objections, and next steps for sales emails with at least one CRM contact are generated and stored in Dataverse. You can choose to generate and store email insights for all users or only for specific security groups. You can also choose to include emails with specific sensitivity labels in generating email insights.
 
 ### Prerequisites
 
 - [Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
 - If you're using Salesforce, you must have [set up a server-to-server connection](connect-agent-datasource.md#set-up-server-to-server-connection-to-salesforce) to allow the agent to access data in Salesforce.
 
-### Turn on email insights storage
+### Turn on email insights
 
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 
@@ -140,8 +140,8 @@ You can control whether email insights are stored in Dataverse. By default, the 
 1. In the **Email insights (preview)** pane, turn on the toggle.
 
 1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
-    - **No restrictions**: All users' email insights are stored.
-    - **Set access restrictions**: Use security groups to decide which users' email insights are stored.
+    - **No restrictions**: All users' email insights are generated and stored.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are generated and stored.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
 
@@ -151,11 +151,11 @@ You can control whether email insights are stored in Dataverse. By default, the 
 
     :::image type="content" source="media/email-insights-access.png" alt-text="Screenshot showing the Email insights (preview) access settings.":::
 
-1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels you want to be included in generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, select **Continue without labels**.
+1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels for emails you want to include when generating email insights, and then select **Save**. If you don't want to include any sensitivity labels, don't select any labels and select **Continue without labels**.
 
-You can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including email with sensitivity labels.
+You can configure the [email insights settings](email-insights-settings.md) such as sharing of email insights and including emails with sensitivity labels.
 
-If you want to turn off email insights storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
+If you want to turn off email insights generation and storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights, and related features will be hidden.
 
 
 ## Related information
