@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Sales agent
 description: Learn what are the various privileges required to use the Sales agent
-ms.date: 03/09/2026
+ms.date: 03/26/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -91,7 +91,7 @@ For Sales agent in Microsoft 365 Copilot, also assign the following privileges:
 
 If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, the Sales agent privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role and following privileges to Dynamics 365 sellers who need to use the Sales agent.
+If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role or the following privileges to Dynamics 365 sellers who need to use the Sales agent.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -105,11 +105,6 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 | Note                | annotation                  | Create, Read, Write, Delete, Append, Append to, Assign, Share | User                           |
 | User                | systemuser                  | Read                                                  | Organization                   |
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
-
-For Sales agent in Microsoft 365 Copilot, also assign the following privileges to Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
-
-| Table       | Logical name       | Privileges        | Access level             |
-|----------------|---------------------|---------------------|---------------------|
 | DVTableSearchEntity | dvtablesearchentity | Read  | Global |
 | CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
 | CopilotSynonyms | copilotsynonyms | Read  | Global |
