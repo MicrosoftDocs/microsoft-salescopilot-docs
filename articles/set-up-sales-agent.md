@@ -62,7 +62,7 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 The Lead Research and Outreach can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
 > [!NOTE]
-> Research insights shown in the Sales agent are retained for 90 days. If a lead was researched more than 90 days ago, the lead can still appear on the screen, but opening the older research can show a generic error because the original insights have expired and been deleted. To keep research available beyond this 90-day period, configure the agent to store research summaries in your CRM. Sellers can also refresh insights for leads with expired research to generate a new summary.
+> Research insights shown in the Sales personal app are retained for 90 days. If a lead was researched more than 90 days ago, the lead can still appear in the list, but opening the older research can show a generic error because the original insights have expired and been deleted. To keep research available beyond this 90-day period, configure the agent to store research summaries in your CRM. Sellers can also refresh insights for leads with expired research to generate a new summary.
 
 ### Create a table to store Lead Research and Outreach research summary
 
