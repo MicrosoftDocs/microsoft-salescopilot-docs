@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent in Outlook
 description: Learn how to install, manage, and update the Sales agent in Microsoft 365 with this comprehensive guide.
-ms.date: 03/09/2026
+ms.date: 03/26/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,25 +19,12 @@ ms.custom:
 As an administrator, you can install the Sales agent as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).  
-1. In the left pane, select **Settings** > **Integrated apps**.  
-1. On the **Integrated apps** page, select **Get apps**.  
-
-    :::image type="content" source="media/get-apps-admin-center.svg" alt-text="Screenshot showing Get apps button in Microsoft 365 admin center.":::
-
-    Microsoft Marketplace opens in an embedded window.  
-1. In the **Marketplace** window, search for **Sales**.  
-1. In the search results, on the **Sales** card, select **Get it now**.  
-
-    :::image type="content" source="media/get-enhanced-app.png" alt-text="Screenshot showing Sales enhanced app in Microsoft 365 admin center.":::
-
-    The Marketplace window closes. You'll complete the remaining steps in the Microsoft 365 admin center.  
-1. In the **Configuration** step, select **Next**.  
-
-    :::image type="content" source="media/apps-to-deploy.png" alt-text="Screenshot showing apps to deploy.":::
-
-1. In the **Users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)  
-1. In the **Deployment** (**Permissions**) step, read the app permissions and capabilities, select **Accept permissions** for the app, and then select **Next**.  
-1. In the **Deployment** (**Finish**) step, review the selected settings, and then select **Finish deployment**.  
+1. In the left pane, select **Agents** > **All agents**.  
+1. On the **All agents** page, search for **Sales** and select it.
+1. In the **Sales** pane, select **Deploy**.
+1. In the **Select users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)  
+1. In the **Accept permissions** step, read the app permissions and capabilities, select **Accept permissions** for the app, and then select **Next**.  
+1. In the **Review & finish** step, review the selected settings, and then select **Finish deployment**.  
 1. When the deployment is complete, select **Done**.  
     Allow up to six hours for the Sales agent to appear in users' Outlook ribbon.
 
