@@ -1,7 +1,7 @@
 ---
 title: Use Lead Research and Outreach (preview)
 description: Learn how to view the research conducted on your leads by Lead Research and Outreach.
-ms.date: 03/09/2026
+ms.date: 03/26/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -40,6 +40,9 @@ When your administrator has enabled the Lead Research and Outreach, you can view
 ## View lead research details in Sales personal app
 
 The Lead Research and Outreach shows the key insights it has gathered, such as if the lead is a decision maker or even a real person or company, so you can make quick decisions to disqualify or pursue each lead. The company's key information, such as their industry, finances, strategic priorities, and business challenges are summarized to help you learn what you need to know about every lead.
+
+> [!NOTE]
+> Research insights in the Sales personal app are available for 90 days. If a lead was researched more than 90 days ago, the lead might still appear in the list, but opening its research details shows a generic error as the older insights have expired and been deleted. If your admin configured research summaries to be stored in your CRM, you can still review the saved summary there. You can also refresh the lead's insights to generate a new research summary.
 
 :::image type="content" source="./media/sales-agent-lead-research-details.png" alt-text="Screenshot showing the Lead Research and Outreach research details for a lead.":::
 

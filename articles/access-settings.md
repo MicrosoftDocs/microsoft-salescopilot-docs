@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in the Sales agent
 description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
-ms.date: 03/09/2026
+ms.date: 03/26/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -40,11 +40,9 @@ You can control whether meeting insights are stored in Dataverse. By default, th
 
 1. If you turn on the toggle, you can choose to store meeting insights for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users' meeting insights are stored.
-    - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. 
+    - **Set access restrictions**: Use security groups to decide which users' meeting insights are stored. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -72,11 +70,9 @@ To turn on Lead Research and Outreach:
 1. In the **Sales Agent** pane, turn on the toggle.   
 1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
     - **No restrictions**: All sellers in the environment can use the feature.
-    - **Set access restrictions**: Use security groups to decide which sellers can use the feature. 
+    - **Set access restrictions**: Use security groups to decide which sellers can use the feature. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -102,11 +98,9 @@ To configure Sales agent access settings:
 1. In the **Allow access to Sales Chat** pane, turn on or off the toggle.
 1. If you turn on the toggle, you can choose to allow access for all users or only for specific security groups. Under **Who can access this feature?**, select one of the following options:
     - **No restrictions**: All users can use the feature.
-    - **Set access restrictions**: Use security groups to decide which users can use the feature.
+    - **Set access restrictions**: Use security groups to decide which users can use the feature. You must add security groups in either of the sections to save the changes.
         - **Allow access**: Search and add security groups that can access the feature.
         - **Restrict access**: Search and add security groups that cannot access the feature.
-
-        You must add security groups in either of the sections to save the changes.
 
 1. Select **Save**.
 
@@ -116,8 +110,49 @@ After you turn on Sales agent, you can [set up and configure Sales agent from th
 
 If you want to turn off Sales agent, follow the same steps to access the **Allow access to Sales Chat** pane and turn off the toggle. If you turn off this setting, users who have Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses will not include any Sales data.
 
+## Email insights (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+You can control whether email insights are generated and stored in Dataverse. This feature is turned off by default. When you turn it on, the Sales agent generates and stores AI-based insights for sales emails that have at least one CRM contact. These insights can include a summary, sentiment, objections, and next steps. You can enable email insights for all users or limit access to specific security groups. You can also choose whether emails with specific sensitivity labels are included when generating insights.
+
+### Prerequisites
+
+- [Copilot AI features must be turned on](suggested-replies.md) for your organization or environment.
+- If you're using Salesforce, you must have [set up a server-to-server connection](connect-agent-datasource.md#set-up-server-to-server-connection-to-salesforce) to allow the agent to access data in Salesforce.
+
+### Turn on email insights
+
+1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
+
+1. Under **Environment**, select **Access settings**.
+
+1. Select **Email insights (preview)**.
+
+1. In the **Email insights (preview)** pane, turn on the toggle.
+
+1. Under **Who can access this feature?**, choose to allow access to all sellers or only to specific security groups. To do this, select one of the following options:
+    - **No restrictions**: Generate and store email insights for all users in the environment.
+    - **Set access restrictions**: Use security groups to decide which users' email insights are generated and stored. You must add security groups in either of the sections to save the changes.
+        - **Allow access**: Search and add security groups that can access the feature.
+        - **Restrict access**: Search and add security groups that cannot access the feature.
+
+1. Select **Save**.
+
+    :::image type="content" source="media/email-insights-access.png" alt-text="Screenshot showing the Email insights (preview) access settings.":::
+
+1. In the **Include emails based on sensitivity labels** window, select the sensitivity labels for the emails you want to include when generating email insights, and then select **Save**. If you don't want to include emails with any sensitivity labels, leave all labels unselected and select **Continue without labels**.
+
+You can configure additional [email insights settings](email-insights-settings.md) such as sharing email insights and including emails with sensitivity labels.
+
+If you want to turn off email insights generation and storage, follow the same steps to access the **Email insights (preview)** pane and turn off the toggle. If you turn off this setting, users will no longer receive any email insights.
+
+
 ## Related information
 
 - [Configure meeting insights settings](configure-meeting-agent.md)
+- [Configure email insights settings (preview)](email-insights-settings.md)
 - [Set up and activate Lead Research and Outreach](set-up-sales-agent.md)
 - [Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)
