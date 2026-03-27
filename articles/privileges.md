@@ -65,7 +65,7 @@ Learn more about [assigning security roles in Power Platform admin center](/powe
 
 If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, the Sales agent administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or add the following privileges to your custom roles assigned to Dynamics 365 administrators who need to customize the Sales agent.  
+If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or add the following privileges to custom roles assigned to Dynamics 365 administrators who need to customize the Sales agent.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
