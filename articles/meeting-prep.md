@@ -95,7 +95,7 @@ The detailed meeting preparation view includes:
 :::image type="content" source="media/sales-chat-meeting-prep-full.png" alt-text="Screenshot of the full meeting preparation view.":::
 
 > [!NOTE]
-> - On the left side, just below the Sales agent chat input box, you'll see a list of your upcoming meetings scheduled within the next four days. A maximum of five meetings are shown in this list, and you can select **Show all** to see more if you have more than five meetings. 
+> - On the left side, just below the Sales agent chat input box, you'll see a list of your upcoming meetings scheduled for the next four days. A maximum of five meetings is shown in this list, and you can select **Show all** to see more if you have more than five meetings. 
 > - Meeting preparation insights are generated automatically for all upcoming sales meetings.
 > - If you schedule a new meeting, it may take up to 15 minutes for insights to be generated and for the notification to appear.
 > - Until insights are ready, meetings in the left panel are labelled as "Insights not available". Once insights are available, the meeting entry updates to show the highlights.
