@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 03/09/2026
+ms.date: 03/30/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -351,6 +351,10 @@ If needed, you can hide the Sales agent for individual users or groups by one of
 
     > [!NOTE]
     > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
+
+#### Why are records not displayed in Sales Chat settings or why can't I add records in Sales Chat?
+
+Make sure you have the required administrator privileges to update Sales Chat record access. Learn more about [privileges required to use Sales agent](privileges.md).
 
 #### What data is passed to Bing Search?
 
