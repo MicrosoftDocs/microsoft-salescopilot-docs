@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent in Outlook
 description: Learn how to install, manage, and update the Sales agent in Microsoft 365 with this comprehensive guide.
-ms.date: 03/26/2026
+ms.date: 03/30/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -23,7 +23,7 @@ As an administrator, you can install the Sales agent as an integrated app from M
 1. On the **All agents** page, search for **Sales** and select it.
 1. In the **Sales** pane, select **Deploy**.
 1. In the **Select users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)  
-1. In the **Accept permissions** step, read the app permissions and capabilities, select **Accept permissions** for the app, and then select **Next**.  
+1. In the **Accept permissions** step, select **Next**.  
 1. In the **Review & finish** step, review the selected settings, and then select **Finish deployment**.  
 1. When the deployment is complete, select **Done**.  
     Allow up to six hours for the Sales agent to appear in users' Outlook ribbon.
@@ -37,23 +37,23 @@ As an administrator, you can install the Sales agent as an integrated app from M
 
 ## Manage the Sales agent
 
-After you've deployed the Sales agent, you can manage its configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
+After you've deployed the Sales agent, you can manage its configuration by adding or removing agents, adding custom tools and knowledge, and updating users.
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Agents** > **All agents**.  
 1. On the **All agents** page, select **Sales**.  
 
 The **Sales** panel opens with the following tabs:
 
-- **Overview**: Displays basic information about the add-in, deployed apps, and assigned users. If the Sales agent was previously deployed from the Microsoft 365 admin center, the **Merge both versions** button is shown. Select **Merge both versions** to upgrade the app to the latest version.
+- **Overview**: Displays basic information about the agent, assigned users, and channel availability.
+- **Connected Agents**: Displays any agents that are connected to the Sales agent.
+- **Custom tools & knowledge**: Allows you to add custom tools and knowledge to the Sales agent to enhance its capabilities.
 - **Users**: Allows you to edit the users who can use the app.  
 
 ## Update the Sales agent
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Agents** > **All agents**.  
-1. On the **All agents** page, select **Sales**.
-    The **Sales** panel opens. If there's an update available for the add-in, a message is displayed in the **Overview** tab.  
-1. Select **Know more and update**.  
-1. In the **Updates** panel, select **Accept and update**.
+1. On the **All agents** page, select **Sales**. 
+1. In the **Sales** panel, select **Update**.
 
 ## User-deployed app installation
 
