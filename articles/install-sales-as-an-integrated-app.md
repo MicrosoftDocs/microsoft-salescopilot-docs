@@ -22,7 +22,13 @@ As an administrator, you can install the Sales agent as an integrated app from M
 1. In the left pane, select **Agents** > **All agents**.  
 1. On the **All agents** page, search for **Sales** and select it.
 1. In the **Sales** pane, select **Deploy**.
-1. In the **Select users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)  
+
+    :::image type="content" source="media/sales-agent-deploy.png" alt-text="Screenshot of the Sales pane in the Microsoft 365 admin center, with the Deploy button highlighted.":::
+
+1. In the **Select users** step, select the users or groups who will have access to the app, and then select **Next**. Learn more about configuring users and groups at [Considerations when assigning an add-in to users and groups](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true#considerations-when-assigning-an-add-in-to-users-and-groups)
+
+    :::image type="content" source="media/sales-agent-deploy-users.png" alt-text="Screenshot of the Select users step in the Sales agent deployment process.":::
+
 1. In the **Accept permissions** step, select **Next**.  
 1. In the **Review & finish** step, review the selected settings, and then select **Finish deployment**.  
 1. When the deployment is complete, select **Done**.  
