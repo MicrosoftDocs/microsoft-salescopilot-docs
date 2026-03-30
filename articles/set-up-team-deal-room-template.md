@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the deal room template 
 description: Learn how to set up a team using a deal room team template in the Sales agent for Outlook.
-ms.date: 03/09/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -20,6 +20,8 @@ You can create a [collaboration space from a sales template](./collaboration-spa
 Regardless of how you set them up, you can access linked teams and channels from both Outlook and the Sales agent.
 
 When you create a collaboration space with the deal room team template, you can [create a deal room team](#create-a-deal-room-team) or [set up an existing team as a deal room team](#set-up-an-existing-team-as-a-deal-room-team).
+
+To create and set up a deal room team, use the **Collaborate in Teams** card in the **Sales** pane in Outlook. If you don't see this card, ensure that the opportunity is linked to a parent account that's associated with a contact in your CRM.
 
 ## Set up an existing team as a deal room team
 
