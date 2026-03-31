@@ -21,7 +21,7 @@ Regardless of how you set them up, you can access linked teams and channels from
 
 When you create a collaboration space with the account team template, you can [create an account team](#create-an-account-team) or [set up an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
-The creation and setup of an account team is done from the **Collaborate in Teams** card in the **Sales** pane in Outlook. If you don't see the **Collaborate in Teams** card, ensure that the contact you're viewing in the **Sales** pane has an account associated with it in your CRM.
+To create and set up an account team, use the **Collaborate in Teams** card in the **Sales** pane in Outlook. If you don't see this card, ensure that the contact you're viewing in the **Sales** pane has an account associated with it in your CRM.
 
 ## Create an account team
 
@@ -37,7 +37,7 @@ The creation and setup of an account team is done from the **Collaborate in Team
 
     By default, the team name is set to the account name. Your tenant administrator might have set the [sensitivity label](/microsoftteams/sensitivity-labels) and privacy option in the tenant settings.
 
-    If sensitivity options are set up by your administrator, privacy of the team (Private/Public) defaults to the tenant admin settings.
+    If sensitivity options are set up by your administrator, the privacy of the team (Private/Public) defaults to the tenant admin settings.
 
 1. In the **Add team members** step, select recommended colleagues to add to the team's General channel for internal collaboration. You can add more later directly in Teams.
 
