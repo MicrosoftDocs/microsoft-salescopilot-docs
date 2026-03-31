@@ -93,10 +93,12 @@ Select **Prepare with insights** to open the [detailed meeting preparation view]
 
 ## Submit feedback
 
-Your feedback is crucial in helping us improve the Sales agent experience. If you have any feedback or encounter any issues while using the Sales agent, please submit your feedback through the Microsoft 365 Copilot chat interface. To submit feedback:
+If you have feedback or encounter issues while using Sales agent, submit feedback through the Microsoft 365 Copilot chat interface.
+
+To submit feedback:
 
 1. Enter `/share`.
-1. Copy the debug information that is generated and share it with your Microsoft representative.
+1. Copy the generated debug information and share it with your Microsoft representative.
 
 ## Related information
 
