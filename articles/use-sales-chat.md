@@ -97,7 +97,7 @@ If you have feedback or encounter issues while using Sales agent, submit feedbac
 
 To submit feedback:
 
-1. Enter `/share`.
+1. Type `/share` in the chat box and select the send icon or press Enter.
 1. Copy the generated debug information and share it with your Microsoft representative.
 
 ## Related information
