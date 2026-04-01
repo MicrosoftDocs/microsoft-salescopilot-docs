@@ -354,7 +354,7 @@ If needed, you can hide the Sales agent for individual users or groups by one of
 
 #### Why can't I view or add records in Sales Chat settings?
 
-To view or add records in Sales Chat settings, you must have the required administrator privileges. Learn more about [privileges required to use Sales agent](privileges.md).
+To view or add records in Sales Chat settings, you must have [specific administrator privileges](privileges.md).
 
 #### What data is passed to Bing Search?
 
