@@ -352,7 +352,7 @@ If needed, you can hide the Sales agent for individual users or groups by one of
     > [!NOTE]
     > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
 
-#### Why aren't records displayed in Sales Chat settings, or why can't I add records?
+#### Why can't I view or add records in Sales Chat settings?
 
 To view or add records in Sales Chat settings, you must have the required administrator privileges. Learn more about [privileges required to use Sales agent](privileges.md).
 
