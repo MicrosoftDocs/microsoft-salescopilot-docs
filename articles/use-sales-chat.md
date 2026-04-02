@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
-ms.date: 03/09/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -90,6 +90,15 @@ The meeting preparation feature in Microsoft 365 Copilot helps you enter every c
 Under the chat box of the Sales agent, you can see a list of upcoming sales meetings (a meeting with at least one external contact) scheduled in the next 24 hours. The meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights are not available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
 
 Select **Prepare with insights** to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
+
+## Submit feedback
+
+If you have feedback or encounter issues while using Sales agent, you can get debug information from the Microsoft 365 Copilot chat interface to share with your Microsoft representative.
+
+To submit feedback:
+
+1. Type `/share` in the chat box and select the **Send** icon or press Enter.
+1. Copy the generated debug information and share it with your Microsoft representative.
 
 ## Related information
 
