@@ -30,7 +30,8 @@ Here's a quick video overview of Sales agent:
 You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
 
 > [!NOTE]
-> If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.
+> - If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.
+> - For Salesforce, ownership queries don't currently support user context terms such as "me", "my", "mine", or "I." To get accurate results, specify the owner by name in your prompt. For example, use "accounts owned by Kenny Smith" instead of "accounts owned by me."
 
 Below are some example scenarios where you can use Sales agent, along with sample prompts for each.
 
