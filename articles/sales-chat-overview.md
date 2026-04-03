@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
+The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
 
 Traditional sales CRM systems are primarily designed to capture information and prevent knowledge loss, but they often make it difficult to quickly retrieve and analyze data. For instance, creating a status report on an account typically requires sellers to navigate through multiple CRM pages and other applications to gather details about past purchases, marketing interactions, and more.
 

@@ -108,7 +108,7 @@ To configure Sales agent access settings:
 
 After you turn on Sales agent, you can [set up and configure Sales agent from the **Sales Chat** settings page](set-up-sales-chat.md).
 
-If you want to turn off Sales agent, follow the same steps to access the **Allow access to Sales Chat** pane and turn off the toggle. If you turn off this setting, users who have Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses will not include any Sales data.
+If you want to turn off Sales agent, follow the same steps to access the **Allow access to Sales Chat** pane and turn off the toggle. If you turn off this setting, users who have Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot. They can still ask questions and get responses, but the responses will not include any Sales data.
 
 ## Email insights (preview)
 
