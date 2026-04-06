@@ -342,7 +342,7 @@ The relationship between record types is based on the order in which record type
 
 #### Can I disable Sales agent for users who have a Microsoft 365 Copilot license?
 
-All users with the Microsoft 365 Copilot license and [Sales agent installed](install-sales-app.md) will automatically see Sales as an agent in Microsoft 365 Copilot Chat by default.
+All users with the Microsoft 365 Copilot license and [Sales agent installed](install-sales-app.md) will automatically see Sales as an agent in Microsoft 365 Copilot by default.
 
 If needed, you can hide the Sales agent for individual users or groups by one of the following methods:
 
@@ -350,7 +350,7 @@ If needed, you can hide the Sales agent for individual users or groups by one of
 - Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
 
     > [!NOTE]
-    > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
+    > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot. They can still ask questions and get responses, but the responses won't include any sales data.
 
 #### Why can't I view or add records in Sales Chat settings?
 
@@ -370,7 +370,7 @@ The agent uses Bing Search to gather publicly available information and generate
 
 #### Why does Sales agent say I don't have access?
 
-This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot Chat, but you won't receive responses to your queries.
+This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot, but you won't receive responses to your queries.
 
 Contact your administrator to request access to Sales Chat.
 
