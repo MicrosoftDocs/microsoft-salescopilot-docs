@@ -72,3 +72,4 @@ You can build a custom [declarative agent](/microsoft-365-copilot/extensibility/
 - [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 - [Plugins for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-plugins?tabs=mcp)
 - [Use developer mode in Microsoft 365 Copilot to test and debug agents](/microsoft-365-copilot/extensibility/debugging-agents-copilot-studio)
+- [Create records in Dynamics 365 by using Sales agent in Microsoft 365 Copilot (preview)](create-d365-records.md)
