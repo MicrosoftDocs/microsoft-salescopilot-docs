@@ -1,7 +1,7 @@
 ---
 title: Set up Lead Research and Outreach (preview)
 description: Learn how to set up Lead Research and Outreach to research leads and generate insights.
-ms.date: 03/09/2026
+ms.date: 04/07/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -61,10 +61,13 @@ Learn more about creating a list view in [Salesforce](https://help.salesforce.co
 
 The Lead Research and Outreach can optionally store a summary of the research in your CRM so that a seller can view the research directly on the lead record. To enable this capability, you must first create a table in the CRM to store the summary, and then create a field on your lead record that will be used to link the lead to the summary.
 
+> [!NOTE]
+> Research insights shown in the Sales personal app are retained for 90 days. If a lead was researched more than 90 days ago, the lead might still appear in the list, but opening its research details shows a generic error as the original insights have expired and been deleted. To keep research available beyond this 90-day period, configure the agent to store research summaries in your CRM. Sellers can also refresh insights for leads with expired research to generate a new summary.
+
 ### Create a table to store Lead Research and Outreach research summary
 
 1. Create a custom table in your CRM to store the Lead Research and Outreach research summary. For example, **SalesAgentResearchSummaries**.
-1. In the summary table, create a field labeled **SummaryText**. In Salesforce, the type of the field should be **Text Area (Rich)**. In Dynamics 365, the type of the filed should be **Multiple Lines of Text**.
+1. In the summary table, create a field labeled **SummaryText**. In Salesforce, the type of the field should be **Text Area (Rich)**. In Dynamics 365, the type of the field should be **Multiple Lines of Text** and the format should be **Text**.
 1. Set the permissions on the table and fields to allow your sellers read the content of the records. If you're using Salesforce, you must give permission to the Salesforce integration user to read and write to this table. Learn more about [configuring Salesforce permissions for Lead Research and Outreach](#configure-salesforce-permissions-for-lead-research-and-outreach).
 
 ### Create a field on lead record to reference the summary

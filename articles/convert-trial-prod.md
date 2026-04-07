@@ -16,7 +16,7 @@ If you are using Dynamics 365 and the environment in Dynamics 365 is of type Tri
 
 You can find the name and details of your environment in the **Environments** section of the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). The type of the environment is shown in the **Type** column.
 
-To use Lead Research and Outreach, you must convert the trial environment to production in which the Sales app is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
+To use Lead Research and Outreach, you must convert the trial environment to production in which the Sales agent is deployed. You can also convert the environment to production for other reasons such as using the features available in production environment.
 
 > [!NOTE]
 > If you're using Salesforce as your CRM and want to convert your **msdyn_viva** trial environment to a production environment to use Lead Research and Outreach, follow the instructions in [Set up Lead Research and Outreach](set-up-sales-agent.md#step-3-set-up-and-activate-the-agent).

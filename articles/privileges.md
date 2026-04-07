@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Sales agent
 description: Learn what are the various privileges required to use the Sales agent
-ms.date: 03/09/2026
+ms.date: 03/27/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -65,7 +65,7 @@ Learn more about [assigning security roles in Power Platform admin center](/powe
 
 If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, the Sales agent administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) and following privileges to Dynamics 365 administrators who need to customize the Sales agent.  
+If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or add the following privileges to custom roles assigned to Dynamics 365 administrators who need to customize the Sales agent.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
@@ -76,11 +76,6 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 |User | systemuser                  | Read                                                  | Organization |
 | Recently Used | recentlyused                | Create, Read, Write, Delete                           | User        |
 |Organization | organization                | Read, Write, Append to                                | Global      |
-
-For Sales agent in Microsoft 365 Copilot, also assign the following privileges:
-
-| Table       | Logical name       | Privileges        | Access level             |
-|----------------|---------------------|---------------------|--------------------|
 | DVTableSearch | dvtablesearch | Create, Read, Write, Delete, Append, Append to  | Global |
 | DVTableSearchEntity | dvtablesearchentity | Create, Read, Write, Delete, Append, Append to  | Global |
 | connectionreference | connectionreference | Create, Read, Write, Delete, Append, Append to  | Global |
@@ -91,7 +86,7 @@ For Sales agent in Microsoft 365 Copilot, also assign the following privileges:
 
 If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, the Sales agent privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role and following privileges to Dynamics 365 sellers who need to use the Sales agent.
+If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role or add the following privileges to custom roles assigned to Dynamics 365 sellers who need to use the Sales agent.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -105,11 +100,6 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 | Note                | annotation                  | Create, Read, Write, Delete, Append, Append to, Assign, Share | User                           |
 | User                | systemuser                  | Read                                                  | Organization                   |
 | Recently Used       | recentlyused                | Create, Read, Write, Delete                           | User                           |
-
-For Sales agent in Microsoft 365 Copilot, also assign the following privileges to Salesperson, Sales Manager, Copilot for Sales User, and Vice President of Sales:
-
-| Table       | Logical name       | Privileges        | Access level             |
-|----------------|---------------------|---------------------|---------------------|
 | DVTableSearchEntity | dvtablesearchentity | Read  | Global |
 | CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
 | CopilotSynonyms | copilotsynonyms | Read  | Global |

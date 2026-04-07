@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
-ms.date: 03/09/2026
+ms.date: 04/07/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,17 +18,17 @@ The Sales agent is an AI-powered chat interface that allows you to interact with
 
 ## Access Sales agent
 
-The Sales agent is available as an agent in Microsoft 365 Copilot Chat. To access the Sales agent:
+The Sales agent is available as an agent in Microsoft 365 Copilot. To access the Sales agent:
 
-1. Open [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat).
-    Alternatively, in Microsoft Teams, select the Copilot icon on the left sidebar to open Microsoft 365 Copilot Chat.
+1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat).
+    Alternatively, in Microsoft Teams, select the Copilot icon on the left sidebar to open Microsoft 365 Copilot.
 1. Under **Agents**, select **Sales**.
 1. Enter your question in the chat box and select the send icon or press Enter.
 
     > [!NOTE]
     > A few starter prompts are available below the chat box to help you get started.
     
-    Microsoft 365 Copilot Chat will prompt you to grant permission to share information with the Sales agent service. Review the request and select **Accept** to continue.
+    Microsoft 365 Copilot will prompt you to grant permission to share information with the Sales agent service. Review the request and select **Accept** to continue.
     
     The Sales agent will then provide a response with the information you requested.
 
@@ -37,10 +37,10 @@ The Sales agent is available as an agent in Microsoft 365 Copilot Chat. To acces
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> - You must install the Sales agent to see the Sales agent in Microsoft 365 Copilot Chat.
-> - You must be signed in to your CRM system from the Sales agent in either Outlook or Teams to use Sales agent in Microsoft 365 Copilot Chat.
-> - Sales agent is also accessible in Microsoft 365 Copilot Chat within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features are not accessible in these locations.
-> - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot chat in model-driven apps](set-up-sales-chat.md#step-5-optional-enable-microsoft-365-copilot-chat-in-model-driven-apps).
+> - You must install the Sales agent to see the Sales agent in Microsoft 365 Copilot.
+> - You must be signed in to your CRM system from the Sales agent in either Outlook or Teams to use Sales agent in Microsoft 365 Copilot.
+> - Sales agent is also accessible in Microsoft 365 Copilot within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features are not accessible in these locations.
+> - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot in model-driven apps](set-up-sales-chat.md#step-5-optional-enable-microsoft-365-copilot-in-model-driven-apps). [Learn how to access Sales agent in Dynamics 365](/dynamics365/sales/use-sales-agent-in-m365-copilot).
 > - When you access Sales agent from Dynamics 365, you are signed in to the same environment as your Dynamics 365 session.
 > - If you see the error that chat isn't set up to connect to your CRM, contact your administrator to [set up Sales agent](set-up-sales-chat.md). 
 
@@ -84,12 +84,21 @@ For a list of example prompts you can use with the Sales agent, see [What can Sa
 The meeting preparation feature in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside Sales agent chat interface, so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
 
 > [!NOTE]
-> - The meeting preparation feature is only available in the full-screen mode of Sales agent chat experience. It's not available when using Microsoft 365 Copilot Chat in Outlook, Word, PowerPoint, Excel, or Dynamics 365.
+> - The meeting preparation feature is only available in the full-screen mode of Sales agent chat experience. It's not available when using Microsoft 365 Copilot in Outlook, Word, PowerPoint, Excel, or Dynamics 365.
 > - Specific licensing requirements apply when you use meeting preparation card Microsoft 365 Copilot. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 
 Under the chat box of the Sales agent, you can see a list of upcoming sales meetings (a meeting with at least one external contact) scheduled in the next 24 hours. The meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights are not available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
 
 Select **Prepare with insights** to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
+
+## Submit feedback
+
+If you have feedback or encounter issues while using Sales agent, you can get debug information from Microsoft 365 Copilot to share with your Microsoft representative.
+
+To submit feedback:
+
+1. Type `/share` in the chat box and select the **Send** icon or press Enter.
+1. Copy the generated debug information and share it with your Microsoft representative.
 
 ## Related information
 

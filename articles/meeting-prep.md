@@ -95,7 +95,7 @@ The detailed meeting preparation view includes:
 :::image type="content" source="media/sales-chat-meeting-prep-full.png" alt-text="Screenshot of the full meeting preparation view.":::
 
 > [!NOTE]
-> - On the left side, just below the Sales agent chat input box, you'll see a list of your upcoming meetings scheduled within the next 24 hours.
+> - On the left side, just below the Sales agent chat input box, you'll see a list of your upcoming meetings scheduled for the next four days. A maximum of five meetings is shown in this list, and you can select **Show all** to see more if you have more than five meetings. 
 > - Meeting preparation insights are generated automatically for all upcoming sales meetings.
 > - If you schedule a new meeting, it may take up to 15 minutes for insights to be generated and for the notification to appear.
 > - Until insights are ready, meetings in the left panel are labelled as "Insights not available". Once insights are available, the meeting entry updates to show the highlights.
@@ -110,7 +110,7 @@ The meeting preparation card contains the following information:
 
 - **Matched account**: Title of the card shows the name of the account matched in CRM. 
 - **General meeting information**: Information about the meeting such as its name, date, time, number of participants, and their acceptance status.
-- **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, budget, related records, and open tasks retrieved from CRM. If the meeing is saved to a CRM opportunity, the connected opportunity is used to generate the insights. If the meeting is not saved to a CRM opportunity, the most recent opportunity linked to the meeting participants is used to generate the insights. If no opportunity is found, the card displays the matched account summary instead.
+- **Opportunity**: Name of the matched opportunity, key fields as configured by your administrator, and AI-generated summary of key CRM information such as open and closed dates, current stage, budget, related records, and open tasks retrieved from CRM. If the meeting is saved to a CRM opportunity, the connected opportunity is used to generate the insights. If the meeting is not saved to a CRM opportunity, the most recent opportunity linked to the meeting participants is used to generate the insights. If no opportunity is found, the card displays the matched account summary instead.
 
     :::image type="content" source="media/meeting-prep-card-oppty.png" alt-text="Screenshot of the opportunity summary in the meeting preparation card.":::
 
