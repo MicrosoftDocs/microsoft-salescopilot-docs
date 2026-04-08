@@ -63,6 +63,24 @@ The personal app includes **Home** and **Settings** tabs. The **Settings** tab i
 
 :::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Sales personal app opened in Outlook mobile app.":::
 
+## Sales agent chat on mobile
+
+You can use Sales agent chat on mobile in either of these ways:
+
+- Launch from **Outlook mobile** by tapping the **Copilot** icon, and then selecting **Sales** from the hamburger menu.
+- Launch from the standalone **Microsoft 365 Copilot** app by selecting **Sales** from the hamburger menu.
+
+### Chat capabilities
+
+When launched from either entry point, Sales agent chat helps you:
+
+- Search for and view CRM records.
+- Add or update CRM records such as contacts, accounts, and opportunities.
+- Summarize email context and generate draft responses.
+- Capture notes and save them to CRM.
+
+Learn more about using [Sales agent chat capabilities](use-sales-chat.md).
+
 ## Capture voice notes and save to CRM
 
 You can capture voice notes in Sales agent using the Microsoft 365 Copilot app and save them directly to your CRM records. You can launch the app from within Outlook mobile or use the Microsoft 365 Copilot app as a standalone app.
