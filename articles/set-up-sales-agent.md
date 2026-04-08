@@ -67,7 +67,7 @@ The Lead Research and Outreach can optionally store a summary of the research in
 ### Create a table to store Lead Research and Outreach research summary
 
 1. Create a custom table in your CRM to store the Lead Research and Outreach research summary. For example, **SalesAgentResearchSummaries**.
-1. In the summary table, create a field labeled **SummaryText**. In Salesforce, the type of the field should be **Text Area (Rich)**. In Dynamics 365, the type of the field should be **Multiple Lines of Text** and the format should be **Text**.
+1. In the summary table, create a field labeled **SummaryText**. In Salesforce, the field type should be **Text Area (Rich)**. In Dynamics 365, the field type should be **Multiple Lines of Text** and the format should be **Text**.
 1. Set the permissions on the table and fields to allow your sellers read the content of the records. If you're using Salesforce, you must give permission to the Salesforce integration user to read and write to this table. Learn more about [configuring Salesforce permissions for Lead Research and Outreach](#configure-salesforce-permissions-for-lead-research-and-outreach).
 
 ### Create a field on lead record to reference the summary
