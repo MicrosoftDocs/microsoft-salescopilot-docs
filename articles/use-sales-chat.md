@@ -14,6 +14,8 @@ ms.author: shjais
 
 The Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your CRM data and past customer conversations—all through natural language.
 
+Learn more about the [differences between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales](/dynamics365/sales/sales-copilot-faq#whats-the-difference-between-the-sales-in-microsoft-365-copilot-and-copilot-in-dynamics-365-sales) and [how to migrate to the Sales agent](/dynamics365/sales/sales-copilot-faq#how-do-i-migrate-from-copilot-in-dynamics-365-sales-to-the-sales-agent-in-microsoft-365-copilot).
+
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Access Sales agent
