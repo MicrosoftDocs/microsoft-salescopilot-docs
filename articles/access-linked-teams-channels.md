@@ -17,6 +17,7 @@ ms.custom:
 [Collaboration spaces](./collaboration-space.md) in Microsoft Teams offer purpose-built places to work with your colleagues and customers on account and opportunity activities&mdash;but what if Teams isn't part of your normal workflow? If you prefer to work in Outlook or Dynamics 365 Sales, you can still get convenient access to teams and channels that you linked to your CRM using a sales template or [enhanced collaboration in Dynamics 365 Sales](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience).
 
 ## Access linked teams and channels from Outlook
+test
 
 1. In Outlook, open the Sales agent, and scroll down to the **Collaborate in Teams** card.
 
