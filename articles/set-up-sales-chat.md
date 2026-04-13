@@ -156,7 +156,7 @@ Generating the account and opportunity summary involves two main components:
 
 1. Getting information about the account and opportunity
 
-    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, [customcustomize the AI instructions](#customize-ai-instructions) to specify which fields should be included.
+    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, [customize the AI instructions](#customize-ai-instructions) to specify which fields should be included.
 
 1. Curating the summary
 
