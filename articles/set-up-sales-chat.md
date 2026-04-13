@@ -152,15 +152,7 @@ Glossary terms are not supported for Salesforce CRM currently.
 
 Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
 
-Generating the account and opportunity summary involves two main components:
-
-1. Getting information about the account and opportunity
-
-    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, [customize the AI instructions](#customize-ai-instructions) to specify which fields should be included.
-
-1. Curating the summary
-
-    Sales agent uses natural language instructions to organize and present the account and opportunity information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
+Sales agent generates account and opportunity summaries by using commonly used fields from the Account and Opportunity tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include additional or different fields and tailor how the summary is curated to fit your organization's needs.
 
 ### Customize AI instructions
 
