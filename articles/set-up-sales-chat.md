@@ -156,13 +156,13 @@ Generating the account and opportunity summary involves two main components:
 
 1. Getting information about the account and opportunity
 
-    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, customize the [custom AI instructions](#customize-ai-instructions-for-account-and-opportunity-summary) to specify which fields should be included.
+    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, [customcustomize the AI instructions](#customize-ai-instructions) to specify which fields should be included.
 
 1. Curating the summary
 
     Sales agent uses natural language instructions to organize and present the account and opportunity information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
 
-### Customize AI instructions for account and opportunity summary
+### Customize AI instructions
 
 1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Custom AI instructions**.
