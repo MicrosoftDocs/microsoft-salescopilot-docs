@@ -1,7 +1,7 @@
 ---
 title: Overview of Sales agent in Microsoft 365 Copilot (preview)
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 03/09/2026
+ms.date: 04/14/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -35,13 +35,13 @@ You can use natural language with the Sales agent to query and get insights from
 
 Below are some example scenarios where you can use Sales agent, along with sample prompts for each.
 
-### Scenario 1: Become an expert on your accounts
+### Scenario 1: Become an expert on your CRM records
 
 This scenario is ideal for users who:
 
-- Recently took over an account that was previously managed by other teams.
-- Work on an account with multiple touchpoints across the business.
-- Want to quickly get up to speed on an account they plan to engage with.
+- Recently took over an account or opportunity that was previously managed by other teams.
+- Work on an account or opportunity with multiple touchpoints across the business.
+- Want to quickly get up to speed on an account or opportunity they plan to engage with.
 
 #### Information prompts
 

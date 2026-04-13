@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 03/09/2026
+ms.date: 04/14/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -148,44 +148,44 @@ You must add glossary terms in Microsoft Copilot Studio. The glossary terms you 
 
 Glossary terms are not supported for Salesforce CRM currently.
 
-## Step 3: Configure account summary
+## Step 3: Configure record summary
 
-Sales reps can get a summary of their accounts in Sales agent. To enable this feature, you need to configure the account summary settings in the Sales agent admin settings.
+Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
 
-Generating the account summary involves two main components:
+Generating the account and opportunity summary involves two main components:
 
-1. Getting information about the account
+1. Getting information about the account and opportunity
 
-    Sales agent gathers all account-related information that is configured to be available to the Sales agent through admin settings. This includes:
+    By default, Sales agent generates the summary using commonly used fields from the Account and Opportunity tables. To include additional or different fields, customize the [custom AI instructions](#customize-ai-instructions-for-account-and-opportunity-summary) to specify which fields should be included.
 
-    - Columns from the **Account** entity (table in Dynamics 365 or object in Salesforce) in CRM that are enabled for the Sales agent.
-    - Related entities (tables in Dynamics 365 or objects in Salesforce) in CRM that are enabled for the Sales agent.
-    
-    Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
-
-    To change the CRM information included in the account summary, update the CRM data available to the Sales agent. Learn how to [configure CRM entities in the Sales agent](customize-forms-and-fields.md).
 1. Curating the summary
 
-    Sales agent uses natural language instructions to organize and present the account information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
+    Sales agent uses natural language instructions to organize and present the account and opportunity information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
 
-    To customize the AI instructions for the account summary:
+### Customize AI instructions for account and opportunity summary
 
-    1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
-    1. Under **Environment**, select **Custom AI instructions**.
-    1. For the **Account summary** report, select **...** > **Edit**.
+1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Environment**, select **Custom AI instructions**.
+1. For the **Account summary** or **Opportunity summary** report, select **...** > **Edit**.
 
-        :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
+    :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
 
-    1. Select **Customized instructions** and then enter your custom instructions.
-    1. Select **Save**.
+1. In the **Description** field, customize the default prompt to control how the summary is generated. You can:
+   - Describe how to organize and present the information
+   - @mention specific field names to specify which fields to include in the summary
+   - Use natural language to provide curation instructions to the AI
+1. (Optional) Under **Notes summary** and **Interaction summary**, configure the number of weeks of content to include. By default, the summary includes content from the past 4 weeks. The maximum 12 weeks.
+1. Select **Publish**.
 
-        :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
+    :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
 
-        The new instructions will be applied the next time a user requests an account summary in Sales agent. You can test the instructions by requesting an account summary in Sales agent.
+    The new instructions are applied the next time a user requests a summary in Sales agent. You can test them by requesting a summary in Sales agent.
 
-    > [!NOTE]
-    > - You can't test the custom instructions before saving them. To validate your changes, connect to a test CRM environment before applying them in your production environment.
-    > - The effectiveness of a custom instruction depends on the information included in the account summary. Whenever you update either the custom instructions or the summary content, review and adjust both to ensure they work well together.
+    If you want to restore the default instructions, select **Restore default**.
+
+> [!NOTE]
+> - You can't test the custom instructions before saving them. To validate your changes, connect to a test CRM environment before applying them in your production environment.
+> - The effectiveness of a custom instruction depends on the information included in the summary. Whenever you update either the custom instructions or the summary content, review and adjust both to ensure they work well together.
 
 ## Step 4: Configure past customer meetings
 
