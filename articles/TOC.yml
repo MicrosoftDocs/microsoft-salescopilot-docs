@@ -82,8 +82,8 @@
               href: set-up-sales-chat.md
             - name: Extend Sales agent with custom tools and knowledge
               href: extend-sales-chat-custom-tools.md
-            - name: Create Dynamics 365 records with Sales agent
-              href: create-d365-records.md
+            - name: Set up record creation in Dynamics 365 with Sales agent
+              href: set-up-record-creation-dynamics-365.md
             - name: Manage connected agents
               href: manage-connected-agents.md
         - name: Convert the environment from Trial to Production

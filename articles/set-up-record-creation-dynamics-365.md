@@ -1,14 +1,14 @@
 ---
-title: Create Dynamics 365 records with Sales agent in Microsoft 365 Copilot (preview)
+title: Set up record creation in Dynamics 365 with Sales agent (preview)
 description: Dynamics 365 integration made easy—discover how to set up record creation with Sales agent in Microsoft 365 Copilot and boost your productivity.
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 04/06/2026
+ms.date: 04/13/2026
 ---
 
-# Create records in Dynamics 365 by using Sales agent in Microsoft 365 Copilot (preview)
+# Set up record creation in Dynamics 365 with Sales agent (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ Sellers can create contacts, accounts, opportunities, and other record types in 
 Before setting up record creation in the Sales agent, make sure the following prerequisites are met:
 
 - **Model-driven Dynamics 365 app**: You have Sales Hub or another Dynamics 365 model-driven app that includes the tables you want users to create records in.
-- **Permission to upload custom apps in Microsoft 365 admin center**: Your Microsoft 365 AI admin may need to enable this permission.
+- **Permission to upload custom apps in Microsoft 365 admin center**: Your Microsoft 365 AI admin has enabled this permission.
 - **Dynamics 365 administrator roles**: You need the System Administrator or System Customizer security role in Dynamics 365, and a [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles) to manage the Sales agent.
 
 ## Set up record creation in the Sales agent
@@ -44,7 +44,7 @@ To enable record creation in the Sales agent, download your model-driven app pac
 After you download the package, [upload it as a custom agent using Microsoft 365 admin center](/microsoft-365/copilot/agent-essentials/agent-lifecycle/agent-upload-agents).
 
 > [!NOTE]
-> You don't need to deploy the agent. You only need to upload it and make it available in your organization’s agent catalog.
+> You don't need to deploy the agent. You only need to upload it and make it available in your organization's agent catalog.
 
 ### Step 3: Add the custom tools and knowledge to the Sales agent
 
