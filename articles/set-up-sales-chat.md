@@ -175,6 +175,9 @@ Generating the account and opportunity summary involves two main components:
    - @mention specific field names to specify which fields to include in the summary
    - Use natural language to provide curation instructions to the AI
 1. (Optional) Under **Notes summary** and **Interaction summary**, configure the number of weeks of content to include. By default, the summary includes content from the past 4 weeks. The maximum 12 weeks.
+
+    By default, these settings are turned on, and the summary includes notes and interactions from the past 4 weeks. If you want to exclude notes or interactions from the summary, turn off the respective setting.
+
 1. Select **Publish**.
 
     :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
