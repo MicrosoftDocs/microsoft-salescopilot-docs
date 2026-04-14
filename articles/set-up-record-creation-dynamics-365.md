@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
-ms.date: 04/13/2026
+ms.date: 04/14/2026
 ---
 
 # Set up record creation in Dynamics 365 with Sales agent (preview)
@@ -22,7 +22,7 @@ Before setting up record creation in the Sales agent, make sure the following pr
 
 - **Model-driven Dynamics 365 app**: You have Sales Hub or another Dynamics 365 model-driven app that includes the tables you want users to create records in.
 - **Permission to upload custom apps in Microsoft 365 admin center**: Your Microsoft 365 AI admin has enabled this permission.
-- **Dynamics 365 administrator roles**: You need the System Administrator or System Customizer security role in Dynamics 365, and a [Microsoft 365 admin role](/microsoft-365/admin/add-users/about-admin-roles) to manage the Sales agent.
+- **Dynamics 365 administrator roles**: You need the System Administrator or System Customizer security role in Dynamics 365, and the AI Administrator role to manage the Sales agent in Microsoft 365 admin center or Agent 365.
 
 ## Set up record creation in the Sales agent
 
