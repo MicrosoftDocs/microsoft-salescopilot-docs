@@ -71,7 +71,9 @@ In the Microsoft 365 Copilot app, use the built-in **Mic** icon in the Sales age
 1. Send the message to the Sales agent.
 1. When prompted, select the CRM record where you want to save the note, and then confirm.
 
-## Outlook experience
+## Sales agent app on mobile
+
+### Outlook experience
 
 You can access the Sales agent only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
 
@@ -79,7 +81,7 @@ To open the Sales agent, select an email on your mobile device, and then select 
 
 :::image type="content" source="media/open-mobile-app-outlook.png" alt-text="Screenshot of the Sales agent opened in Outlook mobile app.":::
 
-### Supported features
+#### Supported features
 
 All features available in the desktop version of the Sales agent work on mobile (unless called out in the known issues section) including the following features:
 
@@ -90,7 +92,7 @@ All features available in the desktop version of the Sales agent work on mobile 
 - Generate email drafts that can be copied into an email reply.
 - View AI-generated opportunity summaries.
 
-### Unsupported features
+#### Unsupported features
 
 - Salesforce sign-in isn't supported in iOS. As a workaround, sign in from the desktop or web version of Outlook and then use the mobile version.
 - Selecting **Open in Salesforce** opens the home page in a browser instead of the record page. Salesforce links don't work on mobile browsers. However, if you have the Salesforce mobile app installed, the record page opens in the Salesforce app in iOS and Android.
@@ -98,22 +100,22 @@ All features available in the desktop version of the Sales agent work on mobile 
 - The **Saved to Salesforce** tag isn't displayed in iOS. When an email is saved to CRM using the Sales agent, two different tags are generated based on the CRM you're signed in to. The **Tracked to Dynamics 365** tag is displayed when signed in to Dynamics 365 and the **Saved to Salesforce** tag is displayed when signed in to Salesforce. Both the tags are displayed in the desktop and web versions of Outlook. However, only the **Tracked to Dynamics 365** tag is displayed in iOS. 
 - The Sales agent doesn't appear when signed in to multiple accounts in Outlook. Ensure your primary account is used with Copilot.
 
-## Teams experience
+### Teams experience
 
 The Sales agent in Teams has mixed support on Teams mobile version.
 
-### Supported features
+#### Supported features
 
 - Message extension to share CRM records within chats and Team conversations.
 - Share the Sales agent CRM record links in conversations. The records links unfurl into rich adaptive cards.
 - Bot notifications including reading preparation cards.
 
-### Unsupported features
+#### Unsupported features
 
 - The Sales tab with meeting recap, mentions, and details is only available on larger screens.
 - The Sales pill within the Teams recap isn't available on Teams mobile for post-meeting information.
 
-## Shared Microsoft 365 experience
+### Shared Microsoft 365 experience
 
 The Sales personal app can be accessed from both Outlook and Teams mobile apps via **Apps** button in the bottom navigation bar.
 
