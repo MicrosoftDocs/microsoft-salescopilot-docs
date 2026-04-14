@@ -35,7 +35,7 @@ You can use natural language with the Sales agent to query and get insights from
 
 Below are some example scenarios where you can use Sales agent, along with sample prompts for each.
 
-### Scenario 1: Become an expert on your CRM records
+### Scenario 1: Become an expert on your accounts and opportunities
 
 This scenario is ideal for users who:
 

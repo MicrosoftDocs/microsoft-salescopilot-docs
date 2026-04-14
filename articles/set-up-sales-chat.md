@@ -152,7 +152,7 @@ Glossary terms are not supported for Salesforce CRM currently.
 
 Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
 
-Sales agent generates account and opportunity summaries by using commonly used fields from the Account and Opportunity tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include additional or different fields and tailor how the summary is curated to fit your organization's needs.
+Sales agent generates account and opportunity summaries by using commonly used fields and relationships from the Account and Opportunity tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include additional or different fields and tailor how the summary is curated to fit your organization's needs.
 
 ### Customize AI instructions
 
@@ -164,11 +164,19 @@ Sales agent generates account and opportunity summaries by using commonly used f
 
 1. In the **Description** field, customize the default prompt to control how the summary is generated. You can:
    - Describe how to organize and present the information
-   - @mention specific field names to specify which fields to include in the summary
+   - @mention specific field names or views of related records to specify which fields or related records to include in the summary
    - Use natural language to provide curation instructions to the AI
-1. (Optional) Under **Notes summary** and **Interaction summary**, configure the number of weeks of content to include. By default, the summary includes content from the past 4 weeks. The maximum 12 weeks.
 
-    By default, these settings are turned on, and the summary includes notes and interactions from the past 4 weeks. If you want to exclude notes or interactions from the summary, turn off the respective setting.
+    > [!NOTE]
+    > - If you're connected to Dynamics 365, you can @mention:
+    >     - Records related to the account or opportunity through 1:N, N:1, or N:N relationship.
+    >     - Records related to a lookup field on the account or opportunity through 1:N, N:1, or N:N relationship.
+    > - If you're connected to Salesforce CRM, you can @mention:
+    >     - Records related to the account or opportunity through 1:N or N:1 relationship.
+    >     - Records related to a lookup field on the account or opportunity through 1:N or N:1 relationship.
+1. Under **Notes summary** and **Interaction summary**, configure the number of weeks of notes and interactions to include. By default, the summary includes data from the past 4 weeks. The maximum is 12 weeks.
+
+    By default, these settings are turned on. If you want to exclude notes or interactions from the summary, turn off the respective setting.
 
 1. Select **Publish**.
 
