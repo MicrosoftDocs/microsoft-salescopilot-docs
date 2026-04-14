@@ -1,6 +1,6 @@
 ---
-title: Mobile support for Sales agent
-description: Learn about the mobile support for Sales agent on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
+title: Mobile support for Sales agent app in Outlook and Teams
+description: Learn about the mobile support for Sales agent app on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
 ms.date: 03/09/2026
 ms.topic: concept-article
 ms.service: microsoft-sales-copilot
@@ -9,17 +9,17 @@ ms.author: shjais
 ms.custom: CXT
 ---
 
-# Mobile support for Sales agent
+# Mobile support for Sales agent app in Outlook and Teams
 
-Sales agent is supported on mobile (iOS and Android) versions of Outlook and Teams. All the features available in the desktop version of Sales agent aren't available in the mobile version. This article outlines what is and isn't supported on mobile.
+The Sales agent app is available on the iOS and Android versions of Outlook and Teams. While the mobile experience supports many of the same capabilities as the desktop version, some features are limited or unavailable due to platform constraints. This article describes what's supported and what isn't when you use the Sales agent app on a mobile device.
 
 ## Outlook experience
 
-You can access the Sales agent only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
+You can access the Sales agent app only when reading emails. It's not available when composing or replying to emails or when viewing or creating a meeting or appointment.
 
-To open the Sales agent, select an email on your mobile device, and then select **...**  next to the email from and to fields. Select **Sales** from the top app list or find it under **More Add-Ins**. When the app is launched, it takes over the full screen due to the smaller mobile screen.
+To open the Sales agent app, select an email on your mobile device, and then select **...**  next to the email from and to fields. Select **Sales** from the top app list or find it under **More Add-Ins**. When the app is launched, it takes over the full screen due to the smaller mobile screen.
 
-:::image type="content" source="media/open-mobile-app-outlook.png" alt-text="Screenshot of the Sales agent opened in Outlook mobile app.":::
+:::image type="content" source="media/open-mobile-app-outlook.png" alt-text="Screenshot of the Sales agent app opened in Outlook mobile app.":::
 
 ### Supported features
 
@@ -62,6 +62,7 @@ The Sales personal app can be accessed from both Outlook and Teams mobile apps v
 The personal app includes **Home** and **Settings** tabs. The **Settings** tab is only available to CRM or system administrators. Learn more at [Sales personal app](personal-app.md).
 
 :::image type="content" source="media/open-personal-app-mobile.png" alt-text="Screenshot for Sales personal app opened in Outlook mobile app.":::
+
 
 ### Related information
 
