@@ -148,7 +148,7 @@ You must add glossary terms in Microsoft Copilot Studio. The glossary terms you 
 
 Glossary terms are not supported for Salesforce CRM currently.
 
-## Step 3: Configure record summary
+## Step 3: Configure account and opportunity summary
 
 Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
 

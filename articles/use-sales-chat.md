@@ -59,7 +59,7 @@ You can use the Sales agent to get a summary of an account or opportunity, inclu
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> Your CRM administrator can [customize the details included in the record summary](set-up-sales-chat.md#step-3-configure-record-summary).
+> Your CRM administrator can [customize the details included in the account and opportunity summary](set-up-sales-chat.md#step-3-configure-account-and-opportunity-summary).
 
 ## Catch up on past customer meetings
 
