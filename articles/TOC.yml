@@ -15,8 +15,6 @@
     href: functional-overview.md
   - name: Architecture overview
     href: architecture.md
-  - name: Mobile support
-    href: mobile-support.md
   - name: Privileges required for Sales agent
     href: privileges.md
   - name: Data handling in Sales agent
@@ -231,6 +229,13 @@
         href: sales-chat-overview.md
       - name: Use Sales agent
         href: use-sales-chat.md
+
+  - name: Mobile capabilities
+    items:
+    - name: Chat capabilities on mobile
+      href: sales-agent-chat-mobile.md
+    - name: App capabilities on mobile
+      href: mobile-support.md
 
 - name: Extend Sales agent (preview)
   items:
