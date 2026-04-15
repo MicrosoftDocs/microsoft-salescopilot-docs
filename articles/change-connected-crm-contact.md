@@ -1,7 +1,7 @@
 ---
 title: Change the connected CRM contact
 description: Learn how to change the connected CRM contact.
-ms.date: 11/20/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -11,7 +11,7 @@ ms.custom: sfi-image-nochange
 
 # Change the connected CRM contact
 
-You could connect your Sales app contact to a different CRM contact if you connected your Sales app contact to the wrong one of multiple contacts in your CRM, for instance.
+You could connect your Sales agent contact to a different CRM contact if you connected your Sales agent contact to the wrong one of multiple contacts in your CRM, for instance.
 
 1. Open the **Sales** contact pane and select the contact for which you want to change the connected CRM contact.
 
@@ -27,4 +27,4 @@ You could connect your Sales app contact to a different CRM contact if you conne
     
    :::image type="content" source="media/new-contact.png" alt-text="Screenshot showing choose a CRM to connect.":::
 
-    If you don't connect to a different CRM contact, the Sales app retains the existing connection.
+    If you don't connect to a different CRM contact, the Sales agent retains the existing connection.

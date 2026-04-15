@@ -1,24 +1,33 @@
 ---
-title: Access Sales app
-description: Learn how to access the Sales app in Outlook and Teams.
-ms.date: 02/11/2026
+title: Access Sales agent
+description: Learn how to access the Sales agent in Outlook and Teams.
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Access Sales app
+# Access Sales agent
 
-The Sales app is an AI assistant for sellers in Microsoft 365 that connects to sales solutions to bring next-generation AI and CRM platform updates and insights across productivity workflows.
+Use this article to quickly find where to open the Sales agent in Outlook and Teams.
 
-If you don't have access to the Sales app, ask your administrator to install it.
+If you don't see **Sales** in Outlook or Teams, ask your administrator to install and deploy the Sales agent.
 
-## Access Sales app in Outlook
+Use the option that matches your scenario:
+- [Access Sales agent in Outlook](#access-sales-agent-in-outlook)
+- [Access Sales agent in Teams](#access-sales-agent-in-teams)
 
-As a seller, you communicate with a lot of potential customers by email. The Sales app helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
+## Access Sales agent in Outlook
 
-You can access the Sales app using any of the following options:
+As a seller, you communicate with a lot of potential customers by email. The Sales agent helps you prepare for your engagements. It gathers information from your CRM system and Microsoft Office and enriches it with actionable insights, so you can be more effective right where you spend most of your day.
+
+Use the option that matches your scenario:
+
+- [Outlook desktop](#outlook-desktop)
+- [New Outlook desktop and Outlook on the web](#new-outlook-desktop-and-outlook-on-the-web)
+- [Email banners in Outlook](#email-banners-in-outlook)
+- [Pin the Sales agent in Outlook](#pin-the-sales-agent-in-outlook)
 
 ### Outlook desktop
 
@@ -28,7 +37,7 @@ You can access the Sales app using any of the following options:
         - Select **Sales** on the ribbon.  
         - Select **All Apps** > **Sales**. In the pop-up, select **Sales**. To add a CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity. 
 
-        :::image type="content" source="media/outlook-classic-access-app-draft-email.png" alt-text="Screenshot showing accessing the Sales app from Outlook desktop while drafting an email.":::
+        :::image type="content" source="media/outlook-classic-access-app-draft-email.png" alt-text="Screenshot showing accessing the Sales agent from Outlook desktop while drafting an email.":::
 
     - Select **More commands** (**...**) and then select **Sales** (in Simplified ribbon)  
     - Select **Show contact** or **Add contact** in the banner message (for emails)  
@@ -38,7 +47,7 @@ You can access the Sales app using any of the following options:
 
     -  In Classic ribbon: Select **Sales** on the ribbon or **All Apps** > **Sales**.
 
-        :::image type="content" source="media/outlook-classic-access-app-read-email.png" alt-text="Screenshot showing accessing the Sales app from Outlook desktop while reading an email.":::
+        :::image type="content" source="media/outlook-classic-access-app-read-email.png" alt-text="Screenshot showing accessing the Sales agent from Outlook desktop while reading an email.":::
 
     - In Simplified ribbon: Select **More commands** (**...**) and then select **Sales**. Alternatively, you can also select **All Apps** > **Sales**.
 
@@ -51,19 +60,19 @@ You can access the Sales app using any of the following options:
         :::image type="content" source="media/access-app-web.png" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
 
     > [!NOTE]
-    > If the Sales app is admin-deployed, the app is automatically pinned to the ribbon.  
+    > If the Sales agent is admin-deployed, the app is automatically pinned to the ribbon.  
 
     - Select **Show contact** or **Add contact** in the banner message (for emails)  
     - Select **Show summary** in the banner message (for meetings)
 
 - While reading an email
 
-    - On the email action bar, select **Sales**. If the Sales app is not visible, select **More apps** > **Sales**.
+    - On the email action bar, select **Sales**. If the Sales agent is not visible, select **More apps** > **Sales**.
 
         :::image type="content" source="media/access-app-web-read-email.png" alt-text="Screenshot showing accessing the app while reading an email in Outlook on the web.":::
 
     > [!NOTE]
-    > If the Sales app is admin-deployed, the app is automatically pinned to the email action bar.
+    > If the Sales agent is admin-deployed, the app is automatically pinned to the email action bar.
 
 - While creating or opening a meeting, select **Apps** > **Sales** on the ribbon.
 
@@ -84,30 +93,34 @@ You can access the Sales app using any of the following options:
     > [!NOTE]
     > The banner message in this scenario is displayed for up to two external emails per user per day. If you don't want these banners to appear, [ask your administrator to disable them](m365-admin-setting.md).
 
-### Pin the Sales app in Outlook
+### Pin the Sales agent in Outlook
 
-To keep the Sales app visible as you navigate through your emails and meetings, you can pin the app so that the app pane remains open.
+To keep the Sales agent visible as you navigate through your emails and meetings, you can pin the app so that the app pane remains open.
 
 - To pin the app, select the pushpin icon: :::image type="icon" source="media/pin-app.png" border="false":::.
 - To unpin the app, select the pushpin icon again: :::image type="icon" source="media/unpin-app.png" border="false":::.
 
 You can pin the app only in the classic Outlook or in the new Outlook when Microsoft 365 Copilot is not installed. When Microsoft 365 Copilot is installed, the app is integrated with the Microsoft 365 Copilot side pane.
 
-## Access Sales app in Teams
+## Access Sales agent in Teams
 
-Backed by AI, the Sales app in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
+Backed by AI, the Sales agent in Teams provides recommendations and information to help you stay connected to your customers, minimize data entry, and personalize your engagements to close deals faster with higher win rates. Get a deeper understanding of your customers' needs from transcribed call summaries with conversation intelligence, and take the right action at the right time with automatically generated follow-ups.
 
 > [!NOTE]
-> The Sales app is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
+> The Sales agent is accessible within the Microsoft Teams mobile app. You can open the personal app, and use message extensions to search and share CRM records.
 
-To know how call recording is utilized, see [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
+To know how call recording is utilized, refer to [Learn More - Call or Meeting Recording](learn-more-call-meeting-recording.md).
 
-You can access the Sales app using any of the following options:
+You can access the Sales agent in Teams in the following ways:
+
+- Use [Message extensions](#message-extensions) to share CRM records in chat or channel conversations.
+- Use the app [during a meeting](#during-a-meeting) to view and edit the connected CRM record.
+- Access the [mobile app](#access-sales-agent-in-teams) to use the personal app and message extensions.
 
 ### Message extensions
 
-In a Teams chat or channel, select **Message extensions** (**...**), search for the Sales app, and then select it. This helps you [share CRM records](share-crm-record-teams-conversation.md) with your team members.
+In a Teams chat or channel, select **Message extensions** (**...**), search for the Sales agent, and then select it. This helps you [share CRM records](share-crm-record-teams-conversation.md) with your team members.
 
 ### During a meeting
 
-[Use the Sales app during a meeting](use-sales-copilot-app-during-meeting.md)
+[Use the Sales agent during a meeting](use-sales-copilot-app-during-meeting.md).

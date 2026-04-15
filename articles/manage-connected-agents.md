@@ -1,7 +1,7 @@
 ---
 title: Manage connected agents in the Microsoft 365 admin center  
 description: Learn how to manage connected agents for Sales in the Microsoft 365 admin center. Enhance responses by linking agents and leveraging shared insights.
-ms.date: 12/08/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

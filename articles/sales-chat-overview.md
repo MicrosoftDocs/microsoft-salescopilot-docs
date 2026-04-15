@@ -1,7 +1,7 @@
 ---
 title: Overview of Sales agent in Microsoft 365 Copilot (preview)
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 12/01/2025
+ms.date: 03/09/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
+The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
 
 Traditional sales CRM systems are primarily designed to capture information and prevent knowledge loss, but they often make it difficult to quickly retrieve and analyze data. For instance, creating a status report on an account typically requires sellers to navigate through multiple CRM pages and other applications to gather details about past purchases, marketing interactions, and more.
 
@@ -27,10 +27,11 @@ Here's a quick video overview of Sales agent:
 
 ## What can Sales agent help you with?
 
-You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you do not have permission to view certain data in the CRM, that information is not available in Sales agent.
+You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you don't have permission to view certain data in the CRM, that information isn't available in Sales agent.
 
 > [!NOTE]
-> If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they were not part of the meeting.
+> - If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they weren't part of the meeting.
+> - For Salesforce, ownership queries don't currently support user context terms such as "me", "my", "mine", or "I." To get accurate results, specify the owner by name in your prompt. For example, use "accounts owned by Kenny Smith" instead of "accounts owned by me."
 
 Below are some example scenarios where you can use Sales agent, along with sample prompts for each.
 
@@ -67,7 +68,7 @@ This scenario is ideal for users who:
 This scenario is ideal for users who:
 
 - Manage accounts with multiple meetings involving various stakeholders and team members within the company.
-- Need to catch up on meetings they have not attended.
+- Need to catch up on meetings they haven't attended.
 - Want reminders of previous interactions and engagements to stay up to date with the latest insights.
 
 #### Know what is top of mind for customers
@@ -79,7 +80,7 @@ This scenario is ideal for users who:
 #### Be prepared to address open items
 
 - What are the follow-ups tasks from recent meetings with `<account name>`? Categorize by Owner. Sort the tasks by due date.
-- Are there any open incidents for `<account name>`? Show the cases a table with one row for each case. For each case, show details about the case title, owner, status, creation date and number of days since case was created as columns.
+- Are there any open incidents for `<account name>`? Show the cases a table with one row for each case. For each case, show details about the case title, owner, status, creation date, and number of days since case was created as columns.
 
 ### Scenario 3: Pipeline review and deal coaching
 
@@ -87,12 +88,12 @@ This scenario is ideal for users who:
 
 - Want to review their opportunity pipeline and identify areas for improvement.
 - Need coaching on specific deals to increase their chances of closing.
-- Want to ensure they are following best practices in their sales process.
+- Want to ensure they're following best practices in their sales process.
 
 #### Analyze your pipeline health
 
 - Get the estimated revenue across opportunities by forecast category.
-- Get the list of opportunities owned by `<seller name>` in the "Pipeline" forecasting category. Show the results in a table with one row for each opportunity. Each row should have four columns, one each for opportunity title, account name, estimated value and close date.
+- Get the list of opportunities owned by `<seller name>` in the "Pipeline" forecasting category. Show the results in a table with one row for each opportunity. Each row should have four columns, one each for opportunity title, account name, estimated value, and close date.
 - What are the top 5 opportunities by estimated revenue that have a target close date this quarter?
 - What are the largest opportunities by revenue owned by `<seller name>`?
 - Get me the accounts owned by `<seller name>`. What is the estimated revenue from open opportunities in each account? Show as a table and sort by estimated revenue
@@ -105,8 +106,8 @@ This scenario is ideal for users who:
 
 > [!NOTE]
 > - The effectiveness of prompts depends on the quality and structure of your CRM data. Sales agent generates responses based on your data, so maintaining a strong data foundation is essential.
-> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Sales app users and that, at a minimum, a transcription is generated.
-> - You are encouraged to try prompts beyond the provided samples to discover additional capabilities.
+> - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Sales agent users and that, at a minimum, a transcription is generated.
+> - You're encouraged to try prompts beyond the provided samples to discover more capabilities.
 
 ## Getting started
 
