@@ -223,10 +223,10 @@
 
     - name: Mobile capabilities
       items:
-    - name: Chat capabilities on mobile
-      href: sales-agent-chat-mobile.md
-    - name: App capabilities on mobile
-      href: mobile-support.md
+        - name: Chat capabilities on mobile
+          href: sales-agent-chat-mobile.md
+        - name: App capabilities on mobile
+          href: mobile-support.md
 
 - name: Extend Sales agent (preview)
   items:
