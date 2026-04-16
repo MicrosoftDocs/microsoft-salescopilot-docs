@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
-ms.date: 04/07/2026
+ms.date: 04/15/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -81,15 +81,28 @@ You can use the Sales agent to look up information about your customer accounts,
 
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
-## Prepare for your Sales meetings
+## Prepare for and follow up on your sales meetings
 
-The meeting preparation feature in Microsoft 365 Copilot helps you enter every customer meeting with confidence and the right information. It shows AI-generated insights, CRM data, and recent communications into a single, easy-to-read view that is embedded alongside Sales agent chat interface, so you can quickly ask follow-up questions or dig deeper—without leaving your workflow.
+The meeting experience in Microsoft 365 Copilot helps you prepare for customer meetings and follow up afterward with the right information. It brings AI-generated insights, CRM data, and recent communications into a single, easy-to-read view alongside the Sales agent chat interface, so you can ask follow-up questions or dig deeper without leaving your workflow.
 
 > [!NOTE]
-> - The meeting preparation feature is only available in the full-screen mode of Sales agent chat experience. It's not available when using Microsoft 365 Copilot in Outlook, Word, PowerPoint, Excel, or Dynamics 365.
+> - The meeting experience is only available in the full-screen mode of Sales agent chat experience. It's not available when using Microsoft 365 Copilot in Outlook, Word, PowerPoint, Excel, or Dynamics 365.
 > - Specific licensing requirements apply when you use meeting preparation card Microsoft 365 Copilot. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718).
 
-Under the chat box of the Sales agent, you can see a list of upcoming sales meetings (a meeting with at least one external contact) scheduled in the next 24 hours. The meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights are not available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
+Under the chat box of the Sales agent, you can see a list of meetings organized under two tabs:
+
+- **Upcoming meetings** shows upcoming sales meetings (a meeting with at least one external contact) scheduled for the next four days. A maximum of five meetings is shown in this list, and you can select **Show all** to see more if you have more than five meetings.
+- **Past meetings** shows sales meetings from the past seven days.
+
+For upcoming meetings, the meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights are not available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
+
+For past meetings, an information banner explains that the content is a pre-meeting brief and includes a button to open the meeting recap in Teams.
+
+The post-meeting experience includes:
+
+- **Key takeaways** that summarize the most important meeting outcomes.
+- **Meeting summary** and **Action items** from the existing AI meeting recap.
+- **Sales Home integration** that provides Sales chat for asking follow-up questions or generating content.
 
 Select **Prepare with insights** to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
 
