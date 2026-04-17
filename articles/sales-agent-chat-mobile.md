@@ -83,7 +83,7 @@ Update your opportunities directly from the Sales agent using voice commands. Si
 > [!IMPORTANT]
 > Confirmation is required before any update is saved to your CRM.
 
-### Related information
+## Related information
 
 - [Prepare for meetings](meeting-prep.md)
 - [Use Sales agent chat capabilities](use-sales-chat.md)
