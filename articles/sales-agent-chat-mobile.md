@@ -59,7 +59,7 @@ After launching Sales agent in the Microsoft 365 Copilot app, use the built-in *
 
 You can see upcoming meetings and their details directly from the Sales agent on your mobile app, so you're always ready before you join.
 
-On the Sales agent home screen, swipe left below the chat input box to see a list of your upcoming meetings. Tap any meeting to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) with details such as highlights, CRM record summary, and AI-generated insights.
+On the Sales agent home screen, swipe left to see a list of your upcoming meetings. Tap any meeting to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) with details such as highlights, CRM record summary, and AI-generated insights.
 
 ## Update opportunities with voice
 
