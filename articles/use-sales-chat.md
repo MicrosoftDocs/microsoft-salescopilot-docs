@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to leverage Sales agent to gain insights from your sales data.
-ms.date: 04/15/2026
+ms.date: 04/21/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -102,9 +102,8 @@ The post-meeting experience includes:
 
 - **Key takeaways** that summarize the most important meeting outcomes.
 - **Meeting summary** and **Action items** from the existing AI meeting recap.
-- **Sales Home integration** that provides Sales chat for asking follow-up questions or generating content.
 
-Select **Prepare with insights** to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
+Select **Prepare with insights** to open the [detailed view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
 
 ## Submit feedback
 
