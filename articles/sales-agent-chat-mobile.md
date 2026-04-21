@@ -1,7 +1,7 @@
 ---
 title: Sales agent chat on mobile
 description: Learn about using Sales agent chat on mobile. Launch the app, capture voice notes, update opportunities with voice commands, save to CRM records, and prepare for meetings on your mobile device.
-ms.date: 04/20/2026
+ms.date: 04/21/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -67,7 +67,7 @@ Update your opportunities directly from the Sales agent using voice commands. Si
 
 ### How it works
 
-1. State your update clearly—for example, "Update the closing date for Contoso to next Friday" or "Change the stage for Contoso to proposal."
+1. State your update clearly—for example, "Update the closing date for Contoso to next Friday" or "Change the deal amount for Fabrikam to $50,000".
 1. The Sales agent identifies the opportunity based on your context. If multiple opportunities match your input, the Sales agent asks you to clarify which one.
 1. The Sales agent proposes the change and displays the details for your review.
 1. Review the proposed update, including the field name and new value.
@@ -75,7 +75,7 @@ Update your opportunities directly from the Sales agent using voice commands. Si
 
 ### Capabilities
 
-- **Single-field updates**: Update one field at a time, such as opportunity stage, closing date, or deal amount.
+- **Single-field updates**: Update one field at a time, such as opportunity closing date or deal amount.
 - **Multi-field updates**: Update multiple fields in a single conversation.
 - **Mid-flow correction**: Correct or revise your input at any point before confirming the change.
 - **Opportunity and field disambiguation**: Resolve ambiguity when your input matches multiple opportunities or fields through a guided clarification flow.
