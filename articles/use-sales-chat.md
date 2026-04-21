@@ -1,6 +1,6 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
-description: Learn how to leverage Sales agent to gain insights from your sales data.
+description: Learn how to use Sales agent to gain insights from your sales data.
 ms.date: 04/21/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
@@ -30,9 +30,9 @@ The Sales agent is available as an agent in Microsoft 365 Copilot. To access the
     > [!NOTE]
     > A few starter prompts are available below the chat box to help you get started.
     
-    Microsoft 365 Copilot will prompt you to grant permission to share information with the Sales agent service. Review the request and select **Accept** to continue.
+    Microsoft 365 Copilot prompts you to grant permission to share information with the Sales agent service. Review the request and select **Accept** to continue.
     
-    The Sales agent will then provide a response with the information you requested.
+    The Sales agent then provides a response with the information you requested.
 
     :::image type="content" source="media/sales-chat-starter-prompts.png" alt-text="Screenshot of the Sales agent starter prompts.":::
 
@@ -41,9 +41,9 @@ For a list of example prompts you can use with the Sales agent, see [What can Sa
 > [!NOTE]
 > - You must install the Sales agent to see the Sales agent in Microsoft 365 Copilot.
 > - You must be signed in to your CRM system from the Sales agent in either Outlook or Teams to use Sales agent in Microsoft 365 Copilot.
-> - Sales agent is also accessible in Microsoft 365 Copilot within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features are not accessible in these locations.
+> - Sales agent is also accessible in Microsoft 365 Copilot within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features aren't accessible in these locations.
 > - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot in model-driven apps](set-up-sales-chat.md#step-5-optional-enable-microsoft-365-copilot-in-model-driven-apps). [Learn how to access Sales agent in Dynamics 365](/dynamics365/sales/use-sales-agent-in-m365-copilot).
-> - When you access Sales agent from Dynamics 365, you are signed in to the same environment as your Dynamics 365 session.
+> - When you access Sales agent from Dynamics 365, you're signed in to the same environment as your Dynamics 365 session.
 > - If you see the error that chat isn't set up to connect to your CRM, contact your administrator to [set up Sales agent](set-up-sales-chat.md). 
 
 ## Get a summary of an account
@@ -94,16 +94,16 @@ Under the chat box of the Sales agent, you can see a list of meetings organized 
 - **Upcoming meetings** shows upcoming sales meetings (a meeting with at least one external contact) scheduled for the next four days. A maximum of five meetings is shown in this list, and you can select **Show all** to see more if you have more than five meetings.
 - **Past meetings** shows sales meetings from the past seven days.
 
-For upcoming meetings, the meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights are not available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
+For upcoming meetings, the meeting card displays up to three high-value AI highlights to help you prepare more effectively. Each highlight is written to be actionable and concise, enabling you to absorb the most important context in seconds. In some cases, you might see a message indicating that meeting insights aren't available. This can occur when insights are still being generated for newly scheduled meetings. Check back later, as it typically takes at least 15 minutes for insights to be generated for new meetings.
 
-For past meetings, an information banner explains that the content is a pre-meeting brief and includes a button to open the meeting recap in Teams.
+For past meetings, an information banner explains that the content is a premeeting brief and includes a button to open the meeting recap in Teams.
 
 The post-meeting experience includes:
 
 - **Key takeaways** that summarize the most important meeting outcomes.
 - **Meeting summary** and **Action items** from the existing AI meeting recap.
 
-Select **Prepare with insights** to open the [detailed view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access additional context without leaving your workflow.
+Select **Prepare with insights** to open the [detailed view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access more context without leaving your workflow.
 
 ## Submit feedback
 
