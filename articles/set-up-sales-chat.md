@@ -146,7 +146,7 @@ You must add glossary terms in Microsoft Copilot Studio. The glossary terms you 
 
 #### Salesforce
 
-Glossary terms are not supported for Salesforce CRM currently.
+Learn how to add glossary terms for Salesforce in the [Set up glossary terms for Salesforce](sf-glossary-support.md) article.
 
 ## Step 3: Configure account and opportunity summary
 
