@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 04/21/2026
+ms.date: 04/22/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -46,10 +46,11 @@ For a list of example prompts you can use with the Sales agent, see [What can Sa
 > - When you access Sales agent from Dynamics 365, you're signed in to the same environment as your Dynamics 365 session.
 > - If you see the error that chat isn't set up to connect to your CRM, contact your administrator to [set up Sales agent](set-up-sales-chat.md). 
 
-## Get a summary of an account
+## Get a summary of an account or opportunity
 
-You can use the Sales agent to get a summary of an account, including key account information, the account's pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
+You can use the Sales agent to get a summary of an account or opportunity, including key information, the pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
 - Get me the summary of account `<account name>`.
+- Get me the summary of opportunity `<opportunity name>`.
 - Give me an overview of account `<account name>`. Summarize the meetings in the last (x) months.
 - Get the key details of account `<account name>`. List the open opportunities as a table.
 
@@ -58,7 +59,7 @@ You can use the Sales agent to get a summary of an account, including key accoun
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> Your CRM administrator can [customize the details included in the account summary](set-up-sales-chat.md#step-3-configure-account-summary).
+> Your CRM administrator can [customize the details included in the account and opportunity summary](set-up-sales-chat.md#step-3-configure-account-and-opportunity-summary).
 
 ## Catch up on past customer meetings
 

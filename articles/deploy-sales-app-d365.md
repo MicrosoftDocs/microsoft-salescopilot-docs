@@ -1,7 +1,7 @@
 ---
 title: Sales agent deployment guide for Dynamics 365 customers
 description: Learn how to deploy the Sales agent for Dynamics 365 customers.
-ms.date: 03/09/2026
+ms.date: 04/14/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -68,9 +68,9 @@ If you're using custom security roles, [assign users the right roles and privile
 
 [Administrator settings](administrator-settings-sales-app.md) control the seller's the Sales agent experience in Outlook and Teams. You can customize the Sales agent to meet your organization's needs.
 
-### Set up Copilot AI features
+### Try preview features
 
-You can [set up AI features in the Sales agent](suggested-replies.md) to use AI features that are in preview or generally available.
+You can [try out newest preview features in your environment](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) before they are generally available.
 
 ### Customize forms and fields
 
