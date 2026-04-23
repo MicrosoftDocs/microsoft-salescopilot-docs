@@ -152,6 +152,8 @@
               href: suggested-crm-updates.md
             - name: View opportunity insights (preview)
               href: view-opportunity-insights.md
+            - name: View key sales information
+              href: key-sales-info.md
             - name: View insights from partner applications (preview)
               href: insights-partner-apps.md
             - name: Share insights from Outlook to Teams
@@ -348,3 +350,5 @@
       href: faqs-meeting-summary.md
     - name: FAQ for Lead Research and Outreach
       href: faqs-sales-agent.md
+    - name: FAQ for key sales info feature in Outlook
+      href: faqs-key-sales-info.md
