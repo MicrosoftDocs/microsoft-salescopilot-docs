@@ -69,30 +69,12 @@ Use the following steps to create and publish a model-driven app for managing gl
 Each Salesforce organization has a unique skill name suffix. You need to find the skill name that corresponds to the Salesforce organization you're setting up glossary terms for.
 
 1. In Power Apps, open the environment where Sales agent is configured (the `msdyn_viva` environment).
-1. Go to **Tables** > **All** and open the **DVTableSearch** table.
-1. Select **Add additional rows**, then choose **Select all columns** to see the full table.
-1. Locate the **SkillName** column. Values look similar to `SalesChatSalesforceQnA`.
-1. Copy the skill name that corresponds to your Sales agent connection. This is the value you enter in the **Skill** field when creating glossary terms.
+1. Go to **Tables** > **All** and open the **msdyn_vivaorgsettings** table.
+1. Look for rows where **FeatureName** starts with "SalesChatConfig". There may be multiple rows.
+1. Find the row where **OrgId** matches your Salesforce Instance.
+1. Copy the value from the **QnASearchConfigName** column. This is the value you enter in the **Skill** field when creating glossary terms.
 
-If you see more than one `SalesChatSalesforceQnA` entry, use one of the following methods to identify the correct skill name:
 
-**Correlate by sign-in activity**
-
-In **DVTableSearch**, sort or filter by **Created On**, **Modified On**, **Created By**, or **Modified By**. The row created or updated by your account around the time you connected to the Salesforce instance is usually the correct skill name.
-
-**Re-sign in with the administrator account**
-
-1. Sign in again to the intended Salesforce instance in Sales agent.
-1. Refresh the **DVTableSearch** table in Power Apps.
-1. Select the **SkillName** for the most recently created or updated row for the administrator account.
-
-**Cross-check in DVTableSearchEntities**
-
-1. Go to **Tables** > **All** > **DVTableSearchEntities**.
-1. Filter for the candidate **SkillName**.
-1. Review the configured entities, such as **Account**, **Opportunity**, and **Contact**. If the entities match your Salesforce instance, you've found the correct skill name.
-
-If the glossary terms still don't take effect, try a different skill name.
 
 ## Enter the skill name in the glossary term form
 
