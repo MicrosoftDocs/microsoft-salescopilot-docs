@@ -57,7 +57,7 @@ Email summaries are available when:
 1. To open the **Sales** pane, select **Go to Sales**.
 
 > [!NOTE]
-> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights) is enabled in your organization, the [**Opportunity insights**](view-opportunity-insights.md) and [**Customer communication**](view-customer-communication.md) cards are displayed in the **Sales** pane. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
+> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the [**Opportunity insights**](view-opportunity-insights.md) and [**Customer communication**](view-customer-communication.md) cards are displayed in the **Sales** pane. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
 
 ## Related information
 
