@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 03/09/2026
+ms.date: 03/30/2026
 ms.topic: faq
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -342,7 +342,7 @@ The relationship between record types is based on the order in which record type
 
 #### Can I disable Sales agent for users who have a Microsoft 365 Copilot license?
 
-All users with the Microsoft 365 Copilot license and [Sales agent installed](install-sales-app.md) will automatically see Sales as an agent in Microsoft 365 Copilot Chat by default.
+All users with the Microsoft 365 Copilot license and [Sales agent installed](install-sales-app.md) will automatically see Sales as an agent in Microsoft 365 Copilot by default.
 
 If needed, you can hide the Sales agent for individual users or groups by one of the following methods:
 
@@ -350,7 +350,11 @@ If needed, you can hide the Sales agent for individual users or groups by one of
 - Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
 
     > [!NOTE]
-    > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot chat. They can still ask questions and get responses, but the responses won't include any sales data.
+    > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot. They can still ask questions and get responses, but the responses won't include any sales data.
+
+#### Why can't I view or add records in Sales Chat settings?
+
+To view or add records in Sales Chat settings, you must have [specific administrator privileges](privileges.md).
 
 #### What data is passed to Bing Search?
 
@@ -366,7 +370,7 @@ The agent uses Bing Search to gather publicly available information and generate
 
 #### Why does Sales agent say I don't have access?
 
-This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot Chat, but you won't receive responses to your queries.
+This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot, but you won't receive responses to your queries.
 
 Contact your administrator to request access to Sales Chat.
 
@@ -380,11 +384,11 @@ Although Sales agent is available as part of Microsoft 365 Copilot license, your
 
 Contact your CRM administrator to request that CRM access be set up for Sales agent.
 
-#### Why does Sales agent say that account summary wasn't found?
+#### Why does Sales agent say that account or opportunity summary wasn't found?
 
-Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account summary feature](set-up-sales-chat.md#step-3-configure-account-summary).
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account and opportunity summary feature](set-up-sales-chat.md#step-3-configure-account-and-opportunity-summary).
 
-Reach out to your CRM administrator to have account summary set up for use with Sales agent.
+Reach out to your CRM administrator to have account and opportunity summary set up for use with Sales agent.
 
 #### Why am I not seeing any meeting insights?
 

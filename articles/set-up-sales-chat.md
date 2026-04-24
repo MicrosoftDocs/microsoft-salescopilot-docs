@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
-description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot Chat that helps sellers access and act on sales data from their CRM system.
-ms.date: 03/09/2026
+description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
+ms.date: 04/14/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -14,13 +14,13 @@ ms.author: shjais
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The Sales agent is a conversational agent available within Microsoft 365 Copilot Chat. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales agent is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
+The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales agent is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
 
 The Sales agent is available to users who have access to a Microsoft 365 Copilot license. To see Sales agent, you must [install the Sales agent](install-sales-app.md).
 
 > [!NOTE]
-> - If your team already uses Sales agent, they'll see the Sales in the list of agents in Microsoft 365 Copilot Chat.
-> - If all agents for Microsoft 365 Copilot Chat are disabled for your organization, users won't see Sales agent in the list of agents even if they have a Microsoft 365 Copilot license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
+> - If your team already uses Sales agent, they'll see the Sales in the list of agents in Microsoft 365 Copilot.
+> - If all agents for Microsoft 365 Copilot are disabled for your organization, users won't see Sales agent in the list of agents even if they have a Microsoft 365 Copilot license. Learn more about [managing agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true).
 
 ## Prerequisites
 
@@ -148,52 +148,55 @@ You must add glossary terms in Microsoft Copilot Studio. The glossary terms you 
 
 Glossary terms are not supported for Salesforce CRM currently.
 
-## Step 3: Configure account summary
+## Step 3: Configure account and opportunity summary
 
-Sales reps can get a summary of their accounts in Sales agent. To enable this feature, you need to configure the account summary settings in the Sales agent admin settings.
+Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
 
-Generating the account summary involves two main components:
+Sales agent generates account and opportunity summaries by using commonly used fields and relationships from the Account and Opportunity tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include additional or different fields and tailor how the summary is curated to fit your organization's needs.
 
-1. Getting information about the account
+### Customize AI instructions
 
-    Sales agent gathers all account-related information that is configured to be available to the Sales agent through admin settings. This includes:
+1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
+1. Under **Environment**, select **Custom AI instructions**.
+1. For the **Account summary** or **Opportunity summary** report, select **...** > **Edit**.
 
-    - Columns from the **Account** entity (table in Dynamics 365 or object in Salesforce) in CRM that are enabled for the Sales agent.
-    - Related entities (tables in Dynamics 365 or objects in Salesforce) in CRM that are enabled for the Sales agent.
-    
-    Additionally, any meeting insights linked to the account from the past 30 days are included in the summary.
+    :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
 
-    To change the CRM information included in the account summary, update the CRM data available to the Sales agent. Learn how to [configure CRM entities in the Sales agent](customize-forms-and-fields.md).
-1. Curating the summary
-
-    Sales agent uses natural language instructions to organize and present the account information in a summary that is meaningful and useful to users. Out-of-the-box instructions are provided, but you can customize them to better fit your organization's needs.
-
-    To customize the AI instructions for the account summary:
-
-    1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
-    1. Under **Environment**, select **Custom AI instructions**.
-    1. For the **Account summary** report, select **...** > **Edit**.
-
-        :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
-
-    1. Select **Customized instructions** and then enter your custom instructions.
-    1. Select **Save**.
-
-        :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
-
-        The new instructions will be applied the next time a user requests an account summary in Sales agent. You can test the instructions by requesting an account summary in Sales agent.
+1. In the **Description** field, customize the default prompt to control how the summary is generated. You can:
+   - Describe how to organize and present the information
+   - @mention specific field names or views of related records to specify which fields or related records to include in the summary
+   - Use natural language to provide curation instructions to the AI
 
     > [!NOTE]
-    > - You can't test the custom instructions before saving them. To validate your changes, connect to a test CRM environment before applying them in your production environment.
-    > - The effectiveness of a custom instruction depends on the information included in the account summary. Whenever you update either the custom instructions or the summary content, review and adjust both to ensure they work well together.
+    > - If you're connected to Dynamics 365, you can @mention:
+    >     - Records related to the account or opportunity through 1:N, N:1, or N:N relationship.
+    >     - Records related to a lookup field on the account or opportunity through 1:N, N:1, or N:N relationship.
+    > - If you're connected to Salesforce CRM, you can @mention:
+    >     - Records related to the account or opportunity through 1:N or N:1 relationship.
+    >     - Records related to a lookup field on the account or opportunity through 1:N or N:1 relationship.
+1. Under **Notes summary** and **Interaction summary**, configure the number of weeks of notes and interactions to include. By default, the summary includes data from the past 4 weeks. The maximum is 12 weeks.
+
+    By default, these settings are turned on. If you want to exclude notes or interactions from the summary, turn off the respective setting.
+
+1. Select **Publish**.
+
+    :::image type="content" source="media/sales-chat-custom-ai-edit.png" alt-text="Screenshot showing edited custom AI instructions for account summary.":::
+
+    The new instructions are applied the next time a user requests a summary in Sales agent. You can test them by requesting a summary in Sales agent.
+
+    If you want to restore the default instructions, select **Restore default**.
+
+> [!NOTE]
+> - You can't test the custom instructions before saving them. To validate your changes, connect to a test CRM environment before applying them in your production environment.
+> - The effectiveness of a custom instruction depends on the information included in the summary. Whenever you update either the custom instructions or the summary content, review and adjust both to ensure they work well together.
 
 ## Step 4: Configure past customer meetings
 
 Meeting insights generated by the Sales agent are accessible in Sales agent. You can [manage access to meeting insights through the Sales agent access settings](access-settings.md#meeting-insights). There are no separate settings for meeting insights specific to Sales agent.
 
-## Step 5 (optional): Enable Microsoft 365 Copilot chat in model-driven apps
+## Step 5 (optional): Enable Microsoft 365 Copilot in model-driven apps
 
-This step is applicable only if you're using Dynamics 365 as your CRM system. Enabling Microsoft 365 Copilot chat in model-driven apps allows users to access Sales agent directly within the Dynamics 365 apps. Learn how to [enable Microsoft 365 Copilot chat in model-driven apps](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
+This step is applicable only if you're using Dynamics 365 as your CRM system. Enabling Microsoft 365 Copilot in model-driven apps allows users to access Sales agent directly within the Dynamics 365 apps. Learn how to [enable Microsoft 365 Copilot in model-driven apps](/power-apps/maker/model-driven-apps/add-microsoft-365-copilot).
 
 ## Related information
 

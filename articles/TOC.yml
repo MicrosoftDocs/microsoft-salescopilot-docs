@@ -1,358 +1,348 @@
 - name: Sales agent documentation
   href: landing.yml
-
 - name: Welcome to Sales agent
   href: introduction.md
-
 - name: What's new in Sales agent
   items:
-  - name: What's new overview
-    href: whats-new.md
-
+    - name: What's new overview
+      href: whats-new.md
 - name: Product overview
   items:
-  - name: Functional overview
-    href: functional-overview.md
-  - name: Architecture overview
-    href: architecture.md
-  - name: Mobile support
-    href: mobile-support.md
-  - name: Privileges required for Sales agent
-    href: privileges.md
-  - name: Data handling in Sales agent
-    href: data-handling.md
-  - name: Sales agent FAQ
-    href: sales-m365-copilot-faq.md
-  - name: Get support
-    href: get-support.md
-
+    - name: Functional overview
+      href: functional-overview.md
+    - name: Architecture overview
+      href: architecture.md
+    - name: Privileges required for Sales agent
+      href: privileges.md
+    - name: Data handling in Sales agent
+      href: data-handling.md
+    - name: Sales agent FAQ
+      href: sales-m365-copilot-faq.md
+    - name: Get support
+      href: get-support.md
 - name: Install
   items:
-  - name: Install Sales agent
-    items:
     - name: Install Sales agent
-      href: install-sales-app.md
-    - name: Install Sales agent in Outlook
-      href: install-sales-as-an-integrated-app.md
-    - name: Install and pin Sales agent in Teams
-      href: install-pin-sales-teams.md
-
+      items:
+        - name: Install Sales agent
+          href: install-sales-app.md
+        - name: Install Sales agent in Outlook
+          href: install-sales-as-an-integrated-app.md
+        - name: Install and pin Sales agent in Teams
+          href: install-pin-sales-teams.md
 - name: Deployment scenarios
   items:
-  - name: Deployment guide for Dynamics 365 users
-    href: deploy-sales-app-d365.md
-  - name: Deployment guide for Salesforce users
-    href: deploy-sales-app-sf.md
-
-
+    - name: Deployment guide for Dynamics 365 users
+      href: deploy-sales-app-d365.md
+    - name: Deployment guide for Salesforce users
+      href: deploy-sales-app-sf.md
 - name: Administration guide
   items:
-  - name: Admin settings
-    items:
-    - name: Overview
-      href: administrator-settings-sales-app.md
-    - name: Customize forms and fields
-      href: customize-forms-and-fields.md
-    - name: Share a CRM record in Outlook by using /mention
-      href: share-crm-record-admin.md  
-    - name: Turn on Copilot AI features
-      href: suggested-replies.md
-    - name: Turn off task suggestion in collaboration spaces (preview)
-      href: turn-off-suggested-tasks-collab-space.md
-    - name: Sales agent data movement across geographies
-      href: copilot-data-movement.md
-    - name: Configure how Outlook emails and events are saved to CRM
-      href: save-additional-details-outlook.md
-    - name: Configure recordings and notifications for sales meetings
-      href: configure-meeting-agent.md
-    - name: Configure how AI meeting notes are saved from Teams recap to CRM
-      href: save-ai-notes-crm.md
-    - name: Configure access settings for features
-      href: access-settings.md
-    - name: Connect your agents to a data source
-      href: connect-agent-datasource.md
-    - name: Lead Research and Outreach (preview)
+    - name: Admin settings
       items:
-      - name: Overview
-        href: sales-agent-overview.md
-      - name: Set up Lead Research and Outreach
-        href: set-up-sales-agent.md
-      - name: Integrate Lead Research and Outreach with Salesforce
-        href: set-up-sales-agent-salesforce.md
-    - name: Sales agent in Microsoft 365 Copilot (preview)
-      items:
-      - name: Overview
-        href: sales-chat-overview.md
-      - name: Set up Sales agent in Microsoft 365 Copilot
-        href: set-up-sales-chat.md
-      - name: Extend Sales agent with custom tools and knowledge
-        href: extend-sales-chat-custom-tools.md
-      - name: Manage connected agents
-        href: manage-connected-agents.md
-    - name: Convert the environment from Trial to Production
-      href: convert-trial-prod.md
-    - name: Manage consumption-based billing for agent capabilities (preview)
-      href: manage-consumption-based-billing.md
-  - name: Turn off actionable banners in Microsoft 365 apps
-    href: m365-admin-setting.md
-  - name: Uninstall Sales agent
-    href: uninstall-sales-app.md
-  - name: Sales agent adoption report
-    href: adoption-report.md
-
+        - name: Overview
+          href: administrator-settings-sales-app.md
+        - name: Customize forms and fields
+          href: customize-forms-and-fields.md
+        - name: Share a CRM record in Outlook by using /mention
+          href: share-crm-record-admin.md
+        - name: Turn on Copilot AI features
+          href: suggested-replies.md
+        - name: Turn off task suggestion in collaboration spaces (preview)
+          href: turn-off-suggested-tasks-collab-space.md
+        - name: Sales agent data movement across geographies
+          href: copilot-data-movement.md
+        - name: Configure how Outlook emails and events are saved to CRM
+          href: save-additional-details-outlook.md
+        - name: Configure recordings and notifications for sales meetings
+          href: configure-meeting-agent.md
+        - name: Configure how AI meeting notes are saved from Teams recap to CRM
+          href: save-ai-notes-crm.md
+        - name: Configure access settings for features
+          href: access-settings.md
+        - name: Configure email insights settings (preview)
+          href: email-insights-settings.md
+        - name: Connect your agents to a data source
+          href: connect-agent-datasource.md
+        - name: Lead Research and Outreach (preview)
+          items:
+            - name: Overview
+              href: sales-agent-overview.md
+            - name: Set up Lead Research and Outreach
+              href: set-up-sales-agent.md
+            - name: Integrate Lead Research and Outreach with Salesforce
+              href: set-up-sales-agent-salesforce.md
+        - name: Sales agent in Microsoft 365 Copilot (preview)
+          items:
+            - name: Overview
+              href: sales-chat-overview.md
+            - name: Set up Sales agent in Microsoft 365 Copilot
+              href: set-up-sales-chat.md
+            - name: Extend Sales agent with custom tools and knowledge
+              href: extend-sales-chat-custom-tools.md
+            - name: Set up record creation in Dynamics 365 with Sales agent
+              href: set-up-record-creation-dynamics-365.md
+            - name: Manage connected agents
+              href: manage-connected-agents.md
+        - name: Convert the environment from Trial to Production
+          href: convert-trial-prod.md
+        - name: Manage consumption-based billing for agent capabilities (preview)
+          href: manage-consumption-based-billing.md
+    - name: Turn off actionable banners in Microsoft 365 apps
+      href: m365-admin-setting.md
+    - name: Uninstall Sales agent
+      href: uninstall-sales-app.md
+    - name: Sales agent adoption report
+      href: adoption-report.md
 - name: Seller guide
   items:
-  - name: Learn the basics
-    items:
-    - name: Access the Sales agent
-      href: open-app.md
-    - name: Sign in to CRM from Outlook
-      href: sign-in-crm-outlook.md
-    - name: Connect to CRM from Teams
-      href: sign-in-crm-teams.md
-  - name: Capabilities in Outlook
-    items:
-    - name: CRM actions
+    - name: Learn the basics
       items:
-      - name: Connect a contact to your CRM
-        href: connect-contact.md
-      - name: Change the connected CRM contact
-        href: change-connected-crm-contact.md
-      - name: Create a contact in your CRM from Sales agent
-        href: create-contact-crm.md
-      - name: Create a new record in your CRM from Sales agent
-        href: create-new-record.md
-      - name: Save Outlook activities to your CRM
-        href: save-outlook-activities-crm.md
-      - name: View recent and upcoming activities
-        href: view-recent-upcoming-activities.md
-      - name: View record details
-        href: view-record-details.md
-      - name: Add personal notes
-        href: add-personal-notes.md
-      - name: Share a link to a CRM record
-        href: share-link-crm-record.md
-      - name: Edit a CRM record
-        href: edit-crm-record.md
-      - name: Use server-side synchronization with Sales agent
-        href: use-server-side-sync.md
-      - name: Search for a record in Sales agent
-        href: global-search.md
-    - name: AI capabilities
+        - name: Access the Sales agent
+          href: open-app.md
+        - name: Sign in to CRM from Outlook
+          href: sign-in-crm-outlook.md
+        - name: Connect to CRM from Teams
+          href: sign-in-crm-teams.md
+    - name: Capabilities in Outlook
       items:
-      - name: View email summary
-        items:
-        - name: Boost sales efficiency with CRM-enriched email summaries in Outlook
-          href: email-summary-premium.md
-        - name: View and save email summaries to your CRM
-          href: view-save-email-summary-crm.md
-      - name: Draft an email message
-        items:
-        - name: Draft an email message using sales information in Outlook
-          href: email-reply-premium.md
-        - name: Draft an email message in Sales pane
-          href: use-copilot-kickstart-email-messages.md
-      - name: View opportunity summary
-        href: view-opportunity-summary.md
-      - name: View suggested CRM updates
-        href: suggested-crm-updates.md
-      - name: View opportunity insights (preview)
-        href: view-opportunity-insights.md
-      - name: View insights from partner applications (preview)
-        href: insights-partner-apps.md
-      - name: Share insights from Outlook to Teams
-        href: share-insights-from-outlook-to-teams.md
-
-    - name: More options
-      href: more-options.md
-
-  - name: Capabilities in Teams
-    items:
-    - name: Overview
-      href: create-teams-meeting.md
-    - name: Pre-meeting
+        - name: CRM actions
+          items:
+            - name: Connect a contact to your CRM
+              href: connect-contact.md
+            - name: Change the connected CRM contact
+              href: change-connected-crm-contact.md
+            - name: Create a contact in your CRM from Sales agent
+              href: create-contact-crm.md
+            - name: Create a new record in your CRM from Sales agent
+              href: create-new-record.md
+            - name: Save Outlook activities to your CRM
+              href: save-outlook-activities-crm.md
+            - name: View recent and upcoming activities
+              href: view-recent-upcoming-activities.md
+            - name: View record details
+              href: view-record-details.md
+            - name: Add personal notes
+              href: add-personal-notes.md
+            - name: Share a link to a CRM record
+              href: share-link-crm-record.md
+            - name: Edit a CRM record
+              href: edit-crm-record.md
+            - name: Use server-side synchronization with Sales agent
+              href: use-server-side-sync.md
+            - name: Search for a record in Sales agent
+              href: global-search.md
+        - name: AI capabilities
+          items:
+            - name: View email summary
+              items:
+                - name: Boost sales efficiency with CRM-enriched email summaries in Outlook
+                  href: email-summary-premium.md
+                - name: View and save email summaries to your CRM
+                  href: view-save-email-summary-crm.md
+            - name: Draft an email message
+              items:
+                - name: Draft an email message using sales information in Outlook
+                  href: email-reply-premium.md
+                - name: Draft an email message in Sales pane
+                  href: use-copilot-kickstart-email-messages.md
+            - name: View opportunity summary
+              href: view-opportunity-summary.md
+            - name: View opportunity insights (preview)
+              href: view-opportunity-insights.md
+            - name: View insights from partner applications (preview)
+              href: insights-partner-apps.md
+            - name: Share insights from Outlook to Teams
+              href: share-insights-from-outlook-to-teams.md
+        - name: More options
+          href: more-options.md
+    - name: Capabilities in Teams
       items:
-      - name: View meeting preparation card
-        href: meeting-prep.md
-      - name: View daily summary of upcoming meetings
-        href: daily-digest.md
-    - name: During meeting 
-      items: 
-      - name: Use Sales agent during a meeting
-        href: use-sales-copilot-app-during-meeting.md
-    - name: Post-meeting
-      items:
-      - name: View meeting summary
-        href: view-meeting-summary-recap.md
-    - name: CRM actions
-      items:
-      - name: View and update CRM record details
-        href: view-update-crm-record-details.md
-
-  - name: Cross-app capabilities
-    items:
-    - name: Collaboration space in Sales agent
-      items:
-      - name: Overview
-        href: collaboration-space.md
-      - name: Set up a team using the account team template
-        href: set-up-team-account-team-template.md
-      - name: Set up a team using the deal room template
-        href: set-up-team-deal-room-template.md
-      - name: Collaborate in account and deal room teams
-        href: collaborate-teams-newly-created-existing-team.md
-      - name: Access linked teams and channels
-        href: access-linked-teams-channels.md
-      - name: AI-powered Planner tasks
-        items:
         - name: Overview
-          href: suggested-tasks-collab-space.md
-        - name: Create Planner tasks from suggested tasks
-          href: create-planner-tasks.md
-    - name: Share a CRM record in Teams or Outlook
-      href: share-crm-record-teams-conversation.md
-    - name: Sales personal app
-      href: personal-app.md
-    - name: View customer communication (preview)
-      href: view-customer-communication.md
-    - name: Lead Research and Outreach (preview)
+          href: create-teams-meeting.md
+        - name: Pre-meeting
+          items:
+            - name: View meeting preparation card
+              href: meeting-prep.md
+            - name: View daily summary of upcoming meetings
+              href: daily-digest.md
+        - name: During meeting
+          items:
+            - name: Use Sales agent during a meeting
+              href: use-sales-copilot-app-during-meeting.md
+        - name: Post-meeting
+          items:
+            - name: View meeting summary
+              href: view-meeting-summary-recap.md
+        - name: CRM actions
+          items:
+            - name: View and update CRM record details
+              href: view-update-crm-record-details.md
+    - name: Cross-app capabilities
       items:
-      - name: Overview
-        href: sales-agent-overview.md
-      - name: Use Lead Research and Outreach
-        href: use-sales-agent.md
-      - name: Send outreach emails
-        href: send-outreach-emails.md
-    - name: Sales agent in Microsoft 365 Copilot (preview)
+        - name: Collaboration space in Sales agent
+          items:
+            - name: Overview
+              href: collaboration-space.md
+            - name: Set up a team using the account team template
+              href: set-up-team-account-team-template.md
+            - name: Set up a team using the deal room template
+              href: set-up-team-deal-room-template.md
+            - name: Collaborate in account and deal room teams
+              href: collaborate-teams-newly-created-existing-team.md
+            - name: Access linked teams and channels
+              href: access-linked-teams-channels.md
+            - name: AI-powered Planner tasks
+              items:
+                - name: Overview
+                  href: suggested-tasks-collab-space.md
+                - name: Create Planner tasks from suggested tasks
+                  href: create-planner-tasks.md
+        - name: Share a CRM record in Teams or Outlook
+          href: share-crm-record-teams-conversation.md
+        - name: Sales personal app
+          href: personal-app.md
+        - name: View customer communication (preview)
+          href: view-customer-communication.md
+        - name: Lead Research and Outreach (preview)
+          items:
+            - name: Overview
+              href: sales-agent-overview.md
+            - name: Use Lead Research and Outreach
+              href: use-sales-agent.md
+            - name: Send outreach emails
+              href: send-outreach-emails.md
+        - name: Sales agent in Microsoft 365 Copilot (preview)
+          items:
+            - name: Overview
+              href: sales-chat-overview.md
+            - name: Use Sales agent
+              href: use-sales-chat.md
+
+    - name: Mobile capabilities
       items:
-      - name: Overview
-        href: sales-chat-overview.md
-      - name: Use Sales agent
-        href: use-sales-chat.md
+        - name: Chat capabilities on mobile
+          href: sales-agent-chat-mobile.md
+        - name: App capabilities on mobile
+          href: mobile-support.md
 
 - name: Extend Sales agent (preview)
   items:
-  - name: Overview
-    href: extend-sales-app.md
-  - name: Get started with creating an extension
-    items:
-    - name: Create a custom connector and connector action
-      href: custom-connector-action.md
-    - name: Sample Connector
-      href: api-sample-def.md
-    - name: Standardize error responses
-      href: api-error-responses.md
-  - name: Extension points
-    items:
     - name: Overview
-      href: build-apis.md
-    - name: Enrich email summary
-      href: extend-email-summary.md
-    - name: Enrich email draft
-      href: extend-email-draft.md
-    - name: Enrich opportunity insights
-      href: extend-opportunity-insights.md
-    - name: Enrich CRM record summary
-      href: extend-record-summary.md
-    - name: Enrich CRM record details
-      href: extend-record-details.md
-
+      href: extend-sales-app.md
+    - name: Get started with creating an extension
+      items:
+        - name: Create a custom connector and connector action
+          href: custom-connector-action.md
+        - name: Sample Connector
+          href: api-sample-def.md
+        - name: Standardize error responses
+          href: api-error-responses.md
+    - name: Extension points
+      items:
+        - name: Overview
+          href: build-apis.md
+        - name: Enrich email summary
+          href: extend-email-summary.md
+        - name: Enrich email draft
+          href: extend-email-draft.md
+        - name: Enrich opportunity insights
+          href: extend-opportunity-insights.md
+        - name: Enrich CRM record summary
+          href: extend-record-summary.md
+        - name: Enrich CRM record details
+          href: extend-record-details.md
 - name: Troubleshooting guide
   items:
-  - name: CRM permissions and configurations
-    items:
-      - name: '"Align missing fields" error'
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't update records due to missing record access in Salesforce CRM
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't update records due to missing object access in Salesforce CRM
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't save email to CRM due to invalid mailbox settings
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"Fix mailbox errors in Dynamics 365" error'
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Missing privileges error when signing in
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"No access to Dynamics 365" error'
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"Required fields are missing" error'
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/required-fields-missing?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't see data in Sales agent
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Salesforce CRM users can't view, edit, or save data in Sales agent
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/salesforce-permission-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"This contact already exists" error when creating a CRM record'
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/duplicate-record-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: You don't have permission for this error
-        href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-admin-exists-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-  - name: Outlook side panel
-    items:
-      - name: Sign-in issue when opening the Sales pane in Outlook
-        href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
-  - name: Setup, installation, and sign-in
-    items:
-      - name: Authentication issues when connecting to Salesforce CRM
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"Access needed" error when signing in to Dynamics 365'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Connection lost due to an expired or invalid session or a bad OAuth token
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't sign in to Salesforce due to disabled connections
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't sign in to Salesforce due to blocked Salesforce connector
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't connect to Dynamics 365 with multifactor authentication enabled
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"Failure passed to redirect url" error when signing in'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: First Salesforce CRM user can't access Sales agent
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Incorrect custom domain in Salesforce
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"No default BAP location found for this tenant" error'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"Request administrator permissions to access Salesforce using APIs" error'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Update add-in error in Sales agent for Microsoft Outlook
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: '"User does not have required privileges to access the org" error'
-        href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-  - name: Teams collaboration spaces
-    items:
-      - name: Can't create private channels in Microsoft Teams
-        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Can't create a team for an account or opportunity
-        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/create-team-error?context=/microsoft-sales-copilot/context/sales-copilot-context
-      - name: Opportunity summary not displayed in deal rooms
-        href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
-
+    - name: CRM permissions and configurations
+      items:
+        - name: "\"Align missing fields\" error"
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/align-missing-fields-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't update records due to missing record access in Salesforce CRM
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-record-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't update records due to missing object access in Salesforce CRM
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-object-update-edit-access?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't save email to CRM due to invalid mailbox settings
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-to-save-emails-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't save email to CRM if enhanced email isn't enabled in Salesforce CRM
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/update-settings-in-saleforce-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"Fix mailbox errors in Dynamics 365\" error"
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/fix-mailbox-errors-in-dynamics-365?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Missing privileges error when signing in
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/missing-privileges-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"No access to Dynamics 365\" error"
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-access-to-dynamics-365-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"Required fields are missing\" error"
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/required-fields-missing?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Salesforce CRM users can't see data in Sales agent
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-column-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Salesforce CRM users can't view, edit, or save data in Sales agent
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/salesforce-permission-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"This contact already exists\" error when creating a CRM record"
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/duplicate-record-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: You don't have permission for this error
+          href: /troubleshoot/sales-copilot/crm-permissions-and-configurations/no-admin-exists-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+    - name: Outlook side panel
+      items:
+        - name: Sign-in issue when opening the Sales pane in Outlook
+          href: /troubleshoot/sales-copilot/outlook-side-panel/problem-starting-copilot-for-sales?context=/microsoft-sales-copilot/context/sales-copilot-context
+    - name: Setup, installation, and sign-in
+      items:
+        - name: Authentication issues when connecting to Salesforce CRM
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-access-denied?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"Access needed\" error when signing in to Dynamics 365"
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/access-needed-error-sign-in?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Connection lost due to an expired or invalid session or a bad OAuth token
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-lost-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't sign in to Salesforce due to disabled connections
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-is-disabled-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't sign in to Salesforce due to blocked Salesforce connector
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/sign-in-issue-with-blocked-connector?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't connect to Dynamics 365 with multifactor authentication enabled
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/connection-issue-with-two-factor-auth?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"Failure passed to redirect url\" error when signing in"
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/failure-passed-to-redirect-url-blocked-app?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: First Salesforce CRM user can't access Sales agent
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/first-user-cant-create-trial-environment?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Incorrect custom domain in Salesforce
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/oauth2-authorization-flow-failed-for-service?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"No default BAP location found for this tenant\" error"
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/no-default-bap-location-found-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"Request administrator permissions to access Salesforce using APIs\" error"
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/request-your-crm-administrator-permissions-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Update add-in error in Sales agent for Microsoft Outlook
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/update-add-in-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: "\"User does not have required privileges to access the org\" error"
+          href: /troubleshoot/sales-copilot/setup-installation-and-sign-in/user-does-not-have-required-privileges-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+    - name: Teams collaboration spaces
+      items:
+        - name: Can't create private channels in Microsoft Teams
+          href: /troubleshoot/sales-copilot/teams-collaboration-spaces/cant-create-private-channel?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Can't create a team for an account or opportunity
+          href: /troubleshoot/sales-copilot/teams-collaboration-spaces/create-team-error?context=/microsoft-sales-copilot/context/sales-copilot-context
+        - name: Opportunity summary not displayed in deal rooms
+          href: /troubleshoot/sales-copilot/teams-collaboration-spaces/opportunity-summary-not-displayed?context=/microsoft-sales-copilot/context/sales-copilot-context
 - name: Sales agent training
   href: /training/modules/boost-sales-performance/
-
 - name: Sales agent adoption resources
   href: https://adoption.microsoft.com/copilot-for-sales/
-
 - name: Sales agent success kit
   href: https://adoption.microsoft.com/copilot-for-sales/success-kit/
-
 - name: Deprecations in Sales agent
   href: deprecations-sales-app.md
-
 - name: Responsible AI
   items:
-  - name: Overview
-    href: responsible-ai-overview.md
-  - name: FAQ for generate content
-    href: faqs-generate-content.md
-  - name: FAQ for email summary
-    href: faqs-email-summary.md
-  - name: FAQ for meeting follow-up
-    href: faqs-meeting-follow-up.md
-  - name: FAQ for opportunity summary
-    href: faqs-oppty-summary.md
-  - name: FAQ for meeting summary
-    href: faqs-meeting-summary.md
-  - name: FAQ for Lead Research and Outreach
-    href: faqs-sales-agent.md
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for generate content
+      href: faqs-generate-content.md
+    - name: FAQ for email summary
+      href: faqs-email-summary.md
+    - name: FAQ for meeting follow-up
+      href: faqs-meeting-follow-up.md
+    - name: FAQ for opportunity summary
+      href: faqs-oppty-summary.md
+    - name: FAQ for meeting summary
+      href: faqs-meeting-summary.md
+    - name: FAQ for Lead Research and Outreach
+      href: faqs-sales-agent.md
