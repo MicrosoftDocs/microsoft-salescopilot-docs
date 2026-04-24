@@ -90,8 +90,6 @@ additionalContent:
         text: View email summary
       - url: view-opportunity-summary.md
         text: View opportunity summary
-      - url: suggested-crm-updates.md
-        text: View suggested CRM updates
 
     - title: In Teams
       links: 
