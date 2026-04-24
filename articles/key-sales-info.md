@@ -14,7 +14,7 @@ As you read and compose emails in Outlook, you can use Sales agent to view key s
 
 ## Prerequisites
 
-You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to view the key sales information. If you use the classic Outlook for Windows or the native Outlook app for Mac desktop, the [**Key email info**](view-save-email-summary-crm.md) card is displayed instead of the Key sales info card. 
+You must use the [new Outlook for Windows](https://support.microsoft.com/office/getting-started-with-the-new-outlook-for-windows-656bb8d9-5a60-49b2-a98b-ba7822bc7627) or Outlook on the web to view the key sales information. If you use the classic Outlook for Windows or the native Outlook app for Mac desktop, the [**Key email info**](view-save-email-summary-crm.md) card is displayed instead of the **Key sales info** card. 
 
 ## Anatomy of key sales information
 
@@ -34,6 +34,9 @@ Legend:
 1. Open the **Sales** pane.
 
     The **Key sales info** card shows the key sales information.
+
+> [!NOTE]
+> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the **Key Sales info** card is not displayed in the **Sales** pane. Instead, [**Opportunity insights**](view-opportunity-insights.md) and [**Customer communication**](view-customer-communication.md) cards are displayed. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
 
 ## View the data source
 
