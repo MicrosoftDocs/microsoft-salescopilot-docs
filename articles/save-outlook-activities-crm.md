@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 03/23/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -47,7 +47,7 @@ Before you start, note these common blockers:
 
     :::image type="content" source="media/highlights-save.png" alt-text="Screenshot showing the Save email to CRM highlight card in the Sales side pane.":::
 
-    If you're connected to Dynamics 365, you can save recurring meetings to your CRM from the highlight card of any meeting in the series by selecting **Save series**. When you save a recurring meeting, the entire series is saved to the CRM, not just the single instance that you have open. After you save the series, you can [edit](#edit-activities-saved-to-dynamics-365) or [remove](#remove-activities-saved-to-dynamics-365) the connected record.
+    If you're connected to Dynamics 365, you can save recurring meetings to your CRM from the highlight card of any meeting in the series, or the highlight card of the series by selecting **Save series**. When you save a recurring meeting, the entire series is saved to the CRM, not just the single instance that you have open. After you save the series, you can [edit](#edit-activities-saved-to-dynamics-365) or [remove](#remove-activities-saved-to-dynamics-365) the connected record.
 
 1. Under **Connect to a record**, select a record to connect the email or meeting to.
 
@@ -163,6 +163,7 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 |---|---|---|
 | Save drafts | Yes (email after send; meeting immediately) | No |
 | Auto-save replies/updates | Yes (with prerequisites) | No |
+| Save recurring meetings | Yes | No |
 | Edit saved activities in Sales agent | Yes | No |
 | Remove saved activities in Sales agent | Yes | No |
 | Prerequisite setting | Server-side sync | Enhanced Email |
@@ -177,6 +178,8 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 
   - [Server-side synchronization](./use-server-side-sync.md) is turned on for your mailbox.
   - **No email messages** is *not* selected on the **Email** tab in your [Dynamics 365 personalization settings](/power-apps/user/set-personal-options#email-tab-options).
+
+- Saving a recurring meeting to Dynamics 365 relies on server-side synchronization, so it can take a few minutes to complete. Each meeting series can be connected to only one record. Additional fields for categorization and attachments are not supported when you save a recurring meeting series to Dynamics 365.
 
 - You can save a meeting to Dynamics 365 only if the meeting time is within the working hours of *all* participants. Learn how to set your own working hours in [Personailze sales accelerator](/dynamics365/sales/personalize-sales-accelerator#configure-your-work-availability). Sales managers can [set the availability](/dynamics365/sales/manage-seller-availability) of sellers who report to them.
 
