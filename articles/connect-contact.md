@@ -20,7 +20,7 @@ When you read an email from external contacts or compose an email to external co
 - External email address matches multiple CRM contacts
 
 > [!NOTE]
-> The Sales agent matches external contacts against all email fields on the Contact record type (or Salesforce object), including custom email fields added by CRM administrators in the [Sales agent Forms settings](customize-forms-and-fields.md).
+> The Sales agent matches external contacts against all email fields on the Contact record type (or Salesforce object) added by CRM administrators in the [Sales agent Forms settings](customize-forms-and-fields.md). Both out-of-the-box and custom email fields are supported.
 
 ## External email address matches only one CRM contact
 
