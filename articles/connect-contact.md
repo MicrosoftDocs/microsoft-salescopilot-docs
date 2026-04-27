@@ -1,7 +1,7 @@
 ---
 title: Connect a contact to your CRM 
 description: Learn how to connect a contact to your CRM.
-ms.date: 03/09/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -20,7 +20,7 @@ When you read an email from external contacts or compose an email to external co
 - External email address matches multiple CRM contacts
 
 > [!NOTE]
-> If you're using Dynamics 365 as your CRM, the Sales agent matches the email address of the external contact only with the EmailAddress1 field of the contact record in Dynamics 365 and not with EmailAddress2 or EmailAddress3 field. Ensure that email address is populated in the EmailAddress1 field to connect the external contact to the CRM contact. If the email address is populated in the EmailAddress2 or EmailAddress3 field, the Sales agent won't match the external contact with the CRM contact and considers it as an unsaved contact.
+> The Sales agent matches external contacts against all email fields on the Contact record type (or Salesforce object) added by CRM administrators in the [Sales agent Forms settings](customize-forms-and-fields.md). Both out-of-the-box and custom email fields are supported.
 
 ## External email address matches only one CRM contact
 
