@@ -1,7 +1,7 @@
 ---
 title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Sales agent in Outlook to enrich email summaries with sales information from your CRM.
-ms.date: 04/24/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -56,8 +56,10 @@ Email summaries are available when:
 
 1. To open the **Sales** pane, select **Go to Sales**.
 
+    :::image type="content" source="media/email-summary-premium.png" alt-text="Screenshot of the Sales pane in Outlook on the web.":::
+
 > [!NOTE]
-> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the [**Opportunity insights**](view-opportunity-insights.md) and [**Customer communication**](view-customer-communication.md) cards are displayed in the **Sales** pane. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
+> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the [**Opportunity insights**](view-opportunity-insights.md) or [**Customer communication**](view-customer-communication.md) card might be displayed in the **Sales** pane if the email or meeting is connected to an opportunity. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
 
 ## Related information
 

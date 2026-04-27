@@ -1,7 +1,7 @@
 ---
 title: View key sales information
 description: Learn how to view key sales information in Sales agent as you read and compose emails in Outlook.
-ms.date: 04/24/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -36,7 +36,7 @@ Legend:
     The **Key sales info** card shows the key sales information.
 
 > [!NOTE]
-> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the **Key Sales info** card is not displayed in the **Sales** pane. Instead, [**Opportunity insights**](view-opportunity-insights.md) and [**Customer communication**](view-customer-communication.md) cards are displayed. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
+> - If either [meeting insights](access-settings.md#meeting-insights) or [email insights](access-settings.md#email-insights-preview) is enabled in your organization, the **Key Sales info** card is not displayed in the **Sales** pane. Instead, [**Opportunity insights**](view-opportunity-insights.md) or [**Customer communication**](view-customer-communication.md) card might be displayed if the email or meeting is connected to an opportunity. However, if both meeting insights and email insights are disabled, the [**Key Sales info**](key-sales-info.md) card is displayed in the **Sales** pane.
 
 ## View the data source
 
