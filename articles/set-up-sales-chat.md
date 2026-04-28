@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot (preview)
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 04/14/2026
+ms.date: 04/28/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais

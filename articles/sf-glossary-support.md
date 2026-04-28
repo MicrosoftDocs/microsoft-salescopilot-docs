@@ -1,7 +1,7 @@
 ---
 title: Set up glossary terms for Salesforce
 description: Glossaries in Dataverse help Sales agents interpret user queries by mapping custom terms to data, improving response accuracy. Learn how to set up yours.
-ms.date: 04/24/2026
+ms.date: 04/28/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
