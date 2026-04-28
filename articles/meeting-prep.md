@@ -22,7 +22,7 @@ The meeting preparation card appears in your personal chat with the **Sales** bo
 ## Quick navigation
 
 - [Prerequisites](#prerequisites)
-- [View a meeting preparation card](#view-a-meeting-preparation-card)
+- [View a meeting preparation card (preview)](#view-a-meeting-preparation-card-preview)
 - [Detailed meeting preparation view](#detailed-meeting-preparation-view)
 - [Meeting requirements for preparation cards](#meeting-requirements-for-preparation-cards)
 - [Limitations](#limitations)
