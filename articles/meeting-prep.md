@@ -179,4 +179,4 @@ Currently, meetings with all types of sensitivity labels are included to generat
 
 - [Use Sales agent chat](use-sales-chat.md)
 - [View the Customer communication card](view-customer-communication.md)
-- [Configure pre-meeting preparation notifications](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications)
+- [Configure pre-meeting preparation notifications](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) 
