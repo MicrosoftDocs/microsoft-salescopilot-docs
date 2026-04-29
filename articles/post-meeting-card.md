@@ -22,8 +22,8 @@ The card includes:
 :::image type="content" source="media/post-meeting-card.png" alt-text="Screenshot of the post-meeting summary card":::
 
 > [!NOTE]
-> - If the meeting organizer does not grant everyone access to the meeting recording and transcription, the post-meeting summary card is not generated.
-> - The post-meeting summary card might be delayed if the meeting recording and transcription are not processed yet. You will receive a notification in Teams once the card is ready.
+> - If the meeting organizer doesn't grant everyone access to the meeting recording and transcription, the post-meeting summary card isn't generated.
+> - The post-meeting summary card might be delayed if the meeting recording and transcription aren't processed yet. You receive a notification in Teams once the card is ready.
 
 You can find the post-meeting summary card in:
 
