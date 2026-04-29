@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use the Sales agent in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 03/09/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -17,10 +17,10 @@ ms.custom:
 Use this article to get sales insights from a Teams meeting recap and take follow-up actions in CRM.
 
 In this article, you learn how to:
-- View sales insights in a meeting recap.
-- Create a CRM task from follow-up items.
-- Draft a post-meeting summary email.
-- Save AI-generated meeting notes to CRM.
+- [View sales related insights in meeting recap](#view-sales-related-insights-in-meeting-recap)
+- [Create a CRM task from a meeting recap](#create-a-crm-task-from-a-meeting-recap)
+- [Create a post-meeting summary email](#create-a-post-meeting-summary-email)
+- [Save AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm)
 
 If insights don't appear, go to [When sales insights aren't generated](#when-sales-insights-arent-generated).
 
@@ -36,19 +36,14 @@ If insights don't appear, go to [When sales insights aren't generated](#when-sal
 
 To see a list of supported languages, go to [supported languages](introduction.md#supported-languages-and-geographies).
 
-## Quick links
-
-- [View sales related insights in meeting recap](#view-sales-related-insights-in-meeting-recap)
-- [Create a CRM task from a meeting recap](#create-a-crm-task-from-a-meeting-recap)
-- [Create a post-meeting summary email](#create-a-post-meeting-summary-email)
-- [Save AI-generated meeting notes to CRM](#save-ai-generated-meeting-notes-to-crm)
-- [When sales insights aren't generated](#when-sales-insights-arent-generated)
-
 ## View sales related insights in meeting recap
 
 You can view a meeting recap if you record and transcribe a meeting. With the Sales agent added to the Teams meeting, you can view sales related insights in the meeting recap.
 
 To view sales related insights, [open the meeting recap in Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef), select the down-arrow next to **Transcript**, and then select **Sales**.
+
+> [!NOTE]
+> There might be a delay in the availability of sales insights in the meeting recap based on the length of the meeting and the processing time for the recording and transcript. You will receive a [notification in Teams](post-meeting-card.md) once sales insights are available in the meeting recap.
 
 After you open the **Sales** tab in recap, you can view the following sales related insights:
 
