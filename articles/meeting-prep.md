@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams to get AI-powered pre-meeting insights.
-ms.date: 03/23/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -22,7 +22,7 @@ The meeting preparation card appears in your personal chat with the **Sales** bo
 ## Quick navigation
 
 - [Prerequisites](#prerequisites)
-- [View a meeting preparation card](#view-a-meeting-preparation-card)
+- [View a meeting preparation card (preview)](#view-a-meeting-preparation-card-preview)
 - [Detailed meeting preparation view](#detailed-meeting-preparation-view)
 - [Meeting requirements for preparation cards](#meeting-requirements-for-preparation-cards)
 - [Limitations](#limitations)
@@ -33,7 +33,11 @@ The meeting preparation card appears in your personal chat with the **Sales** bo
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
 
-## View a meeting preparation card
+## View a meeting preparation card (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 To view the meeting preparation card:
 
@@ -175,4 +179,4 @@ Currently, meetings with all types of sensitivity labels are included to generat
 
 - [Use Sales agent chat](use-sales-chat.md)
 - [View the Customer communication card](view-customer-communication.md)
-- [Configure pre-meeting preparation notifications](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications)
+- [Configure pre-meeting preparation notifications](configure-meeting-agent.md#configure-pre-meeting-preparation-notifications) 
