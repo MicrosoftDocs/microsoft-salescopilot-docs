@@ -1,7 +1,7 @@
 ---
 title: View and save email summaries to your CRM
 description: Learn how to use the Sales agent to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
-ms.date: 04/24/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
