@@ -1,7 +1,7 @@
 ---
 title: Set up a team using the account team template
 description: Learn how to set up a team using an account team template in the Sales agent for Outlook.
-ms.date: 03/09/2026
+ms.date: 04/30/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -18,6 +18,11 @@ ms.custom:
 You can create a [collaboration space from a sales template](./collaboration-space.md) only in the Sales agent in Outlook. You can use the [enhanced collaboration](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience) feature in Dynamics 365 Sales to set up basic teams and channels that are linked to your customer relationship management (CRM) accounts. However, they don't come with the predefined channels and pinned apps that the sales templates provide.
 
 Regardless of how you set them up, you can access linked teams and channels from both Outlook and the Sales agent.
+
+In this article, you'll learn how to:
+- [Create a new account team](#create-an-account-team)
+- [Set up an existing team as an account team](#set-up-an-existing-team-as-an-account-team)
+- [Explore alternative ways to set up an account team](#alternative-ways-to-set-up-an-account-team)
 
 When you create a collaboration space with the account team template, you can [create an account team](#create-an-account-team) or [set up an existing team as an account team](#set-up-an-existing-team-as-an-account-team).
 
@@ -99,3 +104,8 @@ You can also set up a team using the account team template in the following ways
     :::image type="content" source="media/accnt-team-record-details-view.png" alt-text="Screenshot showing creating account team from record details view.":::
 
 After you set up a team, you can [collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md).
+
+## Related information
+
+- [Collaborate in Teams using the new team](collaborate-teams-newly-created-existing-team.md)
+- [Collaboration space from a sales template](./collaboration-space.md)
