@@ -61,4 +61,4 @@ In Dynamics 365 Sales, start by opening the account or opportunity.
 ## Related information
 
 - [Create a collaboration space](collaboration-space.md)
-- [Enhanced collaboration experience in Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience)
+- [Enhanced collaboration experience in Dynamics 365 Sales](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience)
