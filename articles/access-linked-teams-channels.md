@@ -1,7 +1,7 @@
 ---
 title: Access linked teams and channels in Outlook and Sales
 description: Learn how to access linked collaboration spaces in Microsoft Teams from Outlook and Dynamics 365 Sales.
-ms.date: 03/09/2026
+ms.date: 04/30/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -15,6 +15,10 @@ ms.custom:
 # Access linked teams and channels in Outlook and Sales
 
 [Collaboration spaces](./collaboration-space.md) in Microsoft Teams offer purpose-built places to work with your colleagues and customers on account and opportunity activities&mdash;but what if Teams isn't part of your normal workflow? If you prefer to work in Outlook or Dynamics 365 Sales, you can still get convenient access to teams and channels that you linked to your CRM using a sales template or [enhanced collaboration in Dynamics 365 Sales](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience).
+
+In this article, you'll learn how to:
+- [Access linked teams and channels from Outlook](#access-linked-teams-and-channels-from-outlook)
+- [Access linked teams and channels from Dynamics 365 Sales](#access-linked-teams-and-channels-from-dynamics-365-sales)
 
 ## Access linked teams and channels from Outlook
 
@@ -53,3 +57,8 @@ In Dynamics 365 Sales, start by opening the account or opportunity.
     The **Teams chats** pane shows the teams and channels that were created in Outlook using the Sales agent (indicated by the Sales agent icon) or linked from the Sales agent.
 
     :::image type="content" source="media/linked-channel-sales-app.png" alt-text="Screenshot of linked channels in Dynamics 365 Sales.":::
+
+## Related information
+
+- [Create a collaboration space](collaboration-space.md)
+- [Enhanced collaboration experience in Dynamics 365 Sales](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience)
