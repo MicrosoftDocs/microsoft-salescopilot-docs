@@ -1,7 +1,7 @@
 ---
 title: Set up glossary terms for Salesforce
 description: Glossaries in Dataverse help Sales agents interpret user queries by mapping custom terms to data, improving response accuracy. Learn how to set up yours.
-ms.date: 04/28/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -74,8 +74,6 @@ Each Salesforce organization has a unique skill name suffix. You need to find th
 1. Find the row where **OrgId** matches your Salesforce Instance.
 1. Copy the value from the **QnASearchConfigName** column. This is the value you enter in the **Skill** field when creating glossary terms.
 
-
-
 ## Enter the skill name in the glossary term form
 
 When creating a glossary term, use the following steps to select the correct skill and save the term.
@@ -87,3 +85,6 @@ When creating a glossary term, use the following steps to select the correct ski
 1. Once all fields are filled in, save the glossary term.
 1. Repeat these steps to add as many glossary terms as needed for your Salesforce organization.
 
+## Related information
+
+- [Set up Sales chat](set-up-sales-chat.md)

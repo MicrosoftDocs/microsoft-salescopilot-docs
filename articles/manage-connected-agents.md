@@ -1,7 +1,7 @@
 ---
 title: Manage connected agents in the Microsoft 365 admin center  
 description: Learn how to manage connected agents for Sales in the Microsoft 365 admin center. Enhance responses by linking agents and leveraging shared insights.
-ms.date: 03/09/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -47,3 +47,8 @@ Connected agents are other Copilot-enabled agents in your organization that can 
 1. Select **Sales** and then go to the **Connected agents** tab.
 1. To remove a connected agent, select the agent you want to remove and then select **Remove**.
 1. To clear all custom connections and revert to the default state, select **Reset to default**.
+
+## Related information
+
+- [Extend Sales agent with custom tools and knowledge in the Microsoft 365 admin center](extend-sales-chat-custom-tools.md)
+- [Set up record creation in Dynamics 365 with Sales agent](set-up-record-creation-dynamics-365.md)

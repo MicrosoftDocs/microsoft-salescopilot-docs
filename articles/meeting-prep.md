@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams to get AI-powered pre-meeting insights.
-ms.date: 04/29/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -19,10 +19,13 @@ Use this article to learn how to view and use the meeting preparation card in Te
 
 The meeting preparation card appears in your personal chat with the **Sales** bot and helps you prepare for upcoming customer meetings with a concise summary of meeting context.
 
+> [!NOTE]
+> Some generative AI features use Bing Search. Your data will flow outside your organization's compliance and geo boundaries. Your use of Bing Search is governed by the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839&clcid=0x409).
+
 ## Quick navigation
 
 - [Prerequisites](#prerequisites)
-- [View a meeting preparation card (preview)](#view-a-meeting-preparation-card-preview)
+- [View a meeting preparation card](#view-a-meeting-preparation-card)
 - [Detailed meeting preparation view](#detailed-meeting-preparation-view)
 - [Meeting requirements for preparation cards](#meeting-requirements-for-preparation-cards)
 - [Limitations](#limitations)
@@ -33,11 +36,7 @@ The meeting preparation card appears in your personal chat with the **Sales** bo
 - If you're using Salesforce as your CRM, [turn on the server-to-server connection](connect-agent-datasource.md).
 - [Invite at least one external contact that is saved in CRM to the meeting](connect-contact.md).
 
-## View a meeting preparation card (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+## View a meeting preparation card
 
 To view the meeting preparation card:
 
