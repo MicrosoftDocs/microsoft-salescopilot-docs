@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 04/27/2026
+ms.date: 05/06/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -197,7 +197,7 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 
 - You can't save draft emails or draft meetings to Salesforce.
 
-- Replies to saved emails and updates to saved meetings aren't automatically saved.
+- Replies to saved emails and updates to saved meetings aren't automatically saved. If you update a saved meeting and save it again, nothing is updated in Salesforce. Saving is a one-time action.
 
 - When you save an email or a meeting to Salesforce, it's shown as saved for you only. Other participants must save the email or meeting to Salesforce separately.
 
@@ -212,6 +212,11 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 - If an email that you save has more characters in the message body than the [maximum number of characters that can be stored in Salesforce email records](https://help.salesforce.com/s/articleView?id=000392839&type=1), the email is truncated and then saved. The **Connected to** card includes a notice to that effect.
 
     :::image type="content" source="media/truncate.png" alt-text="Screenshot of the Connected to card in the Sales agent, showing that an email saved to Salesforce was truncated.":::
+
+- If you save a meeting that has more than one attendee, you must [enable shared activities in Salesforce](https://help.salesforce.com/s/articleView?id=sales.activities_enable_shared_activities.htm&type=5) to have all attendees saved. When a meeting is synced between Outlook and Salesforce, all attendees identified as contacts appear in the appointment in Salesforce—but only if this shared activities feature is enabled in Salesforce. If the feature isn't enabled, only one attendee is shown. When enabled, all external attendees are shown.
+
+    > [!NOTE]
+    > Only external attendees who exist as contacts in Salesforce can be saved to a Salesforce meeting. Internal attendees (colleagues within your organization) are not recognized as contacts in Outlook and therefore cannot be saved to Salesforce events.
 
 ## Related information
 
