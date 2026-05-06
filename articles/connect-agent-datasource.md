@@ -1,7 +1,7 @@
 ---
 title: Connect your agents to a data source
 description: Learn how to connect agents to a data source for seamless data retrieval using server-to-server connections.
-ms.date: 03/09/2026
+ms.date: 05/06/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -39,9 +39,9 @@ If in the future you want to disable the server-to-server connection to Salesfor
 
 When a connection is established, following components are created in Salesforce using the Salesforce APIs. The components can be viewed in Salesforce CRM on the **Setup** page.
 
-- **Connected app**: Used to authenticate the agent with Salesforce. The name of the connected app is `Copilot for Sales connected app`. 
-- **Integration user**: Used to access data in Salesforce. The name of the integration user is `Copilot for Sales integration user`.
-- **Permission set**: Used to grant the integration user access to the data needed by the agent. The name of the permission set is `Copilot for Sales permission set`.
+- **Connected app**: Used to authenticate the agent with Salesforce. The name of the connected app is `M365 Copilot Sales connected app`. 
+- **Integration user**: Used to access data in Salesforce. The name of the integration user is `M365 Copilot Sales integration user`.
+- **Permission set**: Used to grant the integration user access to the data needed by the agent. The name of the permission set is `M365 Copilot Sales permission set`.
 
 The minimum privilege principle is followed to ensure that the integration user has only the permissions needed to access the data required by the agent. If the agent is reconfigured to access more custom fields in the CRM, the connection must be recreated to access them correctly. An error message is shown in that case, and an option to recreate the connection is made available.
 
@@ -49,7 +49,7 @@ If an error occurs that prevents the connection from working properly, an error 
 
 ## Permissions of the integration user
 
-The integration user is created with a specific set of permissions that allow it to access the data needed by the agent. The permissions are defined in the permission set `Copilot for Sales permission set`. The permission set includes the following permissions:
+The integration user is created with a specific set of permissions that allow it to access the data needed by the agent. The permissions are defined in the permission set `M365 Copilot Sales permission set`. The permission set includes the following permissions:
 
 |Object|Permissions|
 |------|---------------|
