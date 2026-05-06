@@ -1,7 +1,7 @@
 ---
 title: Privileges required to use Sales agent
 description: Learn what are the various privileges required to use the Sales agent
-ms.date: 03/27/2026
+ms.date: 05/06/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -27,7 +27,7 @@ Salesforce administrators who need to customize the Sales agent must have the fo
 | Permission | User profile needs to have **Modify All Data** or **Manage Data Integrations** permission.<br>**Note**: Permissions need to be on your user profile and not in permission sets assigned to you.|
 | Privilege | **Read** and **Write** privileges on **Organization** table. |
 
-For Sales agent in Microsoft 365 Copilot, assign the **System Administrator** security role to your user account in the [**msdyn_viva** environment in the Power Platform admin center](#access-msdyn_viva-environment-and-assign-security-role). Also, assign either the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or the following permissions to the **Copilot for Sales Extended User** role:
+For Sales agent in Microsoft 365 Copilot, assign the **System Administrator** security role to your user account in the [**msdyn_viva** environment in the Power Platform admin center](#access-msdyn_viva-environment-and-assign-security-role). Also, assign either the **Sales Copilot Administrator** security role or the following permissions to the **Copilot for Sales Extended User** role:
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|--------------------|
@@ -55,7 +55,7 @@ For Sales agent in Microsoft 365 Copilot, also assign the following privileges t
 1. Select **Settings**.
 1. Select **Users + permissions**, and then select **Users**.
 1. On the **Users** page, select your username, and then select **Manage security roles**.
-1. In the list of security roles, select **System Administrator** and **M365 Copilot Sales Administrator** (formerly known as Sales Copilot Administrator) roles, and then select **Save**.
+1. In the list of security roles, select **System Administrator** and **Sales Copilot Administrator** roles, and then select **Save**.
 
 Learn more about [assigning security roles in Power Platform admin center](/power-platform/admin/assign-security-roles).
 
@@ -65,7 +65,7 @@ Learn more about [assigning security roles in Power Platform admin center](/powe
 
 If you're using out-of-the-box **System Administrator** or **System Customizer** security roles, the Sales agent administration privileges are added automatically.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales Administrator** security role (formerly known as Sales Copilot Administrator) or add the following privileges to custom roles assigned to Dynamics 365 administrators who need to customize the Sales agent.  
+If you're using custom security roles, you must assign the **Sales Copilot Administrator** security role or add the following privileges to custom roles assigned to Dynamics 365 administrators who need to customize the Sales agent.  
 
 |Table| Logical name   | Privileges            | Access level       |
 |-----|---------|-------------------------------|-------------|
@@ -86,7 +86,7 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 
 If you're using the out-of-the-box **Salesperson** or **Sales Manager** security roles, the Sales agent privileges are added automatically and no further action is required.
 
-If you're using custom security roles, you must assign the **M365 Copilot Sales User** security role or add the following privileges to custom roles assigned to Dynamics 365 sellers who need to use the Sales agent.
+If you're using custom security roles, you must assign the **Sales Copilot User** security role or add the following privileges to custom roles assigned to Dynamics 365 sellers who need to use the Sales agent.
 
 | Table       | Logical name       | Privileges        | Access level             |
 |----------------|---------------------|---------------------|---------------------|
@@ -104,7 +104,7 @@ If you're using custom security roles, you must assign the **M365 Copilot Sales 
 | CopilotGlossaryTerm | copilotglossaryterm | Read  | Global |
 | CopilotSynonyms | copilotsynonyms | Read  | Global |
 
-The **M365 Copilot Sales User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
+The **Sales Copilot User** security role only compliments the custom security roles and does not replace them. If a custom security role assigned to sellers is missing any of the privileges included in Salesperson or Sales Manager security role, you might encounter errors specific to Dynamics 365 permission.
 
 For information on how to assign security roles, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
   
