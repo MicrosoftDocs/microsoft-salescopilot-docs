@@ -1,7 +1,7 @@
 ---
 title: Configure access settings for features in the Sales agent
 description: Control access to various features in the Sales agent, including meeting insights and Lead Research and Outreach capabilities.
-ms.date: 03/26/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -82,11 +82,7 @@ After you turn on Lead Research and Outreach, you can [set up and activate the L
 
 If you want to turn off Lead Research and Outreach, follow the same steps to access the **Sales Agent** pane and turn off the toggle. If you turn off this setting, sellers will no longer see the Lead Research and Outreach feature in the Sales agent. Turning off the agent will stop the agent from researching leads.
 
-## Sales agent in Microsoft 365 Copilot (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+## Sales agent in Microsoft 365 Copilot
 
 Sales agent is an AI-powered chat interface that allows sellers to interact with their sales data using natural language. Sellers can ask questions and gain insights from their CRM data and past customer conversations. By default, Sales agent is turned on for all users. You can choose to restrict access to specific security groups or turn off the feature entirely.
 

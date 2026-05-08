@@ -1,7 +1,7 @@
 ---
 title: Extend Sales agent with custom tools and knowledge in the Microsoft 365 admin center
 description: Extend your Microsoft Sales agent with custom tools and knowledge to integrate data, enhance insights, and provide accurate responses. Learn how to get started.
-ms.date: 03/09/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -72,4 +72,4 @@ You can build a custom [declarative agent](/microsoft-365-copilot/extensibility/
 - [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 - [Plugins for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-plugins?tabs=mcp)
 - [Use developer mode in Microsoft 365 Copilot to test and debug agents](/microsoft-365-copilot/extensibility/debugging-agents-copilot-studio)
-- [Set up record creation in Dynamics 365 with Sales agent (preview)](set-up-record-creation-dynamics-365.md)
+- [Set up record creation in Dynamics 365 with Sales agent](set-up-record-creation-dynamics-365.md)

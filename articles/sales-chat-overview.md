@@ -1,7 +1,7 @@
 ---
-title: Overview of Sales agent in Microsoft 365 Copilot (preview)
+title: Overview of Sales agent in Microsoft 365 Copilot
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 04/14/2026
+ms.date: 05/08/2026
 ms.topic: overview
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -9,11 +9,7 @@ ms.author: shjais
 ai-usage: ai-assisted
 ---
 
-# Overview of Sales agent in Microsoft 365 Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+# Overview of Sales agent in Microsoft 365 Copilot
 
 The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use.
 
