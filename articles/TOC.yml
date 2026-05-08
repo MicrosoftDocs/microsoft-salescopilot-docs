@@ -44,8 +44,6 @@
           href: administrator-settings-sales-app.md
         - name: Customize forms and fields
           href: customize-forms-and-fields.md
-        - name: Share a CRM record in Outlook by using /mention
-          href: share-crm-record-admin.md
         - name: Turn on Copilot AI features
           href: suggested-replies.md
         - name: Turn off task suggestion in collaboration spaces (preview)
@@ -72,7 +70,7 @@
               href: set-up-sales-agent.md
             - name: Integrate Lead Research and Outreach with Salesforce
               href: set-up-sales-agent-salesforce.md
-        - name: Sales agent in Microsoft 365 Copilot (preview)
+        - name: Sales agent in Microsoft 365 Copilot
           items:
             - name: Overview
               href: sales-chat-overview.md
@@ -218,7 +216,7 @@
               href: use-sales-agent.md
             - name: Send outreach emails
               href: send-outreach-emails.md
-        - name: Sales agent in Microsoft 365 Copilot (preview)
+        - name: Sales agent in Microsoft 365 Copilot
           items:
             - name: Overview
               href: sales-chat-overview.md

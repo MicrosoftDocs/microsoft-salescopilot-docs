@@ -1,18 +1,14 @@
 ---
-title: Set up Sales agent in Microsoft 365 Copilot (preview)
+title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 04/28/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
 ms.author: shjais
 ---
 
-# Set up Sales agent in Microsoft 365 Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+# Set up Sales agent in Microsoft 365 Copilot
 
 The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales agent is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
 
@@ -26,7 +22,7 @@ The Sales agent is available to users who have access to a Microsoft 365 Copilot
 
 - [The Sales agent is installed in both Outlook and Teams](install-viva-sales.md).
 - You have access to environment-level settings in the [administrator settings for Sales agent](administrator-settings-sales-app.md).
-- [Sales Chat must be turned on in Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
+- [Sales Chat must be turned on in Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot).
 - The Sales agent must be connected to a CRM system.
 - [Appropriate privileges must be assigned to admins and users in the CRM system to set up and access the data](privileges.md). If you are a Salesforce admin, you must assign the security role in the [msdyn_viva environment in Power Platform admin center](privileges.md#access-msdyn_viva-environment-and-assign-security-role).
 
@@ -201,5 +197,5 @@ This step is applicable only if you're using Dynamics 365 as your CRM system. En
 ## Related information
 
 - [Use Sales agent in Microsoft 365 Copilot](use-sales-chat.md)
-- [Turn on Sales agent](access-settings.md#sales-agent-in-microsoft-365-copilot-preview)
+- [Turn on Sales agent](access-settings.md#sales-agent-in-microsoft-365-copilot)
 - [Privileges required to use Sales agent](privileges.md)

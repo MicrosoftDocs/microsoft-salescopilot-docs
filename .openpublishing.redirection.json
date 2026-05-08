@@ -803,6 +803,11 @@
         "source_path": "articles/suggested-crm-updates.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                                                               
+      },
+      {
+        "source_path": "articles/share-crm-record-admin.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }                                                                                 
   ]
 }

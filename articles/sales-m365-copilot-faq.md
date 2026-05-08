@@ -347,7 +347,7 @@ All users with the Microsoft 365 Copilot license and [Sales agent installed](ins
 If needed, you can hide the Sales agent for individual users or groups by one of the following methods:
 
 - [Disable the Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility&preserve-view=true). This hides all Copilot agents, including Sales.
-- Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview).
+- Turn off Sales Chat in [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot).
 
     > [!NOTE]
     > If you turn off Sales Chat from **Access settings**, users who have the Sales agent installed will still see Sales as an agent in Microsoft 365 Copilot. They can still ask questions and get responses, but the responses won't include any sales data.
@@ -370,7 +370,7 @@ The agent uses Bing Search to gather publicly available information and generate
 
 #### Why does Sales agent say I don't have access?
 
-This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot-preview). In this case, you might still see Sales as an agent in Microsoft 365 Copilot, but you won't receive responses to your queries.
+This message appears if your CRM administrator has disabled access to Sales Chat from [Access settings](access-settings.md#sales-agent-in-microsoft-365-copilot). In this case, you might still see Sales as an agent in Microsoft 365 Copilot, but you won't receive responses to your queries.
 
 Contact your administrator to request access to Sales Chat.
 
