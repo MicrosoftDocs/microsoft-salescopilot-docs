@@ -1,7 +1,7 @@
 ---
 title: Turn off actionable banners in Microsoft 365 apps
 description: Learn how to turn off actionable banners in Microsoft 365 apps.
-ms.date: 03/09/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -16,13 +16,7 @@ ms.custom:
 
 # Turn off actionable banners in Microsoft 365 apps
 
-Some the Sales agent features run in Microsoft 365 app service apart from the Outlook add-in and Teams app. These features are turned on by default. Tenant administrators can turn them off in the Microsoft 365 admin center.
-
-1. Sign in to the Microsoft 365 admin center with your tenant admin credentials.  
-1. Select **Settings** > **Org settings**.  
-1. On the **Org settings** page, in the **Services** tab, select **Sales**.  
-1. Clear **Allow users to see Sales content in Microsoft 365 apps**.  
-1. Select **Save**.
+Some the Sales agent features run in Microsoft 365 app service apart from the Outlook add-in and Teams app. These features are turned on by default. To turn off actionable banners in Microsoft 365 apps, contact Microsoft support.
 
 ## Effect on the Sales agent email notification banner
 

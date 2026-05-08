@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using the Sales agent.
-ms.date: 03/09/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -87,23 +87,6 @@ The experience of using the Sales agent search message extension when composing 
     :::image type="content" source="media/search-pane-outlook-new.png" alt-text="Screenshot showing search pop-up for the Sales agent in new Outlook.":::
 
     The adaptive card is added to the email.
-
-## Share a CRM record in Outlook using /mention
-
-Your administrator needs to [turn on this feature](share-crm-record-admin.md) before you can use it. 
-
-1. In the body of the email or calendar invite, type a forward slash (/) symbol. The Sales agent displays a list of recently accessed records.
-
-1. Select a record from the list or search for a record by entering the first few letters of the record name.
-
-    > [!NOTE]
-    > Only records that you have recently accessed in the Sales agent are displayed or can be searched.
-
-1. Select the record from the search results.
-
-    :::image type="content" source="media/mentions-outlook-search.png" alt-text="Screenshot showing the Sales agent search in Outlook.":::
-
-    The record link is added to the email.
 
 ## Share a record using advanced search
 
