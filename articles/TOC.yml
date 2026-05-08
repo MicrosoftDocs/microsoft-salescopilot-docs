@@ -44,8 +44,6 @@
           href: administrator-settings-sales-app.md
         - name: Customize forms and fields
           href: customize-forms-and-fields.md
-        - name: Share a CRM record in Outlook by using /mention
-          href: share-crm-record-admin.md
         - name: Turn on Copilot AI features
           href: suggested-replies.md
         - name: Turn off task suggestion in collaboration spaces (preview)
