@@ -199,7 +199,7 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 
 - Replies to saved emails aren't automatically saved.
 
-- If you update a saved meeting you can't save it again in Salesforce. Saving is a one-time action.
+- If you update a saved meeting, you can't save it again in Salesforce. Saving is a one-time action.
 
 - When you save an email or a meeting to Salesforce, it's shown as saved for you only. Other participants must save the email or meeting to Salesforce separately.
 
