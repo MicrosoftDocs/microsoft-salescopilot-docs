@@ -2,7 +2,7 @@
 title: Set up record creation in Dynamics 365 with Sales agent
 description: Dynamics 365 integration made easy—discover how to set up record creation with Sales agent in Microsoft 365 Copilot and boost your productivity.
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.date: 05/08/2026

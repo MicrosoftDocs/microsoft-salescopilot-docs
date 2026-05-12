@@ -3,7 +3,7 @@ title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use the Sales agent in Teams to get sales insights in Teams meeting recaps. 
 ms.date: 04/29/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

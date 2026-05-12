@@ -3,7 +3,7 @@ title: Extend Sales agent with custom tools and knowledge in the Microsoft 365 a
 description: Extend your Microsoft Sales agent with custom tools and knowledge to integrate data, enhance insights, and provide accurate responses. Learn how to get started.
 ms.date: 05/08/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

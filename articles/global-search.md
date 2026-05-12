@@ -3,7 +3,7 @@ title: Search for a CRM record using Sales agent
 description: Explore the Sales agent CRM integration, which offers AI-based recommendations and user-initiated searches to efficiently deliver relevant records.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

@@ -3,7 +3,7 @@ title: Install Sales agent
 description: Learn what are the various ways to install the Sales agent.
 ms.date: 03/09/2026
 ms.topic: install-set-up-deploy
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

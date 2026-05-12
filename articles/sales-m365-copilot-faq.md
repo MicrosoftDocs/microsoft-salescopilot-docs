@@ -3,7 +3,7 @@ title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
 ms.date: 03/30/2026
 ms.topic: faq
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom: sfi-image-nochange
