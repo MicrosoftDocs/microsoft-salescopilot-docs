@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 05/06/2026
+ms.date: 05/12/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -197,7 +197,9 @@ The Sales agent works a little differently depending on which CRM you use. Use t
 
 - You can't save draft emails or draft meetings to Salesforce.
 
-- Replies to saved emails and updates to saved meetings aren't automatically saved. If you update a saved meeting and save it again, nothing is updated in Salesforce. Saving is a one-time action.
+- Replies to saved emails aren't automatically saved.
+
+- If you update a saved meeting you can't save it again in Salesforce. Saving is a one-time action.
 
 - When you save an email or a meeting to Salesforce, it's shown as saved for you only. Other participants must save the email or meeting to Salesforce separately.
 
