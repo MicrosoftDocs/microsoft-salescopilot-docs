@@ -3,7 +3,7 @@ title: Manage consumption-based billing for agent capabilities (preview)
 description: Learn about managing consumption-based billing for agent capabilities in the Sales agent.
 ms.date: 03/09/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

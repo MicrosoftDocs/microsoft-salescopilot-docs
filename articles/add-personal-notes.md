@@ -3,7 +3,7 @@ title: Add private notes
 description: Learn how to add private notes.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

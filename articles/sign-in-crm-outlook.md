@@ -3,7 +3,7 @@ title: Sign in to CRM from Outlook
 description: Sign in to CRM from Outlook and connect your CRM environment to get a more enriched experience with CRM data.
 ms.date: 03/09/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

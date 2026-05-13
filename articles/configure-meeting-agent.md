@@ -3,7 +3,7 @@ title: Configure recordings and notifications for sales meetings
 description: Learn how to configure auto recording and notifications for sales meetings to ensure sellers are well-prepared and important details are captured.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted

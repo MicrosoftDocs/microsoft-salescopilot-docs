@@ -3,7 +3,7 @@ title: Collaborate in account and deal room teams
 description: Learn how sellers can use account teams and deal room teams to collaborate with colleagues and customers in Microsoft Teams.
 ms.date: 04/30/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

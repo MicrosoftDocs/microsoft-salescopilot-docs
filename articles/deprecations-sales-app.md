@@ -3,7 +3,7 @@ title: Deprecations in Sales agent
 description: Features deprecated in the Sales agent are listed in this article, giving users time to update their code before removal.
 ms.date: 04/29/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

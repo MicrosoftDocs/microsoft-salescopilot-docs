@@ -3,7 +3,7 @@ title: Use server-side synchronization with Sales agent
 description: Learn how to use server-side synchronization with the Sales agent.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

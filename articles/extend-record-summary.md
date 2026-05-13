@@ -3,7 +3,7 @@ title: Enrich CRM record summaries with insights from your application (preview)
 description: Enhance CRM record summaries in the Sales agent by using AI and insights from your own application, improving customer understanding.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:
