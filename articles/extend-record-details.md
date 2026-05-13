@@ -3,7 +3,7 @@ title: Enrich CRM record details with insights from your application (preview)
 description: Enhance your CRM record details with insights from your application by using the Sales agent extension capability.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

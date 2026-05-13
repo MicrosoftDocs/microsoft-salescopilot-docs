@@ -3,7 +3,7 @@ title: View post-meeting summary card
 description: Learn where to find the post-meeting summary card in Teams and open the meeting recap.
 ms.date: 04/29/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

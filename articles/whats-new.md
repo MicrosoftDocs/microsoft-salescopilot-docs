@@ -1,7 +1,7 @@
 ---
 title: What's new or changed in Sales agent
 description: Visit this page to see what's recently updated or added in Sales agent.
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.date: 04/16/2026

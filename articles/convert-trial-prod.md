@@ -3,7 +3,7 @@ title: Convert the Dynamics 365 environment from Trial to Production
 description: Learn how to convert the Dynamics 365 environment from Trial to Production.
 ms.date: 03/10/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

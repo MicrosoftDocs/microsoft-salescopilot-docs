@@ -3,7 +3,7 @@ title: Build extensions for Sales agent (preview)
 description: Explore how to build extensions that enhance capabilities and introduce new ones for Sales agent.
 ms.date: 03/09/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

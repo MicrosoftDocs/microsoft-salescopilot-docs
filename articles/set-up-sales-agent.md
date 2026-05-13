@@ -3,7 +3,7 @@ title: Set up Lead Research and Outreach (preview)
 description: Learn how to set up Lead Research and Outreach to research leads and generate insights.
 ms.date: 05/06/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---
