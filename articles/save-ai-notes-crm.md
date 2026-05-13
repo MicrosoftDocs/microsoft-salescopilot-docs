@@ -1,7 +1,7 @@
 ---
 title: Configure how AI meeting notes are saved from Teams recap to CRM
 description: Learn how to configure how AI meeting notes are saved from Teams recap to CRM using the Sales agent in Teams.
-ms.date: 03/09/2026
+ms.date: 05/13/2026
 ms.topic: how-to
 ms.service: microsoft-sales-copilot
 author: sbmjais
@@ -24,6 +24,8 @@ To configure how AI meeting notes are saved from Teams recap to CRM:
        > [!NOTE]
        > If you're using Salesforce as your CRM, the **Description** field of the **Event** object does not support HTML formatting. Therefore, the AI-generated meeting notes are saved as plain text in the **Description** field.
    - **Save to specified record**: This option allows you to select a specific record and its field in CRM where the AI-generated meeting notes will be saved. You can choose from a list of available records in your CRM system. After you select this option, perform the following steps:
+        > [!NOTE]
+        > Do not select the appointment record type when adding a record. To save AI-generated meeting notes to an appointment, use the **Save to appointment description field by default** option instead.
      1. Select **Add record**.
      1. In the **Add a record type** window, select the record type from the list of available records or search for a specific record type using the search bar.
      1. Select **Next**.
