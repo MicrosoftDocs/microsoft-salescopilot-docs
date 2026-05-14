@@ -3,7 +3,7 @@ title: Use Lead Research and Outreach (preview)
 description: Learn how to view the research conducted on your leads by Lead Research and Outreach.
 ms.date: 03/26/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

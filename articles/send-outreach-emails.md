@@ -3,7 +3,7 @@ title: Send outreach email to leads (preview)
 description: Learn how to send outreach email to leads using Lead Research and Outreach.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

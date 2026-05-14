@@ -3,7 +3,7 @@ title: Architecture of Sales agent
 description: Information about architecture of Sales agent
 ms.date: 03/09/2026
 ms.topic: concept-article
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

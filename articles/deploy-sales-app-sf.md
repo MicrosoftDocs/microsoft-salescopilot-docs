@@ -3,7 +3,7 @@ title: Sales agent deployment guide for Salesforce CRM customers
 description: Learn how to deploy the Sales agent for Salesforce CRM customers.
 ms.date: 04/14/2026
 ms.topic: install-set-up-deploy
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

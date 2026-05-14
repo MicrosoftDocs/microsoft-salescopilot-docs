@@ -3,7 +3,7 @@ title: Mobile support for Sales agent app in Outlook and Teams
 description: Learn about the mobile support for Sales agent app on iOS and Android versions of Outlook and Teams, including supported and unsupported features.
 ms.date: 03/09/2026
 ms.topic: concept-article
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom: CXT

@@ -3,7 +3,7 @@ title: Draft an email message in Sales pane
 description: Learn how to generate an email reply with predefined categories or custom prompts using the Sales pane in Outlook.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

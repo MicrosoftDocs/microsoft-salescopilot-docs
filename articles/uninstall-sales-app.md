@@ -3,7 +3,7 @@ title: Uninstall the Sales agent
 description: Uninstall the Sales agent using Microsoft 365 admin center or PowerShell.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

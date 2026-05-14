@@ -3,7 +3,7 @@ title: Welcome to Sales agent
 description: Get to know Sales agent
 ms.date: 03/17/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

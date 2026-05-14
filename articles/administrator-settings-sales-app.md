@@ -3,7 +3,7 @@ title: Administrator settings for Sales agent
 description: Learn how to use administrator settings to customize the Sales agent experience in Outlook and Teams.
 ms.date: 03/09/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

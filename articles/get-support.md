@@ -3,7 +3,7 @@ title: Get support for Sales agent
 description: Learn how to get support for Sales agent, including technical support and community support.
 ms.date: 03/09/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ai-usage: ai-assisted

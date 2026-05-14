@@ -3,7 +3,7 @@ title: Configure how Outlook emails and events are saved to CRM
 description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using the Sales agent in Outlook.
 ms.date: 04/27/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.reviewer: shjais

@@ -3,7 +3,7 @@ title: Privileges required to use Sales agent
 description: Learn what are the various privileges required to use the Sales agent
 ms.date: 05/06/2026
 ms.topic: overview
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

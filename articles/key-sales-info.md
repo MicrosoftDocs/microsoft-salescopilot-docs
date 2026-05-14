@@ -3,7 +3,7 @@ title: View key sales information
 description: Learn how to view key sales information in Sales agent as you read and compose emails in Outlook.
 ms.date: 04/27/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

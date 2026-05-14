@@ -3,7 +3,7 @@ title: Sales agent chat on mobile
 description: Learn about using Sales agent chat on mobile. Launch the app, capture voice notes, update opportunities with voice commands, save to CRM records, and prepare for meetings on your mobile device.
 ms.date: 04/21/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ---

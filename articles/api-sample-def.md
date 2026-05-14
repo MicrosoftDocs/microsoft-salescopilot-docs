@@ -3,7 +3,7 @@ title: Sample connector (preview)
 description: Sample connector to help you easily start to extend Sales.
 ms.date: 03/09/2026
 ms.topic: concept-article
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:

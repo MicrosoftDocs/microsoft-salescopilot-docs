@@ -3,7 +3,7 @@ title: Boost sales efficiency with CRM-enriched email summaries in Outlook
 description: Learn how to use Sales agent in Outlook to enrich email summaries with sales information from your CRM.
 ms.date: 04/29/2026
 ms.topic: how-to
-ms.service: microsoft-sales-copilot
+ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
 ms.custom:
