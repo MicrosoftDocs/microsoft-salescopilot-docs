@@ -65,6 +65,9 @@ On the Sales agent home screen, swipe left to see a list of your upcoming meetin
 
 Update your opportunities directly from the Sales agent using voice commands. Simply state the specific update you want to make in an opportunity, and the Sales agent will identify the target opportunity, confirm the change with you, and save the update to your CRM.
 
+> [!NOTE]
+> Voice commands can update Opportunity fields of the following data types only: String, DateTime, Money, Integer, Decimal, Double, and Picklist.
+
 ### How it works
 
 1. State your update clearly—for example, "Update the closing date for Contoso to next Friday" or "Change the deal amount for Fabrikam to $50,000".
