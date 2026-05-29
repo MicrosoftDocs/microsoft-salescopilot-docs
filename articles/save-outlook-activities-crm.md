@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 05/12/2026
+ms.date: 05/29/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -55,7 +55,7 @@ Before you start, note these common blockers:
 
     - Search for a record to select: Use the search box to find and connect to a record of any type that your administrator added to the Sales agent.
 
-    - Save without selecting a record: Select **Save without connecting** to save the email or meeting to the CRM without connecting it to a record. It's still associated with contacts in the **To**, **Cc**, and **Bcc** fields.
+    - Save without selecting a record: Select **Save to related contacts** to save the email or meeting to the CRM without connecting it to a record. It's still associated with contacts in the **To**, **Cc**, and **Bcc** fields.
 
     > [!NOTE]
     > - When you search for a record to connect to, the search results show the record name and the [key fields that your administrator selected](customize-forms-and-fields.md#select-key-fields-for-the-mini-view).
