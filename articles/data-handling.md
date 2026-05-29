@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales agent 
 description: Know how data is handled in Sales agent 
-ms.date: 03/09/2026
+ms.date: 05/29/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -44,7 +44,7 @@ The Sales agent data is stored in several tables in Dataverse. You shouldn't mod
 |**msdyn_rawinsightentitylink**|This table contains links between insights and relevant CRM records.|
 |**Lead Intelligence Insight**|This table contains insights by the Lead Research and Outreach about the leads found in the CRM.|
 
-Insights related to emails and meetings have a retention policy of 90 days, and will be deleted afterwards. If a customer requires custom retention policy, scripts can be created to delete the data from the table.
+Insights related to emails have a retention policy of 30 days and insights related to meetings have a retention policy of 90 days, and will be deleted afterwards. If a customer requires custom retention policy, scripts can be created to delete the data from the table.
 
 ## Additional Dataverse capacity
 

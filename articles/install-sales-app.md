@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent
 description: Learn what are the various ways to install the Sales agent.
-ms.date: 03/09/2026
+ms.date: 05/29/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -66,7 +66,7 @@ When you install the Outlook add-in, it's considered user-deployed instead of ad
 | Automatically capture email signature during new contact creation | Supported     | Not supported                |
 | Create and edit non-contact records in Dynamics 365     | Supported²    | Supported      |
 | Delegate access (allow a user to act on behalf of another user)    | Not supported | Supported    |
-| Mobile support | Not supported | Supported |
+| Mobile support | Supported | Supported |
 | **Work in Teams³**   |               |               |
 | Collaborate on customer records with colleagues in Teams    | Supported     | Not supported    |
 | Post-meeting: Play back and transcript with highlights, topics, executive summary, action items, and sentiment analysis  | Supported     | Not supported    |
