@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQs for Sales agent
 description: Responsible AI FAQs provide information about the AI technology used in Sales agent, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 03/09/2026
+ms.date: 06/03/2026
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -23,3 +23,5 @@ ms.reviewer: shjais
 - [FAQ for opportunity summary feature in Outlook](faqs-oppty-summary.md)
 - [FAQ for meeting summary feature in Teams](faqs-meeting-summary.md)
 - [FAQ for Lead Research and Outreach](faqs-sales-agent.md)
+- [FAQs for opportunity insights feature in Outlook](faqs-opportunity-insights.md)
+- [FAQs for customer communication feature in Outlook and Microsoft 365 Copilot](faqs-customer-communication.md)
