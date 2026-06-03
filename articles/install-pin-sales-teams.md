@@ -53,7 +53,8 @@ For more information about managing Teams app setup policies, go to [Manage app 
 
 For more information about assigning user and group policies, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).
 
-After you install the Sales agent in both [Outlook](install-sales-as-an-integrated-app.md) and Teams, you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
+> [!IMPORTANT]
+> After you install the Sales agent in both [Outlook](install-sales-as-an-integrated-app.md) and Teams, you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
 
 ## Welcome message
 

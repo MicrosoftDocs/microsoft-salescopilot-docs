@@ -34,14 +34,13 @@ As an administrator, you can install the Sales agent as an integrated app from M
 1. When the deployment is complete, select **Done**.  
     Allow up to six hours for the Sales agent to appear in users' Outlook ribbon.
 
-After you install the Sales agent in both Outlook and [Teams](install-pin-sales-teams.md), you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
-
 > [!NOTE]
 > The app is installed in Outlook and other Microsoft 365 applications but not in Teams. You need to go to the Microsoft Teams admin center and create setup policies to install the app and assign users. For information about installing the Sales agent in Teams, go to [Install and pin the Sales agent in Teams](install-pin-sales-teams.md).
 
 
 > [!IMPORTANT]
-> It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales agent in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-agent-in-outlook-after-its-deployed)
+> - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales agent in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-agent-in-outlook-after-its-deployed)
+> - After you install the Sales agent in both Outlook and [Teams](install-pin-sales-teams.md), you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
 
 ## Manage the Sales agent
 

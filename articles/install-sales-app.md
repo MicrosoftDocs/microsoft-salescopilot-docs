@@ -24,7 +24,8 @@ You need to be a Microsoft 365 administrator to deploy and install the Sales age
 
 For steps to install the Sales agent in Outlook and Teams, see [Install the Sales agent in Outlook](install-sales-as-an-integrated-app.md) and [Install and pin the Sales agent in Teams](install-pin-sales-teams.md).
 
-After you install the Sales agent in both Outlook and Teams, you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
+> [!IMPORTANT]
+> After you install the Sales agent in both Outlook and Teams, you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
 
 > [!NOTE]
 > If your users are using Salesforce, ensure that Microsoft Power Platform is not blocked. You can check its status on the **Connected Apps OAuth Usage** page in Salesforce. If it's blocked, you need to unblock it to use the Sales agent and might take up to 24 hours for the add-in to show up for your users.
