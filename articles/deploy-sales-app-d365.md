@@ -1,7 +1,7 @@
 ---
 title: Sales agent deployment guide for Dynamics 365 customers
 description: Learn how to deploy the Sales agent for Dynamics 365 customers.
-ms.date: 04/14/2026
+ms.date: 06/03/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -77,7 +77,11 @@ You can [try out newest preview features in your environment](suggested-replies.
 The Sales agent comes configured to allow users to be productive out-of-the-box. You can [customize forms and fields](customize-forms-and-fields.md) as needed.
 
 
-## Step 7: Welcome sellers to the Sales agent
+## Step 7: Set up Sales agent in Microsoft 365 Copilot
+
+To use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot, you must [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md).
+
+## Step 8: Welcome sellers to the Sales agent
 
 Now that you've installed and configured the Sales agent in Outlook and Teams, get your sellers to use it. Here's an example email message you can share.
 
