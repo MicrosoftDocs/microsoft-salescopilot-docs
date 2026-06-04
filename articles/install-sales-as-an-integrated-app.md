@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent in Outlook
 description: Learn how to install, manage, and update the Sales agent in Microsoft 365 with this comprehensive guide.
-ms.date: 04/07/2026
+ms.date: 06/03/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -39,7 +39,8 @@ As an administrator, you can install the Sales agent as an integrated app from M
 
 
 > [!IMPORTANT]
-> It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales agent in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-agent-in-outlook-after-its-deployed)
+> - It can take up to 48 hours for the app to appear in Outlook and other Microsoft 365 apps. If users can't see the app after 48 hours, it might be due to the public attachment handling policy. More information: [Why can't users see the Sales agent in Outlook after it's deployed?](sales-m365-copilot-faq.md#why-cant-users-see-the-sales-agent-in-outlook-after-its-deployed)
+> - After you install the Sales agent in both Outlook and [Teams](install-pin-sales-teams.md), you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
 
 ## Manage the Sales agent
 
@@ -69,4 +70,6 @@ If end users install the Outlook add-in, it's considered user-deployed instead o
 
 ### Related information
 
-[Install and pin the Sales agent in Teams](install-pin-sales-teams.md)
+[Install and pin the Sales agent in Teams](install-pin-sales-teams.md)<br>
+[Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)<br>
+[Privileges required to use Sales agent](privileges.md)
