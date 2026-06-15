@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 05/08/2026
+ms.date: 06/15/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -135,6 +135,13 @@ The following table shows examples of how adding glossary definitions can give y
 > [!NOTE]
 > - The descriptions in the table are provided as examples. Test your own descriptions to see which ones produce the best results.
 > - Updates to glossary terms and definitions may take up to 15 minutes to become available.
+
+If you're unsure what to add to your glossary, ask Sales agent for help. Describe your custom entity, field, relationship, or business term and ask it to generate a glossary entry. Sales agent will suggest a term and description that you can copy, review, and paste into your glossary table.
+
+**Example prompts**:
+
+- We have a custom entity called Partner Account that represents reseller organizations we work with. Create a glossary entry that helps Sales agent understand this entity.
+- In our CRM, the relationship between an Account and a Region is stored in a custom relationship. Create a glossary entry that explains this relationship to Sales agent.
 
 #### Dynamics 365
 
