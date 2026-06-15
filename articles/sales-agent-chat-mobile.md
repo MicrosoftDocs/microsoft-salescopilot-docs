@@ -1,7 +1,7 @@
 ---
 title: Sales agent chat on mobile
 description: Learn about using Sales agent chat on mobile. Launch the app, capture voice notes, update opportunities with voice commands, save to CRM records, and prepare for meetings on your mobile device.
-ms.date: 04/21/2026
+ms.date: 06/15/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -30,27 +30,16 @@ You can open Sales agent from either Outlook mobile or the Microsoft 365 Copilot
 
 Capture voice notes in Sales agent and save them directly to your CRM records. This is useful when you want to log call notes, meeting takeaways, or account updates while on the go without typing.
 
-You can capture voice notes using your device's keyboard dictation in Outlook mobile or the built-in mic icon in the Microsoft 365 Copilot app.
+You can capture voice notes using your device's keyboard dictation in Outlook mobile or the built-in mic icon in the Microsoft 365 Copilot app. When dictating, tell the Sales agent that you want to add a note as part of your message—for example, start with "I want to add a note to my Fabrikam opportunity" and then dictate your note.
 
 > [!NOTE]
 > This feature is available on both iOS and Android.
 
-### Capture voice notes in Outlook mobile
+### Capture voice notes in Outlook mobile and Microsoft 365 Copilot app
 
-1. [Open the Sales agent in Outlook mobile](#from-outlook-mobile) and tap the message input box to bring up the keyboard.
-1. On your keyboard, select the microphone key and speak your note.
+1. Open the Sales agent in [Outlook mobile](#from-outlook-mobile) or the [Microsoft 365 Copilot app](#from-the-microsoft-365-copilot-app) and tap the message input box to bring up the keyboard.
+1. On your keyboard, select the microphone key and speak your note. Start by stating your intent—for example, "I want to add a note to my Fabrikam opportunity"—followed by the note details.
    The dictated text appears in the message input box as you speak.
-1. Review the transcribed text and make any edits if needed.
-1. Send the message to the Sales agent.
-1. When prompted, select the CRM record where you want to save the note, and then confirm.
-
-### Capture voice notes in the Microsoft 365 Copilot app
-
-After launching Sales agent in the Microsoft 365 Copilot app, use the built-in **Mic** icon to capture voice notes directly.
-
-1. [Open the Sales agent in the Microsoft 365 Copilot app](#from-the-microsoft-365-copilot-app).
-1. In the chat input area, tap the **Mic** icon and speak your note.
-   The transcribed text appears in the message input box.
 1. Review the transcribed text and make any edits if needed.
 1. Send the message to the Sales agent.
 1. When prompted, select the CRM record where you want to save the note, and then confirm.
