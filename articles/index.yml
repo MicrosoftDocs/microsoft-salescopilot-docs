@@ -111,8 +111,6 @@ additionalContent:
         text: Set up a team using deal room template
       - url: collaborate-teams-newly-created-existing-team.md
         text: Collaborate in Teams using the newly created or existing team
-      - url: access-linked-teams-channels.md
-        text: Access linked teams and channels
       - url: suggested-tasks-collab-space.md
         text: Collaborate using AI-powered Planner tasks
 

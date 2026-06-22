@@ -808,6 +808,11 @@
         "source_path": "articles/share-crm-record-admin.md",
         "redirect_url": "/microsoft-sales-copilot/landing",
         "redirect_document_id": false
-      }                                                                                 
+      },
+      {
+        "source_path": "articles/access-linked-teams-channels.md",
+        "redirect_url": "/microsoft-sales-copilot/collaboration-space",
+        "redirect_document_id": false
+      }                                                                                  
   ]
 }

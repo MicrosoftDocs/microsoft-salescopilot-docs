@@ -36,8 +36,6 @@ You can open a collaboration space&mdash;an account team or a deal room channel 
 
 - In Teams, select the account team or deal room channel.
 
-- In Dynamics 365 Sales, open an account or opportunity. Select **Collaborate**, and then select the team that's linked to the account or opportunity. [Learn how to access linked teams and channels](access-linked-teams-channels.md).
-
 ## Anatomy of a collaboration space
 
 A team that was created using the account team template or the deal room template always has a **General** channel. Other channels depend on how the team was created and whether more channels were created later.
