@@ -1,7 +1,7 @@
 ---
 title: Save Outlook activities to your CRM
 description: Learn how to save your Outlook emails and meetings to your Dynamics 365 or Salesforce CRM with the Sales agent.
-ms.date: 05/29/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -72,7 +72,10 @@ Before you start, note these common blockers:
     :::image type="content" source="media/save-attachments.png" alt-text="Screenshot of the Save attachments option in the Sales side pane.":::
 
     > [!NOTE]
-    > Additional fields for categorization and attachments are not supported when you save a recurring meeting series to Dynamics 365.
+    > - Saving attachments is not supported when saving recurring meeting series to Dynamics 365.
+    > - Additional fields for categorization are not supported in the following scenarios: 
+    >   - When saving recurring meeting series to Dynamics 365.
+    >   - When tracking draft emails.
 
 1. Select **Save**.
 

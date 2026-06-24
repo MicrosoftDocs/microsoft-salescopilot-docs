@@ -28,7 +28,7 @@
       items:
         - name: Install Sales agent
           href: install-sales-app.md
-        - name: Install Sales agent in Outlook
+        - name: Install Sales agent in Outlook and Microsoft 365 Copilot
           href: install-sales-as-an-integrated-app.md
         - name: Install and pin Sales agent in Teams
           href: install-pin-sales-teams.md

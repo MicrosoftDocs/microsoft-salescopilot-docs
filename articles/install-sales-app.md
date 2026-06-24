@@ -22,7 +22,7 @@ Additionally, to install the app within Teams, you need to go to the Microsoft T
 
 You need to be a Microsoft 365 administrator to deploy and install the Sales agent for Outlook and Microsoft 365 apps. You need to be a Teams administrator to deploy and install the Sales agent for Teams.
 
-For steps to install the Sales agent in Outlook and Teams, see [Install the Sales agent in Outlook](install-sales-as-an-integrated-app.md) and [Install and pin the Sales agent in Teams](install-pin-sales-teams.md).
+For steps to install the Sales agent in Outlook, Teams, and Microsoft 365 Copilot, see [Install the Sales agent in Outlook and Microsoft 365 Copilot](install-sales-as-an-integrated-app.md) and [Install and pin the Sales agent in Teams](install-pin-sales-teams.md).
 
 > [!IMPORTANT]
 > After you install the Sales agent in both Outlook and Teams, you must also [set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md) to use the chat capabilities of Sales agent in Outlook and Microsoft 365 Copilot.
@@ -98,7 +98,7 @@ After the Sales agent is installed, you can start using it in Outlook and Teams.
 
 ### Related information
 
-[Install Sales agent in Outlook](install-sales-as-an-integrated-app.md)<br>
+[Install Sales agent in Outlook and Microsoft 365 Copilot](install-sales-as-an-integrated-app.md)<br>
 [Install and pin Sales agent in Teams](install-pin-sales-teams.md)<br>
 [Privileges required to use Sales agent](privileges.md)<br>
 [Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)

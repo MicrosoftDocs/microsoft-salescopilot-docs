@@ -1,7 +1,7 @@
 ---
 title: Sales agent deployment guide for Salesforce CRM customers
 description: Learn how to deploy the Sales agent for Salesforce CRM customers.
-ms.date: 06/03/2026
+ms.date: 06/23/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -20,11 +20,11 @@ Follow the instructions in this guide to deploy the Sales agent for your Salesfo
 - You must be a Teams administrator to create a setup policy in the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 - You must assign the Microsoft 365 Copilot license to each user that will be using the product. [Learn more about assigning licenses from the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true)
 
-## Step 1: Install the Sales agent in Outlook
+## Step 1: Install the Sales agent in Outlook and Microsoft 365 Copilot
 
-[Install the Sales agent in Outlook](install-sales-as-an-integrated-app.md)
+[Install the Sales agent in Outlook and Microsoft 365 Copilot](install-sales-as-an-integrated-app.md)
 
-![Screenshot showing the Sales agent installed as an add-in for Outlook.](media/integrated-app-admin-center.png "Screenshot showing the Sales agent installed as an integrated app.")
+:::image type="content" source="media/sales-agent-deploy.png" alt-text="Screenshot of the Sales pane in the Microsoft 365 admin center, with the Deploy button highlighted.":::
 
 > [!NOTE]
 > It can take up to 24 hours for the add-in to show up for your users.
@@ -33,7 +33,7 @@ Follow the instructions in this guide to deploy the Sales agent for your Salesfo
 
 [Install and pin the Sales agent in your sellers' personal Teams environment and meetings they create](install-pin-sales-teams.md)
 
-![Screenshot showing Teams policy.](media/teams-policy-viva-sales.png "Screenshot showing Teams policy.")
+:::image type="content" source="media/teams-policy-viva-sales.png" alt-text="Screenshot of the Teams policy in the Microsoft Teams admin center.":::
 
 ## Step 3: Enable Teams meeting transcripts
 
@@ -49,7 +49,7 @@ Enable transcripts for Teams calls so that when the Sales agent is added to a re
 
 6.  Select **Save**.
 
-    ![Screenshot showing how to enable transcription in Teams admin center ](media/enable-transcription-teams.png "Screenshot showing how to enable transcription in Teams admin center.")
+    :::image type="content" source="media/enable-transcription-teams.png" alt-text="Screenshot showing how to enable transcription in Teams admin center":::
 
 ## Step 4: Confirm users have the right security roles
 

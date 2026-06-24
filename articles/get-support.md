@@ -1,7 +1,7 @@
 ---
 title: Get support for Sales agent
 description: Learn how to get support for Sales agent, including technical support and community support.
-ms.date: 03/09/2026
+ms.date: 06/23/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -15,7 +15,7 @@ If you need help with Sales agent, you can contact our support team for assistan
 
 ## Technical and community support
 
-For technical support if you encounter any issues while you use the Sales agent in Outlook or teams, you can submit a support request through the Power Platform admin center. Our support team will review your request and provide assistance to help resolve your issues. For step-by-step instructions that show how to submit a support request, go to [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
+For technical support if you encounter any issues while you use the Sales agent in Outlook or Teams, you can submit a support request through the Power Platform admin center. Our support team will review your request and provide assistance to help resolve your issues. For step-by-step instructions that show how to submit a support request, go to [View solutions or create a support request](/power-platform/admin/get-help-support#view-solutions-or-create-a-support-request).
 
 For community support, you can visit the [Sales agent - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-copilot-for-sales/bd-p/VivaSales) to connect with other users, ask questions, and share your experiences with the Sales agent. The community forums are a great place to find answers to common questions, learn best practices, and engage with other users who are using the Sales agent.
 
