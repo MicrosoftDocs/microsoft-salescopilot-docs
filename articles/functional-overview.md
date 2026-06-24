@@ -60,7 +60,7 @@ Get AI-generated insights that help you identify and act on sales trends and opp
 
 ### Improve team collaboration
 
-- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales agent in Outlook or directly from Dynamics 365 Sales.
+- Create team deal rooms ([collaboration spaces](collaboration-space.md)) in Microsoft Teams with data and files from your CRM. Conveniently access them from the Sales agent in Outlook.
 
     :::image type="content" source="media/collab-space-overview.png" alt-text="Screenshot of the Collaborate in Teams card in the Sales agent in Outlook.":::
 

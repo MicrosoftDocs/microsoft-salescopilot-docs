@@ -39,7 +39,7 @@ additionalContent:
     - title: Install
       links: 
       - url:  install-sales-as-an-integrated-app.md
-        text: Install Sales agent in Outlook
+        text: Install Sales agent in Outlook and Microsoft 365 Copilot
       - url:  install-pin-sales-teams.md
         text: Install Sales agent in Teams
     - title: Deployment scenarios
