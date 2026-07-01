@@ -1,7 +1,7 @@
 ---
 title: Sales agent chat on mobile
 description: Learn about using Sales agent chat on mobile. Launch the app, capture voice notes, update opportunities with voice commands, save to CRM records, and prepare for meetings on your mobile device.
-ms.date: 06/15/2026
+ms.date: 07/01/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -44,11 +44,25 @@ You can capture voice notes using your device's keyboard dictation in Outlook mo
 1. Send the message to the Sales agent.
 1. When prompted, select the CRM record where you want to save the note, and then confirm.
 
+## Summarize emails with CRM insights
+
+Use Sales agent chat to summarize emails and view related CRM insights in one place. This helps you quickly understand conversation context, account activity, and next best actions without switching apps. You can also ask follow-up questions in chat to get more details from Sales agent and your CRM data.
+
+1. In Outlook mobile, open an email, and then [open Sales agent](#from-outlook-mobile).
+1. Enter a prompt in the Sales agent chat to summarize the email. For example, "Summarize this email and show me related CRM insights."
+
+    The Sales agent generates a summary of the email and related sales insights.
+
+1. Ask follow-up questions in chat to get more detail from Sales agent and your CRM data.
+
 ## Prepare for your meetings on the go
 
-You can see upcoming meetings and their details directly from the Sales agent on your mobile app, so you're always ready before you join.
+You can prepare for upcoming meetings and review recaps from past meetings directly in Sales agent on mobile.
 
-On the Sales agent home screen, swipe left to see a list of your upcoming meetings. Tap any meeting to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) with details such as highlights, CRM record summary, and AI-generated insights.
+On the Sales agent home screen, swipe left to open your meetings list.
+
+- Under **Prepare for upcoming meetings**, tap any meeting to open the [detailed meeting preparation view](meeting-prep.md#detailed-meeting-preparation-view) with details such as highlights, CRM record summary, and AI-generated insights.
+- Under **Recap past meetings**, tap any meeting to open its recap. The recap includes meeting information such as the meeting title, time, and a direct link to open the recap in Teams. It also displays **Key takeaways** that summarize the most important meeting outcomes.
 
 ## Update opportunities with voice
 
