@@ -1,7 +1,7 @@
 ---
 title: View sales insights in Microsoft Teams meeting recap
 description: Discover how to use the Sales agent in Teams to get sales insights in Teams meeting recaps. 
-ms.date: 04/29/2026
+ms.date: 07/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -126,12 +126,12 @@ To create a post-meeting summary email:
 
 With intelligent recap, you can focus on the meeting discussion and not on capturing notes. AI-generated notes allow you to see key points and takeaways after the meeting.
 
-AI-generated meeting notes can be saved to your CRM directly from the Teams meeting recap summary page. Depending on admin configuration, you can save the meeting notes either to a specific record in your CRM, such as an opportunity or account, or to the default appointment description field. This feature helps you maintain a record of meeting notes in your CRM for future reference or for sharing with your team.
+AI-generated meeting notes can be saved to your CRM directly from the Teams meeting recap summary page. Depending on admin configuration, you can save the meeting notes either to a specific record in your CRM, such as an opportunity or account, or to the default appointment or event field configured by your administrator. This feature helps you maintain a record of meeting notes in your CRM for future reference or for sharing with your team.
 
 By default, this feature is enabled.
 
 > [!NOTE]
-> Administrators can configure meeting notes to be saved either to the default appointment or event description field, or directly to a specific CRM record or object. If the default option is selected, saving AI-generated notes will create a new appointment or event and link it to the selected CRM record. If categorization fields have been set up by the admin, these options will appear when saving to a new appointment or event. However, categorization fields will not be shown if the appointment or event has already been created and saved to the CRM.
+> Administrators can configure meeting notes to be saved to a selected field (Description by default) of appointment (Dynamics 365) or event (Salesforce) record , or to a selected record or object field when **Save to specified record** is selected in administrator settings. In Dynamics 365, activity entities (for example, appointment, phone call, and task) aren't supported in the specific record flow. If the default option is selected, saving AI-generated notes will create a new appointment or event and link it to the selected CRM record. If categorization fields have been set up by the admin, these options will appear when saving to a new appointment or event. However, categorization fields will not be shown if the appointment or event has already been created and saved to the CRM.
 
 To save AI-generated meeting notes to CRM:
 
