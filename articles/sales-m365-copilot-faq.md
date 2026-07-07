@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 03/30/2026
+ms.date: 07/06/2026
 ms.topic: faq
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -236,10 +236,6 @@ Administrator settings can't be opened on phones, small tablets, or windows that
 ### Why can't I view the administrator settings in the Teams dark or high contrast theme?
 
 The Teams dark and high contrast themes aren't supported.
-
-### Why do I see the message "Sign in to Sales in Outlook first"?
-
-You must be connected to a CRM environment in the Sales agent in either [Outlook](sign-in-crm-outlook.md#manually-sign-in) or [Teams](sign-in-crm-teams.md#manually-connect-to-crm) before you open the **Settings** tab in admin settings. After you sign in, select **Refresh** on the **Settings** tab.
 
 ### What is enhanced Teams app?
 

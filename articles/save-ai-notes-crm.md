@@ -1,7 +1,7 @@
 ---
 title: Configure how AI meeting notes are saved from Teams recap to CRM
 description: Learn how to configure how AI meeting notes are saved from Teams recap to CRM using the Sales agent in Teams.
-ms.date: 05/13/2026
+ms.date: 07/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -20,12 +20,12 @@ To configure how AI meeting notes are saved from Teams recap to CRM:
 1. In the Sales agent admin settings, select **Save to (CRM)**. 
 1. Under the **Save AI meeting notes from Teams to (CRM)** section, turn on or off the **Save AI meeting notes from Teams recap** toggle.
 1. Select one of the following options:
-   - **Save to appointment description field by default**: This option saves the AI-generated meeting notes to the appointment description field in CRM by default.
+   - **Save to appointment field**: This option saves the AI-generated meeting notes to an appointment in CRM. By default, notes are saved to the **Description** field of the appointment. If you want to save the notes to a different field, you can select a text field from the **Field** list.
        > [!NOTE]
        > If you're using Salesforce as your CRM, the **Description** field of the **Event** object does not support HTML formatting. Therefore, the AI-generated meeting notes are saved as plain text in the **Description** field.
    - **Save to specified record**: This option allows you to select a specific record and its field in CRM where the AI-generated meeting notes will be saved. You can choose from a list of available records in your CRM system. After you select this option, perform the following steps:
         > [!NOTE]
-        > Saving AI-generated meeting notes to any field other than the appointment description field is not supported. To save meeting notes to an appointment, use the **Save to appointment description field by default** option instead.
+        > Dynamics 365 activity entities (for example, appointment, phone call, task, and other activity entities) aren't supported in the **Save to specified record** flow and aren't available for selection.
      1. Select **Add record**.
      1. In the **Add a record type** window, select the record type from the list of available records or search for a specific record type using the search bar.
      1. Select **Next**.

@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales agent
 description: Learn how to use administrator settings to customize the Sales agent experience in Outlook and Teams.
-ms.date: 03/09/2026
+ms.date: 07/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -41,7 +41,11 @@ You can access the administrator settings in the Sales agent in Outlook and Team
 1. Open the Sales personal app in [Outlook](personal-app.md#open-the-personal-app-in-outlook) or [Teams](personal-app.md#open-the-personal-app-in-teams).
 1. Sign in to [Outlook](sign-in-crm-outlook.md) or [Teams](sign-in-crm-teams.md) with your administrator credentials.  
 1. On the left navigation pane, select **Sales**. If **Sales** isn't visible, select **View more apps** (**&hellip;**), and then select **Sales**. If you see the **Sales** window asking you to either add or open the app, select **Add** or **Open** to get the latest features.  
-1. Select the **Settings** tab.  
+1. Select the **Settings** tab.
+
+    > [!NOTE]
+    > If you see a message asking you to connect to your CRM to view settings, select **Connect to CRM** to connect the Sales agent to your CRM environment. Follow the steps to complete the connection.
+
 1. Change the settings you need to.  
     **Tenant-level settings**:  
       - **Copilot AI**: [Control who can use the Sales agent AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
