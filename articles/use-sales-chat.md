@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 05/08/2026
+ms.date: 07/10/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -78,6 +78,9 @@ You can use the Sales agent to look up information about your customer accounts,
 - Get the estimated revenue across opportunities by forecast category.
 
 :::image type="content" source="media/sales-chat-crm-info.png" alt-text="Screenshot of the CRM information.":::
+
+> [!NOTE]
+> Sales agent returns a maximum of 30 CRM records per response. For example, if you ask for a list of accounts and your CRM contains hundreds of accounts, you see only 30 results. To narrow results, refine your query with more specific criteria such as a date range, owner, or status.
 
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
