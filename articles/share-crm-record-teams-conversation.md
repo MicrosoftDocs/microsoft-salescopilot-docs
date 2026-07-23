@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using the Sales agent.
-ms.date: 05/08/2026
+ms.date: 07/23/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -14,7 +14,7 @@ The Sales agent enables you to share a CRM record with your team members in a Te
 
 In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. The AI-generated summary is displayed only if the Copilot features are enabled for your organization.  
 
-You can share a CRM record using the Sales agent search message extension, the /mention feature if your administrator has turned it on, or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
+You can share a CRM record using the Sales agent search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
 
 > [!NOTE]
 >
