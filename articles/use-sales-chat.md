@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 07/10/2026
+ms.date: 07/28/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -108,6 +108,14 @@ The post-meeting experience includes:
 
 Select **Prepare with insights** to open the [detailed view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access more context without leaving your workflow.
 
+## Use Sales agent on mobile
+
+You can also access Sales agent in Microsoft 365 Copilot on your mobile device. Learn more about the [Sales agent mobile experience](sales-agent-chat-mobile.md).
+
+## Use starter prompts
+
+If you're not sure what to ask, use the starter prompts provided in the Sales agent chat interface. Starter prompts help you get started with common, high-value scenarios. You can select a starter prompt as-is or customize it by editing the text before sending.
+
 ## Submit feedback
 
 If you have feedback or encounter issues while using Sales agent, you can get debug information from Microsoft 365 Copilot to share with your Microsoft representative.
@@ -120,3 +128,4 @@ To submit feedback:
 ## Related information
 
 - [Sales agent overview](sales-chat-overview.md)
+- [Sales agent chat on mobile](sales-agent-chat-mobile.md)
