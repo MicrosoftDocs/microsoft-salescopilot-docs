@@ -64,6 +64,8 @@
           href: email-insights-settings.md
         - name: Connect your agents to a data source
           href: connect-agent-datasource.md
+        - name: Configure starter prompts for Sales agent
+          href: starter-prompts.md
         - name: Lead Research and Outreach (preview)
           items:
             - name: Overview
