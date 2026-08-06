@@ -1,7 +1,7 @@
 ---
 title: Configure how Outlook emails and events are saved to CRM
 description: Learn how to configure fields that sellers can use to categorize emails and meetings in the CRM using the Sales agent in Outlook.
-ms.date: 06/24/2026
+ms.date: 08/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -43,16 +43,40 @@ You can select the fields that are saved to the CRM together with emails or meet
 
 1. In the Sales agent admin settings, select **Save to (CRM)**.  
 1. Select **Save emails to (CRM)** or **Save meetings to (CRM)**, depending on the type of activity that you want to configure.
-
-    :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot showing the Save emails to Salesforce settings in the Sales agent admin settings in Teams.":::
-
 1. (Optional) Select **Refresh data** to get the latest updates to the fields from the CRM. For example, if the CRM administrator updated a field label in the CRM, you can refresh the data to view the updated label in the Sales agent.  
 1. In the **Categorize with fields** section, select **Add fields**.  
+
+    :::image type="content" source="media/add-category-outlook.png" alt-text="Screenshot showing the Save emails to CRM settings in the Sales agent admin settings in Teams.":::
+
 1. In the **Add category** dialog box, select the fields that should be shown to sellers.  
     The **Add category** dialog box shows all out-of-box and custom fields of the email and appointment entities in the CRM, except system fields. The dialog box shows only fields of the following types: option sets, look up and text, multiple lines of text (plaintext/Memo), Boolean, and integer.  
 1. Save your changes.  
 
 The fields you configured are now available to sellers when they save emails or meetings to the CRM. For more information, go to [Save Outlook activities to your CRM](save-outlook-activities-crm.md).
+
+## Configure how emails and meetings are connected to CRM records
+
+> [!NOTE]
+> This feature supports only Dynamics 365.
+
+By default, sellers can connect a saved email or meeting to a single record in Dynamics 365. That record is stored in the **Regarding** field in the email or meeting activity in Dynamics 365. You can change this behavior to give sellers more flexibility in how they associate activities with CRM records. You can configure whether sellers can connect a saved email or meeting to one record, multiple records, or a primary record and related records. The connection options you configure apply to both emails and meetings.
+
+1. Depending on the type of activity that you want to configure, [enable saving emails or meetings to CRM](#enable-or-disable-saving-emails-and-meetings-to-crm).
+1. In the Sales agent admin settings, select **Save to Dynamics 365**.
+1. Select **Save emails to (CRM)** or **Save meetings to (CRM)**, depending on the type of activity that you want to configure.
+1. Under **Choose how (emails or meetings) are connected to Dynamics 365 records**, select one of the following options:
+    - **Connect to one record**: Sellers can connect the activity to a single CRM record by using the **Regarding** field. This option is the default behavior.
+    - **Connect to multiple records**: Sellers can connect the activity to one or more CRM records by using the **Related to** field.
+    - **Connect to a primary record and related records**: Sellers can connect the activity to a primary record by using the **Regarding** field, and to additional records by using the **Related to** field.
+
+    :::image type="content" source="media/multi-regarding.png" alt-text="Screenshot showing the options to connect emails and meetings to multiple CRM records in the Sales agent admin settings.":::
+
+1. Save your changes.
+
+When sellers save an email or meeting to CRM, the fields they see reflect the option you configured.
+
+> [!IMPORTANT]
+> Post-meeting experiences such as saving meeting notes and associating insights derived from those notes are based only on the CRM record connected through the **Regarding** field. Records connected through the **Related to** field aren't used for these experiences.
 
 ## Configure attachment saving settings
 
