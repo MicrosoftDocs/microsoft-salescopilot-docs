@@ -16,6 +16,8 @@
       href: privileges.md
     - name: Data handling in Sales agent
       href: data-handling.md
+    - name: Audit Sales agent activity with Microsoft Purview
+      href: audit-sales-agent-purview.md
     - name: Feature matrix
       href: feature-matrix.md
     - name: Sales agent FAQ
