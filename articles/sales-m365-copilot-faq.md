@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 07/06/2026
+ms.date: 08/07/2026
 ms.topic: faq
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -212,6 +212,10 @@ If your organization has disabled the [optional connected experiences](/microsof
 ### How can I provide feedback about Sales agent?
 
 You can go to the [feedback portal](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) to suggest a feature. You can also join the [Tech Community](https://techcommunity.microsoft.com/t5/viva-sales/bd-p/VivaSales) forum to interact with the product team and other users of Sales agent.
+
+### Does Sales agent support shared mailboxes?
+
+No, Sales agent doesn't support shared mailboxes.
 
 ## Admin settings
 
