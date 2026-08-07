@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 07/28/2026
+ms.date: 08/06/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -10,7 +10,11 @@ ms.author: shjais
 
 # Use Sales agent in Microsoft 365 Copilot
 
-The Sales agent is an AI-powered chat interface that allows you to interact with your sales data using natural language. You can ask questions and gain insights from your CRM data and past customer conversations—all through natural language.
+The Sales agent is an AI-powered chat interface that you can use to interact with your sales data by using natural language. You can ask questions and gain insights from your CRM data, past customer conversations, emails, Teams meetings, and Teams messages—all through natural language.
+
+> [!NOTE]
+> - To access Graph-grounded data (Outlook emails, Teams meetings, Teams messages, and People data stored in Microsoft Graph), you must have access to Microsoft 365 Copilot.
+> - If you have a Dynamics 365 Sales Enterprise or Premium license but don't have access to Microsoft 365 Copilot, you can still use the Sales agent with CRM data only.
 
 Learn more about the [differences between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales](/dynamics365/sales/sales-copilot-faq#how-does-the-sales-agent-in-microsoft-365-copilot-differ-from-copilot-in-dynamics-365-sales) and [how to migrate to the Sales agent](/dynamics365/sales/sales-copilot-faq#how-do-i-migrate-from-copilot-in-dynamics-365-sales-to-the-sales-agent-in-microsoft-365-copilot).
 
@@ -108,6 +112,20 @@ The post-meeting experience includes:
 
 Select **Prepare with insights** to open the [detailed view](meeting-prep.md#detailed-meeting-preparation-view) alongside Sales agent chat interface. This allows you to explore deeper insights, ask follow-up questions, and access more context without leaving your workflow.
 
+## Stay on top of your inbox and calendar
+
+Use Sales agent to catch up on recent customer interactions across your emails, meetings, and Teams messages. Quickly understand what happened, what needs follow-up, and who was involved - before responding to a customer or preparing for your next interaction.
+
+For example, you can ask:
+
+- Summarize my recent interactions with `<contact name>`.
+- What are the key takeaways from my recent Teams meetings?
+- What open questions or follow-up items came up in my recent emails and meetings?
+- Summarize the last email thread with `<contact name>`.
+- Summarize recent chat messages with `<contact name>`.
+
+> [!NOTE]
+> Sales agent only surfaces information you have permission to access. Results depend on the data available in your Microsoft 365 environment.
 ## Use Sales agent on mobile
 
 You can also access Sales agent in Microsoft 365 Copilot on your mobile device. Learn more about the [Sales agent mobile experience](sales-agent-chat-mobile.md).

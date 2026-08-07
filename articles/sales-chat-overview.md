@@ -1,7 +1,7 @@
 ---
 title: Overview of Sales agent in Microsoft 365 Copilot
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 05/08/2026
+ms.date: 08/06/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -23,7 +23,7 @@ Here's a quick video overview of Sales agent:
 
 ## What can Sales agent help you with?
 
-You can use natural language with the Sales agent to query and get insights from data in your connected CRM and past customer conversations. All CRM queries adhere to your security access level—if you don't have permission to view certain data in the CRM, that information isn't available in Sales agent.
+Use natural language with the Sales agent to query and get insights from data in your connected CRM, past customer conversations over email, Teams meetings, or Teams messages. All CRM queries adhere to your security access level - if you don't have permission to view certain data in the CRM, that information isn't available in Sales agent.
 
 > [!NOTE]
 > - If a user has access to a connected record in the CRM, they have access to the meeting insights for that record even if they weren't part of the meeting.
@@ -72,11 +72,17 @@ This scenario is ideal for users who:
 - What was discussed in the previous meeting with `<account name>`?
 - What's `<account name>`'s sentiment based on recent meetings? Summarize the top 3 positive and negative feedback from contacts.
 - Summarize the discussions with `<account name>` in the last month. List the top 5 topics of interest to them.
+- What topics come up most often in my recent customer interactions with `<contact name>`?
+- What should I know before replying to `<contact name>`?
+
 
 #### Be prepared to address open items
 
 - What are the follow-ups tasks from recent meetings with `<account name>`? Categorize by Owner. Sort the tasks by due date.
 - Are there any open incidents for `<account name>`? Show the cases a table with one row for each case. For each case, show details about the case title, owner, status, creation date, and number of days since case was created as columns.
+- Show me unanswered questions from recent customer communications over email, chats, or meetings.
+- Help me draft key points for a reply based on the latest email thread with `<contact name>`.
+
 
 ### Scenario 3: Pipeline review and deal coaching
 
