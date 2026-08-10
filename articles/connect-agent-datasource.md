@@ -1,7 +1,7 @@
 ---
 title: Connect your agents to a data source
 description: Learn how to connect agents to a data source for seamless data retrieval using server-to-server connections.
-ms.date: 05/06/2026
+ms.date: 08/10/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -19,7 +19,10 @@ If you're using other CRM systems, such as Salesforce, the agent needs to connec
 
 ## Set up server-to-server connection to Salesforce
 
-When you set up a server-to-server connection to Salesforce, a connected app and an integration user are created in Salesforce. The connected app is used to authenticate the agent with Salesforce, while the integration user is used to access data in Salesforce. The integration user is created with a specific set of permissions that allow it to access the data needed by the agent.
+When you set up a server-to-server connection to Salesforce, an external client app and an integration user are created in Salesforce. The external client app is used to authenticate the agent with Salesforce, while the integration user is used to access data in Salesforce. The integration user is created with a specific set of permissions that allow it to access the data needed by the agent.
+
+> [!NOTE]
+> Earlier, connected app was used to establish the connection to Salesforce. Now, external client app is used instead of connected app. If you have already set up a server-to-server connection to Salesforce using connected app, you can continue to use it. However, if you want to set up a new connection, an external client app is created for you.
 
 ### Enable server-to-server connection to Salesforce
 
@@ -28,9 +31,9 @@ When you set up a server-to-server connection to Salesforce, a connected app and
 1. Turn on the **Turn on access** toggle.
 1. Select **Save**.
 
-The connection might take a few minutes to get established. Once the connection is established, connected app and integration user details are displayed under **Connection details**.
+The connection might take a few minutes to get established. Once the connection is established, external client app and integration user details are displayed under **Connection details**.
 
-If in the future you want to disable the server-to-server connection to Salesforce, you can do so by turning off the **Turn on access** toggle. This deletes the connected app and integration user from Salesforce. The agent will no longer be able to access data in Salesforce, and you need to set up the connection again if you want to use the agent with Salesforce.
+If in the future you want to disable the server-to-server connection to Salesforce, turn off the **Turn on access** toggle. This action deletes the external client app and integration user from Salesforce. The agent can no longer access data in Salesforce, and you need to set up the connection again if you want to use the agent with Salesforce.
 
 > [!NOTE]
 > You can connect a Salesforce environment to only one Microsoft Entra tenant using the server-to-server connection. Connecting the same Salesforce environment to multiple Microsoft Entra tenants is not supported and may lead to unexpected errors.
@@ -39,7 +42,7 @@ If in the future you want to disable the server-to-server connection to Salesfor
 
 When a connection is established, following components are created in Salesforce using the Salesforce APIs. The components can be viewed in Salesforce CRM on the **Setup** page.
 
-- **Connected app**: Used to authenticate the agent with Salesforce. The name of the connected app is `M365 Copilot Sales connected app`. 
+- **External client app** or **Connected app**: Used to authenticate the agent with Salesforce. The name of the external client app is `M365 Copilot Sales external client app` or `M365 Copilot Sales connected app`, depending on when you created the connection. 
 - **Integration user**: Used to access data in Salesforce. The name of the integration user is `M365 Copilot Sales integration user`.
 - **Permission set**: Used to grant the integration user access to the data needed by the agent. The name of the permission set is `M365 Copilot Sales permission set`.
 
