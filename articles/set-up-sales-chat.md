@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 06/15/2026
+ms.date: 08/11/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -78,6 +78,16 @@ Sales agent accesses the objects configured in [Forms settings](customize-forms-
 > [!NOTE]
 > - You can add multiple entities at once.
 > - Sales agent will have access to all columns in the added entities (tables in Dynamics 365 or objects in Salesforce).
+
+#### Dataverse search considerations for Dynamics 365
+
+For Dynamics 365, Sales agent uses [Dataverse search](/power-apps/user/relevance-search-benefits) to query CRM data. Dataverse search uses indexed Dataverse data to return results more efficiently.
+
+Points to note:
+
+- Enabling Dataverse search can increase storage usage because indexes are created for searchable tables.
+- The storage impact depends on the amount of data in the tables you include for Sales agent (and Dataverse search overall).
+- To reduce index-related storage costs, remove tables that you don't want to be indexed. However, if you remove tables from Dataverse search, you can't query them in Sales agent.
 
 ### Remove CRM entities from Sales agent
 
