@@ -1,7 +1,7 @@
 ---
 title: Configure starter prompts for Sales agent chat
 description: Learn how to configure starter prompts for Sales agent chat to enhance your seller's interactions with sales data and CRM records. This article covers creating, managing, and optimizing prompts to drive better sales outcomes.
-ms.date: 07/28/2026
+ms.date: 08/20/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -16,8 +16,10 @@ You can configure separate sets of starter prompts for each context where seller
 
 - **Dynamics 365**: Prompts shown in the Sales agent chat within Dynamics 365.
 - **Microsoft 365 Copilot**: Prompts shown in Sales agent when sellers use Microsoft 365 Copilot.
+- **Calendar**: Prompts shown in Sales agent when sellers open a meeting invitation in the Outlook or Teams desktop or web app.
+- **Email**: Prompts shown in Sales agent when sellers open an email message or their inbox in the Outlook desktop or web app.
 
-In addition to any prompts you create, Microsoft provides a set of out-of-the-box starter prompts for each context. These Microsoft-provided prompts are read-only and can't be edited or deleted, but you can disable them if they're not relevant for your organization. The out-of-the-box prompts are marked with the **Default** tag.
+In addition to any prompts you create, Microsoft provides a set of out-of-the-box starter prompts for each context. These Microsoft-provided prompts are read-only and can't be edited or deleted, but you can disable them if they're not relevant for your organization. The out-of-the-box prompts are marked with the **Default** tag and the custom prompts you create are marked with the **Custom** tag.
 
 ## Prerequisites
 
@@ -29,13 +31,16 @@ In addition to any prompts you create, Microsoft provides a set of out-of-the-bo
 1. [Open the Sales agent administrator settings](./administrator-settings-sales-app.md#access-administrator-settings).
 1. Under **Features**, select **Starter Prompts**.
 
-The **Starter Prompts** page displays the out-of-the-box prompts and any custom prompts you create. You can also filter prompts by apps, type, or status to find specific prompts or view subsets of prompts.
-
-:::image type="content" source="media/starter-prompts.png" alt-text="Screenshot of the Starter Prompts page":::
+    The **Starter Prompts** page displays the out-of-the-box prompts and any custom prompts you create. You can also filter prompts by apps, type, or status to find specific prompts or view subsets of prompts.
+    
+    :::image type="content" source="media/starter-prompts.png" alt-text="Screenshot of the Starter Prompts page":::
 
 ## Create a prompt
 
-Create custom starter prompts that reflect your organization's workflows and guide sellers toward priority use cases. 
+Create custom starter prompts that reflect your organization's workflows and guide sellers toward priority use cases.
+
+> [!NOTE]
+> You can create a total of 50 custom prompts across all contexts.
 
 1. [Access the starter prompts settings](#access-starter-prompts-settings).
 1. Select **Add prompt**.
