@@ -1,7 +1,7 @@
 ---
 title: Manage connected agents in the Microsoft 365 admin center  
 description: Learn how to manage connected agents for Sales in the Microsoft 365 admin center. Enhance responses by linking agents and leveraging shared insights.
-ms.date: 05/08/2026
+ms.date: 08/25/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -29,6 +29,12 @@ Connected agents are other Copilot-enabled agents in your organization that can 
 > [!NOTE]
 > Only [declarative agents](/microsoft-365-copilot/extensibility/overview-declarative-agent) can be connected to Sales.
 
+## Citation behavior with connected agents
+
+Citations aren't preserved when a connected agent returns a response to the parent agent. Tools used by the connected agent might generate citation metadata, but the response is returned to the parent agent as text. As a result, clickable citations aren't displayed.
+
+To preserve citations, add the connected agent's tools and knowledge directly to the parent agent by using **Copy custom tools & knowledge** instead of accessing them through the connected agent. Learn more about [adding custom tools and knowledge to the Sales agent](extend-sales-chat-custom-tools.md).
+
 ## Connect agents to Sales
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All agents**.
@@ -52,3 +58,4 @@ Connected agents are other Copilot-enabled agents in your organization that can 
 
 - [Extend Sales agent with custom tools and knowledge in the Microsoft 365 admin center](extend-sales-chat-custom-tools.md)
 - [Set up record creation in Dynamics 365 with Sales agent](set-up-record-creation-dynamics-365.md)
+- [Connect to other agents from a declarative agent](/microsoft-365/copilot/extensibility/declarative-agent-connected-agent)

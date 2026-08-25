@@ -86,6 +86,8 @@
               href: sf-glossary-support.md
             - name: Extend Sales agent with custom tools and knowledge
               href: extend-sales-chat-custom-tools.md
+            - name: Update Sales agent custom tools and knowledge
+              href: update-sales-chat-custom-tools.md
             - name: Set up record creation in Dynamics 365 with Sales agent
               href: set-up-record-creation-dynamics-365.md
             - name: Manage connected agents
