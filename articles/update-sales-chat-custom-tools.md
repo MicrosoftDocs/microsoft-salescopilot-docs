@@ -1,7 +1,7 @@
 ---
 title: Update Sales agent custom tools and knowledge in the Microsoft 365 admin center
 description: Learn how to update the custom tools and knowledge in Sales agent to the latest source-agent version while preserving the existing audience.
-ms.date: 08/25/2026
+ms.date: 08/27/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -18,19 +18,27 @@ When a newer version is available, use **Update from store** in the Microsoft 36
 
 The **Update from store** action appears in the source-agent row when Sales agent has an active custom-tools extension and a newer source-agent version is available.
 
-The update message depends on whether the extension records the version that was originally copied:
+The update message varies depending on whether the extension tracks the version from which it was originally copied:
 
-- For an older extension without a recorded source version, the message doesn't identify the currently copied version. For example, **Update from the agent version in store**. The update replaces the existing copy with the version currently published in the store.
-- For an extension with a recorded source version, the message identifies both the version currently copied to Sales agent and the newer version available from the source agent. For example, **Upgrade from V 10.3 to V 10.4.9**.
+- If no source version is recorded, the update message doesn't display the current version. Instead, it displays **Update from the agent version in store**. The update replaces the existing extension with the latest version available in the store.
+
+    :::image type="content" source="media/update-agent-no-version.png" alt-text="Screenshot of update message when no source version is recorded":::
+
+- If a source version is recorded, the update message displays both the current version and the version available in the store. For example, **Upgrade from V 10.3 to V 10.4.9**. This information helps administrators understand which version is installed and which version will be applied.
+
+    :::image type="content" source="media/update-agent-version.png" alt-text="Screenshot of update message when a source version is recorded":::
 
 ## Update custom tools and knowledge
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. Go to **Agents** > **All agents**.
 1. Select **Sales**, and then open the **Custom tools & knowledge** tab.
-1. In the source-agent row, select **More actions**.
-1. Select **Update from store**.
-    
+1. In the source-agent row, select **More actions** (**⋮**).
+
+    :::image type="content" source="media/update-agent-button.png" alt-text="Screenshot of the More actions button.":::
+
+1. Select **Update from store**. 
+
     Wait for the update to finish. The source-agent row shows the update progress.
 
     Confirm that the success message appears and that the source agent has the expected availability.
@@ -59,10 +67,9 @@ The **Update from store** action doesn't appear in any of the following conditio
 - The version in the store is older than the copied version.
 - The latest source-agent version can't be determined.
 - Sales agent doesn't have an active custom tools & knowledge extension.
-- The extension has no assigned users or security groups.
 - The extension or source-agent information is still loading.
 
-For an older extension without a recorded source version, the action appears after the current source-agent version is available from the store.
+The **Update from store** action is displayed for all older extensions that don't have a recorded source version.
 
 ## If the update fails
 
