@@ -1,7 +1,7 @@
 ---
 title: Access Sales agent
 description: Learn how to access the Sales agent in Outlook and Teams.
-ms.date: 03/09/2026
+ms.date: 09/17/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -35,7 +35,7 @@ Use the option that matches your scenario:
 
     - In Classic ribbon, do one of the following actions:  
         - Select **Sales** on the ribbon.  
-        - Select **All Apps** > **Sales**. In the pop-up, select **Sales**. To add a CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity. 
+        - Select **All Apps** > **Sales**. In the pop-up, select **Sales**. 
 
         :::image type="content" source="media/outlook-classic-access-app-draft-email.png" alt-text="Screenshot showing accessing the Sales agent from Outlook desktop while drafting an email.":::
 
@@ -55,7 +55,7 @@ Use the option that matches your scenario:
 
 - While drafting an email
 
-    - On the ribbon, select **Sales**. Alternatively, you can also select **Apps** > **Sales**. In the pop-up, select **Sales**. To add a CRM entity as a rich adaptive card to the email, select **Search Sales** and then find and select the CRM entity.
+    - On the ribbon, select **Sales**. Alternatively, you can also select **Apps** > **Sales**. In the pop-up, select **Sales**.
     
         :::image type="content" source="media/access-app-web.png" alt-text="Screenshot showing accessing the app from Outlook on the web.":::
 
