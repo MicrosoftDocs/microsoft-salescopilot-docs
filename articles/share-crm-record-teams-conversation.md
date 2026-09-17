@@ -1,7 +1,7 @@
 ---
 title: Share a CRM record in Teams or Outlook
 description: Learn how to share a CRM record in a Teams conversation or email using the Sales agent.
-ms.date: 07/23/2026
+ms.date: 09/17/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -14,7 +14,7 @@ The Sales agent enables you to share a CRM record with your team members in a Te
 
 In Teams, the adaptive card also displays the AI-generated summary of the record, enabling you to quickly catch up on the details of the record within the flow of your conversation. The AI-generated summary is displayed only if the Copilot features are enabled for your organization.  
 
-You can share a CRM record using the Sales agent search message extension or by pasting a link to the record in the chat or email. When you share a record, an adaptive card is created that displays the record details, such as the record name, owner, and key fields.
+You can share a CRM record by using the Sales agent search message extension in Teams or by pasting a link to the record in a Teams chat or email. When you share a record, the Sales agent creates an adaptive card that displays the record details, such as the record name, owner, and key fields.
 
 > [!NOTE]
 >
@@ -51,42 +51,6 @@ You can share a CRM record using the Sales agent search message extension or by 
 If the recipients don't have the Sales agent installed in Teams, a message is displayed at the bottom of the card prior to sending the message. The message informs the recipients that they need to install the Sales agent to view the record details. Once the app is installed, the adaptive card is displayed with the record details if the recipients have access to the CRM record, otherwise, a link to the record is displayed in the card.
 
 If the app is blocked by the admin, the message informs the recipients that they need to contact their admin to enable the app.
-
-## Share a CRM record in Outlook using search message extensions
-
-The experience of using the Sales agent search message extension when composing an email is a bit different in classic Outlook desktop, new Outlook desktop, and Outlook on the web. 
-
-> [!NOTE]
-> If you're using Classic Outlook desktop, the capability to share a CRM record is supported only on [Current Channel](/microsoft-365-apps/updates/overview-update-channels#current-channel-overview).
-
-### Classic Outlook desktop
-
-1. On the ribbon, select **Sales** or **All Apps** > **Sales**.  
-1. In the pop-up, select **Search Sales**.  
-    Alternatively, you can select [Advanced search](#share-a-record-using-advanced-search) to search for a particular record type.
-
-    :::image type="content" source="media/search-outlook-classic.png" alt-text="Screenshot showing search option in the Sales agent in classic Outlook.":::
-
-1. In the **Sales** pane, select a record from the list of recently accessed records or search for and select the CRM record.
-
-    :::image type="content" source="media/search-pane-outlook-classic.png" alt-text="Screenshot showing search pane for the Sales agent in classic Outlook.":::
-
-    The adaptive card is added to the email.
-
-    :::image type="content" source="media/viva-sales-contact-card.png" alt-text="Screenshot showing the Sales agent contact card.":::
-
-### New Outlook desktop and Outlook on the web
-
-1. On the ribbon, select **Sales** or **Apps** > **Sales**.  
-1. In the pop-up, select **Search Sales**.
-
-    :::image type="content" source="media/search-outlook-new.png" alt-text="Screenshot showing search option in the Sales agent in new Outlook.":::
-
-1. In the **Sales** pop-up, select a record from the list of recently accessed records or search for and select the CRM record.
-
-    :::image type="content" source="media/search-pane-outlook-new.png" alt-text="Screenshot showing search pop-up for the Sales agent in new Outlook.":::
-
-    The adaptive card is added to the email.
 
 ## Share a record using advanced search
 
