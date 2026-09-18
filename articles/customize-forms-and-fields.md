@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields in Sales agent
 description: Learn how to customize the CRM information your sellers see in the Sales agent.
-ms.date: 03/09/2026
+ms.date: 09/18/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -15,10 +15,11 @@ As an administrator, you can customize the CRM information that's displayed in t
 
 CRM forms and fields customization is environment-specific—each environment has its own set of configurations. Contact, opportunity, and account record types are available by default. You can add other out-of-the-box and custom record types; and also remove them when not required.
 
-The Sales agent forms and lists are based on CRM views. A view defines the list of columns to be displayed, how the list of records is sorted by default, and what default filters are applied to restrict which records will appear in the list. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
+The Sales agent forms are based on CRM views. A view defines the fields displayed in a form and the order in which they appear. For account and opportunity record types, it is not mandatory to select a view. If you don't select a view, the default view is used. For other record types, you must select a view.
 
 > [!NOTE]
-> You cannot select a view for the Contact record type.
+> - You cannot select a view for the Contact record type.
+> - The selected view's filtering and sort-order settings don't affect which records are returned in search results.
 
 Changes made to record types are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from the Sales agent to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using the Sales agent in Teams through messaging extensions, you can search for records of the added record types.
 
@@ -76,11 +77,12 @@ You can add new custom or out-of-the-box record types to the Sales agent. For ex
 
     :::image type="content" source="media/select-relationship.png" alt-text="Select relationship for the record type.":::
 
-5. In the **Select the view for (record type)** window, select the view to define how a list of records for a specific record type is displayed, and then select **Add**.
+5. In the **Select the view for (record type)** window, select the view to define the fields and their order in the form, and then select **Add**.
 
     > [!NOTE]
     > - All public and personal views are displayed in the list.
     > - For Dynamics 365, the Sales agent includes only those fields that belong to the record type and not to any related record types.
+    > - The selected view determines the fields and their order in the form. Its filtering and sort-order settings don't affect which records are returned in search results.
 
     :::image type="content" source="media/select-view.png" alt-text="Select view for the record type.":::
 
@@ -107,7 +109,10 @@ If a record type is based on a CRM view, you should change the CRM view to chang
 
 #### Change view of a record type
 
-You can change the view that a record type is based on by choosing a different view. For example, you can select a view to show only active accounts instead of all accounts.
+You can change the view that a record type is based on by choosing a different view. The selected view determines the fields and their order in the form.
+
+> [!IMPORTANT]
+> Changing the view doesn't affect which records are returned in search results. The view's filtering and sort-order settings don't apply to search results.
 
 When changing the view, the following existing settings for the record type are cleared and set to default.
 
@@ -310,6 +315,8 @@ Key field settings affect the results when sellers search for connected records 
 
 Key fields selected for record types affect the search results displayed for these records. Key fields are displayed, if they are not empty, along with the name of the record in the search results.
 
+> [!NOTE]
+> The view you select for a record type in Sales admin settings doesn't affect which records are returned in search results. Its filtering and sort-order settings don't apply to search results.
 
 ## Refresh data from CRM
 
