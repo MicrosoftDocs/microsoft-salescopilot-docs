@@ -1,7 +1,7 @@
 ---
 title: View a meeting preparation card
 description: Learn how to view a meeting preparation card in Teams to get AI-powered pre-meeting insights.
-ms.date: 05/08/2026
+ms.date: 09/23/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -105,7 +105,7 @@ The detailed meeting preparation view includes:
 
 ## Alternate version of the meeting preparation card
 
-Based on the license you have, you might see the below version of the meeting preparation card. 
+If you don't have access to Microsoft 365 Copilot, the meeting preparation card appears in the alternate format shown in the following image.
 
 :::image type="content" source="media/meeting-prep-card.png" alt-text="Screenshot of the meeting preparation card in Teams chat.":::
 
