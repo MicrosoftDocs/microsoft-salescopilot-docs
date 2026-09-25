@@ -62,6 +62,8 @@
           href: save-ai-notes-crm.md
         - name: Configure access settings for features
           href: access-settings.md
+        - name: Manage access to Sales agent across Microsoft apps
+          href: access-settings-apps.md
         - name: Configure email insights settings (preview)
           href: email-insights-settings.md
         - name: Connect your agents to a data source

@@ -1,7 +1,7 @@
 ---
 title: Sales agent deployment guide for Dynamics 365 customers
 description: Learn how to deploy the Sales agent for Dynamics 365 customers.
-ms.date: 06/23/2026
+ms.date: 09/25/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -23,6 +23,9 @@ Follow the instructions in this guide to deploy the Sales agent for your Dynamic
 ## Step 1: Install the Sales agent in Outlook and Microsoft 365 Copilot
 
 [Install the Sales agent in Outlook and Microsoft 365 Copilot](install-sales-as-an-integrated-app.md)
+
+> [!NOTE]
+> Microsoft automatically installs the Sales agent for [eligible Dynamics 365 users](install-sales-app.md#automatic-installation-for-eligible-dynamics-365-users). If the app is already installed automatically for a user, you don't need to install it again for that user. Continue with Step 2 and complete the remaining configuration steps that apply to your organization.
 
 :::image type="content" source="media/sales-agent-deploy.png" alt-text="Screenshot of the Sales pane in the Microsoft 365 admin center, with the Deploy button highlighted.":::
 
@@ -104,5 +107,4 @@ We encourage all users of the Sales agent to visit and register on the [Sales ag
 -   Forums to contribute and receive support on common issues, which are routinely reviewed by our team of experts.
 
 -   Spaces to [share ideas](https://feedbackportal.microsoft.com/feedback/forum/7fcacc26-460c-ed11-b83d-000d3a4d91d1) and engage with the product development team.
-
 
