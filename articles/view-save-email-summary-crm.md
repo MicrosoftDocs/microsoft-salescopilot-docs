@@ -1,7 +1,7 @@
 ---
 title: View and save email summaries to your CRM
 description: Learn how to use the Sales agent to save summaries of sales-related emails to your Dynamics 365 or Salesforce CRM.
-ms.date: 03/09/2026
+ms.date: 09/25/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -35,7 +35,6 @@ Email summaries are available when:
 Legend:
 
 1. Card title
-1. Citation number
 1. Draft an email with Copilot
 1. Share to Teams or the clipboard
 1. Save the summary to your CRM or change the language
@@ -56,14 +55,6 @@ You can add the summary to your CRM, share it to Teams, or copy it to the clipbo
     > If the contact isn't in your CRM, the **Key email info** card isn't displayed. [Add the contact to your CRM](create-contact-crm.md). The email summary should appear a few moments later.
 
 In the **Key email info** card, you can perform the following tasks:
-
-- To check where Copilot got the information for the summary, select a citation number. The exact quote from the email and the name of the person who said it are displayed.
-
-    :::image type="content" source="media/summary-citation.png" alt-text="Screenshot of a citation in the Sales pane in Outlook.":::
-
-    To view basic information about the contact, account, or opportunity, select the link in blue. To view complete details in your CRM, select :::image type="icon" source="media/open-record.png" border="false"::: on the summary card.
-
-    :::image type="content" source="media/summary-source.png" alt-text="Screenshot of contact details in the Sales pane in Outlook.":::
 
 - To draft a reply from scratch with Copilot's help, select **Draft an email**. To start with some context, select the arrow next to **Draft an email**, and then select either **Reply to an inquiry**, **Make a proposal**, or **Address a concern**. Learn more in [Draft an email message in the Sales pane](./use-copilot-kickstart-email-messages.md).
 
