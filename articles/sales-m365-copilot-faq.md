@@ -386,9 +386,9 @@ Contact your CRM administrator to request that CRM access be set up for Sales ag
 
 #### Why does Sales agent say that account or opportunity summary wasn't found?
 
-Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account and opportunity summary feature](set-up-sales-chat.md#step-3-configure-account-and-opportunity-summary).
+Although Sales agent is available as part of Microsoft 365 Copilot license, your CRM administrator must [configure the account, opportunity, and lead summary feature](set-up-sales-chat.md#step-3-configure-account-opportunity-and-lead-summary).
 
-Reach out to your CRM administrator to have account and opportunity summary set up for use with Sales agent.
+Reach out to your CRM administrator to have account, opportunity, and lead summary set up for use with Sales agent.
 
 #### Why am I not seeing any meeting insights?
 
