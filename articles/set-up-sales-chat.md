@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 08/25/2026
+ms.date: 10/01/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -161,17 +161,17 @@ You must add glossary terms in Microsoft Copilot Studio. The glossary terms you 
 
 Learn how to add glossary terms for Salesforce in the [Set up glossary terms for Salesforce](sf-glossary-support.md) article.
 
-## Step 3: Configure account and opportunity summary
+## Step 3: Configure account, opportunity, and lead summary
 
-Sales reps can get a summary of their accounts and opportunities in Sales agent. To enable this feature, you need to configure the account and opportunity summary settings in the Sales agent admin settings.
+Sales reps can get a summary of their accounts, opportunities, and leads in Sales agent. To enable this feature, configure the account, opportunity, and lead summary settings in the Sales agent admin settings.
 
-Sales agent generates account and opportunity summaries by using commonly used fields and relationships from the Account and Opportunity tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include additional or different fields and tailor how the summary is curated to fit your organization's needs.
+Sales agent generates account, opportunity, and lead summaries by using commonly used fields and relationships from the Account, Opportunity, and Lead tables and natural language instructions that organize and present the information in a meaningful, useful format. You can [customize the AI instructions](#customize-ai-instructions) to include more fields or different fields and tailor how the summary is curated to fit your organization's needs.
 
 ### Customize AI instructions
 
 1. Go to the [Sales agent admin settings](administrator-settings-for-viva-sales.md#access-administrator-settings).
 1. Under **Environment**, select **Custom AI instructions**.
-1. For the **Account summary** or **Opportunity summary** report, select **...** > **Edit**.
+1. For the **Account summary**, **Opportunity summary**, or **Lead summary** report, select **...** > **Edit**.
 
     :::image type="content" source="media/sales-chat-custom-ai.png" alt-text="Screenshot showing custom AI instructions for account summary.":::
 

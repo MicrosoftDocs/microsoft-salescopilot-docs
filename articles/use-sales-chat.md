@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 08/06/2026
+ms.date: 10/01/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -49,11 +49,12 @@ For a list of example prompts you can use with the Sales agent, see [What can Sa
 > - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot in model-driven apps](set-up-sales-chat.md#step-5-optional-enable-microsoft-365-copilot-in-model-driven-apps). [Learn how to access Sales agent in Dynamics 365 (preview)](/dynamics365/sales/use-sales-agent-in-m365-copilot).
 > - When you access Sales agent from Dynamics 365, you're signed in to the same environment as your Dynamics 365 session.
 
-## Get a summary of an account or opportunity
+## Get a summary of an account, opportunity, or lead
 
-You can use the Sales agent to get a summary of an account or opportunity, including key information, the pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
+Use the Sales agent to get a summary of an account, opportunity, or lead, including key information, the pipeline, the three closest opportunities, and a summary of meetings from the last 30 days. For example, you can ask:
 - Get me the summary of account `<account name>`.
 - Get me the summary of opportunity `<opportunity name>`.
+- Get me the summary of lead `<lead name>`.
 - Give me an overview of account `<account name>`. Summarize the meetings in the last (x) months.
 - Get the key details of account `<account name>`. List the open opportunities as a table.
 
@@ -62,7 +63,7 @@ You can use the Sales agent to get a summary of an account or opportunity, inclu
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> Your CRM administrator can [customize the details included in the account and opportunity summary](set-up-sales-chat.md#step-3-configure-account-and-opportunity-summary).
+> Your CRM administrator can [customize the details included in the account, opportunity, and lead summary](set-up-sales-chat.md#step-3-configure-account-opportunity-and-lead-summary).
 
 ## Catch up on past customer meetings
 
