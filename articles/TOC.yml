@@ -94,6 +94,10 @@
               href: set-up-record-creation-dynamics-365.md
             - name: Manage connected agents
               href: manage-connected-agents.md
+            - name: Enable business skills in Dataverse
+              href: business-skills-dataverse.md
+            - name: Enable business skills for Salesforce
+              href: business-skills-salesforce.md
         - name: Convert the environment from Trial to Production
           href: convert-trial-prod.md
         - name: Manage consumption-based billing for agent capabilities (preview)
