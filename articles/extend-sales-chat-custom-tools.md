@@ -1,7 +1,7 @@
 ---
 title: Extend Sales agent with custom tools and knowledge in the Microsoft 365 admin center
 description: Extend your Microsoft Sales agent with custom tools and knowledge to integrate data, enhance insights, and provide accurate responses. Learn how to get started.
-ms.date: 08/25/2026
+ms.date: 09/21/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -78,6 +78,21 @@ Custom tools and knowledge are copied from a specific version of the source agen
 1. Select **Sales** and then go to the **Custom tools & knowledge** tab.
 1. Select **Remove agent extension**.
 1. In the **Remove agent extension** pane, select **Remove** to confirm.
+
+## Business skills in Microsoft Dataverse (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+[Business skills](/power-apps/maker/data-platform/data-platform-business-skill-overview) are natural-language instructions that help agents follow your organization's processes, policies, and domain knowledge to complete specific tasks. Each skill defines the required steps, information, and business rules. They enable agents to retrieve CRM data and perform supported business actions through the Dataverse Model Context Protocol (MCP) server.
+
+Setup depends on the CRM connected to Sales agent:
+
+- For Dynamics 365 Sales, see [Enable business skills in Dataverse for Sales agent](business-skills-dataverse.md).
+- For Salesforce, see [Enable business skills for Salesforce in Sales agent](business-skills-salesforce.md).
+
+To learn how to create and manage business skills, see [Business skills in Microsoft Dataverse](/power-apps/maker/data-platform/data-platform-business-skills).
 
 ## Related information
 
