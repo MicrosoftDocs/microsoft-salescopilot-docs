@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales agent 
 description: Know how data is handled in Sales agent 
-ms.date: 05/29/2026
+ms.date: 10/05/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -24,7 +24,7 @@ Since the Sales agent data is stored in [Dataverse](/powerapps/maker/common-data
 
 When the Sales agent is connected to Dynamics 365, the Sales agent data is stored with the Dynamics 365 Sales Dataverse instance.
 
-When the Sales agent is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to the Sales agent is provided to your tenant. The Sales agent data is stored in the default instance in addition to your CRM.
+When you connect the Sales agent to a non-Dynamics 365 CRM, your tenant gets a default Dataverse instance specific to the Sales agent. The default instance stores the Sales agent data, such as generated insights and metadata, in addition to your CRM. If you use business skills, the default instance also stores their configuration.
 
 You can find the name and details of your default Dataverse instance named **msdyn_viva** in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
