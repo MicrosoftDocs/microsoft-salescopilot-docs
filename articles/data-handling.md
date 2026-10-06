@@ -1,7 +1,7 @@
 ---
 title: Data handling in Sales agent 
 description: Know how data is handled in Sales agent 
-ms.date: 10/05/2026
+ms.date: 10/06/2026
 ms.topic: concept-article
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -42,7 +42,13 @@ The Sales agent data is stored in several tables in Dataverse. You shouldn't mod
 |---|---|
 |**msdyn_rawinsight**|This table contains insights from communications with customers such as emails and meetings, if the corresponding features are enabled. This includes information such as meeting summaries, objections raised, and questions asked.|
 |**msdyn_rawinsightentitylink**|This table contains links between insights and relevant CRM records.|
-|**Lead Intelligence Insight**|This table contains insights by the Lead Research and Outreach about the leads found in the CRM.|
+|**msdyn_entityderivedinsight**|This table contains derived insights such as opportunity insights and meeting preparation insights.|
+|**msdyn_derivedinsightsrelatedentity**|This table contains links between derived insights and relevant CRM records.|
+|**msdyn_leadintelligenceinsight**|This table contains insights by [Lead Research and Outreach](use-sales-agent.md) about the leads found in the CRM.|
+|**msdyn_LeadIntelligenceInsightEntityLink**|This table contains links between lead intelligence insights and relevant CRM records.|
+
+> [!NOTE]
+> These tables are internal to Sales agent. The Power Platform admin center excludes them from storage usage reporting and charges, so you don't need to monitor them for storage capacity entitlements or overages.
 
 Insights related to emails have a retention policy of 30 days and insights related to meetings have a retention policy of 90 days, and will be deleted afterwards. If a customer requires custom retention policy, scripts can be created to delete the data from the table.
 
