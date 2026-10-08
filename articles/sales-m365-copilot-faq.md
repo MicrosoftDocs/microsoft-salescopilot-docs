@@ -1,7 +1,7 @@
 ---
 title: Sales agent FAQ
 description: Sales agent Frequently Asked Questions
-ms.date: 08/07/2026
+ms.date: 10/08/2026
 ms.topic: faq
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -116,6 +116,8 @@ Sales agent works with Salesforce Sales Cloud editions Professional and above.
 ### Is Sales agent available for Dynamics 365 or Microsoft Exchange on premise?
 
 Sales agent isn't available for Dynamics 365 or Microsoft Exchange on premise.
+
+Meeting recap and meeting preparation aren't available to users who don't have Exchange Online.
 
 ### Does Sales agent work for Power Apps or Dataverse customers without Dynamics 365 licenses?
 
