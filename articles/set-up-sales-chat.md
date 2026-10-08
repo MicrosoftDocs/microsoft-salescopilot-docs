@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 10/01/2026
+ms.date: 10/08/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -110,6 +110,9 @@ Sales reps can use natural language in Sales agent to access CRM information. Ho
 Synonyms are alternative names or phrases that users might use to refer to specific CRM fields. For example, a user might refer to the "Account" field as "Company" or "Client." By adding these synonyms, you help Sales agent understand and respond to user queries more effectively.
 
 #### Dynamics 365
+
+> [!NOTE]
+> In Copilot Studio, **Copilot in Dynamics 365 Sales** might appear as **Sales Copilot Power Virtual Agents Bot**.
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
