@@ -1,7 +1,7 @@
 ---
 title: Welcome to Sales agent
 description: Get to know Sales agent
-ms.date: 03/17/2026
+ms.date: 10/13/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -62,9 +62,10 @@ If you're using Salesforce as your CRM system, see [Permissions required for Sal
 ## Supported languages and geographies
 
 For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
-
+     
 > [!NOTE]
-> The Sales agent is not supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
+> - The Sales agent isn't supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
+> - The Sales agent isn't available in China, Russia, Myanmar, Palestinian Authority, Saint Helena, Ascension and Tristan da Cunha, and Timor-Leste.
 
 ### Related information
 
