@@ -1,7 +1,7 @@
 ---
 title: Customize forms and fields in Sales agent
 description: Learn how to customize the CRM information your sellers see in the Sales agent.
-ms.date: 09/18/2026
+ms.date: 10/20/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -22,6 +22,9 @@ The Sales agent forms are based on CRM views. A view defines the fields displaye
 > - The selected view's filtering and sort-order settings don't affect which records are returned in search results.
 
 Changes made to record types are reflected in the **Sales** pane in Outlook, **Sales** panel in Microsoft Teams, and Adaptive Cards shared in Teams chat. When saving Outlook activities (emails and meetings) from the Sales agent to your CRM system, you can search for records of the added record types, and connect the activity to the record. When using the Sales agent in Teams through messaging extensions, you can search for records of the added record types.
+
+> [!NOTE]
+> Adding a record type under **Forms** makes it available in the **Sales** pane, but it doesn't make its data available to AI email drafting. Email drafting supports only Contact, Lead, Account, Opportunity, and Product record data. For more information, see [Use CRM data in an email draft](email-reply-premium.md#use-crm-data-in-an-email-draft).
 
 Record names, field names, and mandatory fields are displayed as they're defined in the CRM.
 
@@ -375,5 +378,3 @@ The following table lists the change in admin settings and the corresponding beh
 |Account is available and opportunity is not available     |  Collaboration spaces can be created only for accounts.       |
 |Account is not available, and opportunity is available     |   Collaboration spaces can be created only for opportunities.      |
 |Account and opportunity are not available     |  Collaboration spaces cannot be created. The **Collaborate in Teams** card is not visible on the **Sales** pane in Outlook.       |
-
-
