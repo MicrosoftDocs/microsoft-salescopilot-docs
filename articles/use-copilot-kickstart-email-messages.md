@@ -1,7 +1,7 @@
 ---
 title: Draft an email message in Sales pane
 description: Learn how to generate an email reply with predefined categories or custom prompts using the Sales pane in Outlook.
-ms.date: 03/09/2026
+ms.date: 10/20/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -44,6 +44,12 @@ To see a list of supported languages, see [supported languages](introduction.md#
 
 The email and custom prompt must be in one of the supported languages to generate the suggested content.
 
+## Use CRM data in an email draft
+
+AI email drafting can use data from Contact, Lead, Account, Opportunity, and Product records. It can't use data from Cases, Events, notes, activity history, or custom objects. This limitation applies even when an administrator configures these record types under **Forms** and they're visible in the **Sales** pane.
+
+To use data from a specific supported record, first save the email to CRM, and then connect the email to that record. The AI can then use the connected record's data when the email or your custom prompt indicates that the draft should reference CRM data. Each draft can reference only one connected CRM record.
+
 ## Create an email reply using predefined categories
 
 You can get suggested responses when you reply to a customer email or as you're reading one.
@@ -76,8 +82,6 @@ You can get suggested responses when you reply to a customer email or as you're 
 ## Create an email message using custom prompt
 
 If the predefined response categories don't suit your requirements, you can enter custom prompt to generate suggested content. You can get suggested email content when you reply to a customer email, read an email, or compose a new email.
-
-If your prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited only to out-of-the-box fields of accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 
 > [!NOTE]
 > - You can generate suggested content for emails containing internal email addresses also. If all email addresses are internal, you'll only see the option to enter custom prompt. If you add an external email address, predefined response categories are made available.
@@ -213,7 +217,7 @@ If there are no more open opportunities identified by the AI model, no option is
 
 ## View data source in suggested content
 
-View information about data pulled from your CRM and Office 365, such as contact, opportunities, account, and email in the suggested content.
+View information about data pulled from your CRM and Office 365, such as contacts, leads, accounts, opportunities, products, and email, in the suggested content.
 
 CRM data used in the suggested content is displayed in blue color. Select the content to see information about the CRM data. You can also open a record in CRM to view its complete details by selecting :::image type="icon" source="media/open-record.png" border="false"::: on the CRM record card.
 
@@ -225,13 +229,13 @@ The following information is displayed in the suggested content:
 
   - Contact
 
+  - Lead
+
   - Account
 
   - Opportunity
 
   - Product
-
-  - Activity
 
 - From Office 365:
 

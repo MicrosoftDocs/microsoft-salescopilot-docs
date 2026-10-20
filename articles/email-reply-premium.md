@@ -1,11 +1,12 @@
 ---
 title: Draft an email message using sales information in Outlook
 description: Learn how to combine Microsoft 365 Copilot with the Sales agent for a seamless and powerful sales experience in Outlook.
-ms.date: 03/09/2026
+ms.date: 10/20/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
 ms.author: shjais
+ai-usage: ai-assisted
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -32,6 +33,11 @@ To see a list of supported languages for the combined experience, see [supported
 
 The email and custom prompt must be in one of the supported languages to generate the suggested email message.
 
+## Use CRM data in an email draft
+
+AI email drafting can use data from Contact, Lead, Account, Opportunity, and Product records. It can't use data from Cases, Events, notes, activity history, or custom objects. This limitation applies even when an administrator configures these record types under **Forms** and they're visible in the **Sales** pane.
+
+To use data from a specific supported record, first save the email to CRM, and then connect the email to that record. The AI can then use the connected record's data when the email or your custom prompt indicates that the draft should reference CRM data. Each draft can reference only one connected CRM record.
 
 ## Draft an email message
 
@@ -47,9 +53,6 @@ With Copilot in Outlook and Sales agent together, you can draft an email message
 1. Review the generated content. To generate a different suggestion, select **Regenerate**.
 1. Select **Keep it** to add the content to the email body.
 1. Edit the email content as required, and then send it.
-
-    > [!NOTE]
-    > If you choose to use custom prompt and the prompt or the email body indicates intent to reference CRM data, the generated draft includes relevant CRM record information—limited only to out-of-the-box fields of accounts and opportunities—if that record is saved to the email. Only one CRM record is referenced per draft, based on what is associated with the email.
 
 ### Related information
 
