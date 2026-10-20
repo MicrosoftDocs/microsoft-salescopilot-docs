@@ -1,7 +1,7 @@
 ---
 title: Enable business skills for Salesforce in the Sales agent (preview)
 description: Learn how to enable business skills for Salesforce in the Sales agent, make them available to Salesforce users, and verify the connection.
-ms.date: 10/05/2026
+ms.date: 10/19/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -52,11 +52,11 @@ Enable Dataverse intelligence and MCP access in the `msdyn_viva` environment.
 
 	:::image type="content" source="media/biz-skill-feature.png" alt-text="Screenshot of the environment Settings page with Product expanded and Features highlighted.":::
 
-1. In the **Dataverse intelligence** section, select **Turn on Dataverse intelligence for agents and AI experiences**. This action enables business skills for the environment and allows agents to use them.
-1. In the **Dataverse search** section, ensure that **Show global search bar in all model-driven apps** and search indexing are selected. This action ensures skills and data are discoverable by agents. 
+1. In the **Work IQ** section, select **Turn on Business Applications in Work IQ**. This action enables business skills for the environment and allows agents to use them. For more information about Work IQ, see [Business Applications in Work IQ administration](/power-platform/admin/business-applications-work-iq/?toc=/power-platform/business-applications-work-iq/toc.json&bc=/power-platform/breadcrumb/TOC.json).
+1. In the **Dataverse search** section, verify that **Show global search bar in all model-driven apps** and search indexing are selected. These settings are selected by default and ensure that agents can discover skills and data. 
 1. In the **Dataverse Model Context Protocol** section, select **Allow MCP clients to interact with Dataverse MCP server (GA version)**.
 
-	:::image type="content" source="media/biz-skill-features-page.png" alt-text="Screenshot of the Features page showing the Dataverse intelligence, Dataverse search, and Dataverse Model Context Protocol settings.":::
+	:::image type="content" source="media/biz-skill-features-page.png" alt-text="Screenshot of the Features page showing the Dataverse intelligence, Dataverse search, and Dataverse Model Context Protocol settings." lightbox="media/biz-skill-features-page.png":::
 
 1. In the **Dataverse Model Context Protocol** section, select **Go to Advanced Settings**.
 1. In the **Active Allowed MCP Clients** list, find **Enterprise Copilot Platform** and verify that **Is Enabled** is set to **Yes**. Sales agent uses this client to access the Dataverse MCP server.
