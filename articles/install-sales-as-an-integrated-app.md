@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent in Outlook and Microsoft 365 Copilot
 description: Learn how to install, manage, and update the Sales agent in Microsoft 365 with this comprehensive guide.
-ms.date: 06/23/2026
+ms.date: 10/28/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -16,7 +16,7 @@ ms.custom:
 
 # Install Sales agent in Outlook and Microsoft 365 Copilot
 
-As an administrator, you can install the Sales agent as an integrated app from Microsoft 365 admin center. The app is installed in Fixed mode by default. In a Fixed deployment, users receive the app automatically and can't remove it. You can also manage the app's configuration, add and remove users, and view its usage in the Microsoft 365 admin center.
+As an administrator, you can deploy the Sales agent to selected users or groups through the Microsoft 365 admin center. This article explains how to install the agent, manage its configuration and user access, and apply updates. By default, the app is deployed in Fixed mode, so assigned users receive it automatically and can't remove it.
 
 ## Prerequisites
 
