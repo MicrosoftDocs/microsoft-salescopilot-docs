@@ -1,7 +1,7 @@
 ---
 title: Install Sales agent
 description: Learn how the Sales agent is installed automatically or by an administrator or user.
-ms.date: 09/25/2026
+ms.date: 11/02/2026
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -35,6 +35,7 @@ The Sales agent is delivered as a single **Sales** app package that includes com
 | Microsoft 365 Copilot in Dynamics 365 | Sales agent in Dynamics 365 | The **Sales agent** is available in Dynamics 365 only when Microsoft 365 Copilot is enabled for the environment and app module. Automatic installation alone doesn't make the Sales agent available in Dynamics 365. | An administrator must enable Microsoft 365 Copilot for the Dynamics 365 environment and app module. |
 | Cowork | Sales plugin | The **Sales plugin** is visible after installation but is turned off by default. Users can turn it on and use it once Cowork is enabled for the organization. | Users must have a license for Microsoft 365 Copilot add-on. A tenant AI administrator must enable Cowork for the organization. |
 | Scout | Sales plugin | The **Sales plugin** is visible after installation but is turned off by default. Users can turn it on and use it once Scout is enabled for the organization. | Users must have a license for Microsoft 365 Copilot add-on. A tenant AI administrator must enable Scout for the organization. |
+| Copilot Code | Sales plugin | The **Sales plugin** is visible after installation but is turned off by default. Users can turn it on and use it once Copilot Code is enabled for the organization. | Users must have a license for Microsoft 365 Copilot add-on. A tenant AI administrator must enable Copilot Code for the organization. |
 
 > [!NOTE]
 > The additional requirements in the preceding table apply only to accessing the Sales agent on each surface. Individual features within the agent might require additional licenses.
