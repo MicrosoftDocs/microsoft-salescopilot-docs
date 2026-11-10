@@ -56,7 +56,7 @@ You can access the administrator settings in the Sales agent in Outlook and Team
       - **Access settings**: [Enable or disable features in the Sales agent](access-settings.md).
       - **Save to (CRM)**: [Configure fields that sellers can use to categorize emails and meetings in CRM](save-additional-details-outlook.md).
       - **Forms**: [Determine what information is displayed in the Sales agent in Outlook and Teams](customize-forms-and-fields.md). You can also control which records and fields sellers can edit directly in the Sales agent.
-      - **Custom AI instructions**: [Customize the AI instructions for generating the account, opportunity, and lead summary](set-up-sales-chat.md#step-3-configure-account-opportunity-and-lead-summary)
+      - **Custom AI instructions**: [Customize the AI instructions for generating the account, opportunity, and lead summary](set-up-sales-chat.md#step-4-configure-account-opportunity-and-lead-summary)
     
     **Features**:
       - **Sales Agent - Lead Research**: [Set up the Lead Research and Outreach feature](set-up-sales-agent.md).
@@ -72,4 +72,3 @@ If the Sales agent isn't already added to Teams, you can add it from the Teams a
 1. Sign in to Microsoft Teams with your administrator credentials.  
 1. In the navigation bar on the left, select **Apps**.  
 1. Search for **Sales** and select it, and then select **Add**.  
-
