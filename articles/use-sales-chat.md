@@ -46,7 +46,7 @@ For a list of example prompts you can use with the Sales agent, see [What can Sa
 > [!NOTE]
 > The following capabilities are in preview:
 > - Sales agent is also accessible in Microsoft 365 Copilot within Outlook, Word, PowerPoint, Excel, and Dynamics 365. However, only conversational chat capabilities are available in these embedded experiences. Meeting preparation features aren't accessible in these locations.
-> - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot in model-driven apps](set-up-sales-chat.md#step-5-optional-enable-microsoft-365-copilot-in-model-driven-apps). [Learn how to access Sales agent in Dynamics 365 (preview)](/dynamics365/sales/use-sales-agent-in-m365-copilot).
+> - Sales agent is accessible in Dynamics 365 only if your administrator has [enabled Microsoft 365 Copilot in model-driven apps](set-up-sales-chat.md#step-6-optional-enable-microsoft-365-copilot-in-model-driven-apps). [Learn how to access Sales agent in Dynamics 365 (preview)](/dynamics365/sales/use-sales-agent-in-m365-copilot).
 > - When you access Sales agent from Dynamics 365, you're signed in to the same environment as your Dynamics 365 session.
 
 ## Get a summary of an account, opportunity, or lead
@@ -63,7 +63,7 @@ Use the Sales agent to get a summary of an account, opportunity, or lead, includ
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
 > [!NOTE]
-> Your CRM administrator can [customize the details included in the account, opportunity, and lead summary](set-up-sales-chat.md#step-3-configure-account-opportunity-and-lead-summary).
+> Your CRM administrator can [customize the details included in the account, opportunity, and lead summary](set-up-sales-chat.md#step-4-configure-account-opportunity-and-lead-summary).
 
 ## Catch up on past customer meetings
 
