@@ -813,6 +813,21 @@
         "source_path": "articles/access-linked-teams-channels.md",
         "redirect_url": "/microsoft-sales-copilot/collaboration-space",
         "redirect_document_id": false
-      }                                                                                  
+      },
+      {
+        "source_path": "articles/suggested-tasks-collab-space.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/create-planner-tasks.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "articles/turn-off-suggested-tasks-collab-space.md",
+        "redirect_url": "/microsoft-sales-copilot/landing",
+        "redirect_document_id": false
+      }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: Administrator settings for Sales agent
 description: Learn how to use administrator settings to customize the Sales agent experience in Outlook and Teams.
-ms.date: 07/06/2026
+ms.date: 11/13/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -49,7 +49,6 @@ You can access the administrator settings in the Sales agent in Outlook and Team
 1. Change the settings you need to.  
     **Tenant-level settings**:  
       - **Copilot AI**: [Control who can use the Sales agent AI capabilities in all environments](suggested-replies.md#turn-on-copilot-ai-features-for-your-organization).
-      - **Collaboration spaces**: [Control whether AI-powered tasks should be suggested in collaboration spaces](turn-off-suggested-tasks-collab-space.md)  
     
     **Environment-level settings**:  
       - **Copilot AI**: [Turn on Copilot AI feature](suggested-replies.md#turn-on-copilot-ai-features-in-your-environment) for your environment.

@@ -50,8 +50,6 @@
           href: customize-forms-and-fields.md
         - name: Turn on Copilot AI features
           href: suggested-replies.md
-        - name: Turn off task suggestion in collaboration spaces (preview)
-          href: turn-off-suggested-tasks-collab-space.md
         - name: Sales agent data movement across geographies
           href: copilot-data-movement.md
         - name: Configure how Outlook emails and events are saved to CRM
@@ -208,12 +206,6 @@
               href: set-up-team-deal-room-template.md
             - name: Collaborate in account and deal room teams
               href: collaborate-teams-newly-created-existing-team.md
-            - name: AI-powered Planner tasks
-              items:
-                - name: Overview
-                  href: suggested-tasks-collab-space.md
-                - name: Create Planner tasks from suggested tasks
-                  href: create-planner-tasks.md
         - name: Share a CRM record in Teams or Outlook
           href: share-crm-record-teams-conversation.md
         - name: Sales personal app
