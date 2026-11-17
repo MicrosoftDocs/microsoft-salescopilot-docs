@@ -1,7 +1,7 @@
 ---
 title: Enable business skills in Dataverse for Sales agent (preview)
 description: Learn how to enable business skills in Dataverse, make them available to Sales agent, and verify the connection.
-ms.date: 10/19/2026
+ms.date: 11/16/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -18,6 +18,9 @@ ai-usage: ai-assisted
 This article explains how to enable the required features, create a business skill, connect Sales agent, and verify the setup.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+> [!NOTE]
+> Business skills aren't supported when you use Sales agent on a mobile device.
 
 ## Prerequisites
 
