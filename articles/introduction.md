@@ -59,9 +59,9 @@ If you're using Salesforce as your CRM system, see [Permissions required for Sal
 > - If you've made changes in a user's permissions or security roles in your CRM, ask that user to sign out of the Sales agent in Outlook and then sign in again for these changes to be reflected appropriately. 
 > - Changes in user permissions or security roles in CRM can take up to 15 minutes to reflect in the Sales agent for Teams.
 
-## Supported languages and geographies
+## Supported geographies
 
-For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+For the list of supported geographies, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
      
 > [!NOTE]
 > - The Sales agent isn't supported in Government Community Cloud (GCC), including USG, and Department of Defense (DoD).
@@ -71,5 +71,5 @@ For the list of supported languages and geographies, see the [Copilot internatio
 
 - [Install Sales agent](install-sales-app.md)
 - [Review role and privilege requirements](privileges.md)
-- [Check supported languages and geographies](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport)
+- [Check Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability)
 - [Review license terms](https://go.microsoft.com/fwlink/?linkid=2309718)
