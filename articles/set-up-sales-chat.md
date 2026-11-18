@@ -1,7 +1,7 @@
 ---
 title: Set up Sales agent in Microsoft 365 Copilot
 description: Learn how to set up Sales agent, a conversational agent in Microsoft 365 Copilot that helps sellers access and act on sales data from their CRM system.
-ms.date: 11/05/2026
+ms.date: 11/16/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -13,7 +13,16 @@ ai-usage: ai-assisted
 
 The Sales agent is a conversational agent available within Microsoft 365 Copilot. It enables sellers to efficiently search, synthesize, and take action on sales data from various applications they use. Sales agent is useful only when users are connected to a CRM system. Currently, it supports Dynamics 365 Sales and Salesforce.
 
-The Sales agent is available to users who have access to a Microsoft 365 Copilot license. To see Sales agent, you must [install the Sales agent](install-sales-app.md).
+To use Sales agent in Microsoft 365 Copilot, you must meet one of the following licensing options:
+
+|**Licensing option**|**Data available in Sales agent**|
+|||
+|An appropriate license to access Microsoft 365 Copilot **and** access to Dynamics 365 Sales or Salesforce|CRM data and Microsoft 365 Graph grounding|
+|Dynamics 365 Sales Enterprise or Premium access, without a Microsoft 365 Copilot license|CRM data only|
+
+Microsoft 365 Graph grounded data includes Outlook emails, Teams meetings, Teams messages, and people information stored in Microsoft Graph. A Microsoft 365 Copilot license is required for Sales agent to access this data. 
+
+To see Sales agent, you must [install the Sales agent](install-sales-app.md).
 
 > [!NOTE]
 > - If your team already uses Sales agent, they'll see the Sales in the list of agents in Microsoft 365 Copilot.
