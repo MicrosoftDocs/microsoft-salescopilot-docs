@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 10/15/2026
+ms.date: 11/16/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -12,9 +12,14 @@ ms.author: shjais
 
 The Sales agent is an AI-powered chat interface that you can use to interact with your sales data by using natural language. You can ask questions and gain insights from your CRM data, past customer conversations, emails, Teams meetings, and Teams messages—all through natural language.
 
-> [!NOTE]
-> - To access Graph-grounded data (Outlook emails, Teams meetings, Teams messages, and People data stored in Microsoft Graph), you must have access to Microsoft 365 Copilot.
-> - If you have a Dynamics 365 Sales Enterprise or Premium license but don't have access to Microsoft 365 Copilot, you can still use the Sales agent with CRM data only.
+To use Sales agent in Microsoft 365 Copilot, you must meet one of the following licensing options:
+
+|**Licensing option**|**Data available in Sales agent**|
+|||
+|An appropriate license to access Microsoft 365 Copilot **and** access to Dynamics 365 Sales or Salesforce|CRM data and Microsoft 365 Graph grounding|
+|Dynamics 365 Sales Enterprise or Premium access, without a Microsoft 365 Copilot license|CRM data only|
+
+Microsoft 365 Graph grounded data includes Outlook emails, Teams meetings, Teams messages, and people information stored in Microsoft Graph. A Microsoft 365 Copilot license is required for Sales agent to access this data.
 
 Learn more about the [differences between the Sales agent in Microsoft 365 Copilot and Copilot in Dynamics 365 Sales](/dynamics365/sales/sales-copilot-faq#how-does-the-sales-agent-in-microsoft-365-copilot-differ-from-copilot-in-dynamics-365-sales) and [how to migrate to the Sales agent](/dynamics365/sales/sales-copilot-faq#how-do-i-migrate-from-copilot-in-dynamics-365-sales-to-the-sales-agent-in-microsoft-365-copilot).
 
@@ -147,4 +152,5 @@ To submit feedback:
 ## Related information
 
 - [Sales agent overview](sales-chat-overview.md)
+
 - [Sales agent chat on mobile](sales-agent-chat-mobile.md)
