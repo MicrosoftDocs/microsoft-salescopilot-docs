@@ -45,7 +45,7 @@ Get information about license requirements, role requirements, and region availa
 
 ### What geographies will Sales agent support?   
 
-For the list of supported languages and geographies, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).  
+For the list of supported geographies, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).  
 
 Microsoft 365 Copilot isn't currently available in local region geographies. Refer to the [public roadmap](https://www.microsoft365.com/roadmap) for the most current information.  
 
