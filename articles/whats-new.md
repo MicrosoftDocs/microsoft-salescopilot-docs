@@ -11,13 +11,7 @@ ms.topic: whats-new
 
 # What's new or changed in Sales agent
 
-Wondering about upcoming and recently released capabilities in Sales agent? [Check out the release planner site](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales). We've captured all the details, end to end, top to bottom, which you can use for planning.
-
-See the release plans for what's coming. Choose the following links to learn about the latest versions of Sales agent.
-
-- [2026 release wave 1](/copilot/release-plan/2026wave1/copilot-sales/planned-features)
-
-Keep track of changes on the [Sales agent release planner](https://releaseplans.microsoft.com/en-US/?app=Microsoft+Copilot+for+Sales) site, or download the release plan as a single PDF.
+Wondering about upcoming and recently released capabilities in Sales agent? [Check out the roadmap](https://aka.ms/AIatWorkroadmap). We've captured all the details, end to end, top to bottom, which you can use for planning.
 
 Explore the app at the [Sales agent](https://www.microsoft.com/ai/microsoft-sales-copilot) site.
 
