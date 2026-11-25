@@ -1,7 +1,7 @@
 ---
 title: Use Sales agent in Microsoft 365 Copilot
 description: Learn how to use Sales agent to gain insights from your sales data.
-ms.date: 11/16/2026
+ms.date: 11/19/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -94,6 +94,38 @@ You can use the Sales agent to look up information about your customer accounts,
 
 For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
 
+## Update CRM
+
+Use Sales agent to keep your CRM up to date by adding notes from customer meetings and updating opportunity details.
+
+### Add notes to CRM records
+
+Capture notes in Sales agent and save them directly to your CRM records. This feature is useful when you want to log call notes, meeting takeaways, or account updates. In your prompt, identify the record and include the note details you want to add. For example, you can ask:
+
+- Add a note to my Fabrikam opportunity: The customer requested an updated proposal before our next meeting.
+
+- Add a note to my Contoso opportunity: We discussed the implementation timeline. The customer wants to launch in January.
+
+When prompted, select the CRM record where you want to save the note, and then confirm.
+
+### Update opportunities
+
+Update your opportunities directly from Sales agent. State the specific update you want to make, and Sales agent identifies the target opportunity, confirms the change with you, and saves the update to your CRM. For example, you can ask:
+
+- Update the closing date for Contoso to next Friday.
+
+- Change the deal amount for Fabrikam to $50,000.
+
+You can update a single field or multiple fields in a conversation. If multiple opportunities or fields match your request, Sales agent asks you to clarify which one. You can correct or revise your input before confirming the change.
+
+> [!NOTE]
+> Sales Agent can only update Opportunity fields of the following data types: String, DateTime, Money, Integer, Decimal, Double, and Picklist.
+
+> [!IMPORTANT]
+>  Confirmation is required before any update is saved to your CRM. 
+
+For a list of example prompts you can use with the Sales agent, see [What can Sales agent help you with?](sales-chat-overview.md#what-can-sales-agent-help-you-with)
+
 ## Prepare for and follow up on your sales meetings
 
 The meeting experience in Microsoft 365 Copilot helps you prepare for customer meetings and follow up afterward with the right information. It brings AI-generated insights, CRM data, and recent communications into a single, easy-to-read view alongside the Sales agent chat interface, so you can ask follow-up questions or dig deeper without leaving your workflow.
@@ -140,14 +172,44 @@ You can also access Sales agent in Microsoft 365 Copilot on your mobile device. 
 
 If you're not sure what to ask, use the starter prompts provided in the Sales agent chat interface. Starter prompts help you get started with common, high-value scenarios. You can select a starter prompt as-is or customize it by editing the text before sending.
 
+## Dictate your prompts
+
+Use dictation to enter prompts in Sales agent instead of typing. Copilot transcribes your speech into text that you can review and edit before sending.
+
+1. Open Sales agent in Microsoft 365 Copilot.
+
+2. In the chat box, select the microphone button labeled **Start dictation**. If prompted, allow access to your microphone.
+
+3. Speak your prompt. Your words appear as text in the chat box.
+
+4. Select the microphone button labeled **Stop dictation** when you’re finished.
+
+5. Review the transcribed text, make any corrections, and select the **Send** icon.
+
+   > [!NOTE]
+   > Dictation provides voice input for your prompts, which appear as text in the chat box. It doesn't start a two-way voice conversation. Sales agent responds in text, not spoken audio.
+   
 ## Submit feedback
 
 If you have feedback or encounter issues while using Sales agent, you can get debug information from Microsoft 365 Copilot to share with your Microsoft representative.
 
-To submit feedback:
+To gather debugging information:
 
-1. Type `/share` in the chat box and select the **Send** icon or press Enter.
-1. Copy the generated debug information and share it with your Microsoft representative.
+1. Open Sales agent in Microsoft 365 Copilot in your browser.
+
+2. Type `-developer on` in the chat box and select **Send** icon or press Enter.
+
+3. Refresh the browser.
+
+4. Retry the prompt that caused the issue.
+
+5. In the **Agent debug info** returned by Sales agent, select **Raw info** and copy the information.
+
+6. In the conversation where the issue occurred, type `/share` in the chat box and select **Send** icon or press Enter.
+
+7. Copy the generated conversation ID.
+
+8. Share the debugging information with your Microsoft representative. Include the raw agent debugging information, conversation ID, tenant ID, prompt you used, expected and actual results, any relevant CRM details, and the approximate timestamp for when the issue occurred.
 
 ## Related information
 

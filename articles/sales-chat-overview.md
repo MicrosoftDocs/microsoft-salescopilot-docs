@@ -1,7 +1,7 @@
 ---
 title: Overview of Sales agent in Microsoft 365 Copilot
 description: Learn about Sales agent, an AI-powered chat interface that helps you interact with your sales data using natural language.
-ms.date: 08/06/2026
+ms.date: 11/19/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot-sales
 author: sbmjais
@@ -75,14 +75,12 @@ This scenario is ideal for users who:
 - What topics come up most often in my recent customer interactions with `<contact name>`?
 - What should I know before replying to `<contact name>`?
 
-
 #### Be prepared to address open items
 
 - What are the follow-ups tasks from recent meetings with `<account name>`? Categorize by Owner. Sort the tasks by due date.
 - Are there any open incidents for `<account name>`? Show the cases a table with one row for each case. For each case, show details about the case title, owner, status, creation date, and number of days since case was created as columns.
 - Show me unanswered questions from recent customer communications over email, chats, or meetings.
 - Help me draft key points for a reply based on the latest email thread with `<contact name>`.
-
 
 ### Scenario 3: Pipeline review and deal coaching
 
@@ -106,6 +104,26 @@ This scenario is ideal for users who:
 - Does `<contact name>` at `<account name>` have a good sentiment on `<topic>`? What should `<seller name>` do to impress her?
 - What are the top three concerns of `<account name>` that `<seller name>` must address to close the deal with them?
 
+### Scenario 4: Keep your CRM up to date
+
+This scenario is ideal for users who:
+
+- Want to capture notes from customer calls or meetings in CRM.
+
+- Need to update opportunity details as a deal progresses.
+
+#### Add notes to CRM records
+
+- Add a note to the `<opportunity name>` opportunity: The customer requested an updated proposal before our next meeting.
+
+- Add a note to the `<opportunity name>` opportunity: We discussed the implementation timeline. The customer wants to launch in January.
+
+#### Update opportunities
+
+- Update the closing date for `<opportunity name>` to next Friday.
+
+- Change the deal amount for `<opportunity name>` to $50,000.
+
 > [!NOTE]
 > - The effectiveness of prompts depends on the quality and structure of your CRM data. Sales agent generates responses based on your data, so maintaining a strong data foundation is essential.
 > - For prompts related to previous meetings, ensure that customer meetings are scheduled in Teams by Sales agent users and that, at a minimum, a transcription is generated.
@@ -120,4 +138,5 @@ Once configured, you can start using Sales agent to ask questions about your sal
 ## Related information
 
 - [Set up Sales agent in Microsoft 365 Copilot](set-up-sales-chat.md)
+
 - [Use Sales agent in Microsoft 365 Copilot](use-sales-chat.md)
